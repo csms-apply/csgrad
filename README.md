@@ -6,7 +6,7 @@
 
 # 项目网址
 
-   easy-cs.github.io
+   csms-apply.github.io
 
 
 
