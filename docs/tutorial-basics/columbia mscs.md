@@ -11,7 +11,9 @@
 不过哥大cs找工氛围确实不浓厚，career fair只有bbg，本科生的career fair不让研究生参加，没有人文关怀。
 
 # track
-哥大cs有十多个track，选的人比较多的有software system 和machine learning track，我选的是第一个。machine learning track必修课比较少，比较自由。software system track限制比较多，不过课的内容基本都是SDE相关
+哥大cs有十多个track，选的人比较多的有software system 和machine learning track，我选的是第一个。machine learning track必修课比较少，比较自由。software system track限制比较多，不过课的内容基本都是SDE相关。
+
+有thesis track，修thesis track是两年制。需要找到愿意带你的教授做科研，做好了可以转phd
 # 课程评价
 地里有很多评价贴说的都是哥大的wld很大，个人认为是有失偏颇的，哥大可以选出纯水课的课表。哥大课表可wld 大可水，以下是楼主和朋友上过的一些课
 

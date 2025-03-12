@@ -17,11 +17,11 @@ Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得�
 # 代表性dp
 北大本科女生，gpa 3.7+三封强推
 
-top30 美本工科强校，gpa 4.0
+top30 美本工科强校女生，gpa 4.0，两年本校科研经历
 
 陆本985本科女生，gpa 3.9+一篇论文产出
 
-中外合办女生，gpa 3.9+ MITACS research 实习
+中外合办女生，gpa 3.9(rk1)_+ MITACS research 实习
 
 # 录取偏好
 贴一个我post 到open cs上总结出来的描述：女生，高gpa(大于90即可，不强制)，ai pub(需要有实际的顶会产出)，海外connection。  
