@@ -24,8 +24,13 @@ jobs:
       - name: Build website
         run: npm run build
 
+      - name: SSH Agent
+        uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.name "Capsfly"
           git config --global user.email "2018640800@qq.com"
-          npm run deploy
+          USE_SSH=true npm run deploy
