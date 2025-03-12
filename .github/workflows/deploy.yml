@@ -28,4 +28,4 @@ jobs:
         run: |
           git config --global user.name "Capsfly"
           git config --global user.email "2018640800@qq.com"
-          npx run deploy
+          npm run deploy
