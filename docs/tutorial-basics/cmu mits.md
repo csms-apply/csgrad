@@ -7,6 +7,11 @@
 # 四个 track
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance
 
+# 代表性dp
+交大本科gpa 91，wxg实习
+
+普通985 is本科，gpa 89
+
 # 课程
 很灵活，主要你想，基本可以做到非常sde，可以做到类似mscs/ds的课表。也可以做到非常水，进去就开始刷题，有点类似neu 匹兹堡版本。从今年找工的情况来看，cmu的reputation还是很高的，看不出来项目之间有明显差异。而且有一些公司比如adobe、apple、nvidia、databricks会直接从cmu捞人面
 
