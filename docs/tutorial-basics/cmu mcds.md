@@ -8,6 +8,8 @@ mcds 有三个track，申请时候会让你填选哪个track，不过无所谓�
 
 如果是本科学ds/数学的可以选analytics track，如果想转码的话可以进去转到system track。不过根据民间dp，这个项目没有那么偏好system背景出身的人（eg: 如果bg是ml或者ds方向的，可能更匹配，录取概率更大）。
 
+申请时候需要交一个video essay，同时需要在cmu lti的系统里对在scs系统申请的所有项目进行排序（有点类似高考报名的第一志愿和第二志愿）
+
 课程质量高， 课程选择也比较多，跟mscs选的范围也不会有很大的区别。 如果你能handle 选课几乎想选到所有你想上的cs课，scs中15、11、10系列的想选的课基本都可以选到. mscs篇介绍的三件套(os, storage, 分布式系统)也可以选。同样的，来到美国之前需要上一门csapp，不上可以选择来美国之后上。 但是朋友说mcds也有一些没用的课，比如DS Seminar，有点类似于陆本的大学生心理健康。
 
 可以当TA，不过不到20/hour的工资只够吃午饭
@@ -29,6 +31,7 @@ uiuc ce本科 gpa 3.75
 
 中9 cs本科 gpa 3.9+toefl 103, gpa top3%, 一篇领域顶会产出
 
+南科大DS本科， gpa 3.8+, toefl 107, 两段🇺🇸暑研+ ucb 交流 
 
 # 花费情况
 cmu 是私校，学费从来就不便宜过。无论是ini、ece、还是scs，mcds的三学期Tuition

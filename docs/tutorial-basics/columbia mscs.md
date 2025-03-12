@@ -1,12 +1,12 @@
 
 # Columbia mscs
 
-本文将分为1. 找工评价 2. track 3. 课程评价 4.录取信息 5.费用  相对客观的描述columbia mscs项目，有别的希望了解的可以留言。
+本文将分为1. 找工评价 2. track 3. 课程评价 4.录取信息 5.费用  相对客观的描述columbia mscs项目
 
 # 找工评价
 认真找的每天都投基本都找到了，主要是大厂offer比较多（因为只有大厂sponsor国际生）。
 
-身边有adobe、tiktok、meta、amazon、 nvidia、databricks intern offer。columbia 过简历关的帮助感觉还行，认识的同学vo有citadel、jane street、deshaw, bloomberg, meta、stripe、tiktok、weride, 5 rings ....  如果本科有过相对大一点的实习公司经历（tt/阿里/google/ms），刚才说的那些量化+大厂面试至少能拿1/3吧大概。 哥大拿到amazon vo的我认识的都面试通过了
+身边有adobe、tiktok、meta、amazon、 nvidia、databricks intern offer。columbia 过简历关的帮助感觉还行，认识的同学vo有citadel、jane street、deshaw, bloomberg, meta、stripe、tiktok、weride, 5 rings ....  如果本科有过相对大一点的实习公司经历（tt/阿里/google/ms），刚才说的那些量化+大厂面试至少能拿1/3吧大概。 哥大mscs拿到amazon vo的我认识的都面试通过了
 
 不过哥大cs找工氛围确实不浓厚，career fair只有bbg，本科生的career fair不让研究生参加，没有人文关怀。
 
@@ -22,6 +22,8 @@
 5. distributed system:跟mit 那门课一毛一样，给分很松，proj照搬（褒义）+了一个哥大自己设计的proj，适合sde 找工，好课
 6. competitive programming: leetcode/codeforce专项训练，wld很大，比算法课更贴近面试
 7. advanced software engineering: ss必修课，wld一般，用java写一个前后端分离项目，然后部署在google cloud上
+8.ui design: 水课，学react 做一个前后端项目。最近想了一个很有意思的idea，做interview coder
+9. advanced algorithm: 和本科的数据结构和算法**没有半毛钱关系**， 这门课可以用一句话来概括，设计一个在**P>P_r的情况下成立的随机算法**，可以改名叫概率论与数理统计在数理算法上的应用
 
 # 录取信息
 40%中国人，40%印度人，剩下的是美国人
