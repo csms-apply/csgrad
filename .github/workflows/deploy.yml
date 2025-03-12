@@ -26,6 +26,6 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          npx gh-pages -d build -t
+          git config --global user.name "Capsfly"
+          git config --global user.email "2018640800@qq.com"
+          npx run deploy
