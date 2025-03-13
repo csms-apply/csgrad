@@ -40,3 +40,18 @@ cmu 是私校，学费从来就不便宜过。无论是ini、ece、还是scs，m
 
 ![](/img/mcdsfee.png) 
 
+# 在读评价
+## 课程评价
+Chain-of-Thought出来之后，Course Projects全都变成了可难可水（除了Cloud Computing）。因此，CMU以往因workload大而妨碍找工的事已成过往云烟。我反而觉得这些以往动辄16h/week的课才能让学生在AI时代仍必然能学到东西。因此着重介绍课程内容及个人认为是否实用，不讨论workload。
+### 必修课
+* FCDS：很不错的从LeetCode(Design In-memory File System)到数分到ML到云全都cover一遍的课，well-structured。对我这种没DS/ML基础的很补。
+* 10601：机器学习基础课，传统ML算法大全，考试难度见仁见智，数理基础好会轻松，听说是ML领域八股必备。
+* MCDS Seminar：水，见仁见智。
+* 05839：学完对数据的各种view有了更好的感知。作业无编码难度仅调用各种tools，实际workload < 2h/week。
+* 15619：著名的Cloud Computing，总体评价是好课，技术栈全，学完后对工业界的各种cloud-related中间件就有概念了，对System Design也是好处多多。只要秋季找到了实习就推荐上CC而非用ACC替换。但对于有硬核实习的同学来说，在Course Project里写Course Stuff强行塞进来的业务逻辑的体验实在有点无语（我上班都写这么多业务逻辑了，上学不就想学点技术嘛，结果还让我写业务逻辑？？？？？）。瑕不掩瑜，总之是好课。
+* 注：24级基本不让用ACC替代CC了。
+### 选修课
+## 找工情况
+## Other Useful Links
+[MCDS人均必读之n+e's blog](https://trinkle23897.github.io/posts/cmu-1st-year)
+
