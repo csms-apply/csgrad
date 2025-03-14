@@ -17,7 +17,7 @@
 # 课程评价
 地里有很多评价贴说的都是哥大的wld很大，个人认为是有失偏颇的，哥大可以选出纯水课的课表。哥大课表可wld 大可水，以下是楼主和朋友上过的一些课
 
-1. operating system: ss track必修课，wld很大，只建议找到工作上比较好，用一门课的学分学三门课的内容。不过学好这门课对面试qd很有帮助
+1. operating system: ss track必修课，wld很大，只建议找到工作上比较好，用一门课的学分学三门课的内容。不过学好这门课对面试qd很有帮助。不要选Kostis的课，他只会在课上一直"like like like"一句话里能有六个like, 虽然他是stanford phd毕业的，但是讲课听起来很费劲，我美国同学都听不懂在说什么。可以选jae的课，那个老师很不错据说
 2. programming languate translator: ss 必修课，wld一般。Project 是做一个编译器，考试难度小于国内大部分编译器的内容，可以放到第一学期上
 3. cloud computing: 水课，放到第一学期上比较好，wld几乎等于无
 4. introduction to database:水课，依然放到第一学期上比较好，内容跟陆本的db差不多吧，写写sql+1234范式
@@ -25,9 +25,11 @@
 6. competitive programming: leetcode/codeforce专项训练，wld很大，比算法课更贴近面试
 7. advanced software engineering: ss必修课，wld一般，用java写一个前后端分离项目，然后部署在google cloud上
 8. ui design: 水课，学react 做一个前后端项目。最近想了一个很有意思的idea，做interview coder
-9. advanced algorithm: 和本科的数据结构和算法**没有半毛钱关系**， 这门课可以用一句话来概括，设计一个在**P>P_r的情况下成立的随机算法**，可以改名叫概率论与数理统计在数理算法上的应用
+9. advanced algorithm: 和本科的数据结构和算法**没有半毛钱关系**， 这门课可以用一句话来概括，设计一个在**P>P_r的情况下成立的随机算法**，可以改名叫概率论与数理统计在数理算法上的应用，不要和os一块上
 10. artificial intelligence: 主要是对AI和ML的入门，有基础的话不难。有5个conceptual作业和5个coding作业，另外还有期中和期末考试，略麻烦，不过给分还可以。推荐作为ML track的必修课上
 11. applied machine learning: 水课，wld小。有5个coding作业，一个期中考试和一个group project，给分不错，推荐
+
+
 
 # 录取信息
 40%中国人，40%印度人，剩下的是美国人
@@ -45,3 +47,9 @@
 
 同时上了半年我越来越喜欢纽约这座城市，非常具有活力，而且下城区全是吃的玩的，broadway每天的演出基本都是爆满。在这里能见识到更多元化的人生，比较推荐大家认真考虑来。毕竟纽约就是最好的大学
 
+# 找工dp
+211 cs rk1 icpc 银牌上岸databricks
+会计转码上岸adobe
+澳洲cs本 字节实习上岸aws 纽约
+港中深cs本科0实习上岸亚麻
+c9 cs本科 icpc金牌上岸亚麻
