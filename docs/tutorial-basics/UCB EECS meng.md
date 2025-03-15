@@ -8,7 +8,7 @@ UCB EECS MEng 项目是一年制项目。往年可能存在通过撒泼打滚求
 选课限制较大，每个学期必须从特定列表中选择2门课程，一年共4门。其中三门必须符合你所选 Track(dss or robot) 的毕业要求。需要修读leadership课程，wld大且实用性有限，并且需要进行pre。但该项目给分较为宽松，即使开摆也能获得不错的 GPA。
 
 
-申请时需要选择 Track，通常cs的学生会选择dss Track。毕业需要完成 Capstone 项目，类似于 UW EE PMP 的 Capstone 项目，项目质量很高。但是你需要撰写文书说明你对该项目的兴趣，甚至可能需要进行面试。有点类似申请季
+申请时需要选择 Track，通常cs的学生会选择dss Track(dss track已经从24 fall开始拆成datascience 和 computer systems track)。毕业需要完成 Capstone 项目，类似于 UW EE PMP 的 Capstone 项目。但是你需要撰写文书说明你对该项目的兴趣，甚至可能需要进行面试。有点类似申请季。但是在读生反馈这个capstone质量良莠不齐，90%概率可能做不出来任何东西
 
 meng 项目找工氛围浓厚。由于项目仅为期九个月，大家都清楚其目的是为了获得大厂的入场券和 OPT。因此，大部分学生在入学前就开始准备刷题，入学后立即开始投递简历，并组织了各种刷题群、打卡群和 MLE 群。
 
