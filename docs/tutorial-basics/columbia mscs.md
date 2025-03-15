@@ -1,19 +1,20 @@
 
 # Columbia mscs
 这是一篇哥大mscs正名贴，之前看很多人看了地里早就过时的哥大cs劝退贴，然后就开始觉得不行（原帖主已经在2个月后上岸google）。
+
 本文将分为1. 找工评价 2. track 3. 课程评价 4.录取信息 5.费用  相对客观的描述columbia mscs项目
 
 # 找工评价
 认真找的每天都投基本都找到了，主要是大厂offer比较多（因为只有大厂sponsor国际生）。
 
-身边有adobe、tiktok、meta、amazon、 nvidia、databricks intern offer。columbia 过简历关的帮助感觉还行，认识的同学vo有citadel、jane street、deshaw, bloomberg, meta、stripe、tiktok、weride, 5 rings ....  如果本科有过相对大一点的实习公司经历（tt/阿里/google/ms），刚才说的那些量化+大厂面试至少能拿1/3吧大概。 哥大mscs拿到amazon vo的我认识的都面试通过了
+身边有adobe、tiktok、meta、amazon、 nvidia、databricks intern offer。columbia 过简历关的帮助感觉还行，认识的同学vo有citadel、jane street、deshaw, bloomberg, meta、stripe、tiktok、weride, 5 rings ....  如果本科有过相对大一点的实习公司经历（tt/阿里/google/ms），刚才说的那些量化+大厂面试至少能拿1/3吧大概。 哥大mscs拿到amazon vo的我认识的都面试通过了。同时哥大是bbg内部系统里觉得roi 很高的学校，因此会专门过来捞人面试（22 年捞了一大批人）
 
 不过哥大cs找工氛围确实不浓厚，career fair只有bbg，本科生的career fair不让研究生参加，没有人文关怀。
 
 # track
 哥大cs有十多个track，选的人比较多的有software system 和machine learning track，我选的是第一个。machine learning track必修课比较少，比较自由。software system track限制比较多，不过课的内容基本都是SDE相关。
 
-有thesis track，修thesis track是两年制。需要找到愿意带你的教授做科研，做好了可以转phd
+有thesis track，修thesis track是两年制。需要找到愿意带你的教授做科研，可以延毕到两年且做好了可以转phd
 # 课程评价
 地里有很多评价贴说的都是哥大的wld很大，个人认为是有失偏颇的，哥大可以选出纯水课的课表。哥大课表可wld 大可水，以下是楼主和朋友上过的一些课（同时我完全没有遇到过帖子里说的选课困难的问题，wl 太长的问题。 我想选的课每次都能选上， 无论水课还是wld大的课。）
 
