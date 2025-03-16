@@ -75,7 +75,7 @@ const config = {
             label: '项目介绍',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/csms-apply/csms-apply.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/csms-apply/csms-apply.github.io',
               },
             ],
           },
