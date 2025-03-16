@@ -7,7 +7,7 @@
 # 找工评价
 认真找的每天都投基本都找到了，主要是大厂offer比较多（因为只有大厂sponsor国际生）。
 
-身边有adobe、tiktok、meta、amazon、 nvidia、databricks intern offer。columbia 过简历关的帮助感觉还行，认识的同学vo有citadel、jane street、deshaw, bloomberg, meta、stripe、tiktok、weride, 5 rings ....  如果本科有过相对大一点的实习公司经历（tt/阿里/google/ms），刚才说的那些量化+大厂面试至少能拿1/3吧大概。 哥大mscs拿到amazon vo的我认识的都面试通过了。同时哥大是bbg内部系统里觉得roi 很高的学校，因此会专门过来捞人面试（22 年捞了一大批人）
+身边有adobe、tiktok、meta、amazon、 nvidia、databricks intern offer。columbia 过简历关的帮助感觉还行，认识的同学vo有citadel、jane street、deshaw, bloomberg, meta、stripe、tiktok、weride, 5 rings ....  如果本科有过相对大一点的实习公司经历（tt/阿里/google/ms），刚才说的那些量化+大厂面试至少能拿1/3吧大概。 哥大mscs拿到amazon vo的我认识的都面试通过了。同时哥大是bbg内部系统里觉得roi 很高的学校，因此会专门过来捞人面试（22 年捞了一大批人）,同时负责Columbia mscs的meta hr 非常负责（Columbia mscs的meta recruiter也是S的hr）,回邮件很快，24 fall开岗第一天就联系了一大批columbia mscs的学生来面ng和intern，非常给力
 
 不过哥大cs找工氛围确实不浓厚，career fair只有bbg，本科生的career fair不让研究生参加，没有人文关怀。
 
