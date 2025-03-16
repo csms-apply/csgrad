@@ -1,6 +1,6 @@
 {
-  "label": "联系我",
-  "position": 3,
+  "label": "A",
+  "position": 5,
   "link": {
     "type": "generated-index",
     "description": "5 minutes to learn the most important Docusaurus concepts."

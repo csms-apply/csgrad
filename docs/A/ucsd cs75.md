@@ -1,6 +1,3 @@
----
-sidebar_position: 9
----
 # UCSD CS75
 
 ## 项目介绍

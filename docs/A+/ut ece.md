@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # ut austin ece(ses)
 
 一句话总结：大彩票，其实看不到什么规律，找工非常推荐
