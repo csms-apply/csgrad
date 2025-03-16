@@ -15,7 +15,7 @@ Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得�
 
 这个项目应该算是陆本申请美国MSCS专业的上限了，基本属于每一个申请者的抽奖校。每年申请者众多，录取者极少，录取Stanford讲缘分。
 
-贴一个我post 到open cs上总结出来的描述：女生，高gpa(大于90即可，不强制)，ai pub(需要有实际的顶会产出)，海外connection。  
+贴一个我post 到open cs上总结出来的描述：女生，高gpa(大于90即可，不强制)，ai pub(需要有实际的顶会产出)，海外connection（有海外比较强的推荐信会加很多分，比如有莫纳什或者eth的很强的推荐信能把你送进去stanford ）。  
 如果是中外合办的话，会有很大的加分，比如成电格拉斯哥学院每年都有不少的Stanford MSEE录取，疑似每年MSEE都在格院定向招人。mscs bar 高于msee，msee 美本top 30的高gpa都有机会，mscs需要参考往年有没有学长学姐录取，没有的话不要头铁，是按照学校分配名额的
 
 MSEE一共录了120人，MSCS是150人（MSEE对陆本更友好，即便是cs申请者，可以选择ai track， 存在一些dp 证明中等985 也是能录取的。MSCS对海本申请更友好，不过需要是target school，比如清华贵系、ut、ubc、gatech这样的）
