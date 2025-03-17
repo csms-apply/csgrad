@@ -1,4 +1,4 @@
-# Columbia msee
+# Columbia MSEE
 
 # 项目介绍
 

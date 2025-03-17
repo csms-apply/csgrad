@@ -1,4 +1,4 @@
-# Columbia ce
+# Columbia MSCE
 # 项目介绍
 一年半的项目，可以暑假实习，不支持秋季coop。有thesis选项，找到教授可以延毕。
 

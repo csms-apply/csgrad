@@ -1,4 +1,4 @@
-# Brown scmcs
+# Brown SCMCS
 
 
 

@@ -1,8 +1,5 @@
----
-sidebar_position: 1
----
 
-# stanford msee
+# Stanford MSEE
 
 # 项目介绍
 Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得月，找工作很方便。  
