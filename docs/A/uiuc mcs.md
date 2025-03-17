@@ -1,6 +1,4 @@
----
-sidebar_position: 8
----
+
 # UIUC MCS
 
 ## 项目介绍

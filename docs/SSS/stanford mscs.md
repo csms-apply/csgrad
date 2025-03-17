@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# stanford mscs
+# Stanford MSCS
 
 # 项目介绍
 神中神，唯一没有缺点的项目，地理位置无敌（加州阳光大海），学校title好，cs排名高，旁边就是meta 和nvidia（开车十分钟路程），如果暑假去meta 或者nvidia实习都不需要租房（住原来的宿舍就行），找工情况也很牛，几乎我所有认识的同学都有nvidia面试。如果转phd需要重新申请。课程质量好，什么cs229 deep learning systems, cs231 Deep Learning for Computer Vision，CS224N（nlp）耳熟能详，几乎是所有cs学生都上过的课。也可以上一些骑马射箭学日语的课程，也可以养生。宿舍条件无敌

@@ -6,7 +6,7 @@
 
 mism分为12 month 的track和16 month 的track，后者可以方便找实习。每个学期需要修54学分，wld不小（但是也有很多的精力浪费到了一些水课上面）。需要自己平衡水课和硬核课程的比例。每学期必须选满54学分的graduate-level course，连续三学期才能毕业。多选不给上，少选学费不退，也毕不了业。
 
-选BIDA或者general track 有个很重要的前提是，能 经济  会计  统计这些课，拿到多出来的学分选scs和ini的课, 否则就别来
+选BIDA或者general track，但是你又想上很多scs/ini的好课有个很重要的前提是，能waive经济  会计  统计这些课，拿到多出来的学分选scs和ini的课, 否则就别来
 
 综上，again, 只适合**混一个cmu title，然后来美国第一天就开始刷题找实习投简历的选手**
 

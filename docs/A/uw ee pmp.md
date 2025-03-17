@@ -1,8 +1,5 @@
----
-sidebar_position: 4
----
 
-# uw ee pmp
+# UW EE PMP
 
 ## 项目优点
 这个项目蛮好的，有UW的牌子，并且地理位置在西雅图，离微软贼近，也是ms的target school✅。
@@ -10,6 +7,10 @@ sidebar_position: 4
 同时课业压力wld很小，可以选择全软课程，有很多时间刷题找工作🐻，去年找工上岸率据民间统计是20%。
 
 虽然在open cs上排名b-的项目，但是我觉得就业友好度可以排到A+，首先身边的朋友在这个项目的基本没感受到ee 和cs有什么找工区别，很多ee pmp的基本都能拿到meta 、amazon面试，而且ee pmp可以coop，23年amazon 几乎捞了10% 的uw ee pmp的人。并且uw ee pmp 的coop 是不延毕的（比如说是24 fall入学，可以25 年 8-11 月去实习，不延毕），非常适合找工作。 Uw hci比较难申请，但是也可以有六个月的实习，只需要在校内修10个学分即可。而且ee pmp还能修cs的课程，如果你是cs本科的，不想学硬件课，也可以凑出来一份全软课表，然后课下自行刷题做项目
+
+
+## 找工情况
+25 summer 亚麻批发厂，几十个亚麻intern offer
 
 ## 软课
 Data Structures and Algorithms for ECE Applications (Slaughter)
@@ -33,5 +34,3 @@ Tiny Machine Learning for Ultra Low-Power Edge Computing (TinyML) (Sahabandu)
 
 如果申请者GPA不是特别高，可以考虑一下申请一下UW EE PMP，是一个很好的找工向的项目选择
 
-## 找工情况
-25 summer 亚麻批发厂，几十个亚麻intern offer

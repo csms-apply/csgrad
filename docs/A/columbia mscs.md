@@ -1,5 +1,5 @@
 
-# Columbia mscs
+# Columbia MSCS
 这是一篇哥大mscs正名贴，之前看很多人看了地里早就过时的哥大cs劝退贴，然后就开始觉得不行（原帖主已经在2个月后上岸google）。
 
 本文将分为1. 找工评价 2. track 3. 课程评价 4.录取信息 5.费用  相对客观的描述columbia mscs项目

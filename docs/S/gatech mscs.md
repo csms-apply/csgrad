@@ -1,8 +1,5 @@
----
-sidebar_position: 3
----
 
-# gatech mscs
+# Gatech MSCS
 
 ## 项目介绍：
 这个项目接近于一个六边形项目✅，本身reputation够硬，且学费便宜(如果当TA/RA还能免学费，且有工资，TA 1k刀，RA 2k刀)，同时本身地处亚特兰大，是很多科技公司的base地，找工容易，据说23 fall上岸率很高☺️

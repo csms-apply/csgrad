@@ -1,4 +1,4 @@
-# uchicago mpcs
+# Uchicago MPCS
 
 	
 # 项目介绍
