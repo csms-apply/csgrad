@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: 'docs/category/项目介绍',
+                to: 'docs/intro',
               },
             ],
           },
