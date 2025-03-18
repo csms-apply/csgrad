@@ -2,12 +2,20 @@
 ## 项目综述
 **TLDR: 一句话总结，小gatech mscs**
 
+**gatech 可以延长到三年毕业，tamu cse同样可以**
+
+**gt 可以coop，tamu cse同样秋季实习**
+
+**gatech 可以TA/RA免学费，tamu cse同样可以TA/RA免学费**
+
+**gatech 学费低廉，tamu也 13000 一学期**
+
 Texas A&M University CSE下有若干项目：MCS、MSCS、Meng CE、MSCE、MSAI。这些项目的最大的特点是较为灵活便宜，下属若干项目可以随意转换，且可以随意实习、随意调整项目时长。
 - 学位灵活：典型例子是Meng CE转MCS，以及MCS转MSCS。只要进入了CSE部门，就可以自行选择做科研发论文，或专攻找工。
 具体操作而言，学校里很多同学选择中途放弃找工去做科研发论文，或者科研失败选择中途转非thesis degree以开始找工作。
 同时也有少量同时找工+科研的同学（虽然很难成功）。
 - 学制灵活：项目学制较为灵活，可以1.5到3年毕业，因此可以有一到两个暑假用来实习。同时还可以春秋全职coop，也可以part time校外实习。
-- 经济灵活：非thesis degree一学期大概学费13000，thesis degree学位则一般有半奖（如有有RA/TA则可以完全cover学费）。学费以外，德州物件和房租很便宜。
+- 经济灵活：非thesis degree一学期大概学费13000，thesis degree学位则一般有半奖（如有有RA/TA则可以完全cover学费）。学费以外，德州物件和房租很便宜（租房比我在北京字节时候租房子便宜）。
 
 ## 课程情况
 由于Texas本土文化特性，TAMU的Master学生比较受学校重视，并不是完全的现金奶牛，待遇基本和本科生、PhD持平。
