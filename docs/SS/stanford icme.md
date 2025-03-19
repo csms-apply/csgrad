@@ -9,7 +9,7 @@ General 、Data Science
 
 
 ## 录取bar和dp
-几乎一定得是target school，国内是清北华5，美国得至少是ucsd 这个级别的学校以上，一般录的人比较多的都来自HYPSM+Caltech，再加上UC系学校，CMU，UIUC等。欧洲大陆是牛剑+巴黎综合理工，加拿大是UWaterloo 和UofT。零星有一些别的学校的，但是需要别的方面很出彩（推荐信强度很大或者有很好的connection）
+几乎一定得是target school，国内是清北华5(陆本往年招生人数几乎只招1人，对于陆本申请icme的难度可能堪比申请SSS的项目)，美国得至少是ucsd 这个级别的学校以上，一般录的人比较多的都来自HYPSM+Caltech，再加上UC系学校，CMU，UIUC等。欧洲大陆是牛剑+巴黎综合理工，加拿大是UWaterloo 和UofT。零星有一些别的学校的，但是需要别的方面很出彩（推荐信强度很大或者有很好的connection）
 
 
 不同的track 的class size都是不同的：
