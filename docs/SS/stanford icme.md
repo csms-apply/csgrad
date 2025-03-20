@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Stanford ICME
 
 ## 项目介绍

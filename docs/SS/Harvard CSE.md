@@ -1,10 +1,13 @@
+---
+sidebar_position: 3
+---
 # Harvard CSE
 
 
 ## 项目介绍
-项目的最大特点是灵活性极高，可以选择一年（course-only）或两年（thesis-based）模式，而且 MIT 课程可以互选，很多同学会选 MIT CS、商学院 Sloan 的课，甚至 MIT 的 Career Fair 也能蹭
+灵活性极高，可以选择一年（course-only）或两年（thesis-based）模式，而且 MIT 课程可以互选，很多同学会选 MIT CS、Sloan 的课，甚至 MIT 的 Career Fair 也能蹭
 
-定位更偏向数学和计算科学
+定位更偏向数学和计算科学，不是纯cs项目
 ## 录取bar 和dp
 
 target school+cs/ds/math背景+top gpa
@@ -15,7 +18,7 @@ target school+cs/ds/math背景+top gpa
 
 1. top 2 cs本科，gpa3.95, toefl 116
 2. 中9 cs本科，gpa94+, toefl 107, 有海外老师科研强推
-3. UCSD ds本科,gpa 4.0, 
+3. UCSD ds本科,gpa 4.0
 
 ## 找工情况
 Google、Meta、Microsoft、Amazon、Apple、Airbnb、Snapchat，

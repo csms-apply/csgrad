@@ -1,7 +1,5 @@
----
-sidebar_position: 5
----
-# Duke ece
+
+# Duke ECE
 
 ## 项目介绍
 Duke 一共有三个cs相关的项目，1. Mscs 2. Ece 3. Game design。其中mscs是一个偏向科研型的项目，ece是偏向转码+找工作的项目。

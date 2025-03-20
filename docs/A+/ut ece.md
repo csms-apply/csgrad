@@ -1,4 +1,4 @@
-# ut austin ece(ses)
+# UT ece(ses)
 
 一句话总结：大彩票，其实看不到什么规律，找工非常推荐
 

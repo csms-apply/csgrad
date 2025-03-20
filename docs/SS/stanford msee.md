@@ -1,4 +1,6 @@
-
+---
+sidebar_position: 2
+---
 # Stanford MSEE
 
 # 项目介绍
