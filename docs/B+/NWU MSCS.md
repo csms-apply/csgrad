@@ -1,0 +1,17 @@
+# NWU MSCS
+
+## 项目评价
+Evanston风景美，治安好，学校有钱，设施也不错，密歇根湖很漂亮很好看。
+
+项目时长4个quarter/一年半。有三个track：thesis，project和course。thesis和project需要自己找一个导师写paper/做项目，好处是最多可以延两学期毕业，也就是6个quarter/两年，延的这两个学期只需要选一门placeholder课，价格100刀，整体上来看不便宜
+
+缺点就是学费很贵，总学费大概至少7.6W+
+
+## 录取bar 和dp
+美本高gpa保底，中外合办疑似没有4年美本那么有说服力。官方邮件明确说了喜欢招高gpa+ 有很好的research背景的同学，只字未提internship，
+因此想来nwu mscs的还是推荐做research拿高分比较好
+
+
+
+## 找工情况
+career service可以说毫无帮助，找工一般，这个项目其实更适合读博/转phd

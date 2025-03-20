@@ -11,9 +11,9 @@ ucla校内食堂真的很好吃，和本科生买swipe吃饭的话8刀吃到撑�
 # 找工情况
 career fair 近几年越发的没用，还是指望海投+内推吧。
 
-Amity University cs本科，印度工作两年，上岸amazon sde intern
+1. Amity University cs本科，印度工作两年，上岸amazon sde intern
 
-台大ee本科，微软实习八个月，jp morgan mle full time
+2. 台大ee本科，微软实习八个月，jp morgan mle full time
 
 # 转phd情况
 la 转PhD容易，只要教授点头就能转，认识ucla 本硕的同学就转了本校phd

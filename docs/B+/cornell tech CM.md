@@ -1,4 +1,4 @@
-# cornell tech CM
+# Cornell Tech CM
 
 来劝退了，这个项目比地里说的其实差很多。
 

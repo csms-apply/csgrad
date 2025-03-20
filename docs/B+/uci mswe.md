@@ -1,10 +1,8 @@
----
-sidebar_position: 7
----
+
 # UCI MSWE
 
 ## 项目介绍：
-项目全称master of software engineering，从官网上就能看出来是一个非常找工导向的项目。地处尔湾富人区，非常安全+安逸👏。是一个典型的转码项目，招收了不少转码同学。uci一共有三个计算机相关项目，分别是mcs, mswe, netsys。其中mcs偏向计算机科班申请者，mswe偏向转专业申请者。两个项目最主要的区别就是workload，mcs wld蛮大的，mswe没有那么大的压力，可以有很多时间刷题做项目。
+项目全称master of software engineering，从官网上就能看出来是一个非常找工导向的项目。地处尔湾富人区，非常安全+安逸👏。是一个典型的转码项目，招收了不少转码同学。uci一共有三个计算机相关项目，分别是mcs, mswe, netsys。其中mcs偏向计算机科班申请者，mswe偏向转专业申请者。两个项目最主要的区别就是workload，mcs wld蛮大的，mswe没有那么大的压力，可以有很多时间刷题做项目，且mswe有保底实习
 
 ## Bar和先修课：
 明说的先修课只有一门数据结构✅。（Knowledge of data structures, such as lists, arrays, trees, and associative arrays.）和两门编程语言，要求比较容易满足。gpa 3.7以上往年看就非常有机会。
