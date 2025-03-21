@@ -7,7 +7,8 @@ sidebar_position: 3
 ## 项目介绍
 灵活性极高，可以选择一年（course-only）或两年（thesis-based）模式，而且 MIT 课程可以互选，很多同学会选 MIT CS、Sloan 的课，甚至 MIT 的 Career Fair 也能蹭
 
-定位更偏向数学和计算科学，不是纯cs项目
+定位更偏向数学和计算科学，不是纯cs项目，有点像隔壁MIT 的CSE，但是比MIT CSE对cs本科申请人更友好，每年都有陆本cs申请者ad
+
 ## 录取bar 和dp
 
 target school+cs/ds/math背景+top gpa

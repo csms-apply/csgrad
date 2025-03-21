@@ -1,4 +1,6 @@
-
+---
+sidebar_position: 2
+---
 # CMU MCDS
 
 ## 项目介绍

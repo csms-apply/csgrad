@@ -1,4 +1,6 @@
-
+---
+sidebar_position: 3
+---
 # Gatech MSCS
 
 ## 项目介绍：

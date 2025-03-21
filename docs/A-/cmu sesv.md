@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # CMU SE-SV
 
 # 项目概述
