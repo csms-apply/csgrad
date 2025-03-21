@@ -24,7 +24,6 @@ export default function DocItemWrapper(props) {
     script.setAttribute("data-input-position", "bottom");
     script.setAttribute("data-theme", colorMode === "dark" ? "dark" : "light");
     script.setAttribute("data-lang", "zh-CN");
-    script.setAttribute("data-loading", "lazy");
     script.setAttribute("crossorigin", "anonymous");
     script.async = true;
 
