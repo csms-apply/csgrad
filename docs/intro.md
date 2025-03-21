@@ -6,4 +6,4 @@
 4. 不是bar 越高的项目越适合你
 5. 读研只是实现人生理想的方法，读研不是避风港，人生也不会永远静止在拿到offer的那一天
 
-by 红尘客栈_
+by [红尘客栈_](https://www.xiaohongshu.com/user/profile/63da5cae000000002702be2e)

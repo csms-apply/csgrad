@@ -1,4 +1,6 @@
-
+---
+sidebar_position: 1
+---
 # CMU MSIN
 
 # 项目介绍
