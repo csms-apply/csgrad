@@ -13,14 +13,6 @@
 
 
 
-
-1. 找工氛围：
-哥大的找工氛围个人感觉较弱。大多数是单打独斗型。不过个人觉得并不是一个大问题。在准备找工的时候，最高效的还是找1-2个好朋友互相督促。至于求职信息差，完全可以通过主动connect校友去了解（很多人都忽略了这点）。
-哥大master不能用handshake（start up机会少）；career fair感觉没有在真的招人，建议还是网上自己多投投。
-
-2. 找工结果：
-从结果来看，身边的朋友大多都找到了工作：meta，amazon，tiktok，adobe等大厂基本都有。只要早开始，努力找了，基本都有。
-
 # track
 哥大cs有十多个track，选的人比较多的有software system 和machine learning track，我选的是第一个。machine learning track必修课比较少，比较自由。software system track限制比较多，不过课的内容基本都是SDE相关。如果要同时投简历+刷题+准备面试+handle课业的话，workload真不算小。
 
