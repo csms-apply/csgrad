@@ -17,6 +17,7 @@ mism分为12 month 的track和16 month 的track，后者可以方便找实习。
 ![](/img/mismcore.png)
 
 # 录取代表性dp
+rolling 制度，早申早录取。想来mism早点申请
 
 wisc cs本科+腾讯实习,gpa 3.7
 

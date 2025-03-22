@@ -67,6 +67,8 @@ ra 的话，unpaid ra还是好找的，给钱的很难（可以说几乎没有�
 
 澳洲悉尼大学cs本 字节实习上岸aws 纽约
 
+CMU 本科女生，meta 2022 intern，实习上岸meta
+
 港中深cs本科0实习上岸亚麻
 
 c9 cs本科 icpc金牌上岸亚麻
