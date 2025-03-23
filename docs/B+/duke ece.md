@@ -1,4 +1,6 @@
-
+---
+sidebar_position: 2
+---
 # Duke ECE
 
 ## 项目介绍

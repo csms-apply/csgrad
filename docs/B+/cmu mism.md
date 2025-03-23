@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # CMU MISM
 # 项目介绍
 只适合在国内已经有了大厂实习经验/全职sde 经历，目标是来cmu 混一个cmu title，然后来美国第一天就开始刷题找实习投简历的选手
