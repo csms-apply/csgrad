@@ -4,7 +4,7 @@
 想拿MIT EECS master唯一的方法是 申请到MIT EECS Phd然后quit
 
 ## 录取bar 和dp
-target school 的top student，主要看connection
+只招phd，target school 的top student，主要看connection，以下都是phd录取的dp:
 
 1. 清华自动化本科，申请时候至少中了3篇顶会一作
 2. 清华经济系本科rk1(gpa 3.99), jane street qt intern, 申请时候三篇ai顶会一作
