@@ -19,6 +19,18 @@ CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等�
 
 基于这一初衷，[我](https://www.xiaohongshu.com/user/profile/63da5cae000000002702be2e)开发了 CS Grad 项目，希望能够为大家提供更具实用性的申请和择校参考。
 
+## 项目梯度计算方式
+项目梯度是由前期的几个核心contributor讨论计算得出的，具体来说考虑的核心因素有：
+院校综合排名+专业排名
+、专业找工数据（找工数据和dp已经部分放到了正文中）
+、转博/读博情况（比如brown scmcs这种适合读博向）
+、生活体验(比如ucsd 生活体验感拉满)
+、经济因素（比如gatech mscs非常经济友好）
+、地理位置（比如在纽约的Columbia 和NYU的地理位置就非常好）
+、毕业灵活性（比如UT ECE毕业灵活性非常友好）
+、课程硬核程度（比如CMU MCDS、MSIN的课程非常system，很硬核）
+、TA/RA是否对MS在读生友好等。**同时again，该项目梯度是由我和几个前期的核心
+contributor讨论计算得出的，难免会有bias，欢迎大家提pr修正**
 
 ## 北美MSCS申请时间线
 假如你要申请26 fall入学的MSCS项目，大致timeline如下
