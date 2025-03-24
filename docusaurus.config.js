@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'csms-apply', // Usually your GitHub org/user name.
-  projectName: 'csms-apply.github.io', // Usually your repo name.
+  projectName: 'csgrad', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
