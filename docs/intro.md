@@ -20,7 +20,7 @@ CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等�
 ## 加入QQ群讨论
 qq群号：1039432843
 
-![图片描述](../static/img/csgradqqchat.png)
+![qq群](../static/img/csgradqqchat.png)
 
 
 ## CS Grad 与 Open CS 的区别
