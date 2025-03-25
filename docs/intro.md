@@ -1,10 +1,11 @@
 ---
+id: intro
+title: intro
 slug: /
 ---
 
-# Intro
+# 欢迎来到 CS Grad 项目
 
-## 欢迎来到 CS Grad 项目
 
 CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等相关专业的介绍。Motivation 是帮助来自 **中国大陆** 和 **北美本科** 的申请者更高效地了解各项目的定位及其 **实际价值**。与侧重录取门槛（admission bar）排名的 Open CS App 不同，CS Grad 更关注 **项目的真实价值**，尤其是在北美 **SDE求职** 方面的帮助，而 **非单纯的录取难度**。
 
