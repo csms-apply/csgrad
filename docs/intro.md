@@ -16,6 +16,11 @@ CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等�
 同时美国就业市场的WLB是更好的，虽然有的厂（比如Meta）是比较卷，但是和字节跳动北京大钟寺比起来（晚上十点灯火通明），还是小巫见大巫了。因此想在美国工作常见的方式
 就是申请MSCS然后在这边做summer intern争取转正，或者到时候找ng
 
+## 加入QQ群讨论
+qq群号：1039432843
+
+![图片描述](../static/img/csgradqqchat.png)
+
 
 ## CS Grad 与 Open CS 的区别
 
