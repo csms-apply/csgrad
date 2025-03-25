@@ -1,8 +1,10 @@
 # Yale MSCS 1 year
 
 ## 项目介绍
-Yale牌子顶中顶，MSCS 1year可以defer一个学期或者一年，如果是美本的同学可以
-defer一个学期然后spring入学拿cpt，详细操作请参照[Spring 入学如何拿CPT](../useful_docs/Spring%20入学如何拿CPT.md)，
+Yale牌子顶中顶，MSCS 1year可以defer一个学期或者一年
+
+评级S主要是因为：如果是美本的同学可以
+defer一个学期然后spring入学拿cpt，因此解决了之前常见的一年制项目没法实习的弊端，详细操作请参照[Spring 入学如何拿CPT](../useful_docs/Spring%20入学如何拿CPT.md)，
 具体CPT批的细节需要和学校double check。
 
 
