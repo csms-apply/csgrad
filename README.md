@@ -9,6 +9,12 @@ CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等�
 ## 项目网址
 https://csgrad.com
 
+## 加入QQ群讨论
+qq群号：1039432843
+
+![qq群](static/img/csgradqqchat.png)
+
+
 ## 为什么申请北美MSCS？
 主要是为了美国找个班上，美国的tech是全世界最大的tech市场，Google、Meta、Apple、Amazon、Netflix、Microsoft、Nvidia...，hedge fund 有Two Sigma、Citadel Securities、DE Shaw、Millennium等等，其中tech ng起薪20w美金，hedge fund swe 起薪35W美金+，qr有的更是能达到50w+，
 
