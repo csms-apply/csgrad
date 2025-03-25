@@ -13,7 +13,7 @@ export default function DocItemWrapper(props) {
 
     const script = document.createElement("script");
     script.src = "https://giscus.app/client.js";
-    script.setAttribute("data-repo", "csms-apply/csms-apply.github.io");
+    script.setAttribute("data-repo", "csms-apply/csgrad");
     script.setAttribute("data-repo-id", "R_kgDOODyzzw");
     script.setAttribute("data-category", "General");
     script.setAttribute("data-category-id", "DIC_kwDOODyzz84CoS8t");
@@ -21,7 +21,7 @@ export default function DocItemWrapper(props) {
     script.setAttribute("data-strict", "0");
     script.setAttribute("data-reactions-enabled", "1");
     script.setAttribute("data-emit-metadata", "0");
-    script.setAttribute("data-input-position", "bottom");
+    script.setAttribute("data-input-position", "top");
     script.setAttribute("data-theme", colorMode === "dark" ? "dark" : "light");
     script.setAttribute("data-lang", "zh-CN");
     script.setAttribute("crossorigin", "anonymous");

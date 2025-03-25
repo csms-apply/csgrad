@@ -8,9 +8,10 @@ spring 入学是能批cpt的，前提是需要是美本，之前在美国当过�
 MEng 要做一个项目，可以找教授做研究，也可以和公司合作，甚至能去 Cornell Tech 参加创业项目，实用性很强。课程很轻松，
 有些课可以轻松混过去，但如果想挑战自己，也能选难度大的，比如 Advanced Algorithms、Distributed Systems，workload 会比较硬核。
 
-如果是美本的同学可以
-defer一个学期然后spring入学拿cpt，详细操作请参照[Spring 入学如何拿CPT](../useful_docs/Spring%20入学如何拿CPT.md)，
+评级S主要是因为：如果是美本的同学可以
+defer一个学期然后spring入学拿cpt，因此解决了之前常见的一年制项目没法实习的弊端，详细操作请参照[Spring 入学如何拿CPT](../useful_docs/Spring%20入学如何拿CPT.md)，
 具体CPT批的细节需要和学校double check。
+
 
 ## 录取bar和dp
 口语要求28，基本都是海本+印度人，本科学校有：
