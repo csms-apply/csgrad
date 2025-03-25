@@ -1,3 +1,7 @@
+---
+slug: /
+---
+
 # Intro
 
 ## 欢迎来到 CS Grad 项目
