@@ -42,14 +42,7 @@ jobs:
             if [ ! -d "$PROJECT_PATH/.git" ]; then
               git clone git@github.com:csms-apply/csgrad.git "$PROJECT_PATH"
             fi
-  
-  
-
             cd $PROJECT_PATH
-            git pull origin main
-            npm install
-            npm run build
-            sudo npm install -g pm2
-            pm2 restart docusaurus || pm2 start npm --name "docusaurus" -- run serve
-            pm2 save
+            chmod a=rwx run.sh
+            ./run.sh
           EOF
