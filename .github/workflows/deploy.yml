@@ -49,9 +49,7 @@ jobs:
             git pull origin main
             npm install
             npm run build
-
-            npm install -g pm2
-
+            sudo npm install -g pm2
             pm2 restart docusaurus || pm2 start npm --name "docusaurus" -- run serve
             pm2 save
           EOF
