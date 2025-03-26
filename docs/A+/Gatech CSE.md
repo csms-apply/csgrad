@@ -10,7 +10,6 @@ CSE 这个项目选课真的很灵活。除了四门 core 课（偏计算/数学
 
 i20是computer science，找工简历专业可以写computer science，同时gt 内部转专业很容易，上完课就能转cs,, 好像理论上的bar是第一学期GPA3.5(待考证).
 
-
 ## 录取bar 和标准
 
 mscs>cse coc>=cse isye>其他units
