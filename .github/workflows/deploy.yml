@@ -38,7 +38,7 @@ jobs:
 
           ssh $SSH_USER@$SSH_HOST << 'EOF'
 
-            echo "PROJECT_PATH"
+            echo "$PROJECT_PATH"
           
             if [ ! -d "$PROJECT_PATH/.git" ]; then
               git clone git@github.com:csms-apply/csgrad.git "$PROJECT_PATH"
