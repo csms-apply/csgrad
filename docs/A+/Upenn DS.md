@@ -15,6 +15,9 @@
 
 
 ## 找工情况
+找工方向偏向于东部金融咨询公司,
+往届的去向观察到比价多的有c1，gs，barclay，bloomberg，mbb，paypal，amazon，tt，google这些，岗位上ds/mle偏多，sde偏少
+
 Data Scientist / MLE / Data Engineer / Quant / SDE都有，
 转码主要靠amazon 捞人，正找工作主要靠自己刷题、做项目、Networking，没有自己单独的 Career Fair，
 基本不用指望靠学校，upenn能给你的就是简历上的一行字

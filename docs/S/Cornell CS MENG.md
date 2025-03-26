@@ -1,6 +1,7 @@
 # Cornell CS MENG
 
 ## 项目介绍
+25 fall已经通过学校确认了可以延期到1.5 year，可以批cpt。
 Cornell 一共有两个cs项目在不同的校区，一个是在伊萨卡，一个是在罗岛，都是一年制的，没有特殊理由很难延期，
 spring 入学是能批cpt的，前提是需要是美本，之前在美国当过两个学期的full time 学生。评级S是因为一年能同时满足低开销+高reputation+有summer intern+ 能在大四在国内实习很久，加强自己的软bg，更有助于在美国找intern
 +没有第一个学期的课业压力，可以all in 找工
