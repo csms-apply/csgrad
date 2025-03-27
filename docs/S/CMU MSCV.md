@@ -15,7 +15,18 @@ SCS Robotics Institute下面1.5年的CV项目，项目全程学费大概9.5w刀�
 
 ## 代表性dp
 
-上科大年级第一，GPA 3.97+MIT交换，两段CV科研+一篇共一pub
+1. 上科大年级第一，GPA 3.97+MIT交换，两段CV科研+一篇共一pub
+2. 香港城市大学math本科，一篇iclr，一篇eccv
+3. 台大本科gpa4.15,微软一年半全职
+4. 台大cs本科,一篇siggraph, 一篇视觉顶会
+5. ucsd cs本科，gpa3.95
+6. uci 本科，gpa3.97，两篇cv顶会
+7. University College Dublin gpa3.98, 六篇pub
+8. whu ece本科，gpa 3.95
+9. 国立交通大学 cs本科,一篇nips
+10. 印度同学本科,gpa9.18, 五篇pub(其中有一篇cvpr)
+11. ut 本科，有华为research intern
+12. 印度同学cs本科，gpa9.5，两年全职经历，四篇pub,一篇cvpr一篇iclr
 
 
 
@@ -25,3 +36,8 @@ SCS Robotics Institute下面1.5年的CV项目，项目全程学费大概9.5w刀�
 找工上岸率91%, deepmind、adobe、tiktok、meta、amazon等等，剩下的都去读博了
 
 对于读博，虽然MSCV是professional program，但入学也可以直接找CMU教授进组，capstone可以跟教授做，暑期也可以留校科研，可以说对申请PhD也有比较大的帮助，出路看个人造化，有很优秀的毕业生直接RI本组转正的
+
+1. ucsd cs本科，上岸waymo
+2. University College Dublin  上岸meta intern, ng上岸apple
+3. whu ece本科 上岸weride
+4. ut 本科，有华为research intern 上岸三星ng

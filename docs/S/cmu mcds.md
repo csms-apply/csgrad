@@ -19,18 +19,28 @@ mcds 有三个track(分别是 system track、analytics track和hci track)，申�
 非英语native speaker 也需要交语言成绩（eg: 中国大陆出生的学生即便读了美本也需要交托福成绩），GRE is required
 
 dp:
-uiuc ce本科 gpa 3.75
+1. uiuc ce本科 gpa 3.75 
+2. 浙大uiuc cs本科gpa 3.9+ 
+3. 中9 cs本科 gpa 3.9+toefl 103, gpa top3%, 一篇领域顶会产出 
+4. 南科大DS本科， gpa 3.8+, toefl 107, 两段🇺🇸暑研+ ucb 交流
+5. emory 数学系本科，gpa3.97，多段金融实习
+6. 台大ee本科，gpa4.2/4.3，微软一年半全职
+7. 澳科大cs本科,gpa3.83
+8. 印度同学vit本科，gpa9.41，n段ra经历
+9. umich 本科,gpa3.99，有国内小厂实习
 
-浙大uiuc cs本科gpa 3.9+
-
-中9 cs本科 gpa 3.9+toefl 103, gpa top3%, 一篇领域顶会产出
-
-南科大DS本科， gpa 3.8+, toefl 107, 两段🇺🇸暑研+ ucb 交流
-
-## 找工情况
+## 找工情况和dp
 
 有open ai research engineer, 顶级量化， databricks，
 snowflake等
+
+1. 清华本科,tianshou 作者，github 3k+ star，上岸open ai
+2. 印度同学本科，微软印度两年八个月全职工作经历，上岸tt 
+3. 交大umich本科，上岸微软ds intern
+4. 北邮cs本科，上岸沃尔玛ds intern
+5. ucsd cs 本科，之前有小厂实习，上岸Qualcomm 
+6. 澳科大cs本科，有小厂实习，上岸apple
+7. 
 
 * 25 summer Intern：身边统计学SDE全员上岸，MLE了解不多但认识的几个DP也都上岸了，DS/DA存在没上岸的。
 * 学校支持：Career Fair公司较多，Databricks Snowflake等独角兽独爱CMU学生，且这两年NV和Apple疯狂在Career Events捞MLE和偏System的Developer，比如修完Operating System就很容易被Apple捞。我认识几个MSIN的同学在这个年景无实习靠着System Project上岸了NV和Apple。许多公司给修Database和CloudComputing的学生开设专门的投递通道，也有很多同学因此被做数据库的中小厂捞了的。
