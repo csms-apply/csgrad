@@ -20,15 +20,27 @@ Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得�
 MSEE一共录了120人，MSCS是150人（MSEE对陆本更友好，即便是cs申请者，可以选择ai track， 存在一些dp 证明中等985 也是能录取的。MSCS对海本申请更友好，不过需要是target school，比如清华贵系、ut、ubc、gatech这样的）
 
 # 代表性dp
-北大本科女生，gpa 3.7+三封强推
-
-top30 美本工科强校女生，gpa 4.0，两年本校科研经历
-
-陆本985本科女生，gpa 3.9+一篇论文产出
-
-中外合办女生，gpa 3.9(rk1)_+ MITACS research 实习
+1. Penn State University ee+physics gpa 4.0，三年半ra经历
+2. 电科格拉斯哥学院本科ee， gpa3.95+, 微软实习
+3. iit本科女生，gpa 9.67/10, 2年RA经历，西门子实习
+4. 台大ee本科,gpa4.25/5, 两篇pub, 有小厂实习
+5. University of Maryland ee本科，gpa3.9+,tesla intern
+6. 天津大学ee本科，国奖,gpa3.9
+7. Purdue ee 本科，gpa4.0, 特斯拉硬件岗位一年半实习
+8. Vanderbilt University math+cs本科，gpa3.96, tencent intern 
+9. 北大本科女生，gpa 3.7+三封强推 
+10. top30 美本工科强校女生，gpa 4.0，两年本校科研经历 
+11. 陆本985本科女生，gpa 3.9+一篇论文产出 
+12. 中外合办女生，gpa 3.9(rk1)_+ MITACS research 实习
+13. 武汉大学physics本科，gpa 3.96，有小厂intern ，一篇物理顶刊
+14. 印度同学,iit ee本科, gpa 9.91/10 rk1,两段google intern, 三年本校RA经历
+15. ucla ee本科，gpa4.0， 有tesla intern
 
 
 # 找工数据
 认识的在stanford msee的同学无论在国内有没有实习在美国找实习都找的不错，有朋友之前通过系里的nvidia招聘邮件投递了一次，然后半个小时约了面试，堪比国内约面效率。
 oracle、nvidia非常喜欢招stanford的。
+1. psu ee本科上岸apple
+2. 天津大学ee本科，本科无intern ，上岸apple
+3. Vanderbilt University math+cs本科 上岸meta intern
+4. ucla ee本科 上岸aws intern
