@@ -17,11 +17,15 @@ target school+cs/ds/math背景+top gpa
 
 每年大概就 几十个hc，所以录取门槛高，基本上录的都是各个学校里 GPA 排名前几的理工科学生，项目里的大部分同学都是美本的，ucb的同学非常多
 
-
-
-1. top 2 cs本科，gpa3.95, toefl 116
-2. 中9 cs本科，gpa94+, toefl 107, 有海外老师科研强推
-3. UCSD ds本科,gpa 4.0
+1. wake forest 本科 cs+math本科，有美团llm intern, 三年RA经历
+2. hkust cs+ ba本科，gpa 4.0/4.3, umich交换gpa3.838, 雅思8.5, gre 330
+3. 印度同学，ME本科，三年工作经验，六篇pub（看了一下非水会），在校期间两年RA
+4. 达特茅斯cs本科，一年TA，三个月captial one sde intern
+5. neu ee本科(美国那个neu),三篇pub，amd 一年半 sde intern
+6. nyu math 本科gpa3.88, amazon swe intern 
+7. top 2 cs本科，gpa3.95, toefl 116 
+8. 中9 cs本科，gpa94+, toefl 107, 有海外老师科研强推 
+9. UCSD ds本科,gpa 4.0
 
 ## 找工情况
 Google、Meta、Microsoft、Amazon、Apple、Airbnb、Snapchat、Databricks、Nvidia，

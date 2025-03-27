@@ -20,6 +20,7 @@ sidebar_position: 1
 5. ucb cs本科gpa 4.0, nv实习
 6. caltech cs本科，微软全职工作经历三年
 7. uiuc ece本科，多段创业公司经历
+8. Harvard cs+physics 本科，gpa3.96，两次amazon intern
 # ta ra机会
 TA，CS的TA位置非常多(比如cs224 一共24个ta)，TA能免学费+发工资(1w刀/quarter)，非常良心。
 
@@ -33,3 +34,4 @@ TA，CS的TA位置非常多(比如cs224 一共24个ta)，TA能免学费+发工�
 3. ucb cs本科，alibaba 实习，ng上岸bbg
 4. hkust cs本科，微软、meta实习，ng上岸bbg
 5. stanford cs本科，pointer 72、nv实习，上岸meta
+6. Harvard cs+physics 本科,上岸google
