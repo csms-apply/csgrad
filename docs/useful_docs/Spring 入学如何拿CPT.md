@@ -16,10 +16,20 @@
 
 3. 这样，你的 F-1 身份可持续到 10 月份，而 10 月到次年 1 月之间仅有 3 个月间隔，符合 I-20 转学的要求。
 
-
 ## 我不想这么折腾，还有别的方法吗？
 有。
 1. 美本本科学校延毕一学期
 2. 去一个便宜的学校（比如uiuc或者gt）读一学期然后转学
 3. 去day1cpt学校读一学期然后转学
 4. 找个unpaid公司挂靠自己的opt(opt期间也是f1身份)
+
+## 一些案例
+CMU SESV只支持spring入读前的那一个学期必须也是fall time 学生，才能入读
+CMU SESV spring拿到cpt，具体请看
+
+![](/img/cmucpt.png)
+
+Cornell 比较友好，支持spring 入读前是opt身份，只要学生是美本，能够把本科的i20转移过去
+就可以入读Cornell CS MENG  spring然后拿到cpt，具体请看
+
+![](/img/cornellcpt.png)
