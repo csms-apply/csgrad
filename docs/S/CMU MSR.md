@@ -6,6 +6,15 @@
 
 全奖也是不准确的，主要看你和导师约的面试时候的面试表现和你对这个领域熟不熟悉，还有配套的工具链的熟悉程度，有可能只cover一些，甚至找不到导师都有可能
 
+## 录取dp
+1. CMU ME本科，两篇pub
+2. 印度同学本科gpa9.12/10, toefl 115, 有微软和aws全职经历
+3. 重庆大学ME本科 gpa3.84，在epfl当过RA
+4. CMU ECE本科，有META intern 和小厂intern, 一篇pub
+5. 西交利物浦本科，申请时候一篇Pub,在CMU intern过半年 
+6. 南方科技大学ME本科，gpa3.94,申请时候一篇ICRA,在MIT 交换过
+7. cornell cs本科，四年全职经历，后成功转CMU MSR phd
+8. ucb eecs本科gpa3.86，两年RA，四篇pub
 ## 优点
 1. 两年时长，苟着能多一条命，也能多抽一次h1b
 2. phd申请不利可以来这里苟两年重新申请
