@@ -17,11 +17,11 @@ CS排名高(在cs ranking上排名第4)，开设的方向非常全，nlp, cv, ar
 ## 代表性录取dp
 陆本直接申请到的很少（尤其24fall），陆本的基本都是清北交浙的。陆本+海硕退学/海硕读二硕似乎会容易些。海本会容易不少。该项目欢迎转码，在读的有清华本科/台大本科来转码的。
 
-北大本 noi金，某手机厂实习
-
-电子科大本科，gpa 3.9+, 腾讯阿里实习
-
-加拿大top2 本科，gpa略低, 五段大厂实习
+1. 北大本 noi金，某手机厂实习 
+2. 电子科大本科，gpa 3.9+, 腾讯阿里实习 
+3. 加拿大top2 本科，gpa略低, 五段大厂实习
+4. usc cs本科gpa3.8
+5. University of Rochester ds+math本科，gpa3.95
 
 ## 录取gt mscs小tip
 如果觉得申请到mscs太难了，可以先申请gatech cse冷门track，进去再转mscs。
@@ -36,6 +36,16 @@ CS排名高(在cs ranking上排名第4)，开设的方向非常全，nlp, cv, ar
 
 身边dp采样法：我认识的24fall入学GT MSCS的中国同学，多数都能找到summer intern。至少6人拿到meta swe intern，至少5人拿到amazon sde intern，目前amazon还在发offer(from cwy)
 
+
+1. 印度同学，sap+oracle intern,上岸小厂
+2. usc 本科，有美国小厂实习，上岸amazon 并且return
+3. University of Rochester ds+math本科, 有国内小厂经历，上岸tesla intern
+4. iit 本科 gpa8.87/10,印度三年全职工作经验， 上岸amazon ng
+5. gt cs本科gpa4.0上岸aws intern并且return
+6. 印度同学，oracle两年工作经验，上岸slb ng
+7. gt cs本科 gpa3.89，上岸google
+8. 印度同学，一年全职工作经验，上岸aws并且return
+9. iit cs本科，上岸apple
 ## ta 机会
 gatech 招大量的online 课程的ta, 
 但是得比较早主动去找，我之前以为不好找，后面发现怎么有的助教啥也不会也能当助教

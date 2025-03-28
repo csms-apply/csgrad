@@ -6,6 +6,10 @@
 
 ## 录取bar 和标准
 难度应该比MSIN高一点，EE转码友好，喜欢有硬性research背景的同学
+1. top 10文理学院cs gpa 3.9,两篇pub
+2. 印度同学cs本科gpa9.62 n篇pub
+3. 印度同学gpa9.49, 多段research intern，包括eth research intern
+4. Tufts University cs本科gpa3.2
 ## RA机会和转博情况
 老板点头就能转，很容易，就是换一张i20的事情
 ，应该录取难度>找到老板同意转phd的难度
@@ -14,12 +18,16 @@
 氛围不如cmu，但是因为没有同校peer pressure ，其实找工数据都还好。ece和cs找工都差不多的好。
 flag基本都有
 
-UT 的 Career Fair 主要有 两个大场：
+Career Fair 每年都有很多大厂参加，比如 Google、Amazon、Facebook、Microsoft
 
-Engineering Expo（针对所有工学院）
-CNS Technology & Science Career Fair（CS 所属学院举办，规模更大）
-这两个 Career Fair 都有很多大厂参加，比如 Google、Amazon、Facebook、Microsoft
-
+1. 印度同学cs本科一年全职工作经历，上岸nv并且转正
+2. ut cs本科,gpa3.98上岸aws并且return
+3. ut cs本科上岸paycom(该厂只招德州学生)
+4. Tufts University cs本科 上岸小厂ng
+5. 印度同学，Morgan Stanley两年全职，上岸apple
+6. ut cs本科，上岸小厂
+7. ut cs本科，上岸apple intern
+8. ut cs本科，有开源经历，上岸meta intern
 
 ## 课程情况
 UT 的 MSCS 项目算是标准 CS Master，和 PhD 共享不少课程，所以偏研究方向的课会多一些，有些课的 project 甚至是按照发表 paper 的标准来要求的。项目分为 coursework 和 thesis 两个 track，两个选项都需要修 30 个学分，如果选择 thesis，会有 6 个学分是写论文，相当于少修 2 门课。无论哪个 track，都需要在 theory、system、application 这三个方向上至少修一门课。
