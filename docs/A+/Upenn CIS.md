@@ -11,21 +11,30 @@
 大藤title很香，bar 对陆本的标准可以上升到SS，对美本应该在S，但是找工确实对标不了stanford 或者cmu scs这样的
 
 ## 录取bar 和dp
-23Fall 申请数据：
-
-2000+ 申请者
-100 个 offer
-录取率 < 5%
+和一些文理学院有合办，可以内部录取。23Fall 申请数据：  录取率 < 5%
 
 录取生源：美本占 90%+
 GPA：
 普遍在 3.95+
 Top 15 美本 可以降到 3.9
 
+1. 印度同学gpa9.22/10, n篇Pub,两年全职经历
+2. 英本kcl本科，phd辍学，一篇Pub
+3. top 50 美本gpa3.87
+4. 西安交通大学工业设计本科gpa90,
+
 ## 项目找工
 Upenn cis人称小mcds，workload 很mcds，除了找工不太如mcds。
 
 整体上找工还行吧，主要取决于年景
+1. 印度同学cisco 两年全职经历，上岸ibm全职
+2. top 50 美本 无实习，上岸bloomberg
+3. Upenn robotics本科，有NASA intern和小厂intern，上岸apple intern
+4. Haverford College gpt3.9, 有咨询Intern, 上岸纽约咨询
+5. Upenn cs本科，上岸amazon 并且return intern
+6. 印度同学,n 段小厂长时间实习，上岸湾区小厂
+7. Upenn cs本科，有两段微软实习，成功return
+
 ## 课程体验
 节奏快、workload 大、没有水课。 workload 是本科的两倍。特别是 系统类课程，
 几乎每个组员都会在图书馆泡好几天，写 project 写到半夜是常态。
