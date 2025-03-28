@@ -12,15 +12,31 @@
 ## 录取偏好和dp
 录取率 8%~10%，中国学生占一半，美本 & 印度学生占剩下一半。美本申请者录取率更高，尤其是 UC 系的 UCLA、UCSD、UCI 这些，基本每年都有大量录取；陆本以 C9+985 强校为主，比如清华、浙大、中山、人大、厦大。项目喜欢 高 GPA（3.85+）+ 理工科背景 的申请者，数学和 CS 相关专业最吃香，商科+数学双专业也可以，几乎没见过文科背景能进来的。GRE 不算重要，21Fall 甚至有不少人是无 GRE 申请的。
 
-
+1. nyu cs本科gpa3.87
+2. Rutgers University cs+ds本科gpa4.0
+3. 印度同学gpa9.44
+4. Rutgers University cs+ds+统计 gpa3.9
+5. ut austin ece 本科gpa3.58
+6. Haverford College 经济本科gpa3.9
+7. duke ds本科gpa3.9
 
 ## 找工情况
 找工方向偏向于东部金融咨询公司,
 往届的去向观察到比价多的有c1，gs，barclay，bloomberg，mbb，paypal，amazon，tt，google这些，岗位上ds/mle偏多，sde偏少
 
-Data Scientist / MLE / Data Engineer / Quant / SDE都有，
+总体上来看Data Scientist / MLE / Data Engineer / Quant / SDE都有，
 转码主要靠amazon 捞人，正找工作主要靠自己刷题、做项目、Networking，没有自己单独的 Career Fair，
 基本不用指望靠学校，upenn能给你的就是简历上的一行字
+
+1. nyu cs本科上岸amazon intern
+2. upenn cs本科上岸jp morgan ds intern
+3. 印度同学两年全职，上岸barclay bank ng
+4. upenn cs本科同学上岸meta intern并且成功return 
+5. 印度同学两段ds intern，上岸aws并且成功转正
+6. The Wharton School（沃顿）经济学本科，上岸meta ds intern并且转正
+7. Haverford College 有小厂实习经历，上岸microsoft ds intern并且转正
+8. 印度同学上岸小厂ds intern并且return
+9. 印度同学，有一段印度小厂实习，上岸小厂MLE，后跳槽到meta
 
 ## RA和转博机会
 从过往 PhD 录取情况来看，有少数人能申到 CMU / Stanford / Berkeley / MIT
