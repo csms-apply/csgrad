@@ -17,6 +17,9 @@ research is not required。只看gpa、本科学校、toefl、gre
 2. wisc cs+math 本科,gpa 3.9
 3. University of Hartford ce gpa 3.97
 4. uiuc math+cs, gpa 3.91
+5. ucsb cs本科gpa4.0, 有多段国内小厂实习
+6. nyu cs本科gpa3.95, gre332
+7. uw cs本科 gpa3.9
 
 ## 找工情况
 一般，主要是因为没有美国实习，很难找ng，上岸主要靠tiktok和amazon捞人，24ng上岸率10%-15%
@@ -24,4 +27,7 @@ research is not required。只看gpa、本科学校、toefl、gre
 一些上岸的dp:
 1. 武汉大学cs本科，tiktok国内一年实习，毕业上岸tiktok ng
 2. 武汉大学软件工程本科，蚂蚁四个月实习，上岸2 sigma
+3. Tulane University math+cs本科无实习，上岸小厂
+4. nyu 本科有百度实习，上岸aws ng
+5. uw cs本科 有aws intern，上岸doordash ng
 
