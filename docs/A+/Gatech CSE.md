@@ -16,6 +16,7 @@ mscs>cse coc>=cse isye>其他units
 
 就录取本身的难度来说, coc喜欢要target school的，同时基本只看三维，别的track可能好点，可以选一点冷门的track进来转coc或者mscs. 选择不同的home unit确实可以降低录取的难度, 但是随着录取难度的降低, 项目的hc也在指数级别减少, 在选择的时候需要注意这个trade off. 比如本人从来不知道是否有 cse (math) 在读, 猜测有些home unit的cse项目是为了给已经录取的别的项目的人 or 已经在读的人来dual degree所设计的. 所以, 一个可以选择的路径是, 申请gt别的项目, 进来再dual, 比如isye的一些项目(gt的isye开了很多项目) or ee,建筑,生物,化学的项目, 但是这些项目对本身bg是cs的人又不是很友好.
 
+
 ## 找工出路
 跟cs差不多，出路有Meta、google等
 

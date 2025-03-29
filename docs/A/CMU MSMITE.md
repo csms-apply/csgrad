@@ -12,6 +12,11 @@ msmite 第一年在匹兹堡，第二年在sv，还是很不错的，能体验�
 2. 北京邮电大学本科（应该是用的uci交换时候的签证）, 有uci 半年交换，gpa 92+, 国奖，快手实习
 3. 交大-umich合办，交大gpa 3.4，umich gpa 3.8，小厂实习
 4. 中流985本科，gpa 3.8，toefl 105,有小厂实习
+5. nyu cs+economics本科gpa3.85,本科有国内一年的商业分析实习
+6. 香港中文大学ME本科gpa3.93，四年全职工作经验
+7. 南京大学gpa4.54/5,在伯克利交换过
+8. 浙江理工大学智能班，gpa 3.9+,rk1,有腾讯实习
+9. 香港城市大学ee本科gpa3.64，有香港三个月实习
 
 ## 找工情况
 从结果上来看ini内部的几个专业来看没啥区别，毕竟来了美国就知道找工结果和个人努力和历史进程的相关性几乎达到了95%，
@@ -23,6 +28,13 @@ msmite 第一年在匹兹堡，第二年在sv，还是很不错的，能体验�
 
 MSIN = 103/109, MSIS = 46/50, MSIT-IS = 41/47, MSMITE = 45/48
 
+1. nyu cs+economics本科gpa3.85,本科有国内一年的商业分析实习，上岸Goldman Sachs sde
+2. ucsd cs本科，有瑞士小厂实习和ibm实习，上岸google
+3. 同济软件工程本科sap四年工作经历，上岸bloomberg intern并且转正
+4. 浙江理工大学智能班，gpa 3.9+,rk1,有腾讯实习，上岸tiktok
+5. 香港城市大学ee本科gpa3.64，有香港三个月实习，上岸小厂qd
+6. umich cs本科，有百度实习，上岸aws intern
+7. cmu ece本科有Mastercard和intel实习，上岸小厂ng
 ## 选课情况
 22fall给MSMITE的degree specific core加入了scs学院的课：
 Distributed Systems，Advanced Cloud Computing (ACC), Cloud Computing(CC)，
