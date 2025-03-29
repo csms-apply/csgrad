@@ -9,6 +9,9 @@
 1. 交大is本科，有字节、cisco、Synopsys实习
 2. ut austin ece本科gpa3.8
 3. ut austin ece本科gpa3.98(top10%)
+4. acses track, gpa3.8，给了ra offer
+5. ICS track, iit 本科 gpa4.0
+6. ACSES track, gpa3.99，三年工作经历
 ## 实习和延毕
 
 可以延毕到2 年半，可以有两次美国实习的机会，非常爽，而且很便宜。学校是支持学期中实习的（比如snowflake, tiktok, amazon，tesla），不过开coop的比较少罢了。晚上11点之后从校园打车免费。
