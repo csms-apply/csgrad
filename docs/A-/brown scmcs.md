@@ -26,6 +26,9 @@ toefl: 105
 
 不歧视陆本（指的是不会像uiuc mcs那样基本不招陆本生）
 
+1. Michigan State University gpa4.0, 多段创业公司创业经历
+2. 印度同学，gpa3.96/4，印度jp morgan两年全职经历
+3. 印度同学，gpa3.96/4，三星两年半全职工作经历，在校期间有两段小厂实习
 
 
 ## 找工情况
@@ -37,3 +40,12 @@ toefl: 105
 diversity 不一定有用，25 年dei 项目已经被取消了。只有微软还是喜欢招转码/美本。能力够强可以忽视diversity 来进行选校
 
 ![](/img/browncarrer.jpeg)
+
+一些往年好的dp:
+1. 美国r1大学cs本科有小厂实习，上岸小厂ng
+2. PSU cs本科有小厂硬件实习，上岸索尼
+3. 印度同学有一段cv实习，上岸湾区MLE intern
+4. 印度同学，三星两年半全职工作经历，在校期间有两段小厂实习，上岸apple intern并且转正
+5. 印度同学，在校期间三段实习经历，一年全职工作经历，上岸 Senior Financial Analyst  American Express
+6. brown cs本科，有两段小厂实习，上岸meta intern
+7. brown cs本科，有一段一年intern, 上岸jane street intern并且转正
