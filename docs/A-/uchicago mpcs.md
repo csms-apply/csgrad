@@ -35,7 +35,12 @@ quarter制，可能学期内的压力很紧张
 近几年随着宣传的人数越来越多+接受转码，bar 在逐年上涨
 
 dp:
-中科大本科计算机gpa 85
+1. Emory cs+math 本科，有pingcap实习
+2. 中科大本科计算机gpa 85
+3. umich 经济本科，economy dean's list
+4. 港中文math本科gpa3.83
+5. McGill University bio/cs本科gpa3.41
+6. umich cs本科gpa3.9，有小厂intern
 
 # 找工dp
 uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是很大，同学有很多都是早已经上班的，也不会跟你竞争找intern/ng，甚至还可以直接线下要refer。（mpcs和cmu的大部分项目应该是完全相反的两种dp）。前两年（指22年），meta在uchicago mpcs招人很多，也招了很多非cs本科的同学，从身边采样法来看，不会因为uchicago 的名字而失去机会，身边朋友bg好的基本都有很多面试
@@ -43,3 +48,7 @@ uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是
 1. 浙大CS 字节实习-> Bloomberg full-time
 2. 港中深CS -> TikTok (US) summer intern -> TikTok (US) Full-Time
 3. 同济土木阿里巴巴后端实习-> Google summer intern -> Google full-time
+4. 港中文金融本科，有小厂三个月实习，上岸amazon intern
+5. 印度同学三年全职工作经验，上岸meta intern，ng上岸google 
+6. uchicago cs本科，有小厂实习，上岸小厂ng
+7. 台大金融系本科，一年全职，上岸小厂ng
