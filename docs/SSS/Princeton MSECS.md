@@ -11,9 +11,19 @@ sidebar_position: 2
 
 
 **Princeton MSCS 非常看重gpa和本科是否是target school和TA经验，对 publication 没有硬性要求**。国内申请人一般是 **清北浙复交** ，美本的话 GPA 需要很高(3.85 at least)，但是否录取主要看研究兴趣和教授的 preference，每年情况不一样。
+overall 来看还是招的有身份的学生多(美国国籍)
 
 1. cornell cs 本科 gpa 4.0, 多段industry 实习
 2. McGill cs本科，两年CS高阶课ta，gpa 3.95
+3. ivy cs本科女生 gpa3.9，两年科研+RA经验，有强推
+4. uc本科 cs+math gpa3.8, 两年TA 高阶课经验
+5. ucb 本科 gpa3.96, 5 sems TA experience,无科研
+6. yale cs本科gpa3.95，2year research experience但是无pub
+7. top 10 cs本科gpa4.0，一篇Pub
+
+
+
+
 
 ## RA
 
