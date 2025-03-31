@@ -27,6 +27,7 @@ SCS Robotics Institute下面1.5年的CV项目，项目全程学费大概9.5w刀�
 10. 印度同学本科,gpa9.18, 五篇pub(其中有一篇cvpr)
 11. ut 本科，有华为research intern
 12. 印度同学cs本科，gpa9.5，两年全职经历，四篇pub,一篇cvpr一篇iclr
+13. nyu cs本科gpa3.8
 
 
 
@@ -41,3 +42,4 @@ SCS Robotics Institute下面1.5年的CV项目，项目全程学费大概9.5w刀�
 2. University College Dublin  上岸meta intern, ng上岸apple
 3. whu ece本科 上岸weride
 4. ut 本科，有华为research intern 上岸三星ng
+5. nyu cs本科 有2段国内小厂实习，上岸小厂

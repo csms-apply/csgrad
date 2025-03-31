@@ -22,15 +22,11 @@ mism分为12 month 的track和16 month 的track，后者可以方便找实习。
 # 录取代表性dp
 rolling 制度，早申早录取。想来mism早点申请
 
-wisc cs本科+腾讯实习,gpa 3.7
-
-华科cs本科，gpa 3.86，两段量化实习
-
-杭州电子科大cs本科，无实习, gpa 3.7
-
-交大ee本科女生,gpa 3.6，多段证券公司实习
-
-武汉大学 finanal engineering 本科，gpa 90，多段量化公司qd实习
+1. wisc cs本科+腾讯实习,gpa 3.7
+2. 华科cs本科，gpa 3.86，两段量化实习
+3. 杭州电子科大cs本科，无实习, gpa 3.7
+4. 交大ee本科女生,gpa 3.6，多段证券公司实习
+5. 武汉大学 finanal engineering 本科，gpa 90，多段量化公司qd实习
 
 # 找工情况
 相比隔壁ini、ece、scs一般，不过主要取决于个人之前的实习背景和算法能力。

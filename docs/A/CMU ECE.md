@@ -20,6 +20,7 @@ CS/EE/ECE/DS/ME本科都可以申请，gpa 3.7+，
 3. Penn State University math+cs本科gpa3.67，字节产品经理实习
 4. ut austin ece本科,gpa3.94
 5. ucsd ee本科gpa3.83，有九个月RA经历
+6. cmu ece本科 gpa3.6
 ## 找工情况
 找工数据24fall上岸情况一般，但还是不少拿到offer的，amazon居多吧
 
@@ -31,6 +32,7 @@ CS/EE/ECE/DS/ME本科都可以申请，gpa 3.7+，
 5. cmu ece本科，上岸amazon intern
 6. 首尔大学无实习上岸meta
 7. 印度一年全职工作经历，上岸apple intern并且转正
+8. cmu ece本科上岸微软实习，最后去了湾区小厂
 
 
 印度同学一年全职，上岸湾区小厂intern并且转正
