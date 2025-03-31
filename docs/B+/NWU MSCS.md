@@ -11,7 +11,14 @@ Evanston风景美，治安好，学校有钱，设施也不错，密歇根湖很
 美本高gpa保底，中外合办疑似没有4年美本那么有说服力。官方邮件明确说了喜欢招高gpa+ 有很好的research背景的同学，只字未提internship，
 因此想来nwu mscs的还是推荐做research拿高分比较好
 
-
+1. NWU CS本科gpa3.95
+2. uci cs本科gpa3.85,uci+港中文一年半RA
+3. University of Rochester cs本科gpa3.6
+4. 悉尼新南威尔士大学 cs本科gpa3.8
 
 ## 找工情况
 career service可以说毫无帮助，找工一般，这个项目其实更适合读博/转phd
+
+1. NWU CS本科，有腾讯在泰国base的实习和几段base 在泰国的小厂实习，上岸amazon intern并且转正
+2. University of Rochester cs本科 无实习，上岸小厂实习
+3. nyu上海本科，有苹果中国实习，上岸小厂实习
