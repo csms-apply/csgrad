@@ -7,8 +7,17 @@ MCS 项目规模这几年有所增长，疫情期间 21Fall 一度扩招到 300 
 
 ## 录取bar 和dp
 陆本985 211居多(gpa 88左右)，美本gpa 3.6+
+1. 电子科大软工本科gpa3.83
 ## 找工情况
 25 summer 身边统计法上岸率40%，paycom是保底厂只招德州学生(去年在rice mcs招了15个学生)，好好准备上岸概率很大，面试都考原题（算法题所有人都是原题），paycom 25 summer捞了十几个人
 
 25 summer 4个人上岸meta， 上岸亚麻大概10人
+
+1. 电子科大软工本科有腾讯和大疆实习，上岸德州小厂(非paycom)
+2. 南方科技大学cs本科，有腾讯和小厂实习，上岸小厂ng
+3. 台大信管本科，一年全职，上岸hp intern, ng上岸tiktok
+4. rice 认知科学本科，有德州小厂实习，上岸德州小厂ng
+5. 艺术转码，国内有产品经理全职经历，上岸america data science
+6. University of Missouri-Columbia cs+语言学本科，本科期间多段sde 实习，上岸cvs mle岗位
+7. 印度同学，一年全职，上岸goldman sachs swe
 
