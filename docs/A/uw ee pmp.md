@@ -34,3 +34,4 @@ Tiny Machine Learning for Ultra Low-Power Edge Computing (TinyML) (Sahabandu)
 
 如果申请者GPA不是特别高，可以考虑一下申请一下UW EE PMP，是一个很好的找工向的项目选择
 
+25 fall bar 明显升高，有不少高gpa、高rk的cs bg同学被拒，疑似oq，也有CMU MSIN录取uw ee pmp被rej的

@@ -14,7 +14,6 @@ Evanston风景美，治安好，学校有钱，设施也不错，密歇根湖很
 1. NWU CS本科gpa3.95
 2. uci cs本科gpa3.85,uci+港中文一年半RA
 3. University of Rochester cs本科gpa3.6
-4. 悉尼新南威尔士大学 cs本科gpa3.8
 
 ## 找工情况
 career service可以说毫无帮助，找工一般，这个项目其实更适合读博/转phd
