@@ -8,12 +8,13 @@ ucla校内食堂真的很好吃，和本科生买swipe吃饭的话8刀吃到撑�
 # 录取dp 和bar
 人录取的比较少，基本在于UCLA本科生的4+1项目和海本的同学，确实录取难度很大，没有3.9+的海本或者国内TOP5或者科研背景很厉害进不来
 
+1. San José State University cs 本科gpa3.93
 # 找工情况
 career fair 近几年越发的没用，还是指望海投+内推吧。
 
 1. Amity University cs本科，印度工作两年，上岸amazon sde intern
-
 2. 台大ee本科，微软实习八个月，jp morgan mle full time
+3. San José State University cs 本科上岸小厂intern并且return
 
 # 转phd情况
 la 转PhD容易，只要教授点头就能转，认识ucla 本硕的同学就转了本校phd
