@@ -61,6 +61,8 @@ ta 工资时薪大概24$左右，一周只能报10 hours。整合下来一个月
 ra 的话，unpaid ra还是好找的，给钱的很难（可以说几乎没有，但不排除遇到特别有钱的老板），我身边没看到有人能拿到给钱的ra 的offer。哥大cs phd只要老师点头就能转phd，因此只要跟老板一块合作的愉快，转Phd也不是什么问题。真心觉得想读phd的话，可以认真考虑哥大，因为翻了一下哥大cs phd的领域，基本都是top 名校，比如清北+iit，iit 的尤其多。
 
 # 找工dp
+25 summer 哥大 MSCS 至少12人拿到亚麻offer
+
 211 cs rk1 icpc 银牌上岸databricks
 
 会计转码上岸adobe
