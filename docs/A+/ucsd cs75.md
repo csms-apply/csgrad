@@ -12,7 +12,6 @@ UCB只有一年制项目MENG，UCLA的MSCS录取过难，且偏向科研，对�
 UCSD位于圣地亚哥，旁边就是大海，坐拥海景房❤️。同时学校宿舍极其便宜且质量极其好，因此成为众多北美CS申请者的必申项目。和这个项目一起比较的经常还有CMU MSIN、UIUC MCS、UT AUSTIN SES、GT CSE
 
 
-
 ## 项目录取偏好和dp
 一句话总结：录取非常玄学，有被stanford ee录取的同学被rej。也有不少双非的同学ad。
 
@@ -27,6 +26,14 @@ UCSD位于圣地亚哥，旁边就是大海，坐拥海景房❤️。同时学�
 5. NUK cs本科gpa3.95,有当地小厂实习
 6. ucsd cs本科gpa3.9
 7. nyu cs本科gpa 3.9，有国内大厂实习
+
+## 录取前的玄学
+贴一个我之前总结出来的portal变化信息含义：
+
+1. 出现要求交wes：录取，北京时间下午四点（加州0点准时portal update通知录取）
+2. checklist 上方小字消失，但是checklist没有消失：也是好消息，24fall来看基本会在下一周录取
+3. checklist 上方小字没有消失：还没有review到，继续等待
+
 
 ## 找工情况
 
