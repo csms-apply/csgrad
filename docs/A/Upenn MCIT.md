@@ -27,7 +27,7 @@ prefer 美本，gpa>3.8，gre>330, gpa gre越高越好。average gre 330, 2022 f
 2. Illinois Wesleyan University 商科本，上岸小厂Intern 并且转正
 3. Boston University 电影专业，上岸小厂aie intern
 4. University of Colorado Boulder cs phd 退学，有 Goldman Sachs intern，上岸Goldman Sachs ng
-5. 国立清迈大学finance+business本科，有两年商科实习
+5. 国立清迈大学finance+business本科，有两年商科实习，ng 上岸google
 6. 中山大学英语本科，无sde实习，上岸aws intern和google intern，最终先去aws再去google，在google转正
 7. Franklin & Marshall College economy+社会学本科 多段国内小厂pm实习，上岸小厂intern
 8. 武汉科技大学ee本科（gpa3.7） upenn ee硕士（gpa3.84） ，上岸字节实习，ng 上岸meta 
