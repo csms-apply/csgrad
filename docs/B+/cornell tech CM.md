@@ -29,6 +29,17 @@
 ## 录取bar
 background很杂。对于应届同学来说，调查下来基本上都是211/985/美本/中外合办，基本没有双非科班。CS科班居多，其次是DS，绩点要求比想象中的高，身边朋友基本上都是3.7以上。如果有创业经验的话似乎bar也低一些。目测在所有学生里有1/6的工作了几年再来申请的，并且在职申请CM的话似乎bar低一些，商科/DS 的背景都有。
 
+1. nyu cs本科gpa 3.84, major gpa 3.97
+2. Princeton University Cum laude 毕业
+3. UW HCI本科gpa3.9 
+4. 国立成功大学 cs gpa 3.99
+5. 雪城大学 da本科gpa3.95
+6. Queen's University 数学本科gpa4.0
+7. 美本top 100, math本科gpa4.0
+8. 台大cs+business 本科 gpa3.97
+9. Lehigh University gpa3.8
+10. NYU 上海cs本科gpa 3.8
+
 ## 找工
 CM 66人，HT和UT大概都不到20个人，其他专业没了解过。观感中国人大概30%，印度人30%，其他40%，人种还算多样，不会出现全是中国人的那种感觉。
 
@@ -37,3 +48,5 @@ CM 66人，HT和UT大概都不到20个人，其他专业没了解过。观感中
 CT拿Cornell的文凭，所以大致可以看做Cornell。好像对于大科技厂来说Cornell不算target school，身边认识的朋友反正Meta、Google、Apple、Uber等等知名大厂基本上寥寥无几。大金主Bloomberg 倒是会给面试机会，负责我们学校的HR也还算积极，相比于见过的部分dp动辄ghost两三个月，一般CT的next step都能在7-30天完成。十月份从学校收了一波简历，还会来学校onsite 面试，不过25 Summer至今也没见过国人拿Intern offer的，相比paycom捞rice的程度来比还是差很多。
 
 还在找Summer Intern的大家应该都在指着今年Amazon大放水了，但是这和CT也没啥关系了lol。总之学校基本提供不了什么找工的帮助，Cornell的Title在招工市场上可能不如一些理工强校。
+
+1. scu转学美本，有四个月小厂实习，上岸meta ng
