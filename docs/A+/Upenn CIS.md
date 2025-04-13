@@ -21,7 +21,8 @@ Top 15 美本 可以降到 3.9
 1. 印度同学gpa9.22/10, n篇Pub,两年全职经历
 2. 英本kcl本科，phd辍学，一篇Pub
 3. top 50 美本gpa3.87
-4. 西安交通大学工业设计本科gpa90,
+4. 西安交通大学工业设计本科gpa90
+5. Haverford College cs+economics本科gpa3.88
 
 ## 项目找工
 Upenn cis人称小mcds，workload 很mcds，除了找工不太如mcds。
@@ -34,6 +35,12 @@ Upenn cis人称小mcds，workload 很mcds，除了找工不太如mcds。
 5. Upenn cs本科，上岸amazon 并且return intern
 6. 印度同学,n 段小厂长时间实习，上岸湾区小厂
 7. Upenn cs本科，有两段微软实习，成功return
+8. Upenn cs本科，上岸meta实习并且成功转正
+9. 沃顿统计本科，上岸meta ng
+10. 印度本科，cisco三年全职，intern上岸apple，ng上岸google
+11. 印度本科，有goldman sachs实习，上岸google intern并且转正
+12. 印度本科，无实习，上岸微软ng
+
 
 ## 课程体验
 节奏快、workload 大、没有水课。 workload 是本科的两倍。特别是 系统类课程，

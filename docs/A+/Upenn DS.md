@@ -19,6 +19,8 @@
 5. ut austin ece 本科gpa3.58
 6. Haverford College 经济本科gpa3.9
 7. duke ds本科gpa3.9
+8. Wake Forest University 数学+统计本科，gpa3.88
+9. UCL math本科，gpa3.91
 
 ## 找工情况
 找工方向偏向于东部金融咨询公司,
@@ -37,6 +39,7 @@
 7. Haverford College 有小厂实习经历，上岸microsoft ds intern并且转正
 8. 印度同学上岸小厂ds intern并且return
 9. 印度同学，有一段印度小厂实习，上岸小厂MLE，后跳槽到meta
+10. UCL math本科，有apple intern，上岸google mle
 
 ## RA和转博机会
 从过往 PhD 录取情况来看，有少数人能申到 CMU / Stanford / Berkeley / MIT
