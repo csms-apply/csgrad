@@ -20,6 +20,7 @@ prefer 美本，gpa>3.8，gre>330, gpa gre越高越好。average gre 330, 2022 f
 8. 武汉科技大学ee本科（gpa3.7） upenn ee硕士（gpa3.84）
 
 
+
 ## 找工情况
 挺好的，即便是和和别的非转码项目比起来也是好不少的。mcit 2024 ng找工情况  ,amazon 11 ,google 7 ,tiktok 5 ,microsoft 5 ,meta 4
 
@@ -32,3 +33,6 @@ prefer 美本，gpa>3.8，gre>330, gpa gre越高越好。average gre 330, 2022 f
 7. Franklin & Marshall College economy+社会学本科 多段国内小厂pm实习，上岸小厂intern
 8. 武汉科技大学ee本科（gpa3.7） upenn ee硕士（gpa3.84） ，上岸字节实习，ng 上岸meta 
 9. 港中深economics本科，上岸tesla intern和meta intern
+10. McGill University finance 本科，有加拿大六个月小厂intern，上岸meta intern并且转正
+11. 沃顿finance本科，google step intern和google summer intern，最后ng 上岸meta
+
