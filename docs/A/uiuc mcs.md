@@ -20,6 +20,9 @@ UIUC 总共有两个CS项目项目，一个是MSCS，另外一个是MCS。这两
 10. 国立台湾海洋大学 cs本科gpa 3.8
 11. wisc cs本科gpa3.79
 12. asu cs本科 gpa3.92，两年美国本土全职工作经历
+13. UIUC CS本科gpa3.72
+14. 交大UMICH合办，交大GPA 3.6, UMICH GPA3.9
+15. 国立清华 cs本科gpa3.96
 
 再次说明，以上dp仅仅是陆本录取的代表性dp，不代表美本的录取难度，根据24fall录取群里的统计，美本3.6以上就比较稳，同时本校生甚至有3.2录取的dp，美本同学可以放心冲！
 
@@ -30,3 +33,9 @@ UIUC 总共有两个CS项目项目，一个是MSCS，另外一个是MCS。这两
 2. 西南交通大学环境设计转码，无实习，上岸amazon
 3. 同济大学软工本科  有Airwallex 实习，上岸ebay，ng 上岸tiktok
 4. UIUC CS本科上岸Optum intern并且转正
+5. UIUC CS本科，有jp morgan 实习，上岸meta swe intern并且成功转正
+6. UIUC CS本科，有两段长期小厂intern，上岸meta swe ng
+7. 交大UMICH本科，有国内 intel  三个月实习，上岸meta swe intern并且成功return
+8. 印度本科，两年oracle india全职经历，上岸 英伟达Systems Software Engineer
+9. 国立交通大学，九个月台湾c++全职，上岸nvidia swe intern并且转正
+10. UIUC CS本科 有IBM 实习，上岸nvidia swe intern并且转正

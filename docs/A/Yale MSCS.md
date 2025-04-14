@@ -31,4 +31,6 @@ research is not required。只看gpa、本科学校、toefl、gre
 3. Tulane University math+cs本科无实习，上岸小厂
 4. nyu 本科有百度实习，上岸aws ng
 5. uw cs本科 有aws intern，上岸doordash ng
+6. waterloo本科，有加拿大小厂4个月实习，上岸google ng
+7. yale cs本科，有3年创业经历和小厂实习，上岸google ng
 
