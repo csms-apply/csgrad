@@ -41,6 +41,7 @@ dp:
 4. 港中文math本科gpa3.83
 5. McGill University bio/cs本科gpa3.41
 6. umich cs本科gpa3.9，有小厂intern
+7. 北大城市建设本科，gpa3.85,upenn 城建gpa3.7, uch mpcs是她的二硕
 
 # 找工dp
 uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是很大，同学有很多都是早已经上班的，也不会跟你竞争找intern/ng，甚至还可以直接线下要refer。（mpcs和cmu的大部分项目应该是完全相反的两种dp）。前两年（指22年），meta在uchicago mpcs招人很多，也招了很多非cs本科的同学，从身边采样法来看，不会因为uchicago 的名字而失去机会，身边朋友bg好的基本都有很多面试
@@ -52,3 +53,13 @@ uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是
 5. 印度同学三年全职工作经验，上岸meta intern，ng上岸google 
 6. uchicago cs本科，有小厂实习，上岸小厂ng
 7. 台大金融系本科，一年全职，上岸小厂ng
+8. 印度本科毕业，三星三年全职，上岸meta swe intern，ng去了meta
+9. 北大城市建设本科毕业，无实习，上岸aws sde intern，ng上岸meta
+10. Carleton College math本科，有两段小厂实习，上岸google
+11. 印度本科，三星三年全职，上岸nvidia swe intern并且转正
+12. 美本转码，本科有aws intern，来uchicago 后有做了两段amazon swe intern并且转正
+13. 北大政治学本科，有微软国内实习，上岸google swe intern 并且转正
+14. 台大本科，一年全职，上岸纽约小厂ng
+15. 印度本科，本科有两段实习经历，上岸san jose 小厂 intern并且转正
+16. Northeastern Illinois University cs本科，无实习，上岸grammarly sde intern
+17. Vanderbilt University 城建本科，之前一直干项目经理，上岸spacex
