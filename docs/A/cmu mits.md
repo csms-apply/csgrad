@@ -32,3 +32,7 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 1. 一个英国毕业的老师问了当义工的经历，为什么想干这个
 2. 中国美食
 3. 想去成都玩，问我去没去过，哪里比较好玩
+
+## 找工dp
+
+1. 南开cs本科，有两段旷世实习和qd实习，intern上岸splunk，ng上岸meta
