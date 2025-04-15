@@ -27,7 +27,16 @@ rolling 制度，早申早录取。想来mism早点申请
 3. 杭州电子科大cs本科，无实习, gpa 3.7
 4. 交大ee本科女生,gpa 3.6，多段证券公司实习
 5. 武汉大学 finanal engineering 本科，gpa 90，多段量化公司qd实习
+6. 对外经贸financial engineering 本科gpa3.74
 
 # 找工情况
 相比隔壁ini、ece、scs一般，不过主要取决于个人之前的实习背景和算法能力。
 有很多转码同学需要准备leetcode还得应付课程压力，上岸率相比ini和scs肯定不足。如果想来需要在国内好好干实习和刷题
+
+1. 印度本科，一年全职，上岸meta mpk swe intern并且成功转正
+2. 华科is本科，有一段三个月诺基亚实习，无美国实习，上岸google swe ng
+3. 印度本科，五年全职，上岸匹兹堡cadence swe intern，ng 上岸google
+4. ucb economics+ds本科，之前在香港做过consulting，上岸google ds intern，并且成功转正
+5. Waseda University ee本科，本科期间在香港做过quant，在google 东京做过intern，在hk jpmorgan也实习过，上岸google swe intern并且转正
+6. 对外经贸financial engineering 本科有多段金融实习，上岸小厂intern，ng 上岸goldman sachs
+7. 印度本科，四年德勤全职，上岸匹兹堡小厂ng
