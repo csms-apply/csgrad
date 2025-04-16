@@ -8,9 +8,15 @@
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance
 
 # 代表性dp
-交大本科gpa 91，wxg实习
-
-普通985 is本科，gpa 89
+1. 交大本科gpa 91，wxg实习
+2. 普通985 is本科，gpa 89
+3. 合肥工业大学ee本科，六年全职工作经验，同时入读mits之前读了一个harvard extension school
+4. 复旦 is本科 gpa3.39, rank 7/35,有微软实习
+5. 南京大学软工本科gpa3.6,有sap 实习
+6. 美国空军学院 cs本科，minor 汉语
+7. jhu cs本科，本科期间有amazon  Security Engineer intern
+8. 复旦大学软工本科，gpa3.58,在腾讯、美团实习合计实习了十三个月
+9. 同济工科本科 gpa 90，minor ai
 
 # 课程
 很灵活，主要你想，基本可以做到非常sde，可以做到类似mscs/ds的课表。也可以做到非常水，进去就开始刷题，有点类似neu 匹兹堡版本。从今年找工的情况来看，cmu的reputation还是很高的，看不出来项目之间有明显差异。而且有一些公司比如adobe、apple、nvidia、databricks会直接从cmu捞人面
@@ -36,3 +42,10 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 ## 找工dp
 
 1. 南开cs本科，有两段旷世实习和qd实习，intern上岸splunk，ng上岸meta
+2. 合肥工业大学ee本科，六年全职工作经验，上岸uber senior，后跳槽到google
+3. 复旦 is本科 gpa3.39, rank 7/35,有微软实习， 上岸Mobi Systems ng
+4. 南京大学软工本科gpa3.6,有sap 实习，上岸oracle ng
+5.  jhu cs本科，本科期间有amazon  Security Engineer intern，return amazon intern，后上岸微软swe intern并且成功转正
+6. 复旦大学软工本科，gpa3.58,在腾讯、美团实习合计实习了十三个月，没找到美国实习，回国去字节实习。ng 上岸splunk 
+7. 同济工科本科 gpa 90 ,无实习上岸amazon
+8. 浙大cs本科，在招商银行实习了两个月，之后去字节实习了五个月，intern 上岸apple，ng 上岸goldman sachs
