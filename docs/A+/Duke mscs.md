@@ -16,6 +16,11 @@ OS / Network / Algorithm / Web Full Stack / Distributed System / Compiler / Arch
 2. 交大-umich cs本科（交大gpa 3.8,umich gpa 3.97）
 3. OSU CS本科 gpa 3.98,两年ta经历
 4. 宁波诺丁汉cs本科,gpa 3.97
+5. 印度本科gpa9.28，有印度google sde intern和一年google 全职经验
+6. Vanderbilt University cs+math本科 gpa3.922
+7. Wellesley College cs本科gpa3.78
+
+
 
 ## 找工情况
 diversity 拉满,有
@@ -30,6 +35,16 @@ Microsoft，Adobe，Salesforce上岸的。
 但是确实有进可读博，退可找工的先例。提到性价比，大家对duke的第一反应是太贵了，duke的选课灵活，虽然学费高昂，
 但可以3+3+4选课，最后一学期挂在学校，总共花费9w左右，ta情况是非常好找，
 一学期6200刀，校内有图书馆，食堂等勤工俭学机会，薪资1000刀每月。
+
+1. UCI CS本科无实习上岸meta swe intern
+2. 印度cs本科，google 一年全职，上岸
+   BotBuilt Machine Learning Intern
+3. Vanderbilt University cs+math本科 有pwc和搜狐短期实习，上岸salesforce swe intern
+4. 爱丁堡cs本科有MLE 实习，上岸  Syngenta Software Engineer Intern
+5. Wellesley College cs本科，有产品经理实习，上岸meta swe
+ 
+   
+
 ## RA和转博
 基本上只要找到教授愿意让你进组就有戏，CS系里的大多数教授每年都在从mscs项目里招新人进组,
 老师点头就能转phd，身边数量可观的dp都转了duke cs phd
