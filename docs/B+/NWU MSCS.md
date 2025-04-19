@@ -14,6 +14,7 @@ Evanston风景美，治安好，学校有钱，设施也不错，密歇根湖很
 1. NWU CS本科gpa3.95
 2. uci cs本科gpa3.85,uci+港中文一年半RA
 3. University of Rochester cs本科gpa3.6
+4. 北京工业大学信管本科，gpa3.92
 
 ## 找工情况
 career service可以说毫无帮助，找工一般，这个项目其实更适合读博/转phd
@@ -21,3 +22,10 @@ career service可以说毫无帮助，找工一般，这个项目其实更适合
 1. NWU CS本科，有腾讯在泰国base的实习和几段base 在泰国的小厂实习，上岸amazon intern并且转正
 2. University of Rochester cs本科 无实习，上岸小厂实习
 3. nyu上海本科，有苹果中国实习，上岸小厂实习
+4. vit cs本科，有印度小厂6个月实习，上岸Ecrio ng
+5. University at Buffalo cs本科有
+   Research Intern经历，上岸小厂SWE intern
+6. University of Miami cs本科，有bosch 和小厂swe intern，上岸小厂swe intern
+7. 多大cs本科，无实习，上岸 Fortinet Embedded Software Developer
+8. 北京工业大学信管本科，有Linkedin 中国pm实习，上岸amazon sde intern
+   
