@@ -9,6 +9,7 @@ workload全由选课决定，可以去penn course review上看difficulty，水�
 ## 录取bar 和dp
 比较友好，录取概率20%左右，gpa>87可冲
 
+1. Upenn ee 本科gpa3.9
 
 ## 找工
 搞软件同学很少，很少见找sde的，知道几个朋友去了完全不了解的硬件厂，我自己投FAANG没人理，可能是自己菜 :(
