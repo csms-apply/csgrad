@@ -14,9 +14,14 @@ CS Track 设有 Coursework、Project 和 Thesis 三种选项，但必修课仅 3
 Emory MSCS 项目录取bar相对较低，很多本科不是CS专业但是有一定编程和量化背景的都有机会被录取
 
 1. Emory cs本科gpa4.0
+2. iit cs本科gpa 8.68/10
 
-## 找工情况
+## 找工情况和dp
 Emory不算是招工氛围浓重的学校，很多Master学生会在找工和读博之间犹豫。Emory的Career Center和Career Fair基本没有作用。绝大多数中国学生会把MSCS项目作为申请phd的跳板，相当部分会毕业后留在Emory读博。
+
+1. 南方科技大学cs本科，有华为实习和莉莉丝游戏一年全职，上岸小厂intern
+2.
+Wake Forest University cs本科，国内百度+小厂两年实习经历（疫情时期可以remote），上岸aws sde intern
 
 ## 性价比
 项目学费约为每年5w美元，所有被MSCS项目录取的学生自动获得部分学费奖学金（30%-50%)。 亚特兰大整体消费不高，每月房租预算可以控制在1000-2000。
