@@ -161,8 +161,11 @@ const sidebars = {
       id: '转码项目',
       label: '转码项目合集',
     },
-
-
+    {
+      type: 'doc',
+      id: '找我辅导',
+      label: '找我辅导',
+    },
   ],
 };
 
