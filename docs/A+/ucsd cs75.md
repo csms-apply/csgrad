@@ -7,6 +7,10 @@ UCSD的CS 75是非常大众情人校的一个项目，在UC里面应该属于CS�
 
 UCB只有一年制项目MENG，UCLA的MSCS录取过难，且偏向科研，对就业并不友好，因此对就业同学来说sd 或许更好。
 
+从2025年开始，ucsd cs75提供coop，地理位置好+学费便宜+当ta减免一半学费+有coop，基本接近六边形项目了
+
+![cs75coop](/img/cs75coop.png)
+
 项目wld可以极其小✌️，认识的学长说，可以做到不去上课然后拿GPA 4.0（通过合理选课规避wld大的课程，比如选择CSE 258 - Recommender Systems and Web Mining这样的课程就wld很低）。当然，对于追求课程质量的同学来说，也可以选择喜欢的coding课程。（比如CSE 210 - Principles of Software Engineering，做一个全栈项目）
 
 UCSD位于圣地亚哥，旁边就是大海，坐拥海景房❤️。同时学校宿舍极其便宜且质量极其好，因此成为众多北美CS申请者的必申项目。和这个项目一起比较的经常还有CMU MSIN、UIUC MCS、UT AUSTIN SES、GT CSE
