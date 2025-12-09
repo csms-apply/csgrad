@@ -2,7 +2,7 @@
 # Caltech MSEE
 
 # 项目介绍
-LA天气无敌，学校title 无敌，录取人数远远少于stanford.  转码非常友好,135个毕业要求学分只有54个是需要ee class, 但是很多CS的课, 比如著名的156 learning system都是CS-EE. crosslabelled所以理论上可以全选CS的课毕业
+LA天气无敌，学校title 无敌，录取人数远远少于stanford.  转码非常友好,135个毕业要求学分只有54个是需要ee class, 但是很多CS的课, 比如著名的156 learning system都是CS-EE. cross labelled所以理论上可以全选CS的课毕业
 
 项目时长9个月，但是可以延期半年
 # 录取偏好
