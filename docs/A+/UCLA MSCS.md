@@ -6,15 +6,27 @@ ucla牌子大，在国内的话很认可。 ucla ms的class size 很小，可能
 ucla校内食堂真的很好吃，和本科生买swipe吃饭的话8刀吃到撑，中餐亚洲菜美洲菜都有。而且la 附近很繁华，westwood最近还又开了鲜芋仙。有时间还可以去南边sawtelle，有很好吃的铁板烧，蘸面，适合想吃日料的人
 
 # 录取dp 和bar
-人录取的比较少，基本在于UCLA本科生的4+1项目和海本的同学，确实录取难度很大，没有3.9+的海本或者国内TOP5或者科研背景很厉害进不来
+人录取的比较少，基本在于UCLA本科生的4+1项目和海本的同学，确实录取难度很大，没有3.9+的海本或者国内TOP5或者科研背景很厉害进不来 ( 在读生原话：”UCLA receives 3,000 to 4,000 applications per year but only admits around 120-150 students. Considering that 50-60 are internal CS undergrad transfers, the external admission rate drops to about 2%.“)
 
 1. San José State University cs 本科gpa3.93
+2. 韩国高丽大学cs+统计本科, cs本科gpa 4.17/4.5, sap工作两年
+3. 印度本科，gpa 9.41/10，bosch 
+4. wisc cs本科，gpa3.92
+5. ucla cs本科 gpa3.9
+6. asu cs本科 gpa4.0
+7. ucla cs本科gpa3.7
+
 # 找工情况
 career fair 近几年越发的没用，还是指望海投+内推吧。
 
 1. Amity University cs本科，印度工作两年，上岸amazon sde intern
 2. 台大ee本科，微软实习八个月，jp morgan mle full time
 3. San José State University cs 本科上岸小厂intern并且return
+4. 韩国高丽大学cs+统计本科,  sap工作两年, 上岸snowflake sde intern
+5. 印度本科，gpa 9.41/10，bosch 实习了半年，上岸adobe 并且return 
+6. 北大cs本科，量化实习+字节实习，上岸AppLovin
+7. ucla cs本科，有腾讯游戏的实习，上岸nvidia并且return
+
 
 # 转phd情况
 la 转PhD容易，只要教授点头就能转，认识ucla 本硕的同学就转了本校phd
