@@ -20,11 +20,19 @@ Wisc MSCS 项目和 Ph.D 一个 pool 所以非常难，这个 PMP 项目其实�
 有SDE全职经历录取概率大概能到85%，没有的话大概只有0.5%
 
 24 fall只有一个海本没有全职经验，其他基本都是国内大厂几年经验。
+
+1. uci cs本科gpa3.76
+2. 印度本科，美硕，纽约七年工作经验
+3. iit 本科，aws两年工作经验，之前在微软实习过
+4. 印度本科gpa8.3, 三星两年全职工作经历
+
 ## 找工情况
 没有同校peer pressure，且录取的同学几乎全部都有全职工作经历，上岸概率很难不好
 
 大厂实习 & Full-time 录取：
-Amazon（实习+Return Offer）
-Pinterest（实习+Return Offer）
-Facebook（实习+Return Offer）
-Dell EMC（实习+Return Offer）
+1. Amazon（实习+Return Offer）
+2. Pinterest（实习+Return Offer）
+3. Facebook（实习+Return Offer）
+4. Dell EMC（实习+Return Offer）
+5. iit 本科，aws两年工作经验，之前在微软实习过，上岸sf 小厂
+6. 印度本科gpa8.3, 三星两年全职工作经历，上岸amazon
