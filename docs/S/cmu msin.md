@@ -13,6 +13,13 @@ ini学院下面旗舰就业项目，可以拼出来跟cmu mscs差不多的课表
 2. 吉大软工本科，gpa 3.8，一段小厂实习
 3. 南开商科转码，有cs二专，cs专业gpa 94+
 4. 上交软工本科gpa top1, 多段qd实习
+5. 印度本科,gpa 9.33/10, Cisco 5年全职
+6. ucsd math+cs 本科， gpa3.905
+7. iit cs本科, 有gsoc 实习，在oracle 全职了两年
+8. 同济cs本科，gpa91.3, 有asml 实习
+9. 滑铁卢cs本科gpa95
+10. 华科cs本科, gpa 3.97/4
+11. 浙大cs本科， gpa3.95, 有阿里实习
 
 可以转码,有医学生（本科临床医学5年制）修完了计算机的先修课然后申请到msin的dp
 
@@ -28,8 +35,20 @@ ini学院下面旗舰就业项目，可以拼出来跟cmu mscs差不多的课表
 
 ![](/img/msincarrer.png)
 
+1. 电子科大本科，有小米实习和中国电信实习，去了加州小厂sde intern
+2. 印度本科,gpa 9.33/10, Cisco 印度5年全职，后来去了加州cisco 实习
+3. 深圳大学cs本科，在腾讯实习了四个月，tiktok 全职了9个月，上岸Meta sde intern, ng 回了tiktok 
+4. 同济cs本科，有asml 实习， 上岸snowflake
+5. 电子科大cs本科，微软实习7个月，上岸dbx并且return 
+6. 滑铁卢cs本科，有ebay coop和加拿大小厂coop，上岸nvidia 并且return 
+7. 华科cs本科, 联想6个月实习，阿里五个月实习，去了apple mle intern, ng 去了dbx
+8. 苏州大学cs本科，有小厂db 实习， 上岸amazon data engineer intern
+9. 浙大cs本科， gpa3.95, 有阿里实习， 上岸apple sde intern
+
 # ng找工情况
 即便是class of 2024这种地狱找工年，ng 出路也是不错，一方面是因为cmu cs的名声全美都认可，另一方面也是因为招收的人能力都足够，找到工作的比例是91%。上岸大厂的多一点，比如Apple, oracle, tiktok, adobe。25ng ini和scs ng 很多上岸dbx和雪花的。
+
+1. 电子科大cs本科，微软实习了十个月，amazon 实习了8个月，上岸google
 
 ![](/img/msinngcarrer.png)
 

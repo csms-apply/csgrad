@@ -13,8 +13,16 @@ connect很紧密的系，经常会有很多活动和seminar，大家都很熟悉
 3. iit cs本科 gpa3.92, faang rs intern，2 篇Pub
 4. iit cs本科 gpa3.88，一篇Pub
 5. 国际生gpa3.97, msml phd降录
-
+6. 印度本科，gpa 9.5/10, 有mitacs research intern
+7. uw cs+ 统计本科，gpa3.9，多段美国 ai research intern
+8. wpi cs本科 gpa 4.0, 在harvard medical school 当过两年三个月的RA
+9. tamu cs本科gpa 4.0, facebook实习
+10. 印度本科，gpa 9.47 rk1, 在nus, iit, harvard当过长时间的RA
+11. 印度本科，gpa 9.52, 多段ML 实习， 其中包括在intel的
+12. 印度本科，walmart+ 微软三年全职工作经验
 ## 找工dp
 主要出路是SDE和MLE，基本都是top faang大厂上岸的，apple 3人，google 3人，
 meta 3人, msft 3人，citadel 1人，Linkedin 1人，Open AI 1人
 
+1. 剑桥三年毕业，有多段小厂实习，上岸bytedance
+2. tamu cs本科 facebook实习， 后来回了meta 做llm post training
