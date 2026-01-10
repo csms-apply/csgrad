@@ -6,6 +6,18 @@ SV的校园是只有一层楼，两间教室，听起来比较寒酸，但自习
 
 general的学生可以延期一学期到28个月，neu 多数课程给分比较水，比较适合找工作,比如Mobile Application 5520 ，Computer Networks 5700 David，Building Scalable Distributed System 6650 Prasad，找工时候可以选点水课
 
+# 开设的校区
+
+开设 MSCS（包括常规 MSCS 和 Align 版本）的校区：
+
+1. Boston, MA（主校区，最传统、最全面，通常资源最丰富，适合转Phd）
+2. Seattle, WA（西雅图校区，科技公司密集，就业机会强，偶尔有 25% 左右奖学金）
+3. Silicon Valley, CA（圣何塞/硅谷校区，靠近科技巨头）
+4. Oakland, CA（奥克兰校区，一般给比较多的奖学金，baseline 15% + merit up to 25%）
+5. Arlington, VA（弗吉尼亚阿灵顿校区，靠近华盛顿DC）
+6. Miami, FL（迈阿密校区，部分学期开放）
+7. Vancouver, BC（加拿大温哥华校区，国际学生热门选择，科技行业发达）
+8. Portland, ME（缅因州波特兰校区，有些学生反馈 $25k 固定奖）
 
 # 录取dp
 往年来看比较random，只要够到录取标准了就可以开始抽。(25 fall开始热度有所降低，bar开始变低)
