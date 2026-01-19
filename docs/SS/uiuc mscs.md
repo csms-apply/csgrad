@@ -2,7 +2,7 @@
 
 ## 项目介绍
 
-UIUC 下面的王牌旗舰项目，可以当成phd申请，最好申请前陶瓷。fully funded, target phd。本校生有5year bs-ms项目，读的就是MSCS
+UIUC 下面的王牌旗舰项目，可以当成phd申请，最好申请前陶瓷。fully funded, target phd。本校生有5year bs-ms项目，读的就是MSCS（review 注：一些25 fall朋友反馈， UIUC MSCS已经不再保证fully funded，这样看来性价比有所降低）
 
 
 
