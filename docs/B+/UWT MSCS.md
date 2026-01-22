@@ -39,12 +39,12 @@ average录取gpa3.5, TOEFL 要求相对较低，92 分就能申请，整体偏�
 ## uwt 和 uwb对比
 | 维度 | UW Bothell MSCSSE | UW Tacoma MSCSS | 对比结论 |
 |------|-----------------|----------------|-----------|
-| 地理位置 | 离Seattle/东区（Redmond、Bellevue、Kirkland）约20-40分钟车程，靠近Microsoft总部、Amazon部分办公室、Google等 | 离Seattle约45-60分钟，离东区更远（1小时+） | Bothell更好|
-| 学校官方就业数据 | 90.3%毕业生毕业时或6个月内就业；多数在毕业前/后6个月内收到offer；平均薪资涨幅45%；很多从低薪跳到$100k+（官网数据 uwb.edu/stem/graduate/mscsse/careers） | 无具体公开硕士级百分比数据，但官网称毕业生进Microsoft、Amazon、Google等（uwt.edu无详细报告） | Bothell更好 |
-| 目标公司 & 招聘便利 | 更靠近东区科技巨头，recruiter更常去Bothell；晚上课程+在职友好，利于边工作边读（常见路径：intern → full-time） | 毕业生也进大厂，但靠个人项目/自推更多；南区（Boeing、一些defense）机会稍多 | Bothell更好|
-| 简历筛选 & HR认知 | 写“University of Washington MS in Computer Science & Software Engineering”——HR基本不细分校区，都认UW | 写“University of Washington MS in Computer Science & Systems”——同样认UW | 平手 |
-| 整体就业竞争力 | 对大多数想进西雅图大厂（Amazon、Microsoft、Google等）的新卒/转码/在职提升的人，更有优势（90.3%就业率+位置edge） | 如果偏cybersecurity/data science/系统底层，或预算/生活成本优先，也能找到好工作，但平均需要更多LeetCode/项目/自推 | Bothell更推荐 |
-| 租房价格（大致） | Bothell租金相对较高——一室约$1,775‑$2,100/月，二室约$2,400+/月，三室及以上可到$3,000+（平均约$2,2k‑$2,4k） | Tacoma租金更低——一室约$1,250+/月，二室约$1,784+/月，三室约$2,200+/月，平均约$1,4k‑$1,6k | Tacoma更便宜、生活成本更低 |
-| 整体就业竞争力 | 对大多数想进西雅图大厂（Amazon、Microsoft、Google等）的新卒/转码/在职提升的人，更有优势（90.3%就业率+位置edge） | 如果偏cybersecurity/data science/系统底层，或预算/生活成本优先，也能找到好工作，但平均需要更多LeetCode/项目/自推 | Bothell更推荐（主流找工场景） |
+| 地理位置 | 离Seattle约20-40分钟车程，靠近Microsoft总部、Amazon部分办公室、Google等 | 离Seattle约45-60分钟，离东区更远（1小时+） | Bothell更好|
+| 学校官方就业数据 | 90.3%毕业生毕业时或6个月内就业；（官网数据 uwb.edu/stem/graduate/mscsse/careers） | 无具体公开硕士级百分比数据，但官网称毕业生进Microsoft、Amazon、Google等（uwt.edu无详细报告） | Bothell更好 |
+| 目标公司 & 招聘便利 | 更靠近东区科技巨头，recruiter更常去Bothell；晚上课程+在职友好，利于边工作边读（常见路径：intern → full-time） | 毕业生也进大厂，但得得自驱力有要求 | Bothell更好|
+| 简历关 | 写“University of Washington MS in Computer Science & Software Engineering”——HR基本不细分校区，都认UW | 写“University of Washington MS in Computer Science & Systems”——同样认UW | 平手 |
+| 整体就业竞争力 | 对大多数想进西雅图大厂（Amazon、Microsoft、Google等）的人，更有优势（90.3%就业率+位置edge） | 如果偏cybersecurity/data science/系统底层，或预算/生活成本优先，也能找到好工作，但平均需要更多LeetCode/项目/自推 | Bothell更推荐 |
+| 租房价格（大致） | Bothell租金相对较高——一室约$1,775‑$2,100/月，二室约$2,400+/月，三室及以上可到$3,000+（平均约$2,2k‑$2,4k） | Tacoma租金更低——一室约$1,250+/月，二室约$1,784+/月，三室约$2,200+/月，平均约$1,4k‑$1,6k | Tacoma更便宜 |
+
 
 结论：都申请，找工向去uwb，控制预算去uwt
