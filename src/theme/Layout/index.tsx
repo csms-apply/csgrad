@@ -5,6 +5,7 @@ import { JSX } from 'react/jsx-runtime';
 
 export default function Layout(props: JSX.IntrinsicAttributes) {
 useEffect(() => {
+
     // 1. 拦截复制
     const onCopy = (e: ClipboardEvent) => {
       const selection = window.getSelection()?.toString();
