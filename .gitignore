@@ -3,3 +3,4 @@ node_modules
 build
 .docusaurus
 .DS_Store
+src/theme/Layout/
