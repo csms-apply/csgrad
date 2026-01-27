@@ -9,7 +9,11 @@ mpcs是转码项目，在地里的名声并不好。综排高，专排低。课�
 地里有人用这个来论述uchicago的就业豪华，个人认为因为2021就是就业盛世。有著名的"4道题上岸亚麻"神话。读博出路的话，mpcs 有pre-doc选项，有认识的uu通过这个选项选到了合适的老师，并且免了一半的学费(实现了用gt的学费来读uchi的壮举！)
 
 track分为9 month track和15 month track，可以灵活转换，如果找到了fulltime swe可以转到9 month track提前走人， 据说往年可以秋季实习（类似于coop），实际操作时候需要和学校确认一下
-	
+
+录取玄学，在录取放榜前一天，如果你的界面右上角出现了attention international student字样，就是被录取了
+
+![](/img/uchi.png)
+
 # 优点
 学校排名高，中部第一名校
 项目wld小，方便刷题
@@ -42,6 +46,7 @@ dp:
 5. McGill University bio/cs本科gpa3.41
 6. umich cs本科gpa3.9，有小厂intern
 7. 北大城市建设本科，gpa3.85,upenn 城建gpa3.7, uch mpcs是她的二硕
+
 
 # 找工dp
 uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是很大，同学有很多都是早已经上班的，也不会跟你竞争找intern/ng，甚至还可以直接线下要refer。（mpcs和cmu的大部分项目应该是完全相反的两种dp）。前两年（指22年），meta在uchicago mpcs招人很多，也招了很多非cs本科的同学，从身边采样法来看，不会因为uchicago 的名字而失去机会，身边朋友bg好的基本都有很多面试
