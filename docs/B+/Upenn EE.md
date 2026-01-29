@@ -6,6 +6,13 @@
 bar低且title好，不过必须选五门ESE开头的课，其余选课自由。要是跟我一样一点硬件都不懂可以选ESE下的数学，优化，ML，但是都很高阶，会很神（但跟sde没关系，毕竟是纯血EE项目）。当然也有让你毕业的水课。可以转/dual CS/其他项目也方便，bg好可以用来当保底，或者申隔壁的scmp当保底
 
 workload全由选课决定，可以去penn course review上看difficulty，水课不用露面，硬核也能选CIS
+
+转专业流程：
+
+1️⃣ 先跟DATS的advisor聊，确认对方program愿意接收
+2️⃣ 提交internal transfer申请（不需要重新走admission，主要看选课和gpa,转DS的话ese5420 cis5450 ese5000， 完全不需要cis5450和cis5190/5200都选上）
+3️⃣ Graduate Affairs审批
+4️⃣ 等Registrar更新系统（邮件说7-10个工作日）
 ## 录取bar 和dp
 比较友好，录取概率20%左右，gpa>87可冲
 
