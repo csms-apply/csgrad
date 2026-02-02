@@ -6,6 +6,8 @@
 这八个部门合办，非cs项目，如果想申请纯血CS项目可以左转MIT EECS系。MIT CSE
 也是fully funded，无需做TA即可享受全奖+3k stipend
 
+MIT CSE目前已停止招生，何时招生外校的不确定(26fall update):
+![](/img/mitcse)
 
 ## 录取bar 和dp
 每年招生hc大概在15人左右
