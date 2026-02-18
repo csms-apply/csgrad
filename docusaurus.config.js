@@ -95,6 +95,11 @@ const config = {
           label: 'DataPoints',
         },
           {
+            to: '/tracker',
+            position: 'left',
+            label: '申请跟踪',
+          },
+          {
             href: 'https://github.com/csms-apply/csms-apply.github.io',
             label: 'GitHub',
             position: 'right',
