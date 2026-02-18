@@ -25,6 +25,14 @@ const config = {
   organizationName: 'csms-apply', // Usually your GitHub org/user name.
   projectName: 'csgrad', // Usually your repo name.
 
+  scripts: [
+    {
+      src: 'https://gc.zgo.at/count.js',
+      async: true,
+      'data-goatcounter': 'https://csgrad.goatcounter.com/count',
+    },
+  ],
+
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
