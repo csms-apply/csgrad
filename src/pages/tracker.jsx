@@ -513,7 +513,7 @@ export default function TrackerPage() {
   const [activeCard, setActiveCard] = useState(null);
   const [showAddModal, setShowAddModal] = useState(null); // null or column id
   const [showEditModal, setShowEditModal] = useState(null); // null or card object
-  const [showLibrary, setShowLibrary] = useState(false);
+  const [showLibrary, setShowLibrary] = useState(null); // null or column id string
   const [showConfirm, setShowConfirm] = useState(null); // null or card id
   const [sortBy, setSortBy] = useState('manual');
   const fileInputRef = useRef(null);
@@ -640,7 +640,11 @@ export default function TrackerPage() {
 
   // Card CRUD
   const handleAddCard = (columnId) => {
-    const card = makeEmptyCard(columnId);
+    setShowLibrary(columnId);
+  };
+
+  const handleAddCustomCard = () => {
+    const card = makeEmptyCard('reach');
     setShowAddModal(card);
   };
 
@@ -672,8 +676,9 @@ export default function TrackerPage() {
 
   // Library import
   const handleImportFromLibrary = (program) => {
+    const column = showLibrary || 'reach';
     const card = {
-      ...makeEmptyCard('target'),
+      ...makeEmptyCard(column),
       id: genId(),
       school: program.school,
       program: program.program,
@@ -786,7 +791,7 @@ export default function TrackerPage() {
           <div className={styles.toolbarRight}>
             <button
               className={`${styles.actionBtn} ${styles.importBtn}`}
-              onClick={() => handleAddCard('reach')}
+              onClick={handleAddCustomCard}
             >
               + 添加自定义项目
             </button>
@@ -842,7 +847,7 @@ export default function TrackerPage() {
             programs={programs}
             existingIds={existingLibraryIds}
             onImport={handleImportFromLibrary}
-            onClose={() => setShowLibrary(false)}
+            onClose={() => setShowLibrary(null)}
           />
         )}
         {showConfirm && (
