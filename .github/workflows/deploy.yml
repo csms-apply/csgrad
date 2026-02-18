@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Generate programs.json
+        run: node scripts/generate-programs.js
+
       - name: Build Docusaurus site
         run: npm run build
 
