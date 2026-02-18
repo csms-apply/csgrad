@@ -1,12 +1,39 @@
 import React, { useState, useEffect } from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
+import { translate } from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 const LIGHT_COLORS = ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
 const DARK_COLORS  = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'];
 
-const MONTHS = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
-const DAY_LABELS = ['周一', '', '周三', '', '周五', '', ''];
+function getMonths() {
+  return [
+    translate({ id: 'heatmap.month.1', message: '1月' }),
+    translate({ id: 'heatmap.month.2', message: '2月' }),
+    translate({ id: 'heatmap.month.3', message: '3月' }),
+    translate({ id: 'heatmap.month.4', message: '4月' }),
+    translate({ id: 'heatmap.month.5', message: '5月' }),
+    translate({ id: 'heatmap.month.6', message: '6月' }),
+    translate({ id: 'heatmap.month.7', message: '7月' }),
+    translate({ id: 'heatmap.month.8', message: '8月' }),
+    translate({ id: 'heatmap.month.9', message: '9月' }),
+    translate({ id: 'heatmap.month.10', message: '10月' }),
+    translate({ id: 'heatmap.month.11', message: '11月' }),
+    translate({ id: 'heatmap.month.12', message: '12月' }),
+  ];
+}
+
+function getDayLabels() {
+  return [
+    translate({ id: 'heatmap.day.mon', message: '周一' }),
+    '',
+    translate({ id: 'heatmap.day.wed', message: '周三' }),
+    '',
+    translate({ id: 'heatmap.day.fri', message: '周五' }),
+    '',
+    '',
+  ];
+}
 
 function getLevel(count) {
   if (count === 0)   return 0;
@@ -55,6 +82,9 @@ export default function VisitorHeatmap() {
   const isDark = colorMode === 'dark';
   const COLORS = isDark ? DARK_COLORS : LIGHT_COLORS;
 
+  const MONTHS = getMonths();
+  const DAY_LABELS = getDayLabels();
+
   const [data, setData] = useState({});
   const [lastUpdated, setLastUpdated] = useState('');
   const [tooltip, setTooltip] = useState(null);
@@ -87,10 +117,18 @@ export default function VisitorHeatmap() {
     <div className={styles.container}>
       <div className={styles.header}>
         <span>
-          近一年共 <strong>{total.toLocaleString()}</strong> 次访问
+          {translate(
+            { id: 'heatmap.totalVisits', message: '近一年共 {count} 次访问' },
+            { count: total.toLocaleString() }
+          )}
         </span>
         {lastUpdated && (
-          <span className={styles.updated}>数据更新于 {lastUpdated}</span>
+          <span className={styles.updated}>
+            {translate(
+              { id: 'heatmap.lastUpdated', message: '数据更新于 {date}' },
+              { date: lastUpdated }
+            )}
+          </span>
         )}
       </div>
 
@@ -129,7 +167,10 @@ export default function VisitorHeatmap() {
                   const key = toDateStr(date);
                   const count = data[key] || 0;
                   const level = getLevel(count);
-                  const label = `${date.getMonth() + 1}月${date.getDate()}日: ${count} 次访问`;
+                  const label = translate(
+                    { id: 'heatmap.tooltip', message: '{month}月{day}日: {count} 次访问' },
+                    { month: date.getMonth() + 1, day: date.getDate(), count }
+                  );
                   return (
                     <div
                       key={dayIdx}
@@ -158,11 +199,11 @@ export default function VisitorHeatmap() {
       )}
 
       <div className={styles.legend}>
-        <span>少</span>
+        <span>{translate({ id: 'heatmap.legend.less', message: '少' })}</span>
         {COLORS.map((color, i) => (
           <div key={i} className={styles.legendCell} style={{ backgroundColor: color }} />
         ))}
-        <span>多</span>
+        <span>{translate({ id: 'heatmap.legend.more', message: '多' })}</span>
       </div>
     </div>
   );

@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.SSS": {
+    "message": "SSS",
+    "description": "The label for category SSS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.SS": {
+    "message": "SS",
+    "description": "The label for category SS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.S": {
+    "message": "S",
+    "description": "The label for category S in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.A+": {
+    "message": "A+",
+    "description": "The label for category A+ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.A": {
+    "message": "A",
+    "description": "The label for category A in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.A-": {
+    "message": "A-",
+    "description": "The label for category A- in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.B+": {
+    "message": "B+",
+    "description": "The label for category B+ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.B": {
+    "message": "B",
+    "description": "The label for category B in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.B-": {
+    "message": "B-",
+    "description": "The label for category B- in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.C+": {
+    "message": "C+",
+    "description": "The label for category C+ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.有用的文档": {
+    "message": "Useful Docs",
+    "description": "The label for category 有用的文档 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.intro": {
+    "message": "Introduction",
+    "description": "The label for the doc item intro in sidebar tutorialSidebar, linking to the doc intro"
+  },
+  "sidebar.tutorialSidebar.doc.转码项目合集": {
+    "message": "Career Change Programs",
+    "description": "The label for the doc item 转码项目合集 in sidebar tutorialSidebar, linking to the doc 转码项目"
+  },
+  "sidebar.tutorialSidebar.doc.找我辅导": {
+    "message": "Consulting",
+    "description": "The label for the doc item 找我辅导 in sidebar tutorialSidebar, linking to the doc 找我辅导"
+  }
+}
