@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "cs grad",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "CS Grad Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.项目介绍": {
+    "message": "Programs",
+    "description": "Navbar item with label 项目介绍"
+  },
+  "item.label.DataPoints": {
+    "message": "DataPoints",
+    "description": "Navbar item with label DataPoints"
+  },
+  "item.label.申请跟踪": {
+    "message": "Tracker",
+    "description": "Navbar item with label 申请跟踪"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
