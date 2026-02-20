@@ -32,7 +32,10 @@ export default function DocItemWrapper(props) {
     container.style.marginTop = "2rem";
     container.appendChild(script);
 
-    document.querySelector(".theme-doc-markdown").appendChild(container);
+    const markdownEl = document.querySelector(".theme-doc-markdown");
+    if (markdownEl) {
+      markdownEl.insertAdjacentElement("afterend", container);
+    }
   }, [colorMode]);
 
   return <DocItem {...props} />;
