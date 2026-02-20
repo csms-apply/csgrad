@@ -1,0 +1,15 @@
+name = "csgrad-report-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Set these via `wrangler secret put`:
+# SEATABLE_API_TOKEN
+# SEATABLE_BASE_UUID
+# HMAC_SECRET
+
+[[kv_namespaces]]
+binding = "REDEMPTION_CODES"
+id = "16e450993b924f5e8c8b1a63a461c1b5"
+# Create with: wrangler kv:namespace create "REDEMPTION_CODES"
+# Then replace the id above

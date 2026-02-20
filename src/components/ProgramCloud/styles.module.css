@@ -1,0 +1,40 @@
+.cloudContainer {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.canvas {
+  width: 100%;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+[data-theme='dark'] .canvas {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+[data-theme='dark'] .legend {
+  color: #aaa;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
