@@ -1,18 +1,14 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import Translate, { translate } from '@docusaurus/Translate';
-import {
-  ComposableMap,
-  Geographies,
-  Geography,
-} from 'react-simple-maps';
 import styles from './styles.module.css';
 
 const GEO_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
 
-// Color scale: light → dark blue
+// Color scale: light -> dark blue
 const COLOR_SCALE = ['#dbeafe', '#93c5fd', '#3b82f6', '#1d4ed8', '#1e3a8a'];
 
-// ISO alpha-2 → numeric code mapping (GA4 uses alpha-2, TopoJSON uses numeric)
+// ISO alpha-2 -> numeric code mapping (GA4 uses alpha-2, TopoJSON uses numeric)
 const ALPHA2_TO_NUMERIC = {
   AF:'004',AL:'008',DZ:'012',AS:'016',AD:'020',AO:'024',AG:'028',AR:'032',
   AM:'051',AU:'036',AT:'040',AZ:'031',BS:'044',BH:'048',BD:'050',BB:'052',
@@ -53,22 +49,106 @@ function computeThresholds(counts) {
   if (counts.length === 0) return [1, 5, 20, 100, 500];
   const max = Math.max(...counts);
   if (max <= 5) return [1, 2, 3, 4, 5];
-  // Log-scale thresholds
   const logMax = Math.log10(max);
   return COLOR_SCALE.map((_, i) =>
     Math.max(1, Math.round(Math.pow(10, (logMax * (i + 1)) / COLOR_SCALE.length)))
   );
 }
 
-export default function VisitorGeoMap() {
-  const [data, setData] = useState(null);
+// Convert TopoJSON to GeoJSON features (inline to avoid topojson-client dependency)
+function topoFeatures(topology, objectName) {
+  const obj = topology.objects[objectName];
+  const arcs = topology.arcs;
+  const transform = topology.transform;
+
+  function decodeArc(arcIndex) {
+    const reverse = arcIndex < 0;
+    const index = reverse ? ~arcIndex : arcIndex;
+    const arc = arcs[index];
+    const coords = [];
+    let x = 0, y = 0;
+    for (const point of arc) {
+      x += point[0];
+      y += point[1];
+      coords.push([
+        transform ? x * transform.scale[0] + transform.translate[0] : x,
+        transform ? y * transform.scale[1] + transform.translate[1] : y,
+      ]);
+    }
+    if (reverse) coords.reverse();
+    return coords;
+  }
+
+  function decodeRing(ring) {
+    const coords = [];
+    for (const arcIndex of ring) {
+      const arcCoords = decodeArc(arcIndex);
+      // skip first point of subsequent arcs to avoid duplicates
+      const start = coords.length > 0 ? 1 : 0;
+      for (let i = start; i < arcCoords.length; i++) {
+        coords.push(arcCoords[i]);
+      }
+    }
+    return coords;
+  }
+
+  function decodeGeometry(geom) {
+    switch (geom.type) {
+      case 'Polygon':
+        return { type: 'Polygon', coordinates: geom.arcs.map(decodeRing) };
+      case 'MultiPolygon':
+        return {
+          type: 'MultiPolygon',
+          coordinates: geom.arcs.map(poly => poly.map(decodeRing)),
+        };
+      default:
+        return geom;
+    }
+  }
+
+  if (obj.type === 'GeometryCollection') {
+    return obj.geometries.map(geom => ({
+      type: 'Feature',
+      id: geom.id,
+      properties: geom.properties || {},
+      geometry: decodeGeometry(geom),
+    }));
+  }
+  return [];
+}
+
+function GeoMapInner() {
+  const [geoData, setGeoData] = useState(null);
+  const [visitorData, setVisitorData] = useState(null);
   const [tooltip, setTooltip] = useState(null);
+  const [pathGenerator, setPathGenerator] = useState(null);
+  const svgRef = useRef(null);
+
+  // Dynamically import d3-geo (client-side only)
+  useEffect(() => {
+    import('d3-geo').then((d3Geo) => {
+      const projection = d3Geo.geoNaturalEarth1()
+        .scale(147)
+        .translate([400, 200]);
+      setPathGenerator(() => d3Geo.geoPath(projection));
+    });
+  }, []);
+
+  useEffect(() => {
+    fetch(GEO_URL)
+      .then(r => r.json())
+      .then(topo => {
+        const features = topoFeatures(topo, 'countries');
+        setGeoData(features);
+      })
+      .catch(() => setGeoData([]));
+  }, []);
 
   useEffect(() => {
     fetch('/data/visitor-geo.json')
-      .then((r) => r.json())
-      .then(setData)
-      .catch(() => setData({ countries: {}, regions: {} }));
+      .then(r => r.json())
+      .then(setVisitorData)
+      .catch(() => setVisitorData({ countries: {}, regions: {} }));
   }, []);
 
   const handleHover = useCallback((name, count, e) => {
@@ -85,7 +165,7 @@ export default function VisitorGeoMap() {
     setTooltip(null);
   }, []);
 
-  if (!data) {
+  if (!geoData || !visitorData || !pathGenerator) {
     return (
       <div className={styles.loading}>
         <Translate id="visitorGeo.loading">加载地图中...</Translate>
@@ -93,21 +173,19 @@ export default function VisitorGeoMap() {
     );
   }
 
-  const countries = data.countries || {};
-  const regions = data.regions || {};
+  const countries = visitorData.countries || {};
+  const regions = visitorData.regions || {};
   const countryCount = Object.keys(countries).length;
   const regionCount = Object.keys(regions).length;
 
-  // Build numeric-code → count lookup
   const numericLookup = {};
   for (const [alpha2, count] of Object.entries(countries)) {
     const num = ALPHA2_TO_NUMERIC[alpha2];
     if (num) numericLookup[num] = count;
   }
 
-  const counts = Object.values(countries).filter((v) => v > 0);
+  const counts = Object.values(countries).filter(v => v > 0);
   const thresholds = computeThresholds(counts);
-
   const hasData = countryCount > 0;
 
   return (
@@ -128,42 +206,34 @@ export default function VisitorGeoMap() {
       )}
 
       <div className={styles.mapWrapper}>
-        <ComposableMap
-          projectionConfig={{ scale: 147 }}
-          width={800}
-          height={400}
-          style={{ width: '100%', height: 'auto' }}
+        <svg
+          ref={svgRef}
+          viewBox="0 0 800 400"
+          style={{ width: '100%', height: 'auto', display: 'block' }}
         >
-          <Geographies geography={GEO_URL}>
-            {({ geographies }) =>
-              geographies.map((geo) => {
-                const numId = geo.id;
-                const count = numericLookup[numId] || 0;
-                const fill = getColor(count, thresholds);
-                const countryName = geo.properties.name;
-                return (
-                  <Geography
-                    key={geo.rsmKey}
-                    geography={geo}
-                    fill={fill}
-                    stroke="#d0c4b0"
-                    strokeWidth={0.5}
-                    style={{
-                      default: { outline: 'none' },
-                      hover: { fill: count ? '#60a5fa' : '#ddd4c6', outline: 'none' },
-                      pressed: { outline: 'none' },
-                    }}
-                    onMouseEnter={(e) => handleHover(countryName, count, e)}
-                    onMouseLeave={handleLeave}
-                  />
-                );
-              })
-            }
-          </Geographies>
-        </ComposableMap>
+          {geoData.map((feature, i) => {
+            const numId = feature.id;
+            const count = numericLookup[numId] || 0;
+            const fill = getColor(count, thresholds);
+            const countryName = feature.properties.name || `Country ${numId}`;
+            const d = pathGenerator(feature.geometry);
+            if (!d) return null;
+            return (
+              <path
+                key={numId || i}
+                d={d}
+                fill={fill}
+                stroke="#d0c4b0"
+                strokeWidth={0.5}
+                onMouseEnter={(e) => handleHover(countryName, count, e)}
+                onMouseLeave={handleLeave}
+                style={{ cursor: 'pointer' }}
+              />
+            );
+          })}
+        </svg>
       </div>
 
-      {/* Tooltip */}
       {tooltip && (
         <div
           className={styles.tooltip}
@@ -181,7 +251,6 @@ export default function VisitorGeoMap() {
         </div>
       )}
 
-      {/* Legend */}
       {hasData && (
         <div className={styles.legend}>
           <span>
@@ -202,5 +271,13 @@ export default function VisitorGeoMap() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function VisitorGeoMap() {
+  return (
+    <BrowserOnly fallback={<div className={styles.loading}>加载地图中...</div>}>
+      {() => <GeoMapInner />}
+    </BrowserOnly>
   );
 }
