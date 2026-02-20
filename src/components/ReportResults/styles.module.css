@@ -1,0 +1,304 @@
+.results {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ---- Stats Bar ---- */
+.statsBar {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  border: 1px solid rgba(201, 169, 110, 0.15);
+}
+
+[data-theme='dark'] .statsBar {
+  background: rgba(42, 37, 32, 0.7);
+  border-color: rgba(74, 64, 53, 0.3);
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+}
+
+.statValue {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #c9a96e;
+}
+
+.statLabel {
+  font-size: 0.78rem;
+  color: #8a7a6a;
+  margin-top: 2px;
+}
+
+[data-theme='dark'] .statLabel {
+  color: #a09080;
+}
+
+/* ---- Profile Summary ---- */
+.profileSummary {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6a5a4a;
+  margin-bottom: 24px;
+  padding: 12px 20px;
+  background: rgba(201, 169, 110, 0.08);
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .profileSummary {
+  color: #b0a090;
+  background: rgba(201, 169, 110, 0.06);
+}
+
+/* ---- Category Section ---- */
+.categorySection {
+  margin-bottom: 24px;
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-left: 4px solid;
+  margin-bottom: 8px;
+}
+
+.categoryIcon {
+  font-size: 0.9rem;
+}
+
+.categoryLabel {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #5a4a3a;
+}
+
+[data-theme='dark'] .categoryLabel {
+  color: #e8ddd0;
+}
+
+.categoryCount {
+  font-size: 0.82rem;
+  color: #8a7a6a;
+  margin-left: auto;
+}
+
+[data-theme='dark'] .categoryCount {
+  color: #a09080;
+}
+
+.reachNote {
+  font-size: 0.82rem;
+  color: #999;
+  font-style: italic;
+  margin: 0 0 8px 20px;
+}
+
+[data-theme='dark'] .reachNote {
+  color: #888;
+}
+
+/* ---- Program Card ---- */
+.categoryBody {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.programCard {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  border: 1px solid rgba(201, 169, 110, 0.12);
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+}
+
+[data-theme='dark'] .programCard {
+  background: rgba(42, 37, 32, 0.75);
+  border-color: rgba(74, 64, 53, 0.25);
+}
+
+.programCard:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.programHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  gap: 12px;
+}
+
+.programInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.programSchool {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #4a3a2a;
+}
+
+[data-theme='dark'] .programSchool {
+  color: #e0d4c4;
+}
+
+.programName {
+  font-size: 0.85rem;
+  color: #7a6a5a;
+}
+
+[data-theme='dark'] .programName {
+  color: #a09080;
+}
+
+.programTier {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(201, 169, 110, 0.12);
+  color: #8a7a6a;
+}
+
+[data-theme='dark'] .programTier {
+  background: rgba(201, 169, 110, 0.08);
+  color: #a09080;
+}
+
+.programStats {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.rateLabel {
+  font-size: 0.78rem;
+  color: #8a7a6a;
+}
+
+[data-theme='dark'] .rateLabel {
+  color: #a09080;
+}
+
+.rateValue {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.rateFraction {
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.expandIcon {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-left: 4px;
+}
+
+/* ---- Datapoints Table ---- */
+.datapointsList {
+  border-top: 1px solid rgba(201, 169, 110, 0.1);
+  padding: 8px 16px 12px;
+  font-size: 0.8rem;
+}
+
+[data-theme='dark'] .datapointsList {
+  border-top-color: rgba(74, 64, 53, 0.25);
+}
+
+.datapointsHeader {
+  display: grid;
+  grid-template-columns: 1.2fr 0.6fr 0.8fr 0.5fr 0.8fr;
+  gap: 8px;
+  padding: 6px 0;
+  font-weight: 600;
+  color: #7a6a5a;
+  border-bottom: 1px solid rgba(201, 169, 110, 0.1);
+}
+
+[data-theme='dark'] .datapointsHeader {
+  color: #a09080;
+  border-bottom-color: rgba(74, 64, 53, 0.2);
+}
+
+.datapointRow {
+  display: grid;
+  grid-template-columns: 1.2fr 0.6fr 0.8fr 0.5fr 0.8fr;
+  gap: 8px;
+  padding: 5px 0;
+  color: #6a5a4a;
+}
+
+[data-theme='dark'] .datapointRow {
+  color: #b0a090;
+}
+
+.datapointRow:nth-child(even) {
+  background: rgba(201, 169, 110, 0.04);
+}
+
+.resultAdmit {
+  color: #45b060;
+  font-weight: 600;
+}
+
+.resultReject {
+  color: #e05040;
+}
+
+/* ---- Disclaimer ---- */
+.disclaimer {
+  font-size: 0.78rem;
+  color: #aaa;
+  text-align: center;
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(201, 169, 110, 0.1);
+}
+
+[data-theme='dark'] .disclaimer {
+  color: #777;
+  border-top-color: rgba(74, 64, 53, 0.2);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .statsBar {
+    gap: 12px;
+    padding: 16px;
+  }
+  .statItem {
+    min-width: 80px;
+  }
+  .programHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .datapointsHeader,
+  .datapointRow {
+    grid-template-columns: 1fr 0.5fr 0.7fr 0.4fr 0.6fr;
+    font-size: 0.72rem;
+    gap: 4px;
+  }
+}

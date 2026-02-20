@@ -1,0 +1,169 @@
+.form {
+  max-width: 520px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(201, 169, 110, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme='dark'] .form {
+  background: rgba(42, 37, 32, 0.85);
+  border-color: rgba(74, 64, 53, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.formTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #5a4a3a;
+  margin: 0 0 4px;
+  text-align: center;
+}
+
+[data-theme='dark'] .formTitle {
+  color: #e8ddd0;
+}
+
+.formSubtitle {
+  font-size: 0.85rem;
+  color: #8a7a6a;
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+[data-theme='dark'] .formSubtitle {
+  color: #a09080;
+}
+
+.fieldRow {
+  display: flex;
+  gap: 12px;
+}
+
+.fieldRow > .fieldGroup {
+  flex: 1;
+}
+
+.fieldGroup {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #5a4a3a;
+  margin-bottom: 6px;
+}
+
+[data-theme='dark'] .label {
+  color: #d0c4b4;
+}
+
+.required {
+  color: #e06050;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d9c9a8;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  color: #4a3a2a;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+[data-theme='dark'] .input,
+[data-theme='dark'] .select {
+  background: #1e1a16;
+  color: #d0c4b4;
+  border-color: #4a4035;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: #c9a96e;
+  box-shadow: 0 0 0 3px rgba(201, 169, 110, 0.15);
+}
+
+.inputError {
+  border-color: #e06050 !important;
+}
+
+.errorText {
+  display: block;
+  font-size: 0.78rem;
+  color: #e06050;
+  margin-top: 4px;
+}
+
+.checkboxGroup {
+  margin-bottom: 20px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #5a4a3a;
+  cursor: pointer;
+}
+
+[data-theme='dark'] .checkboxLabel {
+  color: #d0c4b4;
+}
+
+.checkboxLabel input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  accent-color: #c9a96e;
+}
+
+.fieldHint {
+  display: block;
+  font-size: 0.75rem;
+  color: #a09080;
+  margin-top: 2px;
+  margin-left: 26px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #c9a96e, #b8944c);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.submitBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(201, 169, 110, 0.35);
+}
+
+.submitBtn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 500px) {
+  .form {
+    padding: 20px;
+  }
+  .fieldRow {
+    flex-direction: column;
+    gap: 0;
+  }
+}

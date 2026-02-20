@@ -1,0 +1,137 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  animation: slideUp 0.25s ease;
+}
+
+[data-theme='dark'] .modal {
+  background: #2a2520;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #8a7a6a;
+  cursor: pointer;
+  line-height: 1;
+}
+
+[data-theme='dark'] .closeBtn {
+  color: #a09080;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #5a4a3a;
+  margin: 0 0 6px;
+  text-align: center;
+}
+
+[data-theme='dark'] .title {
+  color: #e8ddd0;
+}
+
+.desc {
+  font-size: 0.85rem;
+  color: #8a7a6a;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+[data-theme='dark'] .desc {
+  color: #a09080;
+}
+
+.codeInput {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #d9c9a8;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  background: #faf6f0;
+  color: #4a3a2a;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+[data-theme='dark'] .codeInput {
+  background: #1e1a16;
+  color: #d0c4b4;
+  border-color: #4a4035;
+}
+
+.codeInput:focus {
+  outline: none;
+  border-color: #c9a96e;
+}
+
+.inputError {
+  border-color: #e06050 !important;
+}
+
+.errorText {
+  font-size: 0.82rem;
+  color: #e06050;
+  text-align: center;
+  margin: 6px 0 0;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 16px;
+  background: linear-gradient(135deg, #c9a96e, #b8944c);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.submitBtn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(201, 169, 110, 0.35);
+}
+
+.submitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

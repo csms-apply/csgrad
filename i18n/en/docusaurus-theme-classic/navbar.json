@@ -19,6 +19,10 @@
     "message": "Tracker",
     "description": "Navbar item with label 申请跟踪"
   },
+  "item.label.选校定位": {
+    "message": "School Report",
+    "description": "Navbar item with label 选校定位"
+  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"

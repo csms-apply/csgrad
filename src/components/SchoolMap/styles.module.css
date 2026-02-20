@@ -1,0 +1,115 @@
+.mapContainer {
+  margin: 32px 0;
+}
+
+.mapTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #5a4a3a;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+[data-theme='dark'] .mapTitle {
+  color: #e8ddd0;
+}
+
+.mapWrapper {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(201, 169, 110, 0.15);
+  overflow: hidden;
+}
+
+[data-theme='dark'] .mapWrapper {
+  background: rgba(42, 37, 32, 0.6);
+  border-color: rgba(74, 64, 53, 0.3);
+}
+
+[data-theme='dark'] .mapWrapper svg {
+  filter: brightness(0.7) saturate(0.8);
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #8a7a6a;
+  font-size: 0.9rem;
+}
+
+.tooltip {
+  position: fixed;
+  transform: translate(-50%, -100%);
+  background: #fff;
+  border: 1px solid #d9c9a8;
+  border-radius: 8px;
+  padding: 10px 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  pointer-events: none;
+  min-width: 140px;
+}
+
+[data-theme='dark'] .tooltip {
+  background: #2a2520;
+  border-color: #4a4035;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.tooltipSchool {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #4a3a2a;
+  margin-bottom: 4px;
+}
+
+[data-theme='dark'] .tooltipSchool {
+  color: #e8ddd0;
+}
+
+.tooltipProgram {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #6a5a4a;
+  padding: 1px 0;
+}
+
+[data-theme='dark'] .tooltipProgram {
+  color: #b0a090;
+}
+
+.tooltipDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #6a5a4a;
+}
+
+[data-theme='dark'] .legendItem {
+  color: #b0a090;
+}
+
+.legendDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
