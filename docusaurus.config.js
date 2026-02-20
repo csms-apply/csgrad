@@ -25,14 +25,6 @@ const config = {
   organizationName: 'csms-apply', // Usually your GitHub org/user name.
   projectName: 'csgrad', // Usually your repo name.
 
-  scripts: [
-    {
-      src: 'https://gc.zgo.at/count.js',
-      async: true,
-      'data-goatcounter': 'https://csgrad.goatcounter.com/count',
-    },
-  ],
-
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
@@ -99,11 +91,21 @@ const config = {
             label: '项目介绍',
           },
           {
-          type: 'doc',
-          docId: 'datapoints',
-          position: 'left',
-          label: 'DataPoints',
-        },
+            type: 'dropdown',
+            label: 'DataPoints',
+            position: 'left',
+            items: [
+              {
+                type: 'doc',
+                docId: 'datapoints',
+                label: 'DataPoints',
+              },
+              {
+                to: '/report',
+                label: '选校定位',
+              },
+            ],
+          },
           {
             to: '/tracker',
             position: 'left',

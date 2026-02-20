@@ -200,65 +200,251 @@
   "tracker.confirm.deleteMessage": {
     "message": "Are you sure you want to delete this program? This action cannot be undone."
   },
-  "heatmap.month.1": {
-    "message": "Jan"
+  "report.page.title": {
+    "message": "School Positioning Report"
   },
-  "heatmap.month.2": {
-    "message": "Feb"
+  "report.page.description": {
+    "message": "Data-driven school positioning analysis based on similar applicant profiles"
   },
-  "heatmap.month.3": {
-    "message": "Mar"
+  "report.header.title": {
+    "message": "Smart School Positioning Report"
   },
-  "heatmap.month.4": {
-    "message": "Apr"
+  "report.header.subtitle": {
+    "message": "Data-driven Reach / Target / Safety analysis based on similar applicant profiles"
   },
-  "heatmap.month.5": {
-    "message": "May"
+  "report.form.title": {
+    "message": "Enter Your Background"
   },
-  "heatmap.month.6": {
-    "message": "Jun"
+  "report.form.subtitle": {
+    "message": "We will generate a precise positioning analysis based on historical applicants with similar profiles"
   },
-  "heatmap.month.7": {
-    "message": "Jul"
+  "report.form.gpaScale": {
+    "message": "GPA Scale"
   },
-  "heatmap.month.8": {
-    "message": "Aug"
+  "report.form.scale100": {
+    "message": "100-point"
   },
-  "heatmap.month.9": {
-    "message": "Sep"
+  "report.form.schoolTier": {
+    "message": "Undergrad School Tier"
   },
-  "heatmap.month.10": {
-    "message": "Oct"
+  "report.form.tier.intlTop30": {
+    "message": "International Top 30"
   },
-  "heatmap.month.11": {
-    "message": "Nov"
+  "report.form.tier.intlTop50": {
+    "message": "International Top 50"
   },
-  "heatmap.month.12": {
-    "message": "Dec"
+  "report.form.tier.intlTop100": {
+    "message": "International Top 100"
   },
-  "heatmap.day.mon": {
-    "message": "Mon"
+  "report.form.tier.doubleFc": {
+    "message": "Double First-Class"
   },
-  "heatmap.day.wed": {
-    "message": "Wed"
+  "report.form.tier.tier1": {
+    "message": "Tier 1"
   },
-  "heatmap.day.fri": {
-    "message": "Fri"
+  "report.form.tier.other": {
+    "message": "Other"
   },
-  "heatmap.totalVisits": {
-    "message": "{count} visits in the past year"
+  "report.form.major": {
+    "message": "Major"
   },
-  "heatmap.lastUpdated": {
-    "message": "Updated on {date}"
+  "report.form.major.otherStem": {
+    "message": "Other STEM"
   },
-  "heatmap.tooltip": {
-    "message": "{month}/{day}: {count} visits"
+  "report.form.major.nonStem": {
+    "message": "Non-STEM"
   },
-  "heatmap.legend.less": {
-    "message": "Less"
+  "report.form.internships": {
+    "message": "Internship Count"
   },
-  "heatmap.legend.more": {
-    "message": "More"
+  "report.form.research": {
+    "message": "Has research experience"
+  },
+  "report.form.researchCount": {
+    "message": "Research Count"
+  },
+  "report.form.researchDuration": {
+    "message": "Total Research Duration"
+  },
+  "report.form.researchDuration.lt3m": {
+    "message": "< 3 months"
+  },
+  "report.form.researchDuration.3to6m": {
+    "message": "3-6 months"
+  },
+  "report.form.researchDuration.6to12m": {
+    "message": "6-12 months"
+  },
+  "report.form.researchDuration.gt1y": {
+    "message": "> 1 year"
+  },
+  "report.form.paper": {
+    "message": "Publication"
+  },
+  "report.form.paper.none": {
+    "message": "None"
+  },
+  "report.form.paper.submitted": {
+    "message": "Under review"
+  },
+  "report.form.paper.ccfAFirst": {
+    "message": "CCF-A (1st author)"
+  },
+  "report.form.paper.ccfANonFirst": {
+    "message": "CCF-A (non-1st)"
+  },
+  "report.form.paper.ccfBFirst": {
+    "message": "CCF-B (1st author)"
+  },
+  "report.form.paper.ccfBNonFirst": {
+    "message": "CCF-B (non-1st)"
+  },
+  "report.form.paper.other": {
+    "message": "Other publication"
+  },
+  "report.form.lorStrength": {
+    "message": "LOR Strength"
+  },
+  "report.form.lor.strongBigName": {
+    "message": "Strong LOR from well-known prof"
+  },
+  "report.form.lor.strong": {
+    "message": "Strong LOR"
+  },
+  "report.form.lor.normal": {
+    "message": "Standard LOR"
+  },
+  "report.form.bigCompanyIntern": {
+    "message": "Big tech company internship"
+  },
+  "report.form.bigCompanyInternHint": {
+    "message": "Google/Microsoft/Meta/TikTok/Apple/Amazon, etc."
+  },
+  "report.form.error.toeflRange": {
+    "message": "TOEFL/IELTS score is out of range"
+  },
+  "report.results.profile.research": {
+    "message": "{count} research exp."
+  },
+  "report.results.profile.paper": {
+    "message": "Paper: {status}"
+  },
+  "report.results.profile.bigIntern": {
+    "message": "Big tech intern"
+  },
+  "report.form.submit": {
+    "message": "Generate Report"
+  },
+  "report.form.selectPlaceholder": {
+    "message": "Select..."
+  },
+  "report.form.error.gpaRequired": {
+    "message": "Please enter your GPA"
+  },
+  "report.form.error.gpaRange": {
+    "message": "GPA is out of range"
+  },
+  "report.form.error.greRange": {
+    "message": "GRE should be between 260 and 340"
+  },
+  "report.form.error.schoolTierRequired": {
+    "message": "Please select your school tier"
+  },
+  "report.form.error.majorRequired": {
+    "message": "Please select your major"
+  },
+  "report.code.title": {
+    "message": "Enter Redemption Code"
+  },
+  "report.code.desc": {
+    "message": "Please enter your redemption code to generate a school positioning report"
+  },
+  "report.code.placeholder": {
+    "message": "Enter code"
+  },
+  "report.code.verify": {
+    "message": "Verify"
+  },
+  "report.code.verifying": {
+    "message": "Verifying..."
+  },
+  "report.code.errorEmpty": {
+    "message": "Please enter a code"
+  },
+  "report.code.errorGeneric": {
+    "message": "Verification failed, please try again"
+  },
+  "report.code.errorNetwork": {
+    "message": "Network error, please check your connection"
+  },
+  "report.loading.text": {
+    "message": "Analyzing similar profiles and generating your report..."
+  },
+  "report.map.title": {
+    "message": "School Distribution Map"
+  },
+  "report.map.loading": {
+    "message": "Loading map..."
+  },
+  "report.map.reach": {
+    "message": "Reach"
+  },
+  "report.map.target": {
+    "message": "Target"
+  },
+  "report.map.safety": {
+    "message": "Safety"
+  },
+  "report.map.insufficient": {
+    "message": "Insufficient Data"
+  },
+  "report.results.safety": {
+    "message": "Safety"
+  },
+  "report.results.target": {
+    "message": "Target"
+  },
+  "report.results.reach": {
+    "message": "Reach"
+  },
+  "report.results.insufficient": {
+    "message": "Insufficient Data"
+  },
+  "report.results.programs": {
+    "message": "programs"
+  },
+  "report.results.admissionRate": {
+    "message": "Admit Rate"
+  },
+  "report.results.dp.applicant": {
+    "message": "Applicant"
+  },
+  "report.results.dp.schoolTier": {
+    "message": "School Tier"
+  },
+  "report.results.dp.internships": {
+    "message": "Internships"
+  },
+  "report.results.dp.result": {
+    "message": "Result"
+  },
+  "report.results.similarApplicants": {
+    "message": "Similar Applicants"
+  },
+  "report.results.totalPrograms": {
+    "message": "Programs"
+  },
+  "report.results.totalDatapoints": {
+    "message": "Data Points"
+  },
+  "report.results.gpaRange": {
+    "message": "GPA Match Range"
+  },
+  "report.action.regenerate": {
+    "message": "Generate New Report"
+  },
+  "report.action.retry": {
+    "message": "Go Back and Retry"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
