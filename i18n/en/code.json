@@ -446,6 +446,27 @@
   "report.action.retry": {
     "message": "Go Back and Retry"
   },
+  "visitorGeo.loading": {
+    "message": "Loading map..."
+  },
+  "visitorGeo.title": {
+    "message": "Visitor Geographic Distribution"
+  },
+  "visitorGeo.stats": {
+    "message": "Visitors from {countries} countries and {regions} regions have visited csgrad"
+  },
+  "visitorGeo.visitors": {
+    "message": "{count} visitors"
+  },
+  "visitorGeo.noVisitors": {
+    "message": "No visitors yet"
+  },
+  "visitorGeo.legendFew": {
+    "message": "Few"
+  },
+  "visitorGeo.legendMany": {
+    "message": "Many"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
