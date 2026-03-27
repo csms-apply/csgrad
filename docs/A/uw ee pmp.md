@@ -2,6 +2,9 @@
 # UW EE PMP
 
 ## 项目优点
+2026更新：UW EE PMP已经作古，目前已经要更名为UW MSECE, 更爽了。
+26 fall后入学的学生毕业学位将是Master of Science in Electrical and Computer Engineering
+
 这个项目蛮好的，有UW的牌子，并且地理位置在西雅图，离微软贼近，也是ms的target school✅。
 并且他可以coop3次，划重点
 同时课业压力wld很小，可以选择全软课程，有很多时间刷题找工作🐻，去年找工上岸率据民间统计是20%。
