@@ -32,7 +32,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_HOST: ${{ secrets.SSH_HOST }}
-          PROJECT_PATH: ${{ secrets.PROJECT_PATH }}
         run: |
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
@@ -40,11 +39,6 @@ jobs:
           ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
 
           ssh $SSH_USER@$SSH_HOST << 'EOF'
-
-            echo "$PROJECT_PATH"
-          
-            
-          
             cd csgrad
             chmod a=rwx run.sh
             ./run.sh
