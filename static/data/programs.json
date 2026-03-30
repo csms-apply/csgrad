@@ -567,6 +567,13 @@
     "slug": "/B-/UIUC MSIM"
   },
   {
+    "id": "bminus-santa-clara-university-mscse",
+    "school": "Santa Clara University",
+    "program": "MSCSE",
+    "tier": "B-",
+    "slug": "/B-/SCU MSCSE"
+  },
+  {
     "id": "cplus-university-of-minnesota-mscs",
     "school": "University of Minnesota",
     "program": "MSCS",
