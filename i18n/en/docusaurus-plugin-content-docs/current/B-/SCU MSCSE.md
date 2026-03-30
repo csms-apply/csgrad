@@ -1,62 +1,37 @@
 # SCU MSCSE
 
 ## Program Overview
-Santa Clara University (SCU) offers a Master of Science in Computer Science and Engineering (MSCSE) program, located in the heart of Silicon Valley (Santa Clara, CA). The program uses a quarter system (three terms per academic year, 10 weeks each), requiring 46 credit hours total, with a duration of about 2 years. Tuition is relatively low compared to other Bay Area MS programs, at roughly $53K total for 2 years.
+Santa Clara University's Master of Science in Computer Science and Engineering, located in Santa Clara, CA — right in Silicon Valley. It runs on a quarter system (three 10-week terms per year), requiring 46 credits to graduate, roughly a 2-year program. Tuition is relatively affordable at around $53K total for 2 years, cheaper than NEU or NYU, though the brand recognition drops accordingly — outside the Bay Area, basically nobody knows SCU.
 
-The SCU campus is beautiful with nice architecture, plenty of library seating, and relatively good safety compared to SF/SJ downtown — essentially no homeless presence. However, dining options near campus are limited, and not having a car is a major inconvenience.
+The campus itself is quite nice: beautiful buildings, plenty of library study spaces, gym, pool, tennis and basketball courts, and much safer than SF/SJ downtown with essentially no homeless presence. But the food situation is rough — campus dining is about $14 per meal and not great, few decent restaurants nearby, and without a car you're basically stuck.
 
-The program supports extensions: if you don't find an internship in your first year, you can apply to extend. Students who choose the Master Thesis option can maintain student status by enrolling in just 1 credit of thesis per term after completing coursework, while interning full-time.
+The program allows extensions — if you don't land an internship in your first year, you can apply to extend. Students who choose the Master Thesis track can even maintain student status by enrolling in just 1 thesis credit per term after finishing coursework, while interning full-time. That's a nice loophole.
 
-## Pros and Cons
+## Career-Change Friendliness
+Honestly, not very friendly for career changers. You'll need to take 3 extra prerequisite courses (Assembly, Logic Design, Data Structures) that don't count toward your 46 graduation credits — costly, time-consuming, and there's real risk of failing. Some career-changing students studied hard for Assembly and still got below C.
 
-### Pros
-- **Lower tuition**: ~$53K total for 2 years, better value compared to NEU, NYU, etc.
-- **Location**: In the heart of Silicon Valley, surrounded by tech companies
-- **Nice campus**: Real campus with library, gym, tennis/basketball courts, swimming pool, good safety
-- **Friendly Chinese professors**: Professors like Yuan Wang, Xiang Li, and Yan Cui are understanding and supportive
-- **Extension possible**: Can extend graduation when the job market is tough
-- **Small class sizes**: Max 30 students per class, professors teach directly (no TAs)
-- **Research opportunities**: Can do Master Thesis with professors, publish papers — serves as a PhD stepping stone
+The CPT policy also has pitfalls: the quarter system means summer starts late, with CPT not available until June 16th. If a company needs you to start in late May or early June, the offer may get rescinded. Also, international students can't do consecutive Summer+Fall co-ops — a far cry from NEU's co-op system.
 
-### Cons
-- **Heavy coursework with unpredictable grading**: Many courses have excessive workload, some professors grade harshly — students can get C's even after studying hard, directly impacting GPA and CPT eligibility
-- **Scarce on-campus job resources**: School's brand recognition for job hunting is essentially zero. Career Fair companies mostly want green card holders/citizens. Handshake is nowhere near NEU's NUworks
-- **Prerequisite policy unfriendly to career changers**: Career changers must take 3 extra prerequisite courses (Assembly, Logic Design, Data Structures) that don't count toward graduation credits — costly, time-consuming, with real risk of failing
-- **CPT policy limitations**: Quarter system means summer starts late — CPT can't begin until June 16th. Companies requiring earlier start dates (late May/early June) may rescind offers. No consecutive Summer+Fall co-op allowed for international students
-- **New student course selection disadvantage**: Registration priority goes to continuing students first; by the time new students can register, popular easy courses and good professors are taken
-- **Weak job-hunting atmosphere**: Peer motivation for job hunting is much weaker than at NEU; most students are relatively passive about job searching
+## Courses and Registration
+A significant number of MSCSE courses have heavy workloads, and grading feels like a lottery. Some professors will give you a C no matter how hard you study; others hand out easy A's. Courses starting with 3 are universally heavy, and the three required core courses (279/210/283) aren't light either. New students register after continuing students, so by the time it's your turn, all the good professors' sections are full.
+
+Professors to definitely avoid (especially while job hunting): N. Tran for Algorithms — tough exams, strict grading, even CS majors who studied hard only got B-; K. Pahlavan for Computer Architecture — no study guide, no curve, finals test material not in slides or homework; R. Bruce for Distributed Systems — announced on day one that "I grade strictly because that's how life works," only 3-4 students left by end of term; S. Jahangiri for Advanced Database — demands line-by-line code explanations, gives F and reports to the school if you can't explain clearly.
+
+Recommended professors: Y. Wang (Algorithms/Graphics) — clear board work, assignments and exams are basically LeetCode problems, pick him if you can; A. Zaky (Algorithms) — lenient grading with bonus opportunities, good for weaker foundations; Y. Cui (Computer Architecture) — provides study guides before exams, lenient grading, accepts questions in Chinese.
+
+First quarter advice: don't take hard courses, don't attempt un-waived prerequisites while your GPA is unstable, take easier courses to keep GPA above 3.0 (required for CPT).
 
 ## Admission Bar and Data Points
-Each cohort has roughly 200-300 students, with Chinese and Indian students in roughly equal proportion. The 22Fall cohort was dominated by CS majors or related STEM fields (like ECE) doing partial career changes. Business/finance career changers were in single digits. Due to prerequisite requirements, no pure liberal arts career changers.
-
-Before 2019, SCU admitted many career changers. Starting 2019, restrictions were placed on non-CS backgrounds. From 25Fall onward, as application volume decreased, admission difficulty has dropped.
-
-## Course Selection Guide — Professors to Avoid
-
-The following professors' courses should be avoided during active job-hunting periods:
-
-- **N. Tran** (Algorithms): High mathematical requirements, tough exams with strict grading — students who studied hard but scored below average got C's
-- **R. Bruce** (Distributed Systems): Announced strict grading on day one; by end of term, only 3-4 students remained
-- **K. Pahlavan** (Computer Architecture): No study guide, exams tested content not in PPT or homework, no curve in 22Fall — diligent students still got C's
-- **S. Jahangiri** (Advanced Database): Required students to explain code line-by-line; failure to do so clearly resulted in F and school report
-
-Recommended professors:
-- **Y. Wang** (Algorithms/Computer Graphics): Clear board writing, assignments/exams based on LeetCode problems, fair grading — highly recommended
-- **A. Zaky** (Algorithms): Communicative, lenient grading with bonus system, recommended for students with weaker foundations
-- **Y. Cui** (Computer Architecture): Provides study guides before exams, lenient grading, good attitude, accepts questions in Chinese
+Each cohort is about 200-300 students, roughly half Chinese and half Indian. The 22Fall class was mostly CS majors or adjacent STEM fields doing partial career changes. Business-to-CS changers were in single digits. Prerequisite requirements mean no pure liberal arts career changers. From 25Fall onward, application volume has dropped and admission has become easier.
 
 ## Job Outcomes
-On-campus job-hunting resources are very limited. Career Fairs mostly recruit green card holders/citizens. Career Center is not very useful for CS students. The school brand is sufficient for Bay Area small-to-medium companies' resume screens, but the "Silicon Valley dream school" reputation is overblown.
+To be blunt, job hunting is entirely on your own. The school's brand means essentially nothing for employment — don't be fooled by the "Silicon Valley dream school" meme. Career Fair companies mostly want green card holders or citizens. Handshake is nothing compared to NEU's NUworks. The peer job-hunting atmosphere is also quite passive, nowhere near NEU's collective hustle energy.
 
-Job hunting relies almost entirely on individual effort: mass applications, referrals, and LeetCode grinding. Start applying as early as possible — don't wait until classes begin. Women can attend in-person GHC or submit to the GHC resume pool early.
+In the 22Fall cohort, fewer than 10 Chinese international students without status found internships (out of 100+ total Chinese students). Market conditions were partly to blame, but SCU clearly doesn't provide any special job-hunting advantage. Those who did find internships had started applying very early and planned carefully — they landed through Amazon or GHC, nothing to do with the school.
 
-In the 22Fall cohort, fewer than 10 Chinese international students found internships (out of 100+ total Chinese students). Market conditions were a contributing factor.
-
-Some alumni have received full-time interview invitations from Google, and some landed Amazon internships through GHC and early applications, but overall placement rates are not high.
+That said, an alumnus was proactively contacted by a Google HR on LinkedIn for a full-time interview, showing that SCU's brand is sufficient for Bay Area small-to-medium company resume screens, and even big tech won't dismiss it outright.
 
 ## Overall Recommendations
-If career-changing students focused on job placement have offers from programs with lighter coursework and stronger peer support (e.g., NEU IS/CSA), SCU is not recommended. SCU is better suited for:
-1. **Singularly focused job hunters**: Those who don't care about school ranking or course rigor — avoid hard courses, dedicate time to LeetCode and applications
-2. **PhD aspirants**: Can do Master Thesis, publish papers, build relationships with professors through small class sizes
+If you're holding offers from programs like NEU IS or CSA that have lighter coursework, solid co-op systems, and strong job-hunting culture, go to NEU — don't come to SCU. SCU works for two types of people: those who are laser-focused on LeetCode grinding and job applications and just need an OPT vehicle (just avoid the bad courses); and those aiming for a PhD, since small class sizes make it easy to build relationships with professors, do a Master Thesis, and publish papers.
 
-First-quarter course advice: Avoid high-workload or strict-grading courses, steer clear of the professors listed above, take easier courses to stabilize GPA (3.0+ needed for CPT), and don't take un-waived prerequisites in the first quarter.
+If you do end up here, don't regret it — the school itself isn't scamming you. It's more about information asymmetry and expectation management. The key is to start grinding LeetCode and applying early — don't wait until classes begin.
