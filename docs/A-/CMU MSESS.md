@@ -8,7 +8,7 @@ MSE项目本身是工程硕士，有三个track：
 2. Embedded System（ES）
 3. Professional（Pro）
 
-SS和ES面向工作经验<2年的新人，Pro则是面向工作经验>2年的成熟工程师，。入学后，三个track的课程区别请参考项目官网。需要指出的是，SS和ES的几乎没有太大区别、summer需要实习、毕业需要做一个学期的capstone project，Pro第一学期比SS/ES多12units自选课程、summer不能实习（所以没有CPT）、毕业需从summer开始做两个学期的studio project。capstone/studio project均为MSE项目联系好公司、实习是自己找。
+SS和ES面向工作经验\<2年的新人，Pro则是面向工作经验\>2年的成熟工程师，。入学后，三个track的课程区别请参考项目官网。需要指出的是，SS和ES的几乎没有太大区别、summer需要实习、毕业需要做一个学期的capstone project，Pro第一学期比SS/ES多12units自选课程、summer不能实习（所以没有CPT）、毕业需从summer开始做两个学期的studio project。capstone/studio project均为MSE项目联系好公司、实习是自己找。
 大部分课程都是文科课，不推荐转码且没有SDE相关工作经历的人来读，推荐有3+ YOE全职工作经历的同学来，这个课
 几乎没有代码课，选课自由度不高
 且必修课质量不高, 感觉有点像mism而不是scs。在申请时候会给你发个邮件需要做两道leetcode 题。
