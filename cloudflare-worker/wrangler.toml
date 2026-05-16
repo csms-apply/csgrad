@@ -1,0 +1,7 @@
+name = "csgrad-positioning"
+main = "src/index.js"
+compatibility_date = "2025-10-01"
+
+[[kv_namespaces]]
+binding = "POSITIONING_KV"
+id = "TODO_FILL_AFTER_CREATE"
