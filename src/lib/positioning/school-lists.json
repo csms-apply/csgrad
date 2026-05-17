@@ -41,7 +41,8 @@
         "school": "CMU MSCS",
         "doc": "/SS/cmu mscs",
         "reason": "SCS 王牌，对你这个画像基本是 match，找工/科研双修，陆本主要收清北华5 rk1",
-        "barIndex": 87
+        "barIndex": 87,
+        "noCodingTransition": true
       },
       {
         "school": "UIUC MSCS",
@@ -67,7 +68,8 @@
         "barIndex": 87,
         "tags": [
           "high-bar-no-safety"
-        ]
+        ],
+        "gpaFloorCN": 3.9
       },
       {
         "school": "Stanford ICME",
@@ -115,7 +117,8 @@
         "school": "CMU MSCS",
         "doc": "/SS/cmu mscs",
         "reason": "SCS 王牌，对你画像偏 match，注意陆本基本只收清北华5 rk 极前，找工上限是顶级 quant + FAANG",
-        "barIndex": 87
+        "barIndex": 87,
+        "noCodingTransition": true
       },
       {
         "school": "Harvard CSE",
@@ -124,7 +127,8 @@
         "barIndex": 87,
         "tags": [
           "high-bar-no-safety"
-        ]
+        ],
+        "gpaFloorCN": 3.9
       },
       {
         "school": "Stanford ICME",
@@ -190,7 +194,8 @@
         "school": "CMU MSCS",
         "doc": "/SS/cmu mscs",
         "reason": "跨档冲 SCS 王牌，本科 rank 顶尖 + 软背景强可以试，命中概率不高",
-        "barIndex": 87
+        "barIndex": 87,
+        "noCodingTransition": true
       },
       {
         "school": "UIUC MSCS",
@@ -954,7 +959,8 @@
         "reason": "两年弹性 + 可蹭 MIT 课程 + RA 与转博通道顺畅，对数理 bg 尤其友好",
         "tags": [
           "high-bar-no-safety"
-        ]
+        ],
+        "gpaFloorCN": 3.9
       },
       {
         "school": "Stanford ICME",
