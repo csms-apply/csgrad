@@ -15,7 +15,9 @@
         "school": "Stanford MSCS",
         "doc": "/SSS/stanford mscs",
         "reason": "MSCS 申请天花板，陆本招生人数极少，target school + 顶会一作才稳",
-        "barIndex": 95
+        "barIndex": 95,
+        "requiresMajorBucket": ["cs", "ee/ece"],
+        "requiresTier": ["SSS", "SS", "S"]
       },
       {
         "school": "Princeton MSECS",
@@ -48,7 +50,8 @@
         "school": "UIUC MSCS",
         "doc": "/SS/uiuc mscs",
         "reason": "等同 PhD 申请，提前陶瓷命中显著上升，25 fall 起不再保证 fully funded",
-        "barIndex": 80
+        "barIndex": 80,
+        "requiresResearch": true
       },
       {
         "school": "Yale MSCS 2year",
@@ -57,7 +60,8 @@
         "barIndex": 87,
         "tags": [
           "high-bar-no-safety"
-        ]
+        ],
+        "requiresResearch": true
       }
     ],
     "safety": [
@@ -75,12 +79,15 @@
         "school": "Stanford ICME",
         "doc": "/SS/stanford icme",
         "reason": "Stanford 数学/DS 入口，DS track 对你这个画像偏 safety，MCF track 仍是 reach",
-        "barIndex": 95
+        "barIndex": 95,
+        "requiresMajorBucket": ["math"],
+        "requiresTier": ["SSS", "SS", "S"]
       },
       {
         "school": "Caltech MSEE",
         "doc": "/SS/caltech msee",
-        "reason": "每年 15 人，1/3 给陆本清北华5，可全选 CS 课，9 个月可延半年"
+        "reason": "每年 15 人，1/3 给陆本清北华5，可全选 CS 课，9 个月可延半年",
+        "topTierNoSafety": true
       }
     ]
   },
@@ -91,7 +98,9 @@
         "school": "Stanford MSCS",
         "doc": "/SSS/stanford mscs",
         "reason": "继续冲天花板，软背景需接近 SSS 量级，否则属于陪跑性质",
-        "barIndex": 95
+        "barIndex": 95,
+        "requiresMajorBucket": ["cs", "ee/ece"],
+        "requiresTier": ["SSS", "SS", "S"]
       },
       {
         "school": "MIT CSE",
@@ -134,13 +143,16 @@
         "school": "Stanford ICME",
         "doc": "/SS/stanford icme",
         "reason": "数学/统计本科首选 Stanford 入口，DS track 适合 ML/AI 转 SDE，MCF track 难度堪比 SSS",
-        "barIndex": 95
+        "barIndex": 95,
+        "requiresMajorBucket": ["math"],
+        "requiresTier": ["SSS", "SS", "S"]
       },
       {
         "school": "UIUC MSCS",
         "doc": "/SS/uiuc mscs",
         "reason": "等同 PhD 申请，建议提前陶瓷，25 fall 起不再保证 fully funded 性价比有所下滑",
-        "barIndex": 80
+        "barIndex": 80,
+        "requiresResearch": true
       },
       {
         "school": "Yale MSCS 2year",
@@ -149,14 +161,16 @@
         "barIndex": 87,
         "tags": [
           "high-bar-no-safety"
-        ]
+        ],
+        "requiresResearch": true
       }
     ],
     "safety": [
       {
         "school": "Caltech MSEE",
         "doc": "/SS/caltech msee",
-        "reason": "每年 15 人 1/3 给陆本清北华5，转码极友好，可全选 CS 课，9 个月可延半年"
+        "reason": "每年 15 人 1/3 给陆本清北华5，转码极友好，可全选 CS 课，9 个月可延半年",
+        "topTierNoSafety": true
       },
       {
         "school": "CMU MCDS",
@@ -173,7 +187,8 @@
         "school": "CMU MSML",
         "doc": "/S/CMU MSML",
         "reason": "ML 方向首选，RA 可免最多 75% 学费，转本系 PhD 只需再上一门课",
-        "barIndex": 87
+        "barIndex": 87,
+        "topTierNoSafety": true
       },
       {
         "school": "GT MSCS",
@@ -201,13 +216,16 @@
         "school": "UIUC MSCS",
         "doc": "/SS/uiuc mscs",
         "reason": "按 PhD 准备，提前陶瓷有戏，对 ML/system 方向科研 bg 加分明显",
-        "barIndex": 80
+        "barIndex": 80,
+        "requiresResearch": true
       },
       {
         "school": "Stanford ICME",
         "doc": "/SS/stanford icme",
         "reason": "数学/统计强 bg 可以试，DS track 比 MCF track 友好",
-        "barIndex": 95
+        "barIndex": 95,
+        "requiresMajorBucket": ["math"],
+        "requiresTier": ["SSS", "SS", "S"]
       }
     ],
     "match": [
@@ -459,7 +477,8 @@
         "barIndex": 80,
         "tags": [
           "domestic-feeder-only"
-        ]
+        ],
+        "dontRecommend": true
       },
       {
         "school": "CMU ECE",
@@ -484,7 +503,8 @@
         "doc": "/A/UCSB MSCS",
         "reason": "UC 系，加州地理位置 + bar 友好，对纯 CS bg 友好；data science / CS 课程灵活",
         "tags": [],
-        "barIndex": 70
+        "barIndex": 70,
+        "dontRecommend": true
       }
     ],
     "safety": [
@@ -535,7 +555,8 @@
         "barIndex": 80,
         "tags": [
           "domestic-feeder-only"
-        ]
+        ],
+        "dontRecommend": true
       },
       {
         "school": "UPenn MCIT",
@@ -962,12 +983,14 @@
         "reason": "fully funded 强制 TA，一届 15 人，本身就是按 PhD 申请准备的项目",
         "tags": [
           "high-bar-no-safety"
-        ]
+        ],
+        "requiresResearch": true
       },
       {
         "school": "UIUC MSCS",
         "doc": "/SS/uiuc mscs",
-        "reason": "事实上等同 PhD 申请，提前陶瓷命中率显著提升，funding 与 pub 都不缺"
+        "reason": "事实上等同 PhD 申请，提前陶瓷命中率显著提升，funding 与 pub 都不缺",
+        "requiresResearch": true
       },
       {
         "school": "Harvard CSE",
@@ -981,12 +1004,15 @@
       {
         "school": "Stanford ICME",
         "doc": "/SS/stanford icme",
-        "reason": "MCF track 实质是 PhD 跳板，DS track 也常见去做 ML PhD"
+        "reason": "MCF track 实质是 PhD 跳板，DS track 也常见去做 ML PhD",
+        "requiresMajorBucket": ["math"],
+        "requiresTier": ["SSS", "SS", "S"]
       },
       {
         "school": "UMich MSCS",
         "doc": "/A/Umich MSCS",
-        "reason": "TA 免学费 + $3000/月 stipend，本校 SUGS 转博通道清晰，外校 hc 少需高三维"
+        "reason": "TA 免学费 + $3000/月 stipend，本校 SUGS 转博通道清晰，外校 hc 少需高三维",
+        "dontRecommend": true
       },
       {
         "school": "GT MSCS",
@@ -1023,7 +1049,8 @@
         "doc": "/SSS/stanford msee",
         "reason": "硬件 / 信号方向 + 顶会一作可冲，对 EE / 系统 bg 比 MSCS 更 match。研究向，与 PhD pipeline 紧密",
         "tags": [],
-        "barIndex": 95
+        "barIndex": 95,
+        "topTierNoSafety": true
       },
       {
         "school": "CMU MLT",
@@ -1101,6 +1128,31 @@
         "school": "UIUC MSIM",
         "doc": "/B-/UIUC MSIM",
         "reason": "UIUC 牌子 + 课程水 + amazon 捞人，coop 政策友好转码兜底"
+      }
+    ]
+  },
+  "safetyOverrides": {
+    "appliesToTiers": ["SSS", "SS", "S", "A+"],
+    "usUndergrad": [
+      {
+        "school": "UIUC MCS",
+        "doc": "/A/uiuc mcs",
+        "reason": "美本保底首选，授课型可 coop，bar 适中，A+ 档美本相对友好",
+        "barIndex": 70
+      }
+    ],
+    "cnUndergrad": [
+      {
+        "school": "UW EE PMP（MSECE）",
+        "doc": "/A/uw ee pmp",
+        "reason": "陆本保底首选，26 fall 改名 MSECE，西雅图 + microsoft target + 3 次 coop",
+        "barIndex": 70
+      },
+      {
+        "school": "UWB MSCS",
+        "doc": "/A/uw ee pmp",
+        "reason": "陆本保底，UW Bothell 校区可写 UW MSCS，coop 友好 bar 友好",
+        "barIndex": 60
       }
     ]
   }

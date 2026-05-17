@@ -173,11 +173,16 @@ async function handleResult(request, env) {
     if (!isNaN(g) && g > 0) userGpa4 = g > 5 ? Math.min(4, (g / 100) * 4) : g;
   }
   const isUs = profile.ugType === 'us-top' || profile.ugType === 'us-mid';
+  const hasResearchOutput = ['domestic-paper', 'top-conf-coauthor', 'top-conf-first'].includes(profile.research);
   const keep = (s) => {
+    if (s.dontRecommend === true) return false;
     if (isCs && hasTag(s, 'non-cs-only')) return false;
     if (careerGoal !== 'us-phd' && hasTag(s, 'phd-only')) return false;
     if (!isCs && s.noCodingTransition === true) return false;
     if (s.requiresCvConf === true && profile.hasCvConfPaper !== true) return false;
+    if (Array.isArray(s.requiresMajorBucket) && !s.requiresMajorBucket.includes(profile.major)) return false;
+    if (Array.isArray(s.requiresTier) && !s.requiresTier.includes(tier)) return false;
+    if (s.requiresResearch === true && !hasResearchOutput) return false;
     const floor = isUs ? s.gpaFloorUS : s.gpaFloorCN;
     if (floor != null && userGpa4 > 0 && userGpa4 < floor) return false;
     if (s.toeflMin != null && profile.toefl != null && profile.toefl > 0 && profile.toefl < s.toeflMin) return false;
@@ -230,6 +235,29 @@ async function handleResult(request, env) {
       if (idx >= 0) match.splice(idx, 1);
       safety.push(candidate);
     }
+  }
+
+  const safetyOverrideTiers = (schoolLists.safetyOverrides && Array.isArray(schoolLists.safetyOverrides.appliesToTiers)) ? schoolLists.safetyOverrides.appliesToTiers : [];
+  if (safetyOverrideTiers.includes(tier)) {
+    const moved = safety.filter((s) => s.topTierNoSafety === true);
+    if (moved.length > 0) {
+      safety = safety.filter((s) => s.topTierNoSafety !== true);
+      for (const s of moved) {
+        if (!match.some((m) => m.school === s.school)) match.push(s);
+      }
+    }
+    const injectList = isUs ? (schoolLists.safetyOverrides.usUndergrad || []) : (schoolLists.safetyOverrides.cnUndergrad || []);
+    const existing = new Set([...reach, ...match, ...safety].map((s) => s.school));
+    for (const s of injectList) {
+      if (existing.has(s.school)) continue;
+      safety.push(s);
+      existing.add(s.school);
+    }
+  }
+
+  const SAFETY_CAP = 4;
+  if (safety.length > SAFETY_CAP) {
+    safety = safety.slice().sort((a, b) => (b.barIndex || 0) - (a.barIndex || 0)).slice(0, SAFETY_CAP);
   }
 
   const schoolList = {
