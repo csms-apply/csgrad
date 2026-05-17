@@ -158,20 +158,63 @@ async function handleResult(request, env) {
   const profile = record.profile || {};
   const isCs = !!profile.isCsBackground;
   const careerGoal = profile.careerGoal;
+  const tier = record.tier;
   const hasTag = (s, tag) => Array.isArray(s.tags) && s.tags.includes(tag);
   const keep = (s) => {
     if (isCs && hasTag(s, 'non-cs-only')) return false;
     if (careerGoal !== 'us-phd' && hasTag(s, 'phd-only')) return false;
+    if (!isCs && s.noCodingTransition === true) return false;
+    if (s.requiresCvConf === true && profile.hasCvConfPaper !== true) return false;
     return true;
   };
   const filterBucket = (arr) => Array.isArray(arr) ? arr.filter(keep) : [];
   const rawList = schoolLists[record.tier] || { summary: '', reach: [], match: [], safety: [] };
-  const reach = filterBucket(rawList.reach);
-  const matchBucket = filterBucket(rawList.match);
-  const safetyAll = filterBucket(rawList.safety);
+  let reach = filterBucket(rawList.reach);
+  let matchBucket = filterBucket(rawList.match);
+  let safetyAll = filterBucket(rawList.safety);
+
+  if ((tier === 'A+' || tier === 'A')) {
+    const colIdx = reach.findIndex((s) => /columbia\s*mscs/i.test(s.school || ''));
+    if (colIdx >= 0) {
+      const [moved] = reach.splice(colIdx, 1);
+      matchBucket.push(moved);
+    }
+  }
+  if (tier === 'A+') {
+    const mcdsIdx = matchBucket.findIndex((s) => /cmu\s*mcds/i.test(s.school || ''));
+    if (mcdsIdx >= 0) {
+      const [moved] = matchBucket.splice(mcdsIdx, 1);
+      reach.push(moved);
+    }
+  }
+
+  if (!isCs && schoolLists.codingTransitionRecommended) {
+    const codingSchools = filterBucket(schoolLists.codingTransitionRecommended.schools);
+    const existing = new Set([...reach, ...matchBucket, ...safetyAll].map((s) => s.school));
+    for (const s of codingSchools) {
+      if (existing.has(s.school)) continue;
+      const b = s.barIndex || 60;
+      if (b >= 80) reach.push(s);
+      else if (b >= 65) matchBucket.push(s);
+      else safetyAll.push(s);
+    }
+  }
+
   const movedToMatch = safetyAll.filter((s) => hasTag(s, 'high-bar-no-safety'));
-  const safety = safetyAll.filter((s) => !hasTag(s, 'high-bar-no-safety'));
-  const match = matchBucket.concat(movedToMatch);
+  let safety = safetyAll.filter((s) => !hasTag(s, 'high-bar-no-safety'));
+  let match = matchBucket.concat(movedToMatch);
+
+  if (safety.length < 2 && match.length > 0) {
+    const sorted = match.slice().sort((a, b) => (a.barIndex || 70) - (b.barIndex || 70));
+    while (safety.length < 2 && sorted.length > 0) {
+      const candidate = sorted.shift();
+      if (hasTag(candidate, 'high-bar-no-safety')) continue;
+      const idx = match.indexOf(candidate);
+      if (idx >= 0) match.splice(idx, 1);
+      safety.push(candidate);
+    }
+  }
+
   const schoolList = {
     summary: rawList.summary || '',
     reach,
@@ -180,7 +223,7 @@ async function handleResult(request, env) {
   };
   const response = {
     status: 'paid',
-    tier: record.tier,
+    tier,
     schoolList,
     careerGoal: careerGoal || null,
   };
@@ -188,12 +231,6 @@ async function handleResult(request, env) {
     response.phdRecommended = {
       summary: schoolLists.phdRecommended.summary || '',
       schools: filterBucket(schoolLists.phdRecommended.schools),
-    };
-  }
-  if (profile.isCsBackground === false && schoolLists.codingTransitionRecommended) {
-    response.codingTransitionRecommended = {
-      summary: schoolLists.codingTransitionRecommended.summary || '',
-      schools: filterBucket(schoolLists.codingTransitionRecommended.schools),
     };
   }
   let warnings = [];
@@ -206,7 +243,6 @@ async function handleResult(request, env) {
     ...schoolList.match,
     ...schoolList.safety,
     ...((response.phdRecommended && response.phdRecommended.schools) || []),
-    ...((response.codingTransitionRecommended && response.codingTransitionRecommended.schools) || []),
   ];
   const hasCmu = allRecommended.some((s) => /cmu|carnegie\s*mellon/i.test(s.school || ''));
   const isUsResident = profile.ugType === 'us-top' || profile.ugType === 'us-mid';
@@ -225,27 +261,39 @@ async function handleResult(request, env) {
       message: '推荐里包含 UMich MSCS 等以本校 SUGS / 直系本科为主的项目，外校录取 hc 极少。建议作为 reach 试，主力还是放更对外友好的项目。',
     });
   }
-  const hasUpennCis = allRecommended.some((s) => /upenn\s*cis|upenn\s*mscis/i.test(s.school || ''));
-  if (hasUpennCis) {
-    const floor = isUsResident ? 3.85 : 3.9;
-    let gpa4 = 0;
-    try {
-      const mod = await import('./classifier.js');
-      if (typeof mod.normalizeGpa === 'function') {
-        gpa4 = mod.normalizeGpa(profile.gpa, profile.gpaScale);
-      }
-    } catch (e) {}
-    if (gpa4 <= 0) {
-      const g = Number(profile.gpa);
-      if (!isNaN(g) && g > 0) {
-        gpa4 = g > 4 ? Math.min(4, (g / 100) * 4) : g;
-      }
+  let gpa4 = 0;
+  try {
+    const mod = await import('./classifier.js');
+    if (typeof mod.normalizeGpa === 'function') {
+      const effectiveGpa = (profile.isJointVenture && profile.jointForeignGpa != null) ? profile.jointForeignGpa : profile.gpa;
+      gpa4 = mod.normalizeGpa(effectiveGpa, profile.gpaScale);
     }
-    if (gpa4 > 0 && gpa4 < floor) {
+  } catch (e) {}
+  if (gpa4 <= 0) {
+    const g = Number(profile.gpa);
+    if (!isNaN(g) && g > 0) gpa4 = g > 4 ? Math.min(4, (g / 100) * 4) : g;
+  }
+  for (const s of allRecommended) {
+    const floor = isUsResident ? s.gpaFloorUS : s.gpaFloorCN;
+    if (floor != null && gpa4 > 0 && gpa4 < floor) {
       warnings.push({
-        type: 'school-gpa-floor-upenn-cis',
+        type: 'school-gpa-floor',
         severity: 'info',
-        message: `UPenn CIS 对 GPA 有隐性下线（${isUsResident ? '美本约 3.85+' : '陆本约 3.9+'}）。你目前 GPA 折算约 ${gpa4.toFixed(2)} 可能被刷，建议作为冲刺校而非主申。`,
+        message: `${s.school} 对 GPA 有隐性下线（${isUsResident ? '美本' : '陆本'}约 ${floor}+）。你目前 GPA 折算约 ${gpa4.toFixed(2)} 可能被刷，建议作为冲刺校而非主申。`,
+      });
+    }
+    if (s.toeflMin != null && profile.toefl != null && profile.toefl > 0 && profile.toefl < s.toeflMin) {
+      warnings.push({
+        type: 'school-language-floor',
+        severity: 'info',
+        message: `${s.school} 通常要求托福 ${s.toeflMin}+。你目前 ${profile.toefl} 可能被刷，建议优先重考托福。`,
+      });
+    }
+    if (s.ieltsMin != null && profile.ielts != null && profile.ielts > 0 && profile.ielts < s.ieltsMin) {
+      warnings.push({
+        type: 'school-language-floor',
+        severity: 'info',
+        message: `${s.school} 通常要求雅思 ${s.ieltsMin}+。你目前 ${profile.ielts} 可能被刷。`,
       });
     }
   }
