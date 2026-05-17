@@ -1,1 +1,1 @@
-export { classify, TIERS } from '../../src/lib/positioning/classifier.js';
+export { classify, TIERS, normalizeGpa } from '../../src/lib/positioning/classifier.js';

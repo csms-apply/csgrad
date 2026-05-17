@@ -146,6 +146,9 @@ function applyHardCaps(tier, profile, gpa4) {
   if (gpa4 < 3.85 && profile.research === 'none') {
     tier = cap('S');
   }
+  if (profile.ugType === 'overseas-top' && gpa4 <= 3.7) {
+    tier = cap('A+');
+  }
   if (profile.ugType === 'cn-双非') {
     if (!profile.bigTechIntern && profile.research === 'none') tier = cap('A-');
     else tier = cap('A');
@@ -197,12 +200,18 @@ function rationaleFor(profile, tier, breakdown) {
 
 export function classify(profileInput) {
   const normalizedToefl = normalizeToefl(profileInput.toefl);
-  const effectiveGpa = (profileInput.isJointVenture && profileInput.jointForeignGpa != null)
-    ? profileInput.jointForeignGpa
-    : profileInput.gpa;
-  const profile = { ...profileInput, toefl: normalizedToefl, gpa: effectiveGpa };
+  let effectiveGpa = profileInput.gpa;
+  let effectiveScale = profileInput.gpaScale;
+  if (profileInput.hasUsStudyExperience && profileInput.usStudyGpa != null) {
+    effectiveGpa = profileInput.usStudyGpa;
+    effectiveScale = profileInput.usStudyGpaScale || '4.0';
+  } else if (profileInput.isJointVenture && profileInput.jointForeignGpa != null) {
+    effectiveGpa = profileInput.jointForeignGpa;
+    effectiveScale = '4.0';
+  }
+  const profile = { ...profileInput, toefl: normalizedToefl, gpa: effectiveGpa, gpaScale: effectiveScale };
   const ugBase = UG_BASE[profile.ugType] ?? 35;
-  const gpa4 = normalizeGpa(effectiveGpa, profile.gpaScale);
+  const gpa4 = normalizeGpa(effectiveGpa, effectiveScale);
   const gpaContrib = gpaScore(gpa4);
   const researchContrib = researchScore(profile.research);
   const internshipContrib = internshipScore(profile.internships || 0, !!profile.bigTechIntern);

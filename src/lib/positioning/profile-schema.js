@@ -56,6 +56,32 @@ export const FIELD_DEFINITIONS = [
     min: 0, max: 100, step: 0.01,
   },
   {
+    key: 'hasUsStudyExperience',
+    type: 'boolean',
+    required: false,
+    label: { 'zh-Hans': '是否有美国学习经历（交换 / 双学位 / 暑研）', en: 'Studied in the US (exchange / dual degree / summer)?' },
+    help: { 'zh-Hans': '如有美国学习经历，admission 委员会会优先看你美国段的 GPA。下方请填美国段 GPA', en: 'If yes, the admission committee weighs your US-portion GPA most heavily. Fill the US-portion GPA below.' },
+  },
+  {
+    key: 'usStudyGpa',
+    type: 'number',
+    required: false,
+    label: { 'zh-Hans': '美国段 GPA（有美国学习经历填）', en: 'US-portion GPA (fill if studied in the US)' },
+    help: { 'zh-Hans': '美国交换 / 双学位 / 暑研的 GPA。优先用这个评估（覆盖陆本 GPA）', en: 'US exchange / dual-degree / summer-research GPA. Evaluated as primary if filled (overrides main GPA).' },
+    min: 0, max: 100, step: 0.01,
+  },
+  {
+    key: 'usStudyGpaScale',
+    type: 'select',
+    required: false,
+    label: { 'zh-Hans': '美国段 GPA 制式', en: 'US-portion GPA scale' },
+    options: [
+      { value: '4.0', label: { 'zh-Hans': '4.0 制', en: '4.0 scale' } },
+      { value: '4.3', label: { 'zh-Hans': '4.3 制', en: '4.3 scale' } },
+      { value: '100', label: { 'zh-Hans': '百分制', en: '100-point scale' } },
+    ],
+  },
+  {
     key: 'major',
     type: 'select',
     required: true,
