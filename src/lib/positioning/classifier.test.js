@@ -162,3 +162,49 @@ test('双非科班 GPA 极高也最多到 B+', () => {
   assert.ok(tierIndex(result.tier) >= tierIndex('A-'),
     `双非 should not exceed A-; got ${result.tier}`);
 });
+
+test('南科大画像 不超过 SS', () => {
+  const result = classify(baseProfile({
+    ugType: 'cn-sustech-shtech',
+    gpaScale: '4.0',
+    gpa: 3.85,
+    research: 'top-conf-coauthor',
+    internships: 2,
+    bigTechIntern: true,
+    strongRecs: 2,
+    toefl: 108,
+  }));
+  assert.ok(tierIndex(result.tier) >= tierIndex('SS'),
+    `cn-sustech-shtech should cap at SS, got ${result.tier}`);
+});
+
+test('低 GPA 触发 low-gpa-extension warning', () => {
+  const result = classify(baseProfile({
+    ugType: 'cn-985',
+    gpaScale: '4.0',
+    gpa: 3.0,
+  }));
+  assert.ok(result.warnings.some((w) => w.type === 'low-gpa-extension'),
+    `expected low-gpa-extension warning, got ${JSON.stringify(result.warnings)}`);
+});
+
+test('转码补课不足 触发 transition-courses-needed warning', () => {
+  const result = classify(baseProfile({
+    isCsBackground: false,
+    csCoursesCompleted: 2,
+    major: 'other',
+  }));
+  assert.ok(result.warnings.some((w) => w.type === 'transition-courses-needed'),
+    `expected transition-courses-needed warning, got ${JSON.stringify(result.warnings)}`);
+});
+
+test('海本低托福不触发 language-low', () => {
+  const result = classify(baseProfile({
+    ugType: 'overseas-top',
+    gpaScale: '4.0',
+    gpa: 3.7,
+    toefl: 95,
+  }));
+  assert.ok(!result.warnings.some((w) => w.type === 'language-low'),
+    `overseas-top should not trigger language-low, got ${JSON.stringify(result.warnings)}`);
+});
