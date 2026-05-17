@@ -32,8 +32,8 @@ export async function createCheckoutSession(secretKey, { submissionId, successUr
       {
         quantity: 1,
         price_data: {
-          currency: 'cny',
-          unit_amount: 9900,
+          currency: 'usd',
+          unit_amount: 1999,
           product_data: {
             name: 'CS Grad MSCS 选校定位',
           },

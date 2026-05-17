@@ -7,8 +7,8 @@ import { FIELD_DEFINITIONS } from '@site/src/lib/positioning/profile-schema';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
 import styles from './school-positioning.module.css';
 
-const PRICE_CNY = 99;
-const PRICE_LABEL = '¥99';
+const PRICE_USD = 19.99;
+const PRICE_LABEL = '$19.99';
 
 const COPY = {
   'zh-Hans': {
