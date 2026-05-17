@@ -135,6 +135,13 @@ export const FIELD_DEFINITIONS = [
     help: { 'zh-Hans': 'FAANG / 字节 / 阿里 / 腾讯 / 微软 / Nvidia / 顶级量化', en: 'FAANG / ByteDance / Alibaba / Tencent / Microsoft / Nvidia / top quant' },
   },
   {
+    key: 'hasFullTime',
+    type: 'boolean',
+    required: true,
+    label: { 'zh-Hans': '是否有全职工作经历（≥1 年）', en: 'Full-time work experience (≥1 year)?' },
+    help: { 'zh-Hans': '全职 SDE / 数据分析 / 软件相关工作经历 ≥1 年。有的话会偏好推荐一年制项目（UCB EECS MEng / Wisc CS PMP 等）', en: 'Full-time work experience (SDE / DA / SWE-related) for ≥1 year. If yes, we prefer recommending 1-year programs (UCB EECS MEng / Wisc CS PMP etc.)' },
+  },
+  {
     key: 'strongRecs',
     type: 'select',
     required: true,

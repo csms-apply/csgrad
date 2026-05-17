@@ -208,3 +208,28 @@ test('海本低托福不触发 language-low', () => {
   assert.ok(!result.warnings.some((w) => w.type === 'language-low'),
     `overseas-top should not trigger language-low, got ${JSON.stringify(result.warnings)}`);
 });
+
+test('GRE 总分偏低 触发 gre-low warning', () => {
+  const result = classify(baseProfile({
+    gre: { total: 318, q: 160, v: 158, aw: 3.5 },
+  }));
+  assert.ok(result.warnings.some((w) => w.type === 'gre-low'),
+    `expected gre-low warning, got ${JSON.stringify(result.warnings)}`);
+});
+
+test('有全职工作经历 触发 fulltime-prefer-one-year warning', () => {
+  const result = classify(baseProfile({
+    hasFullTime: true,
+  }));
+  assert.ok(result.warnings.some((w) => w.type === 'fulltime-prefer-one-year'),
+    `expected fulltime-prefer-one-year warning, got ${JSON.stringify(result.warnings)}`);
+});
+
+test('海本 overseas-top toefl 90 不触发 language-low', () => {
+  const result = classify(baseProfile({
+    ugType: 'overseas-top',
+    toefl: 90,
+  }));
+  assert.ok(!result.warnings.some((w) => w.type === 'language-low'),
+    `overseas-top toefl 90 should not trigger language-low, got ${JSON.stringify(result.warnings)}`);
+});
