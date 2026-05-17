@@ -14,7 +14,7 @@ const UG_BASE = {
   'cn-985-top': 62,
 };
 
-function normalizeGpa(gpa, scale) {
+export function normalizeGpa(gpa, scale) {
   if (gpa == null || isNaN(gpa)) return 0;
   if (scale === '4.0') return Math.max(0, Math.min(4.0, gpa));
   if (scale === '4.3') return Math.max(0, Math.min(4.0, (gpa / 4.3) * 4.0));
@@ -190,15 +190,19 @@ function rationaleFor(profile, tier, breakdown) {
   }
   if (profile.bigTechIntern) parts.push('有大厂实习');
   else if (profile.internships >= 1) parts.push(`${profile.internships}段实习`);
+  if (profile.hasFullTime === true) parts.push('有全职工作经历');
   if (normalizeStrongRecs(profile.strongRecs) >= 2) parts.push('强推到位');
   return `综合判断属于${tier}档位（${parts.join('、')}）。`;
 }
 
 export function classify(profileInput) {
   const normalizedToefl = normalizeToefl(profileInput.toefl);
-  const profile = { ...profileInput, toefl: normalizedToefl };
+  const effectiveGpa = (profileInput.isJointVenture && profileInput.jointForeignGpa != null)
+    ? profileInput.jointForeignGpa
+    : profileInput.gpa;
+  const profile = { ...profileInput, toefl: normalizedToefl, gpa: effectiveGpa };
   const ugBase = UG_BASE[profile.ugType] ?? 35;
-  const gpa4 = normalizeGpa(profile.gpa, profile.gpaScale);
+  const gpa4 = normalizeGpa(effectiveGpa, profile.gpaScale);
   const gpaContrib = gpaScore(gpa4);
   const researchContrib = researchScore(profile.research);
   const internshipContrib = internshipScore(profile.internships || 0, !!profile.bigTechIntern);
@@ -255,6 +259,39 @@ export function classify(profileInput) {
       type: 'transition-courses-needed',
       severity: 'high',
       message: '你是转码方向但已修 CS 课程不足 4 门。强烈建议申请前补齐 DS&A、操作系统、数据库、计算机网络 4 门核心课（可通过 CC / UCSD Extension / ASU 在线），否则大部分 MSCS 项目会因先修课不达标拒掉。',
+    });
+  }
+
+  if (profile.gre && profile.gre.total && profile.gre.total > 0 && profile.gre.total < 320) {
+    warnings.push({
+      type: 'gre-low',
+      severity: 'info',
+      message: `你的 GRE 总分 ${profile.gre.total} 偏低（320- 在 admission 上算反向信号）。非必要建议不要提交这个分数；如果不想交，申请时让所有 GRE-optional 项目选 "will not submit"。`,
+    });
+  }
+
+  if (profile.hasFullTime === true) {
+    warnings.push({
+      type: 'fulltime-prefer-one-year',
+      severity: 'info',
+      message: '你有全职工作经历，建议优先一年制项目：UCB EECS MEng（必修 capstone）/ Wisc CS PMP（实质要求全职经验）/ Cornell CS MEng（一年完成）。一年制项目能让你尽快回到职场。',
+    });
+  }
+
+  if (profile.research === 'top-conf-first') {
+    warnings.push({
+      type: 'top-paper-no-internship',
+      severity: 'info',
+      message: '顶会一作背景下，**不必再补实习**。把当前科研推到 paper accept 是最重要的（顶会一作 + accepted 状态打开 SSS 申请之门）。',
+    });
+  }
+
+  if ((profile.targetTrack === 'ece-hw' || profile.targetTrack === 'ee-signal') &&
+      (profile.research === 'top-conf-first' || profile.research === 'top-conf-coauthor')) {
+    warnings.push({
+      type: 'hardware-prefer-msee',
+      severity: 'info',
+      message: '你是硬件 / 信号方向 + 顶会背景，**建议优先 Stanford MSEE 而不是 MSCS**（MSEE 更 match 你的硬件 bg，admission 也更友好）。',
     });
   }
 
