@@ -164,8 +164,16 @@ async function handleResult(request, env) {
   try {
     const mod = await import('./classifier.js');
     if (typeof mod.normalizeGpa === 'function') {
-      const eff = (profile.isJointVenture && profile.jointForeignGpa != null) ? profile.jointForeignGpa : profile.gpa;
-      userGpa4 = mod.normalizeGpa(eff, profile.gpaScale);
+      let eff = profile.gpa;
+      let scale = profile.gpaScale;
+      if (profile.hasUsStudyExperience && profile.usStudyGpa != null) {
+        eff = profile.usStudyGpa;
+        scale = profile.usStudyGpaScale || '4.0';
+      } else if (profile.isJointVenture && profile.jointForeignGpa != null) {
+        eff = profile.jointForeignGpa;
+        scale = '4.0';
+      }
+      userGpa4 = mod.normalizeGpa(eff, scale);
     }
   } catch (e) {}
   if (userGpa4 <= 0 && profile.gpa != null) {
