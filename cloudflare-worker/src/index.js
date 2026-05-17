@@ -2,8 +2,8 @@ import { classify } from './classifier.js';
 import schoolLists from '../../src/lib/positioning/school-lists.json';
 import { createCheckoutSession, verifyStripeSignature } from './stripe.js';
 
-const FRONTEND_RESULT_URL = 'https://csms-apply.github.io/school-positioning-result';
-const FRONTEND_CANCEL_URL = 'https://csms-apply.github.io/school-positioning?canceled=1';
+const FRONTEND_RESULT_URL = 'https://csgrad.com/school-positioning-result';
+const FRONTEND_CANCEL_URL = 'https://csgrad.com/school-positioning?canceled=1';
 const KV_TTL_SECONDS = 60 * 60 * 24 * 30;
 
 const CORS_HEADERS = {

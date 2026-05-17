@@ -22,5 +22,9 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.选校定位": {
+    "message": "Positioning",
+    "description": "Navbar item with label 选校定位"
   }
 }
