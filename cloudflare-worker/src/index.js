@@ -225,6 +225,30 @@ async function handleResult(request, env) {
       message: '推荐里包含 UMich MSCS 等以本校 SUGS / 直系本科为主的项目，外校录取 hc 极少。建议作为 reach 试，主力还是放更对外友好的项目。',
     });
   }
+  const hasUpennCis = allRecommended.some((s) => /upenn\s*cis|upenn\s*mscis/i.test(s.school || ''));
+  if (hasUpennCis) {
+    const floor = isUsResident ? 3.85 : 3.9;
+    let gpa4 = 0;
+    try {
+      const mod = await import('./classifier.js');
+      if (typeof mod.normalizeGpa === 'function') {
+        gpa4 = mod.normalizeGpa(profile.gpa, profile.gpaScale);
+      }
+    } catch (e) {}
+    if (gpa4 <= 0) {
+      const g = Number(profile.gpa);
+      if (!isNaN(g) && g > 0) {
+        gpa4 = g > 4 ? Math.min(4, (g / 100) * 4) : g;
+      }
+    }
+    if (gpa4 > 0 && gpa4 < floor) {
+      warnings.push({
+        type: 'school-gpa-floor-upenn-cis',
+        severity: 'info',
+        message: `UPenn CIS 对 GPA 有隐性下线（${isUsResident ? '美本约 3.85+' : '陆本约 3.9+'}）。你目前 GPA 折算约 ${gpa4.toFixed(2)} 可能被刷，建议作为冲刺校而非主申。`,
+      });
+    }
+  }
   if (warnings.length > 0) response.warnings = warnings;
   return jsonResponse(response);
 }
