@@ -911,5 +911,161 @@
         ]
       }
     ]
+  },
+  "phdRecommended": {
+    "summary": "无论你被定位到哪一档，如果目标是美国读博 / 转博，下面这些项目在 thesis option、RA 机制、advisor PhD pipeline、TA 友好度上更值得重点关注。请结合你自己的 tier 做取舍：高于你 tier 的偏 reach，同档偏 match，低于的偏 safety。",
+    "schools": [
+      {
+        "school": "CMU MSML",
+        "doc": "/S/CMU MSML",
+        "reason": "转本系 PhD 只需再修一门课，RA 可免最多 75% 学费，ML PhD pipeline 极强"
+      },
+      {
+        "school": "CMU MSR",
+        "doc": "/S/CMU MSR",
+        "reason": "research-track 必有 thesis，advisor 资源足，是 SCS 转博最直接的项目"
+      },
+      {
+        "school": "CMU MIIS",
+        "doc": "/S/CMU MIIS",
+        "reason": "LTI 下属，前两学期强制 research，AI/NLP 方向转博一条龙"
+      },
+      {
+        "school": "CMU MSCV",
+        "doc": "/S/CMU MSCV",
+        "reason": "vision research-oriented，CMU CV 组老师资源密集，必有 thesis"
+      },
+      {
+        "school": "Yale MSCS 2year",
+        "doc": "/SS/Yale MSCS 2year",
+        "reason": "fully funded 强制 TA，一届 15 人，本身就是按 PhD 申请准备的项目",
+        "tags": [
+          "high-bar-no-safety"
+        ]
+      },
+      {
+        "school": "UIUC MSCS",
+        "doc": "/SS/uiuc mscs",
+        "reason": "事实上等同 PhD 申请，提前陶瓷命中率显著提升，funding 与 pub 都不缺"
+      },
+      {
+        "school": "Harvard CSE",
+        "doc": "/SS/Harvard CSE",
+        "reason": "两年弹性 + 可蹭 MIT 课程 + RA 与转博通道顺畅，对数理 bg 尤其友好",
+        "tags": [
+          "high-bar-no-safety"
+        ]
+      },
+      {
+        "school": "Stanford ICME",
+        "doc": "/SS/stanford icme",
+        "reason": "MCF track 实质是 PhD 跳板，DS track 也常见去做 ML PhD"
+      },
+      {
+        "school": "UMich MSCS",
+        "doc": "/A/Umich MSCS",
+        "reason": "TA 免学费 + $3000/月 stipend，本校 SUGS 转博通道清晰，外校 hc 少需高三维"
+      },
+      {
+        "school": "GT MSCS",
+        "doc": "/S/gatech mscs",
+        "reason": "TA/RA 免学费 + 月工资，GT CS 老师群体大，转本校 PhD 老师推荐顺势可成"
+      },
+      {
+        "school": "UT MSCS",
+        "doc": "/S/UT MSCS",
+        "reason": "TA/RA 容易拿，转本校 PhD 老师点头即可，Austin 资源好生活成本低"
+      },
+      {
+        "school": "Brown SCMCS",
+        "doc": "/A-/brown scmcs",
+        "reason": "藤校小班 + 每学期只上 2 门课 workload 极小，留时间陪 advisor 做 research"
+      },
+      {
+        "school": "Emory MSCS",
+        "doc": "/B/Emory MSCS",
+        "reason": "小班精英化 + 自动 30-50% 学费奖学金 + 转本校 PhD 明确友好"
+      },
+      {
+        "school": "NWU MSCS",
+        "doc": "/B+/NWU MSCS",
+        "reason": "thesis/project 可延毕，career service 弱反而适合静心做 research 转 PhD"
+      },
+      {
+        "school": "CMU ECE",
+        "doc": "/A/CMU ECE",
+        "reason": "ECE 大本营 hc 大，硬件 / system / EE 方向都有 PhD 转博机会，advisor 易找"
+      }
+    ]
+  },
+  "codingTransitionRecommended": {
+    "summary": "转码同学（非 CS 科班 / 转专业）专属推荐。这些项目转码友好、不卡 CS 先修课或允许在校期间补课、coop 机会多。强烈建议申请前先通过 CC / UCSD Extension / ASU 在线课程补 DS&A、OS、DB、网络 4 门核心。",
+    "schools": [
+      {
+        "school": "UPenn MCIT",
+        "doc": "/A/Upenn MCIT",
+        "reason": "0 基础转码上限项目，限上过<=2 门 CS 课，藤校 title + 转码扎实数据，转码同学的天花板赌注"
+      },
+      {
+        "school": "JHU MSECS",
+        "doc": "/A-/jhu msecs",
+        "reason": "转码友好，CS 选课优先级高，旁听机制好用，找工数据扎实但 oq 会被拒"
+      },
+      {
+        "school": "UCSD EC79",
+        "doc": "/A-/Ucsd EC79",
+        "reason": "UCSD ECE 转码最友好 track，bar 略低于 CS75，wld 比 MSCS 大不少留出刷题时间"
+      },
+      {
+        "school": "GT ECE",
+        "doc": "/A-/Gatech ECE",
+        "reason": "ECE 转码可选偏软课程 + coop/GRIP 灵活，硬件 SDE 都有出路适合转专业"
+      },
+      {
+        "school": "Duke ECE",
+        "doc": "/A-/duke ece",
+        "reason": "课程 SDE 导向 + bar 比 MSCS 友好 + meng 可 coop，转码同学也收"
+      },
+      {
+        "school": "NYU Tandon MSCS",
+        "doc": "/B+/NYU Tandon",
+        "reason": "招生喜欢中国名校 + 最后一学期 coop，纽约地理位置便于面试"
+      },
+      {
+        "school": "NEU MSCS",
+        "doc": "/B/NEU MSCS",
+        "reason": "多校区 + coop + NUworks 内部投递，秋季 coop 给一次以上复活卡，转码主力"
+      },
+      {
+        "school": "USC CS37",
+        "doc": "/B/USC CS37",
+        "reason": "class size 近千人，主要靠 amazon 捞人，转码同学高 GPA 可保底"
+      },
+      {
+        "school": "NEU IS",
+        "doc": "/B-/NEU IS",
+        "reason": "I20 写 SE 算 CS title，coop 一次以上复活卡，bar 不高，转码主力"
+      },
+      {
+        "school": "NEU SES",
+        "doc": "/B-/NEU SES",
+        "reason": "波士顿校区 bar 比 IS 容易 80+ 即可，NEU 系列里最容易录的转码兜底"
+      },
+      {
+        "school": "SCU MSCSE",
+        "doc": "/B-/SCU MSCSE",
+        "reason": "硅谷地理位置 + 学费 5.3w 较便宜，转码需补 3 门先修课，找工全靠自己"
+      },
+      {
+        "school": "NEU CS ALIGN",
+        "doc": "/B/NEU CS ALIGN",
+        "reason": "0 基础转码标配，硅谷校区 + Align 专属 coop 资源，bar 25 fall 起降温"
+      },
+      {
+        "school": "UIUC MSIM",
+        "doc": "/B-/UIUC MSIM",
+        "reason": "UIUC 牌子 + 课程水 + amazon 捞人，coop 政策友好转码兜底"
+      }
+    ]
   }
 }
