@@ -2,106 +2,106 @@
   "SSS": {
     "summary": "天花板档申请者画像：清北华5（rk1-5）或美本 top 15 + GPA 3.95+，软背景必须有 AI/CV/NLP 顶会一作，或在 Stanford/MIT 等海外组做过 RA，再叠加 FAANG/顶级 quant 实习与大牛强推。三维通常 TOEFL 110+/GRE 330+。典型目标是 PhD / 教职 / 顶级 research lab / 头部 quant，找工只是顺带。这档人的痛点不是录不到学校，而是 SSS 几所旗舰命中是抽奖，需要在 SS 档铺旗舰避免 0 offer。策略：reach 押天花板、match 用 SS 旗舰兜住、safety 用 SS 内对陆本相对友好的项目。心态建议：SSS 没中是常态，下一档已经足够强。",
     "reach": [
-      { "school": "MIT EECS", "doc": "/SSS/MIT EECS", "reason": "只招 PhD 然后 quit 拿 master，没有顶会一作几乎没机会，对你也是抽奖" },
-      { "school": "Stanford MSCS", "doc": "/SSS/stanford mscs", "reason": "MSCS 申请天花板，陆本招生人数极少，target school + 顶会一作才稳" },
-      { "school": "Princeton MSECS", "doc": "/SSS/Princeton MSECS", "reason": "一届 30 人内主要招来做 TA，GPA 与本科 rank 比 pub 更重要，理论/quant 出路友好" }
+      { "school": "MIT EECS", "doc": "/SSS/MIT EECS", "reason": "只招 PhD 然后 quit 拿 master，没有顶会一作几乎没机会，对你也是抽奖", "barIndex": 95 },
+      { "school": "Stanford MSCS", "doc": "/SSS/stanford mscs", "reason": "MSCS 申请天花板，陆本招生人数极少，target school + 顶会一作才稳", "barIndex": 95 },
+      { "school": "Princeton MSECS", "doc": "/SSS/Princeton MSECS", "reason": "一届 30 人内主要招来做 TA，GPA 与本科 rank 比 pub 更重要，理论/quant 出路友好", "barIndex": 95 }
     ],
     "match": [
-      { "school": "MIT CSE", "doc": "/SSS/MIT CSE", "reason": "数学/CSE 计算方向 fully funded，工科/数学背景比纯 CS 友好，目前已暂停外校招生需关注 recall" },
-      { "school": "CMU MSCS", "doc": "/SS/cmu mscs", "reason": "SCS 王牌，对你这个画像基本是 match，找工/科研双修，陆本主要收清北华5 rk1" },
-      { "school": "UIUC MSCS", "doc": "/SS/uiuc mscs", "reason": "等同 PhD 申请，提前陶瓷命中显著上升，25 fall 起不再保证 fully funded" },
-      { "school": "Yale MSCS 2year", "doc": "/SS/Yale MSCS 2year", "reason": "fully funded 强制 TA，一届 15 人，对顶会 bg 的你按 PhD 准备录取友好" }
+      { "school": "MIT CSE", "doc": "/SSS/MIT CSE", "reason": "数学/CSE 计算方向 fully funded，工科/数学背景比纯 CS 友好，目前已暂停外校招生需关注 recall", "barIndex": 95 },
+      { "school": "CMU MSCS", "doc": "/SS/cmu mscs", "reason": "SCS 王牌，对你这个画像基本是 match，找工/科研双修，陆本主要收清北华5 rk1", "barIndex": 87 },
+      { "school": "UIUC MSCS", "doc": "/SS/uiuc mscs", "reason": "等同 PhD 申请，提前陶瓷命中显著上升，25 fall 起不再保证 fully funded", "barIndex": 80 },
+      { "school": "Yale MSCS 2year", "doc": "/SS/Yale MSCS 2year", "reason": "fully funded 强制 TA，一届 15 人，对顶会 bg 的你按 PhD 准备录取友好", "barIndex": 87 }
     ],
     "safety": [
-      { "school": "Harvard CSE", "doc": "/SS/Harvard CSE", "reason": "两年弹性 + 可蹭 MIT 课程，对 CS 本 + 数学/物理 bg 友好，是本档失利的过渡选项" },
-      { "school": "Stanford ICME", "doc": "/SS/stanford icme", "reason": "Stanford 数学/DS 入口，DS track 对你这个画像偏 safety，MCF track 仍是 reach" },
+      { "school": "Harvard CSE", "doc": "/SS/Harvard CSE", "reason": "两年弹性 + 可蹭 MIT 课程，对 CS 本 + 数学/物理 bg 友好，是本档失利的过渡选项", "barIndex": 87 },
+      { "school": "Stanford ICME", "doc": "/SS/stanford icme", "reason": "Stanford 数学/DS 入口，DS track 对你这个画像偏 safety，MCF track 仍是 reach", "barIndex": 95 },
       { "school": "Caltech MSEE", "doc": "/SS/caltech msee", "reason": "每年 15 人，1/3 给陆本清北华5，可全选 CS 课，9 个月可延半年" }
     ]
   },
   "SS": {
     "summary": "顶尖档申请者画像：清北华5 top 名次 + GPA 3.9+，或 985 top（复旦交大/中科大）rk 极前 + 强海外 RA，海本 top 30 GPA 3.9+。软背景接近 SSS 但缺一篇顶会一作，通常是合作二作 + 1-2 段大厂/quant 实习 + 1 段海外科研。三维 TOEFL 108+/GRE 328+。典型目标兼顾找工旗舰与 PhD 跳板。痛点是软背景拉满后命中率仍受本科 rank 与具体 pub 质量影响波动大。策略：铺 4-6 所旗舰，reach 1-2 所冲 SSS，match 主力放 SS 内陆本友好项目，safety 用 S 档旗舰兜住。心态建议：不必押注单校，工科非 CS 出身请重视 CSE/ICME 这条计算路线。",
     "reach": [
-      { "school": "Stanford MSCS", "doc": "/SSS/stanford mscs", "reason": "继续冲天花板，软背景需接近 SSS 量级，否则属于陪跑性质" },
-      { "school": "MIT CSE", "doc": "/SSS/MIT CSE", "reason": "数学/CSE 方向天花板，CS bg 要靠 optimization/numerical 科研背书" },
-      { "school": "Princeton MSECS", "doc": "/SSS/Princeton MSECS", "reason": "看 GPA 与本科 rank，理论/quant 方向可冲，pub 不是硬指标" }
+      { "school": "Stanford MSCS", "doc": "/SSS/stanford mscs", "reason": "继续冲天花板，软背景需接近 SSS 量级，否则属于陪跑性质", "barIndex": 95 },
+      { "school": "MIT CSE", "doc": "/SSS/MIT CSE", "reason": "数学/CSE 方向天花板，CS bg 要靠 optimization/numerical 科研背书", "barIndex": 95 },
+      { "school": "Princeton MSECS", "doc": "/SSS/Princeton MSECS", "reason": "看 GPA 与本科 rank，理论/quant 方向可冲，pub 不是硬指标", "barIndex": 95 }
     ],
     "match": [
-      { "school": "CMU MSCS", "doc": "/SS/cmu mscs", "reason": "SCS 王牌，对你画像偏 match，注意陆本基本只收清北华5 rk 极前，找工上限是顶级 quant + FAANG" },
-      { "school": "Harvard CSE", "doc": "/SS/Harvard CSE", "reason": "两年弹性 + 可蹭 MIT 课程与招聘会，CS 本 + 数学背景友好，做 RA 与转博通道顺畅" },
-      { "school": "Stanford ICME", "doc": "/SS/stanford icme", "reason": "数学/统计本科首选 Stanford 入口，DS track 适合 ML/AI 转 SDE，MCF track 难度堪比 SSS" },
-      { "school": "UIUC MSCS", "doc": "/SS/uiuc mscs", "reason": "等同 PhD 申请，建议提前陶瓷，25 fall 起不再保证 fully funded 性价比有所下滑" },
-      { "school": "Yale MSCS 2year", "doc": "/SS/Yale MSCS 2year", "reason": "fully funded 强制 TA，一届 15 人，按 PhD 申请准备，pub 与教授 connection 重要" }
+      { "school": "CMU MSCS", "doc": "/SS/cmu mscs", "reason": "SCS 王牌，对你画像偏 match，注意陆本基本只收清北华5 rk 极前，找工上限是顶级 quant + FAANG", "barIndex": 87 },
+      { "school": "Harvard CSE", "doc": "/SS/Harvard CSE", "reason": "两年弹性 + 可蹭 MIT 课程与招聘会，CS 本 + 数学背景友好，做 RA 与转博通道顺畅", "barIndex": 87 },
+      { "school": "Stanford ICME", "doc": "/SS/stanford icme", "reason": "数学/统计本科首选 Stanford 入口，DS track 适合 ML/AI 转 SDE，MCF track 难度堪比 SSS", "barIndex": 95 },
+      { "school": "UIUC MSCS", "doc": "/SS/uiuc mscs", "reason": "等同 PhD 申请，建议提前陶瓷，25 fall 起不再保证 fully funded 性价比有所下滑", "barIndex": 80 },
+      { "school": "Yale MSCS 2year", "doc": "/SS/Yale MSCS 2year", "reason": "fully funded 强制 TA，一届 15 人，按 PhD 申请准备，pub 与教授 connection 重要", "barIndex": 87 }
     ],
     "safety": [
       { "school": "Caltech MSEE", "doc": "/SS/caltech msee", "reason": "每年 15 人 1/3 给陆本清北华5，转码极友好，可全选 CS 课，9 个月可延半年" },
-      { "school": "CMU MCDS", "doc": "/S/cmu mcds", "reason": "SCS 旗舰，对你画像基本 safety，三个 track 可互转，找工 ceiling 与 MSCS 相近" },
-      { "school": "CMU MSML", "doc": "/S/CMU MSML", "reason": "ML 方向首选，RA 可免最多 75% 学费，转本系 PhD 只需再上一门课" },
-      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "对你画像稳 safety，TA/RA 免学费 + 月工资，是 SS 档失手时的兜底神器" }
+      { "school": "CMU MCDS", "doc": "/S/cmu mcds", "reason": "SCS 旗舰，对你画像基本 safety，三个 track 可互转，找工 ceiling 与 MSCS 相近", "gpaFloorCN": 3.8, "gpaFloorUS": 3.7, "barIndex": 80 },
+      { "school": "CMU MSML", "doc": "/S/CMU MSML", "reason": "ML 方向首选，RA 可免最多 75% 学费，转本系 PhD 只需再上一门课", "barIndex": 87 },
+      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "对你画像稳 safety，TA/RA 免学费 + 月工资，是 SS 档失手时的兜底神器", "noCodingTransition": true, "barIndex": 75 }
     ]
   },
   "S": {
     "summary": "强档申请者画像：清北华5 中下段或华5 普通名次 GPA 3.85+，或强 985（复交科哈中）GPA 3.85+，海本 top 50 GPA 3.85+。软背景通常是 1-2 段大厂实习 + 1 段国内/海外科研合作（无顶会一作），有强推 1-2 封。三维 TOEFL 105+/GRE 325+。典型目标是 1.5-2 年内锁定大厂 SDE/MLE 上岸，少数转 PhD。痛点是软背景没有顶会硬通货，命中 SS 旗舰靠运气与 fit，需要在 S 档铺主力。策略：reach 跨档冲 SS 旗舰 2-3 所，match 主力放 CMU SCS 系列 + GT MSCS 这种六边形项目，safety 用 A+ 公立旗舰兜底。心态建议：每个项目 track 差别大，按个人技术栈对症选。",
     "reach": [
-      { "school": "CMU MSCS", "doc": "/SS/cmu mscs", "reason": "跨档冲 SCS 王牌，本科 rank 顶尖 + 软背景强可以试，命中概率不高" },
-      { "school": "UIUC MSCS", "doc": "/SS/uiuc mscs", "reason": "按 PhD 准备，提前陶瓷有戏，对 ML/system 方向科研 bg 加分明显" },
-      { "school": "Stanford ICME", "doc": "/SS/stanford icme", "reason": "数学/统计强 bg 可以试，DS track 比 MCF track 友好" }
+      { "school": "CMU MSCS", "doc": "/SS/cmu mscs", "reason": "跨档冲 SCS 王牌，本科 rank 顶尖 + 软背景强可以试，命中概率不高", "barIndex": 87 },
+      { "school": "UIUC MSCS", "doc": "/SS/uiuc mscs", "reason": "按 PhD 准备，提前陶瓷有戏，对 ML/system 方向科研 bg 加分明显", "barIndex": 80 },
+      { "school": "Stanford ICME", "doc": "/SS/stanford icme", "reason": "数学/统计强 bg 可以试，DS track 比 MCF track 友好", "barIndex": 95 }
     ],
     "match": [
-      { "school": "CMU MCDS", "doc": "/S/cmu mcds", "reason": "对你是 match，三个 track 可互转，有工业界/ML/DS bg 更友好，找工 ceiling 拉满" },
-      { "school": "CMU MSML", "doc": "/S/CMU MSML", "reason": "ML 方向首选，RA 可免最多 75% 学费，转本系 PhD 只需再上一门课" },
+      { "school": "CMU MCDS", "doc": "/S/cmu mcds", "reason": "对你是 match，三个 track 可互转，有工业界/ML/DS bg 更友好，找工 ceiling 拉满", "gpaFloorCN": 3.8, "gpaFloorUS": 3.7, "barIndex": 80 },
+      { "school": "CMU MSML", "doc": "/S/CMU MSML", "reason": "ML 方向首选，RA 可免最多 75% 学费，转本系 PhD 只需再上一门课", "barIndex": 87 },
       { "school": "CMU MSIN", "doc": "/S/cmu msin", "reason": "INI 旗舰就业项目，可拼出近似 MSCS 课表，是陆本就业向申请的事实天花板" },
       { "school": "CMU MIIS", "doc": "/S/CMU MIIS", "reason": "LTI 下面就业向项目，前两学期强制 research，AI/NLP bg 友好，往年就业 92%" },
-      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "对你画像基本是 match，TA/RA 免学费友好，注意 GRE V153+ 卡线" },
+      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "对你画像基本是 match，TA/RA 免学费友好，注意 GRE V153+ 卡线", "noCodingTransition": true, "barIndex": 75 },
       { "school": "UCB EECS MEng", "doc": "/S/UCB EECS meng", "reason": "一年制湾区项目 capstone 必修，24 fall 起不批延期 CPT，适合已有 return offer 或多年全职" }
     ],
     "safety": [
-      { "school": "Cornell CS MEng", "doc": "/S/Cornell CS MENG", "reason": "美本可 defer spring 拿 CPT，25 fall 起可延 1.5 年解决一年制无暑期实习痛点" },
-      { "school": "UT MSCS", "doc": "/S/UT MSCS", "reason": "Austin 大厂密集，便宜 + cs 排名高，TA/RA 容易拿，转本校 PhD 老师点头即可" },
-      { "school": "UCSD CS75", "doc": "/A+/ucsd cs75", "reason": "对你画像是稳 safety，六边形大众情人，2025 新增 coop，TA 免一半学费" },
-      { "school": "GT CSE", "doc": "/A+/Gatech CSE", "reason": "选课自由可全修 CS 课优先级等同 MSCS，TA/RA 免学费 + 月 800 刀" }
+      { "school": "Cornell CS MEng", "doc": "/S/Cornell CS MENG", "reason": "美本可 defer spring 拿 CPT，25 fall 起可延 1.5 年解决一年制无暑期实习痛点", "noCodingTransition": true, "barIndex": 80 },
+      { "school": "UT MSCS", "doc": "/S/UT MSCS", "reason": "Austin 大厂密集，便宜 + cs 排名高，TA/RA 容易拿，转本校 PhD 老师点头即可", "barIndex": 87 },
+      { "school": "UCSD CS75", "doc": "/A+/ucsd cs75", "reason": "对你画像是稳 safety，六边形大众情人，2025 新增 coop，TA 免一半学费", "barIndex": 70 },
+      { "school": "GT CSE", "doc": "/A+/Gatech CSE", "reason": "选课自由可全修 CS 课优先级等同 MSCS，TA/RA 免学费 + 月 800 刀", "barIndex": 70 }
     ]
   },
   "A+": {
     "summary": "次顶档申请者画像：强 985（华五除外，如北航/同济/西交/哈工大/中山/武大）GPA 3.85+，或普通 985 rk 前 5% GPA 3.9+，海本 top 100 GPA 3.85+。软背景偏 2-3 段实习（含 1 段大厂或独角兽）+ 一段水科研，少数有一作小会 pub。三维 TOEFL 102+/GRE 322+。典型目标找工 SDE/MLE，少数转 quant/DS。痛点是缺顶会硬通货，CMU SCS 系列基本陪跑，需要把火力集中在 A+ 公立旗舰与私校牌子。策略：reach 1-2 所冲 S 档六边形，match 主力放 UCSD/GT CSE/Duke/UPenn CIS 大众情人，safety 用 UT ECE/UCLA MEng 兜底。心态建议：UCSD 玄学正常，多铺 4-6 所就好。",
     "reach": [
       { "school": "CMU MIIS", "doc": "/S/CMU MIIS", "reason": "向上跨档冲 CMU SCS，AI/NLP bg 高三维有戏，是性价比最高的 reach" },
-      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "对你是 reach，需要拉 GRE V153+ 与一段强推，GT 老师推荐加分巨大" },
-      { "school": "UT MSCS", "doc": "/S/UT MSCS", "reason": "陆本 hc 极少但对强 985 高 GPA 有戏，转 PhD bg 加分" }
+      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "对你是 reach，需要拉 GRE V153+ 与一段强推，GT 老师推荐加分巨大", "noCodingTransition": true, "barIndex": 75 },
+      { "school": "UT MSCS", "doc": "/S/UT MSCS", "reason": "陆本 hc 极少但对强 985 高 GPA 有戏，转 PhD bg 加分", "barIndex": 87 }
     ],
     "match": [
-      { "school": "UCSD CS75", "doc": "/A+/ucsd cs75", "reason": "六边形大众情人，对你画像是 match，2025 新增 coop，TA 免一半学费 + 圣地亚哥地理位置" },
-      { "school": "GT CSE", "doc": "/A+/Gatech CSE", "reason": "可全修 CS 课优先级等同 MSCS，TA/RA 免学费 + 月 800 刀，I20 写 CS" },
-      { "school": "Duke MSCS", "doc": "/A+/Duke mscs", "reason": "扩招 + diversity 拉满，3+3+4 模式控总花费，进可读 PhD 退可找工" },
-      { "school": "UPenn CIS", "doc": "/A+/Upenn CIS", "reason": "大藤 title + workload 类似 MCDS，硬核找工向，录取率<5% 偏好美本，3.85+ 是基础线" },
+      { "school": "UCSD CS75", "doc": "/A+/ucsd cs75", "reason": "六边形大众情人，对你画像是 match，2025 新增 coop，TA 免一半学费 + 圣地亚哥地理位置", "barIndex": 70 },
+      { "school": "GT CSE", "doc": "/A+/Gatech CSE", "reason": "可全修 CS 课优先级等同 MSCS，TA/RA 免学费 + 月 800 刀，I20 写 CS", "barIndex": 70 },
+      { "school": "Duke MSCS", "doc": "/A+/Duke mscs", "reason": "扩招 + diversity 拉满，3+3+4 模式控总花费，进可读 PhD 退可找工", "barIndex": 75 },
+      { "school": "UPenn CIS", "doc": "/A+/Upenn CIS", "reason": "大藤 title + workload 类似 MCDS，硬核找工向，录取率<5% 偏好美本，3.85+ 是基础线", "gpaFloorCN": 3.9, "gpaFloorUS": 3.85, "noCodingTransition": true, "barIndex": 87 },
       { "school": "CMU MSAII", "doc": "/S/CMU MSAII", "reason": "SCS 下面 AI 就业向项目，三维 GPA 拉满更稳，选修 8 门可全修 SCS 系统硬课" },
-      { "school": "UCLA MSCS", "doc": "/A+/UCLA MSCS", "reason": "湾区/洛杉矶地理位置 + UC 系牌子，bar 中等偏上，对纯 CS bg 友好" }
+      { "school": "UCLA MSCS", "doc": "/A+/UCLA MSCS", "reason": "湾区/洛杉矶地理位置 + UC 系牌子，bar 中等偏上，对纯 CS bg 友好", "gpaFloorCN": 3.8, "barIndex": 80 }
     ],
     "safety": [
       { "school": "UCLA MEng", "doc": "/A+/UCLA MENG", "reason": "UCLA 牌子 + 一年制，26 fall 起可延期 + coop，DS/AI 方向为主不适合纯 SDE" },
-      { "school": "UT ECE(SES)", "doc": "/A+/ut ece", "reason": "学费极便宜 + TA/RA 免学费 + 2 次实习 + coop，被低估的保底，转 PhD 友好" },
-      { "school": "Wisc CS PMP", "doc": "/A+/Wisc CS PMP", "reason": "几乎要求全职经验，有 SDE 全职录取率约 85%，无全职建议跳过" },
+      { "school": "UT ECE(SES)", "doc": "/A+/ut ece", "reason": "学费极便宜 + TA/RA 免学费 + 2 次实习 + coop，被低估的保底，转 PhD 友好", "barIndex": 70 },
+      { "school": "Wisc CS PMP", "doc": "/A+/Wisc CS PMP", "reason": "几乎要求全职经验，有 SDE 全职录取率约 85%，无全职建议跳过", "barIndex": 80 },
       { "school": "UPenn MCIT", "doc": "/A/Upenn MCIT", "reason": "对你画像是稳 safety（如果上过<=2 门 CS 课），藤校 title + 转码扎实数据" }
     ]
   },
   "A": {
     "summary": "中坚档申请者画像：普通 985（如东大/北理/天大/西工大/华南理/中南）GPA 3.7+，或 211 头部 GPA 3.85+，海本 top 100 GPA 3.6-3.9。多数科班 CS/ECE/SE，软背景 2-3 段中厂/独角兽实习 + 弱科研，少数有大厂实习。三维 TOEFL 100+/GRE 320+。典型目标进大厂 SDE，ECE/CE 转码同学聚集。痛点是科研基本 0，靠刷题 + 实习驱动，但本科 rank 进 A+ 已经吃力。策略：reach 1-2 所冲 A+ 私校牌子，match 主力放 Columbia/UMich/UIUC MCS + CMU ECE/MITS 转码主流，safety 放 UPenn MCIT/Yale/UW PMP 兜底。心态建议：哥大水说法过时，A 档项目 ceiling 完全够进大厂，纽约/西雅图/湾区均匀铺。",
     "reach": [
-      { "school": "UPenn CIS", "doc": "/A+/Upenn CIS", "reason": "跨档冲大藤 title，需高 GPA + 一段过硬实习或 pub，陆本可对标 SS bar" },
-      { "school": "Duke MSCS", "doc": "/A+/Duke mscs", "reason": "扩招中 + 看三维，985 GPA 3.85+ 可以冲一把" },
-      { "school": "UCSD CS75", "doc": "/A+/ucsd cs75", "reason": "对你是 reach，需要补一段大厂或拉高 GPA，CV/ML 方向 fit 更好" },
-      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "跨两档冲，必须有 GT 老师推荐或顶尖三维，命中率低但性价比高" }
+      { "school": "UPenn CIS", "doc": "/A+/Upenn CIS", "reason": "跨档冲大藤 title，需高 GPA + 一段过硬实习或 pub，陆本可对标 SS bar", "gpaFloorCN": 3.9, "gpaFloorUS": 3.85, "noCodingTransition": true, "barIndex": 87 },
+      { "school": "Duke MSCS", "doc": "/A+/Duke mscs", "reason": "扩招中 + 看三维，985 GPA 3.85+ 可以冲一把", "barIndex": 75 },
+      { "school": "UCSD CS75", "doc": "/A+/ucsd cs75", "reason": "对你是 reach，需要补一段大厂或拉高 GPA，CV/ML 方向 fit 更好", "barIndex": 70 },
+      { "school": "GT MSCS", "doc": "/S/gatech mscs", "reason": "跨两档冲，必须有 GT 老师推荐或顶尖三维，命中率低但性价比高", "noCodingTransition": true, "barIndex": 75 }
     ],
     "match": [
-      { "school": "Columbia MSCS", "doc": "/A/columbia mscs", "reason": "纽约地理位置 + bbg/meta 重点捞人，过简历关容易，0 实习也有 google dp" },
+      { "school": "Columbia MSCS", "doc": "/A/columbia mscs", "reason": "纽约地理位置 + bbg/meta 重点捞人，过简历关容易，0 实习也有 google dp", "barIndex": 70 },
       { "school": "UIUC MCS", "doc": "/A/uiuc mcs", "reason": "授课型可 coop，美本 3.6+ 比较稳，陆本难度高，开了 Chicago 校区相对友好" },
-      { "school": "UMich MSCS", "doc": "/A/Umich MSCS", "reason": "TA 免学费 + $3000/月 stipend，外校 hc 少主要给本校 SUGS，外申需要拉满三维" },
+      { "school": "UMich MSCS", "doc": "/A/Umich MSCS", "reason": "TA 免学费 + $3000/月 stipend，外校 hc 少主要给本校 SUGS，外申需要拉满三维", "barIndex": 80 },
       { "school": "CMU ECE", "doc": "/A/CMU ECE", "reason": "ECE 转码大本营，可选纯 CS 课表，hc 大但 workload 重；3.7+ 是常规线" },
       { "school": "CMU MITS", "doc": "/A/cmu mits", "reason": "合办项目灵活，可拼 MSCS 课表，找工只看 CMU 牌子分不清项目，rolling 早申更稳" },
       { "school": "UMD MSCS", "doc": "/A/UMD MSCS", "reason": "DMV 地区大厂多 + 公立性价比，bar 比 UMich 友好，硬件/system 方向加分" }
     ],
     "safety": [
       { "school": "UPenn MCIT", "doc": "/A/Upenn MCIT", "reason": "0 基础转码上限项目，限上过<=2 门 CS 课，第一轮录取率约 17%，找工数据扎实" },
-      { "school": "Yale MSCS", "doc": "/A/Yale MSCS", "reason": "三维计算器看 GPA/学校/GRE/托福不看科研，一年制找工偏弱靠捞人" },
+      { "school": "Yale MSCS", "doc": "/A/Yale MSCS", "reason": "三维计算器看 GPA/学校/GRE/托福不看科研，一年制找工偏弱靠捞人", "barIndex": 87 },
       { "school": "UW EE PMP（MSECE）", "doc": "/A/uw ee pmp", "reason": "26 fall 改名 MSECE，西雅图 + microsoft target + 3 次 coop，25 fall bar 已升" },
       { "school": "CMU MSMITE", "doc": "/A/CMU MSMITE", "reason": "INI 项目第二年在 SV，bar 低于 MSIN，CMU 牌子 + 选课弹性" }
     ]
@@ -109,21 +109,21 @@
   "A-": {
     "summary": "腰部档申请者画像：普通 985 GPA 3.5-3.7，或 211 头部 GPA 3.7+，海本 top 150 GPA 3.6+。多数科班但软背景偏弱（1-2 段中厂实习无大厂、无科研或仅一段水科研）。三维 TOEFL 100/GRE 320 左右。典型目标是用一年半学完转码上岸大厂，也有不少 oq 同学。痛点是 A+ 私校卡 GPA 与本科 rank 后基本无戏，CMU ECE/Columbia MSCS 等 A 档项目命中靠运气。策略：reach 跨档冲 Columbia/UMich，match 主力放 JHU/UChicago MPCS/Columbia CE 这种转码副线，safety 用 Brown/Duke ECE/UCSD ECE 兜住。心态建议：项目差别不如你刷题量重要，提前刷 200 题比纠结选哪所更管用。",
     "reach": [
-      { "school": "Columbia MSCS", "doc": "/A/columbia mscs", "reason": "跨档冲哥大 MSCS，3.7+ 985 cs 本可以试，纽约地理位置长期受用" },
-      { "school": "UMich MSCS", "doc": "/A/Umich MSCS", "reason": "外校 hc 少，需要高 GPA + 强推 + 出色选课才有戏" },
+      { "school": "Columbia MSCS", "doc": "/A/columbia mscs", "reason": "跨档冲哥大 MSCS，3.7+ 985 cs 本可以试，纽约地理位置长期受用", "barIndex": 70 },
+      { "school": "UMich MSCS", "doc": "/A/Umich MSCS", "reason": "外校 hc 少，需要高 GPA + 强推 + 出色选课才有戏", "barIndex": 80 },
       { "school": "UPenn MCIT", "doc": "/A/Upenn MCIT", "reason": "oq 转码可冲，限 CS 课<=2 门，藤校 title + 转码数据是值得的赌注" },
       { "school": "CMU MITS", "doc": "/A/cmu mits", "reason": "跨档冲 CMU 牌子，rolling 早申增加命中率" }
     ],
     "match": [
-      { "school": "JHU MSECS", "doc": "/A-/jhu msecs", "reason": "出名转码项目，3.7+ 有戏但会拒 oq，CS 选课优先级高，旁听机制好用" },
-      { "school": "UChicago MPCS", "doc": "/A-/uchicago mpcs", "reason": "综排高 + fintech target，wld 小方便刷题，学费 9w 偏贵，bar 在涨" },
+      { "school": "JHU MSECS", "doc": "/A-/jhu msecs", "reason": "出名转码项目，3.7+ 有戏但会拒 oq，CS 选课优先级高，旁听机制好用", "barIndex": 65 },
+      { "school": "UChicago MPCS", "doc": "/A-/uchicago mpcs", "reason": "综排高 + fintech target，wld 小方便刷题，学费 9w 偏贵，bar 在涨", "barIndex": 65 },
       { "school": "NYU DS", "doc": "/A-/NYU DS", "reason": "DS/数学/CS 转博与找 DS 工作首选，数学要求高，不适合纯转码" },
       { "school": "Columbia CE", "doc": "/A-/Columbia ce", "reason": "选 CS 课优先级与 MSCS 同等，bar 比 MSCS 低，曼哈顿地理位置同样好用" },
       { "school": "CMU MSESS", "doc": "/A-/CMU MSESS", "reason": "INI 下面 SS 项目，可选 CS 课 + CMU 牌子，bar 比 MSIN 友好" },
       { "school": "Columbia EE", "doc": "/B+/Columbia ee", "reason": "至少 5 门 ESE + 5 门 6000+，剩下可全选 CS 课，bar 友好 985 3.4 也有 dp" }
     ],
     "safety": [
-      { "school": "Brown SCMCS", "doc": "/A-/brown scmcs", "reason": "藤校牌子 + 每学期 2 门课 wld 小，找 SDE intern 数据偏弱，需要科班 bg" },
+      { "school": "Brown SCMCS", "doc": "/A-/brown scmcs", "reason": "藤校牌子 + 每学期 2 门课 wld 小，找 SDE intern 数据偏弱，需要科班 bg", "toeflMin": 105, "ieltsMin": 8, "barIndex": 65 },
       { "school": "Duke ECE", "doc": "/A-/duke ece", "reason": "课程 SDE 导向 + bar 比 MSCS 友好 + meng 可 coop，3.7+ 即可，转码同学也收" },
       { "school": "UCSD EC79", "doc": "/A-/Ucsd EC79", "reason": "UCSD ECE 转码最友好 track，bar 略低于 CS75，wld 比 MSCS 大不少" },
       { "school": "GT ECE", "doc": "/A-/Gatech ECE", "reason": "ECE 转码可选偏软课程 + coop/GRIP 灵活，硬件 SDE 都有出路" }
@@ -132,8 +132,8 @@
   "B+": {
     "summary": "中后段档申请者画像：211 中段 GPA 3.5+ 或普通 985 GPA 3.3+，双非 GPA 3.8+，海本 top 200 GPA 3.5+。转码占比开始升高，也有 2-3 年工作经验回炉的同学。软背景 1-2 段中小厂实习无科研，三维 TOEFL 95+/GRE 315+。典型目标进大厂 SDE 但更现实地求一份 SDE offer。痛点是 A-/A 档 cap 顶得很死，需要靠数量铺开。策略：reach 跨档冲 UChicago MPCS/JHU 提升下限，match 主力放 Rice/TAMU/UCI MSWE 这种公立大项目，safety 用 NYU Tandon/NEU/UWT MSCS 这种就业氛围浓的。心态建议：reputation 已被个人能力抹平，刷题 + 实习 + 简历是公式。",
     "reach": [
-      { "school": "UChicago MPCS", "doc": "/A-/uchicago mpcs", "reason": "跨档冲综排高校，转码友好 GRE Q90%+ 比较稳" },
-      { "school": "JHU MSECS", "doc": "/A-/jhu msecs", "reason": "跨档冲转码名项目，3.7+ 有戏，注意会拒 oq" },
+      { "school": "UChicago MPCS", "doc": "/A-/uchicago mpcs", "reason": "跨档冲综排高校，转码友好 GRE Q90%+ 比较稳", "barIndex": 65 },
+      { "school": "JHU MSECS", "doc": "/A-/jhu msecs", "reason": "跨档冲转码名项目，3.7+ 有戏，注意会拒 oq", "barIndex": 65 },
       { "school": "GT ECE", "doc": "/A-/Gatech ECE", "reason": "跨档冲 GT 牌子，硬件/ECE bg 有戏，coop/GRIP 可延期" },
       { "school": "Duke ECE", "doc": "/A-/duke ece", "reason": "藤校相近声誉，bar 比 MSCS 友好，3.5+ 可冲" }
     ],
@@ -145,7 +145,7 @@
       { "school": "CMU MISM", "doc": "/B+/cmu mism", "reason": "靠 CMU title 找工，core 商科课需自己往 CS 选课，适合国内已有大厂实习的" }
     ],
     "safety": [
-      { "school": "NYU Tandon MSCS", "doc": "/B+/NYU Tandon", "reason": "招生喜欢中国名校 + 最后一学期 coop，找工数据较为一般，纽约地理位置弹性" },
+      { "school": "NYU Tandon MSCS", "doc": "/B+/NYU Tandon", "reason": "招生喜欢中国名校 + 最后一学期 coop，找工数据较为一般，纽约地理位置弹性", "barIndex": 60 },
       { "school": "NWU MSCS", "doc": "/B+/NWU MSCS", "reason": "综排高 + 风景好 + thesis/project 可延毕，career service 弱适合做 research 转 PhD" },
       { "school": "UWT MSCS", "doc": "/B+/UWT MSCS", "reason": "可写 UW MSCS，2 次 coop + capstone，西雅图通勤 microsoft 友好，bar 友好" },
       { "school": "UPenn EE", "doc": "/B+/Upenn EE", "reason": "藤校 EE + bar 低 GPA 87+ 可冲，必修 5 门 ESE 课其余可选 CS" },
@@ -158,11 +158,11 @@
       { "school": "TAMU CSE", "doc": "/B+/tamu cse", "reason": "跨档冲小 GT，TA/RA 免学费 + 灵活学制，硬件/system bg 加分" },
       { "school": "Rice MCS", "doc": "/B+/Rics MCS", "reason": "跨档冲私校牌子，985 88+ 可以试" },
       { "school": "UCI MSWE", "doc": "/B+/uci mswe", "reason": "跨档冲加州 + 找工导向，工作经验加分明显" },
-      { "school": "NYU Tandon MSCS", "doc": "/B+/NYU Tandon", "reason": "跨档冲纽约地理位置，中国名校 bg 友好" }
+      { "school": "NYU Tandon MSCS", "doc": "/B+/NYU Tandon", "reason": "跨档冲纽约地理位置，中国名校 bg 友好", "barIndex": 60 }
     ],
     "match": [
       { "school": "NEU MSCS", "doc": "/B/NEU MSCS", "reason": "多校区 + coop + NUworks 内部投递，秋季 coop 给一次以上复活卡，找工向 hot choice" },
-      { "school": "USC CS37", "doc": "/B/USC CS37", "reason": "只看 GPA + 985/211 bg，class size 近千人，主要靠 amazon 捞人，高 GPA 保底" },
+      { "school": "USC CS37", "doc": "/B/USC CS37", "reason": "只看 GPA + 985/211 bg，class size 近千人，主要靠 amazon 捞人，高 GPA 保底", "barIndex": 60 },
       { "school": "UMass MSCS", "doc": "/B/UMass MSCS", "reason": "公立性价比 + 课程偏水方便刷题，主要靠亚麻 tesla 捞人，春季入学也给 CPT" },
       { "school": "UCI MCS", "doc": "/B/UCI MCS", "reason": "Quarter 制无法延期，5 月底前不可开始实习，建议优先 MSWE，有全职经验更友好" },
       { "school": "UIUC ECE MEng", "doc": "/B/UIUC ECE MENG", "reason": "可 coop + 可全选 CS 课 + advisor 友好 petition 算学分，转 PhD 也可以" }
@@ -180,7 +180,7 @@
       { "school": "NEU MSCS", "doc": "/B/NEU MSCS", "reason": "跨档冲 NEU 主项目，硬件背景或 985 转码可以试" },
       { "school": "UCI MCS", "doc": "/B/UCI MCS", "reason": "跨档冲加州地理位置，需要有工作经验" },
       { "school": "UMass MSCS", "doc": "/B/UMass MSCS", "reason": "跨档冲公立性价比，亚麻 tesla 捞人 + 春季入学给 CPT" },
-      { "school": "USC CS37", "doc": "/B/USC CS37", "reason": "看 GPA + 985/211 bg，class size 大主要靠 amazon" }
+      { "school": "USC CS37", "doc": "/B/USC CS37", "reason": "看 GPA + 985/211 bg，class size 大主要靠 amazon", "barIndex": 60 }
     ],
     "match": [
       { "school": "NEU IS", "doc": "/B-/NEU IS", "reason": "I20 写 SE 算 CS title，coop 一次以上复活卡，bar 不高，转码主力" },
