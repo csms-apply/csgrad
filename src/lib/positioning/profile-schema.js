@@ -19,6 +19,12 @@ export const FIELD_DEFINITIONS = [
     ],
   },
   {
+    key: 'isJointVenture',
+    type: 'boolean',
+    required: false,
+    label: { 'zh-Hans': '是否中外合办本科（XJTLU/宁诺/上海NYU 等）', en: 'Sino-foreign joint venture undergrad?' },
+  },
+  {
     key: 'gpaScale',
     type: 'select',
     required: true,
@@ -40,6 +46,14 @@ export const FIELD_DEFINITIONS = [
     min: 0,
     max: 100,
     step: 0.01,
+  },
+  {
+    key: 'jointForeignGpa',
+    type: 'number',
+    required: false,
+    label: { 'zh-Hans': '海外段 GPA（中外合办填）', en: 'Foreign-portion GPA (for joint venture)' },
+    help: { 'zh-Hans': '中外合办本科的海外段（英本/澳本/加本）GPA。优先按这个评估', en: 'GPA from the foreign portion of joint program. Evaluated as primary if filled.' },
+    min: 0, max: 100, step: 0.01,
   },
   {
     key: 'major',
@@ -71,6 +85,14 @@ export const FIELD_DEFINITIONS = [
     min: 0,
     max: 20,
     step: 1,
+  },
+  {
+    key: 'csCoursesTakenCount',
+    type: 'number',
+    required: false,
+    label: { 'zh-Hans': '已修 CS 课程总数', en: 'Total CS courses taken' },
+    help: { 'zh-Hans': '所有上过的 CS 类课程（不只是核心 4 门）。用于检测 UPenn MCIT 资格（要 ≤2 门）', en: 'All CS courses taken (not just 4 core). Used to check UPenn MCIT eligibility (requires ≤2 CS courses).' },
+    min: 0, max: 50, step: 1,
   },
   {
     key: 'toefl',
@@ -116,6 +138,13 @@ export const FIELD_DEFINITIONS = [
       { value: 'top-conf-coauthor', label: { 'zh-Hans': '顶会 / 顶刊合作 / 非一作', en: 'Top-tier conference/journal co-author' } },
       { value: 'top-conf-first', label: { 'zh-Hans': '顶会 / 顶刊一作', en: 'Top-tier conference/journal first author' } },
     ],
+  },
+  {
+    key: 'hasCvConfPaper',
+    type: 'boolean',
+    required: false,
+    label: { 'zh-Hans': '是否有 CV 顶会论文（CVPR/ICCV/NeurIPS 等）', en: 'CV top-conf paper (CVPR/ICCV/NeurIPS, etc.)?' },
+    help: { 'zh-Hans': '有的话会推荐 CMU MSCV 这种 vision 项目', en: 'If yes, CMU MSCV (vision program) is recommended.' },
   },
   {
     key: 'internships',

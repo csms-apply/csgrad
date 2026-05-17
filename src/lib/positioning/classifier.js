@@ -197,9 +197,12 @@ function rationaleFor(profile, tier, breakdown) {
 
 export function classify(profileInput) {
   const normalizedToefl = normalizeToefl(profileInput.toefl);
-  const profile = { ...profileInput, toefl: normalizedToefl };
+  const effectiveGpa = (profileInput.isJointVenture && profileInput.jointForeignGpa != null)
+    ? profileInput.jointForeignGpa
+    : profileInput.gpa;
+  const profile = { ...profileInput, toefl: normalizedToefl, gpa: effectiveGpa };
   const ugBase = UG_BASE[profile.ugType] ?? 35;
-  const gpa4 = normalizeGpa(profile.gpa, profile.gpaScale);
+  const gpa4 = normalizeGpa(effectiveGpa, profile.gpaScale);
   const gpaContrib = gpaScore(gpa4);
   const researchContrib = researchScore(profile.research);
   const internshipContrib = internshipScore(profile.internships || 0, !!profile.bigTechIntern);
@@ -272,6 +275,23 @@ export function classify(profileInput) {
       type: 'fulltime-prefer-one-year',
       severity: 'info',
       message: '你有全职工作经历，建议优先一年制项目：UCB EECS MEng（必修 capstone）/ Wisc CS PMP（实质要求全职经验）/ Cornell CS MEng（一年完成）。一年制项目能让你尽快回到职场。',
+    });
+  }
+
+  if (profile.research === 'top-conf-first') {
+    warnings.push({
+      type: 'top-paper-no-internship',
+      severity: 'info',
+      message: '顶会一作背景下，**不必再补实习**。把当前科研推到 paper accept 是最重要的（顶会一作 + accepted 状态打开 SSS 申请之门）。',
+    });
+  }
+
+  if ((profile.targetTrack === 'ece-hw' || profile.targetTrack === 'ee-signal') &&
+      (profile.research === 'top-conf-first' || profile.research === 'top-conf-coauthor')) {
+    warnings.push({
+      type: 'hardware-prefer-msee',
+      severity: 'info',
+      message: '你是硬件 / 信号方向 + 顶会背景，**建议优先 Stanford MSEE 而不是 MSCS**（MSEE 更 match 你的硬件 bg，admission 也更友好）。',
     });
   }
 
