@@ -358,6 +358,15 @@
         "tags": [
           "high-bar-no-safety"
         ]
+      },
+      {
+        "school": "UBC MSCS",
+        "doc": "/A+/UBC MSCS",
+        "reason": "UBC MSCS 主要给本校直升 + 美本 + 海本 top；陆本基本陪跑（陆本黑洞），适合海本 + 美本同学冲",
+        "tags": [
+          "domestic-feeder-only"
+        ],
+        "barIndex": 75
       }
     ],
     "safety": [
@@ -367,7 +376,7 @@
         "reason": "UCLA 牌子 + 一年制，26 fall 起可延期 + coop，DS/AI 方向为主不适合纯 SDE"
       },
       {
-        "school": "UT ECE(SES)",
+        "school": "UT ECE SES",
         "doc": "/A+/ut ece",
         "reason": "学费极便宜 + TA/RA 免学费 + 2 次实习 + coop，被低估的保底，转 PhD 友好",
         "barIndex": 70,
@@ -469,6 +478,13 @@
         "tags": [
           "high-bar-no-safety"
         ]
+      },
+      {
+        "school": "UCSB MSCS",
+        "doc": "/A/UCSB MSCS",
+        "reason": "UC 系，加州地理位置 + bar 友好，对纯 CS bg 友好；data science / CS 课程灵活",
+        "tags": [],
+        "barIndex": 70
       }
     ],
     "safety": [
@@ -1001,6 +1017,20 @@
         "school": "CMU ECE",
         "doc": "/A/CMU ECE",
         "reason": "ECE 大本营 hc 大，硬件 / system / EE 方向都有 PhD 转博机会，advisor 易找"
+      },
+      {
+        "school": "Stanford MSEE",
+        "doc": "/SSS/stanford msee",
+        "reason": "硬件 / 信号方向 + 顶会一作可冲，对 EE / 系统 bg 比 MSCS 更 match。研究向，与 PhD pipeline 紧密",
+        "tags": [],
+        "barIndex": 95
+      },
+      {
+        "school": "CMU MLT",
+        "doc": "/SS/CMU MLT",
+        "reason": "LTI 旗下 ML/NLP 研究项目，必有 thesis，PhD 直通最直接",
+        "tags": [],
+        "barIndex": 87
       }
     ]
   },

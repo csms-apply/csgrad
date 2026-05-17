@@ -344,4 +344,78 @@ worker 根据画像额外注入定制提醒：
 
 ---
 
+## 附录 A：GPA 100 制换算公式
+
+`classifier.normalizeGpa(gpa, gpaScale)` 实现的换算：
+
+| 100 制分段 | 4.0 制折算 |
+|-----------|----------|
+| ≥ 95 | 4.0 |
+| 90–94.9 | 3.85 + (gpa - 90) × 0.03 → 3.85–3.997 |
+| 85–89.9 | 3.6 + (gpa - 85) × 0.05 → 3.6–3.85 |
+| 80–84.9 | 3.3 + (gpa - 80) × 0.06 → 3.3–3.6 |
+| 70–79.9 | 2.7 + (gpa - 70) × 0.06 → 2.7–3.3 |
+| < 70 | gpa / 100 × 4 |
+
+**其他制式**：
+- 4.3 制 → 直接 `gpa / 4.3 × 4.0`
+- 5.0 制（部分欧洲/拉美院校）→ `gpa / 5.0 × 4.0`
+- 澳本 7 分制（如 ANU 6.5/7）→ 表单填 GPA scale 100，输入 ≈ 90-93（HD ≈ 高分荣誉）
+
+## 附录 B：IELTS 三档参考表
+
+worker 端按以下阈值判定语言下线（**仅陆本会触发降档**，海本不降）：
+
+| IELTS | ≈ TOEFL | 解读 |
+|-------|---------|------|
+| ≥ 7.5 | 102+ | 语言达标，所有项目 |
+| 7.0 | 95-101 | 陆本基准线，少数 SS 项目卡 |
+| < 7.0 | < 95 | 陆本触发 language-low → 自动降一档 |
+| 8.0+ | 110+ | Brown SCMCS 等高 bar 项目门槛 |
+
+学校级 IELTS 下线（worker 直接过滤而非降档）：
+- **Brown SCMCS**：IELTS < 8.0 / TOEFL < 105 直接从 list 移除
+
+## 附录 C：profile-schema 字段定义（22 个字段）
+
+| 字段 | type | 用途 |
+|------|------|------|
+| ugType | select | 本科档次（11 选项） |
+| isJointVenture | boolean | 是否中外合办 |
+| gpaScale | select | 4.0 / 4.3 / 100 / 5.0 |
+| gpa | number | GPA 数值（按 scale） |
+| jointForeignGpa | number | 中外合办海外段 GPA（优先用于 classify） |
+| major | select | cs / ee/ece / math / physics / other-eng / other |
+| isCsBackground | boolean | 是否科班 |
+| csCoursesCompleted | number | 已修 CS 核心课数（4 门基准） |
+| csCoursesTakenCount | number | 已修 CS 课程总数（UPenn MCIT 卡 ≤2 门） |
+| toefl | number | 0-120 旧版 或 1-6 新版 band（normalizeToefl 自动识别） |
+| ielts | number | 0-9 |
+| gre | group | { total, q, v, aw } |
+| research | select | none / domestic-paper / top-conf-coauthor / top-conf-first |
+| hasCvConfPaper | boolean | CV 顶会论文（CMU MSCV 门槛） |
+| internships | number | 实习段数 |
+| bigTechIntern | boolean | 是否大厂 / 顶级量化 |
+| hasFullTime | boolean | 是否 ≥1 年全职（偏好一年制项目） |
+| strongRecs | select | 0 / 1 / 2 / 3 / unknown |
+| targetTrack | select | cs-general / ml-ai / systems / ds / ece-hw / ee-signal / flexible |
+| careerGoal | select | us-job / cn-job / us-phd / unsure |
+| needScholarship | boolean | 是否硬需要奖学金 |
+| locationPref | select | flexible / east-coast / west-coast / midwest / south / no-rural |
+
+## 附录 D：C 档申请者处理原则
+
+`classifier` 把 GPA / 本科 / 软背景都很弱的同学落到 **C+ 档**（score < 26）。处理路径：
+
+- **不直接劝退**，但 RULES.md 风格里诚实说"硬上美研 OPT 期内找工命中率极低"
+- **优先推 UCSD Extension / ASU 在线补 CS 核心课 + 刷 GPA**（low-gpa-extension warning）
+- **推 NEU Align / UPenn MCIT（仅非 CS bg）/ UMN MSCS / SCU MSCSE** 等转码项目
+- **建议先工作 2-3 年**再回炉申请（B+ Wisc CS PMP / NWU MSCS 都有全职偏好）
+- 转码同学触发 `transition-courses-needed` warning，提示补 4 门核心课
+- 保底 ≥ 2 所规则仍生效（worker 自动从更低 barIndex 补足）
+
+C 档 entry 在 v4 里基本没有（35 个咨询者都 ≥ A- 档），但 classifier / worker / school-lists 已经为 C+ 档同学预留了路径。
+
+---
+
 > 本手册随 `classifier.js` 规则更新同步维护。修订时直接编辑本文件并附 commit message 说明变更理由。

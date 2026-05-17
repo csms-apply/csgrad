@@ -233,3 +233,35 @@ test('海本 overseas-top toefl 90 不触发 language-low', () => {
   assert.ok(!result.warnings.some((w) => w.type === 'language-low'),
     `overseas-top toefl 90 should not trigger language-low, got ${JSON.stringify(result.warnings)}`);
 });
+
+test('硬件方向 + 顶会一作 触发 hardware-prefer-msee warning', () => {
+  const result = classify(baseProfile({
+    targetTrack: 'ece-hw',
+    research: 'top-conf-first',
+  }));
+  assert.ok(result.warnings.some((w) => w.type === 'hardware-prefer-msee'),
+    `expected hardware-prefer-msee warning, got ${JSON.stringify(result.warnings)}`);
+});
+
+test('中外合办 jointForeignGpa 优先于陆本 GPA', () => {
+  const lowGpa = classify(baseProfile({
+    ugType: 'cn-双非',
+    gpa: 2.5,
+    isJointVenture: false,
+  }));
+  const withJointForeign = classify(baseProfile({
+    ugType: 'cn-双非',
+    gpa: 2.5,
+    isJointVenture: true,
+    jointForeignGpa: 3.85,
+  }));
+  assert.ok(tierIndex(withJointForeign.tier) < tierIndex(lowGpa.tier),
+    `joint venture with high foreign GPA should be higher tier than low cn GPA, got ${withJointForeign.tier} vs ${lowGpa.tier}`);
+});
+
+test('TOEFL 新版 5.0 band 应等同于旧版 100', () => {
+  const newScale = classify(baseProfile({ toefl: 5.0 }));
+  const oldScale = classify(baseProfile({ toefl: 100 }));
+  assert.equal(newScale.tier, oldScale.tier,
+    `new toefl 5.0 should yield same tier as old 100, got ${newScale.tier} vs ${oldScale.tier}`);
+});
