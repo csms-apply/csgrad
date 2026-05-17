@@ -160,11 +160,28 @@ async function handleResult(request, env) {
   const careerGoal = profile.careerGoal;
   const tier = record.tier;
   const hasTag = (s, tag) => Array.isArray(s.tags) && s.tags.includes(tag);
+  let userGpa4 = 0;
+  try {
+    const mod = await import('./classifier.js');
+    if (typeof mod.normalizeGpa === 'function') {
+      const eff = (profile.isJointVenture && profile.jointForeignGpa != null) ? profile.jointForeignGpa : profile.gpa;
+      userGpa4 = mod.normalizeGpa(eff, profile.gpaScale);
+    }
+  } catch (e) {}
+  if (userGpa4 <= 0 && profile.gpa != null) {
+    const g = Number(profile.gpa);
+    if (!isNaN(g) && g > 0) userGpa4 = g > 5 ? Math.min(4, (g / 100) * 4) : g;
+  }
+  const isUs = profile.ugType === 'us-top' || profile.ugType === 'us-mid';
   const keep = (s) => {
     if (isCs && hasTag(s, 'non-cs-only')) return false;
     if (careerGoal !== 'us-phd' && hasTag(s, 'phd-only')) return false;
     if (!isCs && s.noCodingTransition === true) return false;
     if (s.requiresCvConf === true && profile.hasCvConfPaper !== true) return false;
+    const floor = isUs ? s.gpaFloorUS : s.gpaFloorCN;
+    if (floor != null && userGpa4 > 0 && userGpa4 < floor) return false;
+    if (s.toeflMin != null && profile.toefl != null && profile.toefl > 0 && profile.toefl < s.toeflMin) return false;
+    if (s.ieltsMin != null && profile.ielts != null && profile.ielts > 0 && profile.ielts < s.ieltsMin) return false;
     return true;
   };
   const filterBucket = (arr) => Array.isArray(arr) ? arr.filter(keep) : [];
@@ -261,42 +278,7 @@ async function handleResult(request, env) {
       message: '推荐里包含 UMich MSCS 等以本校 SUGS / 直系本科为主的项目，外校录取 hc 极少。建议作为 reach 试，主力还是放更对外友好的项目。',
     });
   }
-  let gpa4 = 0;
-  try {
-    const mod = await import('./classifier.js');
-    if (typeof mod.normalizeGpa === 'function') {
-      const effectiveGpa = (profile.isJointVenture && profile.jointForeignGpa != null) ? profile.jointForeignGpa : profile.gpa;
-      gpa4 = mod.normalizeGpa(effectiveGpa, profile.gpaScale);
-    }
-  } catch (e) {}
-  if (gpa4 <= 0) {
-    const g = Number(profile.gpa);
-    if (!isNaN(g) && g > 0) gpa4 = g > 4 ? Math.min(4, (g / 100) * 4) : g;
-  }
-  for (const s of allRecommended) {
-    const floor = isUsResident ? s.gpaFloorUS : s.gpaFloorCN;
-    if (floor != null && gpa4 > 0 && gpa4 < floor) {
-      warnings.push({
-        type: 'school-gpa-floor',
-        severity: 'info',
-        message: `${s.school} 对 GPA 有隐性下线（${isUsResident ? '美本' : '陆本'}约 ${floor}+）。你目前 GPA 折算约 ${gpa4.toFixed(2)} 可能被刷，建议作为冲刺校而非主申。`,
-      });
-    }
-    if (s.toeflMin != null && profile.toefl != null && profile.toefl > 0 && profile.toefl < s.toeflMin) {
-      warnings.push({
-        type: 'school-language-floor',
-        severity: 'info',
-        message: `${s.school} 通常要求托福 ${s.toeflMin}+。你目前 ${profile.toefl} 可能被刷，建议优先重考托福。`,
-      });
-    }
-    if (s.ieltsMin != null && profile.ielts != null && profile.ielts > 0 && profile.ielts < s.ieltsMin) {
-      warnings.push({
-        type: 'school-language-floor',
-        severity: 'info',
-        message: `${s.school} 通常要求雅思 ${s.ieltsMin}+。你目前 ${profile.ielts} 可能被刷。`,
-      });
-    }
-  }
+  // GPA / 语言 floor 现在由 keep() 直接过滤（不达标的学校不会出现在 list 里）
   if (warnings.length > 0) response.warnings = warnings;
   return jsonResponse(response);
 }

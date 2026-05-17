@@ -73,22 +73,20 @@
 如果想读博，建议走 MSCS → RA + thesis → 转博的路径，TUM 系统/formal methods 组在 UMich/UIUC 那边 reputation 不错，套磁有 advantage。
 
 冲刺：
-- Columbia MSCS（纽约 + bbg/meta 捞人，海本 3.6+ 可以试）
-- UPenn CIS（藤校 title + 硬核找工向；注：海本 GPA 3.6 < 3.85，UPenn CIS 卡 GPA 下线，命中率有限，需补一段教授 RA + workshop）
+- CMU MITS（合办项目灵活，rolling 早申更稳，TUM 系统背景加分）
+- Duke MSCS（扩招 + 看三维，TUM 数学/系统背景加分）
 
 主申：
+- Columbia MSCS（纽约 + bbg/meta 捞人，海本 3.6+ 可以试）
 - UCSD CS75（六边形大众情人，对你画像是 match）
 - GT CSE（可全修 CS 课，TA/RA 免学费 + 月 800）
-- Duke MSCS（扩招 + 看三维，TUM 数学/系统背景加分）
-- CMU MITS（合办项目灵活，rolling 早申更稳）
-- CMU MCDS（六边形大众情人，三个 track 可互转）
-- UCLA MSCS（UC 牌子 + 加州地理位置）
-- UMD MSCS（DMV 大厂多 + bar 比 UMich 友好）
-- UT ECE SES（学费便宜 + 2 次实习 + coop）
+- UMD MSCS（DMV 大厂多 + bar 友好）
+- UT ECE SES（学费便宜 + 2 次实习 + coop，TUM 系统课底子加分）
 
 保底：
 - UCLA MEng（一年制 + 26 fall 起可延期 + coop）
 - NYU Tandon MSCS（招生喜欢国际名校 + 最后一学期 coop）
+- UW EE PMP / MSECE（西雅图 + microsoft target + 3 次 coop，A 档陆本保底首选）
 
 如果需要申请美国硕士 MSCS 辅导，可以加我微信 capsfly。
 
