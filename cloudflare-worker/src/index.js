@@ -1,10 +1,22 @@
 import { classify } from './classifier.js';
 import schoolLists from '../../src/lib/positioning/school-lists.json';
-import { createCheckoutSession, verifyStripeSignature } from './stripe.js';
+import { createCheckoutSession, fetchCheckoutSession, verifyStripeSignature } from './stripe.js';
 
-const FRONTEND_RESULT_URL = 'https://csgrad.com/school-positioning-result';
-const FRONTEND_CANCEL_URL = 'https://csgrad.com/school-positioning?canceled=1';
+const ALLOWED_FRONTEND_HOSTS = ['csgrad.com', 'www.csgrad.com', 'localhost', '127.0.0.1'];
+const DEFAULT_FRONTEND_ORIGIN = 'https://csgrad.com';
 const KV_TTL_SECONDS = 60 * 60 * 24 * 30;
+
+function getFrontendOrigin(request) {
+  const origin = request.headers.get('Origin') || request.headers.get('Referer');
+  if (!origin) return DEFAULT_FRONTEND_ORIGIN;
+  try {
+    const url = new URL(origin);
+    if (ALLOWED_FRONTEND_HOSTS.includes(url.hostname)) {
+      return url.origin;
+    }
+  } catch (e) {}
+  return DEFAULT_FRONTEND_ORIGIN;
+}
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -57,12 +69,13 @@ async function handleCheckout(request, env) {
     expirationTtl: KV_TTL_SECONDS,
   });
 
+  const frontendOrigin = getFrontendOrigin(request);
   let session;
   try {
     session = await createCheckoutSession(env.STRIPE_SECRET_KEY, {
       submissionId: sessionId,
-      successUrl: `${FRONTEND_RESULT_URL}?session_id={CHECKOUT_SESSION_ID}`,
-      cancelUrl: FRONTEND_CANCEL_URL,
+      successUrl: `${frontendOrigin}/school-positioning-result?session_id=${sessionId}`,
+      cancelUrl: `${frontendOrigin}/school-positioning?canceled=1`,
     });
   } catch (err) {
     return jsonResponse({ error: 'stripe_error', message: String(err && err.message || err) }, 502);
@@ -127,14 +140,93 @@ async function handleResult(request, env) {
     return jsonResponse({ error: 'not_found' }, 404);
   }
   const record = JSON.parse(raw);
+  if (record.status !== 'paid' && record.stripeSessionId) {
+    try {
+      const session = await fetchCheckoutSession(env.STRIPE_SECRET_KEY, record.stripeSessionId);
+      if (session && session.payment_status === 'paid') {
+        record.status = 'paid';
+        record.paidAt = new Date().toISOString();
+        await env.POSITIONING_KV.put(`submission:${sessionId}`, JSON.stringify(record), {
+          expirationTtl: KV_TTL_SECONDS,
+        });
+      }
+    } catch (e) {}
+  }
   if (record.status !== 'paid') {
     return jsonResponse({ status: 'pending' });
   }
-  return jsonResponse({
+  const profile = record.profile || {};
+  const isCs = !!profile.isCsBackground;
+  const careerGoal = profile.careerGoal;
+  const hasTag = (s, tag) => Array.isArray(s.tags) && s.tags.includes(tag);
+  const keep = (s) => {
+    if (isCs && hasTag(s, 'non-cs-only')) return false;
+    if (careerGoal !== 'us-phd' && hasTag(s, 'phd-only')) return false;
+    return true;
+  };
+  const filterBucket = (arr) => Array.isArray(arr) ? arr.filter(keep) : [];
+  const rawList = schoolLists[record.tier] || { summary: '', reach: [], match: [], safety: [] };
+  const reach = filterBucket(rawList.reach);
+  const matchBucket = filterBucket(rawList.match);
+  const safetyAll = filterBucket(rawList.safety);
+  const movedToMatch = safetyAll.filter((s) => hasTag(s, 'high-bar-no-safety'));
+  const safety = safetyAll.filter((s) => !hasTag(s, 'high-bar-no-safety'));
+  const match = matchBucket.concat(movedToMatch);
+  const schoolList = {
+    summary: rawList.summary || '',
+    reach,
+    match,
+    safety,
+  };
+  const response = {
     status: 'paid',
     tier: record.tier,
-    schoolList: schoolLists[record.tier] || { summary: '', reach: [], match: [], safety: [] },
-  });
+    schoolList,
+    careerGoal: careerGoal || null,
+  };
+  if (careerGoal === 'us-phd' && schoolLists.phdRecommended) {
+    response.phdRecommended = {
+      summary: schoolLists.phdRecommended.summary || '',
+      schools: filterBucket(schoolLists.phdRecommended.schools),
+    };
+  }
+  if (profile.isCsBackground === false && schoolLists.codingTransitionRecommended) {
+    response.codingTransitionRecommended = {
+      summary: schoolLists.codingTransitionRecommended.summary || '',
+      schools: filterBucket(schoolLists.codingTransitionRecommended.schools),
+    };
+  }
+  let warnings = [];
+  try {
+    const r = classify(profile);
+    if (Array.isArray(r.warnings)) warnings = warnings.concat(r.warnings);
+  } catch (e) {}
+  const allRecommended = [
+    ...schoolList.reach,
+    ...schoolList.match,
+    ...schoolList.safety,
+    ...((response.phdRecommended && response.phdRecommended.schools) || []),
+    ...((response.codingTransitionRecommended && response.codingTransitionRecommended.schools) || []),
+  ];
+  const hasCmu = allRecommended.some((s) => /cmu|carnegie\s*mellon/i.test(s.school || ''));
+  const isUsResident = profile.ugType === 'us-top' || profile.ugType === 'us-mid';
+  if (hasCmu && !isUsResident) {
+    warnings.push({
+      type: 'cmu-language',
+      severity: 'info',
+      message: '推荐列表里包含 CMU 项目：CMU 对非美国身份的申请者硬性要求语言成绩（托福 / 雅思 / 多邻国均可），过期的托福成绩也接受。建议尽早安排考试，不要拖到申请季前最后一刻。',
+    });
+  }
+  const hasDomesticFeeder = allRecommended.some((s) => hasTag(s, 'domestic-feeder-only'));
+  if (hasDomesticFeeder && !isUsResident) {
+    warnings.push({
+      type: 'domestic-feeder-only',
+      severity: 'info',
+      message: '推荐里包含 UMich MSCS 等以本校 SUGS / 直系本科为主的项目，外校录取 hc 极少。建议作为 reach 试，主力还是放更对外友好的项目。',
+    });
+  }
+  if (warnings.length > 0) response.warnings = warnings;
+  return jsonResponse(response);
 }
 
 export default {
