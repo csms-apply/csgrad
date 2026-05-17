@@ -1,13 +1,17 @@
 export const TIERS = ['SSS', 'SS', 'S', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+'];
 
 const UG_BASE = {
+  'cn-tsinghua-pku': 65,
   'us-top': 64,
-  'cn-985-top': 62,
+  'cn-sustech-shtech': 61,
+  'cn-hua5': 60,
+  'overseas-top': 58,
   'us-mid': 52,
   'cn-985': 46,
   'overseas': 44,
   'cn-211': 38,
   'cn-双非': 26,
+  'cn-985-top': 62,
 };
 
 function normalizeGpa(gpa, scale) {
@@ -24,6 +28,25 @@ function normalizeGpa(gpa, scale) {
     return Math.max(0, (gpa / 100) * 4);
   }
   return Math.max(0, Math.min(4.0, gpa));
+}
+
+function normalizeToefl(t) {
+  if (t == null || isNaN(t)) return null;
+  if (t <= 0) return null;
+  if (t <= 6) {
+    if (t >= 6.0) return 117;
+    if (t >= 5.5) return 110;
+    if (t >= 5.0) return 100;
+    if (t >= 4.5) return 90;
+    if (t >= 4.0) return 78;
+    if (t >= 3.5) return 65;
+    if (t >= 3.0) return 50;
+    if (t >= 2.5) return 38;
+    if (t >= 2.0) return 28;
+    if (t >= 1.5) return 16;
+    return 5;
+  }
+  return t;
 }
 
 function gpaScore(gpa4) {
@@ -56,10 +79,18 @@ function internshipScore(n, bigTech) {
   return s;
 }
 
+function normalizeStrongRecs(v) {
+  if (typeof v === 'number') return v;
+  if (v == null || v === 'unknown') return 0;
+  const n = parseInt(v, 10);
+  return isNaN(n) ? 0 : n;
+}
+
 function recScore(strongRecs) {
-  if (strongRecs >= 3) return 5;
-  if (strongRecs >= 2) return 3;
-  if (strongRecs >= 1) return 1;
+  const n = normalizeStrongRecs(strongRecs);
+  if (n >= 3) return 5;
+  if (n >= 2) return 3;
+  if (n >= 1) return 1;
   return 0;
 }
 
@@ -80,9 +111,12 @@ function testScore(toefl, gre) {
 
 function majorAdjust(profile) {
   if (profile.isCsBackground) return 0;
-  if (profile.major === 'ee/ece' || profile.major === 'math' || profile.major === 'physics') return -2;
-  if (profile.major === 'other-eng') return -5;
-  return -8;
+  let penalty;
+  if (profile.major === 'ee/ece' || profile.major === 'math' || profile.major === 'physics') penalty = 2;
+  else if (profile.major === 'other-eng') penalty = 5;
+  else penalty = 8;
+  if ((profile.csCoursesCompleted ?? 0) >= 4) penalty = Math.ceil(penalty / 2);
+  return -penalty;
 }
 
 function scoreToTier(score) {
@@ -105,7 +139,8 @@ function applyHardCaps(tier, profile, gpa4) {
   if (profile.research !== 'top-conf-first') {
     tier = cap('SS');
   }
-  if (profile.ugType !== 'cn-985-top' && profile.ugType !== 'us-top') {
+  const sssEligible = ['cn-tsinghua-pku', 'us-top', 'cn-985-top'];
+  if (!sssEligible.includes(profile.ugType)) {
     tier = cap('SS');
   }
   if (gpa4 < 3.85 && profile.research === 'none') {
@@ -132,6 +167,10 @@ function rationaleFor(profile, tier, breakdown) {
   const ugLabel = {
     'us-top': '美本Top30',
     'us-mid': '美本中游',
+    'overseas-top': '顶尖海外',
+    'cn-tsinghua-pku': '清北',
+    'cn-sustech-shtech': '上科大/南科大',
+    'cn-hua5': '华5',
     'cn-985-top': '清北华5',
     'cn-985': '985',
     'cn-211': '211',
@@ -151,11 +190,13 @@ function rationaleFor(profile, tier, breakdown) {
   }
   if (profile.bigTechIntern) parts.push('有大厂实习');
   else if (profile.internships >= 1) parts.push(`${profile.internships}段实习`);
-  if (profile.strongRecs >= 2) parts.push('强推到位');
+  if (normalizeStrongRecs(profile.strongRecs) >= 2) parts.push('强推到位');
   return `综合判断属于${tier}档位（${parts.join('、')}）。`;
 }
 
-export function classify(profile) {
+export function classify(profileInput) {
+  const normalizedToefl = normalizeToefl(profileInput.toefl);
+  const profile = { ...profileInput, toefl: normalizedToefl };
   const ugBase = UG_BASE[profile.ugType] ?? 35;
   const gpa4 = normalizeGpa(profile.gpa, profile.gpaScale);
   const gpaContrib = gpaScore(gpa4);
@@ -172,7 +213,8 @@ export function classify(profile) {
 
   let raw = ugBase + gpaContrib + researchContrib + internshipContrib + recContrib + testContrib + majorContrib + trackAdjust;
 
-  if (gpa4 >= 3.95 && (profile.ugType === 'cn-985-top' || profile.ugType === 'us-top') && profile.research === 'top-conf-first') {
+  const topUg = ['cn-tsinghua-pku', 'cn-hua5', 'us-top', 'overseas-top', 'cn-985-top'];
+  if (gpa4 >= 3.95 && topUg.includes(profile.ugType) && profile.research === 'top-conf-first') {
     raw += 4;
   }
   if (profile.ugType === 'cn-双非' && gpa4 < 3.5 && !profile.bigTechIntern) {
@@ -182,6 +224,39 @@ export function classify(profile) {
   const score = Math.max(0, Math.min(100, Math.round(raw)));
   let tier = scoreToTier(score);
   tier = applyHardCaps(tier, profile, gpa4);
+
+  const warnings = [];
+  const cnUg = ['cn-tsinghua-pku', 'cn-sustech-shtech', 'cn-hua5', 'cn-985', 'cn-985-top', 'cn-211', 'cn-双非'];
+  const toeflLow = profile.toefl != null && profile.toefl > 0 && profile.toefl < 100;
+  const ieltsLow = profile.ielts != null && profile.ielts > 0 && profile.ielts < 7;
+  if (cnUg.includes(profile.ugType) && (toeflLow || ieltsLow)) {
+    const idx = TIERS.indexOf(tier);
+    if (idx >= 0 && idx < TIERS.length - 1) {
+      tier = TIERS[idx + 1];
+    }
+    const which = toeflLow && ieltsLow ? '托福 < 100 且雅思 < 7' : (toeflLow ? '托福 < 100' : '雅思 < 7');
+    warnings.push({
+      type: 'language-low',
+      severity: 'high',
+      message: `你的语言成绩${which}，对陆本同学是 admission 硬伤——已按规则把你的档位下调一档。强烈建议尽快重考到托福 105+ / 雅思 7+，否则会被绝大部分美研 MSCS 项目卡门槛。`,
+    });
+  }
+
+  if (gpa4 < 3.3) {
+    warnings.push({
+      type: 'low-gpa-extension',
+      severity: 'info',
+      message: `你的 GPA（4.0 制折算后约 ${gpa4.toFixed(2)}）偏低，对申请有较大影响。建议申请前通过 UCSD Extension / ASU 在线课程多修几门 CS 课程拿 A，把整体 GPA 拉到 3.3+ 再申请。`,
+    });
+  }
+
+  if (profile.isCsBackground === false && (profile.csCoursesCompleted ?? 0) < 4) {
+    warnings.push({
+      type: 'transition-courses-needed',
+      severity: 'high',
+      message: '你是转码方向但已修 CS 课程不足 4 门。强烈建议申请前补齐 DS&A、操作系统、数据库、计算机网络 4 门核心课（可通过 CC / UCSD Extension / ASU 在线），否则大部分 MSCS 项目会因先修课不达标拒掉。',
+    });
+  }
 
   const breakdown = {
     ugBase,
@@ -198,7 +273,7 @@ export function classify(profile) {
 
   const rationale = rationaleFor(profile, tier, breakdown);
 
-  return { tier, score, breakdown, rationale };
+  return { tier, score, breakdown, rationale, warnings };
 }
 
 export function tierIndex(tier) {
