@@ -4,3 +4,4 @@ build
 .docusaurus
 .DS_Store
 src/theme/Layout/
+.claude/

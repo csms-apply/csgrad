@@ -1,0 +1,277 @@
+# CS Grad MSCS 选校定位档位对照
+
+> 左侧「你是 X 档」是**申请者画像**（人 tier），右侧每所学校的 `[XX]` 标签是**学校在 docs/ 里的档位**（项目 tier）。这两套 tier 是独立的——同一所学校对不同档位的人会出现在不同的「冲 / 稳 / 保」栏里。
+
+---
+
+## 你是 SSS 档
+
+**画像**：天花板档申请者画像：清北华5（rk1-5）或美本 top 15 + GPA 3.95+，软背景必须有 AI/CV/NLP 顶会一作，或在 Stanford/MIT 等海外组做过 RA，再叠加 FAANG/顶级 quant 实习与大牛强推。三维通常 TOEFL 110+/GRE 330+。典型目标是 PhD / 教职 / 顶级 research lab / 头部 quant，找工只是顺带。这档人的痛点不是录不到学校，而是 SSS 几所旗舰命中是抽奖，需要在 SS 档铺旗舰避免 0 offer。策略：reach 押天花板、match 用 SS 旗舰兜住、safety 用 SS 内对陆本相对友好的项目。心态建议：SSS 没中是常态，下一档已经足够强。
+
+**冲 (reach)** (3)
+
+- `[SSS]` **MIT EECS** — 只招 PhD 然后 quit 拿 master，没有顶会一作几乎没机会，对你也是抽奖
+- `[SSS]` **Stanford MSCS** — MSCS 申请天花板，陆本招生人数极少，target school + 顶会一作才稳
+- `[SSS]` **Princeton MSECS** — 一届 30 人内主要招来做 TA，GPA 与本科 rank 比 pub 更重要，理论/quant 出路友好
+
+**稳 (match)** (4)
+
+- `[SSS]` **MIT CSE** — 数学/CSE 计算方向 fully funded，工科/数学背景比纯 CS 友好，目前已暂停外校招生需关注 recall
+- `[SS]` **CMU MSCS** — SCS 王牌，对你这个画像基本是 match，找工/科研双修，陆本主要收清北华5 rk1
+- `[SS]` **UIUC MSCS** — 等同 PhD 申请，提前陶瓷命中显著上升，25 fall 起不再保证 fully funded
+- `[SS]` **Yale MSCS 2year** — fully funded 强制 TA，一届 15 人，对顶会 bg 的你按 PhD 准备录取友好
+
+**保 (safety)** (3)
+
+- `[SS]` **Harvard CSE** — 两年弹性 + 可蹭 MIT 课程，对 CS 本 + 数学/物理 bg 友好，是本档失利的过渡选项
+- `[SS]` **Stanford ICME** — Stanford 数学/DS 入口，DS track 对你这个画像偏 safety，MCF track 仍是 reach
+- `[SS]` **Caltech MSEE** — 每年 15 人，1/3 给陆本清北华5，可全选 CS 课，9 个月可延半年
+
+---
+
+## 你是 SS 档
+
+**画像**：顶尖档申请者画像：清北华5 top 名次 + GPA 3.9+，或 985 top（复旦交大/中科大）rk 极前 + 强海外 RA，海本 top 30 GPA 3.9+。软背景接近 SSS 但缺一篇顶会一作，通常是合作二作 + 1-2 段大厂/quant 实习 + 1 段海外科研。三维 TOEFL 108+/GRE 328+。典型目标兼顾找工旗舰与 PhD 跳板。痛点是软背景拉满后命中率仍受本科 rank 与具体 pub 质量影响波动大。策略：铺 4-6 所旗舰，reach 1-2 所冲 SSS，match 主力放 SS 内陆本友好项目，safety 用 S 档旗舰兜住。心态建议：不必押注单校，工科非 CS 出身请重视 CSE/ICME 这条计算路线。
+
+**冲 (reach)** (3)
+
+- `[SSS]` **Stanford MSCS** — 继续冲天花板，软背景需接近 SSS 量级，否则属于陪跑性质
+- `[SSS]` **MIT CSE** — 数学/CSE 方向天花板，CS bg 要靠 optimization/numerical 科研背书
+- `[SSS]` **Princeton MSECS** — 看 GPA 与本科 rank，理论/quant 方向可冲，pub 不是硬指标
+
+**稳 (match)** (5)
+
+- `[SS]` **CMU MSCS** — SCS 王牌，对你画像偏 match，注意陆本基本只收清北华5 rk 极前，找工上限是顶级 quant + FAANG
+- `[SS]` **Harvard CSE** — 两年弹性 + 可蹭 MIT 课程与招聘会，CS 本 + 数学背景友好，做 RA 与转博通道顺畅
+- `[SS]` **Stanford ICME** — 数学/统计本科首选 Stanford 入口，DS track 适合 ML/AI 转 SDE，MCF track 难度堪比 SSS
+- `[SS]` **UIUC MSCS** — 等同 PhD 申请，建议提前陶瓷，25 fall 起不再保证 fully funded 性价比有所下滑
+- `[SS]` **Yale MSCS 2year** — fully funded 强制 TA，一届 15 人，按 PhD 申请准备，pub 与教授 connection 重要
+
+**保 (safety)** (4)
+
+- `[SS]` **Caltech MSEE** — 每年 15 人 1/3 给陆本清北华5，转码极友好，可全选 CS 课，9 个月可延半年
+- `[S]` **CMU MCDS** — SCS 旗舰，对你画像基本 safety，三个 track 可互转，找工 ceiling 与 MSCS 相近
+- `[S]` **CMU MSML** — ML 方向首选，RA 可免最多 75% 学费，转本系 PhD 只需再上一门课
+- `[S]` **GT MSCS** — 对你画像稳 safety，TA/RA 免学费 + 月工资，是 SS 档失手时的兜底神器
+
+---
+
+## 你是 S 档
+
+**画像**：强档申请者画像：清北华5 中下段或华5 普通名次 GPA 3.85+，或强 985（复交科哈中）GPA 3.85+，海本 top 50 GPA 3.85+。软背景通常是 1-2 段大厂实习 + 1 段国内/海外科研合作（无顶会一作），有强推 1-2 封。三维 TOEFL 105+/GRE 325+。典型目标是 1.5-2 年内锁定大厂 SDE/MLE 上岸，少数转 PhD。痛点是软背景没有顶会硬通货，命中 SS 旗舰靠运气与 fit，需要在 S 档铺主力。策略：reach 跨档冲 SS 旗舰 2-3 所，match 主力放 CMU SCS 系列 + GT MSCS 这种六边形项目，safety 用 A+ 公立旗舰兜底。心态建议：每个项目 track 差别大，按个人技术栈对症选。
+
+**冲 (reach)** (3)
+
+- `[SS]` **CMU MSCS** — 跨档冲 SCS 王牌，本科 rank 顶尖 + 软背景强可以试，命中概率不高
+- `[SS]` **UIUC MSCS** — 按 PhD 准备，提前陶瓷有戏，对 ML/system 方向科研 bg 加分明显
+- `[SS]` **Stanford ICME** — 数学/统计强 bg 可以试，DS track 比 MCF track 友好
+
+**稳 (match)** (6)
+
+- `[S]` **CMU MCDS** — 对你是 match，三个 track 可互转，有工业界/ML/DS bg 更友好，找工 ceiling 拉满
+- `[S]` **CMU MSML** — ML 方向首选，RA 可免最多 75% 学费，转本系 PhD 只需再上一门课
+- `[S]` **CMU MSIN** — INI 旗舰就业项目，可拼出近似 MSCS 课表，是陆本就业向申请的事实天花板
+- `[S]` **CMU MIIS** — LTI 下面就业向项目，前两学期强制 research，AI/NLP bg 友好，往年就业 92%
+- `[S]` **GT MSCS** — 对你画像基本是 match，TA/RA 免学费友好，注意 GRE V153+ 卡线
+- `[S]` **UCB EECS MEng** — 一年制湾区项目 capstone 必修，24 fall 起不批延期 CPT，适合已有 return offer 或多年全职
+
+**保 (safety)** (4)
+
+- `[S]` **Cornell CS MEng** — 美本可 defer spring 拿 CPT，25 fall 起可延 1.5 年解决一年制无暑期实习痛点
+- `[S]` **UT MSCS** — Austin 大厂密集，便宜 + cs 排名高，TA/RA 容易拿，转本校 PhD 老师点头即可
+- `[A+]` **UCSD CS75** — 对你画像是稳 safety，六边形大众情人，2025 新增 coop，TA 免一半学费
+- `[A+]` **GT CSE** — 选课自由可全修 CS 课优先级等同 MSCS，TA/RA 免学费 + 月 800 刀
+
+---
+
+## 你是 A+ 档
+
+**画像**：次顶档申请者画像：强 985（华五除外，如北航/同济/西交/哈工大/中山/武大）GPA 3.85+，或普通 985 rk 前 5% GPA 3.9+，海本 top 100 GPA 3.85+。软背景偏 2-3 段实习（含 1 段大厂或独角兽）+ 一段水科研，少数有一作小会 pub。三维 TOEFL 102+/GRE 322+。典型目标找工 SDE/MLE，少数转 quant/DS。痛点是缺顶会硬通货，CMU SCS 系列基本陪跑，需要把火力集中在 A+ 公立旗舰与私校牌子。策略：reach 1-2 所冲 S 档六边形，match 主力放 UCSD/GT CSE/Duke/UPenn CIS 大众情人，safety 用 UT ECE/UCLA MEng 兜底。心态建议：UCSD 玄学正常，多铺 4-6 所就好。
+
+**冲 (reach)** (3)
+
+- `[S]` **CMU MIIS** — 向上跨档冲 CMU SCS，AI/NLP bg 高三维有戏，是性价比最高的 reach
+- `[S]` **GT MSCS** — 对你是 reach，需要拉 GRE V153+ 与一段强推，GT 老师推荐加分巨大
+- `[S]` **UT MSCS** — 陆本 hc 极少但对强 985 高 GPA 有戏，转 PhD bg 加分
+
+**稳 (match)** (6)
+
+- `[A+]` **UCSD CS75** — 六边形大众情人，对你画像是 match，2025 新增 coop，TA 免一半学费 + 圣地亚哥地理位置
+- `[A+]` **GT CSE** — 可全修 CS 课优先级等同 MSCS，TA/RA 免学费 + 月 800 刀，I20 写 CS
+- `[A+]` **Duke MSCS** — 扩招 + diversity 拉满，3+3+4 模式控总花费，进可读 PhD 退可找工
+- `[A+]` **UPenn CIS** — 大藤 title + workload 类似 MCDS，硬核找工向，录取率<5% 偏好美本，3.85+ 是基础线
+- `[S]` **CMU MSAII** — SCS 下面 AI 就业向项目，三维 GPA 拉满更稳，选修 8 门可全修 SCS 系统硬课
+- `[A+]` **UCLA MSCS** — 湾区/洛杉矶地理位置 + UC 系牌子，bar 中等偏上，对纯 CS bg 友好
+
+**保 (safety)** (4)
+
+- `[A+]` **UCLA MEng** — UCLA 牌子 + 一年制，26 fall 起可延期 + coop，DS/AI 方向为主不适合纯 SDE
+- `[A+]` **UT ECE(SES)** — 学费极便宜 + TA/RA 免学费 + 2 次实习 + coop，被低估的保底，转 PhD 友好
+- `[A+]` **Wisc CS PMP** — 几乎要求全职经验，有 SDE 全职录取率约 85%，无全职建议跳过
+- `[A]` **UPenn MCIT** — 对你画像是稳 safety（如果上过<=2 门 CS 课），藤校 title + 转码扎实数据
+
+---
+
+## 你是 A 档
+
+**画像**：中坚档申请者画像：普通 985（如东大/北理/天大/西工大/华南理/中南）GPA 3.7+，或 211 头部 GPA 3.85+，海本 top 100 GPA 3.6-3.9。多数科班 CS/ECE/SE，软背景 2-3 段中厂/独角兽实习 + 弱科研，少数有大厂实习。三维 TOEFL 100+/GRE 320+。典型目标进大厂 SDE，ECE/CE 转码同学聚集。痛点是科研基本 0，靠刷题 + 实习驱动，但本科 rank 进 A+ 已经吃力。策略：reach 1-2 所冲 A+ 私校牌子，match 主力放 Columbia/UMich/UIUC MCS + CMU ECE/MITS 转码主流，safety 放 UPenn MCIT/Yale/UW PMP 兜底。心态建议：哥大水说法过时，A 档项目 ceiling 完全够进大厂，纽约/西雅图/湾区均匀铺。
+
+**冲 (reach)** (4)
+
+- `[A+]` **UPenn CIS** — 跨档冲大藤 title，需高 GPA + 一段过硬实习或 pub，陆本可对标 SS bar
+- `[A+]` **Duke MSCS** — 扩招中 + 看三维，985 GPA 3.85+ 可以冲一把
+- `[A+]` **UCSD CS75** — 对你是 reach，需要补一段大厂或拉高 GPA，CV/ML 方向 fit 更好
+- `[S]` **GT MSCS** — 跨两档冲，必须有 GT 老师推荐或顶尖三维，命中率低但性价比高
+
+**稳 (match)** (6)
+
+- `[A]` **Columbia MSCS** — 纽约地理位置 + bbg/meta 重点捞人，过简历关容易，0 实习也有 google dp
+- `[A]` **UIUC MCS** — 授课型可 coop，美本 3.6+ 比较稳，陆本难度高，开了 Chicago 校区相对友好
+- `[A]` **UMich MSCS** — TA 免学费 + $3000/月 stipend，外校 hc 少主要给本校 SUGS，外申需要拉满三维
+- `[A]` **CMU ECE** — ECE 转码大本营，可选纯 CS 课表，hc 大但 workload 重；3.7+ 是常规线
+- `[A]` **CMU MITS** — 合办项目灵活，可拼 MSCS 课表，找工只看 CMU 牌子分不清项目，rolling 早申更稳
+- `[A]` **UMD MSCS** — DMV 地区大厂多 + 公立性价比，bar 比 UMich 友好，硬件/system 方向加分
+
+**保 (safety)** (4)
+
+- `[A]` **UPenn MCIT** — 0 基础转码上限项目，限上过<=2 门 CS 课，第一轮录取率约 17%，找工数据扎实
+- `[A]` **Yale MSCS** — 三维计算器看 GPA/学校/GRE/托福不看科研，一年制找工偏弱靠捞人
+- `[A]` **UW EE PMP（MSECE）** — 26 fall 改名 MSECE，西雅图 + microsoft target + 3 次 coop，25 fall bar 已升
+- `[A]` **CMU MSMITE** — INI 项目第二年在 SV，bar 低于 MSIN，CMU 牌子 + 选课弹性
+
+---
+
+## 你是 A- 档
+
+**画像**：腰部档申请者画像：普通 985 GPA 3.5-3.7，或 211 头部 GPA 3.7+，海本 top 150 GPA 3.6+。多数科班但软背景偏弱（1-2 段中厂实习无大厂、无科研或仅一段水科研）。三维 TOEFL 100/GRE 320 左右。典型目标是用一年半学完转码上岸大厂，也有不少 oq 同学。痛点是 A+ 私校卡 GPA 与本科 rank 后基本无戏，CMU ECE/Columbia MSCS 等 A 档项目命中靠运气。策略：reach 跨档冲 Columbia/UMich，match 主力放 JHU/UChicago MPCS/Columbia CE 这种转码副线，safety 用 Brown/Duke ECE/UCSD ECE 兜住。心态建议：项目差别不如你刷题量重要，提前刷 200 题比纠结选哪所更管用。
+
+**冲 (reach)** (4)
+
+- `[A]` **Columbia MSCS** — 跨档冲哥大 MSCS，3.7+ 985 cs 本可以试，纽约地理位置长期受用
+- `[A]` **UMich MSCS** — 外校 hc 少，需要高 GPA + 强推 + 出色选课才有戏
+- `[A]` **UPenn MCIT** — oq 转码可冲，限 CS 课<=2 门，藤校 title + 转码数据是值得的赌注
+- `[A]` **CMU MITS** — 跨档冲 CMU 牌子，rolling 早申增加命中率
+
+**稳 (match)** (6)
+
+- `[A-]` **JHU MSECS** — 出名转码项目，3.7+ 有戏但会拒 oq，CS 选课优先级高，旁听机制好用
+- `[A-]` **UChicago MPCS** — 综排高 + fintech target，wld 小方便刷题，学费 9w 偏贵，bar 在涨
+- `[A-]` **NYU DS** — DS/数学/CS 转博与找 DS 工作首选，数学要求高，不适合纯转码
+- `[A-]` **Columbia CE** — 选 CS 课优先级与 MSCS 同等，bar 比 MSCS 低，曼哈顿地理位置同样好用
+- `[A-]` **CMU MSESS** — INI 下面 SS 项目，可选 CS 课 + CMU 牌子，bar 比 MSIN 友好
+- `[B+]` **Columbia EE** — 至少 5 门 ESE + 5 门 6000+，剩下可全选 CS 课，bar 友好 985 3.4 也有 dp
+
+**保 (safety)** (4)
+
+- `[A-]` **Brown SCMCS** — 藤校牌子 + 每学期 2 门课 wld 小，找 SDE intern 数据偏弱，需要科班 bg
+- `[A-]` **Duke ECE** — 课程 SDE 导向 + bar 比 MSCS 友好 + meng 可 coop，3.7+ 即可，转码同学也收
+- `[A-]` **UCSD EC79** — UCSD ECE 转码最友好 track，bar 略低于 CS75，wld 比 MSCS 大不少
+- `[A-]` **GT ECE** — ECE 转码可选偏软课程 + coop/GRIP 灵活，硬件 SDE 都有出路
+
+---
+
+## 你是 B+ 档
+
+**画像**：中后段档申请者画像：211 中段 GPA 3.5+ 或普通 985 GPA 3.3+，双非 GPA 3.8+，海本 top 200 GPA 3.5+。转码占比开始升高，也有 2-3 年工作经验回炉的同学。软背景 1-2 段中小厂实习无科研，三维 TOEFL 95+/GRE 315+。典型目标进大厂 SDE 但更现实地求一份 SDE offer。痛点是 A-/A 档 cap 顶得很死，需要靠数量铺开。策略：reach 跨档冲 UChicago MPCS/JHU 提升下限，match 主力放 Rice/TAMU/UCI MSWE 这种公立大项目，safety 用 NYU Tandon/NEU/UWT MSCS 这种就业氛围浓的。心态建议：reputation 已被个人能力抹平，刷题 + 实习 + 简历是公式。
+
+**冲 (reach)** (4)
+
+- `[A-]` **UChicago MPCS** — 跨档冲综排高校，转码友好 GRE Q90%+ 比较稳
+- `[A-]` **JHU MSECS** — 跨档冲转码名项目，3.7+ 有戏，注意会拒 oq
+- `[A-]` **GT ECE** — 跨档冲 GT 牌子，硬件/ECE bg 有戏，coop/GRIP 可延期
+- `[A-]` **Duke ECE** — 藤校相近声誉，bar 比 MSCS 友好，3.5+ 可冲
+
+**稳 (match)** (5)
+
+- `[B+]` **Rice MCS** — 私校牌子 + 学费适中 + 第一年免费宿舍，paycom 保底加上 amazon/meta 实习数据扎实
+- `[B+]` **Cornell MPS-IS** — 可蹭 CS 课优先级仅次于 CS 学院，可延期拿 CPT，转码同学多 wld 大需控制选课
+- `[B+]` **TAMU CSE** — 小 GT：TA/RA 免学费 + 学制灵活 1.5-3 年 + coop，本科生过多导致 CS title 帮助小
+- `[B+]` **UCI MSWE** — 找工导向 + 入学送 LeetCode 会员 + 保底实习兜底 + 富人区安全，wld 比 MCS 小
+- `[B+]` **CMU MISM** — 靠 CMU title 找工，core 商科课需自己往 CS 选课，适合国内已有大厂实习的
+
+**保 (safety)** (5)
+
+- `[B+]` **NYU Tandon MSCS** — 招生喜欢中国名校 + 最后一学期 coop，找工数据较为一般，纽约地理位置弹性
+- `[B+]` **NWU MSCS** — 综排高 + 风景好 + thesis/project 可延毕，career service 弱适合做 research 转 PhD
+- `[B+]` **UWT MSCS** — 可写 UW MSCS，2 次 coop + capstone，西雅图通勤 microsoft 友好，bar 友好
+- `[B+]` **UPenn EE** — 藤校 EE + bar 低 GPA 87+ 可冲，必修 5 门 ESE 课其余可选 CS
+- `[B+]` **Cornell Tech CM** — 纽约罗岛 + Cornell 文凭，找工数据低于宣传，学费两年 22w 偏贵但兜底用
+
+---
+
+## 你是 B 档
+
+**画像**：找工保底档申请者画像：普通 985 GPA 3.3 上下，211 中段 GPA 3.5 左右，双非 GPA 3.7+，海本 top 250 GPA 3.5+。多为转码同学的保底选择，也有不少国内工作 1-3 年的回炉者。软背景 1 段中厂实习或 0 实习，三维 TOEFL 90+/GRE 310+ 即可。典型目标拿 STEM CS title + OPT，在美国找 SDE。痛点是 title 加分有限，找工 95% 看个人。策略：reach 跨档冲 Rice/TAMU 提升 ceiling，match 主力放 NEU MSCS/USC CS37/UMass/UCI MCS 大 class size 找工氛围浓的，safety 用 NCSU/Emory/NEU Align 兜底。心态建议：NEU coop 是这档最强的复活卡，入学前刷题最重要。
+
+**冲 (reach)** (4)
+
+- `[B+]` **TAMU CSE** — 跨档冲小 GT，TA/RA 免学费 + 灵活学制，硬件/system bg 加分
+- `[B+]` **Rice MCS** — 跨档冲私校牌子，985 88+ 可以试
+- `[B+]` **UCI MSWE** — 跨档冲加州 + 找工导向，工作经验加分明显
+- `[B+]` **NYU Tandon MSCS** — 跨档冲纽约地理位置，中国名校 bg 友好
+
+**稳 (match)** (5)
+
+- `[B]` **NEU MSCS** — 多校区 + coop + NUworks 内部投递，秋季 coop 给一次以上复活卡，找工向 hot choice
+- `[B]` **USC CS37** — 只看 GPA + 985/211 bg，class size 近千人，主要靠 amazon 捞人，高 GPA 保底
+- `[B]` **UMass MSCS** — 公立性价比 + 课程偏水方便刷题，主要靠亚麻 tesla 捞人，春季入学也给 CPT
+- `[B]` **UCI MCS** — Quarter 制无法延期，5 月底前不可开始实习，建议优先 MSWE，有全职经验更友好
+- `[B]` **UIUC ECE MEng** — 可 coop + 可全选 CS 课 + advisor 友好 petition 算学分，转 PhD 也可以
+
+**保 (safety)** (4)
+
+- `[B]` **Emory MSCS** — 小班精英化 + 自动 30-50% 学费奖学金 + 转本校 PhD 友好，找工氛围弱
+- `[B]` **NCSU MCS** — 公立性价比 3.2+ 托福 100 即可，北卡大厂多，22 summer 上岸率 87%
+- `[B]` **NEU CS ALIGN** — 转码项目限 CS 课<=2 门，硅谷校区 + NEU coop，bar 友好且 25 fall 起明显降温
+- `[B-]` **NEU IS** — I20 写 SE 算 CS title，coop 一次以上复活卡，bar 不高，转码主力
+
+---
+
+## 你是 B- 档
+
+**画像**：转码保底档申请者画像：转码同学 GPA 3.0-3.5，双非或低 rank 211 GPA 3.3-3.6，海本 GPA 3.3+。多数无 CS 本科背景或本科是其他工科/文商科。软背景仅 1 段水实习或 0 实习无科研，三维 TOEFL 85+/GRE 305+。典型目标是拿一个 STEM CS 相关 title + OPT + STEM OPT 共 3 年时间在美国找 SDE。痛点是 title 加分极小，地理位置 + coop 制度是核心。策略：reach 跨档冲 NEU MSCS/UCI MCS 提升 ceiling，match 主力放 NEU 系列（IS/SES/Align）+ SCU MSCSE 占住硅谷/波士顿，safety 用 UIUC MSIM/UTSU 兜底。心态建议：录取 bar 不高不等于学习压力小，入学前刷到 200+ 题是底线。
+
+**冲 (reach)** (4)
+
+- `[B]` **NEU MSCS** — 跨档冲 NEU 主项目，硬件背景或 985 转码可以试
+- `[B]` **UCI MCS** — 跨档冲加州地理位置，需要有工作经验
+- `[B]` **UMass MSCS** — 跨档冲公立性价比，亚麻 tesla 捞人 + 春季入学给 CPT
+- `[B]` **USC CS37** — 看 GPA + 985/211 bg，class size 大主要靠 amazon
+
+**稳 (match)** (4)
+
+- `[B-]` **NEU IS** — I20 写 SE 算 CS title，coop 一次以上复活卡，bar 不高，转码主力
+- `[B-]` **NEU SES** — 只在波士顿校区，bar 比 IS 容易 80+ 即可，找工数据一般
+- `[B-]` **SCU MSCSE** — 硅谷地理位置 + 学费 5.3w 较便宜，转码需补 3 门先修课，找工全靠自己
+- `[B]` **NEU CS ALIGN** — 0 基础转码标配，多校区 + Align 专属 coop 资源，bar 25 fall 起降温
+
+**保 (safety)** (3)
+
+- `[B-]` **UIUC MSIM** — UIUC 牌子 + 课程水 + coop 政策，找工数据一般，靠 amazon 捞人
+- `[B]` **UTSU MSCS** — 全奖 + 灵活 4 年学制，适合预算紧张的转码同学保底
+- `[C+]` **UMN MSCS** — TA 免学费 + 月 1600 税后，UMN BSCS 保底校，bar 不高但找工弱
+
+---
+
+## 你是 C+ 档
+
+**画像**：极度保底档申请者画像：双非 GPA 中等偏弱，三维 TOEFL 80-90/GRE <305，软背景几乎空白（0 实习 0 科研），或硬件/材料/化工等远转码 bg。这档可选项已经非常有限。痛点是即便录到学校，找工命中率也极低，3 年 OPT 可能就过去了。策略：reach 冲 NEU IS/SCU 给自己一次机会，match 用 UMN/UTSU 全奖路线降低成本，safety 列 2-3 所最容易录的兜底但坦白讲难以真正保底。心态建议：这档可选项少，强烈建议先国内工作 2-3 年攒经验/刷 GPA 再申，硬上美研后无法找工的概率非常高。
+
+**冲 (reach)** (3)
+
+- `[B-]` **NEU IS** — 跨档冲 NEU 系列，bar 不高，coop 友好是这档最值得的赌注
+- `[B+]` **UWT MSCS** — 跨档冲，简历可写 UW MSCS，2 次 coop 适合 GPA 不高实习扎实的
+- `[B-]` **SCU MSCSE** — 跨档冲硅谷地理位置，bar 友好但需自费 3 门先修课
+
+**稳 (match)** (3)
+
+- `[C+]` **UMN MSCS** — TA 免学费 + 月 1600 税后，UMN BSCS 保底校，找工弱想转 PhD 可以考虑
+- `[B]` **UTSU MSCS** — Utah State 全奖 + 最多读 4 年，GPA 3.0+ 托福 90 即可，性价比保底首选
+- `[B]` **NEU CS ALIGN** — 0 基础转码 bar 25 fall 起降低，硅谷校区找工资源相对集中
+
+**保 (safety)** (2)
+
+- `[B-]` **UIUC MSIM** — UIUC 牌子 + 课程水 + amazon 捞人，bar 在本档算友好兜底
+- `[B-]` **NEU SES** — 波士顿校区 bar 容易 80+ 即可，是 NEU 系列里最容易录的
+
+---
