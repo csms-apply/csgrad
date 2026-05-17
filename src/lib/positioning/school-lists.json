@@ -46,14 +46,20 @@
       {
         "school": "Yale MSCS 2year",
         "doc": "/SS/Yale MSCS 2year",
-        "reason": "fully funded 强制 TA，一届 15 人，对顶会 bg 的你按 PhD 准备录取友好"
+        "reason": "fully funded 强制 TA，一届 15 人，对顶会 bg 的你按 PhD 准备录取友好",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       }
     ],
     "safety": [
       {
         "school": "Harvard CSE",
         "doc": "/SS/Harvard CSE",
-        "reason": "两年弹性 + 可蹭 MIT 课程，对 CS 本 + 数学/物理 bg 友好，是本档失利的过渡选项"
+        "reason": "两年弹性 + 可蹭 MIT 课程，对 CS 本 + 数学/物理 bg 友好，是本档失利的过渡选项",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "Stanford ICME",
@@ -101,7 +107,10 @@
       {
         "school": "Harvard CSE",
         "doc": "/SS/Harvard CSE",
-        "reason": "两年弹性 + 可蹭 MIT 课程与招聘会，CS 本 + 数学背景友好，做 RA 与转博通道顺畅"
+        "reason": "两年弹性 + 可蹭 MIT 课程与招聘会，CS 本 + 数学背景友好，做 RA 与转博通道顺畅",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "Stanford ICME",
@@ -116,7 +125,10 @@
       {
         "school": "Yale MSCS 2year",
         "doc": "/SS/Yale MSCS 2year",
-        "reason": "fully funded 强制 TA，一届 15 人，按 PhD 申请准备，pub 与教授 connection 重要"
+        "reason": "fully funded 强制 TA，一届 15 人，按 PhD 申请准备，pub 与教授 connection 重要",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       }
     ],
     "safety": [
@@ -128,7 +140,10 @@
       {
         "school": "CMU MCDS",
         "doc": "/S/cmu mcds",
-        "reason": "SCS 旗舰，对你画像基本 safety，三个 track 可互转，找工 ceiling 与 MSCS 相近"
+        "reason": "SCS 旗舰，对你画像基本 safety，三个 track 可互转，找工 ceiling 与 MSCS 相近",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "CMU MSML",
@@ -168,7 +183,10 @@
       {
         "school": "CMU MCDS",
         "doc": "/S/cmu mcds",
-        "reason": "对你是 match，三个 track 可互转，有工业界/ML/DS bg 更友好，找工 ceiling 拉满"
+        "reason": "对你是 match，三个 track 可互转，有工业界/ML/DS bg 更友好，找工 ceiling 拉满",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "CMU MSML",
@@ -269,7 +287,10 @@
       {
         "school": "UPenn CIS",
         "doc": "/A+/Upenn CIS",
-        "reason": "大藤 title + workload 类似 MCDS，硬核找工向，录取率<5% 偏好美本，3.85+ 是基础线"
+        "reason": "大藤 title + workload 类似 MCDS，硬核找工向，录取率<5% 偏好美本，3.85+ 是基础线",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "CMU MSAII",
@@ -322,7 +343,10 @@
       {
         "school": "UPenn CIS",
         "doc": "/A+/Upenn CIS",
-        "reason": "跨档冲大藤 title，需高 GPA + 一段过硬实习或 pub，陆本可对标 SS bar"
+        "reason": "跨档冲大藤 title，需高 GPA + 一段过硬实习或 pub，陆本可对标 SS bar",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "Duke MSCS",
@@ -375,7 +399,10 @@
       {
         "school": "UMD MSCS",
         "doc": "/A/UMD MSCS",
-        "reason": "DMV 地区大厂多 + 公立性价比，bar 比 UMich 友好，硬件/system 方向加分"
+        "reason": "DMV 地区大厂多 + 公立性价比，bar 比 UMich 友好，硬件/system 方向加分",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       }
     ],
     "safety": [
@@ -392,7 +419,10 @@
       {
         "school": "Yale MSCS",
         "doc": "/A/Yale MSCS",
-        "reason": "三维计算器看 GPA/学校/GRE/托福不看科研，一年制找工偏弱靠捞人"
+        "reason": "三维计算器看 GPA/学校/GRE/托福不看科研，一年制找工偏弱靠捞人",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "UW EE PMP（MSECE）",
@@ -838,7 +868,10 @@
       {
         "school": "Yale MSCS 2year",
         "doc": "/SS/Yale MSCS 2year",
-        "reason": "fully funded 强制 TA，一届 15 人，本身就是按 PhD 申请准备的项目"
+        "reason": "fully funded 强制 TA，一届 15 人，本身就是按 PhD 申请准备的项目",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "UIUC MSCS",
@@ -848,7 +881,10 @@
       {
         "school": "Harvard CSE",
         "doc": "/SS/Harvard CSE",
-        "reason": "两年弹性 + 可蹭 MIT 课程 + RA 与转博通道顺畅，对数理 bg 尤其友好"
+        "reason": "两年弹性 + 可蹭 MIT 课程 + RA 与转博通道顺畅，对数理 bg 尤其友好",
+        "tags": [
+          "high-bar-no-safety"
+        ]
       },
       {
         "school": "Stanford ICME",
