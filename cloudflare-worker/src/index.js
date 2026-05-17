@@ -1,5 +1,5 @@
 import { classify } from './classifier.js';
-import schoolLists from './school-lists.json';
+import schoolLists from '../../src/lib/positioning/school-lists.json';
 import { createCheckoutSession, verifyStripeSignature } from './stripe.js';
 
 const FRONTEND_RESULT_URL = 'https://csms-apply.github.io/school-positioning-result';
