@@ -13,6 +13,7 @@ export const FIELD_DEFINITIONS = [
       { value: 'us-top', label: { 'zh-Hans': '美本 Top 30', en: 'US top 30' } },
       { value: 'us-mid', label: { 'zh-Hans': '美本 Top 30-100', en: 'US top 30-100' } },
       { value: 'cn-transfer-us', label: { 'zh-Hans': '陆本转学美本（2+2 / 3+1 等）', en: 'CN→US transfer (2+2 / 3+1)' } },
+      { value: 'cn-joint-venture', label: { 'zh-Hans': '中外合办（XJTLU / 宁诺 / 上海 NYU / 昆山杜克等）', en: 'Sino-foreign joint venture (XJTLU / UNNC / NYU Shanghai etc.)' } },
       { value: 'overseas-top', label: { 'zh-Hans': '顶尖海外（牛津 / 剑桥 / 帝国 / ETH / 多伦多 / 港三所等）', en: 'Top overseas (Oxford / Cambridge / Imperial / ETH / UofT / HKU·HKUST·CUHK, etc.)' } },
       { value: 'cn-tsinghua-pku', label: { 'zh-Hans': '清北', en: 'Tsinghua / Peking' } },
       { value: 'cn-sustech-shtech', label: { 'zh-Hans': '上科大 / 南科大', en: 'ShanghaiTech / SUSTech' } },
@@ -22,12 +23,6 @@ export const FIELD_DEFINITIONS = [
       { value: 'cn-双非', label: { 'zh-Hans': '双非', en: 'Non-985/211 Chinese university' } },
       { value: 'overseas', label: { 'zh-Hans': '其他海外院校（IIT / 香港城市 / 港理工 / NTU·NTHU / 欧洲非顶尖等）', en: 'Other overseas (IIT / CityU·HK / PolyU·HK / NTU·NTHU / European non-top, etc.)' } },
     ],
-  },
-  {
-    key: 'isJointVenture',
-    type: 'boolean',
-    required: false,
-    label: { 'zh-Hans': '是否中外合办本科（XJTLU / 宁诺 / 上海 NYU 等）', en: 'Sino-foreign joint venture undergrad?' },
   },
   {
     key: 'gpaScale',
@@ -55,7 +50,7 @@ export const FIELD_DEFINITIONS = [
     label: { 'zh-Hans': '海外段 GPA', en: 'Foreign-portion GPA' },
     help: { 'zh-Hans': '中外合办 / 转学美本的海外段 GPA', en: 'GPA of the overseas portion (joint venture or US transfer)' },
     min: 0, max: 100, step: 0.01,
-    showIf: (p) => p && (p.isJointVenture === true || p.ugType === 'cn-transfer-us'),
+    showIf: (p) => p && (p.ugType === 'cn-joint-venture' || p.ugType === 'cn-transfer-us'),
   },
   {
     key: 'jointForeignGpaScale',
@@ -67,7 +62,7 @@ export const FIELD_DEFINITIONS = [
       { value: '4.3', label: { 'zh-Hans': '4.3 制', en: '4.3 scale' } },
       { value: '100', label: { 'zh-Hans': '百分制', en: '100-point scale' } },
     ],
-    showIf: (p) => p && (p.isJointVenture === true || p.ugType === 'cn-transfer-us'),
+    showIf: (p) => p && (p.ugType === 'cn-joint-venture' || p.ugType === 'cn-transfer-us'),
   },
   {
     key: 'major',
@@ -141,17 +136,12 @@ export const FIELD_DEFINITIONS = [
     required: true,
     label: { 'zh-Hans': '科研产出', en: 'Research output' },
     options: [
-      { value: 'none', label: { 'zh-Hans': '无（或只有未发表的 RA 经历）', en: 'None (or unpublished RA experience only)' } },
+      { value: 'none', label: { 'zh-Hans': '无科研经历', en: 'No research experience' } },
+      { value: 'ra-no-output', label: { 'zh-Hans': '有科研经历但无产出（RA / 暑研未 publish）', en: 'Research experience but no publication (RA / summer)' } },
       { value: 'domestic-paper', label: { 'zh-Hans': '国内期刊 / 普通会议论文', en: 'Domestic journal / mid-tier conference paper' } },
-      { value: 'top-conf-coauthor', label: { 'zh-Hans': '顶会 / 顶刊合作 / 非一作', en: 'Top-tier conference/journal co-author' } },
-      { value: 'top-conf-first', label: { 'zh-Hans': '顶会 / 顶刊一作', en: 'Top-tier conference/journal first author' } },
+      { value: 'top-conf-coauthor', label: { 'zh-Hans': '顶会论文合作 / 非一作（CVPR / ICCV / NeurIPS 等）', en: 'Top-tier conference paper, co-author (CVPR / ICCV / NeurIPS etc.)' } },
+      { value: 'top-conf-first', label: { 'zh-Hans': '顶会论文一作（CVPR / ICCV / NeurIPS 等）', en: 'Top-tier conference paper, first author' } },
     ],
-  },
-  {
-    key: 'hasCvConfPaper',
-    type: 'boolean',
-    required: false,
-    label: { 'zh-Hans': '是否有 CV 顶会论文（CVPR / ICCV / NeurIPS 等）', en: 'CV top-conf paper (CVPR / ICCV / NeurIPS, etc.)?' },
   },
   {
     key: 'internships',
@@ -211,20 +201,6 @@ export const FIELD_DEFINITIONS = [
       { value: 'cn-job', label: { 'zh-Hans': '回国找工', en: 'Work in China' } },
       { value: 'us-phd', label: { 'zh-Hans': '美国读博', en: 'PhD in the US' } },
       { value: 'unsure', label: { 'zh-Hans': '还不确定', en: 'Not sure yet' } },
-    ],
-  },
-  {
-    key: 'locationPref',
-    type: 'select',
-    required: true,
-    label: { 'zh-Hans': '地理位置偏好', en: 'Location preference' },
-    options: [
-      { value: 'flexible', label: { 'zh-Hans': '无所谓', en: 'No preference' } },
-      { value: 'east-coast', label: { 'zh-Hans': '东岸', en: 'East coast' } },
-      { value: 'west-coast', label: { 'zh-Hans': '西岸', en: 'West coast' } },
-      { value: 'midwest', label: { 'zh-Hans': '中部', en: 'Midwest' } },
-      { value: 'south', label: { 'zh-Hans': '南部', en: 'South' } },
-      { value: 'no-rural', label: { 'zh-Hans': '不接受乡村小镇', en: 'No rural college towns' } },
     ],
   },
 ];
