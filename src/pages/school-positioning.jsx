@@ -11,16 +11,15 @@ const PRICE_LABEL = '$19.99';
 
 const COPY = {
   'zh-Hans': {
-    pageTitle: 'MSCS 选校定位（付费）',
+    pageTitle: 'MSCS 选校定位',
     pageDesc: '基于你的背景，给出 csgrad tier 档位预估与完整选校方案',
     backHome: '返回首页',
     heroTitle: 'MSCS 选校定位',
-    heroLead: '填写背景后，我们用 csgrad 内部分类模型对你的档位进行评估。免费查看你所属的 tier 档位与评估理由，付费可解锁完整选校方案（reach / match / safety 三档具体院校与推荐理由）。',
-    priceLine: '完整方案',
-    canceled: '订单已取消。你可以再次提交以付费查看完整选校方案。',
+    heroLead: '填写背景后，我们用 csgrad 内部分类模型对你的档位进行评估。',
+    canceled: '订单已取消。',
     errorPrefix: '出错了：',
     profileSection: '你的背景档案',
-    submitBtn: '生成档位预估（免费）',
+    submitBtn: '生成档位预估',
     recomputeBtn: '重新评估',
     fillRequired: '请先填写必填字段',
     previewLabel: '预估档位',
@@ -36,16 +35,15 @@ const COPY = {
     selectPlaceholder: '请选择',
   },
   en: {
-    pageTitle: 'MSCS School Positioning (Paid)',
+    pageTitle: 'MSCS School Positioning',
     pageDesc: 'Tier estimation and full school list based on your profile',
     backHome: 'Back to home',
     heroTitle: 'MSCS School Positioning',
-    heroLead: 'Fill in your profile and we will estimate your csgrad tier using our internal classifier. The tier and reasoning are free. Pay to unlock the full school list across reach / match / safety.',
-    priceLine: 'Full plan',
-    canceled: 'Order canceled. You can submit again to pay and unlock the full plan.',
+    heroLead: 'Fill in your profile and we will estimate your csgrad tier using our internal classifier.',
+    canceled: 'Order canceled.',
     errorPrefix: 'Error: ',
     profileSection: 'Your profile',
-    submitBtn: 'Estimate my tier (free)',
+    submitBtn: 'Estimate my tier',
     recomputeBtn: 'Re-evaluate',
     fillRequired: 'Please fill in the required fields first',
     previewLabel: 'Estimated tier',
@@ -124,9 +122,14 @@ function validateOne(f, v, profile, t) {
   return null;
 }
 
+function isVisible(f, profile) {
+  return typeof f.showIf !== 'function' || f.showIf(profile);
+}
+
 function validate(profile, fields, t) {
   const errors = {};
   for (const f of fields) {
+    if (!isVisible(f, profile)) continue;
     if (f.type === 'group') {
       const sub = profile[f.key] || {};
       for (const sf of f.fields || []) {
@@ -144,7 +147,12 @@ function validate(profile, fields, t) {
 function coerceProfile(profile, fields) {
   const out = {};
   for (const f of fields) {
+    const visible = isVisible(f, profile);
     const v = profile[f.key];
+    if (!visible) {
+      // 隐藏字段不入 payload，让 backend 按缺省值处理
+      continue;
+    }
     if (f.type === 'number') {
       out[f.key] = v === '' || v === null || v === undefined ? null : Number(v);
     } else if (f.type === 'group') {
@@ -170,6 +178,8 @@ function coerceProfile(profile, fields) {
       out[f.key] = v;
     }
   }
+  // major === 'cs' 视为科班 CS 背景（不再有独立 isCsBackground 字段）
+  out.isCsBackground = out.major === 'cs';
   return out;
 }
 
@@ -425,9 +435,6 @@ function FormBody() {
         <div className={styles.hero}>
           <h1 className={styles.title}>{t.heroTitle}</h1>
           <p className={styles.lead}>{t.heroLead}</p>
-          <span className={styles.pricePill}>
-            {t.priceLine} <span className={styles.priceAmount}>{PRICE_LABEL}</span>
-          </span>
         </div>
 
         {canceled && (
@@ -442,7 +449,7 @@ function FormBody() {
         <form className={styles.card} onSubmit={handleSubmit} noValidate>
           <h2 className={styles.sectionTitle}>{t.profileSection}</h2>
           <div className={styles.grid}>
-            {fields.map(renderField)}
+            {fields.filter((f) => isVisible(f, profile)).map(renderField)}
           </div>
           <div className={styles.submitRow}>
             <button
