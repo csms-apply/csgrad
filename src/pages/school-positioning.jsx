@@ -102,8 +102,21 @@ function getGpaBounds(profile) {
   return { min: 0, max: 4 };
 }
 
+function isRequired(f, profile) {
+  if (typeof f.requiredIf === 'function') return !!f.requiredIf(profile);
+  return !!f.required;
+}
+
+function resolveLabel(f, profile) {
+  if (typeof f.labelOverride === 'function') {
+    const override = f.labelOverride(profile);
+    if (override) return override;
+  }
+  return f.label;
+}
+
 function validateOne(f, v, profile, t) {
-  if (f.required) {
+  if (isRequired(f, profile)) {
     const empty = v === '' || v === null || v === undefined;
     if (empty) return t.fillRequired;
   }
@@ -299,7 +312,8 @@ function FormBody() {
   };
 
   const renderField = (f) => {
-    const label = getLabel(f.label, locale);
+    const label = getLabel(resolveLabel(f, profile), locale);
+    const required = isRequired(f, profile);
     const help = f.help ? getLabel(f.help, locale) : '';
     const errKey = touched ? errors[f.key] : undefined;
     const hasErr = Boolean(errKey);
@@ -312,7 +326,7 @@ function FormBody() {
         <div key={f.key} className={styles.field} style={{ gridColumn: '1 / -1' }}>
           <label className={styles.label}>
             {label}
-            {f.required && <span className={styles.required}>*</span>}
+            {required && <span className={styles.required}>*</span>}
           </label>
           {help && <div className={styles.help} style={{ marginTop: 0, marginBottom: 8 }}>{help}</div>}
           <div className={styles.grid}>
@@ -358,7 +372,7 @@ function FormBody() {
             />
             <label htmlFor={`f-${f.key}`} className={styles.checkboxLabel}>
               {label}
-              {f.required && <span className={styles.required}>*</span>}
+              {required && <span className={styles.required}>*</span>}
             </label>
           </div>
           {help && <div className={styles.help}>{help}</div>}
@@ -372,7 +386,7 @@ function FormBody() {
         <div key={f.key} className={styles.field}>
           <label htmlFor={`f-${f.key}`} className={styles.label}>
             {label}
-            {f.required && <span className={styles.required}>*</span>}
+            {required && <span className={styles.required}>*</span>}
           </label>
           <select
             id={`f-${f.key}`}
@@ -397,7 +411,7 @@ function FormBody() {
         <div key={f.key} className={styles.field}>
           <label htmlFor={`f-${f.key}`} className={styles.label}>
             {label}
-            {f.required && <span className={styles.required}>*</span>}
+            {required && <span className={styles.required}>*</span>}
           </label>
           {renderNumberInput(f, profile[f.key], (v) => setValue(f.key, v), hasErr)}
           {help && <div className={styles.help}>{help}</div>}
@@ -410,7 +424,7 @@ function FormBody() {
       <div key={f.key} className={styles.field}>
         <label htmlFor={`f-${f.key}`} className={styles.label}>
           {label}
-          {f.required && <span className={styles.required}>*</span>}
+          {required && <span className={styles.required}>*</span>}
         </label>
         <input
           id={`f-${f.key}`}

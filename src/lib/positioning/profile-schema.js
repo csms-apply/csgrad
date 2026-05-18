@@ -41,14 +41,18 @@ export const FIELD_DEFINITIONS = [
     type: 'number',
     required: true,
     label: { 'zh-Hans': 'GPA', en: 'GPA' },
+    labelOverride: (p) => (p && (p.ugType === 'cn-joint-venture' || p.ugType === 'cn-transfer-us'))
+      ? { 'zh-Hans': '陆本 GPA', en: 'CN-portion GPA' }
+      : null,
     min: 0, max: 100, step: 0.01,
   },
   {
     key: 'jointForeignGpa',
     type: 'number',
     required: false,
-    label: { 'zh-Hans': '海外段 GPA', en: 'Foreign-portion GPA' },
-    help: { 'zh-Hans': '中外合办 / 转学美本的海外段 GPA', en: 'GPA of the overseas portion (joint venture or US transfer)' },
+    requiredIf: (p) => p && (p.ugType === 'cn-joint-venture' || p.ugType === 'cn-transfer-us'),
+    label: { 'zh-Hans': '海外 GPA', en: 'Overseas GPA' },
+    help: { 'zh-Hans': '中外合办海外段 / 转学美本的 GPA', en: 'Overseas portion GPA (joint venture or US transfer)' },
     min: 0, max: 100, step: 0.01,
     showIf: (p) => p && (p.ugType === 'cn-joint-venture' || p.ugType === 'cn-transfer-us'),
   },
@@ -56,7 +60,8 @@ export const FIELD_DEFINITIONS = [
     key: 'jointForeignGpaScale',
     type: 'select',
     required: false,
-    label: { 'zh-Hans': '海外段 GPA 制式', en: 'Foreign-portion GPA scale' },
+    requiredIf: (p) => p && (p.ugType === 'cn-joint-venture' || p.ugType === 'cn-transfer-us'),
+    label: { 'zh-Hans': '海外 GPA 制式', en: 'Overseas GPA scale' },
     options: [
       { value: '4.0', label: { 'zh-Hans': '4.0 制', en: '4.0 scale' } },
       { value: '4.3', label: { 'zh-Hans': '4.3 制', en: '4.3 scale' } },
@@ -86,14 +91,6 @@ export const FIELD_DEFINITIONS = [
     label: { 'zh-Hans': '已修 CS 核心课程数', en: 'CS core courses completed' },
     help: { 'zh-Hans': '数据结构 / 算法 / 操作系统 / 数据库 / 网络 等核心课', en: 'DS&A / OS / DB / Networks core courses' },
     min: 0, max: 20, step: 1,
-    showIf: (p) => p && p.major !== 'cs',
-  },
-  {
-    key: 'csCoursesTakenCount',
-    type: 'number',
-    required: false,
-    label: { 'zh-Hans': '已修 CS 课程总数', en: 'Total CS courses taken' },
-    min: 0, max: 50, step: 1,
     showIf: (p) => p && p.major !== 'cs',
   },
   {
