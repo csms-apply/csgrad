@@ -120,9 +120,9 @@ export const FIELD_DEFINITIONS = [
     required: false,
     label: { 'zh-Hans': 'GRE 成绩', en: 'GRE scores' },
     fields: [
-      { key: 'total', type: 'number', label: { 'zh-Hans': '总分', en: 'Total' }, min: 260, max: 340 },
-      { key: 'q', type: 'number', label: { 'zh-Hans': 'Quant', en: 'Quant' }, min: 130, max: 170 },
-      { key: 'v', type: 'number', label: { 'zh-Hans': 'Verbal', en: 'Verbal' }, min: 130, max: 170 },
+      { key: 'total', type: 'number', label: { 'zh-Hans': '总分', en: 'Total' }, min: 260, max: 340, step: 1, requiredIf: (p) => p && p.hasGre === true },
+      { key: 'q', type: 'number', label: { 'zh-Hans': 'Quant', en: 'Quant' }, min: 130, max: 170, step: 1, requiredIf: (p) => p && p.hasGre === true },
+      { key: 'v', type: 'number', label: { 'zh-Hans': 'Verbal', en: 'Verbal' }, min: 130, max: 170, step: 1, requiredIf: (p) => p && p.hasGre === true },
       { key: 'aw', type: 'number', label: { 'zh-Hans': 'AW', en: 'AW' }, min: 0, max: 6, step: 0.5 },
     ],
     showIf: (p) => p && p.hasGre === true,
