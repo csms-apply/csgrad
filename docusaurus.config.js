@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://csms-apply.github.io',
+  url: 'https://csgrad.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -101,7 +101,7 @@ const config = {
                 label: 'DataPoints',
               },
               {
-                to: '/report',
+                to: '/school-positioning',
                 label: '选校定位',
               },
             ],
@@ -112,7 +112,7 @@ const config = {
             label: '申请跟踪',
           },
           {
-            href: 'https://github.com/csms-apply/csms-apply.github.io',
+            href: 'https://github.com/csms-apply/csgrad',
             label: 'GitHub',
             position: 'right',
           },
@@ -156,7 +156,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/csms-apply/csms-apply.github.io',
+                href: 'https://github.com/csms-apply/csgrad',
               },
             ],
           },
