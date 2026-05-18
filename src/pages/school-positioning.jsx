@@ -15,13 +15,16 @@ const COPY = {
     pageDesc: '基于你的背景，给出 csgrad tier 档位预估与完整选校方案',
     backHome: '返回首页',
     heroTitle: 'MSCS 选校定位',
-    heroLead: '填写背景后，我们用 csgrad 内部分类模型对你的档位进行评估。',
+    heroLead: '填写你的背景，立即生成 MSCS 档位预估与选校方向建议。',
     canceled: '订单已取消。',
     errorPrefix: '出错了：',
     profileSection: '你的背景档案',
     submitBtn: '生成档位预估',
     recomputeBtn: '重新评估',
     fillRequired: '请先填写必填字段',
+    errInvalidNumber: '请输入有效数字',
+    errRange: '请填写 {min}–{max} 范围内的值',
+    errInteger: '该字段必须为整数',
     previewLabel: '预估档位',
     scoreLabel: '综合得分',
     rationaleLabel: '评估依据',
@@ -39,13 +42,16 @@ const COPY = {
     pageDesc: 'Tier estimation and full school list based on your profile',
     backHome: 'Back to home',
     heroTitle: 'MSCS School Positioning',
-    heroLead: 'Fill in your profile and we will estimate your csgrad tier using our internal classifier.',
+    heroLead: 'Fill in your profile to get an instant MSCS tier estimate and school direction suggestions.',
     canceled: 'Order canceled.',
     errorPrefix: 'Error: ',
     profileSection: 'Your profile',
     submitBtn: 'Estimate my tier',
     recomputeBtn: 'Re-evaluate',
     fillRequired: 'Please fill in the required fields first',
+    errInvalidNumber: 'Please enter a valid number',
+    errRange: 'Value must be between {min} and {max}',
+    errInteger: 'Must be an integer',
     previewLabel: 'Estimated tier',
     scoreLabel: 'Composite score',
     rationaleLabel: 'Why this tier',
@@ -94,12 +100,25 @@ function buildInitialProfile(fields) {
   return initial;
 }
 
-function getGpaBounds(profile) {
-  const scale = String((profile && profile.gpaScale) ?? '');
-  if (scale === '100') return { min: 0, max: 100 };
-  if (scale === '5' || scale === '5.0') return { min: 0, max: 5 };
-  if (scale === '4.3') return { min: 0, max: 4.3 };
+function getGpaBoundsByScale(scale) {
+  const s = String(scale ?? '');
+  if (s === '100') return { min: 0, max: 100 };
+  if (s === '5' || s === '5.0') return { min: 0, max: 5 };
+  if (s === '4.3') return { min: 0, max: 4.3 };
   return { min: 0, max: 4 };
+}
+
+function getEffectiveBounds(f, profile) {
+  if (f.key === 'gpa') return getGpaBoundsByScale(profile && profile.gpaScale);
+  if (f.key === 'jointForeignGpa') return getGpaBoundsByScale(profile && profile.jointForeignGpaScale);
+  return {
+    min: typeof f.min === 'number' ? f.min : null,
+    max: typeof f.max === 'number' ? f.max : null,
+  };
+}
+
+function formatRange(template, min, max) {
+  return template.replace('{min}', String(min)).replace('{max}', String(max));
 }
 
 function isRequired(f, profile) {
@@ -122,14 +141,16 @@ function validateOne(f, v, profile, t) {
   }
   if (f.type === 'number' && v !== '' && v !== null && v !== undefined) {
     const num = Number(v);
-    if (Number.isNaN(num)) return t.fillRequired;
-    if (f.key === 'gpa') {
-      const { min, max } = getGpaBounds(profile);
-      if (num < min || num > max) return `${min}–${max}`;
-    } else if (typeof f.min === 'number' && num < f.min) {
-      return `>= ${f.min}`;
-    } else if (typeof f.max === 'number' && num > f.max) {
-      return `<= ${f.max}`;
+    if (Number.isNaN(num)) return t.errInvalidNumber;
+    const { min, max } = getEffectiveBounds(f, profile);
+    if (typeof min === 'number' && num < min) {
+      return formatRange(t.errRange, min, max);
+    }
+    if (typeof max === 'number' && num > max) {
+      return formatRange(t.errRange, min, max);
+    }
+    if (f.step === 1 && !Number.isInteger(num)) {
+      return t.errInteger;
     }
   }
   return null;
@@ -285,15 +306,13 @@ function FormBody() {
   };
 
   const renderNumberInput = (f, value, onChange, hasErr) => {
-    let min, max, step;
-    if (f.key === 'gpa') {
-      const b = getGpaBounds(profile);
-      min = b.min;
-      max = b.max;
+    const b = getEffectiveBounds(f, profile);
+    const min = typeof b.min === 'number' ? b.min : undefined;
+    const max = typeof b.max === 'number' ? b.max : undefined;
+    let step;
+    if (f.key === 'gpa' || f.key === 'jointForeignGpa') {
       step = 0.01;
     } else {
-      min = typeof f.min === 'number' ? f.min : undefined;
-      max = typeof f.max === 'number' ? f.max : undefined;
       step = typeof f.step === 'number' ? f.step : 'any';
     }
     return (
@@ -334,10 +353,12 @@ function FormBody() {
               const subErr = touched ? errors[`${f.key}.${sf.key}`] : undefined;
               const subHasErr = Boolean(subErr);
               const subLabel = getLabel(sf.label, locale);
+              const subRequired = isRequired(sf, profile);
               return (
                 <div key={sf.key} className={styles.field}>
                   <label htmlFor={`f-${f.key}-${sf.key}`} className={styles.label}>
                     {subLabel}
+                    {subRequired && <span className={styles.required}>*</span>}
                   </label>
                   <input
                     id={`f-${f.key}-${sf.key}`}
