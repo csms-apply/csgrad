@@ -89,14 +89,6 @@ export const FIELD_DEFINITIONS = [
     showIf: (p) => p && p.major !== 'cs',
   },
   {
-    key: 'csCoursesTakenCount',
-    type: 'number',
-    required: false,
-    label: { 'zh-Hans': '已修 CS 课程总数', en: 'Total CS courses taken' },
-    min: 0, max: 50, step: 1,
-    showIf: (p) => p && p.major !== 'cs',
-  },
-  {
     key: 'toefl',
     type: 'number',
     required: false,
