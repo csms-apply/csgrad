@@ -2,7 +2,6 @@ import React, { useState, useMemo, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { classify, TIERS } from '@site/src/lib/positioning/classifier';
 import { FIELD_DEFINITIONS } from '@site/src/lib/positioning/profile-schema';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
 import styles from './school-positioning.module.css';
@@ -209,7 +208,7 @@ function FormBody() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setTouched(true);
     setErrorMsg('');
@@ -218,7 +217,16 @@ function FormBody() {
       return;
     }
     try {
-      const result = classify(coerceProfile(profile, fields));
+      const res = await fetch(WORKER_BASE_URL + '/api/positioning/preview', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(coerceProfile(profile, fields)),
+      });
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        throw new Error(text || `HTTP ${res.status}`);
+      }
+      const result = await res.json();
       setPreview(result);
       setTimeout(() => {
         const el = document.getElementById('positioning-preview');
