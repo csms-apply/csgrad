@@ -263,12 +263,34 @@ const programsJsonByKey = new Map();
 for (const p of programsJson) programsJsonByKey.set(normKey(p.school, p.program), p);
 
 const programIdMap = {}; // seatable row_id → final program id (slug or new ulid)
-const programTierFromJson = {}; // seatable row_id → tier if matched
+const programTierFromJson = {}; // canonical seatable row_id → tier if matched
+// Some (school, program) pairs are duplicated in Seatable (e.g. CMU/MSML×3).
+// Merge duplicates: first row wins; later duplicates map to the same program
+// id and are skipped during INSERT emission below.
+const programCanonicalByKey = new Map(); // normKey → canonical seatable row_id
+const programDuplicateRows = new Set(); // seatable_row_ids that are dupes (skip INSERT)
+const programDuplicatesReview = [];
 
 for (const r of tProg.rows) {
   const school = read(r, pCols, '学校');
   const program = read(r, pCols, '项目');
-  const matched = programsJsonByKey.get(normKey(school, program));
+  const key = normKey(school, program);
+
+  if (programCanonicalByKey.has(key)) {
+    const canonicalRowId = programCanonicalByKey.get(key);
+    programIdMap[r._id] = programIdMap[canonicalRowId];
+    programDuplicateRows.add(r._id);
+    programDuplicatesReview.push({
+      seatable_row_id: r._id,
+      canonical_row_id: canonicalRowId,
+      school,
+      program,
+    });
+    continue;
+  }
+
+  programCanonicalByKey.set(key, r._id);
+  const matched = programsJsonByKey.get(key);
   if (matched) {
     programIdMap[r._id] = matched.id;
     programTierFromJson[r._id] = matched.tier;
@@ -286,6 +308,7 @@ const manualReview = {
     'datapoints without a linked applicant or program are skipped and listed below.',
   ],
   programs_unmapped_tier: [],
+  programs_duplicate_pairs_merged: [],
   datapoints_orphan_no_applicant: [],
   datapoints_orphan_no_program: [],
   applicants_locked_school_name_blank: [],
@@ -378,9 +401,12 @@ fs.writeFileSync(path.join(OUTPUT_DIR, '001-applicants.sql'), applicantSql.join(
 const programSql = [
   '-- 002-programs.sql — Seatable 项目列表 → programs',
   '-- tier inherited from static/data/programs.json where (school, program) matched, else NULL.',
+  '-- Duplicate (school, program) rows in Seatable are merged: first row wins, later rows skipped.',
   'BEGIN TRANSACTION;',
 ];
+let programEmitted = 0;
 for (const r of tProg.rows) {
+  if (programDuplicateRows.has(r._id)) continue;
   const school = read(r, pCols, '学校');
   const program = read(r, pCols, '项目');
   const tier = programTierFromJson[r._id] || null;
@@ -410,7 +436,9 @@ for (const r of tProg.rows) {
     created_at: r._ctime || null,
   };
   programSql.push(insertRow('programs', fields));
+  programEmitted++;
 }
+manualReview.programs_duplicate_pairs_merged = programDuplicatesReview;
 programSql.push('COMMIT;');
 fs.writeFileSync(path.join(OUTPUT_DIR, '002-programs.sql'), programSql.join('\n') + '\n');
 
@@ -476,14 +504,15 @@ fs.writeFileSync(
 const summary = [
   '=== Migration summary ===',
   `applicants:  emitted=${tApp.rows.length}   expected=${EXPECTED_COUNTS.applicants}   ${tApp.rows.length === EXPECTED_COUNTS.applicants ? 'OK' : 'MISMATCH'}`,
-  `programs:    emitted=${tProg.rows.length}  expected=${EXPECTED_COUNTS.programs}     ${tProg.rows.length === EXPECTED_COUNTS.programs ? 'OK' : 'MISMATCH'}`,
+  `programs:    emitted=${programEmitted}   merged-dupes=${programDuplicatesReview.length}   seatable-rows=${tProg.rows.length}   expected=${EXPECTED_COUNTS.programs}`,
   `datapoints:  emitted=${dpEmitted}   skipped=${tDP.rows.length - dpEmitted}   expected~${EXPECTED_COUNTS.datapoints}`,
   '',
   '=== Manual-review queue ===',
-  `programs without tier:           ${manualReview.programs_unmapped_tier.length}`,
-  `datapoints orphan (no applicant): ${manualReview.datapoints_orphan_no_applicant.length}`,
-  `datapoints orphan (no program):   ${manualReview.datapoints_orphan_no_program.length}`,
-  `applicants with blank 本科学校名称: ${manualReview.applicants_locked_school_name_blank.length}`,
+  `programs without tier:             ${manualReview.programs_unmapped_tier.length}`,
+  `programs duplicate-pairs merged:   ${manualReview.programs_duplicate_pairs_merged.length}`,
+  `datapoints orphan (no applicant):  ${manualReview.datapoints_orphan_no_applicant.length}`,
+  `datapoints orphan (no program):    ${manualReview.datapoints_orphan_no_program.length}`,
+  `applicants with blank 本科学校名称:  ${manualReview.applicants_locked_school_name_blank.length}`,
 ].join('\n');
 fs.writeFileSync(path.join(OUTPUT_DIR, 'summary.txt'), summary + '\n');
 console.log(summary);
