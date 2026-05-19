@@ -172,21 +172,28 @@
   flex: 1;
 }
 .tag {
-  padding: 3px 8px;
+  padding: 3px 10px;
   border: 1px solid var(--ifm-color-emphasis-300);
   background: var(--ifm-background-color);
   border-radius: 999px;
   cursor: pointer;
-  font-size: 11px;
+  font-size: 12px;
+  line-height: 1.4;
   color: var(--ifm-font-color-base);
   white-space: nowrap;
 }
 .tag:hover { background: var(--ifm-color-emphasis-100); }
+/* Active tag: soft indigo tint instead of solid primary blue with white text.
+   Solid bg + white-fg fights with the page background, especially in dark
+   mode, and made the label visually disappear at small sizes. Soft fill +
+   strong text keeps the tag obviously selected without overpowering text. */
 .tagActive {
-  background: var(--ifm-color-primary);
-  color: var(--ifm-color-white);
-  border-color: var(--ifm-color-primary);
+  background: var(--dp-final-bg);
+  color: var(--dp-final-fg);
+  border-color: var(--dp-final-fg);
+  font-weight: 600;
 }
+.tagActive:hover { background: var(--dp-final-bg); }
 
 .actions {
   display: flex;
@@ -228,20 +235,22 @@
   list-style: none;
   margin: 4px 0 0;
   padding: 4px 0;
-  background: var(--ifm-background-color);
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 6px;
+  background: var(--ifm-background-surface-color, var(--ifm-background-color));
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 8px;
   width: 100%;
   max-height: 320px;
   overflow-y: auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 .progDropdown li {
-  padding: 6px 12px;
+  padding: 8px 12px;
   cursor: pointer;
   font-size: 13px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-100);
 }
-.progDropdown li:hover { background: var(--ifm-color-emphasis-100); }
+.progDropdown li:last-child { border-bottom: 0; }
+.progDropdown li:hover { background: var(--ifm-color-emphasis-200); }
 .tierBadge {
   display: inline-block;
   margin-left: 6px;
