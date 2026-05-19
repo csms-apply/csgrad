@@ -1,0 +1,181 @@
+/**
+ * DataPoints color tokens.
+ *
+ * Centralizes pill/badge colors for /datapoints, /submit-dp, /my-dp so that
+ * dark mode flips at a single source of truth instead of being scattered as
+ * raw hex across each .module.css file.
+ *
+ * Light-mode pairs are picked to meet WCAG AA contrast (>= 4.5:1) on the
+ * 10-12px text used by the pills/badges. Dark-mode pairs use translucent
+ * accent backgrounds over the page bg so they remain legible on the dark
+ * surface without re-introducing harsh light blobs.
+ *
+ * Loaded globally via `@import` from src/css/custom.css (which Docusaurus
+ * already registers as customCss in docusaurus.config.js).
+ */
+
+:root {
+  /* Result pills */
+  --dp-pill-admit-bg: #d1fae5;
+  --dp-pill-admit-fg: #065f46;
+  --dp-pill-reject-bg: #fee2e2;
+  --dp-pill-reject-fg: #991b1b;
+  --dp-pill-wait-bg: #fef3c7;
+  --dp-pill-wait-fg: #854d0e;
+  --dp-pill-withdraw-bg: #e5e7eb;
+  --dp-pill-withdraw-fg: #374151;
+
+  /* Translucent variants used by submit-dp / my-dp banners + tiny pills */
+  --dp-pill-admit-soft-bg: #d1fae5;
+  --dp-pill-admit-soft-fg: #047857;
+  --dp-pill-reject-soft-bg: #fee2e2;
+  --dp-pill-reject-soft-fg: #b91c1c;
+  --dp-pill-wait-soft-bg: #fef3c7;
+  --dp-pill-wait-soft-fg: #b45309;
+  --dp-pill-withdraw-soft-bg: #e5e7eb;
+  --dp-pill-withdraw-soft-fg: #4b5563;
+
+  /* Count badges (domestic = amber, overseas = blue) */
+  --dp-count-domestic-bg: #fef3c7;
+  --dp-count-domestic-fg: #78350f;
+  --dp-count-overseas-bg: #dbeafe;
+  --dp-count-overseas-fg: #1e3a8a;
+
+  /* Funded / final-destination tags */
+  --dp-fund-bg: #fde68a;
+  --dp-fund-fg: #78350f;
+  --dp-final-bg: #c7d2fe;
+  --dp-final-fg: #3730a3;
+
+  /* School tier badges */
+  --dp-tier-sss-bg: #fce7f3;
+  --dp-tier-sss-fg: #9d174d;
+  --dp-tier-ss-bg: #fee2e2;
+  --dp-tier-ss-fg: #991b1b;
+  --dp-tier-s-bg: #fed7aa;
+  --dp-tier-s-fg: #7c2d12;
+  --dp-tier-a-bg: #fef3c7;
+  --dp-tier-a-fg: #78350f;
+  --dp-tier-b-bg: #d1fae5;
+  --dp-tier-b-fg: #065f46;
+
+  /* UG (undergrad) category color tags */
+  --dp-ug-red-bg: #fee2e2;
+  --dp-ug-red-fg: #7f1d1d;
+  --dp-ug-redalt-bg: #fef2f2;
+  --dp-ug-redalt-fg: #991b1b;
+  --dp-ug-blue-bg: #dbeafe;
+  --dp-ug-blue-fg: #1e3a8a;
+  --dp-ug-cyan-bg: #cffafe;
+  --dp-ug-cyan-fg: #155e75;
+  --dp-ug-green-bg: #d1fae5;
+  --dp-ug-green-fg: #065f46;
+  --dp-ug-purple-bg: #ede9fe;
+  --dp-ug-purple-fg: #5b21b6;
+
+  /* Publication badges (indigo accent) */
+  --dp-pub-filled-bg: #6366f1;
+  --dp-pub-filled-fg: #ffffff;
+  --dp-pub-filled-alt-bg: #818cf8;
+  --dp-pub-filled-alt-fg: #ffffff;
+  --dp-pub-outlined-fg: #4f46e5;
+  --dp-pub-outlined-border: #6366f1;
+  --dp-pub-outlined-alt-fg: #6366f1;
+  --dp-pub-outlined-alt-border: #c7d2fe;
+
+  /* Beta tag (orange) */
+  --dp-beta-bg: #ffedd5;
+  --dp-beta-fg: #9a3412;
+
+  /* Banners: success / error / warning (live-feed err, my-dp notice) */
+  --dp-banner-ok-bg: #d1fae5;
+  --dp-banner-ok-fg: #065f46;
+  --dp-banner-err-bg: #fee2e2;
+  --dp-banner-err-fg: #991b1b;
+  --dp-banner-warn-bg: #fef3c7;
+  --dp-banner-warn-fg: #854d0e;
+  --dp-banner-warn-text: #92400e;
+
+  /* Danger button hover (my-dp) */
+  --dp-danger-fg: #b91c1c;
+  --dp-danger-hover-bg: #fee2e2;
+}
+
+/* Dark-mode overrides: translucent accents over the dark page bg keep
+   contrast >= 4.5:1 on small text while avoiding bright light blobs. */
+[data-theme='dark'] {
+  --dp-pill-admit-bg: rgba(16, 185, 129, 0.22);
+  --dp-pill-admit-fg: #6ee7b7;
+  --dp-pill-reject-bg: rgba(239, 68, 68, 0.22);
+  --dp-pill-reject-fg: #fca5a5;
+  --dp-pill-wait-bg: rgba(245, 158, 11, 0.22);
+  --dp-pill-wait-fg: #fcd34d;
+  --dp-pill-withdraw-bg: rgba(148, 163, 184, 0.22);
+  --dp-pill-withdraw-fg: #cbd5e1;
+
+  --dp-pill-admit-soft-bg: rgba(16, 185, 129, 0.18);
+  --dp-pill-admit-soft-fg: #6ee7b7;
+  --dp-pill-reject-soft-bg: rgba(239, 68, 68, 0.18);
+  --dp-pill-reject-soft-fg: #fca5a5;
+  --dp-pill-wait-soft-bg: rgba(245, 158, 11, 0.18);
+  --dp-pill-wait-soft-fg: #fcd34d;
+  --dp-pill-withdraw-soft-bg: rgba(148, 163, 184, 0.18);
+  --dp-pill-withdraw-soft-fg: #cbd5e1;
+
+  --dp-count-domestic-bg: rgba(245, 158, 11, 0.20);
+  --dp-count-domestic-fg: #fcd34d;
+  --dp-count-overseas-bg: rgba(59, 130, 246, 0.22);
+  --dp-count-overseas-fg: #93c5fd;
+
+  --dp-fund-bg: rgba(245, 158, 11, 0.22);
+  --dp-fund-fg: #fcd34d;
+  --dp-final-bg: rgba(99, 102, 241, 0.25);
+  --dp-final-fg: #c7d2fe;
+
+  --dp-tier-sss-bg: rgba(236, 72, 153, 0.22);
+  --dp-tier-sss-fg: #f9a8d4;
+  --dp-tier-ss-bg: rgba(239, 68, 68, 0.22);
+  --dp-tier-ss-fg: #fca5a5;
+  --dp-tier-s-bg: rgba(249, 115, 22, 0.22);
+  --dp-tier-s-fg: #fdba74;
+  --dp-tier-a-bg: rgba(245, 158, 11, 0.22);
+  --dp-tier-a-fg: #fcd34d;
+  --dp-tier-b-bg: rgba(16, 185, 129, 0.22);
+  --dp-tier-b-fg: #6ee7b7;
+
+  --dp-ug-red-bg: rgba(239, 68, 68, 0.20);
+  --dp-ug-red-fg: #fca5a5;
+  --dp-ug-redalt-bg: rgba(239, 68, 68, 0.15);
+  --dp-ug-redalt-fg: #fca5a5;
+  --dp-ug-blue-bg: rgba(59, 130, 246, 0.22);
+  --dp-ug-blue-fg: #93c5fd;
+  --dp-ug-cyan-bg: rgba(6, 182, 212, 0.22);
+  --dp-ug-cyan-fg: #67e8f9;
+  --dp-ug-green-bg: rgba(16, 185, 129, 0.22);
+  --dp-ug-green-fg: #6ee7b7;
+  --dp-ug-purple-bg: rgba(139, 92, 246, 0.22);
+  --dp-ug-purple-fg: #c4b5fd;
+
+  --dp-pub-filled-bg: #6366f1;
+  --dp-pub-filled-fg: #ffffff;
+  --dp-pub-filled-alt-bg: #818cf8;
+  --dp-pub-filled-alt-fg: #0f172a;
+  --dp-pub-outlined-fg: #a5b4fc;
+  --dp-pub-outlined-border: #818cf8;
+  --dp-pub-outlined-alt-fg: #a5b4fc;
+  --dp-pub-outlined-alt-border: #4338ca;
+
+  --dp-beta-bg: rgba(249, 115, 22, 0.22);
+  --dp-beta-fg: #fdba74;
+
+  --dp-banner-ok-bg: rgba(16, 185, 129, 0.18);
+  --dp-banner-ok-fg: #6ee7b7;
+  --dp-banner-err-bg: rgba(239, 68, 68, 0.18);
+  --dp-banner-err-fg: #fca5a5;
+  --dp-banner-warn-bg: rgba(245, 158, 11, 0.18);
+  --dp-banner-warn-fg: #fcd34d;
+  --dp-banner-warn-text: #fcd34d;
+
+  --dp-danger-fg: #fca5a5;
+  --dp-danger-hover-bg: rgba(239, 68, 68, 0.18);
+}

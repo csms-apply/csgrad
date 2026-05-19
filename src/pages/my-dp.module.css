@@ -39,8 +39,8 @@
 .lead { color: var(--ifm-color-emphasis-700); font-size: 14px; margin: 0 0 12px; }
 .notice {
   padding: 10px 14px;
-  background: #fef3c7;
-  color: #92400e;
+  background: var(--dp-banner-warn-bg);
+  color: var(--dp-banner-warn-text);
   border-radius: 6px;
   font-size: 13px;
 }
@@ -67,8 +67,8 @@
   font-size: 13px;
   margin: 8px 0;
 }
-.ok { background: #10b98120; color: #047857; }
-.err { background: #ef444420; color: #b91c1c; }
+.ok { background: var(--dp-banner-ok-bg); color: var(--dp-banner-ok-fg); }
+.err { background: var(--dp-banner-err-bg); color: var(--dp-banner-err-fg); }
 
 .tableWrap {
   overflow-x: auto;
@@ -105,10 +105,10 @@
   font-size: 11px;
   font-weight: 600;
 }
-.pillAdmit { background: #10b98120; color: #047857; }
-.pillReject { background: #ef444420; color: #b91c1c; }
-.pillWait { background: #f59e0b20; color: #b45309; }
-.pillWithdraw { background: #6b728020; color: #4b5563; }
+.pillAdmit { background: var(--dp-pill-admit-soft-bg); color: var(--dp-pill-admit-soft-fg); }
+.pillReject { background: var(--dp-pill-reject-soft-bg); color: var(--dp-pill-reject-soft-fg); }
+.pillWait { background: var(--dp-pill-wait-soft-bg); color: var(--dp-pill-wait-soft-fg); }
+.pillWithdraw { background: var(--dp-pill-withdraw-soft-bg); color: var(--dp-pill-withdraw-soft-fg); }
 .pillUnknown { background: var(--ifm-color-emphasis-200); color: var(--ifm-color-emphasis-700); }
 
 .notesCell { max-width: 260px; }
@@ -125,8 +125,8 @@
   color: var(--ifm-font-color-base);
 }
 .smallBtn:hover { background: var(--ifm-color-emphasis-100); }
-.dangerBtn { color: #b91c1c; }
-.dangerBtn:hover { background: #fee2e2; }
+.dangerBtn { color: var(--dp-danger-fg); }
+.dangerBtn:hover { background: var(--dp-danger-hover-bg); }
 
 .cellInput {
   padding: 3px 6px;

@@ -68,8 +68,8 @@
 .lockBadge {
   margin-left: 8px;
   padding: 2px 8px;
-  background: #fde68a;
-  color: #92400e;
+  background: var(--dp-fund-bg);
+  color: var(--dp-fund-fg);
   border-radius: 999px;
   font-size: 11px;
   font-weight: 600;
@@ -82,8 +82,8 @@
   font-size: 13px;
   margin: 0 0 8px;
 }
-.ok { background: #10b98120; color: #047857; }
-.err { background: #ef444420; color: #b91c1c; }
+.ok { background: var(--dp-banner-ok-bg); color: var(--dp-banner-ok-fg); }
+.err { background: var(--dp-banner-err-bg); color: var(--dp-banner-err-fg); }
 
 .fieldset { border: 0; padding: 0; margin: 0; }
 .fieldset[disabled] { opacity: 0.6; }
@@ -246,8 +246,8 @@
   display: inline-block;
   margin-left: 6px;
   padding: 1px 6px;
-  background: #c7d2fe;
-  color: #3730a3;
+  background: var(--dp-final-bg);
+  color: var(--dp-final-fg);
   border-radius: 4px;
   font-size: 10px;
   font-weight: 600;
@@ -274,8 +274,8 @@
 .pillSmall {
   display: inline-block;
   padding: 1px 8px;
-  background: #10b98120;
-  color: #047857;
+  background: var(--dp-pill-admit-soft-bg);
+  color: var(--dp-pill-admit-soft-fg);
   border-radius: 999px;
   font-size: 11px;
   font-weight: 600;
@@ -285,8 +285,8 @@
   display: inline-block;
   margin-left: 4px;
   padding: 1px 5px;
-  background: #fde68a;
-  color: #92400e;
+  background: var(--dp-fund-bg);
+  color: var(--dp-fund-fg);
   border-radius: 3px;
   font-size: 10px;
   font-weight: 600;
