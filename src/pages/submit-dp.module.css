@@ -1,0 +1,293 @@
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 20px 80px;
+}
+
+.loading {
+  padding: 60px;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.gate {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 32px;
+  text-align: center;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+}
+
+.signInGroup {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.signInBtn {
+  padding: 8px 16px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--ifm-font-color-base);
+}
+.signInBtn:hover { background: var(--ifm-color-emphasis-100); }
+
+.header h1 { margin: 0 0 8px; font-size: 26px; }
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.lead { color: var(--ifm-color-emphasis-700); font-size: 14px; margin: 0 0 8px; line-height: 1.6; }
+.meBadge {
+  padding: 4px 10px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.section {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  background: var(--ifm-background-color);
+}
+.section h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+.lockBadge {
+  margin-left: 8px;
+  padding: 2px 8px;
+  background: #fde68a;
+  color: #92400e;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.ok, .err {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin: 0 0 8px;
+}
+.ok { background: #10b98120; color: #047857; }
+.err { background: #ef444420; color: #b91c1c; }
+
+.fieldset { border: 0; padding: 0; margin: 0; }
+.fieldset[disabled] { opacity: 0.6; }
+
+.group {
+  margin-bottom: 20px;
+  padding: 14px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+}
+.groupTitle {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+}
+.groupBody {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--ifm-color-emphasis-700);
+}
+.field > span { font-size: 11px; }
+.longTextField { grid-column: 1 / -1; }
+
+.input, .textarea {
+  padding: 6px 10px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 13px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-family: inherit;
+}
+.textarea { min-height: 60px; resize: vertical; }
+
+.checkField {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 6px;
+}
+.fieldset[disabled] .checkField { cursor: not-allowed; }
+
+.multiCheck {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 6px;
+}
+.multiCheckItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.recRow {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.recLabel {
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 60px;
+  color: var(--ifm-color-emphasis-800);
+}
+.tagWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex: 1;
+}
+.tag {
+  padding: 3px 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 11px;
+  color: var(--ifm-font-color-base);
+  white-space: nowrap;
+}
+.tag:hover { background: var(--ifm-color-emphasis-100); }
+.tagActive {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border-color: var(--ifm-color-primary);
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 16px;
+}
+.primaryBtn {
+  padding: 8px 16px;
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.primaryBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+.primaryBtn:hover:not(:disabled) { background: var(--ifm-color-primary-dark); }
+
+.secondaryLink {
+  color: var(--ifm-color-primary);
+  font-size: 13px;
+}
+
+/* DP add area */
+.dpForm { display: flex; flex-direction: column; gap: 12px; }
+
+.programSearch { position: relative; }
+.programSearch label {
+  display: block;
+  font-size: 11px;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 4px;
+}
+.progDropdown {
+  position: absolute;
+  z-index: 10;
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 4px 0;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  width: 100%;
+  max-height: 320px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.progDropdown li {
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.progDropdown li:hover { background: var(--ifm-color-emphasis-100); }
+.tierBadge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  background: #c7d2fe;
+  color: #3730a3;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.muted { color: var(--ifm-color-emphasis-500); font-size: 11px; }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.recentList { margin-top: 20px; }
+.recentList h3 { font-size: 14px; margin: 0 0 8px; }
+.recentList ul { list-style: none; padding: 0; margin: 0; }
+.recentList li {
+  padding: 6px 10px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.pillSmall {
+  display: inline-block;
+  padding: 1px 8px;
+  background: #10b98120;
+  color: #047857;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 6px;
+}
+.badge {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 5px;
+  background: #fde68a;
+  color: #92400e;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+}
