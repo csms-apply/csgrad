@@ -47,9 +47,26 @@ function Inner() {
 }
 
 function SignInButton() {
-  function signIn(provider) {
-    const here = encodeURIComponent(window.location.href);
-    window.location.href = `${DP_API_BASE}/api/auth/sign-in/social?provider=${provider}&callbackURL=${here}`;
+  async function signIn(provider) {
+    // better-auth expects POST /api/auth/sign-in/social with JSON body; it
+    // returns { url, redirect } where url is the provider's consent page.
+    const callbackURL = window.location.href;
+    try {
+      const r = await fetch(`${DP_API_BASE}/api/auth/sign-in/social`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ provider, callbackURL }),
+      });
+      const data = await r.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        alert(`登录失败：${data.message || 'unknown error'}`);
+      }
+    } catch (e) {
+      alert(`登录失败：${e.message}`);
+    }
   }
   return (
     <span className={styles.signInGroup}>
