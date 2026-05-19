@@ -4,6 +4,10 @@
  * work well for content-centric websites.
  */
 
+/* DataPoints semantic color tokens (light + dark). Centralizes pill/badge
+   colors so dark mode flips at one source of truth. */
+@import '../styles/dp-tokens.css';
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
