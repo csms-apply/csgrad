@@ -25,12 +25,9 @@ const COPY = {
     metaDatapoints: '条录取数据',
     beta: '新版预览 (beta)',
     dataNote: '注：数据来源于历史 Seatable 归档，个人识别字段（联系方式 / 备注 / 推荐信详情等）已脱敏。',
-    liveToggle: '使用 Live API（实时数据，需后端在线）',
-    liveDegraded: 'Live API 不可达，已降级到本地快照',
-    liveLoading: '正在从 API 拉数据…',
     loadingData: '加载 DataPoints…',
     loadFail: '加载数据失败：',
-    searchPlaceholder: '搜索学校 / 项目 / 本科名',
+    searchPlaceholder: '搜索学校 / 项目',
     searchLabel: '搜索',
     filterSchool: '学校',
     filterTier: 'Tier',
@@ -40,21 +37,18 @@ const COPY = {
     filterMajor: '本科专业',
     filterAll: '全部',
     gpaLabel: 'GPA',
-    gpaMin: 'min',
-    gpaMax: 'max',
     clearBtn: '清除筛选',
     shareBtn: '复制分享链接',
     shareCopied: '已复制！',
     summaryMatched: '匹配',
     summaryRows: '条',
     summaryPage: '页',
-    sourceLive: 'Live API',
-    sourceLiveDegraded: '快照(降级)',
-    sourceSnapshot: '快照',
     thResult: '结果',
     thProgram: '项目',
     thYear: '年份',
-    thUg: '本科 · 专业',
+    thUgCategory: '档次',
+    thUgSchool: '本科',
+    thMajor: '专业',
     thGpa: 'GPA',
     thResearch: '科研',
     thInternship: '实习',
@@ -62,9 +56,9 @@ const COPY = {
     thNotes: '备注',
     funded: '带奖',
     finalDest: '最终去向',
-    countDomestic: '国',
-    countOverseas: '外',
-    countLabel: (d, o) => `国内 ${d} 段 / 海外 ${o} 段`,
+    countDomestic: '国内',
+    countOverseas: '国外',
+    countLabel: (d, o) => `国内 ${d} 段 / 国外 ${o} 段`,
     pubP1: '已发表 · 顶会一作',
     pubPstar: '已发表 · 顶会合作者',
     pubS1: '在投 · 顶会一作',
@@ -72,6 +66,19 @@ const COPY = {
     notesTitle: '查看备注详情',
     notesDialog: '备注详情',
     closeDialog: '关闭',
+    rowClickHint: '点击查看该申请者的所有 DataPoints',
+    applicantDpsTitle: '该申请者的全部 DataPoints',
+    notesLabel: {
+      dp: 'DP 备注',
+      research: '科研',
+      internship: '实习',
+      pub: '论文',
+      rec: '推荐信',
+      soft: '软背景',
+      education: '教育',
+    },
+    submitBtn: '提交 DataPoints',
+    myDpBtn: '我的 DataPoints',
     emptyTitle: '没有匹配的数据。',
     emptyHint: '试着放宽筛选条件：',
     emptyClearAll: '清除全部筛选',
@@ -107,12 +114,9 @@ const COPY = {
     metaDatapoints: 'datapoints',
     beta: 'new preview (beta)',
     dataNote: 'Note: data comes from a historical Seatable archive. Personally identifying fields (contacts / private notes / reference details) have been redacted.',
-    liveToggle: 'Use Live API (real-time, requires backend online)',
-    liveDegraded: 'Live API unreachable — falling back to local snapshot',
-    liveLoading: 'Fetching from API…',
     loadingData: 'Loading DataPoints…',
     loadFail: 'Failed to load data: ',
-    searchPlaceholder: 'Search school / program / undergrad',
+    searchPlaceholder: 'Search school / program',
     searchLabel: 'Search',
     filterSchool: 'School',
     filterTier: 'Tier',
@@ -122,21 +126,18 @@ const COPY = {
     filterMajor: 'Undergrad major',
     filterAll: 'All',
     gpaLabel: 'GPA',
-    gpaMin: 'min',
-    gpaMax: 'max',
     clearBtn: 'Clear filters',
     shareBtn: 'Copy share link',
     shareCopied: 'Copied!',
     summaryMatched: 'Matched',
     summaryRows: 'rows',
     summaryPage: 'page',
-    sourceLive: 'Live API',
-    sourceLiveDegraded: 'Snapshot (degraded)',
-    sourceSnapshot: 'Snapshot',
     thResult: 'Result',
     thProgram: 'Program',
     thYear: 'Year',
-    thUg: 'Undergrad · Major',
+    thUgCategory: 'Tier',
+    thUgSchool: 'Undergrad',
+    thMajor: 'Major',
     thGpa: 'GPA',
     thResearch: 'Research',
     thInternship: 'Internship',
@@ -144,8 +145,8 @@ const COPY = {
     thNotes: 'Notes',
     funded: 'Funded',
     finalDest: 'Final destination',
-    countDomestic: 'CN',
-    countOverseas: 'Intl',
+    countDomestic: 'Domestic',
+    countOverseas: 'Overseas',
     countLabel: (d, o) => `${d} domestic / ${o} overseas`,
     pubP1: 'Published · top venue, first author',
     pubPstar: 'Published · top venue, co-author',
@@ -154,6 +155,8 @@ const COPY = {
     notesTitle: 'View notes',
     notesDialog: 'Notes',
     closeDialog: 'Close',
+    rowClickHint: 'Click to see all DataPoints from this applicant',
+    applicantDpsTitle: "Applicant's full DataPoints",
     emptyTitle: 'No matching datapoints.',
     emptyHint: 'Try relaxing your filters:',
     emptyClearAll: 'Clear all filters',
@@ -188,7 +191,7 @@ function pickLocale(loc) {
 
 // ---------- URL <-> filter state helpers ----------
 
-const URL_KEYS = ['school', 'tier', 'year', 'result', 'ugCat', 'major', 'gpaMin', 'gpaMax', 'q'];
+const URL_KEYS = ['school', 'tier', 'year', 'result', 'ugCat', 'major', 'q'];
 
 function readFiltersFromUrl() {
   if (typeof window === 'undefined') return {};
@@ -320,12 +323,8 @@ function useIsMobile() {
 
 function Table({ data, me, meChecked, t }) {
   const { applicants, programs, datapoints } = data;
-  const [useLiveApi, setUseLiveApi] = useState(false);
-  const [liveRows, setLiveRows] = useState(null);
-  const [liveTotal, setLiveTotal] = useState(0);
-  const [liveLoading, setLiveLoading] = useState(false);
-  const [liveError, setLiveError] = useState(null);
   const isMobile = useIsMobile();
+  const [openApplicantId, setOpenApplicantId] = useState(null);
 
   const filterOpts = useMemo(() => {
     const schools = new Set();
@@ -360,21 +359,17 @@ function Table({ data, me, meChecked, t }) {
   const [result, setResult] = useState(initial.result || '');
   const [ugCat, setUgCat] = useState(initial.ugCat || '');
   const [major, setMajor] = useState(initial.major || '');
-  const [gpaMin, setGpaMin] = useState(initial.gpaMin || '');
-  const [gpaMax, setGpaMax] = useState(initial.gpaMax || '');
   const [query, setQuery] = useState(initial.q || '');
   const [page, setPage] = useState(0);
 
   const deferredQuery = useDeferredValue(query);
 
   useEffect(() => {
-    writeFiltersToUrl({ school, tier, year, result, ugCat, major, gpaMin, gpaMax, q: deferredQuery });
-  }, [school, tier, year, result, ugCat, major, gpaMin, gpaMax, deferredQuery]);
+    writeFiltersToUrl({ school, tier, year, result, ugCat, major, q: deferredQuery });
+  }, [school, tier, year, result, ugCat, major, deferredQuery]);
 
   const rows = useMemo(() => {
     const q = deferredQuery.trim().toLowerCase();
-    const gMin = gpaMin === '' ? null : Number(gpaMin);
-    const gMax = gpaMax === '' ? null : Number(gpaMax);
     const out = [];
     for (const d of datapoints) {
       const p = programs[d.program_id];
@@ -386,10 +381,8 @@ function Table({ data, me, meChecked, t }) {
       if (result && d.result !== result) continue;
       if (ugCat && a.ug_school_category !== ugCat) continue;
       if (major && a.ug_major !== major) continue;
-      if (gMin !== null && (a.gpa == null || a.gpa < gMin)) continue;
-      if (gMax !== null && (a.gpa == null || a.gpa > gMax)) continue;
       if (q) {
-        const hay = `${p.school} ${p.program} ${a.ug_school_name || ''}`.toLowerCase();
+        const hay = `${p.school} ${p.program}`.toLowerCase();
         if (!hay.includes(q)) continue;
       }
       out.push({ d, p, a });
@@ -402,59 +395,14 @@ function Table({ data, me, meChecked, t }) {
     return out;
   }, [
     datapoints, programs, applicants,
-    school, tier, year, result, ugCat, major, gpaMin, gpaMax, deferredQuery,
+    school, tier, year, result, ugCat, major, deferredQuery,
   ]);
 
-  useEffect(() => setPage(0), [school, tier, year, result, ugCat, major, gpaMin, gpaMax, deferredQuery, useLiveApi]);
+  useEffect(() => setPage(0), [school, tier, year, result, ugCat, major, deferredQuery]);
 
-  useEffect(() => {
-    if (!useLiveApi) {
-      setLiveRows(null);
-      setLiveError(null);
-      return;
-    }
-    const handle = setTimeout(async () => {
-      setLiveLoading(true);
-      setLiveError(null);
-      try {
-        const res = await listDp({
-          school: school || undefined,
-          tier: tier || undefined,
-          year: year || undefined,
-          result: result || undefined,
-          ugCategory: ugCat || undefined,
-          major: major || undefined,
-          gpaMin: gpaMin || undefined,
-          gpaMax: gpaMax || undefined,
-          q: deferredQuery || undefined,
-          limit: PAGE_SIZE,
-          offset: page * PAGE_SIZE,
-        });
-        setLiveRows(res.rows);
-        setLiveTotal(res.total);
-        if (res.source === 'snapshot') {
-          setLiveError(t.liveDegraded);
-        }
-      } catch (e) {
-        setLiveError(String(e));
-      } finally {
-        setLiveLoading(false);
-      }
-    }, 250);
-    return () => clearTimeout(handle);
-  }, [useLiveApi, school, tier, year, result, ugCat, major, gpaMin, gpaMax, deferredQuery, page, t]);
-
-  const totalCount = useLiveApi ? liveTotal : rows.length;
+  const totalCount = rows.length;
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
-  const paged = useLiveApi
-    ? (liveRows || [])
-    : rows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
-
-  const clear = useCallback(() => {
-    setSchool(''); setTier(''); setYear(''); setResult('');
-    setUgCat(''); setMajor(''); setGpaMin(''); setGpaMax('');
-    setQuery('');
-  }, []);
+  const paged = rows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
 
   const activeFilters = useMemo(() => {
     const items = [];
@@ -464,23 +412,9 @@ function Table({ data, me, meChecked, t }) {
     if (result) items.push({ key: 'result', label: t.filterResult, value: result });
     if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: ugCat });
     if (major) items.push({ key: 'major', label: t.filterMajor, value: major });
-    if (gpaMin) items.push({ key: 'gpaMin', label: `${t.gpaLabel} ${t.gpaMin}`, value: gpaMin });
-    if (gpaMax) items.push({ key: 'gpaMax', label: `${t.gpaLabel} ${t.gpaMax}`, value: gpaMax });
     if (deferredQuery) items.push({ key: 'q', label: t.searchLabel, value: deferredQuery });
     return items;
-  }, [school, tier, year, result, ugCat, major, gpaMin, gpaMax, deferredQuery, t]);
-
-  const [copied, setCopied] = useState(false);
-  const copyShare = useCallback(() => {
-    if (typeof window === 'undefined') return;
-    const url = window.location.href;
-    const finish = () => { setCopied(true); setTimeout(() => setCopied(false), 1600); };
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(finish).catch(finish);
-    } else {
-      finish();
-    }
-  }, []);
+  }, [school, tier, year, result, ugCat, major, deferredQuery, t]);
 
   return (
     <div className={styles.wrap}>
@@ -488,91 +422,67 @@ function Table({ data, me, meChecked, t }) {
         <div className={styles.headerTop}>
           <h1>{t.headerTitle}</h1>
           <div className={styles.headerRight}>
-            {meChecked && (me ? <MeBadge me={me} t={t} /> : <SignInButton t={t} />)}
+            <a href="/submit-dp" className={styles.signInBtn} style={{ textDecoration: 'none' }}>
+              {t.submitBtn}
+            </a>
+            {meChecked && me ? (
+              <>
+                <a href="/my-dp" className={styles.signInBtn} style={{ textDecoration: 'none' }}>
+                  {t.myDpBtn}
+                </a>
+                <MeBadge me={me} t={t} />
+              </>
+            ) : null}
           </div>
         </div>
         <p className={styles.meta}>
           <b>{data.counts.datapoints}</b> {t.metaDatapoints} · <b>{data.counts.applicants}</b> {t.metaApplicants} ·{' '}
           <b>{data.counts.programs}</b> {t.metaPrograms} · <span className={styles.beta}>{t.beta}</span>
         </p>
-        <p className={styles.note}>
-          {t.dataNote}
-          <label className={styles.liveToggle}>
-            <input
-              type="checkbox"
-              checked={useLiveApi}
-              onChange={(e) => setUseLiveApi(e.target.checked)}
-            />
-            <span>{t.liveToggle}</span>
-          </label>
-        </p>
-        {useLiveApi && liveError ? <p className={styles.liveErr} role="status"><span aria-hidden="true">⚠️ </span>{liveError}</p> : null}
-        {useLiveApi && liveLoading ? <p className={styles.note}>{t.liveLoading}</p> : null}
+        <p className={styles.note}>{t.dataNote}</p>
       </header>
 
       <section className={styles.filters} aria-label={t.searchLabel}>
-        <input
-          className={styles.search}
-          type="search"
-          placeholder={t.searchPlaceholder}
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          aria-label={t.searchLabel}
-        />
+        <label className={styles.selectWrap}>
+          <span>{t.searchLabel}</span>
+          <input
+            type="search"
+            placeholder={t.searchPlaceholder}
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            aria-label={t.searchLabel}
+          />
+        </label>
         <Select label={t.filterSchool} value={school} onChange={setSchool} options={filterOpts.schools} allText={t.filterAll} />
         <Select label={t.filterTier} value={tier} onChange={setTier} options={filterOpts.tiers} allText={t.filterAll} />
         <Select label={t.filterYear} value={year} onChange={setYear} options={filterOpts.years} allText={t.filterAll} />
         <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} />
         <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} />
         <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} />
-        <div className={styles.gpaRange} role="group" aria-label={t.gpaLabel}>
-          <span aria-hidden="true">{t.gpaLabel}</span>
-          <input
-            type="number"
-            step="0.01"
-            placeholder={t.gpaMin}
-            value={gpaMin}
-            onChange={(e) => setGpaMin(e.target.value)}
-            aria-label={`${t.gpaLabel} ${t.gpaMin}`}
-          />
-          <span aria-hidden="true">–</span>
-          <input
-            type="number"
-            step="0.01"
-            placeholder={t.gpaMax}
-            value={gpaMax}
-            onChange={(e) => setGpaMax(e.target.value)}
-            aria-label={`${t.gpaLabel} ${t.gpaMax}`}
-          />
-        </div>
-        <button className={styles.clearBtn} onClick={clear} type="button">
-          {t.clearBtn}
-        </button>
-        <button
-          className={styles.clearBtn}
-          onClick={copyShare}
-          type="button"
-          aria-label={t.shareBtn}
-          style={{ marginLeft: 4 }}
-        >
-          {copied ? t.shareCopied : t.shareBtn}
-        </button>
       </section>
 
       <div className={styles.summary} role="status" aria-live="polite">
-        {t.summaryMatched} <b>{totalCount}</b> {t.summaryRows} · {page + 1} / {totalPages} {t.summaryPage} ·{' '}
-        <span className={styles.sourceBadge}>
-          {useLiveApi ? (liveError ? t.sourceLiveDegraded : t.sourceLive) : t.sourceSnapshot}
-        </span>
+        {t.summaryMatched} <b>{totalCount}</b> {t.summaryRows} · {page + 1} / {totalPages} {t.summaryPage}
       </div>
 
       {paged.length === 0 ? (
-        <EmptyState t={t} activeFilters={activeFilters} onClear={clear} />
+        <EmptyState t={t} activeFilters={activeFilters} />
       ) : isMobile ? (
-        <MobileCards rows={paged} t={t} />
+        <MobileCards rows={paged} t={t} onCardClick={setOpenApplicantId} />
       ) : (
-        <DesktopTable rows={paged} t={t} />
+        <DesktopTable rows={paged} t={t} onRowClick={setOpenApplicantId} />
       )}
+
+      {openApplicantId ? (
+        <ApplicantDpsModal
+          applicantId={openApplicantId}
+          datapoints={datapoints}
+          programs={programs}
+          applicants={applicants}
+          t={t}
+          onClose={() => setOpenApplicantId(null)}
+        />
+      ) : null}
 
       <nav className={styles.pager} aria-label="pagination">
         <button
@@ -635,16 +545,13 @@ function EmptyState({ t, activeFilters, onClear }) {
       ) : (
         <div style={{ marginBottom: 12 }}>{t.emptyHint}</div>
       )}
-      <button className={styles.clearBtn} onClick={onClear} type="button">
-        {t.emptyClearAll}
-      </button>
     </div>
   );
 }
 
 // ---------- Desktop table ----------
 
-function DesktopTable({ rows, t }) {
+function DesktopTable({ rows, t, onRowClick }) {
   return (
     <div className={styles.tableWrap}>
       <table className={styles.table}>
@@ -653,7 +560,9 @@ function DesktopTable({ rows, t }) {
             <th scope="col">{t.thResult}</th>
             <th scope="col">{t.thProgram}</th>
             <th scope="col">{t.thYear}</th>
-            <th scope="col">{t.thUg}</th>
+            <th scope="col">{t.thUgCategory}</th>
+            <th scope="col">{t.thUgSchool}</th>
+            <th scope="col">{t.thMajor}</th>
             <th scope="col">{t.thGpa}</th>
             <th scope="col">{t.thResearch}</th>
             <th scope="col">{t.thInternship}</th>
@@ -663,32 +572,34 @@ function DesktopTable({ rows, t }) {
         </thead>
         <tbody>
           {rows.map(({ d, p, a }) => (
-            <tr key={d.id}>
+            <tr
+              key={d.id}
+              onClick={() => onRowClick(a.id)}
+              style={{ cursor: 'pointer' }}
+              title={t.rowClickHint}
+            >
               <td className={styles.resultCell}>
                 <ResultPills d={d} t={t} />
               </td>
               <td className={styles.programCell}>
                 <div className={styles.schoolName}>{p.school}</div>
-                <div className={styles.programName}>
-                  {p.program}
-                  {p.tier ? <span className={`${styles.tierBadge} ${tierBadgeClass(p.tier)}`} aria-label={`Tier ${p.tier}`}>{p.tier}</span> : null}
-                </div>
+                <div className={styles.programName}>{p.program}</div>
               </td>
               <td className={styles.yearCell}>
-                <div>{d.academic_year || '—'}</div>
-                <div className={styles.muted}>{d.semester || ''}</div>
-                {d.notified_at ? <div className={styles.smallMuted}>{d.notified_at}</div> : null}
+                {d.academic_year || '—'}{d.semester ? ` ${d.semester}` : ''}
               </td>
-              <td className={styles.ugCell}>
-                <div className={styles.ugRow}>
-                  {a.ug_school_category ? (
-                    <span className={`${styles.ugCatBadge} ${ugCatBadgeClass(a.ug_school_category)}`}>
-                      {a.ug_school_category}
-                    </span>
-                  ) : null}
-                  <span className={styles.ugName}>{a.ug_school_name || ''}</span>
-                </div>
-                {a.ug_major ? <div className={styles.majorTag}>{a.ug_major}</div> : null}
+              <td>
+                {a.ug_school_category ? (
+                  <span className={`${styles.ugCatBadge} ${ugCatBadgeClass(a.ug_school_category)}`}>
+                    {a.ug_school_category}
+                  </span>
+                ) : <span className={styles.muted}>—</span>}
+              </td>
+              <td>
+                <span className={styles.ugName}>{a.ug_school_name || <span className={styles.muted}>—</span>}</span>
+              </td>
+              <td>
+                {a.ug_major ? <span className={styles.majorTag}>{a.ug_major}</span> : <span className={styles.muted}>—</span>}
               </td>
               <td className={styles.gpaCell}>
                 <GpaCell a={a} />
@@ -702,7 +613,7 @@ function DesktopTable({ rows, t }) {
               <td className={styles.pubCell}>
                 <PubBadges a={a} t={t} />
               </td>
-              <td className={styles.notesCell}>
+              <td className={styles.notesCell} onClick={(e) => e.stopPropagation()}>
                 <NotesCell d={d} a={a} t={t} />
               </td>
             </tr>
@@ -713,30 +624,135 @@ function DesktopTable({ rows, t }) {
   );
 }
 
+function ApplicantDpsModal({ applicantId, datapoints, programs, applicants, t, onClose }) {
+  const dialogRef = useRef(null);
+  const applicant = applicants[applicantId];
+  const myDps = useMemo(() => {
+    return datapoints
+      .filter((d) => d.applicant_id === applicantId)
+      .map((d) => ({ d, p: programs[d.program_id] }))
+      .filter((row) => row.p)
+      .sort((x, y) => {
+        const xd = x.d.notified_at || x.d.submitted_at || '';
+        const yd = y.d.notified_at || y.d.submitted_at || '';
+        return yd.localeCompare(xd);
+      });
+  }, [applicantId, datapoints, programs]);
+
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    const timer = setTimeout(() => {
+      dialogRef.current?.querySelector('[data-close]')?.focus();
+    }, 0);
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      clearTimeout(timer);
+    };
+  }, [onClose]);
+
+  if (!applicant) return null;
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={t.applicantDpsTitle}
+      onClick={onClose}
+      style={{
+        position: 'fixed', inset: 0,
+        background: 'rgba(0,0,0,0.45)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        zIndex: 1000, padding: 16,
+      }}
+    >
+      <div
+        ref={dialogRef}
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          background: 'var(--ifm-background-surface-color, #fff)',
+          color: 'var(--ifm-font-color-base)',
+          borderRadius: 8,
+          maxWidth: 700, width: '100%',
+          maxHeight: '85vh', overflow: 'auto',
+          padding: 20,
+          boxShadow: '0 10px 30px rgba(0,0,0,0.25)',
+        }}
+      >
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
+          <h3 style={{ margin: 0 }}>{t.applicantDpsTitle}（{myDps.length}）</h3>
+          <button
+            data-close
+            type="button"
+            onClick={onClose}
+            aria-label={t.closeDialog}
+            style={{
+              background: 'transparent',
+              border: '1px solid var(--ifm-color-emphasis-300)',
+              borderRadius: 4,
+              padding: '4px 10px',
+              cursor: 'pointer',
+            }}
+          >
+            {t.closeDialog} ✕
+          </button>
+        </div>
+        <div style={{ fontSize: 12, color: 'var(--ifm-color-emphasis-700)', marginBottom: 12 }}>
+          {applicant.ug_school_category ? `${applicant.ug_school_category} · ` : ''}
+          {applicant.ug_school_name || ''}
+          {applicant.ug_major ? ` · ${applicant.ug_major}` : ''}
+          {applicant.gpa != null ? ` · GPA ${applicant.gpa}` : ''}
+        </div>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13 }}>
+          <thead>
+            <tr>
+              <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-200)' }}>{t.thProgram}</th>
+              <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-200)' }}>{t.thResult}</th>
+              <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-200)' }}>{t.thYear}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {myDps.map(({ d, p }) => (
+              <tr key={d.id}>
+                <td style={{ padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                  <b>{p.school}</b> · {p.program}
+                </td>
+                <td style={{ padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                  <ResultPills d={d} t={t} />
+                </td>
+                <td style={{ padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                  {d.academic_year || '—'}{d.semester ? ` ${d.semester}` : ''}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 // ---------- Mobile card layout ----------
 
-function MobileCards({ rows, t }) {
+function MobileCards({ rows, t, onCardClick }) {
   const card = {
     border: '1px solid var(--ifm-color-emphasis-200)',
     borderRadius: 8,
     padding: 12,
     marginBottom: 10,
     background: 'var(--ifm-background-surface-color, transparent)',
+    cursor: 'pointer',
   };
   const row = { display: 'flex', justifyContent: 'space-between', gap: 8, marginTop: 6, fontSize: 14 };
   const labelStyle = { color: 'var(--ifm-color-emphasis-600)', flexShrink: 0 };
   return (
     <div style={{ marginBottom: 16 }}>
       {rows.map(({ d, p, a }) => (
-        <article key={d.id} style={card}>
+        <article key={d.id} style={card} onClick={() => onCardClick(a.id)} title={t.rowClickHint}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
             <div style={{ fontWeight: 600 }}>{p.school}</div>
             <ResultPills d={d} t={t} />
           </div>
-          <div style={{ marginTop: 4, fontSize: 14 }}>
-            {p.program}
-            {p.tier ? <span className={`${styles.tierBadge} ${tierBadgeClass(p.tier)}`} aria-label={`Tier ${p.tier}`} style={{ marginLeft: 6 }}>{p.tier}</span> : null}
-          </div>
+          <div style={{ marginTop: 4, fontSize: 14 }}>{p.program}</div>
           <div style={row}>
             <span style={labelStyle}>{t.cardLabelYear}</span>
             <span>{d.academic_year || '—'} {d.semester || ''}</span>
@@ -800,7 +816,6 @@ function GpaCell({ a }) {
   return (
     <>
       <span className={styles.gpaValue}>{a.gpa}</span>
-      <span className={styles.muted}>/{a.gpa_scale}</span>
       {a.gpa_rank ? <div className={styles.gpaRank}>{a.gpa_rank}</div> : null}
     </>
   );
@@ -889,15 +904,15 @@ function PubBadges({ a, t }) {
 function NotesCell({ d, a, t }) {
   const parts = useMemo(() => {
     const out = [];
-    if (d.notes) out.push(['📝', d.notes]);
-    if (a.research_notes) out.push(['🔬', a.research_notes]);
-    if (a.internship_notes) out.push(['💼', a.internship_notes]);
-    if (a.pub_notes) out.push(['📄', a.pub_notes]);
-    if (a.rec_notes) out.push(['✉️', a.rec_notes]);
-    if (a.other_soft_background) out.push(['✨', a.other_soft_background]);
-    if (a.education_notes) out.push(['🎓', a.education_notes]);
+    if (d.notes) out.push([t.notesLabel.dp, d.notes]);
+    if (a.research_notes) out.push([t.notesLabel.research, a.research_notes]);
+    if (a.internship_notes) out.push([t.notesLabel.internship, a.internship_notes]);
+    if (a.pub_notes) out.push([t.notesLabel.pub, a.pub_notes]);
+    if (a.rec_notes) out.push([t.notesLabel.rec, a.rec_notes]);
+    if (a.other_soft_background) out.push([t.notesLabel.soft, a.other_soft_background]);
+    if (a.education_notes) out.push([t.notesLabel.education, a.education_notes]);
     return out;
-  }, [d, a]);
+  }, [d, a, t]);
 
   const [open, setOpen] = useState(false);
   const dialogRef = useRef(null);
@@ -916,7 +931,7 @@ function NotesCell({ d, a, t }) {
   }, [open]);
 
   if (parts.length === 0) return <span className={styles.muted}>—</span>;
-  const fullText = parts.map(([icon, text]) => `${icon} ${text}`).join('\n\n');
+  const fullText = parts.map(([label, text]) => `[${label}] ${text}`).join('\n\n');
   const preview = parts[0][1].slice(0, 60) + (parts[0][1].length > 60 || parts.length > 1 ? '…' : '');
 
   return (
@@ -938,7 +953,7 @@ function NotesCell({ d, a, t }) {
         }}
         className={styles.notesPreview}
       >
-        <span aria-hidden="true">{parts[0][0]} </span>{preview}
+        <span className={styles.muted}>[{parts[0][0]}]</span> {preview}
         {parts.length > 1 ? <span className={styles.moreNotes}> +{parts.length - 1}</span> : null}
       </button>
       {open ? (
@@ -992,9 +1007,9 @@ function NotesCell({ d, a, t }) {
               </button>
             </div>
             <div>
-              {parts.map(([icon, text], i) => (
+              {parts.map(([label, text], i) => (
                 <div key={i} style={{ marginBottom: 12, whiteSpace: 'pre-wrap', lineHeight: 1.5 }}>
-                  <span aria-hidden="true" style={{ marginRight: 6 }}>{icon}</span>
+                  <span style={{ fontWeight: 600, marginRight: 6, color: 'var(--ifm-color-emphasis-700)' }}>[{label}]</span>
                   {text}
                 </div>
               ))}
