@@ -104,77 +104,48 @@ const dpRows = readInserts(path.join(SRC, '003-datapoints.sql'));
 
 console.log(`read: applicants=${applicantRows.length} programs=${programRows.length} datapoints=${dpRows.length}`);
 
-// ---------- strip only DB metadata (free-text fields are now public) ----------
-const STRIP = new Set([
-  'seatable_row_id',
-  'seatable_applicant_id',
-  'user_id',
-  'locked_at',
-]);
+// ---------- collect filter options (page hits API for actual rows) ----------
+// Only unique values for each filter dropdown + total counts. No row payload.
+const schools = new Set();
+const tiers = new Set();
+const years = new Set();
+const ugCats = new Set();
+const majors = new Set();
 
-const applicants = {};
-for (const a of applicantRows) {
-  const safe = {};
-  for (const [k, v] of Object.entries(a)) {
-    if (STRIP.has(k)) continue;
-    // parse JSON-array text fields back to arrays for easier frontend handling
-    if (k === 'cs_courses' || /^rec\d_tags$/.test(k)) {
-      try { safe[k] = v ? JSON.parse(v) : []; }
-      catch { safe[k] = []; }
-    } else {
-      safe[k] = v;
-    }
-  }
-  applicants[a.id] = safe;
-}
-
-// ---------- programs: keep all (already public via positioning) ----------
-const programs = {};
 for (const p of programRows) {
-  programs[p.id] = {
-    id: p.id,
-    school: p.school,
-    program: p.program,
-    degree: p.degree,
-    country: p.country,
-    tier: p.tier,
-    homepage_url: p.homepage_url,
-  };
+  if (p.school) schools.add(p.school);
+  if (p.tier) tiers.add(p.tier);
 }
-
-// ---------- datapoints: keep all displayable fields including notes ----------
-const datapoints = [];
+for (const a of applicantRows) {
+  if (a.ug_school_category) ugCats.add(a.ug_school_category);
+  if (a.ug_major) majors.add(a.ug_major);
+}
 for (const d of dpRows) {
-  datapoints.push({
-    id: d.id,
-    applicant_id: d.applicant_id,
-    program_id: d.program_id,
-    result: d.result,
-    is_funded: d.is_funded,
-    is_final_destination: d.is_final_destination,
-    academic_year: d.academic_year,
-    semester: d.semester,
-    notified_at: d.notified_at,
-    submitted_at: d.submitted_at,
-    notes: d.notes,
-  });
+  if (d.academic_year) years.add(d.academic_year);
 }
 
-// ---------- output ----------
+// ---------- output: slim "options + counts" snapshot ----------
+// Used only to populate filter dropdowns + show header counts before the
+// API responds. Rows are now fetched on-demand from /api/dp.
 const snapshot = {
   generated_at: new Date().toISOString(),
   counts: {
-    applicants: Object.keys(applicants).length,
-    programs: Object.keys(programs).length,
-    datapoints: datapoints.length,
+    applicants: applicantRows.length,
+    programs: programRows.length,
+    datapoints: dpRows.length,
   },
-  applicants,
-  programs,
-  datapoints,
+  options: {
+    schools: [...schools].sort(),
+    tiers: [...tiers].sort(),
+    years: [...years].sort((a, b) => b - a),
+    ugCats: [...ugCats].sort(),
+    majors: [...majors].sort(),
+  },
 };
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, JSON.stringify(snapshot));
 const kb = (fs.statSync(OUT).size / 1024).toFixed(1);
 console.log(`✔ wrote ${OUT}  (${kb} KB)`);
-console.log(`  applicants=${snapshot.counts.applicants}  programs=${snapshot.counts.programs}  datapoints=${snapshot.counts.datapoints}`);
+console.log(`  counts: applicants=${snapshot.counts.applicants} programs=${snapshot.counts.programs} datapoints=${snapshot.counts.datapoints}`);
+console.log(`  options: ${snapshot.options.schools.length} schools / ${snapshot.options.tiers.length} tiers / ${snapshot.options.years.length} years / ${snapshot.options.ugCats.length} ug cats / ${snapshot.options.majors.length} majors`);
