@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState, useDeferredValue, useRef, useCallback } from 'react';
+import React, { useEffect, useMemo, useState, useRef, useCallback } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
@@ -189,7 +189,7 @@ function pickLocale(loc) {
 
 // ---------- URL <-> filter state helpers ----------
 
-const URL_KEYS = ['school', 'tier', 'year', 'result', 'ugCat', 'major', 'q'];
+const URL_KEYS = ['school', 'tier', 'year', 'result', 'ugCat', 'major'];
 
 function readFiltersFromUrl() {
   if (typeof window === 'undefined') return {};
@@ -225,8 +225,7 @@ function StaticHero({ t, counts }) {
       </div>
       <p className={styles.meta}>
         <b>{counts.datapoints}</b> {t.metaDatapoints} · <b>{counts.applicants}</b> {t.metaApplicants} ·{' '}
-        <b>{counts.programs}</b> {t.metaPrograms} · <span className={styles.beta}>{t.beta}</span>
-      </p>
+        <b>{counts.programs}</b> {t.metaPrograms}      </p>
     </header>
   );
 }
@@ -332,16 +331,13 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
   const [result, setResult] = useState(initial.result || '');
   const [ugCat, setUgCat] = useState(initial.ugCat || '');
   const [major, setMajor] = useState(initial.major || '');
-  const [query, setQuery] = useState(initial.q || '');
   const [page, setPage] = useState(0);
 
-  const deferredQuery = useDeferredValue(query);
-
   useEffect(() => {
-    writeFiltersToUrl({ school, tier, year, result, ugCat, major, q: deferredQuery });
-  }, [school, tier, year, result, ugCat, major, deferredQuery]);
+    writeFiltersToUrl({ school, tier, year, result, ugCat, major });
+  }, [school, tier, year, result, ugCat, major]);
 
-  useEffect(() => setPage(0), [school, tier, year, result, ugCat, major, deferredQuery]);
+  useEffect(() => setPage(0), [school, tier, year, result, ugCat, major]);
 
   // Fetch rows from API on filter/page change. Keep previous rows visible
   // while a new fetch is in flight so the table doesn't blink.
@@ -363,7 +359,6 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
           result: result || undefined,
           ugCategory: ugCat || undefined,
           major: major || undefined,
-          q: deferredQuery || undefined,
           limit: PAGE_SIZE,
           offset: page * PAGE_SIZE,
         });
@@ -377,7 +372,7 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
       }
     }, 250);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [school, tier, year, result, ugCat, major, deferredQuery, page]);
+  }, [school, tier, year, result, ugCat, major, page]);
 
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
   const paged = rows;
@@ -390,9 +385,8 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
     if (result) items.push({ key: 'result', label: t.filterResult, value: result });
     if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: ugCat });
     if (major) items.push({ key: 'major', label: t.filterMajor, value: major });
-    if (deferredQuery) items.push({ key: 'q', label: t.searchLabel, value: deferredQuery });
     return items;
-  }, [school, tier, year, result, ugCat, major, deferredQuery, t]);
+  }, [school, tier, year, result, ugCat, major, t]);
 
   return (
     <div className={styles.wrap}>
@@ -415,23 +409,12 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         </div>
         <p className={styles.meta}>
           <b>{counts.datapoints}</b> {t.metaDatapoints} · <b>{counts.applicants}</b> {t.metaApplicants} ·{' '}
-          <b>{counts.programs}</b> {t.metaPrograms} · <span className={styles.beta}>{t.beta}</span>
-        </p>
+          <b>{counts.programs}</b> {t.metaPrograms}        </p>
         <p className={styles.note}>{t.dataNote}</p>
         {apiError ? <p className={styles.liveErr} role="status"><span aria-hidden="true">⚠️ </span>{t.loadFail}{apiError}</p> : null}
       </header>
 
-      <section className={styles.filters} aria-label={t.searchLabel}>
-        <label className={styles.selectWrap}>
-          <span>{t.searchLabel}</span>
-          <input
-            type="search"
-            placeholder={t.searchPlaceholder}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            aria-label={t.searchLabel}
-          />
-        </label>
+      <section className={styles.filters} aria-label="filters">
         <Select label={t.filterSchool} value={school} onChange={setSchool} options={filterOpts.schools} allText={t.filterAll} />
         <Select label={t.filterTier} value={tier} onChange={setTier} options={filterOpts.tiers} allText={t.filterAll} />
         <Select label={t.filterYear} value={year} onChange={setYear} options={filterOpts.years} allText={t.filterAll} />
