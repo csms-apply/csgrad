@@ -96,7 +96,7 @@ const config = {
             position: 'left',
             items: [
               {
-                to: '/datapoints-new',
+                to: '/datapoints',
                 label: '浏览 DataPoints',
               },
               {
@@ -106,11 +106,6 @@ const config = {
               {
                 to: '/my-dp',
                 label: '我的 DataPoints',
-              },
-              {
-                type: 'doc',
-                docId: 'datapoints',
-                label: '旧版 (Seatable iframe)',
               },
               {
                 to: '/school-positioning',

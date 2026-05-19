@@ -1,24 +1,11 @@
 #!/usr/bin/env node
-// Read migration-output SQL → emit anonymized static/data/dp-snapshot.json
-// for the new /datapoints page to consume before the API is up.
+// Read migration-output SQL → emit static/data/dp-snapshot.json for the
+// /datapoints page to consume when offline / before the API is reachable.
 //
-// What is stripped (private free-text that could identify a person):
-//   - contact_info
-//   - education_notes / gpa_notes
-//   - research_notes / internship_notes
-//   - rec_notes
-//   - pub_notes
-//   - other_soft_background
-//   - notes (on datapoints)
-//
-// What is kept (already shape of the Seatable iframe that was public before):
-//   - ug_school_category / ug_school_name / graduation_year / ug_major
-//   - GPA + scale + rank
-//   - language scores (TOEFL/IELTS) + GRE
-//   - research / internship counts
-//   - publication booleans
-//   - recommendation-letter tags (categorical only)
-//   - DP outcomes: result, is_funded, is_final_destination, year, semester, dates
+// All applicant fields and DP fields are kept — the old Seatable iframe was
+// already public, and submitters of new DPs sign in and know the row will be
+// public. Only DB metadata is stripped (seatable internal ids, user_id,
+// locked_at) since those aren't useful to the frontend.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -117,16 +104,8 @@ const dpRows = readInserts(path.join(SRC, '003-datapoints.sql'));
 
 console.log(`read: applicants=${applicantRows.length} programs=${programRows.length} datapoints=${dpRows.length}`);
 
-// ---------- strip private free-text from applicants ----------
+// ---------- strip only DB metadata (free-text fields are now public) ----------
 const STRIP = new Set([
-  'contact_info',
-  'education_notes',
-  'gpa_notes',
-  'research_notes',
-  'internship_notes',
-  'rec_notes',
-  'pub_notes',
-  'other_soft_background',
   'seatable_row_id',
   'seatable_applicant_id',
   'user_id',
@@ -163,7 +142,7 @@ for (const p of programRows) {
   };
 }
 
-// ---------- datapoints: strip notes, keep outcomes ----------
+// ---------- datapoints: keep all displayable fields including notes ----------
 const datapoints = [];
 for (const d of dpRows) {
   datapoints.push({
@@ -177,7 +156,7 @@ for (const d of dpRows) {
     semester: d.semester,
     notified_at: d.notified_at,
     submitted_at: d.submitted_at,
-    // notes intentionally dropped
+    notes: d.notes,
   });
 }
 

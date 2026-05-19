@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { DP_API_BASE, getMe, listDp } from '@site/src/lib/dp/api';
-import styles from './datapoints-new.module.css';
+import styles from './datapoints.module.css';
 
 const PAGE_SIZE = 50;
 const TIER_ORDER = ['SSS', 'SS', 'S', 'A', 'B', 'C', 'D'];
@@ -314,74 +314,75 @@ function Table({ data, me, meChecked }) {
           <thead>
             <tr>
               <th>结果</th>
-              <th>学校</th>
               <th>项目</th>
-              <th>Tier</th>
-              <th>年份/学期</th>
-              <th>通知</th>
-              <th>本科</th>
-              <th>专业</th>
+              <th>年份</th>
+              <th>本科 · 专业</th>
               <th>GPA</th>
               <th>科研</th>
               <th>实习</th>
               <th>Pub</th>
+              <th>备注</th>
             </tr>
           </thead>
           <tbody>
             {paged.map(({ d, p, a }) => (
               <tr key={d.id}>
-                <td>
+                <td className={styles.resultCell}>
                   <span className={`${styles.pill} ${pillClass(d.result)}`}>{d.result || '—'}</span>
-                  {d.is_funded ? <span className={styles.fundBadge}>奖</span> : null}
-                  {d.is_final_destination ? <span className={styles.finalBadge}>最终</span> : null}
+                  {d.is_funded ? <span className={styles.fundBadge} title="带奖">奖</span> : null}
+                  {d.is_final_destination ? <span className={styles.finalBadge} title="最终去向">最终</span> : null}
                 </td>
-                <td>{p.school}</td>
-                <td>{p.program}</td>
-                <td>{p.tier || <span className={styles.muted}>—</span>}</td>
-                <td>
-                  {d.academic_year || '—'} {d.semester || ''}
+                <td className={styles.programCell}>
+                  <div className={styles.schoolName}>{p.school}</div>
+                  <div className={styles.programName}>
+                    {p.program}
+                    {p.tier ? <span className={`${styles.tierBadge} ${tierBadgeClass(p.tier)}`}>{p.tier}</span> : null}
+                  </div>
                 </td>
-                <td>{d.notified_at || <span className={styles.muted}>—</span>}</td>
-                <td>
-                  <span className={styles.ugCat}>{a.ug_school_category || '—'}</span>
-                  <br />
-                  <span className={styles.ugName}>{a.ug_school_name || ''}</span>
+                <td className={styles.yearCell}>
+                  <div>{d.academic_year || '—'}</div>
+                  <div className={styles.muted}>{d.semester || ''}</div>
+                  {d.notified_at ? <div className={styles.smallMuted}>{d.notified_at}</div> : null}
                 </td>
-                <td>{a.ug_major || '—'}</td>
-                <td>
+                <td className={styles.ugCell}>
+                  <div className={styles.ugRow}>
+                    {a.ug_school_category ? (
+                      <span className={`${styles.ugCatBadge} ${ugCatBadgeClass(a.ug_school_category)}`}>
+                        {a.ug_school_category}
+                      </span>
+                    ) : null}
+                    <span className={styles.ugName}>{a.ug_school_name || ''}</span>
+                  </div>
+                  {a.ug_major ? <div className={styles.majorTag}>{a.ug_major}</div> : null}
+                </td>
+                <td className={styles.gpaCell}>
                   {a.gpa != null ? (
                     <>
-                      {a.gpa}
+                      <span className={styles.gpaValue}>{a.gpa}</span>
                       <span className={styles.muted}>/{a.gpa_scale}</span>
-                      {a.gpa_rank ? <span className={styles.muted}> · {a.gpa_rank}</span> : null}
+                      {a.gpa_rank ? <div className={styles.gpaRank}>{a.gpa_rank}</div> : null}
                     </>
                   ) : (
                     <span className={styles.muted}>—</span>
                   )}
                 </td>
-                <td>
-                  <span className={styles.muted}>国 </span>
-                  {a.research_domestic_count ?? 0}
-                  <br />
-                  <span className={styles.muted}>外 </span>
-                  {a.research_overseas_count ?? 0}
+                <td className={styles.countCell}>
+                  <CountInlineBadges
+                    domestic={a.research_domestic_count}
+                    overseas={a.research_overseas_count}
+                  />
                 </td>
-                <td>
-                  <span className={styles.muted}>国 </span>
-                  {a.internship_domestic_count ?? 0}
-                  <br />
-                  <span className={styles.muted}>外 </span>
-                  {a.internship_overseas_count ?? 0}
+                <td className={styles.countCell}>
+                  <CountInlineBadges
+                    domestic={a.internship_domestic_count}
+                    overseas={a.internship_overseas_count}
+                  />
                 </td>
-                <td>
-                  {a.pub_top_first_author ? '一作✓' : ''}
-                  {a.pub_top_other_author ? ' 合作✓' : ''}
-                  {a.submission_top_first_author ? ' 投一作' : ''}
-                  {!a.pub_top_first_author &&
-                  !a.pub_top_other_author &&
-                  !a.submission_top_first_author ? (
-                    <span className={styles.muted}>—</span>
-                  ) : null}
+                <td className={styles.pubCell}>
+                  <PubBadges a={a} />
+                </td>
+                <td className={styles.notesCell}>
+                  <NotesCell d={d} a={a} />
                 </td>
               </tr>
             ))}
@@ -445,9 +446,85 @@ function pillClass(result) {
   }
 }
 
-export default function DataPointsNew() {
+function tierBadgeClass(tier) {
+  switch (tier) {
+    case 'SSS': return styles.tierSSS;
+    case 'SS': return styles.tierSS;
+    case 'S': return styles.tierS;
+    case 'A': return styles.tierA;
+    case 'B': return styles.tierB;
+    default: return styles.tierDefault;
+  }
+}
+
+function ugCatBadgeClass(cat) {
+  // Heuristic groupings that map similar categories to similar colors.
+  if (cat === '清北') return styles.ugRed;
+  if (cat === '华五' || cat === '国科/上科/南科') return styles.ugRedAlt;
+  if (cat === '10043' || cat === '985') return styles.ugBlue;
+  if (cat === '211') return styles.ugCyan;
+  if (cat === '双非' || cat === '陆本') return styles.ugGray;
+  if (cat === '美本' || cat === '加本' || cat === '英本' || cat === '澳本' || cat === '港本' || cat === '坡本' || cat === '欧陆本' || cat === '海本') return styles.ugGreen;
+  return styles.ugPurple; // 中外合办/JV
+}
+
+function CountInlineBadges({ domestic, overseas }) {
+  const d = domestic ?? 0;
+  const o = overseas ?? 0;
+  if (d === 0 && o === 0) return <span className={styles.muted}>—</span>;
   return (
-    <Layout title="DataPoints (新版)" description="CS application DataPoints with filters">
+    <span className={styles.countBadges} title={`国内 ${d} 段 / 海外 ${o} 段`}>
+      <span className={styles.countDomestic}>国 {d}</span>
+      <span className={styles.countOverseas}>外 {o}</span>
+    </span>
+  );
+}
+
+function PubBadges({ a }) {
+  const items = [
+    { on: a.pub_top_first_author, label: 'P1', cls: styles.pubFilled, title: '已发表 · 顶会一作' },
+    { on: a.pub_top_other_author, label: 'P*', cls: styles.pubFilledAlt, title: '已发表 · 顶会合作者' },
+    { on: a.submission_top_first_author, label: 'S1', cls: styles.pubOutlined, title: '在投 · 顶会一作' },
+    { on: a.submission_top_other_author, label: 'S*', cls: styles.pubOutlinedAlt, title: '在投 · 顶会合作者' },
+  ];
+  const active = items.filter((x) => x.on);
+  if (active.length === 0) return <span className={styles.muted}>—</span>;
+  return (
+    <span className={styles.pubBadges}>
+      {active.map((x) => (
+        <span key={x.label} className={`${styles.pubBadge} ${x.cls}`} title={x.title}>
+          {x.label}
+        </span>
+      ))}
+    </span>
+  );
+}
+
+function NotesCell({ d, a }) {
+  const parts = [];
+  if (d.notes) parts.push(['📝', d.notes]);
+  if (a.research_notes) parts.push(['🔬', a.research_notes]);
+  if (a.internship_notes) parts.push(['💼', a.internship_notes]);
+  if (a.pub_notes) parts.push(['📄', a.pub_notes]);
+  if (a.rec_notes) parts.push(['✉️', a.rec_notes]);
+  if (a.other_soft_background) parts.push(['✨', a.other_soft_background]);
+  if (a.education_notes) parts.push(['🎓', a.education_notes]);
+  if (parts.length === 0) return <span className={styles.muted}>—</span>;
+  // Show first 60 chars of first note; reveal full set on hover (title attr
+  // shows everything for now; can swap to a popover later).
+  const fullText = parts.map(([icon, text]) => `${icon} ${text}`).join('\n\n');
+  const preview = parts[0][1].slice(0, 60) + (parts[0][1].length > 60 || parts.length > 1 ? '…' : '');
+  return (
+    <span className={styles.notesPreview} title={fullText}>
+      {parts[0][0]} {preview}
+      {parts.length > 1 ? <span className={styles.moreNotes}> +{parts.length - 1}</span> : null}
+    </span>
+  );
+}
+
+export default function DataPointsPage() {
+  return (
+    <Layout title="DataPoints" description="CS application DataPoints with filters">
       <BrowserOnly>{() => <Inner />}</BrowserOnly>
     </Layout>
   );

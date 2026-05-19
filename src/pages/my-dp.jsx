@@ -98,7 +98,7 @@ function Inner() {
 
   async function handleSignOut() {
     await signOut();
-    window.location.href = '/datapoints-new';
+    window.location.href = '/datapoints';
   }
 
   return (
