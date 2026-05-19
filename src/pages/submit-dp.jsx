@@ -1,6 +1,8 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useId, useMemo, useState } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import Head from '@docusaurus/Head';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {
   DP_API_BASE,
   getMe,
@@ -16,6 +18,346 @@ import {
   RESULTS, SEMESTERS,
 } from '@site/src/lib/dp/enums';
 import styles from './submit-dp.module.css';
+
+// ---------- i18n ----------
+
+const COPY = {
+  'zh-Hans': {
+    pageTitle: '提交 DataPoints',
+    pageDesc: 'csgrad DataPoints 提交：先填申请者背景档案，再提交录取数据点。',
+    loading: '加载中…',
+    needSignIn: '需要登录',
+    signInLead: '用 Google 或 GitHub 登录后才能提交 DataPoints。',
+    googleSignIn: 'Google 登录',
+    githubSignIn: 'GitHub 登录',
+    signInFail: '登录失败',
+    youAre: '👤',
+    adminTag: 'admin',
+    heroLead1: '先填一次',
+    heroLeadBold: '申请者背景档案',
+    heroLead2: '，再提交每个项目的录取数据点。档案一经保存即锁定（防止历史 DP 背景信息漂移），如需修改请联系 admin。',
+    step1: '步骤 1 · 申请者背景档案',
+    step2: '步骤 2 · 提交 DataPoints',
+    step2Long: '步骤 2 · 提交 DataPoints（可重复提交多条）',
+    saveFirst: '请先保存上方的背景档案。',
+    goToStep1: '📋 跳到步骤 1 / Go to step 1',
+    locked: '🔒 已锁定',
+    progress: '导航',
+    saved: '已保存（如已锁定需要 admin 解锁才能再改）',
+    created: '档案已创建并锁定。下面可以提交 DP 了。',
+    saveFail: '保存失败',
+    submitFail: '提交失败',
+    submitted: '已提交',
+    placeholderSelect: '（请选择）',
+    btnSaving: '保存中…',
+    btnUpdate: '更新档案',
+    btnCreate: '创建档案（一次性，提交即锁定）',
+    btnSubmittingDp: '提交中…',
+    btnSubmitDp: '提交这条 DP',
+    viewMyDp: '查看我提交过的 DP →',
+    recentTitle: '本次会话刚提交的',
+    errFillRequired: '请填写必填字段',
+    errSelectProgram: '请先选择项目',
+    errSelectResult: '请选择结果',
+    badgeFunded: '奖',
+    badgeFinal: '最终',
+    progSearchLabel: '项目（搜学校或 program 名）',
+    progSearchPlaceholder: '如 stanford mscs / CMU MIIS',
+    groups: {
+      edu: '教育背景',
+      courses: '核心课程修读',
+      gpa: 'GPA',
+      toefl: 'TOEFL',
+      ielts: 'IELTS',
+      gre: 'GRE',
+      research: '科研经历',
+      internship: '实习经历',
+      rec: '推荐信（每封信可勾多个标签）',
+      pub: '科研产出',
+      other: '其他',
+    },
+    labels: {
+      ug_school_category: '本科学校类别',
+      ug_school_name: '本科学校名称',
+      graduation_year: '毕业年份',
+      ug_major: '本科专业',
+      honors_college: '荣誉学院',
+      exchange_abroad: '海外交换',
+      dual_degree: '陆本海本双学位',
+      education_notes: '教育背景备注',
+      gpa_scale: '本科分数制',
+      gpa: '本科 GPA',
+      gpa_rank: '本科 GPA 排名',
+      gpa_notes: 'GPA 备注',
+      total: '总分',
+      reading: '阅读',
+      listening: '听力',
+      speaking: '口语',
+      writing: '写作',
+      gre_quant: '数学',
+      gre_verbal: '语文',
+      research_domestic_count: '国内段数',
+      research_overseas_count: '海外段数',
+      research_notes: '科研经历介绍',
+      internship_domestic_count: '国内段数',
+      internship_overseas_count: '海外段数',
+      internship_notes: '实习经历介绍',
+      pub_top_first_author: '已发表顶会一作',
+      pub_top_other_author: '已发表顶会其他作者',
+      submission_top_first_author: '在投顶会一作',
+      submission_top_other_author: '在投顶会其他作者',
+      pub_notes: 'Pub 情况',
+      other_soft_background: '其他软背景',
+      contact_info: '个人主页 / 联系方式（仅 admin 可见）',
+      rec_notes: '推荐信介绍',
+      recLetter: '推荐信',
+      result: '结果',
+      academic_year: '学年',
+      semester: '学期',
+      is_funded: '带奖',
+      is_final_destination: '最终去向',
+      notified_at: '通知时间',
+      submitted_at: '网申提交时间',
+      notes: '补充说明 / 面试 / 联系等',
+    },
+  },
+  en: {
+    pageTitle: 'Submit DataPoints',
+    pageDesc: 'csgrad DataPoints submission: fill out your applicant profile, then submit each admission data point.',
+    loading: 'Loading…',
+    needSignIn: 'Sign in required',
+    signInLead: 'Sign in with Google or GitHub to submit DataPoints.',
+    googleSignIn: 'Sign in with Google',
+    githubSignIn: 'Sign in with GitHub',
+    signInFail: 'Sign-in failed',
+    youAre: '👤',
+    adminTag: 'admin',
+    heroLead1: 'First fill in your ',
+    heroLeadBold: 'applicant profile',
+    heroLead2: ' once, then submit each program admission data point. Profiles lock after save (to keep historical DP context stable); contact an admin to edit.',
+    step1: 'Step 1 · Applicant profile',
+    step2: 'Step 2 · Submit DataPoints',
+    step2Long: 'Step 2 · Submit DataPoints (multiple entries allowed)',
+    saveFirst: 'Please save your applicant profile above first.',
+    goToStep1: '📋 Go to step 1',
+    locked: '🔒 Locked',
+    progress: 'Sections',
+    saved: 'Saved (if already locked, ask an admin to unlock to re-edit)',
+    created: 'Profile created and locked. You can now submit DPs below.',
+    saveFail: 'Save failed',
+    submitFail: 'Submission failed',
+    submitted: 'Submitted',
+    placeholderSelect: '(select)',
+    btnSaving: 'Saving…',
+    btnUpdate: 'Update profile',
+    btnCreate: 'Create profile (one-time, locks on save)',
+    btnSubmittingDp: 'Submitting…',
+    btnSubmitDp: 'Submit this DP',
+    viewMyDp: 'View my submitted DPs →',
+    recentTitle: 'Just submitted in this session',
+    errFillRequired: 'Please fill in required fields',
+    errSelectProgram: 'Please select a program first',
+    errSelectResult: 'Please pick a result',
+    badgeFunded: 'Funded',
+    badgeFinal: 'Final',
+    progSearchLabel: 'Program (search school or program name)',
+    progSearchPlaceholder: 'e.g. stanford mscs / CMU MIIS',
+    groups: {
+      edu: 'Education',
+      courses: 'Core CS courses taken',
+      gpa: 'GPA',
+      toefl: 'TOEFL',
+      ielts: 'IELTS',
+      gre: 'GRE',
+      research: 'Research',
+      internship: 'Internship',
+      rec: 'Recommendation letters (multiple tags per letter)',
+      pub: 'Publications',
+      other: 'Other',
+    },
+    labels: {
+      ug_school_category: 'Undergrad school tier',
+      ug_school_name: 'Undergrad school name',
+      graduation_year: 'Graduation year',
+      ug_major: 'Undergrad major',
+      honors_college: 'Honors college',
+      exchange_abroad: 'Exchange abroad',
+      dual_degree: 'Dual degree (CN + overseas)',
+      education_notes: 'Education notes',
+      gpa_scale: 'GPA scale',
+      gpa: 'Undergrad GPA',
+      gpa_rank: 'GPA rank',
+      gpa_notes: 'GPA notes',
+      total: 'Total',
+      reading: 'Reading',
+      listening: 'Listening',
+      speaking: 'Speaking',
+      writing: 'Writing',
+      gre_quant: 'Quant',
+      gre_verbal: 'Verbal',
+      research_domestic_count: 'Domestic count',
+      research_overseas_count: 'Overseas count',
+      research_notes: 'Research details',
+      internship_domestic_count: 'Domestic count',
+      internship_overseas_count: 'Overseas count',
+      internship_notes: 'Internship details',
+      pub_top_first_author: 'Published top-venue first author',
+      pub_top_other_author: 'Published top-venue co-author',
+      submission_top_first_author: 'In-submission top-venue first author',
+      submission_top_other_author: 'In-submission top-venue co-author',
+      pub_notes: 'Publication notes',
+      other_soft_background: 'Other soft background',
+      contact_info: 'Homepage / contact (admin only)',
+      rec_notes: 'Recommendation notes',
+      recLetter: 'Letter',
+      result: 'Result',
+      academic_year: 'Year',
+      semester: 'Semester',
+      is_funded: 'Funded',
+      is_final_destination: 'Final destination',
+      notified_at: 'Decision date',
+      submitted_at: 'Application submitted',
+      notes: 'Notes / interview / contact',
+    },
+  },
+};
+
+function pickLocale(loc) {
+  return loc === 'en' ? 'en' : 'zh-Hans';
+}
+
+// Enum display translations. Underlying values are unchanged (backend expects exact strings).
+const ENUM_DISPLAY = {
+  UG_CATEGORIES: {
+    '清北': { 'zh-Hans': '清北', en: 'Tsinghua / PKU' },
+    '华五': { 'zh-Hans': '华五', en: 'C9 (Fudan / SJTU / ZJU / USTC / NJU)' },
+    '国科/上科/南科': { 'zh-Hans': '国科/上科/南科', en: 'UCAS / ShanghaiTech / SUSTech' },
+    '10043': { 'zh-Hans': '10043', en: 'Top-43 (985+)' },
+    '985': { 'zh-Hans': '985', en: '985' },
+    '211': { 'zh-Hans': '211', en: '211' },
+    '双非': { 'zh-Hans': '双非', en: 'Non-985/211 (CN)' },
+    '陆本': { 'zh-Hans': '陆本', en: 'Mainland CN (other)' },
+    '美本': { 'zh-Hans': '美本', en: 'US undergrad' },
+    '加本': { 'zh-Hans': '加本', en: 'Canada undergrad' },
+    '英本': { 'zh-Hans': '英本', en: 'UK undergrad' },
+    '澳本': { 'zh-Hans': '澳本', en: 'Australia undergrad' },
+    '港本': { 'zh-Hans': '港本', en: 'HK undergrad' },
+    '坡本': { 'zh-Hans': '坡本', en: 'Singapore undergrad' },
+    '欧陆本': { 'zh-Hans': '欧陆本', en: 'Continental EU undergrad' },
+    '海本': { 'zh-Hans': '海本', en: 'Overseas (other)' },
+    '中外合办校（XJTLU等）': { 'zh-Hans': '中外合办校（XJTLU等）', en: 'CN-foreign joint school (XJTLU etc.)' },
+    '陆本中外合办院系（JI/ZJUI等）': { 'zh-Hans': '陆本中外合办院系（JI/ZJUI等）', en: 'Joint dept inside CN school (JI / ZJUI etc.)' },
+  },
+  UG_MAJORS: {
+    'CS': { 'zh-Hans': 'CS', en: 'CS' },
+    'SE': { 'zh-Hans': 'SE', en: 'SE' },
+    'AI': { 'zh-Hans': 'AI', en: 'AI' },
+    'DS': { 'zh-Hans': 'DS', en: 'DS' },
+    'ECE': { 'zh-Hans': 'ECE', en: 'ECE' },
+    'EE': { 'zh-Hans': 'EE', en: 'EE' },
+    '自动化/Robotics': { 'zh-Hans': '自动化/Robotics', en: 'Automation / Robotics' },
+    'Info System': { 'zh-Hans': 'Info System', en: 'Info System' },
+    'Info Security': { 'zh-Hans': 'Info Security', en: 'Info Security' },
+    'CS交叉学科（bme等）': { 'zh-Hans': 'CS交叉学科（bme等）', en: 'CS-adjacent (BME etc.)' },
+    '其他电类学科（精仪等）': { 'zh-Hans': '其他电类学科（精仪等）', en: 'Other EE-adjacent' },
+    'Math/Stat': { 'zh-Hans': 'Math/Stat', en: 'Math / Stat' },
+    '其他理工科': { 'zh-Hans': '其他理工科', en: 'Other STEM' },
+    '其他学科': { 'zh-Hans': '其他学科', en: 'Other' },
+  },
+  CS_COURSES: {
+    '高等数学/微积分/数学分析': { 'zh-Hans': '高等数学/微积分/数学分析', en: 'Calculus / Math analysis' },
+    '离散数学': { 'zh-Hans': '离散数学', en: 'Discrete math' },
+    '线性代数': { 'zh-Hans': '线性代数', en: 'Linear algebra' },
+    '概率论': { 'zh-Hans': '概率论', en: 'Probability' },
+    '程序设计': { 'zh-Hans': '程序设计', en: 'Programming' },
+    '数据结构': { 'zh-Hans': '数据结构', en: 'Data structures' },
+    '操作系统': { 'zh-Hans': '操作系统', en: 'Operating systems' },
+    '计算机网络': { 'zh-Hans': '计算机网络', en: 'Computer networks' },
+    '体系结构/计算机组成': { 'zh-Hans': '体系结构/计算机组成', en: 'Computer architecture' },
+    '软件工程': { 'zh-Hans': '软件工程', en: 'Software engineering' },
+    '数据库': { 'zh-Hans': '数据库', en: 'Databases' },
+    '计算机科学导论': { 'zh-Hans': '计算机科学导论', en: 'Intro to CS' },
+  },
+  GPA_SCALES: {
+    '100': { 'zh-Hans': '100', en: '100' },
+    '4.0': { 'zh-Hans': '4.0', en: '4.0' },
+    '4.3': { 'zh-Hans': '4.3', en: '4.3' },
+    '5.0': { 'zh-Hans': '5.0', en: '5.0' },
+    '英制100': { 'zh-Hans': '英制100', en: 'UK 100' },
+    '德制1.0': { 'zh-Hans': '德制1.0', en: 'German 1.0' },
+    '7': { 'zh-Hans': '7', en: '7' },
+    '其他': { 'zh-Hans': '其他', en: 'Other' },
+  },
+  GPA_RANKS: {
+    '1%': { 'zh-Hans': '1%', en: '1%' },
+    '3%': { 'zh-Hans': '3%', en: '3%' },
+    '5%': { 'zh-Hans': '5%', en: '5%' },
+    '10%': { 'zh-Hans': '10%', en: '10%' },
+    '15%': { 'zh-Hans': '15%', en: '15%' },
+    '20%': { 'zh-Hans': '20%', en: '20%' },
+    '30%': { 'zh-Hans': '30%', en: '30%' },
+    '40%': { 'zh-Hans': '40%', en: '40%' },
+    '50%': { 'zh-Hans': '50%', en: '50%' },
+    '50%+': { 'zh-Hans': '50%+', en: '50%+' },
+  },
+  RESULTS: {
+    'Admit': { 'zh-Hans': 'Admit', en: 'Admit' },
+    'Reject': { 'zh-Hans': 'Reject', en: 'Reject' },
+    'Waitlist': { 'zh-Hans': 'Waitlist', en: 'Waitlist' },
+    '默拒': { 'zh-Hans': '默拒', en: 'Silent reject' },
+    'Withdraw': { 'zh-Hans': 'Withdraw', en: 'Withdraw' },
+  },
+  SEMESTERS: {
+    'Fall': { 'zh-Hans': 'Fall', en: 'Fall' },
+    'Spring': { 'zh-Hans': 'Spring', en: 'Spring' },
+    'Winter': { 'zh-Hans': 'Winter', en: 'Winter' },
+    'Summer': { 'zh-Hans': 'Summer', en: 'Summer' },
+  },
+  REC_TAGS: {
+    '科研推': { 'zh-Hans': '科研推', en: 'Research letter' },
+    '实习推': { 'zh-Hans': '实习推', en: 'Internship letter' },
+    '全职工作推': { 'zh-Hans': '全职工作推', en: 'Full-time work letter' },
+    '课程推': { 'zh-Hans': '课程推', en: 'Course letter' },
+    'TA推': { 'zh-Hans': 'TA推', en: 'TA letter' },
+    '暑研推': { 'zh-Hans': '暑研推', en: 'Summer research letter' },
+    '黑推（提及缺点，或者量表评分给的太低，在30%甚至更低的推荐信）': {
+      'zh-Hans': '黑推（提及缺点，或者量表评分给的太低，在30%甚至更低的推荐信）',
+      en: 'Negative letter (mentions weaknesses or low rating, ≤30%)',
+    },
+    '平推（模板推，或整体积极，但和学生没有过多交集，学生的工作比较trivial，无法言之有物地表扬）': {
+      'zh-Hans': '平推（模板推，或整体积极，但和学生没有过多交集，学生的工作比较trivial，无法言之有物地表扬）',
+      en: 'Neutral letter (templated or limited contact)',
+    },
+    '强推（和学生非常熟悉，言之有物地赞扬学生的工作；量表评分很高，评价为"该年最好"及以上）': {
+      'zh-Hans': '强推（和学生非常熟悉，言之有物地赞扬学生的工作；量表评分很高，评价为"该年最好"及以上）',
+      en: 'Strong letter (well-known student, top-rated)',
+    },
+    '普通推（admission officer大概率不认识该推荐人）': {
+      'zh-Hans': '普通推（admission officer大概率不认识该推荐人）',
+      en: 'Unknown recommender (AO unlikely to know)',
+    },
+    '小牛推（小领域内较为知名的学者推荐，相同小领域的PhD学生和教授很可能认识该推荐人）': {
+      'zh-Hans': '小牛推（小领域内较为知名的学者推荐，相同小领域的PhD学生和教授很可能认识该推荐人）',
+      en: 'Subfield-known recommender',
+    },
+    '大牛推（大领域内较为知名的学者推荐，相同大领域的PhD学生和教授很可能认识该推荐人）': {
+      'zh-Hans': '大牛推（大领域内较为知名的学者推荐，相同大领域的PhD学生和教授很可能认识该推荐人）',
+      en: 'Field-known recommender',
+    },
+    '无': { 'zh-Hans': '无', en: 'None' },
+  },
+};
+
+function dispEnum(group, value, locale) {
+  if (value == null || value === '') return value;
+  const map = ENUM_DISPLAY[group];
+  if (!map) return value;
+  const entry = map[value];
+  if (!entry) return value;
+  return entry[locale] || entry['zh-Hans'] || value;
+}
+
+// ---------- model ----------
 
 const EMPTY_APPLICANT = {
   ug_school_category: '', ug_school_name: '', graduation_year: '', ug_major: '',
@@ -33,6 +375,22 @@ const EMPTY_APPLICANT = {
   pub_notes: '',
   other_soft_background: '', contact_info: '',
 };
+
+const REQUIRED_FIELDS = ['ug_school_category', 'ug_school_name', 'graduation_year', 'ug_major'];
+
+const SECTION_DEFS = [
+  { id: 'edu', labelKey: 'edu' },
+  { id: 'courses', labelKey: 'courses' },
+  { id: 'gpa', labelKey: 'gpa' },
+  { id: 'toefl', labelKey: 'toefl' },
+  { id: 'ielts', labelKey: 'ielts' },
+  { id: 'gre', labelKey: 'gre' },
+  { id: 'research', labelKey: 'research' },
+  { id: 'internship', labelKey: 'internship' },
+  { id: 'rec', labelKey: 'rec' },
+  { id: 'pub', labelKey: 'pub' },
+  { id: 'other', labelKey: 'other' },
+];
 
 function applicantToForm(a) {
   if (!a) return EMPTY_APPLICANT;
@@ -53,24 +411,29 @@ function applicantToForm(a) {
 
 function formToPayload(f) {
   const payload = { ...f };
-  // serialize arrays to JSON strings (backend stores TEXT)
   for (const k of ['cs_courses', 'rec1_tags', 'rec2_tags', 'rec3_tags', 'rec4_tags', 'rec5_tags']) {
     payload[k] = JSON.stringify(f[k] || []);
   }
-  // empty strings → null
   for (const k of Object.keys(payload)) {
     if (payload[k] === '') payload[k] = null;
   }
   return payload;
 }
 
+// ---------- root ----------
+
 function Inner() {
+  const { i18n } = useDocusaurusContext();
+  const locale = pickLocale(i18n.currentLocale);
+  const t = COPY[locale];
+
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
   const [applicant, setApplicant] = useState(null);
   const [form, setForm] = useState(EMPTY_APPLICANT);
   const [savingApplicant, setSavingApplicant] = useState(false);
   const [msg, setMsg] = useState(null);
+  const [fieldErrors, setFieldErrors] = useState({});
 
   useEffect(() => {
     let cancelled = false;
@@ -86,20 +449,27 @@ function Inner() {
           setApplicant(r.applicant);
           if (r.applicant) setForm(applicantToForm(r.applicant));
         } catch (e) {
-          // not signed in → 401 — already handled above
+          // ignore: 401 means not signed in, but auth already gates this branch
         }
       }
     })();
     return () => { cancelled = true; };
   }, []);
 
-  if (!meChecked) return <div className={styles.loading}>加载中…</div>;
-  if (!me) return <SignInGate />;
+  if (!meChecked) return <div className={styles.loading}>{t.loading}</div>;
+  if (!me) return <SignInGate t={t} />;
 
   const locked = Boolean(applicant?.lockedAt && me.role !== 'admin');
 
   function setField(k, v) {
     setForm((prev) => ({ ...prev, [k]: v }));
+    if (fieldErrors[k]) {
+      setFieldErrors((prev) => {
+        const next = { ...prev };
+        delete next[k];
+        return next;
+      });
+    }
   }
 
   function toggleArrayValue(k, value) {
@@ -110,21 +480,41 @@ function Inner() {
     });
   }
 
+  function validateApplicant() {
+    const errs = {};
+    for (const k of REQUIRED_FIELDS) {
+      const v = form[k];
+      if (v === '' || v === null || v === undefined) {
+        errs[k] = t.errFillRequired;
+      }
+    }
+    return errs;
+  }
+
   async function saveApplicant() {
+    const errs = validateApplicant();
+    if (Object.keys(errs).length > 0) {
+      setFieldErrors(errs);
+      setMsg({ type: 'err', text: t.errFillRequired });
+      const firstKey = Object.keys(errs)[0];
+      const el = document.getElementById(`f-${firstKey}`);
+      if (el) el.focus({ preventScroll: false });
+      return;
+    }
     setSavingApplicant(true);
     setMsg(null);
     try {
       const payload = formToPayload(form);
       if (applicant) {
         await updateMyApplicant(payload);
-        setMsg({ type: 'ok', text: '已保存（如已锁定需要 admin 解锁才能再改）' });
+        setMsg({ type: 'ok', text: t.saved });
       } else {
         const r = await createMyApplicant(payload);
         setApplicant(r.row);
-        setMsg({ type: 'ok', text: '档案已创建并锁定。下面可以提交 DP 了。' });
+        setMsg({ type: 'ok', text: t.created });
       }
     } catch (e) {
-      setMsg({ type: 'err', text: `保存失败：${e.message}` });
+      setMsg({ type: 'err', text: `${t.saveFail}: ${e.message}` });
     } finally {
       setSavingApplicant(false);
     }
@@ -134,17 +524,22 @@ function Inner() {
     <div className={styles.wrap}>
       <header className={styles.header}>
         <div className={styles.headerTop}>
-          <h1>提交 DataPoints</h1>
-          <span className={styles.meBadge}>👤 {me.nickname}{me.role === 'admin' ? ' · admin' : ''}</span>
+          <h1>{t.pageTitle}</h1>
+          <span className={styles.meBadge}>
+            {t.youAre} {me.nickname}{me.role === 'admin' ? ` · ${t.adminTag}` : ''}
+          </span>
         </div>
         <p className={styles.lead}>
-          先填一次<strong>申请者背景档案</strong>，再提交每个项目的录取数据点。
-          档案一经保存即锁定（防止历史 DP 背景信息漂移），如需修改请联系 admin。
+          {t.heroLead1}<strong>{t.heroLeadBold}</strong>{t.heroLead2}
         </p>
-        {msg ? <p className={msg.type === 'ok' ? styles.ok : styles.err}>{msg.text}</p> : null}
+        {msg ? <p className={msg.type === 'ok' ? styles.ok : styles.err} role={msg.type === 'err' ? 'alert' : 'status'}>{msg.text}</p> : null}
       </header>
 
+      <ProgressNav t={t} />
+
       <ApplicantForm
+        t={t}
+        locale={locale}
         form={form}
         setField={setField}
         toggleArrayValue={toggleArrayValue}
@@ -152,21 +547,112 @@ function Inner() {
         onSave={saveApplicant}
         saving={savingApplicant}
         hasExisting={Boolean(applicant)}
+        fieldErrors={fieldErrors}
       />
 
       {applicant ? (
-        <DpAddArea applicantId={applicant.id} />
+        <DpAddArea t={t} locale={locale} applicantId={applicant.id} />
       ) : (
-        <section className={styles.section}>
-          <h2>步骤 2 · 提交 DataPoints</h2>
-          <p className={styles.muted}>请先保存上方的背景档案。</p>
+        <section id="dp-area" className={styles.section}>
+          <h2>{t.step2}</h2>
+          <p className={styles.muted}>{t.saveFirst}</p>
+          <button
+            type="button"
+            className={styles.primaryBtn}
+            onClick={() => {
+              const el = document.getElementById('section-edu');
+              if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }}
+          >
+            {t.goToStep1}
+          </button>
         </section>
       )}
     </div>
   );
 }
 
-function SignInGate() {
+// ---------- progress sidebar ----------
+
+function ProgressNav({ t }) {
+  const [active, setActive] = useState(SECTION_DEFS[0].id);
+
+  useEffect(() => {
+    if (typeof IntersectionObserver === 'undefined') return undefined;
+    const observed = SECTION_DEFS
+      .map((s) => document.getElementById(`section-${s.id}`))
+      .filter(Boolean);
+    if (observed.length === 0) return undefined;
+    const io = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible.length > 0) {
+          const id = visible[0].target.id.replace(/^section-/, '');
+          setActive(id);
+        }
+      },
+      { rootMargin: '-20% 0px -60% 0px', threshold: 0 }
+    );
+    observed.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
+
+  function onJump(e, id) {
+    e.preventDefault();
+    const el = document.getElementById(`section-${id}`);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  return (
+    <nav
+      aria-label={t.progress}
+      style={{
+        position: 'sticky',
+        top: 12,
+        zIndex: 5,
+        margin: '12px 0',
+        padding: '8px 10px',
+        background: 'var(--ifm-background-surface-color, var(--ifm-background-color))',
+        border: '1px solid var(--ifm-color-emphasis-200)',
+        borderRadius: 8,
+        display: 'flex',
+        flexWrap: 'wrap',
+        gap: 6,
+        backdropFilter: 'saturate(140%) blur(4px)',
+      }}
+    >
+      {SECTION_DEFS.map((s) => {
+        const isActive = active === s.id;
+        return (
+          <a
+            key={s.id}
+            href={`#section-${s.id}`}
+            onClick={(e) => onJump(e, s.id)}
+            aria-current={isActive ? 'true' : undefined}
+            style={{
+              padding: '3px 10px',
+              borderRadius: 999,
+              fontSize: 12,
+              textDecoration: 'none',
+              color: isActive ? 'var(--ifm-color-white)' : 'var(--ifm-color-emphasis-800)',
+              background: isActive ? 'var(--ifm-color-primary)' : 'var(--ifm-color-emphasis-100)',
+              border: '1px solid transparent',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            {t.groups[s.labelKey]}
+          </a>
+        );
+      })}
+    </nav>
+  );
+}
+
+// ---------- sign-in gate ----------
+
+function SignInGate({ t }) {
   async function signIn(provider) {
     const r = await fetch(`${DP_API_BASE}/api/auth/sign-in/social`, {
       method: 'POST',
@@ -176,15 +662,15 @@ function SignInGate() {
     });
     const data = await r.json();
     if (data.url) window.location.href = data.url;
-    else alert(`登录失败：${data.message || 'unknown'}`);
+    else alert(`${t.signInFail}: ${data.message || 'unknown'}`);
   }
   return (
     <div className={styles.gate}>
-      <h2>需要登录</h2>
-      <p>用 Google 或 GitHub 登录后才能提交 DataPoints。</p>
+      <h2>{t.needSignIn}</h2>
+      <p>{t.signInLead}</p>
       <div className={styles.signInGroup}>
-        <button className={styles.signInBtn} onClick={() => signIn('google')}>Google 登录</button>
-        <button className={styles.signInBtn} onClick={() => signIn('github')}>GitHub 登录</button>
+        <button className={styles.signInBtn} onClick={() => signIn('google')}>{t.googleSignIn}</button>
+        <button className={styles.signInBtn} onClick={() => signIn('github')}>{t.githubSignIn}</button>
       </div>
     </div>
   );
@@ -192,121 +678,130 @@ function SignInGate() {
 
 // ---------- applicant form ----------
 
-function ApplicantForm({ form, setField, toggleArrayValue, locked, onSave, saving, hasExisting }) {
+function ApplicantForm({ t, locale, form, setField, toggleArrayValue, locked, onSave, saving, hasExisting, fieldErrors }) {
+  const L = t.labels;
   return (
     <section className={styles.section}>
-      <h2>步骤 1 · 申请者背景档案 {locked ? <span className={styles.lockBadge}>🔒 已锁定</span> : null}</h2>
+      <h2>{t.step1} {locked ? <span className={styles.lockBadge}>{t.locked}</span> : null}</h2>
 
       <fieldset disabled={locked} className={styles.fieldset}>
-        <Group title="教育背景">
-          <Select label="本科学校类别" value={form.ug_school_category} onChange={(v) => setField('ug_school_category', v)} options={UG_CATEGORIES} />
-          <Text label="本科学校名称" value={form.ug_school_name} onChange={(v) => setField('ug_school_name', v)} />
-          <Number label="毕业年份" value={form.graduation_year} onChange={(v) => setField('graduation_year', v)} />
-          <Select label="本科专业" value={form.ug_major} onChange={(v) => setField('ug_major', v)} options={UG_MAJORS} />
-          <Check label="荣誉学院" value={form.honors_college} onChange={(v) => setField('honors_college', v)} />
-          <Check label="海外交换" value={form.exchange_abroad} onChange={(v) => setField('exchange_abroad', v)} />
-          <Check label="陆本海本双学位" value={form.dual_degree} onChange={(v) => setField('dual_degree', v)} />
-          <LongText label="教育背景备注" value={form.education_notes} onChange={(v) => setField('education_notes', v)} />
+        <Group id="section-edu" title={t.groups.edu}>
+          <Select id="ug_school_category" label={L.ug_school_category} value={form.ug_school_category} onChange={(v) => setField('ug_school_category', v)} options={UG_CATEGORIES} enumGroup="UG_CATEGORIES" locale={locale} t={t} required error={fieldErrors.ug_school_category} />
+          <Text id="ug_school_name" label={L.ug_school_name} value={form.ug_school_name} onChange={(v) => setField('ug_school_name', v)} required error={fieldErrors.ug_school_name} />
+          <NumberInput id="graduation_year" label={L.graduation_year} value={form.graduation_year} onChange={(v) => setField('graduation_year', v)} required error={fieldErrors.graduation_year} />
+          <Select id="ug_major" label={L.ug_major} value={form.ug_major} onChange={(v) => setField('ug_major', v)} options={UG_MAJORS} enumGroup="UG_MAJORS" locale={locale} t={t} required error={fieldErrors.ug_major} />
+          <Check id="honors_college" label={L.honors_college} value={form.honors_college} onChange={(v) => setField('honors_college', v)} />
+          <Check id="exchange_abroad" label={L.exchange_abroad} value={form.exchange_abroad} onChange={(v) => setField('exchange_abroad', v)} />
+          <Check id="dual_degree" label={L.dual_degree} value={form.dual_degree} onChange={(v) => setField('dual_degree', v)} />
+          <LongText id="education_notes" label={L.education_notes} value={form.education_notes} onChange={(v) => setField('education_notes', v)} />
         </Group>
 
-        <Group title="核心课程修读">
-          <MultiCheck options={CS_COURSES} value={form.cs_courses} onToggle={(o) => toggleArrayValue('cs_courses', o)} />
+        <Group id="section-courses" title={t.groups.courses}>
+          <MultiCheck options={CS_COURSES} value={form.cs_courses} onToggle={(o) => toggleArrayValue('cs_courses', o)} enumGroup="CS_COURSES" locale={locale} />
         </Group>
 
-        <Group title="GPA">
-          <Select label="本科分数制" value={form.gpa_scale} onChange={(v) => setField('gpa_scale', v)} options={GPA_SCALES} />
-          <Number label="本科 GPA" value={form.gpa} onChange={(v) => setField('gpa', v)} step="0.01" />
-          <Select label="本科 GPA 排名" value={form.gpa_rank} onChange={(v) => setField('gpa_rank', v)} options={GPA_RANKS} />
-          <LongText label="GPA 备注" value={form.gpa_notes} onChange={(v) => setField('gpa_notes', v)} />
+        <Group id="section-gpa" title={t.groups.gpa}>
+          <Select id="gpa_scale" label={L.gpa_scale} value={form.gpa_scale} onChange={(v) => setField('gpa_scale', v)} options={GPA_SCALES} enumGroup="GPA_SCALES" locale={locale} t={t} />
+          <NumberInput id="gpa" label={L.gpa} value={form.gpa} onChange={(v) => setField('gpa', v)} step="0.01" />
+          <Select id="gpa_rank" label={L.gpa_rank} value={form.gpa_rank} onChange={(v) => setField('gpa_rank', v)} options={GPA_RANKS} enumGroup="GPA_RANKS" locale={locale} t={t} />
+          <LongText id="gpa_notes" label={L.gpa_notes} value={form.gpa_notes} onChange={(v) => setField('gpa_notes', v)} />
         </Group>
 
-        <Group title="TOEFL">
-          <Number label="总分" value={form.toefl_total} onChange={(v) => setField('toefl_total', v)} />
-          <Number label="阅读" value={form.toefl_reading} onChange={(v) => setField('toefl_reading', v)} />
-          <Number label="听力" value={form.toefl_listening} onChange={(v) => setField('toefl_listening', v)} />
-          <Number label="口语" value={form.toefl_speaking} onChange={(v) => setField('toefl_speaking', v)} />
-          <Number label="写作" value={form.toefl_writing} onChange={(v) => setField('toefl_writing', v)} />
+        <Group id="section-toefl" title={t.groups.toefl}>
+          <NumberInput id="toefl_total" label={L.total} value={form.toefl_total} onChange={(v) => setField('toefl_total', v)} />
+          <NumberInput id="toefl_reading" label={L.reading} value={form.toefl_reading} onChange={(v) => setField('toefl_reading', v)} />
+          <NumberInput id="toefl_listening" label={L.listening} value={form.toefl_listening} onChange={(v) => setField('toefl_listening', v)} />
+          <NumberInput id="toefl_speaking" label={L.speaking} value={form.toefl_speaking} onChange={(v) => setField('toefl_speaking', v)} />
+          <NumberInput id="toefl_writing" label={L.writing} value={form.toefl_writing} onChange={(v) => setField('toefl_writing', v)} />
         </Group>
 
-        <Group title="IELTS">
-          <Number label="总分" value={form.ielts_total} onChange={(v) => setField('ielts_total', v)} step="0.5" />
-          <Number label="阅读" value={form.ielts_reading} onChange={(v) => setField('ielts_reading', v)} step="0.5" />
-          <Number label="听力" value={form.ielts_listening} onChange={(v) => setField('ielts_listening', v)} step="0.5" />
-          <Number label="口语" value={form.ielts_speaking} onChange={(v) => setField('ielts_speaking', v)} step="0.5" />
-          <Number label="写作" value={form.ielts_writing} onChange={(v) => setField('ielts_writing', v)} step="0.5" />
+        <Group id="section-ielts" title={t.groups.ielts}>
+          <NumberInput id="ielts_total" label={L.total} value={form.ielts_total} onChange={(v) => setField('ielts_total', v)} step="0.5" />
+          <NumberInput id="ielts_reading" label={L.reading} value={form.ielts_reading} onChange={(v) => setField('ielts_reading', v)} step="0.5" />
+          <NumberInput id="ielts_listening" label={L.listening} value={form.ielts_listening} onChange={(v) => setField('ielts_listening', v)} step="0.5" />
+          <NumberInput id="ielts_speaking" label={L.speaking} value={form.ielts_speaking} onChange={(v) => setField('ielts_speaking', v)} step="0.5" />
+          <NumberInput id="ielts_writing" label={L.writing} value={form.ielts_writing} onChange={(v) => setField('ielts_writing', v)} step="0.5" />
         </Group>
 
-        <Group title="GRE">
-          <Number label="总分" value={form.gre_total} onChange={(v) => setField('gre_total', v)} />
-          <Number label="数学" value={form.gre_quant} onChange={(v) => setField('gre_quant', v)} />
-          <Number label="语文" value={form.gre_verbal} onChange={(v) => setField('gre_verbal', v)} />
-          <Number label="写作" value={form.gre_writing} onChange={(v) => setField('gre_writing', v)} step="0.5" />
+        <Group id="section-gre" title={t.groups.gre}>
+          <NumberInput id="gre_total" label={L.total} value={form.gre_total} onChange={(v) => setField('gre_total', v)} />
+          <NumberInput id="gre_quant" label={L.gre_quant} value={form.gre_quant} onChange={(v) => setField('gre_quant', v)} />
+          <NumberInput id="gre_verbal" label={L.gre_verbal} value={form.gre_verbal} onChange={(v) => setField('gre_verbal', v)} />
+          <NumberInput id="gre_writing" label={L.writing} value={form.gre_writing} onChange={(v) => setField('gre_writing', v)} step="0.5" />
         </Group>
 
-        <Group title="科研经历">
-          <Number label="国内段数" value={form.research_domestic_count} onChange={(v) => setField('research_domestic_count', v)} />
-          <Number label="海外段数" value={form.research_overseas_count} onChange={(v) => setField('research_overseas_count', v)} />
-          <LongText label="科研经历介绍" value={form.research_notes} onChange={(v) => setField('research_notes', v)} />
+        <Group id="section-research" title={t.groups.research}>
+          <NumberInput id="research_domestic_count" label={L.research_domestic_count} value={form.research_domestic_count} onChange={(v) => setField('research_domestic_count', v)} />
+          <NumberInput id="research_overseas_count" label={L.research_overseas_count} value={form.research_overseas_count} onChange={(v) => setField('research_overseas_count', v)} />
+          <LongText id="research_notes" label={L.research_notes} value={form.research_notes} onChange={(v) => setField('research_notes', v)} />
         </Group>
 
-        <Group title="实习经历">
-          <Number label="国内段数" value={form.internship_domestic_count} onChange={(v) => setField('internship_domestic_count', v)} />
-          <Number label="海外段数" value={form.internship_overseas_count} onChange={(v) => setField('internship_overseas_count', v)} />
-          <LongText label="实习经历介绍" value={form.internship_notes} onChange={(v) => setField('internship_notes', v)} />
+        <Group id="section-internship" title={t.groups.internship}>
+          <NumberInput id="internship_domestic_count" label={L.internship_domestic_count} value={form.internship_domestic_count} onChange={(v) => setField('internship_domestic_count', v)} />
+          <NumberInput id="internship_overseas_count" label={L.internship_overseas_count} value={form.internship_overseas_count} onChange={(v) => setField('internship_overseas_count', v)} />
+          <LongText id="internship_notes" label={L.internship_notes} value={form.internship_notes} onChange={(v) => setField('internship_notes', v)} />
         </Group>
 
-        <Group title="推荐信（每封信可勾多个标签）">
+        <Group id="section-rec" title={t.groups.rec}>
           {[1, 2, 3, 4, 5].map((n) => (
             <RecLetterRow
               key={n}
               num={n}
               value={form[`rec${n}_tags`]}
               onToggle={(o) => toggleArrayValue(`rec${n}_tags`, o)}
+              locale={locale}
+              t={t}
             />
           ))}
-          <LongText label="推荐信介绍" value={form.rec_notes} onChange={(v) => setField('rec_notes', v)} />
+          <LongText id="rec_notes" label={L.rec_notes} value={form.rec_notes} onChange={(v) => setField('rec_notes', v)} />
         </Group>
 
-        <Group title="科研产出">
-          <Check label="已发表顶会一作" value={form.pub_top_first_author} onChange={(v) => setField('pub_top_first_author', v)} />
-          <Check label="已发表顶会其他作者" value={form.pub_top_other_author} onChange={(v) => setField('pub_top_other_author', v)} />
-          <Check label="在投顶会一作" value={form.submission_top_first_author} onChange={(v) => setField('submission_top_first_author', v)} />
-          <Check label="在投顶会其他作者" value={form.submission_top_other_author} onChange={(v) => setField('submission_top_other_author', v)} />
-          <LongText label="Pub 情况" value={form.pub_notes} onChange={(v) => setField('pub_notes', v)} />
+        <Group id="section-pub" title={t.groups.pub}>
+          <Check id="pub_top_first_author" label={L.pub_top_first_author} value={form.pub_top_first_author} onChange={(v) => setField('pub_top_first_author', v)} />
+          <Check id="pub_top_other_author" label={L.pub_top_other_author} value={form.pub_top_other_author} onChange={(v) => setField('pub_top_other_author', v)} />
+          <Check id="submission_top_first_author" label={L.submission_top_first_author} value={form.submission_top_first_author} onChange={(v) => setField('submission_top_first_author', v)} />
+          <Check id="submission_top_other_author" label={L.submission_top_other_author} value={form.submission_top_other_author} onChange={(v) => setField('submission_top_other_author', v)} />
+          <LongText id="pub_notes" label={L.pub_notes} value={form.pub_notes} onChange={(v) => setField('pub_notes', v)} />
         </Group>
 
-        <Group title="其他">
-          <LongText label="其他软背景" value={form.other_soft_background} onChange={(v) => setField('other_soft_background', v)} />
-          <LongText label="个人主页 / 联系方式（仅 admin 可见）" value={form.contact_info} onChange={(v) => setField('contact_info', v)} />
+        <Group id="section-other" title={t.groups.other}>
+          <LongText id="other_soft_background" label={L.other_soft_background} value={form.other_soft_background} onChange={(v) => setField('other_soft_background', v)} />
+          <LongText id="contact_info" label={L.contact_info} value={form.contact_info} onChange={(v) => setField('contact_info', v)} />
         </Group>
       </fieldset>
 
       <div className={styles.actions}>
         <button className={styles.primaryBtn} disabled={locked || saving} onClick={onSave}>
-          {saving ? '保存中…' : hasExisting ? '更新档案' : '创建档案（一次性，提交即锁定）'}
+          {saving ? t.btnSaving : hasExisting ? t.btnUpdate : t.btnCreate}
         </button>
       </div>
     </section>
   );
 }
 
-function RecLetterRow({ num, value, onToggle }) {
+function RecLetterRow({ num, value, onToggle, locale, t }) {
   const opts = num >= 4 ? REC_TAGS_WITH_NONE : REC_TAGS;
   return (
     <div className={styles.recRow}>
-      <div className={styles.recLabel}>推荐信 {num}</div>
+      <div className={styles.recLabel}>{t.labels.recLetter} {num}</div>
       <div className={styles.tagWrap}>
-        {opts.map((o) => (
-          <button
-            key={o}
-            type="button"
-            className={`${styles.tag} ${(value || []).includes(o) ? styles.tagActive : ''}`}
-            onClick={() => onToggle(o)}
-            title={o}
-          >
-            {o.length > 20 ? o.slice(0, 18) + '…' : o}
-          </button>
-        ))}
+        {opts.map((o) => {
+          const disp = dispEnum('REC_TAGS', o, locale);
+          const display = disp.length > 20 ? `${disp.slice(0, 18)}…` : disp;
+          return (
+            <button
+              key={o}
+              type="button"
+              className={`${styles.tag} ${(value || []).includes(o) ? styles.tagActive : ''}`}
+              onClick={() => onToggle(o)}
+              title={disp}
+              aria-pressed={(value || []).includes(o)}
+              aria-label={disp}
+            >
+              {display}
+            </button>
+          );
+        })}
       </div>
     </div>
   );
@@ -314,21 +809,22 @@ function RecLetterRow({ num, value, onToggle }) {
 
 // ---------- DP add area ----------
 
-function DpAddArea({ applicantId }) {
+function DpAddArea({ t, locale, applicantId }) {
   const [programs, setPrograms] = useState([]);
   const [progQuery, setProgQuery] = useState('');
   const [selectedProgram, setSelectedProgram] = useState(null);
+  const [progError, setProgError] = useState(null);
   const [dp, setDp] = useState({
     result: '', is_funded: false, is_final_destination: false,
     academic_year: new Date().getFullYear(),
     semester: 'Fall',
     notified_at: '', submitted_at: '', notes: '',
   });
+  const [dpErrors, setDpErrors] = useState({});
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState(null);
   const [recent, setRecent] = useState([]);
 
-  // initial programs load (small page; rely on search for full list)
   useEffect(() => {
     listPrograms({ limit: 500 }).then((r) => setPrograms(r.rows || [])).catch(() => {});
   }, []);
@@ -341,13 +837,23 @@ function DpAddArea({ applicantId }) {
       .slice(0, 20);
   }, [programs, progQuery]);
 
-  async function submit() {
-    if (!selectedProgram) {
-      setMsg({ type: 'err', text: '请先选择项目' });
-      return;
+  function setDpField(k, v) {
+    setDp((prev) => ({ ...prev, [k]: v }));
+    if (dpErrors[k]) {
+      setDpErrors((prev) => {
+        const next = { ...prev };
+        delete next[k];
+        return next;
+      });
     }
-    if (!dp.result) {
-      setMsg({ type: 'err', text: '请选择结果' });
+  }
+
+  async function submit() {
+    const errs = {};
+    if (!selectedProgram) setProgError(t.errSelectProgram); else setProgError(null);
+    if (!dp.result) errs.result = t.errSelectResult;
+    if (!selectedProgram || Object.keys(errs).length > 0) {
+      setDpErrors(errs);
       return;
     }
     setSaving(true);
@@ -365,38 +871,51 @@ function DpAddArea({ applicantId }) {
         notes: dp.notes || null,
       });
       setRecent((prev) => [{ ...r.row, programSchool: selectedProgram.school, programName: selectedProgram.program }, ...prev]);
-      setMsg({ type: 'ok', text: `已提交：${selectedProgram.school} ${selectedProgram.program} → ${dp.result}` });
-      // reset for next entry, keep year/semester
+      setMsg({ type: 'ok', text: `${t.submitted}: ${selectedProgram.school} ${selectedProgram.program} → ${dispEnum('RESULTS', dp.result, locale)}` });
       setSelectedProgram(null);
       setProgQuery('');
+      setProgError(null);
+      setDpErrors({});
       setDp((prev) => ({ ...prev, result: '', is_funded: false, is_final_destination: false, notified_at: '', submitted_at: '', notes: '' }));
     } catch (e) {
-      setMsg({ type: 'err', text: `提交失败：${e.message}` });
+      setMsg({ type: 'err', text: `${t.submitFail}: ${e.message}` });
     } finally {
       setSaving(false);
     }
   }
 
+  const progLabelId = useId();
+
   return (
-    <section className={styles.section}>
-      <h2>步骤 2 · 提交 DataPoints（可重复提交多条）</h2>
-      {msg ? <p className={msg.type === 'ok' ? styles.ok : styles.err}>{msg.text}</p> : null}
+    <section id="dp-area" className={styles.section}>
+      <h2>{t.step2Long}</h2>
+      {msg ? <p className={msg.type === 'ok' ? styles.ok : styles.err} role={msg.type === 'err' ? 'alert' : 'status'}>{msg.text}</p> : null}
 
       <div className={styles.dpForm}>
         <div className={styles.programSearch}>
-          <label>项目（搜学校或 program 名）</label>
+          <label id={progLabelId} htmlFor={`${progLabelId}-input`}>
+            {t.progSearchLabel}
+            <span aria-hidden="true" style={{ color: '#b91c1c', marginLeft: 4 }}>*</span>
+          </label>
           <input
+            id={`${progLabelId}-input`}
             className={styles.input}
-            placeholder="如 stanford mscs / CMU MIIS"
+            placeholder={t.progSearchPlaceholder}
             value={selectedProgram ? `${selectedProgram.school} · ${selectedProgram.program}` : progQuery}
-            onChange={(e) => { setSelectedProgram(null); setProgQuery(e.target.value); }}
+            onChange={(e) => { setSelectedProgram(null); setProgQuery(e.target.value); if (progError) setProgError(null); }}
+            aria-required="true"
+            aria-invalid={progError ? 'true' : undefined}
+            style={progError ? { borderColor: '#b91c1c' } : undefined}
           />
+          {progError ? (
+            <p style={{ color: '#b91c1c', fontSize: 11, margin: '4px 0 0' }}>{progError}</p>
+          ) : null}
           {!selectedProgram && progQuery && filteredPrograms.length > 0 ? (
             <ul className={styles.progDropdown}>
               {filteredPrograms.map((p) => (
-                <li key={p.id} onClick={() => { setSelectedProgram(p); setProgQuery(''); }}>
+                <li key={p.id} onClick={() => { setSelectedProgram(p); setProgQuery(''); setProgError(null); }}>
                   <b>{p.school}</b> · {p.program}
-                  {p.tier ? <span className={styles.tierBadge}>{p.tier}</span> : null}
+                  {p.tier ? <span className={styles.tierBadge} aria-label={`tier ${p.tier}`}>{p.tier}</span> : null}
                   {p.degree ? <span className={styles.muted}> {p.degree}</span> : null}
                 </li>
               ))}
@@ -405,37 +924,41 @@ function DpAddArea({ applicantId }) {
         </div>
 
         <div className={styles.row}>
-          <Select label="结果" value={dp.result} onChange={(v) => setDp({ ...dp, result: v })} options={RESULTS} />
-          <Number label="学年" value={dp.academic_year} onChange={(v) => setDp({ ...dp, academic_year: v })} />
-          <Select label="学期" value={dp.semester} onChange={(v) => setDp({ ...dp, semester: v })} options={SEMESTERS} />
-          <Check label="带奖" value={dp.is_funded} onChange={(v) => setDp({ ...dp, is_funded: v })} />
-          <Check label="最终去向" value={dp.is_final_destination} onChange={(v) => setDp({ ...dp, is_final_destination: v })} />
+          <Select id="dp_result" label={t.labels.result} value={dp.result} onChange={(v) => setDpField('result', v)} options={RESULTS} enumGroup="RESULTS" locale={locale} t={t} required error={dpErrors.result} />
+          <NumberInput id="dp_year" label={t.labels.academic_year} value={dp.academic_year} onChange={(v) => setDpField('academic_year', v)} />
+          <Select id="dp_semester" label={t.labels.semester} value={dp.semester} onChange={(v) => setDpField('semester', v)} options={SEMESTERS} enumGroup="SEMESTERS" locale={locale} t={t} />
+          <Check id="dp_funded" label={t.labels.is_funded} value={dp.is_funded} onChange={(v) => setDpField('is_funded', v)} />
+          <Check id="dp_final" label={t.labels.is_final_destination} value={dp.is_final_destination} onChange={(v) => setDpField('is_final_destination', v)} />
         </div>
         <div className={styles.row}>
-          <Date label="通知时间" value={dp.notified_at} onChange={(v) => setDp({ ...dp, notified_at: v })} />
-          <Date label="网申提交时间" value={dp.submitted_at} onChange={(v) => setDp({ ...dp, submitted_at: v })} />
+          <DateInput id="dp_notified" label={t.labels.notified_at} value={dp.notified_at} onChange={(v) => setDpField('notified_at', v)} />
+          <DateInput id="dp_submitted" label={t.labels.submitted_at} value={dp.submitted_at} onChange={(v) => setDpField('submitted_at', v)} />
         </div>
-        <LongText label="补充说明 / 面试 / 联系等" value={dp.notes} onChange={(v) => setDp({ ...dp, notes: v })} />
+        <LongText id="dp_notes" label={t.labels.notes} value={dp.notes} onChange={(v) => setDpField('notes', v)} />
 
         <div className={styles.actions}>
           <button className={styles.primaryBtn} disabled={saving} onClick={submit}>
-            {saving ? '提交中…' : '提交这条 DP'}
+            {saving ? t.btnSubmittingDp : t.btnSubmitDp}
           </button>
-          <a className={styles.secondaryLink} href="/my-dp">查看我提交过的 DP →</a>
+          <a className={styles.secondaryLink} href="/my-dp">{t.viewMyDp}</a>
         </div>
       </div>
 
       {recent.length > 0 ? (
         <div className={styles.recentList}>
-          <h3>本次会话刚提交的</h3>
+          <h3>{t.recentTitle}</h3>
           <ul>
-            {recent.map((r) => (
-              <li key={r.id}>
-                <span className={styles.pillSmall}>{r.result}</span> {r.programSchool} · {r.programName}
-                {r.is_funded ? <span className={styles.badge}>奖</span> : null}
-                {r.is_final_destination ? <span className={styles.badge}>最终</span> : null}
-              </li>
-            ))}
+            {recent.map((r) => {
+              const resultDisp = dispEnum('RESULTS', r.result, locale);
+              return (
+                <li key={r.id}>
+                  <span className={styles.pillSmall} aria-label={`${t.labels.result}: ${resultDisp}`}>{resultDisp}</span>
+                  {' '}{r.programSchool} · {r.programName}
+                  {r.is_funded ? <span className={styles.badge} aria-label={t.labels.is_funded}>{t.badgeFunded}</span> : null}
+                  {r.is_final_destination ? <span className={styles.badge} aria-label={t.labels.is_final_destination}>{t.badgeFinal}</span> : null}
+                </li>
+              );
+            })}
           </ul>
         </div>
       ) : null}
@@ -445,89 +968,204 @@ function DpAddArea({ applicantId }) {
 
 // ---------- form primitives ----------
 
-function Group({ title, children }) {
+function Group({ id, title, children }) {
   return (
-    <div className={styles.group}>
+    <div id={id} className={styles.group}>
       <h3 className={styles.groupTitle}>{title}</h3>
       <div className={styles.groupBody}>{children}</div>
     </div>
   );
 }
 
-function Text({ label, value, onChange }) {
+function fieldId(explicit, fallback) {
+  return explicit ? `f-${explicit}` : fallback;
+}
+
+function ErrorText({ id, text }) {
+  if (!text) return null;
   return (
-    <label className={styles.field}>
-      <span>{label}</span>
-      <input className={styles.input} value={value ?? ''} onChange={(e) => onChange(e.target.value)} />
+    <span id={id} style={{ color: '#b91c1c', fontSize: 11 }}>{text}</span>
+  );
+}
+
+function Text({ id, label, value, onChange, required, error }) {
+  const reactId = useId();
+  const inputId = fieldId(id, reactId);
+  const errId = `${inputId}-err`;
+  return (
+    <label className={styles.field} htmlFor={inputId}>
+      <span>
+        {label}
+        {required ? <span aria-hidden="true" style={{ color: '#b91c1c', marginLeft: 4 }}>*</span> : null}
+      </span>
+      <input
+        id={inputId}
+        className={styles.input}
+        value={value ?? ''}
+        onChange={(e) => onChange(e.target.value)}
+        aria-required={required || undefined}
+        aria-invalid={error ? 'true' : undefined}
+        aria-describedby={error ? errId : undefined}
+        style={error ? { borderColor: '#b91c1c' } : undefined}
+      />
+      <ErrorText id={errId} text={error} />
     </label>
   );
 }
 
-function Number({ label, value, onChange, step }) {
+function NumberInput({ id, label, value, onChange, step, required, error }) {
+  const reactId = useId();
+  const inputId = fieldId(id, reactId);
+  const errId = `${inputId}-err`;
   return (
-    <label className={styles.field}>
-      <span>{label}</span>
-      <input type="number" step={step || '1'} className={styles.input} value={value ?? ''} onChange={(e) => onChange(e.target.value)} />
+    <label className={styles.field} htmlFor={inputId}>
+      <span>
+        {label}
+        {required ? <span aria-hidden="true" style={{ color: '#b91c1c', marginLeft: 4 }}>*</span> : null}
+      </span>
+      <input
+        id={inputId}
+        type="number"
+        step={step || '1'}
+        className={styles.input}
+        value={value ?? ''}
+        onChange={(e) => onChange(e.target.value)}
+        aria-required={required || undefined}
+        aria-invalid={error ? 'true' : undefined}
+        aria-describedby={error ? errId : undefined}
+        style={error ? { borderColor: '#b91c1c' } : undefined}
+      />
+      <ErrorText id={errId} text={error} />
     </label>
   );
 }
 
-function Date({ label, value, onChange }) {
+function DateInput({ id, label, value, onChange }) {
+  const reactId = useId();
+  const inputId = fieldId(id, reactId);
   return (
-    <label className={styles.field}>
+    <label className={styles.field} htmlFor={inputId}>
       <span>{label}</span>
-      <input type="date" className={styles.input} value={value ?? ''} onChange={(e) => onChange(e.target.value)} />
+      <input
+        id={inputId}
+        type="date"
+        className={styles.input}
+        value={value ?? ''}
+        onChange={(e) => onChange(e.target.value)}
+      />
     </label>
   );
 }
 
-function Select({ label, value, onChange, options }) {
+function Select({ id, label, value, onChange, options, enumGroup, locale, t, required, error }) {
+  const reactId = useId();
+  const inputId = fieldId(id, reactId);
+  const errId = `${inputId}-err`;
   return (
-    <label className={styles.field}>
-      <span>{label}</span>
-      <select className={styles.input} value={value ?? ''} onChange={(e) => onChange(e.target.value)}>
-        <option value="">（请选择）</option>
-        {options.map((o) => <option key={o} value={o}>{o}</option>)}
+    <label className={styles.field} htmlFor={inputId}>
+      <span>
+        {label}
+        {required ? <span aria-hidden="true" style={{ color: '#b91c1c', marginLeft: 4 }}>*</span> : null}
+      </span>
+      <select
+        id={inputId}
+        className={styles.input}
+        value={value ?? ''}
+        onChange={(e) => onChange(e.target.value)}
+        aria-required={required || undefined}
+        aria-invalid={error ? 'true' : undefined}
+        aria-describedby={error ? errId : undefined}
+        style={error ? { borderColor: '#b91c1c' } : undefined}
+      >
+        <option value="">{t ? t.placeholderSelect : '(select)'}</option>
+        {options.map((o) => (
+          <option key={o} value={o}>
+            {enumGroup ? dispEnum(enumGroup, o, locale) : o}
+          </option>
+        ))}
       </select>
+      <ErrorText id={errId} text={error} />
     </label>
   );
 }
 
-function Check({ label, value, onChange }) {
+function Check({ id, label, value, onChange }) {
+  const reactId = useId();
+  const inputId = fieldId(id, reactId);
   return (
-    <label className={styles.checkField}>
-      <input type="checkbox" checked={Boolean(value)} onChange={(e) => onChange(e.target.checked)} />
+    <label className={styles.checkField} htmlFor={inputId}>
+      <input
+        id={inputId}
+        type="checkbox"
+        checked={Boolean(value)}
+        onChange={(e) => onChange(e.target.checked)}
+      />
       <span>{label}</span>
     </label>
   );
 }
 
-function LongText({ label, value, onChange }) {
+function LongText({ id, label, value, onChange }) {
+  const reactId = useId();
+  const inputId = fieldId(id, reactId);
   return (
-    <label className={`${styles.field} ${styles.longTextField}`}>
+    <label className={`${styles.field} ${styles.longTextField}`} htmlFor={inputId}>
       <span>{label}</span>
-      <textarea className={styles.textarea} rows={3} value={value ?? ''} onChange={(e) => onChange(e.target.value)} />
+      <textarea
+        id={inputId}
+        className={styles.textarea}
+        rows={3}
+        value={value ?? ''}
+        onChange={(e) => onChange(e.target.value)}
+      />
     </label>
   );
 }
 
-function MultiCheck({ options, value, onToggle }) {
+function MultiCheck({ options, value, onToggle, enumGroup, locale }) {
+  const base = useId();
   return (
     <div className={styles.multiCheck}>
-      {options.map((o) => (
-        <label key={o} className={styles.multiCheckItem}>
-          <input type="checkbox" checked={(value || []).includes(o)} onChange={() => onToggle(o)} />
-          <span>{o}</span>
-        </label>
-      ))}
+      {options.map((o, idx) => {
+        const inputId = `${base}-${idx}`;
+        return (
+          <label key={o} className={styles.multiCheckItem} htmlFor={inputId}>
+            <input
+              id={inputId}
+              type="checkbox"
+              checked={(value || []).includes(o)}
+              onChange={() => onToggle(o)}
+            />
+            <span>{enumGroup ? dispEnum(enumGroup, o, locale) : o}</span>
+          </label>
+        );
+      })}
     </div>
   );
 }
 
+// ---------- page shell ----------
+
 export default function SubmitDp() {
+  const { i18n } = useDocusaurusContext();
+  const t = COPY[pickLocale(i18n.currentLocale)];
+  const fallback = (
+    <div className={styles.wrap} style={{ paddingBottom: 0 }}>
+      <h1 style={{ margin: '0 0 8px', fontSize: 26 }}>{t.pageTitle}</h1>
+      <p className={styles.lead}>{t.pageDesc}</p>
+    </div>
+  );
   return (
-    <Layout title="提交 DataPoints" description="csgrad DataPoints submission form">
-      <BrowserOnly>{() => <Inner />}</BrowserOnly>
+    <Layout title={t.pageTitle} description={t.pageDesc}>
+      <Head>
+        <meta name="description" content={t.pageDesc} />
+        <meta property="og:title" content={t.pageTitle} />
+        <meta property="og:description" content={t.pageDesc} />
+        <meta name="robots" content="noindex" />
+      </Head>
+      <BrowserOnly fallback={fallback}>
+        {() => <Inner />}
+      </BrowserOnly>
     </Layout>
   );
 }
