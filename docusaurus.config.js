@@ -98,7 +98,11 @@ const config = {
               {
                 type: 'doc',
                 docId: 'datapoints',
-                label: 'DataPoints',
+                label: 'DataPoints (旧版/Seatable)',
+              },
+              {
+                to: '/datapoints-new',
+                label: 'DataPoints (新版 / beta)',
               },
               {
                 to: '/school-positioning',
