@@ -91,27 +91,14 @@ const config = {
             label: '项目介绍',
           },
           {
-            type: 'dropdown',
-            label: 'DataPoints',
+            to: '/datapoints',
             position: 'left',
-            items: [
-              {
-                to: '/datapoints',
-                label: '浏览 DataPoints',
-              },
-              {
-                to: '/submit-dp',
-                label: '提交 DataPoints',
-              },
-              {
-                to: '/my-dp',
-                label: '我的 DataPoints',
-              },
-              {
-                to: '/school-positioning',
-                label: '选校定位',
-              },
-            ],
+            label: 'DataPoints',
+          },
+          {
+            to: '/school-positioning',
+            position: 'left',
+            label: '选校定位',
           },
           {
             to: '/tracker',
