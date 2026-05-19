@@ -96,13 +96,21 @@ const config = {
             position: 'left',
             items: [
               {
-                type: 'doc',
-                docId: 'datapoints',
-                label: 'DataPoints (旧版/Seatable)',
+                to: '/datapoints-new',
+                label: '浏览 DataPoints',
               },
               {
-                to: '/datapoints-new',
-                label: 'DataPoints (新版 / beta)',
+                to: '/submit-dp',
+                label: '提交 DataPoints',
+              },
+              {
+                to: '/my-dp',
+                label: '我的 DataPoints',
+              },
+              {
+                type: 'doc',
+                docId: 'datapoints',
+                label: '旧版 (Seatable iframe)',
               },
               {
                 to: '/school-positioning',

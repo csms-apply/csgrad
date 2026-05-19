@@ -146,3 +146,51 @@ export async function getCounts() {
     return { applicants: 0, programs: 0, datapoints: 0 };
   }
 }
+
+// ---------- write APIs (require session) ----------
+
+async function jsonRequest(method, path, body) {
+  const r = await fetch(`${DP_API_BASE}${path}`, {
+    method,
+    credentials: 'include',
+    headers: body ? { 'Content-Type': 'application/json' } : {},
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  let data = null;
+  try { data = await r.json(); } catch {}
+  if (!r.ok) {
+    const msg = (data && (data.error || data.message)) || `HTTP ${r.status}`;
+    throw new Error(msg);
+  }
+  return data;
+}
+
+export const getMyApplicant = () => jsonRequest('GET', '/api/applicant/me');
+export const createMyApplicant = (body) => jsonRequest('POST', '/api/applicant/me', body);
+export const updateMyApplicant = (body) => jsonRequest('PATCH', '/api/applicant/me', body);
+
+export const createDp = (body) => jsonRequest('POST', '/api/dp', body);
+export const updateDp = (id, body) => jsonRequest('PATCH', `/api/dp/${id}`, body);
+export const deleteDp = (id) => jsonRequest('DELETE', `/api/dp/${id}`);
+
+// List the current user's own DPs. Backend's GET /api/dp doesn't filter by
+// user, so we hit it with no filters and post-filter by applicant_id == me.
+export async function listMyDp(applicantId) {
+  if (!applicantId) return { rows: [], total: 0 };
+  // Use a high limit; per-user DP count is typically < 30.
+  const url = buildUrl('/api/dp', { limit: 200 });
+  const r = await fetch(url, { credentials: 'include' });
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  const json = await r.json();
+  const mine = json.rows.filter((row) => row.a?.id === applicantId);
+  return { rows: mine, total: mine.length };
+}
+
+export async function signOut() {
+  try {
+    await fetch(`${DP_API_BASE}/api/auth/sign-out`, {
+      method: 'POST',
+      credentials: 'include',
+    });
+  } catch {}
+}
