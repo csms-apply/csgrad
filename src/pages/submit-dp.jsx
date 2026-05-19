@@ -434,6 +434,7 @@ function Inner() {
   const [savingApplicant, setSavingApplicant] = useState(false);
   const [msg, setMsg] = useState(null);
   const [fieldErrors, setFieldErrors] = useState({});
+  const [showSignInModal, setShowSignInModal] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -448,8 +449,16 @@ function Inner() {
           if (cancelled) return;
           setApplicant(r.applicant);
           if (r.applicant) setForm(applicantToForm(r.applicant));
+          // Restore draft saved before OAuth redirect (if any).
+          try {
+            const draft = localStorage.getItem('dp_applicant_draft');
+            if (draft && !r.applicant) {
+              setForm((prev) => ({ ...prev, ...JSON.parse(draft) }));
+            }
+            localStorage.removeItem('dp_applicant_draft');
+          } catch {}
         } catch (e) {
-          // ignore: 401 means not signed in, but auth already gates this branch
+          // ignore: 401 happens when getMyApplicant is called pre-auth in some race
         }
       }
     })();
@@ -457,9 +466,12 @@ function Inner() {
   }, []);
 
   if (!meChecked) return <div className={styles.loading}>{t.loading}</div>;
-  if (!me) return <SignInGate t={t} />;
 
-  const locked = Boolean(applicant?.lockedAt && me.role !== 'admin');
+  const locked = Boolean(applicant?.lockedAt && me?.role !== 'admin');
+
+  const onSignIn = (provider) => {
+    startOAuth(provider, t, 'dp_applicant_draft', form);
+  };
 
   function setField(k, v) {
     setForm((prev) => ({ ...prev, [k]: v }));
@@ -501,6 +513,10 @@ function Inner() {
       if (el) el.focus({ preventScroll: false });
       return;
     }
+    if (!me) {
+      setShowSignInModal(true);
+      return;
+    }
     setSavingApplicant(true);
     setMsg(null);
     try {
@@ -525,9 +541,13 @@ function Inner() {
       <header className={styles.header}>
         <div className={styles.headerTop}>
           <h1>{t.pageTitle}</h1>
-          <span className={styles.meBadge}>
-            {t.youAre} {me.nickname}{me.role === 'admin' ? ` · ${t.adminTag}` : ''}
-          </span>
+          {me ? (
+            <span className={styles.meBadge}>
+              {t.youAre} {me.nickname}{me.role === 'admin' ? ` · ${t.adminTag}` : ''}
+            </span>
+          ) : (
+            <SignInButtonRow t={t} onSignIn={onSignIn} />
+          )}
         </div>
         <p className={styles.lead}>
           {t.heroLead1}<strong>{t.heroLeadBold}</strong>{t.heroLead2}
@@ -568,6 +588,10 @@ function Inner() {
           </button>
         </section>
       )}
+
+      {showSignInModal ? (
+        <SignInPromptModal t={t} onSignIn={onSignIn} onClose={() => setShowSignInModal(false)} />
+      ) : null}
     </div>
   );
 }
@@ -650,10 +674,33 @@ function ProgressNav({ t }) {
   );
 }
 
-// ---------- sign-in gate ----------
+// ---------- sign-in buttons (with brand icons) ----------
 
-function SignInGate({ t }) {
-  async function signIn(provider) {
+function GoogleIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style={{ display: 'inline-block', verticalAlign: '-3px', marginRight: 6 }}>
+      <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+      <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+      <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+      <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+    </svg>
+  );
+}
+
+function GitHubIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style={{ display: 'inline-block', verticalAlign: '-3px', marginRight: 6 }}>
+      <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </svg>
+  );
+}
+
+async function startOAuth(provider, t, draftKey, draftValue) {
+  // Save draft to localStorage so the form survives the OAuth redirect.
+  if (draftKey && draftValue) {
+    try { localStorage.setItem(draftKey, JSON.stringify(draftValue)); } catch {}
+  }
+  try {
     const r = await fetch(`${DP_API_BASE}/api/auth/sign-in/social`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -663,14 +710,70 @@ function SignInGate({ t }) {
     const data = await r.json();
     if (data.url) window.location.href = data.url;
     else alert(`${t.signInFail}: ${data.message || 'unknown'}`);
+  } catch (e) {
+    alert(`${t.signInFail}: ${e.message}`);
   }
+}
+
+function SignInButtonRow({ t, onSignIn }) {
   return (
-    <div className={styles.gate}>
-      <h2>{t.needSignIn}</h2>
-      <p>{t.signInLead}</p>
-      <div className={styles.signInGroup}>
-        <button className={styles.signInBtn} onClick={() => signIn('google')}>{t.googleSignIn}</button>
-        <button className={styles.signInBtn} onClick={() => signIn('github')}>{t.githubSignIn}</button>
+    <div className={styles.signInGroup}>
+      <button type="button" className={styles.signInBtn} onClick={() => onSignIn('google')}>
+        <GoogleIcon />{t.googleSignIn}
+      </button>
+      <button type="button" className={styles.signInBtn} onClick={() => onSignIn('github')}>
+        <GitHubIcon />{t.githubSignIn}
+      </button>
+    </div>
+  );
+}
+
+function SignInPromptModal({ t, onSignIn, onClose }) {
+  const ref = React.useRef(null);
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    const tm = setTimeout(() => ref.current?.querySelector('button')?.focus(), 0);
+    return () => { window.removeEventListener('keydown', onKey); clearTimeout(tm); };
+  }, [onClose]);
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="signin-modal-title"
+      onClick={onClose}
+      style={{
+        position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.45)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        zIndex: 1000, padding: 16,
+      }}
+    >
+      <div
+        ref={ref}
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          background: 'var(--ifm-background-surface-color, #fff)',
+          color: 'var(--ifm-font-color-base)',
+          borderRadius: 8, maxWidth: 420, width: '100%',
+          padding: 24, boxShadow: '0 10px 30px rgba(0,0,0,0.25)',
+        }}
+      >
+        <h3 id="signin-modal-title" style={{ marginTop: 0, marginBottom: 8 }}>{t.needSignIn}</h3>
+        <p style={{ marginTop: 0, marginBottom: 16, color: 'var(--ifm-color-emphasis-700)' }}>
+          {t.signInLead}
+        </p>
+        <SignInButtonRow t={t} onSignIn={onSignIn} />
+        <button
+          type="button"
+          onClick={onClose}
+          style={{
+            marginTop: 16, background: 'transparent', border: 0,
+            color: 'var(--ifm-color-emphasis-600)', cursor: 'pointer',
+            fontSize: 12, padding: 0,
+          }}
+        >
+          {t.closeDialog || 'Cancel'}
+        </button>
       </div>
     </div>
   );
@@ -743,7 +846,7 @@ function ApplicantForm({ t, locale, form, setField, toggleArrayValue, locked, on
         </Group>
 
         <Group id="section-rec" title={t.groups.rec}>
-          {[1, 2, 3, 4, 5].map((n) => (
+          {[1, 2, 3].map((n) => (
             <RecLetterRow
               key={n}
               num={n}
