@@ -5,8 +5,27 @@
 // the backend is deployed (snapshot only) and after (live API, fresh data).
 
 import { WORKER_BASE_URL } from '../positioning/api';
+import {
+  PAGE_SIZE,
+  LIST_LIMIT_API,
+  LIST_LIMIT_SNAPSHOT_FALLBACK,
+} from './config';
 
 export const DP_API_BASE = WORKER_BASE_URL; // same worker as positioning
+
+// In production builds we want fallback errors to stay silent (resilience is a
+// feature). In dev, surface them via console.warn so debugging is easier.
+const IS_DEV =
+  typeof process !== 'undefined' &&
+  process.env &&
+  process.env.NODE_ENV !== 'production';
+
+function warnDev(...args) {
+  if (IS_DEV && typeof console !== 'undefined') {
+    // eslint-disable-next-line no-console
+    console.warn('[dp/api]', ...args);
+  }
+}
 
 // ---------- public API ----------
 
@@ -24,7 +43,7 @@ export const DP_API_BASE = WORKER_BASE_URL; // same worker as positioning
  * @param {string} [opts.q]
  * @param {number} [opts.limit=50]
  * @param {number} [opts.offset=0]
- * @returns {Promise<{rows, total, source: 'api'|'snapshot'}>}
+ * @returns {Promise<{rows, total, source: 'api'|'snapshot', offset, limit, _fallbackError?: string}>}
  */
 export async function listDp(opts = {}) {
   try {
@@ -34,9 +53,13 @@ export async function listDp(opts = {}) {
     const json = await r.json();
     return { ...json, source: 'api' };
   } catch (err) {
-    // fallback: filter the local snapshot
+    // Fallback: filter the local snapshot. Tag the original error so the page
+    // can decide whether to surface it (current callers look at `source`).
+    const errMsg = err && err.message ? err.message : String(err);
+    warnDev('listDp falling back to snapshot:', errMsg);
     const snap = await loadSnapshot();
-    return filterSnapshot(snap, opts);
+    const out = filterSnapshot(snap, opts);
+    return { ...out, _fallbackError: errMsg };
   }
 }
 
@@ -45,7 +68,8 @@ export async function getMe() {
     const r = await fetch(`${DP_API_BASE}/api/me`, { credentials: 'include' });
     if (!r.ok) return { user: null };
     return await r.json();
-  } catch {
+  } catch (err) {
+    warnDev('getMe failed:', err && err.message ? err.message : err);
     return { user: null };
   }
 }
@@ -56,7 +80,8 @@ export async function listPrograms({ q, status = 'active', limit = 500 } = {}) {
     const r = await fetch(url, { credentials: 'include' });
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     return await r.json();
-  } catch {
+  } catch (err) {
+    warnDev('listPrograms falling back to snapshot:', err && err.message ? err.message : err);
     const snap = await loadSnapshot();
     let rows = Object.values(snap.programs);
     if (q) {
@@ -79,14 +104,65 @@ function loadSnapshot() {
     _snapshotPromise = fetch('/data/dp-snapshot.json').then((r) => {
       if (!r.ok) throw new Error('snapshot unavailable');
       return r.json();
+    }).catch((err) => {
+      // Reset on failure so a later call can retry (transient network blip).
+      _snapshotPromise = null;
+      throw err;
     });
   }
   return _snapshotPromise;
 }
 
+let _filterOptionsPromise = null;
+
+const TIER_ORDER = ['SSS', 'SS', 'S', 'A', 'B', 'C', 'D'];
+
+/**
+ * Returns the filter-option lists used by the DataPoints page filters.
+ * Lazily loads the snapshot the first time it's called and caches the result.
+ * @returns {Promise<{schools: string[], tiers: string[], years: number[], ugCats: string[], majors: string[]}>}
+ */
+export function getFilterOptions() {
+  if (!_filterOptionsPromise) {
+    _filterOptionsPromise = loadSnapshot().then((snap) => {
+      const schools = new Set();
+      const tiers = new Set();
+      const years = new Set();
+      const ugCats = new Set();
+      const majors = new Set();
+      for (const p of Object.values(snap.programs || {})) {
+        if (p.school) schools.add(p.school);
+        if (p.tier) tiers.add(p.tier);
+      }
+      for (const a of Object.values(snap.applicants || {})) {
+        if (a.ug_school_category) ugCats.add(a.ug_school_category);
+        if (a.ug_major) majors.add(a.ug_major);
+      }
+      for (const d of snap.datapoints || []) {
+        if (d.academic_year) years.add(d.academic_year);
+      }
+      const tierList = TIER_ORDER.filter((t) => tiers.has(t));
+      // Append non-canonical tiers so we never silently drop new data.
+      for (const t of tiers) if (!TIER_ORDER.includes(t)) tierList.push(t);
+      return {
+        schools: [...schools].sort(),
+        tiers: tierList,
+        years: [...years].sort((a, b) => b - a),
+        ugCats: [...ugCats].sort(),
+        majors: [...majors].sort(),
+      };
+    }).catch((err) => {
+      _filterOptionsPromise = null;
+      throw err;
+    });
+  }
+  return _filterOptionsPromise;
+}
+
 function filterSnapshot(snap, opts) {
   const { applicants, programs, datapoints } = snap;
-  const limit = Math.min(Math.max(Number(opts.limit) || 50, 1), 200);
+  const requested = Number(opts.limit) || PAGE_SIZE;
+  const limit = Math.min(Math.max(requested, 1), LIST_LIMIT_SNAPSHOT_FALLBACK);
   const offset = Math.max(Number(opts.offset) || 0, 0);
   const gMin = opts.gpaMin == null || opts.gpaMin === '' ? null : Number(opts.gpaMin);
   const gMax = opts.gpaMax == null || opts.gpaMax === '' ? null : Number(opts.gpaMax);
@@ -142,7 +218,8 @@ export async function getCounts() {
   try {
     const snap = await loadSnapshot();
     return snap.counts;
-  } catch {
+  } catch (err) {
+    warnDev('getCounts failed:', err && err.message ? err.message : err);
     return { applicants: 0, programs: 0, datapoints: 0 };
   }
 }
@@ -177,8 +254,8 @@ export const deleteDp = (id) => jsonRequest('DELETE', `/api/dp/${id}`);
 // user, so we hit it with no filters and post-filter by applicant_id == me.
 export async function listMyDp(applicantId) {
   if (!applicantId) return { rows: [], total: 0 };
-  // Use a high limit; per-user DP count is typically < 30.
-  const url = buildUrl('/api/dp', { limit: 200 });
+  // Use the configured API list limit; per-user DP count is typically < 30.
+  const url = buildUrl('/api/dp', { limit: LIST_LIMIT_API });
   const r = await fetch(url, { credentials: 'include' });
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   const json = await r.json();
@@ -192,5 +269,7 @@ export async function signOut() {
       method: 'POST',
       credentials: 'include',
     });
-  } catch {}
+  } catch (err) {
+    warnDev('signOut failed:', err && err.message ? err.message : err);
+  }
 }
