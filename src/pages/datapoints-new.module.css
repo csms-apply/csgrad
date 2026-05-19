@@ -224,3 +224,64 @@
 .errorBox {
   color: #b91c1c;
 }
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.signInGroup {
+  display: inline-flex;
+  gap: 6px;
+}
+.signInBtn {
+  padding: 6px 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--ifm-font-color-base);
+}
+.signInBtn:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+.meBadge {
+  padding: 4px 10px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-800);
+}
+.liveToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.liveToggle input {
+  cursor: pointer;
+}
+.liveErr {
+  color: #b45309;
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+.sourceBadge {
+  display: inline-block;
+  padding: 1px 6px;
+  font-size: 11px;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-700);
+  border-radius: 4px;
+  font-weight: 600;
+}
