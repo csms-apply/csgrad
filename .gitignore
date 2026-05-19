@@ -5,3 +5,10 @@ build
 .DS_Store
 src/theme/Layout/
 .claude/
+
+# Seatable export — contains 317 applicants' real background data (incl.
+# free-text fields like contact info / research notes), never commit.
+# The committed counterpart is static/data/dp-snapshot.json which has those
+# free-text fields stripped.
+DataPoints.dtable
+scripts/migration-output/
