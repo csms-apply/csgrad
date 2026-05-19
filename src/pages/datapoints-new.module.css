@@ -1,0 +1,287 @@
+.wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px 20px 80px;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+.meta {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 14px;
+  margin: 0 0 4px;
+}
+.note {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 12px;
+  margin: 0 0 16px;
+}
+.beta {
+  background: #f0a82220;
+  color: #c47a00;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-end;
+  background: var(--ifm-color-emphasis-100);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.search {
+  flex: 1 1 220px;
+  min-width: 180px;
+  padding: 6px 10px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 13px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.selectWrap {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: var(--ifm-color-emphasis-700);
+}
+.selectWrap span {
+  margin-bottom: 2px;
+}
+.selectWrap select {
+  padding: 5px 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 13px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  min-width: 100px;
+}
+
+.gpaRange {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--ifm-color-emphasis-700);
+}
+.gpaRange input {
+  width: 70px;
+  padding: 5px 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 13px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.clearBtn {
+  padding: 6px 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--ifm-font-color-base);
+}
+.clearBtn:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.summary {
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-700);
+  margin: 6px 4px 8px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  background: var(--ifm-background-color);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.table thead {
+  background: var(--ifm-color-emphasis-100);
+  position: sticky;
+  top: 0;
+}
+.table th {
+  text-align: left;
+  padding: 8px 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 12px;
+  color: var(--ifm-color-emphasis-800);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+.table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-100);
+  vertical-align: top;
+}
+.table tbody tr:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.pillAdmit { background: #10b98120; color: #047857; }
+.pillReject { background: #ef444420; color: #b91c1c; }
+.pillWait { background: #f59e0b20; color: #b45309; }
+.pillWithdraw { background: #6b728020; color: #4b5563; }
+.pillUnknown { background: var(--ifm-color-emphasis-200); color: var(--ifm-color-emphasis-700); }
+
+.fundBadge {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 5px;
+  font-size: 10px;
+  background: #fde68a;
+  color: #92400e;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.finalBadge {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 5px;
+  font-size: 10px;
+  background: #c7d2fe;
+  color: #3730a3;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.muted {
+  color: var(--ifm-color-emphasis-500);
+  font-size: 11px;
+}
+.ugCat {
+  font-weight: 600;
+  font-size: 12px;
+}
+.ugName {
+  font-size: 11px;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.empty {
+  padding: 40px;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+  font-size: 13px;
+}
+.pager button {
+  padding: 5px 10px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--ifm-font-color-base);
+}
+.pager button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.pager button:hover:not(:disabled) {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.loading, .errorBox {
+  padding: 40px;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+}
+.errorBox {
+  color: #b91c1c;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.signInGroup {
+  display: inline-flex;
+  gap: 6px;
+}
+.signInBtn {
+  padding: 6px 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--ifm-font-color-base);
+}
+.signInBtn:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+.meBadge {
+  padding: 4px 10px;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-800);
+}
+.liveToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.liveToggle input {
+  cursor: pointer;
+}
+.liveErr {
+  color: #b45309;
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+.sourceBadge {
+  display: inline-block;
+  padding: 1px 6px;
+  font-size: 11px;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-700);
+  border-radius: 4px;
+  font-weight: 600;
+}
