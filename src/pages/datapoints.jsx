@@ -2,13 +2,11 @@ import React, { useEffect, useMemo, useState, useDeferredValue, useRef, useCallb
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { DP_API_BASE, getMe, listDp } from '@site/src/lib/dp/api';
+import { DP_API_BASE, getMe, listDp, getFilterOptions, getCounts } from '@site/src/lib/dp/api';
 import styles from './datapoints.module.css';
 
 const PAGE_SIZE = 50;
-const TIER_ORDER = ['SSS', 'SS', 'S', 'A', 'B', 'C', 'D'];
 const RESULT_OPTIONS = ['Admit', 'Reject', 'Waitlist', '默拒', 'Withdraw'];
 const MOBILE_BREAKPOINT = 768;
 
@@ -236,21 +234,23 @@ function StaticHero({ t, counts }) {
 // ---------- Inner: data load orchestration ----------
 
 function Inner({ t }) {
-  const dataUrl = useBaseUrl('/data/dp-snapshot.json');
-  const [data, setData] = useState(null);
+  const [counts, setCounts] = useState(null);
+  const [filterOpts, setFilterOpts] = useState(null);
   const [error, setError] = useState(null);
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
 
   useEffect(() => {
-    fetch(dataUrl)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
+    let cancelled = false;
+    Promise.all([getCounts(), getFilterOptions()])
+      .then(([c, o]) => {
+        if (cancelled) return;
+        setCounts(c);
+        setFilterOpts(o);
       })
-      .then(setData)
-      .catch((e) => setError(String(e)));
-  }, [dataUrl]);
+      .catch((e) => !cancelled && setError(String(e)));
+    return () => { cancelled = true; };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -266,8 +266,8 @@ function Inner({ t }) {
   }, []);
 
   if (error) return <div className={styles.errorBox}>{t.loadFail}{error}</div>;
-  if (!data) return <div className={styles.loading}>{t.loadingData}</div>;
-  return <Table data={data} me={me} meChecked={meChecked} t={t} />;
+  if (!counts || !filterOpts) return <div className={styles.loading}>{t.loadingData}</div>;
+  return <Table counts={counts} filterOpts={filterOpts} me={me} meChecked={meChecked} t={t} />;
 }
 
 function SignInButton({ t }) {
@@ -321,36 +321,9 @@ function useIsMobile() {
 
 // ---------- Main Table component ----------
 
-function Table({ data, me, meChecked, t }) {
-  const { applicants, programs, datapoints } = data;
+function Table({ counts, filterOpts, me, meChecked, t }) {
   const isMobile = useIsMobile();
   const [openApplicantId, setOpenApplicantId] = useState(null);
-
-  const filterOpts = useMemo(() => {
-    const schools = new Set();
-    const tiers = new Set();
-    const years = new Set();
-    const ugCats = new Set();
-    const majors = new Set();
-    for (const p of Object.values(programs)) {
-      if (p.school) schools.add(p.school);
-      if (p.tier) tiers.add(p.tier);
-    }
-    for (const a of Object.values(applicants)) {
-      if (a.ug_school_category) ugCats.add(a.ug_school_category);
-      if (a.ug_major) majors.add(a.ug_major);
-    }
-    for (const d of datapoints) {
-      if (d.academic_year) years.add(d.academic_year);
-    }
-    return {
-      schools: [...schools].sort(),
-      tiers: TIER_ORDER.filter((x) => tiers.has(x)),
-      years: [...years].sort((a, b) => b - a),
-      ugCats: [...ugCats].sort(),
-      majors: [...majors].sort(),
-    };
-  }, [applicants, programs, datapoints]);
 
   const initial = useMemo(() => readFiltersFromUrl(), []);
   const [school, setSchool] = useState(initial.school || '');
@@ -368,41 +341,46 @@ function Table({ data, me, meChecked, t }) {
     writeFiltersToUrl({ school, tier, year, result, ugCat, major, q: deferredQuery });
   }, [school, tier, year, result, ugCat, major, deferredQuery]);
 
-  const rows = useMemo(() => {
-    const q = deferredQuery.trim().toLowerCase();
-    const out = [];
-    for (const d of datapoints) {
-      const p = programs[d.program_id];
-      const a = applicants[d.applicant_id];
-      if (!p || !a) continue;
-      if (school && p.school !== school) continue;
-      if (tier && p.tier !== tier) continue;
-      if (year && d.academic_year !== Number(year)) continue;
-      if (result && d.result !== result) continue;
-      if (ugCat && a.ug_school_category !== ugCat) continue;
-      if (major && a.ug_major !== major) continue;
-      if (q) {
-        const hay = `${p.school} ${p.program}`.toLowerCase();
-        if (!hay.includes(q)) continue;
-      }
-      out.push({ d, p, a });
-    }
-    out.sort((x, y) => {
-      const xd = x.d.notified_at || x.d.submitted_at || '';
-      const yd = y.d.notified_at || y.d.submitted_at || '';
-      return yd.localeCompare(xd);
-    });
-    return out;
-  }, [
-    datapoints, programs, applicants,
-    school, tier, year, result, ugCat, major, deferredQuery,
-  ]);
-
   useEffect(() => setPage(0), [school, tier, year, result, ugCat, major, deferredQuery]);
 
-  const totalCount = rows.length;
+  // Fetch rows from API on filter/page change. Keep previous rows visible
+  // while a new fetch is in flight so the table doesn't blink.
+  const [rows, setRows] = useState([]);
+  const [totalCount, setTotalCount] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [apiError, setApiError] = useState(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    const handle = setTimeout(async () => {
+      setLoading(true);
+      setApiError(null);
+      try {
+        const res = await listDp({
+          school: school || undefined,
+          tier: tier || undefined,
+          year: year || undefined,
+          result: result || undefined,
+          ugCategory: ugCat || undefined,
+          major: major || undefined,
+          q: deferredQuery || undefined,
+          limit: PAGE_SIZE,
+          offset: page * PAGE_SIZE,
+        });
+        if (cancelled) return;
+        setRows(res.rows || []);
+        setTotalCount(res.total || 0);
+      } catch (e) {
+        if (!cancelled) setApiError(String(e));
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    }, 250);
+    return () => { cancelled = true; clearTimeout(handle); };
+  }, [school, tier, year, result, ugCat, major, deferredQuery, page]);
+
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
-  const paged = rows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+  const paged = rows;
 
   const activeFilters = useMemo(() => {
     const items = [];
@@ -436,10 +414,11 @@ function Table({ data, me, meChecked, t }) {
           </div>
         </div>
         <p className={styles.meta}>
-          <b>{data.counts.datapoints}</b> {t.metaDatapoints} · <b>{data.counts.applicants}</b> {t.metaApplicants} ·{' '}
-          <b>{data.counts.programs}</b> {t.metaPrograms} · <span className={styles.beta}>{t.beta}</span>
+          <b>{counts.datapoints}</b> {t.metaDatapoints} · <b>{counts.applicants}</b> {t.metaApplicants} ·{' '}
+          <b>{counts.programs}</b> {t.metaPrograms} · <span className={styles.beta}>{t.beta}</span>
         </p>
         <p className={styles.note}>{t.dataNote}</p>
+        {apiError ? <p className={styles.liveErr} role="status"><span aria-hidden="true">⚠️ </span>{t.loadFail}{apiError}</p> : null}
       </header>
 
       <section className={styles.filters} aria-label={t.searchLabel}>
@@ -476,9 +455,6 @@ function Table({ data, me, meChecked, t }) {
       {openApplicantId ? (
         <ApplicantDpsModal
           applicantId={openApplicantId}
-          datapoints={datapoints}
-          programs={programs}
-          applicants={applicants}
           t={t}
           onClose={() => setOpenApplicantId(null)}
         />
@@ -624,20 +600,31 @@ function DesktopTable({ rows, t, onRowClick }) {
   );
 }
 
-function ApplicantDpsModal({ applicantId, datapoints, programs, applicants, t, onClose }) {
+function ApplicantDpsModal({ applicantId, t, onClose }) {
   const dialogRef = useRef(null);
-  const applicant = applicants[applicantId];
-  const myDps = useMemo(() => {
-    return datapoints
-      .filter((d) => d.applicant_id === applicantId)
-      .map((d) => ({ d, p: programs[d.program_id] }))
-      .filter((row) => row.p)
-      .sort((x, y) => {
-        const xd = x.d.notified_at || x.d.submitted_at || '';
-        const yd = y.d.notified_at || y.d.submitted_at || '';
-        return yd.localeCompare(xd);
-      });
-  }, [applicantId, datapoints, programs]);
+  const [myDps, setMyDps] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [errorMsg, setErrorMsg] = useState(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+    listDp({ applicantId, limit: 200 })
+      .then((res) => {
+        if (cancelled) return;
+        const sorted = [...(res.rows || [])].sort((x, y) => {
+          const xd = x.d.notified_at || x.d.submitted_at || '';
+          const yd = y.d.notified_at || y.d.submitted_at || '';
+          return yd.localeCompare(xd);
+        });
+        setMyDps(sorted);
+      })
+      .catch((e) => !cancelled && setErrorMsg(String(e)))
+      .finally(() => !cancelled && setLoading(false));
+    return () => { cancelled = true; };
+  }, [applicantId]);
+
+  const applicant = myDps[0]?.a || null;
 
   useEffect(() => {
     const onKey = (e) => { if (e.key === 'Escape') onClose(); };
@@ -650,8 +637,6 @@ function ApplicantDpsModal({ applicantId, datapoints, programs, applicants, t, o
       clearTimeout(timer);
     };
   }, [onClose]);
-
-  if (!applicant) return null;
   return (
     <div
       role="dialog"
@@ -697,10 +682,14 @@ function ApplicantDpsModal({ applicantId, datapoints, programs, applicants, t, o
           </button>
         </div>
         <div style={{ fontSize: 12, color: 'var(--ifm-color-emphasis-700)', marginBottom: 12 }}>
-          {applicant.ug_school_category ? `${applicant.ug_school_category} · ` : ''}
-          {applicant.ug_school_name || ''}
-          {applicant.ug_major ? ` · ${applicant.ug_major}` : ''}
-          {applicant.gpa != null ? ` · GPA ${applicant.gpa}` : ''}
+          {applicant ? (
+            <>
+              {applicant.ug_school_category ? `${applicant.ug_school_category} · ` : ''}
+              {applicant.ug_school_name || ''}
+              {applicant.ug_major ? ` · ${applicant.ug_major}` : ''}
+              {applicant.gpa != null ? ` · GPA ${applicant.gpa}` : ''}
+            </>
+          ) : loading ? t.loadingData : errorMsg ? `${t.loadFail}${errorMsg}` : ''}
         </div>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13 }}>
           <thead>
