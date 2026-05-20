@@ -427,7 +427,9 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         {t.summaryMatched} <b>{totalCount}</b> {t.summaryRows} · {page + 1} / {totalPages} {t.summaryPage}
       </div>
 
-      {paged.length === 0 ? (
+      {loading && rows.length === 0 ? (
+        <div className={styles.loading}>{t.loadingData}</div>
+      ) : paged.length === 0 ? (
         <EmptyState t={t} activeFilters={activeFilters} />
       ) : isMobile ? (
         <MobileCards rows={paged} t={t} onCardClick={setOpenApplicantId} />
