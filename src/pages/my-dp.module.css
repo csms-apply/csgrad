@@ -15,18 +15,6 @@
   border-radius: 12px;
 }
 
-.signInGroup { display: flex; gap: 8px; justify-content: center; margin-top: 16px; }
-.signInBtn {
-  padding: 8px 16px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  background: var(--ifm-background-color);
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 14px;
-  color: var(--ifm-font-color-base);
-}
-.signInBtn:hover { background: var(--ifm-color-emphasis-100); }
-
 .header h1 { margin: 0 0 8px; font-size: 26px; }
 .headerTop {
   display: flex;
@@ -128,14 +116,3 @@
 .dangerBtn { color: var(--dp-danger-fg); }
 .dangerBtn:hover { background: var(--dp-danger-hover-bg); }
 
-.cellInput {
-  padding: 3px 6px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 4px;
-  font-size: 12px;
-  background: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
-  font-family: inherit;
-  margin-right: 2px;
-}
-textarea.cellInput { width: 100%; resize: vertical; min-height: 40px; }

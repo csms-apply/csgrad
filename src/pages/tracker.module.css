@@ -747,11 +747,6 @@
 }
 
 /* ---- Import/Export area ---- */
-.ioArea {
-  display: flex;
-  gap: 8px;
-}
-
 .hiddenInput {
   display: none;
 }
@@ -787,16 +782,6 @@
   height: 18px;
   accent-color: #c9a96e;
   cursor: pointer;
-}
-
-.lorLabel {
-  font-size: 0.82rem;
-  color: #5a4a3a;
-  flex: 1;
-}
-
-[data-theme='dark'] .lorLabel {
-  color: #d0c5b5;
 }
 
 .lorInput {

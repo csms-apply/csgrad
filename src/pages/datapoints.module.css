@@ -20,15 +20,6 @@
   font-size: 12px;
   margin: 0 0 16px;
 }
-.beta {
-  background: var(--dp-beta-bg);
-  color: var(--dp-beta-fg);
-  padding: 1px 6px;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 11px;
-}
-
 /* ---------- Filters: grid for alignment ---------- */
 .filters {
   display: grid;
@@ -39,16 +30,6 @@
   padding: 14px;
   border-radius: 10px;
   margin-bottom: 12px;
-}
-
-.search {
-  grid-column: 1 / -1;
-  padding: 8px 12px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 6px;
-  font-size: 14px;
-  background: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
 }
 
 .selectWrap {
@@ -70,42 +51,6 @@
   background: var(--ifm-background-color);
   color: var(--ifm-font-color-base);
   width: 100%;
-}
-
-.gpaRange {
-  display: flex;
-  align-items: end;
-  gap: 6px;
-  font-size: 11px;
-  color: var(--ifm-color-emphasis-700);
-}
-.gpaRange > span:first-child {
-  align-self: center;
-  font-weight: 500;
-}
-.gpaRange input {
-  width: 70px;
-  padding: 6px 8px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 6px;
-  font-size: 13px;
-  background: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
-}
-
-.clearBtn {
-  padding: 7px 14px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  background: var(--ifm-background-color);
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 13px;
-  color: var(--ifm-font-color-base);
-  align-self: end;
-  height: 33px;
-}
-.clearBtn:hover {
-  background: var(--ifm-color-emphasis-200);
 }
 
 .summary {
@@ -171,19 +116,7 @@
 }
 
 .yearCell { white-space: nowrap; }
-.smallMuted {
-  font-size: 11px;
-  color: var(--ifm-color-emphasis-500);
-  margin-top: 2px;
-}
 
-.ugCell { min-width: 200px; }
-.ugRow {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-}
 .ugName {
   font-size: 13px;
   color: var(--ifm-color-emphasis-800);
@@ -300,14 +233,6 @@
 }
 
 /* ---------- Tier badges ---------- */
-.tierBadge {
-  display: inline-block;
-  padding: 1px 6px;
-  font-size: 10px;
-  font-weight: 700;
-  border-radius: 3px;
-  letter-spacing: 0.5px;
-}
 .tierSSS { background: var(--dp-tier-sss-bg); color: var(--dp-tier-sss-fg); }
 .tierSS  { background: var(--dp-tier-ss-bg); color: var(--dp-tier-ss-fg); }
 .tierS   { background: var(--dp-tier-s-bg); color: var(--dp-tier-s-fg); }
@@ -407,26 +332,8 @@
   color: var(--ifm-color-emphasis-800);
 }
 
-.liveToggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-left: 10px;
-  cursor: pointer;
-  font-size: 12px;
-}
-.liveToggle input { cursor: pointer; }
 .liveErr {
   color: var(--dp-banner-warn-text);
   font-size: 12px;
   margin: 0 0 8px;
-}
-.sourceBadge {
-  display: inline-block;
-  padding: 1px 6px;
-  font-size: 11px;
-  background: var(--ifm-color-emphasis-200);
-  color: var(--ifm-color-emphasis-700);
-  border-radius: 4px;
-  font-weight: 600;
 }
