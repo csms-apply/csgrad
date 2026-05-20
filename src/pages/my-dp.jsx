@@ -38,6 +38,9 @@ const COPY = {
     updateFail: '更新失败：',
     deleteFail: '删除失败：',
     confirmDelete: '确认删除这条 DataPoint？此操作不可撤销。',
+    confirmDeleteTitle: '删除 DataPoint',
+    confirmDeleteBtn: '删除',
+    retryBtn: '重试',
     colSchoolProgram: '学校 · 项目',
     colTier: 'Tier',
     colResult: '结果',
@@ -91,6 +94,9 @@ const COPY = {
     updateFail: 'Update failed: ',
     deleteFail: 'Delete failed: ',
     confirmDelete: 'Delete this DataPoint? This action cannot be undone.',
+    confirmDeleteTitle: 'Delete DataPoint',
+    confirmDeleteBtn: 'Delete',
+    retryBtn: 'Retry',
     colSchoolProgram: 'School · Program',
     colTier: 'Tier',
     colResult: 'Result',
@@ -439,6 +445,154 @@ function EditModal({ row, t, onClose, onSave }) {
   );
 }
 
+// Mirrors EditModal's backdrop / focus-trap / scroll-lock so destructive
+// confirmations match the rest of the app's dialog language instead of
+// falling back to the native window.confirm().
+function ConfirmDialog({ title, body, confirmText, cancelText, onConfirm, onCancel }) {
+  const dialogRef = useRef(null);
+  const confirmBtnRef = useRef(null);
+  const lastActiveRef = useRef(null);
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    lastActiveRef.current = document.activeElement;
+    const tm = setTimeout(() => {
+      if (confirmBtnRef.current) confirmBtnRef.current.focus();
+    }, 0);
+    return () => {
+      clearTimeout(tm);
+      if (lastActiveRef.current && typeof lastActiveRef.current.focus === 'function') {
+        lastActiveRef.current.focus();
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    function onKeyDown(e) {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        if (!busy) onCancel();
+        return;
+      }
+      if (e.key === 'Tab' && dialogRef.current) {
+        const focusables = dialogRef.current.querySelectorAll(
+          'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+        );
+        if (focusables.length === 0) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    }
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [onCancel, busy]);
+
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = prev; };
+  }, []);
+
+  async function handleConfirm() {
+    setBusy(true);
+    try {
+      await onConfirm();
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  const backdropStyle = {
+    position: 'fixed',
+    inset: 0,
+    background: 'rgba(0, 0, 0, 0.45)',
+    display: 'flex',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    padding: '10vh 16px',
+    zIndex: 1000,
+    overflowY: 'auto',
+  };
+  const dialogStyle = {
+    background: 'var(--ifm-background-color)',
+    color: 'var(--ifm-font-color-base)',
+    border: '1px solid var(--ifm-color-emphasis-200)',
+    borderRadius: 12,
+    boxShadow: '0 20px 60px rgba(0,0,0,0.25)',
+    width: '100%',
+    maxWidth: 420,
+    padding: 20,
+  };
+  const titleStyle = { margin: '0 0 10px', fontSize: 18 };
+  const bodyStyle = {
+    margin: '0 0 16px',
+    color: 'var(--ifm-color-emphasis-800)',
+    fontSize: 14,
+    lineHeight: 1.5,
+  };
+  const footerStyle = {
+    display: 'flex',
+    justifyContent: 'flex-end',
+    gap: 8,
+  };
+
+  return (
+    <div
+      style={backdropStyle}
+      onMouseDown={(e) => { if (e.target === e.currentTarget && !busy) onCancel(); }}
+    >
+      <div
+        ref={dialogRef}
+        role="alertdialog"
+        aria-modal="true"
+        aria-labelledby="dp-confirm-title"
+        style={dialogStyle}
+      >
+        <h2 id="dp-confirm-title" style={titleStyle}>{title}</h2>
+        <p style={bodyStyle}>{body}</p>
+        <div style={footerStyle}>
+          <button
+            type="button"
+            className={styles.smallBtn}
+            onClick={onCancel}
+            disabled={busy}
+          >{cancelText}</button>
+          <button
+            ref={confirmBtnRef}
+            type="button"
+            className={`${styles.smallBtn} ${styles.dangerBtn}`}
+            onClick={handleConfirm}
+            disabled={busy}
+          >{confirmText}</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Bucket fetch errors into {auth, server, client, network} so the UI can
+// decide between retry-button vs. sign-in-gate vs. plain message. Depends
+// on the `HTTP <code>` shape that src/lib/dp/api.js throws.
+function classifyError(e) {
+  const msg = e && e.message ? String(e.message) : String(e);
+  const m = msg.match(/HTTP\s+(\d{3})/);
+  if (m) {
+    const code = Number(m[1]);
+    if (code === 401 || code === 403) return { kind: 'auth', message: msg };
+    if (code >= 500) return { kind: 'server', message: msg };
+    return { kind: 'client', message: msg };
+  }
+  // No HTTP code: most likely network / CORS / DNS — treat as retryable.
+  return { kind: 'network', message: msg };
+}
+
 function Inner({ t }) {
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
@@ -447,6 +601,7 @@ function Inner({ t }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [editingRow, setEditingRow] = useState(null);
+  const [pendingDelete, setPendingDelete] = useState(null);
   const [msg, setMsg] = useState(null);
 
   async function reload() {
@@ -464,7 +619,16 @@ function Inner({ t }) {
         setRows(dpRes.rows);
       }
     } catch (e) {
-      setError(String(e));
+      const info = classifyError(e);
+      // 401/403: let <SignInGate> take over via meChecked + me === null
+      // path; suppressing the inline error keeps that flow clean.
+      if (info.kind === 'auth') {
+        setMe(null);
+        setMeChecked(true);
+        setError(null);
+      } else {
+        setError(info.message);
+      }
     } finally {
       setLoading(false);
     }
@@ -488,14 +652,17 @@ function Inner({ t }) {
     }
   }
 
-  async function remove(row) {
-    if (!confirm(t.confirmDelete)) return;
+  async function confirmDelete() {
+    const row = pendingDelete;
+    if (!row) return;
     try {
       await deleteDp(row.d.id);
       setMsg({ type: 'ok', text: t.deleted });
+      setPendingDelete(null);
       reload();
     } catch (e) {
       setMsg({ type: 'err', text: `${t.deleteFail}${e.message}` });
+      setPendingDelete(null);
     }
   }
 
@@ -527,7 +694,17 @@ function Inner({ t }) {
       </header>
 
       {loading ? <div className={styles.loading}>{t.loading}</div> : null}
-      {error ? <div className={styles.err}>{error}</div> : null}
+      {error ? (
+        <div className={styles.err}>
+          <span>{error}</span>
+          <button
+            type="button"
+            className={styles.smallBtn}
+            onClick={reload}
+            style={{ marginLeft: 12 }}
+          >{t.retryBtn}</button>
+        </div>
+      ) : null}
 
       {!loading && applicant && rows.length === 0 ? (
         <div className={styles.empty}>
@@ -584,7 +761,7 @@ function Inner({ t }) {
                       >{t.edit}</button>
                       <button
                         className={`${styles.smallBtn} ${styles.dangerBtn}`}
-                        onClick={() => remove(row)}
+                        onClick={() => setPendingDelete(row)}
                         aria-label={fmt(t.deleteAria, rowLabel)}
                       >{t.remove}</button>
                     </td>
@@ -602,6 +779,17 @@ function Inner({ t }) {
           t={t}
           onClose={() => setEditingRow(null)}
           onSave={handleSaveEdit}
+        />
+      ) : null}
+
+      {pendingDelete ? (
+        <ConfirmDialog
+          title={t.confirmDeleteTitle}
+          body={t.confirmDelete}
+          confirmText={t.confirmDeleteBtn}
+          cancelText={t.cancel}
+          onConfirm={confirmDelete}
+          onCancel={() => setPendingDelete(null)}
         />
       ) : null}
     </div>
