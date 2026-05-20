@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 import Translate, { translate } from '@docusaurus/Translate';
 import {
   DndContext,
@@ -798,11 +799,20 @@ export default function TrackerPage() {
 
   const totalCards = cards.length;
 
+  const pageTitle = translate({ id: 'tracker.page.title', message: '申请进度追踪器' });
+  const pageDesc = translate({
+    id: 'tracker.page.description',
+    message: '申请进度追踪：管理研究生申请的轮次、推荐信、文书与截止日期',
+  });
+
   return (
-    <Layout
-      title={translate({ id: 'tracker.page.title', message: '申请进度追踪器' })}
-      description={translate({ id: 'tracker.page.description', message: '管理你的研究生申请进度' })}
-    >
+    <Layout title={pageTitle} description={pageDesc}>
+      <Head>
+        <meta name="description" content={pageDesc} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDesc} />
+        <meta property="og:type" content="website" />
+      </Head>
       <div className={styles.pageWrapper}>
         {/* Top bar */}
         <div className={styles.topBar}>

@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { FIELD_DEFINITIONS } from '@site/src/lib/positioning/profile-schema';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
@@ -10,7 +11,7 @@ import styles from './school-positioning.module.css';
 const COPY = {
   'zh-Hans': {
     pageTitle: 'MSCS 选校定位',
-    pageDesc: '基于你的背景，给出 csgrad tier 档位预估与完整选校方案',
+    pageDesc: '选校定位评估：基于你的背景，给出 csgrad tier 档位预估与完整选校方案',
     backHome: '返回首页',
     heroTitle: 'MSCS 选校定位',
     heroLead: '填写你的背景，立即生成 MSCS 档位预估与选校方向建议。',
@@ -37,7 +38,7 @@ const COPY = {
   },
   en: {
     pageTitle: 'MSCS School Positioning',
-    pageDesc: 'Tier estimation and full school list based on your profile',
+    pageDesc: 'Find the school tier that matches your background — tier estimation and full school list based on your profile',
     backHome: 'Back to home',
     heroTitle: 'MSCS School Positioning',
     heroLead: 'Fill in your profile to get an instant MSCS tier estimate and school direction suggestions.',
@@ -256,6 +257,11 @@ function FormBody() {
     setErrorMsg('');
     if (hasErrors) {
       setPreview(null);
+      const firstKey = Object.keys(errors)[0];
+      // Error keys are either "fieldKey" or "groupKey.subKey"; field ids use dashes.
+      const fieldId = `f-${firstKey.replace('.', '-')}`;
+      const el = document.getElementById(fieldId);
+      if (el) el.focus({ preventScroll: false });
       return;
     }
     try {
@@ -542,11 +548,17 @@ function FormBody() {
 }
 
 export default function SchoolPositioningPage() {
+  const { i18n } = useDocusaurusContext();
+  const locale = pickLocale(i18n.currentLocale);
+  const t = COPY[locale];
   return (
-    <Layout
-      title="MSCS School Positioning"
-      description="Paid MSCS school positioning based on csgrad tier classifier"
-    >
+    <Layout title={t.pageTitle} description={t.pageDesc}>
+      <Head>
+        <meta name="description" content={t.pageDesc} />
+        <meta property="og:title" content={t.pageTitle} />
+        <meta property="og:description" content={t.pageDesc} />
+        <meta property="og:type" content="website" />
+      </Head>
       <BrowserOnly fallback={<div className={styles.pageWrapper} />}>
         {() => <FormBody />}
       </BrowserOnly>

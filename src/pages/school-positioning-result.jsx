@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
 import styles from './school-positioning-result.module.css';
@@ -11,7 +12,7 @@ const MAX_POLLS = 20;
 const COPY = {
   'zh-Hans': {
     pageTitle: '选校定位结果',
-    pageDesc: '你的完整选校方案',
+    pageDesc: '选校定位结果：你的完整 MSCS 选校方案与档位匹配报告',
     backHome: '返回首页',
     backForm: '返回填写页',
     downloadPdf: '下载 PDF 报告',
@@ -42,7 +43,7 @@ const COPY = {
   },
   en: {
     pageTitle: 'Positioning Result',
-    pageDesc: 'Your full school plan',
+    pageDesc: 'Your school positioning result — full MSCS school list and tier-matched plan',
     backHome: 'Back to home',
     backForm: 'Back to form',
     downloadPdf: 'Download PDF',
@@ -408,11 +409,17 @@ function ResultBody() {
 }
 
 export default function SchoolPositioningResultPage() {
+  const { i18n } = useDocusaurusContext();
+  const locale = pickLocale(i18n.currentLocale);
+  const t = COPY[locale];
   return (
-    <Layout
-      title="MSCS Positioning Result"
-      description="Your full school list after positioning checkout"
-    >
+    <Layout title={t.pageTitle} description={t.pageDesc}>
+      <Head>
+        <meta name="description" content={t.pageDesc} />
+        <meta property="og:title" content={t.pageTitle} />
+        <meta property="og:description" content={t.pageDesc} />
+        <meta property="og:type" content="website" />
+      </Head>
       <BrowserOnly fallback={<div className={styles.pageWrapper} />}>
         {() => <ResultBody />}
       </BrowserOnly>
