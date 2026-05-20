@@ -35,23 +35,28 @@ const COPY = {
     adminTag: 'admin',
     heroLead1: '先填一次',
     heroLeadBold: '申请者背景档案',
-    heroLead2: '，再提交每个项目的录取数据点。档案一经保存即锁定（防止历史 DP 背景信息漂移），如需修改请联系 admin。',
+    heroLead2: '，再提交每个项目的录取数据点。档案保存后可以随时回来修改。',
     step1: '步骤 1 · 申请者背景档案',
     step2: '步骤 2 · 提交 DataPoints',
     step2Long: '步骤 2 · 提交 DataPoints（可重复提交多条）',
     saveFirst: '请先保存上方的背景档案。',
     goToStep1: '📋 跳到步骤 1 / Go to step 1',
-    locked: '🔒 已锁定',
     progress: '导航',
-    saved: '已保存（如已锁定需要 admin 解锁才能再改）',
-    created: '档案已创建并锁定。下面可以提交 DP 了。',
+    saved: '已保存',
+    created: '档案已创建。下面可以提交 DP 了。',
     saveFail: '保存失败',
     submitFail: '提交失败',
     submitted: '已提交',
     placeholderSelect: '（请选择）',
     btnSaving: '保存中…',
     btnUpdate: '更新档案',
-    btnCreate: '创建档案（一次性，提交即锁定）',
+    btnCreate: '创建档案',
+    hasGre: '我考过 GRE',
+    hasInternship: '我有实习经历',
+    langTabToefl: 'TOEFL',
+    langTabIelts: 'IELTS',
+    contactPublicWarning: '⚠️ 这里填的内容对所有人公开可见（会显示在你提交的 DP 详情里）。不希望公开的联系方式请不要填。',
+    otherSoftPlaceholder: '比如：美本毕业卖掉自己的 startup、GitHub 2k+ followers、Kaggle Grandmaster、Topcoder Red、知名开源项目核心 maintainer 等',
     btnSubmittingDp: '提交中…',
     btnSubmitDp: '提交这条 DP',
     viewMyDp: '查看我提交过的 DP →',
@@ -67,6 +72,7 @@ const COPY = {
       edu: '教育背景',
       courses: '核心课程修读',
       gpa: 'GPA',
+      lang: '语言考试 (TOEFL / IELTS)',
       toefl: 'TOEFL',
       ielts: 'IELTS',
       gre: 'GRE',
@@ -108,7 +114,7 @@ const COPY = {
       submission_top_other_author: '在投顶会其他作者',
       pub_notes: 'Pub 情况',
       other_soft_background: '其他软背景',
-      contact_info: '个人主页 / 联系方式（仅 admin 可见）',
+      contact_info: '个人主页 / 联系方式（公开可见）',
       rec_notes: '推荐信介绍',
       recLetter: '推荐信',
       result: '结果',
@@ -134,23 +140,28 @@ const COPY = {
     adminTag: 'admin',
     heroLead1: 'First fill in your ',
     heroLeadBold: 'applicant profile',
-    heroLead2: ' once, then submit each program admission data point. Profiles lock after save (to keep historical DP context stable); contact an admin to edit.',
+    heroLead2: ' once, then submit each program admission data point. You can come back and edit your profile any time after saving.',
     step1: 'Step 1 · Applicant profile',
     step2: 'Step 2 · Submit DataPoints',
     step2Long: 'Step 2 · Submit DataPoints (multiple entries allowed)',
     saveFirst: 'Please save your applicant profile above first.',
     goToStep1: '📋 Go to step 1',
-    locked: '🔒 Locked',
     progress: 'Sections',
-    saved: 'Saved (if already locked, ask an admin to unlock to re-edit)',
-    created: 'Profile created and locked. You can now submit DPs below.',
+    saved: 'Saved',
+    created: 'Profile created. You can now submit DPs below.',
     saveFail: 'Save failed',
     submitFail: 'Submission failed',
     submitted: 'Submitted',
     placeholderSelect: '(select)',
     btnSaving: 'Saving…',
     btnUpdate: 'Update profile',
-    btnCreate: 'Create profile (one-time, locks on save)',
+    btnCreate: 'Create profile',
+    hasGre: 'I have GRE scores',
+    hasInternship: 'I have internship experience',
+    langTabToefl: 'TOEFL',
+    langTabIelts: 'IELTS',
+    contactPublicWarning: '⚠️ Anything you put here is PUBLIC (it will show next to your submitted DPs). Do not enter contact info you do not want publicly visible.',
+    otherSoftPlaceholder: 'e.g. sold my startup after a US undergrad, 2k+ GitHub followers, Kaggle Grandmaster, Topcoder Red, core maintainer of a well-known OSS project, etc.',
     btnSubmittingDp: 'Submitting…',
     btnSubmitDp: 'Submit this DP',
     viewMyDp: 'View my submitted DPs →',
@@ -166,6 +177,7 @@ const COPY = {
       edu: 'Education',
       courses: 'Core CS courses taken',
       gpa: 'GPA',
+      lang: 'Language tests (TOEFL / IELTS)',
       toefl: 'TOEFL',
       ielts: 'IELTS',
       gre: 'GRE',
@@ -207,7 +219,7 @@ const COPY = {
       submission_top_other_author: 'In-submission top-venue co-author',
       pub_notes: 'Publication notes',
       other_soft_background: 'Other soft background',
-      contact_info: 'Homepage / contact (admin only)',
+      contact_info: 'Homepage / contact (publicly visible)',
       rec_notes: 'Recommendation notes',
       recLetter: 'Letter',
       result: 'Result',
@@ -378,12 +390,12 @@ const EMPTY_APPLICANT = {
 
 const REQUIRED_FIELDS = ['ug_school_category', 'ug_school_name', 'graduation_year', 'ug_major'];
 
+// `courses` is filtered out for CS / SE majors at render time.
 const SECTION_DEFS = [
   { id: 'edu', labelKey: 'edu' },
   { id: 'courses', labelKey: 'courses' },
   { id: 'gpa', labelKey: 'gpa' },
-  { id: 'toefl', labelKey: 'toefl' },
-  { id: 'ielts', labelKey: 'ielts' },
+  { id: 'lang', labelKey: 'lang' },
   { id: 'gre', labelKey: 'gre' },
   { id: 'research', labelKey: 'research' },
   { id: 'internship', labelKey: 'internship' },
@@ -391,6 +403,19 @@ const SECTION_DEFS = [
   { id: 'pub', labelKey: 'pub' },
   { id: 'other', labelKey: 'other' },
 ];
+
+const MAJORS_HIDE_CORE_COURSES = new Set(['CS', 'SE']);
+const GRE_FIELDS = ['gre_total', 'gre_quant', 'gre_verbal', 'gre_writing'];
+const INTERNSHIP_FIELDS = ['internship_domestic_count', 'internship_overseas_count', 'internship_notes'];
+const TOEFL_FIELDS = ['toefl_total', 'toefl_reading', 'toefl_listening', 'toefl_speaking', 'toefl_writing'];
+const IELTS_FIELDS = ['ielts_total', 'ielts_reading', 'ielts_listening', 'ielts_speaking', 'ielts_writing'];
+
+function anyFilled(obj, keys) {
+  return keys.some((k) => {
+    const v = obj?.[k];
+    return v !== '' && v !== null && v !== undefined;
+  });
+}
 
 function applicantToForm(a) {
   if (!a) return EMPTY_APPLICANT;
@@ -467,7 +492,10 @@ function Inner() {
 
   if (!meChecked) return <div className={styles.loading}>{t.loading}</div>;
 
-  const locked = Boolean(applicant?.lockedAt && me?.role !== 'admin');
+  const hideCourses = MAJORS_HIDE_CORE_COURSES.has(form.ug_major);
+  const visibleSections = hideCourses
+    ? SECTION_DEFS.filter((s) => s.id !== 'courses')
+    : SECTION_DEFS;
 
   const onSignIn = (provider) => {
     startOAuth(provider, t, 'dp_applicant_draft', form);
@@ -555,15 +583,16 @@ function Inner() {
         {msg ? <p className={msg.type === 'ok' ? styles.ok : styles.err} role={msg.type === 'err' ? 'alert' : 'status'}>{msg.text}</p> : null}
       </header>
 
-      <ProgressNav t={t} />
+      <ProgressNav t={t} sections={visibleSections} />
 
       <ApplicantForm
         t={t}
         locale={locale}
         form={form}
+        setForm={setForm}
         setField={setField}
         toggleArrayValue={toggleArrayValue}
-        locked={locked}
+        hideCourses={hideCourses}
         onSave={saveApplicant}
         saving={savingApplicant}
         hasExisting={Boolean(applicant)}
@@ -598,12 +627,12 @@ function Inner() {
 
 // ---------- progress sidebar ----------
 
-function ProgressNav({ t }) {
-  const [active, setActive] = useState(SECTION_DEFS[0].id);
+function ProgressNav({ t, sections }) {
+  const [active, setActive] = useState(sections[0]?.id);
 
   useEffect(() => {
     if (typeof IntersectionObserver === 'undefined') return undefined;
-    const observed = SECTION_DEFS
+    const observed = sections
       .map((s) => document.getElementById(`section-${s.id}`))
       .filter(Boolean);
     if (observed.length === 0) return undefined;
@@ -621,7 +650,7 @@ function ProgressNav({ t }) {
     );
     observed.forEach((el) => io.observe(el));
     return () => io.disconnect();
-  }, []);
+  }, [sections]);
 
   function onJump(e, id) {
     e.preventDefault();
@@ -647,7 +676,7 @@ function ProgressNav({ t }) {
         backdropFilter: 'saturate(140%) blur(4px)',
       }}
     >
-      {SECTION_DEFS.map((s) => {
+      {sections.map((s) => {
         const isActive = active === s.id;
         return (
           <a
@@ -781,13 +810,69 @@ function SignInPromptModal({ t, onSignIn, onClose }) {
 
 // ---------- applicant form ----------
 
-function ApplicantForm({ t, locale, form, setField, toggleArrayValue, locked, onSave, saving, hasExisting, fieldErrors }) {
+function ApplicantForm({ t, locale, form, setForm, setField, toggleArrayValue, hideCourses, onSave, saving, hasExisting, fieldErrors }) {
   const L = t.labels;
+
+  // Tab + toggle state — derived from form contents on mount, then user-driven.
+  // Default lang tab: whichever side has data (TOEFL preferred if both empty / both have data).
+  const [langTab, setLangTab] = useState(() => {
+    if (anyFilled(form, TOEFL_FIELDS)) return 'toefl';
+    if (anyFilled(form, IELTS_FIELDS)) return 'ielts';
+    return 'toefl';
+  });
+  const [greHas, setGreHas] = useState(() => anyFilled(form, GRE_FIELDS));
+  const [internshipHas, setInternshipHas] = useState(() => anyFilled(form, INTERNSHIP_FIELDS));
+
+  // When the loaded applicant data lands later (form was empty on first render),
+  // re-derive the toggles so existing data shows the right expanded state.
+  const formGreSig = GRE_FIELDS.map((k) => form[k]).join('|');
+  const formIntSig = INTERNSHIP_FIELDS.map((k) => form[k]).join('|');
+  const formToeflSig = TOEFL_FIELDS.map((k) => form[k]).join('|');
+  const formIeltsSig = IELTS_FIELDS.map((k) => form[k]).join('|');
+  useEffect(() => {
+    if (anyFilled(form, GRE_FIELDS)) setGreHas(true);
+  }, [formGreSig]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (anyFilled(form, INTERNSHIP_FIELDS)) setInternshipHas(true);
+  }, [formIntSig]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (anyFilled(form, TOEFL_FIELDS) && !anyFilled(form, IELTS_FIELDS)) setLangTab('toefl');
+    else if (anyFilled(form, IELTS_FIELDS) && !anyFilled(form, TOEFL_FIELDS)) setLangTab('ielts');
+  }, [formToeflSig, formIeltsSig]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  function clearFields(keys) {
+    setForm((prev) => {
+      const next = { ...prev };
+      for (const k of keys) next[k] = '';
+      return next;
+    });
+  }
+
+  function onToggleGre(v) {
+    setGreHas(v);
+    if (!v) clearFields(GRE_FIELDS);
+  }
+  function onToggleInternship(v) {
+    setInternshipHas(v);
+    if (!v) clearFields(INTERNSHIP_FIELDS);
+  }
+
+  const tabBtnStyle = (active) => ({
+    padding: '6px 14px',
+    fontSize: 13,
+    fontWeight: 600,
+    borderRadius: 6,
+    border: `1px solid var(--ifm-color-emphasis-${active ? '400' : '200'})`,
+    background: active ? 'var(--ifm-color-primary)' : 'transparent',
+    color: active ? 'var(--ifm-color-white)' : 'var(--ifm-color-emphasis-800)',
+    cursor: 'pointer',
+  });
+
   return (
     <section className={styles.section}>
-      <h2>{t.step1} {locked ? <span className={styles.lockBadge}>{t.locked}</span> : null}</h2>
+      <h2>{t.step1}</h2>
 
-      <fieldset disabled={locked} className={styles.fieldset}>
+      <fieldset className={styles.fieldset}>
         <Group id="section-edu" title={t.groups.edu}>
           <Select id="ug_school_category" label={L.ug_school_category} value={form.ug_school_category} onChange={(v) => setField('ug_school_category', v)} options={UG_CATEGORIES} enumGroup="UG_CATEGORIES" locale={locale} t={t} required error={fieldErrors.ug_school_category} />
           <Text id="ug_school_name" label={L.ug_school_name} value={form.ug_school_name} onChange={(v) => setField('ug_school_name', v)} required error={fieldErrors.ug_school_name} />
@@ -799,9 +884,11 @@ function ApplicantForm({ t, locale, form, setField, toggleArrayValue, locked, on
           <LongText id="education_notes" label={L.education_notes} value={form.education_notes} onChange={(v) => setField('education_notes', v)} />
         </Group>
 
-        <Group id="section-courses" title={t.groups.courses}>
-          <MultiCheck options={CS_COURSES} value={form.cs_courses} onToggle={(o) => toggleArrayValue('cs_courses', o)} enumGroup="CS_COURSES" locale={locale} />
-        </Group>
+        {!hideCourses ? (
+          <Group id="section-courses" title={t.groups.courses}>
+            <MultiCheck options={CS_COURSES} value={form.cs_courses} onToggle={(o) => toggleArrayValue('cs_courses', o)} enumGroup="CS_COURSES" locale={locale} />
+          </Group>
+        ) : null}
 
         <Group id="section-gpa" title={t.groups.gpa}>
           <Select id="gpa_scale" label={L.gpa_scale} value={form.gpa_scale} onChange={(v) => setField('gpa_scale', v)} options={GPA_SCALES} enumGroup="GPA_SCALES" locale={locale} t={t} />
@@ -810,27 +897,44 @@ function ApplicantForm({ t, locale, form, setField, toggleArrayValue, locked, on
           <LongText id="gpa_notes" label={L.gpa_notes} value={form.gpa_notes} onChange={(v) => setField('gpa_notes', v)} />
         </Group>
 
-        <Group id="section-toefl" title={t.groups.toefl}>
-          <NumberInput id="toefl_total" label={L.total} value={form.toefl_total} onChange={(v) => setField('toefl_total', v)} />
-          <NumberInput id="toefl_reading" label={L.reading} value={form.toefl_reading} onChange={(v) => setField('toefl_reading', v)} />
-          <NumberInput id="toefl_listening" label={L.listening} value={form.toefl_listening} onChange={(v) => setField('toefl_listening', v)} />
-          <NumberInput id="toefl_speaking" label={L.speaking} value={form.toefl_speaking} onChange={(v) => setField('toefl_speaking', v)} />
-          <NumberInput id="toefl_writing" label={L.writing} value={form.toefl_writing} onChange={(v) => setField('toefl_writing', v)} />
-        </Group>
-
-        <Group id="section-ielts" title={t.groups.ielts}>
-          <NumberInput id="ielts_total" label={L.total} value={form.ielts_total} onChange={(v) => setField('ielts_total', v)} step="0.5" />
-          <NumberInput id="ielts_reading" label={L.reading} value={form.ielts_reading} onChange={(v) => setField('ielts_reading', v)} step="0.5" />
-          <NumberInput id="ielts_listening" label={L.listening} value={form.ielts_listening} onChange={(v) => setField('ielts_listening', v)} step="0.5" />
-          <NumberInput id="ielts_speaking" label={L.speaking} value={form.ielts_speaking} onChange={(v) => setField('ielts_speaking', v)} step="0.5" />
-          <NumberInput id="ielts_writing" label={L.writing} value={form.ielts_writing} onChange={(v) => setField('ielts_writing', v)} step="0.5" />
+        <Group id="section-lang" title={t.groups.lang}>
+          <div role="tablist" aria-label={t.groups.lang} style={{ display: 'flex', gap: 8, marginBottom: 12, flexWrap: 'wrap' }}>
+            <button type="button" role="tab" aria-selected={langTab === 'toefl'} onClick={() => setLangTab('toefl')} style={tabBtnStyle(langTab === 'toefl')}>
+              {t.langTabToefl}
+            </button>
+            <button type="button" role="tab" aria-selected={langTab === 'ielts'} onClick={() => setLangTab('ielts')} style={tabBtnStyle(langTab === 'ielts')}>
+              {t.langTabIelts}
+            </button>
+          </div>
+          {langTab === 'toefl' ? (
+            <>
+              <NumberInput id="toefl_total" label={L.total} value={form.toefl_total} onChange={(v) => setField('toefl_total', v)} />
+              <NumberInput id="toefl_reading" label={L.reading} value={form.toefl_reading} onChange={(v) => setField('toefl_reading', v)} />
+              <NumberInput id="toefl_listening" label={L.listening} value={form.toefl_listening} onChange={(v) => setField('toefl_listening', v)} />
+              <NumberInput id="toefl_speaking" label={L.speaking} value={form.toefl_speaking} onChange={(v) => setField('toefl_speaking', v)} />
+              <NumberInput id="toefl_writing" label={L.writing} value={form.toefl_writing} onChange={(v) => setField('toefl_writing', v)} />
+            </>
+          ) : (
+            <>
+              <NumberInput id="ielts_total" label={L.total} value={form.ielts_total} onChange={(v) => setField('ielts_total', v)} step="0.5" />
+              <NumberInput id="ielts_reading" label={L.reading} value={form.ielts_reading} onChange={(v) => setField('ielts_reading', v)} step="0.5" />
+              <NumberInput id="ielts_listening" label={L.listening} value={form.ielts_listening} onChange={(v) => setField('ielts_listening', v)} step="0.5" />
+              <NumberInput id="ielts_speaking" label={L.speaking} value={form.ielts_speaking} onChange={(v) => setField('ielts_speaking', v)} step="0.5" />
+              <NumberInput id="ielts_writing" label={L.writing} value={form.ielts_writing} onChange={(v) => setField('ielts_writing', v)} step="0.5" />
+            </>
+          )}
         </Group>
 
         <Group id="section-gre" title={t.groups.gre}>
-          <NumberInput id="gre_total" label={L.total} value={form.gre_total} onChange={(v) => setField('gre_total', v)} />
-          <NumberInput id="gre_quant" label={L.gre_quant} value={form.gre_quant} onChange={(v) => setField('gre_quant', v)} />
-          <NumberInput id="gre_verbal" label={L.gre_verbal} value={form.gre_verbal} onChange={(v) => setField('gre_verbal', v)} />
-          <NumberInput id="gre_writing" label={L.writing} value={form.gre_writing} onChange={(v) => setField('gre_writing', v)} step="0.5" />
+          <Check id="gre_has" label={t.hasGre} value={greHas} onChange={onToggleGre} />
+          {greHas ? (
+            <>
+              <NumberInput id="gre_total" label={L.total} value={form.gre_total} onChange={(v) => setField('gre_total', v)} />
+              <NumberInput id="gre_quant" label={L.gre_quant} value={form.gre_quant} onChange={(v) => setField('gre_quant', v)} />
+              <NumberInput id="gre_verbal" label={L.gre_verbal} value={form.gre_verbal} onChange={(v) => setField('gre_verbal', v)} />
+              <NumberInput id="gre_writing" label={L.writing} value={form.gre_writing} onChange={(v) => setField('gre_writing', v)} step="0.5" />
+            </>
+          ) : null}
         </Group>
 
         <Group id="section-research" title={t.groups.research}>
@@ -840,9 +944,14 @@ function ApplicantForm({ t, locale, form, setField, toggleArrayValue, locked, on
         </Group>
 
         <Group id="section-internship" title={t.groups.internship}>
-          <NumberInput id="internship_domestic_count" label={L.internship_domestic_count} value={form.internship_domestic_count} onChange={(v) => setField('internship_domestic_count', v)} />
-          <NumberInput id="internship_overseas_count" label={L.internship_overseas_count} value={form.internship_overseas_count} onChange={(v) => setField('internship_overseas_count', v)} />
-          <LongText id="internship_notes" label={L.internship_notes} value={form.internship_notes} onChange={(v) => setField('internship_notes', v)} />
+          <Check id="internship_has" label={t.hasInternship} value={internshipHas} onChange={onToggleInternship} />
+          {internshipHas ? (
+            <>
+              <NumberInput id="internship_domestic_count" label={L.internship_domestic_count} value={form.internship_domestic_count} onChange={(v) => setField('internship_domestic_count', v)} />
+              <NumberInput id="internship_overseas_count" label={L.internship_overseas_count} value={form.internship_overseas_count} onChange={(v) => setField('internship_overseas_count', v)} />
+              <LongText id="internship_notes" label={L.internship_notes} value={form.internship_notes} onChange={(v) => setField('internship_notes', v)} />
+            </>
+          ) : null}
         </Group>
 
         <Group id="section-rec" title={t.groups.rec}>
@@ -868,13 +977,25 @@ function ApplicantForm({ t, locale, form, setField, toggleArrayValue, locked, on
         </Group>
 
         <Group id="section-other" title={t.groups.other}>
-          <LongText id="other_soft_background" label={L.other_soft_background} value={form.other_soft_background} onChange={(v) => setField('other_soft_background', v)} />
-          <LongText id="contact_info" label={L.contact_info} value={form.contact_info} onChange={(v) => setField('contact_info', v)} />
+          <LongText
+            id="other_soft_background"
+            label={L.other_soft_background}
+            value={form.other_soft_background}
+            onChange={(v) => setField('other_soft_background', v)}
+            placeholder={t.otherSoftPlaceholder}
+          />
+          <LongText
+            id="contact_info"
+            label={L.contact_info}
+            value={form.contact_info}
+            onChange={(v) => setField('contact_info', v)}
+            hint={t.contactPublicWarning}
+          />
         </Group>
       </fieldset>
 
       <div className={styles.actions}>
-        <button className={styles.primaryBtn} disabled={locked || saving} onClick={onSave}>
+        <button className={styles.primaryBtn} disabled={saving} onClick={onSave}>
           {saving ? t.btnSaving : hasExisting ? t.btnUpdate : t.btnCreate}
         </button>
       </div>
@@ -1208,9 +1329,10 @@ function Check({ id, label, value, onChange }) {
   );
 }
 
-function LongText({ id, label, value, onChange }) {
+function LongText({ id, label, value, onChange, placeholder, hint }) {
   const reactId = useId();
   const inputId = fieldId(id, reactId);
+  const hintId = hint ? `${inputId}-hint` : undefined;
   return (
     <label className={`${styles.field} ${styles.longTextField}`} htmlFor={inputId}>
       <span>{label}</span>
@@ -1220,7 +1342,27 @@ function LongText({ id, label, value, onChange }) {
         rows={3}
         value={value ?? ''}
         onChange={(e) => onChange(e.target.value)}
+        placeholder={placeholder || undefined}
+        aria-describedby={hintId}
       />
+      {hint ? (
+        <span
+          id={hintId}
+          style={{
+            display: 'block',
+            marginTop: 4,
+            fontSize: 12,
+            lineHeight: 1.4,
+            color: 'var(--ifm-color-warning-darker, #92400e)',
+            background: 'var(--ifm-color-warning-contrast-background, #fef3c7)',
+            border: '1px solid var(--ifm-color-warning-contrast-foreground, #fbbf24)',
+            borderRadius: 6,
+            padding: '6px 10px',
+          }}
+        >
+          {hint}
+        </span>
+      ) : null}
     </label>
   );
 }
