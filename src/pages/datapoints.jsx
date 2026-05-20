@@ -65,6 +65,7 @@ const COPY = {
     pubPstar: '已发表 · 顶会合作者',
     pubS1: '在投 · 顶会一作',
     pubSstar: '在投 · 顶会合作者',
+    pubLegend: 'P=已发表 S=在投 ｜ 1=一作 *=合作者',
     notesTitle: '查看备注详情',
     notesDialog: '备注详情',
     closeDialog: '关闭',
@@ -155,6 +156,7 @@ const COPY = {
     pubPstar: 'Published · top venue, co-author',
     pubS1: 'Under submission · top venue, first author',
     pubSstar: 'Under submission · top venue, co-author',
+    pubLegend: 'P=Published S=Submission | 1=First author *=Co-author',
     notesTitle: 'View notes',
     notesDialog: 'Notes',
     closeDialog: 'Close',
@@ -540,7 +542,20 @@ function DesktopTable({ rows, t, onRowClick }) {
             <th scope="col">{t.thGpa}</th>
             <th scope="col">{t.thResearch}</th>
             <th scope="col">{t.thInternship}</th>
-            <th scope="col">{t.thPub}</th>
+            <th scope="col" title={t.pubLegend}>
+              <div>{t.thPub}</div>
+              <div
+                style={{
+                  fontSize: 11,
+                  fontWeight: 400,
+                  color: 'var(--ifm-color-emphasis-600)',
+                  marginTop: 2,
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {t.pubLegend}
+              </div>
+            </th>
             <th scope="col">{t.thNotes}</th>
           </tr>
         </thead>
@@ -768,8 +783,20 @@ function MobileCards({ rows, t, onCardClick }) {
             <span style={labelStyle}>{t.cardLabelInternship}</span>
             <span><CountInlineBadges domestic={a.internship_domestic_count} overseas={a.internship_overseas_count} t={t} /></span>
           </div>
-          <div style={row}>
-            <span style={labelStyle}>{t.cardLabelPub}</span>
+          <div style={{ ...row, alignItems: 'flex-start' }}>
+            <span style={labelStyle}>
+              {t.cardLabelPub}
+              <div
+                style={{
+                  fontSize: 11,
+                  color: 'var(--ifm-color-emphasis-500)',
+                  marginTop: 2,
+                  fontWeight: 400,
+                }}
+              >
+                {t.pubLegend}
+              </div>
+            </span>
             <span><PubBadges a={a} t={t} /></span>
           </div>
           <div style={{ ...row, alignItems: 'flex-start' }}>

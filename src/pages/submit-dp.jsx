@@ -70,6 +70,7 @@ const COPY = {
     badgeFinal: '最终',
     progSearchLabel: '项目（搜学校或 program 名）',
     progSearchPlaceholder: '如 stanford mscs / CMU MIIS',
+    pubLegend: 'P=已发表 S=在投 ｜ 1=一作 *=合作者',
     groups: {
       edu: '教育背景',
       courses: '核心课程修读',
@@ -176,6 +177,7 @@ const COPY = {
     badgeFinal: 'Final',
     progSearchLabel: 'Program (search school or program name)',
     progSearchPlaceholder: 'e.g. stanford mscs / CMU MIIS',
+    pubLegend: 'P=Published S=Submission | 1=First author *=Co-author',
     groups: {
       edu: 'Education',
       courses: 'Core CS courses taken',
@@ -946,6 +948,15 @@ function ApplicantForm({ t, locale, form, setForm, setField, toggleArrayValue, h
         </Group>
 
         <Group id="section-pub" title={t.groups.pub}>
+          <div
+            style={{
+              fontSize: 11,
+              color: 'var(--ifm-color-emphasis-600)',
+              marginBottom: 8,
+            }}
+          >
+            {t.pubLegend}
+          </div>
           <Check id="pub_top_first_author" label={L.pub_top_first_author} value={form.pub_top_first_author} onChange={(v) => setField('pub_top_first_author', v)} />
           <Check id="pub_top_other_author" label={L.pub_top_other_author} value={form.pub_top_other_author} onChange={(v) => setField('pub_top_other_author', v)} />
           <Check id="submission_top_first_author" label={L.submission_top_first_author} value={form.submission_top_first_author} onChange={(v) => setField('submission_top_first_author', v)} />
