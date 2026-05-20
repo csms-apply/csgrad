@@ -16,6 +16,7 @@ const COPY = {
   'zh-Hans': {
     pageTitle: '我的 DataPoints',
     pageDesc: '管理你提交过的 csgrad DataPoints：查看、编辑、删除你的申请结果记录。',
+    browseAll: '← 浏览所有 DataPoints',
     loading: '加载中…',
     needSignIn: '需要登录',
     signInTip: '登录后才能查看你自己提交过的 DataPoints。',
@@ -72,6 +73,7 @@ const COPY = {
   en: {
     pageTitle: 'My DataPoints',
     pageDesc: 'Manage the csgrad DataPoints you have submitted: view, edit, and delete your application result records.',
+    browseAll: '← Browse all DataPoints',
     loading: 'Loading…',
     needSignIn: 'Sign in required',
     signInTip: 'You need to sign in to view DataPoints you have submitted.',
@@ -675,7 +677,10 @@ function Inner({ t }) {
     <div className={styles.wrap}>
       <header className={styles.header}>
         <div className={styles.headerTop}>
-          <h1>{t.heading}</h1>
+          <div>
+            <h1>{t.heading}</h1>
+            <a href="/datapoints" className={styles.backLink}>{t.browseAll}</a>
+          </div>
           <div className={styles.headerRight}>
             <span className={styles.meBadge}>👤 {me.nickname}{me.role === 'admin' ? t.adminTag : ''}</span>
             <button className={styles.linkBtn} onClick={handleSignOut}>{t.signOut}</button>

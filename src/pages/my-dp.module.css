@@ -36,6 +36,13 @@
   flex-wrap: wrap;
 }
 .headerRight { display: flex; align-items: center; gap: 8px; }
+.backLink {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none;
+}
+.backLink:hover { text-decoration: underline; }
 .lead { color: var(--ifm-color-emphasis-700); font-size: 14px; margin: 0 0 12px; }
 .notice {
   padding: 10px 14px;
