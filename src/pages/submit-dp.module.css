@@ -45,6 +45,13 @@
   gap: 12px;
   flex-wrap: wrap;
 }
+.backLink {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none;
+}
+.backLink:hover { text-decoration: underline; }
 .lead { color: var(--ifm-color-emphasis-700); font-size: 14px; margin: 0 0 8px; line-height: 1.6; }
 .meBadge {
   padding: 4px 10px;

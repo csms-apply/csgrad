@@ -27,6 +27,7 @@ const COPY = {
   'zh-Hans': {
     pageTitle: '提交 DataPoints',
     pageDesc: 'csgrad DataPoints 提交：先填申请者背景档案，再提交录取数据点。',
+    browseAll: '← 浏览所有 DataPoints',
     loading: '加载中…',
     needSignIn: '需要登录',
     signInLead: '用 Google 或 GitHub 登录后才能提交 DataPoints。',
@@ -134,6 +135,7 @@ const COPY = {
   en: {
     pageTitle: 'Submit DataPoints',
     pageDesc: 'csgrad DataPoints submission: fill out your applicant profile, then submit each admission data point.',
+    browseAll: '← Browse all DataPoints',
     loading: 'Loading…',
     needSignIn: 'Sign in required',
     signInLead: 'Sign in with Google or GitHub to submit DataPoints.',
@@ -583,7 +585,10 @@ function Inner() {
     <div className={styles.wrap}>
       <header className={styles.header}>
         <div className={styles.headerTop}>
-          <h1>{t.pageTitle}</h1>
+          <div>
+            <h1>{t.pageTitle}</h1>
+            <a href="/datapoints" className={styles.backLink}>{t.browseAll}</a>
+          </div>
           {me ? (
             <span className={styles.meBadge}>
               {t.youAre} {me.nickname}{me.role === 'admin' ? ` · ${t.adminTag}` : ''}

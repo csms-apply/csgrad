@@ -106,6 +106,11 @@ const config = {
             label: '申请跟踪',
           },
           {
+            to: '/my-dp',
+            position: 'left',
+            label: '我的 DataPoints',
+          },
+          {
             href: 'https://github.com/csms-apply/csgrad',
             label: 'GitHub',
             position: 'right',

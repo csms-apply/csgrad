@@ -26,5 +26,9 @@
   "item.label.选校定位": {
     "message": "Positioning",
     "description": "Navbar item with label 选校定位"
+  },
+  "item.label.我的 DataPoints": {
+    "message": "My DataPoints",
+    "description": "Navbar item with label 我的 DataPoints"
   }
 }
