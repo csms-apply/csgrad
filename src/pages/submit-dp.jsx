@@ -554,7 +554,7 @@ function Inner() {
         setMsg({ type: 'ok', text: t.saved });
       } else {
         const r = await createMyApplicant(payload);
-        setApplicant(r.row);
+        setApplicant(r.applicant);
         setMsg({ type: 'ok', text: t.created });
       }
     } catch (e) {
