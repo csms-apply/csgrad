@@ -120,15 +120,23 @@ function buildUrl(path, params) {
   return url.toString();
 }
 
-// Also expose snapshot counts for the header. Always reads from the local
-// snapshot to avoid an extra round-trip (the API would need a /api/stats route).
+// Counts for the header. Prefer the live worker (/api/stats) so newly
+// submitted DPs are reflected; fall back to the frozen snapshot if the
+// worker is unreachable.
 export async function getCounts() {
   try {
-    const snap = await loadSnapshot();
-    return snap.counts;
+    const r = await fetch(`${DP_API_BASE}/api/stats`, { credentials: 'include' });
+    if (r.ok) return await r.json();
+    throw new Error(`HTTP ${r.status}`);
   } catch (err) {
-    warnDev('getCounts failed:', err && err.message ? err.message : err);
-    return { applicants: 0, programs: 0, datapoints: 0 };
+    warnDev('getCounts live fetch failed, falling back to snapshot:', err && err.message ? err.message : err);
+    try {
+      const snap = await loadSnapshot();
+      return snap.counts;
+    } catch (err2) {
+      warnDev('getCounts snapshot fallback failed:', err2 && err2.message ? err2.message : err2);
+      return { applicants: 0, programs: 0, datapoints: 0 };
+    }
   }
 }
 
