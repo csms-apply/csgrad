@@ -67,22 +67,6 @@
   color: #a09080;
 }
 
-.pricePill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, #c9a96e 0%, #b8985d 100%);
-  color: #fff;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
-.priceAmount {
-  font-size: 1rem;
-}
-
 .banner {
   padding: 12px 18px;
   border-radius: 10px;
@@ -289,34 +273,6 @@
 .primaryBtn:disabled {
   opacity: 0.6;
   cursor: not-allowed;
-}
-
-.secondaryBtn {
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: 1px solid #d9c9a8;
-  background: #fff;
-  color: #7a6a5a;
-  font-size: 0.88rem;
-  font-weight: 500;
-  cursor: pointer;
-  font-family: inherit;
-}
-
-[data-theme='dark'] .secondaryBtn {
-  background: #2a2520;
-  color: #a09080;
-  border-color: #4a4035;
-}
-
-.secondaryBtn:hover {
-  background: #f5efe6;
-  border-color: #c9a96e;
-}
-
-[data-theme='dark'] .secondaryBtn:hover {
-  background: #353025;
-  border-color: #c9a96e;
 }
 
 .previewCard {
