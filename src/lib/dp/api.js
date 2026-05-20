@@ -115,9 +115,9 @@ export async function getFilterOptions() {
   }
 }
 
-// Reorder tiers by canonical rank, append non-canonical at the end.
 function reorderTiers(opts) {
   const tiers = opts.tiers || [];
+  // Reorder by canonical tier rank, append non-canonical at the end.
   const tierList = TIER_ORDER.filter((t) => tiers.includes(t));
   for (const t of tiers) if (!TIER_ORDER.includes(t)) tierList.push(t);
   return {
