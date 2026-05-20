@@ -90,14 +90,34 @@ const TIER_ORDER = ['SSS', 'SS', 'S', 'A', 'B', 'C', 'D'];
 
 /**
  * Returns the filter-option lists used by the DataPoints page filters.
- * Reads the slim snapshot (~2KB) and reorders tiers by the canonical order.
+ * Prefers the live worker (/api/filter-options) so newly submitted DPs'
+ * schools / majors / years show up in the dropdowns; falls back to the
+ * frozen snapshot if the worker is unreachable.
  * @returns {Promise<{schools: string[], tiers: string[], years: number[], ugCats: string[], majors: string[]}>}
  */
 export async function getFilterOptions() {
-  const snap = await loadSnapshot();
-  const opts = snap.options || {};
+  try {
+    const r = await fetch(`${DP_API_BASE}/api/filter-options`, { credentials: 'include' });
+    if (r.ok) {
+      const opts = await r.json();
+      return reorderTiers(opts);
+    }
+    throw new Error(`HTTP ${r.status}`);
+  } catch (err) {
+    warnDev('getFilterOptions live fetch failed, falling back to snapshot:', err && err.message ? err.message : err);
+    try {
+      const snap = await loadSnapshot();
+      return reorderTiers(snap.options || {});
+    } catch (err2) {
+      warnDev('getFilterOptions snapshot fallback failed:', err2 && err2.message ? err2.message : err2);
+      return { schools: [], tiers: [], years: [], ugCats: [], majors: [] };
+    }
+  }
+}
+
+// Reorder tiers by canonical rank, append non-canonical at the end.
+function reorderTiers(opts) {
   const tiers = opts.tiers || [];
-  // Reorder by canonical tier rank, append non-canonical at the end.
   const tierList = TIER_ORDER.filter((t) => tiers.includes(t));
   for (const t of tiers) if (!TIER_ORDER.includes(t)) tierList.push(t);
   return {
