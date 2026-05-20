@@ -12,6 +12,7 @@ const MOBILE_BREAKPOINT = 768;
 
 // Pre-hydration / no-JS fallback counts. Refresh when snapshot regenerates.
 const STATIC_COUNTS = { datapoints: 1908, applicants: 317, programs: 280 };
+const EMPTY_FILTER_OPTS = { schools: [], tiers: [], years: [], ugCats: [], majors: [] };
 
 const COPY = {
   'zh-Hans': {
@@ -233,8 +234,12 @@ function StaticHero({ t, counts }) {
 // ---------- Inner: data load orchestration ----------
 
 function Inner({ t }) {
-  const [counts, setCounts] = useState(null);
-  const [filterOpts, setFilterOpts] = useState(null);
+  // Render the page shell immediately with STATIC_COUNTS + empty filter
+  // dropdowns; counts/filterOpts populate async without blocking the UI.
+  // The Table mounts in parallel and starts fetching rows right away.
+  // Avoids a 500ms+ full-screen "Loading…" splash gating everything.
+  const [counts, setCounts] = useState(STATIC_COUNTS);
+  const [filterOpts, setFilterOpts] = useState(EMPTY_FILTER_OPTS);
   const [error, setError] = useState(null);
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
@@ -265,7 +270,6 @@ function Inner({ t }) {
   }, []);
 
   if (error) return <div className={styles.errorBox}>{t.loadFail}{error}</div>;
-  if (!counts || !filterOpts) return <div className={styles.loading}>{t.loadingData}</div>;
   return <Table counts={counts} filterOpts={filterOpts} me={me} meChecked={meChecked} t={t} />;
 }
 
@@ -345,9 +349,15 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const [apiError, setApiError] = useState(null);
+  const firstFetchRef = useRef(true);
 
   useEffect(() => {
     let cancelled = false;
+    // First fetch fires immediately so the table appears as fast as possible;
+    // subsequent filter/page changes get a 250ms debounce to coalesce rapid
+    // dropdown clicks.
+    const delay = firstFetchRef.current ? 0 : 250;
+    firstFetchRef.current = false;
     const handle = setTimeout(async () => {
       setLoading(true);
       setApiError(null);
@@ -370,7 +380,7 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
       } finally {
         if (!cancelled) setLoading(false);
       }
-    }, 250);
+    }, delay);
     return () => { cancelled = true; clearTimeout(handle); };
   }, [school, tier, year, result, ugCat, major, page]);
 
