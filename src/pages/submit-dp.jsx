@@ -4,7 +4,6 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {
-  DP_API_BASE,
   getMe,
   getMyApplicant,
   createMyApplicant,
@@ -17,6 +16,8 @@ import {
   GPA_SCALES, GPA_RANKS, REC_TAGS, REC_TAGS_WITH_NONE,
   RESULTS, SEMESTERS,
 } from '@site/src/lib/dp/enums';
+import SignInButtons from '@site/src/lib/auth/SignInButtons';
+import { startOAuth } from '@site/src/lib/auth/oauth';
 import styles from './submit-dp.module.css';
 
 // ---------- i18n ----------
@@ -28,9 +29,10 @@ const COPY = {
     loading: '加载中…',
     needSignIn: '需要登录',
     signInLead: '用 Google 或 GitHub 登录后才能提交 DataPoints。',
-    googleSignIn: 'Google 登录',
-    githubSignIn: 'GitHub 登录',
+    signInGoogle: 'Google 登录',
+    signInGitHub: 'GitHub 登录',
     signInFail: '登录失败',
+    closeDialog: '关闭',
     youAre: '👤',
     adminTag: 'admin',
     heroLead1: '先填一次',
@@ -133,9 +135,10 @@ const COPY = {
     loading: 'Loading…',
     needSignIn: 'Sign in required',
     signInLead: 'Sign in with Google or GitHub to submit DataPoints.',
-    googleSignIn: 'Sign in with Google',
-    githubSignIn: 'Sign in with GitHub',
+    signInGoogle: 'Sign in with Google',
+    signInGitHub: 'Sign in with GitHub',
     signInFail: 'Sign-in failed',
+    closeDialog: 'Close',
     youAre: '👤',
     adminTag: 'admin',
     heroLead1: 'First fill in your ',
@@ -460,6 +463,7 @@ function Inner() {
   const [msg, setMsg] = useState(null);
   const [fieldErrors, setFieldErrors] = useState({});
   const [showSignInModal, setShowSignInModal] = useState(false);
+  const [signInError, setSignInError] = useState(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -497,8 +501,16 @@ function Inner() {
     ? SECTION_DEFS.filter((s) => s.id !== 'courses')
     : SECTION_DEFS;
 
-  const onSignIn = (provider) => {
-    startOAuth(provider, t, 'dp_applicant_draft', form);
+  const onSignIn = async (provider) => {
+    setSignInError(null);
+    try {
+      await startOAuth(provider, {
+        draftKey: 'dp_applicant_draft',
+        draftValue: form,
+      });
+    } catch (e) {
+      setSignInError(e.message || String(e));
+    }
   };
 
   function setField(k, v) {
@@ -574,13 +586,16 @@ function Inner() {
               {t.youAre} {me.nickname}{me.role === 'admin' ? ` · ${t.adminTag}` : ''}
             </span>
           ) : (
-            <SignInButtonRow t={t} onSignIn={onSignIn} />
+            <SignInButtons t={t} onSignIn={onSignIn} variant="group" />
           )}
         </div>
         <p className={styles.lead}>
           {t.heroLead1}<strong>{t.heroLeadBold}</strong>{t.heroLead2}
         </p>
         {msg ? <p className={msg.type === 'ok' ? styles.ok : styles.err} role={msg.type === 'err' ? 'alert' : 'status'}>{msg.text}</p> : null}
+        {!me && signInError ? (
+          <p className={styles.err} role="alert">{t.signInFail}: {signInError}</p>
+        ) : null}
       </header>
 
       <ProgressNav t={t} sections={visibleSections} />
@@ -619,7 +634,12 @@ function Inner() {
       )}
 
       {showSignInModal ? (
-        <SignInPromptModal t={t} onSignIn={onSignIn} onClose={() => setShowSignInModal(false)} />
+        <SignInPromptModal
+          t={t}
+          onSignIn={onSignIn}
+          signInError={signInError}
+          onClose={() => { setShowSignInModal(false); setSignInError(null); }}
+        />
       ) : null}
     </div>
   );
@@ -703,61 +723,13 @@ function ProgressNav({ t, sections }) {
   );
 }
 
-// ---------- sign-in buttons (with brand icons) ----------
+// ---------- sign-in prompt modal ----------
+//
+// The Google / GitHub button row + the underlying OAuth call live in
+// src/lib/auth/. This modal is a thin container that hosts the shared
+// SignInButtons and renders inline errors instead of using alert().
 
-function GoogleIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style={{ display: 'inline-block', verticalAlign: '-3px', marginRight: 6 }}>
-      <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-      <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-      <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-      <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-    </svg>
-  );
-}
-
-function GitHubIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style={{ display: 'inline-block', verticalAlign: '-3px', marginRight: 6 }}>
-      <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-    </svg>
-  );
-}
-
-async function startOAuth(provider, t, draftKey, draftValue) {
-  // Save draft to localStorage so the form survives the OAuth redirect.
-  if (draftKey && draftValue) {
-    try { localStorage.setItem(draftKey, JSON.stringify(draftValue)); } catch {}
-  }
-  try {
-    const r = await fetch(`${DP_API_BASE}/api/auth/sign-in/social`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      credentials: 'include',
-      body: JSON.stringify({ provider, callbackURL: window.location.href }),
-    });
-    const data = await r.json();
-    if (data.url) window.location.href = data.url;
-    else alert(`${t.signInFail}: ${data.message || 'unknown'}`);
-  } catch (e) {
-    alert(`${t.signInFail}: ${e.message}`);
-  }
-}
-
-function SignInButtonRow({ t, onSignIn }) {
-  return (
-    <div className={styles.signInGroup}>
-      <button type="button" className={styles.signInBtn} onClick={() => onSignIn('google')}>
-        <GoogleIcon />{t.googleSignIn}
-      </button>
-      <button type="button" className={styles.signInBtn} onClick={() => onSignIn('github')}>
-        <GitHubIcon />{t.githubSignIn}
-      </button>
-    </div>
-  );
-}
-
-function SignInPromptModal({ t, onSignIn, onClose }) {
+function SignInPromptModal({ t, onSignIn, signInError, onClose }) {
   const ref = React.useRef(null);
   useEffect(() => {
     const onKey = (e) => { if (e.key === 'Escape') onClose(); };
@@ -791,7 +763,12 @@ function SignInPromptModal({ t, onSignIn, onClose }) {
         <p style={{ marginTop: 0, marginBottom: 16, color: 'var(--ifm-color-emphasis-700)' }}>
           {t.signInLead}
         </p>
-        <SignInButtonRow t={t} onSignIn={onSignIn} />
+        <SignInButtons t={t} onSignIn={onSignIn} variant="group" />
+        {signInError ? (
+          <p role="alert" style={{ marginTop: 12, marginBottom: 0, color: 'var(--ifm-color-danger, #c0392b)', fontSize: 13 }}>
+            {t.signInFail}: {signInError}
+          </p>
+        ) : null}
         <button
           type="button"
           onClick={onClose}
@@ -801,7 +778,7 @@ function SignInPromptModal({ t, onSignIn, onClose }) {
             fontSize: 12, padding: 0,
           }}
         >
-          {t.closeDialog || 'Cancel'}
+          {t.closeDialog}
         </button>
       </div>
     </div>

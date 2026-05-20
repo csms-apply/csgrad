@@ -3,7 +3,9 @@ import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { DP_API_BASE, getMe, listDp, getFilterOptions, getCounts } from '@site/src/lib/dp/api';
+import { getMe, listDp, getFilterOptions, getCounts } from '@site/src/lib/dp/api';
+import SignInButtons from '@site/src/lib/auth/SignInButtons';
+import { startOAuth } from '@site/src/lib/auth/oauth';
 import styles from './datapoints.module.css';
 
 const PAGE_SIZE = 50;
@@ -269,30 +271,27 @@ function Inner({ t }) {
   return <Table counts={counts} filterOpts={filterOpts} me={me} meChecked={meChecked} t={t} />;
 }
 
+// Header sign-in CTA: delegates to the shared SignInButtons + startOAuth.
+// Errors are rendered inline (matches the `apiError` pattern elsewhere on
+// this page) instead of the old alert() popup.
 function SignInButton({ t }) {
-  async function signIn(provider) {
-    const callbackURL = window.location.href;
+  const [err, setErr] = useState(null);
+  async function onSignIn(provider) {
+    setErr(null);
     try {
-      const r = await fetch(`${DP_API_BASE}/api/auth/sign-in/social`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        credentials: 'include',
-        body: JSON.stringify({ provider, callbackURL }),
-      });
-      const data = await r.json();
-      if (data.url) {
-        window.location.href = data.url;
-      } else {
-        alert(`${t.signInFailed}${data.message || 'unknown error'}`);
-      }
+      await startOAuth(provider);
     } catch (e) {
-      alert(`${t.signInFailed}${e.message}`);
+      setErr(e.message || String(e));
     }
   }
   return (
     <span className={styles.signInGroup}>
-      <button className={styles.signInBtn} onClick={() => signIn('google')}>{t.signInGoogle}</button>
-      <button className={styles.signInBtn} onClick={() => signIn('github')}>{t.signInGitHub}</button>
+      <SignInButtons onSignIn={onSignIn} t={t} variant="inline" />
+      {err ? (
+        <span className={styles.liveErr} role="alert" style={{ marginLeft: 8 }}>
+          <span aria-hidden="true">⚠️ </span>{t.signInFailed}{err}
+        </span>
+      ) : null}
     </span>
   );
 }
