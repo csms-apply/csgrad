@@ -6,8 +6,6 @@ import { FIELD_DEFINITIONS } from '@site/src/lib/positioning/profile-schema';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
 import styles from './school-positioning.module.css';
 
-const PRICE_USD = 29.99;
-const PRICE_LABEL = '$29.99';
 
 const COPY = {
   'zh-Hans': {
@@ -30,7 +28,7 @@ const COPY = {
     rationaleLabel: '评估依据',
     paywallTitle: '解锁完整选校方案',
     paywallText: '付费后将获得：与你档位匹配的完整学校列表（reach / match / safety 三栏）、每所学校的推荐理由、对应项目页面链接。',
-    payBtn: '付费查看完整方案',
+    payBtn: '查看付费完整方案',
     payNote: '安全支付由 Stripe 提供。如已付款无法返回，请直接通过结果页 URL 查看。',
     paying: '正在跳转到 Stripe…',
     yes: '是',
@@ -57,7 +55,7 @@ const COPY = {
     rationaleLabel: 'Why this tier',
     paywallTitle: 'Unlock the full school list',
     paywallText: 'After paying you get: the full list of schools matched to your tier (reach / match / safety), reasoning for each pick, and links to the program pages.',
-    payBtn: 'Pay to view full plan',
+    payBtn: 'View full paid plan',
     payNote: 'Secure checkout by Stripe. If you cannot return automatically, open the result page URL directly.',
     paying: 'Redirecting to Stripe…',
     yes: 'Yes',
@@ -532,7 +530,7 @@ function FormBody() {
                 onClick={handlePay}
                 disabled={paying}
               >
-                {paying ? t.paying : `${t.payBtn} · ${PRICE_LABEL}`}
+                {paying ? t.paying : t.payBtn}
               </button>
               <p className={styles.payNote}>{t.payNote}</p>
             </div>
