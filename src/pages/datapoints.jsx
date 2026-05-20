@@ -24,14 +24,13 @@ const COPY = {
     metaApplicants: '位申请者',
     metaPrograms: '个项目',
     metaDatapoints: '条录取数据',
-    beta: '新版预览 (beta)',
     dataNote: '注：数据来源于历史 Seatable 归档，个人识别字段（联系方式 / 备注 / 推荐信详情等）已脱敏。',
     loadingData: '加载 DataPoints…',
     loadFail: '加载数据失败：',
     searchPlaceholder: '搜索学校 / 项目',
     searchLabel: '搜索',
     filterSchool: '学校',
-    filterTier: 'Tier',
+    filterTier: '项目档次',
     filterYear: '年份',
     filterResult: '结果',
     filterUgCat: '本科类别',
@@ -47,7 +46,7 @@ const COPY = {
     thResult: '结果',
     thProgram: '项目',
     thYear: '年份',
-    thUgCategory: '档次',
+    thUgCategory: '本科档次',
     thUgSchool: '本科',
     thMajor: '专业',
     thGpa: 'GPA',
@@ -57,6 +56,8 @@ const COPY = {
     thNotes: '备注',
     funded: '带奖',
     finalDest: '最终去向',
+    badgeFunded: '奖',
+    badgeFinal: '最终',
     countDomestic: '国内',
     countOverseas: '国外',
     countLabel: (d, o) => `国内 ${d} 段 / 国外 ${o} 段`,
@@ -113,14 +114,13 @@ const COPY = {
     metaApplicants: 'applicants',
     metaPrograms: 'programs',
     metaDatapoints: 'datapoints',
-    beta: 'new preview (beta)',
     dataNote: 'Note: data comes from a historical Seatable archive. Personally identifying fields (contacts / private notes / reference details) have been redacted.',
     loadingData: 'Loading DataPoints…',
     loadFail: 'Failed to load data: ',
     searchPlaceholder: 'Search school / program',
     searchLabel: 'Search',
     filterSchool: 'School',
-    filterTier: 'Tier',
+    filterTier: 'Program tier',
     filterYear: 'Year',
     filterResult: 'Result',
     filterUgCat: 'Undergrad type',
@@ -136,7 +136,7 @@ const COPY = {
     thResult: 'Result',
     thProgram: 'Program',
     thYear: 'Year',
-    thUgCategory: 'Tier',
+    thUgCategory: 'Undergrad tier',
     thUgSchool: 'Undergrad',
     thMajor: 'Major',
     thGpa: 'GPA',
@@ -146,6 +146,8 @@ const COPY = {
     thNotes: 'Notes',
     funded: 'Funded',
     finalDest: 'Final destination',
+    badgeFunded: 'Funded',
+    badgeFinal: 'Final',
     countDomestic: 'Domestic',
     countOverseas: 'Overseas',
     countLabel: (d, o) => `${d} domestic / ${o} overseas`,
@@ -454,43 +456,45 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         />
       ) : null}
 
-      <nav className={styles.pager} aria-label="pagination">
-        <button
-          disabled={page === 0}
-          onClick={() => setPage(0)}
-          aria-label={t.pageFirstAria}
-          type="button"
-        >
-          <span aria-hidden="true">« </span>{t.pageFirst}
-        </button>
-        <button
-          disabled={page === 0}
-          onClick={() => setPage((p) => p - 1)}
-          aria-label={t.pagePrevAria}
-          type="button"
-        >
-          <span aria-hidden="true">‹ </span>{t.pagePrev}
-        </button>
-        <span aria-live="polite">
-          {page + 1} / {totalPages}
-        </span>
-        <button
-          disabled={page >= totalPages - 1}
-          onClick={() => setPage((p) => p + 1)}
-          aria-label={t.pageNextAria}
-          type="button"
-        >
-          {t.pageNext}<span aria-hidden="true"> ›</span>
-        </button>
-        <button
-          disabled={page >= totalPages - 1}
-          onClick={() => setPage(totalPages - 1)}
-          aria-label={t.pageLastAria}
-          type="button"
-        >
-          {t.pageLast}<span aria-hidden="true"> »</span>
-        </button>
-      </nav>
+      {totalCount > 0 ? (
+        <nav className={styles.pager} aria-label="pagination">
+          <button
+            disabled={page === 0}
+            onClick={() => setPage(0)}
+            aria-label={t.pageFirstAria}
+            type="button"
+          >
+            <span aria-hidden="true">« </span>{t.pageFirst}
+          </button>
+          <button
+            disabled={page === 0}
+            onClick={() => setPage((p) => p - 1)}
+            aria-label={t.pagePrevAria}
+            type="button"
+          >
+            <span aria-hidden="true">‹ </span>{t.pagePrev}
+          </button>
+          <span aria-live="polite">
+            {page + 1} / {totalPages}
+          </span>
+          <button
+            disabled={page >= totalPages - 1}
+            onClick={() => setPage((p) => p + 1)}
+            aria-label={t.pageNextAria}
+            type="button"
+          >
+            {t.pageNext}<span aria-hidden="true"> ›</span>
+          </button>
+          <button
+            disabled={page >= totalPages - 1}
+            onClick={() => setPage(totalPages - 1)}
+            aria-label={t.pageLastAria}
+            type="button"
+          >
+            {t.pageLast}<span aria-hidden="true"> »</span>
+          </button>
+        </nav>
+      ) : null}
     </div>
   );
 }
@@ -785,10 +789,10 @@ function ResultPills({ d, t }) {
     <>
       <span className={`${styles.pill} ${pillClass(d.result)}`}>{d.result || '—'}</span>
       {d.is_funded ? (
-        <span className={styles.fundBadge} role="img" aria-label={t.funded} title={t.funded}>奖</span>
+        <span className={styles.fundBadge} role="img" aria-label={t.funded} title={t.funded}>{t.badgeFunded}</span>
       ) : null}
       {d.is_final_destination ? (
-        <span className={styles.finalBadge} role="img" aria-label={t.finalDest} title={t.finalDest}>最终</span>
+        <span className={styles.finalBadge} role="img" aria-label={t.finalDest} title={t.finalDest}>{t.badgeFinal}</span>
       ) : null}
     </>
   );
