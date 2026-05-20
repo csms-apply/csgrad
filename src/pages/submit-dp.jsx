@@ -18,6 +18,7 @@ import {
 } from '@site/src/lib/dp/enums';
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
+import { STORAGE_KEYS } from '../lib/storage-keys';
 import styles from './submit-dp.module.css';
 
 // ---------- i18n ----------
@@ -482,11 +483,11 @@ function Inner() {
           if (r.applicant) setForm(applicantToForm(r.applicant));
           // Restore draft saved before OAuth redirect (if any).
           try {
-            const draft = localStorage.getItem('dp_applicant_draft');
+            const draft = localStorage.getItem(STORAGE_KEYS.applicantDraft);
             if (draft && !r.applicant) {
               setForm((prev) => ({ ...prev, ...JSON.parse(draft) }));
             }
-            localStorage.removeItem('dp_applicant_draft');
+            localStorage.removeItem(STORAGE_KEYS.applicantDraft);
           } catch {}
         } catch (e) {
           // ignore: 401 happens when getMyApplicant is called pre-auth in some race
@@ -507,7 +508,7 @@ function Inner() {
     setSignInError(null);
     try {
       await startOAuth(provider, {
-        draftKey: 'dp_applicant_draft',
+        draftKey: STORAGE_KEYS.applicantDraft,
         draftValue: form,
       });
     } catch (e) {

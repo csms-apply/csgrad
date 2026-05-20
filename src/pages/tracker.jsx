@@ -18,10 +18,8 @@ import {
   arrayMove,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
+import { STORAGE_KEYS } from '../lib/storage-keys';
 import styles from './tracker.module.css';
-
-// ============ Constants ============
-const STORAGE_KEY = 'csgrad_tracker_data';
 
 function getColumns() {
   return [
@@ -592,7 +590,7 @@ export default function TrackerPage() {
   // Load from localStorage
   useEffect(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(STORAGE_KEYS.trackerData);
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed)) setCards(parsed);
@@ -605,7 +603,7 @@ export default function TrackerPage() {
   // Save to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(cards));
+      localStorage.setItem(STORAGE_KEYS.trackerData, JSON.stringify(cards));
     } catch (e) {
       // ignore
     }
