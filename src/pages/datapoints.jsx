@@ -944,7 +944,9 @@ function NotesCell({ d, a, t }) {
     };
   }, [open]);
 
-  if (parts.length === 0) return <span className={styles.muted}>—</span>;
+  if (parts.length === 0) {
+    return <span className={`${styles.muted} ${styles.notesEmpty}`}>—</span>;
+  }
   const fullText = parts.map(([label, text]) => `[${label}] ${text}`).join('\n\n');
   const preview = parts[0][1].slice(0, 60) + (parts[0][1].length > 60 || parts.length > 1 ? '…' : '');
 
@@ -959,11 +961,8 @@ function NotesCell({ d, a, t }) {
         style={{
           background: 'transparent',
           border: 0,
-          padding: 0,
           font: 'inherit',
           color: 'inherit',
-          cursor: 'pointer',
-          textAlign: 'left',
         }}
         className={styles.notesPreview}
       >

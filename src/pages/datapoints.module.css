@@ -175,14 +175,27 @@
 .pubOutlined     { background: transparent; color: var(--dp-pub-outlined-fg); border: 1px solid var(--dp-pub-outlined-border); padding: 1px 5px; }
 .pubOutlinedAlt  { background: transparent; color: var(--dp-pub-outlined-alt-fg); border: 1px solid var(--dp-pub-outlined-alt-border); padding: 1px 5px; }
 
-.notesCell { max-width: 280px; min-width: 180px; }
+.notesCell {
+  max-width: 280px;
+  min-width: 180px;
+  /* Drop cell padding so the inner button can fill the entire cell area —
+     clicking anywhere in the cell (not just on the text) opens the dialog. */
+  padding: 0 !important;
+}
 .notesPreview {
+  display: block;
+  width: 100%;
+  /* Mirror .table td default padding so visually nothing changes. */
+  padding: 14px;
   font-size: 12px;
   color: var(--ifm-color-emphasis-700);
   line-height: 1.5;
-  cursor: help;
-  display: inline-block;
-  max-width: 280px;
+  cursor: pointer;
+  text-align: left;
+}
+.notesEmpty {
+  display: block;
+  padding: 14px;
 }
 .moreNotes {
   margin-left: 4px;
