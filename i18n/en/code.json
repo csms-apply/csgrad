@@ -3,10 +3,10 @@
     "message": "Reach"
   },
   "tracker.column.match": {
-    "message": "Target"
+    "message": "Match"
   },
   "tracker.column.target": {
-    "message": "Match"
+    "message": "Target"
   },
   "tracker.column.safety": {
     "message": "Safety"
