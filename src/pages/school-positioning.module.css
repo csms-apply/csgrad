@@ -384,18 +384,56 @@
   color: #a09080;
 }
 
+.paywallBullets {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.paywallBullet {
+  font-size: 0.82rem;
+  color: #5a4a3a;
+  line-height: 1.6;
+  padding: 8px 12px 8px 12px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  border-left: 3px solid #c9a96e;
+}
+
+.paywallBullet strong {
+  color: #4a3a2a;
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+[data-theme='dark'] .paywallBullet {
+  color: #c0b0a0;
+  background: rgba(0, 0, 0, 0.18);
+  border-left-color: rgba(201, 169, 110, 0.6);
+}
+
+[data-theme='dark'] .paywallBullet strong {
+  color: #e8ddd0;
+}
+
 .payBtn {
   align-self: stretch;
-  padding: 12px 20px;
+  padding: 14px 20px;
   border-radius: 10px;
   border: none;
   background: linear-gradient(135deg, #4a8a7a 0%, #3a7a6a 100%);
   color: #fff;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 700;
+  letter-spacing: 0.02em;
   cursor: pointer;
   transition: transform 0.15s, box-shadow 0.15s;
   font-family: inherit;
+  margin-top: 4px;
 }
 
 .payBtn:hover:not(:disabled) {

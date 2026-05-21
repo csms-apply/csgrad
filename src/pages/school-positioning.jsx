@@ -27,9 +27,17 @@ const COPY = {
     previewLabel: '预估档位',
     scoreLabel: '综合得分',
     rationaleLabel: '评估依据',
-    paywallTitle: '解锁完整选校方案',
-    paywallText: '付费后将获得：与你档位匹配的完整学校列表（reach / match / safety 三栏）、每所学校的推荐理由、对应项目页面链接。',
-    payBtn: '付费查看完整方案',
+    paywallTitle: '🎯 你的专属选校清单已就绪，付费即可解锁',
+    paywallText: '基于你刚填的 GPA、科研、推荐人、工作经历等 20+ 维度，我们已经为你算好了一份不再"靠 USNews 拍脑袋"的方案。点开你会看到：',
+    paywallBullets: [
+      { lead: '📋 10+ 所精挑细选的项目清单', body: '：不是把排名前 30 的学校原样列给你，而是按你目前的档位，挑出真正匹配你背景的 MSCS 项目，按 Reach / Match / Safety 三档分布，既给你冲刺的空间，也守住保底，避免「全聚德」或「明显低就」。' },
+      { lead: '💡 每所学校都有"为什么适合你"', body: '：不是套话模板，而是结合你的具体经历——例如「你做过的 XX 方向科研刚好对上该项目某教授的 lab」「这所项目偏好你这类本科背景」「你已经修过的核心课正好满足先修」，让你心里有底，PS 也能直接拿来用。' },
+      { lead: '🔗 每个项目都附直达详情页', body: '：课程结构、学费、申请 deadline、毕业去向、是否对国际生友好、是否支持转博——全部一站式查清楚，不用再自己开十几个学校官网比对。' },
+      { lead: '🎓 额外赠送「读博路径」专项推荐', body: '：如果你未来想读 PhD，会单独列出 PhD-friendly 的项目（导师好、有 funding 机会、转博比例高），让 MSCS 不只是"打工跳板"。' },
+      { lead: '💼 额外赠送「转码专项」推荐', body: '：如果你是跨专业转码，会单独列出对非科班背景友好的项目（先修课灵活、桥接课程完善、招生历史上接受过类似背景）。' },
+      { lead: '📥 一键下载 PDF 报告', body: '：完整方案可导出 PDF，永久保存，方便发给家长、师兄师姐、留学中介，或者作为后续找推荐人时的「我为什么申这些学校」说明材料。' },
+    ],
+    payBtn: '🚀 立即解锁我的完整选校方案 →',
     payNote: '安全支付由 Stripe 提供。如已付款无法返回，请直接通过结果页 URL 查看。',
     paying: '正在跳转到 Stripe…',
     yes: '是',
@@ -54,9 +62,17 @@ const COPY = {
     previewLabel: 'Estimated tier',
     scoreLabel: 'Composite score',
     rationaleLabel: 'Why this tier',
-    paywallTitle: 'Unlock the full school list',
-    paywallText: 'After paying you get: the full list of schools matched to your tier (reach / match / safety), reasoning for each pick, and links to the program pages.',
-    payBtn: 'Pay to view full plan',
+    paywallTitle: '🎯 Your personalized school plan is ready — unlock it now',
+    paywallText: 'Based on what you just filled in — GPA, research, recommenders, work history, and 20+ other signals — we already computed a plan that is not just "the USNews top 30 everyone can Google." Here is what you will see inside:',
+    paywallBullets: [
+      { lead: '📋 10+ hand-picked programs', body: ': not a copy of the ranking, but MSCS programs that actually fit your current tier — split into Reach / Match / Safety so you both stretch upward and lock in a safety net. No "all-rejected" surprises, no obvious under-selling.' },
+      { lead: '💡 A "why it fits you" note for every school', body: ': not a templated paragraph, but tied to your real background — e.g. "your XX research lines up with Professor Y\'s lab," "this program historically admits applicants with your kind of profile," "your prereqs already satisfy the core sequence." You can lift these straight into your SoP.' },
+      { lead: '🔗 A direct link to each program page', body: ': curriculum, tuition, deadlines, employment outcomes, international-student friendliness, PhD-pivot options — all in one place. No more tab-hopping across 15 university sites.' },
+      { lead: '🎓 Bonus: PhD-path picks', body: ': if you might pursue a PhD, you also get a separately curated list of PhD-friendly MSCS programs (research-oriented advisors, funding paths, higher PhD-conversion history) — so the MSCS is not just a "career launchpad."' },
+      { lead: '💼 Bonus: career-switcher picks', body: ': if you are transitioning from a non-CS background, you also get a list of programs that have admitted similar profiles, with flexible prereqs and solid bridge courses.' },
+      { lead: '📥 One-click PDF report', body: ': export the full plan to PDF and keep it forever — share it with parents, mentors, or a consultant; reuse it when you ask professors for recommendation letters.' },
+    ],
+    payBtn: '🚀 Unlock my full school plan →',
     payNote: 'Secure checkout by Stripe. If you cannot return automatically, open the result page URL directly.',
     paying: 'Redirecting to Stripe…',
     yes: 'Yes',
@@ -530,6 +546,15 @@ function FormBody() {
             <div className={styles.paywall}>
               <p className={styles.paywallTitle}>{t.paywallTitle}</p>
               <p className={styles.paywallText}>{t.paywallText}</p>
+              {Array.isArray(t.paywallBullets) && t.paywallBullets.length > 0 && (
+                <ul className={styles.paywallBullets}>
+                  {t.paywallBullets.map((b, i) => (
+                    <li key={i} className={styles.paywallBullet}>
+                      <strong>{b.lead}</strong>{b.body}
+                    </li>
+                  ))}
+                </ul>
+              )}
               <button
                 type="button"
                 className={styles.payBtn}
