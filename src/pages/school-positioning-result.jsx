@@ -25,6 +25,8 @@ const COPY = {
     codingSectionTitle: '转码专项推荐',
     codingSectionSub: 'Transition-friendly programs',
     adviceTitle: '🎯 给你的整体建议',
+    emailNoticeTitle: '📬 完整方案已发到你的邮箱',
+    emailNoticeBody: '你的完整选校方案 + 个性化建议正在发送到付款时填的邮箱，几分钟内就能在收件箱里看到（如果没收到，翻一下垃圾邮件箱）。这个页面里你看到的所有内容，邮件里都有一份完整版。',
     consultLead: '💬 想要一对一 MSCS 申请辅导？',
     consultBio: '我是 csgrad 项目作者，本科 GPA 3.94，先后在 Microsoft / 字节 / 百度 / HP 实习，2024 fall 申请拿到 CMU、Georgia Tech、UCSD、Columbia、UIUC 等 offer，目前在 Meta 任 SDE。',
     consultBody: '提供 MSCS 申请全程一对一辅导：选校定位、文书全套（SoP / CV / PS / RL）、网申跟进、推荐人策略、面试模拟（含 CMU MSIN、Columbia MSCS 等项目面试）、实习 / SDE 内推、Offer 比较与谈判。全部由我本人亲自完成，不转包、不用模板文书，服务期到拿到 offer 为止。',
@@ -63,6 +65,8 @@ const COPY = {
     codingSectionTitle: 'Coding transition recommendations',
     codingSectionSub: 'Transition-friendly programs',
     adviceTitle: '🎯 Personal advice for you',
+    emailNoticeTitle: '📬 We\'ve sent the full report to your inbox',
+    emailNoticeBody: "Your complete school plan + personalized advice are on the way to the email you used at checkout. Check your inbox in a few minutes (and your spam folder if you don't see it). Everything you see on this page is also in the email.",
     consultLead: '💬 Want 1-on-1 MSCS application coaching?',
     consultBio: "I'm the author of csgrad (3.94 undergrad GPA; prior interns at Microsoft / ByteDance / Baidu / HP; admitted to CMU, Georgia Tech, UCSD, Columbia, UIUC in the 2024 fall cycle; currently SDE at Meta).",
     consultBody: "End-to-end 1-on-1 MSCS application coaching: school list, the full essay suite (SoP / CV / PS / recommendation letters), online application tracking, recommender strategy, mock interviews (CMU MSIN, Columbia MSCS, etc.), internship / SDE referrals, and offer comparison & negotiation. Everything done by me personally — no subcontracting, no template essays. Engagement runs until you have an offer in hand.",
@@ -319,6 +323,10 @@ function ResultBody() {
             >
               {downloading ? t.downloadingPdf : t.downloadPdf}
             </button>
+          </div>
+          <div className={styles.emailNotice}>
+            <div className={styles.emailNoticeTitle}>{t.emailNoticeTitle}</div>
+            <div className={styles.emailNoticeBody}>{t.emailNoticeBody}</div>
           </div>
           <div ref={reportRef} className={styles.report}>
             <div className={styles.reportHeader}>
