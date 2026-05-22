@@ -96,6 +96,101 @@
   text-align: center;
 }
 
+.consultCard {
+  margin: 28px 0 0;
+  padding: 20px 22px;
+  background: linear-gradient(135deg, #fdf8ee 0%, #f7eed8 100%);
+  border: 1px solid #e6d4a8;
+  border-radius: 12px;
+}
+
+[data-theme='dark'] .consultCard {
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.15) 0%, rgba(201, 169, 110, 0.06) 100%);
+  border-color: rgba(201, 169, 110, 0.3);
+}
+
+.consultLead {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #4a3a2a;
+  margin: 0 0 10px;
+}
+
+[data-theme='dark'] .consultLead {
+  color: #e8ddd0;
+}
+
+.consultBio {
+  font-size: 0.82rem;
+  color: #7a6a5a;
+  line-height: 1.65;
+  font-style: italic;
+  margin: 0 0 10px;
+}
+
+[data-theme='dark'] .consultBio {
+  color: #a09080;
+}
+
+.consultBody {
+  font-size: 0.88rem;
+  color: #5a4a3a;
+  line-height: 1.75;
+  margin: 0 0 12px;
+}
+
+[data-theme='dark'] .consultBody {
+  color: #c8b8a8;
+}
+
+.consultCtaLine {
+  font-size: 0.9rem;
+  color: #5a4a3a;
+  margin: 0 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+[data-theme='dark'] .consultCtaLine {
+  color: #c8b8a8;
+}
+
+.consultHandle {
+  display: inline-block;
+  padding: 3px 12px;
+  background: #fff;
+  border: 1px solid #c9a96e;
+  border-radius: 6px;
+  color: #b8702a;
+  font-weight: 700;
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+  font-size: 0.92rem;
+}
+
+[data-theme='dark'] .consultHandle {
+  background: #1e1a15;
+  border-color: rgba(201, 169, 110, 0.6);
+  color: #e09553;
+}
+
+.consultPerk {
+  font-size: 0.85rem;
+  color: #8a4a1a;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0;
+  padding: 10px 12px;
+  background: rgba(232, 180, 100, 0.18);
+  border-radius: 8px;
+}
+
+[data-theme='dark'] .consultPerk {
+  color: #e8b873;
+  background: rgba(232, 180, 100, 0.12);
+}
+
 .phdSection {
   margin-top: 32px;
   padding: 24px 24px 20px;
@@ -233,44 +328,22 @@
   color: #e8ddd0;
 }
 
-.adviceList {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.adviceItem {
-  padding: 12px 14px;
-  background: rgba(255, 255, 255, 0.55);
-  border-radius: 10px;
-  border-left: 3px solid #c9a96e;
-}
-
-[data-theme='dark'] .adviceItem {
-  background: rgba(0, 0, 0, 0.2);
-  border-left-color: rgba(201, 169, 110, 0.6);
-}
-
-.adviceLabel {
-  font-size: 0.85rem;
-  font-weight: 700;
+.adviceProse {
+  font-size: 0.95rem;
   color: #4a3a2a;
-  margin-bottom: 6px;
+  line-height: 1.85;
 }
 
-[data-theme='dark'] .adviceLabel {
-  color: #e8ddd0;
+[data-theme='dark'] .adviceProse {
+  color: #d8c8b8;
 }
 
-.adviceBody {
-  font-size: 0.9rem;
-  color: #5a4a3a;
-  line-height: 1.75;
-  white-space: pre-wrap;
+.adviceParagraph {
+  margin: 0 0 12px;
 }
 
-[data-theme='dark'] .adviceBody {
-  color: #c8b8a8;
+.adviceParagraph:last-child {
+  margin-bottom: 0;
 }
 
 .warningList {
