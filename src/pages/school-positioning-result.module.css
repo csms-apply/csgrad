@@ -208,6 +208,71 @@
   gap: 10px;
 }
 
+.adviceCard {
+  background: linear-gradient(135deg, #fdf8ee 0%, #f7eed8 100%);
+  border: 1px solid #e6d4a8;
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin: 0 0 20px;
+}
+
+[data-theme='dark'] .adviceCard {
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.15) 0%, rgba(201, 169, 110, 0.06) 100%);
+  border-color: rgba(201, 169, 110, 0.3);
+}
+
+.adviceTitle {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #4a3a2a;
+  margin: 0 0 16px;
+  letter-spacing: 0.01em;
+}
+
+[data-theme='dark'] .adviceTitle {
+  color: #e8ddd0;
+}
+
+.adviceList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.adviceItem {
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  border-left: 3px solid #c9a96e;
+}
+
+[data-theme='dark'] .adviceItem {
+  background: rgba(0, 0, 0, 0.2);
+  border-left-color: rgba(201, 169, 110, 0.6);
+}
+
+.adviceLabel {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #4a3a2a;
+  margin-bottom: 6px;
+}
+
+[data-theme='dark'] .adviceLabel {
+  color: #e8ddd0;
+}
+
+.adviceBody {
+  font-size: 0.9rem;
+  color: #5a4a3a;
+  line-height: 1.75;
+  white-space: pre-wrap;
+}
+
+[data-theme='dark'] .adviceBody {
+  color: #c8b8a8;
+}
+
 .warningList {
   margin: 0 0 20px;
   display: flex;
