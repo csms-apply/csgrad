@@ -24,6 +24,11 @@ const COPY = {
     phdSectionSub: 'PhD-friendly Programs',
     codingSectionTitle: '转码专项推荐',
     codingSectionSub: 'Transition-friendly programs',
+    adviceTitle: '🎯 针对你个人的整体建议',
+    adviceStrengths: '✨ 你的强项',
+    adviceWeaknesses: '⚠️ 你的短板与补救',
+    adviceStrategy: '🧭 申请策略',
+    adviceActionPlan: '📅 接下来 3-6 个月行动清单',
     bucketReach: '冲刺',
     bucketReachSub: 'Reach',
     bucketMatch: '匹配',
@@ -55,6 +60,11 @@ const COPY = {
     phdSectionSub: 'PhD-friendly programs',
     codingSectionTitle: 'Coding transition recommendations',
     codingSectionSub: 'Transition-friendly programs',
+    adviceTitle: '🎯 Personalized advice for you',
+    adviceStrengths: '✨ Your strengths',
+    adviceWeaknesses: '⚠️ Weak spots & how to compensate',
+    adviceStrategy: '🧭 Application strategy',
+    adviceActionPlan: '📅 Action plan for the next 3-6 months',
     bucketReach: 'Reach',
     bucketReachSub: 'Reach',
     bucketMatch: 'Match',
@@ -87,7 +97,9 @@ function getLabel(node, locale) {
 function SchoolCard({ school, locale, t }) {
   const name = getLabel(school.school || school.name, locale);
   const program = getLabel(school.program, locale);
-  const reason = getLabel(school.reason, locale);
+  const personalized = getLabel(school.personalizedReason, locale);
+  const fallbackReason = getLabel(school.reason, locale);
+  const reason = personalized || fallbackReason;
   const rawHref = school.doc || school.slug || school.url || school.link;
   const href = rawHref ? encodeURI(rawHref) : null;
   return (
@@ -100,6 +112,30 @@ function SchoolCard({ school, locale, t }) {
           {t.viewDetail} &rarr;
         </a>
       )}
+    </div>
+  );
+}
+
+function AdviceSection({ advice, t }) {
+  if (!advice) return null;
+  const items = [
+    { key: 'strengths', label: t.adviceStrengths, body: advice.strengths },
+    { key: 'weaknesses', label: t.adviceWeaknesses, body: advice.weaknesses },
+    { key: 'strategy', label: t.adviceStrategy, body: advice.strategy },
+    { key: 'actionPlan', label: t.adviceActionPlan, body: advice.actionPlan },
+  ].filter((it) => typeof it.body === 'string' && it.body.trim().length > 0);
+  if (items.length === 0) return null;
+  return (
+    <div className={styles.adviceCard}>
+      <p className={styles.adviceTitle}>{t.adviceTitle}</p>
+      <div className={styles.adviceList}>
+        {items.map((it) => (
+          <div key={it.key} className={styles.adviceItem}>
+            <div className={styles.adviceLabel}>{it.label}</div>
+            <div className={styles.adviceBody}>{it.body}</div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -280,6 +316,7 @@ function ResultBody() {
               <h1 className={styles.tierName}>{tierName}</h1>
               {summary && <p className={styles.summary}>{summary}</p>}
             </div>
+            <AdviceSection advice={data.llmAdvice} t={t} />
             {Array.isArray(data.warnings) && data.warnings.length > 0 && (
               <div className={styles.warningList}>
                 {data.warnings.map((w, i) => (
