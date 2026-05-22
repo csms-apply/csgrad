@@ -303,6 +303,41 @@
   gap: 10px;
 }
 
+.emailNotice {
+  margin: 0 0 18px;
+  padding: 14px 18px;
+  background: #eef6f3;
+  border: 1px solid #b5d6cb;
+  border-left: 4px solid #4a8a7a;
+  border-radius: 10px;
+}
+
+[data-theme='dark'] .emailNotice {
+  background: rgba(74, 138, 122, 0.12);
+  border-color: rgba(74, 138, 122, 0.4);
+}
+
+.emailNoticeTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2a5e54;
+  margin: 0 0 4px;
+}
+
+[data-theme='dark'] .emailNoticeTitle {
+  color: #8fc8b8;
+}
+
+.emailNoticeBody {
+  font-size: 0.84rem;
+  color: #4a7068;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .emailNoticeBody {
+  color: #8fb5a8;
+}
+
 .adviceCard {
   background: linear-gradient(135deg, #fdf8ee 0%, #f7eed8 100%);
   border: 1px solid #e6d4a8;
