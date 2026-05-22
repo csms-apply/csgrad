@@ -24,11 +24,13 @@ const COPY = {
     phdSectionSub: 'PhD-friendly Programs',
     codingSectionTitle: '转码专项推荐',
     codingSectionSub: 'Transition-friendly programs',
-    adviceTitle: '🎯 针对你个人的整体建议',
-    adviceStrengths: '✨ 你的强项',
-    adviceWeaknesses: '⚠️ 你的短板与补救',
-    adviceStrategy: '🧭 申请策略',
-    adviceActionPlan: '📅 接下来 3-6 个月行动清单',
+    adviceTitle: '🎯 给你的整体建议',
+    consultLead: '💬 想要一对一 MSCS 申请辅导？',
+    consultBio: '我是 csgrad 项目作者，本科 GPA 3.94，先后在 Microsoft / 字节 / 百度 / HP 实习，2024 fall 申请拿到 CMU、Georgia Tech、UCSD、Columbia、UIUC 等 offer，目前在 Meta 任 SDE。',
+    consultBody: '提供 MSCS 申请全程一对一辅导：选校定位、文书全套（SoP / CV / PS / RL）、网申跟进、推荐人策略、面试模拟（含 CMU MSIN、Columbia MSCS 等项目面试）、实习 / SDE 内推、Offer 比较与谈判。全部由我本人亲自完成，不转包、不用模板文书，服务期到拿到 offer 为止。',
+    consultCta: '感兴趣可以加我微信：',
+    consultHandle: 'capsfly',
+    consultPerk: '🎁 你这次付的选校报告费用，会全额从后续辅导费里减免。',
     bucketReach: '冲刺',
     bucketReachSub: 'Reach',
     bucketMatch: '匹配',
@@ -60,11 +62,13 @@ const COPY = {
     phdSectionSub: 'PhD-friendly programs',
     codingSectionTitle: 'Coding transition recommendations',
     codingSectionSub: 'Transition-friendly programs',
-    adviceTitle: '🎯 Personalized advice for you',
-    adviceStrengths: '✨ Your strengths',
-    adviceWeaknesses: '⚠️ Weak spots & how to compensate',
-    adviceStrategy: '🧭 Application strategy',
-    adviceActionPlan: '📅 Action plan for the next 3-6 months',
+    adviceTitle: '🎯 Personal advice for you',
+    consultLead: '💬 Want 1-on-1 MSCS application coaching?',
+    consultBio: "I'm the author of csgrad (3.94 undergrad GPA; prior interns at Microsoft / ByteDance / Baidu / HP; admitted to CMU, Georgia Tech, UCSD, Columbia, UIUC in the 2024 fall cycle; currently SDE at Meta).",
+    consultBody: "End-to-end 1-on-1 MSCS application coaching: school list, the full essay suite (SoP / CV / PS / recommendation letters), online application tracking, recommender strategy, mock interviews (CMU MSIN, Columbia MSCS, etc.), internship / SDE referrals, and offer comparison & negotiation. Everything done by me personally — no subcontracting, no template essays. Engagement runs until you have an offer in hand.",
+    consultCta: 'Add me on WeChat:',
+    consultHandle: 'capsfly',
+    consultPerk: '🎁 The fee you paid for this report will be fully credited toward your coaching package.',
     bucketReach: 'Reach',
     bucketReachSub: 'Reach',
     bucketMatch: 'Match',
@@ -116,24 +120,34 @@ function SchoolCard({ school, locale, t }) {
   );
 }
 
+function ConsultCard({ t }) {
+  return (
+    <div className={styles.consultCard}>
+      <p className={styles.consultLead}>{t.consultLead}</p>
+      <p className={styles.consultBio}>{t.consultBio}</p>
+      <p className={styles.consultBody}>{t.consultBody}</p>
+      <p className={styles.consultCtaLine}>
+        {t.consultCta}
+        <span className={styles.consultHandle}>{t.consultHandle}</span>
+      </p>
+      <p className={styles.consultPerk}>{t.consultPerk}</p>
+    </div>
+  );
+}
+
 function AdviceSection({ advice, t }) {
-  if (!advice) return null;
-  const items = [
-    { key: 'strengths', label: t.adviceStrengths, body: advice.strengths },
-    { key: 'weaknesses', label: t.adviceWeaknesses, body: advice.weaknesses },
-    { key: 'strategy', label: t.adviceStrategy, body: advice.strategy },
-    { key: 'actionPlan', label: t.adviceActionPlan, body: advice.actionPlan },
-  ].filter((it) => typeof it.body === 'string' && it.body.trim().length > 0);
-  if (items.length === 0) return null;
+  if (!advice || typeof advice !== 'string' || !advice.trim()) return null;
+  const paragraphs = advice
+    .split(/\n\s*\n+/)
+    .map((p) => p.trim())
+    .filter((p) => p.length > 0);
+  if (paragraphs.length === 0) return null;
   return (
     <div className={styles.adviceCard}>
       <p className={styles.adviceTitle}>{t.adviceTitle}</p>
-      <div className={styles.adviceList}>
-        {items.map((it) => (
-          <div key={it.key} className={styles.adviceItem}>
-            <div className={styles.adviceLabel}>{it.label}</div>
-            <div className={styles.adviceBody}>{it.body}</div>
-          </div>
+      <div className={styles.adviceProse}>
+        {paragraphs.map((p, i) => (
+          <p key={i} className={styles.adviceParagraph}>{p}</p>
         ))}
       </div>
     </div>
@@ -391,6 +405,7 @@ function ResultBody() {
                 </div>
               </div>
             )}
+            <ConsultCard t={t} />
             <div className={styles.reportFooter}>{t.reportFooter}</div>
           </div>
         </div>
