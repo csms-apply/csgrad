@@ -6,8 +6,13 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
 import styles from './school-positioning-result.module.css';
 
-const POLL_INTERVAL_MS = 3000;
-const MAX_POLLS = 20;
+// 指数退避：第 N 次轮询前等多久。Stripe webhook 平均 1-5 秒能把 status
+// 改成 paid，用户从 Stripe 跳回这一页通常已经过了 5-10 秒，所以第一次
+// 立即调用就有相当高的命中率。后面的间隔逐步拉长是为了应对 webhook
+// 偶发延迟，同时把"无效轮询"的浪费降到最低。
+// 总时长 ~37 秒，5 次请求 vs 旧版 20 次 × 3s。
+const POLL_DELAYS_MS = [0, 2000, 5000, 10000, 20000];
+const MAX_POLLS = POLL_DELAYS_MS.length;
 
 const COPY = {
   'zh-Hans': {
@@ -259,7 +264,7 @@ function ResultBody() {
           return;
         }
         setStatus('pending');
-        timerRef.current = setTimeout(poll, POLL_INTERVAL_MS);
+        timerRef.current = setTimeout(poll, POLL_DELAYS_MS[count]);
       } catch (err) {
         if (cancelledRef.current) return;
         if (count >= MAX_POLLS) {
@@ -267,7 +272,7 @@ function ResultBody() {
           setStatus('error');
           return;
         }
-        timerRef.current = setTimeout(poll, POLL_INTERVAL_MS);
+        timerRef.current = setTimeout(poll, POLL_DELAYS_MS[count]);
       }
     };
 
