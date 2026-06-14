@@ -86,7 +86,10 @@ function loadSnapshot() {
   return _snapshotPromise;
 }
 
-const TIER_ORDER = ['SSS', 'SS', 'S', 'A', 'B', 'C', 'D'];
+// Canonical tier rank — keep in sync with TIERS in scripts/generate-programs.js
+// (the docs/ folder structure is the source of truth). Trailing C/D are kept
+// as defensive fallbacks for any legacy data.
+const TIER_ORDER = ['SSS', 'SS', 'S', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'D'];
 
 /**
  * Returns the filter-option lists used by the DataPoints page filters.

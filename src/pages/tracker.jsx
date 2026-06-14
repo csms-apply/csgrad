@@ -23,9 +23,9 @@ import styles from './tracker.module.css';
 
 function getColumns() {
   return [
-    { id: 'reach', title: translate({ id: 'tracker.column.reach', message: '彩票' }), subtitle: 'Lottery', colorClass: styles.colReach },
-    { id: 'match', title: translate({ id: 'tracker.column.match', message: '冲刺' }), subtitle: 'Target', colorClass: styles.colMatch },
-    { id: 'target', title: translate({ id: 'tracker.column.target', message: '主申' }), subtitle: 'Match', colorClass: styles.colTarget },
+    { id: 'reach', title: translate({ id: 'tracker.column.reach', message: '彩票' }), subtitle: 'Reach', colorClass: styles.colReach },
+    { id: 'match', title: translate({ id: 'tracker.column.match', message: '冲刺' }), subtitle: 'Match', colorClass: styles.colMatch },
+    { id: 'target', title: translate({ id: 'tracker.column.target', message: '主申' }), subtitle: 'Target', colorClass: styles.colTarget },
     { id: 'safety', title: translate({ id: 'tracker.column.safety', message: '保底' }), subtitle: 'Safety', colorClass: styles.colSafety },
   ];
 }
