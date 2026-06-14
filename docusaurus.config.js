@@ -72,21 +72,6 @@ const config = {
     ],
   ],
 
-  themes: [
-    // Local full-text search (offline, build-time index). Bilingual zh + en.
-    [
-      '@easyops-cn/docusaurus-search-local',
-      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
-      ({
-        hashed: true,
-        language: ['en', 'zh'],
-        docsRouteBasePath: '/',
-        indexBlog: false,
-        highlightSearchTermsOnTargetPage: true,
-      }),
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
