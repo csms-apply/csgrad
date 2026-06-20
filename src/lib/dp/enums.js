@@ -1,10 +1,14 @@
 // Enum values for applicant + DP form fields. Mirrors the Seatable schema
 // so historical data renders consistently in the new form.
 
+// Selectable undergrad-school categories on the submit form.
+// Note: '陆本' (generic "Mainland CN, other") was retired here so it can no
+// longer be picked; its display label is kept in the page enum map so older
+// rows already tagged '陆本' still render correctly.
 export const UG_CATEGORIES = [
   '中外合办校（XJTLU等）', '陆本中外合办院系（JI/ZJUI等）',
   '清北', '华五', '国科/上科/南科', '10043', '985', '211',
-  '双非', '陆本', '美本', '加本', '英本', '澳本', '港本', '坡本', '欧陆本', '海本',
+  '双非', '美本', '加本', '英本', '澳本', '港本', '坡本', '欧陆本', '海本',
 ];
 
 export const UG_MAJORS = [

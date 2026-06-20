@@ -118,6 +118,13 @@ export async function getFilterOptions() {
   }
 }
 
+// UG-category values hidden from the filter dropdown. '陆本' (generic
+// "Mainland CN, other") was retired in favor of the more specific tiers
+// (清北/华五/985/211/双非...). We still render its label for historical rows,
+// but it no longer appears as a filter option. Applied here so both the live
+// worker response and the snapshot fallback are covered.
+const HIDDEN_UG_CATS = new Set(['陆本']);
+
 function reorderTiers(opts) {
   const tiers = opts.tiers || [];
   // Reorder by canonical tier rank, append non-canonical at the end.
@@ -127,7 +134,7 @@ function reorderTiers(opts) {
     schools: opts.schools || [],
     tiers: tierList,
     years: opts.years || [],
-    ugCats: opts.ugCats || [],
+    ugCats: (opts.ugCats || []).filter((c) => !HIDDEN_UG_CATS.has(c)),
     majors: opts.majors || [],
   };
 }
