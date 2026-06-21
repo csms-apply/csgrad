@@ -53,6 +53,86 @@
   width: 100%;
 }
 
+/* ---------- Searchable program filter ---------- */
+.programFilter {
+  position: relative;
+  /* Span more grid width than a plain select — program labels are long. */
+  grid-column: span 2;
+}
+.programFilterControl {
+  position: relative;
+  width: 100%;
+}
+.programFilterInput {
+  padding: 6px 26px 6px 10px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 13px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  width: 100%;
+  text-overflow: ellipsis;
+}
+.programFilterClear {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 2px;
+}
+.programFilterClear:hover {
+  color: var(--ifm-font-color-base);
+}
+.programFilterDropdown {
+  position: absolute;
+  z-index: 30;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  max-height: 280px;
+  overflow-y: auto;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.programFilterDropdown li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.programFilterDropdown li:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+.programFilterName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.programFilterTier {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+}
+
 .summary {
   font-size: 13px;
   color: var(--ifm-color-emphasis-700);
