@@ -14,6 +14,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execSync } from 'node:child_process';
+import { assessMigrationIntegrity, parseAllowSkips } from './migration-integrity.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -22,6 +23,14 @@ const OUTPUT_DIR = path.join(REPO_ROOT, 'scripts', 'migration-output');
 const PROGRAMS_JSON_PATH = path.join(REPO_ROOT, 'static', 'data', 'programs.json');
 
 const EXPECTED_COUNTS = { applicants: 317, programs: 283, datapoints: 1960 };
+
+let allowSkips;
+try {
+  allowSkips = parseAllowSkips(process.argv.slice(2));
+} catch (error) {
+  console.error(`✘ ${error.message}`);
+  process.exit(2);
+}
 
 // ---------- unzip .dtable → tmp dir ----------
 if (!fs.existsSync(DTABLE_PATH)) {
@@ -305,12 +314,13 @@ const manualReview = {
   notes: [
     'TOEFL/IELTS: rows with total ≤ 10 are assumed IELTS, otherwise TOEFL.',
     'programs.tier is NULL when the (school, program) pair did not match static/data/programs.json — needs admin to label tier.',
-    'datapoints without a linked applicant or program are skipped and listed below.',
+    'datapoints without a linked applicant or program are blocked and listed below with their recoverable fields.',
   ],
   programs_unmapped_tier: [],
   programs_duplicate_pairs_merged: [],
   datapoints_orphan_no_applicant: [],
   datapoints_orphan_no_program: [],
+  datapoints_orphan_both: [],
   applicants_locked_school_name_blank: [],
 };
 
@@ -446,29 +456,47 @@ fs.writeFileSync(path.join(OUTPUT_DIR, '002-programs.sql'), programSql.join('\n'
 const dpSql = [
   '-- 003-datapoints.sql — Seatable DataPoints → datapoints',
   '-- Drops the link-formula / formula columns (学位/国家/分数制/GPA/项目文本) — recompute via JOIN at query time.',
-  '-- Rows missing applicant or program link are skipped (see manual-review.json).',
+  '-- Rows missing applicant or program links require explicit --allow-skips (see manual-review.json).',
   'BEGIN TRANSACTION;',
 ];
 let dpEmitted = 0;
+function orphanDetails(row, applicantRowId, programRowId) {
+  return {
+    seatable_row_id: row._id,
+    seatable_dp_id: readAutoNumber(getCell(row, dCols['DataPoints ID'])),
+    applicant_row_id: applicantRowId || null,
+    program_row_id: programRowId || null,
+    result: read(row, dCols, '结果'),
+    academic_year: read(row, dCols, '学年'),
+    semester: read(row, dCols, '学期'),
+    notified_at: read(row, dCols, '通知时间'),
+    submitted_at: read(row, dCols, '网申提交时间'),
+    notes: read(row, dCols, '补充说明 如面试/联系方式等'),
+    creator: row._creator || null,
+    created_at: row._ctime || null,
+  };
+}
 for (const r of tDP.rows) {
   const applicantRowId = dpToApplicant[r._id];
   const programRowId = dpToProgram[r._id];
+  if (!applicantRowId && !programRowId) {
+    manualReview.datapoints_orphan_both.push(orphanDetails(r, applicantRowId, programRowId));
+    continue;
+  }
   if (!applicantRowId) {
-    manualReview.datapoints_orphan_no_applicant.push({ seatable_row_id: r._id });
+    manualReview.datapoints_orphan_no_applicant.push(orphanDetails(r, applicantRowId, programRowId));
     continue;
   }
   if (!programRowId) {
-    manualReview.datapoints_orphan_no_program.push({ seatable_row_id: r._id });
+    manualReview.datapoints_orphan_no_program.push(orphanDetails(r, applicantRowId, programRowId));
     continue;
   }
   const applicantId = applicantIdMap[applicantRowId];
   const programId = programIdMap[programRowId];
   if (!applicantId || !programId) {
-    manualReview.datapoints_orphan_no_applicant.push({
-      seatable_row_id: r._id,
+    manualReview.datapoints_orphan_both.push({
+      ...orphanDetails(r, applicantRowId, programRowId),
       reason: 'link target not found in id maps',
-      applicant_row: applicantRowId,
-      program_row: programRowId,
     });
     continue;
   }
@@ -496,6 +524,11 @@ dpSql.push('COMMIT;');
 fs.writeFileSync(path.join(OUTPUT_DIR, '003-datapoints.sql'), dpSql.join('\n') + '\n');
 
 // ---------- manual-review.json + summary.txt ----------
+manualReview.migration_counts = {
+  source_datapoints: tDP.rows.length,
+  emitted_datapoints: dpEmitted,
+  skipped_datapoints: tDP.rows.length - dpEmitted,
+};
 fs.writeFileSync(
   path.join(OUTPUT_DIR, 'manual-review.json'),
   JSON.stringify(manualReview, null, 2) + '\n',
@@ -505,15 +538,31 @@ const summary = [
   '=== Migration summary ===',
   `applicants:  emitted=${tApp.rows.length}   expected=${EXPECTED_COUNTS.applicants}   ${tApp.rows.length === EXPECTED_COUNTS.applicants ? 'OK' : 'MISMATCH'}`,
   `programs:    emitted=${programEmitted}   merged-dupes=${programDuplicatesReview.length}   seatable-rows=${tProg.rows.length}   expected=${EXPECTED_COUNTS.programs}`,
-  `datapoints:  emitted=${dpEmitted}   skipped=${tDP.rows.length - dpEmitted}   expected~${EXPECTED_COUNTS.datapoints}`,
+  `datapoints:  source=${tDP.rows.length}   emitted=${dpEmitted}   skipped=${tDP.rows.length - dpEmitted}   expected=${EXPECTED_COUNTS.datapoints}`,
   '',
   '=== Manual-review queue ===',
   `programs without tier:             ${manualReview.programs_unmapped_tier.length}`,
   `programs duplicate-pairs merged:   ${manualReview.programs_duplicate_pairs_merged.length}`,
-  `datapoints orphan (no applicant):  ${manualReview.datapoints_orphan_no_applicant.length}`,
-  `datapoints orphan (no program):    ${manualReview.datapoints_orphan_no_program.length}`,
+  `datapoints orphan (applicant only): ${manualReview.datapoints_orphan_no_applicant.length}`,
+  `datapoints orphan (program only):   ${manualReview.datapoints_orphan_no_program.length}`,
+  `datapoints orphan (both links):     ${manualReview.datapoints_orphan_both.length}`,
   `applicants with blank 本科学校名称:  ${manualReview.applicants_locked_school_name_blank.length}`,
 ].join('\n');
 fs.writeFileSync(path.join(OUTPUT_DIR, 'summary.txt'), summary + '\n');
 console.log(summary);
-console.log(`\n✔ output written to ${OUTPUT_DIR}`);
+
+const integrity = assessMigrationIntegrity({
+  sourceDatapoints: tDP.rows.length,
+  expectedDatapoints: EXPECTED_COUNTS.datapoints,
+  emittedDatapoints: dpEmitted,
+  orphanNoApplicant: manualReview.datapoints_orphan_no_applicant.length,
+  orphanNoProgram: manualReview.datapoints_orphan_no_program.length,
+  orphanBoth: manualReview.datapoints_orphan_both.length,
+  blockingReviewItems:
+    manualReview.programs_unmapped_tier.length
+    + manualReview.applicants_locked_school_name_blank.length,
+  allowSkips,
+});
+console.log(`\n${integrity.message}`);
+console.log(`✔ output written to ${OUTPUT_DIR}`);
+if (!integrity.ok) process.exitCode = 1;

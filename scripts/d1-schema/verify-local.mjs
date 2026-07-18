@@ -10,17 +10,61 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execSync, spawnSync } from 'node:child_process';
+import { assessMigrationIntegrity, parseAllowSkips } from '../migration-integrity.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const DDL = path.join(__dirname, 'migrations', '0001_init.sql');
 const INSERTS_DIR = path.join(REPO_ROOT, 'scripts', 'migration-output');
+const MANUAL_REVIEW = path.join(INSERTS_DIR, 'manual-review.json');
 
 const DB = path.join('/tmp', `csgrad-verify-${Date.now()}.db`);
 
+let allowSkips;
+try {
+  allowSkips = parseAllowSkips(process.argv.slice(2));
+} catch (error) {
+  console.error(`✘ ${error.message}`);
+  process.exit(2);
+}
+
+if (!fs.existsSync(MANUAL_REVIEW)) {
+  console.error(`✘ missing: ${MANUAL_REVIEW}`);
+  process.exit(1);
+}
+const review = JSON.parse(fs.readFileSync(MANUAL_REVIEW, 'utf8'));
+const migrationCounts = review.migration_counts;
+if (!migrationCounts) {
+  console.error('✘ manual-review.json is stale: rerun the migration before verification');
+  process.exit(1);
+}
+const integrity = assessMigrationIntegrity({
+  sourceDatapoints: migrationCounts.source_datapoints,
+  expectedDatapoints: review.expected_counts.datapoints,
+  emittedDatapoints: migrationCounts.emitted_datapoints,
+  orphanNoApplicant: review.datapoints_orphan_no_applicant.length,
+  orphanNoProgram: review.datapoints_orphan_no_program.length,
+  orphanBoth: review.datapoints_orphan_both?.length || 0,
+  blockingReviewItems:
+    review.programs_unmapped_tier.length
+    + review.applicants_locked_school_name_blank.length,
+  allowSkips,
+});
+if (!integrity.ok) {
+  console.error(`✘ ${integrity.message}`);
+  process.exit(1);
+}
+if (integrity.overridden) console.warn(`⚠ ${integrity.message}`);
+
 // programs is 280 (not 283): the migration script merges 3 duplicate
 // (school, program) rows from Seatable into their canonicals.
-const EXPECTED = { applicants: 317, programs: 280, datapoints: 1908 };
+const EXPECTED = {
+  applicants: review.expected_counts.applicants,
+  programs: review.expected_counts.programs - review.programs_duplicate_pairs_merged.length,
+  datapoints: allowSkips
+    ? migrationCounts.emitted_datapoints
+    : migrationCounts.source_datapoints,
+};
 
 function sql(query) {
   const r = spawnSync('sqlite3', [DB, query], { encoding: 'utf8' });
