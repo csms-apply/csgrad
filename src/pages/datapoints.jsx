@@ -496,7 +496,7 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         />
       ) : null}
 
-      {totalCount > 0 ? (
+      {gpaRange.valid && totalCount > 0 ? (
         <nav className={styles.pager} aria-label="pagination">
           <button
             disabled={page === 0}
@@ -903,6 +903,7 @@ function GpaRangeFilter({ min, max, onMinChange, onMaxChange, error, t }) {
           placeholder={t.gpaMinPlaceholder}
           aria-label={`${t.gpaRangeLabel} · ${t.gpaMinPlaceholder}`}
           aria-invalid={Boolean(error)}
+          aria-describedby={errorText ? 'gpa-filter-error' : undefined}
         />
         <span aria-hidden="true">–</span>
         <input
@@ -915,9 +916,10 @@ function GpaRangeFilter({ min, max, onMinChange, onMaxChange, error, t }) {
           placeholder={t.gpaMaxPlaceholder}
           aria-label={`${t.gpaRangeLabel} · ${t.gpaMaxPlaceholder}`}
           aria-invalid={Boolean(error)}
+          aria-describedby={errorText ? 'gpa-filter-error' : undefined}
         />
       </div>
-      {errorText ? <span className={styles.filterError} role="alert">{errorText}</span> : null}
+      {errorText ? <span id="gpa-filter-error" className={styles.filterError} role="alert">{errorText}</span> : null}
     </div>
   );
 }
