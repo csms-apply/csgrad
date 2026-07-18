@@ -112,7 +112,13 @@ const years = new Set();
 const ugCats = new Set();
 const majors = new Set();
 
+// A program should only appear in the DataPoints filters when at least one
+// DataPoint references it.  Building these options from every program makes
+// the dropdown offer schools that can never produce a result.
+const programIdsWithDp = new Set(dpRows.map((d) => d.program_id).filter(Boolean));
+
 for (const p of programRows) {
+  if (!programIdsWithDp.has(p.id)) continue;
   if (p.school) schools.add(p.school);
   if (p.tier) tiers.add(p.tier);
 }
