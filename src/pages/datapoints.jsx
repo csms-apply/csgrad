@@ -4,6 +4,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { getMe, listDp, getFilterOptions, getCounts } from '@site/src/lib/dp/api';
+import { formatGpaRange, parseGpaRange } from '@site/src/lib/dp/gpa-filter.mjs';
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
 import styles from './datapoints.module.css';
@@ -37,6 +38,13 @@ const COPY = {
     filterMajor: '本科专业',
     filterAll: '全部',
     gpaLabel: 'GPA',
+    gpaRangeLabel: '原始 GPA 区间',
+    gpaMinPlaceholder: '最低',
+    gpaMaxPlaceholder: '最高',
+    gpaRangeHint: '按数据记录的原始分制筛选（如 3.5–4 或 85–95）',
+    gpaValueInvalid: '请输入有效的非负 GPA。',
+    gpaRangeInvalid: '最低 GPA 不能高于最高 GPA。',
+    gpaAwaitingValidRange: '请修正 GPA 区间后查看结果。',
     clearBtn: '清除筛选',
     shareBtn: '复制分享链接',
     shareCopied: '已复制！',
@@ -128,6 +136,13 @@ const COPY = {
     filterMajor: 'Undergrad major',
     filterAll: 'All',
     gpaLabel: 'GPA',
+    gpaRangeLabel: 'Raw GPA range',
+    gpaMinPlaceholder: 'Min',
+    gpaMaxPlaceholder: 'Max',
+    gpaRangeHint: 'Uses each record’s original scale (for example, 3.5–4 or 85–95)',
+    gpaValueInvalid: 'Enter a valid non-negative GPA.',
+    gpaRangeInvalid: 'Minimum GPA cannot exceed maximum GPA.',
+    gpaAwaitingValidRange: 'Fix the GPA range to view results.',
     clearBtn: 'Clear filters',
     shareBtn: 'Copy share link',
     shareCopied: 'Copied!',
@@ -196,7 +211,7 @@ function pickLocale(loc) {
 
 // ---------- URL <-> filter state helpers ----------
 
-const URL_KEYS = ['school', 'tier', 'year', 'result', 'ugCat', 'major'];
+const URL_KEYS = ['school', 'tier', 'year', 'result', 'ugCat', 'major', 'gpaMin', 'gpaMax'];
 
 function readFiltersFromUrl() {
   if (typeof window === 'undefined') return {};
@@ -338,13 +353,16 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
   const [result, setResult] = useState(initial.result || '');
   const [ugCat, setUgCat] = useState(initial.ugCat || '');
   const [major, setMajor] = useState(initial.major || '');
+  const [gpaMin, setGpaMin] = useState(initial.gpaMin || '');
+  const [gpaMax, setGpaMax] = useState(initial.gpaMax || '');
   const [page, setPage] = useState(0);
+  const gpaRange = useMemo(() => parseGpaRange(gpaMin, gpaMax), [gpaMin, gpaMax]);
 
   useEffect(() => {
-    writeFiltersToUrl({ school, tier, year, result, ugCat, major });
-  }, [school, tier, year, result, ugCat, major]);
+    writeFiltersToUrl({ school, tier, year, result, ugCat, major, gpaMin, gpaMax });
+  }, [school, tier, year, result, ugCat, major, gpaMin, gpaMax]);
 
-  useEffect(() => setPage(0), [school, tier, year, result, ugCat, major]);
+  useEffect(() => setPage(0), [school, tier, year, result, ugCat, major, gpaMin, gpaMax]);
 
   // Fetch rows from API on filter/page change. Keep previous rows visible
   // while a new fetch is in flight so the table doesn't blink.
@@ -355,6 +373,11 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
   const firstFetchRef = useRef(true);
 
   useEffect(() => {
+    if (!gpaRange.valid) {
+      setLoading(false);
+      setApiError(null);
+      return undefined;
+    }
     let cancelled = false;
     // First fetch fires immediately so the table appears as fast as possible;
     // subsequent filter/page changes get a 250ms debounce to coalesce rapid
@@ -372,6 +395,8 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
           result: result || undefined,
           ugCategory: ugCat || undefined,
           major: major || undefined,
+          gpaMin: gpaRange.min,
+          gpaMax: gpaRange.max,
           limit: PAGE_SIZE,
           offset: page * PAGE_SIZE,
         });
@@ -385,7 +410,7 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
       }
     }, delay);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [school, tier, year, result, ugCat, major, page]);
+  }, [school, tier, year, result, ugCat, major, gpaRange, page]);
 
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
   const paged = rows;
@@ -398,8 +423,11 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
     if (result) items.push({ key: 'result', label: t.filterResult, value: result });
     if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: ugCat });
     if (major) items.push({ key: 'major', label: t.filterMajor, value: major });
+    if (gpaRange.valid && (gpaRange.min != null || gpaRange.max != null)) {
+      items.push({ key: 'gpa', label: t.gpaRangeLabel, value: formatGpaRange(gpaRange.min, gpaRange.max) });
+    }
     return items;
-  }, [school, tier, year, result, ugCat, major, t]);
+  }, [school, tier, year, result, ugCat, major, gpaRange, t]);
 
   return (
     <div className={styles.wrap}>
@@ -434,13 +462,23 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} />
         <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} />
         <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} />
+        <GpaRangeFilter
+          min={gpaMin}
+          max={gpaMax}
+          onMinChange={setGpaMin}
+          onMaxChange={setGpaMax}
+          error={gpaRange.error}
+          t={t}
+        />
       </section>
 
       <div className={styles.summary} role="status" aria-live="polite">
-        {t.summaryMatched} <b>{totalCount}</b> {t.summaryRows} · {page + 1} / {totalPages} {t.summaryPage}
+        {gpaRange.valid ? (
+          <>{t.summaryMatched} <b>{totalCount}</b> {t.summaryRows} · {page + 1} / {totalPages} {t.summaryPage}</>
+        ) : t.gpaAwaitingValidRange}
       </div>
 
-      {loading && rows.length === 0 ? (
+      {!gpaRange.valid ? null : loading && rows.length === 0 ? (
         <div className={styles.loading}>{t.loadingData}</div>
       ) : paged.length === 0 ? (
         <EmptyState t={t} activeFilters={activeFilters} />
@@ -458,7 +496,7 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         />
       ) : null}
 
-      {totalCount > 0 ? (
+      {gpaRange.valid && totalCount > 0 ? (
         <nav className={styles.pager} aria-label="pagination">
           <button
             disabled={page === 0}
@@ -846,6 +884,43 @@ function Select({ label, value, onChange, options, allText }) {
         ))}
       </select>
     </label>
+  );
+}
+
+function GpaRangeFilter({ min, max, onMinChange, onMaxChange, error, t }) {
+  const errorText = error === 'range' ? t.gpaRangeInvalid : error === 'value' ? t.gpaValueInvalid : null;
+  return (
+    <div className={styles.gpaRangeWrap}>
+      <span title={t.gpaRangeHint}>{t.gpaRangeLabel}</span>
+      <div className={styles.gpaRangeInputs}>
+        <input
+          type="number"
+          inputMode="decimal"
+          min="0"
+          step="0.01"
+          value={min}
+          onChange={(e) => onMinChange(e.target.value)}
+          placeholder={t.gpaMinPlaceholder}
+          aria-label={`${t.gpaRangeLabel} · ${t.gpaMinPlaceholder}`}
+          aria-invalid={Boolean(error)}
+          aria-describedby={errorText ? 'gpa-filter-error' : undefined}
+        />
+        <span aria-hidden="true">–</span>
+        <input
+          type="number"
+          inputMode="decimal"
+          min="0"
+          step="0.01"
+          value={max}
+          onChange={(e) => onMaxChange(e.target.value)}
+          placeholder={t.gpaMaxPlaceholder}
+          aria-label={`${t.gpaRangeLabel} · ${t.gpaMaxPlaceholder}`}
+          aria-invalid={Boolean(error)}
+          aria-describedby={errorText ? 'gpa-filter-error' : undefined}
+        />
+      </div>
+      {errorText ? <span id="gpa-filter-error" className={styles.filterError} role="alert">{errorText}</span> : null}
+    </div>
   );
 }
 
