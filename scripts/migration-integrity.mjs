@@ -1,14 +1,20 @@
 export function assessMigrationIntegrity({
   sourceDatapoints,
+  expectedDatapoints,
   emittedDatapoints,
   orphanNoApplicant,
   orphanNoProgram,
   orphanBoth = 0,
+  blockingReviewItems = 0,
   allowSkips = false,
 }) {
   const skippedDatapoints = sourceDatapoints - emittedDatapoints;
   const classifiedOrphans = orphanNoApplicant + orphanNoProgram + orphanBoth;
-  const complete = skippedDatapoints === 0 && classifiedOrphans === 0;
+  const sourceMatchesExpected = sourceDatapoints === expectedDatapoints;
+  const complete = sourceMatchesExpected
+    && skippedDatapoints === 0
+    && classifiedOrphans === 0
+    && blockingReviewItems === 0;
   const counts = `source=${sourceDatapoints} emitted=${emittedDatapoints} skipped=${skippedDatapoints}`;
 
   if (skippedDatapoints !== classifiedOrphans) {
@@ -17,6 +23,15 @@ export function assessMigrationIntegrity({
       overridden: false,
       skippedDatapoints,
       message: `INCONSISTENT: ${counts} classified=${classifiedOrphans}`,
+    };
+  }
+
+  if (!sourceMatchesExpected && !allowSkips) {
+    return {
+      ok: false,
+      overridden: false,
+      skippedDatapoints,
+      message: `SOURCE_MISMATCH: ${counts} expected=${expectedDatapoints}`,
     };
   }
 
@@ -34,7 +49,7 @@ export function assessMigrationIntegrity({
       ok: true,
       overridden: true,
       skippedDatapoints,
-      message: `INCOMPLETE/OVERRIDDEN: ${counts}`,
+      message: `INCOMPLETE/OVERRIDDEN: ${counts} expected=${expectedDatapoints} blocking_review=${blockingReviewItems}`,
     };
   }
 
@@ -42,7 +57,7 @@ export function assessMigrationIntegrity({
     ok: false,
     overridden: false,
     skippedDatapoints,
-    message: `INCOMPLETE: ${counts}; rerun with --allow-skips only after reviewing every orphan`,
+    message: `INCOMPLETE: ${counts} expected=${expectedDatapoints} blocking_review=${blockingReviewItems}; rerun with --allow-skips only after reviewing every blocking item`,
   };
 }
 

@@ -6,6 +6,7 @@ import { assessMigrationIntegrity, parseAllowSkips } from './migration-integrity
 test('rejects a migration that silently skips datapoints', () => {
   const result = assessMigrationIntegrity({
     sourceDatapoints: 1960,
+    expectedDatapoints: 1960,
     emittedDatapoints: 1908,
     orphanNoApplicant: 24,
     orphanNoProgram: 7,
@@ -21,6 +22,7 @@ test('rejects a migration that silently skips datapoints', () => {
 test('allows an incomplete migration only with an explicit override', () => {
   const result = assessMigrationIntegrity({
     sourceDatapoints: 1960,
+    expectedDatapoints: 1960,
     emittedDatapoints: 1908,
     orphanNoApplicant: 24,
     orphanNoProgram: 7,
@@ -36,6 +38,7 @@ test('allows an incomplete migration only with an explicit override', () => {
 test('accepts a complete migration without an override', () => {
   const result = assessMigrationIntegrity({
     sourceDatapoints: 1960,
+    expectedDatapoints: 1960,
     emittedDatapoints: 1960,
     orphanNoApplicant: 0,
     orphanNoProgram: 0,
@@ -54,6 +57,7 @@ test('rejects unknown CLI arguments', () => {
 test('never accepts an unaccounted row, even with an override', () => {
   const result = assessMigrationIntegrity({
     sourceDatapoints: 1960,
+    expectedDatapoints: 1960,
     emittedDatapoints: 1908,
     orphanNoApplicant: 24,
     orphanNoProgram: 7,
@@ -63,4 +67,33 @@ test('never accepts an unaccounted row, even with an override', () => {
 
   assert.equal(result.ok, false);
   assert.match(result.message, /classified=51/);
+});
+
+test('rejects a complete-looking migration from a truncated source', () => {
+  const result = assessMigrationIntegrity({
+    sourceDatapoints: 1908,
+    expectedDatapoints: 1960,
+    emittedDatapoints: 1908,
+    orphanNoApplicant: 0,
+    orphanNoProgram: 0,
+    allowSkips: false,
+  });
+
+  assert.equal(result.ok, false);
+  assert.match(result.message, /SOURCE_MISMATCH/);
+});
+
+test('rejects blocking manual-review items without an override', () => {
+  const result = assessMigrationIntegrity({
+    sourceDatapoints: 1960,
+    expectedDatapoints: 1960,
+    emittedDatapoints: 1960,
+    orphanNoApplicant: 0,
+    orphanNoProgram: 0,
+    blockingReviewItems: 1,
+    allowSkips: false,
+  });
+
+  assert.equal(result.ok, false);
+  assert.match(result.message, /blocking_review=1/);
 });

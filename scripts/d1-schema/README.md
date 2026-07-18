@@ -53,9 +53,11 @@ wrangler d1 execute DB_CSGRAD --file=tmp/003-datapoints.sql --remote
 
 ## Verification (local)
 
-Generate the SQL first. Migration is fail-closed: any DataPoint without both
-required links is written to `manual-review.json`, then the command exits
-non-zero. Do not load its SQL into D1 until those links are repaired.
+Generate the SQL first. Migration is fail-closed: source-count mismatches,
+DataPoints without both required links, and blocking manual-review queues are
+written to `manual-review.json`, then the command exits non-zero. Deterministic
+duplicate-program merges are informational, not blocking. Do not load the SQL
+into D1 until the blocking items are repaired.
 
 ```bash
 node scripts/migrate-seatable-to-d1.mjs

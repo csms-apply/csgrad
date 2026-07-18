@@ -553,10 +553,14 @@ console.log(summary);
 
 const integrity = assessMigrationIntegrity({
   sourceDatapoints: tDP.rows.length,
+  expectedDatapoints: EXPECTED_COUNTS.datapoints,
   emittedDatapoints: dpEmitted,
   orphanNoApplicant: manualReview.datapoints_orphan_no_applicant.length,
   orphanNoProgram: manualReview.datapoints_orphan_no_program.length,
   orphanBoth: manualReview.datapoints_orphan_both.length,
+  blockingReviewItems:
+    manualReview.programs_unmapped_tier.length
+    + manualReview.applicants_locked_school_name_blank.length,
   allowSkips,
 });
 console.log(`\n${integrity.message}`);

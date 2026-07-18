@@ -40,10 +40,14 @@ if (!migrationCounts) {
 }
 const integrity = assessMigrationIntegrity({
   sourceDatapoints: migrationCounts.source_datapoints,
+  expectedDatapoints: review.expected_counts.datapoints,
   emittedDatapoints: migrationCounts.emitted_datapoints,
   orphanNoApplicant: review.datapoints_orphan_no_applicant.length,
   orphanNoProgram: review.datapoints_orphan_no_program.length,
   orphanBoth: review.datapoints_orphan_both?.length || 0,
+  blockingReviewItems:
+    review.programs_unmapped_tier.length
+    + review.applicants_locked_school_name_blank.length,
   allowSkips,
 });
 if (!integrity.ok) {
