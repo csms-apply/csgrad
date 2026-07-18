@@ -53,7 +53,19 @@ wrangler d1 execute DB_CSGRAD --file=tmp/003-datapoints.sql --remote
 
 ## Verification (local)
 
-This repo ships a local-sqlite end-to-end check:
+Generate the SQL first. Migration is fail-closed: any DataPoint without both
+required links is written to `manual-review.json`, then the command exits
+non-zero. Do not load its SQL into D1 until those links are repaired.
+
+```bash
+node scripts/migrate-seatable-to-d1.mjs
+
+# Diagnostic escape hatch only. The summary is marked INCOMPLETE/OVERRIDDEN.
+node scripts/migrate-seatable-to-d1.mjs --allow-skips
+```
+
+This repo ships a local-sqlite end-to-end check. It reads source/emitted counts
+from `manual-review.json` instead of accepting a hard-coded truncated count:
 
 ```bash
 node scripts/d1-schema/verify-local.mjs
@@ -61,6 +73,9 @@ node scripts/d1-schema/verify-local.mjs
 # 2. applies 0001_init.sql
 # 3. applies the three INSERT SQL files from scripts/migration-output/
 # 4. runs row-count + sample-join assertions
+
+# Verify an intentionally incomplete diagnostic artifact only:
+node scripts/d1-schema/verify-local.mjs --allow-skips
 ```
 
 ## Schema invariants
