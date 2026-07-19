@@ -96,11 +96,6 @@ const config = {
             label: 'DataPoints',
           },
           {
-            to: '/school-positioning',
-            position: 'left',
-            label: '选校定位',
-          },
-          {
             to: '/tracker',
             position: 'left',
             label: '申请跟踪',
