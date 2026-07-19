@@ -7,6 +7,7 @@ import { FIELD_DEFINITIONS } from '@site/src/lib/positioning/profile-schema';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
 import styles from './school-positioning.module.css';
 
+const POSITIONING_AVAILABLE = false;
 
 const COPY = {
   'zh-Hans': {
@@ -43,6 +44,10 @@ const COPY = {
     yes: '是',
     no: '否',
     selectPlaceholder: '请选择',
+    offlineStatus: '暂时下线',
+    offlineTitle: '选校定位暂时下线',
+    offlineLead: '我们正在调整定位模型与结果质量，暂时停止新的定位和支付。',
+    offlineExisting: '已购买用户仍可通过付款后收到的结果链接查看和下载报告。',
   },
   en: {
     pageTitle: 'MSCS School Positioning',
@@ -78,6 +83,10 @@ const COPY = {
     yes: 'Yes',
     no: 'No',
     selectPlaceholder: 'Select…',
+    offlineStatus: 'Temporarily unavailable',
+    offlineTitle: 'School positioning is temporarily offline',
+    offlineLead: 'We are improving the positioning model and result quality. New assessments and payments are paused for now.',
+    offlineExisting: 'Existing customers can still open and download their report from the result link received after payment.',
   },
 };
 
@@ -89,6 +98,24 @@ function getLabel(node, locale) {
   if (!node) return '';
   if (typeof node === 'string') return node;
   return node[locale] || node['zh-Hans'] || node.en || '';
+}
+
+function OfflineNotice({ locale, t }) {
+  return (
+    <div className={styles.pageWrapper}>
+      <div className={styles.container}>
+        <a href={locale === 'en' ? '/en/' : '/'} className={styles.backLink}>
+          &larr; {t.backHome}
+        </a>
+        <section className={styles.hero} aria-labelledby="positioning-offline-title">
+          <span className={styles.offlineStatus}>{t.offlineStatus}</span>
+          <h1 id="positioning-offline-title" className={styles.title}>{t.offlineTitle}</h1>
+          <p className={styles.lead}>{t.offlineLead}</p>
+          <p className={styles.offlineExisting}>{t.offlineExisting}</p>
+        </section>
+      </div>
+    </div>
+  );
 }
 
 function initialFieldValue(f) {
@@ -576,17 +603,21 @@ export default function SchoolPositioningPage() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
   const t = COPY[locale];
+  const pageTitle = POSITIONING_AVAILABLE ? t.pageTitle : t.offlineTitle;
+  const pageDesc = POSITIONING_AVAILABLE ? t.pageDesc : t.offlineLead;
   return (
-    <Layout title={t.pageTitle} description={t.pageDesc}>
+    <Layout title={pageTitle} description={pageDesc}>
       <Head>
-        <meta name="description" content={t.pageDesc} />
-        <meta property="og:title" content={t.pageTitle} />
-        <meta property="og:description" content={t.pageDesc} />
+        <meta name="description" content={pageDesc} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDesc} />
         <meta property="og:type" content="website" />
       </Head>
-      <BrowserOnly fallback={<div className={styles.pageWrapper} />}>
-        {() => <FormBody />}
-      </BrowserOnly>
+      {POSITIONING_AVAILABLE ? (
+        <BrowserOnly fallback={<div className={styles.pageWrapper} />}>
+          {() => <FormBody />}
+        </BrowserOnly>
+      ) : <OfflineNotice locale={locale} t={t} />}
     </Layout>
   );
 }
