@@ -56,7 +56,7 @@
     "description": "The label for the doc item 转码项目合集 in sidebar tutorialSidebar, linking to the doc 转码项目"
   },
   "sidebar.tutorialSidebar.doc.找我辅导": {
-    "message": "Consult with the CS Grad Author",
+    "message": "Consulting",
     "description": "The label for the doc item 找我辅导 in sidebar tutorialSidebar, linking to the doc 找我辅导"
   }
 }
