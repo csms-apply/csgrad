@@ -164,7 +164,7 @@ const sidebars = {
     {
       type: 'doc',
       id: '找我辅导',
-      label: '找我辅导',
+      label: '找 CS Grad 作者辅导',
     },
   ],
 };
