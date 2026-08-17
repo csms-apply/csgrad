@@ -32,3 +32,92 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.livestreamBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid rgba(46, 133, 85, 0.28);
+  border-left: 5px solid var(--ifm-color-primary);
+  border-radius: 0.75rem;
+  background: linear-gradient(105deg, rgba(46, 133, 85, 0.12), rgba(46, 133, 85, 0.025));
+  box-shadow: 0 12px 30px rgba(32, 93, 59, 0.08);
+}
+
+.livestreamBanner__copy h2 {
+  margin: 0.2rem 0 0.3rem;
+  font-size: clamp(1.3rem, 2.3vw, 1.75rem);
+}
+
+.livestreamBanner__copy p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.livestreamBanner__eyebrow {
+  color: var(--ifm-color-primary-darkest);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.livestreamBanner__button {
+  flex: 0 0 auto;
+  padding: 0.78rem 1.05rem;
+  border-radius: 0.55rem;
+  background: var(--ifm-color-primary-darkest);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 6px 16px rgba(32, 93, 59, 0.2);
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.livestreamBanner__button:hover {
+  transform: translateY(-1px);
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 9px 20px rgba(32, 93, 59, 0.24);
+}
+
+.livestreamBanner__button:focus-visible {
+  outline: 3px solid var(--ifm-color-primary-lightest);
+  outline-offset: 3px;
+}
+
+[data-theme='dark'] .livestreamBanner {
+  border-color: rgba(37, 194, 160, 0.34);
+  background: linear-gradient(105deg, rgba(37, 194, 160, 0.14), rgba(37, 194, 160, 0.035));
+  box-shadow: none;
+}
+
+[data-theme='dark'] .livestreamBanner__eyebrow {
+  color: var(--ifm-color-primary-light);
+}
+
+[data-theme='dark'] .livestreamBanner__button {
+  background: var(--ifm-color-primary);
+  color: #08271f;
+}
+
+@media (max-width: 700px) {
+  .livestreamBanner {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .livestreamBanner__button {
+    text-align: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .livestreamBanner__button {
+    transition: none;
+  }
+}
