@@ -257,7 +257,7 @@
 .colReach .columnCount { background: #c97a3a; color: #fff; }
 
 .colMatch .columnHeader { background: #fdf2d0; }
-.colMatch .columnTitle { color: #b8985d; }
+.colMatch .columnTitle { color: #806529; }
 .colMatch .columnCount { background: #b8985d; color: #fff; }
 
 .colTarget .columnHeader { background: #d4eae7; }
@@ -288,7 +288,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #baa88a;
+  color: #76664f;
   font-size: 0.82rem;
   font-style: italic;
   padding: 40px 16px;
@@ -485,7 +485,7 @@
   border: 2px dashed #d9c9a8;
   border-radius: 12px;
   background: none;
-  color: #baa88a;
+  color: #76664f;
   font-size: 0.82rem;
   cursor: pointer;
   transition: all 0.15s;
@@ -971,7 +971,7 @@
 
 .topBarLink {
   font-size: 0.82rem;
-  color: #c9a96e;
+  color: #80652e;
   text-decoration: none;
   cursor: pointer;
 }

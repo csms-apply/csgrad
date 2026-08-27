@@ -202,6 +202,15 @@ const COPY = {
     cardLabelInternship: 'Internship',
     cardLabelPub: 'Pub',
     cardLabelNotes: 'Notes',
+    notesLabel: {
+      dp: 'Application notes',
+      research: 'Research',
+      internship: 'Internships',
+      pub: 'Publications',
+      rec: 'Recommendations',
+      soft: 'Additional background',
+      education: 'Education',
+    },
   },
 };
 
