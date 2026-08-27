@@ -115,6 +115,8 @@ const COPY = {
     cardLabelInternship: '实习',
     cardLabelPub: '论文',
     cardLabelNotes: '备注',
+    resultLabels: {},
+    ugCategoryLabels: {},
   },
   en: {
     pageTitle: 'DataPoints',
@@ -123,7 +125,7 @@ const COPY = {
     metaApplicants: 'applicants',
     metaPrograms: 'programs',
     metaDatapoints: 'datapoints',
-    dataNote: 'Note: data comes from a historical Seatable archive. Personally identifying fields (contacts / private notes / reference details) have been redacted.',
+    dataNote: 'Note: data comes from a historical Seatable archive. Personally identifying fields have been redacted; institution names and free-text notes remain in the language in which they were submitted.',
     loadingData: 'Loading DataPoints…',
     loadFail: 'Failed to load data: ',
     searchPlaceholder: 'Search school / program',
@@ -202,6 +204,31 @@ const COPY = {
     cardLabelInternship: 'Internship',
     cardLabelPub: 'Pub',
     cardLabelNotes: 'Notes',
+    resultLabels: {
+      '默拒': 'Implicit reject',
+    },
+    ugCategoryLabels: {
+      '清北': 'Tsinghua / Peking',
+      '华五': 'C9 university',
+      '国科/上科/南科': 'UCAS / ShanghaiTech / SUSTech',
+      '10043': 'Top Chinese university (10043)',
+      '985': 'Project 985 university',
+      '211': 'Project 211 university',
+      '双非': 'Other mainland university',
+      '陆本': 'Mainland China university',
+      '陆本中外合办': 'Sino-foreign joint program',
+      '中外合办': 'Sino-foreign joint program',
+      '中外合办校（XJTLU等）': 'Sino-foreign joint university (for example, XJTLU)',
+      '陆本中外合办院系（JI/ZJUI等）': 'Sino-foreign joint institute (for example, JI/ZJUI)',
+      '美本': 'US university',
+      '加本': 'Canadian university',
+      '英本': 'UK university',
+      '澳本': 'Australian university',
+      '港本': 'Hong Kong university',
+      '坡本': 'Singapore university',
+      '欧陆本': 'Continental European university',
+      '海本': 'Overseas university',
+    },
     notesLabel: {
       dp: 'Application notes',
       research: 'Research',
@@ -429,8 +456,8 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
     if (school) items.push({ key: 'school', label: t.filterSchool, value: school });
     if (tier) items.push({ key: 'tier', label: t.filterTier, value: tier });
     if (year) items.push({ key: 'year', label: t.filterYear, value: year });
-    if (result) items.push({ key: 'result', label: t.filterResult, value: result });
-    if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: ugCat });
+    if (result) items.push({ key: 'result', label: t.filterResult, value: displayDataValue(result, t.resultLabels) });
+    if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: displayDataValue(ugCat, t.ugCategoryLabels) });
     if (major) items.push({ key: 'major', label: t.filterMajor, value: major });
     if (gpaRange.valid && (gpaRange.min != null || gpaRange.max != null)) {
       items.push({ key: 'gpa', label: t.gpaRangeLabel, value: formatGpaRange(gpaRange.min, gpaRange.max) });
@@ -468,8 +495,8 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         <Select label={t.filterSchool} value={school} onChange={setSchool} options={filterOpts.schools} allText={t.filterAll} />
         <Select label={t.filterTier} value={tier} onChange={setTier} options={filterOpts.tiers} allText={t.filterAll} />
         <Select label={t.filterYear} value={year} onChange={setYear} options={filterOpts.years} allText={t.filterAll} />
-        <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} />
-        <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} />
+        <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.resultLabels)} />
+        <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.ugCategoryLabels)} />
         <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} />
         <GpaRangeFilter
           min={gpaMin}
@@ -627,7 +654,7 @@ function DesktopTable({ rows, t, onRowClick }) {
               <td>
                 {a.ug_school_category ? (
                   <span className={`${styles.ugCatBadge} ${ugCatBadgeClass(a.ug_school_category)}`}>
-                    {a.ug_school_category}
+                    {displayDataValue(a.ug_school_category, t.ugCategoryLabels)}
                   </span>
                 ) : <span className={styles.muted}>—</span>}
               </td>
@@ -811,7 +838,7 @@ function MobileCards({ rows, t, onCardClick }) {
             <span style={{ textAlign: 'right' }}>
               {a.ug_school_category ? (
                 <span className={`${styles.ugCatBadge} ${ugCatBadgeClass(a.ug_school_category)}`} style={{ marginRight: 4 }}>
-                  {a.ug_school_category}
+                  {displayDataValue(a.ug_school_category, t.ugCategoryLabels)}
                 </span>
               ) : null}
               {a.ug_school_name || ''}
@@ -861,7 +888,7 @@ function MobileCards({ rows, t, onCardClick }) {
 function ResultPills({ d, t }) {
   return (
     <>
-      <span className={`${styles.pill} ${pillClass(d.result)}`}>{d.result || '—'}</span>
+      <span className={`${styles.pill} ${pillClass(d.result)}`}>{displayDataValue(d.result, t.resultLabels) || '—'}</span>
       {d.is_funded ? (
         <span className={styles.fundBadge} role="img" aria-label={t.funded} title={t.funded}>{t.badgeFunded}</span>
       ) : null}
@@ -882,14 +909,18 @@ function GpaCell({ a }) {
   );
 }
 
-function Select({ label, value, onChange, options, allText }) {
+function displayDataValue(value, labels) {
+  return labels?.[value] || value;
+}
+
+function Select({ label, value, onChange, options, allText, formatOption = (option) => option }) {
   return (
     <label className={styles.selectWrap}>
       <span>{label}</span>
       <select value={value} onChange={(e) => onChange(e.target.value)} aria-label={label}>
         <option value="">{allText}</option>
         {options.map((o) => (
-          <option key={o} value={o}>{o}</option>
+          <option key={o} value={o}>{formatOption(o)}</option>
         ))}
       </select>
     </label>
