@@ -14,7 +14,7 @@ For the 22 Fall cohort, about 30 master's students were admitted, with roughly 1
 1. UCSB CS undergrad, GPA 3.98
 2. UCSB CS undergrad, GPA 3.90
 
-![](/img/en/ucsbstudent.png)
+![](/img/en/ucsbstudent.svg)
 ## Job Outcomes & Data Points
 There have been students who landed at Meta and LinkedIn.
 
