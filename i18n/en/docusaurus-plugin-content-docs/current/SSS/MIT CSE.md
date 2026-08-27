@@ -5,7 +5,7 @@ Full name: Master of Science in Computational Science and Engineering.
 Focused on computation and foundational sciences, with courses primarily covering optimization and numerical computing. CSE is jointly offered with eight departments: Mathematics, Aerospace, Chemical Engineering, Civil and Environmental Engineering, Earth, Atmospheric and Planetary Sciences, Materials Science and Engineering, Mechanical Engineering, and Nuclear Science and Engineering. This is not a CS program -- if you want to apply to a pure CS program, check out MIT EECS instead. MIT CSE is also fully funded, with full tuition coverage + $3k stipend without needing to TA.
 
 MIT CSE has currently stopped admitting students. It is uncertain when they will resume admitting external applicants (26fall update):
-![](/img/mitcse)
+![](/img/en/mitcse)
 
 ## Admission Threshold & Data Points
 Annual enrollment is around 15 students.

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1876" height="940" viewBox="0 0 1876 940">
+  <image href="../热力图.png" width="1876" height="940"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#555" font-size="22">
+    <rect x="0" y="0" width="110" height="940" fill="white"/>
+    <rect x="105" y="242" width="1760" height="42" fill="white"/>
+    <rect x="105" y="552" width="1760" height="42" fill="white"/>
+    <rect x="105" y="866" width="1760" height="42" fill="white"/>
+    <g text-anchor="end">
+      <text x="96" y="46">Sun</text><text x="96" y="77">Mon</text><text x="96" y="108">Tue</text><text x="96" y="139">Wed</text><text x="96" y="170">Thu</text><text x="96" y="201">Fri</text><text x="96" y="232">Sat</text>
+      <text x="96" y="360">Sun</text><text x="96" y="391">Mon</text><text x="96" y="422">Tue</text><text x="96" y="453">Wed</text><text x="96" y="484">Thu</text><text x="96" y="515">Fri</text><text x="96" y="546">Sat</text>
+      <text x="96" y="674">Sun</text><text x="96" y="705">Mon</text><text x="96" y="736">Tue</text><text x="96" y="767">Wed</text><text x="96" y="798">Thu</text><text x="96" y="829">Fri</text><text x="96" y="860">Sat</text>
+    </g>
+    <g font-size="24" font-weight="600"><text x="45" y="282">2025</text><text x="45" y="592">2024</text><text x="45" y="908">2023</text></g>
+    <g text-anchor="middle" font-size="21">
+      <text x="150" y="273">Jan</text><text x="315" y="273">Feb</text><text x="470" y="273">Mar</text><text x="625" y="273">Apr</text><text x="780" y="273">May</text><text x="935" y="273">Jun</text><text x="1090" y="273">Jul</text><text x="1245" y="273">Aug</text><text x="1400" y="273">Sep</text><text x="1545" y="273">Oct</text><text x="1680" y="273">Nov</text><text x="1810" y="273">Dec</text>
+      <text x="150" y="583">Jan</text><text x="315" y="583">Feb</text><text x="470" y="583">Mar</text><text x="625" y="583">Apr</text><text x="780" y="583">May</text><text x="935" y="583">Jun</text><text x="1090" y="583">Jul</text><text x="1245" y="583">Aug</text><text x="1400" y="583">Sep</text><text x="1545" y="583">Oct</text><text x="1680" y="583">Nov</text><text x="1810" y="583">Dec</text>
+      <text x="150" y="897">Jan</text><text x="315" y="897">Feb</text><text x="470" y="897">Mar</text><text x="625" y="897">Apr</text><text x="780" y="897">May</text><text x="935" y="897">Jun</text><text x="1090" y="897">Jul</text><text x="1245" y="897">Aug</text><text x="1400" y="897">Sep</text><text x="1545" y="897">Oct</text><text x="1680" y="897">Nov</text><text x="1810" y="897">Dec</text>
+    </g>
+  </g>
+</svg>

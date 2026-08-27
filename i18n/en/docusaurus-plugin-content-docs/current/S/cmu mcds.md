@@ -73,4 +73,4 @@ Notable placements include OpenAI Research Engineer, top quantitative firms, Dat
 # Cost
 CMU is a private school, and tuition has never been cheap. Whether it's INI, ECE, or SCS, MCDS's three-semester tuition fee (tuition only, not including any additional expenses such as rent) is $84,550.
 
-![](/img/mcdsfee.png)
+![](/img/en/mcdsfee.png)

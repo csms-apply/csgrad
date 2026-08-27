@@ -13,7 +13,7 @@ Extremely high difficulty. Best to reach out to professors before applying. A UI
 
 
 
-![](/img/uiucmscs.png)
+![](/img/en/uiucmscs.png)
 
 
 ## Admission Data Points

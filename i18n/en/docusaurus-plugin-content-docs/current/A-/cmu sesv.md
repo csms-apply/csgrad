@@ -23,7 +23,7 @@ GPA 3.7+ with passing language scores should suffice. Students with multiple int
 # Job Outcomes & Data Points
 Job outcomes were solid in previous years, but with the current economic downturn they have weakened. Nowadays students rely more on TikTok and Amazon to pick people up. See the chart below for details.
 
-![](/img/sesvcarrer.png)
+![](/img/en/sesvcarrer.png)
 Some strong data points:
 1. SJTU Software Engineering undergrad, Alibaba internship, landed DoorDash internship, then landed Google for new grad
 2. NCHU CS undergrad, 6-month Intel internship, landed WeRide and converted to full-time
