@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1334" height="912" viewBox="0 0 1334 912">
+  <rect width="1334" height="912" fill="white"/>
+  <rect width="1334" height="72" fill="#28479d"/>
+  <text x="28" y="50" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">UCSD CSE Admitted Students · Undergraduate GPA</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="130" font-size="24" fill="#555">Based on 117 reported GPA records</text>
+    <g font-size="22" fill="#222">
+      <text x="70" y="205">3.95–4.00</text><rect x="250" y="180" width="535" height="34" rx="5" fill="#5674c9"/><text x="805" y="205">25 · 21.37%</text>
+      <text x="70" y="275">3.90–3.94</text><rect x="250" y="250" width="684" height="34" rx="5" fill="#91cc75"/><text x="954" y="275">32 · 27.35%</text>
+      <text x="70" y="345">3.85–3.89</text><rect x="250" y="320" width="449" height="34" rx="5" fill="#fac858"/><text x="719" y="345">21 · 17.95%</text>
+      <text x="70" y="415">3.80–3.84</text><rect x="250" y="390" width="406" height="34" rx="5" fill="#ee6666"/><text x="676" y="415">19 · 16.24%</text>
+      <text x="70" y="485">3.75–3.79</text><rect x="250" y="460" width="171" height="34" rx="5" fill="#73c0de"/><text x="441" y="485">8 · 6.84%</text>
+      <text x="70" y="555">3.70–3.74</text><rect x="250" y="530" width="107" height="34" rx="5" fill="#3ba272"/><text x="377" y="555">5 · 4.27%</text>
+      <text x="70" y="625">3.65–3.69</text><rect x="250" y="600" width="107" height="34" rx="5" fill="#fc8452"/><text x="377" y="625">5 · 4.27%</text>
+      <text x="70" y="695">3.60–3.64</text><rect x="250" y="670" width="22" height="34" rx="5" fill="#9a60b4"/><text x="292" y="695">1 · 0.86%</text>
+      <text x="70" y="765">Below 3.60</text><rect x="250" y="740" width="22" height="34" rx="5" fill="#ea7ccc"/><text x="292" y="765">1 · 0.85%</text>
+    </g>
+  </g>
+  <rect y="858" width="1334" height="54" fill="#28479d"/><text x="28" y="895" fill="white" font-family="Arial" font-size="23">Source: self-reported admission data available at publication time.</text>
+</svg>

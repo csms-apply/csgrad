@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2208" height="1370" viewBox="0 0 2208 1370">
+  <rect width="2208" height="1370" fill="#f7f7f8"/>
+  <text x="75" y="105" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">Undergraduate GPA Distribution</text>
+  <text x="75" y="170" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#555">CMU MSIN admitted-student survey · n = 29</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#333">
+    <text x="110" y="285">3.95–4.00</text><rect x="480" y="245" width="1034" height="52" fill="#1296ed"/><text x="1540" y="285">17.24%</text>
+    <text x="110" y="385">3.90–3.94</text><rect x="480" y="345" width="1034" height="52" fill="#1296ed"/><text x="1540" y="385">17.24%</text>
+    <text x="110" y="485">3.85–3.89</text><rect x="480" y="445" width="620" height="52" fill="#1296ed"/><text x="1125" y="485">10.34%</text>
+    <text x="110" y="585">3.80–3.84</text><rect x="480" y="545" width="1034" height="52" fill="#1296ed"/><text x="1540" y="585">17.24%</text>
+    <text x="110" y="685">3.75–3.79</text><rect x="480" y="645" width="1034" height="52" fill="#1296ed"/><text x="1540" y="685">17.24%</text>
+    <text x="110" y="785">3.70–3.74</text><rect x="480" y="745" width="414" height="52" fill="#1296ed"/><text x="920" y="785">6.90%</text>
+    <text x="110" y="885">3.65–3.69</text><rect x="480" y="845" width="207" height="52" fill="#1296ed"/><text x="713" y="885">3.45%</text>
+    <text x="110" y="985">3.60–3.64</text><rect x="480" y="945" width="8" height="52" fill="#1296ed"/><text x="510" y="985">0%</text>
+    <text x="110" y="1085">Below 3.60</text><rect x="480" y="1045" width="414" height="52" fill="#1296ed"/><text x="920" y="1085">6.90%</text>
+    <text x="110" y="1185">No 4.0-scale GPA</text><rect x="480" y="1145" width="207" height="52" fill="#1296ed"/><text x="713" y="1185">3.45%</text>
+  </g>
+</svg>

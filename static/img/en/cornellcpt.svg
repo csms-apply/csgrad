@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1418" height="1152" viewBox="0 0 1418 1152">
+  <image href="../cornellcpt.png" width="1418" height="1152"/>
+  <rect x="700" y="190" width="718" height="390" fill="white"/>
+  <text x="780" y="270" fill="#e51b13" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="600">
+    <tspan x="780" dy="0">Cornell CS MEng allows students to</tspan>
+    <tspan x="780" dy="48">maintain F-1 status through OPT.</tspan>
+    <tspan x="780" dy="48">A student may use three months of OPT</tspan>
+    <tspan x="780" dy="48">after graduation, transfer the I-20 to</tspan>
+    <tspan x="780" dy="48">Cornell, begin in spring, and remain</tspan>
+    <tspan x="780" dy="48">eligible for summer CPT.</tspan>
+  </text>
+</svg>

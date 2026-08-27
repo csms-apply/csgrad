@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2246" height="944" viewBox="0 0 2246 944">
+  <image href="../cmucpt.png" width="2246" height="944"/>
+  <rect x="590" y="0" width="1656" height="235" fill="white"/>
+  <text x="610" y="66" fill="#e51b13" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600">
+    <tspan x="610" dy="0">To qualify for summer CPT after starting CMU SESV in spring,</tspan>
+    <tspan x="610" dy="54">you must have been a full-time student in the preceding fall.</tspan>
+    <tspan x="610" dy="54">Students transferring directly from OPT are not eligible.</tspan>
+  </text>
+</svg>

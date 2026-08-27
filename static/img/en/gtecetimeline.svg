@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="378" viewBox="0 0 1500 378">
+  <rect width="1500" height="378" fill="white"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#161616">
+    <text x="58" y="58" font-size="28" font-weight="700">Path</text><text x="505" y="58" font-size="28" font-weight="700">What matters</text>
+    <g stroke="#e5e5e5"><line x1="35" y1="95" x2="1465" y2="95"/><line x1="35" y1="185" x2="1465" y2="185"/><line x1="35" y1="275" x2="1465" y2="275"/></g>
+    <text x="58" y="150" font-size="28" font-weight="700">Summer internship</text><text x="505" y="150" font-size="25">Polish the résumé and start LeetCode in August; career fairs peak Sep–Oct.</text>
+    <text x="58" y="240" font-size="28" font-weight="700">Fall / spring co-op</text><text x="505" y="240" font-size="25">A Georgia Tech advantage; common destinations include Amazon, Slack, and LinkedIn.</text>
+    <text x="58" y="330" font-size="28" font-weight="700">Full-time</text><text x="505" y="330" font-size="25">Hiring varies by year; compensate for the ECE label with broad applications + referrals.</text>
+  </g>
+</svg>
