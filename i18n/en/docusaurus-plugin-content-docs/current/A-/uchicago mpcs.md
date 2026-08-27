@@ -12,7 +12,7 @@ Tracks are divided into 9-month and 15-month options, which can be flexibly swit
 
 Admission can be unpredictable. The day before admission decisions are released, if the top-right corner of your portal shows "attention international student," that means you have been admitted.
 
-![](/img/uchi.png)
+![](/img/en/uchi.png)
 
 # Pros
 High school ranking — the top university in the Midwest.

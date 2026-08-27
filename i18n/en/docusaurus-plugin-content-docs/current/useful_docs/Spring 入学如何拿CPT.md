@@ -27,9 +27,9 @@ Yes.
 CMU SESV only supports spring enrollment if you were a full-time student in the preceding fall semester.
 CMU SESV spring CPT — for details, see:
 
-![](/img/cmucpt.png)
+![](/img/en/cmucpt.png)
 
 Cornell is more lenient — they support spring enrollment even if you're on OPT status beforehand. As long as the student is a US undergrad and can transfer their undergraduate I-20 over,
 they can enroll in Cornell CS MEng spring and obtain CPT. For details, see:
 
-![](/img/cornellcpt.png)
+![](/img/en/cornellcpt.png)

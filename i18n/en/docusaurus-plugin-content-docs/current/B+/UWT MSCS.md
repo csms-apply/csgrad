@@ -29,7 +29,7 @@ Average admitted GPA is 3.5. TOEFL requirement is relatively low at 92 to apply.
 
 
 Prerequisite requirements are as follows:
-![](/img/uwt.png)
+![](/img/en/uwt.png)
 
 ## UWT vs UWB Comparison
 | Dimension | UW Bothell MSCSSE | UW Tacoma MSCSS | Comparison |

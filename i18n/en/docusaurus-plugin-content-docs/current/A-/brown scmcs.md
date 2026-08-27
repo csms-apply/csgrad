@@ -38,7 +38,7 @@ In previous years, it reportedly supported spring enrollment with CPT to complet
 
 Diversity may not necessarily help — in 2025, DEI programs have already been canceled. Only Microsoft still prefers to hire career-changers to CS / US undergrads. If you are strong enough, you can disregard diversity considerations when selecting schools.
 
-![](/img/browncarrer.jpeg)
+![](/img/en/browncarrer.jpeg)
 
 Some strong data points from previous years:
 1. US R1 university CS undergrad with small-company internship, landed a new grad role at a small company

@@ -23,7 +23,7 @@ The program values essays highly. There's no traditional SOP -- instead there ar
 
 Career changers are welcome -- there's a data point of a medical student (5-year clinical medicine undergrad) who completed CS prerequisites and was admitted to MSIN.
 
-![](/img/msingpa.png)
+![](/img/en/msingpa.png)
 
 
 
@@ -33,7 +33,7 @@ Based on data points observed around me, HR doesn't seem to care much about whic
 
 2024 summer (23 Fall enrollment) job search outcomes -- that year was the most brutal for job hunting with many companies not hiring at all, but the intern data was still decent, with Amazon leading in offers.
 
-![](/img/msincarrer.png)
+![](/img/en/msincarrer.png)
 
 1. UESTC undergrad, had Xiaomi and China Telecom internships, went to a California small company SDE intern
 2. Indian undergrad, GPA 9.33/10, 5 years full-time at Cisco India, later went to Cisco California for internship
@@ -50,10 +50,10 @@ Even for the class of 2024 during that brutal job market, new grad outcomes were
 
 1. UESTC CS undergrad, 10-month Microsoft internship, 8-month Amazon internship, landed Google
 
-![](/img/msinngcarrer.png)
+![](/img/en/msinngcarrer.png)
 
 # PhD Pathway
 The PhD pathway is also strong, with admits to Columbia PhD, CMU PhD, and Yale PhD.
 
-![](/img/msintophd.png)
+![](/img/en/msintophd.png)
 

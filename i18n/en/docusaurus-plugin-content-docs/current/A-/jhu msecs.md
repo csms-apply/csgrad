@@ -48,7 +48,7 @@ CS course enrollment priority is very high — no need to worry about not gettin
 
 2. Expensive. Based on the offer letter for 23 fall MSECS admits, the total annual cost is $86,267. For 1.5 years, the total comes to $137,371.50.
 
-![](/img/jhucost.png)
+![](/img/en/jhucost.png)
 
 ## One-Line Summary:
 Personally, I think this program is underrated. Other than the high cost, everything is quite good (school ranking, student experience, workload, PhD transfer opportunities, job hunting convenience). Although it is a career-change program, CS majors can also apply. If your family budget is sufficient, I personally believe this program is no worse in quality than the A+ programs on Open CS App.
