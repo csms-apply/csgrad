@@ -23,7 +23,7 @@ The program values essays highly. There's no traditional SOP -- instead there ar
 
 Career changers are welcome -- there's a data point of a medical student (5-year clinical medicine undergrad) who completed CS prerequisites and was admitted to MSIN.
 
-![](/img/en/msingpa.png)
+![](/img/en/msingpa.svg)
 
 
 

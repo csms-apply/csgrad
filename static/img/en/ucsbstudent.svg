@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2510" height="1436" viewBox="0 0 2510 1436">
+  <image href="../ucsbstudent.png" width="2510" height="1436"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="white" font-size="24">
+    <rect x="960" y="232" width="290" height="62" fill="#07436d"/><text x="1025" y="273">All</text>
+    <rect x="1260" y="232" width="260" height="62" fill="#07436d"/><text x="1330" y="273">All</text>
+    <rect x="1490" y="232" width="260" height="62" fill="#07436d"/><text x="1560" y="273">All</text>
+    <rect x="1725" y="232" width="300" height="62" fill="#07436d"/><text x="1795" y="273">All</text>
+    <rect x="2005" y="232" width="270" height="62" fill="#07436d"/><text x="2075" y="273">All</text>
+  </g>
+  <rect x="35" y="295" width="890" height="104" fill="white"/>
+  <text x="82" y="355" fill="#104b78" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Admissions and Applications by Year</text>
+</svg>

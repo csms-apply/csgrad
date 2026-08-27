@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1952" height="1496" viewBox="0 0 1952 1496">
+  <rect width="1952" height="1496" fill="#101114"/>
+  <text x="976" y="105" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Undergraduate Background Distribution</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="34" fill="white">
+    <rect x="220" y="280" width="660" height="90" rx="10" fill="#5470c6"/><text x="250" y="338">985 universities</text><text x="840" y="338" text-anchor="end">39.29%</text>
+    <rect x="220" y="440" width="720" height="90" rx="10" fill="#91cc75"/><text x="250" y="498">International undergraduate</text><text x="900" y="498" text-anchor="end">42.86%</text>
+    <rect x="220" y="600" width="250" height="90" rx="10" fill="#fac858"/><text x="500" y="658">Joint international program</text><text x="450" y="658" text-anchor="end">7.14%</text>
+    <rect x="220" y="760" width="125" height="90" rx="10" fill="#ee6666"/><text x="375" y="818">Other</text><text x="325" y="818" text-anchor="end">3.57%</text>
+  </g>
+  <text x="220" y="1000" fill="#bfc4ce" font-family="Arial, Helvetica, sans-serif" font-size="30">Percentages reflect the available self-reported sample.</text>
+</svg>

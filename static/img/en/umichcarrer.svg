@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2588" height="1642" viewBox="0 0 2588 1642">
+  <image href="../umichcarrer.png" width="2588" height="1642"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#333">
+    <rect x="350" y="198" width="290" height="58" fill="white"/><text x="390" y="236">(All)</text>
+    <rect x="1160" y="198" width="330" height="58" fill="white"/><text x="1248" y="236">(All)</text>
+    <rect x="1450" y="198" width="360" height="58" fill="white"/><text x="1550" y="236">(All)</text>
+    <rect x="2210" y="378" width="300" height="58" fill="white"/><text x="2330" y="416">Total</text>
+    <rect x="690" y="1560" width="330" height="62" fill="white"/><text x="735" y="1600">Save custom view</text>
+    <rect x="2340" y="1560" width="190" height="62" fill="white"/><text x="2400" y="1600">Share</text>
+  </g>
+</svg>

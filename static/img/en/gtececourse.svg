@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1608" height="720" viewBox="0 0 1608 720">
+  <rect width="1608" height="720" fill="white"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#161616">
+    <text x="52" y="42" font-size="24" font-weight="700">Course</text><text x="500" y="42" font-size="24" font-weight="700">Difficulty</text><text x="630" y="42" font-size="24" font-weight="700">Workload</text><text x="825" y="42" font-size="24" font-weight="700">One-line take</text>
+    <g stroke="#e5e5e5"><line x1="50" y1="72" x2="1580" y2="72"/><line x1="50" y1="162" x2="1580" y2="162"/><line x1="50" y1="252" x2="1580" y2="252"/><line x1="50" y1="342" x2="1580" y2="342"/><line x1="50" y1="432" x2="1580" y2="432"/><line x1="50" y1="522" x2="1580" y2="522"/><line x1="50" y1="612" x2="1580" y2="612"/></g>
+    <g font-size="23"><text x="75" y="125" font-weight="600">ECE 6122 · C++</text><text x="525" y="125">3/5</text><text x="655" y="125">3/5</text><text x="850" y="125">Thread pools + CUDA; manageable even without prior C++.</text>
+    <text x="75" y="215" font-weight="600">ECE 6100 / CS 6290 · Architecture</text><text x="525" y="215">4</text><text x="655" y="215">4</text><text x="850" y="215">Fast board work and detail-heavy assignments, but highly useful.</text>
+    <text x="75" y="305" font-weight="600">CS 6422 · Database Implementation</text><text x="525" y="305">4</text><text x="655" y="305">4</text><text x="850" y="305">A CMU 15-445-style course; use Pavlo’s lectures when needed.</text>
+    <text x="75" y="395" font-weight="600">CS 6242 · Data Visualization</text><text x="525" y="395">4</text><text x="655" y="395">4</text><text x="850" y="395">SQL → JS → D3; HW2 has a famously heavy workload.</text>
+    <text x="75" y="485" font-weight="600">CS 6740 · ML Theory</text><text x="525" y="485">3.5</text><text x="655" y="485">3.5</text><text x="850" y="485">Great for math lovers; exams are derivation-heavy.</text>
+    <text x="75" y="575" font-weight="600">ECE 4180 · Embedded Systems</text><text x="525" y="575">3</text><text x="655" y="575">3</text><text x="850" y="575">A protocol sampler plus a small final hardware project.</text>
+    <text x="75" y="665" font-weight="600">ECE 6001 · Required Seminar</text><text x="525" y="665">0</text><text x="655" y="665">0</text><text x="850" y="665">Light discussion course; attendance is the main requirement.</text></g>
+  </g>
+</svg>
