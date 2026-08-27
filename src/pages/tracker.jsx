@@ -239,9 +239,11 @@ function KanbanColumn({ column, cards, onAddCard, onEditCard, onDeleteCard }) {
       <div className={styles.columnHeader}>
         <h3 className={styles.columnTitle}>
           {column.title}
-          <span style={{ fontWeight: 400, fontSize: '0.75rem', marginLeft: 6, opacity: 0.7 }}>
-            {column.subtitle}
-          </span>
+          {column.title !== column.subtitle && (
+            <span style={{ fontWeight: 400, fontSize: '0.75rem', marginLeft: 6, opacity: 0.8 }}>
+              {column.subtitle}
+            </span>
+          )}
         </h3>
         <span className={styles.columnCount}>{cards.length}</span>
       </div>
@@ -351,7 +353,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
               >
                 {columns.map((c) => (
                   <option key={c.id} value={c.id}>
-                    {c.title} ({c.subtitle})
+                    {c.title}{c.title !== c.subtitle ? ` (${c.subtitle})` : ''}
                   </option>
                 ))}
               </select>

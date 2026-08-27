@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '美研mscs介绍',
+  title: 'CS Grad',
   tagline: 'Make application easier',
   favicon: 'img/favicon.ico',
 
@@ -80,7 +80,7 @@ const config = {
       navbar: {
         title: 'cs grad',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'CS Grad Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -115,11 +115,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Explore',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Program Guide',
                 to: '/',
+              },
+              {
+                label: 'Data Points',
+                to: '/datapoints',
+              },
+              {
+                label: 'Application Tracker',
+                to: '/tracker',
               },
             ],
           },
@@ -127,21 +135,13 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'CS Grad Discord',
+                href: 'https://discord.gg/g9x4WCX2xz',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Project',
             items: [
               {
                 label: 'GitHub',
@@ -150,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 红尘客栈_`,
+        copyright: `Copyright © ${new Date().getFullYear()} CS Grad`,
       },
       prism: {
         theme: prismThemes.github,
