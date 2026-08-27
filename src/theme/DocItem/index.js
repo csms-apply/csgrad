@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import DocItem from "@theme-original/DocItem";
 import { useColorMode } from "@docusaurus/theme-common";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function DocItemWrapper(props) {
   const { colorMode } = useColorMode();
+  const { i18n } = useDocusaurusContext();
 
   useEffect(() => {
 
@@ -23,7 +25,7 @@ export default function DocItemWrapper(props) {
     script.setAttribute("data-emit-metadata", "0");
     script.setAttribute("data-input-position", "top");
     script.setAttribute("data-theme", colorMode === "dark" ? "dark" : "light");
-    script.setAttribute("data-lang", "zh-CN");
+    script.setAttribute("data-lang", i18n.currentLocale === "en" ? "en" : "zh-CN");
     script.setAttribute("crossorigin", "anonymous");
     script.async = true;
 
@@ -36,7 +38,7 @@ export default function DocItemWrapper(props) {
     if (markdownEl) {
       markdownEl.insertAdjacentElement("afterend", container);
     }
-  }, [colorMode]);
+  }, [colorMode, i18n.currentLocale]);
 
   return <DocItem {...props} />;
 }
