@@ -47,8 +47,8 @@ Round 2: Opens up to all university courses right before the semester starts. Po
 
 No extra charge for overloading — beyond 12 credits it is free. If you have the stamina, nobody will stop you from taking 4+1 or even 4+2 courses.
 
-![](/img/en/gtececourse.svg)
+![Georgia Tech ECE course difficulty and workload table](/img/en/gtececourse.svg)
 
 # How to Prepare for Internship Hunting After Arriving at GT
 
-![](/img/en/gtecetimeline.svg)
+![Georgia Tech ECE internship, co-op and full-time planning paths](/img/en/gtecetimeline.svg)

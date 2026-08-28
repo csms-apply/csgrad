@@ -1,11 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1952" height="1496" viewBox="0 0 1952 1496">
-  <rect width="1952" height="1496" fill="#101114"/>
-  <text x="976" y="105" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Undergraduate Background Distribution</text>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="34" fill="white">
-    <rect x="220" y="280" width="660" height="90" rx="10" fill="#5470c6"/><text x="250" y="338">985 universities</text><text x="840" y="338" text-anchor="end">39.29%</text>
-    <rect x="220" y="440" width="720" height="90" rx="10" fill="#91cc75"/><text x="250" y="498">International undergraduate</text><text x="900" y="498" text-anchor="end">42.86%</text>
-    <rect x="220" y="600" width="250" height="90" rx="10" fill="#fac858"/><text x="500" y="658">Joint international program</text><text x="450" y="658" text-anchor="end">7.14%</text>
-    <rect x="220" y="760" width="125" height="90" rx="10" fill="#ee6666"/><text x="375" y="818">Other</text><text x="325" y="818" text-anchor="end">3.57%</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Berkeley EECS MEng undergraduate background distribution</title>
+  <desc id="desc">Self-reported sample: 42.86 percent from US undergraduate institutions, 39.29 percent from Project 985 universities in mainland China, 7.14 percent from joint international programs, 3.57 percent other, and 7.14 percent not reported.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:38px;font-weight:760;fill:#10233f}.sub{font-size:20px;fill:#5b687c}.label{font-size:21px;font-weight:650;fill:#23354d}.value{font-size:19px;font-weight:760;fill:#10233f}.note{font-size:17px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="780" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="778" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="62">ADMITTED-STUDENT SAMPLE</text>
+  <text class="sans title" x="64" y="112">Undergraduate background</text>
+  <text class="sans sub" x="64" y="151">Berkeley EECS MEng · unofficial, self-reported distribution</text>
+  <g class="sans" transform="translate(64 215)">
+    <text class="label" x="0" y="30">U.S. undergraduate institution</text><rect x="390" y="0" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="0" width="650" height="42" rx="9" fill="#2f6fed"/><text class="value" x="1065" y="29">42.86%</text>
+    <text class="label" x="0" y="120">Mainland China · Project 985</text><rect x="390" y="90" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="90" width="596" height="42" rx="9" fill="#258a79"/><text class="value" x="1011" y="119">39.29%</text>
+    <text class="label" x="0" y="210">Joint international program</text><rect x="390" y="180" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="180" width="108" height="42" rx="9" fill="#8b5cf6"/><text class="value" x="523" y="209">7.14%</text>
+    <text class="label" x="0" y="300">Not reported</text><rect x="390" y="270" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="270" width="108" height="42" rx="9" fill="#8fa0b7"/><text class="value" x="523" y="299">7.14%</text>
+    <text class="label" x="0" y="390">Other</text><rect x="390" y="360" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="360" width="54" height="42" rx="9" fill="#d97706"/><text class="value" x="469" y="389">3.57%</text>
   </g>
-  <text x="220" y="1000" fill="#bfc4ce" font-family="Arial, Helvetica, sans-serif" font-size="30">Percentages reflect the available self-reported sample.</text>
+  <line x1="64" y1="680" x2="1136" y2="680" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans note" x="64" y="724">Percentages describe the available sample, not Berkeley’s full entering class.</text>
 </svg>

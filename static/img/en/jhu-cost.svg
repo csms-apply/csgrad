@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">JHU estimated cost for the 2024 to 2025 academic year</title>
+  <desc id="desc">Estimated annual cost: tuition 62,430 dollars, matriculation fee 500 dollars, health insurance 2,511 dollars, personal expenses 2,700 dollars, off-campus living 16,668 dollars, books and supplies 1,458 dollars, for a total of 86,267 dollars.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:36px;font-weight:760;fill:#10233f}.sub{font-size:19px;fill:#5b687c}.item{font-size:20px;font-weight:650;fill:#23354d}.amount{font-size:20px;font-weight:760;fill:#10233f}.detail{font-size:16px;fill:#6b7789}.total{font-size:26px;font-weight:800;fill:white}.note{font-size:15px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="760" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="758" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="60">COST OF ATTENDANCE</text>
+  <text class="sans title" x="64" y="108">Estimated 2024–2025 academic-year cost</text>
+  <text class="sans sub" x="64" y="146">Johns Hopkins University · approximate budget</text>
+  <g class="sans" transform="translate(64 190)">
+    <rect width="1072" height="58" rx="12" fill="#eaf0ff"/><text class="item" x="24" y="37">Category</text><text class="item" x="1048" y="37" text-anchor="end">Estimated amount</text>
+    <g transform="translate(0 70)"><text class="item" x="24" y="31">Tuition</text><text class="detail" x="300" y="31">12–18 units per semester</text><text class="amount" x="1048" y="31" text-anchor="end">$62,430</text></g>
+    <line x1="0" y1="122" x2="1072" y2="122" stroke="#dbe3ef"/>
+    <g transform="translate(0 130)"><text class="item" x="24" y="31">Matriculation fee</text><text class="amount" x="1048" y="31" text-anchor="end">$500</text></g>
+    <line x1="0" y1="182" x2="1072" y2="182" stroke="#dbe3ef"/>
+    <g transform="translate(0 190)"><text class="item" x="24" y="31">Student health insurance</text><text class="amount" x="1048" y="31" text-anchor="end">$2,511</text></g>
+    <line x1="0" y1="242" x2="1072" y2="242" stroke="#dbe3ef"/>
+    <g transform="translate(0 250)"><text class="item" x="24" y="31">Personal expenses</text><text class="amount" x="1048" y="31" text-anchor="end">$2,700</text></g>
+    <line x1="0" y1="302" x2="1072" y2="302" stroke="#dbe3ef"/>
+    <g transform="translate(0 310)"><text class="item" x="24" y="31">Off-campus living</text><text class="detail" x="300" y="31">$2,083.50 per month for 8 months</text><text class="amount" x="1048" y="31" text-anchor="end">$16,668</text></g>
+    <line x1="0" y1="362" x2="1072" y2="362" stroke="#dbe3ef"/>
+    <g transform="translate(0 370)"><text class="item" x="24" y="31">Books and supplies</text><text class="amount" x="1048" y="31" text-anchor="end">$1,458</text></g>
+    <rect y="438" width="1072" height="78" rx="14" fill="#10233f"/><text class="total" x="24" y="488">Approximate total</text><text class="total" x="1048" y="488" text-anchor="end">$86,267</text>
+  </g>
+  <text class="sans note" x="64" y="726">The health-insurance line restores the amount omitted by the damaged source image so the published total reconciles. Costs change by year.</text>
+</svg>

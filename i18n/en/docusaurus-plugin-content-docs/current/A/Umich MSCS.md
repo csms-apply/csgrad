@@ -50,7 +50,7 @@ External students are not recommended to apply blindly unless they are extremely
 2021 employment rate: 62.61%, 2022: 62.64%, 2023: 65.99%.
 Top employers: Amazon, Facebook, Google.
 
-![](/img/en/umichcarrer.svg)
+[![University of Michigan MSCS employer outcomes dashboard; open full size](/img/en/umichcarrer.svg)](/img/en/umichcarrer.svg)
 There are some industry partnership programs (e.g., MDP) where strong performance can lead to internship interviews/opportunities.
 
 ## Transferring to PhD

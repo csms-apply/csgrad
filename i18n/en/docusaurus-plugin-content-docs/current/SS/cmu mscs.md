@@ -30,4 +30,4 @@ IIT CS undergrad, GPA 9.58/10, three years full-time at Microsoft
 # New Grad Job Outcomes
 Unbeatable. All kinds of quant firms (Citadel, Point72, Jane Street, Jump Trading). The rest can at minimum land at big tech companies (but this isn't so much because of the CMU MSCS title -- it's mainly because the students themselves have exceptionally strong backgrounds, such as GitHub 3k+ stars / Point72 QR intern / three years full-time at Microsoft).
 
-![](/img/en/cmumscscarrer.png)
+[![CMU MSCS first-destination outcomes dashboard; open full size](/img/en/cmumscscarrer.png)](/img/en/cmumscscarrer.png)

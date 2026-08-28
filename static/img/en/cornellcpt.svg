@@ -1,12 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1418" height="1152" viewBox="0 0 1418 1152">
-  <image href="../cornellcpt.png" width="1418" height="1152"/>
-  <rect x="700" y="190" width="718" height="390" fill="white"/>
-  <text x="780" y="270" fill="#e51b13" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="600">
-    <tspan x="780" dy="0">Cornell CS MEng allows students to</tspan>
-    <tspan x="780" dy="48">maintain F-1 status through OPT.</tspan>
-    <tspan x="780" dy="48">A student may use three months of OPT</tspan>
-    <tspan x="780" dy="48">after graduation, transfer the I-20 to</tspan>
-    <tspan x="780" dy="48">Cornell, begin in spring, and remain</tspan>
-    <tspan x="780" dy="48">eligible for summer CPT.</tspan>
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Cornell spring enrollment and F-1 transfer guidance</title>
+  <desc id="desc">A concise summary of an advisor response explaining how students may maintain F-1 status through OPT, transfer SEVIS to Cornell, and preserve eligibility for summer CPT.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#b31b1b}.title{font-size:36px;font-weight:760;fill:#10233f}.sub{font-size:19px;fill:#5b687c}.step{font-size:20px;font-weight:700;fill:#23354d}.body{font-size:17px;fill:#52627a}.num{font-size:17px;font-weight:800;fill:white}.note{font-size:15px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="820" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="818" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="56" y="58">ADVISOR GUIDANCE · SUMMARY</text>
+  <text class="sans title" x="56" y="106">Spring start after undergraduate OPT</text>
+  <text class="sans sub" x="56" y="144">How a Cornell CS MEng student may bridge status before a January start</text>
+  <g class="sans" transform="translate(56 188)">
+    <line x1="27" y1="28" x2="27" y2="372" stroke="#d8e0ec" stroke-width="4"/>
+    <g transform="translate(0 0)"><circle cx="27" cy="28" r="22" fill="#b31b1b"/><text class="num" x="27" y="34" text-anchor="middle">1</text><text class="step" x="74" y="24">Maintain F-1 status after graduation</text><text class="body" x="74" y="52">Use approved undergraduate OPT so your status remains active before the January start.</text></g>
+    <g transform="translate(0 104)"><circle cx="27" cy="28" r="22" fill="#2f6fed"/><text class="num" x="27" y="34" text-anchor="middle">2</text><text class="step" x="74" y="24">Keep the transfer window under five months</text><text class="body" x="74" y="52">Choose a SEVIS release date that falls within five months of Cornell’s program start.</text></g>
+    <g transform="translate(0 208)"><circle cx="27" cy="28" r="22" fill="#258a79"/><text class="num" x="27" y="34" text-anchor="middle">3</text><text class="step" x="74" y="24">Transfer the SEVIS record to Cornell</text><text class="body" x="74" y="52">OPT work authorization ends when the record is released to the new institution.</text></g>
+    <g transform="translate(0 312)"><circle cx="27" cy="28" r="22" fill="#8b5cf6"/><text class="num" x="27" y="34" text-anchor="middle">4</text><text class="step" x="74" y="24">Begin the program with the new I-20</text><text class="body" x="74" y="52">Obtain Cornell’s I-20 before international travel or re-entry to the United States.</text></g>
+  </g>
+  <rect x="56" y="604" width="1088" height="112" rx="18" fill="#fff4f2" stroke="#efc3bd"/>
+  <text class="sans step" x="84" y="645" fill="#8d2521">What this supports</text>
+  <text class="sans body" x="84" y="678">Continuous eligible F-1 history may allow a spring-entry student to satisfy the academic-year requirement for summer CPT.</text>
+  <text class="sans body" x="84" y="704">Final eligibility must be confirmed by Cornell’s international-student office.</text>
+  <text class="sans note" x="56" y="770">This graphic summarizes the advisor response shown in the original correspondence; immigration rules and school policies can change.</text>
 </svg>
