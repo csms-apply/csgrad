@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+  <title id="title">MIT CSE SM external admissions status</title>
+  <desc id="desc">External admissions to the MIT Computational Science and Engineering Master of Science program are currently paused.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#a31f34}.title{font-size:38px;font-weight:760;fill:#10233f}.body{font-size:22px;fill:#52627a}.status{font-size:17px;font-weight:800;letter-spacing:1px;fill:#8d2521}.note{font-size:16px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="410" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="408" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <rect x="56" y="56" width="92" height="92" rx="22" fill="#fff0f1"/>
+  <path d="M102 79v35M102 130h.1" stroke="#a31f34" stroke-width="10" stroke-linecap="round"/>
+  <text class="sans eyebrow" x="184" y="72">PROGRAM AVAILABILITY</text>
+  <text class="sans title" x="184" y="120">External admissions are paused</text>
+  <rect x="184" y="154" width="205" height="36" rx="18" fill="#f8dfe3"/><text class="sans status" x="286" y="179" text-anchor="middle">CURRENT STATUS</text>
+  <text class="sans body" x="56" y="250">MIT’s CSE SM program is not currently accepting external applicants.</text>
+  <text class="sans body" x="56" y="286">Any future restart will be announced on the official program page.</text>
+  <line x1="56" y1="336" x2="1144" y2="336" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans note" x="56" y="372">Check the official MIT CSE admissions page before building an application plan around this program.</text>
+</svg>

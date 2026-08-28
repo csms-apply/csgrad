@@ -33,7 +33,7 @@ Regarding GRE, it was optional during the pandemic, so not taking it was fine. F
 
 The program prefers high-GPA and US undergrad students. Mainland China students are mostly from 985 universities. US undergrads and mainland China 985 students each make up about 40%. Over 70% of students have a GPA above 3.8. According to unofficial statistics, the program particularly favors students with Berkeley exchange experience.
 
-![](/img/en/ucbeecsundergradu.svg)
+[![Berkeley EECS MEng undergraduate background distribution; open full size](/img/en/ucbeecsundergradu.svg)](/img/en/ucbeecsundergradu.svg)
 
 1. ZJU Digital Media Design, had Harvard RA, GPA 3.95
 2. UofT, GPA 3.88, four co-op internship experiences

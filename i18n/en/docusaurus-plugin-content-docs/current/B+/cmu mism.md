@@ -16,7 +16,7 @@ In summary, again, only suitable for **students who want the CMU title and plan 
 # MISM Core
 Worth a dedicated section to introduce this core -- you can see there aren't many advanced CS courses, and there are plenty of business courses. If you're considering this program, be mentally prepared; it's not suitable for students who want to take SCS courses, especially if you haven't taken equivalent business courses as an undergrad that can be waived. The courses outlined in red are CS courses, which include things like Java OOP (a first-semester undergrad course). The number of business courses far exceeds the number of CS courses.
 
-![](/img/en/mismcore.png)
+![CMU MISM core course list](/img/en/mismcore.png)
 
 # Representative Admission Data Points
 Rolling admissions -- apply early, get admitted early. If you want to come to MISM, apply as early as possible.

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1160" viewBox="0 0 720 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Fall 2027 graduate application timeline</title>
+  <desc id="desc">Four preparation phases from January 2026 through January 2027: testing, experience building, recommendations and materials, and submission.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:700;letter-spacing:2px;fill:#2f6fed}.title{font-size:34px;font-weight:750;fill:#10233f}.phase{font-size:24px;font-weight:700;fill:#10233f}.date{font-size:17px;font-weight:750;fill:#2f6fed}.body{font-size:18px;fill:#52627a}.num{font-size:18px;font-weight:800;fill:white}
+  </style>
+  <rect width="720" height="1160" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="718" height="1158" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="40" y="52">PLANNING MAP</text>
+  <text class="sans title" x="40" y="96">Fall 2027 application timeline</text>
+  <text class="sans body" x="40" y="132">Move from profile building to materials and submission.</text>
+  <g class="sans">
+    <g transform="translate(40 174)"><rect width="640" height="210" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/><circle cx="42" cy="42" r="23" fill="#2f6fed"/><text class="num" x="42" y="49" text-anchor="middle">1</text><text class="date" x="82" y="48">JAN–MAY 2026</text><text class="phase" x="28" y="104">Testing foundation</text><text class="body" x="28" y="148">Prepare TOEFL / IELTS and GRE when required.</text></g>
+    <g transform="translate(40 410)"><rect width="640" height="210" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/><circle cx="42" cy="42" r="23" fill="#258a79"/><text class="num" x="42" y="49" text-anchor="middle">2</text><text class="date" x="82" y="48">MAY–SEP 2026</text><text class="phase" x="28" y="104">Build evidence</text><text class="body" x="28" y="148">Strengthen internships, research and projects.</text></g>
+    <g transform="translate(40 646)"><rect width="640" height="210" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/><circle cx="42" cy="42" r="23" fill="#8b5cf6"/><text class="num" x="42" y="49" text-anchor="middle">3</text><text class="date" x="82" y="48">SEP–OCT 2026</text><text class="phase" x="28" y="104">Prepare materials</text><text class="body" x="28" y="148">Confirm recommenders; draft résumé and statements.</text></g>
+    <g transform="translate(40 882)"><rect width="640" height="210" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/><circle cx="42" cy="42" r="23" fill="#d97706"/><text class="num" x="42" y="49" text-anchor="middle">4</text><text class="date" x="82" y="48">OCT 2026–JAN 2027</text><text class="phase" x="28" y="104">Submit applications</text><text class="body" x="28" y="148">Finalize each package and track every deadline.</text></g>
+  </g>
+</svg>

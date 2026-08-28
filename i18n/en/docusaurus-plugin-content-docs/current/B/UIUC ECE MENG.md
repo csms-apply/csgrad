@@ -6,7 +6,7 @@ Supports co-op, offers flexible course selection covering both software and hard
 Supports deferral for one year. Students with weaker software backgrounds can use this year to do internships in China to strengthen their profile, which helps with finding full-time positions in the US later -- quite friendly for job hunting. The program currently allows deferral freely, and this was also the case even before the pandemic. There are also many graduation pathways; see the chart below for details.
 
 
-![cs75coop](/img/en/uiucece.png)
+[![UIUC ECE MEng degree-completion paths; open full size](/img/en/uiucece.svg)](/img/en/uiucece.svg)
 
 The biggest highlight of the UIUC MEng program is that the advisor is very accommodating. The program has a special mechanism called "petition." What makes it special is that you can petition to count non-ECE courses as ECE courses. This means even if you don't have enough ECE credits to graduate, you can talk to your advisor and they may still let you graduate. As long as you maintain a good relationship with a professor, you can even transfer to a PhD program.
 

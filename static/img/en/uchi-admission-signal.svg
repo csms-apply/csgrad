@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">UChicago MPCS portal admission signal</title>
+  <desc id="desc">A portal illustration showing that the International Admitted Students notice may appear after admission.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:17px;font-weight:750;letter-spacing:2px;fill:#7b1e2b}.title{font-size:35px;font-weight:760;fill:#10233f}.portalHead{font-size:19px;font-weight:750;fill:white}.welcome{font-size:27px;font-weight:700;fill:#7b1e2b}.small{font-size:16px;fill:#59687b}.notice{font-size:17px;font-weight:700;fill:#7b1e2b}.callout{font-size:21px;font-weight:700;fill:#23354d}
+  </style>
+  <rect width="1200" height="520" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="518" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="56" y="58">PORTAL SIGNAL</text>
+  <text class="sans title" x="56" y="103">What an admission update may look like</text>
+
+  <g class="sans" transform="translate(56 145)">
+    <rect width="700" height="310" rx="18" fill="white" stroke="#d8dee8" stroke-width="2"/>
+    <path d="M18 0h664a18 18 0 0 1 18 18v60H0V18A18 18 0 0 1 18 0z" fill="#7b1e2b"/>
+    <text class="portalHead" x="28" y="47">THE UNIVERSITY OF CHICAGO · Physical Sciences Division</text>
+    <text class="welcome" x="30" y="125">Welcome, [Applicant]</text>
+    <text class="small" x="30" y="158">Master’s Program in Computer Science</text>
+    <rect x="402" y="102" width="268" height="140" rx="12" fill="#fff7f6" stroke="#e4b9bf"/>
+    <text class="notice" x="424" y="137">Attention International</text>
+    <text class="notice" x="424" y="160">Admitted Students</text>
+    <text class="small" x="424" y="193">Visa-document guidance</text>
+    <text class="small" x="424" y="216">may appear in this panel.</text>
+    <line x1="30" y1="203" x2="354" y2="203" stroke="#e0e5ec" stroke-width="8" stroke-linecap="round"/>
+    <line x1="30" y1="238" x2="305" y2="238" stroke="#e0e5ec" stroke-width="8" stroke-linecap="round"/>
+    <line x1="30" y1="273" x2="342" y2="273" stroke="#e0e5ec" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g class="sans" transform="translate(810 205)">
+    <circle cx="30" cy="30" r="30" fill="#e9f7f2"/><path d="M17 30l9 9 18-20" fill="none" stroke="#258a79" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="callout" x="0" y="96">The admitted-student</text><text class="callout" x="0" y="127">notice is a useful signal.</text>
+    <text class="small" x="0" y="178">Treat the official decision letter</text><text class="small" x="0" y="205">as the authoritative result.</text>
+  </g>
+</svg>

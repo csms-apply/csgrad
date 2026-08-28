@@ -1,16 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1324" height="272" viewBox="0 0 1324 272">
-  <image href="../applytimeline.png" width="1324" height="272"/>
-  <rect x="70" y="0" width="1135" height="78" fill="white"/>
-  <rect x="0" y="156" width="1324" height="92" fill="white"/>
-  <g fill="#050505" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <text x="285" y="55" font-size="31">TOEFL / GRE</text>
-    <text x="625" y="55" font-size="31">Internships / Research</text>
-    <text x="905" y="55" font-size="31">Recommendation Letters</text>
-    <text x="1160" y="55" font-size="31">Applications</text>
-    <text x="119" y="207" font-size="38">Jan 2026</text>
-    <text x="498" y="207" font-size="38">May 2026</text>
-    <text x="690" y="207" font-size="38">Sep</text>
-    <text x="862" y="207" font-size="38">Oct</text>
-    <text x="1092" y="207" font-size="38">Jan 2027</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="580" viewBox="0 0 1400 580" role="img" aria-labelledby="title desc">
+  <title id="title">Fall 2027 graduate application timeline</title>
+  <desc id="desc">Four preparation phases from January 2026 through January 2027: testing, experience building, recommendations and materials, and submission.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:20px;font-weight:700;letter-spacing:2px;fill:#2f6fed}.title{font-size:40px;font-weight:750;fill:#10233f}.phase{font-size:23px;font-weight:700;fill:#10233f}.date{font-size:17px;font-weight:750;fill:#2f6fed}.body{font-size:17px;fill:#52627a}.num{font-size:18px;font-weight:800;fill:white}
+  </style>
+  <rect width="1400" height="580" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1398" height="578" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="54" y="58">PLANNING MAP</text>
+  <text class="sans title" x="54" y="106">Fall 2027 application timeline</text>
+  <text class="sans body" x="54" y="144">Start early, then move from profile building to materials and submission.</text>
+  <g class="sans">
+    <g transform="translate(40 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#2f6fed"/><text class="num" x="38" y="49" text-anchor="middle">1</text>
+      <text class="date" x="76" y="48">JAN–MAY 2026</text>
+      <text class="phase" x="28" y="105">Testing foundation</text>
+      <text class="body" x="28" y="148">Prepare TOEFL / IELTS and GRE</text><text class="body" x="28" y="176">when your target programs</text><text class="body" x="28" y="204">require them.</text>
+    </g>
+    <g transform="translate(378 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#258a79"/><text class="num" x="38" y="49" text-anchor="middle">2</text>
+      <text class="date" x="76" y="48">MAY–SEP 2026</text>
+      <text class="phase" x="28" y="105">Build evidence</text>
+      <text class="body" x="28" y="148">Strengthen internships, research</text><text class="body" x="28" y="176">and projects that support your</text><text class="body" x="28" y="204">application story.</text>
+    </g>
+    <g transform="translate(716 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#8b5cf6"/><text class="num" x="38" y="49" text-anchor="middle">3</text>
+      <text class="date" x="76" y="48">SEP–OCT 2026</text>
+      <text class="phase" x="28" y="105">Prepare materials</text>
+      <text class="body" x="28" y="148">Confirm recommenders and draft</text><text class="body" x="28" y="176">your résumé, statements and</text><text class="body" x="28" y="204">school-specific materials.</text>
+    </g>
+    <g transform="translate(1054 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#d97706"/><text class="num" x="38" y="49" text-anchor="middle">4</text>
+      <text class="date" x="76" y="48">OCT 2026–JAN 2027</text>
+      <text class="phase" x="28" y="105">Submit applications</text>
+      <text class="body" x="28" y="148">Finalize each school’s package,</text><text class="body" x="28" y="176">submit before the deadline and</text><text class="body" x="28" y="204">track every requirement.</text>
+    </g>
   </g>
 </svg>

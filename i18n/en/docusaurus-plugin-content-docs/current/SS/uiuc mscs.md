@@ -13,7 +13,7 @@ Extremely high difficulty. Best to reach out to professors before applying. A UI
 
 
 
-![](/img/en/uiucmscs.png)
+![UIUC MSCS Fall 2023 admissions statistics](/img/en/uiucmscs.png)
 
 
 ## Admission Data Points

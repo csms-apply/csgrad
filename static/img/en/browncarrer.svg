@@ -1,30 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2868" viewBox="0 0 1320 2868">
-  <rect width="1320" height="2868" fill="#f3f4f5"/>
-  <rect width="1320" height="250" fill="#111"/>
-  <rect y="250" width="1320" height="140" fill="white"/>
-  <text x="660" y="338" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Group Poll</text>
-  <rect x="54" y="470" width="1212" height="550" rx="24" fill="white"/>
-  <text x="105" y="585" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">US Summer Internship Search</text>
-  <rect x="105" y="640" width="130" height="62" rx="12" fill="#19aa54"/><text x="170" y="683" fill="white" text-anchor="middle" font-family="Arial" font-size="31">Single</text>
-  <rect x="255" y="640" width="160" height="62" rx="12" fill="#f5ae18"/><text x="335" y="683" fill="white" text-anchor="middle" font-family="Arial" font-size="31">Anonymous</text>
-  <text x="105" y="790" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#555">
-    <tspan x="105">Current status of the group’s US summer internship search.</tspan>
-    <tspan x="105" dy="62">Good luck to everyone in spring recruiting!</tspan>
-  </text>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <rect x="54" y="1075" width="1212" height="180" rx="18" fill="white" stroke="#40b65c" stroke-width="3"/>
-    <rect x="54" y="1075" width="700" height="180" rx="18" fill="#e5f6e7"/>
-    <circle cx="145" cy="1165" r="45" fill="#12b43c"/><path d="M123 1166l17 17 30-39" fill="none" stroke="white" stroke-width="10"/>
-    <text x="225" y="1185" font-size="43">Applications submitted</text><text x="1120" y="1185" text-anchor="end" font-size="35" fill="#666">11 votes · 57.9%</text>
-    <rect x="54" y="1300" width="1212" height="230" rx="18" fill="white"/>
-    <text x="105" y="1390" font-size="40"><tspan x="105">No offer yet, but currently</tspan><tspan x="105" dy="58">interviewing</tspan></text><text x="1120" y="1425" text-anchor="end" font-size="35" fill="#666">6 votes · 31.6%</text>
-    <rect x="54" y="1575" width="1212" height="230" rx="18" fill="white"/>
-    <text x="105" y="1665" font-size="40"><tspan x="105">One offer, with additional</tspan><tspan x="105" dy="58">interviews in progress</tspan></text><text x="1120" y="1700" text-anchor="end" font-size="35" fill="#666">0 votes · 0%</text>
-    <rect x="54" y="1850" width="1212" height="180" rx="18" fill="white"/>
-    <text x="105" y="1960" font-size="40">One offer</text><text x="1120" y="1960" text-anchor="end" font-size="35" fill="#666">1 vote · 5.3%</text>
-    <rect x="54" y="2075" width="1212" height="180" rx="18" fill="white"/>
-    <text x="105" y="2185" font-size="40">Two offers</text><text x="1120" y="2185" text-anchor="end" font-size="35" fill="#666">1 vote · 5.3%</text>
-    <rect x="54" y="2300" width="1212" height="180" rx="18" fill="white"/>
-    <text x="105" y="2410" font-size="40">More than two offers</text><text x="1120" y="2410" text-anchor="end" font-size="35" fill="#666">0 votes · 0%</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Brown SCMCS summer internship search poll</title>
+  <desc id="desc">Nineteen responses: eleven were still submitting applications, six were interviewing, one had one offer, and one had two offers.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:38px;font-weight:760;fill:#10233f}.sub{font-size:20px;fill:#5b687c}.label{font-size:22px;font-weight:650;fill:#23354d}.value{font-size:20px;font-weight:750;fill:#10233f}.note{font-size:17px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="720" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="718" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="62">REPORTED OUTCOMES</text>
+  <text class="sans title" x="64" y="112">Summer internship search</text>
+  <text class="sans sub" x="64" y="151">Brown SCMCS group poll · 19 responses</text>
+  <g class="sans" transform="translate(64 215)">
+    <text class="label" x="0" y="30">Submitting applications</text><rect x="330" y="0" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="0" width="700" height="44" rx="10" fill="#2f6fed"/><text class="value" x="1010" y="30" text-anchor="end" style="fill:white">11 · 57.9%</text>
+    <text class="label" x="0" y="130">Interviewing</text><rect x="330" y="100" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="100" width="382" height="44" rx="10" fill="#258a79"/><text class="value" x="737" y="130">6 · 31.6%</text>
+    <text class="label" x="0" y="230">One offer</text><rect x="330" y="200" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="200" width="64" height="44" rx="10" fill="#8b5cf6"/><text class="value" x="419" y="230">1 · 5.3%</text>
+    <text class="label" x="0" y="330">Two offers</text><rect x="330" y="300" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="300" width="64" height="44" rx="10" fill="#d97706"/><text class="value" x="419" y="330">1 · 5.3%</text>
   </g>
+  <line x1="64" y1="608" x2="1136" y2="608" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans note" x="64" y="652">Self-reported snapshot from the applicant group; it is not an official placement report.</text>
 </svg>
