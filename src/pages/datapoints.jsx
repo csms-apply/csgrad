@@ -19,8 +19,8 @@ const EMPTY_FILTER_OPTS = { schools: [], tiers: [], years: [], ugCats: [], major
 
 const COPY = {
   'zh-Hans': {
-    pageTitle: 'DataPoints',
-    pageDesc: 'CS / MSCS 申请历史 DataPoints — 可按学校、Tier、年份、结果、本科背景筛选',
+    pageTitle: 'CS / MSCS 申请录取数据库',
+    pageDesc: '按学校、项目档次、申请年份、录取结果、本科背景和 GPA 筛选历史 CS / MSCS 申请数据，辅助选校定位与结果对比。',
     headerTitle: 'CS Application DataPoints',
     metaApplicants: '位申请者',
     metaPrograms: '个项目',
@@ -119,8 +119,8 @@ const COPY = {
     ugCategoryLabels: {},
   },
   en: {
-    pageTitle: 'DataPoints',
-    pageDesc: 'CS / MSCS application DataPoints — filterable by school, tier, year, result, and undergrad background',
+    pageTitle: 'CS & MSCS Admissions Data Explorer',
+    pageDesc: 'Explore historical CS and MSCS application outcomes by school, program tier, year, decision, undergraduate background, and GPA.',
     headerTitle: 'CS Application DataPoints',
     metaApplicants: 'applicants',
     metaPrograms: 'programs',
