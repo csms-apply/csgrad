@@ -612,6 +612,7 @@ export default function SchoolPositioningPage() {
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDesc} />
         <meta property="og:type" content="website" />
+        {!POSITIONING_AVAILABLE && <meta name="robots" content="noindex" />}
       </Head>
       {POSITIONING_AVAILABLE ? (
         <BrowserOnly fallback={<div className={styles.pageWrapper} />}>

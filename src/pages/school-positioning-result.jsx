@@ -484,6 +484,7 @@ export default function SchoolPositioningResultPage() {
         <meta property="og:title" content={t.pageTitle} />
         <meta property="og:description" content={t.pageDesc} />
         <meta property="og:type" content="website" />
+        <meta name="robots" content="noindex" />
       </Head>
       <BrowserOnly fallback={<div className={styles.pageWrapper} />}>
         {() => <ResultBody />}
