@@ -1,11 +1,11 @@
 User-agent: *
 Allow: /
-Disallow: /datapoints
-Disallow: /en/datapoints
 Disallow: /data/dp-snapshot.json
 Disallow: /api/dp
 
 # DP access and reuse policy: https://csgrad.com/dp-use-policy.txt
+# The DP landing pages may be discovered and linked for promotion.
+# DP records must not be collected or reused. No licensing is offered.
 # Robots rules are voluntary; API-host protection must be configured separately.
 
 Sitemap: https://csgrad.com/sitemap.xml
