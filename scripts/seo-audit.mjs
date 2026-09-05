@@ -273,9 +273,20 @@ async function main() {
   const newIssues = currentIssues.filter((issue) => !knownIssues.has(issue));
   const resolvedIssues = [...knownIssues].filter((issue) => !currentIssues.includes(issue));
 
+  let failed = false;
   if (newIssues.length > 0) {
     console.error(`SEO audit failed with ${newIssues.length} new issue(s):`);
     for (const issue of newIssues) console.error(`- ${issue}`);
+    failed = true;
+  }
+
+  if (resolvedIssues.length > 0) {
+    console.error(`SEO audit failed with ${resolvedIssues.length} stale baseline issue(s); delete these entries from ${baselineFile}:`);
+    for (const issue of resolvedIssues) console.error(`- delete ${issue}`);
+    failed = true;
+  }
+
+  if (failed) {
     process.exitCode = 1;
     return;
   }
@@ -283,10 +294,7 @@ async function main() {
   const legacySummary = currentIssues.length > 0
     ? `, ${currentIssues.length} known legacy issue(s)`
     : '';
-  const resolvedSummary = resolvedIssues.length > 0
-    ? `, ${resolvedIssues.length} baseline issue(s) resolved`
-    : '';
-  console.log(`SEO audit passed: ${indexableCount} indexable pages, ${sitemapUrlCount} sitemap URLs${legacySummary}${resolvedSummary}`);
+  console.log(`SEO audit passed: ${indexableCount} indexable pages, ${sitemapUrlCount} sitemap URLs${legacySummary}`);
 }
 
 main().catch((error) => {

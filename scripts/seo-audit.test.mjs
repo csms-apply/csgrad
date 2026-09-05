@@ -263,6 +263,28 @@ test('allows known legacy issues from a baseline but still reports their count',
   });
 });
 
+test('rejects a stale baseline entry after its underlying issue is fixed', async () => {
+  await withSite(async ({root, page, sitemap, audit}) => {
+    await page('/fixed-title', {
+      title: 'Fixed title',
+      description: 'The title issue on this page has been fixed.',
+      canonical: 'https://csgrad.com/fixed-title',
+      h1: 'Fixed title',
+    });
+    await sitemap(['https://csgrad.com/fixed-title']);
+    const baselinePath = path.join(root, 'seo-baseline.txt');
+    await writeFile(
+      baselinePath,
+      '[title-missing] /fixed-title must have one non-empty <title>\n',
+    );
+
+    const result = audit('--baseline', baselinePath);
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /SEO audit failed with 1 stale baseline issue/);
+    assert.match(result.stderr, /delete.*\[title-missing\].*\/fixed-title/i);
+  });
+});
+
 test('rejects duplicate titles across indexable pages', async () => {
   await withSite(async ({page, sitemap, audit}) => {
     await page('/first', {
