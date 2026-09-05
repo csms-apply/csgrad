@@ -1,5 +1,8 @@
 name: Deploy Docusaurus
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
@@ -14,16 +17,16 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 18
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm ci
 
       - name: Generate programs.json
         run: node scripts/generate-programs.js
@@ -37,6 +40,12 @@ jobs:
       - name: Test analytics safeguards
         run: npm run test:analytics
 
+      - name: Test migration safeguards
+        run: npm run test:migration
+
+      - name: Test GPA filtering
+        run: npm run test:gpa-filter
+
       - name: Audit built SEO output
         run: npm run check:seo
 
@@ -47,7 +56,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Deploy via SSH
         env:

@@ -1,6 +1,12 @@
-git pull origin main
-npm install
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+git pull --ff-only origin main
+npm ci
 npm run build
-sudo npm install -g pm2
+if ! command -v pm2 >/dev/null 2>&1; then
+  sudo npm install -g pm2
+fi
 pm2 restart docusaurus || pm2 start npm --name "docusaurus" -- run serve
 pm2 save
