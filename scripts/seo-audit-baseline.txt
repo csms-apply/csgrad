@@ -164,4 +164,3 @@
 [hreflang-target-missing] /转码项目 hreflang en-US targets missing page https://csgrad.com/en/转码项目
 [title-duplicate] /A/Yale MSCS and /tutorial-basics/yale mscs 1 year share the title "Yale mscs 1 year | CS Grad"
 [title-duplicate] /en/A/Yale MSCS and /en/tutorial-basics/yale mscs 1 year share the title "Yale MSCS 1 Year | CS Grad"
-
