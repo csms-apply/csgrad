@@ -45,3 +45,9 @@ The biggest difference between grad school and undergrad is that you need to sta
 ## Transferring to PhD
 
 For those interested in pursuing a PhD, I think ECE is an excellent choice. Many CS department professors are cross-listed with the ECE department (which also makes internal PhD transfers possible -- ECE master's students who meet the requirements can theoretically transfer to PhD status. Two friends I know are currently pursuing this path, but you can only transfer to a professor who is cross-listed with ECE. For example, if you've been doing research under an RI professor who is also cross-listed with ECE, and that professor agrees and you meet the requirements, you can transfer to an ECE PhD and work in the same lab as RI students). The program also allows replacing two courses per semester with research credits. Overall, I think it's a great option for those interested in research.
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+- [Xinyi Zhang (LinkedIn)](https://www.linkedin.com/in/xinyizh3/): B.E. in Software Engineering, Sichuan University (2016–2020); M.S. in Computer Engineering, Carnegie Mellon University (2022–2023). The profile lists Software Development Engineer II at Meituan (full-time, 2020–2022) and Backend Software Engineer II at TikTok (full-time, February 2024–present as displayed when checked). This timeline includes employment before the master's degree; the later role should not be treated as pre-application experience.

@@ -38,3 +38,11 @@ TLDR: 认识的本科生基本都是faang或者top trading firm
 ## 生活
 
 **Princeton 是个很安静的小镇，适合搞学术，但生活上选择不多**。这边的中餐和日料选择比较少，基本上外面吃饭的话，很多餐厅偏 upscale，不太适合日常消费，所以很多人会选择在食堂吃，或者住 apartment 自己做饭。图书馆的环境很好，藏书也很全，适合长时间学习。健身房是个亮点，开到凌晨 1 点，晚上去 gym 放松一下是很多人的日常。我觉得生活方面最不适应的是 Princeton 真的太村了，冬天也很冷，除了 library 和 gym，基本没有太多其他去处。相比之下，我本科在西雅图，Seattle 的城市氛围更丰富，吃的多，生活更便利。好在 Princeton 离纽约和费城都不算太远，周末可以去 NYC 逛逛，换个环境放松一下。我认识的几个同学，每隔一两周就会去 NYC 一次，吃顿好吃的，顺便和在 NYC 的朋友聚聚，这样可以缓解 Princeton 小镇生活的单调感。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| McGill University，BSc Honours Computer Science and Biology，2018.09–2022.04 | Princeton，Computer Science 硕士，2022.09–2024.05；个人页标题明确为 CS MSE | Munich Re Software Engineer Intern，2023.05–2023.08；Meta Software Engineer，2024.06 起，页面标注在职，未注明雇佣类型。 | [Malinda Huang 的 LinkedIn](https://www.linkedin.com/in/linhui-h/) |

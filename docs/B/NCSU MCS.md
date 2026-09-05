@@ -34,6 +34,12 @@ NCSU虽然没有名校光环，但是也不会拖你的后退，也有去faceboo
 11. 印度本科，amazon 印度一年半全职，上岸amazon 美国sde intern并且转正
 12. 印度本科，微软四年全职，
     上岸 Hitachi Energy intern并且转正
-   
-   
-   
+
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Neel Shah](https://in.linkedin.com/in/neel-shah-665341219/) | Dwarkadas J. Sanghvi College of Engineering，本科（2018 年 8 月–2022 年 5 月）；专业字段写 Computer Science，个人描述写 Computer Engineering，保留此差异 | North Carolina State University，计算机科学硕士（2022 年 8 月–2024 年 5 月）；页首明确标注 MCS | BlackTeal Energy，Software Engineer，全职，2024 年 11 月–2025 年 2 月；Arista Networks，Software Engineer，全职，2025 年 2 月–至今。读硕士前：Computer Software Solutions LLC，Android Software Developer Intern，实习，2021 年 5–11 月。 |

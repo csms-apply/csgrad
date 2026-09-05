@@ -48,3 +48,13 @@ Some strong data points from previous years:
 5. Indian student, three internships during school plus one year full-time experience, landed Senior Financial Analyst at American Express
 6. Brown CS undergrad, two small-company internships, landed Meta intern
 7. Brown CS undergrad, one year-long internship, landed Jane Street intern and converted to full-time
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Han Cai](https://www.linkedin.com/in/han-cai-880358229/) | University of Nottingham, BSc in Computer Science (First Class), September 2016–June 2020; campus not specified | Brown University, master's in Computer Science, September 2021–May 2023; headline explicitly says CS SCM, while Education uses Master of Science | Seismic Software Engineer Intern, June–September 2022; Seismic Software Engineer I (full-time), June 2023–February 2024; Naviam Software Engineer (full-time), March 2024–present as displayed when checked |
+
+The Seismic internship took place during the master's program. Both full-time roles began after the listed master's end date. This named profile is separate from the anonymous examples above.

@@ -25,3 +25,11 @@
 身边读博几乎没有，全是找工，但是科研资源很丰富，可以联系上哈佛附属医院相关教授做科研
 
 科研实习机会很多，学院和波士顿的各大医院，研究机构都有合作
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| 北京外国语大学，Bachelor of Business Administration，Business Administration and Management，2011–2015 | Harvard T.H. Chan School of Public Health，Master's degree in Health Data Science，2018–2020 | MilliporeSigma，Data Scientist Intern（实习），2019-06–2019-08；Aetna, a CVS Health Company，Data Scientist（全职），2020-03–2021-03；Google，Data Scientist（全职），2026-03–履历所示 Present | [Kangli Wu 的 LinkedIn 履历](https://www.linkedin.com/in/kangliwu/) |

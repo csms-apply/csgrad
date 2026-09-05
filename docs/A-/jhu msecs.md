@@ -53,3 +53,12 @@ CS选课优先级很高，不用担心选不上想上的课（其实本来一届
 ## 一句话总结：
 我个人觉得这个项目是被低估的项目，除了花费高之外都蛮好的（学校排名、就读体验、wld、转phd、是否方便找工作上）。虽然是转码项目，但是科班同学也可以申请，如果家里预算充足，个人认为这个项目不比open cs app上A+的项目质量差🏅
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Angad Sandhu](https://www.linkedin.com/in/angad-sandhu/) | Manipal Institute of Technology，Computer Science BTech，2019–2023 | Johns Hopkins Whiting School of Engineering，2023年7月–2025年5月；个人入学动态与证书条目明确 Master of Science in Engineering, Computer Science（MSE） | Johns Hopkins Medicine，Graduate Research Assistant - Multimodal LLMs（页面类型为 Internship），2024年6月–2025年5月；Amazon Software Engineer（全职），2025年6月至今（核验时页面所示） |
+
+教育栏使用较泛的“MS, Computer Software Engineering”，具体 MSE CS 归属由本人入学动态及2025年5月的学位证书条目交叉确认，未将其泛化为 EP 项目。研究助理经历发生在硕士期间，Amazon 职位开始于履历所列硕士结束日期之后。

@@ -37,3 +37,11 @@ SCS Robotics Institute下面1.5年的CV项目，强制暑期实习但也可以�
 3. whu ece本科 上岸weride
 4. ut 本科，有华为research intern 上岸三星ng
 5. nyu cs本科 有2段国内小厂实习，上岸小厂
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| 上海科技大学，Bachelor of Engineering in Computer Science，2020-09–2024-07 | Carnegie Mellon University，Master of Science in Computer Vision，2024-08–2025-12 | Microsoft，Software Engineer Intern（实习），2024-05–2024-08；Adobe，Software Engineer Intern，2025-05–2025-08；Waymo，Software Engineer（全职），2026-02–履历所示 Present | [Zeen Chi 的 LinkedIn 履历](https://www.linkedin.com/in/zeen-chi-230333238/) |

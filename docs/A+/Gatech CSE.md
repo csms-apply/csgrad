@@ -29,3 +29,11 @@ GT 校园里坡真的多，上学像爬山，好在有校车，线路很多，15
 亚特兰大整体治安一般，我干脆住学校宿舍，图个安全。虽然有时候 Citizens App 上会报哪哪有人带枪，但基本和学校没太大关系。MARTA（地铁）就一条十字路线，去亚洲超市要 30 分钟，没车的话确实挺麻烦的。好在大家基本上都用 Walmart+ 外送，实在不行就订 Weee。
 
 GT 每个学期强制修四门课真的有点顶，基本上开学两周后，每周都有 due，选得再水的课也能被 due 到怀疑人生……因为硬课实在太硬核了, 水课的要求和作业量也很大. 同时, GT可以支持选一些本科生的课, 不计入毕业的credit, 可以用来满足full time的要求, 可以选一些质量比较好的基础CS课程.
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| Escuela de Ingeniería de Antioquia，Bachelor of Engineering in Biomedical/Medical Engineering，2014–2020；教育栏注明与 Universidad CES 联合学位 | Georgia Institute of Technology，Master's degree in Computational Science and Engineering，2024-01–2025-12 | Escafandra S.A.S.，Programming Analyst（全职），2021-08–2023-06；Zhang Computational Biology Lab at Georgia Tech，Graduate Research Assistant（兼职），2024-05–2024-12；Georgia Institute of Technology，Graduate Teaching Assistant（兼职），2025-01–2025-12 | [Alejandro Danies-López 的 LinkedIn 履历](https://www.linkedin.com/in/alejandro-danies/) |

@@ -23,3 +23,12 @@ MCS 项目规模这几年有所增长，疫情期间 21Fall 一度扩招到 300 
 6. University of Missouri-Columbia cs+语言学本科，本科期间多段sde 实习，上岸cvs mle岗位
 7. 印度同学，一年全职，上岸goldman sachs swe
 
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Evelyn Liu](https://www.linkedin.com/in/yn06/) | 重庆邮电大学，Computer Science 本科（2018-09—2022-06） | Rice University，Computer Science 硕士（2022-08—2023-12）；个人标题明确标注 MCS Rice Alumni | NVIDIA，Solutions Architect，全职（2024-09—至今）；Wind River，Software Engineer Intern，实习（2023-05—2023-08） |
+

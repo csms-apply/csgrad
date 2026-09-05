@@ -27,3 +27,11 @@ Top employers: TikTok, Amazon, Google, Oracle, C3.ai
 5. UVA CS + Physics undergrad, Riot Games internship, landed AWS SDE intern
 6. Tsinghua undergrad + master's in Automation, 9 months RS internship at ByteDance, landed small company MLE in Palo Alto
 7. Indian undergrad, multiple small company internships, landed MathWorks SDE intern
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Illinois Wesleyan University, BA Biology/Biological Sciences, 2014–2018 | Carnegie Mellon University, MS, Jun 2020–May 2022; the education description explicitly names Artificial Intelligence and Innovation (MSAII) | Apulis Technology Incorporation, Machine Learning Engineer Intern (internship), May–Aug 2021; Meta, Research Data Scientist (full-time), Jul 2022–Jun 2023; ByteDance, Data Engineer (full-time), Oct 2023–Present as listed on the profile | [Guo Chen's LinkedIn profile](https://www.linkedin.com/in/timur-guo-chen/) |

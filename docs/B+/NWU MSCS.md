@@ -29,3 +29,12 @@ career service可以说毫无帮助，找工一般，这个项目其实更适合
 7. 多大cs本科，无实习，上岸 Fortinet Embedded Software Developer
 8. 北京工业大学信管本科，有Linkedin 中国pm实习，上岸amazon sde intern
    
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Zixuan Wu](https://www.linkedin.com/in/zixuan-wu-37303213b/) | Boston College，BA Philosophy, Computer Science, Mathematics（2017—2021） | Northwestern University，MS Computer Science（2024—2025） | Tencent，Data Science Intern（2018-06—2018-07，入读本项目之前的实习；雇佣类型标为 Full-time）；University of Iowa，Research Assistant，兼职（2019-04—2020-05）。未核验到该硕士毕业后的任职记录。 |
+| [Saloni Patel](https://www.linkedin.com/in/salonipatel0/) | Dwarkadas J. Sanghvi College of Engineering，BTech Computer Science（2019-08—2023-06） | Northwestern University，MS Computer Science（2023-09—2024-12） | Infoblox，Data Scientist，全职（2025-01—至今）；Infoblox，Artificial Intelligence Intern，实习（2024-06—2024-08） |

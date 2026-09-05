@@ -19,3 +19,9 @@ Only admits PhD students. Top students from target schools. Mainly depends on co
 
 ## Job Outcomes
 Unbeatable. Mainly various faculty positions -- many returned to Tsinghua. Those who go to industry mainly take quantitative roles.
+
+## Public education and employment samples
+
+These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
+
+- [Saurav Maji (LinkedIn)](https://www.linkedin.com/in/saurav-maji-489195aa/): IIT Kharagpur B.Tech. in Electronics and Electrical Communications Engineering; MIT EECS SM and PhD, with the PhD education entry dated Aug 2019–Jun 2023. The About section reports completing the bachelor's in 2017 and SM in 2019, while those two Education entries still end in Present; they are not treated as evidence of current enrollment. Experience lists Intel Labs Hardware Security Research Scientist (full-time, Jul 2023–Mar 2025) and NVIDIA Senior DFX Architect (full-time, Mar 2025–present on the profile). This is a post-PhD career path, not a direct master's employment outcome or evidence of standalone master's admissions.

@@ -46,3 +46,10 @@ CPT/OPT 方面支持得还可以，项目属于 STEM，CPT 申请需要修满一
 
 如果你已经有工作经验，来读 MEng 主要是为了拿学位或者工作签证，不太在意课程内容，那这个项目还算合适。洛杉矶气候好，生活压力不大，课程 workload 也不算重，可以一边学习一边找工作，整体体验还不错。但如果你希望通过项目的课程和资源来提升自己，或者借助项目的求职支持进入大厂，那可能就需要再考虑一下了，毕竟项目本身的资源比较有限。
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| UC San Diego，Bachelor of Science in Data Science，2019-09–2023-06 | UCLA Henry Samueli School of Engineering and Applied Science，Master of Engineering in Data Science，2023-09–2024-08 | Hong Kong aiKnow Limited，Data Scientist（兼职），2024-02–2025-07；UC San Diego School of Global Policy and Strategy，Research Data Analyst（合同），2025-07–2026-07；Brain Corp，Software Engineer I（全职），2026-07–履历所示 Present | [Zhipeng (Bill) Chen 的 LinkedIn 履历](https://www.linkedin.com/in/zhipeng-bill-chen/) |

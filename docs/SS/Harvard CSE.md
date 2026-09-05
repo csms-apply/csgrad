@@ -46,3 +46,10 @@ Harvard 也有自己的 Data Science PhD，CSE 过去也有一部分人转到这
 
 哈佛的学术氛围很浓，资源多到爆炸，除了课程之外，学校里有 大量的名人演讲、校友活动、各种 dinner networking 机会，但如果你只顾着埋头做作业，很可能四个月过去了你连 Boston 城区都没去过（是的，有人真的这样）。
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| University of Southern California，Bachelor's degree, Applied Mathematics and Computer Science，2020–2022 | Harvard University，Master's degree, Computational Science and Engineering，2022-08–2024-06 | Amazon，Applied Scientist（实习），2023-05–2023-09；NVIDIA，Research Scientist（全职），2024-06–履历所示 Present | [Jiashu Xu 的 LinkedIn 履历](https://www.linkedin.com/in/jiashu-xu/) |

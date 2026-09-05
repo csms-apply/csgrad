@@ -31,3 +31,12 @@ IIT CS undergrad, GPA 9.58/10, three years full-time at Microsoft
 Unbeatable. All kinds of quant firms (Citadel, Point72, Jane Street, Jump Trading). The rest can at minimum land at big tech companies (but this isn't so much because of the CMU MSCS title -- it's mainly because the students themselves have exceptionally strong backgrounds, such as GitHub 3k+ stars / Point72 QR intern / three years full-time at Microsoft).
 
 [![CMU MSCS first-destination outcomes dashboard; open full size](/img/en/cmumscscarrer.png)](/img/en/cmumscscarrer.png)
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| University of Maryland, BS Computer Science with a Statistics minor, Aug 2022–May 2026 | Carnegie Mellon University, Master of Science, Computer Science, 2026–2027 (the listed end date is after the verification date) | TikTok, Backend Software Engineer Intern (internship), May–Aug 2025 and May–Aug 2026 | [Andrew Wang's LinkedIn profile](https://www.linkedin.com/in/andrewwang04/) |
+| Carnegie Mellon University, Bachelor of Science in Computer Science, 2019–2022 | Carnegie Mellon University, Master of Science in Computer Science, 2023-01–2023-12 | Amazon, Software Development Engineer Intern (internship), 2021-05–2021-08; Amazon, Software Developer Engineer Intern (internship), 2022-05–2022-08; Amazon, Software Development Engineer (full-time), 2023-12–Present as listed on the profile | [Olivia Xu's LinkedIn profile](https://www.linkedin.com/in/olivia-xu-cmu23/) |

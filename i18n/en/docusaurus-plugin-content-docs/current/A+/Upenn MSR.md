@@ -52,3 +52,11 @@ Here are just a few prominent names:
 
 These professors have many master's/PhD students doing research under them almost every year, with plenty of opportunities.
 As long as your research direction aligns and you proactively communicate, the probability of finding a PhD student to mentor you into a lab is very high.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| University of Houston, Bachelor of Science in Computer Science, 2018-08–2022-05 | University of Pennsylvania, master's in Robotics, 2024-08–2026-05; the About section confirms a master's degree and the headline identifies MSE Robotics | Kyndryl, Software Engineer Intern (internship), 2022-05–2022-10; Kyndryl, Software Developer (full-time), 2022-10–2024-07; PCASO Lab, Graduate Research Assistant (part-time), 2025-05–Present as listed on the profile | [Manasa Dendukuri's LinkedIn profile](https://www.linkedin.com/in/manasadendukuri/) |

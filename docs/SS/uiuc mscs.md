@@ -37,4 +37,12 @@ McMaster University  Mechatronics Engineering本科 gpa 11/12
 3. uiuc cs本科，有小厂实习，上岸databricks 实习
 4. uiuc cs本科，上岸dbx ds intern
 5. uiuc cs本科上岸芝加哥小厂Intern
-6. iit cs本科女生有多段research intern上岸jp morgan quant ai 
+6. iit cs本科女生有多段research intern上岸jp morgan quant ai
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| UT Austin，BS Computer Science，AI/ML 方向，2018–2022；Business、Informatics 辅修 | UIUC，MS Computer Science；About 明确为正在完成的 thesis-track MSCS，Social Sensing Lab，未列起止日期 | Microsoft Software Engineer Intern，2021.05–2021.08；Apple Software Engineer，全职，2022.07 起，页面标注在职。本人说明工作与硕士并行，不能视为硕士毕业后的就业结果。 | [Tejna Dasari 的 LinkedIn](https://www.linkedin.com/in/tejna-dasari/) |

@@ -38,3 +38,11 @@ TLDR: The undergrads I know basically all went to FAANG or top trading firms.
 ## Life
 
 **Princeton is a very quiet small town, great for academics, but with limited lifestyle options.** Chinese and Japanese restaurant options are scarce. Most restaurants are on the upscale side, not ideal for everyday dining, so many people choose to eat at the dining hall or cook at home in their apartments. The library environment is excellent with a comprehensive collection, great for long study sessions. The gym is a highlight -- it's open until 1 AM, and hitting the gym at night is part of many people's daily routine. I think the hardest part about life here is that Princeton is really in the middle of nowhere, and winters are cold. Besides the library and the gym, there's not much else to do. In comparison, I did my undergrad in Seattle, which had a much richer city atmosphere, more food options, and more convenient living. The good news is that Princeton isn't too far from New York and Philadelphia, so you can visit NYC on weekends to get a change of scenery. Several people I know go to NYC every week or two, have a nice meal, and meet up with friends in the city -- it helps alleviate the monotony of small-town Princeton life.
+
+## Public education and employment samples
+
+These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
+
+| Undergraduate education | Master's education | Internship and employment record | Source |
+| --- | --- | --- | --- |
+| McGill University, BSc Honours Computer Science and Biology, Sep 2018–Apr 2022 | Princeton, master's in Computer Science, Sep 2022–May 2024; the profile headline explicitly identifies CS MSE | Munich Re Software Engineer Intern, May–Aug 2023; Meta Software Engineer, Jun 2024–present on the profile; employment type is not specified. | [Malinda Huang's LinkedIn](https://www.linkedin.com/in/linhui-h/) |

@@ -74,3 +74,11 @@ Notable placements include OpenAI Research Engineer, top quantitative firms, Dat
 CMU is a private school, and tuition has never been cheap. Whether it's INI, ECE, or SCS, MCDS's three-semester tuition fee (tuition only, not including any additional expenses such as rent) is $84,550.
 
 [![CMU MCDS 16-month option historic cost breakdown; open full size](/img/en/mcdsfee.svg)](/img/en/mcdsfee.svg)
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Vellore Institute of Technology, B.Tech Computer Science, 2016–2020 | Carnegie Mellon University, MS Computational Data Science, Aug 2022–Dec 2023 | Abacus.AI, Research Scientist Intern (internship), May–Aug 2023; JPMorgan Chase & Co., Senior Machine Learning Engineer (full-time), Feb 2024–Sep 2025; Meta, Senior Machine Learning Engineer (full-time), Sep 2025–Present as listed on the profile | [Himanshu Thakur's LinkedIn profile](https://www.linkedin.com/in/himansh005/) |

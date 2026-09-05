@@ -91,3 +91,11 @@ Professor: Danyang Zhuo
 Course content: Each class requires reading a paper and writing a response; class content relates to the papers.
 Project: You need to implement a distributed system on your own.
 Overall: Research-oriented, suitable for students who want to deeply study distributed systems.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| UC Irvine, Bachelor's degree in Computer Science, 2016–2019 | Duke University, Master of Science in Computer Science, 2021–2023 | Meta, Software Engineer Intern, 2022-05–2022-08; IXL Learning, Software Engineer (full-time), 2023-09–2026-01; IXL Learning, Senior Software Engineer (full-time), 2026-01–Present as listed on the profile | [Yubo D.'s LinkedIn profile](https://www.linkedin.com/in/yuboding/) |

@@ -24,3 +24,11 @@ Main career paths are SDE and MLE. Almost everyone lands at top FAANG companies:
 
 1. Cambridge, graduated in 3 years, had multiple small company internships, landed ByteDance
 2. TAMU CS undergrad, Facebook internship, later returned to Meta for LLM post-training
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Carnegie Mellon University, BS Computer Science, Aug 2018–May 2022 | Carnegie Mellon University, MS Machine Learning, Aug 2025–Dec 2026 (the listed end date is after the verification date) | Stripe, Software Engineer (full-time), Aug 2022–Jan 2025; TikTok, Machine Learning Engineer Intern (internship), May–Aug 2026 | [Mihika Bairathi's LinkedIn profile](https://www.linkedin.com/in/mihikabairathi/) |

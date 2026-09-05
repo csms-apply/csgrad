@@ -28,3 +28,13 @@ Overall performance is fairly average. The school does provide some career resou
 4. Indian student, two years full-time at HP, landed Tesla new grad
 5. Indian student, McKinsey internship during school, landed Stripe DS
 6. Indian student, five years full-time work experience, landed Principal at Capital One
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Neha Angadi](https://www.linkedin.com/in/neha-angadi/) | PES University, BTech in Computer Science, August 2019–August 2023; specialization in Machine Intelligence and Data Science | Columbia Engineering, MS in Data Science, August 2024–December 2025 | Morgan Stanley Technology Analyst (full-time), July 2023–January 2024, then Technology Associate (full-time), January–August 2024; Collins Aerospace Machine Learning Intern, May–August 2025; McKinsey & Company Data Scientist (full-time), June 2026–present as displayed when checked |
+
+The Morgan Stanley roles preceded the master's program. The Collins Aerospace internship took place during the program (the title says Intern, while the employment type is labeled Full-time). The McKinsey role began after the listed master's end date. This profile is separate from the anonymous examples above.

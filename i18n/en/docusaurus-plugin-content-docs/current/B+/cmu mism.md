@@ -38,3 +38,12 @@ Compared to neighboring INI, ECE, and SCS, outcomes are average -- but it mainly
 5. Waseda University EE undergrad, did quant in Hong Kong during undergrad, interned at Google Tokyo, also interned at JPMorgan HK, landed Google SWE intern and converted to full-time
 6. UIBE Financial Engineering undergrad with multiple finance internships, landed small company intern, then landed Goldman Sachs new grad
 7. Indian undergrad, four years full-time at Deloitte, landed small company new grad in Pittsburgh
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Ziling Xu](https://www.linkedin.com/in/zilingx/) | Beijing Normal University, BS in Mathematics and Applied Mathematics (2014–2018) | Carnegie Mellon University, Master of Information Systems Management (2018–2020) | Interactive Brokers, Application Programmer, full-time (Jul 2020–Jul 2022); Salesforce, Member of Technical Staff, full-time (Jul 2022–Jul 2024), then Senior Member of Technical Staff (Aug 2024–present). |

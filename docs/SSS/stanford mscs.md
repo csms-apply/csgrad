@@ -57,3 +57,12 @@ TA，CS的TA位置非常多(比如cs224 一共24个ta)，TA能免学费+发工�
 13. 多大 math+CS本科有两年科研经历，上岸tesla mle
 14. UCB CS+Economics 本科，本科在字节、腾讯、纽约goldman sachs 长期实习过，上岸nvidia research intern
 15. iit ee本科, minor cs，有四个月实习，上岸nvidia
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 样本 | 教育背景 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| Komei Ryu | University of Southern California，BS Computer Science，2019.08–2024.05；Stanford，MS Computer Science，2024.09–2026.06 | Tencent Backend Software Engineer Intern，2024.08–2024.11；Amazon Software Engineer Intern，2025.06–2025.09。两项均为实习，未据此推断全职录用。 | [LinkedIn](https://www.linkedin.com/in/komei-ryu/) |
+| Qirui Zhou | UC Irvine，BS Computer Science，2016–2020；Stanford，MS Computer Science，2020–2022 | LearningPal Software Engineer 实习，2021.06–2021.09；Meta Software Engineer，2022.07 起，页面标注在职，未注明雇佣类型。 | [LinkedIn](https://www.linkedin.com/in/qirui-zhou-697779167/) |

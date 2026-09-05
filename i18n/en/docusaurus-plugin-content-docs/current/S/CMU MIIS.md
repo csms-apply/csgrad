@@ -17,3 +17,11 @@ Very high admission threshold with very few spots. Historical acceptance rate is
 
 ## Job Outcomes & Data Points
 Historical employment rate 92%, median starting salary $150K. Graduates work as both SDE and MLE. Top employers are Databricks and TikTok.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Peking University, BS Computer Science, 2014–2018 | Carnegie Mellon University, MS Intelligent Information Systems, 2018–2019 | Airbnb, Software Engineer Intern, May–Aug 2019; Airbnb, Software Engineer (full-time), Feb 2020–May 2022; Google DeepMind, Software Engineer (full-time), May 2023–Present as listed on the profile | [Alice Zheng's LinkedIn profile](https://www.linkedin.com/in/jiahuialicezheng/) |

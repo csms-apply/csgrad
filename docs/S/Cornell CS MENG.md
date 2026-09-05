@@ -21,4 +21,11 @@ UCSD，还有UCLA，UIUC，Brandeis，NYU，Penn State，U of Toronto，Waterloo
 ## 找工情况
 上岸率60%吧大概，主要痛点在于延期很麻烦,延期建议写健康原因
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| University of Wisconsin–Madison，Bachelor's Degree，Computer Engineering & Computer Science，2012–2017 | Cornell University，Master of Engineering in Computer Science，2017-08–2018-05；履历未注明校区 | Shutterstock，Software Engineer（全职），2018-06–2019-08；Yext，Software Engineer（全职），2021-12–2024-06；Amazon，Software Development Engineer II（全职），2025-08–履历所示 Present | [Ruihao Zhu 的 LinkedIn 履历](https://www.linkedin.com/in/ruihao-zhu-39b16369/) |
 

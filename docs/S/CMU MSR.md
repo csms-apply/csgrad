@@ -22,4 +22,11 @@
 
 如果本着找工来这个项目，找到实习了也得需要老师同意才能去intern，老板也有可能不放人
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| UC Irvine，BS Computer Science，2019–2023 | Carnegie Mellon University，MS Robotics，2023-08–2025-08 | NASA Jet Propulsion Laboratory，Robotics Perception Engineer（实习），2024-05–2024-08、2025-05–2025-08 | [Yifei Liu 的 LinkedIn 履历](https://www.linkedin.com/in/yifei-migo-liu/) |
 

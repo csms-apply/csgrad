@@ -1,6 +1,5 @@
 # CMU MSMITE
 
-
 ## Program Overview
 The full program name is Master of Science in Mobile and IoT Engineering. It's not a CS title, but that's not a big deal since job hunting mainly depends on your personal experience and resume fit. When applying for jobs online, you can only list your major as CS anyway.
 MSMITE spends the first year in Pittsburgh and the second year in Silicon Valley, which is quite nice -- you get to experience two different places. Course selection is very flexible; you can go easy or take hard courses, giving you plenty of freedom to develop. You can also do a one-semester practicum, partnering with companies like NASA and Adobe, which you can put on your resume.
@@ -72,3 +71,9 @@ Taking these 3 courses no longer counts against the 24-unit electives quota, so 
 25 Fall: 14776 (Business/Management), 14741 (IS), one elective
 26 Spring: 14744 (Mobile Software), 14740 (Network), 15640 (DS), 15618 (PP)
 26 Fall: 15619 (Cloud Computing)
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+- [Peixin Zhao (LinkedIn)](https://www.linkedin.com/in/peixin-cecilie-zhao/): bachelor's degree in Sociology, Peking University (2016–2020); master's degree, Carnegie Mellon University (2021–2022), with MSMITE explicitly stated in the education entry and coursework description. Listed roles include Software Engineer Intern at Microsoft (May–August 2022), Software Engineer at Microsoft (February 2023–April 2026), and Software Engineer at Waymo (full-time, April 2026–present as displayed when checked). This illustrates one cross-disciplinary education and career path, not program-wide outcomes.

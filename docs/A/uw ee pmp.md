@@ -43,3 +43,13 @@ nobody cares ur major
 如果申请者GPA不是特别高，可以考虑一下申请一下UW EE PMP，是一个很好的找工向的项目选择
 
 **25 fall bar 明显升高，有不少高gpa、高rk的cs bg同学被拒，疑似oq，也有CMU MSIN录取uw ee pmp被rej的, 往年拿uw ee pmp进行保底的好事已经不复存在，强烈推荐再找个别的保底项目**
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [CHIA-EN Wu](https://www.linkedin.com/in/chia-en-wu-66977623a/?locale=en) | Soochow University，BBA in Big Data Management，2020年9月–2024年6月 | University of Washington，Master of Science in Electrical Engineering，2025年8月–2027年10月；教育描述明确为 ECE PMP（Professional Master's Program） | AWS 软件工程实习生（EC2 Nitro），2026年6–9月；Tencent Data Engineer Intern，2023年7–10月 |
+
+硕士结束日期尚在未来，不能作为已毕业样本。AWS 实习日期按页面列示，核验时尚处于其标注的结束月份；Tencent 实习发生在本科期间，不是硕士毕业就业结果。

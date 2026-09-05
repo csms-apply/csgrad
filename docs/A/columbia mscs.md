@@ -78,3 +78,9 @@ c9 cs本科 icpc金牌上岸亚麻
 意大利本科小哥上岸亚麻
 
 港中深fintech 转码0 实习上岸亚麻
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+- [Chi Wu（LinkedIn）](https://www.linkedin.com/in/kevin-chi-wu/)：国立政治大学 Statistics 本科（2016年9月–2021年1月）；Columbia University Computer Science 硕士（2021–2022），本人简介明确为 M.S.。工作记录包括 Amazon Software Development Engineer Intern（2022年5–8月）、Framewrk Software Developer（全职，2023年2–7月）及 Amazon Software Development Engineer（全职，2023年9月起，核验时显示在职）。

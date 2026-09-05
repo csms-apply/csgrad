@@ -68,3 +68,13 @@ UChicago does not have an EE department, so peer pressure is very low. At the sa
 15. Indian undergrad, two internships during undergrad, landed San Jose small-company intern and converted to full-time
 16. Northeastern Illinois University CS undergrad, no internship, landed Grammarly SDE intern
 17. Vanderbilt University Urban Construction undergrad, previously worked as a project manager, landed SpaceX
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Umang Bhatia](https://www.linkedin.com/in/umang-bhatia/) | Delhi College of Engineering, BTech, 2014–2018; field lists Electrical, Electronics and Communications Engineering, while the description says Electrical Engineering | University of Chicago, MS in Computer Science, September 2021–December 2022; headline explicitly identifies UChicago MPCS | Meta Software Engineer Intern, June–August 2022; Google Software Engineer (full-time), February 2023–November 2025; Google Senior Software Engineer (full-time), November 2025–present as displayed when checked |
+
+The Meta internship took place during the master's program; the Google full-time role began after the listed master's end date. The undergraduate field and description use different wording, retained here without inferring a specific branch. This named profile is separate from the anonymous examples above.

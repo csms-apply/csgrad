@@ -24,3 +24,11 @@ stf ds有最好的教授，校园很漂亮，同学很牛（很多4+ yoe的同�
 ## 本校转博
 
 统计系并没有可以直转phd的操作， 转博很难很难
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| UCLA，BS Statistics，2019–2022 | Stanford，MS Statistics Data Science，2022–2024 | Apple Data Science and Visualization Intern，2023.06–2023.09；Bridg Data Science Intern，2023.10–2024.05；QuantCo Data Scientist，全职，2024.07 起，页面标注在职。 | [Ethan Allavarpu 的 LinkedIn](https://www.linkedin.com/in/ethanallavarpu/) |

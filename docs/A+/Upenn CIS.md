@@ -49,3 +49,9 @@ Upenn cis人称小mcds，workload 很mcds，除了找工不太如mcds。
 CIS 5530 Networked System 需要实现 Layer 3 路由协议 + Layer 7 的分布式搜索引擎，
 每次 debug 都和os较劲。CIS 5550 Internet and Web System 是 Penn 最难的课之一，
 是 模拟 Google Search Engine，这已经不只是个大作业，很hardcore可以放到简历上
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+- [Joy Liu（LinkedIn）](https://www.linkedin.com/in/happyjoytotheworld/)：University of Pennsylvania Computer Science BSE（2022年8月–2026年5月）及 Computer Science MSE（2024年8月–2026年5月）。公开工作记录包括 Meta Software Engineering Intern (Modern Recommendation Systems)（2024年5–8月）与 Netflix Software Engineering Intern (Big Data & Iceberg)（2025年6–8月）。本科与硕士时间重叠，这是本校本科与硕士衔接的个人经历，不代表外校本科申请结果；未核验到毕业后全职工作。

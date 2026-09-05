@@ -18,4 +18,11 @@ external admission rate为5%
 4. 印度同学，gpa 9.25，申请时候有三篇中了的cv会议
 5. Vassar College 认知科学本科 申请时候中了一篇iccv
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| Rice University，BA，Physics 与 English 双专业、Data Science 辅修，2022.01–2024.05 | Stanford，MS Symbolic Systems，2024.09–2026.06 | Palona AI Customer Success Engineer，实习，2025.06–2025.09；Apple Intern，Battery Analytics & Machine Learning 团队，2026.06 起，页面标注仍在实习。 | [Huijun Mao 的 LinkedIn](https://www.linkedin.com/in/huijun-mao/) |
 

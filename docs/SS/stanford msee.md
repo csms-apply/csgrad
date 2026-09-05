@@ -44,3 +44,11 @@ oracle、nvidia非常喜欢招stanford的。
 2. 天津大学ee本科，本科无intern ，上岸apple
 3. Vanderbilt University math+cs本科 上岸meta intern
 4. ucla ee本科 上岸aws intern
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 样本 | 教育背景 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| Angie T. | University of Washington，BS Electrical Engineering，2017.09–2019.12；Stanford，MS Electrical Engineering，2021.09–2023.12 | 入学前有 Siemens Healthineers 全职工作记录（2020.01–2021.10）；Microsoft Electrical Engineering Intern，2023.06–2023.09；Microsoft Electrical Engineer，全职，2024.04–2025.08，随后任 Electrical Engineer II（2025.08 起，页面标注在职）。 | [LinkedIn](https://www.linkedin.com/in/angiethai/) |

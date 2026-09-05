@@ -44,3 +44,11 @@ Oracle and Nvidia are particularly fond of recruiting from Stanford.
 2. Tianjin University EE undergrad, no internship during undergrad, landed Apple
 3. Vanderbilt University Math+CS undergrad, landed Meta intern
 4. UCLA EE undergrad, landed AWS intern
+
+## Public education and employment samples
+
+These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
+
+| Sample | Education | Internship and employment record | Source |
+| --- | --- | --- | --- |
+| Angie T. | University of Washington, BS Electrical Engineering, Sep 2017–Dec 2019; Stanford, MS Electrical Engineering, Sep 2021–Dec 2023 | Full-time employment at Siemens Healthineers began before the master's program (Jan 2020–Oct 2021); Microsoft Electrical Engineering Intern, Jun–Sep 2023; Microsoft Electrical Engineer, full-time, Apr 2024–Aug 2025, followed by Electrical Engineer II (Aug 2025–present on the profile). | [LinkedIn](https://www.linkedin.com/in/angiethai/) |

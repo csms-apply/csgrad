@@ -57,3 +57,10 @@ ini学院下面旗舰就业项目，可以拼出来跟cmu mscs差不多的课表
 
 ![](/img/msintophd.png)
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| New York University，Bachelor's degree，Computer Science、Mathematics，Data Science 辅修，2020-09–2024-05 | Carnegie Mellon University，Master's degree in Information Networking - Advanced Study，2024-08–2026-05；方向为 Data Systems | Amazon，SDE Intern（实习），2025-06–2025-08；Google，Software Engineer（全职），2026-07–履历所示 Present | [Tianhao Gu 的 LinkedIn 履历](https://www.linkedin.com/in/tianhao-gu-930521223/) |

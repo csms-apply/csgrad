@@ -35,3 +35,13 @@ Average TOEFL (where required): 111
 2. uci ds本科上岸c3 ai
 3. 印度同学，有印度一年实习经历，上岸BCG ds
 4. 印度同学，有sap三年半全职工作经历，上岸cvs ds
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Simone Rittenhouse](https://www.linkedin.com/in/simone-rittenhouse/) | New York University，BA in Data Science and Psychology，2018–2022 | New York University，MS in Data Science，2023–2025；About 明确 NYU Center for Data Science | AppDynamics Data Science Intern，2024年5–8月；Cisco Security Marketing Thought Leadership Intern，2020年6–8月 |
+
+AppDynamics 实习发生在硕士期间，Cisco 实习发生在本科期间。已核验履历未列出硕士后的全职职位；不能将实习或页面顶部的公司名称解释为全职去向。教育栏标注2023–2025，但 About 仍自称在读，本文仅按教育栏记录日期，不据此断言已获学位。

@@ -43,3 +43,12 @@ Prerequisite requirements are as follows:
 
 
 Conclusion: Apply to both. For job-hunting focus, go UWB. For budget control, go UWT.
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Vishnu Priya Rajendran](https://www.linkedin.com/in/priyaraj98/) | Anna University, BE in Electrical, Electronics and Communications Engineering (2015–2019) | University of Washington Tacoma, MS in Computer Science and Systems (Sep 2023–Mar 2025) | Amazon, Software Development Engineer, full-time (Jun 2025–present); Richburg Consulting, Software Engineer Intern, internship (Jun–Sep 2024). Before the master's: Hitachi Energy, Software Engineer, full-time (Oct 2021–Apr 2022). |

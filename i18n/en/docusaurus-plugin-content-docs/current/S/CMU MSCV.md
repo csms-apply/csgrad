@@ -37,3 +37,11 @@ Job landing rate is 91%. Companies include DeepMind, Adobe, TikTok, Meta, Amazon
 3. WHU ECE undergrad, landed WeRide
 4. UT undergrad, had Huawei research internship, landed Samsung as new grad
 5. NYU CS undergrad, had 2 small domestic company internships, landed at a small company
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| ShanghaiTech University, Bachelor of Engineering in Computer Science, 2020-09–2024-07 | Carnegie Mellon University, Master of Science in Computer Vision, 2024-08–2025-12 | Microsoft, Software Engineer Intern (internship), 2024-05–2024-08; Adobe, Software Engineer Intern, 2025-05–2025-08; Waymo, Software Engineer (full-time), 2026-02–Present as listed on the profile | [Zeen Chi's LinkedIn profile](https://www.linkedin.com/in/zeen-chi-230333238/) |

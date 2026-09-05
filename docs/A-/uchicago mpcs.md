@@ -68,3 +68,13 @@ uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是
 15. 印度本科，本科有两段实习经历，上岸san jose 小厂 intern并且转正
 16. Northeastern Illinois University cs本科，无实习，上岸grammarly sde intern
 17. Vanderbilt University 城建本科，之前一直干项目经理，上岸spacex
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Umang Bhatia](https://www.linkedin.com/in/umang-bhatia/) | Delhi College of Engineering，BTech，教育字段为 Electrical, Electronics and Communications Engineering，2014–2018；描述写 Electrical Engineering | University of Chicago，MS in Computer Science，2021年9月–2022年12月；个人标题明确 UChicago MPCS | Meta Software Engineer Intern，2022年6–8月；Google Software Engineer（全职），2023年2月–2025年11月；Google Senior Software Engineer（全职），2025年11月至今（核验时页面所示） |
+
+Meta 实习发生在硕士期间，Google 全职职位开始于履历所列硕士结束日期之后。本科专业字段与描述采用了不同表述，保留原文差异，不据此推断具体分支。该实名履历不对应上方匿名案例。

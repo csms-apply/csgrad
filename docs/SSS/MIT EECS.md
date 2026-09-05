@@ -20,3 +20,8 @@
 ## 找工情况
 无敌，主要是各种教职，很多回清华了，去业界的也主要去量化岗位
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+- [Saurav Maji（LinkedIn）](https://www.linkedin.com/in/saurav-maji-489195aa/)：IIT Kharagpur Electronics and Electrical Communications Engineering B.Tech.；MIT EECS SM 及 PhD，博士教育栏为 2019.08–2023.06。About 自述本科于 2017 年、SM 于 2019 年完成，Education 中这两项的结束日期仍写 Present，故不据该字段推断在读状态。工作栏列出 Intel Labs Hardware Security Research Scientist（全职，2023.07–2025.03）及 NVIDIA Senior DFX Architect（全职，2025.03 起，页面标注在职）。这是完成博士后的职业路径，不能作为硕士直接就业样本，也不说明独立硕士的招生方式。

@@ -26,3 +26,11 @@ meta 3人, msft 3人，citadel 1人，Linkedin 1人，Open AI 1人
 
 1. 剑桥三年毕业，有多段小厂实习，上岸bytedance
 2. tamu cs本科 facebook实习， 后来回了meta 做llm post training
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| Carnegie Mellon University，BS Computer Science，2018-08–2022-05 | Carnegie Mellon University，MS Machine Learning，2025-08–2026-12（履历列出的结束日期晚于本次核验日期） | Stripe，Software Engineer（全职），2022-08–2025-01；TikTok，Machine Learning Engineer Intern（实习），2026-05–2026-08 | [Mihika Bairathi 的 LinkedIn 履历](https://www.linkedin.com/in/mihikabairathi/) |

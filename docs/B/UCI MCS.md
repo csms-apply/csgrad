@@ -26,4 +26,13 @@ gpa 3.5左右就比较有机会了，印度人来的都是标配3+ yoe工作经�
 Quarter 在 6 月底结束，也就是说 5 月或者 6 月初不可以开始 intern，因此基本只能去大厂实习(有印度同学拿到了6月初开始的offer但是没法拿到cpt导致offer被撤了)
 
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Hung-Yau Su](https://www.linkedin.com/in/hungyau/) | 国立中央大学（National Central University），Bachelor of Computer Science and Information，Computer Science（2019 年 9 月–2023 年 6 月） | UC Irvine Donald Bren School of Information and Computer Sciences，计算机科学硕士（2024 年 9 月–2025 年 12 月）；页首明确写 MCS Graduate | Matching Donors，Web Developer，兼职，2026 年 2 月–至今；CancerFree Biotech，Software Engineer Intern，实习，2025 年 6–9 月。未核实毕业后的全职工作，兼职不计作全职结果。 |
+
+
 

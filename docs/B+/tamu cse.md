@@ -35,3 +35,12 @@ TAMU虽然有诸多优点，其工程学院也是全美国较有声誉的。但�
 - 印度本科，多段web developer 实习，上岸小厂ds
 
 以上是一些比较好的案例，但是对于运气不好且经验不足的同学(没有很多工业界经验)，由于TAMU的本身没有加成，普遍有找工困难的问题（没有面试）。
+
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Divij Bajaj](https://www.linkedin.com/in/divij-bajaj-91292482/) | Indian Institute of Technology (BHU), Varanasi，BTech Electronics Engineering（2017-07—2021-05） | Texas A&M University，MS Computer Science（2023-08—2025-05） | Amazon，Applied Scientist I，全职（2025-05—至今）；入读前在 Wells Fargo 任 Program Associate（2021-07—2022-08），后任 Data Engineer（2022-08—2023-08），均为全职 |

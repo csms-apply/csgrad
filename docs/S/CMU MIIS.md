@@ -19,3 +19,11 @@ LTI开设，主要是就业导向，可以一年半毕业，也可以两年毕�
 
 ## 找工情况和dp
 往年就业率92%，中位数起薪15w刀，做sde 和 mle的都有，top employer 是databricks和tiktok
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| Peking University，BS Computer Science，2014–2018 | Carnegie Mellon University，MS Intelligent Information Systems，2018–2019 | Airbnb，Software Engineer Intern，2019-05–2019-08；Airbnb，Software Engineer（全职），2020-02–2022-05；Google DeepMind，Software Engineer（全职），2023-05–履历所示 Present | [Alice Zheng 的 LinkedIn 履历](https://www.linkedin.com/in/jiahuialicezheng/) |

@@ -53,3 +53,11 @@ Master 录取人数：50 人左右(每年都比较稳定)
 有优势
 
 哦当（50%）的TA/RA S是免学费的，然后一个quarter给1.2-1.4w的工资，很爽。TA需要那门课考个高分。RA的话如果bg好或者有connection也不是很难找，但是可能得先白打工几个月
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| UC Berkeley，BA Data Science，2020.08–2024.05 | Stanford，ICME Data Science 硕士，2024.09–2026.06 | Meta Data Scientist Intern，2025.06–2025.09；Databricks Data Scientist，全职，2026.07 起，页面标注在职。 | [Ziyi Ding 的 LinkedIn](https://www.linkedin.com/in/ziyiding/) |
