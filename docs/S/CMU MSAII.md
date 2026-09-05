@@ -28,3 +28,11 @@ top employer: tiktok、amazon、google、oracle、c3.ai
 5. uv cs+ physics 本科，拳头实习，上岸aws sde intern
 6. 清华本硕自动化，字节9个月rs实习，上岸palo alto 小厂mle
 7. 印度本科，多段小厂intern, 上岸Mathworks sde intern
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| Illinois Wesleyan University，BA Biology/Biological Sciences，2014–2018 | Carnegie Mellon University，MS，2020-06–2022-05；教育条目说明明确写为 Artificial Intelligence and Innovation（MSAII） | Apulis Technology Incorporation，Machine Learning Engineer Intern（实习），2021-05–2021-08；Meta，Research Data Scientist（全职），2022-07–2023-06；ByteDance，Data Engineer（全职），2023-10–履历所示 Present | [Guo Chen 的 LinkedIn 履历](https://www.linkedin.com/in/timur-guo-chen/) |

@@ -28,4 +28,7 @@
 
 ## 待继续调查
 
-Google 在本轮跨项目查询中出现异常流量验证码，已暂停新查询并请用户手动验证。下列项目尚未完成检索，不能解读为没有公开样本：MIT EECS、Princeton MSECS、Harvard CSE、Harvard DS、Harvard HDS、Stanford Stat DS、Stanford Symbolic System、Yale MSCS 2year、Caltech MSEE、CMU MSCS、Stanford ICME、UIUC MSCS。
+Google 在本轮跨项目查询中出现异常流量验证码，已暂停新查询并请用户手动验证。
+
+- Princeton MSECS：查询 `Princeton MSE Computer Science alumni linkedin` 返回验证码，没有取得搜索结果；不能计为完成研究。
+- 以下 11 个项目尚未查询，不能解读为没有公开样本：MIT EECS、Harvard CSE、Harvard DS、Harvard HDS、Stanford Stat DS、Stanford Symbolic System、Yale MSCS 2year、Caltech MSEE、CMU MSCS、Stanford ICME、UIUC MSCS。

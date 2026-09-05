@@ -75,3 +75,11 @@ cmu 是私校，学费从来就不便宜过。无论是ini、ece、还是scs，m
  fee(学费，未包括任何附加费用包括租房等)是84550$。
 
 ![](/img/mcdsfee.png) 
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| Vellore Institute of Technology，B.Tech Computer Science，2016–2020 | Carnegie Mellon University，MS Computational Data Science，2022-08–2023-12 | Abacus.AI，Research Scientist Intern（实习），2023-05–2023-08；JPMorgan Chase & Co.，Senior Machine Learning Engineer（全职），2024-02–2025-09；Meta，Senior Machine Learning Engineer（全职），2025-09–履历所示 Present | [Himanshu Thakur 的 LinkedIn 履历](https://www.linkedin.com/in/himansh005/) |
