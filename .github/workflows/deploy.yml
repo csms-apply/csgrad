@@ -28,11 +28,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Reject critical dependency vulnerabilities
+        run: npm audit --audit-level=critical
+
       - name: Generate programs.json
         run: node scripts/generate-programs.js
 
-      - name: Build Docusaurus site
-        run: npm run build
+      - name: Build Docusaurus site without warnings
+        env:
+          NODE_OPTIONS: --trace-warnings
+        run: |
+          csgrad_build_log="${RUNNER_TEMP}/csgrad-build.log"
+          npm run build 2>&1 | tee "$csgrad_build_log"
+          if grep -Eiq '(^|[^[:alpha:]])warn(ing)?([^[:alpha:]]|$)' "$csgrad_build_log"; then
+            echo "Build emitted a warning; fix it before merging."
+            exit 1
+          fi
 
       - name: Test SEO safeguards
         run: npm run test:seo
