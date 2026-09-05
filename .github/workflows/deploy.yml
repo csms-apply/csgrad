@@ -40,7 +40,7 @@ jobs:
         run: |
           csgrad_build_log="${RUNNER_TEMP}/csgrad-build.log"
           npm run build 2>&1 | tee "$csgrad_build_log"
-          if grep -Eiq '(^|[^[:alpha:]])warn(ing)?([^[:alpha:]]|$)' "$csgrad_build_log"; then
+          if grep -Eiq 'warn(ing)?s?|caniuse-lite.*outdated' "$csgrad_build_log"; then
             echo "Build emitted a warning; fix it before merging."
             exit 1
           fi
