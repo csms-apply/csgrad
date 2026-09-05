@@ -15,7 +15,7 @@ async function withSite(run) {
       root,
       page: (route, options) => writePage(root, route, options),
       sitemap: (routes) => writeSitemap(root, routes),
-      audit: () => spawnSync(process.execPath, [scriptPath, root], {encoding: 'utf8'}),
+      audit: (...args) => spawnSync(process.execPath, [scriptPath, root, ...args], {encoding: 'utf8'}),
     });
   } finally {
     await rm(root, {recursive: true, force: true});
@@ -85,6 +85,33 @@ test('accepts a valid Docusaurus bilingual build', async () => {
   });
 });
 
+test('allows localized alternates to use the same visible metadata', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    const hreflangs = [
+      {lang: 'zh-Hans', href: 'https://csgrad.com/program'},
+      {lang: 'en-US', href: 'https://csgrad.com/en/program'},
+    ];
+    await page('/program', {
+      title: 'CMU MSCS | CS Grad',
+      description: 'CMU MSCS program guide.',
+      canonical: 'https://csgrad.com/program',
+      h1: 'CMU MSCS',
+      hreflangs,
+    });
+    await page('/en/program', {
+      title: 'CMU MSCS | CS Grad',
+      description: 'CMU MSCS program guide.',
+      canonical: 'https://csgrad.com/en/program',
+      h1: 'CMU MSCS',
+      hreflangs,
+    });
+    await sitemap(['https://csgrad.com/program', 'https://csgrad.com/en/program']);
+
+    const result = audit();
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+  });
+});
+
 test('rejects an indexable page with a missing title', async () => {
   await withSite(async ({page, sitemap, audit}) => {
     await page('/missing-title', {
@@ -97,6 +124,26 @@ test('rejects an indexable page with a missing title', async () => {
     const result = audit();
     assert.equal(result.status, 1);
     assert.match(result.stderr, /\[title-missing\].*missing-title/);
+  });
+});
+
+test('allows known legacy issues from a baseline but still reports their count', async () => {
+  await withSite(async ({root, page, sitemap, audit}) => {
+    await page('/missing-title', {
+      description: 'A useful description.',
+      canonical: 'https://csgrad.com/missing-title',
+      h1: 'Useful heading',
+    });
+    await sitemap(['https://csgrad.com/missing-title']);
+    const baselinePath = path.join(root, 'seo-baseline.txt');
+    await writeFile(
+      baselinePath,
+      '[title-missing] /missing-title must have one non-empty <title>\n',
+    );
+
+    const result = audit('--baseline', baselinePath);
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+    assert.match(result.stdout, /1 known legacy issue/);
   });
 });
 

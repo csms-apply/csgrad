@@ -3,7 +3,20 @@
 import {readdir, readFile} from 'node:fs/promises';
 import path from 'node:path';
 
-const buildDir = path.resolve(process.argv[2] ?? 'build');
+const cliArgs = process.argv.slice(2);
+let buildArgument = 'build';
+let baselineArgument = null;
+for (let index = 0; index < cliArgs.length; index += 1) {
+  if (cliArgs[index] === '--baseline') {
+    baselineArgument = cliArgs[index + 1];
+    index += 1;
+  } else if (!cliArgs[index].startsWith('--')) {
+    buildArgument = cliArgs[index];
+  }
+}
+
+const buildDir = path.resolve(buildArgument);
+const baselineFile = baselineArgument ? path.resolve(baselineArgument) : null;
 
 async function findFiles(directory, predicate) {
   const entries = await readdir(directory, {withFileTypes: true});
@@ -108,6 +121,10 @@ function routeKey(value) {
   return normalized === '/' ? normalized : normalized.replace(/\/+$/, '');
 }
 
+function localeKey(route) {
+  return route === '/en' || route.startsWith('/en/') ? 'en' : 'zh-Hans';
+}
+
 async function main() {
   const htmlFiles = (await findFiles(buildDir, (file) => file.endsWith('.html')))
     .filter((file) => path.basename(file) !== '404.html');
@@ -123,48 +140,50 @@ async function main() {
   const canonicalOwners = new Map();
 
   for (const page of indexablePages) {
+    const route = pageRoute(page.file);
+    const locale = localeKey(route);
     const titles = elementTexts(page.html, 'title');
     if (titles.length !== 1 || !titles[0]) {
-      issues.push(`[title-missing] ${pageRoute(page.file)} must have one non-empty <title>`);
+      issues.push(`[title-missing] ${route} must have one non-empty <title>`);
     } else {
-      const titleKey = comparisonKey(titles[0]);
+      const titleKey = `${locale}\0${comparisonKey(titles[0])}`;
       const firstOwner = titleOwners.get(titleKey);
       if (firstOwner) {
-        issues.push(`[title-duplicate] ${firstOwner} and ${pageRoute(page.file)} share the title "${titles[0]}"`);
+        issues.push(`[title-duplicate] ${firstOwner} and ${route} share the title "${titles[0]}"`);
       } else {
-        titleOwners.set(titleKey, pageRoute(page.file));
+        titleOwners.set(titleKey, route);
       }
     }
 
     const pageDescriptions = descriptions(page.html);
     if (pageDescriptions.length !== 1 || !pageDescriptions[0]) {
-      issues.push(`[description-missing] ${pageRoute(page.file)} must have one non-empty meta description`);
+      issues.push(`[description-missing] ${route} must have one non-empty meta description`);
     } else {
-      const descriptionKey = comparisonKey(pageDescriptions[0]);
+      const descriptionKey = `${locale}\0${comparisonKey(pageDescriptions[0])}`;
       const firstOwner = descriptionOwners.get(descriptionKey);
       if (firstOwner) {
-        issues.push(`[description-duplicate] ${firstOwner} and ${pageRoute(page.file)} share the same meta description`);
+        issues.push(`[description-duplicate] ${firstOwner} and ${route} share the same meta description`);
       } else {
-        descriptionOwners.set(descriptionKey, pageRoute(page.file));
+        descriptionOwners.set(descriptionKey, route);
       }
     }
 
     const canonicals = linksWithRel(page.html, 'canonical');
     if (canonicals.length !== 1 || !canonicals[0]) {
-      issues.push(`[canonical-missing] ${pageRoute(page.file)} must have one canonical URL`);
+      issues.push(`[canonical-missing] ${route} must have one canonical URL`);
     } else {
       const canonicalKey = urlKey(canonicals[0]);
       const firstOwner = canonicalOwners.get(canonicalKey);
       if (firstOwner) {
-        issues.push(`[canonical-duplicate] ${firstOwner} and ${pageRoute(page.file)} share canonical ${canonicals[0]}`);
+        issues.push(`[canonical-duplicate] ${firstOwner} and ${route} share canonical ${canonicals[0]}`);
       } else {
-        canonicalOwners.set(canonicalKey, pageRoute(page.file));
+        canonicalOwners.set(canonicalKey, route);
       }
     }
 
     const headings = elementTexts(page.html, 'h1');
     if (headings.length !== 1 || !headings[0]) {
-      issues.push(`[h1-count] ${pageRoute(page.file)} must have exactly one non-empty <h1>; found ${headings.length}`);
+      issues.push(`[h1-count] ${route} must have exactly one non-empty <h1>; found ${headings.length}`);
     }
   }
 
@@ -209,14 +228,30 @@ async function main() {
     }
   }
 
-  if (issues.length > 0) {
-    console.error(`SEO audit failed with ${issues.length} issue(s):`);
-    for (const issue of issues) console.error(`- ${issue}`);
+  const currentIssues = [...new Set(issues)].sort();
+  const knownIssues = baselineFile
+    ? new Set((await readFile(baselineFile, 'utf8'))
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter((line) => line && !line.startsWith('#')))
+    : new Set();
+  const newIssues = currentIssues.filter((issue) => !knownIssues.has(issue));
+  const resolvedIssues = [...knownIssues].filter((issue) => !currentIssues.includes(issue));
+
+  if (newIssues.length > 0) {
+    console.error(`SEO audit failed with ${newIssues.length} new issue(s):`);
+    for (const issue of newIssues) console.error(`- ${issue}`);
     process.exitCode = 1;
     return;
   }
 
-  console.log(`SEO audit passed: ${indexableCount} indexable pages, ${sitemapUrlCount} sitemap URLs`);
+  const legacySummary = currentIssues.length > 0
+    ? `, ${currentIssues.length} known legacy issue(s)`
+    : '';
+  const resolvedSummary = resolvedIssues.length > 0
+    ? `, ${resolvedIssues.length} baseline issue(s) resolved`
+    : '';
+  console.log(`SEO audit passed: ${indexableCount} indexable pages, ${sitemapUrlCount} sitemap URLs${legacySummary}${resolvedSummary}`);
 }
 
 main().catch((error) => {
