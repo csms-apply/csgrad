@@ -2,7 +2,6 @@
 
 set -euo pipefail
 
-git pull --ff-only origin main
 npm ci
 npm run build
 if ! command -v pm2 >/dev/null 2>&1; then

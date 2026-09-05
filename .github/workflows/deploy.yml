@@ -81,7 +81,8 @@ jobs:
           ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
 
           ssh $SSH_USER@$SSH_HOST << 'EOF'
+            set -eu
             cd csgrad
-            chmod a=rwx run.sh
-            ./run.sh
+            git -c core.fileMode=false pull --ff-only origin main
+            bash run.sh
           EOF
