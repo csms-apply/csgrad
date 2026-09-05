@@ -4,6 +4,8 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
+import {trackSeoEvent} from '@site/src/lib/analytics/events.mjs';
+import {buildPositioningPurchaseParameters} from '@site/src/lib/analytics/purchase.mjs';
 import styles from './school-positioning-result.module.css';
 
 // 指数退避：第 N 次轮询前等多久。Stripe webhook 平均 1-5 秒能把 status
@@ -35,9 +37,12 @@ const COPY = {
     consultLead: '💬 想要一对一 MSCS 申请辅导？',
     consultBio: '我是 csgrad 项目作者，本科 GPA 3.94，先后在 Microsoft / 字节 / 百度 / HP 实习，2024 fall 申请拿到 CMU、Georgia Tech、UCSD、Columbia、UIUC 等 offer，目前在 Meta 任 SDE。',
     consultBody: '提供 MSCS 申请全程一对一辅导：选校定位、文书全套（SoP / CV / PS / RL）、网申跟进、推荐人策略、面试模拟（含 CMU MSIN、Columbia MSCS 等项目面试）、实习 / SDE 内推、Offer 比较与谈判。全部由我本人亲自完成，不转包、不用模板文书，服务期到拿到 offer 为止。',
-    consultCta: '感兴趣可以加我微信：',
+    consultCta: '感兴趣可以加我：',
     consultHandle: 'capsfly',
+    consultCopyControl: '微信：capsfly',
+    consultCopyVariant: '复制微信号：capsfly',
     consultCopied: '微信号已复制',
+    consultCopyFailed: '复制失败，请手动复制显示的微信号',
     consultPerk: '🎁 你这次付的选校报告费用，会全额从后续辅导费里减免。',
     bucketReach: '冲刺',
     bucketReachSub: 'Reach',
@@ -76,9 +81,12 @@ const COPY = {
     consultLead: '💬 Want 1-on-1 MSCS application coaching?',
     consultBio: "I'm the author of csgrad (3.94 undergrad GPA; prior interns at Microsoft / ByteDance / Baidu / HP; admitted to CMU, Georgia Tech, UCSD, Columbia, UIUC in the 2024 fall cycle; currently SDE at Meta).",
     consultBody: "End-to-end 1-on-1 MSCS application coaching: school list, the full essay suite (SoP / CV / PS / recommendation letters), online application tracking, recommender strategy, mock interviews (CMU MSIN, Columbia MSCS, etc.), internship / SDE referrals, and offer comparison & negotiation. Everything done by me personally — no subcontracting, no template essays. Engagement runs until you have an offer in hand.",
-    consultCta: 'Add me on WeChat:',
+    consultCta: 'Interested? ',
     consultHandle: 'capsfly',
+    consultCopyControl: 'WeChat: capsfly',
+    consultCopyVariant: 'Copy WeChat ID: capsfly',
     consultCopied: 'WeChat ID copied',
+    consultCopyFailed: 'Copy failed; copy the visible WeChat ID manually',
     consultPerk: '🎁 The fee you paid for this report will be fully credited toward your coaching package.',
     bucketReach: 'Reach',
     bucketReachSub: 'Reach',
@@ -141,14 +149,19 @@ function ConsultCard({t, locale}) {
         {t.consultCta}
         <button
           type="button"
-          className={styles.consultHandle}
+          className={`${styles.consultHandle} seo-wechat-copy seo-wechat-copy--control`}
           data-seo-copy={t.consultHandle}
           data-seo-locale={locale}
           data-seo-page-type="positioning_result"
           data-seo-copy-success={t.consultCopied}
+          data-seo-copy-failure={t.consultCopyFailed}
+          data-seo-experiment-id="consulting_contact_cta_v1"
+          data-seo-experiment-variant="control"
+          data-seo-control-label={t.consultCopyControl}
+          data-seo-variant-label={t.consultCopyVariant}
           aria-describedby="positioning-result-wechat-copy-status"
         >
-          {t.consultHandle}
+          {t.consultCopyControl}
         </button>
         <span
           id="positioning-result-wechat-copy-status"
@@ -275,6 +288,20 @@ function ResultBody() {
         if (body && body.status === 'paid') {
           setData(body);
           setStatus('paid');
+          void buildPositioningPurchaseParameters(body, sessionId)
+            .then((parameters) => {
+              if (parameters) {
+                trackSeoEvent('purchase', {
+                  ...parameters,
+                  locale,
+                  page_type: 'positioning_result',
+                  method: 'stripe_checkout',
+                });
+              }
+            })
+            .catch(() => {
+              // Never block access to a paid report on analytics support.
+            });
           return;
         }
         if (count >= MAX_POLLS) {

@@ -36,11 +36,47 @@
 .seo-wechat-copy {
   margin-right: 0.65rem;
   cursor: pointer;
+  font: inherit;
+  user-select: text;
+}
+
+.seo-wechat-copy--control {
+  appearance: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ifm-link-color);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.seo-wechat-copy--variant {
+  padding: 0.42rem 0.82rem;
+  border: 1px solid var(--ifm-color-primary-dark);
+  border-radius: var(--ifm-button-border-radius);
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.seo-wechat-copy--variant:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+.seo-wechat-copy:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+  outline-offset: 3px;
 }
 
 .seo-wechat-copy-status {
   color: var(--ifm-color-success-darkest);
   font-size: 0.9rem;
+}
+
+.seo-wechat-copy-status[data-seo-copy-state='error'] {
+  color: var(--ifm-color-danger-dark);
 }
 
 .seo-wechat-qr {

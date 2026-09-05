@@ -4,6 +4,8 @@ const ALLOWED_EVENTS = new Set([
   'wechat_qr_view',
   'positioning_start',
   'begin_checkout',
+  'experiment_exposure',
+  'purchase',
 ]);
 
 const ALLOWED_PARAMETERS = new Set([
@@ -13,6 +15,11 @@ const ALLOWED_PARAMETERS = new Set([
   'content_group',
   'tier',
   'status',
+  'experiment_id',
+  'variant',
+  'currency',
+  'value',
+  'transaction_id',
 ]);
 
 const MAX_STRING_LENGTH = 100;
@@ -22,6 +29,33 @@ function safeValue(value) {
   if (typeof value === 'number' && Number.isFinite(value)) return value;
   if (typeof value === 'boolean') return value;
   return undefined;
+}
+
+function safeParameter(key, value) {
+  if (key === 'currency') {
+    if (typeof value !== 'string') return undefined;
+    const currency = value.toUpperCase();
+    return /^[A-Z]{3}$/.test(currency) ? currency : undefined;
+  }
+  if (key === 'value') {
+    return typeof value === 'number' && Number.isFinite(value) && value >= 0
+      ? value
+      : undefined;
+  }
+  if (key === 'transaction_id') {
+    return typeof value === 'string' && /^positioning_[a-f0-9]{32}$/.test(value)
+      ? value
+      : undefined;
+  }
+  if (key === 'variant') {
+    return value === 'control' || value === 'variant' ? value : undefined;
+  }
+  if (key === 'experiment_id') {
+    return typeof value === 'string' && /^[a-z0-9_]{1,64}$/.test(value)
+      ? value
+      : undefined;
+  }
+  return safeValue(value);
 }
 
 /**
@@ -40,8 +74,18 @@ export function trackSeoEvent(name, parameters = {}, browserWindow = undefined) 
   const payload = {};
   for (const [key, value] of Object.entries(parameters || {})) {
     if (!ALLOWED_PARAMETERS.has(key)) continue;
-    const normalized = safeValue(value);
+    const normalized = safeParameter(key, value);
     if (normalized !== undefined) payload[key] = normalized;
+  }
+
+  if (
+    name === 'purchase'
+    && (!payload.transaction_id || !payload.currency || typeof payload.value !== 'number')
+  ) {
+    return false;
+  }
+  if (name === 'experiment_exposure' && (!payload.experiment_id || !payload.variant)) {
+    return false;
   }
 
   const pathname = safeValue(target.location && target.location.pathname);

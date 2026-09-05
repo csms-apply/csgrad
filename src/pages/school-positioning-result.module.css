@@ -159,15 +159,25 @@
 
 .consultHandle {
   display: inline-block;
-  padding: 3px 12px;
-  background: #fff;
-  border: 1px solid #c9a96e;
   border-radius: 6px;
-  color: #b8702a;
   font-weight: 700;
   font-family: Menlo, Monaco, 'Courier New', monospace;
   font-size: 0.92rem;
   cursor: pointer;
+}
+
+.consultHandle[data-seo-experiment-variant='control'] {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #b8702a;
+}
+
+.consultHandle[data-seo-experiment-variant='variant'] {
+  padding: 3px 12px;
+  border: 1px solid #c9a96e;
+  background: #fff;
+  color: #b8702a;
 }
 
 .consultCopyStatus {
@@ -175,11 +185,15 @@
   font-size: 0.82rem;
 }
 
+.consultCopyStatus[data-seo-copy-state='error'] {
+  color: #b42318;
+}
+
 [data-theme='dark'] .consultCopyStatus {
   color: #a8bd90;
 }
 
-[data-theme='dark'] .consultHandle {
+[data-theme='dark'] .consultHandle[data-seo-experiment-variant='variant'] {
   background: #1e1a15;
   border-color: rgba(201, 169, 110, 0.6);
   color: #e09553;
