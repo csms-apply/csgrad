@@ -22,3 +22,12 @@ For 25 Summer, 4 people landed Meta, and approximately 10 people landed Amazon.
 5. Art background career change to CS, had product manager full-time experience in China, landed America Data Science
 6. University of Missouri-Columbia CS + Linguistics undergrad, multiple SDE internships during undergrad, landed CVS MLE position
 7. Indian student, one year full-time experience, landed Goldman Sachs SWE
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Evelyn Liu](https://www.linkedin.com/in/yn06/) | Chongqing University of Post and Telecommunications, bachelor's in Computer Science (Sep 2018–Jun 2022) | Rice University, master's in Computer Science (Aug 2022–Dec 2023); the profile headline explicitly identifies MCS Rice Alumni | NVIDIA, Solutions Architect, full-time (Sep 2024–present); Wind River, Software Engineer Intern, internship (May–Aug 2023). |

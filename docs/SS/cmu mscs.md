@@ -31,3 +31,11 @@ iit cs本科，gpa 9.58/10，微软三年全职
 无敌，各种量化(citadel、pointer72、jane street、jump trading)，剩下的也能保底大厂（但是这并不是因为cmu mscs的title有多大加持，主要是因为在读生的经历特别强，动辄github 3k+ star/pointer72 qr intern/微软三年全职经历）
 
 ![](/img/cmumscscarrer.png)
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| University of Maryland，BS Computer Science，Statistics 辅修，2022-08–2026-05 | Carnegie Mellon University，Master of Science, Computer Science，2026–2027（履历列出的结束日期晚于本次核验日期） | TikTok，Backend Software Engineer Intern（实习），2025-05–2025-08、2026-05–2026-08 | [Andrew Wang 的 LinkedIn 履历](https://www.linkedin.com/in/andrewwang04/) |

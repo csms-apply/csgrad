@@ -21,3 +21,9 @@ average gpa is 3.8，这个项目最看重你的research，如果有顶会产出
 1. UMD CS本科，上岸google ng
 2. UMD CS本科，有银行实习，上岸Capital intern
 3. UMD CS本科，有两段aws 实习， summer 上岸jane street, fall 上岸citadel，都是swe intern
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+- [Ryan Wong（LinkedIn）](https://www.linkedin.com/in/ryan-wong-67ba03290/)：University of Maryland Mathematics and Computer Science B.S.（2023年8月–2026年5月）；同校 Computer Science M.S.（履历列2026年8月–2027年5月，结束时间尚在未来）。工作栏列出 AI Momentum Machine Learning Intern（2025年6–8月）及 Kensho Technologies Machine Learning Intern（2026年5–8月）。两段均发生于本科期间或硕士开始前后的暑期，不能作为硕士毕业后的就业结果；本次未核验到硕士毕业后的全职任职。

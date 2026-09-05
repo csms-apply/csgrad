@@ -52,11 +52,21 @@
 - 结果：已直接核验并写入中英文正文，不能把该样本描述为完成了单独的项目关键词搜索。
 - 同次 Google 结果还出现 [Tianyi Cheng](https://www.linkedin.com/in/eva-tianyi-cheng)，尚未打开，不写成已核实样本。
 
+## 项目归属待确认，暂不收录正文
+
+### UT Austin MSCS
+
+- 文件：`docs/S/UT MSCS.md`。
+- Google 来源查询：根任务串行搜索 `UMD MSCS alumni site:linkedin.com/in` 时发现该候选，并分发核验；本子任务没有新发 Google 查询。尚未以单独 UT Austin 项目关键词搜索。
+- 候选及核验来源：[Anirud Kashyap](https://www.linkedin.com/in/anirud-kashyap-162420250/)。
+- 教育栏：University of Maryland，BS Computer Science，2021–2025；The University of Texas at Austin，Master's degree, Computer Science，2025–2027。
+- 工作栏：Qmulos，Software Engineer Intern，Internship，2025-06–2025-09；AT&T，Software Engineer Intern，Internship，2026-06–2026-08。
+- 结果：**学位确认但授课模式未确认**。硕士结束日期晚于核验时间；公开履历没有说明线下或 online 授课模式，不能据此确认属于本站这篇线下项目页面。已从中英文正文撤下本次追加的样本，仅保留研究记录，待有直接证据区分授课模式后再考虑收录。
+
 ## 尚未开展逐项目搜索
 
 以下是受 Google 验证影响而尚未检索的项目，不是“已搜索但无结果”。后续须逐项补充实际查询、候选链接、直接核验结果及缺口。
 
-- `docs/S/UT MSCS.md`
 - `docs/S/Cornell CS MENG.md`
 - `docs/S/CMU MSCV.md`
 - `docs/S/UCB EECS meng.md`

@@ -19,3 +19,9 @@ Average GPA is 3.8. This program places the most weight on your research. Having
 1. UMD CS undergrad, landed Google new grad
 2. UMD CS undergrad, had bank internship, landed Capital One intern
 3. UMD CS undergrad, had two AWS internships, summer landed Jane Street, fall landed Citadel -- both SWE intern
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+- [Ryan Wong (LinkedIn)](https://www.linkedin.com/in/ryan-wong-67ba03290/): B.S. in Mathematics and Computer Science, University of Maryland (August 2023–May 2026); M.S. in Computer Science at the same university (listed as August 2026–May 2027, with a future end date). The work history lists Machine Learning Intern at AI Momentum (June–August 2025) and Machine Learning Intern at Kensho Technologies (May–August 2026). These internships took place during undergraduate study or the summer around the master's start; they are not post-master's employment outcomes. No full-time role after completion of the master's was verified.

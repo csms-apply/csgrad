@@ -45,3 +45,11 @@ Here's another perspective: if you plan to do the two-year track, you can actual
 
 
 Harvard has an incredibly strong academic atmosphere, with resources that are practically overflowing. Beyond courses, the school hosts tons of celebrity talks, alumni events, and various dinner networking opportunities. But if you just bury yourself in homework, you might find that four months have passed and you haven't even been to downtown Boston (yes, this actually happens to people).
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| University of Southern California, Bachelor's degree, Applied Mathematics and Computer Science, 2020–2022 | Harvard University, Master's degree, Computational Science and Engineering, Aug 2022–Jun 2024 | Amazon, Applied Scientist (internship), May–Sep 2023; NVIDIA, Research Scientist (full-time), Jun 2024–Present as listed on the profile | [Jiashu Xu's LinkedIn profile](https://www.linkedin.com/in/jiashu-xu/) |

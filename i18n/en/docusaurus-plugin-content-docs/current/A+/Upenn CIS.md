@@ -49,3 +49,9 @@ For example, CIS 5050 Software System requires building a distributed email syst
 CIS 5530 Networked System requires implementing Layer 3 routing protocol + Layer 7 distributed search engine,
 and every debugging session is a battle with the OS. CIS 5550 Internet and Web System is one of Penn's hardest courses --
 it simulates Google Search Engine. This goes beyond a class project; it's truly hardcore and resume-worthy.
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+- [Joy Liu (LinkedIn)](https://www.linkedin.com/in/happyjoytotheworld/): BSE in Computer Science, University of Pennsylvania (August 2022–May 2026), and MSE in Computer Science at the same university (August 2024–May 2026). Listed roles include Software Engineering Intern (Modern Recommendation Systems) at Meta (May–August 2024) and Software Engineering Intern (Big Data & Iceberg) at Netflix (June–August 2025). The undergraduate and master's dates overlap; this is an individual Penn undergraduate-to-master's trajectory, not evidence of admission from another university. No post-graduation full-time role was verified.
