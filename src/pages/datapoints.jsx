@@ -1163,9 +1163,6 @@ export default function DataPointsPage() {
         <meta property="og:description" content={t.pageDesc} />
         <meta property="og:type" content="website" />
       </Head>
-      <noscript>
-        <StaticHero t={t} counts={STATIC_COUNTS} />
-      </noscript>
       <BrowserOnly fallback={<StaticHero t={t} counts={STATIC_COUNTS} />}>
         {() => <Inner t={t} />}
       </BrowserOnly>

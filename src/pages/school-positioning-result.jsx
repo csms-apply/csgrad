@@ -37,6 +37,7 @@ const COPY = {
     consultBody: '提供 MSCS 申请全程一对一辅导：选校定位、文书全套（SoP / CV / PS / RL）、网申跟进、推荐人策略、面试模拟（含 CMU MSIN、Columbia MSCS 等项目面试）、实习 / SDE 内推、Offer 比较与谈判。全部由我本人亲自完成，不转包、不用模板文书，服务期到拿到 offer 为止。',
     consultCta: '感兴趣可以加我微信：',
     consultHandle: 'capsfly',
+    consultCopied: '微信号已复制',
     consultPerk: '🎁 你这次付的选校报告费用，会全额从后续辅导费里减免。',
     bucketReach: '冲刺',
     bucketReachSub: 'Reach',
@@ -77,6 +78,7 @@ const COPY = {
     consultBody: "End-to-end 1-on-1 MSCS application coaching: school list, the full essay suite (SoP / CV / PS / recommendation letters), online application tracking, recommender strategy, mock interviews (CMU MSIN, Columbia MSCS, etc.), internship / SDE referrals, and offer comparison & negotiation. Everything done by me personally — no subcontracting, no template essays. Engagement runs until you have an offer in hand.",
     consultCta: 'Add me on WeChat:',
     consultHandle: 'capsfly',
+    consultCopied: 'WeChat ID copied',
     consultPerk: '🎁 The fee you paid for this report will be fully credited toward your coaching package.',
     bucketReach: 'Reach',
     bucketReachSub: 'Reach',
@@ -129,7 +131,7 @@ function SchoolCard({ school, locale, t }) {
   );
 }
 
-function ConsultCard({ t }) {
+function ConsultCard({t, locale}) {
   return (
     <div className={styles.consultCard}>
       <p className={styles.consultLead}>{t.consultLead}</p>
@@ -137,7 +139,23 @@ function ConsultCard({ t }) {
       <p className={styles.consultBody}>{t.consultBody}</p>
       <p className={styles.consultCtaLine}>
         {t.consultCta}
-        <span className={styles.consultHandle}>{t.consultHandle}</span>
+        <button
+          type="button"
+          className={styles.consultHandle}
+          data-seo-copy={t.consultHandle}
+          data-seo-locale={locale}
+          data-seo-page-type="positioning_result"
+          data-seo-copy-success={t.consultCopied}
+          aria-describedby="positioning-result-wechat-copy-status"
+        >
+          {t.consultHandle}
+        </button>
+        <span
+          id="positioning-result-wechat-copy-status"
+          className={styles.consultCopyStatus}
+          role="status"
+          aria-live="polite"
+        />
       </p>
       <p className={styles.consultPerk}>{t.consultPerk}</p>
     </div>
@@ -418,7 +436,7 @@ function ResultBody() {
                 </div>
               </div>
             )}
-            <ConsultCard t={t} />
+            <ConsultCard t={t} locale={locale} />
             <div className={styles.reportFooter}>{t.reportFooter}</div>
           </div>
         </div>

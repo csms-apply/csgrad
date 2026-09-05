@@ -5,6 +5,7 @@ import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { FIELD_DEFINITIONS } from '@site/src/lib/positioning/profile-schema';
 import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
+import {trackSeoEvent} from '@site/src/lib/analytics/events.mjs';
 import styles from './school-positioning.module.css';
 
 const POSITIONING_AVAILABLE = false;
@@ -319,6 +320,11 @@ function FormBody() {
       }
       const result = await res.json();
       setPreview(result);
+      trackSeoEvent('positioning_start', {
+        locale,
+        page_type: 'positioning',
+        method: 'profile_preview',
+      });
       setTimeout(() => {
         const el = document.getElementById('positioning-preview');
         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -345,6 +351,11 @@ function FormBody() {
       if (!data || !data.checkoutUrl) {
         throw new Error('No checkout URL returned');
       }
+      trackSeoEvent('begin_checkout', {
+        locale,
+        page_type: 'positioning',
+        method: 'stripe_checkout',
+      });
       window.location.href = data.checkoutUrl;
     } catch (err) {
       setPaying(false);

@@ -32,3 +32,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.seo-wechat-copy {
+  margin-right: 0.65rem;
+  cursor: pointer;
+}
+
+.seo-wechat-copy-status {
+  color: var(--ifm-color-success-darkest);
+  font-size: 0.9rem;
+}
+
+.seo-wechat-qr {
+  display: block;
+  width: min(280px, 100%);
+  height: auto;
+  margin-top: 1rem;
+}
