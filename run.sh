@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# Non-interactive SSH sessions may not load the server's Node installation.
+# Load NVM before nounset: its initialization reads optional shell variables.
+export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
+if [ -s "$NVM_DIR/nvm.sh" ]; then
+  . "$NVM_DIR/nvm.sh"
+fi
+
 set -euo pipefail
 
 npm ci

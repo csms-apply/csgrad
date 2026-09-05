@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CS Grad',
-  tagline: 'Make application easier',
+  tagline: '北美 CS/MSCS 申请与选校指南',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -89,8 +89,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      metadata: [{property: 'og:site_name', content: 'CS Grad'}],
       navbar: {
-        title: 'cs grad',
+        title: 'CS Grad',
         logo: {
           alt: 'CS Grad Logo',
           src: 'img/logo.svg',
@@ -127,24 +128,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Explore',
+            title: '探索',
             items: [
               {
-                label: 'Program Guide',
+                label: '项目介绍',
                 to: '/',
               },
               {
-                label: 'Data Points',
+                label: '录取数据',
                 to: '/datapoints',
               },
               {
-                label: 'Application Tracker',
+                label: '申请跟踪',
                 to: '/tracker',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
                 label: 'CS Grad Discord',
@@ -153,7 +154,7 @@ const config = {
             ],
           },
           {
-            title: 'Project',
+            title: '关于项目',
             items: [
               {
                 label: 'GitHub',
