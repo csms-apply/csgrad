@@ -47,23 +47,6 @@ const config = {
     },
   },
 
-  plugins: [
-    [
-      './plugins/localized-alternates.mjs',
-      {
-        // The translated consulting page intentionally uses a clearer English slug.
-        pairs: [
-          {
-            defaultRoute: '/找我辅导',
-            localizedRoute: '/en/consulting',
-            defaultLocale: 'zh-Hans',
-            localizedLocale: 'en-US',
-          },
-        ],
-      },
-    ],
-  ],
-
   presets: [
     [
       'classic',
