@@ -39,3 +39,12 @@ Campuses offering MSCS (including both regular MSCS and Align versions). General
 6. Miami, FL (Miami campus, open in select semesters)
 7. Vancouver, BC (Vancouver, Canada campus, popular choice for international students, thriving tech industry)
 8. Portland, ME (Portland, Maine campus, some students report a fixed $25K scholarship)
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Wen Huang](https://www.linkedin.com/in/wenhuang-wh/) | Southwestern University of Finance and Economics, bachelor's degree in Finance (September 2011–June 2015) | Northeastern University, MS in Computer Science Align (September 2021–May 2024); also completed an earlier MS in Finance there (September 2015–August 2016). Campus unverified | Amazon, Software Dev Engineer, June 2024–present, employment type unspecified; Amazon, Software Developer, internship, May–August 2023; Tesla, Software Developer, internship, September–December 2023. Before Align: Financial Analyst at Evergrande Life Insurance, July 2017–July 2021, employment type unspecified. |

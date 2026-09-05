@@ -52,3 +52,13 @@ CS course enrollment priority is very high — no need to worry about not gettin
 
 ## One-Line Summary:
 Personally, I think this program is underrated. Other than the high cost, everything is quite good (school ranking, student experience, workload, PhD transfer opportunities, job hunting convenience). Although it is a career-change program, CS majors can also apply. If your family budget is sufficient, I personally believe this program is no worse in quality than the A+ programs on Open CS App.
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Angad Sandhu](https://www.linkedin.com/in/angad-sandhu/) | Manipal Institute of Technology, BTech in Computer Science, 2019–2023 | Johns Hopkins Whiting School of Engineering, July 2023–May 2025; enrollment post and credential entry explicitly identify Master of Science in Engineering, Computer Science (MSE) | Johns Hopkins Medicine, Graduate Research Assistant - Multimodal LLMs (employment type listed as Internship), June 2024–May 2025; Amazon Software Engineer (full-time), June 2025–present as displayed when checked |
+
+Education uses the broader label “MS, Computer Software Engineering.” The specific MSE CS degree is corroborated by the profile owner's enrollment post and May 2025 degree credential entry, rather than treating this as an EP program. The research assistant role took place during the master's program; the Amazon role began after the listed master's end date.

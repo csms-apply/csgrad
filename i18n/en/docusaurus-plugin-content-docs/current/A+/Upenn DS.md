@@ -49,3 +49,11 @@ Looking at past PhD admission outcomes, a small number of students have been adm
 Philadelphia's living environment is honestly mediocre, and you could even say it's quite poor -- run-down and unsafe is the first impression. The university area is relatively safe, but you still don't feel comfortable walking around at night. Sirens and shootings are not uncommon. There are some decent apartments nearby, but rent is expensive. To save money, you'd have to go to Presidential City or other areas farther out, which offers better value but makes commuting a hassle.
 
 Food-wise, Chinese restaurant options near campus are limited. There's hot pot, poke bowls, and Cantonese food, but the quality is mediocre. Many people end up going to New York to eat, since it's only a 2-hour drive. For grocery shopping, there's no 99 Ranch Market -- just H Mart and small Chinese grocery stores. If you want a full selection of Chinese groceries, you have to go to Chinatown or order online. Prices are even higher than Southern California; a basic meal starts at $20, and eating well costs even more.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| William & Mary, Bachelor of Science in Statistics, 2020-08–2024-05 | University of Pennsylvania, MSE in Data Science, 2024-08–2026-05 | Aetna, a CVS Health Company, Actuarial Intern (internship), 2025-05–2025-08; Continental Finance Company, Data Scientist (full-time), 2026-06–Present as listed on the profile | [Qixuan (Caesar) Zhu's LinkedIn profile](https://www.linkedin.com/in/caesar-zhuqx/) |

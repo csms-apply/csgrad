@@ -6,7 +6,7 @@
 
 ## 当前覆盖
 
-已完成 Google 发现并核验个人页：11/25。已添加样本：11 个项目、13 人，中英文各 11 页。Google 验证由用户处理后，根 agent 已恢复串行发现并提供候选；另 14 项尚未完成核验。**待查不等于无数据，未宣称这 14 项已完成研究。**
+已完成 Google 发现并核验个人页：15/25。已添加样本：15 个项目、17 人，中英文各 15 页。Google 验证由用户处理后，根 agent 已恢复串行发现并提供候选；另 10 项尚未完成核验。**待查不等于无数据，未宣称这 10 项已完成研究。**
 
 ## 已核验
 
@@ -141,15 +141,60 @@
 - 任职：Esri：Software Development Engineer II，全职，2026 年 1 月–至今；Software Engineering Intern，实习，2025 年 6 月起，页面仍标至今，未提供可信结束日期。读硕士前在 GeekyAnts 任 Software Engineer、Senior Software Engineer、Senior Software Engineer II，均为全职（2020 年 9 月–2024 年 1 月）。
 - 核验限制：Education 明确写 Master of Software Engineering，页首同时写 MSWE；未与研究型 MSSE 混用。Esri 实习与全职条目均标至今，实习结束时间未更新，不推断转正日期。Google 候选 URL /in/shlok-jain-098210165 自动跳转到 /in/jain-shlok/。另核验 ChenChen C.（https://www.linkedin.com/in/chen-chen-chuang/），其教育仅写 Master's degree, Software Engineering，未明确 MSWE/MSSE，且 Sigma 条目至今与求职动态存在不一致，故不作为本页样本。
 
+### Emory MSCS — Daniel Onyejiekwe
+
+- 页面：`docs/B/Emory MSCS.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Emory MS Computer Science alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Daniel Onyejiekwe](https://www.linkedin.com/in/daniel-onyejiekwe/)。
+- 本科：Morgan State University，Bachelor's degree in Computer Science（2022 年 8 月–2026 年 5 月）。
+- 硕士：Emory University，Master of Science in Computer Science（2026 年 5 月–2028 年 5 月，后者为预期结束时间）；在读，未核实具体 track。
+- 任职：本科期间：Human-AI eXperience (HAX) Lab，Undergraduate Research Assistant，兼职，2025 年 5 月–2026 年 5 月；Morgan State University，Teaching Assistant，兼职，2026 年 2–5 月。尚未核实硕士毕业后的工作，不作为毕业就业结果。
+- 核验限制：Education 明确两个学校、学位专业和年月；硕士结束时间在未来，只作为在读教育及既往兼职研究/教学样本。候选原 URL 自动跳转 /in/daniel-onyejiekwe/。Tina Piltner（https://www.linkedin.com/in/tinapiltner/）有 Emory 本科 CS and Quantitative Sciences Aug2023–May2026、MSCS May2027 的教育条目，但未显示 Experience，公开动态的夏季实习缺完整日期，未选入；Selorm E.（https://www.linkedin.com/in/selormessey/）仅完成页首与动态初查，不将其认定为无学历或无就业数据。
+
+### NCSU MCS — Neel Shah
+
+- 页面：`docs/B/NCSU MCS.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`NCSU Master Computer Science alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Neel Shah](https://in.linkedin.com/in/neel-shah-665341219/)。
+- 本科：Dwarkadas J. Sanghvi College of Engineering，本科（2018 年 8 月–2022 年 5 月）；专业字段写 Computer Science，个人描述写 Computer Engineering，保留此差异。
+- 硕士：North Carolina State University，计算机科学硕士（2022 年 8 月–2024 年 5 月）；页首明确标注 MCS。
+- 任职：BlackTeal Energy，Software Engineer，全职，2024 年 11 月–2025 年 2 月；Arista Networks，Software Engineer，全职，2025 年 2 月–至今。读硕士前：Computer Software Solutions LLC，Android Software Developer Intern，实习，2021 年 5–11 月。
+- 核验限制：页首明确 MCS，Education 给出硕士学校专业与日期。本科专业字段/描述存在 Computer Science 与 Computer Engineering 差异，正文如实保留，不替本人裁定。另核验 Abhishek Arvindkumar Upadhyay（https://www.linkedin.com/in/abhishek03-upadhyay/）和 Sanya K.（https://www.linkedin.com/in/sanya-kathuria/），其 NCSU Education 均仅写通用 Masters/Master's degree, Computer Science，未确认 MCS/MS，所以未选作本页主样本。
+
+### NEU CS Align — Wen Huang
+
+- 页面：`docs/B/NEU CS ALIGN.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Northeastern Align computer science alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Wen Huang](https://www.linkedin.com/in/wenhuang-wh/)。
+- 本科：西南财经大学（Southwestern University of Finance and Economics），Finance 本科（2011 年 9 月–2015 年 6 月）。
+- 硕士：Northeastern University，MS in Computer Science Align（2021 年 9 月–2024 年 5 月）；此前另有该校 MS in Finance（2015 年 9 月–2016 年 8 月）。未核实就读校区。
+- 任职：Amazon，Software Dev Engineer，2024 年 6 月–至今，未注明雇用类型；Amazon，Software Developer，实习，2023 年 5–8 月；Tesla，Software Developer，实习，2023 年 9–12 月。读 Align 前在恒大人寿保险有限公司任 Financial Analyst（2017 年 7 月–2021 年 7 月，未注明雇用类型）。
+- 核验限制：Education 明确 Computer Science Align，完整教育详情提供西南财经本科和 NEU 金融硕士。个人当前定位 Boston 不作为就读校区证据。Amazon 2024 年起岗位未标 Full-time，不擅自归类；Amazon/Tesla 2023 条目明确 Internship。About 仍写 current student，而 Education 截止 May2024，未据 About 推断持续在读。
+
+### NEU MSCS — 已核验候选，常规/Align 归属待确认
+
+- 页面：`docs/B/NEU MSCS.md`；页面明确仅讨论 general MSCS，不能把未标模式的 CS 硕士直接归入。
+- Google 查询：`Northeastern MSCS alumni site:linkedin.com/in`，由根 agent 串行搜索后提供三位候选，均通过浏览器读取了个人 Education 与 Experience。
+- [Yutong Wang](https://www.linkedin.com/in/yutong-wang-pku/)：NEU MS Computer Science（2023 年 9 月–2026 年 5 月）；北大 Classical Chinese Literature & History of Science 博士（2017 年 9 月–2023 年 6 月）；TikTok MLE 全职（2026 年 6 月–至今）、实习（2025 年 7–12 月）。未明确 General/Align；本科在折叠的第三教育条目中，本轮未展开。
+- [Robyn Jiang](https://www.linkedin.com/in/robyn-jiang/)：NEU Master's degree, Computer Science（2023 年 9 月–2026 年 1 月）；清华硕士（2020 年 9 月–2023 年 6 月）；Two Sigma SWE 全职（2026 年 7 月–至今）。未明确 General/Align；本科未展开，不依靠转专业叙述猜模式。
+- [Amber Qianyun Wang](https://www.linkedin.com/in/amber-q-wang/)：NEU MS Computer Science（2022–2025）；NYU MA Linguistics and Language Education（未标日期）；AWS SDE 全职（2026 年 3 月–至今）、AWS 实习（2025 年 6–8 月）、Morgan Stanley Data Engineer Co-op 实习（2025 年 1–5 月）。未明确 General/Align；本科未展开。
+- 结果：本轮有候选、有教育与工作数据，但项目模式仍待核实；暂未向常规 MSCS 页面添加这三位，不声称该项目没有公开样本。已请根 agent 补充明确模式的候选。
+
+### UCI MCS — Hung-Yau Su
+
+- 页面：`docs/B/UCI MCS.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`UCI Master Computer Science MCS alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Hung-Yau Su](https://www.linkedin.com/in/hungyau/)。
+- 本科：国立中央大学（National Central University），Bachelor of Computer Science and Information，Computer Science（2019 年 9 月–2023 年 6 月）。
+- 硕士：UC Irvine Donald Bren School of Information and Computer Sciences，计算机科学硕士（2024 年 9 月–2025 年 12 月）；页首明确写 MCS Graduate。
+- 任职：Matching Donors，Web Developer，兼职，2026 年 2 月–至今；CancerFree Biotech，Software Engineer Intern，实习，2025 年 6–9 月。未核实毕业后的全职工作，兼职不计作全职结果。
+- 核验限制：页首明确 MCS Graduate，Education 的 Master, Computer Science 给出日期；About 使用 M.S. 通用简称，正文保留原页的明确 MCS 自述并注明依据。Matching Donors 雇用类型为 Part-time，不写成全职；Apache Software Foundation Open-Source Contributor 不作为该机构雇用关系或全职结果。
+
 ## 待研究清单
 
 | 页面 | 待核对项目名称 | 状态 |
 | --- | --- | --- |
-| `docs/B/Emory MSCS.md` | Emory MSCS | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B/NCSU MCS.md` | NC State MCS | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B/NEU CS ALIGN.md` | NEU CS Align | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B/NEU MSCS.md` | NEU General MSCS | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B/UCI MCS.md` | UCI Master of Computer Science | 尚未 Google 查询；受统一限流暂停影响 |
+| `docs/B/NEU MSCS.md` | NEU general MSCS | `Northeastern MSCS alumni site:linkedin.com/in` | 已核验三位；General/Align 归属待确认，非未搜索 |
 | `docs/B/UIUC ECE MENG.md` | UIUC ECE MEng | 尚未 Google 查询；受统一限流暂停影响 |
 | `docs/B/UMass MSCS.md` | UMass Amherst MSCS | 尚未 Google 查询；受统一限流暂停影响 |
 | `docs/B/USC CS37.md` | USC CS28（实际页面标题；文件名为 CS37） | 尚未 Google 查询；受统一限流暂停影响 |

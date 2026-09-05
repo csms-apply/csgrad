@@ -29,3 +29,12 @@ The 2022 summer landing rate was 87%. For details, see: https://leslierp.wordpre
 10. Indian undergrad, two years full-time, landed NetApp SDE
 11. Indian undergrad, Amazon India one and a half years full-time, landed Amazon US SDE intern and successfully converted to full-time
 12. Indian undergrad, Microsoft four years full-time, landed Hitachi Energy intern and successfully converted to full-time
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Neel Shah](https://in.linkedin.com/in/neel-shah-665341219/) | Dwarkadas J. Sanghvi College of Engineering, bachelor's degree (August 2018–May 2022); the field lists Computer Science, while the description says Computer Engineering | North Carolina State University, master's in Computer Science (August 2022–May 2024); headline explicitly identifies MCS | BlackTeal Energy, Software Engineer, full-time, November 2024–February 2025; Arista Networks, Software Engineer, full-time, February 2025–present. Before the master's: Android Software Developer Intern at Computer Software Solutions LLC, internship, May–November 2021. |

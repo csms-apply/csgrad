@@ -33,3 +33,11 @@ Transferring to PhD at LA is easy -- as long as the professor agrees, you can tr
 
 # Living & Safety
 Living in Los Angeles is expensive, and UCLA is adjacent to the famous wealthy neighborhood of Beverly Hills, so rent is among the highest in the entire US. Fortunately, UCLA is a public school, so tuition is relatively affordable. The area around campus is very convenient, with several supermarkets within walking distance. A 99 Ranch Market recently opened nearby, also within walking/bus range. A 10-minute drive takes you to Little Osaka, with lots of Japanese cuisine. There's also plenty of Chinese food. Plus, California's climate is wonderful -- spring-like all year round with abundant sunshine.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| UC San Diego, Bachelor's degree in Computer Science, 2020–2022 | UCLA, Master's degree in Computer Science, 2022-09–2024-12 | Platform Science, Software Engineer Intern (internship), 2022-08–2022-09; MemVerge, Software Engineer Intern, 2023-06–2023-09; TikTok, Software Eng (full-time), 2025-01–Present as listed on the profile | [Dadian Zhu's LinkedIn profile](https://www.linkedin.com/in/dadian-zhu/) |

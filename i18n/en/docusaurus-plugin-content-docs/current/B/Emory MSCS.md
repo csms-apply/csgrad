@@ -24,3 +24,12 @@ Emory is not a school with an intense job hunting atmosphere. Many master's stud
 
 ## Value for Money
 Tuition is approximately $50K per year. All students admitted to the MSCS program automatically receive partial tuition scholarships (30%-50%). The overall cost of living in Atlanta is not high, with monthly rent budgets ranging from $1,000 to $2,000. Compared to schools on the East and West Coasts, this program offers relatively good value.
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Daniel Onyejiekwe](https://www.linkedin.com/in/daniel-onyejiekwe/) | Morgan State University, bachelor's degree in Computer Science (August 2022–May 2026) | Emory University, Master of Science in Computer Science (May 2026–May 2028, with the latter an expected end date); current student, specific track unverified | During undergraduate study: Undergraduate Research Assistant at the Human-AI eXperience (HAX) Lab, part-time, May 2025–May 2026; Teaching Assistant at Morgan State University, part-time, February–May 2026. No post-master's employment verified; these are not graduate employment outcomes. |

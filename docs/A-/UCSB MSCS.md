@@ -23,3 +23,13 @@ MSCS 项目时长一般是 2 年，但最长能延期到 4 年，学校给发的
 2. ucsb cs本科，无实习，上岸meta
 ## 转博
 友好，很多本校ms转phd的
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Tim Kim](https://www.linkedin.com/in/taeseong-kim/) | UC Santa Barbara，BS in Computer Engineering，2019–2023 | UC Santa Barbara，MS in Computer Science，2023–2025 | Samsung Electronics America Machine Learning Engineer Intern，2025年6–8月；NVIDIA Deep Learning Software Engineer（全职），2026年2月至今（核验时页面所示），Deep Learning Safety team |
+
+该样本本科与硕士均就读 UCSB，不代表外校申请者的录取背景。硕士只公开年份，不能判断 Samsung 实习与具体毕业月份的先后；NVIDIA 职位开始于硕士所列结束年份之后。Alcon 的 Software Engineer 条目明确是 Senior Capstone Project，未作为企业全职就业收录。

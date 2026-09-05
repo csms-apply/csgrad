@@ -23,3 +23,13 @@ There are about 60 students total, roughly 60% Chinese, 30% Indian. The Chinese 
 
 # Choosing Between MSCS and CE
 The admission threshold for CS is higher and can sometimes be unpredictable. Since the engineering school only allows you to apply to one program, if — like me — you definitely want to be in New York, I recommend CE. After all, in Manhattan your only options are Columbia and NYU.
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Garvit Vyas](https://www.linkedin.com/in/garvit-vyas/) | Birla Institute of Technology and Science, Pilani, BE in Electronics & Communications, 2020–2024 | Columbia University, MS in Computer Engineering, August 2024–December 2025 | NVIDIA ASIC Intern, July–December 2023; Arm SoC Engineer Intern, May–December 2025; Arm Graduate Engineer (full-time), January 2026–present as displayed when checked |
+
+The NVIDIA internship took place during undergraduate study, and the Arm internship during the master's program. The full-time Arm role began after the listed master's end date. Experience lists the title as Graduate Engineer, while the headline adds SoC; this does not establish a typical career direction for all CE graduates.

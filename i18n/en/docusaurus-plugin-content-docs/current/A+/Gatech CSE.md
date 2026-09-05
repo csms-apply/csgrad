@@ -29,3 +29,11 @@ GT's campus has a lot of hills -- going to class feels like hiking. Fortunately,
 Atlanta's safety is mediocre overall. I just live in the school dorms for peace of mind. Sometimes the Citizens App reports someone with a gun somewhere, but it's generally unrelated to campus. MARTA (the subway) only has one cross-shaped line. Getting to an Asian supermarket takes 30 minutes, and it's really inconvenient without a car. Fortunately, most people use Walmart+ delivery, and if that doesn't work, they order from Weee.
 
 GT's mandatory four courses per semester is really intense. Basically after the first two weeks, there's something due every week. Even if you pick the easiest courses, the due dates will still overwhelm you... because the hard courses are truly hardcore, and even the easier courses have heavy requirements and workloads. Additionally, GT allows you to take some undergraduate courses that don't count toward graduation credits but can be used to meet full-time enrollment requirements -- you can pick some high-quality foundational CS courses this way.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Escuela de Ingeniería de Antioquia, Bachelor of Engineering in Biomedical/Medical Engineering, 2014–2020; the Education section identifies a joint degree with Universidad CES | Georgia Institute of Technology, Master's degree in Computational Science and Engineering, 2024-01–2025-12 | Escafandra S.A.S., Programming Analyst (full-time), 2021-08–2023-06; Zhang Computational Biology Lab at Georgia Tech, Graduate Research Assistant (part-time), 2024-05–2024-12; Georgia Institute of Technology, Graduate Teaching Assistant (part-time), 2025-01–2025-12 | [Alejandro Danies-López's LinkedIn profile](https://www.linkedin.com/in/alejandro-danies/) |

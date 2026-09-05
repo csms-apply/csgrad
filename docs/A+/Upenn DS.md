@@ -49,3 +49,11 @@
 费城的生活环境真的 一般，甚至可以说 很拉，破旧+不安全是第一印象。大学城周围相对安全，但晚上街上还是不太敢乱走，警笛声、枪击案都不罕见，周围有些公寓不错，但房租贵，想住得便宜点只能去远一点的 Presidential City 或者其他地区，性价比高但通勤麻烦。
 
 饮食上，学校周围中餐选择不多，火锅、poke bowl、粤菜都有，但 水平一般，很多人最后都是去 纽约吃饭，毕竟开车 2 小时就到了。超市方面，没有大华，只有 H Mart 和小型中国超市，想买全套中超货品只能去中国城或者网购。物价比南加州还贵，吃一顿普通饭 20 刀起步，想吃好点还得再加。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| William & Mary，Bachelor of Science in Statistics，2020-08–2024-05 | University of Pennsylvania，MSE in Data Science，2024-08–2026-05 | Aetna, a CVS Health Company，Actuarial Intern（实习），2025-05–2025-08；Continental Finance Company，Data Scientist（全职），2026-06–履历所示 Present | [Qixuan (Caesar) Zhu 的 LinkedIn 履历](https://www.linkedin.com/in/caesar-zhuqx/) |

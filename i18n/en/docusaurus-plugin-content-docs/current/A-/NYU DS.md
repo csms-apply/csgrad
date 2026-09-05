@@ -34,3 +34,13 @@ Primarily DS positions. The landing rate is quite good compared to peer DS progr
 2. UCI DS undergrad, landed C3 AI
 3. Indian student, one year internship experience in India, landed BCG DS
 4. Indian student, three and a half years full-time at SAP, landed CVS DS
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Simone Rittenhouse](https://www.linkedin.com/in/simone-rittenhouse/) | New York University, BA in Data Science and Psychology, 2018–2022 | New York University, MS in Data Science, 2023–2025; About explicitly identifies NYU's Center for Data Science | AppDynamics Data Science Intern, May–August 2024; Cisco Security Marketing Thought Leadership Intern, June–August 2020 |
+
+The AppDynamics internship took place during the master's program; the Cisco internship was during undergraduate study. The verified profile does not list a subsequent full-time role. Neither an internship nor the company shown at the top of the profile establishes a full-time destination. Education lists 2023–2025, but About still describes current enrollment; these dates are reproduced without claiming that the degree was awarded.

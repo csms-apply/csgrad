@@ -24,3 +24,12 @@ The 2022 internship landing rate was 89%, mainly because many Indian students wi
 
 ## Drawbacks
 Quarters end in late June, meaning you cannot start an internship in May or early June. As a result, you can basically only intern at large companies (an Indian classmate received an offer starting in early June but couldn't get CPT, causing the offer to be rescinded).
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Hung-Yau Su](https://www.linkedin.com/in/hungyau/) | National Central University, Bachelor of Computer Science and Information, Computer Science (September 2019–June 2023) | UC Irvine Donald Bren School of Information and Computer Sciences, master's in Computer Science (September 2024–December 2025); headline explicitly says MCS Graduate | Matching Donors, Web Developer, part-time, February 2026–present; CancerFree Biotech, Software Engineer Intern, internship, June–September 2025. No post-graduation full-time role verified; the part-time role is not a full-time outcome. |

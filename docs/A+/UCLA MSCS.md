@@ -33,3 +33,11 @@ la 转PhD容易，只要教授点头就能转，认识ucla 本硕的同学就转
 
 # 生活和治安
 洛杉矶生活很贵，而且UCLA毗邻著名富人区比佛利山庄，房租应该是全美最高的几个区之一。好在UCLA是公立校，学费相对便宜。学校周边生活很方便，步行范围内就有好几家超市。去年附近的大华开了，也在步行/公交范围内。开车10分钟就是小大阪，很多日式美食。中餐也很多。而且加州的气候很好，四季如春，阳光充足。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| UC San Diego，Bachelor's degree in Computer Science，2020–2022 | UCLA，Master's degree in Computer Science，2022-09–2024-12 | Platform Science，Software Engineer Intern（实习），2022-08–2022-09；MemVerge，Software Engineer Intern，2023-06–2023-09；TikTok，Software Eng（全职），2025-01–履历所示 Present | [Dadian Zhu 的 LinkedIn 履历](https://www.linkedin.com/in/dadian-zhu/) |

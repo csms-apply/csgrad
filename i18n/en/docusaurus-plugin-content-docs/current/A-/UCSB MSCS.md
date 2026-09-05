@@ -23,3 +23,13 @@ There have been students who landed at Meta and LinkedIn.
 2. UCSB CS undergrad, no internship, landed Meta
 ## PhD Transfer
 Friendly — many students transfer from MS to PhD within the school.
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Tim Kim](https://www.linkedin.com/in/taeseong-kim/) | UC Santa Barbara, BS in Computer Engineering, 2019–2023 | UC Santa Barbara, MS in Computer Science, 2023–2025 | Samsung Electronics America Machine Learning Engineer Intern, June–August 2025; NVIDIA Deep Learning Software Engineer (full-time), February 2026–present as displayed when checked, Deep Learning Safety team |
+
+Both degrees were at UCSB, so this profile does not establish admission backgrounds for external applicants. Only years are provided for the master's degree, preventing a comparison between the Samsung internship and the specific graduation month. The NVIDIA role began after the listed master's end year. The Alcon Software Engineer entry explicitly describes a Senior Capstone Project and is not counted as full-time corporate employment.

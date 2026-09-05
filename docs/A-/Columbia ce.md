@@ -22,3 +22,13 @@ data center processing：core，group写一偏小论文。
 6. osu ce本科
 # MSCS和CE的选择
 CS的录取bar会更高一些，同时有时候也比较玄学。因为工院下面只能申请一个项目，如果像楼主一样，一定想来纽约，建议CE，毕竟曼哈顿除了哥大就是NYU了。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Garvit Vyas](https://www.linkedin.com/in/garvit-vyas/) | Birla Institute of Technology and Science, Pilani，BE in Electronics & Communications，2020–2024 | Columbia University，MS in Computer Engineering，2024年8月–2025年12月 | NVIDIA ASIC Intern，2023年7–12月；Arm SoC Engineer Intern，2025年5–12月；Arm Graduate Engineer（全职），2026年1月至今（核验时页面所示） |
+
+NVIDIA 实习在本科期间，Arm 实习在硕士期间；Arm 全职职位开始于履历所列硕士结束日期之后。工作栏全职职位写作 Graduate Engineer，标题进一步注明 SoC；不据此推断所有 CE 毕业生的岗位方向。

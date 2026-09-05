@@ -50,3 +50,11 @@ GRASP lab全美数一数二，
 
 这些教授手下几乎每年都有很多master/PhD在做research，机会非常多。
 只要你方向匹配、主动沟通，找到带你的PhD带你入lab的概率很高。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| University of Houston，Bachelor of Science in Computer Science，2018-08–2022-05 | University of Pennsylvania，Robotics 硕士，2024-08–2026-05；个人介绍确认为硕士，标题标注 MSE Robotics | Kyndryl，Software Engineer Intern（实习），2022-05–2022-10；Kyndryl，Software Developer（全职），2022-10–2024-07；PCASO Lab，Graduate Research Assistant（兼职），2025-05–履历所示 Present | [Manasa Dendukuri 的 LinkedIn 履历](https://www.linkedin.com/in/manasadendukuri/) |

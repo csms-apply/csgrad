@@ -63,19 +63,37 @@ MCIT已搜索并核验3候选，但授课模式证据不足，保留缺口；不
 
 Yingxin Liang、Shujing Lin、Sizhuo Sun尚未打开，不计核验。两项目已查共同查询及候选，但仍缺明确项目归属的履历；不得写成查无公开样本。
 
+## Columbia DS 补充核验
+
+根任务Google实际查询 `Columbia MS Data Science alumni site:linkedin.com/in` 提供候选。已打开[Neha Angadi](https://www.linkedin.com/in/neha-angadi/)教育和工作原文：Columbia Engineering MS Data Science 2024年8月–2025年12月；PES University BTech CS 2019年8月–2023年8月，Machine Intelligence and Data Science方向。Morgan Stanley Technology Analyst全职2023年7月–2024年1月、Technology Associate全职2024年1–8月；Collins Aerospace Machine Learning Intern 2025年5–8月（employment type标Full-time，正文保留差异）；McKinsey Data Scientist全职2026年6月至今。已补双语文末，明确硕士前/在读/结束日期后经历。Balaganesh、Gabriel未打开，不计核验。
+
+## Columbia CE 补充核验
+
+根任务Google查询 `Columbia MS Computer Engineering alumni site:linkedin.com/in` 提供候选。已打开[Garvit Vyas](https://www.linkedin.com/in/garvit-vyas/)教育和工作原文：Columbia MS Computer Engineering 2024年8月–2025年12月；BITS Pilani BE Electronics & Communications 2020–2024。NVIDIA ASIC Intern 2023年7–12月；Arm SoC Engineer Intern 2025年5–12月；Arm Graduate Engineer全职2026年1月至今。本人动态还明确12月完成硕士、1月开始Arm，正文仍以Education/Experience年月为准。已补双语文末，区分本科实习、硕士实习和全职。Aaron Cherian、Andre Mai未打开，不计核验。
+
+## NYU DS 补充核验
+
+根任务Google查询 `NYU MS Data Science alumni site:linkedin.com/in` 提供候选。先打开[Ed Hou](https://www.linkedin.com/in/ed-hou-041156195/)，headline及本人动态明确Rice数据科学硕士，NYU仅alum，未核验其完整教育栏，不作为NYU DS硕士证据。随后打开[Simone Rittenhouse](https://www.linkedin.com/in/simone-rittenhouse/)Education和Experience：NYU MS Data Science 2023–2025，About明确Center for Data Science；NYU BA Data Science、Psychology 2018–2022；AppDynamics Data Science Intern 2024年5–8月，Cisco Security Marketing Thought Leadership Intern 2020年6–8月。已补双语文末，明确未列硕士后全职职位、About仍写在读与教育结束日期差异，不断言获学位。Nupur Gadhe未打开，不计核验。
+
+## UChicago MPCS 补充核验
+
+根任务Google查询 `UChicago MPCS alumni site:linkedin.com/in` 提供候选。已打开[Umang Bhatia](https://www.linkedin.com/in/umang-bhatia/)原始教育和工作：headline明确MPCS，UChicago MS CS 2021年9月–2022年12月；Delhi College of Engineering BTech 2014–2018，field为Electrical, Electronics and Communications Engineering、描述为Electrical Engineering，正文保留差异。Meta SWE Intern 2022年6–8月；Google SWE全职2023年2月–2025年11月、Senior SWE全职2025年11月至今。已补双语文末。About提及Samsung但未展开核对该工作日期，故未写入正文。mkmac、Marc Johnson未打开，不计核验。
+
+## JHU MSE CS 补充核验
+
+根任务Google查询 `Johns Hopkins MSE Computer Science alumni site:linkedin.com/in` 提供候选。已打开[Angad Sandhu](https://www.linkedin.com/in/angad-sandhu/)原始Education、Experience、本人入学动态及Licenses & certifications。Education泛写MS Computer Software Engineering 2023年7月–2025年5月；入学动态明确Whiting MSE Computer Science，证书条目明确Master of Science in Engineering, Computer Science、2025年5月颁发，交叉支持项目归属（未打开证书文件验证真伪）。Manipal BTech CS 2019–2023；JHU Medicine Graduate Research Assistant - Multimodal LLMs（Internship）2024年6月–2025年5月；Amazon SWE全职2025年6月至今。已补双语文末。Sharekhan工作日期与描述年份不同，未收录。Shalaka Wikhe、Noah Park未打开，不计核验。
+
+## UCSB MSCS 补充核验
+
+根任务Google查询 `UCSB MSCS alumni site:linkedin.com/in` 提供候选。已打开[Tim Kim](https://www.linkedin.com/in/taeseong-kim/)（原候选称Taeseong Kim，使用页面显示名）Education和Experience：UCSB MS CS 2023–2025，UCSB BS Computer Engineering 2019–2023；Samsung Electronics America MLE Intern 2025年6–8月；NVIDIA Deep Learning SWE全职2026年2月至今，Deep Learning Safety team。硕士无月份，正文不判断Samsung实习在毕业前后。Alcon SWE 2022年9月–2023年6月明确Senior Capstone Project，不收录为企业全职。已补双语文末，注明同校本硕。Anikait Mundhra、Lucian Parisi未打开，不计核验。
+
 ## 尚待串行查询的项目
 
 以下项目尚未查询，不计入检索覆盖，也不等同于没有公开案例。Google恢复后由根任务逐项串行查询并分发候选。
 
-- A- / NYU DS
-- A- / uchicago mpcs
-- A- / jhu msecs
-- A- / UCSB MSCS
 - A- / Ucsd EC79
-- A- / Columbia DS
-- A- / Columbia ce
 - A- / duke ece
 
 ## 当前覆盖
 
-22个负责项目中：14个已获取Google结果并打开LinkedIn候选；9个已补中英文正文；Yale、Penn MCIT、UIUC MCS模式与CMU SESV、MSESS具体归属尚待确认；8个尚未查询。另行受派Penn CIS并补双语样本、UIUC MSCS与Cornell CS MEng进行候选排除，见独立日志，不计入这22个分母。没有修改旧匿名案例，没有以旧案例对应这些实名履历。
+22个负责项目中：20个已获取Google结果并打开LinkedIn候选；15个已补中英文正文；Yale、Penn MCIT、UIUC MCS模式与CMU SESV、MSESS具体归属尚待确认；2个尚未查询。另行受派Penn CIS并补双语样本、UIUC MSCS与Cornell CS MEng进行候选排除，见独立日志，不计入这22个分母。没有修改旧匿名案例，没有以旧案例对应这些实名履历。

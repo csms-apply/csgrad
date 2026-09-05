@@ -106,6 +106,56 @@
 - 结果：追加中英文页文末。只记录已显示的教育和职业路径，不推断申请时背景、录取因果、实习转正或整体就业率；Present 为核验时页面所示状态。
 - 未打开的同次候选：[Neha Senthil](https://www.linkedin.com/in/neha-l-senthil)、[Ethan Cheng](https://www.linkedin.com/in/ethan-cheng-bb0bb6222)。已取得一条项目明确的完整路径，未将其余候选列为已核实。
 
+### Georgia Tech CSE
+
+- 文件：`docs/A+/Gatech CSE.md`。
+- Google 来源查询：根任务串行搜索 `Georgia Tech Computational Science Engineering masters alumni site:linkedin.com/in` 后分发候选；本子任务没有发起 Google 查询或 LinkedIn 站内搜索。
+- 已核验并收录：[Alejandro Danies-López](https://www.linkedin.com/in/alejandro-danies/)。Education 明确写 Georgia Institute of Technology，Master's degree, Computational Science and Engineering，2024-01–2025-12；Escuela de Ingeniería de Antioquia，Bachelor of Engineering - BE, Biomedical/Medical Engineering，2014–2020，并注明 Joint degree with Universidad CES。没有把 CSE 改写为普通 Computer Science，home unit 未明确，未自行指定 CoC、ISyE 或其他单位。
+- 工作栏：Escafandra S.A.S.，Programming Analyst，Full-time，2021-08–2023-06；Zhang Computational Biology Lab at Georgia Tech，Graduate Research Assistant，Part-time，2024-05–2024-12；Georgia Institute of Technology，Graduate Teaching Assistant，Part-time，2025-01–2025-12。
+- 结果：原页 Education 与 Experience 直接核验后追加中英文页文末。全职编程岗位在硕士入学之前，在校 RA/TA 不能算作毕业后全职去向；原页未列出带日期的毕业后全职经历，不能据此认定是否失业。个人履历不证明申请时背景、录取标准、读博转入机制或整体就业率。
+- 已打开但本轮未收录：[Rudra Gopal](https://www.linkedin.com/in/rgopal3/)。Show all educations 确认 UMass Amherst 两个 BS，Computer Science 和 Mathematics，均为 2020-08–2024-05；Georgia Tech 的 MS Computational Sciences & Engineering 只列 2026-12，没有起始日期；另列 MS Quantitative and Computational Finance，2025-01–2026-12。2026-12 晚于核验日期，不能称已毕业。工作栏有 GreenSky Risk Analyst Intern（Internship，2025-05–2025-08）、Georgia Tech School of CSE Graduate Teaching Assistant（Part-time，2025-08–Present）；不能从双硕士履历判断实习归属于其中某一个项目。本輪选用教育起止日期更完整的 Alejandro。
+- 未打开的同次候选：[Phan](https://www.linkedin.com/in/phanmtim)、[Arun M. Ghosh](https://www.linkedin.com/in/arun-m-ghosh)。未将其余候选当作已核实。
+
+### UCLA MEng
+
+- 文件：`docs/A+/UCLA MENG.md`。
+- Google 来源查询：根任务串行搜索 `UCLA MEng alumni site:linkedin.com/in` 后分发候选；本子任务没有新发 Google 查询或 LinkedIn 站内搜索。
+- 已核验并收录：[Zhipeng (Bill) Chen](https://www.linkedin.com/in/zhipeng-bill-chen/)。教育栏：UC San Diego，Bachelor of Science - BS, Data Science，2019-09–2023-06；UCLA Henry Samueli School of Engineering and Applied Science，Master of Engineering - MEng, Data Science，2023-09–2024-08。
+- 工作栏：Hong Kong aiKnow Limited，Data Scientist，Part-time，2024-02–2025-07；UC San Diego School of Global Policy and Strategy (GPS)，Research Data Analyst，Contract，2025-07–2026-07；Brain Corp，Software Engineer I，Full-time，2026-07–Present。
+- 核验过程：从原页公开动态下方加载 Experience 和 Education，直接确认 MEng 及 Data Science 方向，不混入 UCLA 普通 MSCS，也不把 Data Science 方向泛写为整个 MEng 各方向的典型路径。
+- 结果：追加中英文页文末，保留 Part-time、Contract、Full-time 的区别，不把兼职或合同岗位改称实习或正式全职。公开履历不能证明申请时背景、录取因果、CPT/OPT、实习转正或项目整体就业率。
+- 未打开的同次候选：[Hannah Chien](https://www.linkedin.com/in/hannahchien)、[Harshini Nujella](https://www.linkedin.com/in/harshini-nujella-208841256)。已得到一条方向明确的完整教育及工作记录，未将其余候选列为已核实。
+
+### UCLA MSCS
+
+- 文件：`docs/A+/UCLA MSCS.md`。
+- Google 来源查询：根任务串行搜索 `UCLA MSCS alumni site:linkedin.com/in` 后分发候选；本子任务没有发起新 Google 查询或 LinkedIn 站内搜索。
+- 已核验并收录：[Dadian Zhu](https://www.linkedin.com/in/dadian-zhu/)。Education：UC San Diego Jacobs School of Engineering，Bachelor's degree, Computer Science，2020–2022；UCLA，Master's degree, Computer Science，2022-09–2024-12。
+- Experience：Platform Science，Software Engineer Intern，Internship，2022-08–2022-09；MemVerge，Software Engineer Intern，2023-06–2023-09，原页雇佣类型为 Full-time，正文保留原岗位名、不改称非实习全职；TikTok，Software Eng，Full-time，2025-01–Present。
+- 核验过程：打开 Google 候选原页，加载 Activity 下方的 Experience 和 Education，直接确认本硕专业、年份、工作日期及类型。只使用实际显示的岗位名，未把 Software Eng 擅自扩写或添加级别。
+- 结果：追加双语页文末。Platform Science 实习跨越硕士起始月份，不能确认其获得时间与硕士入学的先后；个人经历不证明申请背景、录取原因、实习转正或整体就业率。Present 为核验时页面状态。
+- 未打开的同次候选：[Yuhsin Weng](https://www.linkedin.com/in/yuhsin-weng)、[Leo Xiyu Liu](https://www.linkedin.com/in/leoxiyuliu)。已核实一条本硕和工作记录，未将其余候选列为已核实。
+
+### Penn MSE Data Science
+
+- 文件：`docs/A+/Upenn DS.md`。
+- Google 来源查询：根任务串行搜索 `Penn MSE Data Science alumni site:linkedin.com/in` 后分发候选；本子任务没有新发 Google 查询或 LinkedIn 站内搜索。
+- 已核验并收录：[Qixuan (Caesar) Zhu](https://www.linkedin.com/in/caesar-zhuqx/)。Education：William & Mary，Bachelor of Science - BS, Statistics，2020-08–2024-05；University of Pennsylvania，MSE, Data Science，2024-08–2026-05。
+- Experience：Aetna, a CVS Health Company，Actuarial Intern，Internship，2025-05–2025-08；Continental Finance Company，Data Scientist，Full-time，2026-06–Present。
+- 核验过程：在原始履历中读取 Education 和 Experience。About 的泛称 M.S. in Data Science 未替代教育栏的具体 MSE 学位名称；没有把其改写为 CIS、MCIT 或其他 Penn 项目。
+- 结果：追加双语页文末。只保留直接显示的学位、专业、日期和雇佣类型，不推断申请时背景、录取因果、实习转正或整体就业率；Present 仅表示核验时页面所示状态。
+- 未打开的同次候选：[Trevor Wexner](https://www.linkedin.com/in/trevor-wexner-a71b7798)、[Grace Benner](https://www.linkedin.com/in/grace-benner-mse-14a9b4199)。已经取得一条具体学位清楚的本硕和工作记录，未将其余候选列为已核实。
+
+### Penn Robotics
+
+- 文件：`docs/A+/Upenn MSR.md`。
+- Google 来源查询：根任务串行搜索 `Penn Robotics MSE alumni site:linkedin.com/in` 后分发候选；本子任务没有新发 Google 查询或 LinkedIn 站内搜索。
+- 已核验并收录：[Manasa Dendukuri](https://www.linkedin.com/in/manasadendukuri/)。Education：University of Houston，Bachelor of Science - BS, Computer Science，2018-08–2022-05；University of Pennsylvania，Robotics，2024-08–2026-05。
+- 学位层级依据：Penn 教育栏没有单独列出 MSE 字样；About 和本人的毕业动态均明确称 Master's degree in Robotics，标题注明 MSE Robotics Alumni。因此正文如实区分教育栏与个人介绍中的信息，未把教育栏本身写成包含不存在的 MSE 字段，也没有只凭 GRASP Lab 经历推断学位。
+- Experience：Kyndryl，Software Engineer Intern，Internship，2022-05–2022-10；同公司 Software Developer，Full-time，2022-10–2024-07；PCASO Lab，Graduate Research Assistant，Part-time，2025-05–Present。
+- 结果：追加中英文页文末。Kyndryl 两段经历都在 Penn 入学前，不能归因于硕士项目；实习后同公司全职不直接称已核实转正。RA 保留兼职类型，不能改写成毕业后全职工作。个人样本不代表录取标准、录取因果或整体就业率。
+- 未打开的同次候选：[Kimberly Pham](https://www.linkedin.com/in/kimberly-pham-912993195)、[Daniel Mika](https://www.linkedin.com/in/daniel-mika)。已得到一条有明确硕士自述、教育日期和工作类型的记录，未将其余候选列为已核实。
+
 ## 项目归属待确认，暂不收录正文
 
 ### UT Austin MSCS
@@ -130,12 +180,7 @@
 
 以下是受 Google 验证影响而尚未检索的项目，不是“已搜索但无结果”。后续须逐项补充实际查询、候选链接、直接核验结果及缺口。
 
-- `docs/A+/Gatech CSE.md`
-- `docs/A+/UCLA MSCS.md`
-- `docs/A+/Upenn DS.md`
 - `docs/A+/ut ece.md`
 - `docs/A+/Upenn CIS.md`
 - `docs/A+/Wisc CS PMP.md`
-- `docs/A+/Upenn MSR.md`
-- `docs/A+/UCLA MENG.md`
 - `docs/A+/ucsd cs75.md`

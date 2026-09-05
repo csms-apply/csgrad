@@ -27,3 +27,13 @@
 4. 印度同学，hp两年全职工作经验，上岸tesla ng 
 5. 印度同学，在校期间有麦肯锡实习，上岸stripe ds 
 6. 印度同学， 五年全职工作经验， 上岸principal Capital One
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Neha Angadi](https://www.linkedin.com/in/neha-angadi/) | PES University，Computer Science BTech，2019年8月–2023年8月；方向 Machine Intelligence and Data Science | Columbia Engineering，MS in Data Science，2024年8月–2025年12月 | Morgan Stanley Technology Analyst（全职），2023年7月–2024年1月，随后 Technology Associate（全职），2024年1–8月；Collins Aerospace Machine Learning Intern，2025年5–8月；McKinsey & Company Data Scientist（全职），2026年6月至今（核验时页面所示） |
+
+Morgan Stanley 经历在硕士入学前；Collins Aerospace 为硕士期间实习（职位名为 Intern，页面雇佣类型标作 Full-time）；McKinsey 职位开始于履历所列硕士结束日期之后。该履历与上方匿名案例独立列示。

@@ -38,3 +38,12 @@
 6. Miami, FL（迈阿密校区，部分学期开放）
 7. Vancouver, BC（加拿大温哥华校区，国际学生热门选择，科技行业发达）
 8. Portland, ME（缅因州波特兰校区，有些学生反馈 $25k 固定奖）
+
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Wen Huang](https://www.linkedin.com/in/wenhuang-wh/) | 西南财经大学（Southwestern University of Finance and Economics），Finance 本科（2011 年 9 月–2015 年 6 月） | Northeastern University，MS in Computer Science Align（2021 年 9 月–2024 年 5 月）；此前另有该校 MS in Finance（2015 年 9 月–2016 年 8 月）。未核实就读校区 | Amazon，Software Dev Engineer，2024 年 6 月–至今，未注明雇用类型；Amazon，Software Developer，实习，2023 年 5–8 月；Tesla，Software Developer，实习，2023 年 9–12 月。读 Align 前在恒大人寿保险有限公司任 Financial Analyst（2017 年 7 月–2021 年 7 月，未注明雇用类型）。 |
