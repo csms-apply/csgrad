@@ -11,6 +11,18 @@ import {
 
 const scriptPath = fileURLToPath(new URL('./seo-audit.mjs', import.meta.url));
 
+test('maps career-change pages in both directions instead of generating missing routes', () => {
+  const fallback = (locale) => locale === 'en'
+    ? 'https://csgrad.com/en/转码项目'
+    : 'https://csgrad.com/career-change-programs';
+  for (const pathname of ['/转码项目', '/en/career-change-programs']) {
+    assert.equal(localizedAlternateUrl({pathname, locale: 'en', siteUrl: 'https://csgrad.com', fallback}),
+      'https://csgrad.com/en/career-change-programs');
+    assert.equal(localizedAlternateUrl({pathname, locale: 'zh-Hans', siteUrl: 'https://csgrad.com', fallback}),
+      'https://csgrad.com/转码项目');
+  }
+});
+
 test('maps the consulting pages to their real localized URLs', () => {
   const fallback = (locale) => `https://csgrad.com/${locale}/wrong`;
 
@@ -91,6 +103,7 @@ async function writePage(root, route, {
   canonical,
   h1,
   hreflangs = [],
+  navigationLinks = [],
   noindex = false,
 }) {
   const relativePath = route === '/'
@@ -108,8 +121,24 @@ async function writePage(root, route, {
     ${canonical === undefined ? '' : `<link href="${canonical}" rel="canonical">`}
     ${noindex ? '<meta content="noindex,follow" name="robots">' : ''}
     ${alternates}
-  </head><body>${headings.map((heading) => `<h1>${heading}</h1>`).join('')}</body></html>`);
+  </head><body>${headings.map((heading) => `<h1>${heading}</h1>`).join('')}
+  ${navigationLinks.map(({lang, href}) => `<a lang="${lang}" href="${href}">Language</a>`).join('')}
+  </body></html>`);
 }
+
+test('rejects missing language-menu targets even when SEO alternates are valid', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    await page('/', {
+      title: 'Home', description: 'Home page', canonical: 'https://csgrad.com/', h1: 'Home',
+      hreflangs: [{lang: 'zh-Hans', href: 'https://csgrad.com/'}],
+      navigationLinks: [{lang: 'en-US', href: '/en/missing?school=Harvard#results'}],
+    });
+    await sitemap(['https://csgrad.com/']);
+    const result = audit();
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /locale-navigation-target-missing/);
+  });
+});
 
 async function writeSitemap(root, routes) {
   const urls = routes.map((route) => `<url><loc>${route}</loc></url>`).join('');

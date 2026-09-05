@@ -10,6 +10,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {useAlternatePageUtils} from '@docusaurus/theme-common/internal';
 import {translate} from '@docusaurus/Translate';
 import {useLocation} from '@docusaurus/router';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 import DropdownNavbarItem from '@theme/NavbarItem/DropdownNavbarItem';
 import IconLanguage from '@theme/Icon/Language';
 import {localizedAlternateUrl} from '../../../lib/seo/localizedAlternates.mjs';
@@ -28,6 +29,7 @@ export default function LocaleDropdownNavbarItem({
   } = useDocusaurusContext();
   const alternatePageUtils = useAlternatePageUtils();
   const {pathname, search, hash} = useLocation();
+  const isBrowser = useIsBrowser();
 
   const localeItems = locales.map((locale) => {
     const localizedPath = localizedAlternateUrl({
@@ -40,7 +42,14 @@ export default function LocaleDropdownNavbarItem({
       }),
     });
     const baseTo = `pathname://${localizedPath}`;
-    const to = `${baseTo}${search}${hash}${queryString}`;
+    // Static HTML cannot know the visitor's query/hash. Match that HTML during
+    // hydration, then update the link so React does not leave a stale SSR href.
+    const liveSearch = isBrowser ? search : '';
+    const extraQuery = queryString.replace(/^[?&]/, '');
+    const combinedSearch = extraQuery
+      ? `${liveSearch || '?'}${liveSearch ? '&' : ''}${extraQuery}`
+      : liveSearch;
+    const to = `${baseTo}${combinedSearch}${isBrowser ? hash : ''}`;
     return {
       label: localeConfigs[locale].label,
       lang: localeConfigs[locale].htmlLang,

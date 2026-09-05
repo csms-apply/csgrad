@@ -225,6 +225,18 @@ async function main() {
     pagesByRoute.set(routeKey(pageRoute(page.file)), page);
   }
 
+  // Navigation and SEO alternate tags can diverge. Validate the links that
+  // visitors actually click, including pages intentionally excluded from SEO.
+  for (const page of pages) {
+    for (const attrs of tags(page.html, 'a').map(attributes)) {
+      if (!attrs.lang || !attrs.href?.startsWith('/') || attrs.href.startsWith('//')) continue;
+      const target = new URL(attrs.href.replace(/&amp;/g, '&'), 'https://csgrad.com');
+      if (!pagesByRoute.has(routeKey(target.pathname))) {
+        issues.push(`[locale-navigation-target-missing] ${pageRoute(page.file)} language ${attrs.lang} targets missing page ${attrs.href}`);
+      }
+    }
+  }
+
   const sitemapFiles = await findFiles(buildDir, (file) => /(?:^|\/)sitemap[^/]*\.xml$/i.test(file));
   if (sitemapFiles.length === 0) {
     issues.push('[sitemap-missing] no sitemap XML files were found');

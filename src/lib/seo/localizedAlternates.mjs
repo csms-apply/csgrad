@@ -3,6 +3,10 @@ const localizedRouteGroups = Object.freeze([
     'zh-Hans': '/找我辅导',
     en: '/en/consulting',
   }),
+  Object.freeze({
+    'zh-Hans': '/转码项目',
+    en: '/en/career-change-programs',
+  }),
 ]);
 
 function normalizePathname(pathname) {
@@ -36,4 +40,14 @@ export function localizedAlternateUrl({pathname, locale, siteUrl, fallback}) {
   const alternatePath = localizedAlternatePath(pathname, locale);
   if (!alternatePath) return fallback(locale);
   return `${siteUrl.replace(/\/+$/, '')}${alternatePath}`;
+}
+
+// Internal page links retain their query/hash; SEO alternates above stay route-only.
+export function localizedInternalPath(href, locale) {
+  if (typeof href !== 'string' || !href.startsWith('/') || href.startsWith('//')) return href;
+  const [, pathname, suffix] = href.match(/^([^?#]*)(.*)$/);
+  const mapped = localizedAlternatePath(pathname, locale);
+  if (mapped) return `${mapped}${suffix}`;
+  const unlocalized = pathname.replace(/^\/en(?=\/|$)/, '') || '/';
+  return `${locale === 'en' ? `/en${unlocalized}` : unlocalized}${suffix}`;
 }
