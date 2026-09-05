@@ -47,9 +47,9 @@
     "message": "Useful Docs",
     "description": "The label for category 有用的文档 in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.doc.intro": {
-    "message": "Introduction",
-    "description": "The label for the doc item intro in sidebar tutorialSidebar, linking to the doc intro"
+  "sidebar.tutorialSidebar.doc.北美MSCS申请": {
+    "message": "MSCS Application Guide",
+    "description": "The label for the homepage in sidebar tutorialSidebar, linking to the doc intro"
   },
   "sidebar.tutorialSidebar.doc.转码项目合集": {
     "message": "Career Change Programs",
