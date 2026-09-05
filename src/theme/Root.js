@@ -52,7 +52,6 @@ export default function Root({children}) {
         if (copied) {
           const parameters = eventParameters(element, 'copy_button');
           trackSeoEvent('wechat_copy', parameters);
-          trackSeoEvent('consulting_intent', parameters);
           if (status) {
             status.dataset.seoCopyState = 'success';
             status.textContent = element.dataset.seoCopySuccess || 'Copied';
