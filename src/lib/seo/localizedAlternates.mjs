@@ -48,6 +48,6 @@ export function localizedInternalPath(href, locale) {
   const [, pathname, suffix] = href.match(/^([^?#]*)(.*)$/);
   const mapped = localizedAlternatePath(pathname, locale);
   if (mapped) return `${mapped}${suffix}`;
-  const unlocalized = pathname.replace(/^\/en(?=\/|$)/, '') || '/';
+  const unlocalized = pathname.replace(/^\/en(?=\/|$)/, '').replace(/^\/+/, '/') || '/';
   return `${locale === 'en' ? `/en${unlocalized}` : unlocalized}${suffix}`;
 }

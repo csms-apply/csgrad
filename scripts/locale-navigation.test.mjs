@@ -71,4 +71,5 @@ test('internal links retain locale and URL state without rewriting external URLs
   assert.equal(paths.localizedInternalPath('https://example.com/en/path', 'zh-Hans'), 'https://example.com/en/path');
   assert.equal(paths.localizedInternalPath('//example.com/path', 'en'), '//example.com/path');
   assert.equal(paths.localizedInternalPath('#fees', 'en'), '#fees');
+  assert.equal(paths.localizedInternalPath('/en//example.com/path', 'zh-Hans'), '/example.com/path');
 });
