@@ -35,9 +35,11 @@ jobs:
         run: node scripts/generate-programs.js
 
       - name: Build Docusaurus site without warnings
+        shell: bash
         env:
           NODE_OPTIONS: --trace-warnings
         run: |
+          set -o pipefail
           csgrad_build_log="${RUNNER_TEMP}/csgrad-build.log"
           npm run build 2>&1 | tee "$csgrad_build_log"
           if grep -Eiq 'warn(ing)?s?|caniuse-lite.*outdated' "$csgrad_build_log"; then
