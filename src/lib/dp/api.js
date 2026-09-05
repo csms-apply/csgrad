@@ -152,20 +152,21 @@ function buildUrl(path, params) {
 
 // Counts for the header. Prefer the live worker (/api/stats) so newly
 // submitted DPs are reflected; fall back to the frozen snapshot if the
-// worker is unreachable.
+// worker is unreachable. Preserve provenance so the page can label snapshots
+// and show unknown (not zero) when neither source can be loaded.
 export async function getCounts() {
   try {
     const r = await fetch(`${DP_API_BASE}/api/stats`, { credentials: 'include' });
-    if (r.ok) return await r.json();
+    if (r.ok) return { ...await r.json(), source: 'api' };
     throw new Error(`HTTP ${r.status}`);
   } catch (err) {
     warnDev('getCounts live fetch failed, falling back to snapshot:', err && err.message ? err.message : err);
     try {
       const snap = await loadSnapshot();
-      return snap.counts;
+      return { ...snap.counts, source: 'snapshot' };
     } catch (err2) {
       warnDev('getCounts snapshot fallback failed:', err2 && err2.message ? err2.message : err2);
-      return { applicants: 0, programs: 0, datapoints: 0 };
+      return { applicants: null, programs: null, datapoints: null, source: 'unavailable' };
     }
   }
 }

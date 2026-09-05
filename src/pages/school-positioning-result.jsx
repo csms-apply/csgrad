@@ -50,13 +50,14 @@ const COPY = {
     bucketSafetySub: 'Safety',
     emptyBucket: '该档暂无推荐',
     viewDetail: '了解详情',
-    pendingTitle: '订单处理中',
-    pendingText: 'Stripe 正在确认你的付款，请稍候…',
+    pendingTitle: '正在获取订单状态',
+    pendingText: '正在查询订单与报告状态，请稍候…',
     missingTitle: '缺少 session id',
     missingText: '请通过付款后的回跳链接打开本页面。',
     timeoutTitle: '查询超时',
     timeoutText: '订单还未完成，可能仍在处理中。请稍后通过相同链接重新打开本页面。',
     errorTitle: '加载失败',
+    errorText: '暂时无法获取订单状态。请检查网络连接后重试，或稍后通过原链接重新打开；当前页面无法确认付款是否成功，请勿因此重复付款。',
     retry: '重试',
   },
   en: {
@@ -92,13 +93,14 @@ const COPY = {
     bucketSafetySub: 'Safety',
     emptyBucket: 'No picks in this bucket',
     viewDetail: 'Learn more',
-    pendingTitle: 'Processing your order',
-    pendingText: 'Stripe is confirming your payment, please wait…',
+    pendingTitle: 'Checking order status',
+    pendingText: 'Retrieving your order and report status. Please wait…',
     missingTitle: 'Missing session id',
     missingText: 'Please open this page via the redirect link after payment.',
     timeoutTitle: 'Polling timed out',
     timeoutText: 'The order is not finalized yet, it may still be processing. Try reopening this link in a moment.',
     errorTitle: 'Failed to load',
+    errorText: 'Your order status could not be retrieved. Check your connection and retry, or reopen the original link later. This page cannot confirm whether payment succeeded; do not pay again because of this error.',
     retry: 'Retry',
   },
 };
@@ -218,7 +220,6 @@ function ResultBody() {
   const [sessionId, setSessionId] = useState(null);
   const [status, setStatus] = useState('init');
   const [data, setData] = useState(null);
-  const [errorMsg, setErrorMsg] = useState('');
   const [attempt, setAttempt] = useState(0);
   const [downloading, setDownloading] = useState(false);
   const timerRef = useRef(null);
@@ -305,7 +306,6 @@ function ResultBody() {
       } catch (err) {
         if (cancelledRef.current) return;
         if (count >= MAX_POLLS) {
-          setErrorMsg(err && err.message ? err.message : String(err));
           setStatus('error');
           return;
         }
@@ -322,7 +322,6 @@ function ResultBody() {
 
   const retry = () => {
     setStatus('init');
-    setErrorMsg('');
     setData(null);
     setAttempt(0);
     if (sessionId) {
@@ -470,7 +469,7 @@ function ResultBody() {
           <a href={formHref} className={styles.backLink}>&larr; {t.backForm}</a>
           <div className={styles.statusCard}>
             <h2 className={styles.statusTitle}>{t.errorTitle}</h2>
-            <p className={styles.statusText}>{errorMsg}</p>
+            <p className={styles.statusText}>{t.errorText}</p>
             <button className={styles.retryBtn} onClick={retry}>{t.retry}</button>
           </div>
         </div>

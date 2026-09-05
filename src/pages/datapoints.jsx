@@ -3,8 +3,10 @@ import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { useHistory } from '@docusaurus/router';
 import { getMe, listDp, getFilterOptions, getCounts } from '@site/src/lib/dp/api';
 import { formatGpaRange, parseGpaRange } from '@site/src/lib/dp/gpa-filter.mjs';
+import { localizedInternalPath } from '@site/src/lib/seo/localizedAlternates.mjs';
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
 import styles from './datapoints.module.css';
@@ -14,7 +16,7 @@ const RESULT_OPTIONS = ['Admit', 'Reject', 'Waitlist', '默拒', 'Withdraw'];
 const MOBILE_BREAKPOINT = 768;
 
 // Pre-hydration / no-JS fallback counts. Refresh when snapshot regenerates.
-const STATIC_COUNTS = { datapoints: 1908, applicants: 317, programs: 280 };
+const STATIC_COUNTS = { datapoints: 1908, applicants: 317, programs: 280, source: 'snapshot' };
 const EMPTY_FILTER_OPTS = { schools: [], tiers: [], years: [], ugCats: [], majors: [] };
 
 const COPY = {
@@ -25,9 +27,14 @@ const COPY = {
     metaApplicants: '位申请者',
     metaPrograms: '个项目',
     metaDatapoints: '条录取数据',
-    dataNote: '注：数据来源于历史 Seatable 归档，个人识别字段（联系方式 / 备注 / 推荐信详情等）已脱敏。',
+    dataNote: '注：数据包含历史 Seatable 归档与后续提交，由在线数据库提供；个人识别字段（联系方式 / 备注 / 推荐信详情等）已脱敏。',
     loadingData: '加载 DataPoints…',
     loadFail: '加载数据失败：',
+    loadErrorTitle: '暂时无法加载 DataPoints',
+    loadErrorHint: '请检查网络连接后重试。当前未能获取结果，不代表没有匹配的案例。',
+    retry: '重试',
+    countsSnapshot: '以上为历史快照总量，可能尚未包含最近提交的数据。',
+    countsUnavailable: '暂时无法获取数据库总量。',
     searchPlaceholder: '搜索学校 / 项目',
     searchLabel: '搜索',
     filterSchool: '学校',
@@ -125,9 +132,14 @@ const COPY = {
     metaApplicants: 'applicants',
     metaPrograms: 'programs',
     metaDatapoints: 'datapoints',
-    dataNote: 'Note: data comes from a historical Seatable archive. Personally identifying fields have been redacted; institution names and free-text notes remain in the language in which they were submitted.',
+    dataNote: 'Note: the live database includes a historical Seatable archive and later submissions. Personally identifying fields have been redacted; institution names and free-text notes remain in the language in which they were submitted.',
     loadingData: 'Loading DataPoints…',
     loadFail: 'Failed to load data: ',
+    loadErrorTitle: 'DataPoints are temporarily unavailable',
+    loadErrorHint: 'Check your connection and try again. Results could not be loaded; this does not mean there are no matching cases.',
+    retry: 'Retry',
+    countsSnapshot: 'These totals are from a historical snapshot and may not include recent submissions.',
+    countsUnavailable: 'Database totals are temporarily unavailable.',
     searchPlaceholder: 'Search school / program',
     searchLabel: 'Search',
     filterSchool: 'School',
@@ -179,6 +191,8 @@ const COPY = {
     closeDialog: 'Close',
     rowClickHint: 'Click to see all DataPoints from this applicant',
     applicantDpsTitle: "Applicant's full DataPoints",
+    submitBtn: 'Submit DataPoints',
+    myDpBtn: 'My DataPoints',
     emptyTitle: 'No matching datapoints.',
     emptyHint: 'Try relaxing your filters:',
     emptyClearAll: 'Clear all filters',
@@ -260,7 +274,7 @@ function readFiltersFromUrl() {
   return out;
 }
 
-function writeFiltersToUrl(filters) {
+function writeFiltersToUrl(filters, history) {
   if (typeof window === 'undefined') return;
   const params = new URLSearchParams(window.location.search);
   for (const k of URL_KEYS) {
@@ -270,7 +284,9 @@ function writeFiltersToUrl(filters) {
   }
   const qs = params.toString();
   const next = `${window.location.pathname}${qs ? `?${qs}` : ''}${window.location.hash}`;
-  window.history.replaceState(null, '', next);
+  const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+  // Notify the router so the language menu sees newly selected filters too.
+  if (next !== current) history.replace(next);
 }
 
 // ---------- Static SEO shell ----------
@@ -284,13 +300,14 @@ function StaticHero({ t, counts }) {
       <p className={styles.meta}>
         <b>{counts.datapoints}</b> {t.metaDatapoints} · <b>{counts.applicants}</b> {t.metaApplicants} ·{' '}
         <b>{counts.programs}</b> {t.metaPrograms}      </p>
+      <p className={styles.note}>{t.countsSnapshot}</p>
     </header>
   );
 }
 
 // ---------- Inner: data load orchestration ----------
 
-function Inner({ t }) {
+function Inner({ t, locale }) {
   // Render the page shell immediately with STATIC_COUNTS + empty filter
   // dropdowns; counts/filterOpts populate async without blocking the UI.
   // The Table mounts in parallel and starts fetching rows right away.
@@ -300,9 +317,11 @@ function Inner({ t }) {
   const [error, setError] = useState(null);
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
+  const [reloadKey, setReloadKey] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
+    setError(null);
     Promise.all([getCounts(), getFilterOptions()])
       .then(([c, o]) => {
         if (cancelled) return;
@@ -311,7 +330,7 @@ function Inner({ t }) {
       })
       .catch((e) => !cancelled && setError(String(e)));
     return () => { cancelled = true; };
-  }, []);
+  }, [reloadKey]);
 
   useEffect(() => {
     let cancelled = false;
@@ -326,8 +345,14 @@ function Inner({ t }) {
     return () => { cancelled = true; };
   }, []);
 
-  if (error) return <div className={styles.errorBox}>{t.loadFail}{error}</div>;
-  return <Table counts={counts} filterOpts={filterOpts} me={me} meChecked={meChecked} t={t} />;
+  if (error) return (
+    <div className={styles.errorBox} role="alert">
+      <p>{t.loadErrorTitle}</p>
+      <p>{t.loadErrorHint}</p>
+      <button type="button" onClick={() => setReloadKey((key) => key + 1)}>{t.retry}</button>
+    </div>
+  );
+  return <Table counts={counts} filterOpts={filterOpts} me={me} meChecked={meChecked} t={t} locale={locale} onRetryMetadata={() => setReloadKey((key) => key + 1)} />;
 }
 
 // Header sign-in CTA: delegates to the shared SignInButtons + startOAuth.
@@ -378,7 +403,8 @@ function useIsMobile() {
 
 // ---------- Main Table component ----------
 
-function Table({ counts, filterOpts, me, meChecked, t }) {
+function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }) {
+  const history = useHistory();
   const isMobile = useIsMobile();
   const [openApplicantId, setOpenApplicantId] = useState(null);
 
@@ -395,17 +421,18 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
   const gpaRange = useMemo(() => parseGpaRange(gpaMin, gpaMax), [gpaMin, gpaMax]);
 
   useEffect(() => {
-    writeFiltersToUrl({ school, tier, year, result, ugCat, major, gpaMin, gpaMax });
-  }, [school, tier, year, result, ugCat, major, gpaMin, gpaMax]);
+    writeFiltersToUrl({ school, tier, year, result, ugCat, major, gpaMin, gpaMax }, history);
+  }, [school, tier, year, result, ugCat, major, gpaMin, gpaMax, history]);
 
   useEffect(() => setPage(0), [school, tier, year, result, ugCat, major, gpaMin, gpaMax]);
 
-  // Fetch rows from API on filter/page change. Keep previous rows visible
-  // while a new fetch is in flight so the table doesn't blink.
+  // Fetch rows on filter/page change. Only present matches for a completed
+  // request; stale rows/counts must not masquerade as the new filter's results.
   const [rows, setRows] = useState([]);
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const [apiError, setApiError] = useState(null);
+  const [retryKey, setRetryKey] = useState(0);
   const firstFetchRef = useRef(true);
 
   useEffect(() => {
@@ -415,14 +442,14 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
       return undefined;
     }
     let cancelled = false;
+    setLoading(true);
+    setApiError(null);
     // First fetch fires immediately so the table appears as fast as possible;
     // subsequent filter/page changes get a 250ms debounce to coalesce rapid
     // dropdown clicks.
     const delay = firstFetchRef.current ? 0 : 250;
     firstFetchRef.current = false;
     const handle = setTimeout(async () => {
-      setLoading(true);
-      setApiError(null);
       try {
         const res = await listDp({
           school: school || undefined,
@@ -446,7 +473,14 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
       }
     }, delay);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [school, tier, year, result, ugCat, major, gpaRange, page]);
+  }, [school, tier, year, result, ugCat, major, gpaRange, page, retryKey]);
+
+  function retryLoad() {
+    setLoading(true);
+    setApiError(null);
+    setRetryKey((key) => key + 1);
+    onRetryMetadata?.();
+  }
 
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
   const paged = rows;
@@ -471,12 +505,12 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         <div className={styles.headerTop}>
           <h1>{t.headerTitle}</h1>
           <div className={styles.headerRight}>
-            <a href="/submit-dp" className={styles.signInBtn} style={{ textDecoration: 'none' }}>
+            <a href={localizedInternalPath('/submit-dp', locale)} className={styles.signInBtn} style={{ textDecoration: 'none' }}>
               {t.submitBtn}
             </a>
             {meChecked && me ? (
               <>
-                <a href="/my-dp" className={styles.signInBtn} style={{ textDecoration: 'none' }}>
+                <a href={localizedInternalPath('/my-dp', locale)} className={styles.signInBtn} style={{ textDecoration: 'none' }}>
                   {t.myDpBtn}
                 </a>
                 <MeBadge me={me} t={t} />
@@ -484,11 +518,11 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
             ) : null}
           </div>
         </div>
-        <p className={styles.meta}>
+        {counts.source === 'unavailable' ? <p className={styles.meta}>{t.countsUnavailable}</p> : <p className={styles.meta}>
           <b>{counts.datapoints}</b> {t.metaDatapoints} · <b>{counts.applicants}</b> {t.metaApplicants} ·{' '}
-          <b>{counts.programs}</b> {t.metaPrograms}        </p>
+          <b>{counts.programs}</b> {t.metaPrograms}</p>}
+        {counts.source === 'snapshot' ? <p className={styles.note}>{t.countsSnapshot}</p> : null}
         <p className={styles.note}>{t.dataNote}</p>
-        {apiError ? <p className={styles.liveErr} role="status"><span aria-hidden="true">⚠️ </span>{t.loadFail}{apiError}</p> : null}
       </header>
 
       <section className={styles.filters} aria-label="filters">
@@ -508,13 +542,19 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         />
       </section>
 
-      <div className={styles.summary} role="status" aria-live="polite">
+      {!loading && !apiError ? <div className={styles.summary} role="status" aria-live="polite">
         {gpaRange.valid ? (
           <>{t.summaryMatched} <b>{totalCount}</b> {t.summaryRows} · {page + 1} / {totalPages} {t.summaryPage}</>
         ) : t.gpaAwaitingValidRange}
-      </div>
+      </div> : null}
 
-      {!gpaRange.valid ? null : loading && rows.length === 0 ? (
+      {!gpaRange.valid ? null : apiError ? (
+        <div className={styles.errorBox} role="alert">
+          <p><strong>{t.loadErrorTitle}</strong></p>
+          <p>{t.loadErrorHint}</p>
+          <button type="button" className={styles.signInBtn} onClick={retryLoad}>{t.retry}</button>
+        </div>
+      ) : loading ? (
         <div className={styles.loading}>{t.loadingData}</div>
       ) : paged.length === 0 ? (
         <EmptyState t={t} activeFilters={activeFilters} />
@@ -532,7 +572,7 @@ function Table({ counts, filterOpts, me, meChecked, t }) {
         />
       ) : null}
 
-      {gpaRange.valid && totalCount > 0 ? (
+      {gpaRange.valid && !loading && !apiError && totalCount > 0 ? (
         <nav className={styles.pager} aria-label="pagination">
           <button
             disabled={page === 0}
@@ -1164,7 +1204,7 @@ export default function DataPointsPage() {
         <meta property="og:type" content="website" />
       </Head>
       <BrowserOnly fallback={<StaticHero t={t} counts={STATIC_COUNTS} />}>
-        {() => <Inner t={t} />}
+        {() => <Inner t={t} locale={locale} />}
       </BrowserOnly>
     </Layout>
   );

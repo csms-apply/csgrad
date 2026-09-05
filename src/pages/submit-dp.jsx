@@ -19,6 +19,7 @@ import {
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
 import { STORAGE_KEYS } from '../lib/storage-keys';
+import { localizedInternalPath } from '@site/src/lib/seo/localizedAlternates.mjs';
 import styles from './submit-dp.module.css';
 
 // ---------- i18n ----------
@@ -558,12 +559,13 @@ function Inner() {
       if (el) el.focus({ preventScroll: false });
       return;
     }
+    setFieldErrors({});
+    setMsg(null);
     if (!me) {
       setShowSignInModal(true);
       return;
     }
     setSavingApplicant(true);
-    setMsg(null);
     try {
       const payload = formToPayload(form);
       if (applicant) {
@@ -587,7 +589,7 @@ function Inner() {
         <div className={styles.headerTop}>
           <div>
             <h1>{t.pageTitle}</h1>
-            <a href="/datapoints" className={styles.backLink}>{t.browseAll}</a>
+            <a href={localizedInternalPath('/datapoints', locale)} className={styles.backLink}>{t.browseAll}</a>
           </div>
           {me ? (
             <span className={styles.meBadge}>
@@ -1158,7 +1160,7 @@ function DpAddArea({ t, locale, applicantId }) {
           <button className={styles.primaryBtn} disabled={saving} onClick={submit}>
             {saving ? t.btnSubmittingDp : t.btnSubmitDp}
           </button>
-          <a className={styles.secondaryLink} href="/my-dp">{t.viewMyDp}</a>
+          <a className={styles.secondaryLink} href={localizedInternalPath('/my-dp', locale)}>{t.viewMyDp}</a>
         </div>
       </div>
 
