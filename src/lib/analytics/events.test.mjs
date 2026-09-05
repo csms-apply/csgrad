@@ -174,17 +174,32 @@ test('builds a stable, anonymous GA4 purchase from paid API totals', async () =>
   assert.equal(first.value, 29.99);
   assert.match(first.transaction_id, /^positioning_[a-f0-9]{32}$/);
   assert.equal(first.transaction_id.includes(sessionId), false);
+  assert.deepEqual(first.items, [{
+    item_id: 'school_positioning_report',
+    item_name: 'MSCS School Positioning Report',
+    price: 29.99,
+    quantity: 1,
+  }]);
 });
 
-test('uses the repository-confirmed positioning price when the legacy result omits totals', async () => {
+test('does not infer revenue when a paid result omits an authoritative total', async () => {
   const parameters = await buildPositioningPurchaseParameters(
     {status: 'paid'},
     'legacy-paid-session',
     webcrypto.subtle,
   );
 
-  assert.equal(parameters.currency, 'USD');
-  assert.equal(parameters.value, 29.99);
+  assert.equal(parameters, null);
+});
+
+test('does not infer currency when a paid result only provides an amount', async () => {
+  const parameters = await buildPositioningPurchaseParameters(
+    {status: 'paid', amount_total: 2999},
+    'paid-session-without-currency',
+    webcrypto.subtle,
+  );
+
+  assert.equal(parameters, null);
 });
 
 test('sends the GA4 purchase fields without leaking checkout or customer identifiers', async () => {
@@ -213,6 +228,12 @@ test('sends the GA4 purchase fields without leaking checkout or customer identif
       currency: 'USD',
       value: 29.99,
       transaction_id: purchase.transaction_id,
+      items: [{
+        item_id: 'school_positioning_report',
+        item_name: 'MSCS School Positioning Report',
+        price: 29.99,
+        quantity: 1,
+      }],
       page_path: '/school-positioning-result',
     },
   ]);
@@ -229,6 +250,70 @@ test('rejects a purchase event that tries to use the raw checkout session as tra
     currency: 'USD',
     value: 29.99,
     transaction_id: 'private-checkout-session-id',
+  }, browserWindow);
+
+  assert.equal(sent, false);
+  assert.deepEqual(calls, []);
+});
+
+test('requires the fixed GA4 item payload on every purchase event', () => {
+  const calls = [];
+  const browserWindow = {
+    gtag: (...args) => calls.push(args),
+    location: {pathname: '/school-positioning-result'},
+  };
+
+  const sent = trackSeoEvent('purchase', {
+    currency: 'USD',
+    value: 29.99,
+    transaction_id: 'positioning_0123456789abcdef0123456789abcdef',
+  }, browserWindow);
+
+  assert.equal(sent, false);
+  assert.deepEqual(calls, []);
+});
+
+test('rejects a purchase whose item price disagrees with the authoritative total', () => {
+  const calls = [];
+  const browserWindow = {
+    gtag: (...args) => calls.push(args),
+    location: {pathname: '/school-positioning-result'},
+  };
+
+  const sent = trackSeoEvent('purchase', {
+    currency: 'USD',
+    value: 29.99,
+    transaction_id: 'positioning_0123456789abcdef0123456789abcdef',
+    items: [{
+      item_id: 'school_positioning_report',
+      item_name: 'MSCS School Positioning Report',
+      price: 1,
+      quantity: 1,
+    }],
+  }, browserWindow);
+
+  assert.equal(sent, false);
+  assert.deepEqual(calls, []);
+});
+
+test('rejects purchase items containing arbitrary nested or PII fields', () => {
+  const calls = [];
+  const browserWindow = {
+    gtag: (...args) => calls.push(args),
+    location: {pathname: '/school-positioning-result'},
+  };
+
+  const sent = trackSeoEvent('purchase', {
+    currency: 'USD',
+    value: 29.99,
+    transaction_id: 'positioning_0123456789abcdef0123456789abcdef',
+    items: [{
+      item_id: 'school_positioning_report',
+      item_name: 'MSCS School Positioning Report',
+      price: 29.99,
+      quantity: 1,
+      customer: {email: 'must-not-leak@example.com'},
+    }],
   }, browserWindow);
 
   assert.equal(sent, false);

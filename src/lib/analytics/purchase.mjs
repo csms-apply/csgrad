@@ -4,13 +4,6 @@ function normalizeCurrency(value) {
   return /^[A-Z]{3}$/.test(currency) ? currency : null;
 }
 
-// The last public pricing change (commit 993f24f) moved this product and its
-// deployed Stripe unit_amount to $29.99. The current legacy result response does
-// not expose totals, so this is a temporary analytics fallback only. Prefer the
-// response values below and update/remove this fallback with any private-backend
-// price change to avoid overstating revenue.
-const POSITIONING_FALLBACK_PURCHASE = Object.freeze({currency: 'USD', value: 29.99});
-
 function amountInMajorUnits(body) {
   const minorUnits = body?.amount_total ?? body?.amountTotal
     ?? body?.payment?.amount_total ?? body?.payment?.amountTotal;
@@ -44,15 +37,19 @@ export async function buildPositioningPurchaseParameters(
   if (!transactionId) return null;
 
   const responseValue = amountInMajorUnits(body);
-  const purchase = responseValue === null
-    ? POSITIONING_FALLBACK_PURCHASE
-    : {
-      currency: normalizeCurrency(body.currency ?? body.payment?.currency) || 'USD',
-      value: responseValue,
-    };
+  if (responseValue === null) return null;
+  const currency = normalizeCurrency(body.currency ?? body.payment?.currency);
+  if (!currency) return null;
 
   return {
-    ...purchase,
+    currency,
+    value: responseValue,
     transaction_id: transactionId,
+    items: [{
+      item_id: 'school_positioning_report',
+      item_name: 'MSCS School Positioning Report',
+      price: responseValue,
+      quantity: 1,
+    }],
   };
 }
