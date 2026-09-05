@@ -1,25 +1,25 @@
 {
-  "link.title.Explore": {
+  "link.title.探索": {
     "message": "Explore",
-    "description": "The title of the footer links column with title=Explore in the footer"
+    "description": "The title of the footer links column with title=探索 in the footer"
   },
-  "link.title.Community": {
+  "link.title.社区": {
     "message": "Community",
-    "description": "The title of the footer links column with title=Community in the footer"
+    "description": "The title of the footer links column with title=社区 in the footer"
   },
-  "link.title.Project": {
+  "link.title.关于项目": {
     "message": "Project",
-    "description": "The title of the footer links column with title=Project in the footer"
+    "description": "The title of the footer links column with title=关于项目 in the footer"
   },
-  "link.item.label.Program Guide": {
+  "link.item.label.项目介绍": {
     "message": "Program Guide",
     "description": "The label of the footer link to the program guide"
   },
-  "link.item.label.Data Points": {
+  "link.item.label.录取数据": {
     "message": "Data Points",
     "description": "The label of the footer link to admissions data"
   },
-  "link.item.label.Application Tracker": {
+  "link.item.label.申请跟踪": {
     "message": "Application Tracker",
     "description": "The label of the footer link to the application tracker"
   },
