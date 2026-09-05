@@ -59,6 +59,9 @@ jobs:
       - name: Test GPA filtering
         run: npm run test:gpa-filter
 
+      - name: Test navigation, tracker data protection, and DP error states
+        run: npm run test:ux
+
       - name: Audit built SEO output
         run: npm run check:seo
 

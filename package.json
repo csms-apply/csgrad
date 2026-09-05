@@ -17,7 +17,8 @@
     "test:seo": "node --test scripts/seo-audit.test.mjs",
     "test:analytics": "node --test src/lib/analytics/events.test.mjs",
     "test:migration": "node --test scripts/migration-integrity.test.mjs",
-    "test:gpa-filter": "node --test src/lib/dp/gpa-filter.test.mjs"
+    "test:gpa-filter": "node --test src/lib/dp/gpa-filter.test.mjs",
+    "test:ux": "node --test scripts/locale-navigation.test.mjs src/lib/tracker/*.test.mjs src/lib/dp/page-regressions.test.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
