@@ -51,5 +51,10 @@
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "allowScripts": {
+    "core-js": false,
+    "core-js-pure": false,
+    "fsevents@2.3.3": true
   }
 }
