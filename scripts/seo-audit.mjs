@@ -17,9 +17,25 @@ for (let index = 0; index < cliArgs.length; index += 1) {
 
 const buildDir = path.resolve(buildArgument);
 const baselineFile = baselineArgument ? path.resolve(baselineArgument) : null;
+function stableCompare(left, right) {
+  const leftSegments = left.split(/[\\/]/);
+  const rightSegments = right.split(/[\\/]/);
+  for (let index = 0; index < Math.max(leftSegments.length, rightSegments.length); index += 1) {
+    const leftSegment = leftSegments[index];
+    const rightSegment = rightSegments[index];
+    if (leftSegment === rightSegment) continue;
+    if (leftSegment === undefined) return -1;
+    if (rightSegment === undefined) return 1;
+    if (leftSegment.startsWith(rightSegment)) return 1;
+    if (rightSegment.startsWith(leftSegment)) return -1;
+    return leftSegment < rightSegment ? -1 : 1;
+  }
+  return 0;
+}
 
 async function findFiles(directory, predicate) {
-  const entries = await readdir(directory, {withFileTypes: true});
+  const entries = (await readdir(directory, {withFileTypes: true}))
+    .sort((left, right) => stableCompare(left.name, right.name));
   const files = [];
   for (const entry of entries) {
     const entryPath = path.join(directory, entry.name);
@@ -29,7 +45,7 @@ async function findFiles(directory, predicate) {
       files.push(entryPath);
     }
   }
-  return files;
+  return files.sort(stableCompare);
 }
 
 function isNoindex(html) {
@@ -128,10 +144,15 @@ function localeKey(route) {
 async function main() {
   const htmlFiles = (await findFiles(buildDir, (file) => file.endsWith('.html')))
     .filter((file) => path.basename(file) !== '404.html');
-  const pages = await Promise.all(htmlFiles.map(async (file) => ({
+  const pages = (await Promise.all(htmlFiles.map(async (file) => ({
     file,
     html: await readFile(file, 'utf8'),
-  })));
+  }))))
+    .sort((left, right) => {
+      const leftRoute = pageRoute(left.file);
+      const rightRoute = pageRoute(right.file);
+      return stableCompare(leftRoute, rightRoute);
+    });
   const indexablePages = pages.filter(({html}) => !isNoindex(html));
   const indexableCount = indexablePages.length;
   const issues = [];
@@ -205,12 +226,26 @@ async function main() {
   }
 
   const sitemapFiles = await findFiles(buildDir, (file) => /(?:^|\/)sitemap[^/]*\.xml$/i.test(file));
+  if (sitemapFiles.length === 0) {
+    issues.push('[sitemap-missing] no sitemap XML files were found');
+  }
   const sitemapUrls = [];
   for (const file of sitemapFiles) {
     const xml = await readFile(file, 'utf8');
     sitemapUrls.push(...[...xml.matchAll(/<loc>\s*([^<]+?)\s*<\/loc>/gi)].map((match) => match[1].trim()));
   }
+  if (sitemapFiles.length > 0 && sitemapUrls.length === 0) {
+    issues.push('[sitemap-empty] sitemap XML files contain no URLs');
+  }
   const sitemapUrlCount = sitemapUrls.length;
+  const sitemapUrlKeys = new Set(sitemapUrls.map(urlKey));
+
+  for (const page of indexablePages) {
+    const [canonical] = linksWithRel(page.html, 'canonical');
+    if (canonical && !sitemapUrlKeys.has(urlKey(canonical))) {
+      issues.push(`[sitemap-canonical-missing] ${pageRoute(page.file)} canonical ${canonical} is not listed in a sitemap`);
+    }
+  }
 
   for (const sitemapUrl of sitemapUrls) {
     const page = pagesByCanonical.get(urlKey(sitemapUrl)) ?? pagesByRoute.get(routeKey(sitemapUrl));

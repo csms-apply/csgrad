@@ -158,9 +158,6 @@
 [h1-count] /useful_docs/转码需要补的专业课 must have exactly one non-empty <h1>; found 3
 [hreflang-target-missing] /en/career-change-programs hreflang x-default targets missing page https://csgrad.com/career-change-programs
 [hreflang-target-missing] /en/career-change-programs hreflang zh-Hans targets missing page https://csgrad.com/career-change-programs
-[hreflang-target-missing] /en/consulting hreflang x-default targets missing page https://csgrad.com/consulting
-[hreflang-target-missing] /en/consulting hreflang zh-Hans targets missing page https://csgrad.com/consulting
-[hreflang-target-missing] /找我辅导 hreflang en-US targets missing page https://csgrad.com/en/找我辅导
 [hreflang-target-missing] /转码项目 hreflang en-US targets missing page https://csgrad.com/en/转码项目
 [title-duplicate] /A/Yale MSCS and /tutorial-basics/yale mscs 1 year share the title "Yale mscs 1 year | CS Grad"
 [title-duplicate] /en/A/Yale MSCS and /en/tutorial-basics/yale mscs 1 year share the title "Yale MSCS 1 Year | CS Grad"

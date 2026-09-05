@@ -4,14 +4,17 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -27,6 +30,24 @@ jobs:
 
       - name: Build Docusaurus site
         run: npm run build
+
+      - name: Test SEO safeguards
+        run: npm run test:seo
+
+      - name: Test analytics safeguards
+        run: npm run test:analytics
+
+      - name: Audit built SEO output
+        run: npm run check:seo
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Deploy via SSH
         env:

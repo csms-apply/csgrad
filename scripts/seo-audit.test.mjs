@@ -1,10 +1,11 @@
 import assert from 'node:assert/strict';
-import {mkdtemp, mkdir, rm, writeFile} from 'node:fs/promises';
+import {mkdtemp, mkdir, readFile, rm, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import test from 'node:test';
 import {fileURLToPath} from 'node:url';
+import localizedAlternatesPlugin from '../plugins/localized-alternates.mjs';
 
 const scriptPath = fileURLToPath(new URL('./seo-audit.mjs', import.meta.url));
 
@@ -82,6 +83,59 @@ test('accepts a valid Docusaurus bilingual build', async () => {
     const result = audit();
     assert.equal(result.status, 0, result.stderr || result.stdout);
     assert.match(result.stdout, /SEO audit passed: 2 indexable pages, 2 sitemap URLs/);
+  });
+});
+
+test('rejects a build with no sitemap file', async () => {
+  await withSite(async ({page, audit}) => {
+    await page('/', {
+      title: 'Site without a sitemap',
+      description: 'An indexable page must be discoverable through a sitemap.',
+      canonical: 'https://csgrad.com/',
+      h1: 'Site without a sitemap',
+    });
+
+    const result = audit();
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /\[sitemap-missing\]/);
+  });
+});
+
+test('rejects a build with an empty sitemap', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    await page('/', {
+      title: 'Site with an empty sitemap',
+      description: 'An empty sitemap cannot expose indexable pages to search engines.',
+      canonical: 'https://csgrad.com/',
+      h1: 'Site with an empty sitemap',
+    });
+    await sitemap([]);
+
+    const result = audit();
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /\[sitemap-empty\]/);
+  });
+});
+
+test('rejects an indexable canonical omitted from every sitemap', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    await page('/listed', {
+      title: 'Listed program',
+      description: 'This program is listed in the sitemap.',
+      canonical: 'https://csgrad.com/listed',
+      h1: 'Listed program',
+    });
+    await page('/omitted', {
+      title: 'Omitted program',
+      description: 'This indexable program was accidentally omitted.',
+      canonical: 'https://csgrad.com/omitted',
+      h1: 'Omitted program',
+    });
+    await sitemap(['https://csgrad.com/listed']);
+
+    const result = audit();
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /\[sitemap-canonical-missing\].*\/omitted.*https:\/\/csgrad\.com\/omitted/);
   });
 });
 
@@ -166,6 +220,31 @@ test('rejects duplicate titles across indexable pages', async () => {
     const result = audit();
     assert.equal(result.status, 1);
     assert.match(result.stderr, /\[title-duplicate\].*\/first.*\/second/);
+  });
+});
+
+test('reports duplicate owners in stable route order regardless of file creation order', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    await page('/z-last', {
+      title: 'Shared stable title',
+      description: 'Description for the later route.',
+      canonical: 'https://csgrad.com/z-last',
+      h1: 'Later route',
+    });
+    await page('/a-first', {
+      title: 'Shared stable title',
+      description: 'Description for the earlier route.',
+      canonical: 'https://csgrad.com/a-first',
+      h1: 'Earlier route',
+    });
+    await sitemap(['https://csgrad.com/z-last', 'https://csgrad.com/a-first']);
+
+    const result = audit();
+    assert.equal(result.status, 1);
+    assert.match(
+      result.stderr,
+      /\[title-duplicate\] \/a-first and \/z-last share the title "Shared stable title"/,
+    );
   });
 });
 
@@ -291,6 +370,131 @@ test('rejects an hreflang link whose target is absent from the bilingual build',
     const result = audit();
     assert.equal(result.status, 1);
     assert.match(result.stderr, /\[hreflang-target-missing\].*en\/missing/);
+  });
+});
+
+test('rewrites consulting hreflang alternates to the existing localized routes', async () => {
+  await withSite(async ({root, page}) => {
+    await page('/找我辅导', {
+      title: '美国 CS 申请辅导',
+      description: '中文申请辅导页面。',
+      canonical: 'https://csgrad.com/找我辅导',
+      h1: '找我辅导',
+      hreflangs: [
+        {lang: 'zh-Hans', href: 'https://csgrad.com/找我辅导'},
+        {lang: 'en-US', href: 'https://csgrad.com/en/找我辅导'},
+        {lang: 'x-default', href: 'https://csgrad.com/找我辅导'},
+      ],
+    });
+    await page('/en/consulting', {
+      title: 'US CS Application Consulting',
+      description: 'English application consulting page.',
+      canonical: 'https://csgrad.com/en/consulting',
+      h1: 'Consulting Services',
+      hreflangs: [
+        {lang: 'zh-Hans', href: 'https://csgrad.com/consulting'},
+        {lang: 'en-US', href: 'https://csgrad.com/en/consulting'},
+        {lang: 'x-default', href: 'https://csgrad.com/consulting'},
+      ],
+    });
+
+    const plugin = localizedAlternatesPlugin(
+      {siteConfig: {url: 'https://csgrad.com'}},
+      {
+        pairs: [{
+          defaultRoute: '/找我辅导',
+          localizedRoute: '/en/consulting',
+          defaultLocale: 'zh-Hans',
+          localizedLocale: 'en-US',
+        }],
+      },
+    );
+    await plugin.postBuild({outDir: root});
+
+    const chineseHtml = await readFile(path.join(root, '找我辅导', 'index.html'), 'utf8');
+    const englishHtml = await readFile(path.join(root, 'en', 'consulting', 'index.html'), 'utf8');
+    for (const html of [chineseHtml, englishHtml]) {
+      assert.match(html, /<link(?=[^>]*rel="alternate")(?=[^>]*href="https:\/\/csgrad\.com\/找我辅导")(?=[^>]*hreflang="zh-Hans")[^>]*>/);
+      assert.match(html, /<link(?=[^>]*rel="alternate")(?=[^>]*href="https:\/\/csgrad\.com\/en\/consulting")(?=[^>]*hreflang="en-US")[^>]*>/);
+      assert.match(html, /<link(?=[^>]*rel="alternate")(?=[^>]*href="https:\/\/csgrad\.com\/找我辅导")(?=[^>]*hreflang="x-default")[^>]*>/);
+      assert.doesNotMatch(html, /https:\/\/csgrad\.com\/(?:en\/找我辅导|consulting)/);
+    }
+    assert.match(chineseHtml, /<link(?=[^>]*rel="canonical")(?=[^>]*href="https:\/\/csgrad\.com\/找我辅导")[^>]*>/);
+    assert.match(englishHtml, /<link(?=[^>]*rel="canonical")(?=[^>]*href="https:\/\/csgrad\.com\/en\/consulting")[^>]*>/);
+  });
+});
+
+test('rewrites only the locale currently being built', async () => {
+  await withSite(async ({root, page}) => {
+    await page('/找我辅导', {
+      title: '美国 CS 申请辅导',
+      description: '中文申请辅导页面。',
+      canonical: 'https://csgrad.com/找我辅导',
+      h1: '找我辅导',
+      hreflangs: [
+        {lang: 'zh-Hans', href: 'https://csgrad.com/找我辅导'},
+        {lang: 'en-US', href: 'https://csgrad.com/en/找我辅导'},
+      ],
+    });
+
+    const plugin = localizedAlternatesPlugin(
+      {
+        siteConfig: {url: 'https://csgrad.com'},
+        i18n: {
+          currentLocale: 'zh-Hans',
+          localeConfigs: {'zh-Hans': {htmlLang: 'zh-Hans'}},
+        },
+      },
+      {
+        pairs: [{
+          defaultRoute: '/找我辅导',
+          localizedRoute: '/en/consulting',
+          defaultLocale: 'zh-Hans',
+          localizedLocale: 'en-US',
+        }],
+      },
+    );
+
+    await plugin.postBuild({outDir: root});
+    const html = await readFile(path.join(root, '找我辅导', 'index.html'), 'utf8');
+    assert.match(html, /href="https:\/\/csgrad\.com\/en\/consulting" hreflang="en-US"/);
+  });
+});
+
+test('resolves localized routes relative to the locale build directory', async () => {
+  await withSite(async ({root, page}) => {
+    await page('/consulting', {
+      title: 'US CS Application Consulting',
+      description: 'English application consulting page.',
+      canonical: 'https://csgrad.com/en/consulting',
+      h1: 'Consulting Services',
+      hreflangs: [
+        {lang: 'zh-Hans', href: 'https://csgrad.com/consulting'},
+        {lang: 'en-US', href: 'https://csgrad.com/en/consulting'},
+      ],
+    });
+
+    const plugin = localizedAlternatesPlugin(
+      {
+        siteConfig: {url: 'https://csgrad.com'},
+        i18n: {
+          currentLocale: 'en',
+          localeConfigs: {en: {htmlLang: 'en-US'}},
+        },
+      },
+      {
+        pairs: [{
+          defaultRoute: '/找我辅导',
+          localizedRoute: '/en/consulting',
+          defaultLocale: 'zh-Hans',
+          localizedLocale: 'en-US',
+        }],
+      },
+    );
+
+    await plugin.postBuild({outDir: root, baseUrl: '/en/'});
+    const html = await readFile(path.join(root, 'consulting', 'index.html'), 'utf8');
+    assert.match(html, /href="https:\/\/csgrad\.com\/找我辅导" hreflang="zh-Hans"/);
   });
 });
 
