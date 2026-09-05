@@ -23,4 +23,11 @@ Full funding is not guaranteed either. It mainly depends on your interview perfo
 
 If you come to this program for job search purposes, even if you find an internship, you need your advisor's approval to go. Your advisor may also refuse to let you go.
 
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| UC Irvine, BS Computer Science, 2019–2023 | Carnegie Mellon University, MS Robotics, Aug 2023–Aug 2025 | NASA Jet Propulsion Laboratory, Robotics Perception Engineer (internship), May–Aug 2024 and May–Aug 2025 | [Yifei Liu's LinkedIn profile](https://www.linkedin.com/in/yifei-migo-liu/) |
 

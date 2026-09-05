@@ -3,6 +3,17 @@ sidebar_position: 2
 ---
 # Columbia MSEE
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Jinsong Liu](https://www.linkedin.com/in/jin-song-liu/) | 华中科技大学，Electronic and Information Engineering 本科（2020-09—2024-06） | Columbia University，MS Electrical and Electronics Engineering（2024-03—2025-12；按 Education 栏） | XPENG，Machine Learning Engineer，全职（2026-07—至今）；CCC Intelligent Solutions，Data Science R&D Intern（2025-05—2026-05，职位标题为实习，页面雇佣类型标为 Full-time） |
+
+该个人页标题另提及 2026 年 2 月，而 Education 栏标为 2024 年 3 月至 2025 年 12 月；表中保留教育栏原值，不据此推断学位授予日期。
+
+
 # 项目介绍
 
 平常自己做饭+外面吃（70% / 30%），一年半的花销80w左右（并不是很节省的生活）。xhs上总看到什么纽约一年开销100w这种言论就是纯属fp，根本没经过自己调研过。能在纽约一年花100w的去ucsd 念书同样能花100w。

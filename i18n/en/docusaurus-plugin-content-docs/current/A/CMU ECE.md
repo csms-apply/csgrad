@@ -1,5 +1,11 @@
 # CMU ECE
 
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+- [Xinyi Zhang (LinkedIn)](https://www.linkedin.com/in/xinyizh3/): B.E. in Software Engineering, Sichuan University (2016–2020); M.S. in Computer Engineering, Carnegie Mellon University (2022–2023). The profile lists Software Development Engineer II at Meituan (full-time, 2020–2022) and Backend Software Engineer II at TikTok (full-time, February 2024–present as displayed when checked). This timeline includes employment before the master's degree; the later role should not be treated as pre-application experience.
+
 ## Program Overview
 The program takes a minimum of 1.5 years and a maximum of 2 years, with no extensions allowed. Each semester requires a minimum of 36 units and allows a maximum of 48 units. A full-semester course is 12 units, and a mini course (half-semester) is 6 units. Graduation requires 96 units, of which 60 must be core courses and 36 are electives.
 

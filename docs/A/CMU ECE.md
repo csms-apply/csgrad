@@ -1,5 +1,11 @@
 # CMU ECE
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+- [Xinyi Zhang（LinkedIn）](https://www.linkedin.com/in/xinyizh3/)：四川大学软件工程 B.E.（2016–2020）；Carnegie Mellon University Computer Engineering M.S.（2022–2023）。履历列出美团 Software Development Engineer II（全职，2020–2022）及 TikTok Backend Software Engineer II（全职，2024年2月起，核验时显示在职）。这些日期呈现了先工作、再读硕士的经历，不能把硕士后的岗位当作申请前背景。
+
 ## 项目介绍
 项目最短一年半，最长两年，不允许延期。每学期至少要修 36 学分，最多允许 48 学分，一门全学期的课是 12 学分，mini 课（半学期）是 6 学分。毕业要求 96 学分，其中 60 学分必须是核心课程，36 学分是选修课。
 

@@ -3,6 +3,14 @@ sidebar_position: 2
 ---
 # Stanford MSEE
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 样本 | 教育背景 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| Angie T. | University of Washington，BS Electrical Engineering，2017.09–2019.12；Stanford，MS Electrical Engineering，2021.09–2023.12 | 入学前有 Siemens Healthineers 全职工作记录（2020.01–2021.10）；Microsoft Electrical Engineering Intern，2023.06–2023.09；Microsoft Electrical Engineer，全职，2024.04–2025.08，随后任 Electrical Engineer II（2025.08 起，页面标注在职）。 | [LinkedIn](https://www.linkedin.com/in/angiethai/) |
+
 # 项目介绍
 Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得月，找工作很方便。  
 当TA的话可以免学费并且每个月给3k刀工资，track选择很自由，可以选成全软的课表，比如CS229或者CS 245 Database Systems Principles，申请的时候会发一个问卷填track，有machine learning、software system，architecutre等等track。  

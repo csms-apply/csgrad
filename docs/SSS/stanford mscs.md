@@ -3,6 +3,15 @@ sidebar_position: 1
 ---
 # Stanford MSCS
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 样本 | 教育背景 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| Komei Ryu | University of Southern California，BS Computer Science，2019.08–2024.05；Stanford，MS Computer Science，2024.09–2026.06 | Tencent Backend Software Engineer Intern，2024.08–2024.11；Amazon Software Engineer Intern，2025.06–2025.09。两项均为实习，未据此推断全职录用。 | [LinkedIn](https://www.linkedin.com/in/komei-ryu/) |
+| Qirui Zhou | UC Irvine，BS Computer Science，2016–2020；Stanford，MS Computer Science，2020–2022 | LearningPal Software Engineer 实习，2021.06–2021.09；Meta Software Engineer，2022.07 起，页面标注在职，未注明雇佣类型。 | [LinkedIn](https://www.linkedin.com/in/qirui-zhou-697779167/) |
+
 # 项目介绍
 神中神，唯一没有缺点的项目，地理位置无敌（加州阳光大海），学校title好，cs排名高，旁边就是meta 和nvidia（开车十分钟路程），如果暑假去meta 或者nvidia实习都不需要租房（住原来的宿舍就行），找工情况也很牛，几乎我所有认识的同学都有nvidia面试。如果转phd需要重新申请。课程质量好，什么cs229 deep learning systems, cs231 Deep Learning for Computer Vision，CS224N（nlp）耳熟能详，几乎是所有cs学生都上过的课。也可以上一些骑马射箭学日语的课程，也可以养生。宿舍条件无敌
 

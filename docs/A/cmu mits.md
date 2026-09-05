@@ -1,6 +1,12 @@
 
 # CMU MITS
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+- [Ran Tao（LinkedIn）](https://www.linkedin.com/in/ran-tao-057b77247/)：威斯康星大学麦迪逊分校 Mathematics and Economics B.S.（2020年9月–2023年5月）；Carnegie Mellon University Master of Information Technology Strategy（2023年9月–2024年12月）。公开工作记录包括 CassianRx Full Stack Developer Intern（2024年5–8月）及 Google Software Engineer（全职，2025年8月起，核验时显示在职）。
+
 # 介绍
 这个项目是一个合办项目，由SCS，CIT和IPS合办。（没人在意，cmu除了mscs，其余项目的reputation的差异会被个人差异磨平）
 

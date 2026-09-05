@@ -3,6 +3,15 @@ sidebar_position: 1
 ---
 # Stanford MSCS
 
+## Public education and employment samples
+
+These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
+
+| Sample | Education | Internship and employment record | Source |
+| --- | --- | --- | --- |
+| Komei Ryu | University of Southern California, BS Computer Science, Aug 2019–May 2024; Stanford, MS Computer Science, Sep 2024–Jun 2026 | Tencent Backend Software Engineer Intern, Aug–Nov 2024; Amazon Software Engineer Intern, Jun–Sep 2025. Both are internships; no full-time offer is inferred. | [LinkedIn](https://www.linkedin.com/in/komei-ryu/) |
+| Qirui Zhou | UC Irvine, BS Computer Science, 2016–2020; Stanford, MS Computer Science, 2020–2022 | LearningPal Software Engineer internship, Jun–Sep 2021; Meta Software Engineer, Jul 2022–present on the profile; employment type is not specified. | [LinkedIn](https://www.linkedin.com/in/qirui-zhou-697779167/) |
+
 # Program Overview
 The best of the best -- the only program with no drawbacks. Unbeatable location (California sunshine and ocean), prestigious school name, top CS ranking, right next to Meta and Nvidia (a 10-minute drive). If you intern at Meta or Nvidia over the summer, you don't even need to find separate housing (just stay in your existing dorm). Job outcomes are also incredible -- almost every classmate I know has gotten an Nvidia interview. If you want to transfer to a PhD, you need to reapply. Course quality is excellent: CS229 Deep Learning Systems, CS231 Deep Learning for Computer Vision, CS224N (NLP) are all household names that virtually every CS student has taken. You can also take some leisure courses like horseback riding, archery, or Japanese, and live a balanced life. Dorm conditions are unbeatable.
 
