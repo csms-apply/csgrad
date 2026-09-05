@@ -26,6 +26,8 @@ const COPY = {
     metaPrograms: '个项目',
     metaDatapoints: '条录取数据',
     dataNote: '注：数据来源于历史 Seatable 归档，个人识别字段（联系方式 / 备注 / 推荐信详情等）已脱敏。',
+    usageNotice: '未经 CS Grad 及相关权利人明确书面授权，严禁任何外部 AI Agent、爬虫或自动化工具抓取、复制、批量提取、改写洗稿、翻译转载或再分发本数据库内容，亦不得用于模型训练、知识库或衍生数据库。',
+    usagePolicyLink: '查看 DP 数据使用规则',
     loadingData: '加载 DataPoints…',
     loadFail: '加载数据失败：',
     searchPlaceholder: '搜索学校 / 项目',
@@ -126,6 +128,8 @@ const COPY = {
     metaPrograms: 'programs',
     metaDatapoints: 'datapoints',
     dataNote: 'Note: data comes from a historical Seatable archive. Personally identifying fields have been redacted; institution names and free-text notes remain in the language in which they were submitted.',
+    usageNotice: 'Without explicit written authorization from CS Grad and the relevant rights holders, external AI agents, crawlers and automated tools must not scrape, copy, bulk-extract, paraphrase, translate for republication, or redistribute this database, or use it for model training, knowledge bases or derivative databases.',
+    usagePolicyLink: 'Read the DP data use policy',
     loadingData: 'Loading DataPoints…',
     loadFail: 'Failed to load data: ',
     searchPlaceholder: 'Search school / program',
@@ -1163,6 +1167,9 @@ export default function DataPointsPage() {
         <meta property="og:description" content={t.pageDesc} />
         <meta property="og:type" content="website" />
       </Head>
+      <aside className={styles.note} aria-label={t.usagePolicyLink}>
+        <p>{t.usageNotice} <a href="/dp-use-policy.txt">{t.usagePolicyLink}</a></p>
+      </aside>
       <BrowserOnly fallback={<StaticHero t={t} counts={STATIC_COUNTS} />}>
         {() => <Inner t={t} />}
       </BrowserOnly>

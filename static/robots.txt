@@ -1,5 +1,12 @@
 User-agent: *
 Allow: /
+Disallow: /datapoints
+Disallow: /en/datapoints
+Disallow: /data/dp-snapshot.json
+Disallow: /api/dp
+
+# DP access and reuse policy: https://csgrad.com/dp-use-policy.txt
+# Robots rules are voluntary; API-host protection must be configured separately.
 
 Sitemap: https://csgrad.com/sitemap.xml
 Sitemap: https://csgrad.com/en/sitemap.xml
