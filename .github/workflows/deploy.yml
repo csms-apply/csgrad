@@ -1,32 +1,75 @@
 name: Deploy Docusaurus
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 18
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm ci
+
+      - name: Reject critical dependency vulnerabilities
+        run: npm audit --audit-level=critical
 
       - name: Generate programs.json
         run: node scripts/generate-programs.js
 
-      - name: Build Docusaurus site
-        run: npm run build
+      - name: Build Docusaurus site without warnings
+        shell: bash
+        env:
+          NODE_OPTIONS: --trace-warnings
+        run: |
+          set -o pipefail
+          csgrad_build_log="${RUNNER_TEMP}/csgrad-build.log"
+          npm run build 2>&1 | tee "$csgrad_build_log"
+          if grep -Eiq 'warn(ing)?s?|caniuse-lite.*outdated' "$csgrad_build_log"; then
+            echo "Build emitted a warning; fix it before merging."
+            exit 1
+          fi
+
+      - name: Test SEO safeguards
+        run: npm run test:seo
+
+      - name: Test analytics safeguards
+        run: npm run test:analytics
+
+      - name: Test migration safeguards
+        run: npm run test:migration
+
+      - name: Test GPA filtering
+        run: npm run test:gpa-filter
+
+      - name: Audit built SEO output
+        run: npm run check:seo
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
 
       - name: Deploy via SSH
         env:
@@ -40,7 +83,8 @@ jobs:
           ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
 
           ssh $SSH_USER@$SSH_HOST << 'EOF'
+            set -eu
             cd csgrad
-            chmod a=rwx run.sh
-            ./run.sh
+            git -c core.fileMode=false pull --ff-only origin main
+            bash run.sh
           EOF

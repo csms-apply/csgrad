@@ -167,6 +167,20 @@
   font-weight: 700;
   font-family: Menlo, Monaco, 'Courier New', monospace;
   font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.consultCopyStatus {
+  color: #61724d;
+  font-size: 0.82rem;
+}
+
+.consultCopyStatus[data-seo-copy-state='error'] {
+  color: #b42318;
+}
+
+[data-theme='dark'] .consultCopyStatus {
+  color: #a8bd90;
 }
 
 [data-theme='dark'] .consultHandle {

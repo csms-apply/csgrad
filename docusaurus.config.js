@@ -25,8 +25,9 @@ const config = {
   organizationName: 'csms-apply', // Usually your GitHub org/user name.
   projectName: 'csgrad', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -58,6 +59,17 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/csms-apply/csgrad/tree/main',
+        },
+
+        sitemap: {
+          // These routes are account, submission, or personalized-result pages.
+          // Keep both the default and locale-prefixed variants out of sitemaps.
+          ignorePatterns: [
+            '**/datapoints submit',
+            '**/my-dp',
+            '**/school-positioning-result',
+            '**/submit-dp',
+          ],
         },
 
         theme: {

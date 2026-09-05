@@ -1,0 +1,163 @@
+# Known SEO debt captured from the full bilingual build.
+# Remove a line when its underlying page issue is fixed; new issues still fail check:seo.
+[description-duplicate] /A/CMU ECE and /A+/Duke mscs share the same meta description
+[description-duplicate] /A/CMU ECE and /A+/Gatech CSE share the same meta description
+[description-duplicate] /A/CMU ECE and /A+/Upenn CIS share the same meta description
+[description-duplicate] /A/CMU ECE and /A+/Upenn DS share the same meta description
+[description-duplicate] /A/CMU ECE and /A+/Upenn MSR share the same meta description
+[description-duplicate] /A/CMU ECE and /A+/Wisc CS PMP share the same meta description
+[description-duplicate] /A/CMU ECE and /A+/ucsd cs75 share the same meta description
+[description-duplicate] /A/CMU ECE and /A-/CMU MSESS share the same meta description
+[description-duplicate] /A/CMU ECE and /A-/Columbia DS share the same meta description
+[description-duplicate] /A/CMU ECE and /A-/NYU DS share the same meta description
+[description-duplicate] /A/CMU ECE and /A-/UCSB MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /A-/Ucsd EC79 share the same meta description
+[description-duplicate] /A/CMU ECE and /A-/brown scmcs share the same meta description
+[description-duplicate] /A/CMU ECE and /A-/duke ece share the same meta description
+[description-duplicate] /A/CMU ECE and /A/CMU MSMITE share the same meta description
+[description-duplicate] /A/CMU ECE and /A/UMD MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /A/Umich MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /A/Upenn MCIT share the same meta description
+[description-duplicate] /A/CMU ECE and /A/Yale MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /A/uiuc mcs share the same meta description
+[description-duplicate] /A/CMU ECE and /B+/Cornell MPS-IS share the same meta description
+[description-duplicate] /A/CMU ECE and /B+/NYU Tandon share the same meta description
+[description-duplicate] /A/CMU ECE and /B+/Rics MCS share the same meta description
+[description-duplicate] /A/CMU ECE and /B+/Upenn EE share the same meta description
+[description-duplicate] /A/CMU ECE and /B-/NEU IS share the same meta description
+[description-duplicate] /A/CMU ECE and /B-/NEU SES share the same meta description
+[description-duplicate] /A/CMU ECE and /B-/SCU MSCSE share the same meta description
+[description-duplicate] /A/CMU ECE and /B-/UIUC MSIM share the same meta description
+[description-duplicate] /A/CMU ECE and /B/Emory MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /B/NCSU MCS share the same meta description
+[description-duplicate] /A/CMU ECE and /B/UCI MCS share the same meta description
+[description-duplicate] /A/CMU ECE and /B/UIUC ECE MENG share the same meta description
+[description-duplicate] /A/CMU ECE and /B/UMass MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /B/USC CS37 share the same meta description
+[description-duplicate] /A/CMU ECE and /B/utah state university MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /C+/UMN MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /S/CMU MIIS share the same meta description
+[description-duplicate] /A/CMU ECE and /S/CMU MSAII share the same meta description
+[description-duplicate] /A/CMU ECE and /S/CMU MSCV share the same meta description
+[description-duplicate] /A/CMU ECE and /S/CMU MSML share the same meta description
+[description-duplicate] /A/CMU ECE and /S/CMU MSR share the same meta description
+[description-duplicate] /A/CMU ECE and /S/Cornell CS MENG share the same meta description
+[description-duplicate] /A/CMU ECE and /S/UCB EECS meng share the same meta description
+[description-duplicate] /A/CMU ECE and /S/UT MSCS share the same meta description
+[description-duplicate] /A/CMU ECE and /S/cmu mcds share the same meta description
+[description-duplicate] /A/CMU ECE and /SS/Harvard CSE share the same meta description
+[description-duplicate] /A/CMU ECE and /SS/Harvard DS share the same meta description
+[description-duplicate] /A/CMU ECE and /SS/Stanford Stat DS share the same meta description
+[description-duplicate] /A/CMU ECE and /SS/Stanford Symbolic System share the same meta description
+[description-duplicate] /A/CMU ECE and /SS/Yale MSCS 2year share the same meta description
+[description-duplicate] /A/CMU ECE and /SS/stanford icme share the same meta description
+[description-duplicate] /A/CMU ECE and /SS/uiuc mscs share the same meta description
+[description-duplicate] /A/CMU ECE and /SSS/MIT CSE share the same meta description
+[description-duplicate] /A/CMU ECE and /SSS/MIT EECS share the same meta description
+[description-duplicate] /A/CMU ECE and /SSS/Princeton MSECS share the same meta description
+[description-duplicate] /B+/uci mswe and /S/gatech mscs share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A+/Duke mscs share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A+/Gatech CSE share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A+/Upenn CIS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A+/Upenn DS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A+/Upenn MSR share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A+/Wisc CS PMP share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A+/ucsd cs75 share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A-/CMU MSESS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A-/Columbia DS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A-/NYU DS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A-/UCSB MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A-/Ucsd EC79 share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A-/brown scmcs share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A-/duke ece share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A/CMU MSMITE share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A/UMD MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A/Umich MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A/Upenn MCIT share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A/Yale MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/A/uiuc mcs share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B+/Cornell MPS-IS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B+/NYU Tandon share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B+/Rics MCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B+/Upenn EE share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B-/NEU IS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B-/NEU SES share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B-/SCU MSCSE share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B-/UIUC MSIM share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B/Emory MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B/NCSU MCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B/UCI MCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B/UIUC ECE MENG share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B/UMass MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B/USC CS37 share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/B/utah state university MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/C+/UMN MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/CMU MIIS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/CMU MSAII share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/CMU MSCV share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/CMU MSML share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/CMU MSR share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/Cornell CS MENG share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/UCB EECS meng share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/UT MSCS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/cmu mcds share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/S/gatech mscs share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SS/Harvard CSE share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SS/Harvard DS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SS/Stanford Stat DS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SS/Stanford Symbolic System share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SS/Yale MSCS 2year share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SS/stanford icme share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SS/uiuc mscs share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SSS/MIT CSE share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SSS/MIT EECS share the same meta description
+[description-duplicate] /en/A/CMU ECE and /en/SSS/Princeton MSECS share the same meta description
+[h1-count] /A+/UCLA MSCS must have exactly one non-empty <h1>; found 6
+[h1-count] /A-/Columbia ce must have exactly one non-empty <h1>; found 6
+[h1-count] /A-/Gatech ECE must have exactly one non-empty <h1>; found 4
+[h1-count] /A-/cmu sesv must have exactly one non-empty <h1>; found 4
+[h1-count] /A-/uchicago mpcs must have exactly one non-empty <h1>; found 7
+[h1-count] /A/cmu mits must have exactly one non-empty <h1>; found 6
+[h1-count] /A/columbia mscs must have exactly one non-empty <h1>; found 8
+[h1-count] /B+/Columbia ee must have exactly one non-empty <h1>; found 5
+[h1-count] /B+/cmu mism must have exactly one non-empty <h1>; found 5
+[h1-count] /B/NEU CS ALIGN must have exactly one non-empty <h1>; found 5
+[h1-count] /B/NEU MSCS must have exactly one non-empty <h1>; found 5
+[h1-count] /S/UCB EECS meng must have exactly one non-empty <h1>; found 3
+[h1-count] /S/cmu mcds must have exactly one non-empty <h1>; found 2
+[h1-count] /S/cmu msin must have exactly one non-empty <h1>; found 6
+[h1-count] /SS/caltech msee must have exactly one non-empty <h1>; found 5
+[h1-count] /SS/cmu mscs must have exactly one non-empty <h1>; found 5
+[h1-count] /SS/stanford msee must have exactly one non-empty <h1>; found 5
+[h1-count] /SSS/stanford mscs must have exactly one non-empty <h1>; found 5
+[h1-count] /addpr must have exactly one non-empty <h1>; found 2
+[h1-count] /en/A+/UCLA MSCS must have exactly one non-empty <h1>; found 6
+[h1-count] /en/A-/Columbia ce must have exactly one non-empty <h1>; found 6
+[h1-count] /en/A-/Gatech ECE must have exactly one non-empty <h1>; found 4
+[h1-count] /en/A-/cmu sesv must have exactly one non-empty <h1>; found 4
+[h1-count] /en/A-/uchicago mpcs must have exactly one non-empty <h1>; found 7
+[h1-count] /en/A/cmu mits must have exactly one non-empty <h1>; found 6
+[h1-count] /en/A/columbia mscs must have exactly one non-empty <h1>; found 8
+[h1-count] /en/B+/Columbia ee must have exactly one non-empty <h1>; found 5
+[h1-count] /en/B+/cmu mism must have exactly one non-empty <h1>; found 5
+[h1-count] /en/B/NEU CS ALIGN must have exactly one non-empty <h1>; found 5
+[h1-count] /en/B/NEU MSCS must have exactly one non-empty <h1>; found 5
+[h1-count] /en/S/UCB EECS meng must have exactly one non-empty <h1>; found 3
+[h1-count] /en/S/cmu mcds must have exactly one non-empty <h1>; found 2
+[h1-count] /en/S/cmu msin must have exactly one non-empty <h1>; found 6
+[h1-count] /en/SS/caltech msee must have exactly one non-empty <h1>; found 5
+[h1-count] /en/SS/cmu mscs must have exactly one non-empty <h1>; found 5
+[h1-count] /en/SS/stanford msee must have exactly one non-empty <h1>; found 5
+[h1-count] /en/SSS/stanford mscs must have exactly one non-empty <h1>; found 5
+[h1-count] /en/addpr must have exactly one non-empty <h1>; found 2
+[h1-count] /en/tutorial-basics/yale mscs 1 year must have exactly one non-empty <h1>; found 4
+[h1-count] /en/useful_docs/中美SDE实习面试侧重点对比 must have exactly one non-empty <h1>; found 3
+[h1-count] /en/useful_docs/转码需要补的专业课 must have exactly one non-empty <h1>; found 3
+[h1-count] /tutorial-basics/yale mscs 1 year must have exactly one non-empty <h1>; found 4
+[h1-count] /useful_docs/中美SDE实习面试侧重点对比 must have exactly one non-empty <h1>; found 3
+[h1-count] /useful_docs/转码需要补的专业课 must have exactly one non-empty <h1>; found 3
+[hreflang-target-missing] /en/career-change-programs hreflang x-default targets missing page https://csgrad.com/career-change-programs
+[hreflang-target-missing] /en/career-change-programs hreflang zh-Hans targets missing page https://csgrad.com/career-change-programs
+[hreflang-target-missing] /转码项目 hreflang en-US targets missing page https://csgrad.com/en/转码项目
+[title-duplicate] /A/Yale MSCS and /tutorial-basics/yale mscs 1 year share the title "Yale mscs 1 year | CS Grad"
+[title-duplicate] /en/A/Yale MSCS and /en/tutorial-basics/yale mscs 1 year share the title "Yale MSCS 1 Year | CS Grad"
