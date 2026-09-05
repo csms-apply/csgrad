@@ -20,7 +20,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'intro',
-      label: 'intro',
+      label: '北美MSCS申请',
     },
 
     {
