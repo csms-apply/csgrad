@@ -3,17 +3,6 @@ sidebar_position: 2
 ---
 # Columbia MSEE
 
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Jinsong Liu](https://www.linkedin.com/in/jin-song-liu/) | Huazhong University of Science and Technology, bachelor's in Electronic and Information Engineering (Sep 2020–Jun 2024) | Columbia University, MS in Electrical and Electronics Engineering (Mar 2024–Dec 2025, as listed under Education) | XPENG, Machine Learning Engineer, full-time (Jul 2026–present); CCC Intelligent Solutions, Data Science R&D Intern (May 2025–May 2026; internship in the title, with employment type marked Full-time). |
-
-The profile headline mentions February 2026, while Education lists March 2024–December 2025. The table preserves the Education entry and does not infer a degree-conferral date.
-
-
 # Program Overview
 
 Cooking at home + eating out (70% / 30%), the total cost for one and a half years is around 800K RMB (not a particularly frugal lifestyle). Claims on Xiaohongshu about spending 1M RMB per year in New York are pure nonsense and clearly not based on any real research. Someone who can spend 1M RMB per year in New York could just as easily spend the same at UCSD. New York is a great place with rich cultural and entertainment options.
@@ -58,3 +47,13 @@ Has Meta intern and Amazon intern placements. Getting past the resume screen is 
 
 1. SUSTech EE undergrad, landed hardware new grad in Texas
 2. Shanghai University EE undergrad, had small company internship in China, landed small US company product manager
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Jinsong Liu](https://www.linkedin.com/in/jin-song-liu/) | Huazhong University of Science and Technology, bachelor's in Electronic and Information Engineering (Sep 2020–Jun 2024) | Columbia University, MS in Electrical and Electronics Engineering (Mar 2024–Dec 2025, as listed under Education) | XPENG, Machine Learning Engineer, full-time (Jul 2026–present); CCC Intelligent Solutions, Data Science R&D Intern (May 2025–May 2026; internship in the title, with employment type marked Full-time). |
+
+The profile headline mentions February 2026, while Education lists March 2024–December 2025. The table preserves the Education entry and does not infer a degree-conferral date.

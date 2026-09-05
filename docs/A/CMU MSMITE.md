@@ -1,12 +1,5 @@
 # CMU MSMITE
 
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-- [Peixin Zhao（LinkedIn）](https://www.linkedin.com/in/peixin-cecilie-zhao/)：北京大学社会学本科（2016–2020）；Carnegie Mellon University 硕士（2021–2022），教育栏和课程说明明确标注 MSMITE。公开工作记录包括 Microsoft Software Engineer Intern（2022年5–8月）、Microsoft Software Engineer（2023年2月–2026年4月）以及 Waymo Software Engineer（全职，2026年4月起，核验时显示在职）。该履历能说明个人跨专业学习与工作路径，不能据此推断项目整体就业表现。
-
-
 ## 项目介绍
 项目全称是 Master of Science in Mobile and IoT Engineering ，并不是cs tile，不过问题也不大，因为找工主要看个人经历和简历匹配度。网申时候也只能填专业cs。
 msmite 第一年在匹兹堡，第二年在sv，还是很不错的，能体验两个不同的地方，选课很自由，可水可选硬课，给你充分的自由度去发展。同时也可以做一个学期的practicum，会和一些企业比如nasa、adobe合作，可以写到简历上。
@@ -77,3 +70,9 @@ Distributed Systems，Advanced Cloud Computing (ACC), Cloud Computing(CC)，
 25 Fall：14776（经管），14741（IS），一门选修
 26 Spring：14744（Mob Software），14740（Network），15640（DS），15618（PP）
 26 Fall：15619（Cloud Computing）
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+- [Peixin Zhao（LinkedIn）](https://www.linkedin.com/in/peixin-cecilie-zhao/)：北京大学社会学本科（2016–2020）；Carnegie Mellon University 硕士（2021–2022），教育栏和课程说明明确标注 MSMITE。公开工作记录包括 Microsoft Software Engineer Intern（2022年5–8月）、Microsoft Software Engineer（2023年2月–2026年4月）以及 Waymo Software Engineer（全职，2026年4月起，核验时显示在职）。该履历能说明个人跨专业学习与工作路径，不能据此推断项目整体就业表现。

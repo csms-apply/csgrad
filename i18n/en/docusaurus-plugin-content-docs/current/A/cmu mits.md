@@ -1,12 +1,6 @@
 
 # CMU MITS
 
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-- [Ran Tao (LinkedIn)](https://www.linkedin.com/in/ran-tao-057b77247/): B.S. in Mathematics and Economics, University of Wisconsin–Madison (September 2020–May 2023); Master of Information Technology Strategy, Carnegie Mellon University (September 2023–December 2024). Listed roles include Full Stack Developer Intern at CassianRx (May–August 2024) and Software Engineer at Google (full-time, August 2025–present as displayed when checked).
-
 # Program Overview
 This is a joint program co-offered by SCS, CIT, and IPS. (Nobody really cares -- at CMU, aside from MSCS, the reputation differences between other programs get smoothed out by individual differences.)
 
@@ -55,3 +49,9 @@ My interview questions at the time:
 6. Fudan University Software Engineering undergrad, GPA 3.58, combined 13 months of internship at Tencent and Meituan, couldn't find a US internship, went back to China to intern at ByteDance. New grad landed Splunk
 7. Tongji University Engineering undergrad, GPA 90, no internship, landed Amazon
 8. ZJU CS undergrad, two-month internship at China Merchants Bank, then five-month internship at ByteDance, intern landed Apple, new grad landed Goldman Sachs
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+- [Ran Tao (LinkedIn)](https://www.linkedin.com/in/ran-tao-057b77247/): B.S. in Mathematics and Economics, University of Wisconsin–Madison (September 2020–May 2023); Master of Information Technology Strategy, Carnegie Mellon University (September 2023–December 2024). Listed roles include Full Stack Developer Intern at CassianRx (May–August 2024) and Software Engineer at Google (full-time, August 2025–present as displayed when checked).
