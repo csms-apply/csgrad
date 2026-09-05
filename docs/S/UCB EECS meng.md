@@ -69,3 +69,11 @@ Capstone 项目则是一个两学期的长期项目，有些是和公司合作�
 靠近湾区，气候宜人，周围好吃的店也不少。尤其是如果有车的话，周末去 SF 吃个饭、看看海，生活质量还是很高的。
 
 学校本身的设施中规中矩，EECS 的教学楼比较老旧，图书馆的座位经常爆满，想要安静的自习空间有时候不太容易。Berkeley 的运动设施还不错，学生可以免费使用游泳池、健身房等资源。如果喜欢户外活动的话，学校附近也有很多 hiking trail，跑步或者徒步都很方便。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| Purdue University，Bachelor's degree in Electrical Engineering，2017-08–2021-05 | University of California, Berkeley，EECS MEng，2022-08–2023-05 | XING Mobility，Software Engineer Intern（实习），2021-12–2022-04；SLB，Electrical Engineer @ SNE Energy Storage（全职），2023-07–2024-01；Apple，Lab Operations Engineer（全职），2026-08–履历所示 Present | [Cheng-Kai Chen 的 LinkedIn 履历](https://www.linkedin.com/in/cheng-kai-chen7553/) |

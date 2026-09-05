@@ -31,3 +31,12 @@ Wld很小，学费6w刀。个人认为也适合cs科班，require 实习，如�
 
 上一届的同学建议暑假找老师或合作小公司做项目和实习，最后一个学期的capstone也能补充简历的不足。
 
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Shlok Jain](https://www.linkedin.com/in/jain-shlok/) | Global Academy of Technology，Bachelor of Engineering in Computer Science（2016–2020） | UC Irvine，Master of Software Engineering（2024 年 9 月–2025 年 12 月） | Esri：Software Development Engineer II，全职，2026 年 1 月–至今；Software Engineering Intern，实习，2025 年 6 月起，页面仍标至今，未提供可信结束日期。读硕士前在 GeekyAnts 任 Software Engineer、Senior Software Engineer、Senior Software Engineer II，均为全职（2020 年 9 月–2024 年 1 月）。 |
+

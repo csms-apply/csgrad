@@ -15,4 +15,11 @@ UCSD, UCLA, UIUC, Brandeis, NYU, Penn State, University of Toronto, Waterloo
 ## Job Outcomes
 Landing rate is roughly 60%. The main pain point is that extension is troublesome. For extension requests, it's recommended to cite health reasons.
 
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| University of Wisconsin–Madison, Bachelor's Degree in Computer Engineering & Computer Science, 2012–2017 | Cornell University, Master of Engineering in Computer Science, 2017-08–2018-05; campus not specified on the profile | Shutterstock, Software Engineer (full-time), 2018-06–2019-08; Yext, Software Engineer (full-time), 2021-12–2024-06; Amazon, Software Development Engineer II (full-time), 2025-08–Present as listed on the profile | [Ruihao Zhu's LinkedIn profile](https://www.linkedin.com/in/ruihao-zhu-39b16369/) |
 

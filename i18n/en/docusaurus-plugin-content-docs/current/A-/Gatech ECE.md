@@ -52,3 +52,13 @@ No extra charge for overloading — beyond 12 credits it is free. If you have th
 # How to Prepare for Internship Hunting After Arriving at GT
 
 ![Georgia Tech ECE internship, co-op and full-time planning paths](/img/en/gtecetimeline.svg)
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Srinidhi S P](https://www.linkedin.com/in/srinidhi-sp/) | National Institute of Technology, Tiruchirappalli, BTech, major in Electrical and Electronics Engineering and minor in Computer Applications, 2018–2022 | Georgia Institute of Technology, MS in Electrical and Computer Engineering, August 2024–December 2025 | Google Embedded Software Engineer (full-time), July 2022–August 2024; Astera Labs Firmware Engineer (internship), May–August 2025; NVIDIA Firmware Engineer (full-time), February 2026–present as displayed when checked |
+
+The Google role began before the master's program and should not be counted as employment after this degree. The Astera Labs internship took place during the master's program; the NVIDIA role began after the listed master's end date.

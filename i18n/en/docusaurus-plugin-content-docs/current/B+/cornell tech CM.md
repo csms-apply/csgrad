@@ -50,3 +50,12 @@ CT awards a Cornell degree, so it can roughly be seen as Cornell. It seems like 
 Everyone still looking for Summer Interns is probably counting on Amazon's big hiring wave this year, but that has nothing to do with CT, lol. In summary, the school provides basically no help with job hunting, and the Cornell title may not be as valuable in the job market as some engineering-focused schools.
 
 1. SCU transfer to US undergrad, four months of small company internship, landed Meta new grad
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Jou-An (Joanne) Chen](https://www.linkedin.com/in/jouan-chen-joanne/) | National Taiwan University, BBA in Business Administration and Management (2015–2020) | Cornell Tech, master's in Information Systems with a concentration in Connective Media (Jul 2023–May 2025) | Amazon, Software Development Engineer II, full-time (Jun 2025–present); TikTok, Software Engineer, internship (May–Aug 2024). Before enrollment: ShopBack, Software Engineer, full-time (Apr 2021–Jul 2023). |

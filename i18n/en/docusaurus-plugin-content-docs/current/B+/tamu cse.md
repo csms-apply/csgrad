@@ -29,3 +29,12 @@ Although TAMU has many advantages and its engineering school is quite prestigiou
 - Indian undergrad, multiple web developer internships, landed small company DS
 
 The above are some of the better cases. However, for students with bad luck and insufficient experience (not much industry experience), since TAMU itself provides no boost, there is a common problem of difficulty finding jobs (no interviews).
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Divij Bajaj](https://www.linkedin.com/in/divij-bajaj-91292482/) | Indian Institute of Technology (BHU), Varanasi, BTech in Electronics Engineering (Jul 2017–May 2021) | Texas A&M University, MS in Computer Science (Aug 2023–May 2025) | Amazon, Applied Scientist I, full-time (May 2025–present). Before enrollment: Wells Fargo, Program Associate (Jul 2021–Aug 2022), then Data Engineer (Aug 2022–Aug 2023), both full-time. |

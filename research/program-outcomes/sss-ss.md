@@ -76,5 +76,6 @@
 Google 曾出现异常流量验证码。用户于本轮手动验证后已恢复，现仅由根任务低频串行查询。
 
 - Princeton MSECS：用户验证后已恢复检索并完成一条样本，见上。
-- UIUC MSCS：已核验候选实际为MCS，未收录，见 [排除记录](uiuc-mscs.md)。
-- Yale MSCS 2year 尚未单独查询，不能解读为没有公开样本。
+- UIUC MSCS：专门按thesis查询后已核验并收录，见 [核验与排除记录](uiuc-mscs.md)。
+- Yale MSCS 2year：已核验Katie Rimey原页明确Two-year MS CS program，见 [核验记录](yale-two-year.md)。
+- 本分组15项目均已调查；14项目有新增来源，MIT CSE候选均不匹配目标硕士，保留缺口。

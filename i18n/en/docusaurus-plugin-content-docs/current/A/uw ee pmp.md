@@ -39,3 +39,13 @@ The admission difficulty is moderate -- GPA 3.5+ is fairly safe. I personally th
 If your GPA isn't particularly high, consider applying to UW EE PMP. It's a great job-hunting-oriented program choice.
 
 **25 Fall threshold has clearly risen. Many applicants with high GPAs and high rankings from CS backgrounds were rejected, possibly due to being overqualified. There were even cases of CMU MSIN admits being rejected by UW EE PMP. The days of using UW EE PMP as a safety school are over. It is strongly recommended to find another safety school option.**
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [CHIA-EN Wu](https://www.linkedin.com/in/chia-en-wu-66977623a/?locale=en) | Soochow University, BBA in Big Data Management, September 2020–June 2024 | University of Washington, Master of Science in Electrical Engineering, August 2025–October 2027; the education description explicitly identifies the ECE PMP (Professional Master's Program) | AWS Software Engineer Intern (EC2 Nitro), June–September 2026; Tencent Data Engineer Intern, July–October 2023 |
+
+The listed master's end date is still in the future, so this is not a graduate outcome. The AWS internship dates are reproduced as listed; verification took place during its listed end month. The Tencent internship was during undergraduate study, not employment after the master's degree.

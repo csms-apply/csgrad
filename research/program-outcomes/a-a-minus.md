@@ -35,16 +35,38 @@ MCIT已搜索并核验3候选，但授课模式证据不足，保留缺口；不
 
 四个候选均未明确线上/线下模式，暂未追加到线下MCS正文。Vincent H是根任务提供的额外候选，尚未打开，不计核验。MSCS记录单列uiuc-mscs.md。
 
+## Columbia MSCS 补充核验
+
+根任务Google查询 `Columbia MSCS alumni site:linkedin.com/in` 提供候选；已打开[Chi Wu](https://www.linkedin.com/in/kevin-chi-wu/)原始履历。About明确Columbia M.S. Computer Science；教育栏Columbia硕士2021–2022、National Chengchi University Statistics本科2016年9月–2021年1月。工作Amazon SDE Intern 2022年5–8月、Framewrk Software Developer全职2023年2–7月、Amazon SDE全职2023年9月至今。已追加双语正文文末。其余Gabriel Klass、Jay Zhou、Tanmay Agarwal未打开，不计已核验。
+
+同次George Wang候选已核验，Cornell为Systems Engineering MEng，不能加入Cornell CS MEng，详见cornell-cs-meng.md。
+
+## UW EE PMP 补充核验
+
+根任务Google查询 `University Washington Electrical Engineering PMP master site:linkedin.com/in` 提供候选；已打开[CHIA-EN Wu](https://www.linkedin.com/in/chia-en-wu-66977623a/?locale=en)原始履历并滚动加载Education。教育描述明确“within the ECE PMP (Professional Master's Program)”，不是项目管理PMP证书。UW MSEE 2025年8月–2027年10月；Soochow University BBA, Big Data Management 2020年9月–2024年6月；AWS软件工程实习生（EC2 Nitro）2026年6–9月、Tencent Data Engineer Intern 2023年7–10月。已补双语文末，并明确未来毕业时间、AWS结束月份、Tencent为本科期间实习。Shengyang Zhou、Hong Nguyen、Sai Jayanth尚未打开，不计核验。
+
+## Georgia Tech ECE 补充核验
+
+根任务Google查询 `Georgia Tech ECE masters alumni site:linkedin.com/in` 提供候选；已打开[Srinidhi S P](https://www.linkedin.com/in/srinidhi-sp/)原始履历并加载Education、Experience。Georgia Tech MS Electrical and Computer Engineering 2024年8月–2025年12月；NIT Tiruchirappalli BTech主修Electrical and Electronics Engineering、辅修Computer Applications 2018–2022。Google Embedded Software Engineer全职2022年7月–2024年8月；Astera Labs Firmware Engineer实习2025年5–8月；NVIDIA Firmware Engineer全职2026年2月至今。已补双语文末并区分硕士前工作、在读实习与结束日期后的职位。Peter Ho、Vincent Pham、Siddharth Khatri未打开，不计核验。
+
+## Brown ScM CS 补充核验
+
+根任务Google查询 `Brown ScM Computer Science alumni site:linkedin.com/in` 提供候选。已打开[Li-Heng Pan](https://www.linkedin.com/in/liheng-pan/)本人动态明确Brown M.S. Data Science，排除CS样本。随后核验[Han Cai](https://www.linkedin.com/in/han-cai-880358229/)教育和工作栏：headline明确CS SCM @ Brown；教育栏Brown Master of Science Computer Science 2021年9月–2023年5月，University of Nottingham BSc First Class Computer Science 2016年9月–2020年6月（未注明校区，不推断英国或宁波）。Seismic SWE Intern 2022年6–9月；Seismic SWE I全职2023年6月–2024年2月；Naviam SWE全职2024年3月至今。已追加双语文末，不与旧匿名案例建立对应。Richard Gao、Joseph Ricciardulli未打开，不计核验。
+
+## CMU SESV / MSESS 补充核验
+
+根任务Google查询 `CMU software engineering masters alumni site:linkedin.com/in` 提供两项目候选。已打开以下三人的Education和Experience；都未明确Silicon Valley校区或Scalable Systems方向，暂不将泛MSE履历归入任一项目正文。
+
+- [Kazu T.](https://www.linkedin.com/in/pco2699/)：CMU School of Computer Science, Master of Software Engineering，2022年8月–2023年12月；另可见Keio CS硕士2011年4月–2013年3月，本科在折叠条目内未核验。Meta Senior SWE全职自2024年3月起，WealthNavi Senior SWE全职2018年1月–2022年7月。SCS及Pittsburgh助教工作不等于MSESS具体方向，不收录。
+- [Zhaoyu Chen](https://www.linkedin.com/in/zhaoyu-chen/)：CMU Master's degree, Computer Software Engineering，2021–2022；UESTC BE Computer Software Engineering，2016年9月–2020年6月；Pure Storage SWE全职2023年2月至今；Lacework Software Engineer Intern 2022年5–8月（职位为实习，雇佣类型却标Full-time）。未公开校区/方向，不收录。
+- [Pu Xiao](https://www.linkedin.com/in/pu-xiao-712043301/)：CMU Master's degree, Computer Software Engineering，2024年6月–2025年12月；天津大学BE Artificial Intelligence，2019年9月–2023年6月；DigitalOcean SWE Intern 2025年5–8月，TikTok SWE全职2026年1月至今；Guimu Robot SWE全职2023年7月–2024年8月。About只写Master of Software Engineering，headline SCS不能证明Scalable Systems；未公开SV，不收录。
+
+Yingxin Liang、Shujing Lin、Sizhuo Sun尚未打开，不计核验。两项目已查共同查询及候选，但仍缺明确项目归属的履历；不得写成查无公开样本。
+
 ## 尚待串行查询的项目
 
 以下项目尚未查询，不计入检索覆盖，也不等同于没有公开案例。Google恢复后由根任务逐项串行查询并分发候选。
 
-- A / uw ee pmp
-- A / columbia mscs
-- A- / Gatech ECE
-- A- / brown scmcs
-- A- / cmu sesv
-- A- / CMU MSESS
 - A- / NYU DS
 - A- / uchicago mpcs
 - A- / jhu msecs
@@ -56,4 +78,4 @@ MCIT已搜索并核验3候选，但授课模式证据不足，保留缺口；不
 
 ## 当前覆盖
 
-22个负责项目中：8个已获取Google结果并打开LinkedIn候选；5个已补中英文正文；Yale、Penn MCIT、UIUC MCS模式尚待确认；14个尚未查询。另行受派Penn CIS并补双语样本、UIUC MSCS进行候选排除，见独立日志，不计入这22个分母。没有修改旧匿名案例，没有以旧案例对应这些实名履历。
+22个负责项目中：14个已获取Google结果并打开LinkedIn候选；9个已补中英文正文；Yale、Penn MCIT、UIUC MCS模式与CMU SESV、MSESS具体归属尚待确认；8个尚未查询。另行受派Penn CIS并补双语样本、UIUC MSCS与Cornell CS MEng进行候选排除，见独立日志，不计入这22个分母。没有修改旧匿名案例，没有以旧案例对应这些实名履历。

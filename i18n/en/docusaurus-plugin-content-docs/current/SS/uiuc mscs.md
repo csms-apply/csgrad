@@ -37,3 +37,11 @@ McMaster University  Mechatronics Engineering undergrad, GPA 11/12
 4. UIUC CS undergrad, landed Dropbox DS intern
 5. UIUC CS undergrad, landed Chicago small company intern
 6. IIT CS undergrad (female), multiple research internships, landed JP Morgan Quant AI
+
+## Public education and employment samples
+
+These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
+
+| Undergraduate education | Master's education | Internship and employment record | Source |
+| --- | --- | --- | --- |
+| UT Austin, BS Computer Science with an AI/ML concentration, 2018–2022; minors in Business and Informatics | UIUC, MS Computer Science; About explicitly identifies an ongoing thesis-track MSCS in the Social Sensing Lab; dates not listed | Microsoft Software Engineer Intern, May–Aug 2021; Apple Software Engineer, full-time, Jul 2022–present on the profile. The profile states work and master's study are concurrent; this is not a post-master's employment outcome. | [Tejna Dasari's LinkedIn](https://www.linkedin.com/in/tejna-dasari/) |

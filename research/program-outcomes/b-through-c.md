@@ -6,7 +6,7 @@
 
 ## 当前覆盖
 
-已完成 Google 发现并核验个人页：7/25。已添加样本：7 个项目、9 人，中英文各 7 页。Google 验证由用户处理后，根 agent 已恢复串行发现并提供候选；另 18 项尚未完成核验。**待查不等于无数据，未宣称这 18 项已完成研究。**
+已完成 Google 发现并核验个人页：11/25。已添加样本：11 个项目、13 人，中英文各 11 页。Google 验证由用户处理后，根 agent 已恢复串行发现并提供候选；另 14 项尚未完成核验。**待查不等于无数据，未宣称这 14 项已完成研究。**
 
 ## 已核验
 
@@ -101,14 +101,50 @@
 - 任职：Tesla，Electrical Design Engineer，Battery Electronics 团队，全职（2026-07—至今）
 - 核验限制：明确University of Pennsylvania，非Penn State；硕士为本校accelerated路径，不能当作外部单独硕士录取背景。未将SpaceX页面Full-time栏自动写成永久全职工作。
 
+### CMU MISM — Ziling Xu
+
+- 页面：`docs/B+/cmu mism.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`CMU MISM alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Ziling Xu](https://www.linkedin.com/in/zilingx/)。
+- 本科：北京师范大学，BS Mathematics and Applied Mathematics（2014—2018）。
+- 硕士：Carnegie Mellon University，Master of Information Systems Management（2018—2020）。
+- 任职：Interactive Brokers，Application Programmer，全职（2020-07—2022-07）；Salesforce，Member of Technical Staff，全职（2022-07—2024-07），后任 Senior Member of Technical Staff（2024-08—至今）
+- 核验限制：教育栏明确MISM；只公开年份，未推断月份、12/16月track或校区。
+
+### Cornell Tech Connective Media — Jou-An (Joanne) Chen
+
+- 页面：`docs/B+/cornell tech CM.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Cornell Tech Connective Media alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Jou-An (Joanne) Chen](https://www.linkedin.com/in/jouan-chen-joanne/)。
+- 本科：National Taiwan University，BBA Business Administration and Management（2015—2020）。
+- 硕士：Cornell Tech，Information Systems 硕士，Connective Media concentration（2023-07—2025-05）。
+- 任职：Amazon，Software Development Engineer II，全职（2025-06—至今）；TikTok，Software Engineer，实习（2024-05—2024-08）；入读前在 ShopBack 任 Software Engineer，全职（2021-04—2023-07）
+- 核验限制：Education和About均明确Connective Media；未据项目制度推断Technion等额外学位。
+
+### TAMU CSE — MSCS — Divij Bajaj
+
+- 页面：`docs/B+/tamu cse.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Texas A&M computer science masters alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Divij Bajaj](https://www.linkedin.com/in/divij-bajaj-91292482/)。
+- 本科：Indian Institute of Technology (BHU), Varanasi，BTech Electronics Engineering（2017-07—2021-05）。
+- 硕士：Texas A&M University，MS Computer Science（2023-08—2025-05）。
+- 任职：Amazon，Applied Scientist I，全职（2025-05—至今）；入读前在 Wells Fargo 任 Program Associate（2021-07—2022-08），后任 Data Engineer（2022-08—2023-08），均为全职
+- 核验限制：页面正文覆盖CSE多个学位；本例明确为MSCS，非MCS/ECE/DS，不推断thesis选项、换项目或实习转正。
+
+### UCI MSWE — Shlok Jain
+
+- 页面：`docs/B+/uci mswe.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`UCI MSWE alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Shlok Jain](https://www.linkedin.com/in/jain-shlok/)。
+- 本科：Global Academy of Technology，Bachelor of Engineering in Computer Science（2016–2020）。
+- 硕士：UC Irvine，Master of Software Engineering（2024 年 9 月–2025 年 12 月）。
+- 任职：Esri：Software Development Engineer II，全职，2026 年 1 月–至今；Software Engineering Intern，实习，2025 年 6 月起，页面仍标至今，未提供可信结束日期。读硕士前在 GeekyAnts 任 Software Engineer、Senior Software Engineer、Senior Software Engineer II，均为全职（2020 年 9 月–2024 年 1 月）。
+- 核验限制：Education 明确写 Master of Software Engineering，页首同时写 MSWE；未与研究型 MSSE 混用。Esri 实习与全职条目均标至今，实习结束时间未更新，不推断转正日期。Google 候选 URL /in/shlok-jain-098210165 自动跳转到 /in/jain-shlok/。另核验 ChenChen C.（https://www.linkedin.com/in/chen-chen-chuang/），其教育仅写 Master's degree, Software Engineering，未明确 MSWE/MSSE，且 Sigma 条目至今与求职动态存在不一致，故不作为本页样本。
+
 ## 待研究清单
 
 | 页面 | 待核对项目名称 | 状态 |
 | --- | --- | --- |
-| `docs/B+/cmu mism.md` | CMU MISM | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B+/cornell tech CM.md` | Cornell Tech Connective Media | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B+/tamu cse.md` | Texas A&M CSE 硕士（需核对具体学位） | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B+/uci mswe.md` | UCI Master of Software Engineering | 尚未 Google 查询；受统一限流暂停影响 |
 | `docs/B/Emory MSCS.md` | Emory MSCS | 尚未 Google 查询；受统一限流暂停影响 |
 | `docs/B/NCSU MCS.md` | NC State MCS | 尚未 Google 查询；受统一限流暂停影响 |
 | `docs/B/NEU CS ALIGN.md` | NEU CS Align | 尚未 Google 查询；受统一限流暂停影响 |

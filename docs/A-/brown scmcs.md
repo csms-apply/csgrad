@@ -49,3 +49,13 @@ diversity 不一定有用，25 年dei 项目已经被取消了。只有微软还
 5. 印度同学，在校期间三段实习经历，一年全职工作经历，上岸 Senior Financial Analyst  American Express
 6. brown cs本科，有两段小厂实习，上岸meta intern
 7. brown cs本科，有一段一年intern, 上岸jane street intern并且转正
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Han Cai](https://www.linkedin.com/in/han-cai-880358229/) | University of Nottingham，Computer Science BSc（First Class），2016年9月–2020年6月；页面未注明校区 | Brown University，Computer Science 硕士，2021年9月–2023年5月；标题明确 CS SCM，教育栏写作 Master of Science | Seismic Software Engineer Intern，2022年6–9月；Seismic Software Engineer I（全职），2023年6月–2024年2月；Naviam Software Engineer（全职），2024年3月至今（核验时页面所示） |
+
+Seismic 实习发生在硕士期间；两段全职工作开始于履历所列硕士结束日期之后。该实名履历独立列示，不对应上方匿名案例。

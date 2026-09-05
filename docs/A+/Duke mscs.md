@@ -90,3 +90,11 @@ Vue + Express + MongoDB + Socket.io
 课程内容：每节课都需要读 paper 并写 response，课堂内容与 paper 相关。
 项目：需自己实现一个分布式系统。
 总体评价：研究导向，适合想深入学习分布式系统的同学。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| UC Irvine，Bachelor's degree in Computer Science，2016–2019 | Duke University，Master of Science in Computer Science，2021–2023 | Meta，Software Engineer Intern，2022-05–2022-08；IXL Learning，Software Engineer（全职），2023-09–2026-01；IXL Learning，Senior Software Engineer（全职），2026-01–履历所示 Present | [Yubo D. 的 LinkedIn 履历](https://www.linkedin.com/in/yuboding/) |

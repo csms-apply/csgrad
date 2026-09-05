@@ -40,3 +40,12 @@ rolling 制度，早申早录取。想来mism早点申请
 5. Waseda University ee本科，本科期间在香港做过quant，在google 东京做过intern，在hk jpmorgan也实习过，上岸google swe intern并且转正
 6. 对外经贸financial engineering 本科有多段金融实习，上岸小厂intern，ng 上岸goldman sachs
 7. 印度本科，四年德勤全职，上岸匹兹堡小厂ng
+
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Ziling Xu](https://www.linkedin.com/in/zilingx/) | 北京师范大学，BS Mathematics and Applied Mathematics（2014—2018） | Carnegie Mellon University，Master of Information Systems Management（2018—2020） | Interactive Brokers，Application Programmer，全职（2020-07—2022-07）；Salesforce，Member of Technical Staff，全职（2022-07—2024-07），后任 Senior Member of Technical Staff（2024-08—至今） |

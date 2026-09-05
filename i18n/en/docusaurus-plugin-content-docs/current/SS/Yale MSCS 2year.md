@@ -13,3 +13,11 @@ Annual enrollment is 15. Can be treated as a PhD application.
 2. US undergrad, top 30, GPA 3.97, CVPR publication
 3. US undergrad, GPA 3.94, two research experiences totaling 1 year, one paper under review at time of application, recommendation letter from a Yale alumnus professor
 4. Florida CS undergrad, GPA 4.0, one year TA, one and a half years of research experience, no publications or internships
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Boston University, Bachelor of Arts in Computer Science, 2020-09–2024-05 | Yale University, Master of Science in Computer Science, 2024-08–2026-05; the Education section explicitly identifies the Two-year MS CS program | Yale University, Graduate Teaching Fellow, 2024-08–2026-05; American Civics Exchange, Software Engineer (contract), 2025-06–2026-02; MATS Research, Research Manager (full-time), 2026-05–Present as listed on the profile | [Katie Rimey's LinkedIn profile](https://www.linkedin.com/in/katherine-rimey/) |

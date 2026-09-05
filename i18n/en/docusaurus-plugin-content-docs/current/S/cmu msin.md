@@ -56,3 +56,11 @@ Even for the class of 2024 during that brutal job market, new grad outcomes were
 The PhD pathway is also strong, with admits to Columbia PhD, CMU PhD, and Yale PhD.
 
 [![CMU MSIN continuing-education destinations; open full size](/img/en/msintophd.png)](/img/en/msintophd.png)
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| New York University, Bachelor's degree in Computer Science and Mathematics with a Data Science minor, 2020-09–2024-05 | Carnegie Mellon University, Master's degree in Information Networking - Advanced Study, 2024-08–2026-05; Data Systems concentration | Amazon, SDE Intern (internship), 2025-06–2025-08; Google, Software Engineer (full-time), 2026-07–Present as listed on the profile | [Tianhao Gu's LinkedIn profile](https://www.linkedin.com/in/tianhao-gu-930521223/) |

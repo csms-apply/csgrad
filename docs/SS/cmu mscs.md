@@ -39,3 +39,4 @@ iit cs本科，gpa 9.58/10，微软三年全职
 | 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
 | --- | --- | --- | --- |
 | University of Maryland，BS Computer Science，Statistics 辅修，2022-08–2026-05 | Carnegie Mellon University，Master of Science, Computer Science，2026–2027（履历列出的结束日期晚于本次核验日期） | TikTok，Backend Software Engineer Intern（实习），2025-05–2025-08、2026-05–2026-08 | [Andrew Wang 的 LinkedIn 履历](https://www.linkedin.com/in/andrewwang04/) |
+| Carnegie Mellon University，Bachelor of Science in Computer Science，2019–2022 | Carnegie Mellon University，Master of Science in Computer Science，2023-01–2023-12 | Amazon，Software Development Engineer Intern（实习），2021-05–2021-08；Amazon，Software Developer Engineer Intern（实习），2022-05–2022-08；Amazon，Software Development Engineer（全职），2023-12–履历所示 Present | [Olivia Xu 的 LinkedIn 履历](https://www.linkedin.com/in/olivia-xu-cmu23/) |

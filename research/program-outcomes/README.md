@@ -4,18 +4,18 @@
 
 | 状态 | 项目数 | 说明 |
 | --- | ---: | --- |
-| 已补充来源样本 | 30 | 共 33 人，中英文各 30 页；每条已打开 LinkedIn 核对具体学位与工作记录 |
-| 已查候选但未收录 | 6 | MIT CSE、UIUC MSCS 候选不属于目标硕士；Yale 一年制、Penn MCIT、UIUC MCS、UT Austin MSCS 的项目模式未确认 |
-| 已发现候选、核验中 | 1 | CMU MISM |
-| 尚未查询 | 46 | 见各分组记录；不能视为没有公开案例 |
+| 已补充来源样本 | 45 | 共 49 人，中英文各 45 页；每条已打开 LinkedIn 核对具体学位与工作记录 |
+| 已查候选但未收录 | 8 | MIT CSE 候选不属于目标硕士；Yale 一年制、Penn MCIT、UIUC MCS、UT Austin MSCS、Georgia Tech MSCS、CMU MSESS、CMU SESV 的项目模式或方向未确认 |
+| 已发现候选、核验中 | 3 | Emory MSCS、NCSU MCS、Columbia DS |
+| 尚未查询 | 27 | 见各分组记录；不能视为没有公开案例 |
 | 合计 | 83 | 目标范围与当前实际覆盖分开记录 |
 
 ## 分组证据
 
-- [SSS / SS](sss-ss.md)：15 项目，12 项补充。
-- [S / A+](s-a-plus.md)：21 项目，6 项补充，含 [Penn CIS](penn-cis.md) 的独立记录。
-- [A / A-](a-a-minus.md)：22 项目，5 项补充。
-- [B+ / B / B- / C+](b-through-c.md)：25 项目，7 项补充。
+- [SSS / SS](sss-ss.md)：15 项目，14 项补充。
+- [S / A+](s-a-plus.md)：21 项目，11 项补充，含 [Penn CIS](penn-cis.md) 的独立记录。
+- [A / A-](a-a-minus.md)：22 项目，9 项补充。
+- [B+ / B / B- / C+](b-through-c.md)：25 项目，11 项补充。
 
 ## 收录口径
 

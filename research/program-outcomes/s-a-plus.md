@@ -52,6 +52,60 @@
 - 结果：已直接核验并写入中英文正文，不能把该样本描述为完成了单独的项目关键词搜索。
 - 同次 Google 结果还出现 [Tianyi Cheng](https://www.linkedin.com/in/eva-tianyi-cheng)，尚未打开，不写成已核实样本。
 
+### CMU MSCV
+
+- 文件：`docs/S/CMU MSCV.md`。
+- Google 来源查询：根任务串行搜索 `CMU MSCV alumni site:linkedin.com/in` 后分发候选；本子任务没有新发 Google 查询。
+- 已核验并收录：[Zeen Chi](https://www.linkedin.com/in/zeen-chi-230333238/)。教育栏（含 Show all educations）：ShanghaiTech University，Bachelor of Engineering - BE, Computer Science，2020-09–2024-07；Carnegie Mellon University，Master of Science - MS, Computer Vision，2024-08–2025-12。MIT 条目明确是 Exchange Student，未误写为本科学位。
+- 工作栏：Microsoft，Software Engineer Intern，Internship，2024-05–2024-08；Adobe，Software Engineer Intern，2025-05–2025-08，雇佣类型显示为 Full-time，正文保留原岗位名称，不将其改称正式非实习岗；Waymo，Software Engineer，Full-time，2026-02–Present。
+- 结果：教育及任职日期直接核验后追加至中英文页文末；2024 年 Microsoft 实习开始时间早于硕士入学，不能归因于 MSCV。个人样本不证明原文所述整体就业率。
+- 排除并转交正确项目：[Olivia Xu](https://www.linkedin.com/in/olivia-xu-cmu23/)。Education 明确为 CMU Master of Science in Computer Science，2023-01–2023-12，没有 Computer Vision 项目证据；不放入 MSCV，已按根任务指示补入 CMU MSCS，详见 `research/program-outcomes/cmu-mscs.md`。
+- 未打开的同次候选：[Yixin Fei](https://www.linkedin.com/in/yixinfei)、[Anujraaj Goel](https://www.linkedin.com/in/anujraajgoel)。已获得一条项目明确的完整样本，未将这两人列为已核实。
+
+### CMU MSIN
+
+- 文件：`docs/S/cmu msin.md`。
+- Google 来源查询：根任务串行搜索 `CMU MSIN alumni site:linkedin.com/in` 后分发候选；本子任务仅打开已提供的 LinkedIn 链接，没有新发 Google 查询或站内搜索。
+- 已核验并收录：[Tianhao Gu](https://www.linkedin.com/in/tianhao-gu-930521223/)。
+- 教育栏：New York University，Bachelor's degree, Computer Science, Mathematics，2020-09–2024-05，正文另写 Minor in Data Science；Carnegie Mellon University，Master's degree, Information Networking - Advanced Study，2024-08–2026-05，Area of Concentration 为 Data Systems。
+- 工作栏：Amazon，SDE Intern，Internship，2025-06–2025-08；Google，Software Engineer，Full-time，2026-07–Present。
+- 核验过程：读取原页 Experience、Education 的具体条目。页面证书栏也列出 Master of Science in Information Networking - Advanced Study，但正文保留教育栏的学位表述，不混用证书签发日期。
+- 结果：追加至中英文页文末；不将这条实名履历与已有匿名案例对应，不推断申请时背景、录取原因、实习转正或整体就业率。Present 为核验时的页面状态。
+- 未打开的同次候选：[Hanyu Xu](https://www.linkedin.com/in/hanyuxu010806)、[Guan Ting Ting](https://www.linkedin.com/in/guan-ting-ting)、[Lili He](https://www.linkedin.com/in/lili-he-cmu)。已经核实一条项目明确的完整路径，不把其余候选视为已核实。
+
+### UC Berkeley EECS MEng
+
+- 文件：`docs/S/UCB EECS meng.md`。
+- Google 来源查询：根任务串行搜索 `Berkeley EECS MEng alumni site:linkedin.com/in` 后分发候选；本子任务没有新发 Google 查询或 LinkedIn 站内搜索。
+- 已核验并收录：[Cheng-Kai Chen](https://www.linkedin.com/in/cheng-kai-chen7553/)。
+- 教育栏：Purdue University College of Engineering，Bachelor's degree, Electrical engineering，2017-08–2021-05；University of California, Berkeley，Master's degree, EECS，2022-08–2023-05。
+- MEng 归属证据：教育栏写 EECS，本人在同一履历的公开动态明确自述正在攻读 Berkeley 的 Master of Engineering (MEng)，并写明 Electrical Engineering (EECS) 和 Fung Institute；标题也写 MEng @ UC Berkeley。因此不是只凭一年时长或泛称 Master's degree 推断为 MEng，也未将 MS/PhD 样本混入。
+- 工作栏：XING Mobility，Software Engineer Intern，Internship，2021-12–2022-04；SLB，Electrical Engineer @ SNE Energy Storage，2023-07–2024-01，同公司分组雇佣类型为 Full-time；Apple，Lab Operations Engineer，Full-time，2026-08–Present。
+- 核验过程：读取原始履历的公开动态、Experience 与 Education。SLB 另有 Electrical Engineer @ Tractor Power Intervention Sustaining，2024-01–2026-07，未完整罗列全部岗位，不能把选取的经历误读为完整履历。
+- 结果：文末追加至中英文页。XING 实习发生于硕士入学之前，不能描述为项目期间获得的实习；不推断申请时背景、录取因果、实习转正、CPT/OPT 或整体就业率。
+- 未打开的同次候选：[Kathy Zhuang](https://www.linkedin.com/in/yue-kathy-zhuang)、[Eugene Ng](https://www.linkedin.com/in/eugeneng04)、[Junhua Ma](https://www.linkedin.com/in/jum-dev)、[Yiting Gao](https://www.linkedin.com/in/yitingg)。已获得一条明确 MEng 的本科及工作路径，未把其余候选当作已核实。
+
+### Cornell CS MEng
+
+- 文件：`docs/S/Cornell CS MENG.md`。原页面同时介绍 Ithaca 与 Cornell Tech 两校区，不能把 Cornell University 学校名称默认解释为 Ithaca。
+- Google 来源查询：根任务串行搜索 `Cornell Computer Science MEng alumni site:linkedin.com/in` 后分发候选；本子任务没有新发 Google 查询或 LinkedIn 站内搜索。
+- 已核验并收录：[Ruihao Zhu](https://www.linkedin.com/in/ruihao-zhu-39b16369/)。Education 明确写 University of Wisconsin-Madison，Bachelor's Degree, Computer Engineering & Computer Science，2012–2017；Cornell University，Master of Engineering - MEng, Computer Science，2017-08–2018-05。具体学科明确为 Computer Science，**校区未注明**，正文同步标注，不写成 Systems Engineering 或擅自指定校区。
+- 工作栏：Shutterstock，Software Engineer，Full-time，2018-06–2019-08；Yext，Software Engineer，Full-time，2021-12–2024-06；Amazon，Software Development Engineer II，Full-time，2025-08–Present。另有 Amazon，Software Development Engineer，Full-time，2019-08–2021-12，正文只选取三项，不代表完整履历。
+- 结果：读取原页 Education 与 Experience 后追加至中英文页文末。仅记录公开教育与职业路径，不推断申请时背景、就业因果、实习转正、CPT/OPT 或整体就业率。
+- 已打开但未采用：[Amy Chen](https://www.linkedin.com/in/amy-chen25/)。Education 同时列 Cornell University、Cornell Tech 的 MEng Computer Science，均为 2025-08–2026-06，是重复院校表示，不能算两个硕士。Show all educations 中 Stony Brook University 本科条目写 `2022 to 2025 Computer Science Honors Program, Computer Science`，没有明确本科学位名称。工作栏只有 Capital One，Software Engineer Intern，Internship，2025-06–2025-08，以及 Broadridge，Software Intern，Internship，2024-06–2024-08；标题 SWE @C1 不能替代有日期的全职条目。由于 Ruihao 的本硕和全职记录更完整，本轮未将 Amy 加入正文。
+- 未打开的同次候选：[Nathan Tai](https://www.linkedin.com/in/nathantai)、[Yang Ji](https://ca.linkedin.com/in/yang-ji89)。未把其余候选当作已核实；其他代理原有的排除记录未修改。
+
+### Duke MSCS
+
+- 文件：`docs/A+/Duke mscs.md`。
+- Google 来源查询：根任务串行搜索 `Duke MSCS alumni site:linkedin.com/in` 后分发候选；本子任务仅打开原始 LinkedIn 履历，没有发起新 Google 查询或站内搜索。
+- 已核验并收录：[Yubo D.](https://www.linkedin.com/in/yuboding/)。姓名使用页面公开显示的缩写，不从 URL 推断完整姓名。
+- 教育栏：UC Irvine，Bachelor's degree, Computer Science，2016–2019；Duke University，Master of Science - MS, Computer Science，2021–2023。
+- 工作栏：Meta，Software Engineer Intern，2022-05–2022-08，雇佣类型显示为 Full-time，正文保留原岗位名称，不改称正式非实习岗；IXL Learning，Software Engineer，2023-09–2026-01；同公司 Senior Software Engineer，2026-01–Present，IXL 分组雇佣类型明确为 Full-time。
+- 核验过程：读取原页 Experience，向下加载 Education 后核对本硕学位及年份。没有使用标题中的学校或公司作为唯一证据，也没有根据公开履历对应原有匿名案例。
+- 结果：追加中英文页文末。只记录已显示的教育和职业路径，不推断申请时背景、录取因果、实习转正或整体就业率；Present 为核验时页面所示状态。
+- 未打开的同次候选：[Neha Senthil](https://www.linkedin.com/in/neha-l-senthil)、[Ethan Cheng](https://www.linkedin.com/in/ethan-cheng-bb0bb6222)。已取得一条项目明确的完整路径，未将其余候选列为已核实。
+
 ## 项目归属待确认，暂不收录正文
 
 ### UT Austin MSCS
@@ -63,17 +117,20 @@
 - 工作栏：Qmulos，Software Engineer Intern，Internship，2025-06–2025-09；AT&T，Software Engineer Intern，Internship，2026-06–2026-08。
 - 结果：**学位确认但授课模式未确认**。硕士结束日期晚于核验时间；公开履历没有说明线下或 online 授课模式，不能据此确认属于本站这篇线下项目页面。已从中英文正文撤下本次追加的样本，仅保留研究记录，待有直接证据区分授课模式后再考虑收录。
 
+### Georgia Tech MSCS
+
+- 文件：`docs/S/gatech mscs.md`。
+- Google 来源查询：根任务串行搜索 `Georgia Tech ECE masters alumni site:linkedin.com/in` 时发现 [Rashmee Gade](https://www.linkedin.com/in/rashmee-gade-3314rrg/) 并转交核验；尚未以单独 MSCS 关键词搜索，本子任务没有新发 Google 查询。
+- 教育栏：Georgia Institute of Technology，Master of Science, Computer Science，**没有列出日期或授课模式**；Rutgers University–New Brunswick，Electrical and Computer Engineering, Computer Engineering，2022-09–2026-05。About 自述近期完成 Rutgers 学习，将继续攻读 Georgia Tech MSCS。
+- 工作栏：London Success Academy，Software Testing Intern，Internship，2025-09，页面显示 1 mo；Rutgers University，UX Design Extern for Kobo Products Inc. via Rutgers MBS Externship Exchange Program，2026-01–2026-05，未显示雇佣类型；Blueprint，UI/UX Fellowship，2025-10–2025-12，未显示雇佣类型。
+- 核验过程：打开已提供原始履历，读取 About、Experience、Education；从 Activity 的 Show all comments 继续向下加载后才判断教育字段缺口。
+- 结果：**MSCS 学位名称确认，但授课模式和硕士日期未确认**。不依据所在地、求职意向或本科经历推断是线下 MSCS，也不把该候选算作 OMSCS；暂不追加中英文页面，只保存本研究记录。
+
 ## 尚未开展逐项目搜索
 
 以下是受 Google 验证影响而尚未检索的项目，不是“已搜索但无结果”。后续须逐项补充实际查询、候选链接、直接核验结果及缺口。
 
-- `docs/S/Cornell CS MENG.md`
-- `docs/S/CMU MSCV.md`
-- `docs/S/UCB EECS meng.md`
-- `docs/S/cmu msin.md`
-- `docs/S/gatech mscs.md`
 - `docs/A+/Gatech CSE.md`
-- `docs/A+/Duke mscs.md`
 - `docs/A+/UCLA MSCS.md`
 - `docs/A+/Upenn DS.md`
 - `docs/A+/ut ece.md`

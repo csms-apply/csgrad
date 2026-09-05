@@ -7,4 +7,10 @@
 - 同次候选[Kobe Guo](https://www.linkedin.com/in/kobeguo/)及[Baige He](https://www.linkedin.com/in/baige-he/)headline亦明确MCS，见a-a-minus.md。
 - Vincent H / https://www.linkedin.com/in/vincenthanbowdoin 为分发候选，尚未打开，不能计入核验。
 
-本轮没有确认到MSCS样本，未修改SS/uiuc mscs中英文正文。该结论仅指本次候选，不代表该项目不存在公开履历。
+## 按 MSCS 论文方向继续核验
+
+- 根任务随后查询 `UIUC "MSCS" thesis alumni site:linkedin.com/in`，找到 [Tejna Dasari](https://www.linkedin.com/in/tejna-dasari/)。
+- 本科教育栏：UT Austin BS Computer Science，AI/ML方向，2018–2022，Business与Informatics辅修。
+- 硕士教育栏：UIUC Master of Science, Computer Science，Social Sensing Lab，未列日期；About明确写正在完成 thesis-track MSCS。
+- 工作栏：Microsoft Software Engineer Intern 2021.05–2021.08；Apple Software Engineer Full-time 2022.07–Present。本人About说明工作和硕士并行，所以正文不当作毕业就业结果。
+- 已核验Education与Experience并写入SS/uiuc mscs中英文正文。

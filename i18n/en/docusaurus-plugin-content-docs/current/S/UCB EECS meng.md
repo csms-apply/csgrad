@@ -66,3 +66,11 @@ Overall, job search outcomes are decent -- noticeably better than Yale MSCS, whi
 Close to the Bay Area with pleasant weather and plenty of good restaurants nearby. Especially with a car, weekend trips to SF for dinner or ocean views make for a high quality of life.
 
 The campus facilities are average. The EECS building is fairly old, and library seating fills up fast, making it sometimes hard to find a quiet study space. Berkeley's athletic facilities are good -- students get free access to swimming pools, gyms, and other resources. If you enjoy outdoor activities, there are many hiking trails near campus, making running or hiking very convenient.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Purdue University, Bachelor's degree in Electrical Engineering, 2017-08–2021-05 | University of California, Berkeley, EECS MEng, 2022-08–2023-05 | XING Mobility, Software Engineer Intern (internship), 2021-12–2022-04; SLB, Electrical Engineer @ SNE Energy Storage (full-time), 2023-07–2024-01; Apple, Lab Operations Engineer (full-time), 2026-08–Present as listed on the profile | [Cheng-Kai Chen's LinkedIn profile](https://www.linkedin.com/in/cheng-kai-chen7553/) |

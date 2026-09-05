@@ -53,3 +53,13 @@ Round 2：临开学再解锁全校课，热门 CS 课要盯着 Wait‑list 刷�
 # 来了gt，怎么进行找实习准备
 
 ![](/img/gtecetimeline.png)
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Srinidhi S P](https://www.linkedin.com/in/srinidhi-sp/) | National Institute of Technology, Tiruchirappalli，BTech，主修 Electrical and Electronics Engineering、辅修 Computer Applications，2018–2022 | Georgia Institute of Technology，MS in Electrical and Computer Engineering，2024年8月–2025年12月 | Google Embedded Software Engineer（全职），2022年7月–2024年8月；Astera Labs Firmware Engineer（实习），2025年5–8月；NVIDIA Firmware Engineer（全职），2026年2月至今（核验时页面所示） |
+
+Google 工作始于硕士入学前，不能当作该硕士的毕业就业；Astera Labs 为硕士期间实习，NVIDIA 职位开始于履历所列硕士结束日期之后。
