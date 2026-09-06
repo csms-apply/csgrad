@@ -63,4 +63,3 @@ TOEFL 103 以上才会 fully admitted，79~102 会需要上英文课才可以毕
 9. 国立交通大学，九个月台湾c++全职，上岸nvidia swe intern并且转正
 10. UIUC CS本科 有IBM 实习，上岸nvidia swe intern并且转正
 11. uiuc cs本科三年毕业有小厂实习，上岸微软实习并且转正
-12. uiuc 心理+统计本科，辅修 cs+ds，后读线下 MCS；2025年起 Interlinked Data Pipeline Lead intern（远程），硕士入学时间未公开。

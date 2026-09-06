@@ -29,5 +29,4 @@ career service可以说毫无帮助，找工一般，这个项目其实更适合
 7. 多大cs本科，无实习，上岸 Fortinet Embedded Software Developer
 8. 北京工业大学信管本科，有Linkedin 中国pm实习，上岸amazon sde intern
 
-9. Boston College 哲学、CS、数学本科，2024 年入读；入读前有腾讯 Data Science Intern 和 University of Iowa 兼职 RA 经历。
 10. Dwarkadas J. Sanghvi College of Engineering CS 本科，硕士期间 Infoblox AI intern，2024 年毕业后在 Infoblox 做 Data Scientist 全职。

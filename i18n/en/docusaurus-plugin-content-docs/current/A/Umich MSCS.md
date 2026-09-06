@@ -53,7 +53,6 @@ Top employers: Amazon, Facebook, Google.
 [![University of Michigan MSCS employer outcomes dashboard; open full size](/img/en/umichcarrer.svg)](/img/en/umichcarrer.svg)
 There are some industry partnership programs (e.g., MDP) where strong performance can lead to internship interviews/opportunities.
 
-UMich CS bachelor’s followed by the same university’s master’s, Amazon SDE intern in the summer before master’s enrollment in 2025.
 
 ## Transferring to PhD
 Friendly environment for this. Quite a few students transfer directly to PhD from within the school.

@@ -17,5 +17,4 @@
 1. 海本本科，有amazon 实习，上岸jp morgan ng
 2. 印度本科，两段四个月的实习，上岸tesla
 
-3. UC Berkeley 认知科学本科、CS 辅修，2026 年入读；入读前有 Viz.ai Data Engineering Intern 和 C3 AI Senior Forward Deployed Engineer 全职经历。
 4. Manipal University Jaipur DS 本科，读硕士前有 SAP 实习，2026 年毕业后上岸 Blue Yonder Software Engineer 全职。

@@ -21,4 +21,3 @@ average gpa is 3.8，这个项目最看重你的research，如果有顶会产出
 1. UMD CS本科，上岸google ng
 2. UMD CS本科，有银行实习，上岸Capital intern
 3. UMD CS本科，有两段aws 实习， summer 上岸jane street, fall 上岸citadel，都是swe intern
-4. umd math+cs本科后继续读本校硕士，2025年本科期间 AI Momentum ml intern，2026年入学前后暑期 Kensho Technologies ml intern。

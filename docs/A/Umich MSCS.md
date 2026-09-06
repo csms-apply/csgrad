@@ -52,7 +52,6 @@ UMich提供两个CS硕士学位：**MS（科学硕士）**和**MSE（工程硕�
 ![](/img/umichcarrer.png)
 有一些校企合作项目（例如MDP）做得好可以获得实习面试/机会
 
-umich cs本科后继续读本校硕士，2025年入学前暑期做 amazon sde intern。
 
 ## 转博
 友好，有不少本校直接转的phd

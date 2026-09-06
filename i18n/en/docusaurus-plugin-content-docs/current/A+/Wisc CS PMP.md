@@ -36,4 +36,3 @@ Big Tech Internship & Full-time Offers:
 4. Dell EMC (Internship + Return Offer)
 5. IIT undergrad, two years at AWS, previously interned at Microsoft, landed SF small company
 6. Indian undergrad, GPA 8.3, two years full-time at Samsung, landed Amazon
-7. UCI CS bachelor’s, entered PMP in 2025; SWE intern at LYNXdigital in the summer before enrollment, with no post-enrollment job outcome verified yet.

@@ -16,7 +16,6 @@ bar略低于cs75，整体上来看转码友好，gpa 87+ cs/ee同学可冲
 ## 找工情况
 身边上岸的一半一半吧
 
-ubc cs本科，后读 EC79；本科期间有郑州 Digital Technology swe intern（2022年）和 ubc RA（2023年），暂未查到硕士期间实习或毕业后全职。
 
 ## 生活
 

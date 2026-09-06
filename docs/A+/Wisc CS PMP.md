@@ -36,4 +36,3 @@ Wisc MSCS 项目和 Ph.D 一个 pool 所以非常难，这个 PMP 项目其实�
 4. Dell EMC（实习+Return Offer）
 5. iit 本科，aws两年工作经验，之前在微软实习过，上岸sf 小厂
 6. 印度本科gpa8.3, 三星两年全职工作经历，上岸amazon
-7. uci cs本科，2025年入读 PMP；入学前暑期在 LYNXdigital 做 swe intern，暂未查到入学后找工结果。

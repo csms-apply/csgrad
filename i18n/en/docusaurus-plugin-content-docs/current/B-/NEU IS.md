@@ -14,5 +14,3 @@ That said, the admission threshold is not high and is quite friendly.
 
 ## Job Outcomes & Data Points
 When I previously mentored students looking for 2025 Summer SDE positions, I received many resumes from NEU IS/MSCS/CS Align students. They really do get a lot of interviews from big tech companies (Google, Oracle, Meta, LinkedIn, etc.).
-
-- Howard University CS undergraduate, entered in 2025; MathWorks EDG and T-Mobile SWE internships before enrollment, plus a Lam Research Lab Ops Process CIP Engineer internship in summer 2025.

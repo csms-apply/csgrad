@@ -33,7 +33,6 @@
 4. tw 国立政治大学is硕士gpa 4.3/4.3,本科不详，有Ibm实习和微软校园大使的实习经历，上岸加州小厂ai engineer intern
 5. 印度本科，两年全职，上岸amazon data engineer ng
 
-6. Howard University CS 本科，2025 年入读；入读前有 MathWorks EDG intern、T-Mobile SWE intern，入学当年夏季在 Lam Research 做 Lab Ops Process CIP Engineer intern。
 
 ## 课程设置
 

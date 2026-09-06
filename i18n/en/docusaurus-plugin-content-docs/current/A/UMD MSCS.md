@@ -19,4 +19,3 @@ Average GPA is 3.8. This program places the most weight on your research. Having
 1. UMD CS undergrad, landed Google new grad
 2. UMD CS undergrad, had bank internship, landed Capital One intern
 3. UMD CS undergrad, had two AWS internships, summer landed Jane Street, fall landed Citadel -- both SWE intern
-4. UMD Math + CS bachelor’s followed by the same university’s master’s, AI Momentum ML intern during the bachelor’s in 2025 and Kensho Technologies ML intern in the summer around master’s enrollment in 2026.

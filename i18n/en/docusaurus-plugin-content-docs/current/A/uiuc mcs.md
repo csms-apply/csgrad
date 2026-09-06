@@ -63,4 +63,3 @@ A UIUC undergrad got an OpenAI internship (previously had big tech internship ex
 9. National Chiao Tung University, nine months full-time C++ work in Taiwan, landed NVIDIA SWE intern and converted to full-time
 10. UIUC CS undergrad, had IBM internship, landed NVIDIA SWE intern and converted to full-time
 11. UIUC CS undergrad, graduated in three years, had small company internship, landed Microsoft internship and converted to full-time
-12. UIUC Psychology + Statistics bachelor’s with a CS + DS minor, then on-campus MCS; remote Data Pipeline Lead intern at Interlinked from 2025; master’s enrollment date not listed.
