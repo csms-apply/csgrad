@@ -6,7 +6,7 @@ fully funded，全奖免学费，需要一直当TA，每年招生hc大概在15 �
 
 不过即便是2 year的项目，也是不给批cpt的，因此不能指望暑期出去实习，唯一的方法是使用pre opt出去实习
 
-有BU cs本科、2024–2026读两年制MSCS的同学，在Yale当过Graduate Teaching Fellow，American Civics Exchange swe合同工，2026年上岸MATS Research的Research Manager全职。
+有BU cs本科、2024–2026读两年制MSCS的同学，在Yale当过Graduate Teaching Fellow，小厂 swe合同工，2026年上岸MATS Research的Research Manager全职。
 
 ## 录取dp
 每年招生hc 15人，可以当成phd申请

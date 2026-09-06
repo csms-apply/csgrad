@@ -19,7 +19,7 @@ The majority go into MLE and DS roles. Very few go into quant -- that's mostly t
 
 Some students prefer startups over big tech (Stanford especially encourages entrepreneurship) and will start their own companies or join early-stage startups.
 
-1. UCLA Statistics undergraduate, master’s completed in 2024; Apple and Bridg DS internships, QuantCo DS full-time in 2024.
+1. UCLA Statistics undergraduate, master’s completed in 2024; DS internships at Apple and a small company, QuantCo DS full-time in 2024.
 
 ## In-School PhD Transfer
 

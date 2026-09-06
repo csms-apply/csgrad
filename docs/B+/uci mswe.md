@@ -27,7 +27,7 @@ Wld很小，学费6w刀。个人认为也适合cs科班，require 实习，如�
 6. ucr 本科 多段小厂intern，上岸goldman sachs并且转正
 7. 香港城市大学ba本科有sap sde intern和另一个小厂的sde intern, 上岸datastax
 
-8. 印度 CS 本科，读硕士前有 GeekyAnts 三年多全职，硕士期间 Esri SWE intern，2025 年毕业后在 Esri 做 SDE II 全职。
+8. 印度 CS 本科，读硕士前有小厂三年多全职，硕士期间 Esri SWE intern，2025 年毕业后在 Esri 做 SDE II 全职。
 
 ## 简历关：
 通过简历筛选应该没问题。三年前入学的学长们(21fall) 实习情况很好，有不少人去了谷歌、Meta、亚马逊等大公司，尤其是Meta，四五十个人中有四五个去了，比例很高。之后情况风云突变，三道题上岸amazon的盛世不复存在了，，但是问到的uci 学长也有几家不错公司的面试机会。

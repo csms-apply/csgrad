@@ -65,7 +65,7 @@ Capstone 项目则是一个两学期的长期项目，有些是和公司合作�
 4. 多大ee本科，有amazon 和华为实习（加拿大base）经历，上岸nv
 5. 台大清华cs本科九个月后端全职经历，上岸google
 
-6. purdue ee本科，2023年MEng毕业，有XING Mobility swe intern，2023年上岸SLB ee全职，2026年转apple Lab Operations Engineer全职。
+6. purdue ee本科，2023年MEng毕业，有小厂 swe intern，2023年上岸SLB ee全职，2026年转apple Lab Operations Engineer全职。
 
 ## 生活体验
 靠近湾区，气候宜人，周围好吃的店也不少。尤其是如果有车的话，周末去 SF 吃个饭、看看海，生活质量还是很高的。

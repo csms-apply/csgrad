@@ -20,7 +20,7 @@ In terms of admission difficulty itself, CoC prefers applicants from target scho
 ## Job Outcomes & Data Points
 Similar to CS -- career outcomes include Meta, Google, etc.
 
-Joint Biomedical Engineering bachelor’s from Escuela de Ingeniería de Antioquia and Universidad CES, full-time Programming Analyst at Escafandra before enrollment, then part-time campus RA in 2024 and TA in 2025 during the master’s.
+Joint Biomedical Engineering bachelor’s from Escuela de Ingeniería de Antioquia and Universidad CES, full-time Programming Analyst at a small company before enrollment, then part-time campus RA in 2024 and TA in 2025 during the master’s.
 
 ## PhD Transfer
 As long as a professor agrees, you can transfer to the PhD program.

@@ -25,7 +25,7 @@ Tacoma 距离西雅图大约 51 公里，生活成本比西雅图低，周围有
 3. 印度同学，四年全职，上岸小厂ng
 4. UW 本科生，0实习上岸google ng
 
-5. 印度 电气、电子与通信工程本科，读硕士前有 Hitachi Energy 全职，硕士期间 Richburg Consulting SWE intern，2025 年毕业后上岸 Amazon SDE 全职。
+5. 印度 电气、电子与通信工程本科，读硕士前有 Hitachi Energy 全职，硕士期间小厂 SWE intern，2025 年毕业后上岸 Amazon SDE 全职。
 
 ## 申请bar和dp
 average录取gpa3.5, TOEFL 要求相对较低，92 分就能申请，整体偏好 985 低 GPA 申请者，转码需要修完先修课。有清北的来

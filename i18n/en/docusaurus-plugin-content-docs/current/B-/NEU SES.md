@@ -9,4 +9,4 @@ Easier to get into than IS. Applicants with a GPA of 80+ (on a 100-point scale) 
 ## Job Outcomes & Data Points
 Overall mediocre, but there are cases of Indian students landing offers at Google DeepMind.
 
-- information science undergraduate in India, full-time software engineering at YML before the master’s, then Dune Security SWE full-time after graduating in 2025.
+- information science undergraduate in India, full-time software engineering at a small company before the master’s, then SWE full-time at a small company after graduating in 2025.

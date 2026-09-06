@@ -57,4 +57,4 @@ Almost everyone lands an offer. FAANG+ and Bay Area startups can basically absor
 15. IIT EE undergrad, CS minor, four-month internship, landed Nvidia
 
 16. USC CS undergraduate, Stanford MSCS 2024–2026; Tencent backend intern, Amazon SWE intern in 2025.
-17. UCI CS undergraduate, Stanford MSCS 2020–2022; LearningPal SWE intern, Meta SWE from 2022.
+17. UCI CS undergraduate, Stanford MSCS 2020–2022; SWE intern at a small company, Meta SWE from 2022.

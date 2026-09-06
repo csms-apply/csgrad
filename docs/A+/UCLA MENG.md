@@ -42,7 +42,7 @@ CPT/OPT 方面支持得还可以，项目属于 STEM，CPT 申请需要修满一
 6. 浙大cs本科，有多段qr 实习和sde 实习，上岸google ng
 7. 台大本科多段worldqunat intern，上岸湾区全职researcher 
 8. 台科技 ece本科gpa3.81/4.3，两年全职，上岸加州小厂intern
-9. ucsd ds本科，硕士期间做 aiKnow ds 兼职，后在 UCSD 做 Research Data Analyst（合同岗），2026年上岸 Brain Corp swe 全职。
+9. ucsd ds本科，硕士期间做小厂 ds 兼职，后在 UCSD 做 Research Data Analyst（合同岗），2026年上岸小厂 swe 全职。
 
 ## 适合人群
 

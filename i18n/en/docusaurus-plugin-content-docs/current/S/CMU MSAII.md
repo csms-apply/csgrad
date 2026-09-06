@@ -28,4 +28,4 @@ Top employers: TikTok, Amazon, Google, Oracle, C3.ai
 6. Tsinghua undergrad + master's in Automation, 9 months RS internship at ByteDance, landed small company MLE in Palo Alto
 7. Indian undergrad, multiple small company internships, landed MathWorks SDE intern
 
-8. Illinois Wesleyan Biology undergraduate, master’s completed in 2022; Apulis MLE intern, Meta Research Data Scientist full-time in 2022, ByteDance Data Engineer full-time in 2023.
+8. Illinois Wesleyan Biology undergraduate, master’s completed in 2022; MLE intern at a small company, Meta Research Data Scientist full-time in 2022, ByteDance Data Engineer full-time in 2023.

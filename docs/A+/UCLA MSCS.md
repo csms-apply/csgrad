@@ -26,7 +26,7 @@ career fair 近几年越发的没用，还是指望海投+内推吧。
 5. 印度本科，gpa 9.41/10，bosch 实习了半年，上岸adobe 并且return 
 6. 北大cs本科，量化实习+字节实习，上岸AppLovin
 7. ucla cs本科，有腾讯游戏的实习，上岸nvidia并且return
-8. ucsd cs本科，2023年 MemVerge swe intern，2025年上岸 TikTok swe 全职。
+8. ucsd cs本科，2023年小厂 swe intern，2025年上岸 TikTok swe 全职。
 
 # 转phd情况
 la 转PhD容易，只要教授点头就能转，认识ucla 本硕的同学就转了本校phd

@@ -9,7 +9,7 @@ stf ds有最好的教授，校园很漂亮，同学很牛（很多4+ yoe的同�
 基本都是美本，top 学校的top gpa(3.9+)，gre 330+这种的
 1. nyu ds+math本科，多段ta+ra经历,gpa3.95
 2. ucla math+统计本科，gpa3.98，多段ds intern
-3. Georgetown University 运筹学本科，minor math, 小厂ds intern
+3. Georgetown University 运筹学本科，minor math,小厂ds intern
 4. 剑桥 经济本科一等学位，半年qd经历，有ds intern
 5. 电子科大统计本科，gpa3.95+, harvard 四个月research intern
 6. duke 统计本科，gpa3.97,多段mle intern
@@ -20,7 +20,7 @@ stf ds有最好的教授，校园很漂亮，同学很牛（很多4+ yoe的同�
 
 也有部分不想去大厂想去start up（主要stf鼓励学生创业），会自己开公司或者加入初创公司
 
-1. ucla统计本科，2024年硕士毕业，有apple和Bridg ds intern，2024年上岸QuantCo ds全职。
+1. ucla统计本科，2024年硕士毕业，有apple和小厂 ds intern，2024年上岸QuantCo ds全职。
 
 ## 本校转博
 

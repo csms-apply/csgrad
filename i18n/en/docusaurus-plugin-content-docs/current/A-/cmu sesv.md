@@ -32,7 +32,7 @@ Some strong data points:
 5. NCCU undergrad, six years local full-time experience, landed Meta E5
 6. VIT undergrad, Indian male student, two small-company internships in India, landed Strategy intern
 7. Indian student, two years full-time work experience, landed Meta new grad
-8. Washington University CS + CE bachelor’s, Auntie SWE intern in 2024, full-time SWE at SAP from 2025.
+8. Washington University CS + CE bachelor’s, SWE intern at a small company in 2024, full-time SWE at SAP from 2025.
 
 ## Course Quality
 This is the part I find most frustrating. Most of CMU's legendary courses from the main campus are not directly available (or if they are, they are online only). The courses offered locally at SV vary wildly in quality.

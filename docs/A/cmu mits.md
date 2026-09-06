@@ -49,4 +49,4 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 6. 复旦大学软工本科，gpa3.58,在腾讯、美团实习合计实习了十三个月，没找到美国实习，回国去字节实习。ng 上岸splunk 
 7. 同济工科本科 gpa 90 ,无实习上岸amazon
 8. 浙大cs本科，在招商银行实习了两个月，之后去字节实习了五个月，intern 上岸apple，ng 上岸goldman sachs
-9. wisc math+economics本科，2024年 CassianRx Full Stack Developer intern，2025年上岸 google swe 全职。
+9. wisc math+economics本科，2024年小厂 Full Stack Developer intern，2025年上岸 google swe 全职。

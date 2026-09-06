@@ -43,7 +43,7 @@ CPT/OPT support is decent. The program is STEM-designated, and CPT applications 
 6. Zhejiang University CS undergrad, multiple QR internships and SDE internships, landed Google new grad
 7. NTU undergrad, multiple WorldQuant internships, landed Bay Area full-time researcher
 8. NTUST ECE undergrad, GPA 3.81/4.3, two years full-time experience, landed California small company intern
-9. UCSD DS bachelor’s, part-time Data Scientist at aiKnow during the master’s, then a contract Research Data Analyst role at UCSD; full-time SWE at Brain Corp from 2026.
+9. UCSD DS bachelor’s, part-time Data Scientist at a small company during the master’s, then a contract Research Data Analyst role at UCSD; full-time SWE at a small company from 2026.
 
 ## Who This Program Suits
 

@@ -9,7 +9,7 @@ computer science, linguistics, philosophy, psychology, neuroscience, mathematics
 
 项目非常看重diversity，需要体现自己在“Humanities and Social Sciences”上的贡献
 
-有Rice物理+英语本科、辅修ds的同学，2024–2026读这个硕士，2025年Palona AI Customer Success Engineer实习，2026年apple Battery Analytics & Machine Learning团队实习。
+有Rice物理+英语本科、辅修ds的同学，2024–2026读这个硕士，2025年小厂 Customer Success Engineer实习，2026年apple Battery Analytics & Machine Learning团队实习。
 
 ## 录取bar和dp
 external admission rate为5%

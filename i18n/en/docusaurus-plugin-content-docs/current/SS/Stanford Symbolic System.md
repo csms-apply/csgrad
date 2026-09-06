@@ -8,7 +8,7 @@ You must complete a thesis and have research experience. Recommendation letters 
 
 The program places strong emphasis on diversity and expects applicants to demonstrate their contributions to "Humanities and Social Sciences."
 
-One Rice Physics + English undergraduate with a DS minor attended this master’s in 2024–2026, interned as a Customer Success Engineer at Palona AI in 2025, and joined Apple’s Battery Analytics & Machine Learning team as an intern in 2026.
+One Rice Physics + English undergraduate with a DS minor attended this master’s in 2024–2026, interned as a Customer Success Engineer at a small company in 2025, and joined Apple’s Battery Analytics & Machine Learning team as an intern in 2026.
 
 ## Admission Threshold & Data Points
 External admission rate is 5%.
