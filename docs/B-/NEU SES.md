@@ -10,4 +10,4 @@
 ## 找工情况
 整体一般，但是有印度人上岸google deep mind的
 
-- N M A M Institute of Technology 信息科学本科，读硕士前有 YML 软件工程师全职经历，2025 年毕业后上岸 Dune Security SWE 全职。
+- 印度 信息科学本科，读硕士前有 YML 软件工程师全职经历，2025 年毕业后上岸 Dune Security SWE 全职。

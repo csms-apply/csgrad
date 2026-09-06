@@ -27,4 +27,4 @@
 4. 印度同学，hp两年全职工作经验，上岸tesla ng 
 5. 印度同学，在校期间有麦肯锡实习，上岸stripe ds 
 6. 印度同学， 五年全职工作经验， 上岸principal Capital One
-7. PES University cs本科，入学前有 Morgan Stanley 一年全职经历，2025年 Collins Aerospace ml intern，2026年上岸 McKinsey ds 全职。
+7. 印度 cs本科，入学前有 Morgan Stanley 一年全职经历，2025年 Collins Aerospace ml intern，2026年上岸 McKinsey ds 全职。

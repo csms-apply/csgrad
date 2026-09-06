@@ -30,4 +30,4 @@ The 2022 summer landing rate was 87%. For details, see: https://leslierp.wordpre
 11. Indian undergrad, Amazon India one and a half years full-time, landed Amazon US SDE intern and successfully converted to full-time
 12. Indian undergrad, Microsoft four years full-time, landed Hitachi Energy intern and successfully converted to full-time
 
-13. Dwarkadas J. Sanghvi College of Engineering undergraduate, Android development internship before the master’s, then full-time SWE at BlackTeal Energy after graduating in 2024 and later Arista Networks.
+13. undergraduate in India, Android development internship before the master’s, then full-time SWE at BlackTeal Energy after graduating in 2024 and later Arista Networks.

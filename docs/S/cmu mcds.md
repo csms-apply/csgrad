@@ -40,7 +40,7 @@ snowflake等
 4. 北邮cs本科，上岸沃尔玛ds intern
 5. ucsd cs 本科，之前有小厂实习，上岸Qualcomm 
 6. 澳科大cs本科，有小厂实习，上岸apple
-7. Vellore Institute of Technology cs本科，2023年硕士毕业，Abacus.AI Research Scientist intern，2024年上岸JPMorgan Chase Senior MLE全职，2025年转meta Senior MLE全职。
+7. VIT cs本科，2023年硕士毕业，Abacus.AI Research Scientist intern，2024年上岸JPMorgan Chase Senior MLE全职，2025年转meta Senior MLE全职。
 * 25 summer Intern：身边统计学SDE全员上岸，MLE了解不多但认识的几个DP也都上岸了，DS/DA存在没上岸的。
 * 学校支持：Career Fair公司较多，Databricks Snowflake等独角兽独爱CMU学生，且这两年NV和Apple疯狂在Career Events捞MLE和偏System的Developer，比如修完Operating System就很容易被Apple捞。我认识几个MSIN的同学在这个年景无实习靠着System Project上岸了NV和Apple。许多公司给修Database和CloudComputing的学生开设专门的投递通道，也有很多同学因此被做数据库的中小厂捞了的。
 * 学校劣势：首先，MCDS并没有感觉相比其他非SCS项目有优势。其次，少数公司仍坚持Quota制使CMU学生较难上岸这些公司。最后，个人认为对于非System方向的SDE（个人粗暴理解为非Verilog/C/C++/Rust选手，很不幸正是在下），CMU在找工方面的Title优势和Quota劣势相抵（毕竟Databricks给我面试了），如果是MLE/System SDE则CMU会带来很大的Title优势。

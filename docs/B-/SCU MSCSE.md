@@ -31,7 +31,7 @@ SCU MSCSE有相当数量的课workload很大，而且给分像开盲盒。有的
 
 不过有往届学长被Google HR主动在LinkedIn上约面试，说明SCU的牌子在湾区中小公司过简历关还是够用的，大厂也不至于嫌弃。
 
-- Modern Education Society’s College of Engineering, Pune CE 本科，硕士期间 Juniper Networks SWE intern，后任该公司 SDE 2 全职，之后在 Microsoft 和 Google 任 SWE 全职。
+- 印度 CE 本科，硕士期间 Juniper Networks SWE intern，后任该公司 SDE 2 全职，之后在 Microsoft 和 Google 任 SWE 全职。
 
 ## 总体建议
 如果手上有NEU IS、CSA这种课程load小、co-op系统完善、找工氛围好的offer，建议去NEU，不建议来SCU。SCU比较适合两类人：一类是铁了心刷题找工、对学校课程不care只想要个OPT的，注意避坑选课就行；另一类是想读PhD的，SCU小班教学容易跟教授建立关系，可以做Master Thesis发论文，每年都有人从这里拿到全奖PhD。

@@ -35,4 +35,4 @@ NCSU虽然没有名校光环，但是也不会拖你的后退，也有去faceboo
 12. 印度本科，微软四年全职，
     上岸 Hitachi Energy intern并且转正
 
-13. Dwarkadas J. Sanghvi College of Engineering 本科，读硕士前有 Android 开发实习，2024 年毕业后在 BlackTeal Energy 做 SWE 全职，后去了 Arista Networks。
+13. 印度本科，读硕士前有 Android 开发实习，2024 年毕业后在 BlackTeal Energy 做 SWE 全职，后去了 Arista Networks。

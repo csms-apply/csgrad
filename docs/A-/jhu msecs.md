@@ -29,7 +29,7 @@ MSECS是JHU的CS项目，也是一个比较出名的转码项目✅。每年会�
 2. 三年工作经验上岸Goldman Sachs Analyst
 3. iit ee本科一年全职工作经验上岸小厂
 4. 印度同学一年全职工作经验，上岸小厂ng
-5. Manipal Institute of Technology cs本科，硕士期间在 Johns Hopkins Medicine 做多模态 LLM RA，2025年上岸 amazon swe 全职。
+5. 印度 cs本科，硕士期间在 Johns Hopkins Medicine 做多模态 LLM RA，2025年上岸 amazon swe 全职。
 
 ## 就读体验
 

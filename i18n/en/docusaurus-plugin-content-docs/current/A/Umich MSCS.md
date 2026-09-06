@@ -43,7 +43,7 @@ External students are not recommended to apply blindly unless they are extremely
 ### Data Points
 
 1. Clemson University CE undergrad, GPA 4.0
-2. PES University, GPA 9.43/10
+2. Undergraduate in India, GPA 9.43/10
 
 
 ## Job Outcomes & Data Points

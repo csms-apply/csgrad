@@ -42,7 +42,7 @@ UMich提供两个CS硕士学位：**MS（科学硕士）**和**MSE（工程硕�
 ### PR
 
 1. Clemson University CE本科gpa 4.0
-2. PES University gpa 9.43/10
+2. 印度本科 gpa 9.43/10
 
 
 ## 找工情况
