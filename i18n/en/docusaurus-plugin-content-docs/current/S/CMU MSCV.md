@@ -38,4 +38,3 @@ Job landing rate is 91%. Companies include DeepMind, Adobe, TikTok, Meta, Amazon
 4. UT undergrad, had Huawei research internship, landed Samsung as new grad
 5. NYU CS undergrad, had 2 small domestic company internships, landed at a small company
 
-6. ShanghaiTech CS undergraduate, MSCV completed in 2025; Microsoft and Adobe SWE internships, Waymo SWE full-time in 2026.
