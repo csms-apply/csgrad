@@ -38,6 +38,7 @@ Fall semester开Digital的（和Apple合作），Spring semester开Analog的（�
 8. 陆本，北美大厂intern，上岸amazon
 9. 陆本，中厂intern，上岸apple硬件岗
 10. 陆本，上岸nvidia,amazon intern
+11. NIT Tiruchirappalli ee本科，入学前 google Embedded swe 两年全职，2025年 Astera Labs Firmware intern，2026年 nvidia Firmware Engineer 全职。
 
 # 选课
 

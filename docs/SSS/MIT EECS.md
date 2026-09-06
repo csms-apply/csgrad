@@ -20,3 +20,4 @@
 ## 找工情况
 无敌，主要是各种教职，很多回清华了，去业界的也主要去量化岗位
 
+1. iit kharagpur电子与通信工程本科，MIT EECS硕士后继续读博，2023年博士毕业后去Intel Labs做Hardware Security Research Scientist，2025年转NVIDIA Senior DFX Architect，均为全职。

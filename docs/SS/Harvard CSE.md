@@ -32,6 +32,8 @@ Google、Meta、Microsoft、Amazon、Apple、Airbnb、Snapchat、Databricks、Nv
 部分人去了 Jane Street、Two Sigma、Citadel、DE Shaw 这些顶级 hedge fund 做 quant，找 quant 的人一般会修一些 MIT 金融数学相关的课程，
 去前面那些tech 容易点，去hedge fund有点难，可能需要补充很多数学bg，而且需要本科的加持，认识有同学能面到顶级hedge fund的quant的final round的基本都是本科在美国已经面过这样的公司
 
+1. USC应用数学+cs本科，2024年硕士毕业，amazon Applied Scientist intern，2024年上岸nvidia Research Scientist全职。
+
 ## RA 和转博机会
 CSE 这个项目是 可以做研究的，特别是 如果你读两年（Thesis track）的话，必须要写一个 Thesis，所以不少人会选择跟教授做研究。Harvard CS 系本身不算特别大，教授数量比不上 Stanford / CMU，但很多做 AI、ML、NLP、数值计算的教授都很愿意带学生。也可以找隔壁MIT的教授做research
 
@@ -45,4 +47,3 @@ Harvard 也有自己的 Data Science PhD，CSE 过去也有一部分人转到这
 
 
 哈佛的学术氛围很浓，资源多到爆炸，除了课程之外，学校里有 大量的名人演讲、校友活动、各种 dinner networking 机会，但如果你只顾着埋头做作业，很可能四个月过去了你连 Boston 城区都没去过（是的，有人真的这样）。
-

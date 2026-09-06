@@ -39,6 +39,7 @@ Salary range (based on data from recent years): Starting compensation is general
 4. Indian undergrad, GPA 8.72/10, multiple internships, landed SF small company CV Engineer
 4. Upenn EE undergrad, had internship experience, landed SpaceX SDE Test Intern
 5. NYU CS+DS undergrad, had small company DS intern, landed Amazon DS internship
+6. University of Houston CS bachelor’s, Kyndryl internship and nearly two years as a full-time Software Developer before enrollment; part-time RA at PCASO Lab during the master’s, from 2025.
 
 ## Distinguished Professors
 

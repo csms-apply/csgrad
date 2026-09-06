@@ -29,6 +29,7 @@ gpa 3.7+ 过线语言即可，有多段大厂实习可以低gpa 逆袭，有同�
 5. NCCU 本科，当地六年全职经验，上岸meta e5
 6. vit 本科印度男生，有两段印度小厂实习，上岸Strategy intern
 7. 印度同学两年全职工作经验，上岸meta ng
+8. Washington University cs+ce本科，2024年小厂 swe intern，2025年上岸 SAP swe 全职。
 
 ## 课程质量
 这部分是我觉得最sb的地方。CMU本部的神课多半不太能直接选到（或者就算能选，也是网课），SV本地自己开的课则良莠不齐。

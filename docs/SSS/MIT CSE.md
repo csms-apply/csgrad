@@ -21,6 +21,7 @@ MIT CSE目前已停止招生，何时招生外校的不确定(26fall update):
 ## 找工情况
 主要出路为quant，基本都是top 3 hedge fund qr，也有去nv当swe的
 
+1. 剑桥经济本科，2022年MIT CSE硕士毕业，2024年起在新加坡Ministry of Home Affairs做Data Scientist全职。
 
 ## 转博
 老板同意就行，很自由

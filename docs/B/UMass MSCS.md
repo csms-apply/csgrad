@@ -25,10 +25,4 @@ UMass食堂全美第一，MSCS课程大部分都蛮水的，非常适合水掉�
 5. 印度本科，三段实习经历，上岸微软实习
 6. Umass cs本科，有Umass 大学里面的sde实习, 上岸微软intern
 
-
-
-
-
-
-
-
+7. IIT Hyderabad CS 本科，读硕士前有 Adobe 三年全职，硕士期间上岸 KLA Machine Learning Research Intern（2025 summer）。

@@ -46,5 +46,7 @@ Sampling data points around me: Among the 24 Fall GT MSCS Chinese students I kno
 8. Indian student, 1 year full-time work experience, landed AWS and returned
 9. IIT CS undergrad, landed Apple
 
+10. UCB Cognitive Science undergraduate, DS minor, prior Salesforce SWE full-time experience; on-campus MSCS 2024–2026, Nissan research intern, NetSuite SWE II full-time in 2026.
+
 ## TA Opportunities
 Georgia Tech hires a large number of TAs for online courses. But you need to start looking early. I initially thought it was hard to get, but later found out that some TAs who don't know much still managed to become TAs.

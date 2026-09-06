@@ -62,6 +62,8 @@ Overall, job search outcomes are decent -- noticeably better than Yale MSCS, whi
 4. UofT EE undergrad, had Amazon and Huawei internships (Canada-based), landed NVIDIA
 5. NTU/NTHU CS undergrad, 9 months full-time backend experience, landed Google
 
+6. Purdue EE undergraduate, MEng completed in 2023; SWE intern at a small company, SLB EE full-time in 2023, Apple Lab Operations Engineer full-time in 2026.
+
 ## Living Experience
 Close to the Bay Area with pleasant weather and plenty of good restaurants nearby. Especially with a car, weekend trips to SF for dinner or ocean views make for a high quality of life.
 

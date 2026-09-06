@@ -20,8 +20,8 @@
 1. nyu economics本科，intuitive intern, 上岸ai 独角兽
 2. 西交利物浦本科 上岸美国运通
 
+3. 多大统计+经济本科，2026年硕士毕业，2025年google ds intern，2026年上岸google ds全职。
 
 ## 转博情况
 
 CS 领域的年轻教授较少，部分教授带 PhD 的意愿不强，申请博士的话需要主动找导师
-

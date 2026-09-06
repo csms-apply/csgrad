@@ -23,3 +23,4 @@ MCS 项目规模这几年有所增长，疫情期间 21Fall 一度扩招到 300 
 6. University of Missouri-Columbia cs+语言学本科，本科期间多段sde 实习，上岸cvs mle岗位
 7. 印度同学，一年全职，上岸goldman sachs swe
 
+8. 重庆邮电 CS 本科，硕士期间 Wind River SWE intern，2023 年毕业后上岸 NVIDIA Solutions Architect 全职。

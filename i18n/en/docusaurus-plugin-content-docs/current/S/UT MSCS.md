@@ -27,6 +27,8 @@ Career Fair has many big companies every year, such as Google, Amazon, Facebook,
 7. UT CS undergrad, landed Apple intern
 8. UT CS undergrad, had open source contributions, landed Meta intern
 
+9. Stony Brook CS undergraduate background, entered the on-campus MSCS in 2025; UT Human Signals Lab RA in 2026, AI Modeling Research Intern at HANWHA LIFE in Seoul that summer.
+
 ## Courses
 UT's MSCS program is a standard CS Master's. It shares many courses with the PhD program, so there are more research-oriented courses, and some course projects even follow publication-level standards. The program has two tracks: coursework and thesis. Both require 30 credits. If you choose the thesis track, 6 credits go toward writing the thesis, which means two fewer courses. Regardless of the track, you must take at least one course in each of the three areas: theory, system, and application.
 

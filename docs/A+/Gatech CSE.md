@@ -20,6 +20,8 @@ mscs>cse coc>=cse isye>其他units
 ## 找工出路
 跟cs差不多，出路有Meta、google等
 
+Escuela de Ingeniería de Antioquia 与 Universidad CES 联合生物医学工程本科，入学前有小厂 Programming Analyst 全职经历，硕士期间先后做校内兼职 RA（2024年）和 TA（2025年）。
+
 ## 转博
 老师点头就能转博
 

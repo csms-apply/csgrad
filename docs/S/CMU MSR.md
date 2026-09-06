@@ -22,4 +22,4 @@
 
 如果本着找工来这个项目，找到实习了也得需要老师同意才能去intern，老板也有可能不放人
 
-
+也有uci cs本科、2023–2025读MSR的同学，2024和2025年暑假去NASA JPL做Robotics Perception Engineer实习。

@@ -19,3 +19,5 @@ LTI开设，主要是就业导向，可以一年半毕业，也可以两年毕�
 
 ## 找工情况和dp
 往年就业率92%，中位数起薪15w刀，做sde 和 mle的都有，top employer 是databricks和tiktok
+
+1. 北大cs本科，2019年MIIS毕业，airbnb swe intern，2020年上岸airbnb swe全职，2023年转Google DeepMind swe全职。

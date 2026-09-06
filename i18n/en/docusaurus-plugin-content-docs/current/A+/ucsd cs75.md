@@ -46,3 +46,4 @@ Both CS75 and ECE are fairly job-friendly. CS75 course difficulty can be minimiz
 1. NYU DS undergrad, three small company internships in China, landed Google new grad
 2. Indian student with 1.5 years of Microsoft full-time experience, landed Qualcomm intern
 3. UIUC CS undergrad, two non-US small company internships, landed LA small company internship
+4. North Dakota State University CS + Statistics bachelor’s, AWS SDE intern in 2022, full-time SDE from 2023, SDE II from 2026.

@@ -34,3 +34,4 @@ Very good -- even compared to non-career-change programs, outcomes are considera
 9. CUHK-Shenzhen Economics undergrad, landed Tesla intern and Meta intern
 10. McGill University Finance undergrad, six-month small company intern in Canada, landed Meta intern and converted to full-time
 11. Wharton Finance undergrad, Google STEP intern and Google summer intern, new grad ultimately landed Meta
+12. Warwick Economics bachelor’s, full-time consulting at Oliver Wyman before enrollment, Citadel Sector Data Analyst intern while studying on-campus MCIT in 2026.

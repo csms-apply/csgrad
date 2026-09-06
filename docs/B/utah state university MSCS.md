@@ -5,6 +5,7 @@
 而且不像yale mscs 2 year/uiuc mscs/ wisc mscs那样跟
 phd一个pool，基本没有可能申请到那么卷。这个很适合没有什么research bg的普通人来申请全奖MS
 
+- NIT Karnataka CS 本科，读硕士前有 SAP Labs India 一年全职，硕士期间做过兼职 RA 和 TA，2024 年毕业后上岸小厂 Junior Software Developer 全职。
 
 ## TA/RA申请
 More than half of all graduate students at USU receive Financial Assistance including scholarships, grants and more.
@@ -12,4 +13,3 @@ More than half of all graduate students at USU receive Financial Assistance incl
 
 ## 录取bar和dp
 gpa >3.0, toefl >90，具体可以看官网要求，接受转码
-

@@ -44,4 +44,4 @@
     - Software Testing and Quality Assurance（软件测试）                        
     - UX Design / Software Development / Data Analytics 等
   - NEU 多数课程给分比较水，非常适合一边上课一边刷题找工，比如 Mobile           
-  Application 5520、Computer Networks 5700 等都是公认水课 
+  Application 5520、Computer Networks 5700 等都是公认水课

@@ -55,3 +55,6 @@ Almost everyone lands an offer. FAANG+ and Bay Area startups can basically absor
 13. UofT Math+CS undergrad, two years of research experience, landed Tesla MLE
 14. UCB CS+Economics undergrad, long-term internships at ByteDance, Tencent, and Goldman Sachs in New York during undergrad, landed Nvidia Research intern
 15. IIT EE undergrad, CS minor, four-month internship, landed Nvidia
+
+16. USC CS undergraduate, Stanford MSCS 2024–2026; Tencent backend intern, Amazon SWE intern in 2025.
+17. UCI CS undergraduate, Stanford MSCS 2020–2022; SWE intern at a small company, Meta SWE from 2022.

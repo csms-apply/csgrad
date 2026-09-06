@@ -41,3 +41,4 @@ Accepts career changers. Overall difficulty is not high — GPA 3.7+ with passin
 5. Donghua University Software Engineering undergrad, no internships, landed HP internship, then landed Amazon new grad
 6. UESTC Software Engineering undergrad, small-company internship in China, then landed Amazon new grad
 7. Duke Kunshan DS undergrad, Philips internship in Shanghai, landed intern at a small company
+8. Southeast University Automation bachelor’s, Duke ECE MS, Microsoft SWE intern in 2022, NVIDIA SWE intern in 2023 and full-time NVIDIA SWE from 2024.

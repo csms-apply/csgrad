@@ -26,5 +26,7 @@ top employer: tiktok、amazon、google、oracle、c3.ai
 3. 印度本科，有多段印度的小厂mle intern，上岸匹兹堡的BNY MLE intern
 4. 印度本科，在德勤当过一年MLE, 上岸BNY MLE，并且升职为senior ds
 5. uv cs+ physics 本科，拳头实习，上岸aws sde intern
-6. 清华本硕自动化，字节9个月rs实习，上岸palo alto 小厂mle
+6. 清华本硕自动化，字节9个月rs实习，上岸palo alto小厂mle
 7. 印度本科，多段小厂intern, 上岸Mathworks sde intern
+
+8. Illinois Wesleyan生物本科，2022年硕士毕业，小厂 mle intern，2022年上岸meta Research Data Scientist全职，2023年转字节Data Engineer全职。

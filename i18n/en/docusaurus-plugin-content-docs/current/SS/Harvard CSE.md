@@ -32,6 +32,8 @@ Google, Meta, Microsoft, Amazon, Apple, Airbnb, Snapchat, Databricks, Nvidia.
 Some go to top hedge funds like Jane Street, Two Sigma, Citadel, and DE Shaw as quants. Those targeting quant roles typically take some MIT financial mathematics courses.
 Getting into the tech companies mentioned above is relatively easier. Getting into hedge funds is harder -- you may need to supplement your math background significantly, and undergrad pedigree matters. The classmates I know who made it to the final round at top hedge fund quant positions basically all had prior experience interviewing at such firms during undergrad in the US.
 
+1. USC Applied Math + CS undergraduate, master’s completed in 2024; Amazon Applied Scientist intern, NVIDIA Research Scientist full-time in 2024.
+
 ## RA & PhD Transfer Opportunities
 The CSE program does allow you to do research, especially if you choose the two-year thesis track, which requires writing a thesis, so many students choose to do research with professors. Harvard's CS department itself isn't huge -- the number of professors doesn't compare to Stanford or CMU -- but many professors working in AI, ML, NLP, and numerical computing are very willing to work with students. You can also find MIT professors to do research with.
 

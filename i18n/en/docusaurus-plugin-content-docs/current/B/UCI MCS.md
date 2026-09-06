@@ -22,5 +22,7 @@ The 2022 internship landing rate was 89%, mainly because many Indian students wi
 4. Indian classmate, Barclay Center three years full-time, landed Pure Storage intern, new grad went to Meta
 5. Indian classmate, one year full-time, landed Veeva Systems intern (local Irvine small company) and successfully converted to full-time
 
+6. National Central University CS undergraduate, SWE intern at a small company during the master’s, then a part-time Web Developer at Matching Donors after graduating in 2025.
+
 ## Drawbacks
 Quarters end in late June, meaning you cannot start an internship in May or early June. As a result, you can basically only intern at large companies (an Indian classmate received an offer starting in early June but couldn't get CPT, causing the offer to be rescinded).

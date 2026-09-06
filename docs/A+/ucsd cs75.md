@@ -46,3 +46,4 @@ cs75和ece都比较找工友好，cs75课程难度可以选很容易的课程，
 1. nyu ds本科三段国内小厂实习，上岸google ng
 2. 印度同学有微软一年半全职工作经历，上岸Qualcomm intern
 3. uiuc cs本科，有两段非美国的小厂实习，上岸la 小厂实习
+4. North Dakota State University cs+统计本科，2022年 aws sde intern，2023年起 aws sde 全职，2026年升至 sde II。

@@ -26,3 +26,5 @@ meta 3人, msft 3人，citadel 1人，Linkedin 1人，Open AI 1人
 
 1. 剑桥三年毕业，有多段小厂实习，上岸bytedance
 2. tamu cs本科 facebook实习， 后来回了meta 做llm post training
+
+3. cmu cs本科，硕士前在Stripe做swe全职，2025年入读MSML，2026年TikTok mle intern。

@@ -19,6 +19,4 @@ defer一个学期然后spring入学拿cpt，详细操作请参照[Spring 入学�
 ## 找工情况
 不太乐观，主要因为招的转码的不少，选cs课有的wld比较大，没法腾出来很多时间刷题
 
-
-
-
+- 复旦物理本科，硕士期间 Middleby Data Scientist Intern，2024 年毕业后上岸 Amazon SDE 全职。

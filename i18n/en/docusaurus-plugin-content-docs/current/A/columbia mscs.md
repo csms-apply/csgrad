@@ -78,3 +78,5 @@ C9 CS undergrad, ICPC gold medal, landed Amazon
 Italian undergrad, landed Amazon
 
 CUHK-Shenzhen FinTech, career changer to CS, 0 internships, landed Amazon
+
+National Chengchi University Statistics bachelor’s, Amazon SDE intern in 2022, full-time at a small company in 2023 before joining Amazon as a full-time SDE that year.

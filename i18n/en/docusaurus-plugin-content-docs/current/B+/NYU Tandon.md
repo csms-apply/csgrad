@@ -15,3 +15,5 @@ Not great, pretty average.
 
 1. International undergrad, had Amazon internship, landed JP Morgan new grad
 2. Indian undergrad, two four-month internships, landed Tesla
+
+3. data science undergraduate in India, SAP internship before the master’s, then Blue Yonder Software Engineer full-time after graduating in 2026.

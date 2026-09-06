@@ -19,6 +19,8 @@ https://ruit.me/blog/pmp
 ## 找工情况
 25 summer 亚麻批发厂，几十个亚麻intern offer
 
+东吴大学 Big Data Management 本科，本科期间有腾讯 Data Engineer 实习，2026年 PMP 在读期间上岸 aws swe intern（EC2 Nitro）。
+
 ## 软课
 Data Structures and Algorithms for ECE Applications (Slaughter)
 

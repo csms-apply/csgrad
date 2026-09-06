@@ -23,4 +23,4 @@ Full funding is not guaranteed either. It mainly depends on your interview perfo
 
 If you come to this program for job search purposes, even if you find an internship, you need your advisor's approval to go. Your advisor may also refuse to let you go.
 
-
+One UCI CS undergraduate attended MSR in 2023–2025 and interned as a Robotics Perception Engineer at NASA JPL in the summers of 2024 and 2025.

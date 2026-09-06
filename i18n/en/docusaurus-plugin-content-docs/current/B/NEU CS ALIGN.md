@@ -27,6 +27,8 @@ The core value is still job hunting / Co-op. Silicon Valley's biggest selling po
 2. UMass finance undergrad, landed a small company internship in Boston
 3. Huazhong University of Science and Technology finance undergrad, landed Meta SDE new grad
 
+4. Southwestern University of Finance and Economics finance undergraduate, also holds a NEU finance master’s; financial analyst experience before Align, Amazon and Tesla software development internships during it, then Software Dev Engineer at Amazon after graduating in 2024.
+
 # Available Campuses
 
 Campuses offering MSCS (including both regular MSCS and Align versions). Generally, Silicon Valley and Seattle have the highest application demand:

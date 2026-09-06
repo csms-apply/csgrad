@@ -21,3 +21,4 @@ Very good. From a pure results perspective, the outcomes are excellent. The admi
 5. Indian student, three years of work experience, landed Microsoft SDE 2 (roughly level 60 in Microsoft's internal leveling system; new grad is level 59)
 6. Indian student, three-month Samsung internship and six-month SAP internship plus two years full-time, landed Adobe internship and converted to full-time
 7. Indian student, VIT undergrad, multiple five-month internships, landed Armada new grad
+8. University of Toronto CS bachelor’s, Veeva Systems SWE internship during the bachelor’s, DoorDash SWE intern while studying MSE-SS in 2026.

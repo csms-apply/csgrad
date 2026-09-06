@@ -57,3 +57,6 @@ TA，CS的TA位置非常多(比如cs224 一共24个ta)，TA能免学费+发工�
 13. 多大 math+CS本科有两年科研经历，上岸tesla mle
 14. UCB CS+Economics 本科，本科在字节、腾讯、纽约goldman sachs 长期实习过，上岸nvidia research intern
 15. iit ee本科, minor cs，有四个月实习，上岸nvidia
+
+16. USC cs本科，2024–2026读Stanford MSCS，腾讯后端实习，2025年amazon swe intern。
+17. uci cs本科，2020–2022读Stanford MSCS，小厂 swe intern，2022年起任meta swe。

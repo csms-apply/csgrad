@@ -28,3 +28,5 @@ In 2022, both full-time and internship landing rates were around 50% (students a
 2. National Yang Ming Chiao Tung University (Taiwanese undergrad), one year full-time experience, landed Meta SWE new grad
 3. National Tsing Hua University, one year full-time, landed ASM full-time
 4. National Taiwan University EE undergrad, GPA 4.0/4.3, one year full-time, landed Twitter
+
+5. Zhejiang University electronic science and technology undergraduate, Meituan Java Software Engineer intern during the master’s, then Junior Software Engineer at TikTok after graduating in 2025.

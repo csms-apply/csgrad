@@ -50,3 +50,5 @@ CT拿Cornell的文凭，所以大致可以看做Cornell。好像对于大科技�
 还在找Summer Intern的大家应该都在指着今年Amazon大放水了，但是这和CT也没啥关系了lol。总之学校基本提供不了什么找工的帮助，Cornell的Title在招工市场上可能不如一些理工强校。
 
 1. scu转学美本，有四个月小厂实习，上岸meta ng
+
+2. 台大工商管理本科，读 CM 前有 ShopBack 两年全职，硕士期间 TikTok SWE intern，2025 年毕业后上岸 Amazon SDE II 全职。

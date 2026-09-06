@@ -27,7 +27,11 @@ IIT CS undergrad, GPA 9.2/10, one year full-time at DE Shaw
 IIT CS undergrad, GPA 9.58/10, three years full-time at Microsoft
 
 
+University of Maryland CS undergraduate, Statistics minor, CMU MSCS 2026–2027; TikTok backend internships in 2025 and 2026 before the master’s.
+
 # New Grad Job Outcomes
 Unbeatable. All kinds of quant firms (Citadel, Point72, Jane Street, Jump Trading). The rest can at minimum land at big tech companies (but this isn't so much because of the CMU MSCS title -- it's mainly because the students themselves have exceptionally strong backgrounds, such as GitHub 3k+ stars / Point72 QR intern / three years full-time at Microsoft).
 
 [![CMU MSCS first-destination outcomes dashboard; open full size](/img/en/cmumscscarrer.png)](/img/en/cmumscscarrer.png)
+
+CMU CS undergraduate, master’s completed in 2023; two undergraduate Amazon SDE internships, Amazon SDE full-time in 2023.

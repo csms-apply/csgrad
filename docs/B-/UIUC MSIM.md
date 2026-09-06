@@ -16,5 +16,4 @@
 1. 印度不知名学校本科cs，两年全职经验上岸amazon 
 2. ntnu 本科无实习上岸小厂ng
 
-
-
+3. 印度 CE 本科，硕士期间 COUNTRY Financial DS 和 Technical PM 实习，2025 年毕业后在该公司做 Product Owner 2 全职。

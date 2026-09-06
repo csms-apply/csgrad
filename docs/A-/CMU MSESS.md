@@ -30,4 +30,4 @@ SS和ES面向工作经验\<2年的新人，Pro则是面向工作经验\>2年的�
 5. 印度同学，三年工作经验，上岸微软sde 2(大概就是微软内部职级中的60级，ng是59级)
 6. 印度同学，有三星三个月实习和sap六个月实习，两年全职，上岸adobe实习并且转正
 7. 印度同学vit本科，多段五个月实习，上岸Armada ng
-
+8. University of Toronto cs本科，本科期间有 Veeva Systems swe 实习，2026年 MSE-SS 在读期间上岸 DoorDash swe intern。

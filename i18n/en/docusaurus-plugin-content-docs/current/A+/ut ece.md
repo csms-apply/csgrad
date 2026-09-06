@@ -34,3 +34,4 @@ Job prospects are also very favorable, mainly because you can extend graduation,
 
 1. SJTU IS undergrad, had ByteDance, Cisco, and Synopsys internships, landed Apple new grad
 2. UT Austin ECE undergrad, GPA 3.98 (top 10%), landed AMD new grad
+3. UT Austin ECE bachelor’s, two LinkedIn internships before enrollment, Databricks SWE intern while studying SES in 2026.

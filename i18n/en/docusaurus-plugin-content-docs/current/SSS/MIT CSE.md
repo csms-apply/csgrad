@@ -19,6 +19,7 @@ Previous data points:
 ## Job Outcomes
 Primarily quant roles. Most go to top 3 hedge funds as QRs. Some also go to Nvidia as SWEs.
 
+1. Cambridge Economics undergraduate, MIT CSE master’s completed in 2022; full-time Data Scientist at Singapore’s Ministry of Home Affairs from 2024.
 
 ## Transferring to PhD
 As long as your advisor agrees, it's very flexible.

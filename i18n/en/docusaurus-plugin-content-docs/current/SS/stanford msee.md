@@ -44,3 +44,5 @@ Oracle and Nvidia are particularly fond of recruiting from Stanford.
 2. Tianjin University EE undergrad, no internship during undergrad, landed Apple
 3. Vanderbilt University Math+CS undergrad, landed Meta intern
 4. UCLA EE undergrad, landed AWS intern
+
+5. UW EE undergraduate, pre-master’s full-time experience at Siemens Healthineers; Microsoft EE intern in 2023, Microsoft EE full-time in 2024.

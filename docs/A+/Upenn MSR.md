@@ -38,6 +38,8 @@
 4. 印度本科gpa 8.72/10，多段实习，上岸sf 小厂cv engineer
 4. upenn ee 本科，有实习经历，上岸space x sde test intern
 5. nyu cs+ds 本科，有小厂ds intern，上岸amazon ds 实习
+6. University of Houston cs本科，入学前有 Kyndryl 实习和近两年 Software Developer 全职，硕士期间在 PCASO Lab 做兼职 RA（2025年起）。
+
 ## 大牛教授
 
 GRASP lab全美数一数二， 

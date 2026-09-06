@@ -40,6 +40,7 @@
 8. 印度同学上岸小厂ds intern并且return
 9. 印度同学，有一段印度小厂实习，上岸小厂MLE，后跳槽到meta
 10. UCL math本科，有apple intern，上岸google mle
+11. William & Mary 统计本科，2025年 Aetna 精算实习，2026年上岸 Continental Finance Company ds 全职。
 
 ## RA和转博机会
 从过往 PhD 录取情况来看，有少数人能申到 CMU / Stanford / Berkeley / MIT

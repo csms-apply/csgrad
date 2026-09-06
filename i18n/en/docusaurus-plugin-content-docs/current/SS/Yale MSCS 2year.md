@@ -5,6 +5,7 @@ Fully funded -- full tuition waiver, but you need to TA throughout. Annual enrol
 
 However, even for the 2-year program, CPT is not approved, so you cannot count on interning externally over the summer. The only way to intern is by using pre-completion OPT.
 
+One BU CS graduate attended the two-year MSCS in 2024–2026, worked as a Yale Graduate Teaching Fellow and a SWE contractor at a small company, then joined MATS Research as a full-time Research Manager in 2026.
 
 ## Admission Data Points
 Annual enrollment is 15. Can be treated as a PhD application.

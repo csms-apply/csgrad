@@ -40,6 +40,7 @@ so don't expect much from the school -- what UPenn gives you is just a line on y
 8. Indian student, landed small company DS intern and got return offer
 9. Indian student, had one internship at a small Indian company, landed small company MLE, later moved to Meta
 10. UCL Math undergrad, had Apple intern, landed Google MLE
+11. William & Mary Statistics bachelor’s, actuarial intern at Aetna in 2025, full-time Data Scientist at Continental Finance Company from 2026.
 
 ## RA & PhD Transfer Opportunities
 Looking at past PhD admission outcomes, a small number of students have been admitted to CMU / Stanford / Berkeley / MIT.

@@ -39,8 +39,7 @@ Notable placements include OpenAI Research Engineer, top quantitative firms, Dat
 4. BUPT CS undergrad, landed Walmart DS intern
 5. UCSD CS undergrad, had previous small company internship, landed Qualcomm
 6. MUST CS undergrad, had small company internship, landed Apple
-7.
-
+7. VIT CS undergraduate, master’s completed in 2023; Abacus.AI Research Scientist intern, JPMorgan Chase Senior MLE full-time in 2024, Meta Senior MLE full-time in 2025.
 * 25 Summer Intern: Among those around me, all SDE candidates landed offers. I don't know much about MLE but the few data points I know also all landed. Some DS/DA candidates did not land offers.
 * School advantages: Career Fair has many companies. Unicorns like Databricks and Snowflake especially favor CMU students, and in recent years NVIDIA and Apple have been aggressively recruiting MLE and systems-oriented developers at Career Events. For example, completing Operating System makes it easy to get recruited by Apple. I know several MSIN students who landed NVIDIA and Apple offers in this tough market without prior internships, relying on system projects. Many companies open dedicated application channels for students who took Database and Cloud Computing courses, and many students got recruited by small and mid-size database companies through this.
 * School disadvantages: First, MCDS doesn't seem to have a clear advantage over non-SCS programs. Second, a few companies still use a quota system, making it harder for CMU students to land offers at those companies. Lastly, in my opinion, for non-systems SDE roles (roughly speaking, for those not working with Verilog/C/C++/Rust -- which unfortunately includes me), the title advantage and quota disadvantage of CMU cancel each other out (after all, Databricks did give me an interview). However, for MLE/Systems SDE roles, CMU provides a significant title advantage.

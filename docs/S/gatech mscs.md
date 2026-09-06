@@ -45,6 +45,9 @@ CS排名高(在cs ranking上排名第4)，开设的方向非常全，nlp, cv, ar
 7. gt cs本科 gpa3.89，上岸google
 8. 印度同学，一年全职工作经验，上岸aws并且return
 9. iit cs本科，上岸apple
+
+10. ucb认知科学本科，辅修ds，有Salesforce swe全职经历，2024–2026读线下MSCS，Nissan research intern，2026年上岸NetSuite swe II全职。
+
 ## ta 机会
 gatech 招大量的online 课程的ta, 
 但是得比较早主动去找，我之前以为不好找，后面发现怎么有的助教啥也不会也能当助教

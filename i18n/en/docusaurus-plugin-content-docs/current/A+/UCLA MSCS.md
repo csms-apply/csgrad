@@ -26,7 +26,7 @@ Career fairs have become increasingly useless in recent years -- just rely on ma
 5. Indian undergrad, GPA 9.41/10, 6-month Bosch internship, landed Adobe and got return offer
 6. PKU CS undergrad, quant internship + ByteDance internship, landed AppLovin
 7. UCLA CS undergrad, had Tencent Games internship, landed NVIDIA and got return offer
-
+8. UCSD CS bachelor’s, SWE intern at a small company in 2023, full-time SWE at TikTok from 2025.
 
 # PhD Transfer
 Transferring to PhD at LA is easy -- as long as the professor agrees, you can transfer. I know UCLA undergrad-to-MS students who transferred to the school's own PhD program.

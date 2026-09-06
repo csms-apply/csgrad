@@ -68,3 +68,4 @@ UChicago does not have an EE department, so peer pressure is very low. At the sa
 15. Indian undergrad, two internships during undergrad, landed San Jose small-company intern and converted to full-time
 16. Northeastern Illinois University CS undergrad, no internship, landed Grammarly SDE intern
 17. Vanderbilt University Urban Construction undergrad, previously worked as a project manager, landed SpaceX
+18. Bachelor’s in an electrical engineering field in India, Meta SWE intern in 2022, full-time Google SWE from 2023, Senior SWE from 2025.

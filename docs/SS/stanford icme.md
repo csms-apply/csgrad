@@ -46,6 +46,7 @@ Master 录取人数：50 人左右(每年都比较稳定)
 认识的找的都很好，一小部分去Quant Finance Industry 的有（一般都是PhD） Citadel、Jane Street，Jump Trading, ArrowStreet, Vanguard, Squarepoint等，还有各个卖方
 剩下的大部分去Tech Industry做sde/ds/mle/as/rs，比如 Google、Facebook、NVIDIA、Snowflake, Netflix，Amazon，Tiktok 等，还有一些unicorn startup。也有一小部分的人去湾区附近的Research Lab，不过现在川普上台后中国人得要有绿卡才能去了
 
+1. ucb ds本科，2026年ICME DS硕士毕业，meta ds intern，2026年上岸Databricks ds全职。
 
 ## RA和转phd情况
 

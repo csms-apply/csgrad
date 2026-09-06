@@ -15,6 +15,7 @@ The threshold is slightly lower than CS75. Overall, it is career-change friendly
 ## Job Outcomes & Data Points
 Among people around me, roughly half landed offers.
 
+
 ## Life
 The campus scenery is exceptionally beautiful and the climate is pleasant, which helps ease some of the stress. Apart from a bit more rain in winter, the weather is very comfortable year-round. Off-campus rent is quite expensive, but grad housing is relatively affordable — at least you have a place to live. The school also offers many recreational courses such as surfing, boxing, archery, and more, which can enrich your life outside of studying. UCSD students can ride city public transit for free, and on weekends the school runs a free grocery shuttle to several shopping areas, making daily life quite convenient.
 

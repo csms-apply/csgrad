@@ -16,3 +16,5 @@
 
 1. 海本本科，有amazon 实习，上岸jp morgan ng
 2. 印度本科，两段四个月的实习，上岸tesla
+
+3. 印度 DS 本科，读硕士前有 SAP 实习，2026 年毕业后上岸 Blue Yonder Software Engineer 全职。

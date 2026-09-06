@@ -78,3 +78,5 @@ c9 cs本科 icpc金牌上岸亚麻
 意大利本科小哥上岸亚麻
 
 港中深fintech 转码0 实习上岸亚麻
+
+国立政治大学统计本科，2022年 amazon sde intern，2023年先在小厂做全职，后上岸 amazon sde 全职。

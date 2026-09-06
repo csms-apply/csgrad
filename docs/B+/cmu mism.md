@@ -40,3 +40,5 @@ rolling 制度，早申早录取。想来mism早点申请
 5. Waseda University ee本科，本科期间在香港做过quant，在google 东京做过intern，在hk jpmorgan也实习过，上岸google swe intern并且转正
 6. 对外经贸financial engineering 本科有多段金融实习，上岸小厂intern，ng 上岸goldman sachs
 7. 印度本科，四年德勤全职，上岸匹兹堡小厂ng
+
+8. 北师大数学与应用数学本科，2020 年毕业后在 Interactive Brokers 做 Application Programmer 全职，两年后去了 Salesforce。

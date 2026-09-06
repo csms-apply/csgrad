@@ -47,3 +47,5 @@ Has Meta intern and Amazon intern placements. Getting past the resume screen is 
 
 1. SUSTech EE undergrad, landed hardware new grad in Texas
 2. Shanghai University EE undergrad, had small company internship in China, landed small US company product manager
+
+3. HUST electronic and information engineering undergraduate, graduated in 2025 and joined XPENG as a full-time Machine Learning Engineer in July 2026.

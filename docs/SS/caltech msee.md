@@ -18,6 +18,7 @@ LA天气无敌，学校title 无敌，录取人数远远少于stanford.  转码�
 4. 台大ee+ finance 本科, gpa4.18, 在中央研究院当过两年RA
 5. 台大ee本科，gpa4.29/4.3
 
+6. UCSD ee本科，2026年秋入读Caltech MSEE；入学前在Texas Instruments做Process Engineer全职（2025.12–2026.06）。
 
 # ng找工情况
 

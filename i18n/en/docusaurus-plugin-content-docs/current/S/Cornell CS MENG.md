@@ -15,4 +15,4 @@ UCSD, UCLA, UIUC, Brandeis, NYU, Penn State, University of Toronto, Waterloo
 ## Job Outcomes
 Landing rate is roughly 60%. The main pain point is that extension is troublesome. For extension requests, it's recommended to cite health reasons.
 
-
+1. Wisconsin–Madison CE + CS undergraduate, MEng completed in 2018 (campus not specified); Shutterstock SWE full-time in 2018, later Yext, then Amazon SDE II full-time in 2025.

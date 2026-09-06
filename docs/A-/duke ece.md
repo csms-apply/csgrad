@@ -41,3 +41,4 @@ ECE总共有两个大类，一个是MS，一个是MENG👋。区别就是前者�
 5. 东华大学软工本科无实习，上岸hp实习，后ng上岸amazon
 6. 电子科技大学软工本科有国内小厂实习，后ng上岸amazon
 7. duke kunshan ds本科，有上海飞利浦实习，上岸小厂intern
+8. 东南大学自动化本科，读 Duke ECE MS，2022年 microsoft swe intern，2023年 nvidia swe intern，2024年 nvidia swe 全职。

@@ -43,6 +43,8 @@ CPT/OPT support is decent. The program is STEM-designated, and CPT applications 
 6. Zhejiang University CS undergrad, multiple QR internships and SDE internships, landed Google new grad
 7. NTU undergrad, multiple WorldQuant internships, landed Bay Area full-time researcher
 8. NTUST ECE undergrad, GPA 3.81/4.3, two years full-time experience, landed California small company intern
+9. UCSD DS bachelor’s, part-time Data Scientist at a small company during the master’s, then a contract Research Data Analyst role at UCSD; full-time SWE at a small company from 2026.
+
 ## Who This Program Suits
 
 If you already have work experience and are mainly coming to get the degree or a work visa without caring much about course content, this program is decent. LA has great weather, manageable living pressure, and the course workload isn't heavy -- you can study and job hunt at the same time for an overall pleasant experience. But if you're hoping to use the program's courses and resources to improve yourself, or leverage the program's career support to get into big tech, you might want to reconsider, since the program's resources are fairly limited.

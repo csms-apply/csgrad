@@ -21,4 +21,4 @@ UCSD，还有UCLA，UIUC，Brandeis，NYU，Penn State，U of Toronto，Waterloo
 ## 找工情况
 上岸率60%吧大概，主要痛点在于延期很麻烦,延期建议写健康原因
 
-
+1. wisc ce+cs本科，2018年MEng毕业（履历未注明校区），2018年上岸Shutterstock swe全职，后来去Yext，2025年转amazon sde II全职。

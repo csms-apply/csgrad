@@ -22,3 +22,5 @@ In previous years, spring-enrolled students also received CPT to help with job h
 4. Indian undergrad, two years full-time, landed Meta SWE
 5. Indian undergrad, three internship experiences, landed Microsoft internship
 6. UMass CS undergrad, with UMass university SDE internship, landed Microsoft intern
+
+7. IIT Hyderabad CS undergraduate, three years full-time at Adobe before the master’s, then KLA Machine Learning Research Intern during the program in summer 2025.

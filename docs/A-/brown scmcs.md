@@ -49,3 +49,4 @@ diversity 不一定有用，25 年dei 项目已经被取消了。只有微软还
 5. 印度同学，在校期间三段实习经历，一年全职工作经历，上岸 Senior Financial Analyst  American Express
 6. brown cs本科，有两段小厂实习，上岸meta intern
 7. brown cs本科，有一段一年intern, 上岸jane street intern并且转正
+8. University of Nottingham cs本科，2022年 Seismic swe intern，2023年 Seismic swe 全职，2024年转到小厂 swe 全职。

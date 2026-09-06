@@ -35,3 +35,4 @@ Average TOEFL (where required): 111
 2. uci ds本科上岸c3 ai
 3. 印度同学，有印度一年实习经历，上岸BCG ds
 4. 印度同学，有sap三年半全职工作经历，上岸cvs ds
+5. nyu ds+心理本科，2024年硕士期间上岸 AppDynamics ds intern。

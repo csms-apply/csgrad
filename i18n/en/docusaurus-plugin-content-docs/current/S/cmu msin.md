@@ -49,6 +49,7 @@ Based on data points observed around me, HR doesn't seem to care much about whic
 Even for the class of 2024 during that brutal job market, new grad outcomes were solid. On one hand, CMU CS's reputation is recognized nationwide, and on the other hand, admitted students are capable enough. The percentage of those who found jobs is 91%. Many landed at top companies, such as Apple, Oracle, TikTok, and Adobe. For 25 new grads, many INI and SCS graduates landed at Databricks and Snowflake.
 
 1. UESTC CS undergrad, 10-month Microsoft internship, 8-month Amazon internship, landed Google
+2. NYU CS + Math undergraduate, MSIN Advanced Study completed in 2026; Amazon SDE intern in 2025, Google SWE full-time in 2026.
 
 [![CMU MSIN first-destination outcomes dashboard; open full size](/img/en/msinngcarrer.png)](/img/en/msinngcarrer.png)
 

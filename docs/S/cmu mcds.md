@@ -40,12 +40,12 @@ snowflake等
 4. 北邮cs本科，上岸沃尔玛ds intern
 5. ucsd cs 本科，之前有小厂实习，上岸Qualcomm 
 6. 澳科大cs本科，有小厂实习，上岸apple
-7. 
-
+7. VIT cs本科，2023年硕士毕业，Abacus.AI Research Scientist intern，2024年上岸JPMorgan Chase Senior MLE全职，2025年转meta Senior MLE全职。
 * 25 summer Intern：身边统计学SDE全员上岸，MLE了解不多但认识的几个DP也都上岸了，DS/DA存在没上岸的。
 * 学校支持：Career Fair公司较多，Databricks Snowflake等独角兽独爱CMU学生，且这两年NV和Apple疯狂在Career Events捞MLE和偏System的Developer，比如修完Operating System就很容易被Apple捞。我认识几个MSIN的同学在这个年景无实习靠着System Project上岸了NV和Apple。许多公司给修Database和CloudComputing的学生开设专门的投递通道，也有很多同学因此被做数据库的中小厂捞了的。
 * 学校劣势：首先，MCDS并没有感觉相比其他非SCS项目有优势。其次，少数公司仍坚持Quota制使CMU学生较难上岸这些公司。最后，个人认为对于非System方向的SDE（个人粗暴理解为非Verilog/C/C++/Rust选手，很不幸正是在下），CMU在找工方面的Title优势和Quota劣势相抵（毕竟Databricks给我面试了），如果是MLE/System SDE则CMU会带来很大的Title优势。
 * 特别注意：MCDS找工状况好并非因为项目本身好坏，而是因为项目录取学生偏好有工作经历和research成果。当前市场虽有机会，但除了meta Amazon还采取从各校统招考算法，databricks snowflake从极少数target school统招考算法，其余大中小厂基本上已经转向组招，可谓是校招社招化。因此能否上岸取决于是否具备有竞争力的垂直经历。换言之，现在各厂已经不仅筛选候选人技术栈，还筛选候选人业务经历。譬如一个候选人在国内的经历是Fintech行业写Java，ta在美国收到十个面试里有5个会是Fintech行业写Java的岗。
+
 ## Other Useful Links
 [MCDS人均必读之n+e's blog](https://trinkle23897.github.io/posts/cmu-1st-year)
 
@@ -74,4 +74,4 @@ cmu 是私校，学费从来就不便宜过。无论是ini、ece、还是scs，m
 
  fee(学费，未包括任何附加费用包括租房等)是84550$。
 
-![](/img/mcdsfee.png) 
+![](/img/mcdsfee.png)

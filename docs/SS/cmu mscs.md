@@ -27,7 +27,11 @@ iit cs本科,gpa 9.2/10, de shaw 一年全职
 iit cs本科，gpa 9.58/10，微软三年全职
 
 
+University of Maryland cs本科，辅修统计，2026–2027读CMU MSCS；硕士前有2025、2026年TikTok后端实习。
+
 # ng找工情况
 无敌，各种量化(citadel、pointer72、jane street、jump trading)，剩下的也能保底大厂（但是这并不是因为cmu mscs的title有多大加持，主要是因为在读生的经历特别强，动辄github 3k+ star/pointer72 qr intern/微软三年全职经历）
 
 ![](/img/cmumscscarrer.png)
+
+cmu cs本科，2023年硕士毕业，本科有两段amazon sde intern，2023年上岸amazon sde全职。

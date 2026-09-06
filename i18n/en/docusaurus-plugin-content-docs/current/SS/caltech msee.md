@@ -18,6 +18,7 @@ The program is 9 months long, but can be extended by half a year.
 4. NTU (Taiwan) EE+Finance undergrad, GPA 4.18, two years RA at Academia Sinica
 5. NTU (Taiwan) EE undergrad, GPA 4.29/4.3
 
+6. UCSD EE undergraduate, entering Caltech MSEE in fall 2026; full-time Process Engineer at Texas Instruments before enrollment (Dec 2025–Jun 2026).
 
 # New Grad Job Outcomes
 

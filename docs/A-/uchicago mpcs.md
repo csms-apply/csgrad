@@ -68,3 +68,4 @@ uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是
 15. 印度本科，本科有两段实习经历，上岸san jose 小厂 intern并且转正
 16. Northeastern Illinois University cs本科，无实习，上岸grammarly sde intern
 17. Vanderbilt University 城建本科，之前一直干项目经理，上岸spacex
+18. 印度 电气相关专业本科，2022年 meta swe intern，2023年 google swe 全职，2025年升至 senior。

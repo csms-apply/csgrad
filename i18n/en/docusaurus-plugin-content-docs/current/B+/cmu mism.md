@@ -38,3 +38,5 @@ Compared to neighboring INI, ECE, and SCS, outcomes are average -- but it mainly
 5. Waseda University EE undergrad, did quant in Hong Kong during undergrad, interned at Google Tokyo, also interned at JPMorgan HK, landed Google SWE intern and converted to full-time
 6. UIBE Financial Engineering undergrad with multiple finance internships, landed small company intern, then landed Goldman Sachs new grad
 7. Indian undergrad, four years full-time at Deloitte, landed small company new grad in Pittsburgh
+
+8. Beijing Normal University mathematics undergraduate, joined Interactive Brokers full-time as an Application Programmer after graduating in 2020, then moved to Salesforce two years later.

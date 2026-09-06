@@ -32,3 +32,4 @@ SES一学期的学费+保险是11000多（通常选每学期9学分的话），�
 
 1. 交大is本科，有字节、cisco、Synopsys实习, 上岸apple ng
 2. ut austin ece本科gpa3.98(top10%), 上岸amd ng
+3. ut austin ece本科，入学前有两段 LinkedIn 实习，2026年 SES 在读期间上岸 Databricks swe intern。

@@ -49,3 +49,4 @@ My interview questions at the time:
 6. Fudan University Software Engineering undergrad, GPA 3.58, combined 13 months of internship at Tencent and Meituan, couldn't find a US internship, went back to China to intern at ByteDance. New grad landed Splunk
 7. Tongji University Engineering undergrad, GPA 90, no internship, landed Amazon
 8. ZJU CS undergrad, two-month internship at China Merchants Bank, then five-month internship at ByteDance, intern landed Apple, new grad landed Goldman Sachs
+9. Wisconsin–Madison Math + Economics bachelor’s, Full Stack Developer intern at a small company in 2024, full-time SWE at Google from 2025.

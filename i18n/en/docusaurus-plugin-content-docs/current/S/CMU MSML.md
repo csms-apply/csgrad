@@ -24,3 +24,5 @@ Main career paths are SDE and MLE. Almost everyone lands at top FAANG companies:
 
 1. Cambridge, graduated in 3 years, had multiple small company internships, landed ByteDance
 2. TAMU CS undergrad, Facebook internship, later returned to Meta for LLM post-training
+
+3. CMU CS undergraduate, full-time Stripe SWE before the master’s; entered MSML in 2025, TikTok MLE intern in 2026.

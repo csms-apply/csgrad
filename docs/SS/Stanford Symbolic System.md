@@ -9,6 +9,8 @@ computer science, linguistics, philosophy, psychology, neuroscience, mathematics
 
 项目非常看重diversity，需要体现自己在“Humanities and Social Sciences”上的贡献
 
+有Rice物理+英语本科、辅修ds的同学，2024–2026读这个硕士，2025年小厂 Customer Success Engineer实习，2026年apple Battery Analytics & Machine Learning团队实习。
+
 ## 录取bar和dp
 external admission rate为5%
 
@@ -17,5 +19,3 @@ external admission rate为5%
 3. duke 昆山本科 ds本科 gpa3.91，做了两年半的RA,有两篇二作
 4. 印度同学，gpa 9.25，申请时候有三篇中了的cv会议
 5. Vassar College 认知科学本科 申请时候中了一篇iccv
-
-

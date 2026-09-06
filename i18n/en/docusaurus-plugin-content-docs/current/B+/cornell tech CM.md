@@ -50,3 +50,5 @@ CT awards a Cornell degree, so it can roughly be seen as Cornell. It seems like 
 Everyone still looking for Summer Interns is probably counting on Amazon's big hiring wave this year, but that has nothing to do with CT, lol. In summary, the school provides basically no help with job hunting, and the Cornell title may not be as valuable in the job market as some engineering-focused schools.
 
 1. SCU transfer to US undergrad, four months of small company internship, landed Meta new grad
+
+2. NTU business administration undergraduate, two years full-time at ShopBack before CM, TikTok SWE intern during the program, then Amazon SDE II full-time after graduating in 2025.

@@ -5,6 +5,7 @@ The Emory MSCS program is offered by the Department of Computer Science (under t
 
 The program is divided into a CS Track and a BMI Track. Emory is known for its strengths in biochemistry and medical technology, making it a great choice for students interested in bioinformatics, biocomputing, and clinical technology. Research opportunities in the CS track are mainly concentrated in healthcare-related ML/AI and NLP fields. The program maintains Emory's tradition of small-scale, elite training. The low student-to-faculty ratio makes it easier for master's students to find desirable research opportunities and build close relationships with professors. Additionally, the small class sizes are friendly to students with undergrad backgrounds from mainland China, helping them transition smoothly.
 
+
 ## Courses
 Emory MSCS has a relatively limited course selection, with fewer courses offered each semester, and some courses listed on the website are not actually available. Master's students typically take classes alongside undergraduates and PhD students. The overall course workload is manageable, but the content is relatively traditional and rarely involves cutting-edge industry-level projects.
 

@@ -43,8 +43,7 @@ paying $6,200 per semester. There are also on-campus work-study opportunities at
 3. Vanderbilt University CS+Math undergrad, had PwC and Sohu short-term internships, landed Salesforce SWE intern
 4. University of Edinburgh CS undergrad, had MLE internship, landed Syngenta Software Engineer Intern
 5. Wellesley College CS undergrad, had product manager internship, landed Meta SWE
-
-
+6. UCI CS bachelor’s, Meta SWE intern in 2022, full-time SWE at IXL Learning from 2023, promoted to Senior SWE in 2026.
 
 ## RA and PhD Transfer
 As long as you find a professor willing to let you join their group, you have a good chance. Most CS department professors recruit new members from the MSCS program every year.

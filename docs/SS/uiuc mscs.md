@@ -37,4 +37,6 @@ McMaster University  Mechatronics Engineering本科 gpa 11/12
 3. uiuc cs本科，有小厂实习，上岸databricks 实习
 4. uiuc cs本科，上岸dbx ds intern
 5. uiuc cs本科上岸芝加哥小厂Intern
-6. iit cs本科女生有多段research intern上岸jp morgan quant ai 
+6. iit cs本科女生有多段research intern上岸jp morgan quant ai
+
+7. ut cs本科，微软swe intern，2022年起在apple做swe全职，同时读UIUC thesis-track MSCS。

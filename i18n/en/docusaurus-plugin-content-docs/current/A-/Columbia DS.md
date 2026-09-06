@@ -28,3 +28,4 @@ Overall performance is fairly average. The school does provide some career resou
 4. Indian student, two years full-time at HP, landed Tesla new grad
 5. Indian student, McKinsey internship during school, landed Stripe DS
 6. Indian student, five years full-time work experience, landed Principal at Capital One
+7. CS bachelor’s in India, a year of full-time work at Morgan Stanley before enrollment, Collins Aerospace ML intern in 2025, full-time Data Scientist at McKinsey from 2026.

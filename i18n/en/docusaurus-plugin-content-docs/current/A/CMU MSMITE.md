@@ -35,6 +35,7 @@ MSIN = 103/109, MSIS = 46/50, MSIT-IS = 41/47, MSMITE = 45/48
 5. City University of Hong Kong EE undergrad, GPA 3.64, three-month internship in Hong Kong, landed a startup (quant dev)
 6. UMich CS undergrad, had Baidu internship, landed AWS intern
 7. CMU ECE undergrad, had Mastercard and Intel internships, landed startup new grad
+8. Peking University Sociology bachelor’s, Microsoft SWE intern in 2022, full-time Microsoft SWE from 2023, moved to a full-time SWE role at Waymo in 2026.
 
 ## Course Selection
 Starting 22 Fall, MSMITE's degree-specific core added SCS courses:

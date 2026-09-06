@@ -26,6 +26,8 @@
 2. umass finance 本科，上岸boston 小厂实习
 3. 华科金融本科，上岸meta sde ng
 
+4. 西南财经金融本科，另有 NEU 金融硕士，读 Align 前有金融分析师经历，硕士期间 Amazon 和 Tesla 软件开发实习，2024 年毕业后在 Amazon 任 Software Dev Engineer。
+
 # 开设的校区
 
 开设 MSCS（包括常规 MSCS 和 Align 版本）的校区，一般来说硅谷/seattle申请热度最高：

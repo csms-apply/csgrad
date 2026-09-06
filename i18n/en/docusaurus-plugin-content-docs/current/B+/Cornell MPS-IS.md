@@ -15,6 +15,4 @@ Undergraduate majors are quite diverse -- students come from business, design, d
 ## Job Outcomes
 Not very optimistic, mainly because many career-change-to-CS students are admitted. Some CS courses have heavy workloads, making it hard to free up much time for LeetCode grinding.
 
-
-
-
+- Fudan physics undergraduate, Middleby Data Scientist Intern during the program, then Amazon SDE full-time after graduating in 2024.

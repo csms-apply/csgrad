@@ -21,5 +21,7 @@ There have been students who landed at Meta and LinkedIn.
 
 1. UCSB CS undergrad, Instagram internship, landed Appfolio new grad
 2. UCSB CS undergrad, no internship, landed Meta
+3. UCSB CE bachelor’s followed by the same university’s MSCS, Samsung ML intern in 2025, full-time Deep Learning SWE at NVIDIA from 2026.
+
 ## PhD Transfer
 Friendly — many students transfer from MS to PhD within the school.

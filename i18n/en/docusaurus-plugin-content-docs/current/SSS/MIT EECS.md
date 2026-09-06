@@ -19,3 +19,5 @@ Only admits PhD students. Top students from target schools. Mainly depends on co
 
 ## Job Outcomes
 Unbeatable. Mainly various faculty positions -- many returned to Tsinghua. Those who go to industry mainly take quantitative roles.
+
+1. IIT Kharagpur electronics and communications undergraduate, MIT EECS SM followed by PhD; after completing the PhD in 2023, full-time Hardware Security Research Scientist at Intel Labs, then NVIDIA Senior DFX Architect in 2025.

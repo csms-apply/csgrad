@@ -35,6 +35,7 @@ Both hardware and software positions are represented; overall job outcomes are q
 8. Mainland Chinese undergrad, North American big-tech intern, landed Amazon
 9. Mainland Chinese undergrad, mid-size company intern, landed Apple hardware position
 10. Mainland Chinese undergrad, landed NVIDIA and Amazon intern
+11. NIT Tiruchirappalli EE bachelor’s, two years as a full-time Google Embedded SWE before enrollment, Astera Labs Firmware intern in 2025, full-time NVIDIA Firmware Engineer from 2026.
 
 # Course Selection
 How do you actually snag courses?

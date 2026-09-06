@@ -44,3 +44,5 @@ oracle、nvidia非常喜欢招stanford的。
 2. 天津大学ee本科，本科无intern ，上岸apple
 3. Vanderbilt University math+cs本科 上岸meta intern
 4. ucla ee本科 上岸aws intern
+
+5. uw ee本科，入学前有Siemens Healthineers全职经历，2023年微软ee intern，2024年上岸微软ee全职。

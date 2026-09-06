@@ -20,6 +20,8 @@ Tuition is about $12,000 per quarter, with graduation in 4-5 quarters for a tota
 3. Indian student, four years full-time experience, landed small company new grad
 4. UW undergrad, zero internships, landed Google new grad
 
+5. Electrical, electronics and communications engineering undergraduate in India, full-time at Hitachi Energy before the master’s, SWE intern at a small company during it, then Amazon SDE full-time after graduating in 2025.
+
 ## Admission Threshold & Data Points
 Average admitted GPA is 3.5. TOEFL requirement is relatively low at 92 to apply. Overall preference for 985 university applicants with lower GPAs. Career changers need to complete prerequisites. Some students from Tsinghua and Peking University attend.
 1. International student, GPA 3.7

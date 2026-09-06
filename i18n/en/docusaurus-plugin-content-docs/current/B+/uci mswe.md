@@ -25,6 +25,9 @@ Free US-region LeetCode premium upon enrollment. UCI email grants free access to
 5. Indian undergrad, three years full-time experience, landed SAP new grad
 6. UCR undergrad, multiple small company internships, landed Goldman Sachs and converted to full-time
 7. City University of Hong Kong BA undergrad, had SAP SDE intern and another small company SDE intern, landed Datastax
+
+8. CS undergraduate in India, over three years full-time at a small company before the master’s, Esri SWE intern during it, then Esri SDE II full-time after graduating in 2025.
+
 ## Resume Screen:
 Getting past the resume screen should be fine. Students who enrolled three years ago (21 Fall) had great internship outcomes, with quite a few going to Google, Meta, Amazon, and other major companies -- Meta especially, with 4-5 out of 40-50 people, a high ratio. After that, things changed dramatically; the golden era of landing Amazon with just three problems is long gone. However, UCI alumni I've spoken with still have interview opportunities at several decent companies.
 

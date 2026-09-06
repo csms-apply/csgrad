@@ -31,6 +31,8 @@ In the 22Fall cohort, fewer than 10 Chinese international students without statu
 
 That said, an alumnus was proactively contacted by a Google HR on LinkedIn for a full-time interview, showing that SCU's brand is sufficient for Bay Area small-to-medium company resume screens, and even big tech won't dismiss it outright.
 
+- CE undergraduate in India, Juniper Networks SWE intern during the master’s, later full-time SDE 2 there, then full-time SWE roles at Microsoft and Google.
+
 ## Overall Recommendations
 If you're holding offers from programs like NEU IS or CSA that have lighter coursework, solid co-op systems, and strong job-hunting culture, go to NEU — don't come to SCU. SCU works for two types of people: those who are laser-focused on LeetCode grinding and job applications and just need an OPT vehicle (just avoid the bad courses); and those aiming for a PhD, since small class sizes make it easy to build relationships with professors, do a Master Thesis, and publish papers.
 

@@ -19,7 +19,7 @@
 ## 找工情况
 一直是100%（Intern+FT), 前几届去向不完全统计包括Goldman Sachs, Facebook, Verily, Wayfair, Aetna, Microsoft AI, Google, BCG 等等
 
-
+1. 北外工商管理本科，2020年HDS硕士毕业，MilliporeSigma ds intern，2020年上岸Aetna ds全职，2026年转google ds全职。
 
 ## 转博情况
 身边读博几乎没有，全是找工，但是科研资源很丰富，可以联系上哈佛附属医院相关教授做科研
