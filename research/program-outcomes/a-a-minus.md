@@ -87,13 +87,40 @@ Yingxin Liang、Shujing Lin、Sizhuo Sun尚未打开，不计核验。两项目�
 
 根任务Google查询 `UCSB MSCS alumni site:linkedin.com/in` 提供候选。已打开[Tim Kim](https://www.linkedin.com/in/taeseong-kim/)（原候选称Taeseong Kim，使用页面显示名）Education和Experience：UCSB MS CS 2023–2025，UCSB BS Computer Engineering 2019–2023；Samsung Electronics America MLE Intern 2025年6–8月；NVIDIA Deep Learning SWE全职2026年2月至今，Deep Learning Safety team。硕士无月份，正文不判断Samsung实习在毕业前后。Alcon SWE 2022年9月–2023年6月明确Senior Capstone Project，不收录为企业全职。已补双语文末，注明同校本硕。Anikait Mundhra、Lucian Parisi未打开，不计核验。
 
-## 尚待串行查询的项目
+## UCSD EC79 补充核验
 
-以下项目尚未查询，不计入检索覆盖，也不等同于没有公开案例。Google恢复后由根任务逐项串行查询并分发候选。
+根任务Google查询 `UCSD EC79 Computer Engineering masters site:linkedin.com/in` 提供候选。已打开[Ruilong (Rilon) Liu](https://www.linkedin.com/in/ruilong-liu-ucsd/)Education和Experience。UCSD MS Electrical and Computer Engineering - Computer Engineering 2024年9月–2026年3月，描述明确“Computer Engineering Track (EC79)”，不是仅凭泛CE标题推断。UBC BSc CS 2020年8月–2024年5月；Zhengzhou Digital Technology SWE Intern 2022年6–8月、UBC本科RA实习2023年5–8月。已补双语文末，明确全部经历均为本科期间、未列硕士期间企业实习或毕业后全职，About仍写学生故不认定已获学位。Xinqi Li、Yanxi Charley Chen、Jingyu Huang未打开，不计核验。
 
-- A- / Ucsd EC79
-- A- / duke ece
+## Duke ECE 补充核验
+
+根任务Google查询 `Duke ECE masters alumni site:linkedin.com/in` 提供候选。已打开[Yuchen Zhang](https://www.linkedin.com/in/yuczhang/)原始Education和Experience：Duke MS ECE 2020年8月–2023年12月，明确MS不是MEng；Southeast University Automation本科2016年8月–2020年6月。Microsoft SWE Intern 2022年5–8月；NVIDIA SWE Intern 2023年5–8月；NVIDIA SWE全职2024年2月至今。已补双语文末。保留原始就读跨度，不推断标准学制；headline称24届不改动教育栏2023年12月。Zijia Stella Jiang、Kaitong Xiong未打开，不计核验。
+
+## CMU MSESS 精确回查：已补齐
+
+根任务追加Google查询 `CMU "Scalable Systems" alumni site:linkedin.com/in`。已打开[Nazanin Ghazi](https://www.linkedin.com/in/nazaninghazi/)Education和Experience，教育明确Computer Software Engineering - Scalable Systems硕士2025年8月–2026年12月，About再次明确方向；Toronto Computer Science Specialist本科2020年9月–2025年6月。DoorDash Software Engineer Intern 2026年5–8月，虽然类型Full-time，但职位和本人动态均明确实习；Veeva SWE Intern 2023年5月–2024年8月。已补双语文末，注明未毕业与本科实习。此前泛MSE三候选不足的历史记录仍保留，但MSESS当前缺口已解决。Shwethaa Rajesh、Kuanwei Yu未打开。
+
+## CMU SESV 精确回查：已补齐
+
+根任务追加Google查询 `CMU "Software Engineering" "Silicon Valley" site:linkedin.com/in`。已打开[Sichi Onyemeh](https://www.linkedin.com/in/sichi-onyemeh/)原始教育工作，headline和About明确Silicon Valley，教育CMU ECE Department MS Software Engineering 2024年1月–2025年5月；Washington University McKelvey BS Computer Engineering、Computer Science 2019年8月–2023年5月。Auntie SWE Intern 2024年5–8月，SAP SWE全职2025年7月至今。已补双语文末。此前泛MSE校区缺口为历史排除记录，SESV现已补齐。Yiru Chen、Wanquan Wu、Rui Chen未打开。
+
+## Penn MCIT 模式回查：已补齐
+
+根任务Google查询 `Penn MCIT "on-campus" site:linkedin.com/in`。已打开[Ryan Pangilinan](https://www.linkedin.com/in/ryanlimpangilinan/)Education，明确MCIT Online 2022年8月–2024年12月，排除线下；不以其Philadelphia所在地或线上TA职位判断模式。随后核验[Anya Cui](https://www.linkedin.com/in/anya-cui-569b09224/)：headline明确MCIT，Penn教育Master of Applied Science, Computer Science，2025年8月–2027年5月，描述明确On-campus。Warwick BSc Economics 2021–2024，First Class Honours；Oliver Wyman Consultant全职2025年2–8月，Citadel Sector Data Analyst Intern 2026年6–8月。已补双语文末，明确未毕业、职位时序、保留MCIT/MAS名称差异但不推断官方更名。Dingqian Yue未打开。此前MCIT模式缺口为历史记录，当前已补齐。
+
+## UIUC MCS 模式回查：已补齐身份，日期未公开
+
+根任务Google查询 `UIUC MCS "on-campus" site:linkedin.com/in`。已核验[Denver Soekawan](https://www.linkedin.com/in/denver-soekawan/)headline明确On-Campus MCS Student，Education仅本科BS Psychology & Statistics 2020年8月–2025年5月、辅修CS&DS，无硕士日期；Interlinked Data Pipeline Lead Intern 2025年5月至今。按根任务确认收录此直接项目身份证据，双语明确日期未知、不推断实习入学先后或毕业。[Felicia Hsu](https://www.linkedin.com/in/felicia-hsu/)教育明确MCS 2024年5月–2025年5月，UCSC BSCS 2021–2024，Applied Medical Frontend Developer全职2026年8月至今，但未明确模式，未收录。[Joshua Delgado](https://www.linkedin.com/in/joshua-delgado-software/)UIUC CS硕士2026–2027、headline MCS、UF CS2021–2025、Datadog SWE全职2026年3月至今，模式未公开，未收录。
+
+## Yale 年制精确回查：仍有缺口
+
+根任务Google查询 `Yale "one-year" "computer science" site:linkedin.com/in`。已核验[Erik Boesen](https://www.linkedin.com/in/erikboesen/)Education仅Yale BS CS 2019–2024，原文one-year是疫情期间休学一年，headline“23+1”不是一年制硕士；排除。[Ross Johnson](https://www.linkedin.com/in/ross-johnson24/)Education仅Yale BS CS 2019–2023及高中，排除，Google/Two Sigma职位不能补足硕士身份。[Musab Javed](https://www.linkedin.com/in/musab-javed-0039a613a/)已尝试打开，但页面main连续CDP超时，未取得原始教育文字，不计完成核验。仍保留此前Xianhang Lin的真实CS硕士记录与年制未明确缺口，不新增Yale正文。
+
+## 当前待补证据（均已查询）
+
+原分组22项目已全部完成至少一次Google候选发现及LinkedIn原页核验，没有尚未查询项目。以下为已查后的证据缺口，不是未研究或断言没有公开样本：
+
+- Yale MSCS：已确认学校和CS硕士，原页未明确目标年制/track。
 
 ## 当前覆盖
 
-22个负责项目中：20个已获取Google结果并打开LinkedIn候选；15个已补中英文正文；Yale、Penn MCIT、UIUC MCS模式与CMU SESV、MSESS具体归属尚待确认；2个尚未查询。另行受派Penn CIS并补双语样本、UIUC MSCS与Cornell CS MEng进行候选排除，见独立日志，不计入这22个分母。没有修改旧匿名案例，没有以旧案例对应这些实名履历。
+22个负责项目中：22个已获取Google结果并打开LinkedIn候选；21个已补中英文正文；1个项目（Yale）仍需模式证据；0个尚未查询。UIUC MCS已确认线下身份但硕士日期未公开。另行受派Penn CIS并补双语样本；UIUC MSCS与Cornell CS MEng曾进行候选排除，见独立日志，不计入这22个分母，后续由根任务处理的新增成果亦不混入本分组计数。没有修改旧匿名案例，没有以旧案例对应这些实名履历。

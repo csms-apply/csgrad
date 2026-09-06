@@ -36,3 +36,11 @@ Wisc MSCS 项目和 Ph.D 一个 pool 所以非常难，这个 PMP 项目其实�
 4. Dell EMC（实习+Return Offer）
 5. iit 本科，aws两年工作经验，之前在微软实习过，上岸sf 小厂
 6. 印度本科gpa8.3, 三星两年全职工作经历，上岸amazon
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| UC Irvine，Bachelor of Science in Computer Science，2023-09–2025-06 | University of Wisconsin–Madison，Master of Science，教育栏专业为 Computer and Information Sciences, General，个人标题明确为 CS PMP，2025-09–2027-05（履历列出的结束日期晚于本次核验日期） | LYNXdigital，Software Engineering Intern（实习），2025-05–2025-08；该实习早于 PMP 入学，尚未核实入学后的就业经历 | [Xuechun Jin 的 LinkedIn 履历](https://www.linkedin.com/in/xuechunjin/) |

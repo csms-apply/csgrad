@@ -49,3 +49,11 @@ Austin is really hot. In mid-September, it can still be over 30 degrees Celsius 
 For daily life, Austin has everything you need. Groceries are available at Walmart, HEB, and 99 Ranch Market, and prices are reasonable. For housing, Far West is the main Chinese student hub, with rent around $600-800/month. West Campus is mainly undergrads, slightly pricier at $800-1000, but closer to campus -- a 10-minute bike ride to the CS building without waiting for the campus bus, which is a great experience.
 
 Socially, UT has many International Student Activities, but most CS graduate students are busy grinding LeetCode and job searching, so not many actually attend. Networking opportunities in CS are plentiful, with many major companies hosting dedicated events for campus recruiting each year, including Google, Apple, Microsoft, Bloomberg, and Goldman Sachs. Additionally, UT has a Friends of Computer Science (FoCS) program that brings companies in almost every day -- walking into the department building, you'll see people lining up to submit resumes.
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| Stony Brook University, undergraduate study in Computer Science, 2018–2024; the specific bachelor's degree title is not listed | The University of Texas at Austin, Master of Science in Computer Science, 2025-08–2027-05; a personal public post explicitly identifies the on-campus program, and the listed end date is after the verification date | The University of Texas at Austin, Research Assistant at Human Signals Lab (profile type: Internship), 2026-01–Present as listed; HANWHA LIFE CO., LTD., AI Modeling Research Intern (internship, Seoul, South Korea), 2026-06–2026-08 | [Hyo Jong Chung's LinkedIn profile](https://www.linkedin.com/in/hyo-jong-chung-62938023b/) |

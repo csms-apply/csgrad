@@ -24,3 +24,12 @@ MIT CSE目前已停止招生，何时招生外校的不确定(26fall update):
 
 ## 转博
 老板同意就行，很自由
+
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 实习与工作记录 | 来源 |
+| --- | --- | --- | --- |
+| University of Cambridge，BA Economics，2018–2021 | MIT，Master of Science（SM）Computational Science and Engineering，2021–2022 | Singapore Department of Statistics，Data Science Intern，2020年6–8月（硕士前）；MIT Senseable City Lab，Graduate Student Researcher，2021年9月–2022年8月，未注明雇佣类型；新加坡 Ministry of Home Affairs，Data Scientist，全职，2024年3月起，核验时显示在职 | [You Xuan T. 的 LinkedIn 履历](https://sg.linkedin.com/in/thungyx) |

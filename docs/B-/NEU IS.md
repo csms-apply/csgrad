@@ -44,4 +44,13 @@
     - Software Testing and Quality Assurance（软件测试）                        
     - UX Design / Software Development / Data Analytics 等
   - NEU 多数课程给分比较水，非常适合一边上课一边刷题找工，比如 Mobile           
-  Application 5520、Computer Networks 5700 等都是公认水课 
+  Application 5520、Computer Networks 5700 等都是公认水课
+
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Izu Nwokolo](https://www.linkedin.com/in/izu-nwokolo/) | Howard University，BS in Computer Science（2020 年 8 月–2024 年 5 月） | Northeastern University，MS in Information Systems（2025 年 9 月–2027 年 5 月，后者为预期结束时间）；在读，教育条目未注明校区 | Lam Research，Lab Ops Process CIP Engineer，实习，2025 年 6–9 月；MathWorks，EDG intern，实习，2023 年 5–8 月；T-Mobile，Software Engineer Intern，实习，2022 年 5–8 月。此前另有 Nike Sales Associate 全职零售岗位（2024 年 11 月–2025 年 5 月）。这些经历在硕士入学前或开始时，不作为硕士毕业就业结果。 |

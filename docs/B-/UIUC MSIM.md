@@ -17,4 +17,13 @@
 2. ntnu 本科无实习上岸小厂ng
 
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Peeya Thacker](https://www.linkedin.com/in/peeya-thacker/) | KJ Somaiya College of Engineering, Vidyavihar，BTech in Computer Engineering（2019 年 8 月–2023 年 5 月） | University of Illinois Urbana-Champaign，MS in Information Management（2023 年 8 月–2025 年 5 月） | COUNTRY Financial：Data Scientist，实习，2024 年 5–12 月；Technical Project Manager，实习，2025 年 1–5 月；Product Owner 2，全职，2025 年 6 月–至今。 |
+
+
 

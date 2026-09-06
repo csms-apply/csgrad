@@ -1,5 +1,6 @@
 # CMU MSMITE
 
+
 ## Program Overview
 The full program name is Master of Science in Mobile and IoT Engineering. It's not a CS title, but that's not a big deal since job hunting mainly depends on your personal experience and resume fit. When applying for jobs online, you can only list your major as CS anyway.
 MSMITE spends the first year in Pittsburgh and the second year in Silicon Valley, which is quite nice -- you get to experience two different places. Course selection is very flexible; you can go easy or take hard courses, giving you plenty of freedom to develop. You can also do a one-semester practicum, partnering with companies like NASA and Adobe, which you can put on your resume.

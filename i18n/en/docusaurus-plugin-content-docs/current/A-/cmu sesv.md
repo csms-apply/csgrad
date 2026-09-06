@@ -41,3 +41,13 @@ However, the required software engineering courses are often taught back and for
 For students who already have a CS background, it can feel like the nearly $90K tuition paid to CMU was wasted.
 
 If you did not get into a more hardcore CS master's program (MCDS, MSIN) but really want to find a job in the Bay Area, this is worth considering. If you have other offers like Brown SCMCS or UT ECE, personally I feel those may offer better value.
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Sichi Onyemeh](https://www.linkedin.com/in/sichi-onyemeh/) | Washington University McKelvey School of Engineering, BS, Computer Engineering and Computer Science, August 2019–May 2023 | CMU Department of Electrical and Computer Engineering, MS in Software Engineering, January 2024–May 2025; both headline and About explicitly identify Silicon Valley | Auntie Software Engineer Intern, May–August 2024; SAP Software Engineer (full-time), July 2025–present as displayed when checked |
+
+Silicon Valley affiliation is explicitly stated by the profile owner, not inferred from work location. The Auntie internship took place during the master's program; the SAP full-time role began after the listed master's end date.

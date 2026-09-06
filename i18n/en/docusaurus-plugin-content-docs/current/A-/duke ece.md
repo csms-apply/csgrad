@@ -41,3 +41,13 @@ Accepts career changers. Overall difficulty is not high — GPA 3.7+ with passin
 5. Donghua University Software Engineering undergrad, no internships, landed HP internship, then landed Amazon new grad
 6. UESTC Software Engineering undergrad, small-company internship in China, then landed Amazon new grad
 7. Duke Kunshan DS undergrad, Philips internship in Shanghai, landed intern at a small company
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Yuchen Zhang](https://www.linkedin.com/in/yuczhang/) | Southeast University, bachelor's degree in Automation, August 2016–June 2020 | Duke University, MS in Electrical and Computer Engineering, August 2020–December 2023 | Microsoft Software Engineer Intern, May–August 2022; NVIDIA Software Engineer Intern, May–August 2023; NVIDIA Software Engineer (full-time), February 2024–present as displayed when checked |
+
+This profile explicitly identifies an MS, not an MEng. Both internships fall within the listed master's dates; the NVIDIA full-time role began afterward. The dates are reproduced as listed and do not establish the program's standard duration. This profile is separate from the anonymous examples above.

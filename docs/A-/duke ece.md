@@ -41,3 +41,13 @@ ECE总共有两个大类，一个是MS，一个是MENG👋。区别就是前者�
 5. 东华大学软工本科无实习，上岸hp实习，后ng上岸amazon
 6. 电子科技大学软工本科有国内小厂实习，后ng上岸amazon
 7. duke kunshan ds本科，有上海飞利浦实习，上岸小厂intern
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Yuchen Zhang](https://www.linkedin.com/in/yuczhang/) | Southeast University，Automation 本科，2016年8月–2020年6月 | Duke University，MS in Electrical and Computer Engineering，2020年8月–2023年12月 | Microsoft Software Engineer Intern，2022年5–8月；NVIDIA Software Engineer Intern，2023年5–8月；NVIDIA Software Engineer（全职），2024年2月至今（核验时页面所示） |
+
+该履历明确为 MS，不是 MEng。两段实习位于硕士所列起止日期之间，NVIDIA 全职开始于结束日期之后。教育时间按原页记录，不将个人就读跨度推断为项目标准学制，也不与上方匿名案例对应。

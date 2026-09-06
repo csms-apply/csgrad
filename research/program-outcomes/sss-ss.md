@@ -60,7 +60,7 @@
 
 - 已核验并收录，见 [独立证据记录](harvard-ds-hds.md)。
 
-## 已调查、尚无符合目标学位的样本
+## MIT CSE：早期排除与定向补查
 
 ### MIT CSE
 
@@ -71,11 +71,14 @@
 - [Yu-Chuan Hsu](https://www.linkedin.com/in/yu-chuan-hsu-13b032206/en)：MIT 为 Civil Engineering and Computation 博士，硕士为 National Taiwan University Civil Engineering 2016–2018。排除。
 - [Michael Kapteyn](https://www.linkedin.com/in/michael-kapteyn/)：MIT 2018–2021 CSE 为博士，2016–2018 SM 为 Aeronautics and Astronautics。排除。
 
-## 待继续调查
+- 最后定向查询：`MIT "Computational Science" "SM" site:linkedin.com/in`。打开 Google 发现的 [You Xuan T.](https://sg.linkedin.com/in/thungyx) 原页，滚动加载 Education / Experience，确认 MIT Master of Science - SM, Computational Science and Engineering，2021–2022；Cambridge BA Economics，2018–2021。不是 CSE 博士或 AeroAstro SM。
+- 已收录：Singapore Department of Statistics Data Science Intern（Internship，2020年6–8月）；MIT Senseable City Lab Graduate Student Researcher（2021年9月–2022年8月，未注明雇佣类型）；Ministry of Home Affairs Singapore Data Scientist（Full-time，2024年3月–Present）。日期和身份均来自原页；不将这一个案解释为项目整体就业表现。中英文页面已补。
+
+## 本分组完成状态
 
 Google 曾出现异常流量验证码。用户于本轮手动验证后已恢复，现仅由根任务低频串行查询。
 
 - Princeton MSECS：用户验证后已恢复检索并完成一条样本，见上。
 - UIUC MSCS：专门按thesis查询后已核验并收录，见 [核验与排除记录](uiuc-mscs.md)。
 - Yale MSCS 2year：已核验Katie Rimey原页明确Two-year MS CS program，见 [核验记录](yale-two-year.md)。
-- 本分组15项目均已调查；14项目有新增来源，MIT CSE候选均不匹配目标硕士，保留缺口。
+- 本分组15项目均已调查并补充来源样本；MIT CSE 经 SM 定向查询后已补齐，早期不匹配候选仅保留为排除记录。

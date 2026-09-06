@@ -36,3 +36,12 @@ prefer 美本，gpa>3.8，gre>330, gpa gre越高越好。average gre 330, 2022 f
 10. McGill University finance 本科，有加拿大六个月小厂intern，上岸meta intern并且转正
 11. 沃顿finance本科，google step intern和google summer intern，最后ng 上岸meta
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Anya Cui](https://www.linkedin.com/in/anya-cui-569b09224/) | University of Warwick，BSc Economics，2021–2024，First Class Honours | University of Pennsylvania，2025年8月–2027年5月；个人标题写 MCIT，教育栏写 Master of Applied Science, Computer Science，并明确 On-campus | Oliver Wyman Consultant（全职），2025年2–8月；Citadel Sector Data Analyst Intern，2026年6–8月 |
+
+硕士结束日期尚在未来，不能作为毕业就业样本。Oliver Wyman 职位开始于硕士入学前，Citadel 为在读实习。保留个人标题与教育栏不同的项目名称，不据个人履历推断项目更名政策。

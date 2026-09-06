@@ -21,3 +21,13 @@ Very good. From a pure results perspective, the outcomes are excellent. The admi
 5. Indian student, three years of work experience, landed Microsoft SDE 2 (roughly level 60 in Microsoft's internal leveling system; new grad is level 59)
 6. Indian student, three-month Samsung internship and six-month SAP internship plus two years full-time, landed Adobe internship and converted to full-time
 7. Indian student, VIT undergrad, multiple five-month internships, landed Armada new grad
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Nazanin Ghazi](https://www.linkedin.com/in/nazaninghazi/) | University of Toronto, bachelor's degree, Computer Science Specialist, September 2020–June 2025 | Carnegie Mellon University, master's in Computer Software Engineering - Scalable Systems, August 2025–December 2026; About also explicitly identifies Scalable Systems | DoorDash Software Engineer Intern, May–August 2026; Veeva Systems Software Engineer Intern, May 2023–August 2024 |
+
+The master's end date is still in the future, so this is not a graduate employment outcome. The DoorDash title and personal post explicitly identify an internship despite the Full-time employment-type label; it is not presented as a full-time graduate role. The Veeva internship took place during undergraduate study.

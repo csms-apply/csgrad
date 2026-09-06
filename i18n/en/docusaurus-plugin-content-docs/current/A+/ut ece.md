@@ -34,3 +34,11 @@ Job prospects are also very favorable, mainly because you can extend graduation,
 
 1. SJTU IS undergrad, had ByteDance, Cisco, and Synopsys internships, landed Apple new grad
 2. UT Austin ECE undergrad, GPA 3.98 (top 10%), landed AMD new grad
+
+## Public Education and Employment Profile Samples
+
+These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
+
+| Undergraduate education | Master's education | Public employment history | Source |
+| --- | --- | --- | --- |
+| The University of Texas at Austin, Bachelor of Science in Electrical and Computer Engineering (ECE) Honors, 2022-08–2025-12 | The University of Texas at Austin, Master of Science in Electrical and Computer Engineering, 2026-01–2026-12; the About section explicitly identifies Software Engineering Systems (SES), and the listed end date is after the verification date | LinkedIn, Systems & Infrastructure Software Engineer (internship), 2024-05–2024-08 and 2025-05–2025-08; Databricks, Software Engineer (internship), 2026-05–2026-08 | [Moneel Patel's LinkedIn profile](https://www.linkedin.com/in/moneel/) |

@@ -48,3 +48,11 @@ CS排名高(在cs ranking上排名第4)，开设的方向非常全，nlp, cv, ar
 ## ta 机会
 gatech 招大量的online 课程的ta, 
 但是得比较早主动去找，我之前以为不好找，后面发现怎么有的助教啥也不会也能当助教
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| University of California, Berkeley，Bachelor of Arts in Cognitive Science，Data Science 辅修，2017-08–2021-05 | Georgia Institute of Technology，Master of Science in Computer Science，Machine Learning 专项，2024-08–2026-05；教育栏明确 MSCS On-Campus Program | Salesforce，Software Engineer（全职），2021-12–2023-04；Nissan Motor Corporation，Graduate Systems Research Intern，2024-09–2024-12；NetSuite，Software Engineer II（全职），2026-07–履历所示 Present | [Areeb Khalfay 的 LinkedIn 履历](https://www.linkedin.com/in/areebkhalfay/) |

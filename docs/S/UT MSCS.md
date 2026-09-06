@@ -50,3 +50,11 @@ Austin 真的很热，九月中旬的时候，下午五六点还能有 30 多度
 生活上，Austin 该有的都有，生活用品在 Walmart、HEB、大华 都能买到，物价相对还行。租房的话，Far West 是中国学生的主要聚集地，房租 600-800 刀左右；West Campus 主要是本科生，价格稍贵 800-1000，但距离学校更近，骑车 10 分钟就能到 CS 楼，不用等校车，体验很好。
 
 社交方面，UT 其实有很多 International Student Activities，但大部分 CS 研究生都忙着刷题找工作，真正去参加的并不多。CS 这边 networking 的机会也不少，每年都有不少大公司来校招，比如 Google、Apple、Microsoft、Bloomberg、Goldman Sachs 都会举办专场活动。另外，UT 还有一个 Friends of Computer Science (FoCS) 项目，基本上每天都会有公司来，走进系楼就能看到一群人排队投简历
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| Stony Brook University，本科阶段 Computer Science，2018–2024；履历未列具体本科学位名称 | The University of Texas at Austin，Master of Science in Computer Science，2025-08–2027-05；本人公开动态明确为 on-campus，履历列出的结束日期晚于本次核验日期 | The University of Texas at Austin，Research Assistant，Human Signals Lab（履历类型为 Internship），2026-01–履历所示 Present；HANWHA LIFE CO., LTD.，AI Modeling Research Intern（实习，韩国首尔），2026-06–2026-08 | [Hyo Jong Chung 的 LinkedIn 履历](https://www.linkedin.com/in/hyo-jong-chung-62938023b/) |

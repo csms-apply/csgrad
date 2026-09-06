@@ -26,6 +26,15 @@ UMass食堂全美第一，MSCS课程大部分都蛮水的，非常适合水掉�
 6. Umass cs本科，有Umass 大学里面的sde实习, 上岸微软intern
 
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Sai Sreenivas Chintha](https://www.linkedin.com/in/sai-sreenivas/) | Indian Institute of Technology Hyderabad，BTech in Computer Science（2017–2021） | University of Massachusetts Amherst，MS in Computer Science（2024 年 9 月–2026 年 5 月） | 读硕士前：Adobe，Member of Technical Staff / Member of Technical Staff 2，全职，2021 年 7 月–2024 年 7 月。硕士期间：KLA，Machine Learning Research Intern，实习，2025 年 6–8 月。Microsoft，Machine Learning Extern，2026 年 2 月–至今，未注明雇用类型；未据页首 Applied Scientist-2 称谓推断全职任职日期。 |
+
+
 
 
 

@@ -31,3 +31,12 @@ SS和ES面向工作经验\<2年的新人，Pro则是面向工作经验\>2年的�
 6. 印度同学，有三星三个月实习和sap六个月实习，两年全职，上岸adobe实习并且转正
 7. 印度同学vit本科，多段五个月实习，上岸Armada ng
 
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Nazanin Ghazi](https://www.linkedin.com/in/nazaninghazi/) | University of Toronto，Computer Science Specialist 本科，2020年9月–2025年6月 | Carnegie Mellon University，Computer Software Engineering - Scalable Systems 硕士，2025年8月–2026年12月；About 同样明确 Scalable Systems | DoorDash Software Engineer Intern，2026年5–8月；Veeva Systems Software Engineer Intern，2023年5月–2024年8月 |
+
+硕士结束日期尚在未来，不能作为毕业就业样本。DoorDash 职位标题及本人动态明确为实习，尽管页面雇佣类型标为 Full-time，不将其称为毕业全职；Veeva 实习发生在本科期间。

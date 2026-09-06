@@ -35,3 +35,12 @@ SCU MSCSE有相当数量的课workload很大，而且给分像开盲盒。有的
 如果手上有NEU IS、CSA这种课程load小、co-op系统完善、找工氛围好的offer，建议去NEU，不建议来SCU。SCU比较适合两类人：一类是铁了心刷题找工、对学校课程不care只想要个OPT的，注意避坑选课就行；另一类是想读PhD的，SCU小班教学容易跟教授建立关系，可以做Master Thesis发论文，每年都有人从这里拿到全奖PhD。
 
 来了的话也别后悔，学校本身没有坑你，只是信息不对称和期望值管理的问题。关键是早刷题早投递，别等开学了才开始。
+
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Shreeraj SuryavanshiPatil](https://www.linkedin.com/in/shreeraj-suryavanshipatil/) | Modern Education Society's College of Engineering, Pune，BE in Computer Engineering（2016–2020） | Santa Clara University，MS in Computer Science and Engineering（2022 年 9 月–2024 年 6 月） | Juniper Networks，Software Engineer Intern，实习，2023 年 6–9 月；Software Development Engineer 2，全职，2024 年 4 月–2025 年 6 月。Microsoft，Software Engineer II，全职，2025 年 11 月–2026 年 3 月；Google，Software Engineer，全职，2026 年 3 月–至今。 |

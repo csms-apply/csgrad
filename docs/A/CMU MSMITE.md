@@ -1,5 +1,6 @@
 # CMU MSMITE
 
+
 ## 项目介绍
 项目全称是 Master of Science in Mobile and IoT Engineering ，并不是cs tile，不过问题也不大，因为找工主要看个人经历和简历匹配度。网申时候也只能填专业cs。
 msmite 第一年在匹兹堡，第二年在sv，还是很不错的，能体验两个不同的地方，选课很自由，可水可选硬课，给你充分的自由度去发展。同时也可以做一个学期的practicum，会和一些企业比如nasa、adobe合作，可以写到简历上。

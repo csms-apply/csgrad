@@ -35,3 +35,12 @@ That said, an alumnus was proactively contacted by a Google HR on LinkedIn for a
 If you're holding offers from programs like NEU IS or CSA that have lighter coursework, solid co-op systems, and strong job-hunting culture, go to NEU — don't come to SCU. SCU works for two types of people: those who are laser-focused on LeetCode grinding and job applications and just need an OPT vehicle (just avoid the bad courses); and those aiming for a PhD, since small class sizes make it easy to build relationships with professors, do a Master Thesis, and publish papers.
 
 If you do end up here, don't regret it — the school itself isn't scamming you. It's more about information asymmetry and expectation management. The key is to start grinding LeetCode and applying early — don't wait until classes begin.
+
+
+## Public Education and Work History Samples
+
+The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
+
+| Profile | Undergraduate education | Master's program | Public work history |
+| --- | --- | --- | --- |
+| [Shreeraj SuryavanshiPatil](https://www.linkedin.com/in/shreeraj-suryavanshipatil/) | Modern Education Society's College of Engineering, Pune, BE in Computer Engineering (2016–2020) | Santa Clara University, MS in Computer Science and Engineering (September 2022–June 2024) | Juniper Networks: Software Engineer Intern, internship, June–September 2023; Software Development Engineer 2, full-time, April 2024–June 2025. Microsoft, Software Engineer II, full-time, November 2025–March 2026; Google, Software Engineer, full-time, March 2026–present. |

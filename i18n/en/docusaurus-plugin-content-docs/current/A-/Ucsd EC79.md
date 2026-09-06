@@ -53,3 +53,13 @@ Grade: Poor grading. While not required for any specific track, it is an electiv
 Recommendation: 4/5
 Assignment: Group project. One group conducted a stock portfolio optimization project, using mathematical methods to analyze how to allocate different stocks to minimize risk and maximize returns.
 Workload: Light — about 5-7 hours per week.
+
+## Public education and work history samples
+
+These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
+
+| Public profile | Undergraduate education | Education in this program | Internship or work history |
+| --- | --- | --- | --- |
+| [Ruilong (Rilon) Liu](https://www.linkedin.com/in/ruilong-liu-ucsd/) | University of British Columbia, BSc in Computer Science, August 2020–May 2024 | UC San Diego, MS in Electrical and Computer Engineering - Computer Engineering, September 2024–March 2026; education description explicitly identifies Computer Engineering Track (EC79) | Zhengzhou Digital Technology Co., Ltd. Software Engineer Intern, June–August 2022; UBC Undergraduate Research Assistant (internship), May–August 2023 |
+
+Both roles took place during undergraduate study and are not employment outcomes after EC79. The verified page lists no corporate internship during the master's program or subsequent full-time role. Although Education provides an end date, About still describes student status; this does not establish that the degree was awarded.

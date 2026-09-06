@@ -49,3 +49,13 @@ Grade：给分烂。此课程虽非任一 track 的必修，却是多数 track �
 推荐指数：⭐⭐⭐⭐
 Assignment：为组队项目。曾有小组开展股票投资组合优化项目，运用数学方法分析如何配置不同股票以实现风险最小化与收益最大化。
 Workload：较小，每周约花 5 - 7 小时。
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
+| --- | --- | --- | --- |
+| [Ruilong (Rilon) Liu](https://www.linkedin.com/in/ruilong-liu-ucsd/) | University of British Columbia，BSc in Computer Science，2020年8月–2024年5月 | UC San Diego，MS in Electrical and Computer Engineering - Computer Engineering，2024年9月–2026年3月；教育描述明确 Computer Engineering Track (EC79) | Zhengzhou Digital Technology Co., Ltd. Software Engineer Intern，2022年6–8月；UBC Undergraduate Research Assistant（实习），2023年5–8月 |
+
+两段经历均发生在本科期间，不是 EC79 毕业就业。已核验页面未列硕士期间企业实习或毕业后全职工作。教育栏虽有结束日期，About 仍自称学生，本文不据此断言已获学位。

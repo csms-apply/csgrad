@@ -13,3 +13,12 @@ More than half of all graduate students at USU receive Financial Assistance incl
 ## 录取bar和dp
 gpa >3.0, toefl >90，具体可以看官网要求，接受转码
 
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
+| --- | --- | --- | --- |
+| [Aashay Maheshwarkar](https://www.linkedin.com/in/aashaym1/) | National Institute of Technology Karnataka，BTech in Computer Science（2017 年 8 月–2021 年 4 月） | Utah State University，计算机科学硕士（2022 年 8 月–2024 年 5 月） | CacheTech Advisor Solutions，Junior Software Developer，全职，2024 年 8 月–至今；ASPIRE Research Center，Graduate Research Assistant，兼职，2023 年 1 月–2024 年 9 月；Utah State University，Graduate Teaching Assistant，兼职，2023 年 8–12 月。读硕士前：SAP Labs India，Associate Software Developer，全职，2021 年 7 月–2022 年 7 月。 |
+

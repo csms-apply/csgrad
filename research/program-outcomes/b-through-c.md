@@ -6,7 +6,7 @@
 
 ## 当前覆盖
 
-已完成 Google 发现并核验个人页：15/25。已添加样本：15 个项目、17 人，中英文各 15 页。Google 验证由用户处理后，根 agent 已恢复串行发现并提供候选；另 10 项尚未完成核验。**待查不等于无数据，未宣称这 10 项已完成研究。**
+已完成 Google 发现并核验个人页：25/25。已添加样本：23 个项目、25 人，中英文各 23 页。另 2 项（NEU 常规 MSCS、USC CS28）已核验候选，但尚未确认具体项目模式，未在正文添加样本。本轮研究已停止，这 2 项作为明确缺口保留；不表示该项目没有公开履历。
 
 ## 已核验
 
@@ -190,23 +190,110 @@
 - 任职：Matching Donors，Web Developer，兼职，2026 年 2 月–至今；CancerFree Biotech，Software Engineer Intern，实习，2025 年 6–9 月。未核实毕业后的全职工作，兼职不计作全职结果。
 - 核验限制：页首明确 MCS Graduate，Education 的 Master, Computer Science 给出日期；About 使用 M.S. 通用简称，正文保留原页的明确 MCS 自述并注明依据。Matching Donors 雇用类型为 Part-time，不写成全职；Apache Software Foundation Open-Source Contributor 不作为该机构雇用关系或全职结果。
 
-## 待研究清单
+### UIUC ECE MEng — Haoyang (Lucas) Chen
 
-| 页面 | 待核对项目名称 | 状态 |
-| --- | --- | --- |
+- 页面：`docs/B/UIUC ECE MENG.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`UIUC ECE MEng alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Haoyang (Lucas) Chen](https://www.linkedin.com/in/hychen11/)。
+- 本科：浙江大学，Bachelor of Engineering in Electronic Science and Technology（2019 年 9 月–2023 年 6 月）。
+- 硕士：University of Illinois Urbana-Champaign，Master of Engineering (MEng)，Computer Engineering（2024 年 6 月–2025 年 12 月）；页首写 UIUC ECE Alumni。
+- 任职：TikTok，Junior Software Engineer，2026 年 2 月–至今，未注明雇用类型；MeiTuan，Java Software Engineer，实习，2025 年 5–8 月。
+- 核验限制：Education 明确 Master of Engineering - MEng，专业原文 Computer Engineering，页首明确 ECE Alumni；未改成 MS 或 CS 学位。TikTok 未标 Full-time，保留雇用类型缺口；MeiTuan 明确 Internship。未把旧匿名 DP 与本样本认领。
+
+### UMass Amherst MSCS — Sai Sreenivas Chintha
+
+- 页面：`docs/B/UMass MSCS.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`UMass Amherst MSCS alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Sai Sreenivas Chintha](https://www.linkedin.com/in/sai-sreenivas/)。
+- 本科：Indian Institute of Technology Hyderabad，BTech in Computer Science（2017–2021）。
+- 硕士：University of Massachusetts Amherst，MS in Computer Science（2024 年 9 月–2026 年 5 月）。
+- 任职：读硕士前：Adobe，Member of Technical Staff / Member of Technical Staff 2，全职，2021 年 7 月–2024 年 7 月。硕士期间：KLA，Machine Learning Research Intern，实习，2025 年 6–8 月。Microsoft，Machine Learning Extern，2026 年 2 月–至今，未注明雇用类型；未据页首 Applied Scientist-2 称谓推断全职任职日期。
+- 核验限制：已确认 Amherst，不混入其他 UMass 校区。Education 和 Experience 日期齐全。页首为 Applied Scientist-2 @Microsoft，但 Experience 的当前微软条目是 Machine Learning Extern，自2026年2月起；因此不把页首直接转写为已核实的全职科学家结果。Adobe 三年全职在硕士前，KLA 条目明确 Internship。
+
+### USC CS28（文件名 USC CS37.md）— 已核验候选，方案归属待确认
+
+- 页面：`docs/B/USC CS37.md`，实际 H1 为 USC CS28，正文明确与 CS37 区分；不能根据文件名或搜索词误认方案。
+- Google 查询：`USC computer science "28" masters site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- [Sneha Kedia](https://www.linkedin.com/in/sneha-kedia/)：MAKAUT（原 WBUT）BTech Information Technology（2016 年 8 月–2020 年 7 月）；USC MS Computer Science（2021 年 8 月–2022 年 12 月）；Apple AI/ML Software Engineer II 全职（2023 年 2 月–2025 年 1 月）、Meta Software Engineer II, Machine Learning 全职（2025 年 1 月–至今）。未明确 General/CS28 或 Scientists and Engineers 方案，暂不归入本页。
+- [Abhiruchi Patil](https://www.linkedin.com/in/abhiruchi-patil31/)：Xavier Institute of Engineering BE Computer Engineering（未标日期）；USC Master's degree, Computer Science（2023–2025）；EASLEY-DUNN PRODUCTIONS ML & Data Engineer 全职（2025 年 7 月–2026 年 7 月）、Meta Gen AI Data Analyst 合同岗（2026 年 3–6 月）。同样未明确方案，不能仅凭 CS 本科推定常规方案。
+- [Varun Singhal](https://www.linkedin.com/in/varunraisinghal/)：Education 明确 USC MS Computer Science: Artificial Intelligence（2025 年 1 月–至今），UC San Diego BS Computer Science（2020–2024）；GEICO SWE 全职（2024 年 5 月–2025 年 8 月）。这是明确 AI 方向，不作为普通 CS28 样本。
+- 结果：三位均打开个人教育与任职条目。普通 CS28 归属仍缺直接证据，因此本轮不加正文；不宣称 USC 没有公开学历或工作样本。搜索中的 28 未被当作学分证据。
+
+### Utah State University MSCS — Aashay Maheshwarkar
+
+- 页面：`docs/B/utah state university MSCS.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Utah State University MS Computer Science alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Aashay Maheshwarkar](https://www.linkedin.com/in/aashaym1/)。
+- 本科：National Institute of Technology Karnataka，BTech in Computer Science（2017 年 8 月–2021 年 4 月）。
+- 硕士：Utah State University，计算机科学硕士（2022 年 8 月–2024 年 5 月）。
+- 任职：CacheTech Advisor Solutions，Junior Software Developer，全职，2024 年 8 月–至今；ASPIRE Research Center，Graduate Research Assistant，兼职，2023 年 1 月–2024 年 9 月；Utah State University，Graduate Teaching Assistant，兼职，2023 年 8–12 月。读硕士前：SAP Labs India，Associate Software Developer，全职，2021 年 7 月–2022 年 7 月。
+- 核验限制：Education 明确 Utah State University，未混入 University of Utah；原学位字段为 Master's degree, Computer Science。RA、TA 都有 Part-time 类型及年月；不能据此推断本人有全额奖学金、具体资助金额或所有学生均有资助。旧 About 仍写在读，与 Education 截止 May2024 不同步，采用明确教育日期并不声称仍在读。
+
+### NEU MS Information Systems — Izu Nwokolo
+
+- 页面：`docs/B-/NEU IS.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Northeastern MS Information Systems alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Izu Nwokolo](https://www.linkedin.com/in/izu-nwokolo/)。
+- 本科：Howard University，BS in Computer Science（2020 年 8 月–2024 年 5 月）。
+- 硕士：Northeastern University，MS in Information Systems（2025 年 9 月–2027 年 5 月，后者为预期结束时间）；在读，教育条目未注明校区。
+- 任职：Lam Research，Lab Ops Process CIP Engineer，实习，2025 年 6–9 月；MathWorks，EDG intern，实习，2023 年 5–8 月；T-Mobile，Software Engineer Intern，实习，2022 年 5–8 月。此前另有 Nike Sales Associate 全职零售岗位（2024 年 11 月–2025 年 5 月）。这些经历在硕士入学前或开始时，不作为硕士毕业就业结果。
+- 核验限制：Education 明确 MS Information Systems，非 MSCS/SES。硕士结束日在未来，明确标为在读；个人公开贴称在 Arlington 展示 capstone，但未把单次活动地点作为教育校区证明。Lam、MathWorks、T-Mobile 都明确 Internship，Nike 全职属于零售而非软件岗位；不把入学前实习写成硕士毕业就业。
+
+### NEU MS Software Engineering Systems — Stafny Karkada
+
+- 页面：`docs/B-/NEU SES.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Northeastern "Software Engineering Systems" alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Stafny Karkada](https://www.linkedin.com/in/stafny-karkada/)。
+- 本科：N M A M Institute of Technology, NITTE，Bachelor of Technology in Information Science（2016 年 8 月–2020 年 5 月）。
+- 硕士：Northeastern University，Master of Science，Computer Software Engineering Systems（2023 年 9 月–2025 年 7 月）；About 明确称 Software Engineering Systems。
+- 任职：Dune Security，Software Engineer，全职，2025 年 8 月–至今。Northeastern University，Graduate Teaching Assistant，兼职，2024 年 8 月–2025 年 5 月，地点 Boston。读硕士前：YML，Associate Software Engineer / Software Engineer，全职，2019 年 6 月–2023 年 8 月。
+- 核验限制：Education 明确 Computer Software Engineering Systems，About 也明确 Software Engineering Systems；页首简写 MS CS 不覆盖这一更具体学位，未误归 MSCS。TA 地点明确 Boston，仅陈述任职地点，未据此推断所有课程形式。YML 任职起于本科期间，表中仅归为硕士前工作而未说本科毕业后工作。
+
+### SCU MS Computer Science and Engineering — Shreeraj SuryavanshiPatil
+
+- 页面：`docs/B-/SCU MSCSE.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Santa Clara MS Computer Science Engineering alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Shreeraj SuryavanshiPatil](https://www.linkedin.com/in/shreeraj-suryavanshipatil/)。
+- 本科：Modern Education Society's College of Engineering, Pune，BE in Computer Engineering（2016–2020）。
+- 硕士：Santa Clara University，MS in Computer Science and Engineering（2022 年 9 月–2024 年 6 月）。
+- 任职：Juniper Networks，Software Engineer Intern，实习，2023 年 6–9 月；Software Development Engineer 2，全职，2024 年 4 月–2025 年 6 月。Microsoft，Software Engineer II，全职，2025 年 11 月–2026 年 3 月；Google，Software Engineer，全职，2026 年 3 月–至今。
+- 核验限制：Education 明确 MSCSE，未误用本科 CSE。Juniper SDE2 全职开始于教育结束前，日期照录；其后 SDE3 条目（2025年6–11月）未标类型，表中选用有明确类型的岗位且不暗示连续无缺口。首候选 Ryan Rani（https://www.linkedin.com/in/ryanrani/）已核验，仅 SCU BS Computer Science and Engineering（2022年8月–2026年6月）及高中，没有硕士条目，故排除。
+
+### UIUC MS Information Management — Peeya Thacker
+
+- 页面：`docs/B-/UIUC MSIM.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`UIUC MS Information Management alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Peeya Thacker](https://www.linkedin.com/in/peeya-thacker/)。
+- 本科：KJ Somaiya College of Engineering, Vidyavihar，BTech in Computer Engineering（2019 年 8 月–2023 年 5 月）。
+- 硕士：University of Illinois Urbana-Champaign，MS in Information Management（2023 年 8 月–2025 年 5 月）。
+- 任职：COUNTRY Financial：Data Scientist，实习，2024 年 5–12 月；Technical Project Manager，实习，2025 年 1–5 月；Product Owner 2，全职，2025 年 6 月–至今。
+- 核验限制：完整 Education 明确 MS Information Management 与 KJ Somaiya BTech。IIT Madras 的 Data Science 条目是 Diploma of Education（2022年5月–2023年12月），未当成本科学位。COUNTRY Financial 三岗位分别有 Internship/Full-time 标识，不把产品岗位写成 SWE，也不由同公司时间序列推断内部转正承诺。
+
+### University of Minnesota MSCS — Yiming (Karry) Yao
+
+- 页面：`docs/C+/UMN MSCS.md`；英文镜像路径相同。新增部分位于文末。
+- Google 查询：`Minnesota MS Computer Science alumni site:linkedin.com/in`，由根 agent 串行搜索后提供候选。
+- 个人来源：[Yiming (Karry) Yao](https://www.linkedin.com/in/yimingyao1/)。
+- 本科：University of Minnesota College of Science and Engineering，BS Computer Science，2017–2021。
+- 硕士：同校 MS Computer Science，2021 年 9 月–2022 年 12 月。
+- 任职：Vanguard，Software Engineer，标注全职，2023 年 6 月–至今；此前 IDG Capital，Financial Data Analyst 实习，2021 年 6–8 月。
+- 核验限制：已打开个人页面并加载 Education 和 Experience；本科、硕士项目及岗位时间均来自实际条目。未将 IDG 实习当作毕业后就业，也未从个人案例推断项目就业率。
+
+## 已研究但未补入正文的缺口
+
+| 页面 | 项目名称 | 实际 Google 查询 | 状态 |
+| --- | --- | --- | --- |
 | `docs/B/NEU MSCS.md` | NEU general MSCS | `Northeastern MSCS alumni site:linkedin.com/in` | 已核验三位；General/Align 归属待确认，非未搜索 |
-| `docs/B/UIUC ECE MENG.md` | UIUC ECE MEng | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B/UMass MSCS.md` | UMass Amherst MSCS | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B/USC CS37.md` | USC CS28（实际页面标题；文件名为 CS37） | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B/utah state university MSCS.md` | Utah State University MSCS | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B-/NEU IS.md` | NEU MS Information Systems | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B-/NEU SES.md` | NEU MS Software Engineering Systems | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B-/SCU MSCSE.md` | Santa Clara MS Computer Science and Engineering | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/B-/UIUC MSIM.md` | UIUC MS Information Management | 尚未 Google 查询；受统一限流暂停影响 |
-| `docs/C+/UMN MSCS.md` | University of Minnesota MSCS | 尚未 Google 查询；受统一限流暂停影响 |
+| `docs/B/USC CS37.md` | USC CS28（以 H1 为准） | `USC computer science "28" masters site:linkedin.com/in` | 已核验三位；普通 CS28 归属待确认 |
 
-Rice 曾被拦查询：`Rice Master Computer Science alumni site:linkedin.com/in`，现已由根 agent 恢复并完成该项目核验。其余项目等待串行发现，不能用搜索摘要补齐。
+Rice 曾被拦查询：`Rice Master Computer Science alumni site:linkedin.com/in`，后来已由根 agent 恢复并完成该项目核验。25 个项目均已完成 Google 发现并打开候选个人页；上述 2 项缺口属于项目模式证据不足，不是尚未搜索。
 
 ## 已发现候选的后续核验
 
-上述 Saloni Patel、Shriranjan Patil 均已在 LinkedIn Education / Experience 中核验并加入页面。Google 人机验证出现后未继续发起新搜索。
+上述 Saloni Patel、Shriranjan Patil 均已在 LinkedIn Education / Experience 中核验并加入页面。Google 人机验证出现后，本 agent 未继续发起新搜索；后续 Google 查询由根 agent 串行执行。
+
+USC 最后定向查询 `USC "Computer Science" "General" masters site:linkedin.com/in` 的 Garima Merani（https://www.linkedin.com/in/garima-merani/）、Harsh Toshniwal（https://www.linkedin.com/in/harsh-toshniwal-6b9a06216/）、Gabriel Do（https://www.linkedin.com/in/gabrieldo20/）由根 agent 提供。在用户要求清理标签页时停止新浏览，没有打开或核验这些新候选；它们不属于已核验样本。
+
+NEU 最后定向查询 `Northeastern "MSCS" "general" site:linkedin.com/in` 发现 Fengrui Gan（https://www.linkedin.com/in/fengrui-simon-gan）、Hua Wang（https://www.linkedin.com/in/hua-wang-bb669b250）、Vishal Rajpurohit（https://www.linkedin.com/in/vishalrajpurohit226）。额外核验任务因用量限制未完成，没有可采纳的核验记录，不能计为已核验样本；仍以此前三人原页核验及模式缺口为准。
+
+本 agent 唯一自建研究标签（Chrome browser 1，tab 1073278575）已关闭，未关闭用户原有标签。

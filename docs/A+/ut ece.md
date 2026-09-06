@@ -32,3 +32,11 @@ SES一学期的学费+保险是11000多（通常选每学期9学分的话），�
 
 1. 交大is本科，有字节、cisco、Synopsys实习, 上岸apple ng
 2. ut austin ece本科gpa3.98(top10%), 上岸amd ng
+
+## 公开教育与工作履历样本
+
+以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
+
+| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
+| --- | --- | --- | --- |
+| The University of Texas at Austin，Bachelor of Science in Electrical and Computer Engineering (ECE) Honors，2022-08–2025-12 | The University of Texas at Austin，Master of Science in Electrical and Computer Engineering，2026-01–2026-12；个人介绍明确 Software Engineering Systems (SES) 方向，履历列出的结束日期晚于本次核验日期 | LinkedIn，Systems & Infrastructure Software Engineer（实习），2024-05–2024-08、2025-05–2025-08；Databricks，Software Engineer（实习），2026-05–2026-08 | [Moneel Patel 的 LinkedIn 履历](https://www.linkedin.com/in/moneel/) |
