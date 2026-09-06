@@ -37,4 +37,3 @@ SCS Robotics Institute下面1.5年的CV项目，强制暑期实习但也可以�
 3. whu ece本科 上岸weride
 4. ut 本科，有华为research intern 上岸三星ng
 5. nyu cs本科 有2段国内小厂实习，上岸小厂
-

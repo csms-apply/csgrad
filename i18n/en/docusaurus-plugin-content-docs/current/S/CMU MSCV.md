@@ -37,4 +37,3 @@ Job landing rate is 91%. Companies include DeepMind, Adobe, TikTok, Meta, Amazon
 3. WHU ECE undergrad, landed WeRide
 4. UT undergrad, had Huawei research internship, landed Samsung as new grad
 5. NYU CS undergrad, had 2 small domestic company internships, landed at a small company
-
