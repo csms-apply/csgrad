@@ -15,13 +15,4 @@ Undergraduate majors are quite diverse -- students come from business, design, d
 ## Job Outcomes
 Not very optimistic, mainly because many career-change-to-CS students are admitted. Some CS courses have heavy workloads, making it hard to free up much time for LeetCode grinding.
 
-
-
-
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Mingyi Shao](https://www.linkedin.com/in/mingyi-shao/) | Fudan University, BS in Physics (Sep 2019–Jun 2023) | Cornell University, Master of Professional Studies in Information Science (Aug 2023–Dec 2024) | Amazon, Software Development Engineer, full-time (Jun 2025–present); The Middleby Corporation, Data Scientist Intern, internship (Jun–Aug 2024). |
+- Fudan physics undergraduate, Middleby Data Scientist Intern during the program, then Amazon SDE full-time after graduating in 2024.

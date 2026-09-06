@@ -43,8 +43,7 @@ paying $6,200 per semester. There are also on-campus work-study opportunities at
 3. Vanderbilt University CS+Math undergrad, had PwC and Sohu short-term internships, landed Salesforce SWE intern
 4. University of Edinburgh CS undergrad, had MLE internship, landed Syngenta Software Engineer Intern
 5. Wellesley College CS undergrad, had product manager internship, landed Meta SWE
-
-
+6. UCI CS bachelor’s, Meta SWE intern in 2022, full-time SWE at IXL Learning from 2023, promoted to Senior SWE in 2026.
 
 ## RA and PhD Transfer
 As long as you find a professor willing to let you join their group, you have a good chance. Most CS department professors recruit new members from the MSCS program every year.
@@ -91,11 +90,3 @@ Professor: Danyang Zhuo
 Course content: Each class requires reading a paper and writing a response; class content relates to the papers.
 Project: You need to implement a distributed system on your own.
 Overall: Research-oriented, suitable for students who want to deeply study distributed systems.
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| UC Irvine, Bachelor's degree in Computer Science, 2016–2019 | Duke University, Master of Science in Computer Science, 2021–2023 | Meta, Software Engineer Intern, 2022-05–2022-08; IXL Learning, Software Engineer (full-time), 2023-09–2026-01; IXL Learning, Senior Software Engineer (full-time), 2026-01–Present as listed on the profile | [Yubo D.'s LinkedIn profile](https://www.linkedin.com/in/yuboding/) |

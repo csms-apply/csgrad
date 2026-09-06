@@ -53,11 +53,7 @@ Top employers: Amazon, Facebook, Google.
 [![University of Michigan MSCS employer outcomes dashboard; open full size](/img/en/umichcarrer.svg)](/img/en/umichcarrer.svg)
 There are some industry partnership programs (e.g., MDP) where strong performance can lead to internship interviews/opportunities.
 
+UMich CS bachelor’s followed by the same university’s master’s, Amazon SDE intern in the summer before master’s enrollment in 2025.
+
 ## Transferring to PhD
 Friendly environment for this. Quite a few students transfer directly to PhD from within the school.
-
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-- [Allison Okimoto (LinkedIn)](https://www.linkedin.com/in/allisonokimoto/): B.S. in Computer Science, University of Michigan (August 2022–May 2025), followed by an M.S. in Computer Science and Engineering at the same university (August 2025–May 2026). The profile lists Software Development Engineer Intern at Amazon (May–August 2025). This internship precedes the listed master's start date and belongs to the undergraduate graduation period, rather than an internship outcome during the master's program.

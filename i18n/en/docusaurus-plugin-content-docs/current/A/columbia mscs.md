@@ -79,8 +79,4 @@ Italian undergrad, landed Amazon
 
 CUHK-Shenzhen FinTech, career changer to CS, 0 internships, landed Amazon
 
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-- [Chi Wu (LinkedIn)](https://www.linkedin.com/in/kevin-chi-wu/): bachelor's degree in Statistics, National Chengchi University (September 2016–January 2021); master's degree in Computer Science, Columbia University (2021–2022), explicitly described as an M.S. in the profile's About section. Listed roles include Software Development Engineer Intern at Amazon (May–August 2022), Software Developer at Framewrk (full-time, February–July 2023), and Software Development Engineer at Amazon (full-time, September 2023–present as displayed when checked).
+National Chengchi University Statistics bachelor’s, Amazon SDE intern in 2022, full-time at Framewrk in 2023 before joining Amazon as a full-time SDE that year.

@@ -49,6 +49,7 @@ ini学院下面旗舰就业项目，可以拼出来跟cmu mscs差不多的课表
 即便是class of 2024这种地狱找工年，ng 出路也是不错，一方面是因为cmu cs的名声全美都认可，另一方面也是因为招收的人能力都足够，找到工作的比例是91%。上岸大厂的多一点，比如Apple, oracle, tiktok, adobe。25ng ini和scs ng 很多上岸dbx和雪花的。
 
 1. 电子科大cs本科，微软实习了十个月，amazon 实习了8个月，上岸google
+2. nyu cs+math本科，2026年MSIN Advanced Study毕业，2025年amazon sde intern，2026年上岸google swe全职。
 
 ![](/img/msinngcarrer.png)
 
@@ -56,11 +57,3 @@ ini学院下面旗舰就业项目，可以拼出来跟cmu mscs差不多的课表
 读博出路也很好，有哥大phd、cmu phd、yale phd
 
 ![](/img/msintophd.png)
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
-| --- | --- | --- | --- |
-| New York University，Bachelor's degree，Computer Science、Mathematics，Data Science 辅修，2020-09–2024-05 | Carnegie Mellon University，Master's degree in Information Networking - Advanced Study，2024-08–2026-05；方向为 Data Systems | Amazon，SDE Intern（实习），2025-06–2025-08；Google，Software Engineer（全职），2026-07–履历所示 Present | [Tianhao Gu 的 LinkedIn 履历](https://www.linkedin.com/in/tianhao-gu-930521223/) |

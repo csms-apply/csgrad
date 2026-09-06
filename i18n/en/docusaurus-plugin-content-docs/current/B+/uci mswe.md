@@ -25,16 +25,10 @@ Free US-region LeetCode premium upon enrollment. UCI email grants free access to
 5. Indian undergrad, three years full-time experience, landed SAP new grad
 6. UCR undergrad, multiple small company internships, landed Goldman Sachs and converted to full-time
 7. City University of Hong Kong BA undergrad, had SAP SDE intern and another small company SDE intern, landed Datastax
+
+8. Global Academy of Technology CS undergraduate, over three years full-time at GeekyAnts before the master’s, Esri SWE intern during it, then Esri SDE II full-time after graduating in 2025.
+
 ## Resume Screen:
 Getting past the resume screen should be fine. Students who enrolled three years ago (21 Fall) had great internship outcomes, with quite a few going to Google, Meta, Amazon, and other major companies -- Meta especially, with 4-5 out of 40-50 people, a high ratio. After that, things changed dramatically; the golden era of landing Amazon with just three problems is long gone. However, UCI alumni I've spoken with still have interview opportunities at several decent companies.
 
 Alumni from the previous cohort suggest doing projects and internships with professors or partner companies during the summer. The final semester's capstone can also help fill resume gaps.
-
-
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Shlok Jain](https://www.linkedin.com/in/jain-shlok/) | Global Academy of Technology, Bachelor of Engineering in Computer Science (2016–2020) | UC Irvine, Master of Software Engineering (September 2024–December 2025) | Esri: Software Development Engineer II, full-time, January 2026–present; Software Engineering Intern, internship, from June 2025, with the entry still marked present and no reliable end date. Before the master's, held full-time Software Engineer, Senior Software Engineer and Senior Software Engineer II roles at GeekyAnts (September 2020–January 2024). |

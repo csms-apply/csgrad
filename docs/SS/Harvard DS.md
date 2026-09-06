@@ -20,15 +20,8 @@
 1. nyu economics本科，intuitive intern, 上岸ai 独角兽
 2. 西交利物浦本科 上岸美国运通
 
+3. 多大统计+经济本科，2026年硕士毕业，2025年google ds intern，2026年上岸google ds全职。
 
 ## 转博情况
 
 CS 领域的年轻教授较少，部分教授带 PhD 的意愿不强，申请博士的话需要主动找导师
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
-| --- | --- | --- | --- |
-| University of Toronto，Honours Bachelor of Science，Statistics & Economics，2019-09–2023-06 | Harvard University，Master of Science in Data Science，2024-09–2026-06 | Google，Data Science Intern（实习），2025-05–2025-08；Google，Data Scientist（全职），2026-07–履历所示 Present | [Yiwen Li 的 LinkedIn 履历](https://www.linkedin.com/in/yiwen-li-8671b7209/) |

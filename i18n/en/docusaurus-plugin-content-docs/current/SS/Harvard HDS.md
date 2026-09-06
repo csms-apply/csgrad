@@ -19,17 +19,9 @@ Course selection is extremely flexible -- you can freely take courses from MIT, 
 ## Job Outcomes
 Placement has always been 100% (intern + full-time). Incomplete statistics from previous cohorts include Goldman Sachs, Facebook, Verily, Wayfair, Aetna, Microsoft AI, Google, BCG, etc.
 
-
+1. Beijing Foreign Studies University Business Administration undergraduate, HDS master’s completed in 2020; MilliporeSigma DS intern, Aetna DS full-time in 2020, Google DS full-time in 2026.
 
 ## PhD Transfer
 Almost nobody around me pursues a PhD -- everyone is job hunting. However, research resources are very abundant. You can reach out to professors affiliated with Harvard's hospitals to do research.
 
 There are many research and internship opportunities, as the school collaborates with major hospitals and research institutions in Boston.
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| Beijing Foreign Studies University, Bachelor of Business Administration in Business Administration and Management, 2011–2015 | Harvard T.H. Chan School of Public Health, Master's degree in Health Data Science, 2018–2020 | MilliporeSigma, Data Scientist Intern (internship), 2019-06–2019-08; Aetna, a CVS Health Company, Data Scientist (full-time), 2020-03–2021-03; Google, Data Scientist (full-time), 2026-03–Present as listed on the profile | [Kangli Wu's LinkedIn profile](https://www.linkedin.com/in/kangliwu/) |

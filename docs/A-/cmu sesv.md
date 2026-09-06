@@ -29,6 +29,7 @@ gpa 3.7+ 过线语言即可，有多段大厂实习可以低gpa 逆袭，有同�
 5. NCCU 本科，当地六年全职经验，上岸meta e5
 6. vit 本科印度男生，有两段印度小厂实习，上岸Strategy intern
 7. 印度同学两年全职工作经验，上岸meta ng
+8. Washington University cs+ce本科，2024年 Auntie swe intern，2025年上岸 SAP swe 全职。
 
 ## 课程质量
 这部分是我觉得最sb的地方。CMU本部的神课多半不太能直接选到（或者就算能选，也是网课），SV本地自己开的课则良莠不齐。
@@ -37,13 +38,3 @@ gpa 3.7+ 过线语言即可，有多段大厂实习可以低gpa 逆袭，有同�
 但必修的软工课，常常由一两个教授来回教，讲法比较陈旧，做项目时不少人觉得“写一堆文档+presentation”意义不大，还要忍受奇怪的要求；
 对于本身就有CS背景的人来说，多少会觉得给cmu 交的接近九万刀学费白瞎了。
 如果你没拿到其他更硬核的CS硕士(mcds、msin)项目、又很想在湾区找工作，可以考虑来；如果你手里有别的比如brown scmcs、ut ece，个人感觉那边的性价比可能更好。
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
-| --- | --- | --- | --- |
-| [Sichi Onyemeh](https://www.linkedin.com/in/sichi-onyemeh/) | Washington University McKelvey School of Engineering，BS，Computer Engineering、Computer Science，2019年8月–2023年5月 | CMU Department of Electrical and Computer Engineering，MS in Software Engineering，2024年1月–2025年5月；标题与 About 均明确 Silicon Valley | Auntie Software Engineer Intern，2024年5–8月；SAP Software Engineer（全职），2025年7月至今（核验时页面所示） |
-
-Silicon Valley 归属来自本人明确陈述，不由工作地点推断。Auntie 实习发生在硕士期间，SAP 全职开始于履历所列硕士结束日期之后。

@@ -52,11 +52,7 @@ UMich提供两个CS硕士学位：**MS（科学硕士）**和**MSE（工程硕�
 ![](/img/umichcarrer.png)
 有一些校企合作项目（例如MDP）做得好可以获得实习面试/机会
 
+umich cs本科后继续读本校硕士，2025年入学前暑期做 amazon sde intern。
+
 ## 转博
 友好，有不少本校直接转的phd
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-- [Allison Okimoto（LinkedIn）](https://www.linkedin.com/in/allisonokimoto/)：密歇根大学 Computer Science B.S.（2022年8月–2025年5月）及 Computer Science and Engineering M.S.（2025年8月–2026年5月）。工作栏列出 Amazon Software Development Engineer Intern（2025年5–8月）。该实习日期早于硕士开始日期，应视为个人完整履历中的本科毕业阶段实习，而非硕士在读实习结果。

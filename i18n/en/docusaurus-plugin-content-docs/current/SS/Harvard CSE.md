@@ -32,6 +32,8 @@ Google, Meta, Microsoft, Amazon, Apple, Airbnb, Snapchat, Databricks, Nvidia.
 Some go to top hedge funds like Jane Street, Two Sigma, Citadel, and DE Shaw as quants. Those targeting quant roles typically take some MIT financial mathematics courses.
 Getting into the tech companies mentioned above is relatively easier. Getting into hedge funds is harder -- you may need to supplement your math background significantly, and undergrad pedigree matters. The classmates I know who made it to the final round at top hedge fund quant positions basically all had prior experience interviewing at such firms during undergrad in the US.
 
+1. USC Applied Math + CS undergraduate, master’s completed in 2024; Amazon Applied Scientist intern, NVIDIA Research Scientist full-time in 2024.
+
 ## RA & PhD Transfer Opportunities
 The CSE program does allow you to do research, especially if you choose the two-year thesis track, which requires writing a thesis, so many students choose to do research with professors. Harvard's CS department itself isn't huge -- the number of professors doesn't compare to Stanford or CMU -- but many professors working in AI, ML, NLP, and numerical computing are very willing to work with students. You can also find MIT professors to do research with.
 
@@ -45,11 +47,3 @@ Here's another perspective: if you plan to do the two-year track, you can actual
 
 
 Harvard has an incredibly strong academic atmosphere, with resources that are practically overflowing. Beyond courses, the school hosts tons of celebrity talks, alumni events, and various dinner networking opportunities. But if you just bury yourself in homework, you might find that four months have passed and you haven't even been to downtown Boston (yes, this actually happens to people).
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| University of Southern California, Bachelor's degree, Applied Mathematics and Computer Science, 2020–2022 | Harvard University, Master's degree, Computational Science and Engineering, Aug 2022–Jun 2024 | Amazon, Applied Scientist (internship), May–Sep 2023; NVIDIA, Research Scientist (full-time), Jun 2024–Present as listed on the profile | [Jiashu Xu's LinkedIn profile](https://www.linkedin.com/in/jiashu-xu/) |

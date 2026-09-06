@@ -15,11 +15,4 @@ That said, the admission threshold is not high and is quite friendly.
 ## Job Outcomes & Data Points
 When I previously mentored students looking for 2025 Summer SDE positions, I received many resumes from NEU IS/MSCS/CS Align students. They really do get a lot of interviews from big tech companies (Google, Oracle, Meta, LinkedIn, etc.).
 
-
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Izu Nwokolo](https://www.linkedin.com/in/izu-nwokolo/) | Howard University, BS in Computer Science (August 2020–May 2024) | Northeastern University, MS in Information Systems (September 2025–May 2027, with the latter an expected end date); current student, campus not specified in the education entry | Lam Research, Lab Ops Process CIP Engineer, internship, June–September 2025; MathWorks, EDG intern, internship, May–August 2023; T-Mobile, Software Engineer Intern, internship, May–August 2022. Also held a full-time retail Sales Associate role at Nike (November 2024–May 2025). These roles occurred before or around the start of the master's, not after graduation. |
+- Howard University CS undergraduate, entered in 2025; MathWorks EDG and T-Mobile SWE internships before enrollment, plus a Lam Research Lab Ops Process CIP Engineer internship in summer 2025.

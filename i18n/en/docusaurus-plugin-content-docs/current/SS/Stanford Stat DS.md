@@ -19,15 +19,8 @@ The majority go into MLE and DS roles. Very few go into quant -- that's mostly t
 
 Some students prefer startups over big tech (Stanford especially encourages entrepreneurship) and will start their own companies or join early-stage startups.
 
+1. UCLA Statistics undergraduate, master’s completed in 2024; Apple and Bridg DS internships, QuantCo DS full-time in 2024.
 
 ## In-School PhD Transfer
 
 The Statistics department does not have a direct PhD transfer pathway. Transferring to PhD is very, very difficult.
-
-## Public education and employment samples
-
-These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
-
-| Undergraduate education | Master's education | Internship and employment record | Source |
-| --- | --- | --- | --- |
-| UCLA, BS Statistics, 2019–2022 | Stanford, MS Statistics Data Science, 2022–2024 | Apple Data Science and Visualization Intern, Jun–Sep 2023; Bridg Data Science Intern, Oct 2023–May 2024; QuantCo Data Scientist, full-time, Jul 2024–present on the profile. | [Ethan Allavarpu's LinkedIn](https://www.linkedin.com/in/ethanallavarpu/) |

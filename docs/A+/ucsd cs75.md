@@ -46,11 +46,4 @@ cs75和ece都比较找工友好，cs75课程难度可以选很容易的课程，
 1. nyu ds本科三段国内小厂实习，上岸google ng
 2. 印度同学有微软一年半全职工作经历，上岸Qualcomm intern
 3. uiuc cs本科，有两段非美国的小厂实习，上岸la 小厂实习
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
-| --- | --- | --- | --- |
-| North Dakota State University，BS Computer Science、BS Statistics，Honors 辅修，2017–2021 | UC San Diego，Master of Science in Computer Science，2021–2023（教育栏年份） | Amazon Web Services，Software Development Engineer Intern（实习），2022-06–2022-09；同公司 SDE（全职），2023-02–2026-03；同公司 SDE II，2026-04–履历所示 Present | [Huan Ho 的 LinkedIn 履历](https://www.linkedin.com/in/huan-ho/) |
+4. North Dakota State University cs+统计本科，2022年 aws sde intern，2023年起 aws sde 全职，2026年升至 sde II。

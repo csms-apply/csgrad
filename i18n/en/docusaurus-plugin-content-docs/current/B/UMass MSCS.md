@@ -23,11 +23,4 @@ In previous years, spring-enrolled students also received CPT to help with job h
 5. Indian undergrad, three internship experiences, landed Microsoft internship
 6. UMass CS undergrad, with UMass university SDE internship, landed Microsoft intern
 
-
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Sai Sreenivas Chintha](https://www.linkedin.com/in/sai-sreenivas/) | Indian Institute of Technology Hyderabad, BTech in Computer Science (2017–2021) | University of Massachusetts Amherst, MS in Computer Science (September 2024–May 2026) | Before the master's: Member of Technical Staff / Member of Technical Staff 2 at Adobe, full-time, July 2021–July 2024. During the master's: Machine Learning Research Intern at KLA, internship, June–August 2025. Microsoft, Machine Learning Extern, February 2026–present, employment type unspecified; the Applied Scientist-2 headline does not establish dates for a full-time role. |
+7. IIT Hyderabad CS undergraduate, three years full-time at Adobe before the master’s, then KLA Machine Learning Research Intern during the program in summer 2025.

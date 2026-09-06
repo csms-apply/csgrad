@@ -15,6 +15,8 @@ The threshold is slightly lower than CS75. Overall, it is career-change friendly
 ## Job Outcomes & Data Points
 Among people around me, roughly half landed offers.
 
+UBC CS bachelor’s, then EC79; SWE intern at Zhengzhou Digital Technology in 2022 and UBC RA in 2023 during the bachelor’s; no master’s internship or post-master’s full-time role verified yet.
+
 ## Life
 The campus scenery is exceptionally beautiful and the climate is pleasant, which helps ease some of the stress. Apart from a bit more rain in winter, the weather is very comfortable year-round. Off-campus rent is quite expensive, but grad housing is relatively affordable — at least you have a place to live. The school also offers many recreational courses such as surfing, boxing, archery, and more, which can enrich your life outside of studying. UCSD students can ride city public transit for free, and on weekends the school runs a free grocery shuttle to several shopping areas, making daily life quite convenient.
 
@@ -53,13 +55,3 @@ Grade: Poor grading. While not required for any specific track, it is an electiv
 Recommendation: 4/5
 Assignment: Group project. One group conducted a stock portfolio optimization project, using mathematical methods to analyze how to allocate different stocks to minimize risk and maximize returns.
 Workload: Light — about 5-7 hours per week.
-
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-| Public profile | Undergraduate education | Education in this program | Internship or work history |
-| --- | --- | --- | --- |
-| [Ruilong (Rilon) Liu](https://www.linkedin.com/in/ruilong-liu-ucsd/) | University of British Columbia, BSc in Computer Science, August 2020–May 2024 | UC San Diego, MS in Electrical and Computer Engineering - Computer Engineering, September 2024–March 2026; education description explicitly identifies Computer Engineering Track (EC79) | Zhengzhou Digital Technology Co., Ltd. Software Engineer Intern, June–August 2022; UBC Undergraduate Research Assistant (internship), May–August 2023 |
-
-Both roles took place during undergraduate study and are not employment outcomes after EC79. The verified page lists no corporate internship during the master's program or subsequent full-time role. Although Education provides an end date, About still describes student status; this does not establish that the degree was awarded.

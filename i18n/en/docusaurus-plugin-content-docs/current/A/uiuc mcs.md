@@ -63,13 +63,4 @@ A UIUC undergrad got an OpenAI internship (previously had big tech internship ex
 9. National Chiao Tung University, nine months full-time C++ work in Taiwan, landed NVIDIA SWE intern and converted to full-time
 10. UIUC CS undergrad, had IBM internship, landed NVIDIA SWE intern and converted to full-time
 11. UIUC CS undergrad, graduated in three years, had small company internship, landed Microsoft internship and converted to full-time
-
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-| Public profile | Undergraduate education | Education in this program | Internship or work history |
-| --- | --- | --- | --- |
-| [Denver Soekawan](https://www.linkedin.com/in/denver-soekawan/) | UIUC, BS in Psychology & Statistics, August 2020–May 2025; minors in Computer Science & Data Science | Headline explicitly says On-Campus MCS Student at UIUC; the inspected Education section does not provide master's start or end dates | Interlinked Data Pipeline Lead Intern, May 2025–present as displayed when checked, remote internship |
-
-On-campus MCS enrollment is supported by the profile owner's headline. Without master's dates, the internship cannot be placed before or after enrollment or presented as a graduate employment outcome. Both degrees are associated with UIUC, so this is not evidence of external applicants' backgrounds.
+12. UIUC Psychology + Statistics bachelor’s with a CS + DS minor, then on-campus MCS; remote Data Pipeline Lead intern at Interlinked from 2025; master’s enrollment date not listed.

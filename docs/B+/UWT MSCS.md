@@ -25,6 +25,8 @@ Tacoma 距离西雅图大约 51 公里，生活成本比西雅图低，周围有
 3. 印度同学，四年全职，上岸小厂ng
 4. UW 本科生，0实习上岸google ng
 
+5. Anna University 电气、电子与通信工程本科，读硕士前有 Hitachi Energy 全职，硕士期间 Richburg Consulting SWE intern，2025 年毕业后上岸 Amazon SDE 全职。
+
 ## 申请bar和dp
 average录取gpa3.5, TOEFL 要求相对较低，92 分就能申请，整体偏好 985 低 GPA 申请者，转码需要修完先修课。有清北的来
 1. 国际生gpa3.7
@@ -48,12 +50,3 @@ average录取gpa3.5, TOEFL 要求相对较低，92 分就能申请，整体偏�
 
 
 结论：都申请，找工向去uwb，控制预算去uwt
-
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
-| --- | --- | --- | --- |
-| [Vishnu Priya Rajendran](https://www.linkedin.com/in/priyaraj98/) | Anna University，BE Electrical, Electronics and Communications Engineering（2015—2019） | University of Washington Tacoma，MS Computer Science and Systems（2023-09—2025-03） | Amazon，Software Development Engineer，全职（2025-06—至今）；Richburg Consulting，Software Engineer Intern，实习（2024-06—2024-09）；入读前曾在 Hitachi Energy 任 Software Engineer，全职（2021-10—2022-04） |

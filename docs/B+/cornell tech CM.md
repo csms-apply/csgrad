@@ -51,11 +51,4 @@ CT拿Cornell的文凭，所以大致可以看做Cornell。好像对于大科技�
 
 1. scu转学美本，有四个月小厂实习，上岸meta ng
 
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
-| --- | --- | --- | --- |
-| [Jou-An (Joanne) Chen](https://www.linkedin.com/in/jouan-chen-joanne/) | National Taiwan University，BBA Business Administration and Management（2015—2020） | Cornell Tech，Information Systems 硕士，Connective Media concentration（2023-07—2025-05） | Amazon，Software Development Engineer II，全职（2025-06—至今）；TikTok，Software Engineer，实习（2024-05—2024-08）；入读前在 ShopBack 任 Software Engineer，全职（2021-04—2023-07） |
+2. 台大工商管理本科，读 CM 前有 ShopBack 两年全职，硕士期间 TikTok SWE intern，2025 年毕业后上岸 Amazon SDE II 全职。

@@ -5,6 +5,8 @@ A 1.5-year program. You can do a summer internship, but fall co-op is not suppor
 # Job Hunting Review
 The school's career fair is basically useless. I heard that Bloomberg used to be a safety net, but now I have not heard of anyone landing there either. However, among people around me, those who applied early could still get interviews. As a data point: I had zero internships and still passed the resume screening and received offers from Meta and Amazon. But it is true that Columbia is not a target school for some companies. With zero internships, I aced the Uber and Snowflake OAs but got rejected anyway. A classmate with multiple FAANG internships also got rejected after getting perfect scores on OAs. For job hunting, public school programs like UIUC and UCSD CS75 are definitely better.
 
+BITS Pilani Electronics & Communications bachelor’s, NVIDIA ASIC internship during the bachelor’s, Arm SoC intern in 2025, full-time Graduate Engineer at Arm from 2026.
+
 # Course Review
 There is a common misconception that Columbia has a heavy workload because of four courses per semester — this is actually wrong. CE has extremely flexible course selection: you can freely take CS courses, and CE and MSCS have the same priority for CS course enrollment. Five core courses can all be software-focused, and there are many easy course options. Here are a few recommendations with workload basically equal to zero:
 Modeling: counts as a core course. It is a statistics course. If you took an undergrad stats course covering multidimensional random walks, you can coast on prior knowledge.
@@ -23,13 +25,3 @@ There are about 60 students total, roughly 60% Chinese, 30% Indian. The Chinese 
 
 # Choosing Between MSCS and CE
 The admission threshold for CS is higher and can sometimes be unpredictable. Since the engineering school only allows you to apply to one program, if — like me — you definitely want to be in New York, I recommend CE. After all, in Manhattan your only options are Columbia and NYU.
-
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-| Public profile | Undergraduate education | Education in this program | Internship or work history |
-| --- | --- | --- | --- |
-| [Garvit Vyas](https://www.linkedin.com/in/garvit-vyas/) | Birla Institute of Technology and Science, Pilani, BE in Electronics & Communications, 2020–2024 | Columbia University, MS in Computer Engineering, August 2024–December 2025 | NVIDIA ASIC Intern, July–December 2023; Arm SoC Engineer Intern, May–December 2025; Arm Graduate Engineer (full-time), January 2026–present as displayed when checked |
-
-The NVIDIA internship took place during undergraduate study, and the Arm internship during the master's program. The full-time Arm role began after the listed master's end date. Experience lists the title as Graduate Engineer, while the headline adds SoC; this does not establish a typical career direction for all CE graduates.

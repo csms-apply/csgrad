@@ -51,11 +51,4 @@ Everyone still looking for Summer Interns is probably counting on Amazon's big h
 
 1. SCU transfer to US undergrad, four months of small company internship, landed Meta new grad
 
-
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Jou-An (Joanne) Chen](https://www.linkedin.com/in/jouan-chen-joanne/) | National Taiwan University, BBA in Business Administration and Management (2015–2020) | Cornell Tech, master's in Information Systems with a concentration in Connective Media (Jul 2023–May 2025) | Amazon, Software Development Engineer II, full-time (Jun 2025–present); TikTok, Software Engineer, internship (May–Aug 2024). Before enrollment: ShopBack, Software Engineer, full-time (Apr 2021–Jul 2023). |
+2. NTU business administration undergraduate, two years full-time at ShopBack before CM, TikTok SWE intern during the program, then Amazon SDE II full-time after graduating in 2025.

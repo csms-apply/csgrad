@@ -5,6 +5,8 @@ Emory MSCS 项目由计算机科学系（隶属 Laney 研究生院）开设，�
 
 项目分为 CS Track 和 BMI Track。Emory 以生物化学和医疗科技见长，因此对 生物信息、生物计算、临床技术 感兴趣的同学来说是一个不错的选择。CS 方向的研究机会主要集中在 医疗相关的 ML/AI 和 NLP 领域。项目整体延续了 Emory 小规模、精英化培养 的特色，较低的师生比使硕士生更容易找到心仪的研究机会，并与教授建立紧密联系。此外，小班制教学对国内本科背景的学生较为友好，有助于平稳过渡。
 
+- Morgan State University CS 本科，2026 年入读 MSCS；本科期间有 HAX Lab 兼职 RA 和校内兼职 TA 经历。
+
 ## 课程介绍
 Emory MSCS 课程选择较为受限，每学期开设的课程较少，官网列出的部分课程实际上并不提供。硕士生通常与本科生和 PhD 研究生同堂上课，整体课程压力不大，但课程内容相对传统，较少涉及前沿工业级项目。
 
@@ -26,13 +28,3 @@ Wake Forest University cs本科，国内百度+小厂两年实习经历（疫情
 ## 性价比
 项目学费约为每年5w美元，所有被MSCS项目录取的学生自动获得部分学费奖学金（30%-50%)。 亚特兰大整体消费不高，每月房租预算可以控制在1000-2000。
 相比东西海岸的学校，性价比较高。
-
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
-| --- | --- | --- | --- |
-| [Daniel Onyejiekwe](https://www.linkedin.com/in/daniel-onyejiekwe/) | Morgan State University，Bachelor's degree in Computer Science（2022 年 8 月–2026 年 5 月） | Emory University，Master of Science in Computer Science（2026 年 5 月–2028 年 5 月，后者为预期结束时间）；在读，未核实具体 track | 本科期间：Human-AI eXperience (HAX) Lab，Undergraduate Research Assistant，兼职，2025 年 5 月–2026 年 5 月；Morgan State University，Teaching Assistant，兼职，2026 年 2–5 月。尚未核实硕士毕业后的工作，不作为毕业就业结果。 |
-

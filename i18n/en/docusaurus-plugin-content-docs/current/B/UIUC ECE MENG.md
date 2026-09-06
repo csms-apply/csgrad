@@ -29,11 +29,4 @@ In 2022, both full-time and internship landing rates were around 50% (students a
 3. National Tsing Hua University, one year full-time, landed ASM full-time
 4. National Taiwan University EE undergrad, GPA 4.0/4.3, one year full-time, landed Twitter
 
-
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Haoyang (Lucas) Chen](https://www.linkedin.com/in/hychen11/) | Zhejiang University, Bachelor of Engineering in Electronic Science and Technology (September 2019–June 2023) | University of Illinois Urbana-Champaign, Master of Engineering (MEng), Computer Engineering (June 2024–December 2025); headline says UIUC ECE Alumni | TikTok, Junior Software Engineer, February 2026–present, employment type unspecified; MeiTuan, Java Software Engineer, internship, May–August 2025. |
+5. Zhejiang University electronic science and technology undergraduate, Meituan Java Software Engineer intern during the master’s, then Junior Software Engineer at TikTok after graduating in 2025.

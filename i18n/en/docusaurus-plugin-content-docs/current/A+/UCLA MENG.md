@@ -43,14 +43,8 @@ CPT/OPT support is decent. The program is STEM-designated, and CPT applications 
 6. Zhejiang University CS undergrad, multiple QR internships and SDE internships, landed Google new grad
 7. NTU undergrad, multiple WorldQuant internships, landed Bay Area full-time researcher
 8. NTUST ECE undergrad, GPA 3.81/4.3, two years full-time experience, landed California small company intern
+9. UCSD DS bachelor’s, part-time Data Scientist at aiKnow during the master’s, then a contract Research Data Analyst role at UCSD; full-time SWE at Brain Corp from 2026.
+
 ## Who This Program Suits
 
 If you already have work experience and are mainly coming to get the degree or a work visa without caring much about course content, this program is decent. LA has great weather, manageable living pressure, and the course workload isn't heavy -- you can study and job hunt at the same time for an overall pleasant experience. But if you're hoping to use the program's courses and resources to improve yourself, or leverage the program's career support to get into big tech, you might want to reconsider, since the program's resources are fairly limited.
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| UC San Diego, Bachelor of Science in Data Science, 2019-09–2023-06 | UCLA Henry Samueli School of Engineering and Applied Science, Master of Engineering in Data Science, 2023-09–2024-08 | Hong Kong aiKnow Limited, Data Scientist (part-time), 2024-02–2025-07; UC San Diego School of Global Policy and Strategy, Research Data Analyst (contract), 2025-07–2026-07; Brain Corp, Software Engineer I (full-time), 2026-07–Present as listed on the profile | [Zhipeng (Bill) Chen's LinkedIn profile](https://www.linkedin.com/in/zhipeng-bill-chen/) |

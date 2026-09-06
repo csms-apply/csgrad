@@ -31,12 +31,4 @@ rolling制度，早申早录取。录取bar友好
 3. 国立清华大学，一年全职，上岸ASM 全职
 4. 台大EE本科，gpa4.0/4.3, 一年全职，上岸twitter
 
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
-| --- | --- | --- | --- |
-| [Haoyang (Lucas) Chen](https://www.linkedin.com/in/hychen11/) | 浙江大学，Bachelor of Engineering in Electronic Science and Technology（2019 年 9 月–2023 年 6 月） | University of Illinois Urbana-Champaign，Master of Engineering (MEng)，Computer Engineering（2024 年 6 月–2025 年 12 月）；页首写 UIUC ECE Alumni | TikTok，Junior Software Engineer，2026 年 2 月–至今，未注明雇用类型；MeiTuan，Java Software Engineer，实习，2025 年 5–8 月。 |
-
+5. 浙大电子科学与技术本科，硕士期间美团 Java Software Engineer intern，2025 年毕业后在 TikTok 任 Junior Software Engineer。

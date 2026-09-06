@@ -18,15 +18,8 @@ The program is 9 months long, but can be extended by half a year.
 4. NTU (Taiwan) EE+Finance undergrad, GPA 4.18, two years RA at Academia Sinica
 5. NTU (Taiwan) EE undergrad, GPA 4.29/4.3
 
+6. UCSD EE undergraduate, entering Caltech MSEE in fall 2026; full-time Process Engineer at Texas Instruments before enrollment (Dec 2025–Jun 2026).
 
 # New Grad Job Outcomes
 
 Fewer go into SDE roles, but those who do basically all end up at big tech companies.
-
-## Public education and employment samples
-
-These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
-
-| Undergraduate education | Master's education | Pre-enrollment employment | Source |
-| --- | --- | --- | --- |
-| UC San Diego, BS Electrical Engineering, Sep 2022–Dec 2025 | Caltech, MS Electrical and Electronics Engineering, listed as Sep 2026–Jun 2027; a personal post describes starting that fall | Texas Instruments Process Engineer, full-time, Dec 2025–Jun 2026. This predates master's enrollment and is not a Caltech graduate employment outcome. | [Yong Quan Neo's LinkedIn](https://www.linkedin.com/in/yneo/) |

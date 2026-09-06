@@ -43,16 +43,9 @@ Previous data points:
 Everyone I know has done very well. A small portion go into the Quant Finance Industry (generally PhDs): Citadel, Jane Street, Jump Trading, ArrowStreet, Vanguard, Squarepoint, etc., plus various sell-side firms.
 The majority go into the Tech Industry as SDE/DS/MLE/AS/RS at companies like Google, Facebook, NVIDIA, Snowflake, Netflix, Amazon, TikTok, etc., plus some unicorn startups. A small number go to Research Labs near the Bay Area, though after Trump took office, Chinese nationals now need a green card to do so.
 
+1. UCB DS undergraduate, ICME DS master’s completed in 2026; Meta DS intern, Databricks DS full-time in 2026.
 
 ## RA & PhD Transfer
 Before 2022, transferring from Stanford ICME to PhD was friendly, and Stanford also had a dedicated RA research program where the school would match you with an advisor. Professors like Fei-Fei Li and Diyi Yang were among the available mentors, though whether you could match with them depended on ability and luck. Back then, quite a few people transferred to PhD. However, after 2022 you need to reapply for the PhD, though ICME students do have an advantage.
 
 Oh, and a decent number (50%) of TA/RA positions come with tuition waiver, plus a salary of $12-14k per quarter. Very nice. For TA positions, you need a high grade in that course. For RA positions, if you have a strong background or good connections, they're not too hard to find, but you might have to work for free for a few months first.
-
-## Public education and employment samples
-
-These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
-
-| Undergraduate education | Master's education | Internship and employment record | Source |
-| --- | --- | --- | --- |
-| UC Berkeley, BA Data Science, Aug 2020–May 2024 | Stanford, master's in ICME Data Science, Sep 2024–Jun 2026 | Meta Data Scientist Intern, Jun–Sep 2025; Databricks Data Scientist, full-time, Jul 2026–present on the profile. | [Ziyi Ding's LinkedIn](https://www.linkedin.com/in/ziyiding/) |

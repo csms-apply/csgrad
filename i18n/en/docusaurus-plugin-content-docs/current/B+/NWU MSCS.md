@@ -27,11 +27,5 @@ Career services are essentially useless. Job outcomes are mediocre -- this progr
 7. University of Toronto CS undergrad, no internship, landed Fortinet Embedded Software Developer
 8. Beijing University of Technology, Information Management undergrad, had LinkedIn China PM internship, landed Amazon SDE intern
 
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Zixuan Wu](https://www.linkedin.com/in/zixuan-wu-37303213b/) | Boston College, BA in Philosophy, Computer Science, Mathematics (2017–2021) | Northwestern University, MS in Computer Science (2024–2025) | Tencent, Data Science Intern (Jun–Jul 2018, before this master's; employment type marked Full-time); University of Iowa, Research Assistant, part-time (Apr 2019–May 2020). No post-MS employment was verified. |
-| [Saloni Patel](https://www.linkedin.com/in/salonipatel0/) | Dwarkadas J. Sanghvi College of Engineering, BTech in Computer Science (Aug 2019–Jun 2023) | Northwestern University, MS in Computer Science (Sep 2023–Dec 2024) | Infoblox, Data Scientist, full-time (Jan 2025–present); Infoblox, Artificial Intelligence Intern, internship (Jun–Aug 2024). |
+9. Boston College philosophy, CS and mathematics undergraduate, entered in 2024; previously a Tencent Data Science Intern and a part-time RA at the University of Iowa.
+10. Dwarkadas J. Sanghvi College of Engineering CS undergraduate, Infoblox AI intern during the master’s, then Data Scientist full-time at Infoblox after graduating in 2024.

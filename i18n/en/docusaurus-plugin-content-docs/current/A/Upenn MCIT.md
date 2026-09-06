@@ -34,13 +34,4 @@ Very good -- even compared to non-career-change programs, outcomes are considera
 9. CUHK-Shenzhen Economics undergrad, landed Tesla intern and Meta intern
 10. McGill University Finance undergrad, six-month small company intern in Canada, landed Meta intern and converted to full-time
 11. Wharton Finance undergrad, Google STEP intern and Google summer intern, new grad ultimately landed Meta
-
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-| Public profile | Undergraduate education | Education in this program | Internship or work history |
-| --- | --- | --- | --- |
-| [Anya Cui](https://www.linkedin.com/in/anya-cui-569b09224/) | University of Warwick, BSc Economics, 2021–2024, First Class Honours | University of Pennsylvania, August 2025–May 2027; headline says MCIT, while Education lists Master of Applied Science, Computer Science and explicitly states On-campus | Oliver Wyman Consultant (full-time), February–August 2025; Citadel Sector Data Analyst Intern, June–August 2026 |
-
-The master's end date is still in the future, so this is not a graduate employment outcome. The Oliver Wyman role began before enrollment; the Citadel role is an internship during the program. The different program names in the headline and Education are retained without inferring an institutional renaming policy from a personal profile.
+12. Warwick Economics bachelor’s, full-time consulting at Oliver Wyman before enrollment, Citadel Sector Data Analyst intern while studying on-campus MCIT in 2026.

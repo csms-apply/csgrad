@@ -35,6 +35,7 @@ MSIN = 103/109, MSIS = 46/50, MSIT-IS = 41/47, MSMITE = 45/48
 5. City University of Hong Kong EE undergrad, GPA 3.64, three-month internship in Hong Kong, landed a startup (quant dev)
 6. UMich CS undergrad, had Baidu internship, landed AWS intern
 7. CMU ECE undergrad, had Mastercard and Intel internships, landed startup new grad
+8. Peking University Sociology bachelor’s, Microsoft SWE intern in 2022, full-time Microsoft SWE from 2023, moved to a full-time SWE role at Waymo in 2026.
 
 ## Course Selection
 Starting 22 Fall, MSMITE's degree-specific core added SCS courses:
@@ -72,9 +73,3 @@ Taking these 3 courses no longer counts against the 24-unit electives quota, so 
 25 Fall: 14776 (Business/Management), 14741 (IS), one elective
 26 Spring: 14744 (Mobile Software), 14740 (Network), 15640 (DS), 15618 (PP)
 26 Fall: 15619 (Cloud Computing)
-
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-- [Peixin Zhao (LinkedIn)](https://www.linkedin.com/in/peixin-cecilie-zhao/): bachelor's degree in Sociology, Peking University (2016–2020); master's degree, Carnegie Mellon University (2021–2022), with MSMITE explicitly stated in the education entry and coursework description. Listed roles include Software Engineer Intern at Microsoft (May–August 2022), Software Engineer at Microsoft (February 2023–April 2026), and Software Engineer at Waymo (full-time, April 2026–present as displayed when checked). This illustrates one cross-disciplinary education and career path, not program-wide outcomes.

@@ -46,6 +46,7 @@ Master 录取人数：50 人左右(每年都比较稳定)
 认识的找的都很好，一小部分去Quant Finance Industry 的有（一般都是PhD） Citadel、Jane Street，Jump Trading, ArrowStreet, Vanguard, Squarepoint等，还有各个卖方
 剩下的大部分去Tech Industry做sde/ds/mle/as/rs，比如 Google、Facebook、NVIDIA、Snowflake, Netflix，Amazon，Tiktok 等，还有一些unicorn startup。也有一小部分的人去湾区附近的Research Lab，不过现在川普上台后中国人得要有绿卡才能去了
 
+1. ucb ds本科，2026年ICME DS硕士毕业，meta ds intern，2026年上岸Databricks ds全职。
 
 ## RA和转phd情况
 
@@ -53,11 +54,3 @@ Master 录取人数：50 人左右(每年都比较稳定)
 有优势
 
 哦当（50%）的TA/RA S是免学费的，然后一个quarter给1.2-1.4w的工资，很爽。TA需要那门课考个高分。RA的话如果bg好或者有connection也不是很难找，但是可能得先白打工几个月
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 本科教育 | 硕士教育 | 实习与工作记录 | 来源 |
-| --- | --- | --- | --- |
-| UC Berkeley，BA Data Science，2020.08–2024.05 | Stanford，ICME Data Science 硕士，2024.09–2026.06 | Meta Data Scientist Intern，2025.06–2025.09；Databricks Data Scientist，全职，2026.07 起，页面标注在职。 | [Ziyi Ding 的 LinkedIn](https://www.linkedin.com/in/ziyiding/) |

@@ -46,11 +46,4 @@ Both CS75 and ECE are fairly job-friendly. CS75 course difficulty can be minimiz
 1. NYU DS undergrad, three small company internships in China, landed Google new grad
 2. Indian student with 1.5 years of Microsoft full-time experience, landed Qualcomm intern
 3. UIUC CS undergrad, two non-US small company internships, landed LA small company internship
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| North Dakota State University, BS Computer Science and BS Statistics with a minor in Honors, 2017–2021 | UC San Diego, Master of Science in Computer Science, 2021–2023 (years listed in Education) | Amazon Web Services, Software Development Engineer Intern (internship), 2022-06–2022-09; SDE (full-time), 2023-02–2026-03; SDE II, 2026-04–Present as listed on the profile | [Huan Ho's LinkedIn profile](https://www.linkedin.com/in/huan-ho/) |
+4. North Dakota State University CS + Statistics bachelor’s, AWS SDE intern in 2022, full-time SDE from 2023, SDE II from 2026.

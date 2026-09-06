@@ -19,15 +19,7 @@ Previous data points:
 ## Job Outcomes
 Primarily quant roles. Most go to top 3 hedge funds as QRs. Some also go to Nvidia as SWEs.
 
+1. Cambridge Economics undergraduate, MIT CSE master’s completed in 2022; full-time Data Scientist at Singapore’s Ministry of Home Affairs from 2024.
 
 ## Transferring to PhD
 As long as your advisor agrees, it's very flexible.
-
-
-## Public education and work history samples
-
-These are individual public profiles, not evidence of backgrounds at application, admission standards, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Internship and work history | Source |
-| --- | --- | --- | --- |
-| University of Cambridge, BA Economics, 2018–2021 | MIT, Master of Science (SM), Computational Science and Engineering, 2021–2022 | Singapore Department of Statistics, Data Science Intern, June–August 2020 (before the master's); MIT Senseable City Lab, Graduate Student Researcher, September 2021–August 2022, employment type not stated; Ministry of Home Affairs Singapore, Data Scientist, full-time, March 2024–present as displayed when checked | [You Xuan T.'s LinkedIn profile](https://sg.linkedin.com/in/thungyx) |

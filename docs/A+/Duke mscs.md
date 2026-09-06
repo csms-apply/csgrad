@@ -42,8 +42,7 @@ Microsoft，Adobe，Salesforce上岸的。
 3. Vanderbilt University cs+math本科 有pwc和搜狐短期实习，上岸salesforce swe intern
 4. 爱丁堡cs本科有MLE 实习，上岸  Syngenta Software Engineer Intern
 5. Wellesley College cs本科，有产品经理实习，上岸meta swe
- 
-   
+6. uci cs本科，2022年 meta swe intern，2023年上岸 IXL Learning swe 全职，2026年升至 senior。
 
 ## RA和转博
 基本上只要找到教授愿意让你进组就有戏，CS系里的大多数教授每年都在从mscs项目里招新人进组,
@@ -90,11 +89,3 @@ Vue + Express + MongoDB + Socket.io
 课程内容：每节课都需要读 paper 并写 response，课堂内容与 paper 相关。
 项目：需自己实现一个分布式系统。
 总体评价：研究导向，适合想深入学习分布式系统的同学。
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 本科教育 | 硕士教育 | 公开工作经历 | 来源 |
-| --- | --- | --- | --- |
-| UC Irvine，Bachelor's degree in Computer Science，2016–2019 | Duke University，Master of Science in Computer Science，2021–2023 | Meta，Software Engineer Intern，2022-05–2022-08；IXL Learning，Software Engineer（全职），2023-09–2026-01；IXL Learning，Senior Software Engineer（全职），2026-01–履历所示 Present | [Yubo D. 的 LinkedIn 履历](https://www.linkedin.com/in/yuboding/) |

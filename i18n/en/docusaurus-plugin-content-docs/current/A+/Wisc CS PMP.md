@@ -36,11 +36,4 @@ Big Tech Internship & Full-time Offers:
 4. Dell EMC (Internship + Return Offer)
 5. IIT undergrad, two years at AWS, previously interned at Microsoft, landed SF small company
 6. Indian undergrad, GPA 8.3, two years full-time at Samsung, landed Amazon
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| UC Irvine, Bachelor of Science in Computer Science, 2023-09–2025-06 | University of Wisconsin–Madison, Master of Science; Education lists Computer and Information Sciences, General, while the headline explicitly identifies CS PMP; 2025-09–2027-05 (the listed end date is after the verification date) | LYNXdigital, Software Engineering Intern (internship), 2025-05–2025-08; this predates PMP enrollment, and no employment after enrollment has been verified | [Xuechun Jin's LinkedIn profile](https://www.linkedin.com/in/xuechunjin/) |
+7. UCI CS bachelor’s, entered PMP in 2025; SWE intern at LYNXdigital in the summer before enrollment, with no post-enrollment job outcome verified yet.

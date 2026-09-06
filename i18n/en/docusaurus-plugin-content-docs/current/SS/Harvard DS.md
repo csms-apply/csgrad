@@ -20,14 +20,7 @@ Many go to hedge funds, mainly as traders. Tech placements are primarily at Goog
 1. NYU Economics undergrad, Intuitive intern, landed at an AI unicorn
 2. XJTLU undergrad, landed at American Express
 
+3. University of Toronto Statistics + Economics undergraduate, master’s completed in 2026; Google DS intern in 2025, Google DS full-time in 2026.
 
 ## PhD Transfer
 Few CS-focused young professors, and some professors have limited interest in supervising PhDs. If you want to apply for a PhD, you need to proactively reach out to advisors.
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| University of Toronto, Honours Bachelor of Science in Statistics & Economics, 2019-09–2023-06 | Harvard University, Master of Science in Data Science, 2024-09–2026-06 | Google, Data Science Intern (internship), 2025-05–2025-08; Google, Data Scientist (full-time), 2026-07–Present as listed on the profile | [Yiwen Li's LinkedIn profile](https://www.linkedin.com/in/yiwen-li-8671b7209/) |

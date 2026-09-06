@@ -46,13 +46,7 @@ Sampling data points around me: Among the 24 Fall GT MSCS Chinese students I kno
 8. Indian student, 1 year full-time work experience, landed AWS and returned
 9. IIT CS undergrad, landed Apple
 
+10. UCB Cognitive Science undergraduate, DS minor, prior Salesforce SWE full-time experience; on-campus MSCS 2024–2026, Nissan research intern, NetSuite SWE II full-time in 2026.
+
 ## TA Opportunities
 Georgia Tech hires a large number of TAs for online courses. But you need to start looking early. I initially thought it was hard to get, but later found out that some TAs who don't know much still managed to become TAs.
-
-## Public Education and Employment Profile Samples
-
-These are individual public profiles, not evidence of application-time qualifications, admission criteria, or overall employment rates. Verified on 2026-09-05.
-
-| Undergraduate education | Master's education | Public employment history | Source |
-| --- | --- | --- | --- |
-| University of California, Berkeley, Bachelor of Arts in Cognitive Science with a Data Science minor, 2017-08–2021-05 | Georgia Institute of Technology, Master of Science in Computer Science, Machine Learning specialization, 2024-08–2026-05; Education explicitly identifies the MSCS On-Campus Program | Salesforce, Software Engineer (full-time), 2021-12–2023-04; Nissan Motor Corporation, Graduate Systems Research Intern, 2024-09–2024-12; NetSuite, Software Engineer II (full-time), 2026-07–Present as listed on the profile | [Areeb Khalfay's LinkedIn profile](https://www.linkedin.com/in/areebkhalfay/) |

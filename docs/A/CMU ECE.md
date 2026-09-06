@@ -34,6 +34,8 @@ CS/EE/ECE/DS/ME本科都可以申请，gpa 3.7+，
 7. 印度一年全职工作经历，上岸apple intern并且转正
 8. cmu ece本科上岸微软实习，最后去了湾区小厂
 9. 印度同学一年全职，上岸湾区小厂intern并且转正
+10. 四川大学软工本科，入学前有美团两年全职经历，2024年上岸 TikTok Backend swe II 全职。
+
 ## 课业压力
 
 CMU 的课程节奏比国内本科要紧张很多，第一学期真的有种写不完作业、deadline 堆满日历的感觉。CMU 不是一个“努力就能轻松拿 A” 的地方，但只要踏实学，B 以上还是有保障的。
@@ -44,9 +46,3 @@ CMU 的课程节奏比国内本科要紧张很多，第一学期真的有种写�
 ## 转博
 
 还有对于想读博我觉得ece是非常好的，很多cs学院的prof会挂名ece学院（这也让院内转博提供了可能性，ece的master如果满足条件理论上是能转成phd的，我现在认识的两个朋友就在往这方面转，但只能转到有挂名ece学院的prof，比如你如果一直在ri的prof下做research，然后这个教授挂名了ece，如果他同意，你也满足条件你是可以转成ece phd的，然后和ri的同学在一个实验室）项目也允许一学期两门课用research代替，总之想科研的话我觉得还是很不错的。
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-- [Xinyi Zhang（LinkedIn）](https://www.linkedin.com/in/xinyizh3/)：四川大学软件工程 B.E.（2016–2020）；Carnegie Mellon University Computer Engineering M.S.（2022–2023）。履历列出美团 Software Development Engineer II（全职，2020–2022）及 TikTok Backend Software Engineer II（全职，2024年2月起，核验时显示在职）。这些日期呈现了先工作、再读硕士的经历，不能把硕士后的岗位当作申请前背景。

@@ -21,16 +21,7 @@ workload全由选课决定，可以去penn course review上看difficulty，水�
 ## 找工
 搞软件同学很少，很少见找sde的，知道几个朋友去了完全不了解的硬件厂，我自己投FAANG没人理，可能是自己菜 :(
 
-
+- 宾大 EE 本科、CS 辅修，本校 Accelerated Master’s 本硕衔接，2026 年毕业后上岸 Tesla Battery Electronics 团队 Electrical Design Engineer 全职。
 
 ## 转专业
 转专业要算法 / 计算理论 一门课A-以上，Prof和TA都说trans挺简单，但coordinator说竞争激烈，神秘。我选的是算法课，前半部分和leetcode差不多，后半段是P和NP相关。考试难度不超过NOIP初中组第二题/Codeforces 1400分/Atcoder 800，leetcode没刷过... 作业会有几个难题。
-
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
-| --- | --- | --- | --- |
-| [Rohan Panday](https://www.linkedin.com/in/rohan-panday/) | University of Pennsylvania，BS Electrical Engineering，Computer Science 辅修（2022—2026） | University of Pennsylvania，MSE Electrical Engineering（2024-08—2026-05）；教育栏明确为 Accelerated Master's，本校本硕衔接经历 | Tesla，Electrical Design Engineer，Battery Electronics 团队，全职（2026-07—至今） |

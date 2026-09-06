@@ -8,6 +8,8 @@ You must complete a thesis and have research experience. Recommendation letters 
 
 The program places strong emphasis on diversity and expects applicants to demonstrate their contributions to "Humanities and Social Sciences."
 
+One Rice Physics + English undergraduate with a DS minor attended this master’s in 2024–2026, interned as a Customer Success Engineer at Palona AI in 2025, and joined Apple’s Battery Analytics & Machine Learning team as an intern in 2026.
+
 ## Admission Threshold & Data Points
 External admission rate is 5%.
 
@@ -16,11 +18,3 @@ External admission rate is 5%.
 3. Duke Kunshan DS undergrad, GPA 3.91, two and a half years of RA, two second-author papers
 4. Indian student, GPA 9.25, three accepted CV conference papers at time of application
 5. Vassar College Cognitive Science undergrad, one accepted ICCV paper at time of application
-
-## Public education and employment samples
-
-These self-reported public histories do not establish application-time qualifications, admission requirements, or overall employment rates. Checked: 2026-09-05.
-
-| Undergraduate education | Master's education | Internship and employment record | Source |
-| --- | --- | --- | --- |
-| Rice University, BA, double major in Physics and English with a Data Science minor, Jan 2022–May 2024 | Stanford, MS Symbolic Systems, Sep 2024–Jun 2026 | Palona AI Customer Success Engineer internship, Jun–Sep 2025; Apple Intern on the Battery Analytics & Machine Learning team, Jun 2026–present on the profile. | [Huijun Mao's LinkedIn](https://www.linkedin.com/in/huijun-mao/) |

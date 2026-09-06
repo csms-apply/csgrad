@@ -63,13 +63,4 @@ TOEFL 103 以上才会 fully admitted，79~102 会需要上英文课才可以毕
 9. 国立交通大学，九个月台湾c++全职，上岸nvidia swe intern并且转正
 10. UIUC CS本科 有IBM 实习，上岸nvidia swe intern并且转正
 11. uiuc cs本科三年毕业有小厂实习，上岸微软实习并且转正
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 本项目教育 | 实习或工作记录 |
-| --- | --- | --- | --- |
-| [Denver Soekawan](https://www.linkedin.com/in/denver-soekawan/) | UIUC，BS in Psychology & Statistics，2020年8月–2025年5月；辅修 Computer Science & Data Science | 本人标题明确 On-Campus MCS Student at UIUC；已查看的教育栏未公开硕士起止日期 | Interlinked Data Pipeline Lead Intern，2025年5月至今（核验时页面所示），远程实习 |
-
-线下 MCS 身份由个人标题确认；硕士日期未知，因此不判断该实习在入学前后，也不将其作为毕业就业样本。本科与硕士同校，不代表外校申请者背景。
+12. uiuc 心理+统计本科，辅修 cs+ds，后读线下 MCS；2025年起 Interlinked Data Pipeline Lead intern（远程），硕士入学时间未公开。

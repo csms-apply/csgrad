@@ -21,16 +21,7 @@ Quite friendly, about 20% acceptance rate, GPA > 87 is worth trying.
 ## Job Hunting
 Very few students go into software -- rarely see anyone looking for SDE positions. I know a few friends who went to hardware companies I'd never heard of. Personally, I applied to FAANG and got no responses -- might just be me being weak :(
 
-
+- Penn EE undergraduate with a CS minor, completed Penn’s Accelerated Master’s, then joined Tesla’s Battery Electronics team as a full-time Electrical Design Engineer after graduating in 2026.
 
 ## Transferring Programs
 Transferring requires an A- or above in one algorithms / computational theory course. Both the professor and TA say transferring is fairly straightforward, but the coordinator says competition is fierce -- mysterious. I took the algorithms course: the first half is similar to LeetCode, and the second half covers P and NP. Exam difficulty doesn't exceed NOIP junior division problem 2 / Codeforces 1400 rating / AtCoder 800. I haven't ground LeetCode though... Homework does have a few hard problems.
-
-
-## Public Education and Work History Samples
-
-The following are individuals' public profiles, not evidence of their background at application, admissions standards, or the program's overall employment rate. Verified on September 5, 2026.
-
-| Profile | Undergraduate education | Master's program | Public work history |
-| --- | --- | --- | --- |
-| [Rohan Panday](https://www.linkedin.com/in/rohan-panday/) | University of Pennsylvania, BS in Electrical Engineering, minor in Computer Science (2022–2026) | University of Pennsylvania, MSE in Electrical Engineering (Aug 2024–May 2026); Education explicitly describes the accelerated master's pathway alongside the Penn bachelor's | Tesla, Electrical Design Engineer, Battery Electronics team, full-time (Jul 2026–present). |

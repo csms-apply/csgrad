@@ -33,6 +33,7 @@
 4. tw 国立政治大学is硕士gpa 4.3/4.3,本科不详，有Ibm实习和微软校园大使的实习经历，上岸加州小厂ai engineer intern
 5. 印度本科，两年全职，上岸amazon data engineer ng
 
+6. Howard University CS 本科，2025 年入读；入读前有 MathWorks EDG intern、T-Mobile SWE intern，入学当年夏季在 Lam Research 做 Lab Ops Process CIP Engineer intern。
 
 ## 课程设置
 
@@ -45,12 +46,3 @@
     - UX Design / Software Development / Data Analytics 等
   - NEU 多数课程给分比较水，非常适合一边上课一边刷题找工，比如 Mobile           
   Application 5520、Computer Networks 5700 等都是公认水课
-
-
-## 公开教育与工作履历样本
-
-以下为个人公开履历，不代表申请时背景、录取标准或整体就业率。核验日期：2026-09-05。
-
-| 公开履历 | 本科教育 | 硕士项目 | 公开工作经历 |
-| --- | --- | --- | --- |
-| [Izu Nwokolo](https://www.linkedin.com/in/izu-nwokolo/) | Howard University，BS in Computer Science（2020 年 8 月–2024 年 5 月） | Northeastern University，MS in Information Systems（2025 年 9 月–2027 年 5 月，后者为预期结束时间）；在读，教育条目未注明校区 | Lam Research，Lab Ops Process CIP Engineer，实习，2025 年 6–9 月；MathWorks，EDG intern，实习，2023 年 5–8 月；T-Mobile，Software Engineer Intern，实习，2022 年 5–8 月。此前另有 Nike Sales Associate 全职零售岗位（2024 年 11 月–2025 年 5 月）。这些经历在硕士入学前或开始时，不作为硕士毕业就业结果。 |
