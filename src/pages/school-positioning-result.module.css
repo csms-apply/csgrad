@@ -854,3 +854,11 @@
 .pdfReport .bucketHeader {
   break-inside: avoid;
 }
+
+/* Keep small controls readable even when the source page uses dark mode. */
+.pdfReport .bucketCount,
+.pdfReport .consultHandle {
+  background: #f2f2f2 !important;
+  color: #242424 !important;
+  border-color: #cccccc !important;
+}

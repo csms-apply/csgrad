@@ -10,9 +10,18 @@ fi
 set -euo pipefail
 
 npm ci
-npm run build
+# Build away from the directory currently served by Docusaurus.
+mkdir -p .site-releases
+csgrad_release="$(mktemp -d "$PWD/.site-releases/release-XXXXXXXX")"
+if ! npm run build -- --out-dir "$csgrad_release"; then
+  rm -rf "$csgrad_release"
+  exit 1
+fi
+python3 scripts/activate-build.py "$PWD" "$csgrad_release"
 if ! command -v pm2 >/dev/null 2>&1; then
   sudo npm install -g pm2
 fi
-pm2 restart docusaurus || pm2 start npm --name "docusaurus" -- run serve
+# The server resolves build paths per request; switching the symlink is enough.
+# Restarting here would create an unnecessary gap in report availability.
+pm2 describe docusaurus >/dev/null 2>&1 || pm2 start npm --name "docusaurus" -- run serve
 pm2 save

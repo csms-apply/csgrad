@@ -65,3 +65,8 @@ test('PDF heading groups retain the first card/list item and every remaining nod
  assert.equal(checklist.firstElementChild.className,'pdfKeepTogether');assert.equal(checklist.firstElementChild.children[0],title);
  assert.equal(checklist.firstElementChild.children[1].tagName,'UL');assert.deepEqual(checklist.firstElementChild.children[1].children,[item1]);assert.deepEqual(ul.children,[item2]);
 });
+
+test('PDF count badges and contact control have an explicit light color pair',()=>{
+ const css=fs.readFileSync(require('node:path').join(__dirname,'../src/pages/school-positioning-result.module.css'),'utf8');
+ assert.match(css,/\.pdfReport \.bucketCount,\s*\.pdfReport \.consultHandle\s*\{[^}]*background: #f2f2f2 !important;[^}]*color: #242424 !important;/);
+});
