@@ -24,15 +24,15 @@ test('program links localize internal routes and preserve external/already encod
 
 test('PDF uses an isolated A4 clone and removes it after success or save failure',async()=>{
  for(const fail of [false,true]) {
-  let appended,removed=false,options,usedSource,fontReady=false,saveCalls=0;
+  let appended,removed=false,options,usedSource,fontReady=false,saveCalls=0,overlayRemoved=false;
   const classes=[];const clone={classList:{add:value=>classes.push(value)}};
   const report={cloneNode:deep=>{assert.equal(deep,true);return clone;}};
   const host={style:{},setAttribute(name,value){assert.equal(name,'aria-hidden');assert.equal(value,'true');},appendChild(node){assert.equal(node,clone);},remove(){removed=true;}};
   const doc={createElement:tag=>{assert.equal(tag,'div');return host;},body:{appendChild:node=>{appended=node;}},fonts:{ready:Promise.resolve().then(()=>{fontReady=true;})}};
-  const html2pdf=()=>({set(value){options=value;return this;},from(node){usedSource=node;return this;},async save(){saveCalls++;assert.equal(fontReady,true);if(fail)throw Error('simulated save failure');}});
+  const html2pdf=()=>({prop:{overlay:{remove(){overlayRemoved=true;}}},set(value){options=value;return this;},from(node){usedSource=node;return this;},async save(){saveCalls++;assert.equal(fontReady,true);if(fail)throw Error('simulated save failure');}});
   const result=api.exportReportPdf(report,html2pdf,'report.pdf',doc);
   if(fail)await assert.rejects(result,/simulated save failure/);else await result;
-  assert.equal(appended,host);assert.equal(removed,true);assert.equal(usedSource,clone);assert.notEqual(usedSource,report);
+  assert.equal(appended,host);assert.equal(removed,true);assert.equal(overlayRemoved,true);assert.equal(usedSource,clone);assert.notEqual(usedSource,report);
   assert.deepEqual(classes,['pdfReport']);assert.equal(options.jsPDF.format,'a4');assert.equal(options.html2canvas.windowWidth,794);assert.equal(saveCalls,1);
  }
 });

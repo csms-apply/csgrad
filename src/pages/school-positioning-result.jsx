@@ -179,9 +179,11 @@ export async function exportReportPdf(report, html2pdf, filename, doc = document
   clone.classList.add(styles.pdfReport);
   host.appendChild(clone);
   doc.body.appendChild(host);
+  let worker;
   try {
     if (doc.fonts?.ready) await doc.fonts.ready;
-    await html2pdf().set({
+    worker = html2pdf();
+    await worker.set({
       margin: [12, 10, 12, 10], filename,
       image: { type: 'jpeg', quality: 0.95 },
       html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794 },
@@ -189,6 +191,8 @@ export async function exportReportPdf(report, html2pdf, filename, doc = document
       pagebreak: { mode: ['css', 'legacy'] },
     }).from(clone).save();
   } finally {
+    // html2pdf removes its overlay after successful canvas rendering only.
+    worker?.prop?.overlay?.remove();
     host.remove();
   }
 }
