@@ -226,7 +226,8 @@ export const FIELD_DEFINITIONS = [
     help: { 'zh-Hans': '选「美国读博」时结果页会额外推荐适合读博 / 转博的项目', en: 'If "PhD in the US", the result page shows extra PhD-friendly recs.' },
     options: [
       { value: 'us-job', label: { 'zh-Hans': '美国找工', en: 'Work in the US' } },
-      { value: 'cn-job', label: { 'zh-Hans': '回国找工', en: 'Work in China' } },
+      { value: 'other-job', label: { 'zh-Hans': '美国以外就业', en: 'Work outside the US' } },
+      { value: 'cn-job', label: { 'zh-Hans': '中国就业', en: 'Work in China' } },
       { value: 'us-phd', label: { 'zh-Hans': '美国读博', en: 'PhD in the US' } },
       { value: 'unsure', label: { 'zh-Hans': '还不确定', en: 'Not sure yet' } },
     ],

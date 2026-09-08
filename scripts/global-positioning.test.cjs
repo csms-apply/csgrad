@@ -104,3 +104,10 @@ test('publication label is not based on country and preserves the legacy wire va
   const option = fields.find(f => f.key === 'research').options.find(o => o.value === 'domestic-paper');
   assert.equal(option.label.en, 'Peer-reviewed journal / conference paper');
 });
+test('employment outside the US is distinct from working in China', () => {
+  const goals = fields.find(f => f.key === 'careerGoal').options;
+  assert.equal(goals.find(o => o.value === 'other-job').label.en, 'Work outside the US');
+  assert.equal(goals.find(o => o.value === 'cn-job').label.en, 'Work in China');
+  const profile = { ...form.buildInitialProfile(fields), careerGoal: 'other-job' };
+  assert.equal(form.positioningPayload(profile, fields, 'en').careerGoal, 'other-job');
+});
