@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
@@ -16,11 +16,11 @@ const COPY = {
     pageDesc: '选校定位评估：基于你的背景，给出 csgrad tier 档位预估与完整选校方案',
     backHome: '返回首页',
     heroTitle: 'MSCS 选校定位',
-    heroLead: '填写你的背景，立即生成 MSCS 档位预估与选校方向建议。',
+    heroLead: '按你的原始成绩制式、课程与经历评估选校方向。先免费检查资料，再决定是否购买报告。',
     canceled: '订单已取消。',
     errorPrefix: '出错了：',
     profileSection: '你的背景档案',
-    submitBtn: '生成档位预估',
+    submitBtn: '免费检查与预览',
     recomputeBtn: '重新评估',
     fillRequired: '请先填写必填字段',
     errInvalidNumber: '请输入有效数字',
@@ -29,15 +29,19 @@ const COPY = {
     previewLabel: '预估档位',
     scoreLabel: '综合得分',
     rationaleLabel: '评估依据',
-    paywallTitle: '🎯 你的专属选校清单已就绪，付费即可解锁',
-    paywallText: '基于你刚填的 GPA、科研、推荐人、工作经历等 20+ 维度，我们已经为你算好了一份不再"靠 USNews 拍脑袋"的方案。点开你会看到：',
+    deliveryTitle: '预计报告内容',
+    deliveryCount: '主列表预计包含 {count} 个项目',
+    deliveryBuckets: '冲刺 {reach} · 主申 {match} · 备选 {safety}',
+    deliveryUnavailable: '当前资料或项目覆盖不足，暂不能生成可购买的自动报告。请补充资料或选择人工核验。',
+    needsReview: '资料需要补充或人工核验，暂不能付款。请查看以下提示。',
+    stalePreview: '请先使用当前资料重新预览，再付款。',
+    requestFailed: '暂时无法处理请求，请稍后重试；请勿重复付款。',
+    paywallTitle: '查看完整项目适配报告',
+    paywallText: '报告按你提供的资料说明项目适配依据、待核验事项和申请准备清单。推荐不保证录取，不提供个人录取概率。',
     paywallBullets: [
-      { lead: '📋 10+ 所精挑细选的项目清单', body: '：不是把排名前 30 的学校原样列给你，而是按你目前的档位，挑出真正匹配你背景的 MSCS 项目，按 Reach / Match / Safety 三档分布，既给你冲刺的空间，也守住保底，避免「全聚德」或「明显低就」。' },
-      { lead: '💡 每所学校都有"为什么适合你"', body: '：不是套话模板，而是结合你的具体经历——例如「你做过的 XX 方向科研刚好对上该项目某教授的 lab」「这所项目偏好你这类本科背景」「你已经修过的核心课正好满足先修」，让你心里有底，PS 也能直接拿来用。' },
-      { lead: '🔗 每个项目都附直达详情页', body: '：课程结构、学费、申请 deadline、毕业去向、是否对国际生友好、是否支持转博——全部一站式查清楚，不用再自己开十几个学校官网比对。' },
-      { lead: '🎓 额外赠送「读博路径」专项推荐', body: '：如果你未来想读 PhD，会单独列出 PhD-friendly 的项目（导师好、有 funding 机会、转博比例高），让 MSCS 不只是"打工跳板"。' },
-      { lead: '💼 额外赠送「转码专项」推荐', body: '：如果你是跨专业转码，会单独列出对非科班背景友好的项目（先修课灵活、桥接课程完善、招生历史上接受过类似背景）。' },
-      { lead: '📥 一键下载 PDF 报告', body: '：完整方案可导出 PDF，永久保存，方便发给家长、师兄师姐、留学中介，或者作为后续找推荐人时的「我为什么申这些学校」说明材料。' },
+      { lead: '项目候选与理由', body: '：逐项解释课程、方向与经历的匹配，资料不足的地方明确标注。' },
+      { lead: '申请核验清单', body: '：区分已知资料和仍需确认的条件，项目详情链接供进一步查阅。' },
+      { lead: '可保存的报告', body: '：付款后查看结果页并下载PDF，便于与导师或家人讨论。' },
     ],
     payBtn: '🚀 立即解锁我的完整选校方案 →',
     payNote: '安全支付由 Stripe 提供。如已付款无法返回，请直接通过结果页 URL 查看。',
@@ -55,11 +59,11 @@ const COPY = {
     pageDesc: 'Find the school tier that matches your background — tier estimation and full school list based on your profile',
     backHome: 'Back to home',
     heroTitle: 'MSCS School Positioning',
-    heroLead: 'Fill in your profile to get an instant MSCS tier estimate and school direction suggestions.',
+    heroLead: 'Use your original grading system, coursework and experience to explore programs. Check your profile free before purchasing a report.',
     canceled: 'Order canceled.',
     errorPrefix: 'Error: ',
     profileSection: 'Your profile',
-    submitBtn: 'Estimate my tier',
+    submitBtn: 'Check profile and preview',
     recomputeBtn: 'Re-evaluate',
     fillRequired: 'Please fill in the required fields first',
     errInvalidNumber: 'Please enter a valid number',
@@ -68,15 +72,19 @@ const COPY = {
     previewLabel: 'Estimated tier',
     scoreLabel: 'Composite score',
     rationaleLabel: 'Why this tier',
-    paywallTitle: '🎯 Your personalized school plan is ready — unlock it now',
-    paywallText: 'Based on what you just filled in — GPA, research, recommenders, work history, and 20+ other signals — we already computed a plan that is not just "the USNews top 30 everyone can Google." Here is what you will see inside:',
+    deliveryTitle: 'Expected report contents',
+    deliveryCount: 'Expected main list: {count} programs',
+    deliveryBuckets: 'Reach {reach} · Match {match} · Alternatives {safety}',
+    deliveryUnavailable: 'Your information or program coverage is insufficient for a paid automatic report. Please provide more information or request manual review.',
+    needsReview: 'More information or manual review is needed. Checkout is unavailable; review the guidance below.',
+    stalePreview: 'Preview your current profile before proceeding to checkout.',
+    requestFailed: 'We could not process this request. Please retry later; do not pay again.',
+    paywallTitle: 'Unlock the full program fit report',
+    paywallText: 'Your report explains program fit, information that needs checking, and next steps using the profile you provide. It does not guarantee admission or estimate your personal admission probability.',
     paywallBullets: [
-      { lead: '📋 10+ hand-picked programs', body: ': not a copy of the ranking, but MSCS programs that actually fit your current tier — split into Reach / Match / Safety so you both stretch upward and lock in a safety net. No "all-rejected" surprises, no obvious under-selling.' },
-      { lead: '💡 A "why it fits you" note for every school', body: ': not a templated paragraph, but tied to your real background — e.g. "your XX research lines up with Professor Y\'s lab," "this program historically admits applicants with your kind of profile," "your prereqs already satisfy the core sequence." You can lift these straight into your SoP.' },
-      { lead: '🔗 A direct link to each program page', body: ': curriculum, tuition, deadlines, employment outcomes, international-student friendliness, PhD-pivot options — all in one place. No more tab-hopping across 15 university sites.' },
-      { lead: '🎓 Bonus: PhD-path picks', body: ': if you might pursue a PhD, you also get a separately curated list of PhD-friendly MSCS programs (research-oriented advisors, funding paths, higher PhD-conversion history) — so the MSCS is not just a "career launchpad."' },
-      { lead: '💼 Bonus: career-switcher picks', body: ': if you are transitioning from a non-CS background, you also get a list of programs that have admitted similar profiles, with flexible prereqs and solid bridge courses.' },
-      { lead: '📥 One-click PDF report', body: ': export the full plan to PDF and keep it forever — share it with parents, mentors, or a consultant; reuse it when you ask professors for recommendation letters.' },
+      { lead: 'Program options and reasons', body: ': see how coursework, interests and experience relate to each option, with uncertainty clearly stated.' },
+      { lead: 'Application checklist', body: ': distinguish available evidence from requirements that still need verification, with links for further research.' },
+      { lead: 'A report you can keep', body: ': open your paid result and download a PDF to discuss with mentors or family.' },
     ],
     payBtn: '🚀 Unlock my full school plan →',
     payNote: 'Secure checkout by Stripe. If you cannot return automatically, open the result page URL directly.',
@@ -135,7 +143,7 @@ function initialFieldValue(f) {
   return '';
 }
 
-function buildInitialProfile(fields) {
+export function buildInitialProfile(fields) {
   const initial = {};
   for (const f of fields) {
     initial[f.key] = initialFieldValue(f);
@@ -143,9 +151,11 @@ function buildInitialProfile(fields) {
   return initial;
 }
 
-function getGpaBoundsByScale(scale) {
+export function getGpaBoundsByScale(scale) {
   const s = String(scale ?? '');
-  if (s === '100') return { min: 0, max: 100 };
+  if (s === 'german-5') return { min: 1, max: 5 };
+  if (s === '10.0') return { min: 0, max: 10 };
+  if (s === '100' || s === 'uk-100') return { min: 0, max: 100 };
   if (s === '5' || s === '5.0') return { min: 0, max: 5 };
   if (s === '4.3') return { min: 0, max: 4.3 };
   return { min: 0, max: 4 };
@@ -177,14 +187,15 @@ function resolveLabel(f, profile) {
   return f.label;
 }
 
-function validateOne(f, v, profile, t) {
+export function validateOne(f, v, profile, t) {
   if (isRequired(f, profile)) {
     const empty = v === '' || v === null || v === undefined;
     if (empty) return t.fillRequired;
   }
+  if (f.type === 'select' && v && !f.options.some(o => o.value === v && isVisible(o, profile))) return t.fillRequired;
   if (f.type === 'number' && v !== '' && v !== null && v !== undefined) {
     const num = Number(v);
-    if (Number.isNaN(num)) return t.errInvalidNumber;
+    if (!Number.isFinite(num)) return t.errInvalidNumber;
     const { min, max } = getEffectiveBounds(f, profile);
     if (typeof min === 'number' && num < min) {
       return formatRange(t.errRange, min, max);
@@ -221,7 +232,7 @@ function validate(profile, fields, t) {
   return errors;
 }
 
-function coerceProfile(profile, fields) {
+export function coerceProfile(profile, fields) {
   const out = {};
   for (const f of fields) {
     const visible = isVisible(f, profile);
@@ -260,6 +271,50 @@ function coerceProfile(profile, fields) {
   return out;
 }
 
+export function positioningPayload(profile, fields, locale) {
+  return { ...coerceProfile(profile, fields), locale: pickLocale(locale) };
+}
+
+export function canCheckout(preview, hasErrors) {
+  return !!preview && preview.needsReview !== true && preview.status !== 'needsReview'
+    && preview.deliverySummary?.ready !== false
+    && !hasErrors && !!preview.tier && !Object.keys(preview.fieldErrors || {}).length
+    && !(Array.isArray(preview.errors) && preview.errors.length);
+}
+
+export function DeliverySummary({ summary, locale }) {
+  if (!summary || typeof summary !== 'object') return null;
+  const t = COPY[pickLocale(locale)];
+  const validCount = n => Number.isInteger(n) && n >= 0;
+  const counts = summary.bucketCounts || {};
+  const hasCounts = ['reach', 'match', 'safety'].every(k => validCount(counts[k]));
+  return <section aria-label={t.deliveryTitle} className={styles.rationale}>
+    <strong>{t.deliveryTitle}</strong>
+    {validCount(summary.mainListCount) && <p>{t.deliveryCount.replace('{count}', String(summary.mainListCount))}</p>}
+    {hasCounts && <p>{t.deliveryBuckets.replace('{reach}', String(counts.reach)).replace('{match}', String(counts.match)).replace('{safety}', String(counts.safety))}</p>}
+    {summary.ready === false && <p role="alert">{t.deliveryUnavailable}</p>}
+  </section>;
+}
+
+export async function readPositioningResponse(res, locale) {
+  const text = await res.text();
+  let data;
+  try { data = JSON.parse(text); } catch { data = {}; }
+  if (!res.ok) {
+    const error = new Error(getLabel(data.message || data.error, locale) || COPY[pickLocale(locale)].requestFailed);
+    error.fieldErrors = data.fieldErrors || data.errors || {};
+    throw error;
+  }
+  return data;
+}
+
+export function localizedFieldErrors(errors, locale) {
+  if (!errors || typeof errors !== 'object') return {};
+  const entries = Array.isArray(errors) ? errors.map(e => [e.field, e.message]) : Object.entries(errors);
+  return Object.fromEntries(entries.filter(([key]) => typeof key === 'string').map(([key, value]) => [key,
+    Array.isArray(value) ? value.map(v => getLabel(v, locale)).filter(Boolean).join(' ') : getLabel(value, locale)]));
+}
+
 function FormBody() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
@@ -272,6 +327,9 @@ function FormBody() {
   const [preview, setPreview] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
   const [paying, setPaying] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [serverErrors, setServerErrors] = useState({});
+  const profileVersion = useRef(0);
   const [canceled, setCanceled] = useState(false);
 
   useEffect(() => {
@@ -281,14 +339,18 @@ function FormBody() {
     }
   }, []);
 
-  const errors = useMemo(() => validate(profile, fields, t), [profile, fields, t]);
+  const errors = useMemo(() => ({ ...validate(profile, fields, t), ...serverErrors }), [profile, fields, t, serverErrors]);
   const hasErrors = Object.keys(errors).length > 0;
 
+  const invalidatePreview = () => { profileVersion.current += 1; setPreview(null); setServerErrors({}); setErrorMsg(''); };
+
   const setValue = (key, value) => {
+    invalidatePreview();
     setProfile((p) => ({ ...p, [key]: value }));
   };
 
   const setGroupValue = (groupKey, subKey, value) => {
+    invalidatePreview();
     setProfile((p) => ({
       ...p,
       [groupKey]: { ...(p[groupKey] || {}), [subKey]: value },
@@ -297,6 +359,7 @@ function FormBody() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (submitting || paying) return;
     setTouched(true);
     setErrorMsg('');
     if (hasErrors) {
@@ -308,17 +371,18 @@ function FormBody() {
       if (el) el.focus({ preventScroll: false });
       return;
     }
+    const version = profileVersion.current;
+    setSubmitting(true);
+    setPreview(null);
     try {
       const res = await fetch(WORKER_BASE_URL + '/api/positioning/preview', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(coerceProfile(profile, fields)),
+        body: JSON.stringify(positioningPayload(profile, fields, locale)),
       });
-      if (!res.ok) {
-        const text = await res.text().catch(() => '');
-        throw new Error(text || `HTTP ${res.status}`);
-      }
-      const result = await res.json();
+      const result = await readPositioningResponse(res, locale);
+      if (version !== profileVersion.current) return;
+      setServerErrors(localizedFieldErrors(result.fieldErrors || result.errors, locale));
       setPreview(result);
       trackSeoEvent('positioning_start', {
         locale,
@@ -330,27 +394,33 @@ function FormBody() {
         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 50);
     } catch (err) {
-      setErrorMsg(err && err.message ? err.message : String(err));
+      if (version !== profileVersion.current) return;
+      setServerErrors(localizedFieldErrors(err.fieldErrors, locale));
+      setErrorMsg(err && err.message ? err.message : t.requestFailed);
+    } finally {
+      setSubmitting(false);
     }
   };
 
   const handlePay = async () => {
+    if (paying || submitting || !canCheckout(preview, hasErrors)) { setErrorMsg(t.stalePreview); return; }
+    const version = profileVersion.current;
     setErrorMsg('');
     setPaying(true);
     try {
       const res = await fetch(WORKER_BASE_URL + '/api/positioning/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(coerceProfile(profile, fields)),
+        body: JSON.stringify(positioningPayload(profile, fields, locale)),
       });
-      if (!res.ok) {
-        const text = await res.text().catch(() => '');
-        throw new Error(text || `HTTP ${res.status}`);
+      const data = await readPositioningResponse(res, locale);
+      if (version !== profileVersion.current) { setPaying(false); return; }
+      if (data.needsReview || data.deliverySummary?.ready === false || Object.keys(data.fieldErrors || {}).length || data.errors?.length) {
+        setServerErrors(localizedFieldErrors(data.fieldErrors || data.errors, locale));
+        setPreview(null);
+        throw new Error(t.needsReview);
       }
-      const data = await res.json();
-      if (!data || !data.checkoutUrl) {
-        throw new Error('No checkout URL returned');
-      }
+      if (!data?.checkoutUrl) throw new Error(t.requestFailed);
       trackSeoEvent('begin_checkout', {
         locale,
         page_type: 'positioning',
@@ -359,7 +429,9 @@ function FormBody() {
       window.location.href = data.checkoutUrl;
     } catch (err) {
       setPaying(false);
-      setErrorMsg(err && err.message ? err.message : String(err));
+      setServerErrors(localizedFieldErrors(err.fieldErrors, locale));
+      setPreview(null);
+      setErrorMsg(err && err.message ? err.message : t.requestFailed);
     }
   };
 
@@ -460,7 +532,7 @@ function FormBody() {
     }
 
     if (f.type === 'select') {
-      const opts = f.options || [];
+      const opts = (f.options || []).filter(o => isVisible(o, profile));
       return (
         <div key={f.key} className={styles.field}>
           <label htmlFor={`f-${f.key}`} className={styles.label}>
@@ -539,6 +611,12 @@ function FormBody() {
           </div>
         )}
 
+        {Object.keys(serverErrors).length > 0 && <div className={`${styles.banner} ${styles.bannerError}`} role="alert">
+          <ul>{Object.entries(serverErrors).map(([key, message]) => <li key={key}>
+            {getLabel(fields.find(f => f.key === key)?.label, locale) || key}: {message}
+          </li>)}</ul>
+        </div>}
+
         <form className={styles.card} onSubmit={handleSubmit} noValidate>
           <h2 className={styles.sectionTitle}>{t.profileSection}</h2>
           <div className={styles.grid}>
@@ -548,7 +626,7 @@ function FormBody() {
             <button
               type="submit"
               className={styles.primaryBtn}
-              disabled={paying}
+              disabled={paying || submitting}
             >
               {preview ? t.recomputeBtn : t.submitBtn}
             </button>
@@ -558,6 +636,7 @@ function FormBody() {
         {preview && (
           <div id="positioning-preview" className={styles.previewCard}>
             <p className={styles.previewLabel}>{t.previewLabel}</p>
+            {preview.needsReview && <p role="alert">{t.needsReview}</p>}
             <p className={styles.previewTier}>{preview.tier}</p>
             {typeof preview.score === 'number' && (
               <p className={styles.previewScore}>
@@ -581,7 +660,8 @@ function FormBody() {
               )}
             </div>
 
-            <div className={styles.paywall}>
+            <DeliverySummary summary={preview.deliverySummary} locale={locale} />
+            {canCheckout(preview, hasErrors) && <div className={styles.paywall}>
               <p className={styles.paywallTitle}>{t.paywallTitle}</p>
               <p className={styles.paywallText}>{t.paywallText}</p>
               {Array.isArray(t.paywallBullets) && t.paywallBullets.length > 0 && (
@@ -597,12 +677,12 @@ function FormBody() {
                 type="button"
                 className={styles.payBtn}
                 onClick={handlePay}
-                disabled={paying}
+                disabled={paying || submitting}
               >
                 {paying ? t.paying : t.payBtn}
               </button>
               <p className={styles.payNote}>{t.payNote}</p>
-            </div>
+            </div>}
           </div>
         )}
       </div>
