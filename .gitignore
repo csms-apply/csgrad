@@ -12,3 +12,9 @@ src/theme/Layout/
 # free-text fields stripped.
 DataPoints.dtable
 scripts/migration-output/
+
+# Atomic deployment releases
+.site-releases/
+.build-link-*
+
+.site-deploy.lock

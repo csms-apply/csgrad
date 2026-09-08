@@ -47,6 +47,9 @@ jobs:
             exit 1
           fi
 
+      - name: Test atomic deployment activation
+        run: python3 scripts/atomic-deploy.test.py
+
       - name: Test SEO safeguards
         run: npm run test:seo
 
