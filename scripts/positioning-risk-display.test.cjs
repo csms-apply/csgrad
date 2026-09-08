@@ -54,3 +54,22 @@ test('risk and alternatives are part of the same DOM subtree exported to PDF', (
   assert.match(source, /exportReportPdf\(reportRef.current/);
   assert.match(source, /\.from\(clone\)/);
 });
+
+test('program overview replaces generic fit details without changing links or old reports', () => {
+  const item = {bucket:'match',school:'Example MCS',doc:'/A/Example MCS',reason:'Legacy reason',
+    programOverview:{en:'A coursework program with a capstone <project>.','zh-Hans':'以课程和毕业项目为主。'},
+    fit:{trackMatch:'aligned',reasons:[{en:'Generic fit reason','zh-Hans':'通用适配理由'}],checks:[{message:{en:'Generic verify task','zh-Hans':'通用核验任务'}}]}};
+  for (const [locale,expected] of [['en','A coursework program with a capstone &lt;project&gt;.'],['zh-Hans','以课程和毕业项目为主。']]) {
+    const html=render(ReviewedAlternatives,{locale,items:[item]});
+    assert.ok(html.includes(expected));
+    assert.ok(!html.includes('<project>'));
+    assert.doesNotMatch(html,/Generic fit reason|Generic verify task|通用适配理由|通用核验任务|Legacy reason/);
+    assert.ok(html.includes(locale==='en'?'/en/A/Example%20MCS':'/A/Example%20MCS'));
+  }
+  const old=render(ReviewedAlternatives,{locale:'en',items:[{...item,programOverview:undefined}]});
+  assert.match(old,/Generic fit reason/);assert.match(old,/Generic verify task/);
+  const empty=render(ReviewedAlternatives,{locale:'en',items:[{...item,programOverview:{en:'   ','zh-Hans':'仅中文'}}]});
+  assert.match(empty,/Generic fit reason/);assert.doesNotMatch(empty,/仅中文/);
+  const legacy=render(ReviewedAlternatives,{locale:'en',items:[{...item,programOverview:undefined,fit:undefined}]});
+  assert.match(legacy,/Legacy reason/);
+});

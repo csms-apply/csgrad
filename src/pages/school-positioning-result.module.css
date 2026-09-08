@@ -784,6 +784,11 @@
 }
 
 .pdfReport .bucketsGrid,
+.pdfReport .bucket,
+.pdfReport .bucketHeader,
+.pdfReport .schoolList,
+.pdfReport .warningList,
+.pdfReport .reportHeader,
 .pdfReport .phdList,
 .pdfReport .codingList {
   display: block !important;
@@ -803,6 +808,8 @@
 }
 
 .pdfReport .schoolCard,
+.pdfReport .adviceCard,
+.pdfReport .pdfKeepTogether,
 .pdfReport .warningItem,
 .pdfReport p,
 .pdfReport li {
@@ -834,4 +841,16 @@
   border: 1px solid #d6a09b;
   padding: 12px 16px;
   border-radius: 8px;
+}
+
+.pdfReport .tierName {
+  font-size: 2.2rem !important;
+}
+
+.pdfReport .tierHeader {
+  padding: 24px 18px !important;
+}
+
+.pdfReport .bucketHeader {
+  break-inside: avoid;
 }
