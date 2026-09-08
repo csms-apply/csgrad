@@ -31,6 +31,10 @@ const COPY = {
     phdSectionSub: 'PhD-friendly Programs',
     codingSectionTitle: '转码专项推荐',
     codingSectionSub: 'Transition-friendly programs',
+    fitTitle: '与你的资料如何匹配',
+    fitAligned: '方向一致', fitAdjacent: '相关方向', fitUnverified: '方向待核验',
+    checkMet: '已有资料', checkVerify: '仍需核验',
+    checklistTitle: '申请准备与核验清单', checklistHigh: '优先核验',
     adviceTitle: '🎯 给你的整体建议',
     emailNoticeTitle: '📬 完整方案已发到你的邮箱',
     emailNoticeBody: '你的完整选校方案 + 个性化建议正在发送到付款时填的邮箱，几分钟内就能在收件箱里看到（如果没收到，翻一下垃圾邮件箱）。这个页面里你看到的所有内容，邮件里都有一份完整版。',
@@ -79,6 +83,10 @@ const COPY = {
     phdSectionSub: 'PhD-friendly programs',
     codingSectionTitle: 'Coding transition recommendations',
     codingSectionSub: 'Transition-friendly programs',
+    fitTitle: 'How this relates to your profile',
+    fitAligned: 'Aligned track', fitAdjacent: 'Related track', fitUnverified: 'Track needs verification',
+    checkMet: 'Available evidence', checkVerify: 'Verify',
+    checklistTitle: 'Application preparation and checks', checklistHigh: 'Check first',
     adviceTitle: '🎯 Personal advice for you',
     emailNoticeTitle: '📬 We\'ve sent the full report to your inbox',
     emailNoticeBody: "Your complete school plan + personalized advice are on the way to the email you used at checkout. Check your inbox in a few minutes (and your spam folder if you don't see it). Everything you see on this page is also in the email.",
@@ -125,6 +133,34 @@ function getLabel(node, locale) {
   return node[locale] || node['zh-Hans'] || node.en || '';
 }
 
+export function ProgramFit({ fit, locale }) {
+  if (!fit || typeof fit !== 'object') return null;
+  const t = COPY[pickLocale(locale)];
+  const reasons = Array.isArray(fit.reasons) ? fit.reasons.map(r => getLabel(r, locale)).filter(Boolean) : [];
+  const checks = Array.isArray(fit.checks) ? fit.checks.filter(c => c && getLabel(c.message, locale)) : [];
+  const track = { aligned: t.fitAligned, adjacent: t.fitAdjacent, unverified: t.fitUnverified }[fit.trackMatch];
+  if (!track && !reasons.length && !checks.length) return null;
+  return <div className={styles.fitDetails}>
+    <p><strong>{t.fitTitle}</strong>{track ? ` · ${track}` : ''}</p>
+    {reasons.length > 0 && <ul>{reasons.map((r, i) => <li key={i}>{r}</li>)}</ul>}
+    {checks.length > 0 && <ul>{checks.map((c, i) => <li key={c.code || i}>
+      <strong>{c.status === 'met' ? t.checkMet : t.checkVerify}: </strong>{getLabel(c.message, locale)}
+    </li>)}</ul>}
+  </div>;
+}
+
+export function ReportChecklist({ items, locale }) {
+  const t = COPY[pickLocale(locale)];
+  const list = Array.isArray(items) ? items.filter(c => c && getLabel(c.message, locale)) : [];
+  if (!list.length) return null;
+  return <section className={styles.adviceCard} aria-label={t.checklistTitle}>
+    <h2 className={styles.adviceTitle}>{t.checklistTitle}</h2>
+    <ul>{list.map((c, i) => <li key={c.code || i}>
+      {c.priority === 'high' && <strong>{t.checklistHigh}: </strong>}{getLabel(c.message, locale)}
+    </li>)}</ul>
+  </section>;
+}
+
 function SchoolCard({ school, locale, t }) {
   const name = getLabel(school.school || school.name, locale);
   const program = getLabel(school.program, locale);
@@ -137,7 +173,8 @@ function SchoolCard({ school, locale, t }) {
     <div className={styles.schoolCard}>
       <h4 className={styles.schoolName}>{name || '—'}</h4>
       {program && <p className={styles.schoolProgram}>{program}</p>}
-      {reason && <p className={styles.schoolReason}>{reason}</p>}
+      {!school.fit && reason && <p className={styles.schoolReason}>{reason}</p>}
+      <ProgramFit fit={school.fit} locale={locale} />
       {href && (
         <a className={styles.schoolLink} href={href}>
           {t.viewDetail} &rarr;
@@ -422,7 +459,7 @@ function ResultBody() {
                     key={i}
                     className={`${styles.warningItem} ${w.severity === 'high' ? styles.warningHigh : styles.warningInfo}`}
                   >
-                    {w.message}
+                    {getLabel(w.message, locale)}
                   </div>
                 ))}
               </div>
@@ -490,6 +527,7 @@ function ResultBody() {
                 </div>
               </div>
             )}
+            <ReportChecklist items={data.reportChecklist} locale={locale} />
             <ConsultCard t={t} locale={locale} />
             <div className={styles.reportFooter}>{t.reportFooter}</div>
           </div>

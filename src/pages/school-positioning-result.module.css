@@ -757,3 +757,17 @@
     break-inside: avoid;
   }
 }
+
+.fitDetails {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.fitDetails p,
+.fitDetails ul {
+  margin: 8px 0;
+}
+
+.fitDetails ul {
+  padding-left: 20px;
+}
