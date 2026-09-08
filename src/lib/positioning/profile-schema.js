@@ -166,7 +166,7 @@ export const FIELD_DEFINITIONS = [
     options: [
       { value: 'none', label: { 'zh-Hans': '无科研经历', en: 'No research experience' } },
       { value: 'ra-no-output', label: { 'zh-Hans': '有科研经历但无产出（RA / 暑研未 publish）', en: 'Research experience but no publication (RA / summer)' } },
-      { value: 'domestic-paper', label: { 'zh-Hans': '国内期刊 / 普通会议论文', en: 'Domestic journal / mid-tier conference paper' } },
+      { value: 'domestic-paper', label: { 'zh-Hans': '经同行评审的期刊 / 会议论文', en: 'Peer-reviewed journal / conference paper' } },
       { value: 'top-conf-coauthor', label: { 'zh-Hans': '顶会论文合作 / 非一作（CVPR / ICCV / NeurIPS 等）', en: 'Top-tier conference paper, co-author (CVPR / ICCV / NeurIPS etc.)' } },
       { value: 'top-conf-first', label: { 'zh-Hans': '顶会论文一作（CVPR / ICCV / NeurIPS 等）', en: 'Top-tier conference paper, first author' } },
     ],

@@ -87,3 +87,20 @@ test('preview and checkout payloads carry explicit report locale with unchanged 
   assert.equal(payload.locale, 'en'); assert.equal(payload.gpa, 1.3);
   assert.equal(payload.gpaScale, 'german-5'); assert.equal(payload.academicStanding, 'unknown');
 });
+test('delivery coverage must be ready before checkout, while legacy previews remain compatible', () => {
+  assert.equal(form.canCheckout({ tier: 'A', deliverySummary: { ready: false } }, false), false);
+  assert.equal(form.canCheckout({ tier: 'A', deliverySummary: { ready: true } }, false), true);
+  assert.equal(form.canCheckout({ tier: 'A' }, false), true);
+  const summary = { mainListCount: 9, minPrograms: 6, bucketCounts: { reach: 2, match: 5, safety: 2 }, ready: true };
+  const html = render(form.DeliverySummary, { summary, locale: 'en' });
+  assert.match(html, /Expected main list: 9 programs/);
+  assert.match(html, /Reach 2 · Match 5 · Alternatives 2/);
+  assert.ok(!html.includes('minPrograms'));
+  const blocked = render(form.DeliverySummary, { summary: { ...summary, ready: false }, locale: 'en' });
+  assert.match(blocked, /insufficient for a paid automatic report/);
+  assert.equal(render(form.DeliverySummary, { locale: 'en' }), '');
+});
+test('publication label is not based on country and preserves the legacy wire value', () => {
+  const option = fields.find(f => f.key === 'research').options.find(o => o.value === 'domestic-paper');
+  assert.equal(option.label.en, 'Peer-reviewed journal / conference paper');
+});

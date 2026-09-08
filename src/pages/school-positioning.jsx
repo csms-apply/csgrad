@@ -29,6 +29,10 @@ const COPY = {
     previewLabel: '预估档位',
     scoreLabel: '综合得分',
     rationaleLabel: '评估依据',
+    deliveryTitle: '预计报告内容',
+    deliveryCount: '主列表预计包含 {count} 个项目',
+    deliveryBuckets: '冲刺 {reach} · 主申 {match} · 备选 {safety}',
+    deliveryUnavailable: '当前资料或项目覆盖不足，暂不能生成可购买的自动报告。请补充资料或选择人工核验。',
     needsReview: '资料需要补充或人工核验，暂不能付款。请查看以下提示。',
     stalePreview: '请先使用当前资料重新预览，再付款。',
     requestFailed: '暂时无法处理请求，请稍后重试；请勿重复付款。',
@@ -68,6 +72,10 @@ const COPY = {
     previewLabel: 'Estimated tier',
     scoreLabel: 'Composite score',
     rationaleLabel: 'Why this tier',
+    deliveryTitle: 'Expected report contents',
+    deliveryCount: 'Expected main list: {count} programs',
+    deliveryBuckets: 'Reach {reach} · Match {match} · Alternatives {safety}',
+    deliveryUnavailable: 'Your information or program coverage is insufficient for a paid automatic report. Please provide more information or request manual review.',
     needsReview: 'More information or manual review is needed. Checkout is unavailable; review the guidance below.',
     stalePreview: 'Preview your current profile before proceeding to checkout.',
     requestFailed: 'We could not process this request. Please retry later; do not pay again.',
@@ -269,8 +277,23 @@ export function positioningPayload(profile, fields, locale) {
 
 export function canCheckout(preview, hasErrors) {
   return !!preview && preview.needsReview !== true && preview.status !== 'needsReview'
+    && preview.deliverySummary?.ready !== false
     && !hasErrors && !!preview.tier && !Object.keys(preview.fieldErrors || {}).length
     && !(Array.isArray(preview.errors) && preview.errors.length);
+}
+
+export function DeliverySummary({ summary, locale }) {
+  if (!summary || typeof summary !== 'object') return null;
+  const t = COPY[pickLocale(locale)];
+  const validCount = n => Number.isInteger(n) && n >= 0;
+  const counts = summary.bucketCounts || {};
+  const hasCounts = ['reach', 'match', 'safety'].every(k => validCount(counts[k]));
+  return <section aria-label={t.deliveryTitle} className={styles.rationale}>
+    <strong>{t.deliveryTitle}</strong>
+    {validCount(summary.mainListCount) && <p>{t.deliveryCount.replace('{count}', String(summary.mainListCount))}</p>}
+    {hasCounts && <p>{t.deliveryBuckets.replace('{reach}', String(counts.reach)).replace('{match}', String(counts.match)).replace('{safety}', String(counts.safety))}</p>}
+    {summary.ready === false && <p role="alert">{t.deliveryUnavailable}</p>}
+  </section>;
 }
 
 export async function readPositioningResponse(res, locale) {
@@ -392,7 +415,7 @@ function FormBody() {
       });
       const data = await readPositioningResponse(res, locale);
       if (version !== profileVersion.current) { setPaying(false); return; }
-      if (data.needsReview || Object.keys(data.fieldErrors || {}).length || data.errors?.length) {
+      if (data.needsReview || data.deliverySummary?.ready === false || Object.keys(data.fieldErrors || {}).length || data.errors?.length) {
         setServerErrors(localizedFieldErrors(data.fieldErrors || data.errors, locale));
         setPreview(null);
         throw new Error(t.needsReview);
@@ -637,6 +660,7 @@ function FormBody() {
               )}
             </div>
 
+            <DeliverySummary summary={preview.deliverySummary} locale={locale} />
             {canCheckout(preview, hasErrors) && <div className={styles.paywall}>
               <p className={styles.paywallTitle}>{t.paywallTitle}</p>
               <p className={styles.paywallText}>{t.paywallText}</p>
