@@ -124,7 +124,8 @@ test('only English launches the form; Chinese and unsupported locales keep the o
     const html = render(page.default, {});
     if (locale === 'en') {
       assert.match(html, /data-form-entry="enabled"/);
-      assert.doesNotMatch(html, /temporarily offline|name="robots"/);
+      assert.doesNotMatch(html, /temporarily offline/);
+      assert.match(html, /name="robots" content="noindex"/);
     } else {
       assert.match(html, /选校定位暂时下线/);
       assert.match(html, /name="robots" content="noindex"/);

@@ -703,10 +703,10 @@ export default function SchoolPositioningPage() {
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDesc} />
         <meta property="og:type" content="website" />
-        {!positioningAvailable && <meta name="robots" content="noindex" />}
+        <meta name="robots" content="noindex" />
       </Head>
       {positioningAvailable ? (
-        <BrowserOnly fallback={<div className={styles.pageWrapper} />}>
+        <BrowserOnly fallback={<div className={styles.pageWrapper}><h1 className={styles.title}>{t.heroTitle}</h1><p>{t.heroLead}</p></div>}>
           {() => <FormBody />}
         </BrowserOnly>
       ) : <OfflineNotice locale={locale} t={t} />}

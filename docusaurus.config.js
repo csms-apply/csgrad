@@ -67,6 +67,7 @@ const config = {
           ignorePatterns: [
             '**/datapoints submit',
             '**/my-dp',
+            '**/school-positioning',
             '**/school-positioning-result',
             '**/submit-dp',
           ],
