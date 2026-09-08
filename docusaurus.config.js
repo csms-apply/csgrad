@@ -115,6 +115,12 @@ const config = {
             label: '申请跟踪',
           },
           {
+            type: 'custom-schoolPlan',
+            position: 'left',
+            label: 'School Plan',
+            to: '/school-positioning',
+          },
+          {
             href: 'https://github.com/csms-apply/csgrad',
             label: 'GitHub',
             position: 'right',
