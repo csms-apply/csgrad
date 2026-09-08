@@ -16,3 +16,5 @@ scripts/migration-output/
 # Atomic deployment releases
 .site-releases/
 .build-link-*
+
+.site-deploy.lock

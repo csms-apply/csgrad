@@ -9,6 +9,10 @@ fi
 
 set -euo pipefail
 
+# Serialize builds, activation and cleanup across overlapping SSH deployments.
+exec 9>.site-deploy.lock
+flock 9
+
 npm ci
 # Build away from the directory currently served by Docusaurus.
 mkdir -p .site-releases
