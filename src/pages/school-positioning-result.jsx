@@ -203,14 +203,18 @@ function SchoolCard({ school, locale, t }) {
   const personalized = getLabel(school.personalizedReason, locale);
   const fallbackReason = getLabel(school.reason, locale);
   const reason = personalized || fallbackReason;
+  const overviewValue = typeof school.programOverview === 'string' ? school.programOverview : school.programOverview?.[locale];
+  const overview = typeof overviewValue === 'string' ? overviewValue.trim() : '';
   const rawHref = school.doc || school.slug || school.url || school.link;
   const href = programDetailHref(rawHref, locale);
   return (
     <div className={styles.schoolCard}>
       <h4 className={styles.schoolName}>{name || '—'}</h4>
       {program && <p className={styles.schoolProgram}>{program}</p>}
-      {!school.fit && reason && <p className={styles.schoolReason}>{reason}</p>}
-      <ProgramFit fit={school.fit} locale={locale} />
+      {overview ? <p className={styles.schoolReason}>{overview}</p> : <>
+        {!school.fit && reason && <p className={styles.schoolReason}>{reason}</p>}
+        <ProgramFit fit={school.fit} locale={locale} />
+      </>}
       {href && (
         <a className={styles.schoolLink} href={href}>
           {t.viewDetail} &rarr;
