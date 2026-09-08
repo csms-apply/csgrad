@@ -8,7 +8,6 @@ import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
 import {trackSeoEvent} from '@site/src/lib/analytics/events.mjs';
 import styles from './school-positioning.module.css';
 
-const POSITIONING_AVAILABLE = false;
 
 const COPY = {
   'zh-Hans': {
@@ -694,8 +693,9 @@ export default function SchoolPositioningPage() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
   const t = COPY[locale];
-  const pageTitle = POSITIONING_AVAILABLE ? t.pageTitle : t.offlineTitle;
-  const pageDesc = POSITIONING_AVAILABLE ? t.pageDesc : t.offlineLead;
+  const positioningAvailable = locale === 'en';
+  const pageTitle = positioningAvailable ? t.pageTitle : t.offlineTitle;
+  const pageDesc = positioningAvailable ? t.pageDesc : t.offlineLead;
   return (
     <Layout title={pageTitle} description={pageDesc}>
       <Head>
@@ -703,9 +703,9 @@ export default function SchoolPositioningPage() {
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDesc} />
         <meta property="og:type" content="website" />
-        {!POSITIONING_AVAILABLE && <meta name="robots" content="noindex" />}
+        {!positioningAvailable && <meta name="robots" content="noindex" />}
       </Head>
-      {POSITIONING_AVAILABLE ? (
+      {positioningAvailable ? (
         <BrowserOnly fallback={<div className={styles.pageWrapper} />}>
           {() => <FormBody />}
         </BrowserOnly>
