@@ -6,12 +6,13 @@ const vm = require('node:vm');
 const React = require('react');
 const { renderToStaticMarkup } = require('react-dom/server');
 const { transformFileSync } = require('@babel/core');
-function load(file) {
+function load(file, mocks = {}) {
   const filename = path.join(__dirname, '..', file);
   const { code } = transformFileSync(filename, { babelrc: false, configFile: false,
     presets: [require.resolve('@babel/preset-react')], plugins: [require.resolve('@babel/plugin-transform-modules-commonjs')] });
   const out = {};
   vm.runInNewContext(code, { exports: out, require(name) {
+    if (Object.hasOwn(mocks, name)) return mocks[name];
     if (name === 'react') return React;
     if (name.endsWith('.module.css')) return { __esModule: true, default: new Proxy({}, { get: (_, k) => k }) };
     if (name.includes('profile-schema')) return schema;
@@ -110,4 +111,25 @@ test('employment outside the US is distinct from working in China', () => {
   assert.equal(goals.find(o => o.value === 'cn-job').label.en, 'Work in China');
   const profile = { ...form.buildInitialProfile(fields), careerGoal: 'other-job' };
   assert.equal(form.positioningPayload(profile, fields, 'en').careerGoal, 'other-job');
+});
+
+test('only English launches the form; Chinese and unsupported locales keep the offline notice', () => {
+  for (const locale of ['en', 'zh-Hans', 'fr']) {
+    const page = load('src/pages/school-positioning.jsx', {
+      '@docusaurus/useDocusaurusContext': { __esModule: true, default: () => ({ i18n: { currentLocale: locale } }) },
+      '@theme/Layout': { __esModule: true, default: ({ children }) => React.createElement('main', null, children) },
+      '@docusaurus/Head': { __esModule: true, default: ({ children }) => React.createElement(React.Fragment, null, children) },
+      '@docusaurus/BrowserOnly': { __esModule: true, default: () => React.createElement('div', { 'data-form-entry': 'enabled' }) },
+    });
+    const html = render(page.default, {});
+    if (locale === 'en') {
+      assert.match(html, /data-form-entry="enabled"/);
+      assert.doesNotMatch(html, /temporarily offline/);
+      assert.match(html, /name="robots" content="noindex"/);
+    } else {
+      assert.match(html, /选校定位暂时下线/);
+      assert.match(html, /name="robots" content="noindex"/);
+      assert.doesNotMatch(html, /data-form-entry/);
+    }
+  }
 });
