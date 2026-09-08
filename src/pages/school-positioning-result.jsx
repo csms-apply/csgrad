@@ -170,6 +170,31 @@ export function programDetailHref(raw, locale) {
   return encodeURI(path).replace(/%25([0-9a-f]{2})/gi, '%$1');
 }
 
+// html2pdf does not implement break-after:avoid, so group headings with the
+// first content block in the detached copy instead of relying on that CSS rule.
+export function preparePdfLayout(root, doc) {
+  for (const section of root.querySelectorAll(`.${styles.bucket}, .${styles.adviceCard}, .${styles.phdSection}, .${styles.codingSection}`)) {
+    const heading = section.firstElementChild;
+    const content = heading?.nextElementSibling;
+    if (!heading || !content) continue;
+    const list = content.matches('ul, ol') || [styles.schoolList, styles.phdList, styles.codingList, styles.adviceProse].some(name => content.classList.contains(name));
+    const first = list ? content.firstElementChild : content;
+    if (!first) continue;
+    const group = doc.createElement('div');
+    group.className = styles.pdfKeepTogether;
+    section.insertBefore(group, heading);
+    group.appendChild(heading);
+    if (content.matches('ul, ol')) {
+      const firstList = doc.createElement(content.tagName.toLowerCase());
+      firstList.className = content.className;
+      firstList.appendChild(first);
+      group.appendChild(firstList);
+    } else {
+      group.appendChild(first);
+    }
+  }
+}
+
 // Render a separate A4-width copy so PDF layout never changes the visible report.
 export async function exportReportPdf(report, html2pdf, filename, doc = document) {
   const host = doc.createElement('div');
@@ -177,6 +202,7 @@ export async function exportReportPdf(report, html2pdf, filename, doc = document
   host.setAttribute('aria-hidden', 'true');
   const clone = report.cloneNode(true);
   clone.classList.add(styles.pdfReport);
+  preparePdfLayout(clone, doc);
   host.appendChild(clone);
   doc.body.appendChild(host);
   let worker;
@@ -186,7 +212,7 @@ export async function exportReportPdf(report, html2pdf, filename, doc = document
     await worker.set({
       margin: [12, 10, 12, 10], filename,
       image: { type: 'jpeg', quality: 0.95 },
-      html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 794 },
+      html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
       pagebreak: { mode: ['css', 'legacy'] },
     }).from(clone).save();
