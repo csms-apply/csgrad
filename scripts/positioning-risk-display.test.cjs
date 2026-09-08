@@ -51,5 +51,6 @@ test('risk and alternatives are part of the same DOM subtree exported to PDF', (
   const report = source.slice(start, footer);
   assert.match(report, /<RiskNotice policy={data.riskPolicy}/);
   assert.match(report, /<ReviewedAlternatives items={data.reviewedAlternatives}/);
-  assert.match(source, /\.from\(reportRef.current\)/);
+  assert.match(source, /exportReportPdf\(reportRef.current/);
+  assert.match(source, /\.from\(clone\)/);
 });

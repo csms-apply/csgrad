@@ -771,3 +771,67 @@
 .fitDetails ul {
   padding-left: 20px;
 }
+
+/* Only the detached PDF copy uses this layout; browser report styling is unchanged. */
+.pdfReport {
+  width: 190mm !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #fff !important;
+  color: #242424 !important;
+  font-size: 12px;
+}
+
+.pdfReport .bucketsGrid,
+.pdfReport .phdList,
+.pdfReport .codingList {
+  display: block !important;
+}
+
+.pdfReport .bucket,
+.pdfReport .schoolCard,
+.pdfReport .adviceCard,
+.pdfReport .consultCard {
+  background: #fff !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.pdfReport .schoolCard {
+  margin-bottom: 12px;
+}
+
+.pdfReport .schoolCard,
+.pdfReport .warningItem,
+.pdfReport p,
+.pdfReport li {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.pdfReport h1,
+.pdfReport h2,
+.pdfReport h3,
+.pdfReport h4 {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.pdfReport * {
+  color: #242424 !important;
+  text-shadow: none !important;
+  overflow-wrap: anywhere;
+}
+
+.pdfReport a {
+  color: #205d8c !important;
+}
+
+.pdfError {
+  color: #a12a24;
+  background: #fff2ef;
+  border: 1px solid #d6a09b;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
