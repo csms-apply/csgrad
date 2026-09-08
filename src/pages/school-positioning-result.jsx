@@ -44,10 +44,15 @@ const COPY = {
     consultPerk: '🎁 你这次付的选校报告费用，会全额从后续辅导费里减免。',
     bucketReach: '冲刺',
     bucketReachSub: 'Reach',
-    bucketMatch: '匹配',
+    bucketMatch: '主申',
     bucketMatchSub: 'Match',
-    bucketSafety: '保底',
-    bucketSafetySub: 'Safety',
+    bucketSafety: '备选',
+    bucketSafetySub: 'Alternatives',
+    riskTitle: '申请风险说明',
+    riskFallback: '这些分组尚未经过录取风险校准，不能理解为个人录取概率；主申和备选项目也不保证录取。',
+    reviewedTitle: '补充主申候选',
+    reviewedSub: 'Additional match candidates',
+    reviewedDescription: '以下项目已从原备选范围调整为主申候选，本次主申名单未列入；可结合课程、方向与申请预算进一步筛选。',
     emptyBucket: '该档暂无推荐',
     viewDetail: '了解详情',
     pendingTitle: '正在获取订单状态',
@@ -89,8 +94,13 @@ const COPY = {
     bucketReachSub: 'Reach',
     bucketMatch: 'Match',
     bucketMatchSub: 'Match',
-    bucketSafety: 'Safety',
-    bucketSafetySub: 'Safety',
+    bucketSafety: 'Alternatives',
+    bucketSafetySub: 'Alternatives',
+    riskTitle: 'Application risk',
+    riskFallback: 'These groups have not been calibrated against admission risk and are not personal admission probabilities. Match and alternative programs do not guarantee admission.',
+    reviewedTitle: 'Additional match candidates',
+    reviewedSub: 'For further consideration',
+    reviewedDescription: 'These programs were moved from the alternative group to match candidates and are additional to this report’s main list. Review their courses, focus and application cost before choosing.',
     emptyBucket: 'No picks in this bucket',
     viewDetail: 'Learn more',
     pendingTitle: 'Checking order status',
@@ -209,6 +219,30 @@ function Bucket({ items, title, subtitle, variantClass, locale, t }) {
         )}
       </div>
     </div>
+  );
+}
+
+export function RiskNotice({ policy, locale }) {
+  const t = COPY[pickLocale(locale)];
+  const caveat = getLabel(policy?.caveat, locale);
+  return (
+    <aside className={`${styles.warningItem} ${styles.warningInfo} ${styles.riskNotice}`} aria-label={t.riskTitle}>
+      <strong>{t.riskTitle}</strong>
+      <p>{policy?.calibrated === false && caveat ? caveat : t.riskFallback}</p>
+    </aside>
+  );
+}
+
+export function ReviewedAlternatives({ items, locale }) {
+  const t = COPY[pickLocale(locale)];
+  const list = Array.isArray(items) ? items.filter(s => s && s.bucket === 'match') : [];
+  if (!list.length) return null;
+  return (
+    <section className={styles.reviewedAlternatives} aria-label={t.reviewedTitle}>
+      <p className={styles.summary}>{t.reviewedDescription}</p>
+      <Bucket items={list} title={t.reviewedTitle} subtitle={t.reviewedSub}
+        variantClass={styles.bucketMatch} locale={locale} t={t} />
+    </section>
   );
 }
 
@@ -379,6 +413,7 @@ function ResultBody() {
               <h1 className={styles.tierName}>{tierName}</h1>
               {summary && <p className={styles.summary}>{summary}</p>}
             </div>
+            <RiskNotice policy={data.riskPolicy} locale={locale} />
             <AdviceSection advice={data.llmAdvice} t={t} />
             {Array.isArray(data.warnings) && data.warnings.length > 0 && (
               <div className={styles.warningList}>
@@ -418,6 +453,7 @@ function ResultBody() {
                 t={t}
               />
             </div>
+            <ReviewedAlternatives items={data.reviewedAlternatives} locale={locale} />
             {data.phdRecommended && Array.isArray(data.phdRecommended.schools) && data.phdRecommended.schools.length > 0 && (
               <div className={styles.phdSection}>
                 <div className={styles.phdHeader}>
