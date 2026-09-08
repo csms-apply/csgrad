@@ -737,3 +737,23 @@
 .retryBtn:hover {
   background: #b8985d;
 }
+
+.riskNotice {
+  margin: 20px 0;
+  break-inside: avoid;
+}
+
+.riskNotice p {
+  margin: 6px 0 0;
+}
+
+.reviewedAlternatives {
+  margin-top: 24px;
+}
+
+@media print {
+  .riskNotice,
+  .reviewedAlternatives .schoolCard {
+    break-inside: avoid;
+  }
+}
