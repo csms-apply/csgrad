@@ -4,6 +4,7 @@ import ctypes
 import os
 import json
 import shutil
+import re
 from pathlib import Path
 import sys
 import uuid
@@ -20,6 +21,7 @@ def activate(site, release):
     live = site / 'build'
     # Keep precisely the previous build's own assets for already open tabs.
     # Record fresh assets before copying so retention does not grow recursively.
+    previous_release = live.resolve() if live.exists() else None
     manifest = '.original-assets.json'
     fresh = [str(p.relative_to(release)) for p in release.rglob('*')
              if p.is_file() and 'assets' in p.relative_to(release).parts]
@@ -52,12 +54,19 @@ def activate(site, release):
             renameat2.restype = ctypes.c_int
             if renameat2(-100, os.fsencode(staging), -100, os.fsencode(live), 2):
                 raise OSError(ctypes.get_errno(), 'Atomic build exchange failed')
-            staging.rename(site / '.site-releases' / ('legacy-' + uuid.uuid4().hex))
+            previous_release = site / '.site-releases' / ('legacy-' + uuid.uuid4().hex)
+            staging.rename(previous_release)
         else:
             os.replace(staging, live)
     finally:
         if staging.is_symlink():
             staging.unlink()
+    # Only remove releases created by this deployer, keeping one rollback build.
+    for candidate in (site / '.site-releases').iterdir():
+        if (re.fullmatch(r'(release-[A-Za-z0-9]{8}|legacy-[a-f0-9]{32})', candidate.name)
+                and candidate.is_dir() and not candidate.is_symlink()
+                and candidate.resolve() not in (release, previous_release)):
+            shutil.rmtree(candidate)
 
 
 if __name__ == '__main__':

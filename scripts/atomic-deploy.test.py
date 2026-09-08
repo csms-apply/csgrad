@@ -44,6 +44,18 @@ class ActivationTests(unittest.TestCase):
         self.assertEqual((self.site / 'build/assets/js/new.js').read_text(), 'new')
         self.assertFalse((self.site / 'build/assets/js/old.js').exists())
 
+    def test_cleanup_keeps_current_previous_and_unowned_directories(self):
+        stale = self.release('release-00000000')
+        old = self.release('release-11111111')
+        new = self.release('release-22222222')
+        unowned = self.release('operator-backup')
+        (self.site / 'build').symlink_to(old)
+        module.activate(self.site, new)
+        self.assertFalse(stale.exists())
+        self.assertTrue(old.exists())
+        self.assertTrue(new.exists())
+        self.assertTrue(unowned.exists())
+
     def test_incomplete_release_preserves_live(self):
         old, new = self.release('old'), self.release('new')
         (self.site / 'build').symlink_to(old)

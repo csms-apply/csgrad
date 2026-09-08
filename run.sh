@@ -23,5 +23,10 @@ if ! command -v pm2 >/dev/null 2>&1; then
 fi
 # The server resolves build paths per request; switching the symlink is enough.
 # Restarting here would create an unnecessary gap in report availability.
-pm2 describe docusaurus >/dev/null 2>&1 || pm2 start npm --name "docusaurus" -- run serve
+csgrad_pm2_status="$(pm2 jlist | node -e 'let s=""; process.stdin.on("data",c=>s+=c); process.stdin.on("end",()=>{ const p=JSON.parse(s).find(p=>p.name==="docusaurus"); console.log(p?.pm2_env?.status || "missing"); });')"
+if [ "$csgrad_pm2_status" = missing ]; then
+  pm2 start npm --name "docusaurus" -- run serve
+elif [ "$csgrad_pm2_status" != online ]; then
+  pm2 restart docusaurus
+fi
 pm2 save
