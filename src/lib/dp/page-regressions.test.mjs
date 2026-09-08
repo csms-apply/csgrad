@@ -103,13 +103,16 @@ for (const locale of ['zh-Hans', 'en']) {
     const harness = pageHarness('school-positioning-result', ['ResultBody'], {
       locale,
       imports: {
-        '@site/src/lib/positioning/api': {WORKER_BASE_URL: 'https://isolated.invalid'},
+        '@site/src/lib/positioning/api': {POSITIONING_API_BASE: ''},
         '@site/src/lib/analytics/events.mjs': {trackSeoEvent() { throw new Error('No analytics expected'); }},
         '@site/src/lib/analytics/purchase.mjs': {},
       },
       globals: {
         window: {location: {search: '?session_id=e2e_synthetic'}},
-        fetch: async () => { throw new TypeError('Failed to fetch'); },
+        fetch: async (url) => {
+          assert.equal(url, '/api/positioning/result?sessionId=e2e_synthetic');
+          throw new TypeError('Failed to fetch');
+        },
       },
     });
     let tree = harness.render('ResultBody');

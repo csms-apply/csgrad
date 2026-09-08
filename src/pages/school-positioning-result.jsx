@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
+import { POSITIONING_API_BASE } from '@site/src/lib/positioning/api';
 import {trackSeoEvent} from '@site/src/lib/analytics/events.mjs';
 import {buildPositioningPurchaseParameters} from '@site/src/lib/analytics/purchase.mjs';
 import styles from './school-positioning-result.module.css';
@@ -341,7 +341,7 @@ function ResultBody() {
       count += 1;
       setAttempt(count);
       try {
-        const url = WORKER_BASE_URL + '/api/positioning/result?sessionId=' + encodeURIComponent(sessionId);
+        const url = POSITIONING_API_BASE + '/api/positioning/result?sessionId=' + encodeURIComponent(sessionId);
         const res = await fetch(url);
         if (!res.ok) {
           const text = await res.text().catch(() => '');

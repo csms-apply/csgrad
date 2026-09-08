@@ -4,7 +4,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { FIELD_DEFINITIONS } from '@site/src/lib/positioning/profile-schema';
-import { WORKER_BASE_URL } from '@site/src/lib/positioning/api';
+import { POSITIONING_API_BASE } from '@site/src/lib/positioning/api';
 import {trackSeoEvent} from '@site/src/lib/analytics/events.mjs';
 import styles from './school-positioning.module.css';
 
@@ -374,7 +374,7 @@ function FormBody() {
     setSubmitting(true);
     setPreview(null);
     try {
-      const res = await fetch(WORKER_BASE_URL + '/api/positioning/preview', {
+      const res = await fetch(POSITIONING_API_BASE + '/api/positioning/preview', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(positioningPayload(profile, fields, locale)),
@@ -407,7 +407,7 @@ function FormBody() {
     setErrorMsg('');
     setPaying(true);
     try {
-      const res = await fetch(WORKER_BASE_URL + '/api/positioning/checkout', {
+      const res = await fetch(POSITIONING_API_BASE + '/api/positioning/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(positioningPayload(profile, fields, locale)),
