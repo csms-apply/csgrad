@@ -23,7 +23,7 @@ vm.runInNewContext(code, {
     throw new Error(`Unexpected import: ${name}`);
   },
 });
-const { RiskNotice, ReviewedAlternatives } = exportsForTest;
+const { RiskNotice, ReviewedAlternatives, Bucket } = exportsForTest;
 const render = (component, props) => renderToStaticMarkup(React.createElement(component, props));
 
 test('uncalibrated policy text is visible and escaped', () => {
@@ -72,4 +72,19 @@ test('program overview replaces generic fit details without changing links or ol
   assert.match(empty,/Generic fit reason/);assert.doesNotMatch(empty,/仅中文/);
   const legacy=render(ReviewedAlternatives,{locale:'en',items:[{...item,programOverview:undefined,fit:undefined}]});
   assert.match(legacy,/Legacy reason/);
+});
+
+test('bucket headers do not repeat identical labels and retain distinct Chinese subtitles', () => {
+  for (const title of ['Reach','Match','Alternatives']) {
+    const html=render(Bucket,{items:[],title,subtitle:title,locale:'en',t:{emptyBucket:'No programs'}});
+    const heading=html.match(/<h3[^>]*>(.*?)<\/h3>/)[1];
+    assert.equal(heading,title);
+  }
+  for (const [title,subtitle] of [['冲刺','Reach'],['主申','Match'],['备选','Alternatives']]) {
+    const html=render(Bucket,{items:[],title,subtitle,locale:'zh-Hans',t:{emptyBucket:'暂无项目'}});
+    const heading=html.match(/<h3[^>]*>(.*?)<\/h3>/)[1];
+    assert.ok(heading.startsWith(title));
+    assert.equal(heading.split(title).length-1,1);
+    assert.ok(heading.includes(subtitle));
+  }
 });

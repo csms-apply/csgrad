@@ -301,14 +301,14 @@ function AdviceSection({ advice, t }) {
   );
 }
 
-function Bucket({ items, title, subtitle, variantClass, locale, t }) {
+export function Bucket({ items, title, subtitle, variantClass, locale, t }) {
   const list = Array.isArray(items) ? items : [];
   return (
     <div className={`${styles.bucket} ${variantClass}`}>
       <div className={styles.bucketHeader}>
         <h3 className={styles.bucketTitle}>
           {title}
-          <span className={styles.bucketSubtitle}>{subtitle}</span>
+          {subtitle && subtitle !== title && <span className={styles.bucketSubtitle}>{subtitle}</span>}
         </h3>
         <span className={styles.bucketCount}>{list.length}</span>
       </div>
