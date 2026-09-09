@@ -263,6 +263,7 @@ const ENUM_DISPLAY = {
     '英本': { 'zh-Hans': '英本', en: 'UK undergrad' },
     '澳本': { 'zh-Hans': '澳本', en: 'Australia undergrad' },
     '港本': { 'zh-Hans': '港本', en: 'HK undergrad' },
+    '台本': { 'zh-Hans': '台本（台湾本科）', en: 'Taiwan undergrad' },
     '坡本': { 'zh-Hans': '坡本', en: 'Singapore undergrad' },
     '欧陆本': { 'zh-Hans': '欧陆本', en: 'Continental EU undergrad' },
     '海本': { 'zh-Hans': '海本', en: 'Overseas (other)' },
