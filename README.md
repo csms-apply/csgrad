@@ -1,4 +1,6 @@
-# CS Grad：北美 CS/MSCS 申请与选校指南
+# 北美 MSCS 申请指南
+
+**简体中文** | [English](README.en.md)
 
 ## 欢迎来到 CS Grad 项目
 
