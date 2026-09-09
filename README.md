@@ -1,4 +1,14 @@
-# CS Grad：北美 CS/MSCS 申请与选校指南
+<h1 align="center">北美 MSCS 申请指南</h1>
+
+<p align="center">
+  <a href="https://discord.gg/g9x4WCX2xz"><img src="static/img/readme/community-discord.svg" alt="Join Discord" width="144" height="44" /></a>
+  <a href="#qq-group"><img src="static/img/readme/community-qq-zh.svg" alt="加入 QQ 群" width="144" height="44" /></a>
+</p>
+
+<p align="center">
+  <a href="README.md"><img src="static/img/readme/language-zh-active.svg" alt="简体中文" width="144" height="44" /></a>
+  <a href="README.en.md"><img src="static/img/readme/language-en-inactive.svg" alt="English" width="144" height="44" /></a>
+</p>
 
 ## 欢迎来到 CS Grad 项目
 
@@ -8,6 +18,12 @@ CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等�
 
 ## 项目网址
 [CS Grad 中文首页](https://csgrad.com/)
+
+## 加入 Discord
+
+[加入 CS Grad Discord 社区](https://discord.gg/g9x4WCX2xz)
+
+<a id="qq-group"></a>
 
 ## 加入QQ群讨论
 qq群号：1039432843
