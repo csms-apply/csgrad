@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CS Grad',
-  tagline: '北美 CS/MSCS 申请与选校指南',
+  tagline: '北美 MSCS 申请指南',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
