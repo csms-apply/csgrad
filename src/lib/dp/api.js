@@ -134,7 +134,7 @@ function reorderTiers(opts) {
     schools: opts.schools || [],
     tiers: tierList,
     years: opts.years || [],
-    ugCats: (opts.ugCats || []).filter((c) => !HIDDEN_UG_CATS.has(c)),
+    ugCats: [...new Set([...(opts.ugCats || []), '台本'])].filter((c) => !HIDDEN_UG_CATS.has(c)),
     majors: opts.majors || [],
   };
 }

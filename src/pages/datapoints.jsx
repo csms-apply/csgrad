@@ -123,7 +123,7 @@ const COPY = {
     cardLabelPub: '论文',
     cardLabelNotes: '备注',
     resultLabels: {},
-    ugCategoryLabels: {},
+    ugCategoryLabels: {'台本': '台本（台湾本科）'},
   },
   en: {
     pageTitle: 'CS & MSCS Admissions Data Explorer',
@@ -239,6 +239,7 @@ const COPY = {
       '英本': 'UK university',
       '澳本': 'Australian university',
       '港本': 'Hong Kong university',
+      '台本': 'Taiwan university',
       '坡本': 'Singapore university',
       '欧陆本': 'Continental European university',
       '海本': 'Overseas university',
