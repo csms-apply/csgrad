@@ -1,6 +1,11 @@
 <h1 align="center">North American MSCS Application Guide</h1>
 
 <p align="center">
+  <a href="https://discord.gg/g9x4WCX2xz"><img src="static/img/readme/community-discord.svg" alt="Join Discord" width="144" height="44" /></a>
+  <a href="#qq-group"><img src="static/img/readme/community-qq-en.svg" alt="Join QQ group" width="144" height="44" /></a>
+</p>
+
+<p align="center">
   <a href="README.md"><img src="static/img/readme/language-zh-inactive.svg" alt="简体中文" width="144" height="44" /></a>
   <a href="README.en.md"><img src="static/img/readme/language-en-active.svg" alt="English" width="144" height="44" /></a>
 </p>
@@ -14,6 +19,12 @@ To give applicants a fuller picture, we include **admission data points (admissi
 ## Website
 
 [CS Grad English Homepage](https://csgrad.com/en/) | [Chinese Homepage](https://csgrad.com/)
+
+## Join Discord
+
+[Join the CS Grad Discord community](https://discord.gg/g9x4WCX2xz)
+
+<a id="qq-group"></a>
 
 ## Join Our QQ Discussion Group
 
