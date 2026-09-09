@@ -1,7 +1,6 @@
 <h1 align="center">北美 MSCS 申請指南</h1>
 
 <p align="center">
-  <a href="https://discord.gg/g9x4WCX2xz"><img src="static/img/readme/community-discord.svg" alt="Join Discord" width="144" height="44" /></a>
   <a href="#qq-group"><img src="static/img/readme/community-qq-zh.svg" alt="加入 QQ 群" width="144" height="44" /></a>
 </p>
 
@@ -19,10 +18,6 @@ CS Grad 項目專注於北美 MSCS 申請，涵蓋 CS、DS、EE、ECE、IS 等�
 
 ## 項目網址
 [CS Grad 繁體中文首頁](https://csgrad.com/zh-Hant/)
-
-## 加入 Discord
-
-[加入 CS Grad Discord 社區](https://discord.gg/g9x4WCX2xz)
 
 <a id="qq-group"></a>
 

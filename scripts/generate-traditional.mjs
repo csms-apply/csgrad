@@ -140,6 +140,8 @@ for(const name of ['README.md','README.en.md']){
 }
 // README has HTML display text; preserve all tag attributes and destinations.
 let readme=fs.readFileSync(path.join(root,'README.md'),'utf8');
+readme=readme.replace(/^.*<a href="https:\/\/discord\.gg\/[^\n]+\n/gm, '')
+ .replace(/^## 加入 Discord\n[\s\S]*?(?=^<a id="qq-group")/m, '');
 readme=markdown(readme, false).replace(/>([^<>]+)</g,(_,text)=>'>'+prose(text)+'<');
 readme=readme.replaceAll('language-zh-active.svg','language-zh-inactive.svg').replaceAll('language-hant-inactive.svg','language-hant-active.svg');
 readme=readme.replace('[CS Grad 中文首頁](https://csgrad.com/)', '[CS Grad 繁體中文首頁](https://csgrad.com/zh-Hant/)');
