@@ -15,10 +15,42 @@ const files=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirecto
 const write=(p,text)=>{fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,text);};
 const prose=s=>s.replace(/https?:\/\/[^\s<>]+|\{#[^}]+\}|[^]+?(?=https?:\/\/|\{#|$)/g,x=>/^(https?:\/\/|\{#)/.test(x)?x:convert(x));
 const parser=unified().use(remarkParse).use(remarkMdx).use(remarkFrontmatter,['yaml']);
-function markdown(source, preserveAnchors = true){
+function markdown(source, preserveAnchors = true, sourceFile = null){
+ const relocate = value => {
+  if (!sourceFile || !/^\.\.?\//.test(value)) return value;
+  const [, pathname, suffix] = value.match(/^([^?#]*)(.*)$/s);
+  const resolved = path.resolve(path.dirname(sourceFile), decodeURIComponent(pathname));
+  const relative = path.relative(path.join(root, 'docs'), resolved);
+  // Relative document links retain their translated sibling destination.
+  if (!relative.startsWith('..') && !path.isAbsolute(relative)) return value;
+  const sitePath = path.relative(root, resolved);
+  if (sitePath.startsWith('..') || path.isAbsolute(sitePath)) throw new Error(`Reference outside site: ${value}`);
+  return '@site/' + sitePath.split(path.sep).join('/') + suffix;
+ };
  const tree=parser.parse(source),edits=[],slugger=new GithubSlugger();
  const visible=n=>n.type==='text'||n.type==='inlineCode'?n.value:(n.children||[]).map(visible).join('');
  function walk(n){
+  if(n.url && relocate(n.url)!==n.url){
+   const raw=source.slice(n.position.start.offset,n.position.end.offset);
+   const offset=raw.indexOf(n.url);
+   if(offset<0)throw new Error(`Cannot locate URL: ${n.url}`);
+   edits.push([n.position.start.offset+offset,n.position.start.offset+offset+n.url.length,relocate(n.url)]);
+  }
+  if(n.type==='mdxjsEsm'){
+   const ast=parse(n.value,{sourceType:'module',plugins:['jsx','typescript']});
+   for(const statement of ast.program.body){
+    if(statement.source?.type==='StringLiteral'){
+     const value=statement.source.value, replacement=relocate(value);
+     if(value!==replacement)edits.push([n.position.start.offset+statement.source.start+1,n.position.start.offset+statement.source.end-1,replacement]);
+    }
+   }
+  }
+  for(const attr of n.attributes||[]){
+   if(['src','href'].includes(attr.name)&&typeof attr.value==='string'&&relocate(attr.value)!==attr.value){
+    const start=attr.position.start.offset,raw=source.slice(start,attr.position.end.offset),offset=raw.indexOf(attr.value);
+    edits.push([start+offset,start+offset+attr.value.length,relocate(attr.value)]);
+   }
+  }
   if(n.type==='text')edits.push([n.position.start.offset,n.position.end.offset,prose(source.slice(n.position.start.offset,n.position.end.offset))]);
   if(n.type==='yaml'){
    const original=source.slice(n.position.start.offset,n.position.end.offset);
@@ -37,7 +69,7 @@ function markdown(source, preserveAnchors = true){
 const dest=path.join(root,'i18n/zh-Hant');let docs=0;
 for(const file of files(path.join(root,'docs'))){
  const rel=path.relative(path.join(root,'docs'),file),out=path.join(dest,'docusaurus-plugin-content-docs/current',rel);
- if(/\.mdx?$/.test(file)){write(out,markdown(fs.readFileSync(file,'utf8')));docs++;}
+ if(/\.mdx?$/.test(file)){write(out,markdown(fs.readFileSync(file,'utf8'), true, file));docs++;}
  else if(file.endsWith('.json')){const data=JSON.parse(fs.readFileSync(file));if(data.label)data.label=convert(data.label);if(data.link?.description)data.link.description=convert(data.link.description);write(out,JSON.stringify(data,null,2)+'\n');}
  else {fs.mkdirSync(path.dirname(out),{recursive:true});fs.copyFileSync(file,out);}
 }
@@ -86,5 +118,6 @@ for(const name of ['README.md','README.en.md']){
 let readme=fs.readFileSync(path.join(root,'README.md'),'utf8');
 readme=markdown(readme, false).replace(/>([^<>]+)</g,(_,text)=>'>'+prose(text)+'<');
 readme=readme.replaceAll('language-zh-active.svg','language-zh-inactive.svg').replaceAll('language-hant-inactive.svg','language-hant-active.svg');
+readme=readme.replace('[CS Grad 中文首頁](https://csgrad.com/)', '[CS Grad 繁體中文首頁](https://csgrad.com/zh-Hant/)');
 write(path.join(root,'README.zh-Hant.md'),readme);
 console.log(`Generated ${docs} Traditional Chinese Markdown/MDX documents and ${Object.keys(code).length} UI messages.`);

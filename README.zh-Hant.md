@@ -18,7 +18,7 @@ CS Grad 項目專注於北美 MSCS 申請，涵蓋 CS、DS、EE、ECE、IS 等�
 此外，為了讓申請者更全面地評估各項目，我們引入了 **錄取數據點（admission DP）** 和 **求職數據點（job DP）**，以便直觀展示項目的錄取趨勢及其在求職市場的表現。畢竟，大多數人選擇前往美國攻讀 MSCS，歸根結底是為了找個班上，因此找工dp也是申請中不可忽視的關鍵因素。
 
 ## 項目網址
-[CS Grad 中文首頁](https://csgrad.com/)
+[CS Grad 繁體中文首頁](https://csgrad.com/zh-Hant/)
 
 ## 加入 Discord
 
