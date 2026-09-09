@@ -34,11 +34,15 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans', 'zh-Hant', 'en'],
     localeConfigs: {
       'zh-Hans': {
-        label: '中文',
+        label: '简体中文',
         htmlLang: 'zh-Hans',
+      },
+      'zh-Hant': {
+        label: '繁體中文',
+        htmlLang: 'zh-Hant',
       },
       en: {
         label: 'English',
