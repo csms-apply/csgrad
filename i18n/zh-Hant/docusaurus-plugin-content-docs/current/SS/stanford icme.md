@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: "Stanford ICME：對數學背景要求很高，如果本科修了很多ds方面的課，或者你就是ds專業本科 ，那麼到時候可以考慮申請一下ICME ds track，進可當quant 退可當sde，非常靈活。 ICME 分為四個 track： General 、Data Science 、Imaging Science 、MCF，其中錄取難度： MCF > general > data sci"
 ---
 # Stanford ICME
 

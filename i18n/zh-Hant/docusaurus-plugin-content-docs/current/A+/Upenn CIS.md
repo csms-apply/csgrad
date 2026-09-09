@@ -1,3 +1,7 @@
+---
+description: "Upenn CIS：實際上就是 CS 專業，Master 需要完成 10 門課。常見的畢業節奏有： 兩年制（3-3-2-2） 一年半制（3-3-4） 學生可以選擇 course track 或 thesis track，找工作和申請 PhD 都比較靈活。學費 如果是 full-time，每學期約 $26,000，但如果研二課少可能會低一些。 大藤title很香，bar 對陸本的"
+---
+
 # Upenn CIS
 
 ## 項目介紹 {#项目介绍}

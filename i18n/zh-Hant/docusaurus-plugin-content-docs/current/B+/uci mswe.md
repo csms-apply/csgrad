@@ -1,3 +1,7 @@
+---
+description: "UCI MSWE：項目全稱master of software engineering，從官網上就能看出來是一個非常找工導向的項目。地處爾灣富人區，非常安全+安逸👏。是一個典型的轉碼項目，招收了不少轉碼同學。uci一共有三個計算機相關項目，分別是mcs, mswe, netsys。其中mcs偏向計算機科班申請者，mswe偏向轉專業申請者。兩個項目最主要的區別就是worklo"
+---
+
 
 # UCI MSWE
 

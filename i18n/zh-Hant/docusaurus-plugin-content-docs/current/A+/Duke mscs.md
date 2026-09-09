@@ -1,3 +1,7 @@
+---
+description: "Duke MSCS：CS和ECE兩個項目分工比較明確：CS負責research，ECE負責engineering，不過這是不準確的，mscs也有很多同學去工業界，並且找的placement 都很好。 mscs 選課很自由，十門課畢業，如果選project或thesis畢業只需要四門CS課號的課，如果course only需要上六門CS課。 杜克CS還有一門專門刷題面試的課，由工"
+---
+
 # Duke MSCS
 
 

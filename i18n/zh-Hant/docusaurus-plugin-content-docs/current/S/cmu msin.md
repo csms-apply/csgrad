@@ -1,12 +1,13 @@
 ---
 sidebar_position: 1
+description: "CMU MSIN：ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表，基本是🇺🇸cs碩士找工就業項陸本申請的天花板，項目硬核，課程proj 有深度，往年就業placement出路很好(具體參考後文)。如果決定去的話暑假會被要求上一門cmu 15213(csapp)，這門課是很多課程的先修課。不過也可以不修，來了匹茲堡再修。如果覺得自己基礎比較好或者本科學"
 ---
 # CMU MSIN
 
-# 項目介紹 {#项目介绍}
+## 項目介紹 {#项目介绍}
 ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表，基本是🇺🇸cs碩士找工就業項陸本申請的天花板，項目硬核，課程proj 有深度，往年就業placement出路很好(具體參考後文)。如果決定去的話暑假會被要求上一門cmu 15213(csapp)，這門課是很多課程的先修課。不過也可以不修，來了匹茲堡再修。如果覺得自己基礎比較好或者本科學過csapp,甚至可以不上這門課，cmu不太會卡graduate的prerequsite。基本一個cs人想選的cs課程(ml、storage、acc... )都能修到, 如果有打算想上分佈式系統/os/storage三件套的話，這個項目就只比mscs多兩門14水課(business和security), 堪比小mscs
 
-# 代表錄取dp {#代表录取dp}
+## 代表錄取dp {#代表录取dp}
 很看文書，沒有傳統sop，只有好幾個小作文。文書建議往sys和網絡和xcpc那邊寫
 
 1. 電子科大cs本科，gpa top 5%, icpc金牌
@@ -27,7 +28,7 @@ ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表
 
 
 
-# intern 找工情況 {#intern-找工情况}
+## intern 找工情況 {#intern-找工情况}
 
 身邊觀察到的dp感覺hr 不是很care 學院，也分不清cmu的各種program，只要是cmu的默認學cs，問了朋友25 summer ini上岸率大概能有2/3。本來有一些人沒上岸，但是amazon 發麵之後也都上岸了，雪花/dbx等廠會在cmu 定向撈人，假如來ini上過db(15445)，會到時候收集簡歷約人面試(至少24 fall的約人面試了)
 
@@ -45,7 +46,7 @@ ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表
 8. 蘇州大學cs本科，有小廠db 實習， 上岸amazon data engineer intern
 9. 浙大cs本科， gpa3.95, 有阿里實習， 上岸apple sde intern
 
-# ng找工情況 {#ng找工情况}
+## ng找工情況 {#ng找工情况}
 即便是class of 2024這種地獄找工年，ng 出路也是不錯，一方面是因為cmu cs的名聲全美都認可，另一方面也是因為招收的人能力都足夠，找到工作的比例是91%。上岸大廠的多一點，比如Apple, oracle, tiktok, adobe。25ng ini和scs ng 很多上岸dbx和雪花的。
 
 1. 電子科大cs本科，微軟實習了十個月，amazon 實習了8個月，上岸google
@@ -53,7 +54,7 @@ ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表
 
 ![](/img/msinngcarrer.png)
 
-# 轉phd出路 {#转phd出路}
+## 轉phd出路 {#转phd出路}
 讀博出路也很好，有哥大phd、cmu phd、yale phd
 
 ![](/img/msintophd.png)

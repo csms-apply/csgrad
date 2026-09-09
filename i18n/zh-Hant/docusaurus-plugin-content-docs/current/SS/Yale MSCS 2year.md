@@ -1,3 +1,7 @@
+---
+description: "Yale MSCS 2 year：fully funded，全獎免學費，需要一直當TA，每年招生hc大概在15 人。Yale mscs 2 year 是research based項目，需要有很強的pub和connection 不過即便是2 year的項目，也是不給批cpt的，因此不能指望暑期出去實習，唯一的方法是使用pre opt出去實習 有BU cs本科、2024–2026讀兩年制MSC"
+---
+
 # Yale MSCS 2 year
 
 ## 項目介紹 {#项目介绍}

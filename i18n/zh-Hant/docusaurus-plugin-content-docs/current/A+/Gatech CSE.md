@@ -1,3 +1,7 @@
+---
+description: "Gatech CSE：性價比是真的高 先說最重要的——便宜！一個學期四門課學雜費加起來 1.7w+，比一堆動不動四五萬刀的學校良心多了。而且做 TA/RA 可以免學費+每個月 800 刀生活費（相當於白嫖一個碩士） 除了使用TA/RA可以免除學費之外, 非美本可以使用 reduce academic load的方法在第一學期降低workload, 同時也可以因為part-time"
+---
+
 # Gatech CSE
 
 ## 項目介紹 {#项目介绍}

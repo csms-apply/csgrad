@@ -1,13 +1,17 @@
+---
+description: "CMU MITS：這個項目是一個合辦項目，由SCS，CIT和IPS合辦。（沒人在意，cmu除了mscs，其餘項目的reputation的差異會被個人差異磨平） Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance 交大本科gp"
+---
+
 
 # CMU MITS
 
-# 介紹 {#介绍}
+## 介紹 {#介绍}
 這個項目是一個合辦項目，由SCS，CIT和IPS合辦。（沒人在意，cmu除了mscs，其餘項目的reputation的差異會被個人差異磨平）
 
-# 四個 track {#四个-track}
+## 四個 track {#四个-track}
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance
 
-# 代表性dp
+## 代表性dp
 1. 交大本科gpa 91，wxg實習
 2. 普通985 is本科，gpa 89
 3. 合肥工業大學ee本科，六年全職工作經驗，同時入讀mits之前讀了一個harvard extension school
@@ -18,7 +22,7 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 8. 復旦大學軟工本科，gpa3.58,在騰訊、美團實習合計實習了十三個月
 9. 同濟工科本科 gpa 90，minor ai
 
-# 課程 {#课程}
+## 課程 {#课程}
 很靈活，主要你想，基本可以做到非常sde，可以做到類似mscs/ds的課表。也可以做到非常水，進去就開始刷題，有點類似neu 匹茲堡版本。從今年找工的情況來看，cmu的reputation還是很高的，看不出來項目之間有明顯差異。而且有一些公司比如adobe、apple、nvidia、databricks會直接從cmu撈人面
 
 選課自由度和優先級都很高
@@ -31,7 +35,7 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 15619 Cloud Computing
 17637 Web Application Development
 
-# 錄取相關 {#录取相关}
+## 錄取相關 {#录取相关}
 學費較貴，大概要8.5w刀。bar相對還行，gpa 3.8+ 口語25基本很有戲，錄取時候很有可能會考口語，口語不到25必考。口語到25也有可能考，會發郵件約面試。
 
 我當時面試的問題：

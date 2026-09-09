@@ -1,7 +1,11 @@
+---
+description: "Uchicago MPCS：mpcs是轉碼項目，在地裡的名聲並不好。綜排高，專排低。課程質量很基礎，比如離散數學、數據庫、java、python、cpp這些基礎課..... 不過可以選本科生的課，比如parallel programming ，本科生課程質量比較硬核一點，wld也大一點。不過找工向的話選水課也沒啥問題，越水越有時間刷題。學費很貴，需要9w刀，申請群內算了一下，總共需要大"
+---
+
 # Uchicago MPCS
 
 	
-# 項目介紹 {#项目介绍}
+## 項目介紹 {#项目介绍}
 mpcs是轉碼項目，在地裡的名聲並不好。綜排高，專排低。課程質量很基礎，比如離散數學、數據庫、java、python、cpp這些基礎課..... 不過可以選本科生的課，比如parallel programming ，本科生課程質量比較硬核一點，wld也大一點。不過找工向的話選水課也沒啥問題，越水越有時間刷題。學費很貴，需要9w刀，申請群內算了一下，總共需要大概90左右。
 
 出路：前兩年的就業數據還不錯，有google、facebook等等。
@@ -14,24 +18,24 @@ track分為9 month track和15 month track，可以靈活轉換，如果找到了
 
 ![](/img/uchi.png)
 
-# 優點 {#优点}
+## 優點 {#优点}
 學校排名高，中部第一名校
 項目wld小，方便刷題
 是fintech target school，會有更多的上岸機會
 芝加哥是美國top 大城市，可以玩的很爽快
 	
-# 缺點 {#缺点}
+## 缺點 {#缺点}
 貴，正如之前提到的，學費需要9w刀
 危險，相信很多uu都聽說過uchicago的地裡位置有多麼不安全，因此需要想好再去。
 課程質量基礎，可能沒有那麼能幫助填充簡歷。
 quarter制，可能學期內的壓力很緊張
 
-# 課程設置 {#课程设置}
+## 課程設置 {#课程设置}
 
 - 從Data Analytics, High Performance Computing, Mobile Computing, Software Engineering, Security五個track裡面選一個track修完四門課. 
 - 無限制選修課三門，可以選CSMC，TTIC，CS-phd的課。
 	
-# 錄取偏好 {#录取偏好}
+## 錄取偏好 {#录取偏好}
 喜歡理工科轉碼
 
 名校高三維(清北復交浙的比例很高)，看中GRE分數，建議考高點。官網上寫了verbal 50%，Q 90%比較穩。
@@ -48,7 +52,7 @@ dp:
 7. 北大城市建設本科，gpa3.85,upenn 城建gpa3.7, uch mpcs是她的二碩
 
 
-# 找工dp
+## 找工dp
 uchi 是沒有ee系的，peer pressure非常小。同時mpcs class size也不是很大，同學有很多都是早已經上班的，也不會跟你競爭找intern/ng，甚至還可以直接線下要refer。（mpcs和cmu的大部分項目應該是完全相反的兩種dp）。前兩年（指22年），meta在uchicago mpcs招人很多，也招了很多非cs本科的同學，從身邊採樣法來看，不會因為uchicago 的名字而失去機會，身邊朋友bg好的基本都有很多面試
 
 1. 浙大CS 字節實習-> Bloomberg full-time

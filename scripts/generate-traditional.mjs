@@ -28,6 +28,7 @@ function markdown(source, preserveAnchors = true, sourceFile = null){
   return '@site/' + sitePath.split(path.sep).join('/') + suffix;
  };
  const tree=parser.parse(source),edits=[],slugger=new GithubSlugger();
+ let seenH1=false;
  const visible=n=>n.type==='text'||n.type==='inlineCode'?n.value:(n.children||[]).map(visible).join('');
  function walk(n){
   if(n.url && relocate(n.url)!==n.url){
@@ -57,6 +58,7 @@ function markdown(source, preserveAnchors = true, sourceFile = null){
    edits.push([n.position.start.offset,n.position.end.offset,original.replace(/^(title|description|sidebar_label):(.+)$/gm,(_,key,value)=>`${key}:${convert(value)}`)]);
   }
   if(n.type==='heading'){
+   if(sourceFile&&n.depth===1){if(seenH1)edits.push([n.position.start.offset,n.position.start.offset+1,'##']);seenH1=true;}
    const title=visible(n),explicit=title.match(/\{#([^}]+)\}\s*$/);
    const id=explicit?explicit[1]:slugger.slug(title);
    if(preserveAnchors&&!explicit&&convert(title)!==title)edits.push([n.position.end.offset,n.position.end.offset,` {#${id}}`]);
@@ -64,6 +66,27 @@ function markdown(source, preserveAnchors = true, sourceFile = null){
   for(const child of n.children||[])walk(child);
  }
  walk(tree);
+ if(sourceFile){
+  const yaml=tree.children.find(n=>n.type==='yaml');
+  const titleNode=tree.children.find(n=>n.type==='heading'&&n.depth===1);
+  const titleLine=yaml?.value.match(/^title:\s*(.+)$/m)?.[1];
+  const title=convert((titleLine|| (titleNode?visible(titleNode):path.basename(sourceFile).replace(/\.mdx?$/,''))).replace(/^['"]|['"]$/g,''));
+  const isSupplement=path.relative(path.join(root,'docs'),sourceFile)==='tutorial-basics/yale mscs 1 year.md';
+  const pageTitle=isSupplement?'Yale MSCS 一年制：補充介紹與申請、就業案例':title;
+  const additions=[];
+  if(isSupplement&&!titleLine)additions.push('title: '+JSON.stringify(pageTitle));
+  if(!yaml?.value.match(/^description:/m)){
+   const paragraphs=[];
+   const collect=n=>{if(n.type==='paragraph'){const text=visible(n).replace(/\s+/g,' ').trim();if(text)paragraphs.push(text);}else for(const c of n.children||[])collect(c);};
+   collect(tree);
+   const summary=convert(paragraphs.join(' ')).slice(0,180);
+   additions.push('description: '+JSON.stringify(pageTitle+'：'+summary));
+  }
+  if(additions.length){
+   if(yaml){const edit=edits.find(e=>e[0]===yaml.position.start.offset&&e[1]===yaml.position.end.offset);edit[2]=edit[2].replace(/---\s*$/,additions.join('\n')+'\n---');}
+   else edits.push([0,0,'---\n'+additions.join('\n')+'\n---\n\n']);
+  }
+ }
  return edits.sort((a,b)=>b[0]-a[0]||b[1]-a[1]).reduce((s,[a,b,v])=>s.slice(0,a)+v+s.slice(b),source);
 }
 const dest=path.join(root,'i18n/zh-Hant');let docs=0;
@@ -94,6 +117,7 @@ const english=JSON.parse(fs.readFileSync(path.join(root,'i18n/en/code.json')));
 const code={};for(const [id,item] of Object.entries(english)){code[id]=messages[id]|| (framework[id]?{message:typeof framework[id]==='string'?framework[id]:framework[id].message}:item);}
 for(const [id,item] of Object.entries(messages))code[id]=item;
 for(const [id,value] of Object.entries(framework))if(id in code)code[id]={message:typeof value==='string'?value:value.message};
+for(const item of Object.values(code))item.message=convert(item.message);
 code['tracker.alert.importFailed']={message:'匯入失敗：JSON 格式無效'};
 write(path.join(dest,'code.json'),JSON.stringify(code,null,2)+'\n');
 for(const file of files(path.join(root,'i18n/en')).filter(p=>p.endsWith('.json')&&!p.includes('/current/'))){

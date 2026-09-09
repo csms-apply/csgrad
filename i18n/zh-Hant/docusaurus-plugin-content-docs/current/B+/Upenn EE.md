@@ -1,3 +1,7 @@
+---
+description: "Upenn EE：bar低且title好，不過必須選五門ESE開頭的課，其餘選課自由。要是跟我一樣一點硬件都不懂可以選ESE下的數學，優化，ML，但是都很高階，會很神（但跟sde沒關係，畢竟是純血EE項目）。當然也有讓你畢業的水課。可以轉/dual CS/其他項目也方便，bg好可以用來當保底，或者申隔壁的scmp當保底 workload全由選課決定，可以去penn cours"
+---
+
 # Upenn EE
 
 

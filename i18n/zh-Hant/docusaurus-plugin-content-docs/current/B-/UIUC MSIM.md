@@ -1,3 +1,7 @@
+---
+description: "UIUC MSIM：課程水，MSIM大概學費5w, 適合找工, 也有coop政策 支持轉碼 GIS本科gpa3.5, toefl 105 ad 985 cs本科 gpa 3.6, toefl 109 ad, 兩段科研 整體上來看比較一般 印度不知名學校本科cs，兩年全職經驗上岸amazon ntnu 本科無實習上岸小廠ng 印度 CE 本科，碩士期間 COUNTRY Finan"
+---
+
 # UIUC MSIM
 
 ## 項目介紹 {#项目介绍}

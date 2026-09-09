@@ -1,3 +1,7 @@
+---
+description: "UTSU MSCS：全稱utah state university MSCS,最大的好處就是全獎機會，系裡當TA或者RA一個月給2000 工資非常爽，基本屬於全獎MS碩士，同時UTSU MSCS最多可以讀四年（非國際生），什麼時候找到工作了什麼時候走很爽。 而且不像yale mscs 2 year/uiuc mscs/ wisc mscs那樣跟 phd一個pool，基本沒有可能"
+---
+
 # UTSU MSCS
 ## 項目介紹 {#项目介绍}
 全稱utah state university MSCS,最大的好處就是全獎機會，系裡當TA或者RA一個月給2000

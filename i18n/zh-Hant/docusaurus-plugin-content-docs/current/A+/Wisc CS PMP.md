@@ -1,3 +1,7 @@
+---
+description: "Wisc CS PMP：Wisc MSCS 項目和 Ph.D 一個 pool 所以非常難，這個 PMP 項目其實相當於其他學校的 MCS 學費便宜，full-time 13k/semester，最後一學期part-time的話可以按照學分收費，總共花費約 $35k，很划算 兩次實習機會（允許秋季春季實習），學制1.5yr - 2yr（再延長到2.5y也是可以的），跟gatech m"
+---
+
 # Wisc CS PMP
 ## 項目介紹 {#项目介绍}
 Wisc MSCS 項目和 Ph.D 一個 pool 所以非常難，這個 PMP 項目其實相當於其他學校的 MCS

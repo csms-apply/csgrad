@@ -1,3 +1,7 @@
+---
+description: "Stanford Symbolic System：research based program，項目定位參考MIT CSE，SS為交叉項目，系裡面希望 同學懂以下方面中的至少兩個： computer science, linguistics, philosophy, psychology, neuroscience, mathematics, statistics, communication, and e"
+---
+
 # Stanford Symbolic System
 
 ## 項目介紹 {#项目介绍}

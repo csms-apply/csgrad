@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: "CMU MCDS：cmu 是計算機top 4，而且mcds是scs學院下面的旗艦項目，認可度一直很高。scs學院開設的cs課程和方向非常多非常全（ml，並行計算，分佈式系統，ml sys， 編譯器， os, 嵌入式系統...），如果在cmu找不到想學的課程那去別的地方也很難找到了。想做科研轉phd，不同方向的教授也很多很全，不存在找不到匹配方向教授的問題 mcds 有三個tr"
 ---
 # CMU MCDS
 
@@ -69,7 +70,7 @@ snowflake等
 
 
 
-# 花費情況 {#花费情况}
+## 花費情況 {#花费情况}
 cmu 是私校，學費從來就不便宜過。無論是ini、ece、還是scs，mcds的三學期Tuition
 
  fee(學費，未包括任何附加費用包括租房等)是84550$。

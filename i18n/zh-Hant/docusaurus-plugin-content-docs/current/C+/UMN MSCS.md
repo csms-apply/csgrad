@@ -1,3 +1,7 @@
+---
+description: "UMN MSCS：TA可以免學費+月工資稅後1600，UMN BSCS的保底校，生活比較舒適，想轉phd可以考慮 C9高gpa轉專業+985/強211科班中等gpa 大廠主要靠amazon撈人，整體來看找工情況不好 UMN CS 本科，入讀碩士前有 IDG Capital Financial Data Analyst 實習，2022 年碩士畢業後上岸 Vanguard SWE"
+---
+
 # UMN MSCS
 
 ## 項目介紹 {#项目介绍}

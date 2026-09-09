@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+description: "CMU MISM：只適合在國內已經有了大廠實習經驗/全職sde 經歷，目標是來cmu 混一個cmu title，然後來美國第一天就開始刷題找實習投簡歷的選手 不適合想來heinz上scs一些高深難度的課程，目標是來cmu學知識的，mism的core裡面幾乎都是商科課，並且每學期能選scs的課的數量是有限的，系主任也不支持你這麼做（這麼做heniz 需要給scs學院交錢）。選s"
 ---
 # CMU MISM
-# 項目介紹 {#项目介绍}
+## 項目介紹 {#项目介绍}
 只適合在國內已經有了大廠實習經驗/全職sde 經歷，目標是來cmu 混一個cmu title，然後來美國第一天就開始刷題找實習投簡歷的選手
 
 **不適合想來heinz上scs一些高深難度的課程，目標是來cmu學知識的**，mism的core裡面幾乎都是商科課，並且每學期能選scs的課的數量是有限的，系主任也不支持你這麼做（這麼做heniz 需要給scs學院交錢）。選scs的課程會遇到有各種各樣的問題。
@@ -13,13 +14,13 @@ mism分為12 month 的track和16 month 的track，後者可以方便找實習。
 
 綜上，again, 只適合**混一個cmu title，然後來美國第一天就開始刷題找實習投簡歷的選手**
 
-# mism core
+## mism core
 值得單開一個專欄介紹這個core,可以看出來沒啥cs高階課程，還有很多的商科課程。
 想來需要做好心理準備，並不適合想學scs課程的同學，尤其是本科沒上過相同商科課程可以waive的情況下。紅色是勾勒出來的計算機系課程，裡面還有java oop這種本科第一學期課程，商科課程數量遠遠大於cs課程數量
 
 ![](/img/mismcore.png)
 
-# 錄取代表性dp {#录取代表性dp}
+## 錄取代表性dp {#录取代表性dp}
 rolling 制度，早申早錄取。想來mism早點申請
 
 1. wisc cs本科+騰訊實習,gpa 3.7
@@ -29,7 +30,7 @@ rolling 制度，早申早錄取。想來mism早點申請
 5. 武漢大學 finanal engineering 本科，gpa 90，多段量化公司qd實習
 6. 對外經貿financial engineering 本科gpa3.74
 
-# 找工情況 {#找工情况}
+## 找工情況 {#找工情况}
 相比隔壁ini、ece、scs一般，不過主要取決於個人之前的實習背景和算法能力。
 有很多轉碼同學需要準備leetcode還得應付課程壓力，上岸率相比ini和scs肯定不足。如果想來需要在國內好好幹實習和刷題
 

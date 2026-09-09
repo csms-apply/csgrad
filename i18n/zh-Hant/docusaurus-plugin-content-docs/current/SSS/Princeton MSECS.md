@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: "Princeton MSCS：招生很少，很神秘，一年招生的hc小於等於30個，基本就是招來給本科生當TA的。美本文理學院有很好的gpa和ta經驗的同學可以衝 Princeton MSCS 非常看重gpa和本科是否是target school和TA經驗，對 publication 沒有硬性要求。國內申請人一般是 清北浙復交 ，美本的話 GPA 需要很高(3.85 at least)，但是否"
 ---
 # Princeton MSCS
 

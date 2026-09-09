@@ -1,3 +1,7 @@
+---
+description: "Yale MSCS 1 year：Yale牌子頂中頂，MSCS 1year可以defer一個學期或者一年 如果是美本的同學可以嘗試 defer一個學期然後spring入學拿cpt，因此解決了之前常見的一年制項目沒法實習的弊端，詳細操作請參照Spring 入學如何拿CPT， 具體CPT批的細節需要和學校double check。 大號三維加權計算器，往年GRE嚴格卡328，最近幾年有放緩跡象，"
+---
+
 # Yale MSCS 1 year
 
 ## 項目介紹 {#项目介绍}

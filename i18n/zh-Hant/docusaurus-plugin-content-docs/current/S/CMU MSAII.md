@@ -1,3 +1,7 @@
+---
+description: "CMU MSAII：scs下面的ai旗艦項目，是就業導向，想做科研請左轉SCS MSR或者MSML。項目非常靈活，轉碼友好，有相當多的轉碼DP，什麼bg的都有，系主任喜歡要高三維的選手,gpa gre toefl越高越好（託福105+GRE330+Top GPA）。 有很多wld很小的水課，然後選修課有8節，可以全選scs下面的硬核 系統課，什麼cc、acc、os、storag"
+---
+
 # CMU MSAII
 
 ## 項目介紹 {#项目介绍}

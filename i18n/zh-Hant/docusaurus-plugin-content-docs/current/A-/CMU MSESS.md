@@ -1,3 +1,7 @@
+---
+description: "CMU MSE-SS：全稱是Master of Software Engineering， MSE項目本身是工程碩士，有三個track： Scalable System（SS） Embedded System（ES） Professional（Pro） SS和ES面向工作經驗<2年的新人，Pro則是面向工作經驗>2年的成熟工程師，。入學後，三個track的課程區別請參考項目官網。"
+---
+
 # CMU MSE-SS
 
 

@@ -1,3 +1,7 @@
+---
+description: "Harvard HDS：完完全全就是一個DS program, 只是必修課是在Biostatistics下開的，不會生物也能學，Capstone一般是和Harvard附屬的幾家醫院，比如Dana Farber Cancer Institute等等做一個semester long DS program 選課超級自由，MIT Harvard 其他學院的課隨便選 每年15-20人，陸本清"
+---
+
 # Harvard HDS
 
 

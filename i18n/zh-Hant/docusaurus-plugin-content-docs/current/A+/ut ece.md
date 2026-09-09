@@ -1,3 +1,7 @@
+---
+description: "UT ECE(ses)：一句話總結：大彩票，其實看不到什麼規律，找工非常推薦 如果你的gpa很強，或者是軟件工程相關的科研做得較好，都值得申請一試。每年錄取人數大概是5-10人 交大is本科，有字節、cisco、Synopsys實習 ut austin ece本科gpa3.8 ut austin ece本科gpa3.98(top10%) acses track, gpa3.8，給了"
+---
+
 # UT ECE(ses)
 
 一句話總結：大彩票，其實看不到什麼規律，找工非常推薦

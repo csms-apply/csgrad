@@ -17,7 +17,7 @@ function protectedValues(source, file){
  });source=source.replace(/ \{#[^}]+\}(?=\r?$)/gm,'');const out=[];function visit(n){
  if(['code','inlineCode','mdxjsEsm','mdxFlowExpression','mdxTextExpression'].includes(n.type))out.push([n.type,n.value]);
  if(n.url)out.push(['url',n.url]);
- if(n.type==='yaml')out.push(['frontmatter-identifiers',n.value.split('\n').filter(l=>!/^(title|description|sidebar_label):/.test(l)).join('\n')]);
+ if(n.type==='yaml'){const fields=n.value.split('\n').filter(l=>!/^(title|description|sidebar_label):/.test(l)).join('\n');if(fields.trim())out.push(['frontmatter-identifiers',fields]);}
  if(n.attributes)out.push(['jsx-attributes',n.attributes.map(a=>source.slice(a.position.start.offset,a.position.end.offset))]);
  for(const c of n.children||[])visit(c);
 }visit(parser.parse(source));return out;}
@@ -40,4 +40,17 @@ test('moved intro resolves its original static image through the site alias',()=
 
 test('Traditional README links to its localized homepage',()=>{
  assert.ok(fs.readFileSync('README.zh-Hant.md','utf8').includes('[CS Grad 繁體中文首頁](https://csgrad.com/zh-Hant/)'));
+});
+
+test('Traditional documents have unique descriptions and at most one explicit H1',()=>{
+ const descriptions=new Set();
+ for(const file of files('i18n/zh-Hant/docusaurus-plugin-content-docs/current').filter(p=>/\.mdx?$/.test(p))){
+  const source=fs.readFileSync(file,'utf8');
+  assert.ok((source.match(/^# /gm)||[]).length<=1,file);
+  const description=source.match(/^description: (.+)$/m)?.[1];
+  assert.ok(description,file);assert.ok(!descriptions.has(description),file);descriptions.add(description);
+ }
+ const supplemental=fs.readFileSync('i18n/zh-Hant/docusaurus-plugin-content-docs/current/tutorial-basics/yale mscs 1 year.md','utf8');
+ assert.match(supplemental,/^title: "Yale MSCS 一年制：補充介紹與申請、就業案例"/m);
+ assert.ok(!fs.readFileSync('i18n/zh-Hant/code.json','utf8').includes('跳至主要内容'));
 });

@@ -1,3 +1,7 @@
+---
+description: "Cornell MPS-IS：可以用來轉碼，可以選cs學院的課程。選課優先級儘管沒有cs的高，但是比別的學院高。 可以使用permission number來選上課，可以延期拿cpt實習。is學院有不少水課，適合 第一個學期選一選水課然後all in找工 如果是美本的同學可以 defer一個學期然後spring入學拿cpt，詳細操作請參照Spring 入學如何拿CPT， 具體CPT批的細"
+---
+
 # Cornell MPS-IS
 
 ## 項目介紹 {#项目介绍}

@@ -1,3 +1,7 @@
+---
+description: "Stanford STATS DS：stf ds有最好的教授，校園很漂亮，同學很牛（很多4+ yoe的同學在華爾街覺得有點累了重新回到校園讀書）科研質量非常棒， 可以做很多交叉的research 一屆的錄取人數大概50人 基本都是美本，top 學校的top gpa(3.9+)，gre 330+這種的 nyu ds+math本科，多段ta+ra經歷,gpa3.95 ucla math+統計本科，"
+---
+
 # Stanford STATS DS
 
 ## 項目介紹 {#项目介绍}

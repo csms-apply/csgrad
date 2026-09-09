@@ -1,3 +1,7 @@
+---
+description: "UIUC MSCS：UIUC 下面的王牌旗艦項目，可以當成phd申請，最好申請前陶瓷。fully funded, target phd。本校生有5year bs-ms項目，讀的就是MSCS（review 注：一些25 fall朋友反饋， UIUC MSCS已經不再保證fully funded，這樣看來性價比有所降低） 難度極高，申請前最好陶瓷，UIUC CS教授說，2023錄取"
+---
+
 # UIUC MSCS
 
 ## 項目介紹 {#项目介绍}

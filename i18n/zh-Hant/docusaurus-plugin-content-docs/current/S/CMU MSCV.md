@@ -1,3 +1,7 @@
+---
+description: "CMU MSCV：SCS Robotics Institute下面1.5年的CV項目，強制暑期實習但也可以通過校內暑研來代替 很看重是否match，喜歡有cv頂會與科研/cv實習或工作經驗，沒有cv bg需要三維很高。 大部分為陸本/港臺本和印度人，陸本招收背景比較廣泛，印度同學基本都是有大約兩年的工作經驗 香港城市大學math本科，一篇iclr，一篇eccv 臺大本科gpa"
+---
+
 # CMU MSCV
 
 

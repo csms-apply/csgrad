@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: "Duke ECE：Duke 一共有三個cs相關的項目，1. Mscs 2. Ece 3. Game design。其中mscs是一個偏向科研型的項目，ece是偏向轉碼+找工作的項目。 總體上來看，ece課程更SDE導向，且bar更友好（翻譯：更容易申請，並且也有很多轉碼的同學來申請，申請時候大概率會有面試，是考口語的。 ECE總共有兩個大類，一個是MS，一個是MENG👋。區"
 ---
 # Duke ECE
 

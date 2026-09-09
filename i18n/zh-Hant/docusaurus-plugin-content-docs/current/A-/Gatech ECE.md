@@ -1,6 +1,10 @@
+---
+description: "Gatech ECE：學位：Master of Science in Electrical & Computer Engineering，簡稱 MSECE。 校區：主打亞特蘭大本部，也可以去法國洛林/深圳兜一圈。 畢業門檻：30學分➕必修一門超水課 ECE 6001（演講+創業扯閒篇）。 節奏：最快 3 個學期搞定，但是沒上岸的話也可以拖著讓你拖到 5 年都行，上岸再畢業；可以G"
+---
+
 # Gatech ECE
 
-# 項目介紹 {#项目介绍}
+## 項目介紹 {#项目介绍}
 
 學位：Master of Science in Electrical & Computer Engineering，簡稱 MSECE。
 
@@ -40,7 +44,7 @@ Fall semester開Digital的（和Apple合作），Spring semester開Analog的（�
 10. 陸本，上岸nvidia,amazon intern
 11. NIT Tiruchirappalli ee本科，入學前 google Embedded swe 兩年全職，2025年 Astera Labs Firmware intern，2026年 nvidia Firmware Engineer 全職。
 
-# 選課 {#选课}
+## 選課 {#选课}
 
 
 Round 1：只給本專業選。
@@ -51,6 +55,6 @@ Round 2：臨開學再解鎖全校課，熱門 CS 課要盯著 Wait‑list 刷�
 
 ![](/img/gtececourse.png)
 
-# 來了gt，怎麼進行找實習準備 {#来了gt怎么进行找实习准备}
+## 來了gt，怎麼進行找實習準備 {#来了gt怎么进行找实习准备}
 
 ![](/img/gtecetimeline.png)

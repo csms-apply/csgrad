@@ -1,3 +1,7 @@
+---
+description: "NYU DS：很適合cs/ds/math本科的同學來這裡讀MS然後增強research bg然後轉phd的，可以去ins關注 nyucds，可以看到它們很重視research。不怎麼適合轉碼，適合找ds工作。 有不少在本系轉博的，找research的同學，錄取後就可以去跟教授發郵件了，很多項目summer就可以進組了 課程硬核，對數學要求比較高，因此招數學系的同學很多。來"
+---
+
 # NYU DS
 
 ## 項目介紹 {#项目介绍}

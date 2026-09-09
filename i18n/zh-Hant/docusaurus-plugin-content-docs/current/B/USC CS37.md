@@ -1,3 +1,7 @@
+---
+description: "USC CS28：兩年項目，出了名的只看gpa, class size巨大（除了cs28還有cs37），快一千來號人了 只看bg和gpa，推薦信optional，rolling制度。 是把所有學校申請人放到一塊看gpa，然後按照gpa 從上往下發offer，看重985/211背景。 不看實習不看科研，推薦高gpa 選手拿來保底 很難，usc cs相關專業class size巨"
+---
+
 # USC CS28
 
 ## 項目介紹 {#项目介绍}
