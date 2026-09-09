@@ -1,3 +1,5 @@
+import {getLocaleMessages, localizeMessages} from '@site/src/lib/i18n/traditional';
+import {localizedInternalPath} from '@site/src/lib/seo/localizedAlternates.mjs';
 import React, { useEffect, useState, useRef } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
@@ -126,18 +128,18 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return loc === 'en' ? 'en' : 'zh-Hans';
+  return loc === 'en' || loc === 'zh-Hant' ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
-  if (typeof node === 'string') return node;
-  return node[locale] || node['zh-Hans'] || node.en || '';
+  if (typeof node === 'string') return localizeMessages(node, locale);
+  return localizeMessages(node[locale] || node['zh-Hans'] || node.en || '', locale);
 }
 
 export function ProgramFit({ fit, locale }) {
   if (!fit || typeof fit !== 'object') return null;
-  const t = COPY[pickLocale(locale)];
+  const t = getLocaleMessages(COPY, pickLocale(locale));
   const reasons = Array.isArray(fit.reasons) ? fit.reasons.map(r => getLabel(r, locale)).filter(Boolean) : [];
   const checks = Array.isArray(fit.checks) ? fit.checks.filter(c => c && getLabel(c.message, locale)) : [];
   const track = { aligned: t.fitAligned, adjacent: t.fitAdjacent, unverified: t.fitUnverified }[fit.trackMatch];
@@ -152,7 +154,7 @@ export function ProgramFit({ fit, locale }) {
 }
 
 export function ReportChecklist({ items, locale }) {
-  const t = COPY[pickLocale(locale)];
+  const t = getLocaleMessages(COPY, pickLocale(locale));
   const list = Array.isArray(items) ? items.filter(c => c && getLabel(c.message, locale)) : [];
   if (!list.length) return null;
   return <section className={styles.adviceCard} aria-label={t.checklistTitle}>
@@ -166,7 +168,7 @@ export function ReportChecklist({ items, locale }) {
 export function programDetailHref(raw, locale) {
   if (!raw) return null;
   if (/^https?:\/\//i.test(raw) || raw.startsWith('//')) return raw;
-  const path = locale === 'en' && raw.startsWith('/') && !/^\/en(?:\/|[?#]|$)/.test(raw) ? `/en${raw}` : raw;
+  const path = localizedInternalPath(raw, locale);
   return encodeURI(path).replace(/%25([0-9a-f]{2})/gi, '%$1');
 }
 
@@ -229,7 +231,7 @@ function SchoolCard({ school, locale, t }) {
   const personalized = getLabel(school.personalizedReason, locale);
   const fallbackReason = getLabel(school.reason, locale);
   const reason = personalized || fallbackReason;
-  const overviewValue = typeof school.programOverview === 'string' ? school.programOverview : school.programOverview?.[locale];
+  const overviewValue = getLabel(school.programOverview, locale);
   const overview = typeof overviewValue === 'string' ? overviewValue.trim() : '';
   const rawHref = school.doc || school.slug || school.url || school.link;
   const href = programDetailHref(rawHref, locale);
@@ -326,7 +328,7 @@ export function Bucket({ items, title, subtitle, variantClass, locale, t }) {
 }
 
 export function RiskNotice({ policy, locale }) {
-  const t = COPY[pickLocale(locale)];
+  const t = getLocaleMessages(COPY, pickLocale(locale));
   const caveat = getLabel(policy?.caveat, locale);
   return (
     <aside className={`${styles.warningItem} ${styles.warningInfo} ${styles.riskNotice}`} aria-label={t.riskTitle}>
@@ -337,7 +339,7 @@ export function RiskNotice({ policy, locale }) {
 }
 
 export function ReviewedAlternatives({ items, locale }) {
-  const t = COPY[pickLocale(locale)];
+  const t = getLocaleMessages(COPY, pickLocale(locale));
   const list = Array.isArray(items) ? items.filter(s => s && s.bucket === 'match') : [];
   if (!list.length) return null;
   return (
@@ -352,7 +354,7 @@ export function ReviewedAlternatives({ items, locale }) {
 function ResultBody() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
 
   const [sessionId, setSessionId] = useState(null);
   const [status, setStatus] = useState('init');
@@ -461,8 +463,8 @@ function ResultBody() {
     }
   };
 
-  const formHref = locale === 'en' ? '/en/school-positioning' : '/school-positioning';
-  const homeHref = locale === 'en' ? '/en/' : '/';
+  const formHref = localizedInternalPath('/school-positioning', locale);
+  const homeHref = localizedInternalPath('/', locale);
 
   if (status === 'missing') {
     return (
@@ -512,7 +514,7 @@ function ResultBody() {
               {summary && <p className={styles.summary}>{summary}</p>}
             </div>
             <RiskNotice policy={data.riskPolicy} locale={locale} />
-            <AdviceSection advice={data.llmAdvice} t={t} />
+            <AdviceSection advice={getLabel(data.llmAdvice, locale)} t={t} />
             {Array.isArray(data.warnings) && data.warnings.length > 0 && (
               <div className={styles.warningList}>
                 {data.warnings.map((w, i) => (
@@ -647,7 +649,7 @@ function ResultBody() {
 export default function SchoolPositioningResultPage() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
   return (
     <Layout title={t.pageTitle} description={t.pageDesc}>
       <Head>

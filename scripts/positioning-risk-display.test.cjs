@@ -19,7 +19,7 @@ vm.runInNewContext(code, {
   require(name) {
     if (name === 'react') return React;
     if (name.endsWith('.module.css')) return { __esModule: true, default: new Proxy({}, { get: (_, key) => key }) };
-    if (name.startsWith('@')) return {};
+    if (name === '@site/src/lib/i18n/traditional') return require('../src/lib/i18n/traditional.js'); if (name === '@site/src/lib/seo/localizedAlternates.mjs') return require('../src/lib/seo/localizedAlternates.mjs'); if (name.startsWith('@')) return {};
     throw new Error(`Unexpected import: ${name}`);
   },
 });

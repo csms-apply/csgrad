@@ -1,3 +1,5 @@
+import {getLocaleMessages, localizeMessages} from '@site/src/lib/i18n/traditional';
+import {localizedInternalPath} from '@site/src/lib/seo/localizedAlternates.mjs';
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
@@ -99,20 +101,20 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return loc === 'en' ? 'en' : 'zh-Hans';
+  return loc === 'en' || loc === 'zh-Hant' ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
-  if (typeof node === 'string') return node;
-  return node[locale] || node['zh-Hans'] || node.en || '';
+  if (typeof node === 'string') return localizeMessages(node, locale);
+  return localizeMessages(node[locale] || node['zh-Hans'] || node.en || '', locale);
 }
 
 function OfflineNotice({ locale, t }) {
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.container}>
-        <a href={locale === 'en' ? '/en/' : '/'} className={styles.backLink}>
+        <a href={localizedInternalPath('/', locale)} className={styles.backLink}>
           &larr; {t.backHome}
         </a>
         <section className={styles.hero} aria-labelledby="positioning-offline-title">
@@ -283,7 +285,7 @@ export function canCheckout(preview, hasErrors) {
 
 export function DeliverySummary({ summary, locale }) {
   if (!summary || typeof summary !== 'object') return null;
-  const t = COPY[pickLocale(locale)];
+  const t = getLocaleMessages(COPY, pickLocale(locale));
   const validCount = n => Number.isInteger(n) && n >= 0;
   const counts = summary.bucketCounts || {};
   const hasCounts = ['reach', 'match', 'safety'].every(k => validCount(counts[k]));
@@ -300,7 +302,7 @@ export async function readPositioningResponse(res, locale) {
   let data;
   try { data = JSON.parse(text); } catch { data = {}; }
   if (!res.ok) {
-    const error = new Error(getLabel(data.message || data.error, locale) || COPY[pickLocale(locale)].requestFailed);
+    const error = new Error(getLabel(data.message || data.error, locale) || getLocaleMessages(COPY, pickLocale(locale)).requestFailed);
     error.fieldErrors = data.fieldErrors || data.errors || {};
     throw error;
   }
@@ -317,7 +319,7 @@ export function localizedFieldErrors(errors, locale) {
 function FormBody() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
 
   const fields = FIELD_DEFINITIONS || [];
 
@@ -592,7 +594,7 @@ function FormBody() {
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.container}>
-        <a href={locale === 'en' ? '/en/' : '/'} className={styles.backLink}>
+        <a href={localizedInternalPath('/', locale)} className={styles.backLink}>
           &larr; {t.backHome}
         </a>
 
@@ -647,14 +649,12 @@ function FormBody() {
               {Array.isArray(preview.rationale) ? (
                 <ul className={styles.rationaleList}>
                   {preview.rationale.map((r, i) => (
-                    <li key={i}>{typeof r === 'string' ? r : getLabel(r, locale)}</li>
+                    <li key={i}>{getLabel(r, locale)}</li>
                   ))}
                 </ul>
               ) : (
                 <p style={{ margin: '6px 0 0' }}>
-                  {typeof preview.rationale === 'string'
-                    ? preview.rationale
-                    : getLabel(preview.rationale, locale)}
+                  {getLabel(preview.rationale, locale)}
                 </p>
               )}
             </div>
@@ -692,7 +692,7 @@ function FormBody() {
 export default function SchoolPositioningPage() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
   const positioningAvailable = locale === 'en';
   const pageTitle = positioningAvailable ? t.pageTitle : t.offlineTitle;
   const pageDesc = positioningAvailable ? t.pageDesc : t.offlineLead;

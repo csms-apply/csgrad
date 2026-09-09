@@ -105,6 +105,7 @@ async function writePage(root, route, {
   hreflangs = [],
   navigationLinks = [],
   noindex = false,
+  htmlLang = route.startsWith('/zh-Hant') ? 'zh-Hant' : route.startsWith('/en') ? 'en-US' : 'zh-Hans',
 }) {
   const relativePath = route === '/'
     ? 'index.html'
@@ -115,7 +116,7 @@ async function writePage(root, route, {
     .map(({lang, href}) => `<link href="${href}" hreflang="${lang}" rel="alternate">`)
     .join('');
   const headings = Array.isArray(h1) ? h1 : (h1 === undefined ? [] : [h1]);
-  await writeFile(filePath, `<!doctype html><html><head>
+  await writeFile(filePath, `<!doctype html><html lang="${htmlLang}"><head>
     <title>${title ?? ''}</title>
     ${description === undefined ? '' : `<meta content="${description}" name="description">`}
     ${canonical === undefined ? '' : `<link href="${canonical}" rel="canonical">`}
@@ -539,4 +540,39 @@ test('rejects a sitemap URL whose built page does not exist', async () => {
     assert.equal(result.status, 1);
     assert.match(result.stderr, /\[sitemap-target-missing\].*removed-page/);
   });
+});
+
+test('Traditional Chinese is a distinct metadata namespace with complete three-language alternates', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    const routes = ['/program', '/en/program', '/zh-Hant/program'];
+    const hreflangs = routes.map((route, i) => ({lang: ['zh-Hans', 'en-US', 'zh-Hant'][i], href: 'https://csgrad.com' + route}));
+    for (const route of routes) await page(route, {
+      title: 'CMU MSCS | CS Grad', description: 'CMU MSCS program guide.', h1: 'CMU MSCS',
+      canonical: 'https://csgrad.com' + route, hreflangs,
+      navigationLinks: hreflangs.map(({lang, href}) => ({lang, href})),
+    });
+    await sitemap(routes.map(route => 'https://csgrad.com' + route));
+    const result = audit();
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+  });
+});
+
+test('missing Traditional Chinese alternate is rejected', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    await page('/', {title: 'Guide', description: 'Program guide.', h1: 'Guide', canonical: 'https://csgrad.com/',
+      hreflangs: [{lang: 'zh-Hant', href: 'https://csgrad.com/zh-Hant/'}]});
+    await sitemap(['https://csgrad.com/']);
+    const result = audit();
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /hreflang-target-missing.*zh-Hant/);
+  });
+});
+
+test('special-route SEO alternates include Traditional Chinese without translating path identifiers', () => {
+  for (const routes of [
+    ['/找我辅导', '/en/consulting', '/zh-Hant/找我辅导'],
+    ['/转码项目', '/en/career-change-programs', '/zh-Hant/转码项目'],
+  ]) for (const pathname of routes) {
+    assert.equal(localizedAlternateUrl({pathname, locale: 'zh-Hant', siteUrl: 'https://csgrad.com', fallback: () => 'invalid'}), 'https://csgrad.com' + routes[2]);
+  }
 });

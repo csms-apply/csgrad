@@ -313,3 +313,11 @@ test('card and library modals expose accessible dialog semantics and close actio
   assert.equal(modal.props['aria-modal'], 'true');
   assert.ok(modal.props['aria-labelledby']);
 });
+
+test('Traditional Chinese tracker keeps localized routes without changing stored cards', () => {
+  const card = fixture({slug: '/B/Emory MSCS', notes: '申请备注保持原文'});
+  const page = mountTracker([card], 'zh-Hant');
+  assert.ok(page.all((node) => node.type === 'a' && node.props.href === '/zh-Hant/').length);
+  assert.ok(page.all((node) => node.type === 'a' && node.props.href === '/zh-Hant/B/Emory MSCS').length);
+  assert.deepEqual(JSON.parse(page.raw()), [card]);
+});

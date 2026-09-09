@@ -1,0 +1,497 @@
+{
+  "tracker.column.reach": {
+    "message": "彩票"
+  },
+  "tracker.column.match": {
+    "message": "衝刺"
+  },
+  "tracker.column.target": {
+    "message": "主申"
+  },
+  "tracker.column.safety": {
+    "message": "保底"
+  },
+  "tracker.essay.notStarted": {
+    "message": "未開始"
+  },
+  "tracker.essay.drafting": {
+    "message": "草稿中"
+  },
+  "tracker.essay.reviewing": {
+    "message": "修改中"
+  },
+  "tracker.essay.done": {
+    "message": "已完成"
+  },
+  "tracker.sort.manual": {
+    "message": "手動排序"
+  },
+  "tracker.sort.deadline": {
+    "message": "按截止日期"
+  },
+  "tracker.sort.school": {
+    "message": "按學校名稱"
+  },
+  "tracker.lor.default1": {
+    "message": "推薦信 1"
+  },
+  "tracker.lor.default2": {
+    "message": "推薦信 2"
+  },
+  "tracker.lor.default3": {
+    "message": "推薦信 3"
+  },
+  "tracker.action.edit": {
+    "message": "編輯"
+  },
+  "tracker.action.delete": {
+    "message": "刪除"
+  },
+  "tracker.card.unnamedSchool": {
+    "message": "未命名學校"
+  },
+  "tracker.card.unnamedProgram": {
+    "message": "未命名項目"
+  },
+  "tracker.tag.library": {
+    "message": "項目庫"
+  },
+  "tracker.tag.custom": {
+    "message": "自定義"
+  },
+  "tracker.card.deadlineLabel": {
+    "message": "截止日期: {date}"
+  },
+  "tracker.card.daysLeft": {
+    "message": "還剩 {days} 天"
+  },
+  "tracker.card.dueToday": {
+    "message": "今天截止!"
+  },
+  "tracker.card.overdue": {
+    "message": "已過期 {days} 天"
+  },
+  "tracker.card.progressLors": {
+    "message": "進度: {done}/{total} 推薦信"
+  },
+  "tracker.card.langDone": {
+    "message": " | 語言 ✓"
+  },
+  "tracker.card.essayDone": {
+    "message": " | 文書 ✓"
+  },
+  "tracker.card.viewProgram": {
+    "message": "查看項目介紹"
+  },
+  "tracker.column.empty": {
+    "message": "拖拽項目到此列或點擊下方添加"
+  },
+  "tracker.action.addProgram": {
+    "message": "添加項目"
+  },
+  "tracker.lor.defaultN": {
+    "message": "推薦信 {n}"
+  },
+  "tracker.modal.editTitle": {
+    "message": "編輯項目"
+  },
+  "tracker.modal.addTitle": {
+    "message": "添加自定義項目"
+  },
+  "tracker.form.schoolName": {
+    "message": "學校名稱"
+  },
+  "tracker.form.schoolPlaceholder": {
+    "message": "如: Stanford University"
+  },
+  "tracker.form.programName": {
+    "message": "項目名稱"
+  },
+  "tracker.form.programPlaceholder": {
+    "message": "如: MSCS"
+  },
+  "tracker.form.category": {
+    "message": "分類"
+  },
+  "tracker.form.deadline": {
+    "message": "截止日期"
+  },
+  "tracker.form.lors": {
+    "message": "推薦信 (LORs)"
+  },
+  "tracker.form.lorPlaceholder": {
+    "message": "推薦人姓名"
+  },
+  "tracker.action.addLor": {
+    "message": "添加推薦信"
+  },
+  "tracker.form.tests": {
+    "message": "標準化考試"
+  },
+  "tracker.form.toeflPlaceholder": {
+    "message": "如: 110"
+  },
+  "tracker.form.grePlaceholder": {
+    "message": "如: 330"
+  },
+  "tracker.form.essayProgress": {
+    "message": "文書進度"
+  },
+  "tracker.form.notes": {
+    "message": "備註"
+  },
+  "tracker.form.notesPlaceholder": {
+    "message": "任何備註信息..."
+  },
+  "tracker.action.saveChanges": {
+    "message": "保存修改"
+  },
+  "tracker.library.title": {
+    "message": "從項目庫導入"
+  },
+  "tracker.library.searchPlaceholder": {
+    "message": "搜索學校或項目名稱..."
+  },
+  "tracker.library.added": {
+    "message": "已添加"
+  },
+  "tracker.library.noResults": {
+    "message": "未找到匹配的項目"
+  },
+  "tracker.action.cancel": {
+    "message": "取消"
+  },
+  "tracker.action.confirmDelete": {
+    "message": "刪除"
+  },
+  "tracker.alert.importFailed": {
+    "message": "匯入失敗：JSON 格式無效"
+  },
+  "tracker.page.title": {
+    "message": "申請進度追蹤器"
+  },
+  "tracker.page.description": {
+    "message": "申請進度追蹤：管理研究生申請的輪次、推薦信、文書與截止日期"
+  },
+  "tracker.nav.backHome": {
+    "message": "返回首頁"
+  },
+  "tracker.action.export": {
+    "message": "導出數據"
+  },
+  "tracker.action.import": {
+    "message": "導入數據"
+  },
+  "tracker.header.title": {
+    "message": "申請跟蹤器"
+  },
+  "tracker.header.subtitle": {
+    "message": "全面管理你的申請進度：輪次選擇、考試狀態、推薦信跟蹤、面試安排等一站式管理"
+  },
+  "tracker.view.kanban": {
+    "message": "看板"
+  },
+  "tracker.sort.label": {
+    "message": "分類方式:"
+  },
+  "tracker.action.addCustomProgram": {
+    "message": "添加自定義項目"
+  },
+  "tracker.confirm.deleteMessage": {
+    "message": "確定要刪除此項目嗎？此操作不可撤銷。"
+  },
+  "visitorGeo.loading": {
+    "message": "加載地圖中..."
+  },
+  "visitorGeo.title": {
+    "message": "訪客地理分佈"
+  },
+  "visitorGeo.stats": {
+    "message": "來自 {countries} 個國家, {regions} 個地區的人們訪問了 csgrad"
+  },
+  "visitorGeo.visitors": {
+    "message": "{count} 位訪客"
+  },
+  "visitorGeo.noVisitors": {
+    "message": "暫無訪客"
+  },
+  "visitorGeo.legendFew": {
+    "message": "少"
+  },
+  "visitorGeo.legendMany": {
+    "message": "多"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "此頁已當機。"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到頂部"
+  },
+  "theme.blog.archive.title": {
+    "message": "歷史文章"
+  },
+  "theme.blog.archive.description": {
+    "message": "歷史文章"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "部落格文章列表分頁導覽"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "較新的文章"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "較舊的文章"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "部落格文章分頁導覽"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "較新一篇"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "較舊一篇"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "檢視所有標籤"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切換淺色/深色模式（當前為{mode}）"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "深色模式"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "淺色模式"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} 個項目"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "頁面路徑"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件選項卡"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一頁"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一頁"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文件帶有標籤"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此為 {siteTitle} {versionLabel} 版尚未發行的文件。"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此為 {siteTitle} {versionLabel} 版的文件，現已不再積極維護。"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文件請參閱 {latestVersionLink} ({versionLabel})。"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本"
+  },
+  "theme.common.editThisPage": {
+    "message": "編輯此頁"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接連結"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "於 {date} "
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} "
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最後{byUser}{atDate}更新"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "選擇版本"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到頁面"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "標籤："
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "關閉"
+  },
+  "theme.admonition.caution": {
+    "message": "警告"
+  },
+  "theme.admonition.danger": {
+    "message": "危險"
+  },
+  "theme.admonition.info": {
+    "message": "資訊"
+  },
+  "theme.admonition.note": {
+    "message": "備註"
+  },
+  "theme.admonition.tip": {
+    "message": "提示"
+  },
+  "theme.admonition.warning": {
+    "message": "注意"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "複製成功"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "複製程式碼至剪貼簿"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "複製"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近部落格文章導覽"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切換自動換行"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展開側邊欄分類 '{label}'"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "收起側邊欄分類 '{label}'"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "選擇語言"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主導航"
+  },
+  "theme.NotFound.p1": {
+    "message": "我們沒有您要找的頁面。"
+  },
+  "theme.NotFound.p2": {
+    "message": "請聯絡原始連結來源網站的所有者，並通知他們連結已毀損。"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本頁導覽"
+  },
+  "theme.blog.post.readMore": {
+    "message": "閱讀更多"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "閱讀 {title} 全文"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "閱讀時間約 {readingTime} 分鐘"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主頁面"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文件側邊欄"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起側邊欄"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起側邊欄"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "關閉導覽列"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主選單"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切換導覽列"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展開側邊欄"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展開側邊欄"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇文章"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有標籤「{tagName}」"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者列表"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "檢視所有作者"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "此作者尚未撰寫任何文章。"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出頁"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此頁面未列出。搜索引擎不會對其索引，只有擁有直接連結的用戶才能訪問。"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿頁"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此頁面為草稿，僅在開發環境中可見，不會包含於正式版本中。"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重試"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳至主要內容"
+  },
+  "tracker.action.close": {
+    "message": "關閉"
+  },
+  "tracker.storage.loadFailed": {
+    "message": "無法讀取當前清單，原始數據已保留。請先導出原始備份，再嘗試導入有效備份。"
+  },
+  "tracker.storage.saveFailed": {
+    "message": "瀏覽器未能保存清單，請導出備份，避免刷新後丟失更改。"
+  },
+  "tracker.import.invalid": {
+    "message": "導入失敗：請使用完整有效的清單 JSON 備份（不超過 10 MB）。原清單未更改。"
+  },
+  "tracker.import.success": {
+    "message": "導入完成。已保留導入前的清單，可撤銷最近一次導入。"
+  },
+  "tracker.import.storageFailed": {
+    "message": "瀏覽器無法保存導入前的備份或新清單，導入未完成。原清單未更改。"
+  },
+  "tracker.import.rollbackFailed": {
+    "message": "導入未完成，當前清單未更改。但瀏覽器也無法恢復之前的撤銷備份，本次會話已停用撤銷入口。請立即導出當前清單；不要依賴現有撤銷備份。"
+  },
+  "tracker.import.undone": {
+    "message": "已恢復導入前的清單。"
+  },
+  "tracker.import.undo": {
+    "message": "撤銷最近導入"
+  },
+  "tracker.import.confirm": {
+    "message": "此備份包含 {count} 個項目，將替換當前 {current} 個項目（不是合併）。導入前的清單會保留為可撤銷備份，覆蓋上一次導入備份。是否繼續？"
+  },
+  "tracker.import.replace": {
+    "message": "確認替換"
+  },
+  "tracker.import.undoConfirm": {
+    "message": "恢復最近一次導入前的清單？導入後的編輯將被替換。請先導出當前清單以保留這些編輯。"
+  },
+  "tracker.import.restore": {
+    "message": "恢復舊清單"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "標籤"
+  }
+}

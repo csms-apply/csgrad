@@ -8,13 +8,13 @@ const {transformSync} = require('@babel/core');
 const source = fs.readFileSync(require('node:path').join(__dirname,'../src/pages/school-positioning-result.jsx'),'utf8');
 const {code}=transformSync(source,{babelrc:false,configFile:false,presets:[require.resolve('@babel/preset-react')],plugins:[require.resolve('@babel/plugin-transform-modules-commonjs')]});
 const api={};
-vm.runInNewContext(code,{exports:api,require(name){if(name==='react')return React;if(name.endsWith('.module.css'))return {__esModule:true,default:new Proxy({},{get:(_,k)=>k})};if(name.startsWith('@'))return {};throw Error(name);}});
+vm.runInNewContext(code,{exports:api,require(name){if(name==='react')return React;if(name.endsWith('.module.css'))return {__esModule:true,default:new Proxy({},{get:(_,k)=>k})};if (name === '@site/src/lib/i18n/traditional') return require('../src/lib/i18n/traditional.js'); if (name === '@site/src/lib/seo/localizedAlternates.mjs') return require('../src/lib/seo/localizedAlternates.mjs'); if(name.startsWith('@'))return {};throw Error(name);}});
 
 test('program links localize internal routes and preserve external/already encoded links',()=>{
  for(const [input,en,zh] of [
   ['/A/uiuc mcs','/en/A/uiuc%20mcs','/A/uiuc%20mcs'],
   ['/A/uiuc%20mcs','/en/A/uiuc%20mcs','/A/uiuc%20mcs'],
-  ['/en/A/uiuc%20mcs','/en/A/uiuc%20mcs','/en/A/uiuc%20mcs'],
+  ['/en/A/uiuc%20mcs','/en/A/uiuc%20mcs','/A/uiuc%20mcs'],
   ['https://example.com/program?x=1&y=2','https://example.com/program?x=1&y=2','https://example.com/program?x=1&y=2'],
   ['//example.com/program','//example.com/program','//example.com/program'],
  ]){assert.equal(api.programDetailHref(input,'en'),en);assert.equal(api.programDetailHref(input,'zh-Hans'),zh);}

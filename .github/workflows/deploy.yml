@@ -50,6 +50,9 @@ jobs:
       - name: Test atomic deployment activation
         run: python3 scripts/atomic-deploy.test.py
 
+      - name: Test Traditional Chinese content and links
+        run: npm run test:traditional
+
       - name: Test SEO safeguards
         run: npm run test:seo
 

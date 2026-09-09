@@ -8,6 +8,7 @@
 <p align="center">
   <a href="README.md"><img src="static/img/readme/language-zh-inactive.svg" alt="简体中文" width="144" height="44" /></a>
   <a href="README.en.md"><img src="static/img/readme/language-en-active.svg" alt="English" width="144" height="44" /></a>
+  <a href="README.zh-Hant.md"><img src="static/img/readme/language-hant-inactive.svg" alt="繁體中文" width="144" height="44" /></a>
 </p>
 
 ## Welcome to CS Grad

@@ -1,3 +1,5 @@
+import { UG_CATEGORIES, UG_MAJORS } from '@site/src/lib/dp/enums';
+import { getLocaleMessages } from '../lib/i18n/traditional';
 import React, { useEffect, useMemo, useState, useRef, useCallback } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
@@ -123,7 +125,8 @@ const COPY = {
     cardLabelPub: '论文',
     cardLabelNotes: '备注',
     resultLabels: {},
-    ugCategoryLabels: {'台本': '台本（台湾本科）'},
+    ugCategoryLabels: {...Object.fromEntries(UG_CATEGORIES.map(value => [value, value])), '台本': '台本（台湾本科）'},
+    majorLabels: Object.fromEntries(UG_MAJORS.map(value => [value, value])),
   },
   en: {
     pageTitle: 'CS & MSCS Admissions Data Explorer',
@@ -257,7 +260,7 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return loc === 'en' ? 'en' : 'zh-Hans';
+  return ['en', 'zh-Hant'].includes(loc) ? loc : 'zh-Hans';
 }
 
 // ---------- URL <-> filter state helpers ----------
@@ -532,7 +535,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
         <Select label={t.filterYear} value={year} onChange={setYear} options={filterOpts.years} allText={t.filterAll} />
         <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.resultLabels)} />
         <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.ugCategoryLabels)} />
-        <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} />
+        <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.majorLabels)} />
         <GpaRangeFilter
           min={gpaMin}
           max={gpaMax}
@@ -703,7 +706,7 @@ function DesktopTable({ rows, t, onRowClick }) {
                 <span className={styles.ugName}>{a.ug_school_name || <span className={styles.muted}>—</span>}</span>
               </td>
               <td>
-                {a.ug_major ? <span className={styles.majorTag}>{a.ug_major}</span> : <span className={styles.muted}>—</span>}
+                {a.ug_major ? <span className={styles.majorTag}>{displayDataValue(a.ug_major, t.majorLabels)}</span> : <span className={styles.muted}>—</span>}
               </td>
               <td className={styles.gpaCell}>
                 <GpaCell a={a} />
@@ -812,9 +815,9 @@ function ApplicantDpsModal({ applicantId, t, onClose }) {
         <div style={{ fontSize: 12, color: 'var(--ifm-color-emphasis-700)', marginBottom: 12 }}>
           {applicant ? (
             <>
-              {applicant.ug_school_category ? `${applicant.ug_school_category} · ` : ''}
+              {applicant.ug_school_category ? `${displayDataValue(applicant.ug_school_category, t.ugCategoryLabels)} · ` : ''}
               {applicant.ug_school_name || ''}
-              {applicant.ug_major ? ` · ${applicant.ug_major}` : ''}
+              {applicant.ug_major ? ` · ${displayDataValue(applicant.ug_major, t.majorLabels)}` : ''}
               {applicant.gpa != null ? ` · GPA ${applicant.gpa}` : ''}
             </>
           ) : loading ? t.loadingData : errorMsg ? `${t.loadFail}${errorMsg}` : ''}
@@ -883,7 +886,7 @@ function MobileCards({ rows, t, onCardClick }) {
                 </span>
               ) : null}
               {a.ug_school_name || ''}
-              {a.ug_major ? <div className={styles.majorTag}>{a.ug_major}</div> : null}
+              {a.ug_major ? <div className={styles.majorTag}>{displayDataValue(a.ug_major, t.majorLabels)}</div> : null}
             </span>
           </div>
           <div style={row}>
@@ -1195,7 +1198,7 @@ function NotesCell({ d, a, t }) {
 export default function DataPointsPage() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
   return (
     <Layout title={t.pageTitle} description={t.pageDesc}>
       <Head>

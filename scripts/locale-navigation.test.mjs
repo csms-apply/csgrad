@@ -21,9 +21,9 @@ function renderItems({pathname, search = '', hash = '', hydrated = true, querySt
   const module = {exports: {}};
   const mocks = {
     '@docusaurus/useDocusaurusContext': () => ({i18n: {
-      currentLocale: pathname.startsWith('/en/') ? 'en' : 'zh-Hans',
-      locales: ['zh-Hans', 'en'],
-      localeConfigs: {'zh-Hans': {label: '中文', htmlLang: 'zh-Hans'}, en: {label: 'English', htmlLang: 'en-US'}},
+      currentLocale: pathname.startsWith('/zh-Hant/') ? 'zh-Hant' : pathname.startsWith('/en/') ? 'en' : 'zh-Hans',
+      locales: ['zh-Hans', 'en', 'zh-Hant'],
+      localeConfigs: {'zh-Hans': {label: '中文', htmlLang: 'zh-Hans'}, en: {label: 'English', htmlLang: 'en-US'}, 'zh-Hant': {label: '繁體中文', htmlLang: 'zh-Hant'}},
     }}),
     '@docusaurus/theme-common/internal': {useAlternatePageUtils: () => ({
       createUrl: ({locale}) => paths.localizedInternalPath(pathname, locale),
@@ -72,4 +72,32 @@ test('internal links retain locale and URL state without rewriting external URLs
   assert.equal(paths.localizedInternalPath('//example.com/path', 'en'), '//example.com/path');
   assert.equal(paths.localizedInternalPath('#fees', 'en'), '#fees');
   assert.equal(paths.localizedInternalPath('/en//example.com/path', 'zh-Hans'), '/example.com/path');
+});
+
+test('all three language menus preserve opaque order and filter values', () => {
+  for (const pathname of ['/school-positioning-result', '/en/school-positioning-result', '/zh-Hant/school-positioning-result']) {
+    const suffix = '?session_id=synthetic_ABC-123&school=%E8%BD%AC%E7%A0%81&gpaScale=uk-100#report';
+    const [search, hash] = suffix.split('#');
+    const items = renderItems({pathname, search, hash: '#' + hash});
+    assert.deepEqual(items.map(item => item.to), [
+      'pathname:///school-positioning-result' + suffix,
+      'pathname:///en/school-positioning-result' + suffix,
+      'pathname:///zh-Hant/school-positioning-result' + suffix,
+    ]);
+    assert.equal(items[2].lang, 'zh-Hant');
+  }
+});
+
+test('Traditional Chinese special routes keep canonical path spelling across all languages', () => {
+  for (const routes of [
+    ['/找我辅导', '/en/consulting', '/zh-Hant/找我辅导'],
+    ['/转码项目', '/en/career-change-programs', '/zh-Hant/转码项目'],
+  ]) {
+    for (const pathname of routes) {
+      assert.deepEqual(renderItems({pathname}).map(item => item.to), routes.map(route => 'pathname://' + route));
+    }
+  }
+  assert.equal(paths.localizedInternalPath('/en/B/Emory MSCS?track=systems#courses', 'zh-Hant'), '/zh-Hant/B/Emory MSCS?track=systems#courses');
+  assert.equal(paths.localizedInternalPath('/zh-Hant/', 'en'), '/en/');
+  assert.equal(paths.localizedInternalPath('/zh-Hant//example.com/path', 'zh-Hans'), '/example.com/path');
 });

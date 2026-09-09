@@ -138,6 +138,7 @@ function routeKey(value) {
 }
 
 function localeKey(route) {
+  if (route === '/zh-Hant' || route.startsWith('/zh-Hant/')) return 'zh-Hant';
   return route === '/en' || route.startsWith('/en/') ? 'en' : 'zh-Hans';
 }
 

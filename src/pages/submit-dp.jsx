@@ -1,3 +1,4 @@
+import { getLocaleMessages, toTraditional } from '../lib/i18n/traditional';
 import React, { useEffect, useId, useMemo, useState } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
@@ -244,7 +245,7 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return loc === 'en' ? 'en' : 'zh-Hans';
+  return ['en', 'zh-Hant'].includes(loc) ? loc : 'zh-Hans';
 }
 
 // Enum display translations. Underlying values are unchanged (backend expects exact strings).
@@ -376,7 +377,8 @@ function dispEnum(group, value, locale) {
   if (!map) return value;
   const entry = map[value];
   if (!entry) return value;
-  return entry[locale] || entry['zh-Hans'] || value;
+  const label = entry[locale] || entry['zh-Hans'] || value;
+  return locale === 'zh-Hant' ? toTraditional(label) : label;
 }
 
 // ---------- model ----------
@@ -460,7 +462,7 @@ function formToPayload(f) {
 function Inner() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
 
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
@@ -1390,7 +1392,7 @@ function MultiCheck({ options, value, onToggle, enumGroup, locale }) {
 
 export default function SubmitDp() {
   const { i18n } = useDocusaurusContext();
-  const t = COPY[pickLocale(i18n.currentLocale)];
+  const t = getLocaleMessages(COPY, pickLocale(i18n.currentLocale));
   const fallback = (
     <div className={styles.wrap} style={{ paddingBottom: 0 }}>
       <h1 style={{ margin: '0 0 8px', fontSize: 26 }}>{t.pageTitle}</h1>

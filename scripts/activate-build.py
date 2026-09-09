@@ -15,7 +15,7 @@ def activate(site, release):
     release = Path(release).resolve()
     if release.parent != site / '.site-releases':
         raise ValueError('Release must be directly inside .site-releases')
-    for page in ('index.html', 'en/index.html', 'school-positioning-result/index.html', 'en/school-positioning-result/index.html'):
+    for page in ('index.html', 'en/index.html', 'school-positioning-result/index.html', 'en/school-positioning-result/index.html', 'zh-Hant/index.html', 'zh-Hant/school-positioning-result/index.html'):
         if not (release / page).is_file():
             raise ValueError(f'Incomplete release: missing {page}')
     live = site / 'build'

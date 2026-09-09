@@ -13,6 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "sync-translations": "node --input-type=module scripts/sync-translations.js",
+    "generate:traditional": "node scripts/generate-traditional.mjs",
+    "test:traditional": "node --test scripts/generate-traditional.test.mjs",
     "check:seo": "node scripts/seo-audit.mjs build --baseline scripts/seo-audit-baseline.txt",
     "test:seo": "node --test scripts/seo-audit.test.mjs",
     "test:analytics": "node --test src/lib/analytics/events.test.mjs",
@@ -30,6 +32,7 @@
     "clsx": "^2.0.0",
     "d3-geo": "^3.1.1",
     "html2pdf.js": "^0.14.0",
+    "opencc-js": "^1.4.2",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
