@@ -11,7 +11,7 @@ test('running static server follows activation and serves previous PDF chunk URL
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'csgrad-activation-'));
   const releases = path.join(root, '.site-releases');
   for (const version of ['old', 'new']) {
-    for (const file of ['index.html', 'en/index.html', 'school-positioning-result/index.html', 'en/school-positioning-result/index.html', `assets/js/pdf-${version}.js`]) {
+    for (const file of ['index.html', 'en/index.html', 'school-positioning-result/index.html', 'en/school-positioning-result/index.html', 'zh-Hant/index.html', 'zh-Hant/school-positioning-result/index.html', `assets/js/pdf-${version}.js`]) {
       const output = path.join(releases, version, file);
       fs.mkdirSync(path.dirname(output), {recursive:true});
       fs.writeFileSync(output, version);

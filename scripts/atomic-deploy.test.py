@@ -18,7 +18,7 @@ class ActivationTests(unittest.TestCase):
 
     def release(self, name):
         root = self.releases / name
-        for page in ('index.html', 'en/index.html', 'school-positioning-result/index.html', 'en/school-positioning-result/index.html'):
+        for page in ('index.html', 'en/index.html', 'school-positioning-result/index.html', 'en/school-positioning-result/index.html', 'zh-Hant/index.html', 'zh-Hant/school-positioning-result/index.html'):
             path = root / page
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(name)
@@ -63,6 +63,18 @@ class ActivationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             module.activate(self.site, new)
         self.assertEqual((self.site / 'build/index.html').read_text(), 'old')
+
+    def test_missing_traditional_page_preserves_live(self):
+        for missing in ('zh-Hant/index.html', 'zh-Hant/school-positioning-result/index.html'):
+            with self.subTest(missing=missing):
+                old, new = self.release('old'), self.release('new')
+                live = self.site / 'build'
+                if not live.exists():
+                    live.symlink_to(old)
+                (new / missing).unlink()
+                with self.assertRaises(ValueError):
+                    module.activate(self.site, new)
+                self.assertEqual((live / 'index.html').read_text(), 'old')
 
     def test_legacy_directory_exchange_or_safe_platform_failure(self):
         old, new = self.release('old'), self.release('new')
