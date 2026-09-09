@@ -4,6 +4,7 @@ import {createRequire} from 'node:module';
 import test from 'node:test';
 import {transformSync} from '@babel/core';
 import * as paths from '../src/lib/seo/localizedAlternates.mjs';
+import * as preferences from '../src/lib/i18n/preference.mjs';
 
 const require = createRequire(import.meta.url);
 const filename = new URL('../src/theme/NavbarItem/LocaleDropdownNavbarItem/index.js', import.meta.url);
@@ -34,6 +35,7 @@ function renderItems({pathname, search = '', hash = '', hydrated = true, querySt
     '@theme/NavbarItem/DropdownNavbarItem': () => null,
     '@theme/Icon/Language': () => null,
     '../../../lib/seo/localizedAlternates.mjs': paths,
+    '../../../lib/i18n/preference.mjs': preferences,
     './styles.module.css': {},
   };
   new Function('require', 'module', 'exports', code)(

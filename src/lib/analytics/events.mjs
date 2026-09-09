@@ -6,6 +6,9 @@ const ALLOWED_EVENTS = new Set([
   'begin_checkout',
   'experiment_exposure',
   'purchase',
+  'language_preference_set',
+  'language_preference_applied',
+  'audience_visit',
 ]);
 
 const ALLOWED_PARAMETERS = new Set([
@@ -22,6 +25,32 @@ const ALLOWED_PARAMETERS = new Set([
   'transaction_id',
   'items',
 ]);
+
+// Language analytics accepts only bounded categories, never caller-supplied text.
+const LANGUAGE_EVENTS = new Set([
+  'language_preference_set', 'language_preference_applied', 'audience_visit',
+]);
+const SUPPORTED_LOCALES = new Set(['zh-Hans', 'zh-Hant', 'en']);
+const LANGUAGE_PARAMETERS = {
+  current_locale: SUPPORTED_LOCALES,
+  selected_locale: SUPPORTED_LOCALES,
+  preferred_locale: new Set([...SUPPORTED_LOCALES, 'none']),
+  preference_source: new Set(['manual', 'saved', 'default']),
+  storage_status: new Set(['persisted', 'unavailable', 'none']),
+};
+
+function languagePayload(name, parameters) {
+  const payload = {};
+  for (const [key, allowed] of Object.entries(LANGUAGE_PARAMETERS)) {
+    if (allowed.has(parameters[key])) payload[key] = parameters[key];
+  }
+  if (!payload.current_locale || !payload.preferred_locale || !payload.preference_source) {
+    return null;
+  }
+  if (name === 'language_preference_set' && !payload.selected_locale) return null;
+  if (name !== 'language_preference_set') delete payload.selected_locale;
+  return payload;
+}
 
 const MAX_STRING_LENGTH = 100;
 const POSITIONING_ITEM_ID = 'school_positioning_report';
@@ -99,6 +128,20 @@ export function trackSeoEvent(name, parameters = {}, browserWindow = undefined) 
     ? (typeof window === 'undefined' ? null : window)
     : browserWindow;
   if (!target || typeof target.gtag !== 'function') return false;
+
+  if (LANGUAGE_EVENTS.has(name)) {
+    const payload = languagePayload(name, parameters || {});
+    if (!payload) return false;
+    // Override GA's default full URL: checkout/query/hash can contain private data.
+    // The locale-level page location is sufficient for this audience breakdown.
+    const localePath = payload.current_locale === 'zh-Hans' ? '/' : `/${payload.current_locale}/`;
+    payload.page_location = `https://csgrad.com${localePath}`;
+    payload.page_path = localePath;
+    payload.page_referrer = '';
+    payload.transport_type = 'beacon';
+    target.gtag('event', name, payload);
+    return true;
+  }
 
   const payload = {};
   for (const [key, value] of Object.entries(parameters || {})) {

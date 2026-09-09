@@ -1,4 +1,6 @@
 import React, {useEffect} from 'react';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {initializeLanguagePreference} from '@site/src/lib/i18n/preference.mjs';
 import {trackSeoEvent} from '@site/src/lib/analytics/events.mjs';
 import {copyTextWithFallback} from '@site/src/lib/analytics/clipboard.mjs';
 import {
@@ -32,6 +34,11 @@ function renderExperimentVariant(element, assignment) {
 }
 
 export default function Root({children}) {
+  const {i18n: {currentLocale}} = useDocusaurusContext();
+  useEffect(() => {
+    initializeLanguagePreference(window, currentLocale);
+  }, [currentLocale]);
+
   useEffect(() => {
     const supportsVisibilityTracking = typeof IntersectionObserver === 'function';
 

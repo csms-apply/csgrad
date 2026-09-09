@@ -14,6 +14,7 @@ import useIsBrowser from '@docusaurus/useIsBrowser';
 import DropdownNavbarItem from '@theme/NavbarItem/DropdownNavbarItem';
 import IconLanguage from '@theme/Icon/Language';
 import {localizedAlternateUrl} from '../../../lib/seo/localizedAlternates.mjs';
+import {selectLanguage} from '../../../lib/i18n/preference.mjs';
 
 import styles from './styles.module.css';
 
@@ -56,6 +57,7 @@ export default function LocaleDropdownNavbarItem({
       to,
       target: '_self',
       autoAddBaseUrl: false,
+      onClick: () => selectLanguage(locale, currentLocale),
       className:
         locale === currentLocale
           ? mobile
