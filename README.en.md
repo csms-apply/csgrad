@@ -1,6 +1,9 @@
-# North American MSCS Application Guide
+<h1 align="center">North American MSCS Application Guide</h1>
 
-[简体中文](README.md) | **English**
+<p align="center">
+  <a href="README.md"><img src="static/img/readme/language-zh-inactive.svg" alt="简体中文" width="144" height="44" /></a>
+  <a href="README.en.md"><img src="static/img/readme/language-en-active.svg" alt="English" width="144" height="44" /></a>
+</p>
 
 ## Welcome to CS Grad
 
