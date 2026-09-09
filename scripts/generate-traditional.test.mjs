@@ -1,0 +1,27 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {unified} from 'unified';
+import remarkParse from 'remark-parse';
+import remarkMdx from 'remark-mdx';
+import remarkFrontmatter from 'remark-frontmatter';
+const parser=unified().use(remarkParse).use(remarkMdx).use(remarkFrontmatter,['yaml']);
+const files=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name)):[path.join(dir,e.name)]);
+function protectedValues(source){source=source.replace(/ \{#[^}]+\}(?=\r?$)/gm,'');const out=[];function visit(n){
+ if(['code','inlineCode','mdxjsEsm','mdxFlowExpression','mdxTextExpression'].includes(n.type))out.push([n.type,n.value]);
+ if(n.url)out.push(['url',n.url]);
+ if(n.type==='yaml')out.push(['frontmatter-identifiers',n.value.split('\n').filter(l=>!/^(title|description|sidebar_label):/.test(l)).join('\n')]);
+ if(n.attributes)out.push(['jsx-attributes',n.attributes.map(a=>source.slice(a.position.start.offset,a.position.end.offset))]);
+ for(const c of n.children||[])visit(c);
+}visit(parser.parse(source));return out;}
+test('all source documents have Traditional copies with identical URLs, code, identifiers and JSX attributes',()=>{
+ const docs=files('docs').filter(p=>/\.mdx?$/.test(p));assert.ok(docs.length>100);
+ for(const file of docs){const target=path.join('i18n/zh-Hant/docusaurus-plugin-content-docs/current',path.relative('docs',file));assert.ok(fs.existsSync(target),file);assert.deepEqual(protectedValues(fs.readFileSync(target,'utf8')),protectedValues(fs.readFileSync(file,'utf8')),file);}
+});
+test('all READMEs link all three languages with their active badge',()=>{
+ for(const [file,badge] of [['README.md','zh'],['README.en.md','en'],['README.zh-Hant.md','hant']]){
+  const text=fs.readFileSync(file,'utf8');for(const href of ['README.md','README.en.md','README.zh-Hant.md'])assert.ok(text.includes(`href="${href}"`));assert.ok(text.includes(`language-${badge}-active.svg`));
+ }
+ assert.doesNotMatch(fs.readFileSync('README.zh-Hant.md','utf8'),/\{#[^}]+\}/);
+});
