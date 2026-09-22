@@ -11,6 +11,16 @@
   <a href="README.zh-Hant.md"><img src="static/img/readme/language-hant-inactive.svg" alt="繁體中文" width="144" height="44" /></a>
 </p>
 
+## 美国 SWE 求职 Info Session · 开放报名
+
+最近准备办一场美国 SWE 求职 Info Session，主要聊简历、项目、投递、刷题和面试准备。
+
+如果你最近在找实习 / New Grad / SWE 全职，欢迎报名：
+
+**[报名美国 SWE 求职 Info Session](https://forms.gle/ubgp4doSw8gAh7dG9)**
+
+具体时间和参会链接会通过邮件通知。
+
 ## 欢迎来到 CS Grad 项目
 
 CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等相关专业的介绍。Motivation 是帮助来自 **中国大陆** 和 **北美本科** 的申请者更高效地了解各项目的定位及其 **实际价值**。与侧重录取门槛（admission bar）排名的 Open CS App 不同，CS Grad 更关注 **项目的真实价值**，尤其是在北美 **SDE求职** 方面的帮助，而 **非单纯的录取难度**。
