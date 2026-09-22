@@ -11,6 +11,16 @@
   <a href="README.zh-Hant.md"><img src="static/img/readme/language-hant-inactive.svg" alt="繁體中文" width="144" height="44" /></a>
 </p>
 
+## US SWE Job Search Info Session · Registration Open
+
+Join our upcoming US SWE job search Info Session covering resumes, projects, job applications, coding practice, and interview preparation.
+
+If you are looking for an internship, a new-grad role, or a full-time SWE position, you are welcome to sign up.
+
+**[Register for the US SWE Job Search Info Session](https://forms.gle/ubgp4doSw8gAh7dG9)**
+
+The date, time, and meeting link will be sent by email.
+
 ## Welcome to CS Grad
 
 CS Grad focuses on applications to North American Master of Science in Computer Science (MSCS) programs, with introductions to related fields including computer science (CS), data science (DS), electrical engineering (EE), electrical and computer engineering (ECE), and information systems (IS). The goal is to help applicants with undergraduate degrees from **mainland China** or **North America** understand what each program offers and assess its **practical value** more efficiently. While Open CS App ranks programs primarily by their admission bar—how difficult they are to get into—CS Grad focuses on **what students gain from a program**, especially its support for finding **software development engineer (SDE) jobs in North America**, rather than admission difficulty alone.
