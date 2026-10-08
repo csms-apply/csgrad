@@ -36,7 +36,7 @@ gpa3.7+加上gre325+
 
 - 1 capstone project
 
-(具体清单见 <https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-master-of-engineering/>)
+(具体清单见 [UCLA MEng 项目要求](https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-master-of-engineering/))
 
 对于 Data Science 和 AI 这两个主流 track，课程主要是各种 data science 和 machine learning 相关的内容，有些甚至比较理论，没有什么系统课或者编程课。如果你是想转 SDE，可能不太推荐这个项目，毕竟补修list外的 CS 基础课需要director审批。
 
