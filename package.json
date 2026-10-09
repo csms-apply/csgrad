@@ -41,6 +41,13 @@
     "@docusaurus/module-type-aliases": "3.8.1",
     "@docusaurus/types": "3.8.1"
   },
+  "overrides": {
+    "proxy-addr": "2.0.8",
+    "shell-quote": "1.11.0",
+    "@docusaurus/core": {
+      "tinypool": "2.1.2"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.5%",
@@ -54,7 +61,7 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": "^20.0.0 || >=22.0.0"
   },
   "allowScripts": {
     "core-js": false,
