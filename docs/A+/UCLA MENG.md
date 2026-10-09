@@ -9,7 +9,9 @@ UCLA 的位置很好，气候宜人，生活便利，排名也不错。学校在
 
 2023 Fall 录取了大概 150 人，主要集中在 Data Science 和 AI 两个方向。学生大部分是中国人，陆本、海本都有不少。
 
+## 费用
 
+MEng 为公立大学的自费授课硕士项目。与本科及MS的flat tuition不同，MEng项目学费按unit收费。\$1,470 per unit，一门课通常为4unit。正常情况下总体学费为 \$52,920。
 
 ## 录取bar 和dp
 gpa3.7+加上gre325+
@@ -21,19 +23,89 @@ gpa3.7+加上gre325+
 6. 宁波诺丁汉cs本科gpa3.85
 
 ## 课程设置
-1. 选课相对自由（选不上的找教授要pte）2. workload可自我调节留足时间找工刷题
 
-项目需要修 8 门课，包括 2 门 core 技术课，3 门 elective 技术课，3 门 professional development 课，以及一个 capstone project。选课只能从给定列表里选，选课限制还是挺多的，很多感兴趣的课都不能选（当然可以自费额外选，但不会算在毕业要求里）。对于 Data Science 和 AI 这两个主流 track，课程主要是各种 data science 和 machine learning 相关的内容，有些甚至比较理论，没有什么系统课或者编程课。如果你是想转 SDE，可能不太推荐这个项目，毕竟没什么机会补 CS 方面的基础课。
+### 毕业要求
+
+为达到毕业要求，MEng学生需要修满如下课程：
+
+- 2 technical core courses
+
+- 3 technical elective courses
+
+- 3 professional development courses
+
+- 1 capstone project
+
+(具体清单见 [UCLA MEng 项目要求](https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-master-of-engineering/))
+
+对于 Data Science 和 AI 这两个主流 track，课程主要是各种 data science 和 machine learning 相关的内容，有些甚至比较理论，没有什么系统课或者编程课。如果你是想转 SDE，可能不太推荐这个项目，毕竟补修list外的 CS 基础课需要director审批。
 
 职业发展课就是一些偏软技能的课程，比如沟通、项目管理、金融之类的，也有数据分析和决策方向的课程。虽然这些课对找工没什么直接帮助，但可以提升表达能力，而且据说很多课给分宽松，算是可以水过去的课程。
 
-项目没有 thesis 要求，但需要在暑期做一个 capstone project，一般是和企业合作，企业提供选题，可以远程完成，边实习边做就行，最后答辩一下就好。不过合作企业以本土企业为主，互联网大厂比较少，所以想通过 capstone 建立大厂 connections 可能不太现实。
+项目没有 thesis 要求，但需要在暑期做一个 capstone project。
+
+### 常规课程计划
+
+学期设置为 Fall + Winter + Spring + Summer 为期12个月。其中 Fall Winter Spring需要修完八门课，并在暑假完成capstone项目。通常情况下，每个quarter需要修2~3门课。
+
+值得注意的是，spring学期通常不开设core课程。
+
+### 课程豁免
+
+如果elective course的课表中没有想修的课，可以在这一年中使用一次petition机会，经programme director同意后，将三门elective course中的一门替换掉，例如可以将一个elective替换为一门本科的OS、Architecture等课程。
+
+### Capstone Project
+
+26Fall的capstone项目提供了多种完成方式：
+
+- Option 1: Group Capstone Project (Traditional Pathway)
+
+  - Participation in an industry or faculty-sponsored capstone project during the summer.
+
+- Option 2A: Industry Internship and Technical Report
+
+  - Completion of a 10–12 week (minimum 400 hours) full-time technical internship during the summer.
+
+- Option 2B: Two-Quarter Industry Internship (Summer and Fall)
+
+  - Completion of a 20–24-week full-time technical internship during Summer and Fall. Meanwhile keeping enrollment in a special topic 4-unit course in Fall.
+
+Traditional Pathway 一般是和企业合作，企业提供选题，可以远程完成，边实习边做就行，最后答辩一下就好。不过合作企业以本土企业为主，互联网大厂比较少，所以想通过 capstone 建立大厂 connections 可能不太现实。
+
+### 非常规课程计划--延期
+
+就业市场的不景气使更多人希望通过延期获得多一次的秋招窗口或升学准备期。
+
+UCLA MEng 项目可以通过两个方式将毕业时间延长至入学次年的12月（即项目时长延长至15个月~1.5年）。
+
+- Capstone Project Option2B:  
+  如上，如果学生在秋招、春招中确认了次年暑期的实习，可以通过capstone project的option 2B，通过至多24个周的实习，将full time enrollment身份延期到次年12月。
+
+- Incomplete Degree Requirement  
+  经26fall academic advisor确认，学生如果在次年暑期没有完成 "3professional" 的毕业要求，可以通过简单的审批，在次年的Fall 学期修掉剩余的一门professional development课。  
+  并且，由于剩下的这一门课是在非常规情况下“补修”的一门必修课，次年的Fall学期适用一个特殊的exception情形。简单来说，就是只需要注册4学分即可满足full-time enrollment的情况。（正常的full-time enrollment需要8unit per quarter）。
+  这意味着，不额外花钱选课即可延期毕业时间，十分划算。  
+
+  例如，如下安排是被允许的：  
+  - 26Fall: 2门elective course + 1门petitioned Undergrad OS course  
+  - 26Winter: 2 core course  
+  - 27Spring: 2 professional development  
+  - 27Summer: Capstone Project  
+  - 27Fall: 1 professional development
+
+## 教学科研
+
+UCLA在CS方面的教学和科研资源弱于t0级的四大以及部分CS强校，略低于t1的GT UCSD UW UIUC UT等，并且MEng的科研训练与传统研究型MS存在一定差距。但这无法影响UCLA MEng 逐渐成为全美最具性价比的工程硕士项目。由于UCLA整体title响当当（虽然本人确实经历过某大厂同事认识USC而不知UCLA的情况），MEng项目在录取门槛、背景提升等方面有极大的优势。
+
+体感上，与英国相比，西海岸大学在与工业界确实有更深的联系。例如MEng可以选到一门seminar，负责人是AWS的VP，lecturer是他手下的Principal Applied Scientist，课上很多问题都来自真实工业界，可以收获很多不同的看法。
 
 ## 找工dp
 
 求职方面，学校的 career fair 质量一般，来的企业基本没听说过,项目的 career counselor 会定期发 JD，但质量不太行，还不如自己刷 LinkedIn 或 Glassdoor。所以总体来说，找工还是得靠自己，项目提供的帮助不多。
 
-CPT/OPT 方面支持得还可以，项目属于 STEM，CPT 申请需要修满一个 academic year（Fall、Winter、Spring）。
+CPT/OPT 方面支持得还可以，项目属于 STEM，OPT支持3年，CPT 申请需要修满一个 academic year（Fall、Winter、Spring）。
+
+**2026年10月更新：截止目前，UCLA没有关于CPT再次启动的更新**
 
 1. ucsd math本科，无实习，上岸amazon intern并且return
 2. ucla ee本科，有小厂实习和开源经历，上岸小厂ng
