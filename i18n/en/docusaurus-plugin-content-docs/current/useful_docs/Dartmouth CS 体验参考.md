@@ -1,28 +1,26 @@
 ---
 title: Dartmouth CS and Digital Arts — student perspectives
-description: Coursework, workload, recruiting and small-town life in Dartmouth CS and Digital Arts, combining historical experience with current program requirements.
+description: Courses, workload, recruiting and small-town life in Dartmouth CS and Digital Arts.
 ---
 
 # Dartmouth CS and Digital Arts: student perspectives
 
-## CS and Digital Arts involve different work
+## Program
 
-Dartmouth offers a general MSCS and a Digital Arts concentration. The current MSCS overview describes a two-year, seven-term program with coursework and thesis paths. Digital Arts combines computing, artistic practice and research, ending in a thesis defense. Graphics, interaction and animation interests fit naturally here; students mainly seeking software jobs also need to account for the time spent on research and art assignments.
+General MSCS and Digital Arts follow different paths. The current MSCS takes two years and seven terms, with coursework and thesis options; Digital Arts requires a thesis. CSDA has an appealing mix of graphics, interaction and animation. For someone focused only on software recruiting, the art coursework and thesis add a substantial commitment.
 
-The CSDA experience beginning in 2021 and updated through 2024 describes a distinctive combination of coursework and small-town life. These historical observations primarily concern Digital Arts; general MSCS follows a different curriculum.
+## Courses and workload
 
-## Interesting courses still take substantial work
+3D Modeling involves character models, Animation involves short films, and AR/VR brings design and development together. There is plenty to enjoy for students interested in these areas. Graphics also involves mathematics and programming; this is more than learning to use a few tools. The 2026–2027 schedule puts Animation in fall, and 3D Modeling and Rendering Algorithms in winter.
 
-Digital Arts involves concrete production work: 3D Modeling includes character modeling, Animation includes short films, and AR/VR brings designers and developers together. Graphics courses can also involve substantial programming and mathematics. Sampling art as an interest and pursuing it as a research direction call for different levels of commitment.
+The 2021–2023 CSDA course selection was limited, with demanding fundamentals such as OS and compilers, plus mathematical proofs in algorithms. A small selection makes heavy workloads harder to avoid. Taking easy classes and spending everything else on interview preparation was not a straightforward option.
 
-Digital Arts course prefixes changed to CSDA in Fall 2025. The 2026–2027 schedule places Animation in fall and 3D Modeling, AR/VR and Rendering Algorithms in winter. A sequence of related courses needs to follow actual offerings; a catalog listing does not mean a class runs whenever needed.
+## Recruiting and life
 
-## Recruiting and small-town life
+A small program offers little of the collective interview-preparation culture found in larger cohorts. Recruiting information takes independent effort. During the 2022 hiring freezes, the remote location and coursework made a job-focused experience difficult. Graphics courses and research are more distinctive attractions, but CSDA should not be treated as interchangeable with general MSCS.
 
-The 2021–2023 experience described a small cohort without a strong shared interview-preparation culture, while coursework competed with applications. Leaving time for interviews and maintaining recruiting contacts independently are practical responses. The 2024 retrospective valued the experience more warmly without erasing earlier difficulties with recruiting and social life.
+Hanover really is a small town: cold winters, limited dining and inconvenient travel without a car if you live farther out. Hiking and skiing enthusiasts may enjoy it; people who prefer busy cities can feel stuck. Summer and fall are beautiful, while holidays become quiet after undergraduates leave. Daily life feels very different from New York or Boston.
 
-Hanover's winter weather, transport and housing shape everyday life. Living far from campus without a car can complicate errands and weekends, while outdoor enthusiasts may enjoy the setting. Housing decisions involve commuting and holiday plans as well as rent. Quiet can be pleasant, or lonely for someone who prefers a busy city.
+## CPT — updated October 11, 2026
 
-## CPT and internships
-
-As of October 11, 2026, COSC 295 remains listed among eligible graduate internship courses. No degree requirement making internships compulsory for all CS or CSDA students was found. OVIS still publishes a qualifying-course application route: the department must explain the academic connection, and the student must receive an OVIS-issued CPT I-20 before starting. A course pathway does not guarantee approval; OVIS must confirm the actual arrangement.
+COSC295 remains on the graduate internship course list, but no requirement making internships compulsory for all CS or CSDA students was found. OVIS still offers a course-based application route, requiring departmental confirmation of the academic connection and a CPT I-20 before work begins. This does not guarantee approval; OVIS must confirm the actual arrangement.
