@@ -22,14 +22,26 @@ Average, mainly relying on Amazon to extend offers.
 5. Xidian University CS, no internship, landed a small company intern
 6. Indian classmate, one year full-time, landed Amazon intern and successfully converted to full-time
 
-## Historical CS28 accounts: plan coursework around recruiting
+## CS28: how you divide your time matters
 
-These accounts concern the general CS master's, not Scientists and Engineers. CS28 is the historical label used by the authors; check the requirements for your own entering cohort.
+CS28 is the former label for the general MSCS. The non-thesis degree increased to 32 units for students entering in Fall 2024, so new students should not budget for just seven courses. It suits students who already have a CS foundation and want further coursework alongside recruiting. If learning to program is still your main task, examine CS37's course sequence separately.
 
-A [Spring 2020 entrant writing in February 2022](https://www.1point3acres.com/bbs/thread-850607-1-1.html) distinguished practical web projects from demanding systems courses. A [Spring 2024 entrant writing in December 2025](https://www.1point3acres.com/bbs/thread-1159284-1-1.html) valued algorithms and protected recruiting time. Course titles alone do not reveal the instructor, assessment format or what you will gain.
+### Algorithms, development and systems make for different semesters
 
-For your own decision:
+CSCI 570 is required and emphasizes analysis and proofs; it is not a guided LeetCode class. Understanding dynamic programming, graph algorithms and complexity can still help you explain interview solutions. Between 2020 and 2025, teaching and assignment arrangements varied by instructor, making the current syllabus worth reading.
 
-- Inspect project requirements against gaps in your experience, rather than collecting introductory projects you can already build.
-- Do not extrapolate the optimistic 2022 hiring account to today's market. The 2025 account describes a different search experience; neither is a placement study.
-- Compare housing and transport costs alongside tuition. Identify the events and alumni contacts you would actually use rather than assuming an LA address generates interviews.
+CSCI 571 Web Technologies is an option for application development, while CSCI 402 Operating Systems offers a route into systems work that needs time for debugging. CSCI 585 Database Systems and CSCI 572 Information Retrieval cover databases and search respectively. A good grade does not necessarily mean you have mastered the material; spend time on the parts you expect to use.
+
+Build the schedule around the time you actually have. If fall recruiting and one substantial project course are already on your plate, leave some room in the other course. Two final projects and an interview can make a week busy despite limited classroom hours. Students with relevant internships need not repeat similar introductory projects simply to add another résumé entry.
+
+### Keep the job search moving yourself
+
+The hiring environments of 2022 and 2025 should not be treated as interchangeable. Before arriving, organize your experience, practice explaining projects and find someone for mock interviews; keep applying once the semester starts. Career fairs, Handshake, classmates and alumni are all possible channels, but a single recruiting event should not carry the whole plan.
+
+Choosing solely by which courses are easiest can also backfire. Missing foundations may consume the time you thought you had saved, while repeating familiar material offers little return. A regular block for recruiting is easier to maintain than waiting until final assignments are finished.
+
+### Living in LA and planning internships now
+
+Living near campus, cooking and going without a car is one workable setup. Owning a car changes the options for weekends. Compare grocery trips, classes and the route home at night alongside rent. Car insurance, parking and maintenance belong in the budget too.
+
+As of October 11, 2026, USC OIS requires practical training to be mandatory for every student in the program; an elective internship course is insufficient. The published general MSCS requirements do not list an internship required of everyone, and ENGR 597/598 do not count toward the degree, so historical CPT arrangements cannot simply be reused.
