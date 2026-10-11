@@ -35,3 +35,17 @@ Job prospects are also very favorable, mainly because you can extend graduation,
 1. SJTU IS undergrad, had ByteDance, Cisco, and Synopsys internships, landed Apple new grad
 2. UT Austin ECE undergrad, GPA 3.98 (top 10%), landed AMD new grad
 3. UT Austin ECE bachelor’s, two LinkedIn internships before enrollment, Databricks SWE intern while studying SES in 2026.
+
+## Student perspective: flexibility still needs a plan
+
+One Spring 2022 entrant wrote both the [first-semester account (March 27, 2022)](https://www.1point3acres.com/bbs/thread-874326-1-1.html) and the [later update (May 1, 2023)](https://www.1point3acres.com/bbs/thread-992137-1-1.html). These are one person's evolving experience, not independent outcome samples.
+
+The early account describes substantial OS and computer-architecture assignments, flexible course selection and limited offerings in a given semester. The update describes assistantships and individually arranged graduation and internship plans. The author's admission and student-status circumstances were unusual; those arrangements should not be assumed available to every MS student.
+
+Before enrolling:
+
+- Map prerequisites, course availability and recruiting deadlines together.
+- Budget without assistantship funding until an appointment and its benefits are confirmed in writing.
+- Ask the program and international office to confirm your own graduation and internship eligibility, especially for spring entry.
+
+These historical accounts do not establish current policy or a program-wide placement rate.
