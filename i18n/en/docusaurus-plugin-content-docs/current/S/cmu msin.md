@@ -57,3 +57,9 @@ Even for the class of 2024 during that brutal job market, new grad outcomes were
 The PhD pathway is also strong, with admits to Columbia PhD, CMU PhD, and Yale PhD.
 
 [![CMU MSIN continuing-education destinations; open full size](/img/en/msintophd.png)](/img/en/msintophd.png)
+
+## A Fall 2024 student's perspective: plan systems courses around recruiting
+
+A December 2025 retrospective by a Fall 2024 entrant praised practical systems training and discussed 15-513, 15-619, and 15-605. A useful planning lesson is that team projects, performance tuning, and debugging need sustained time. Taking several demanding systems courses during recruiting can crowd out applications and interview preparation. [Source: 1Point3Acres, December 23, 2025](https://www.1point3acres.com/bbs/thread-1159107-1-1.html).
+
+Draft a schedule for the entire degree, then ask current students about recent project milestones, team arrangements, and preparation for each target course. Keep room in the busiest recruiting term. The author also valued alumni contacts, employer-specific events, and technical talks; include these in a recruiting calendar and prepare to explain individual contributions to course projects. The post's personal-network samples are not program-wide employment statistics and do not predict opportunities for later cohorts.
