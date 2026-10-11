@@ -38,22 +38,22 @@ Job prospects are also very favorable, mainly because you can extend graduation,
 2. UT Austin ECE undergrad, GPA 3.98 (top 10%), landed AMD new grad
 3. UT Austin ECE bachelor’s, two LinkedIn internships before enrollment, Databricks SWE intern while studying SES in 2026.
 
-## Courses: a solid route into systems
+## Courses
 
-SES can support a CS-heavy schedule. In Spring 2022, EE 461S Operating Systems paired OSTEP with PintOS labs, while EE 460N Computer Architecture built an LC-3b assembler and simulator, adding virtual memory and pipelining. These are appealing courses for filling gaps in an undergraduate systems background, but taking both means a busy semester.
+SES is very CS-oriented. ECE has its own systems courses, and students can also take CS courses, although they have lower priority and may need to wait for a seat. There are few restrictions, but the selection of demanding courses in a given semester is limited.
 
-Flexible enrollment does not mean an unlimited course catalog. CS classes can be available to ECE students, with lower priority than CS majors; seats and offerings vary. Start with the worthwhile courses actually running that term, then leave room for interview preparation. Combining demanding systems courses, research and fall recruiting in one semester can make a good-looking schedule difficult to manage.
+In Spring 2022, EE461S OS used OSTEP, with shell and PintOS labs covering user programs, virtual memory and file systems. EE460N Computer Architecture took more time: five homework assignments, three exams and six labs, building an LC-3b assembler and simulator through to pipelining. Taking both while doing research leaves a semester packed with assignments. Good systems training, substantial workload.
 
 ## Assistantships and recruiting
 
-The 2022–2023 experience includes three consecutive semesters of RA/TA work with tuition support and pay, including work outside ECE. Student status matters: the higher CS TA pay tier in that case depended on doctoral status. A regular master's budget should not assume the same package. Research and grading also take time that must fit alongside courses.
+There is a 2022–2023 case of three consecutive semesters with tuition covered through RA/TA appointments, including TA work in CS. The $3,200 monthly pay in that case depended on doctoral status; it was not a standard MS package.
 
-School reputation does not automatically produce interviews. The 2022 career-fair experience included a hardware-heavy ECE event and a limited selection of software employers at the CS event. Software recruiting still required independent applications and preparation. A small program can feel less competitive, but it may also offer fewer classmates to share a daily interview-preparation routine.
+Career fairs are no magic shortcut. The 2022 ECE fair was largely hardware-focused, while the CS fair included Bloomberg and Datadog. An employer attending does not mean an interview will follow. Software recruiting still takes independent applications. SES does give students room to choose lighter courses when recruiting is the priority.
 
-## Everyday life in Austin
+## Life
 
-The 2022–2023 picture was closer to a university town than a major metropolis: hot summers and fewer Chinese dining and entertainment options. Commute and lease dates have a more immediate effect on student life than announcements of companies moving into town. An internship elsewhere or a changed graduation date can leave a year-long lease to sublet. Use current housing offers and funding letters for a budget; historical rent and pay figures are background only.
+Austin summers are hot, and Chinese food and entertainment options were fairly limited in 2022–2023. Plenty of tech companies, but less going on than in New York or the Bay Area. A quieter routine centered on classes and recruiting is an easier fit here.
 
-## CPT: historical arrangements need a fresh check
+## CPT — updated October 11, 2026
 
-As of October 11, 2026, Texas Global's public requirements emphasize practical training that is necessary for every student's degree completion. ECE explicitly describes internships as optional for the degree. Registering for an x97M internship course therefore does not establish current CPT eligibility, and no announcement was found making SES internships mandatory or confirming a general resumption. Historical semester-time internships and extended graduation plans still require ECE and ISSS review for any current CPT arrangement.
+The old idea that registering for an internship course is enough no longer works. Texas Global requires practical training to be necessary for every student's degree completion, while ECE explicitly says internships are not a degree requirement. Taking x97M does not establish current CPT eligibility. No announcement was found making SES internships mandatory or confirming a general resumption; ECE and ISSS must review individual applications.
