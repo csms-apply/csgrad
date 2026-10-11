@@ -51,26 +51,20 @@ The biggest difference between grad school and undergrad is that you need to sta
 
 For those interested in pursuing a PhD, I think ECE is an excellent choice. Many CS department professors are cross-listed with the ECE department (which also makes internal PhD transfers possible -- ECE master's students who meet the requirements can theoretically transfer to PhD status. Two friends I know are currently pursuing this path, but you can only transfer to a professor who is cross-listed with ECE. For example, if you've been doing research under an RI professor who is also cross-listed with ECE, and that professor agrees and you meet the requirements, you can transfer to an ECE PhD and work in the same lab as RI students). The program also allows replacing two courses per semester with research credits. Overall, I think it's a great option for those interested in research.
 
-## Fall 2026: what studying ECE actually asks of you
+## More on course selection
 
-### Build a software course plan you would want to follow
+ECE is a good fit for systems, architecture, and hardware. A software path is possible, but admission to CMU does not give you unrestricted access to every famous CS course. Standard now requires 97 units: 60 ECE core, 24 CIT electives, 12 general technical electives, and a one-unit introduction. Storage Systems has the ECE cross-listing 18-746 and can fit into an ECE schedule. Taking an SCS course and counting it toward graduation are separate matters; extra courses do not replace the required categories.
 
-ECE can support a software career, particularly if systems, networking, and computer architecture interest you. The complication is that a course you want to take may not satisfy the degree. The regular Standard curriculum requires 97 units, with only 12 units of General Technical Electives; most of the remaining coursework belongs within ECE and the College of Engineering. Start with relevant cross-listed courses carrying ECE numbers, such as Storage Systems, 18-746, and save the general elective space for outside courses you particularly want.
+## Workload and program fit
 
-Additional coursework can expand your options, but it takes time and does not replace the required categories. Applicants interested mainly in application development may overestimate how much of CMU's famous CS curriculum fits their degree. Draft a three-semester schedule and look at the projects you would actually want to finish.
+The lower-level coursework can feel like a detour if application development is all you want. IC design, Verilog, and EDA are a much more natural fit. Hardware and software recruiting also require different preparation; classmates discussing chips will not necessarily be your LeetCode partners.
 
-### Hardware and software students may have different daily priorities
+Do not count on transferring programs as a backup. There is a reported unsuccessful attempt to move from AIE-ECE to regular ECE. Research does have a formal route: the Intensive Project Option provides 36 units of research across two stages in place of some coursework. The first stage is 12 units and starts no earlier than the second semester, followed by 24 units the next semester. It suits students who want to work on one topic in depth.
 
-IC design, Verilog, EDA, and architecture featured prominently in the Fall 2026 student experience. That environment fits chip designers well. Students targeting SDE roles may need to find their own coding interview and mock interview partners rather than assume their classmates share the same plans.
+## Tuition
 
-Treat the admission offer as admission to that particular program. AIE-ECE and regular ECE have different academic structures, and an attempted move from AIE-ECE to regular ECE was unsuccessful. Choose a program whose existing curriculum you can accept, without depending on a later transfer.
+“Eight major courses to graduate” does not mean paying only for eight courses. Standard lasts three semesters, and the published 2025–2026 Pittsburgh handbook requires at least 36 units each semester. Savings from taking fewer classes in the final semester are not something to assume.
 
-### Budget time and money for all three semesters
+## CPT — October 11, 2026
 
-CMU's systems courses make it tempting to take everything. Career changers will have an easier time with demanding projects after building confidence in C/C++, computer systems, and debugging. Applications, coding assessments, and interviews also need scheduled time; they cannot all wait until the homework is finished.
-
-Avoid estimating tuition by multiplying a price by eight major courses. Standard lasts three semesters, and the published 2025–2026 Pittsburgh handbook requires at least 36 units each semester. Budget for the complete program rather than count on savings from a lighter final semester. Students wanting sustained research can consider the Intensive Project Option, which lets research replace some coursework requirements, but research needs substantial time too.
-
-### Internship update: October 11, 2026
-
-An internship is not required to graduate from Standard; 18-994 is a three-unit elective. CMU OIE's August 27, 2026 update limits CPT to training required for every student to graduate, so an ordinary elective internship does not currently qualify. Students needing authorization for a U.S. internship must obtain an applicable alternative, such as pre-completion OPT.
+Standard does not require an internship; 18-994 is a three-unit elective. OIE's August 27, 2026 update limits CPT to internships required for every student to graduate. An ordinary elective internship does not meet that route's current requirements; pre-completion OPT is an alternative authorization requiring a separate application and approval.
