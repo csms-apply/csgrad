@@ -56,28 +56,22 @@ No extra charge for overloading — beyond 12 credits it is free. If you have th
 
 ![Georgia Tech ECE internship, co-op and full-time planning paths](/img/en/gtecetimeline.svg)
 
-## ECE gives you flexibility—and a schedule to design yourself
+## More on courses and workload
 
-GT ECE offers room to combine courses around interests in hardware, systems and machine learning. That freedom can also produce a scattered schedule with little depth in any one area. For employment, decide whether you are aiming for chips, embedded systems or software, then build a related group of courses rather than selecting whatever looks easiest at registration time.
+There is plenty of flexibility for software or hardware, but the schedule is not unrestricted. The non-thesis option requires nine credits of advanced ECE in each of Groups I and II, with Group II also subject to Technical Interest Area distribution rules. 6001 focuses on entrepreneurship and professional training rather than technical depth.
 
-### A long catalog does not guarantee the course you want will run
+Catalog entries do not mean a course runs every semester. In 2022, limited VLSI offerings in a particular term were already an issue. Actual availability matters if you want to concentrate in one area. Both lighter and demanding options exist; a hardware-project schedule can look very different from a software-transition schedule.
 
-One practical issue in the experience of the Fall 2020 cohort around 2022 was that some VLSI courses were not offered in the desired semester. In a short degree, waiting a year can affect the graduation plan. Start with important prerequisite relationships and give each semester a backup option.
+## TA / RA
 
-The current MS ECE requirements also distinguish Technical Interest Areas. For the non-thesis option, Groups I and II each require nine credits of advanced ECE coursework, so flexibility does not mean an unrestricted schedule. ECE 6001 Technology Entrepreneurship, or an accepted equivalent, also needs a place in the plan; its professional and entrepreneurship focus serves a different purpose from technical coursework.
+Master's students can pursue TA/RA appointments. Eligible appointments with the required registration provide pay and tuition waivers, and ECE permits positions outside the department. Hiring may happen before the previous semester ends, so asking just before the break can be too late. Research opportunities involve approaching faculty; moving into the PhD also requires an advisor, funding and the department's academic milestones.
 
-Workload depends on the assignment structure. Weekly homework and a project concentrated near the end of term create different demands. If you are also preparing for interviews, reserve substantial blocks for debugging before filling every remaining opening with interview practice.
+## Recruiting and life
 
-### Start early on teaching, research and recruiting
+Hardware, embedded systems and software are all possible destinations, including a move from ECE into software. Career fairs are another channel, not a replacement for regular applications. Continuing with prior hardware experience and starting SDE preparation from scratch are different paths.
 
-Teaching and research appointments are worth pursuing, but waiting until the end of the first semester can mean missing hiring for the next one. In faculty emails, explain what you can teach, the projects you have completed and how much time you can commit. Having taken a relevant course gives you something concrete to discuss.
+Campus or nearby housing can work without a car. Living farther away adds parking and commuting to the rent calculation. Atlanta rush-hour traffic can affect daily life, making the cheaper apartment less convenient than it looks. Dorm prices and benefits from 2022 are not current quotes.
 
-Current ECE policies allow GRA/GTA appointments outside the department, and eligible appointments with the required registration can provide pay and a tuition waiver. Account for the hours as well: office hours, grading and lab work can overlap with interview weeks. Budget for self-funding first, then revise it after receiving a formal appointment.
+## CPT — October 11, 2026 update
 
-Students moving into software should make their projects and programming skills visible on the résumé. Those continuing in hardware can build depth around existing experience. Attend recruiting events, while maintaining your own applications and interview preparation throughout the semester.
-
-### A convenient commute can save considerable energy
-
-Without a car, start with campus housing or places near campus and useful public transport. If you plan to drive from farther away, include parking and rush-hour travel. Lower rent may be less attractive when projects and interviews leave little spare time. Rents, insurance benefits and hiring experiences from 2022 should not be treated as today's prices or arrangements.
-
-As of October 11, 2026, OIE is reviewing CPT and plans to begin accepting Spring 2027 applications on October 19; Fall 2026 CPT extensions will not be approved. Internships are optional in the regular MS ECE, and approval for ordinary spring internships remains unconfirmed, so older claims of unrestricted internships and co-ops no longer apply.
+OIE is still reviewing CPT; Spring 2027 applications open October 19, and Fall 2026 extensions will not be approved. Internships are optional in the regular MS ECE, spring approval for ordinary internships remains unconfirmed, and internship audit credits do not count toward graduation. Earlier internship descriptions on this page should be read with this update.
