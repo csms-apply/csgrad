@@ -42,26 +42,18 @@ If your GPA isn't particularly high, consider applying to UW EE PMP. It's a grea
 
 **25 Fall threshold has clearly risen. Many applicants with high GPAs and high rankings from CS backgrounds were rejected, possibly due to being overqualified. There were even cases of CMU MSIN admits being rejected by UW EE PMP. The days of using UW EE PMP as a safety school are over. It is strongly recommended to find another safety school option.**
 
-## The Fall 2024 experience: a job-focused master's in Seattle
+## Courses and workload
 
-### Evening classes leave a useful block of daytime hours
+PMP works well for job-focused students. Weekday classes start at 4:30 or 6:30 p.m., leaving daytime hours for interviews and personal projects. There are enough software options to build around algorithms, CV, deep learning, LLMs, and GPU computing without focusing on circuits. Fall 2026 continues to offer algorithms, vision, systems security, and GPU computing; access to CSE courses need not be the basis of a software-heavy schedule.
 
-PMP's schedule works well for students who need daytime hours for recruiting. Classes generally start at 4:30 or 6:30 p.m. on weekdays, leaving room for applications, interview preparation, and personal projects. Recruiting was also a common topic in the Fall 2024 experience, making it easier to exchange openings and find coding practice partners.
+PMP is less straightforward for students who want extensive research. It is coursework-based with no thesis, although up to eight credits of EE P 599 independent research can count toward the degree. The traditional daytime program has a thesis route and a clearer research orientation. Most master's students in both programs are self-funded; most TA/RA positions go to PhD students with funding commitments.
 
-That freedom needs a routine. Without daytime classes, a morning can disappear into browsing job boards without many applications or much actual practice. Give applications and interview preparation separate time slots, then plan for evening classes and assignments. Much of PMP's appeal lies in how you use that time.
+## Recruiting and life
 
-### There are software courses, but choose the depth you need
+Students are generally focused on recruiting, which makes exchanging openings, coding assessments, and interview preparation easier. Seattle has employers such as Amazon and Microsoft, and in-person recruiting events are worth using. Living nearby does not, of course, deliver an offer automatically.
 
-A software-focused schedule does not need to be full of circuits. The 2024–2025 offerings included data structures and algorithms, computer vision, deep learning, LLMs, and GPU courses. Fall 2026 continues to offer algorithms, vision, systems security, and GPU computing. Match courses to your preparation and target roles instead of stacking unfamiliar AI topics simply because their titles sound current.
+Seattle offers a full city experience: performances, sports, and outdoor activities beyond campus. The drawbacks are concrete too. Winters are rainy, and rent, eating out, and rides are expensive. It suits people who want city life and can tolerate the rain; cheap living is not a strong reason to choose it.
 
-PMP is a coursework program with no degree thesis requirement. Students can seek research through EE P 599, with up to eight credits counting toward graduation. If a PhD is already the goal, the traditional daytime program's thesis route is more direct. Do not make TA or RA income a default part of the budget. A schedule that works for recruiting may not offer the concentrated research experience another student wants.
+## CPT — October 11, 2026
 
-### Seattle brings opportunities and recurring expenses
-
-The city offers technology employers, performances, sports, and nearby outdoor activities. The Fall 2024 experience was positive about local recruiting opportunities and much less enthusiastic about rainy winters and everyday expenses. Eating out and taking rides add up alongside rent.
-
-When choosing housing, include the trip home after evening classes. Lower rent farther away may lose its appeal if it leads to frequent paid rides. Budget to complete the program without internship earnings, then adjust after securing work. An extra recruiting season also means additional housing and living costs.
-
-### Internship update: October 11, 2026
-
-PMP has a CPT application route: the program FAQ explicitly describes international students' eligibility and internship credit through ENGR 601. Internships remain elective in the published degree requirements; whether an internship is mandatory and whether a program supports CPT applications are separate questions. As of October 11, 2026, the program page and ISS's university-wide policy guidance differ. Arrange the course, internship dates and required documents through the current process provided by the PMP adviser and ISS.
+PMP has a CPT application route: its official FAQ still states student eligibility, and ENGR 601 provides internship credit. An internship is not mandatory for every student. Program guidance and ISS's general policy differ, so optional status alone is not enough to conclude that PMP cannot approve CPT; applications follow the latest PMP and ISS approval process.
