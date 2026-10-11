@@ -1,22 +1,28 @@
 ---
 title: Dartmouth CS and Digital Arts — student perspectives
-description: Distinguish Dartmouth CS and Digital Arts through historical student experiences and practical questions about research fit, coursework and small-town life.
+description: Coursework, workload, recruiting and small-town life in Dartmouth CS and Digital Arts, combining historical experience with current program requirements.
 ---
 
 # Dartmouth CS and Digital Arts: student perspectives
 
-Dartmouth's [graduate CS programs](https://web.cs.dartmouth.edu/graduate/overview) include general CS and Digital Arts paths. The [Digital Arts curriculum](https://digitalarts.cs.dartmouth.edu/academics) combines computing with areas such as graphics, interaction and artistic practice. Identify the specific path before comparing courses and advisers.
+## CS and Digital Arts involve different work
 
-## Fit matters in a small program
+Dartmouth offers a general MSCS and a Digital Arts concentration. The current MSCS overview describes a two-year, seven-term program with coursework and thesis paths. Digital Arts combines computing, artistic practice and research, ending in a thesis defense. Graphics, interaction and animation interests fit naturally here; students mainly seeking software jobs also need to account for the time spent on research and art assignments.
 
-A CSDA student who entered in 2021 updated a public account through graduation. The account describes substantial coursework, limited course choices and the practical impact of housing and transport. The author valued graphics and digital-arts training while questioning recruiting and social support; later reflections placed greater value on the distinctive life experience.
+The CSDA experience beginning in 2021 and updated through 2024 describes a distinctive combination of coursework and small-town life. These historical observations primarily concern Digital Arts; general MSCS follows a different curriculum.
 
-This is not a simple recommendation for or against Dartmouth, and one CSDA experience should not stand in for all CS students.
+## Interesting courses still take substantial work
 
-Before deciding:
+Digital Arts involves concrete production work: 3D Modeling includes character modeling, Animation includes short films, and AR/VR brings designers and developers together. Graphics courses can also involve substantial programming and mathematics. Sampling art as an interest and pursuing it as a research direction call for different levels of commitment.
 
-- Find current advisers whose interests and availability match yours.
-- Match your study plan to recent course offerings and leave time for research and recruiting.
-- Evaluate actual housing, commuting and holiday arrangements. Build a budget from your funding letter, not historical scholarship percentages or rent estimates.
+Digital Arts course prefixes changed to CSDA in Fall 2025. The 2026–2027 schedule places Animation in fall and 3D Modeling, AR/VR and Rendering Algorithms in winter. A sequence of related courses needs to follow actual offerings; a catalog listing does not mean a class runs whenever needed.
 
-Source: [Dartmouth CS and CSDA student account](https://www.1point3acres.com/bbs/thread-832964-1-1.html), first posted December 22, 2021, with author updates through February 2024. This summary does not assign a program ranking or establish current admission counts or placement rates.
+## Recruiting and small-town life
+
+The 2021–2023 experience described a small cohort without a strong shared interview-preparation culture, while coursework competed with applications. Leaving time for interviews and maintaining recruiting contacts independently are practical responses. The 2024 retrospective valued the experience more warmly without erasing earlier difficulties with recruiting and social life.
+
+Hanover's winter weather, transport and housing shape everyday life. Living far from campus without a car can complicate errands and weekends, while outdoor enthusiasts may enjoy the setting. Housing decisions involve commuting and holiday plans as well as rent. Quiet can be pleasant, or lonely for someone who prefers a busy city.
+
+## CPT and internships
+
+As of October 11, 2026, COSC 295 remains listed among eligible graduate internship courses. No degree requirement making internships compulsory for all CS or CSDA students was found. OVIS still publishes a qualifying-course application route: the department must explain the academic connection, and the student must receive an OVIS-issued CPT I-20 before starting. A course pathway does not guarantee approval; OVIS must confirm the actual arrangement.
