@@ -1,11 +1,13 @@
 ---
-description: "CMU ECE：項目最短一年半，最長兩年，不允許延期。每學期至少要修 36 學分，最多允許 48 學分，一門全學期的課是 12 學分，mini 課（半學期）是 6 學分。畢業要求 96 學分，其中 60 學分必須是核心課程，36 學分是選修課。 ECE 方向本身會偏底層，但由於 CMU 是轉碼大本營，ECE 也提供很多 CS-heavy 的課程選擇。如果想轉碼，選課上是完全"
+description: "CMU ECE：截至 2026-10-11 查閱，官方 Standard Program 為三學期、97 units。普通課程路徑包括 60 units ECE 核心課、24 units CIT 選修、12 units General Technical Elective，以及 1 unit 的 18-989；Intensive Project Option 另有研究學分替"
 ---
 
 # CMU ECE
 
 ## 項目介紹 {#项目介绍}
-項目最短一年半，最長兩年，不允許延期。每學期至少要修 36 學分，最多允許 48 學分，一門全學期的課是 12 學分，mini 課（半學期）是 6 學分。畢業要求 96 學分，其中 60 學分必須是核心課程，36 學分是選修課。
+截至 2026-10-11 查閱，官方 [Standard Program](https://www.ece.cmu.edu/academics/ms-ece/standard-program.html) 為三學期、97 units。普通課程路徑包括 60 units ECE 核心課、24 units CIT 選修、12 units General Technical Elective，以及 1 unit 的 18-989；Intensive Project Option 另有研究學分替代規則。
+
+公開的 [2025–2026 Pittsburgh MS 手冊](https://www.ece.cmu.edu/_files/academics/ms-pgh-catalog-handbook.pdf) 規定每學期至少 36 units，並建議首學期連同導論修 37 units；該手冊並非 2026–2027 版，新入學者應向 advisor 確認適用規則。
 
 ECE 方向本身會偏底層，但由於 CMU 是轉碼大本營，ECE 也提供很多 CS-heavy 的課程選擇。如果想轉碼，選課上是完全可行的，甚至可以挑得比 CS Master 還純 CS——但這也意味著，你要做好心理準備面對 CMU 經典的“地獄難度”課程。雖然有cs學院學分限制，但完全可以選的純cs，ece學院很多課是和cs學院交叉的，例如18613和15513csapp，18741 computer network，還有acc，storage system等等全都可以不花cs學院的學分就能選到。ece學院開課特別多，具體應該是ini的三倍，大概三分之一的system課，三分之一的ml課，三分之一的硬件課，所以我並不覺得ece選課比ini有限制一些。值得一提的是軟件課比較缺乏，目前只發現有intro to se和full stack兩門。然後cmu wkld還是很大的，我屬於本科cs基礎比較好的，還經常做lab通宵，轉碼可能會比較吃力。
 
@@ -49,4 +51,12 @@ CMU 的課程節奏比國內本科要緊張很多，第一學期真的有種寫�
 研究生和本科的最大區別就是，一入學就要找實習/工作，學業和求職要並行。我拖延症嚴重，第一學期找工吃了不少虧，建議學弟學妹們早點規劃，不要等學業穩定了才開始行動。
 ## 轉博 {#转博}
 
-還有對於想讀博我覺得ece是非常好的，很多cs學院的prof會掛名ece學院（這也讓院內轉博提供了可能性，ece的master如果滿足條件理論上是能轉成phd的，我現在認識的兩個朋友就在往這方面轉，但只能轉到有掛名ece學院的prof，比如你如果一直在ri的prof下做research，然後這個教授掛名了ece，如果他同意，你也滿足條件你是可以轉成ece phd的，然後和ri的同學在一個實驗室）項目也允許一學期兩門課用research代替，總之想科研的話我覺得還是很不錯的。
+有研究意向，可以通過碩士期間的課程和項目積累博士申請材料，但不要把導師願意接收理解為自動轉博。官方 [Incoming MS FAQ](https://www.ece.cmu.edu/academics/incoming-ms-faq.html) 明確：目前不提供 MS ECE 直接轉 PhD ECE 的通道；Professional MS 學生需要按截止日期正式申請，由博士招生審核決定。學校建議在博士入學前完成至少兩個碩士學期，以便評估課程和項目表現（2026-10-11 查閱）。
+
+## 2026 Fall 體驗補充：先核對課表和實習安排 {#2026-fall-体验补充先核对课表和实习安排}
+
+一位 2026 Fall 入學者在 2026 年 9 月的帖子中，對跨學院選課、轉項目和實習支持表達了不滿，也觀察到身邊同學更偏 IC／硬件方向。這是入學初期的個人觀察，不能代表整個項目；原帖對 SCS 課程數量的表述也不一致，不宜據此確定選課上限。[來源：一畝三分地，2026-09-22](https://www.1point3acres.com/bbs/thread-1190399-1-1.html)。
+
+如果目標是軟件崗位，建議先列出想修的課程，逐門核對開課學期、註冊條件、交叉課號以及能計入哪一類畢業學分。官方 Standard 項目頁區分了畢業學分與額外修課，不能把某類學分額度直接理解成可選課程總數。實習則應請項目 advisor 和 OIE 書面確認：所在方向是否支持擬定實習、需要註冊哪門課、哪些日期可獲授權，以及是否會影響畢業安排。不要把單個學生的不滿等同於統一政策。
+
+官方核對入口（2026-10-11 查閱）：[Standard 學位要求](https://www.ece.cmu.edu/academics/ms-ece/standard-program.html)、[OIE CPT 說明](https://www.cmu.edu/oie/employment/f1-students/curricular-practical-training.html)。
