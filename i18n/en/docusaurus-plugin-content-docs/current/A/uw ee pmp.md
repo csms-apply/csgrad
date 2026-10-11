@@ -41,3 +41,17 @@ The admission difficulty is moderate -- GPA 3.5+ is fairly safe. I personally th
 If your GPA isn't particularly high, consider applying to UW EE PMP. It's a great job-hunting-oriented program choice.
 
 **25 Fall threshold has clearly risen. Many applicants with high GPAs and high rankings from CS backgrounds were rejected, possibly due to being overqualified. There were even cases of CMU MSIN admits being rejected by UW EE PMP. The days of using UW EE PMP as a safety school are over. It is strongly recommended to find another safety school option.**
+
+## Student experience and program fit
+
+In an April 2025 post, a Fall 2024 entrant highlighted peer support during recruiting and opportunities to connect with employers in Seattle. The author also reported asking the advisor and international office about combining evening classes with a fall internship. That historical consultation do not establish internship availability, CPT eligibility, or a program-wide employment rate.
+
+The author was more reserved about course depth, research opportunities, and TA/RA positions, and noted expensive rent and rainy winters. Research-oriented applicants should investigate those opportunities directly; employment-focused applicants should also budget for living costs and scheduling constraints.
+
+Questions to check before enrolling:
+
+- Do the current courses and class times fit your technical goals and recruiting schedule?
+- What are the eligibility requirements and actual openings for research and TA/RA work?
+- Can you afford the housing and commute? If planning a fall internship, how does the university assess eligibility?
+
+Source: [Program reflections from a Fall 2024 entrant](https://www.1point3acres.com/bbs/thread-1122376-1-1.html), published April 5, 2025.
