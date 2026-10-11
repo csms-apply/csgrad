@@ -47,16 +47,22 @@ Oracle and Nvidia are particularly fond of recruiting from Stanford.
 
 5. UW EE undergraduate, pre-master’s full-time experience at Siemens Healthineers; Microsoft EE intern in 2023, Microsoft EE full-time in 2024.
 
-## Student experience and course planning
+## What the course load actually feels like
 
-A student who entered in Fall 2023 with an NLP/ML background described some project-based or seminar courses as relatively manageable in a 2025 retrospective, including experiences with CS224V and CS329T. That assessment reflects the author's preparation; it does not establish that these courses are easy for everyone.
+MSEE can accommodate a heavily CS-oriented schedule, but the degree plan takes some work. The 45 units include depth, breadth and other coursework requirements; an interesting CS course does not automatically fit the plan. For a software / hardware focus, list the courses you want and discuss any petitions with your adviser before relying on them for graduation.
 
-When balancing coursework with recruiting, check prerequisites, projects, exams, and attendance requirements. The assessment formats and petition experiences in the post describe past arrangements and may change between academic years.
+### Scheduling around recruiting
 
-Questions to check before choosing the program or courses:
+Assessment format matters when applications and interviews are taking up your week. A course with weekly assignments and exams creates a different schedule from one built around a final project. If you already work in NLP / ML, a familiar project topic can reduce the time spent learning new tools and reading background material. Someone moving from EE into programming should allow more time than a classmate with that research experience.
 
-- Which relevant courses will actually run, and do you have the required background?
-- Do their assessment, attendance, and project demands fit your recruiting schedule?
-- What are the current petition requirements for counting a course toward the degree?
+Course experiences from the Fall 2023 cohort put CS224V, CS329T, CS329A and MS&E338 in a relatively lighter group, with CS229S, CS349D, CS349H, CS375 and CS238 requiring somewhat more work. A few details are more useful than an easy-course label: CS349D and CS375 had attendance requirements, CS224V occasionally required attendance, CS349H assignments were increasing, and CS238 quizzes still needed preparation. These observations concern 2023–2025; a different instructor or assessment format can change the workload.
 
-Source: [Course reflections from a Fall 2023 entrant](https://www.1point3acres.com/bbs/thread-1139652-1-1.html), published August 1, 2025.
+### Leaving time for what you came to do
+
+For research, courses around a common topic can help you build relevant knowledge. For recruiting, avoid putting several major course projects in the same busy interview period. Group projects are especially hard to schedule entirely on your own: your free hours may not match your teammates'. Put project deadlines and interview preparation on the same calendar rather than judging the term only by the number of courses.
+
+The schedule does not have to be equally intense every quarter. Take demanding foundations when you can give them attention, then choose a lighter combination during recruiting. That is a practical use of MSEE's flexibility.
+
+### Internships and CPT: October 2026 update
+
+**An internship is not a universal MSEE graduation requirement, and non-required CPT is currently paused.** The EE290 series offers internship credit, which does not make an internship compulsory for the degree. As of October 11, 2026, Bechtel still states that CPT not required for degree completion is paused. The older approach of finding a summer internship and registering for an internship course should not be treated as an available authorization route.
