@@ -46,3 +46,17 @@ Oracle and Nvidia are particularly fond of recruiting from Stanford.
 4. UCLA EE undergrad, landed AWS intern
 
 5. UW EE undergraduate, pre-master’s full-time experience at Siemens Healthineers; Microsoft EE intern in 2023, Microsoft EE full-time in 2024.
+
+## Student experience and course planning
+
+A student who entered in Fall 2023 with an NLP/ML background described some project-based or seminar courses as relatively manageable in a 2025 retrospective, including experiences with CS224V and CS329T. That assessment reflects the author's preparation; it does not establish that these courses are easy for everyone.
+
+When balancing coursework with recruiting, check prerequisites, projects, exams, and attendance requirements. The assessment formats and petition experiences in the post describe past arrangements and may change between academic years.
+
+Questions to check before choosing the program or courses:
+
+- Which relevant courses will actually run, and do you have the required background?
+- Do their assessment, attendance, and project demands fit your recruiting schedule?
+- What are the current petition requirements for counting a course toward the degree?
+
+Source: [Course reflections from a Fall 2023 entrant](https://www.1point3acres.com/bbs/thread-1139652-1-1.html), published August 1, 2025.
