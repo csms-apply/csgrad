@@ -53,3 +53,17 @@ No extra charge for overloading — beyond 12 credits it is free. If you have th
 # How to Prepare for Internship Hunting After Arriving at GT
 
 ![Georgia Tech ECE internship, co-op and full-time planning paths](/img/en/gtecetimeline.svg)
+
+## Student experience and program fit
+
+In a July 2022 retrospective, a Fall 2020 entrant described flexible course selection but fewer actual offerings than the course catalog might suggest. Distinguish courses that are permitted from courses available in your intended semester before assuming you can build a particular schedule.
+
+The author recommended contacting faculty early for TA/RA roles and research opportunities. Early outreach is preparation, not a guarantee of a position, funding, or tuition coverage. For your own housing decision, also compare commute times and transport options.
+
+Questions to check before enrolling:
+
+- Which relevant courses have run recently, and what is planned for the next academic year?
+- What are the application timelines, requirements, and funding terms for TA/RA positions?
+- Are faculty of interest taking master's students for research, and is the commute from your housing options practical?
+
+Source: [ECE reflections from a Fall 2020 entrant](https://www.1point3acres.com/bbs/thread-911223-1-1.html), published July 13, 2022. The post describes historical experiences; confirm course offerings and funding arrangements for your application year.
