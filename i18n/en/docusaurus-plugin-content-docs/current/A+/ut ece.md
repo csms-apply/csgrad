@@ -15,6 +15,8 @@ If you have a strong GPA or solid research in software engineering, it's worth a
 
 ## Internship & Delayed Graduation
 
+> **October 11, 2026 update:** The earlier internship arrangements below are preserved. Internships are not required for the ECE degree, and published CPT rules have tightened; these experiences do not establish current eligibility for two US internships. See the update at the end.
+
 You can extend to 2.5 years, giving you two opportunities for US internships, which is excellent, and it's also very affordable. The school supports semester-long internships (e.g., Snowflake, TikTok, Amazon, Tesla), though not many companies open co-op positions. Free campus rides after 11 PM.
 
 ## TA/RA Opportunities
@@ -36,16 +38,22 @@ Job prospects are also very favorable, mainly because you can extend graduation,
 2. UT Austin ECE undergrad, GPA 3.98 (top 10%), landed AMD new grad
 3. UT Austin ECE bachelor’s, two LinkedIn internships before enrollment, Databricks SWE intern while studying SES in 2026.
 
-## Student perspective: flexibility still needs a plan
+## Courses: a solid route into systems
 
-One Spring 2022 entrant wrote both the [first-semester account (March 27, 2022)](https://www.1point3acres.com/bbs/thread-874326-1-1.html) and the [later update (May 1, 2023)](https://www.1point3acres.com/bbs/thread-992137-1-1.html). These are one person's evolving experience, not independent outcome samples.
+SES can support a CS-heavy schedule. In Spring 2022, EE 461S Operating Systems paired OSTEP with PintOS labs, while EE 460N Computer Architecture built an LC-3b assembler and simulator, adding virtual memory and pipelining. These are appealing courses for filling gaps in an undergraduate systems background, but taking both means a busy semester.
 
-The early account describes substantial OS and computer-architecture assignments, flexible course selection and limited offerings in a given semester. The update describes assistantships and individually arranged graduation and internship plans. The author's admission and student-status circumstances were unusual; those arrangements should not be assumed available to every MS student.
+Flexible enrollment does not mean an unlimited course catalog. CS classes can be available to ECE students, with lower priority than CS majors; seats and offerings vary. Start with the worthwhile courses actually running that term, then leave room for interview preparation. Combining demanding systems courses, research and fall recruiting in one semester can make a good-looking schedule difficult to manage.
 
-Before enrolling:
+## Assistantships and recruiting
 
-- Map prerequisites, course availability and recruiting deadlines together.
-- Budget without assistantship funding until an appointment and its benefits are confirmed in writing.
-- Ask the program and international office to confirm your own graduation and internship eligibility, especially for spring entry.
+The 2022–2023 experience includes three consecutive semesters of RA/TA work with tuition support and pay, including work outside ECE. Student status matters: the higher CS TA pay tier in that case depended on doctoral status. A regular master's budget should not assume the same package. Research and grading also take time that must fit alongside courses.
 
-These historical accounts do not establish current policy or a program-wide placement rate.
+School reputation does not automatically produce interviews. The 2022 career-fair experience included a hardware-heavy ECE event and a limited selection of software employers at the CS event. Software recruiting still required independent applications and preparation. A small program can feel less competitive, but it may also offer fewer classmates to share a daily interview-preparation routine.
+
+## Everyday life in Austin
+
+The 2022–2023 picture was closer to a university town than a major metropolis: hot summers and fewer Chinese dining and entertainment options. Commute and lease dates have a more immediate effect on student life than announcements of companies moving into town. An internship elsewhere or a changed graduation date can leave a year-long lease to sublet. Use current housing offers and funding letters for a budget; historical rent and pay figures are background only.
+
+## CPT: historical arrangements need a fresh check
+
+As of October 11, 2026, Texas Global's public requirements emphasize practical training that is necessary for every student's degree completion. ECE explicitly describes internships as optional for the degree. Registering for an x97M internship course therefore does not establish current CPT eligibility, and no announcement was found making SES internships mandatory or confirming a general resumption. Historical semester-time internships and extended graduation plans still require ECE and ISSS review for any current CPT arrangement.
