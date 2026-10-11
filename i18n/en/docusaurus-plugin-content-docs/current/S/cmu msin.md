@@ -58,26 +58,20 @@ The PhD pathway is also strong, with admits to Columbia PhD, CMU PhD, and Yale P
 
 [![CMU MSIN continuing-education destinations; open full size](/img/en/msintophd.png)](/img/en/msintophd.png)
 
-## The Fall 2024 experience: leave room around the systems courses
+## Courses and workload
 
-### Systems students will find more courses than they can comfortably fit
+MSIN's course selection is very appealing if you like systems. The 24-unit Systems Core lets you choose among database, storage, OS, and related options alongside distributed systems. The preparation in 14-513 matters: C, memory, and debugging do not become easier just because you are a master's student.
 
-MSIN's 24-unit Systems Core suits students interested in lower-level computing: database, storage, or operating systems coursework can accompany distributed systems. Those choices remain in the 2026–2027 curriculum. Complete the preparation in 14-513 early. Later courses expect you to read C, understand memory, and spend time finding bugs.
+Database Systems, 15-645, covers storage, indexes, query execution, and concurrency control. OS, 15-605, goes deeper: projects involve a thread library and kernel, with repeated redesign and debugging. Staff also assess code design and error handling. Admission to OS considers preparation; its waitlist is not first come, first served.
 
-Choose courses by what you want to build. Database Systems, 15-645, covers storage, indexing, query execution, and concurrency control. It is a natural choice if you want to understand how a database works internally. Operating System Design and Implementation, 15-605, needs a larger commitment. Admission considers systems preparation, and the waitlist is not first come, first served. Taking a substantial systems elective beforehand is useful preparation. Being able to register does not mean the background work is already done.
+Cloud Computing, 15-619, is more deployment-focused. The team project involves running a service and improving throughput within a limited budget. Getting the code to run is only the beginning: load testing, tuning, and teamwork follow. Credit counts do not tell you much about that workload.
 
-### Leave recruiting time around the large projects
+## Recruiting and life
 
-Cloud Computing, 15-619, offers a useful example from the 2024–2025 experience: teams deploy a service and improve throughput within a budget. The work includes coordination, load testing, and performance debugging as well as implementation. Credit counts alone do not capture that commitment.
+CMU's employer events and tech talks are worth attending; some collect resumes directly. INI alumni and job or referral posts on Slack are useful too. Substantial projects give you material for interviews, but labs compete with recruiting for time. Demanding coursework does not remove the need for coding interview practice.
 
-Spread the demanding courses across the degree before adding recruiting and interview plans. If you want to devote a semester to OS, resist adding every other major project course on your list. Having uninterrupted time to understand one substantial project can be more useful than rushing through several. It also gives you something concrete to discuss in interviews: design decisions, failures, and the reasoning behind your fixes.
+Pittsburgh is relatively quiet, and campus-area living with bus access can work without a car. Students wanting big-city entertainment may find it dull. For someone focused on studying systems, that can be a good fit.
 
-### Make time for recruiting events and for ordinary life
+## CPT — October 11, 2026
 
-The Fall 2024 experience points to employer events, technical talks, and alumni connections as worthwhile uses of time. Some talks collect resumes. A short explanation of your project gives a conversation more substance: what you owned, how you checked the results, and what still needs work.
-
-Daily life in Pittsburgh can revolve around campus and buses without requiring a car. It is quieter than New York or Seattle, which can suit a study-focused routine. The more exhausting combination is coursework, recruiting, and constantly hearing about other people's interviews. Keep time for cooking, exercise, and conversations that have nothing to do with applications.
-
-### Internship update: October 11, 2026
-
-Internships are optional in both current Standard and Advanced programs; the latest MS38 handbook identifies a three-unit elective. Required internships in the old Applied options do not apply to today's program. Since August 27, 2026, CMU OIE has required training to be necessary for every student to graduate, so an ordinary MSIN elective internship currently does not provide a CPT route; U.S. internships require another applicable work authorization.
+Internships are optional in current Standard and Advanced programs. The MS38 handbook lists a three-unit elective; the old Applied internship requirement does not carry over. Since August 27, 2026, OIE has required CPT training to be necessary for every student to graduate. Ordinary MSIN elective internships currently do not meet that route's requirements; U.S. internships need another applicable work authorization.
