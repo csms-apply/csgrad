@@ -42,16 +42,26 @@ If your GPA isn't particularly high, consider applying to UW EE PMP. It's a grea
 
 **25 Fall threshold has clearly risen. Many applicants with high GPAs and high rankings from CS backgrounds were rejected, possibly due to being overqualified. There were even cases of CMU MSIN admits being rejected by UW EE PMP. The days of using UW EE PMP as a safety school are over. It is strongly recommended to find another safety school option.**
 
-## Student experience and program fit
+## The Fall 2024 experience: a job-focused master's in Seattle
 
-In an April 2025 post, a Fall 2024 entrant highlighted peer support during recruiting and opportunities to connect with employers in Seattle. The author also reported asking the advisor and international office about combining evening classes with a fall internship. That historical consultation do not establish internship availability, CPT eligibility, or a program-wide employment rate.
+### Evening classes leave a useful block of daytime hours
 
-The author was more reserved about course depth, research opportunities, and TA/RA positions, and noted expensive rent and rainy winters. Research-oriented applicants should investigate those opportunities directly; employment-focused applicants should also budget for living costs and scheduling constraints.
+PMP's schedule works well for students who need daytime hours for recruiting. Classes generally start at 4:30 or 6:30 p.m. on weekdays, leaving room for applications, interview preparation, and personal projects. Recruiting was also a common topic in the Fall 2024 experience, making it easier to exchange openings and find coding practice partners.
 
-Questions to check before enrolling:
+That freedom needs a routine. Without daytime classes, a morning can disappear into browsing job boards without many applications or much actual practice. Give applications and interview preparation separate time slots, then plan for evening classes and assignments. Much of PMP's appeal lies in how you use that time.
 
-- Do the current courses and class times fit your technical goals and recruiting schedule?
-- What are the eligibility requirements and actual openings for research and TA/RA work?
-- Can you afford the housing and commute? If planning a fall internship, how does the university assess eligibility?
+### There are software courses, but choose the depth you need
 
-Source: [Program reflections from a Fall 2024 entrant](https://www.1point3acres.com/bbs/thread-1122376-1-1.html), published April 5, 2025.
+A software-focused schedule does not need to be full of circuits. The 2024–2025 offerings included data structures and algorithms, computer vision, deep learning, LLMs, and GPU courses. Fall 2026 continues to offer algorithms, vision, systems security, and GPU computing. Match courses to your preparation and target roles instead of stacking unfamiliar AI topics simply because their titles sound current.
+
+PMP is a coursework program with no degree thesis requirement. Students can seek research through EE P 599, with up to eight credits counting toward graduation. If a PhD is already the goal, the traditional daytime program's thesis route is more direct. Do not make TA or RA income a default part of the budget. A schedule that works for recruiting may not offer the concentrated research experience another student wants.
+
+### Seattle brings opportunities and recurring expenses
+
+The city offers technology employers, performances, sports, and nearby outdoor activities. The Fall 2024 experience was positive about local recruiting opportunities and much less enthusiastic about rainy winters and everyday expenses. Eating out and taking rides add up alongside rent.
+
+When choosing housing, include the trip home after evening classes. Lower rent farther away may lose its appeal if it leads to frequent paid rides. Budget to complete the program without internship earnings, then adjust after securing work. An extra recruiting season also means additional housing and living costs.
+
+### Internship update: October 11, 2026
+
+PMP has a CPT application route: the program FAQ explicitly describes international students' eligibility and internship credit through ENGR 601. Internships remain elective in the published degree requirements; whether an internship is mandatory and whether a program supports CPT applications are separate questions. As of October 11, 2026, the program page and ISS's university-wide policy guidance differ. Arrange the course, internship dates and required documents through the current process provided by the PMP adviser and ISS.
