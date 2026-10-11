@@ -1,9 +1,9 @@
 # CMU ECE
 
 ## Program Overview
-As checked on October 11, 2026, the official [Standard Program](https://www.ece.cmu.edu/academics/ms-ece/standard-program.html) spans three semesters and 97 units. The regular coursework path comprises 60 ECE core units, 24 CIT elective units, 12 General Technical Elective units, and the one-unit 18-989 introduction. The Intensive Project Option has separate research-credit substitutions.
+> **October 11, 2026 update:** Standard now spans three semesters and 97 units: 60 ECE core, 24 CIT electives, 12 General Technical Elective and a one-unit introduction. The earlier account below is preserved; its 96-unit total is outdated.
 
-The published [2025–2026 Pittsburgh MS handbook](https://www.ece.cmu.edu/_files/academics/ms-pgh-catalog-handbook.pdf) requires at least 36 units each semester and recommends 37 in the first semester including the introduction. This is not a 2026–2027 handbook; incoming students should confirm the rules applicable to their cohort with an advisor.
+The program takes a minimum of 1.5 years and a maximum of 2 years, with no extensions allowed. Each semester requires a minimum of 36 units and allows a maximum of 48 units. A full-semester course is 12 units, and a mini course (half-semester) is 6 units. Graduation requires 96 units, of which 60 must be core courses and 36 are electives.
 
 The ECE track itself leans toward lower-level/hardware topics, but since CMU is a major hub for career changers to CS, ECE also offers many CS-heavy course options. If you want to transition into software, the course selection is absolutely feasible -- you can even build a schedule that's more pure-CS than an actual CS Master's. But that also means you should be mentally prepared for CMU's notoriously brutal coursework. Although there is an SCS credit limit, you can still take purely CS courses. Many ECE courses are cross-listed with the CS department, such as 18613 and 15513 (CSAPP), 18741 (Computer Networks), ACC, Storage Systems, etc. -- all of which don't count against your SCS credit limit. The ECE department offers a very large number of courses -- roughly three times what INI offers -- about one-third systems courses, one-third ML courses, and one-third hardware courses. So I don't think ECE course selection is more restrictive than INI. Worth noting is that software engineering courses are somewhat lacking -- currently I've only found Intro to SE and Full Stack. Also, CMU's workload is very heavy. I had a solid CS foundation from undergrad and still regularly pulled all-nighters on labs. Career changers to CS may find it quite challenging.
 
@@ -47,12 +47,30 @@ The biggest difference between grad school and undergrad is that you need to sta
 
 ## Transferring to PhD
 
-Master's coursework and research can support a later PhD application, but faculty interest does not constitute an automatic transfer. The official [Incoming MS FAQ](https://www.ece.cmu.edu/academics/incoming-ms-faq.html) states that direct transfer from MS ECE to PhD ECE is not currently available. Professional MS students must submit a formal PhD application by the deadline and undergo admissions review. The department recommends completing at least two master's semesters before entering the PhD so coursework and project performance can be evaluated (checked October 11, 2026).
+> **October 11, 2026 update:** The current official FAQ does not offer a direct MS ECE to PhD ECE transfer. Master's students must submit a formal PhD application for admissions review. The earlier research experiences below are preserved, but do not establish a current direct-transfer route.
 
-## Fall 2026 perspective: check course and internship plans early
+For those interested in pursuing a PhD, I think ECE is an excellent choice. Many CS department professors are cross-listed with the ECE department (which also makes internal PhD transfers possible -- ECE master's students who meet the requirements can theoretically transfer to PhD status. Two friends I know are currently pursuing this path, but you can only transfer to a professor who is cross-listed with ECE. For example, if you've been doing research under an RI professor who is also cross-listed with ECE, and that professor agrees and you meet the requirements, you can transfer to an ECE PhD and work in the same lab as RI students). The program also allows replacing two courses per semester with research credits. Overall, I think it's a great option for those interested in research.
 
-A Fall 2026 entrant reported frustration with cross-school courses, program transfers, and internship support, while describing a personal circle oriented toward IC and hardware. This is one student's early experience. The post gives inconsistent SCS course counts, so it cannot establish a course limit. [Source: 1Point3Acres, September 22, 2026](https://www.1point3acres.com/bbs/thread-1190399-1-1.html).
+## Fall 2026: what studying ECE actually asks of you
 
-For a software career, map intended courses to offering terms, registration conditions, cross-listed numbers, and degree categories. The Standard program distinguishes credits counted toward graduation from additional coursework; a degree-credit allowance does not by itself define how many courses a student can take. Ask the program advisor and OIE to confirm internship eligibility, required course enrollment, authorized dates, and graduation timing in writing for the specific track and cohort. One student's dissatisfaction does not establish a universal policy.
+### Build a software course plan you would want to follow
 
-Official references checked October 11, 2026: [Standard degree requirements](https://www.ece.cmu.edu/academics/ms-ece/standard-program.html) and [OIE CPT guidance](https://www.cmu.edu/oie/employment/f1-students/curricular-practical-training.html).
+ECE can support a software career, particularly if systems, networking, and computer architecture interest you. The complication is that a course you want to take may not satisfy the degree. The regular Standard curriculum requires 97 units, with only 12 units of General Technical Electives; most of the remaining coursework belongs within ECE and the College of Engineering. Start with relevant cross-listed courses carrying ECE numbers, such as Storage Systems, 18-746, and save the general elective space for outside courses you particularly want.
+
+Additional coursework can expand your options, but it takes time and does not replace the required categories. Applicants interested mainly in application development may overestimate how much of CMU's famous CS curriculum fits their degree. Draft a three-semester schedule and look at the projects you would actually want to finish.
+
+### Hardware and software students may have different daily priorities
+
+IC design, Verilog, EDA, and architecture featured prominently in the Fall 2026 student experience. That environment fits chip designers well. Students targeting SDE roles may need to find their own coding interview and mock interview partners rather than assume their classmates share the same plans.
+
+Treat the admission offer as admission to that particular program. AIE-ECE and regular ECE have different academic structures, and an attempted move from AIE-ECE to regular ECE was unsuccessful. Choose a program whose existing curriculum you can accept, without depending on a later transfer.
+
+### Budget time and money for all three semesters
+
+CMU's systems courses make it tempting to take everything. Career changers will have an easier time with demanding projects after building confidence in C/C++, computer systems, and debugging. Applications, coding assessments, and interviews also need scheduled time; they cannot all wait until the homework is finished.
+
+Avoid estimating tuition by multiplying a price by eight major courses. Standard lasts three semesters, and the published 2025–2026 Pittsburgh handbook requires at least 36 units each semester. Budget for the complete program rather than count on savings from a lighter final semester. Students wanting sustained research can consider the Intensive Project Option, which lets research replace some coursework requirements, but research needs substantial time too.
+
+### Internship update: October 11, 2026
+
+An internship is not required to graduate from Standard; 18-994 is a three-unit elective. CMU OIE's August 27, 2026 update limits CPT to training required for every student to graduate, so an ordinary elective internship does not currently qualify. Students needing authorization for a U.S. internship must obtain an applicable alternative, such as pre-completion OPT.
