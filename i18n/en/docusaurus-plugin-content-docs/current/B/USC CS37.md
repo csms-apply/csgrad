@@ -21,3 +21,15 @@ Average, mainly relying on Amazon to extend offers.
 4. Indian classmate, no internship, landed Amazon intern
 5. Xidian University CS, no internship, landed a small company intern
 6. Indian classmate, one year full-time, landed Amazon intern and successfully converted to full-time
+
+## Historical CS28 accounts: plan coursework around recruiting
+
+These accounts concern the general CS master's, not Scientists and Engineers. CS28 is the historical label used by the authors; check the requirements for your own entering cohort.
+
+A [Spring 2020 entrant writing in February 2022](https://www.1point3acres.com/bbs/thread-850607-1-1.html) distinguished practical web projects from demanding systems courses. A [Spring 2024 entrant writing in December 2025](https://www.1point3acres.com/bbs/thread-1159284-1-1.html) valued algorithms and protected recruiting time. Course titles alone do not reveal the instructor, assessment format or what you will gain.
+
+For your own decision:
+
+- Inspect project requirements against gaps in your experience, rather than collecting introductory projects you can already build.
+- Do not extrapolate the optimistic 2022 hiring account to today's market. The 2025 account describes a different search experience; neither is a placement study.
+- Compare housing and transport costs alongside tuition. Identify the events and alumni contacts you would actually use rather than assuming an LA address generates interviews.
