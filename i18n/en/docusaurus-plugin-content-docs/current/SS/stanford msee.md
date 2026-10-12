@@ -49,18 +49,18 @@ Oracle and Nvidia are particularly fond of recruiting from Stanford.
 
 ## Courses and workload
 
-MSEE gives CS-background students considerable room to build a software / hardware schedule. Petitions can place relevant CS courses into depth and breadth categories, so adviser approval matters. The 45 units still have to fit the degree requirements; collecting enough credits alone is not enough.
+MSEE is very flexible. Students with a CS background can build a mostly software or mostly hardware schedule, and plenty of CS courses can be petitioned into depth / breadth. Petitions need adviser approval, so the adviser matters a lot here. The degree is 45 units, and those units have to land in the right requirement categories; hitting the total alone isn't enough to graduate.
 
-Project-based courses are worth a look if recruiting or research is your main focus. Familiar NLP / ML topics can be manageable for students already working in the area. Career changers should expect a different workload.
+If recruiting or research is your main focus, project-based courses are a good fit. Students already working in NLP / ML will find familiar topics much easier; career changers shouldn't use that experience to estimate their own workload.
 
-Course feedback from 2023–2025, from an NLP / ML background:
+Workload from 2023–2025, from an NLP / ML background:
 
-- MS&E338, CS329T, CS224V and CS329A were in the lighter group, with reported workloads under three hours a week and less for MS&E338. CS224V occasionally required attendance.
-- CS229S, CS349D, CS349H, CS375 and CS238 were somewhat busier, with reported workloads under five hours a week. CS349D and CS375 required attendance, and CS349H was adding assignments.
-- CS238 quizzes still needed preparation; the course's lighter reputation did not mean there was nothing to study.
+- Lighter group: MS&E338, CS329T, CS224V and CS329A, under 3 hours a week at the time, and even less for MS&E338. CS224V occasionally required attendance.
+- Somewhat busier: CS229S, CS349D, CS349H, CS375 and CS238, under 5 hours a week at the time. CS349D and CS375 had attendance, and CS349H was adding assignments later on.
+- CS238's quizzes are still a bit annoying. A light reputation doesn't mean you can skip reviewing.
 
-MSEE can be demanding or fairly manageable depending on the schedule. Recruiting-focused students do not have to stack major courses every quarter, while research-focused students can look for projects close to their interests. These are historical workload estimates; instructors and assignments change.
+So MSEE can be as hardcore or as comfortable as you make it. Recruiting-focused students don't need to stack heavy courses every quarter; research-focused students can pick courses whose projects sit close to their own area. These are past numbers, and new instructors or assignments will change the workload.
 
 ## CPT
 
-October 11, 2026 update: **Stanford currently pauses non-required CPT.** MSEE's EE290 internship course is elective, rather than an internship every student must complete to graduate. Registering for it alone does not preserve the older CPT route.
+October 11, 2026 update: **Stanford currently pauses non-required CPT.** MSEE's EE290 internship course is an elective, not an internship every student must complete to graduate, so registering for it alone no longer gets you CPT the old way.

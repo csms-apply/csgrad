@@ -49,18 +49,18 @@ oracle、nvidia非常喜欢招stanford的。
 
 ## 选课和 wld
 
-MSEE 的选课自由度确实高，cs bg 的同学可以往 software / hardware 方向排，很多 CS 课能通过 petition 放进 depth / breadth。这里 advisor 很重要，petition 批下来，课表才算真的能用。45 units 怎么分配要自己弄清楚，不能最后学分修够了，毕业要求没凑齐。
+MSEE 选课很自由，cs bg 的同学基本可以排成偏 software 或偏 hardware 的课表，不少 CS 课都能 petition 进 depth / breadth。petition 要 advisor 批，所以 advisor 这一环挺关键。毕业是 45 units，学分修满不代表毕业要求都凑齐了，各个类别要分别对上。
 
-想把时间放在找工或者科研上，可以看看 project 为主的课。已经在做 NLP / ML 的同学，选到熟悉的方向会轻松不少；刚转码的同学就别照着这个体感估自己的 wld。
+找工或者做科研为主的话，project 为主的课比较合适。本来就在做 NLP / ML 的同学，选自己熟的方向会轻松很多；刚转码的同学别直接拿这个体感估自己的 wld。
 
-2023—2025 年的修课反馈，偏 NLP / ML 背景：
+2023—2025 年 NLP / ML 背景的修课体感：
 
-- MS&E338、CS329T、CS224V、CS329A 属于比较轻松的一组，当时体感每周不到 3h，MS&E338 更少。CS224V 偶尔有 attendance。
-- CS229S、CS349D、CS349H、CS375、CS238 稍忙一些，当时体感每周不到 5h。CS349D、CS375 有 attendance，CS349H 后来在加作业。
-- CS238 的 quiz 还是有点烦，不能看别人说轻松就以为完全不用复习。
+- 轻松档：MS&E338、CS329T、CS224V、CS329A，当时每周不到 3h，MS&E338 更少。CS224V 偶尔要 attendance。
+- 稍忙档：CS229S、CS349D、CS349H、CS375、CS238，当时每周不到 5h。CS349D、CS375 有 attendance，CS349H 后来在加作业。
+- CS238 的 quiz 还是有点烦，名声轻松也得复习一下。
 
-所以 MSEE 可以读得很硬核，也可以把课表排得比较舒服。找工向的话，没必要每个 quarter 都给自己叠满大课；科研向可以让课程 project 和自己的方向接近一点。上面是往届课表，新学期换老师、换作业以后 wld 会变。
+所以 MSEE 可以读得很硬核，也可以排得很舒服。找工向没必要每个 quarter 都叠满大课；科研向可以挑 project 和自己方向接近的课。上面是往届体感，换老师、改作业以后 wld 会变。
 
 ## CPT
 
-2026-10-11 更新：**Stanford 目前暂停非必修 CPT。** MSEE 的 EE290 实习课是选修，不是全体学生毕业都要做的实习，不能光靠注册这门课就按旧办法办 CPT。
+2026-10-11 更新：**Stanford 目前暂停非必修 CPT。** MSEE 的 EE290 实习课是选修，不是全体学生毕业都要做的实习，光注册这门课，已经不能按以前的办法办 CPT 了。
