@@ -57,3 +57,21 @@ Even for the class of 2024 during that brutal job market, new grad outcomes were
 The PhD pathway is also strong, with admits to Columbia PhD, CMU PhD, and Yale PhD.
 
 [![CMU MSIN continuing-education destinations; open full size](/img/en/msintophd.png)](/img/en/msintophd.png)
+
+## Courses and workload
+
+If you like systems, MSIN's schedule is genuinely great. The 24-unit Systems Core lets you pick from databases, storage, OS and similar areas, paired with distributed systems. 14-513 is the foundation for all of these: C, memory and debugging don't get any easier just because you're a master's student.
+
+15-645 Database Systems covers storage, indexes, query execution and concurrency control. 15-605 OS goes harder: the projects are a thread library and a kernel, and redoing your design and chasing bugs over and over is normal. Grading also looks at code design and error handling. OS enrollment screens for preparation too; the waitlist is not first come, first served.
+
+15-619 Cloud Computing is more engineering-flavored. The team project is deploying a service and pushing throughput as high as possible on a limited budget. Getting the code to run is only step one; load testing, tuning and working things out with teammates come after. You can't read that workload off the unit count.
+
+## Recruiting and life
+
+CMU's employer sessions and tech talks are worth going to, and some collect resumes directly. INI alumni and the job and referral posts on Slack are useful as well. Lots of project work gives you plenty to talk about in interviews; the cost is that labs and recruiting fight for the same hours, and hard coursework doesn't replace LeetCode practice.
+
+Pittsburgh is pretty quiet. With buses and everything around campus, you can get by without a car. People who want big-city entertainment may find it dull; if you want to focus on learning systems properly, it works well.
+
+## CPT — October 11, 2026
+
+Internships are now optional in both Standard and Advanced. The MS38 handbook lists a three-unit elective, and the old Applied program's required internship doesn't carry over. Since August 27, 2026, OIE has approved CPT based on whether training is required of every student to graduate, so ordinary MSIN elective internships don't currently fit that route. U.S. internships need some other applicable work authorization.

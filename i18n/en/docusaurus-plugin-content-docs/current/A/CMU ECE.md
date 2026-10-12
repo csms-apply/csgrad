@@ -1,6 +1,8 @@
 # CMU ECE
 
 ## Program Overview
+> **October 11, 2026 update:** Standard now spans three semesters and 97 units: 60 ECE core, 24 CIT electives, 12 General Technical Elective and a one-unit introduction. The earlier account below is preserved; its 96-unit total is outdated.
+
 The program takes a minimum of 1.5 years and a maximum of 2 years, with no extensions allowed. Each semester requires a minimum of 36 units and allows a maximum of 48 units. A full-semester course is 12 units, and a mini course (half-semester) is 6 units. Graduation requires 96 units, of which 60 must be core courses and 36 are electives.
 
 The ECE track itself leans toward lower-level/hardware topics, but since CMU is a major hub for career changers to CS, ECE also offers many CS-heavy course options. If you want to transition into software, the course selection is absolutely feasible -- you can even build a schedule that's more pure-CS than an actual CS Master's. But that also means you should be mentally prepared for CMU's notoriously brutal coursework. Although there is an SCS credit limit, you can still take purely CS courses. Many ECE courses are cross-listed with the CS department, such as 18613 and 15513 (CSAPP), 18741 (Computer Networks), ACC, Storage Systems, etc. -- all of which don't count against your SCS credit limit. The ECE department offers a very large number of courses -- roughly three times what INI offers -- about one-third systems courses, one-third ML courses, and one-third hardware courses. So I don't think ECE course selection is more restrictive than INI. Worth noting is that software engineering courses are somewhat lacking -- currently I've only found Intro to SE and Full Stack. Also, CMU's workload is very heavy. I had a solid CS foundation from undergrad and still regularly pulled all-nighters on labs. Career changers to CS may find it quite challenging.
@@ -45,4 +47,24 @@ The biggest difference between grad school and undergrad is that you need to sta
 
 ## Transferring to PhD
 
+> **October 11, 2026 update:** The current official FAQ does not offer a direct MS ECE to PhD ECE transfer. Master's students must submit a formal PhD application for admissions review. The earlier research experiences below are preserved, but do not establish a current direct-transfer route.
+
 For those interested in pursuing a PhD, I think ECE is an excellent choice. Many CS department professors are cross-listed with the ECE department (which also makes internal PhD transfers possible -- ECE master's students who meet the requirements can theoretically transfer to PhD status. Two friends I know are currently pursuing this path, but you can only transfer to a professor who is cross-listed with ECE. For example, if you've been doing research under an RI professor who is also cross-listed with ECE, and that professor agrees and you meet the requirements, you can transfer to an ECE PhD and work in the same lab as RI students). The program also allows replacing two courses per semester with research credits. Overall, I think it's a great option for those interested in research.
+
+## More on course selection
+
+ECE fits people who like systems, architecture and hardware best. The software route works too, but cross-department course selection is not "get into CMU, take any famous course you want." Standard now requires 97 units: 60 ECE core, 24 CIT electives, 12 general technical electives, plus a one-unit intro. Storage Systems has an ECE cross-listing, 18-746, so it fits straight into an ECE schedule. For pure SCS courses, getting a seat and counting the course toward graduation are two different things, and extra courses don't cover a missing requirement category.
+
+## Workload and program fit
+
+If application development is all you want, ECE's low-level courses can be painful. If you like IC design, Verilog and EDA, it's a natural fit. Hardware and software recruiting also take different prep: classmates talking chips all day won't necessarily be your LeetCode partners.
+
+Don't count on transferring programs as a backup; there's a data point of a rejected move from AIE-ECE to regular ECE. Research, on the other hand, has a formal route: the Intensive Project Option, 36 units of research over two stages that replace part of the coursework. Stage one is 12 units and starts no earlier than the second semester, followed by 24 units the next semester. It suits anyone who wants to dig deep into one topic.
+
+## Tuition
+
+"Graduate with eight major courses" doesn't mean paying for only eight courses. Standard lasts three semesters, and the published 2025–2026 Pittsburgh handbook requires at least 36 units every semester, so saving tuition with a light final semester is not something to count on.
+
+## CPT — October 11, 2026
+
+Standard doesn't require an internship; 18-994 is a three-unit elective. On August 27, 2026, OIE narrowed CPT to internships required of every student to graduate, so ordinary elective internships don't fit the current route. Pre-completion OPT is a separate work authorization that needs its own application and approval.
