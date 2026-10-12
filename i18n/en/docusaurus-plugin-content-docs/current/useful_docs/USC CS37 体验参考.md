@@ -7,20 +7,20 @@ description: USC Scientists and Engineers courses, workload, recruiting, campus 
 
 ## Program
 
-Scientists and Engineers is designed to give students from science and engineering backgrounds a CS foundation. Its 37 units include the four-unit 455x programming course, required in the first semester and separate from the other 33 degree units. It takes more time and tuition than the general MSCS, with a more explicit foundation sequence. There is no thesis option.
+CS37 is Scientists and Engineers, a program built to give people from science and engineering backgrounds a CS foundation. Its 37 units include the four-unit 455x programming course, required in the first semester and not counted toward the other 33 degree units. It costs more time and tuition than the general MSCS, and in exchange you get a much more clearly laid-out foundation path. There's no thesis option.
 
 ## Courses and workload
 
-455x comes before 402 OS. The foundation also includes 450 networks or 457 computer organization, plus required 570 algorithms. 402, 450 and 570 are useful for a switch into CS. 571 Web covers application development, while the relatively approachable 585 DB includes material useful in actual development.
+455x leads into 402 OS. The foundation also includes either 450 networks or 457 computer organization, and 570 algorithms is required. 402, 450 and 570 are genuinely useful for switching into CS. For application development, 571 Web is the pick; 585 DB looks easy but covers material you'll actually use in real development.
 
-A fairly light schedule is possible, but the required foundation takes a substantial share of the units. Elective freedom is narrower than the full CS catalog suggests. Lighter combinations popular with 2021–2022 entrants also depended on the instructor and course version.
+You can keep the overall schedule fairly light, but the required foundation eats a good chunk of the units, so electives are less free than the full CS catalog makes it look. The light combinations popular among 2021–2022 entrants also depended on the specific instructor and course version.
 
 ## Recruiting and campus jobs
 
-The program has a strong employment focus. Applications, coding practice and internship experience matter; career fairs have limited reach. Campus labs can offer coding work alongside the industry-internship route, and research vacancies circulate through university email. TA/RA income requires an available appointment. Honors-to-TA experiences from 2023 do not mean a particular GPA automatically earns a job.
+The program is strongly job-oriented: mass applications, LeetCode and internship experience matter a lot, and career fairs have limited reach. Beyond industry internships, campus labs also offer coding work, and RA openings go out through university email. TA/RA pay only comes with an actual position. There were honors-to-TA cases in 2023, but hitting a GPA bar doesn't automatically land you a job.
 
 ## Life and CPT
 
-LA offers a good lifestyle, with plenty of food in Koreatown and Chinese neighborhoods and many weekend options. Campus-area housing, Downtown LA and more distant locations involve different tradeoffs; the commute and car ownership make a substantial difference. Cost is the drawback: 37 units of tuition come with living expenses over a longer period.
+LA is a comfortable place to live, with lots of food in Koreatown and the Chinese neighborhoods and no shortage of weekend plans. Living near campus, in Downtown LA or farther out each comes with tradeoffs, and the commute and whether you have a car make a big difference. The downside is cost: on top of tuition for 37 units, you're paying living expenses for a longer stretch.
 
-As of October 11, 2026, USC recognizes only practical training required of all students in the program. CS37 has no published graduation requirement of this kind, and 597/598 do not count toward the degree, so two CPT internships should no longer be presented as a standard program benefit.
+As of October 11, 2026, USC only recognizes practical training required of all students in the program. CS37 has no published graduation requirement like that, and 597/598 don't count toward the degree, so "two CPT internships" can no longer be treated as a built-in perk of the program.
