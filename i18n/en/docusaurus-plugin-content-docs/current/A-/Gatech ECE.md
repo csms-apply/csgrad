@@ -58,20 +58,20 @@ No extra charge for overloading — beyond 12 credits it is free. If you have th
 
 ## More on courses and workload
 
-There is plenty of flexibility for software or hardware, but the schedule is not unrestricted. The non-thesis option requires nine credits of advanced ECE in each of Groups I and II, with Group II also subject to Technical Interest Area distribution rules. 6001 focuses on entrepreneurship and professional training rather than technical depth.
+The program is pretty flexible, and you can go software-heavy or hardware-heavy, but you can't piece together just any schedule. The non-thesis option requires nine credits of advanced ECE in each of Group I and Group II, and Group II also has Technical Interest Area distribution rules. 6001 is entrepreneurship and professional training, a different kind of course from the technical ones.
 
-Catalog entries do not mean a course runs every semester. In 2022, limited VLSI offerings in a particular term were already an issue. Actual availability matters if you want to concentrate in one area. Both lighter and demanding options exist; a hardware-project schedule can look very different from a software-transition schedule.
+Being in the catalog doesn't mean a course runs every semester; back in 2022, the VLSI area had very few courses to choose from in one term. If you want to concentrate in one area, what actually gets offered shapes your experience directly. There are light courses and hardcore ones, and a hardware-project schedule looks very different from a career-switch software schedule.
 
 ## TA / RA
 
-Master's students can pursue TA/RA appointments. Eligible appointments with the required registration provide pay and tuition waivers, and ECE permits positions outside the department. Hiring may happen before the previous semester ends, so asking just before the break can be too late. Research opportunities involve approaching faculty; moving into the PhD also requires an advisor, funding and the department's academic milestones.
+Master's students can go for TA and RA positions. Appointments that meet the hiring and registration requirements come with pay and tuition waivers, and ECE allows positions outside the department, so you're not limited to ECE. Hiring can wrap up before the previous semester ends, though, so asking right before the break can easily be too late. For research, reach out to professors about joining their group; moving into the PhD also takes an advisor, funding and the department's academic milestones.
 
 ## Recruiting and life
 
-Hardware, embedded systems and software are all possible destinations, including a move from ECE into software. Career fairs are another channel, not a replacement for regular applications. Continuing with prior hardware experience and starting SDE preparation from scratch are different paths.
+Hardware, embedded and software are all viable paths, and moving from ECE into software works too. Career fairs are useful but don't replace regular applications. Building on prior hardware experience and starting SDE prep from zero are two different routes.
 
-Campus or nearby housing can work without a car. Living farther away adds parking and commuting to the rent calculation. Atlanta rush-hour traffic can affect daily life, making the cheaper apartment less convenient than it looks. Dorm prices and benefits from 2022 are not current quotes.
+On campus or nearby, you can live without a car. Live farther out and you'll be driving, which adds parking and commuting on top of rent. Atlanta rush-hour traffic really affects daily life, so the cheaper apartment isn't always the easier one. Dorm prices and perks from 2022 are no longer a useful reference.
 
 ## CPT — October 11, 2026 update
 
-OIE is still reviewing CPT; Spring 2027 applications open October 19, and Fall 2026 extensions will not be approved. Internships are optional in the regular MS ECE, spring approval for ordinary internships remains unconfirmed, and internship audit credits do not count toward graduation. Earlier internship descriptions on this page should be read with this update.
+OIE is still reviewing CPT. Spring 2027 applications open October 19, and Fall 2026 extensions will not be approved. Internships are optional in the regular MS ECE, it's still unconfirmed whether ordinary spring internships will be approved, and internship audit credits don't count toward graduation. Read the older internship notes earlier on this page in light of this update.
