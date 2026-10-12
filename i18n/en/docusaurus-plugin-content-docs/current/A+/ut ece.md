@@ -40,20 +40,20 @@ Job prospects are also very favorable, mainly because you can extend graduation,
 
 ## Courses
 
-SES is very CS-oriented. ECE has its own systems courses, and students can also take CS courses, although they have lower priority and may need to wait for a seat. There are few restrictions, but the selection of demanding courses in a given semester is limited.
+SES is very CS-oriented. ECE has its own systems courses, and you can also take CS courses, though with lower priority, so expect to wait on the waitlist. There aren't many restrictions, but each semester offers only a limited number of demanding courses, and the one you want may not run that term.
 
-In Spring 2022, EE461S OS used OSTEP, with shell and PintOS labs covering user programs, virtual memory and file systems. EE460N Computer Architecture took more time: five homework assignments, three exams and six labs, building an LC-3b assembler and simulator through to pipelining. Taking both while doing research leaves a semester packed with assignments. Good systems training, substantial workload.
+In Spring 2022, EE461S OS used OSTEP, with labs writing a shell and PintOS covering user programs, virtual memory and file systems. EE460N Computer Architecture took even more time: five homework assignments, three exams and six labs, going from an LC-3b assembler and simulator all the way to pipelining. Taking both while doing an RA basically fills the whole semester with assignments. You come out with very solid systems fundamentals, and the workload is genuinely high.
 
-## Assistantships and recruiting
+## TA, RA and recruiting
 
-There is a 2022–2023 case of three consecutive semesters with tuition covered through RA/TA appointments, including TA work in CS. The $3,200 monthly pay in that case depended on doctoral status; it was not a standard MS package.
+There's a 2022–2023 data point of three consecutive semesters with tuition covered by RA/TA appointments, including TA work in the CS department. The $3,200 monthly pay in that case came with doctoral status, though; it isn't a standard MS package.
 
-Career fairs are no magic shortcut. The 2022 ECE fair was largely hardware-focused, while the CS fair included Bloomberg and Datadog. An employer attending does not mean an interview will follow. Software recruiting still takes independent applications. SES does give students room to choose lighter courses when recruiting is the priority.
+Career fairs aren't magic. In 2022 the ECE fair was mostly hardware companies, while the CS fair had Bloomberg, Datadog and others, but a company showing up on campus doesn't mean you'll get an interview. Software roles still mostly come from your own applications. What SES does give you is a flexible schedule: if recruiting is the priority, there's room to pick lighter courses and focus on the search.
 
 ## Life
 
-Austin summers are hot, and Chinese food and entertainment options were fairly limited in 2022–2023. Plenty of tech companies, but less going on than in New York or the Bay Area. A quieter routine centered on classes and recruiting is an easier fit here.
+Austin summers are hot, and Chinese food and entertainment options were fairly limited in 2022–2023. There are plenty of tech companies, but life isn't as rich as in New York or the Bay Area. People who like a quieter routine centered on classes and recruiting will settle in more easily.
 
 ## CPT — updated October 11, 2026
 
-The old idea that registering for an internship course is enough no longer works. Texas Global requires practical training to be necessary for every student's degree completion, while ECE explicitly says internships are not a degree requirement. Taking x97M does not establish current CPT eligibility. No announcement was found making SES internships mandatory or confirming a general resumption; ECE and ISSS must review individual applications.
+The old idea that signing up for a CPT course is enough to intern no longer holds. Texas Global requires practical training to be a necessary part of every student's degree completion, while ECE explicitly says internships are not a degree requirement. Taking x97M doesn't establish current CPT eligibility, and no announcement has been found making SES internships mandatory or confirming a general resumption. Individual applications are still reviewed by ECE and ISSS.
