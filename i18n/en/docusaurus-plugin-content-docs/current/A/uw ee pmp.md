@@ -44,16 +44,16 @@ If your GPA isn't particularly high, consider applying to UW EE PMP. It's a grea
 
 ## Courses and workload
 
-PMP works well for job-focused students. Weekday classes start at 4:30 or 6:30 p.m., leaving daytime hours for interviews and personal projects. There are enough software options to build around algorithms, CV, deep learning, LLMs, and GPU computing without focusing on circuits. Fall 2026 continues to offer algorithms, vision, systems security, and GPU computing; access to CSE courses need not be the basis of a software-heavy schedule.
+PMP is very friendly for job seekers. Weekday classes start at 4:30 or 6:30 p.m., leaving whole days free for interviews and your own projects. There are plenty of software courses, including algorithms, CV, deep learning, LLMs and GPU computing, so you can go full software and skip circuits entirely. Fall 2026 continues to offer algorithms, vision, systems security and GPU computing, so you can put together an all-software schedule even without getting into CSE courses.
 
-PMP is less straightforward for students who want extensive research. It is coursework-based with no thesis, although up to eight credits of EE P 599 independent research can count toward the degree. The traditional daytime program has a thesis route and a clearer research orientation. Most master's students in both programs are self-funded; most TA/RA positions go to PhD students with funding commitments.
+If you want to do a lot of research during the master's, PMP is less convenient. It's coursework-based with no thesis, and EE P 599 independent research counts for at most eight credits. The traditional daytime program has a thesis route and a clearer PhD orientation. Most master's students in both PMP and the daytime program pay their own way; TA/RA positions mainly go to PhD students with funding.
 
 ## Recruiting and life
 
-Students are generally focused on recruiting, which makes exchanging openings, coding assessments, and interview preparation easier. Seattle has employers such as Amazon and Microsoft, and in-person recruiting events are worth using. Living nearby does not, of course, deliver an offer automatically.
+Classmates are generally serious about recruiting, which makes trading openings, OA experiences and interview prep easy. Seattle has Amazon, Microsoft and more, and in-person recruiting events are worth going to, though living next door to big tech doesn't mean offers show up on their own.
 
-Seattle offers a full city experience: performances, sports, and outdoor activities beyond campus. The drawbacks are concrete too. Winters are rainy, and rent, eating out, and rides are expensive. It suits people who want city life and can tolerate the rain; cheap living is not a strong reason to choose it.
+Life-wise it's a full city experience: shows, sports and the outdoors, with plenty to do beyond campus. The downsides are real too: rainy winters, and rent, eating out and rides are all pricey. If you like city life and can put up with rain, you'll be comfortable; if cheap living is the goal, this isn't the place.
 
 ## CPT — October 11, 2026
 
-PMP has a CPT application route: its official FAQ still states student eligibility, and ENGR 601 provides internship credit. An internship is not mandatory for every student. Program guidance and ISS's general policy differ, so optional status alone is not enough to conclude that PMP cannot approve CPT; applications follow the latest PMP and ISS approval process.
+PMP does have a CPT application route: the official FAQ still says students are eligible, and ENGR 601 provides internship credit. The internship itself isn't required of every student, and the program's guidance differs from ISS's general policy, but optional status alone isn't grounds to conclude that PMP can't approve CPT. Approval follows the latest PMP and ISS process.
