@@ -53,18 +53,18 @@ For those interested in pursuing a PhD, I think ECE is an excellent choice. Many
 
 ## More on course selection
 
-ECE is a good fit for systems, architecture, and hardware. A software path is possible, but admission to CMU does not give you unrestricted access to every famous CS course. Standard now requires 97 units: 60 ECE core, 24 CIT electives, 12 general technical electives, and a one-unit introduction. Storage Systems has the ECE cross-listing 18-746 and can fit into an ECE schedule. Taking an SCS course and counting it toward graduation are separate matters; extra courses do not replace the required categories.
+ECE fits people who like systems, architecture and hardware best. The software route works too, but cross-department course selection is not "get into CMU, take any famous course you want." Standard now requires 97 units: 60 ECE core, 24 CIT electives, 12 general technical electives, plus a one-unit intro. Storage Systems has an ECE cross-listing, 18-746, so it fits straight into an ECE schedule. For pure SCS courses, getting a seat and counting the course toward graduation are two different things, and extra courses don't cover a missing requirement category.
 
 ## Workload and program fit
 
-The lower-level coursework can feel like a detour if application development is all you want. IC design, Verilog, and EDA are a much more natural fit. Hardware and software recruiting also require different preparation; classmates discussing chips will not necessarily be your LeetCode partners.
+If application development is all you want, ECE's low-level courses can be painful. If you like IC design, Verilog and EDA, it's a natural fit. Hardware and software recruiting also take different prep: classmates talking chips all day won't necessarily be your LeetCode partners.
 
-Do not count on transferring programs as a backup. There is a reported unsuccessful attempt to move from AIE-ECE to regular ECE. Research does have a formal route: the Intensive Project Option provides 36 units of research across two stages in place of some coursework. The first stage is 12 units and starts no earlier than the second semester, followed by 24 units the next semester. It suits students who want to work on one topic in depth.
+Don't count on transferring programs as a backup; there's a data point of a rejected move from AIE-ECE to regular ECE. Research, on the other hand, has a formal route: the Intensive Project Option, 36 units of research over two stages that replace part of the coursework. Stage one is 12 units and starts no earlier than the second semester, followed by 24 units the next semester. It suits anyone who wants to dig deep into one topic.
 
 ## Tuition
 
-“Eight major courses to graduate” does not mean paying only for eight courses. Standard lasts three semesters, and the published 2025–2026 Pittsburgh handbook requires at least 36 units each semester. Savings from taking fewer classes in the final semester are not something to assume.
+"Graduate with eight major courses" doesn't mean paying for only eight courses. Standard lasts three semesters, and the published 2025–2026 Pittsburgh handbook requires at least 36 units every semester, so saving tuition with a light final semester is not something to count on.
 
 ## CPT — October 11, 2026
 
-Standard does not require an internship; 18-994 is a three-unit elective. OIE's August 27, 2026 update limits CPT to internships required for every student to graduate. An ordinary elective internship does not meet that route's current requirements; pre-completion OPT is an alternative authorization requiring a separate application and approval.
+Standard doesn't require an internship; 18-994 is a three-unit elective. On August 27, 2026, OIE narrowed CPT to internships required of every student to graduate, so ordinary elective internships don't fit the current route. Pre-completion OPT is a separate work authorization that needs its own application and approval.
