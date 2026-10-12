@@ -59,20 +59,20 @@ ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表
 
 ![](/img/msintophd.png)
 
-## 選課和wld {#选课和wld}
+## 選課和 wld {#选课和-wld}
 
-喜歡systems的話，MSIN這個課表確實很香。24 units的Systems Core可以在數據庫、storage、OS等方向裡選，再搭分佈式。14-513就是後面這些課的基礎，C、內存和debug不會因為掛著master身份就自動變簡單。
+喜歡 systems 的話，MSIN 的課表是真的香。Systems Core 24 units，可以在數據庫、storage、OS 這些方向裡挑，再配上分佈式。14-513 是後面這些課的地基，C、內存、debug 這些東西不會因為你是 master 就變簡單。
 
-15-645數據庫會學存儲、索引、query execution和併發控制；15-605 OS更硬，project要做thread library和kernel，反覆改設計、查bug很正常，老師還會看代碼設計和error handling。OS選課也會篩基礎，waitlist不是按先來後到排。
+15-645 數據庫講存儲、索引、query execution 和併發控制。15-605 OS 更硬，project 要寫 thread library 和 kernel，設計推翻重來、反覆查 bug 都是常態，評分還會看代碼設計和 error handling。OS 選課本身也會篩基礎，waitlist 不是先到先得。
 
-15-619 Cloud Computing偏工程，team project是部署服務，在有限預算下把throughput做高。代碼能跑只是開始，後面還有壓測、調優和隊友協作，這種課的wld很難靠學分數看出來。
+15-619 Cloud Computing 偏工程，team project 是把服務部署起來，在有限預算裡把 throughput 往上做。代碼能跑只是第一步，後面壓測、調優、和隊友磨合都要花時間，這種課的 wld 光看學分是看不出來的。
 
 ## 找工和生活
 
-CMU的企業專場和tech talk值得去，有些活動會直接收簡歷；INI校友、Slack上的職位和內推信息也能用。項目多的好處是面試有東西講，代價就是lab和找工會搶時間，課上得硬不代表刷題就能省掉。
+CMU 的企業專場和 tech talk 值得去，有些活動會直接收簡歷；INI 校友，還有 Slack 上的職位和內推信息也都能用上。project 做得多，面試時有東西可聊；代價是 lab 和找工搶時間，課上得再硬，題還是得刷。
 
-匹茲堡生活比較安靜，公交加學校周邊的生活圈可以做到不買車。喜歡大城市娛樂的人會嫌悶，想專心學系統倒是合適。
+匹茲堡生活比較安靜，靠公交加學校周邊的生活圈，不買車也能過。喜歡大城市熱鬧娛樂的會覺得悶，想專心把系統學紮實倒是挺合適。
 
 ## CPT（2026-10-11）
 
-現在Standard和Advanced實習都非必修，MS38手冊寫的是3-unit選修，舊Applied的必修實習不能套過來。OIE自2026-08-27按全體學生畢業必需條件批CPT，普通MSIN選修實習目前不符合這條路徑，在美國實習需另獲適用工作授權。
+現在 Standard 和 Advanced 的實習都是非必修，MS38 手冊寫的是 3-unit 選修，舊 Applied 的必修實習套不過來。OIE 自 2026-08-27 起按“全體學生畢業必需”來批 CPT，普通 MSIN 選修實習目前不符合這條路徑；在美國實習需要另外拿到適用的工作授權。

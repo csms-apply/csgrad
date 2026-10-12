@@ -58,20 +58,20 @@ ini学院下面旗舰就业项目，可以拼出来跟cmu mscs差不多的课表
 
 ![](/img/msintophd.png)
 
-## 选课和wld
+## 选课和 wld
 
-喜欢systems的话，MSIN这个课表确实很香。24 units的Systems Core可以在数据库、storage、OS等方向里选，再搭分布式。14-513就是后面这些课的基础，C、内存和debug不会因为挂着master身份就自动变简单。
+喜欢 systems 的话，MSIN 的课表是真的香。Systems Core 24 units，可以在数据库、storage、OS 这些方向里挑，再配上分布式。14-513 是后面这些课的地基，C、内存、debug 这些东西不会因为你是 master 就变简单。
 
-15-645数据库会学存储、索引、query execution和并发控制；15-605 OS更硬，project要做thread library和kernel，反复改设计、查bug很正常，老师还会看代码设计和error handling。OS选课也会筛基础，waitlist不是按先来后到排。
+15-645 数据库讲存储、索引、query execution 和并发控制。15-605 OS 更硬，project 要写 thread library 和 kernel，设计推翻重来、反复查 bug 都是常态，评分还会看代码设计和 error handling。OS 选课本身也会筛基础，waitlist 不是先到先得。
 
-15-619 Cloud Computing偏工程，team project是部署服务，在有限预算下把throughput做高。代码能跑只是开始，后面还有压测、调优和队友协作，这种课的wld很难靠学分数看出来。
+15-619 Cloud Computing 偏工程，team project 是把服务部署起来，在有限预算里把 throughput 往上做。代码能跑只是第一步，后面压测、调优、和队友磨合都要花时间，这种课的 wld 光看学分是看不出来的。
 
 ## 找工和生活
 
-CMU的企业专场和tech talk值得去，有些活动会直接收简历；INI校友、Slack上的职位和内推信息也能用。项目多的好处是面试有东西讲，代价就是lab和找工会抢时间，课上得硬不代表刷题就能省掉。
+CMU 的企业专场和 tech talk 值得去，有些活动会直接收简历；INI 校友，还有 Slack 上的职位和内推信息也都能用上。project 做得多，面试时有东西可聊；代价是 lab 和找工抢时间，课上得再硬，题还是得刷。
 
-匹兹堡生活比较安静，公交加学校周边的生活圈可以做到不买车。喜欢大城市娱乐的人会嫌闷，想专心学系统倒是合适。
+匹兹堡生活比较安静，靠公交加学校周边的生活圈，不买车也能过。喜欢大城市热闹娱乐的会觉得闷，想专心把系统学扎实倒是挺合适。
 
 ## CPT（2026-10-11）
 
-现在Standard和Advanced实习都非必修，MS38手册写的是3-unit选修，旧Applied的必修实习不能套过来。OIE自2026-08-27按全体学生毕业必需条件批CPT，普通MSIN选修实习目前不符合这条路径，在美国实习需另获适用工作授权。
+现在 Standard 和 Advanced 的实习都是非必修，MS38 手册写的是 3-unit 选修，旧 Applied 的必修实习套不过来。OIE 自 2026-08-27 起按“全体学生毕业必需”来批 CPT，普通 MSIN 选修实习目前不符合这条路径；在美国实习需要另外拿到适用的工作授权。

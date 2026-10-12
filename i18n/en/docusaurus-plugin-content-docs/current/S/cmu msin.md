@@ -60,18 +60,18 @@ The PhD pathway is also strong, with admits to Columbia PhD, CMU PhD, and Yale P
 
 ## Courses and workload
 
-MSIN's course selection is very appealing if you like systems. The 24-unit Systems Core lets you choose among database, storage, OS, and related options alongside distributed systems. The preparation in 14-513 matters: C, memory, and debugging do not become easier just because you are a master's student.
+If you like systems, MSIN's schedule is genuinely great. The 24-unit Systems Core lets you pick from databases, storage, OS and similar areas, paired with distributed systems. 14-513 is the foundation for all of these: C, memory and debugging don't get any easier just because you're a master's student.
 
-Database Systems, 15-645, covers storage, indexes, query execution, and concurrency control. OS, 15-605, goes deeper: projects involve a thread library and kernel, with repeated redesign and debugging. Staff also assess code design and error handling. Admission to OS considers preparation; its waitlist is not first come, first served.
+15-645 Database Systems covers storage, indexes, query execution and concurrency control. 15-605 OS goes harder: the projects are a thread library and a kernel, and redoing your design and chasing bugs over and over is normal. Grading also looks at code design and error handling. OS enrollment screens for preparation too; the waitlist is not first come, first served.
 
-Cloud Computing, 15-619, is more deployment-focused. The team project involves running a service and improving throughput within a limited budget. Getting the code to run is only the beginning: load testing, tuning, and teamwork follow. Credit counts do not tell you much about that workload.
+15-619 Cloud Computing is more engineering-flavored. The team project is deploying a service and pushing throughput as high as possible on a limited budget. Getting the code to run is only step one; load testing, tuning and working things out with teammates come after. You can't read that workload off the unit count.
 
 ## Recruiting and life
 
-CMU's employer events and tech talks are worth attending; some collect resumes directly. INI alumni and job or referral posts on Slack are useful too. Substantial projects give you material for interviews, but labs compete with recruiting for time. Demanding coursework does not remove the need for coding interview practice.
+CMU's employer sessions and tech talks are worth going to, and some collect resumes directly. INI alumni and the job and referral posts on Slack are useful as well. Lots of project work gives you plenty to talk about in interviews; the cost is that labs and recruiting fight for the same hours, and hard coursework doesn't replace LeetCode practice.
 
-Pittsburgh is relatively quiet, and campus-area living with bus access can work without a car. Students wanting big-city entertainment may find it dull. For someone focused on studying systems, that can be a good fit.
+Pittsburgh is pretty quiet. With buses and everything around campus, you can get by without a car. People who want big-city entertainment may find it dull; if you want to focus on learning systems properly, it works well.
 
 ## CPT — October 11, 2026
 
-Internships are optional in current Standard and Advanced programs. The MS38 handbook lists a three-unit elective; the old Applied internship requirement does not carry over. Since August 27, 2026, OIE has required CPT training to be necessary for every student to graduate. Ordinary MSIN elective internships currently do not meet that route's requirements; U.S. internships need another applicable work authorization.
+Internships are now optional in both Standard and Advanced. The MS38 handbook lists a three-unit elective, and the old Applied program's required internship doesn't carry over. Since August 27, 2026, OIE has approved CPT based on whether training is required of every student to graduate, so ordinary MSIN elective internships don't currently fit that route. U.S. internships need some other applicable work authorization.
