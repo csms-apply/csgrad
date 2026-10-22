@@ -1,5 +1,7 @@
 ---
-description: "Upenn DS：項目最大的特點是 選課自由度極高，很多人進來後直接把 DS 讀成 CS，在找工作時同時投 DS 和 SDE，甚至轉碼。 可以全選cis 課也可以選Wharton的課，可選硬課如system 類，也可以選水一點的，自由度很高。官網寫的基礎課，和專業課幾乎全可以waive 項目要求 10 門課，默認 2 門 Foundation 課（編程 & 線代），大部分人可"
+description: "Upenn DS 可以選哪些 CIS 和沃頓課程？這裡介紹基礎課豁免、核心課與選修課安排，以及錄取背景和 DS、SDE 求職案例。"
+title: "Upenn DS 申請指南：課程豁免與 CIS 選修"
+sidebar_label: "Upenn DS"
 ---
 
 # Upenn DS

@@ -1,5 +1,7 @@
 ---
-description: "Emory MSCS：Emory MSCS 項目由計算機科學系（隸屬 Laney 研究生院）開設，學制通常為 2 年（秋春兩個學年）。大部分學生在兩年內完成學業，背景優秀且進度快的學生有機會在 1.5 年（3 個學期）內畢業。 項目分為 CS Track 和 BMI Track。Emory 以生物化學和醫療科技見長，因此對 生物信息、生物計算、臨床技術 感興趣的同學來說是一個不錯"
+description: "Emory MSCS 提供 CS 與 BMI 方向，研究涉及醫療 AI、NLP 等領域。這裡介紹小班教學、課程選擇、學費獎學金與讀博、找工取捨。"
+title: "Emory MSCS 項目介紹：CS、BMI 與小班研究體驗"
+sidebar_label: "Emory MSCS"
 ---
 
 # Emory MSCS

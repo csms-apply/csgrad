@@ -1,5 +1,7 @@
 ---
-description: "UCSD CS75：UCSD的CS 75是非常大眾情人校的一個項目，在UC裡面應該屬於CS就業友好度前二的項目☺️. UCB只有一年制項目MENG，UCLA的MSCS錄取過難，且偏向科研，對就業並不友好，因此對就業同學來說sd 或許更好。 從2025年開始，ucsd cs75提供coop，地理位置好+學費便宜+當ta減免一半學費+有coop，基本接近六邊形項目了 項目wld可以"
+description: "UCSD CS75 的課程壓力、Co-op 和聖地亞哥生活體驗如何？結合學費、TA 支持與申請案例，看這個項目是否適合自己的找工計劃。"
+title: "UCSD CS75 申請指南：選課壓力與聖地亞哥生活"
+sidebar_label: "UCSD CS75"
 ---
 
 # UCSD CS75

@@ -1,3 +1,9 @@
+---
+title: "FAANG 简历筛选：2025 Summer 实习投递经验"
+sidebar_label: "FAANG过简历关"
+description: "从个人 2025 Summer 实习申请经历出发，聊 Meta、Apple、Amazon、Netflix 和 Google 的内推、投递时机与岗位匹配。"
+---
+
 # FAANG过简历关
 
 今年非常幸运的在25 summer 找实习过程中，FAANG都收到了面试，并且通过了all参加的面试（暂且用nvidia代替netflix）。写一下FAANG如何通过简历关，并且收到vo

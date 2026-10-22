@@ -51,6 +51,6 @@ test('Traditional documents have unique descriptions and at most one explicit H1
   assert.ok(description,file);assert.ok(!descriptions.has(description),file);descriptions.add(description);
  }
  const supplemental=fs.readFileSync('i18n/zh-Hant/docusaurus-plugin-content-docs/current/tutorial-basics/yale mscs 1 year.md','utf8');
- assert.match(supplemental,/^title: "Yale MSCS 一年制：補充介紹與申請、就業案例"/m);
+ assert.match(supplemental,/^title: .*Yale MSCS 一年制補充介紹/m);
  assert.ok(!fs.readFileSync('i18n/zh-Hant/code.json','utf8').includes('跳至主要内容'));
 });

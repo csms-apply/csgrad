@@ -1,7 +1,8 @@
 ---
-description: "TAMU CSE：TLDR: 一句話總結，小gatech mscs gatech 可以延長到三年畢業，tamu cse同樣可以 gt 可以coop，tamu cse同樣秋季實習 gatech 可以TA/RA免學費，tamu cse同樣可以TA/RA免學費 gatech 學費低廉，tamu也 13000 一學期 Texas A&M University CSE下有若干項目：MC"
+title: "TAMU CSE 項目介紹：學位選擇、研究與學習成本"
+sidebar_label: "TAMU CSE"
+description: "TAMU CSE 下 MCS、MSCS 等學位的選擇與轉換經驗，介紹偏研究的課程、TA/RA、學習成本，以及不同工作背景同學的求職經歷。"
 ---
-
 # TAMU CSE
 ## 項目綜述 {#项目综述}
 **TLDR: 一句話總結，小gatech mscs**

@@ -1,5 +1,7 @@
 ---
-description: "CMU MSMITE：項目全稱是 Master of Science in Mobile and IoT Engineering ，並不是cs tile，不過問題也不大，因為找工主要看個人經歷和簡歷匹配度。網申時候也只能填專業cs。 msmite 第一年在匹茲堡，第二年在sv，還是很不錯的，能體驗兩個不同的地方，選課很自由，可水可選硬課，給你充分的自由度去發展。同時也可以做一個學"
+description: "CMU MSMITE 在匹茲堡與硅谷的學習安排、選課和企業 practicum 體驗，附錄取背景與往屆實習、全職案例。"
+title: "CMU MSMITE 申請指南：兩地學習與選課安排"
+sidebar_label: "CMU MSMITE"
 ---
 
 # CMU MSMITE

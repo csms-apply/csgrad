@@ -1,7 +1,8 @@
 ---
-description: "Columbia MSCE：一年半的項目，可以暑假實習，不支持秋季coop。有thesis選項，找到教授可以延畢。 學校的career fair基本沒用，聽說之前bbg可以保底，但現在也沒聽說有人上岸。但是周圍基本投得早的還是能拿到面試。樓主做個dp，0實習還是能過簡歷關拿到了meta和amazon的offer。但也確實不是有些公司的target school。樓主0實習ace ube"
+title: "Columbia MSCE 申請指南：軟件選課與 MSCS 對比"
+sidebar_label: "Columbia MSCE"
+description: "Columbia MSCE 的核心課可以怎樣搭配 CS 課程？本文介紹選課優先級、thesis 選擇、往屆申請背景，以及與 MSCS 的取捨。"
 ---
-
 # Columbia MSCE
 ## 項目介紹 {#项目介绍}
 一年半的項目，可以暑假實習，不支持秋季coop。有thesis選項，找到教授可以延畢。

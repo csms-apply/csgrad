@@ -1,5 +1,7 @@
 ---
-description: "UMD MSCS：UMD是cs排名很好的學校，cs rank上 top #2 for AI, #7 for NLP, #8 for Vision。 MSCS是research 導向項目，MS和phd錄取同pool，非常適合想轉phd的同學來，對於master同學來說，項目對於 找工作的支持較少，同時系裡的刷題氛圍、找工氛圍也較少。一般錄取的同學都能找到TA/RA，前者居多， "
+description: "UMD MSCS 偏向科研，適合希望積累研究經歷或繼續讀博的同學。這裡介紹 TA/RA 支持、錄取背景與相對獨立的找工環境。"
+title: "UMD MSCS 申請參考：科研背景與 TA/RA 支持"
+sidebar_label: "UMD MSCS"
 ---
 
 # UMD MSCS

@@ -1,6 +1,8 @@
 ---
 sidebar_position: 3
-description: "Gatech MSCS：這個項目接近於一個六邊形項目✅，本身reputation夠硬，且學費便宜(如果當TA/RA還能免學費，且有工資，TA 1k刀，RA 2k刀)，同時本身地處亞特蘭大，是很多科技公司的base地，找工容易，據說23 fall上岸率很高☺️ 本校本科生如果GPA夠可以保研，因此很多本校生一般就直接保研了，不申請別的外校的項目了(因為本身就沒有幾個項目比gt cs項"
+description: "Gatech MSCS 的課程選擇、TA/RA 支持與亞特蘭大求職環境，結合錄取背景，討論轉碼、找工和繼續研究的不同選擇。"
+title: "Gatech MSCS 申請指南：課程選擇與 TA 經驗"
+sidebar_label: "Gatech MSCS"
 ---
 # Gatech MSCS
 

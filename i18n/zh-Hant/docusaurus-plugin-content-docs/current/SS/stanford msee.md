@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
-description: "Stanford MSEE：Stanford 是CS四大✅，並且綜排top ,地處加州，近水樓臺先得月，找工作很方便。當TA的話可以免學費並且每個月給3k刀工資，track選擇很自由，可以選成全軟的課表，比如CS229或者CS 245 Database Systems Principles，申請的時候會發一個問卷填track，有machine learning、software sys"
+title: "Stanford MSEE 申請指南：軟件方向選課與往屆案例"
+sidebar_label: "Stanford MSEE"
+description: "Stanford MSEE 的軟件系統、機器學習方向如何選課？結合往屆錄取案例，分享 TA 經歷、課程自由度和找工體驗。"
 ---
 # Stanford MSEE
 

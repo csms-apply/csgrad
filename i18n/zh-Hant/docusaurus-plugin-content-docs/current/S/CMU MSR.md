@@ -1,5 +1,7 @@
 ---
-description: "CMU MSR：可以當成phd來申請，MSR 是research導向的兩年制項目，一共是168學分，一半上課一半研究，項目的初衷是培養學生做科研，轉phd， 要求每個學生跟著導師做thesis，和phd要求相同，不過轉本校phd 需要重新申請，且不能保證是否跟著同一個老師，有點尷尬 全獎也是不準確的，主要看你和導師約的面試時候的面試表現和你對這個領域熟不熟悉，還有配套的工具"
+description: "CMU MSR 是研究導向的兩年制機器人碩士。這裡介紹課程與 thesis 安排、導師匹配、資助差異，以及繼續申請 PhD 的考慮。"
+title: "CMU MSR 申請參考：機器人研究、導師與資助"
+sidebar_label: "CMU MSR"
 ---
 
 # CMU MSR

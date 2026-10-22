@@ -1,5 +1,7 @@
 ---
-description: "Columbia DS：對於本科不是 cs，單純想通過它轉碼的同學來說，不太合適，建議考慮 CS、CE 甚至 EE 專業。它更側重於ds和ml。項目整體ds課程設置較為全面，有一個capstone project作為實操項目, 可以放在簡歷上, 但是必須修完一些課程後才能上, 所以對第一年暑假實習找工作幫助不大.選課相對自由， 本科上過的課可以申請waive， 多餘的選修可以在cs"
+description: "Columbia DS 更偏數據科學與機器學習。瞭解課程豁免、CS 和統計選修課、capstone 的時間安排，以及轉碼和找工方面的取捨。"
+title: "Columbia DS 項目介紹：課程豁免與 Capstone 安排"
+sidebar_label: "Columbia DS"
 ---
 
 # Columbia DS

@@ -1,5 +1,7 @@
 ---
-description: "Upenn MSR：來之前對這個program的想像是“很硬核、很卷、實驗室捲到飛起”…… 結果來了之後才發現：ROBO真的是全美最自由、最能“do yourself”的機器人碩士項目之一！ 並且也可以dual mcit/mcis等 一句話總結我的最大Takeaway “高度自由 = 無限可能，也意味著你必須非常清楚自己想要什麼” 沒有既定路線，想學什麼就學什麼，想做哪個方向的"
+description: "Upenn MSR 機器人碩士的選課與研究方向很自由，也更需要自己規劃。這裡分享研究體驗、費城生活開銷和錄取背景。"
+title: "Upenn MSR 項目介紹：機器人選課與研究體驗"
+sidebar_label: "Upenn MSR"
 ---
 
 # Upenn MSR

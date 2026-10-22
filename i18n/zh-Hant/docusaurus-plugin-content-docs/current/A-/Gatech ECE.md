@@ -1,7 +1,8 @@
 ---
-description: "Gatech ECE：學位：Master of Science in Electrical & Computer Engineering，簡稱 MSECE。 校區：主打亞特蘭大本部，也可以去法國洛林/深圳兜一圈。 畢業門檻：30學分➕必修一門超水課 ECE 6001（演講+創業扯閒篇）。 節奏：最快 3 個學期搞定，但是沒上岸的話也可以拖著讓你拖到 5 年都行，上岸再畢業；可以G"
+title: "Gatech ECE 申請指南：軟硬件課程與選課經驗"
+sidebar_label: "Gatech ECE"
+description: "Gatech ECE 的核心課、跨學院選課與 VLSI Tape-out 課程介紹，附搶課、申請 TA 和準備實習的經驗，以及軟硬件方向的往屆案例。"
 ---
-
 # Gatech ECE
 
 ## 項目介紹 {#项目介绍}

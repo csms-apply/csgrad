@@ -1,7 +1,8 @@
 ---
-description: "NWU MSCS：Evanston風景美，治安好，學校有錢，設施也不錯，密歇根湖很漂亮很好看。 項目時長4個quarter/一年半。有三個track：thesis，project和course。thesis和project需要自己找一個導師寫paper/做項目，好處是最多可以延兩學期畢業，也就是6個quarter/兩年，延的這兩個學期只需要選一門placeholder課，價格"
+title: "NWU MSCS 申請參考：Thesis、Project 與課程路線"
+sidebar_label: "NWU MSCS"
+description: "NWU MSCS 的 thesis、project 和 course 路線有什麼區別？本文分享導師與畢業安排、學費、Evanston 生活和往屆錄取、求職案例。"
 ---
-
 # NWU MSCS
 
 ## 項目評價 {#项目评价}

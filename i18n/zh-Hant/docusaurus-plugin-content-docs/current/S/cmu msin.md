@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
-description: "CMU MSIN：ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表，基本是🇺🇸cs碩士找工就業項陸本申請的天花板，項目硬核，課程proj 有深度，往年就業placement出路很好(具體參考後文)。如果決定去的話暑假會被要求上一門cmu 15213(csapp)，這門課是很多課程的先修課。不過也可以不修，來了匹茲堡再修。如果覺得自己基礎比較好或者本科學"
+title: "CMU MSIN 申請指南：系統課程與求職經歷"
+sidebar_label: "CMU MSIN"
+description: "CMU MSIN 能選哪些系統課，申請文書如何體現自己的背景？本文分享 CSAPP、數據庫等選課經歷，以及往屆實習、全職和讀博案例。"
 ---
 # CMU MSIN
 

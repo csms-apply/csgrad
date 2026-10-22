@@ -1,5 +1,7 @@
 ---
-description: "FAANG過簡歷關：今年非常幸運的在25 summer 找實習過程中，FAANG都收到了面試，並且通過了all參加的面試（暫且用nvidia代替netflix）。寫一下FAANG如何通過簡歷關，並且收到vo Facebook(meta)：吃hr reach out和內推，認識的進入meta的同學主要分為兩部分，第一部分是hr主動reach out，第二部分是開崗馬上找學長學姐幫"
+title: "FAANG 簡歷篩選：2025 Summer 實習投遞經驗"
+sidebar_label: "FAANG過簡歷關"
+description: "從個人 2025 Summer 實習申請經歷出發，聊 Meta、Apple、Amazon、Netflix 和 Google 的內推、投遞時機與崗位匹配。"
 ---
 
 # FAANG過簡歷關 {#faang过简历关}

@@ -1,5 +1,7 @@
 ---
-description: "CMU MSML：SCS下面王牌項目，課表基本都是ML相關的課程，固定要求了9門和ML相關的課，當RA最多能免75%的學費，不過要取決 於你的老闆是否願意出這個錢和出多少錢，如果本系轉博只需要再上一門課，很爽，身邊有很多朋友都轉博了，而且ML是一個 connect很緊密的系，經常會有很多活動和seminar，大家都很熟悉 國際生gpa3.9, gre 333 math + p"
+description: "CMU MSML 的機器學習課程、RA 資助與系內研究氛圍，附往屆錄取背景，供希望深入 ML 或繼續讀博的同學參考。"
+title: "CMU MSML 項目介紹：機器學習課程與研究體驗"
+sidebar_label: "CMU MSML"
 ---
 
 # CMU MSML

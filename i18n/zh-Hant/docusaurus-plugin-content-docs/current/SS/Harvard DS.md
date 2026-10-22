@@ -1,5 +1,7 @@
 ---
-description: "Harvard DS：一門ds項目，可以選harvard、mit的課程，拿兩張校園卡，很爽 錄取競爭激烈，錄取率大約 8%，每年大約有 1300+ 申請者，最終錄取 70 人左右。往年錄取的學生背景非常強，國內基本都是清北復交或者其他 985 名校，美本則主要來自 UCB、UCLA、UIUC、UMich、UPenn 等 CS、統計、數學強校。 申請者的 GPA 普遍在 3.9+，"
+description: "Harvard DS 的跨校選課體驗與往屆錄取背景，附 CS、數學、統計等申請者案例，以及科技公司和金融行業的就業去向。"
+title: "Harvard DS 申請參考：跨校選課與往屆背景"
+sidebar_label: "Harvard DS"
 ---
 
 # Harvard DS

@@ -1,5 +1,7 @@
 ---
-description: "UT MSCS：便宜+名聲好+cs排名高+地理位置好，總體體驗還是很不錯的。UT 的課程質量確實值得肯定，尤其是 Austin 這個城市，近年來發展迅速，apple、meta、google、amazon都有分部在那裡。 就業機會也不少。整體來說，如果你想要一個mscs, 同時希望有一定的研究機會，或者想轉top 10 cs phd, UT 還是挺值得考慮的 難度應該比MSI"
+description: "UT Austin MSCS 的課程、費用和 Austin 就業環境分享，附科研背景相關的錄取案例，以及 RA、讀博和找工方面的經驗。"
+title: "UT Austin MSCS 申請指南：課程、研究與生活體驗"
+sidebar_label: "UT MSCS"
 ---
 
 # UT MSCS

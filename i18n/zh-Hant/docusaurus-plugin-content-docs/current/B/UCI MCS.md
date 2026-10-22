@@ -1,5 +1,7 @@
 ---
-description: "UCI MCS：professional program，不可以延期，並且是quarter制度(5 月不允許開始實習+節奏快擠壓找工時間+每三個月就得考試一次+有些老師也抱怨quarter制度沒法很好的講課)。 進入這個項目最好有工作經驗，以及有一定的找工準備，換而言之是已經充分準備好在美國找工作。 MSWE 從多個方面來看是比 MCS 更好的項目, 比如第一學期沒有考試壓"
+description: "UCI MCS 的季度制課程節奏緊，實習時間也需要提前規劃。這裡介紹申請背景、找工準備，以及與 MSWE、研究型 MSCS 的區別。"
+title: "UCI MCS 申請指南：季度制節奏與實習時間安排"
+sidebar_label: "UCI MCS"
 ---
 
 # UCI MCS

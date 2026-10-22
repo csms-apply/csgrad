@@ -1,5 +1,7 @@
 ---
-description: "Upenn MCIT：0基礎轉碼能申請到的上限項目，強制要求不能上過超過2門cs專業課，如果上過不少的cs專業課請左轉同為upenn 旗下的cis項目。一共需要上10節課畢業， 不想上必修課可以申請waive，然後參加考試考過了就能waive。可以申請延期到2.5 year畢業，gpa>3.3即可。 適合苟著找工作。可以dual cis，非常靈活。想申請的同學強烈推薦第一輪申請，"
+description: "Upenn MCIT 面向轉碼申請者，課程從基礎開始。這裡整理必修課豁免、畢業安排、雙學位選擇，以及不同本科背景的錄取和找工案例。"
+title: "Upenn MCIT 轉碼申請指南：基礎課程與雙學位選擇"
+sidebar_label: "Upenn MCIT"
 ---
 
 # Upenn MCIT

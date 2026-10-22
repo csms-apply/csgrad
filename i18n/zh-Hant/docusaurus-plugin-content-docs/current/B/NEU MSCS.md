@@ -1,7 +1,8 @@
 ---
-description: "NEU MSCS：本項目是general mscs項目，需要和cs align 項目區分（沒有好壞之分，但是cs align 項目是給轉碼同學開的） neu 開設大量的cs項目，同時不同的校區也開設大量的cs項目，比如boston、sv、seattle....最近有開了一個okaland校區，風景不錯還給獎，可以衝一下。 SV的校園是隻有一層樓，兩間教室，聽起來比較寒酸，但自"
+title: "NEU MSCS 申請指南：校區選擇與課程體驗"
+sidebar_label: "NEU MSCS"
+description: "NEU 常規 MSCS 與 CS Align 有什麼區別？本文介紹各校區的課程和學習環境，分享 NUworks、Co-op 與往屆申請、求職經歷。"
 ---
-
 # NEU MSCS
 本項目是general mscs項目，需要和cs align 項目區分（沒有好壞之分，但是cs align 項目是給轉碼同學開的）
 ## 項目介紹 {#项目介绍}

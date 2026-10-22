@@ -1,5 +1,7 @@
 ---
-description: "UCB EECS MEng：Berkeley EECS 是cs四大。項目設置的目標也很清楚，就是幫學生在最短的時間裡找個班上 課程方面，MEng 並不是MSR 那種research 碩士，而是更加偏向應用的方向。除了專業課，還要求修 Leadership 課程，Capstone 項目也貫穿整個學年。再加上 MEng 只有一年，找工作的時間窗口非常緊迫，導致大多數人從入學第一天起就已經在"
+description: "UCB EECS MEng 的一年制課程、Leadership 與 capstone 體驗，結合找工時間安排、費用和生活情況，討論適合的申請人群。"
+title: "UCB EECS MEng 項目體驗：一年制課程與 Capstone"
+sidebar_label: "UCB EECS MEng"
 ---
 
 

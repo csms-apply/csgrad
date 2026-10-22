@@ -1,5 +1,7 @@
 ---
-description: "UMass MSCS：UMass食堂全美第一，MSCS課程大部分都蠻水的，非常適合水掉找工作。UMass位於麻省，靠近Boston 國際生gpa3.6, 雅思8分， 4+ years work experience, 3 LORs from prof and Co-workers VIT cs 本科9.0/10, JPMorganChase 三年半全職，在校期間也有多段inter"
+description: "UMass MSCS 的課程與校園生活分享，附不同工作經歷申請者的錄取背景，以及軟件工程、機器學習方向的實習和全職案例。"
+title: "UMass MSCS 申請參考：往屆背景與軟件、ML 求職案例"
+sidebar_label: "UMass MSCS"
 ---
 
 # UMass MSCS

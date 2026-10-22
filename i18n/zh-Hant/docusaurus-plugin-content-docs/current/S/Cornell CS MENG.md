@@ -1,5 +1,7 @@
 ---
-description: "Cornell CS MENG：25 fall已經通過學校確認了可以延期到1.5 year，可以批cpt。 Cornell 一共有兩個cs項目在不同的校區，一個是在伊薩卡，一個是在羅島，都是一年制的，沒有特殊理由很難延期， spring 入學是能批cpt的，前提是需要是美本，之前在美國當過兩個學期的full time 學生。評級S是因為一年能同時滿足低開銷+高reputation+有sum"
+description: "Cornell CS MEng 的校區、課程與畢業項目怎麼選？這裡結合申請和就業案例，討論學制安排及需要向學校確認的實習條件。"
+title: "Cornell CS MEng 申請指南：校區、課程與畢業安排"
+sidebar_label: "Cornell CS MENG"
 ---
 
 # Cornell CS MENG

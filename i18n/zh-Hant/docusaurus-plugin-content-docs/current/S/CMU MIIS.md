@@ -1,5 +1,7 @@
 ---
-description: "CMU MIIS：LTI開設，主要是就業導向，可以一年半畢業，也可以兩年畢業。MIIS開在scs學院下面， 選課優先級很高，可以選到各種CS熱門課程，比如Distributed Systems、Operating System 等等， 前兩個學期需要強制做researchLTI有分配專門的自習機房，msaii、miis、mcds的同學都可以使用。MIIS找工氛圍很好，負責MI"
+description: "CMU MIIS 由 LTI 開設，兼顧研究訓練和就業準備。這裡介紹 CS 選課、前期 research 安排，以及 SDE、MLE 方向的求職案例。"
+title: "CMU MIIS 項目介紹：LTI 研究訓練與 CS 選課"
+sidebar_label: "CMU MIIS"
 ---
 
 # CMU MIIS

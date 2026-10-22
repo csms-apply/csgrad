@@ -1,5 +1,7 @@
 ---
-description: "UIUC ECE MENG：可以coop，選課自由，軟硬都可，適合轉碼，可以全選CS課程畢業，比如ECE428 Distributed systems 或者CS411 Database systems。往年支持spring 入學給summer 實習的cpt，coop了可以延畢 支持defer一年，軟bg薄弱的uu可以用這一年在國內實習補充一下軟背景，之後更好在美國找full time "
+description: "UIUC ECE MEng 的軟硬件選課、跨系課程申請與 Co-op 安排，結合推遲入學經驗、錄取背景和實習案例，瞭解項目的靈活性。"
+title: "UIUC ECE MEng 申請指南：跨系選課與畢業安排"
+sidebar_label: "UIUC ECE MENG"
 ---
 
 # UIUC ECE MENG
