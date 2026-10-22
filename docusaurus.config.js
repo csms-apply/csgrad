@@ -62,6 +62,8 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        // This site has no blog content; avoid generating empty blog indexes.
+        blog: false,
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
