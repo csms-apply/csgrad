@@ -1,3 +1,9 @@
+---
+description: "Emory MSCS offers CS and biomedical informatics tracks. Explore small-class research opportunities, healthcare AI, course choices and admission backgrounds."
+sidebar_label: "Emory MSCS"
+title: "Emory MSCS Admissions Guide: Courses and Program Experience"
+---
+
 # Emory MSCS
 
 ## Program Overview

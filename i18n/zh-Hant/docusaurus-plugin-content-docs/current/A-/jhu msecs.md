@@ -1,6 +1,8 @@
 ---
 sidebar_position: 3
-description: "JHU MSECS：MSECS是JHU的CS項目，也是一個比較出名的轉碼項目✅。每年會招收數量相當可觀的轉碼同學（有很多沒上過任何cs課程），甚至有本科採礦工程專業的同學錄取🥹，因此轉碼和科班同學可以重點關注一下該項目。 該項目的class size小， 申請某些廠的實習時候可能會有一些優勢（點名meta），但是現在的話估計可能也沒那麼樂觀了🙏。轉PHD會有比較大的優勢，因"
+title: "JHU MSECS 申請指南：課程與項目體驗"
+sidebar_label: "JHU MSECS"
+description: "JHU MSECS 的轉碼申請案例、選課優先級和旁聽體驗，結合畢業節奏、巴爾的摩生活與學習費用，討論項目的優點和取捨。"
 ---
 # JHU MSECS
 

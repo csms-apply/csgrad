@@ -1,5 +1,7 @@
 ---
-description: "UMich MSCS/MSCSE：當TA免學費+$3000/m stipend，很爽，很多umich或者密院的同學就在本校讀了， 項目比較靈活，可以一年也可以兩年/一年半，什麼時候找到ng什麼時候畢業。 400level的課實戰性都挺強的, workload不少但都很有用，年輕的lecturer通常比教授教的好很多。500level對找工作沒啥用, 但是workload一般小，可以找工學期選"
+description: "UMich MSCS/MSCSE 的 MS 與 MSE 有什麼區別？瞭解課程、畢業節奏、TA 支持、本校 SUGS 路徑和外校申請的競爭情況。"
+title: "UMich MSCS/MSCSE 申請指南：課程與項目體驗"
+sidebar_label: "UMich MSCS/MSCSE"
 ---
 
 # UMich MSCS/MSCSE

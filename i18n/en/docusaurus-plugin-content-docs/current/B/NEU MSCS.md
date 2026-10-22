@@ -1,12 +1,17 @@
+---
+sidebar_label: "NEU MSCS"
+title: "Northeastern MSCS Admissions Guide: Courses and Program Experience"
+description: "Compare Northeastern MSCS campuses, course availability and study timelines, with applicant profiles and reported internships and full-time job outcomes."
+---
 # NEU MSCS
 This is the general MSCS program. It should be distinguished from the CS Align program (there's no better or worse -- the CS Align program is designed for career changers into CS).
 
-# Program Overview
+## Program Overview
 NEU offers a large number of CS programs, and different campuses also offer a wide range of CS programs, such as Boston, SV, Seattle, etc. They recently opened an Oakland campus with nice scenery and scholarships -- worth considering. The SV campus is just a single floor with two classrooms, which sounds modest, but there is plenty of self-study space. Students interested in research typically go to the Boston campus since it has more professors. That said, most students come to NEU for career-change purposes anyway, whether at the Boston, SV, or Seattle campus. Boston offers the most courses, Seattle comes second, and SV has a more limited selection.
 
 General track students can extend by one semester to 28 months. Most NEU courses are lightly graded, making them very suitable for focusing on job hunting. For example, Mobile Application 5520, Computer Networks 5700 (David), Building Scalable Distributed System 6650 (Prasad) -- you can pick some easy courses during your job search.
 
-# Available Campuses
+## Available Campuses
 
 Campuses offering MSCS (including both regular MSCS and Align versions):
 
@@ -19,7 +24,7 @@ Campuses offering MSCS (including both regular MSCS and Align versions):
 7. Vancouver, BC (Vancouver, Canada campus, popular choice for international students, thriving tech industry)
 8. Portland, ME (Portland, Maine campus, some students report a fixed $25K scholarship)
 
-# Admission Data Points
+## Admission Data Points
 Historically the process has been quite random -- as long as you meet the admission threshold, it's basically a lottery. (Starting from Fall 2025, popularity has decreased and the threshold has dropped.)
 
 1. Southeast University, Software Engineering, GPA 87, TOEFL 102
@@ -31,7 +36,7 @@ Historically the process has been quite random -- as long as you meet the admiss
 7. Peking University, Data Science undergrad, GPA 3.6
 8. UESTC EE undergrad, GPA 3.99, top 5%
 
-# Job Outcomes & Data Points
+## Job Outcomes & Data Points
 
 NEU has an internal job search system called NUworks where you can submit resumes directly, with a fairly high chance of getting interviews. Normally during the 2025 summer job hunting season, submitting 100 applications might land you 1 interview, but on NUworks, 100 applications might get you 3-4 interviews. The co-op system, low workload, and favorable geographic location make NEU MSCS a perennial hot choice for job-oriented school selection. NEU MSCS also includes one co-op opportunity, meaning you can do a full-time internship during the fall semester, somewhat similar to Georgia Tech MSCS's co-op. NEU CS Align has even more co-op slots (two), resulting in a slightly higher landing rate. For example, a student who entered in Fall 2024 failed to find a Summer 2025 internship, but could continue searching for a Fall 2025 internship (hoping companies like TikTok, Tesla, NVIDIA, or Snowflake would reach out), and if that also failed, could keep trying for Spring 2026 (banking on TikTok and Amazon). Eventually, they landed an internship through LeetCode grinding and projects built by following Udemy/YouTube tutorials. This gives them far more chances than schools that only allow summer internships. If this student had gone to another school and failed in summer, that would be it -- they'd have to go straight to new grad job hunting. And as everyone knows, finding a new grad position without a US internship is extremely difficult. This is what makes NEU CS/IS/Align's co-op system so valuable. In previous years, Amazon even had co-op positions specifically for NEU students (NEU CS students only), though this has since been discontinued -- a relic of the past.
 

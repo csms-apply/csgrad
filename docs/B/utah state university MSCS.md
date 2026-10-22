@@ -1,3 +1,9 @@
+---
+description: "Utah State University MSCS 的 TA/RA 和资助机会，附申请背景、就读安排与毕业去向，供关注硕士学习成本的同学参考。"
+title: "Utah State University MSCS 申请指南：课程与项目体验"
+sidebar_label: "UTSU MSCS"
+---
+
 # UTSU MSCS
 ## 项目介绍
 全称utah state university MSCS,最大的好处就是全奖机会，系里当TA或者RA一个月给2000

@@ -1,5 +1,7 @@
 ---
-description: "MIT CSE：全稱是Master of Science in Computational Science and Engineering， 側重計算和基礎理科，課程基本都是optimization, numerical computing。CSE是和數學、航空航天、化學工程、土木與環境工程、地球大氣與行星科學、材料科學與工程、機械工程和核科學與工程 這八個部門合辦，非cs"
+description: "MIT CSE 偏向計算科學、優化與數值計算。這裡介紹跨院系培養、往屆錄取背景與資助，並記錄文中的招生狀態更新。"
+title: "MIT CSE 申請指南：課程與項目體驗"
+sidebar_label: "MIT CSE"
 ---
 
 # MIT CSE

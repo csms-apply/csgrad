@@ -1,3 +1,9 @@
+---
+description: "Duke MSCS 选课自由，可选课程、项目或论文毕业路线。这里整理课程安排、学制与费用，以及录取背景和找工案例。"
+title: "Duke MSCS 申请指南：课程与项目体验"
+sidebar_label: "Duke MSCS"
+---
+
 # Duke MSCS
 
 

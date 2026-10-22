@@ -1,7 +1,8 @@
 ---
-description: "UW EE PMP：2026更新：UW EE PMP已經作古，目前已經要更名為UW MSECE, 更爽了。 26 fall後入學的學生畢業學位將是Master of Science in Electrical and Computer Engineering 這個項目蠻好的，有UW的牌子，並且地理位置在西雅圖，離微軟賊近，也是ms的target school✅。 並且他可以co"
+title: "UW EE PMP 申請指南：課程與項目體驗"
+sidebar_label: "UW EE PMP"
+description: "UW EE PMP 的軟件課程、西雅圖學習生活和申請經驗，附 Co-op 經歷、往屆求職案例，並記錄文中關於 MSECE 學位更名的更新。"
 ---
-
 
 # UW EE PMP
 

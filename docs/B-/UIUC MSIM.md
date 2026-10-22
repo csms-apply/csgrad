@@ -1,3 +1,9 @@
+---
+description: "UIUC MSIM 的学费、课程压力和 Co-op 体验，附转码申请背景，以及软件、数据和产品方向的往届求职案例。"
+title: "UIUC MSIM 申请指南：课程与项目体验"
+sidebar_label: "UIUC MSIM"
+---
+
 # UIUC MSIM
 
 ## 项目介绍

@@ -1,3 +1,9 @@
+---
+description: "NYU DS 的数学要求和研究氛围怎么样？这里介绍课程、进组与转博机会，以及 DS 岗位准备和往届申请者的背景。"
+title: "NYU DS 申请指南：课程与项目体验"
+sidebar_label: "NYU DS"
+---
+
 # NYU DS
 
 ## 项目介绍

@@ -1,16 +1,21 @@
+---
+sidebar_label: "Caltech MSEE"
+title: "Caltech MSEE Admissions Guide: Courses and Program Experience"
+description: "Caltech MSEE student notes on CS and EE course choices and study duration, with admitted applicant backgrounds and reported new-grad job outcomes."
+---
 
 # Caltech MSEE
 
-# Program Overview
+## Program Overview
 LA weather is unbeatable, school prestige is unbeatable, and the number of admitted students is far fewer than Stanford. Very friendly for career changers to CS: of the 135 credits required to graduate, only 54 need to be EE classes. Many CS courses, such as the well-known 156 Learning Systems, are cross-labeled as CS-EE, so in theory you could take all CS courses and still graduate.
 
 The program is 9 months long, but can be extended by half a year.
-# Admission Preferences
+## Admission Preferences
 
 15 students admitted per year. About 1/3 are mainland China undergrads, basically from Tsinghua, Peking, and C5 universities. The rest are international undergrads.
 
 
-# Admission Data Points
+## Admission Data Points
 
 1. SYSU Physics undergrad (dropped out), UCI CS+EE undergrad, GPA 3.98, visiting researcher at Stanford
 2. Purdue EE undergrad, 8 semesters on Dean's List, 1 year 9 months RA
@@ -20,6 +25,6 @@ The program is 9 months long, but can be extended by half a year.
 
 6. UCSD EE undergraduate, entering Caltech MSEE in fall 2026; full-time Process Engineer at Texas Instruments before enrollment (Dec 2025–Jun 2026).
 
-# New Grad Job Outcomes
+## New Grad Job Outcomes
 
 Fewer go into SDE roles, but those who do basically all end up at big tech companies.

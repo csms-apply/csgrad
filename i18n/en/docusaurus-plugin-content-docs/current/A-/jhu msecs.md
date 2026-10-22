@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+sidebar_label: "JHU MSECS"
+title: "JHU MSECS Admissions Guide: Courses and Program Experience"
+description: "JHU MSECS experiences covering career-change admissions, research access, course registration and program costs, with reported internship and job outcomes."
 ---
 # JHU MSECS
 

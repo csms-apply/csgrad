@@ -1,6 +1,11 @@
+---
+title: "Gatech ECE 申请指南：课程与项目体验"
+sidebar_label: "Gatech ECE"
+description: "Gatech ECE 的核心课、跨学院选课与 VLSI Tape-out 课程介绍，附抢课、申请 TA 和准备实习的经验，以及软硬件方向的往届案例。"
+---
 # Gatech ECE
 
-# 项目介绍
+## 项目介绍
 
 学位：Master of Science in Electrical & Computer Engineering，简称 MSECE。
 
@@ -40,7 +45,7 @@ Fall semester开Digital的（和Apple合作），Spring semester开Analog的（�
 10. 陆本，上岸nvidia,amazon intern
 11. NIT Tiruchirappalli ee本科，入学前 google Embedded swe 两年全职，2025年 Astera Labs Firmware intern，2026年 nvidia Firmware Engineer 全职。
 
-# 选课
+## 选课
 
 
 Round 1：只给本专业选。
@@ -51,6 +56,6 @@ Round 2：临开学再解锁全校课，热门 CS 课要盯着 Wait‑list 刷�
 
 ![](/img/gtececourse.png)
 
-# 来了gt，怎么进行找实习准备
+## 来了gt，怎么进行找实习准备
 
 ![](/img/gtecetimeline.png)

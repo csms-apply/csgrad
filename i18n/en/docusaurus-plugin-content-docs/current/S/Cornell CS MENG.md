@@ -1,3 +1,9 @@
+---
+description: "Cornell CS MEng guide comparing its campus options, short program timeline, internship planning and admission profiles for career-oriented applicants."
+sidebar_label: "Cornell CS MENG"
+title: "Cornell CS MEng Admissions Guide: Courses and Program Experience"
+---
+
 # Cornell CS MENG
 
 ## Program Overview

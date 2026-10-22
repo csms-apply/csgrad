@@ -1,3 +1,9 @@
+---
+description: "NYU Tandon MSCS 位于布鲁克林，与 Courant 项目定位不同。这里介绍学制、生活费用、Co-op 安排和往届录取、就业案例。"
+title: "NYU Tandon MSCS 申请指南：课程与项目体验"
+sidebar_label: "NYU Tandon MSCS"
+---
+
 # NYU Tandon MSCS
 
 ## 项目介绍

@@ -1,3 +1,9 @@
+---
+description: "想通过 MIT EECS 继续深造，需要先了解 PhD 申请路径。本文整理科研经历、推荐关系和代表性录取案例，区别于独立硕士项目。"
+title: "MIT EECS 申请指南：课程与项目体验"
+sidebar_label: "MIT EECS"
+---
+
 # MIT EECS
 
 ## 项目介绍

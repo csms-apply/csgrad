@@ -1,7 +1,12 @@
+---
+sidebar_label: "Comparison of SDE Internship Interview Focus: US vs. China"
+title: "US vs China SDE Internship Interviews: What Gets Tested"
+description: "Compare US and China SDE internship interviews through the author’s experiences with algorithms, behavioral questions, project depth and recruiting timelines."
+---
 # Comparison of SDE Internship Interview Focus: US vs. China
 
 
-# US:
+## US:
 What they evaluate:
 1. Luck
 2. Algorithm problems
@@ -16,7 +21,7 @@ The evaluation criteria above are listed in decreasing order of importance. In U
 
 
 
-# China:
+## China:
 What they evaluate:
 1. Internship experience
 2. Projects

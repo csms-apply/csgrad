@@ -1,3 +1,9 @@
+---
+description: "CMU ECE 能选多少 CS 课，课业压力到底有多大？从学分要求、系统课程与实验作业，到实习案例和转博机会，了解真实就读体验。"
+title: "CMU ECE 申请指南：课程与项目体验"
+sidebar_label: "CMU ECE"
+---
+
 # CMU ECE
 
 ## 项目介绍

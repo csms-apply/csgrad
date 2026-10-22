@@ -1,7 +1,8 @@
 ---
-description: "NEU CS Align：本項目是cs align項目(給接近0基礎轉碼的同學開設的)，需要和 MSCS 項目區分 先說結論：如果你鐵了心想待在硅谷、接受非傳統校園、願意靠自己刷題拼實力，這個項目還是挺香的。NEU的品牌 + 硅谷地理位置 + Co-op系統，確實給轉碼人開了個不錯的門。但如果你幻想完整大學校園、頂級師資資源全透明、advisor手把手帶你找工/通過這個項目學習硬核課"
+title: "NEU CS Align 申請指南：課程與項目體驗"
+sidebar_label: "NEU CS Align"
+description: "NEU CS Align 面向轉碼學生，本文分享硅谷校區的課程與生活體驗、其他校區選擇，以及入學準備、Co-op 和往屆求職經歷。"
 ---
-
 # NEU CS Align
 本項目是cs align項目(給接近0基礎轉碼的同學開設的)，需要和 MSCS 項目區分
 

@@ -1,7 +1,8 @@
 ---
-description: "Uchicago MPCS：mpcs是轉碼項目，在地裡的名聲並不好。綜排高，專排低。課程質量很基礎，比如離散數學、數據庫、java、python、cpp這些基礎課..... 不過可以選本科生的課，比如parallel programming ，本科生課程質量比較硬核一點，wld也大一點。不過找工向的話選水課也沒啥問題，越水越有時間刷題。學費很貴，需要9w刀，申請群內算了一下，總共需要大"
+title: "UChicago MPCS 申請指南：課程與項目體驗"
+sidebar_label: "Uchicago MPCS"
+description: "UChicago MPCS 的九個月與十五個月路線、基礎課程和高階選修，結合轉碼申請背景、pre-doc 經歷及芝加哥生活，討論就讀取捨。"
 ---
-
 # Uchicago MPCS
 
 	

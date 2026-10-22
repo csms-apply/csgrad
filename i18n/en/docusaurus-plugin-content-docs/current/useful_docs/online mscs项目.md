@@ -1,3 +1,8 @@
+---
+sidebar_label: "Online MSCS Programs"
+title: "Online CS Master's Programs: MSCS and MCIT Options"
+description: "A short list of online CS master's options, including Georgia Tech, UIUC, UT Austin, Stanford, Columbia CVN and Penn MCIT, with selected program notes."
+---
 # Online MSCS Programs
 
 Gatech OMSCS — very affordable tuition, very high acceptance rate (roughly 85%+), good for career changers to CS

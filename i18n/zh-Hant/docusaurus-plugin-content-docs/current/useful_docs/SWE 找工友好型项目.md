@@ -1,5 +1,7 @@
 ---
-description: "🇺🇸SWE找工友好型學校/項目：因為筆者親臨了國內秋招和美國找實習，之前也輔導過一些學生找🇺🇸實習，以下是一些身邊的個人觀察到的找工友好型的學校/項目dp（只針對是否對找工友好，和bar 無關，同時也有考慮到樣本觀察是否足夠多，比如mit cs找工肯定很好，但我不認識幾個mit cs本，因此沒有列進去） Gatech mscsga/cse: 個人觀感gatech 上岸率不錯，觀察到的m"
+title: "以美國 SWE 求職為目標，哪些碩士項目值得看"
+sidebar_label: "🇺🇸SWE找工友好型學校/項目"
+description: "結合個人觀察，聊 Georgia Tech、Stanford、UW、UCSD、NEU 等項目與 SWE 求職的關係，比較課程負擔、實習和項目安排。"
 ---
 
 # 🇺🇸SWE找工友好型學校/項目 {#swe找工友好型学校项目}

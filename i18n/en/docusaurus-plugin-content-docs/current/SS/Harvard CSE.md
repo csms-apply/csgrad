@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+description: "Harvard CSE blends computational science and mathematics. Explore study tracks, MIT cross-registration, research interests and reported admission profiles."
+sidebar_label: "Harvard CSE"
+title: "Harvard CSE Admissions Guide: Courses and Program Experience"
 ---
 # Harvard CSE
 

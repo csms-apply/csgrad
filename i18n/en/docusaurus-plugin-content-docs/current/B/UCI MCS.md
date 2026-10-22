@@ -1,3 +1,9 @@
+---
+description: "UC Irvine MCS guide to the professional degree’s pace, quarter-system workload and internship timing, with comparisons to UCI’s software engineering program."
+sidebar_label: "UCI MCS"
+title: "UCI MCS Admissions Guide: Courses and Program Experience"
+---
+
 # UCI MCS
 
 ## Program Overview

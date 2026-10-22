@@ -1,3 +1,8 @@
+---
+title: "UT Austin ECE SES 申请指南：课程与项目体验"
+sidebar_label: "UT ECE(ses)"
+description: "UT Austin ECE SES 的毕业时间、学费和 TA/RA 经历，附不同 ECE 方向的申请背景与实习、全职案例，供选项目时参考。"
+---
 # UT ECE(ses)
 
 一句话总结：大彩票，其实看不到什么规律，找工非常推荐

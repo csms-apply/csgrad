@@ -1,3 +1,9 @@
+---
+description: "Rice MCS guide covering degree requirements, internship planning, tuition and course schedules, with student perspectives on studying and job hunting in Houston."
+sidebar_label: "Rice MCS"
+title: "Rice MCS Admissions Guide: Courses and Program Experience"
+---
+
 # Rice MCS
 
 ## Program Overview

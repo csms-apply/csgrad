@@ -1,3 +1,9 @@
+---
+description: "Wisc CS PMP 与研究型 MSCS 有什么区别？从学费、毕业节奏、实习安排和 PCP 转入路径，了解这个职业型 CS 硕士。"
+title: "Wisc CS PMP 申请指南：课程与项目体验"
+sidebar_label: "Wisc CS PMP"
+---
+
 # Wisc CS PMP
 ## 项目介绍
 Wisc MSCS 项目和 Ph.D 一个 pool 所以非常难，这个 PMP 项目其实相当于其他学校的 MCS

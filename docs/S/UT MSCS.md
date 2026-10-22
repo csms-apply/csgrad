@@ -1,3 +1,9 @@
+---
+description: "UT Austin MSCS 的课程、费用和 Austin 就业环境分享，附科研背景相关的录取案例，以及 RA、读博和找工方面的经验。"
+title: "UT Austin MSCS 申请指南：课程与项目体验"
+sidebar_label: "UT MSCS"
+---
+
 # UT MSCS
 ## 项目介绍
 便宜+名声好+cs排名高+地理位置好，总体体验还是很不错的。UT 的课程质量确实值得肯定，尤其是 Austin 这个城市，近年来发展迅速，apple、meta、google、amazon都有分部在那里。

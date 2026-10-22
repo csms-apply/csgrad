@@ -1,7 +1,8 @@
 ---
-description: "UCLA MEng：2026更新：從26 fall開始，目前已經確認UCLA MENG可以延期，且可以進行COOP UCLA 的位置很好，氣候宜人，生活便利，排名也不錯。學校在洛杉磯西邊的 Westwood，離 LAX 機場不遠，周邊有聖莫妮卡海灘、好萊塢、比佛利山莊這些景點。生活方面，學校周邊餐廳、超市很多，最近還開了大華超市，雖然我還沒去過，但聽朋友說不錯。住宿的話，可以申"
+title: "UCLA MEng 申請指南：課程與項目體驗"
+sidebar_label: "UCLA MEng"
+description: "UCLA MEng 的 DS、AI 課程、capstone 選項與學費安排，結合洛杉磯生活和在讀體驗，討論課程選擇及畢業時間規劃。"
 ---
-
 
 # UCLA MEng 
 ## 項目體驗分享 {#项目体验分享}
