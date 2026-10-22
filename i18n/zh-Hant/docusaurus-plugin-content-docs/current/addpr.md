@@ -1,7 +1,7 @@
 ---
 title: "如何給 CS Grad 貢獻項目介紹與申請經驗"
 sidebar_label: "貢獻內容"
-description: "想補充項目介紹、糾正內容或分享申請經驗，可以按這份流程 Fork CS Grad 倉庫、編輯 Markdown 文件，再提交 Pull Request。"
+description: "想補充項目介紹、糾正內容或分享申請經驗，可以先按圖文步驟 Fork CS Grad 的 GitHub 倉庫，開始準備自己的修改。"
 ---
 
 # 貢獻內容 {#贡献内容}
