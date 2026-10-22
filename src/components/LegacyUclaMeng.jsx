@@ -2,7 +2,7 @@ import React from 'react';
 import Head from '@docusaurus/Head';
 import {Redirect, useLocation} from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import {localizedInternalPath} from '../../lib/seo/localizedAlternates.mjs';
+import {localizedInternalPath} from '../lib/seo/localizedAlternates.mjs';
 
 // Older tracker cards and bookmarks used the program's previous tier.
 export default function LegacyUclaMeng() {

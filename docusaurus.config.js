@@ -55,6 +55,8 @@ const config = {
     },
   },
 
+  plugins: ['./plugins/legacy-program-routes.cjs'],
+
   presets: [
     [
       'classic',

@@ -6,7 +6,18 @@ import {transformSync} from '@babel/core';
 import {localizedInternalPath} from '../src/lib/seo/localizedAlternates.mjs';
 
 const require = createRequire(import.meta.url);
-const filename = new URL('../src/pages/B+/UCLA MENG.jsx', import.meta.url);
+const legacyProgramRoutes = require('../plugins/legacy-program-routes.cjs');
+
+test('legacy routes register decoded paths under each locale base URL', () => {
+  for (const baseUrl of ['/', '/en/', '/zh-Hant/']) {
+    const routes = [];
+    legacyProgramRoutes({baseUrl}).contentLoaded({actions: {addRoute: route => routes.push(route)}});
+    assert.equal(routes[0].path, `${baseUrl}B+/UCLA MENG`);
+    assert.equal(routes[0].component, '@site/src/components/LegacyUclaMeng.jsx');
+    assert.equal(routes[0].exact, true);
+  }
+});
+const filename = new URL('../src/components/LegacyUclaMeng.jsx', import.meta.url);
 const {code} = transformSync(readFileSync(filename, 'utf8'), {
   filename: filename.pathname,
   configFile: false,
@@ -23,7 +34,7 @@ test('legacy UCLA page redirects in every locale and preserves URL state', () =>
       '@docusaurus/Head': 'head',
       '@docusaurus/router': {Redirect: 'redirect', useLocation: () => ({search: '?from=tracker', hash: '#courses'})},
       '@docusaurus/useDocusaurusContext': () => ({i18n: {currentLocale: locale}, siteConfig: {url: 'https://csgrad.com'}}),
-      '../../lib/seo/localizedAlternates.mjs': {localizedInternalPath},
+      '../lib/seo/localizedAlternates.mjs': {localizedInternalPath},
     };
     new Function('require', 'module', 'exports', code)(id => mocks[id], module, module.exports);
     const tree = module.exports.default();

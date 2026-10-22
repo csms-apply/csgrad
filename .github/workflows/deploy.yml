@@ -50,6 +50,9 @@ jobs:
             exit 1
           fi
 
+      - name: Check built program links and homepages
+        run: node scripts/check-built-programs.mjs
+
       - name: Test atomic deployment activation
         run: python3 scripts/atomic-deploy.test.py
 
