@@ -1,3 +1,9 @@
+---
+description: "UCSD EC79 的硬件必修课和课程压力如何？这里记录转码需要补的基础、申请背景，以及往届同学的找工情况。"
+title: "UCSD EC79 申请参考：硬件基础与课程测评"
+sidebar_label: "UCSD EC79"
+---
+
 # UCSD EC79
 
 

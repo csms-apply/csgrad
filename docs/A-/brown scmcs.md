@@ -1,3 +1,9 @@
+---
+description: "Brown SCMCS 每学期两门课的安排，能给科研和找工留出多少时间？这里分享学费、住宿、学习氛围与其他热门项目的比较。"
+title: "Brown SCMCS 项目体验：课程节奏、费用与找工"
+sidebar_label: "Brown SCMCS"
+---
+
 # Brown SCMCS
 
 

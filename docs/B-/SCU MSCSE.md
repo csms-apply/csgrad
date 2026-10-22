@@ -1,3 +1,9 @@
+---
+description: "SCU MSCSE 在硅谷读书的实际体验：学费与校园生活、转码先修课、选课压力，以及季度制对实习时间和求职的影响。"
+title: "SCU MSCSE 项目体验：先修课、选课与硅谷生活"
+sidebar_label: "SCU MSCSE"
+---
+
 # SCU MSCSE
 
 ## 项目介绍

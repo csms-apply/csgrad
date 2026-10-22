@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+title: "JHU MSECS 申请指南：转码背景与选课体验"
+sidebar_label: "JHU MSECS"
+description: "JHU MSECS 的转码申请案例、选课优先级和旁听体验，结合毕业节奏、巴尔的摩生活与学习费用，讨论项目的优点和取舍。"
 ---
 # JHU MSECS
 

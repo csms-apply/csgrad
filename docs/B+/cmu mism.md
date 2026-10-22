@@ -1,8 +1,11 @@
 ---
 sidebar_position: 1
+title: "CMU MISM 申请指南：商科必修与 SCS 选课限制"
+sidebar_label: "CMU MISM"
+description: "CMU MISM 的商科核心课、学分要求和 SCS 选课限制，讨论课程豁免与找工准备的取舍，附往届申请和就业案例。"
 ---
 # CMU MISM
-# 项目介绍
+## 项目介绍
 只适合在国内已经有了大厂实习经验/全职sde 经历，目标是来cmu 混一个cmu title，然后来美国第一天就开始刷题找实习投简历的选手
 
 **不适合想来heinz上scs一些高深难度的课程，目标是来cmu学知识的**，mism的core里面几乎都是商科课，并且每学期能选scs的课的数量是有限的，系主任也不支持你这么做（这么做heniz 需要给scs学院交钱）。选scs的课程会遇到有各种各样的问题。
@@ -13,13 +16,13 @@ mism分为12 month 的track和16 month 的track，后者可以方便找实习。
 
 综上，again, 只适合**混一个cmu title，然后来美国第一天就开始刷题找实习投简历的选手**
 
-# mism core
+## mism core
 值得单开一个专栏介绍这个core,可以看出来没啥cs高阶课程，还有很多的商科课程。
 想来需要做好心理准备，并不适合想学scs课程的同学，尤其是本科没上过相同商科课程可以waive的情况下。红色是勾勒出来的计算机系课程，里面还有java oop这种本科第一学期课程，商科课程数量远远大于cs课程数量
 
 ![](/img/mismcore.png)
 
-# 录取代表性dp
+## 录取代表性dp
 rolling 制度，早申早录取。想来mism早点申请
 
 1. wisc cs本科+腾讯实习,gpa 3.7
@@ -29,7 +32,7 @@ rolling 制度，早申早录取。想来mism早点申请
 5. 武汉大学 finanal engineering 本科，gpa 90，多段量化公司qd实习
 6. 对外经贸financial engineering 本科gpa3.74
 
-# 找工情况
+## 找工情况
 相比隔壁ini、ece、scs一般，不过主要取决于个人之前的实习背景和算法能力。
 有很多转码同学需要准备leetcode还得应付课程压力，上岸率相比ini和scs肯定不足。如果想来需要在国内好好干实习和刷题
 

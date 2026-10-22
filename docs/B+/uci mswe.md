@@ -1,3 +1,9 @@
+---
+description: "UCI MSWE 面向软件工程就业，也有不少转码同学。了解先修课、课程压力、实习与 capstone，以及它和 UCI MCS 的区别。"
+title: "UCI MSWE 转码申请指南：先修课与软件工程体验"
+sidebar_label: "UCI MSWE"
+---
+
 
 # UCI MSWE
 
