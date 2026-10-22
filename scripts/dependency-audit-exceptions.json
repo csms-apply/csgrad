@@ -1,0 +1,12 @@
+{
+  "exceptions": [
+    {
+      "package": "braces",
+      "version": "3.0.3",
+      "advisory": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "maxSeverity": "high",
+      "expires": "2026-11-21",
+      "reason": "No upstream patched release is available. Docusaurus uses this parser through chokidar/micromatch for repository-controlled build/watch glob patterns. Untrusted user-controlled patterns must never enter these calls. Production uses docusaurus serve, not the development server. This temporary exception accepts the unresolved advisory; it does not claim the vulnerability is fixed. Remove it when a patched release becomes available."
+    }
+  ]
+}

@@ -53,6 +53,12 @@ const SCHOOL_MAP = {
   'ncsu': 'NC State',
   'tamu': 'Texas A&M',
   'utsu': 'Utah State University',
+  'scu': 'Santa Clara University',
+};
+
+// Keep identifiers already stored in users' tracker cards when a tier changes.
+const LEGACY_IDS = {
+  '/A+/UCLA MENG': 'bplus-ucla-meng',
 };
 
 /**
@@ -117,7 +123,7 @@ for (const tier of TIERS) {
     if (!h1) continue;
 
     const { school, program } = parseSchoolAndProgram(h1);
-    const id = generateId(tier, school, program);
+    const id = LEGACY_IDS[slug] || generateId(tier, school, program);
 
     programs.push({ id, school, program, tier, slug });
   }

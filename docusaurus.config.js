@@ -27,7 +27,11 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -51,11 +55,15 @@ const config = {
     },
   },
 
+  plugins: ['./plugins/legacy-program-routes.cjs'],
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        // This site has no blog content; avoid generating empty blog indexes.
+        blog: false,
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',

@@ -196,6 +196,13 @@
     "slug": "/A+/Gatech CSE"
   },
   {
+    "id": "bplus-ucla-meng",
+    "school": "UCLA",
+    "program": "MEng",
+    "tier": "A+",
+    "slug": "/A+/UCLA MENG"
+  },
+  {
     "id": "aplus-ucla-mscs",
     "school": "UCLA",
     "program": "MSCS",
@@ -434,13 +441,6 @@
     "slug": "/B+/Rics MCS"
   },
   {
-    "id": "bplus-ucla-meng",
-    "school": "UCLA",
-    "program": "MEng",
-    "tier": "B+",
-    "slug": "/B+/UCLA MENG"
-  },
-  {
     "id": "bplus-university-of-washington-tacoma-mscs",
     "school": "University of Washington Tacoma",
     "program": "MSCS",
@@ -560,18 +560,18 @@
     "slug": "/B-/NEU SES"
   },
   {
-    "id": "bminus-uiuc-msim",
-    "school": "UIUC",
-    "program": "MSIM",
-    "tier": "B-",
-    "slug": "/B-/UIUC MSIM"
-  },
-  {
     "id": "bminus-santa-clara-university-mscse",
     "school": "Santa Clara University",
     "program": "MSCSE",
     "tier": "B-",
     "slug": "/B-/SCU MSCSE"
+  },
+  {
+    "id": "bminus-uiuc-msim",
+    "school": "UIUC",
+    "program": "MSIM",
+    "tier": "B-",
+    "slug": "/B-/UIUC MSIM"
   },
   {
     "id": "cplus-university-of-minnesota-mscs",

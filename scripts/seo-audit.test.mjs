@@ -178,6 +178,23 @@ test('accepts a valid Docusaurus bilingual build', async () => {
   });
 });
 
+test('a noindex legacy alias does not shadow its canonical sitemap destination', async () => {
+  await withSite(async ({page, sitemap, audit}) => {
+    const destination = 'https://csgrad.com/A+/UCLA%20MENG';
+    await page('/A+/UCLA MENG', {
+      title: 'UCLA MEng', description: 'UCLA program guide', h1: 'UCLA MEng', canonical: destination,
+    });
+    await page('/B+/UCLA MENG', {noindex: true, canonical: destination});
+    await sitemap([destination]);
+    assert.equal(audit().status, 0);
+    // Actually listing the noindex alias must still fail.
+    await sitemap([destination, 'https://csgrad.com/B+/UCLA%20MENG']);
+    const invalid = audit();
+    assert.equal(invalid.status, 1);
+    assert.match(invalid.stderr, /sitemap-noindex/);
+  });
+});
+
 test('rejects a build with no sitemap file', async () => {
   await withSite(async ({page, audit}) => {
     await page('/', {
