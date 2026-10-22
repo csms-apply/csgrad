@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+description: "Harvard CSE 偏重计算科学与数学，提供不同学制和毕业安排。这里介绍 Harvard、MIT 选课体验，以及申请背景和项目取舍。"
+title: "Harvard CSE 申请指南：学制选择与跨校选课"
+sidebar_label: "Harvard CSE"
 ---
 # Harvard CSE
 

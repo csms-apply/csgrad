@@ -1,3 +1,9 @@
+---
+description: "CMU MSR 是研究导向的两年制机器人硕士。这里介绍课程与 thesis 安排、导师匹配、资助差异，以及继续申请 PhD 的考虑。"
+title: "CMU MSR 申请参考：机器人研究、导师与资助"
+sidebar_label: "CMU MSR"
+---
+
 # CMU MSR
 
 ## 项目介绍

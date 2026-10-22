@@ -1,3 +1,9 @@
+---
+description: "Upenn CIS 需要完成十门课，可以选择课程或论文路线。本文介绍毕业节奏、学费、录取背景，以及找工作和读博的选择。"
+title: "Upenn CIS 申请指南：系统课程与毕业节奏"
+sidebar_label: "Upenn CIS"
+---
+
 # Upenn CIS
 
 ## 项目介绍

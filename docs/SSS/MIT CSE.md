@@ -1,3 +1,9 @@
+---
+description: "MIT CSE 偏向计算科学、优化与数值计算。这里介绍跨院系培养、往届录取背景与资助，并记录文中的招生状态更新。"
+title: "MIT CSE 申请参考：计算科学方向与招生状态"
+sidebar_label: "MIT CSE"
+---
+
 # MIT CSE
 
 ## 项目介绍

@@ -1,3 +1,9 @@
+---
+description: "Upenn DS 可以选哪些 CIS 和沃顿课程？这里介绍基础课豁免、核心课与选修课安排，以及录取背景和 DS、SDE 求职案例。"
+title: "Upenn DS 申请指南：课程豁免与 CIS 选修"
+sidebar_label: "Upenn DS"
+---
+
 # Upenn DS
 
 ## 项目介绍

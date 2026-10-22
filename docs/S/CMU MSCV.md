@@ -1,3 +1,9 @@
+---
+description: "CMU MSCV 是 Robotics Institute 的计算机视觉硕士。这里介绍一年半学制、暑期实习或研究安排，以及 CV 背景相关的录取案例。"
+title: "CMU MSCV 申请参考：计算机视觉背景与项目安排"
+sidebar_label: "CMU MSCV"
+---
+
 # CMU MSCV
 
 

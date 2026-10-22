@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+description: "CMU MCDS 的 Systems、Analytics 与 HCI 方向怎么选？这里整理课程体验、研究机会、录取偏好、求职案例和就读花费。"
+title: "CMU MCDS 申请指南：方向选择、课程测评与花费"
+sidebar_label: "CMU MCDS"
 ---
 # CMU MCDS
 
@@ -69,7 +72,7 @@ snowflake等
 
 
 
-# 花费情况
+## 花费情况
 cmu 是私校，学费从来就不便宜过。无论是ini、ece、还是scs，mcds的三学期Tuition
 
  fee(学费，未包括任何附加费用包括租房等)是84550$。

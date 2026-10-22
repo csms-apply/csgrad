@@ -1,3 +1,9 @@
+---
+description: "CMU MSML 的机器学习课程、RA 资助与系内研究氛围，附往届录取背景，供希望深入 ML 或继续读博的同学参考。"
+title: "CMU MSML 项目介绍：机器学习课程与研究体验"
+sidebar_label: "CMU MSML"
+---
+
 # CMU MSML
 
 ## 项目介绍

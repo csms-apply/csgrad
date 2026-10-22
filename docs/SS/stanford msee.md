@@ -1,16 +1,19 @@
 ---
 sidebar_position: 2
+title: "Stanford MSEE 申请指南：软件方向选课与往届案例"
+sidebar_label: "Stanford MSEE"
+description: "Stanford MSEE 的软件系统、机器学习方向如何选课？结合往届录取案例，分享 TA 经历、课程自由度和找工体验。"
 ---
 # Stanford MSEE
 
-# 项目介绍
+## 项目介绍
 Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得月，找工作很方便。  
 当TA的话可以免学费并且每个月给3k刀工资，track选择很自由，可以选成全软的课表，比如CS229或者CS 245 Database Systems Principles，申请的时候会发一个问卷填track，有machine learning、software system，architecutre等等track。  
 录取体感，陆本清华招生人数小于等于5人，北复交浙每个学校招收人数最多两人。申请stanford必须交托福，托福不到109需要上语言班，不接受雅思`🈚️`。如果是中外合办可以申请豁免语言成绩。Stanford选课和毕业的track都很自由所以转CS也很容易，别的课程也很多，比如网球和小提琴，或者1学分的语言课，cs本科的同学来到msee 几乎可以全选CS的课，非常flexible
 
 中外合办可以waive语言要求。相比mscs录取更友好。
 
-# 录取偏好
+## 录取偏好
 
 这个项目应该算是陆本申请美国MSCS专业的上限了，基本属于每一个申请者的抽奖校。每年申请者众多，录取者极少，录取Stanford讲缘分。
 
@@ -19,7 +22,7 @@ Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得�
 
 MSEE一共录了120人，MSCS是150人（MSEE对陆本更友好，即便是cs申请者，可以选择ai track， 存在一些dp 证明中等985 也是能录取的。MSCS对海本申请更友好，不过需要是target school，比如清华贵系、ut、ubc、gatech这样的）
 
-# 代表性dp
+## 代表性dp
 1. Penn State University ee+physics gpa 4.0，三年半ra经历
 2. 电科格拉斯哥学院本科ee， gpa3.95+, 微软实习
 3. iit本科女生，gpa 9.67/10, 2年RA经历，西门子实习
@@ -37,7 +40,7 @@ MSEE一共录了120人，MSCS是150人（MSEE对陆本更友好，即便是cs申
 15. ucla ee本科，gpa4.0， 有tesla intern
 
 
-# 找工数据
+## 找工数据
 认识的在stanford msee的同学无论在国内有没有实习在美国找实习都找的不错，有朋友之前通过系里的nvidia招聘邮件投递了一次，然后半个小时约了面试，堪比国内约面效率。
 oracle、nvidia非常喜欢招stanford的。
 1. psu ee本科上岸apple

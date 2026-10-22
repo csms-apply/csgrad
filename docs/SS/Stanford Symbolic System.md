@@ -1,3 +1,9 @@
+---
+description: "Stanford Symbolic Systems 是需要完成 thesis 的交叉研究项目。这里介绍计算机、人文与认知方向的背景要求和往届录取案例。"
+title: "Stanford Symbolic Systems 申请参考：交叉背景与论文研究"
+sidebar_label: "Stanford Symbolic System"
+---
+
 # Stanford Symbolic System
 
 ## 项目介绍

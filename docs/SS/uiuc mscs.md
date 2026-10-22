@@ -1,3 +1,9 @@
+---
+description: "UIUC MSCS 是研究导向的 CS 硕士，与授课型 MCS 不同。这里整理导师联系、录取偏好和案例，并记录资助保证方面的更新。"
+title: "UIUC MSCS 申请参考：研究方向与资助更新"
+sidebar_label: "UIUC MSCS"
+---
+
 # UIUC MSCS
 
 ## 项目介绍
