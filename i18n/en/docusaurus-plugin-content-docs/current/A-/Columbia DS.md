@@ -1,3 +1,9 @@
+---
+description: "Columbia Data Science emphasizes DS and machine learning. Explore the capstone, prerequisite planning, CS electives and reported admission and career outcomes."
+sidebar_label: "Columbia DS"
+title: "Columbia Data Science: Curriculum, Capstone and Careers"
+---
+
 # Columbia DS
 
 ## Program Overview

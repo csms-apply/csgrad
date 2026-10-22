@@ -1,3 +1,9 @@
+---
+description: "MIT EECS guide focused on PhD admissions, research backgrounds and reported applicant profiles, with examples of academic and industry careers after doctoral study."
+sidebar_label: "MIT EECS"
+title: "MIT EECS PhD: Research Admissions and Applicant Profiles"
+---
+
 # MIT EECS
 
 ## Program Overview

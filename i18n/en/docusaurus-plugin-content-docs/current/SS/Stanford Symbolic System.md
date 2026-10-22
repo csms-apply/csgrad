@@ -1,3 +1,9 @@
+---
+description: "Stanford Symbolic Systems combines computing with fields such as linguistics, psychology and philosophy. Explore thesis expectations and research-focused admissions."
+sidebar_label: "Stanford Symbolic System"
+title: "Stanford Symbolic Systems: Thesis and Research Admissions"
+---
+
 # Stanford Symbolic System
 
 ## Program Overview

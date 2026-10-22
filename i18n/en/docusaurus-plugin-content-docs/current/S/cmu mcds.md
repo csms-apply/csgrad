@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+description: "CMU MCDS guide to the Systems, Analytics and HCI tracks, SCS course choices, application requirements, workload and reported admission and job outcomes."
+sidebar_label: "CMU MCDS"
+title: "CMU MCDS: Tracks, Course Reviews and Admissions"
 ---
 # CMU MCDS
 
@@ -69,7 +72,7 @@ Notable placements include OpenAI Research Engineer, top quantitative firms, Dat
 
 
 
-# Cost
+## Cost
 CMU is a private school, and tuition has never been cheap. Whether it's INI, ECE, or SCS, MCDS's three-semester tuition fee (tuition only, not including any additional expenses such as rent) is $84,550.
 
 [![CMU MCDS 16-month option historic cost breakdown; open full size](/img/en/mcdsfee.svg)](/img/en/mcdsfee.svg)

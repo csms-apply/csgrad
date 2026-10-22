@@ -1,3 +1,9 @@
+---
+description: "UPenn MCIT is designed for applicants changing into computing. Explore foundational coursework, placement exams, study timelines and the CIS dual-degree option."
+sidebar_label: "UPenn MCIT"
+title: "UPenn MCIT: Changing Careers into Computer Science"
+---
+
 # UPenn MCIT
 
 

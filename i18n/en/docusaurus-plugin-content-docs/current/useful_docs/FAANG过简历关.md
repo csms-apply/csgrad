@@ -1,3 +1,8 @@
+---
+sidebar_label: "Passing the FAANG Resume Screening"
+title: "FAANG Internship Resume Screening: Referrals and Timing"
+description: "Lessons from the author's 2025 internship search on FAANG resume screening, including referral timing, team fit, early applications and interview preparation."
+---
 # Passing the FAANG Resume Screening
 
 I was very fortunate that during my 2025 summer internship search, I received interviews from all FAANG companies and passed every interview I participated in (using NVIDIA in place of Netflix here). Here's how to pass the resume screening at FAANG and receive a virtual onsite.

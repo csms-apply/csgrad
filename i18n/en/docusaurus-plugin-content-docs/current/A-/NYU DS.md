@@ -1,3 +1,9 @@
+---
+description: "NYU Data Science combines demanding math coursework with research opportunities. Read about applicant backgrounds, PhD interests and data science career paths."
+sidebar_label: "NYU DS"
+title: "NYU Data Science: Math Coursework and Research Paths"
+---
+
 # NYU DS
 
 ## Program Overview

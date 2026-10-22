@@ -1,3 +1,9 @@
+---
+description: "Cornell MPS in Information Science guide covering CS course access, career-change considerations, course planning and reported admission and job-search experiences."
+sidebar_label: "Cornell MPS-IS"
+title: "Cornell MPS-IS: CS Courses and Career Change"
+---
+
 # Cornell MPS-IS
 
 ## Program Overview

@@ -1,3 +1,9 @@
+---
+description: "Yale’s one-year MSCS guide covers admission profiles, deferral options and job-search experiences, with considerations for students planning a spring start."
+sidebar_label: "Yale MSCS 1 year"
+title: "Yale MSCS One-Year: Deferral and Job Search Planning"
+---
+
 # Yale MSCS 1 year
 
 ## Program Overview

@@ -1,3 +1,9 @@
+---
+description: "MIT Computational Science and Engineering guide covering scientific computing, research preparation, historical admission profiles and the reported admissions pause."
+sidebar_label: "MIT CSE"
+title: "MIT CSE: Scientific Computing and Admissions Status"
+---
+
 # MIT CSE
 
 ## Program Overview

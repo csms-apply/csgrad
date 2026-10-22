@@ -1,3 +1,9 @@
+---
+description: "NC State MCS student perspectives on career-change admission, coursework and job hunting, with applicant examples and internship experiences in North Carolina."
+sidebar_label: "NCSU MCS"
+title: "NC State MCS: Career Change and Admissions Profiles"
+---
+
 # NCSU MCS
 
 ## Program Overview

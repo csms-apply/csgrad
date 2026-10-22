@@ -1,3 +1,9 @@
+---
+description: "UCSD CS75 student perspectives on course workload, San Diego campus life, tuition, co-op opportunities and the range of admitted applicant backgrounds."
+sidebar_label: "UCSD CS75"
+title: "UCSD CS75: Coursework, Co-op and Student Experiences"
+---
+
 # UCSD CS75
 
 ## Program Overview

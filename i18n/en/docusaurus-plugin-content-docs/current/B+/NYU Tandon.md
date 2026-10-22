@@ -1,3 +1,9 @@
+---
+description: "NYU Tandon MSCS guide to its career-oriented curriculum and Brooklyn setting, with program timelines, costs, co-op opportunities and admission profiles."
+sidebar_label: "NYU Tandon MSCS"
+title: "NYU Tandon MSCS: Costs, Co-op and Career Experiences"
+---
+
 # NYU Tandon MSCS
 
 ## Program Overview

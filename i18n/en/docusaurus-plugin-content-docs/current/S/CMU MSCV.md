@@ -1,3 +1,9 @@
+---
+description: "CMU MSCV focuses on computer vision at the Robotics Institute. Explore the internship or summer research requirement and the backgrounds of admitted students."
+sidebar_label: "CMU MSCV"
+title: "CMU MSCV: Computer Vision Study and Admissions Profiles"
+---
+
 # CMU MSCV
 
 

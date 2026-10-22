@@ -1,3 +1,8 @@
+---
+sidebar_label: "UT ECE (SES)"
+title: "UT Austin ECE SES: Internships, Funding and Admissions"
+description: "UT Austin ECE SES student perspectives on program length, semester internships, tuition and assistantships, with admissions and career examples."
+---
 # UT ECE (SES)
 
 One-sentence summary: A lottery ticket -- there's really no discernible pattern, but highly recommended for job hunting.

@@ -1,3 +1,9 @@
+---
+description: "UMich MSCS/MSCSE student perspectives on flexible study timelines, teaching assistantships, hands-on courses and balancing coursework with job hunting."
+sidebar_label: "UMich MSCS/MSCSE"
+title: "UMich MSCS/MSCSE: SUGS, Coursework and Research"
+---
+
 # UMich MSCS/MSCSE
 
 ## Program Overview

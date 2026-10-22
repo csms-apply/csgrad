@@ -1,3 +1,9 @@
+---
+description: "CMU MSAII guide to its career-oriented AI curriculum, SCS electives and coding preparation, with admission expectations and career-change applicant examples."
+sidebar_label: "CMU MSAII"
+title: "CMU MSAII: AI Curriculum, SCS Electives and Admissions"
+---
+
 # CMU MSAII
 
 ## Program Overview

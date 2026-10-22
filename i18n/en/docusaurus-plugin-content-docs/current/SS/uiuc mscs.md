@@ -1,3 +1,9 @@
+---
+description: "UIUC MSCS guide to research-focused admissions, faculty outreach, reported funding changes and applicant profiles, with examples of internship and career outcomes."
+sidebar_label: "UIUC MSCS"
+title: "UIUC MSCS: Research Admissions, Funding and Faculty Fit"
+---
+
 # UIUC MSCS
 
 ## Program Overview

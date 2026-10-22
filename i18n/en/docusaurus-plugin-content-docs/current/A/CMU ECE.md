@@ -1,3 +1,9 @@
+---
+description: "CMU ECE guide to degree requirements, software-heavy course options and demanding coursework, with admission profiles, job outcomes and research perspectives."
+sidebar_label: "CMU ECE"
+title: "CMU ECE: CS Courses, Workload and Research Options"
+---
+
 # CMU ECE
 
 ## Program Overview

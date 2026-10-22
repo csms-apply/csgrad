@@ -1,3 +1,8 @@
+---
+sidebar_label: "How to Choose Between CS Master's Offers in the US"
+title: "Choosing a US CS Master's Offer for SWE Careers"
+description: "An SWE-focused framework for comparing US CS master's offers: program length, workload, internship timing, prior experience and the limits of placement anecdotes."
+---
 
 
 # How to Choose Between CS Master's Offers in the US

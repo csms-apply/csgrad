@@ -1,7 +1,12 @@
+---
+sidebar_label: "Uchicago MPCS"
+title: "UChicago MPCS: Tracks, Costs and Career Preparation"
+description: "Compare UChicago MPCS study timelines, specializations and pre-doc possibilities through student perspectives on coursework, costs and job hunting."
+---
 # Uchicago MPCS
 
 
-# Program Overview
+## Program Overview
 MPCS is a career-change-to-CS program that does not have the best reputation on forums. High overall ranking, low CS-specific ranking. Course quality is quite basic — discrete math, databases, Java, Python, C++, and other foundational courses. However, you can take undergrad courses such as Parallel Programming, which are more rigorous and have heavier workloads. For job-hunting purposes, taking easier courses is fine — the lighter the load, the more time for LeetCode grinding. Tuition is very expensive at $90K. Based on estimates from the applicant group chat, total cost is around $90K.
 
 Career outcomes: The placement data from the first couple of years was decent, with companies like Google, Facebook, etc.
@@ -14,24 +19,24 @@ Admission can be unpredictable. The day before admission decisions are released,
 
 [![UChicago MPCS portal admission signal; open full size](/img/en/uchi-admission-signal.svg)](/img/en/uchi-admission-signal.svg)
 
-# Pros
+## Pros
 High school ranking — the top university in the Midwest.
 Light program workload, convenient for LeetCode grinding.
 Is a fintech target school, providing more landing opportunities.
 Chicago is a top US city — you can have a great time.
 
-# Cons
+## Cons
 Expensive — as mentioned, tuition is $90K.
 Dangerous — many people have heard about how unsafe UChicago's location is, so think carefully before going.
 Basic course quality that may not help much with filling out your resume.
 Quarter system — semester pressure can be intense.
 
-# Course Structure
+## Course Structure
 
 - Choose one track from Data Analytics, High Performance Computing, Mobile Computing, Software Engineering, and Security, and complete four courses within that track.
 - Three unrestricted electives — you can take courses from CSMC, TTIC, and CS-PhD offerings.
 
-# Admission Preferences
+## Admission Preferences
 Prefers STEM career changers.
 
 High stats from prestigious schools (high proportion from Tsinghua, Peking U, Fudan, SJTU, Zhejiang U). GRE scores are valued — aim high. The website states that Verbal 50th percentile and Quant 90th percentile is a safe range.
@@ -48,7 +53,7 @@ Data points:
 7. Peking University Urban Construction undergrad, GPA 3.85; UPenn Urban Construction GPA 3.7; UChicago MPCS is her second master's
 
 
-# Job Outcomes & Data Points
+## Job Outcomes & Data Points
 UChicago does not have an EE department, so peer pressure is very low. At the same time, MPCS class size is not very large. Many classmates are people who have been working for years and will not compete with you for intern/new grad positions — they may even give you referrals directly in person. (MPCS and most CMU programs are essentially opposite in terms of data points.) In the earlier years (around 2022), Meta hired heavily from UChicago MPCS, including many non-CS undergrads. From my personal sampling, the UChicago name does not cause you to lose opportunities — friends with strong backgrounds basically all had many interviews.
 
 1. Zhejiang University CS, ByteDance internship -> Bloomberg full-time

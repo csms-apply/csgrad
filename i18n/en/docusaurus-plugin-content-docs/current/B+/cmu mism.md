@@ -1,8 +1,11 @@
 ---
 sidebar_position: 1
+sidebar_label: "CMU MISM"
+title: "CMU MISM: Business Core, SCS Access and Career Fit"
+description: "CMU MISM student perspectives on its business-heavy core, SCS course limits and study tracks, with admissions profiles and reported job outcomes."
 ---
 # CMU MISM
-# Program Overview
+## Program Overview
 Only suitable for students who already have internship experience at top companies in China or full-time SDE experience, whose goal is to get the CMU title and start LeetCode grinding, applying for internships, and sending out resumes from day one in the US.
 
 **Not suitable for those who want to take advanced SCS courses at Heinz and come to CMU to learn** -- the MISM core is almost entirely business courses, and the number of SCS courses you can take each semester is limited. The department head also discourages this (because Heinz has to pay the SCS school for cross-registration). You'll encounter all sorts of problems trying to take SCS courses.
@@ -13,12 +16,12 @@ If you choose the BIDA or general track but want to take many good SCS/INI cours
 
 In summary, again, only suitable for **students who want the CMU title and plan to start LeetCode grinding, applying for internships, and sending out resumes from day one in the US**.
 
-# MISM Core
+## MISM Core
 Worth a dedicated section to introduce this core -- you can see there aren't many advanced CS courses, and there are plenty of business courses. If you're considering this program, be mentally prepared; it's not suitable for students who want to take SCS courses, especially if you haven't taken equivalent business courses as an undergrad that can be waived. The courses outlined in red are CS courses, which include things like Java OOP (a first-semester undergrad course). The number of business courses far exceeds the number of CS courses.
 
 ![CMU MISM core course list](/img/en/mismcore.png)
 
-# Representative Admission Data Points
+## Representative Admission Data Points
 Rolling admissions -- apply early, get admitted early. If you want to come to MISM, apply as early as possible.
 
 1. UW-Madison CS undergrad + Tencent internship, GPA 3.7
@@ -28,7 +31,7 @@ Rolling admissions -- apply early, get admitted early. If you want to come to MI
 5. Wuhan University Financial Engineering undergrad, GPA 90, multiple quant company QD internships
 6. UIBE Financial Engineering undergrad, GPA 3.74
 
-# Job Outcomes
+## Job Outcomes
 Compared to neighboring INI, ECE, and SCS, outcomes are average -- but it mainly depends on your prior internship background and algorithm skills. Many career-change-to-CS students need to prepare LeetCode while juggling course pressure, so the success rate is definitely lower than INI and SCS. If you want to come, make sure to secure good internships and grind LeetCode while still in China.
 
 1. Indian undergrad, one year full-time experience, landed Meta MPK SWE intern and successfully converted to full-time

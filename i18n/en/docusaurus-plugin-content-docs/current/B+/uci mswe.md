@@ -1,3 +1,8 @@
+---
+sidebar_label: "UCI MSWE"
+title: "UCI MSWE: Career Change and Software Engineering Study"
+description: "UCI MSWE guide for career changers, covering prerequisites, software engineering coursework, workload and reported admissions and internship experiences."
+---
 
 # UCI MSWE
 
