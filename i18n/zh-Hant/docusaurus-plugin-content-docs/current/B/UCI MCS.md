@@ -1,6 +1,6 @@
 ---
 description: "UCI MCS 的季度制課程節奏緊，實習時間也需要提前規劃。這裡介紹申請背景、找工準備，以及與 MSWE、研究型 MSCS 的區別。"
-title: "UCI MCS 申請指南：季度制節奏與實習時間安排"
+title: "UCI MCS 申請指南：課程與項目體驗"
 sidebar_label: "UCI MCS"
 ---
 

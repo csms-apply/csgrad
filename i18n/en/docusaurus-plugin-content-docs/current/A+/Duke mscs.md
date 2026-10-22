@@ -1,7 +1,7 @@
 ---
 description: "Duke MSCS offers coursework, project and thesis paths. Compare course flexibility, interview preparation, admission profiles and career outcomes."
 sidebar_label: "Duke MSCS"
-title: "Duke MSCS: Course, Project and Thesis Options"
+title: "Duke MSCS Admissions Guide: Courses and Program Experience"
 ---
 
 # Duke MSCS

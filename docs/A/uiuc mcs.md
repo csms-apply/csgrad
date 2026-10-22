@@ -1,6 +1,6 @@
 ---
 description: "UIUC MCS 与 MSCS 有何不同？从授课型课程、主校区与 Chicago 校区，到 Co-op、毕业节奏和录取案例，了解项目的找工安排。"
-title: "UIUC MCS 申请指南：授课型课程、校区与毕业安排"
+title: "UIUC MCS 申请指南：课程与项目体验"
 sidebar_label: "UIUC MCS"
 ---
 

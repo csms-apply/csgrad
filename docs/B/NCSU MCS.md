@@ -1,6 +1,6 @@
 ---
 description: "NCSU MCS 的课程压力和北卡求职环境怎么样？从转码申请背景、实习调查，到往届软件工程岗位案例，看看这个项目的实际体验。"
-title: "NCSU MCS 转码参考：课程压力与往届求职经历"
+title: "NCSU MCS 申请指南：课程与项目体验"
 sidebar_label: "NCSU MCS"
 ---
 

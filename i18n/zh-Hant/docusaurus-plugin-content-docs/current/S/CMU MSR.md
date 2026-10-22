@@ -1,6 +1,6 @@
 ---
 description: "CMU MSR 是研究導向的兩年制機器人碩士。這裡介紹課程與 thesis 安排、導師匹配、資助差異，以及繼續申請 PhD 的考慮。"
-title: "CMU MSR 申請參考：機器人研究、導師與資助"
+title: "CMU MSR 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSR"
 ---
 

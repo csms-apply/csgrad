@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: "Columbia MSEE 轉碼參考：CS 選課與紐約生活"
+title: "Columbia MSEE 申請指南：課程與項目體驗"
 sidebar_label: "Columbia MSEE"
 description: "Columbia MSEE 的 EE 學分要求與 CS 選修如何搭配？從數據庫、雲計算到 NLP 課程測評，結合紐約生活費用和轉碼申請案例一起看。"
 ---

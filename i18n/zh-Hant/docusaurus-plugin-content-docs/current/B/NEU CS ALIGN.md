@@ -1,5 +1,5 @@
 ---
-title: "NEU CS Align 轉碼指南：校區體驗與求職準備"
+title: "NEU CS Align 申請指南：課程與項目體驗"
 sidebar_label: "NEU CS Align"
 description: "NEU CS Align 面向轉碼學生，本文分享硅谷校區的課程與生活體驗、其他校區選擇，以及入學準備、Co-op 和往屆求職經歷。"
 ---

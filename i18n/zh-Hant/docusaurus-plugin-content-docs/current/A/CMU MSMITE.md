@@ -1,6 +1,6 @@
 ---
 description: "CMU MSMITE 在匹茲堡與硅谷的學習安排、選課和企業 practicum 體驗，附錄取背景與往屆實習、全職案例。"
-title: "CMU MSMITE 申請指南：兩地學習與選課安排"
+title: "CMU MSMITE 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSMITE"
 ---
 

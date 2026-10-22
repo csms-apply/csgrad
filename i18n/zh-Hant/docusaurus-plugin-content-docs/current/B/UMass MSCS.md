@@ -1,6 +1,6 @@
 ---
 description: "UMass MSCS 的課程與校園生活分享，附不同工作經歷申請者的錄取背景，以及軟件工程、機器學習方向的實習和全職案例。"
-title: "UMass MSCS 申請參考：往屆背景與軟件、ML 求職案例"
+title: "UMass MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UMass MSCS"
 ---
 

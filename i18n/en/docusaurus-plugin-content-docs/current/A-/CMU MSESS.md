@@ -1,7 +1,7 @@
 ---
 description: "CMU MSE-SS guide covering software engineering coursework, the value of prior work experience, admission profiles and reported internship and job outcomes."
 sidebar_label: "CMU MSE-SS"
-title: "CMU MSE-SS: Coursework and Fit for Experienced Applicants"
+title: "CMU MSE-SS Admissions Guide: Courses and Program Experience"
 ---
 
 # CMU MSE-SS

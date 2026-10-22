@@ -1,6 +1,6 @@
 ---
 description: "UCSB MSCS 的學制安排、海邊生活和找工氛圍分享，結合錄取背景與求職案例，看看研究生生活與自主求職如何兼顧。"
-title: "UCSB MSCS 項目體驗：學制安排與海邊生活"
+title: "UCSB MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UCSB MSCS"
 ---
 

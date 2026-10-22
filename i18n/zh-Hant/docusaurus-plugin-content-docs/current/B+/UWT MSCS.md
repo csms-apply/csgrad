@@ -1,5 +1,5 @@
 ---
-title: "UWT MSCS 項目介紹：Tacoma 課程與校區對比"
+title: "UWT MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UWT MSCS"
 description: "UW Tacoma 的 CS 碩士提供課程、capstone 與 thesis 路線。本文介紹先修課、學費、生活與 Co-op 經驗，並比較 Tacoma 和 Bothell 校區。"
 ---

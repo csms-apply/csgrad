@@ -1,6 +1,6 @@
 ---
 sidebar_label: "TAMU CSE"
-title: "Texas A&M CSE: Degree Options, Funding and Coursework"
+title: "Texas A&M CSE Admissions Guide: Courses and Program Experience"
 description: "Explore Texas A&M CSE degree options through student accounts of program transfers, research coursework, assistantships and internship flexibility."
 ---
 # TAMU CSE

@@ -1,5 +1,5 @@
 ---
-title: "Gatech ECE 申請指南：軟硬件課程與選課經驗"
+title: "Gatech ECE 申請指南：課程與項目體驗"
 sidebar_label: "Gatech ECE"
 description: "Gatech ECE 的核心課、跨學院選課與 VLSI Tape-out 課程介紹，附搶課、申請 TA 和準備實習的經驗，以及軟硬件方向的往屆案例。"
 ---

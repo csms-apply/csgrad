@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "CMU MSIN 申请指南：系统课程与求职经历"
+title: "CMU MSIN 申请指南：课程与项目体验"
 sidebar_label: "CMU MSIN"
 description: "CMU MSIN 能选哪些系统课，申请文书如何体现自己的背景？本文分享 CSAPP、数据库等选课经历，以及往届实习、全职和读博案例。"
 ---

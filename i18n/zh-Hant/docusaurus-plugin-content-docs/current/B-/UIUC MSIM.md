@@ -1,6 +1,6 @@
 ---
 description: "UIUC MSIM 的學費、課程壓力和 Co-op 體驗，附轉碼申請背景，以及軟件、數據和產品方向的往屆求職案例。"
-title: "UIUC MSIM 轉碼參考：學習成本與往屆求職案例"
+title: "UIUC MSIM 申請指南：課程與項目體驗"
 sidebar_label: "UIUC MSIM"
 ---
 

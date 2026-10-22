@@ -1,5 +1,5 @@
 ---
-title: "Caltech MSEE 申請參考：CS 選課與學制安排"
+title: "Caltech MSEE 申請指南：課程與項目體驗"
 sidebar_label: "Caltech MSEE"
 description: "Caltech MSEE 的 EE 與 CS 交叉選課、學制安排和洛杉磯就讀體驗，附電子工程、物理等背景申請者的往屆錄取案例。"
 ---

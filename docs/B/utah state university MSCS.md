@@ -1,6 +1,6 @@
 ---
 description: "Utah State University MSCS 的 TA/RA 和资助机会，附申请背景、就读安排与毕业去向，供关注硕士学习成本的同学参考。"
-title: "Utah State University MSCS 申请参考：TA/RA 与资助"
+title: "Utah State University MSCS 申请指南：课程与项目体验"
 sidebar_label: "UTSU MSCS"
 ---
 

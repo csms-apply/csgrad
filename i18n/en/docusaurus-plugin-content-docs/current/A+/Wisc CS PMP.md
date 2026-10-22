@@ -1,7 +1,7 @@
 ---
 description: "UW–Madison CS PMP is a professional option distinct from its research MS. Explore tuition, study timelines and the role of full-time work experience in admission."
 sidebar_label: "Wisc CS PMP"
-title: "UW–Madison CS PMP: Costs, Timeline and Admissions"
+title: "UW–Madison CS PMP Admissions Guide: Courses and Program Experience"
 ---
 
 # Wisc CS PMP

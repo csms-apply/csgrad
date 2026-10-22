@@ -1,7 +1,7 @@
 ---
 description: "USC CS28 student observations on large cohorts, GPA-focused admission patterns and access to research, with examples of admitted applicants and careers."
 sidebar_label: "USC CS28"
-title: "USC CS28: Admissions Profiles and Research Opportunities"
+title: "USC CS28 Admissions Guide: Courses and Program Experience"
 ---
 
 # USC CS28

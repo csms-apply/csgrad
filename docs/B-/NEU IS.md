@@ -1,6 +1,6 @@
 ---
 description: "NEU IS 的软件开发方向适合怎样的转码申请者？这里介绍不同校区、课程、Co-op 与毕业安排，并整理实习和全职案例。"
-title: "NEU IS 转码申请指南：软件开发方向与校区选择"
+title: "NEU IS 申请指南：课程与项目体验"
 sidebar_label: "Neu IS"
 ---
 

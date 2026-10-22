@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: "CMU MISM"
-title: "CMU MISM: Business Core, SCS Access and Career Fit"
+title: "CMU MISM Admissions Guide: Courses and Program Experience"
 description: "CMU MISM student perspectives on its business-heavy core, SCS course limits and study tracks, with admissions profiles and reported job outcomes."
 ---
 # CMU MISM

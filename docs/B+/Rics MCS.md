@@ -1,6 +1,6 @@
 ---
 description: "Rice MCS 的课程、实习要求与三至四学期毕业方案，附休斯顿住宿生活、学费安排，以及往届同学的求职经历。"
-title: "Rice MCS 申请指南：毕业节奏与休斯顿生活"
+title: "Rice MCS 申请指南：课程与项目体验"
 sidebar_label: "Rice MCS"
 ---
 

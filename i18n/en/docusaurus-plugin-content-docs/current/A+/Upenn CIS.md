@@ -1,7 +1,7 @@
 ---
 description: "UPenn CIS offers coursework and thesis options across a ten-course degree. Read about study timelines, admission profiles, workload and job outcomes."
 sidebar_label: "Upenn CIS"
-title: "UPenn CIS: Degree Options, Workload and Admissions"
+title: "UPenn CIS Admissions Guide: Courses and Program Experience"
 ---
 
 # Upenn CIS

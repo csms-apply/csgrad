@@ -1,6 +1,6 @@
 ---
 description: "SCU MSCSE 在硅谷讀書的實際體驗：學費與校園生活、轉碼先修課、選課壓力，以及季度制對實習時間和求職的影響。"
-title: "SCU MSCSE 項目體驗：先修課、選課與硅谷生活"
+title: "SCU MSCSE 申請指南：課程與項目體驗"
 sidebar_label: "SCU MSCSE"
 ---
 

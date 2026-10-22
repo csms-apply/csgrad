@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: "CMU MSIN"
-title: "CMU MSIN: Systems Courses and Internship Experiences"
+title: "CMU MSIN Admissions Guide: Courses and Program Experience"
 description: "CMU MSIN student perspectives on systems courses and CSAPP preparation, with short-essay admissions advice and reported internship and new-grad outcomes."
 ---
 # CMU MSIN

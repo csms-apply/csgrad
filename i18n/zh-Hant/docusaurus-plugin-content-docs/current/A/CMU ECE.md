@@ -1,6 +1,6 @@
 ---
 description: "CMU ECE 能選多少 CS 課，課業壓力到底有多大？從學分要求、系統課程與實驗作業，到實習案例和轉博機會，瞭解真實就讀體驗。"
-title: "CMU ECE 項目體驗：系統選課與課業壓力"
+title: "CMU ECE 申請指南：課程與項目體驗"
 sidebar_label: "CMU ECE"
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: "UT Austin MSCS guide covering course quality, research opportunities and Austin’s tech setting, with admission profiles and considerations for a future PhD."
 sidebar_label: "UT MSCS"
-title: "UT Austin MSCS: Course Reviews and Research Opportunities"
+title: "UT Austin MSCS Admissions Guide: Courses and Program Experience"
 ---
 
 # UT MSCS

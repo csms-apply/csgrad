@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "CMU MSCS 申请指南：SCS 选课与课程体验"
+title: "CMU MSCS 申请指南：课程与项目体验"
 sidebar_label: "CMU MSCS"
 description: "CMU MSCS 的 AI、Theory、System 课程要求与选课体验，介绍 CSAPP、数据库、深度学习系统等课程，并附往届录取和求职案例。"
 ---

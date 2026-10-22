@@ -1,5 +1,5 @@
 ---
-title: "Columbia MSCE 申請指南：軟件選課與 MSCS 對比"
+title: "Columbia MSCE 申請指南：課程與項目體驗"
 sidebar_label: "Columbia MSCE"
 description: "Columbia MSCE 的核心課可以怎樣搭配 CS 課程？本文介紹選課優先級、thesis 選擇、往屆申請背景，以及與 MSCS 的取捨。"
 ---

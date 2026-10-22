@@ -1,6 +1,6 @@
 ---
 description: "NEU IS 的軟件開發方向適合怎樣的轉碼申請者？這裡介紹不同校區、課程、Co-op 與畢業安排，並整理實習和全職案例。"
-title: "NEU IS 轉碼申請指南：軟件開發方向與校區選擇"
+title: "NEU IS 申請指南：課程與項目體驗"
 sidebar_label: "Neu IS"
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "Upenn EE 的 ESE 必修课与 CIS 选修课如何搭配？这里分享课业压力、内部转专业经验，以及软件和硬件方向的求职差异。"
-title: "Upenn EE 转码参考：ESE 课程与转专业经验"
+title: "Upenn EE 申请指南：课程与项目体验"
 sidebar_label: "Upenn EE"
 ---
 

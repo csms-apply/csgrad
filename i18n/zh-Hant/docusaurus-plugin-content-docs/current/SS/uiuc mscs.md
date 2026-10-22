@@ -1,6 +1,6 @@
 ---
 description: "UIUC MSCS 是研究導向的 CS 碩士，與授課型 MCS 不同。這裡整理導師聯繫、錄取偏好和案例，並記錄資助保證方面的更新。"
-title: "UIUC MSCS 申請參考：研究方向與資助更新"
+title: "UIUC MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UIUC MSCS"
 ---
 

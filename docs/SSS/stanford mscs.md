@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "Stanford MSCS 申请指南：选课、TA 与就读体验"
+title: "Stanford MSCS 申请指南：课程与项目体验"
 sidebar_label: "Stanford MSCS"
 description: "Stanford MSCS 的选课体验、TA/RA 机会与校园生活，附不同本科和工作背景的往届录取案例，以及实习、全职和读博相关经验。"
 ---

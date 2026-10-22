@@ -1,6 +1,6 @@
 ---
 description: "CMU MSCV 是 Robotics Institute 的計算機視覺碩士。這裡介紹一年半學制、暑期實習或研究安排，以及 CV 背景相關的錄取案例。"
-title: "CMU MSCV 申請參考：計算機視覺背景與項目安排"
+title: "CMU MSCV 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSCV"
 ---
 

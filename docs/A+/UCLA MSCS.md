@@ -1,5 +1,5 @@
 ---
-title: "UCLA MSCS 申请参考：科研方向与洛杉矶生活"
+title: "UCLA MSCS 申请指南：课程与项目体验"
 sidebar_label: "UCLA MSCS"
 description: "UCLA MSCS 偏向研究，本文介绍 AI 相关课程、进组体验和往届录取背景，也分享洛杉矶住宿、饮食与求职经历。"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Yale MSCS One-Year: Admissions and Cohort Experiences"
+title: "Yale MSCS One-Year (Supplement) Admissions Guide: Courses and Program Experience"
 description: "A separate account of Yale's one-year MSCS, focusing on GPA and test-score patterns, the campus and theory group, and cohort job-search experiences."
 sidebar_label: "Yale MSCS 1 Year"
 ---

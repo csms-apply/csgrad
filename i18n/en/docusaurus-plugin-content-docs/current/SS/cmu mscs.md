@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: "CMU MSCS"
-title: "CMU MSCS: SCS Course Access and Admissions Profiles"
+title: "CMU MSCS Admissions Guide: Courses and Program Experience"
 description: "CMU MSCS course overview covering CSAPP, AI, theory and systems requirements, plus admissions profiles and reported new-grad outcomes."
 ---
 

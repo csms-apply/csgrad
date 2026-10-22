@@ -1,6 +1,6 @@
 ---
 description: "UCB EECS MEng 的一年制课程、Leadership 与 capstone 体验，结合找工时间安排、费用和生活情况，讨论适合的申请人群。"
-title: "UCB EECS MEng 项目体验：一年制课程与 Capstone"
+title: "UCB EECS MEng 申请指南：课程与项目体验"
 sidebar_label: "UCB EECS MEng"
 ---
 

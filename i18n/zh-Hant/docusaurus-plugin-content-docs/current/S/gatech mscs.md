@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 description: "Gatech MSCS 的課程選擇、TA/RA 支持與亞特蘭大求職環境，結合錄取背景，討論轉碼、找工和繼續研究的不同選擇。"
-title: "Gatech MSCS 申請指南：課程選擇與 TA 經驗"
+title: "Gatech MSCS 申請指南：課程與項目體驗"
 sidebar_label: "Gatech MSCS"
 ---
 # Gatech MSCS

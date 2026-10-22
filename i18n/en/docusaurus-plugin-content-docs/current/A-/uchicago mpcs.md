@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Uchicago MPCS"
-title: "UChicago MPCS: Tracks, Costs and Career Preparation"
+title: "UChicago MPCS Admissions Guide: Courses and Program Experience"
 description: "Compare UChicago MPCS study timelines, specializations and pre-doc possibilities through student perspectives on coursework, costs and job hunting."
 ---
 # Uchicago MPCS

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: "Columbia MSEE 转码参考：CS 选课与纽约生活"
+title: "Columbia MSEE 申请指南：课程与项目体验"
 sidebar_label: "Columbia MSEE"
 description: "Columbia MSEE 的 EE 学分要求与 CS 选修如何搭配？从数据库、云计算到 NLP 课程测评，结合纽约生活费用和转码申请案例一起看。"
 ---

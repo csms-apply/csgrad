@@ -1,7 +1,7 @@
 ---
 description: "UMD MSCS is research-oriented and reviewed alongside PhD applications. Explore assistantship opportunities, research strengths and job-search considerations."
 sidebar_label: "UMD MSCS"
-title: "UMD MSCS: Research Admissions and Assistantships"
+title: "UMD MSCS Admissions Guide: Courses and Program Experience"
 ---
 
 # UMD MSCS

@@ -1,6 +1,6 @@
 ---
 description: "UCSD CS75 的课程压力、Co-op 和圣地亚哥生活体验如何？结合学费、TA 支持与申请案例，看这个项目是否适合自己的找工计划。"
-title: "UCSD CS75 申请指南：选课压力与圣地亚哥生活"
+title: "UCSD CS75 申请指南：课程与项目体验"
 sidebar_label: "UCSD CS75"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Yale MSCS 一年制補充介紹：校園與往屆申請、求職經歷"
+title: "Yale MSCS 一年制（補充） 申請指南：課程與項目體驗"
 description: "Yale 一年制 MSCS 的補充介紹，記錄校園與理論方向、往年錄取成績要求，以及不同就業年份的找工經歷和案例。"
 sidebar_label: "Yale mscs 1 year"
 ---

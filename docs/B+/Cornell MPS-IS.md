@@ -1,6 +1,6 @@
 ---
 description: "Cornell MPS-IS 的转码体验、CS 选课优先级与课程压力，结合不同本科背景的申请案例，讨论实习安排和求职准备。"
-title: "Cornell MPS-IS 转码参考：选课优先级与课程压力"
+title: "Cornell MPS-IS 申请指南：课程与项目体验"
 sidebar_label: "Cornell MPS-IS"
 ---
 

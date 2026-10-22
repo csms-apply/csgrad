@@ -1,7 +1,7 @@
 ---
 description: "CMU MSML guide to its machine learning curriculum, research community, possible RA support and PhD pathways, with reported applicant and career profiles."
 sidebar_label: "CMU MSML"
-title: "CMU MSML: ML Coursework, Research and PhD Paths"
+title: "CMU MSML Admissions Guide: Courses and Program Experience"
 ---
 
 # CMU MSML

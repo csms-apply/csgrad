@@ -1,6 +1,6 @@
 ---
 sidebar_label: "NEU MSCS"
-title: "Northeastern MSCS: Campuses, Courses and Career Experiences"
+title: "Northeastern MSCS Admissions Guide: Courses and Program Experience"
 description: "Compare Northeastern MSCS campuses, course availability and study timelines, with applicant profiles and reported internships and full-time job outcomes."
 ---
 # NEU MSCS

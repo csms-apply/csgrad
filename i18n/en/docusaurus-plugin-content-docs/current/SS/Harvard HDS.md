@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Harvard HDS"
-title: "Harvard Health Data Science: Courses and Capstone"
+title: "Harvard Health Data Science Admissions Guide: Courses and Program Experience"
 description: "Harvard Health Data Science notes on biostatistics coursework, hospital capstone projects and cross-registration, with admissions and career profiles."
 ---
 # Harvard HDS

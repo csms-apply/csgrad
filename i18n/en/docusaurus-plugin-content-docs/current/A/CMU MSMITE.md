@@ -1,7 +1,7 @@
 ---
 description: "CMU Mobile and IoT Engineering spans Pittsburgh and Silicon Valley. Read about flexible coursework, industry practicum experiences and career outcomes."
 sidebar_label: "CMU MSMITE"
-title: "CMU MSMITE: Pittsburgh, Silicon Valley and Course Planning"
+title: "CMU MSMITE Admissions Guide: Courses and Program Experience"
 ---
 
 # CMU MSMITE

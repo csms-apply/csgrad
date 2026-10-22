@@ -2,7 +2,7 @@
 sidebar_position: 2
 description: "Compare Duke ECE MS and MEng through coursework, thesis and internship requirements, career-change considerations and reported admissions experiences."
 sidebar_label: "Duke ECE"
-title: "Duke ECE MS vs MEng: Coursework and Career Change"
+title: "Duke ECE MS vs MEng Admissions Guide: Courses and Program Experience"
 ---
 # Duke ECE
 

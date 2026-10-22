@@ -1,7 +1,7 @@
 ---
 description: "UIUC MSIM guide to coursework, tuition and co-op, with career-change admission examples and reported outcomes in software, data and product roles."
 sidebar_label: "UIUC MSIM"
-title: "UIUC MSIM: Career Change, Coursework and Co-op"
+title: "UIUC MSIM Admissions Guide: Courses and Program Experience"
 ---
 
 # UIUC MSIM

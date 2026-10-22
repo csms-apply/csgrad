@@ -1,5 +1,5 @@
 ---
-title: "UT Austin ECE SES 申請參考：學制、費用與 TA/RA"
+title: "UT Austin ECE SES 申請指南：課程與項目體驗"
 sidebar_label: "UT ECE(ses)"
 description: "UT Austin ECE SES 的畢業時間、學費和 TA/RA 經歷，附不同 ECE 方向的申請背景與實習、全職案例，供選項目時參考。"
 ---

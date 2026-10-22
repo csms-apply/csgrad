@@ -1,7 +1,7 @@
 ---
 description: "Northeastern Software Engineering Systems guide covering its Boston location, application options, admitted applicant backgrounds and reported job outcomes."
 sidebar_label: "NEU SES"
-title: "NEU Software Engineering Systems: Admissions and Careers"
+title: "NEU Software Engineering Systems Admissions Guide: Courses and Program Experience"
 ---
 
 # NEU SES

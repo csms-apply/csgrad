@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "CMU SE-SV 項目體驗：硅谷校區與課程取捨"
+title: "CMU SE-SV 申請指南：課程與項目體驗"
 sidebar_label: "CMU SE-SV"
 description: "CMU SE-SV 的硅谷校區與匹茲堡本部有哪些差別？本文分享選課限制、軟件工程課程體驗、申請背景與往屆求職案例。"
 ---

@@ -1,6 +1,6 @@
 ---
 description: "CMU MSAII 的 AI 與系統課選擇、Coding Bootcamp 和轉碼體驗，結合往屆申請背景，瞭解 SDE 與 MLE 兩類就業方向。"
-title: "CMU MSAII 申請指南：AI、系統課與轉碼體驗"
+title: "CMU MSAII 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSAII"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "UChicago MPCS 轉碼申請指南：學制、課程與費用"
+title: "UChicago MPCS 申請指南：課程與項目體驗"
 sidebar_label: "Uchicago MPCS"
 description: "UChicago MPCS 的九個月與十五個月路線、基礎課程和高階選修，結合轉碼申請背景、pre-doc 經歷及芝加哥生活，討論就讀取捨。"
 ---

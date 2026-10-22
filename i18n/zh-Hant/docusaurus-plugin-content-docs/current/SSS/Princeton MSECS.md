@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 description: "Princeton MSCS 招生規模小，申請需結合研究興趣與教學經歷。這裡介紹 GPA、TA 背景等考慮因素，並附往屆錄取案例。"
-title: "Princeton MSCS 申請指南：TA 經歷與研究機會"
+title: "Princeton MSCS 申請指南：課程與項目體驗"
 sidebar_label: "Princeton MSCS"
 ---
 # Princeton MSCS

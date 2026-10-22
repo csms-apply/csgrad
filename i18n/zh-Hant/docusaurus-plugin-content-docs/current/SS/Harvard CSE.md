@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 description: "Harvard CSE 偏重計算科學與數學，提供不同學制和畢業安排。這裡介紹 Harvard、MIT 選課體驗，以及申請背景和項目取捨。"
-title: "Harvard CSE 申請指南：學制選擇與跨校選課"
+title: "Harvard CSE 申請指南：課程與項目體驗"
 sidebar_label: "Harvard CSE"
 ---
 # Harvard CSE

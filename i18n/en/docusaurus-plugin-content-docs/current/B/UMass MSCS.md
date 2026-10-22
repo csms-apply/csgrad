@@ -1,7 +1,7 @@
 ---
 description: "UMass MSCS student perspectives on coursework and job hunting in Massachusetts, with reported admissions profiles spanning recent graduates and experienced applicants."
 sidebar_label: "UMass MSCS"
-title: "UMass MSCS: Coursework, Admissions and Job Search"
+title: "UMass MSCS Admissions Guide: Courses and Program Experience"
 ---
 
 # UMass MSCS

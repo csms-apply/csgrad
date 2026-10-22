@@ -1,6 +1,6 @@
 ---
 description: "Wisc CS PMP 與研究型 MSCS 有什麼區別？從學費、畢業節奏、實習安排和 PCP 轉入路徑，瞭解這個職業型 CS 碩士。"
-title: "Wisc CS PMP 申請指南：工作背景與職業型碩士"
+title: "Wisc CS PMP 申請指南：課程與項目體驗"
 sidebar_label: "Wisc CS PMP"
 ---
 

@@ -2,7 +2,7 @@
 sidebar_position: 2
 description: "CMU MCDS guide to the Systems, Analytics and HCI tracks, SCS course choices, application requirements, workload and reported admission and job outcomes."
 sidebar_label: "CMU MCDS"
-title: "CMU MCDS: Tracks, Course Reviews and Admissions"
+title: "CMU MCDS Admissions Guide: Courses and Program Experience"
 ---
 # CMU MCDS
 

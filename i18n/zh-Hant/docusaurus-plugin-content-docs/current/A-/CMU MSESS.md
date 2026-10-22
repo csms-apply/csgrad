@@ -1,6 +1,6 @@
 ---
 description: "CMU MSE-SS 與 ES、Professional 方向有什麼區別？這裡介紹課程、實習和 capstone 安排，以及軟件工程經歷對申請和就讀的影響。"
-title: "CMU MSE-SS 申請指南：方向區別與軟件工程課程"
+title: "CMU MSE-SS 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSE-SS"
 ---
 

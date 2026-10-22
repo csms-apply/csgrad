@@ -1,7 +1,7 @@
 ---
 description: "UPenn Data Science combines statistics, machine learning and flexible electives. See how students build CS-focused schedules and compare admission profiles."
 sidebar_label: "Upenn DS"
-title: "UPenn Data Science: Core Courses and CS Electives"
+title: "UPenn Data Science Admissions Guide: Courses and Program Experience"
 ---
 
 # Upenn DS

@@ -1,5 +1,5 @@
 ---
-title: "TAMU CSE 項目介紹：學位選擇、研究與學習成本"
+title: "TAMU CSE 申請指南：課程與項目體驗"
 sidebar_label: "TAMU CSE"
 description: "TAMU CSE 下 MCS、MSCS 等學位的選擇與轉換經驗，介紹偏研究的課程、TA/RA、學習成本，以及不同工作背景同學的求職經歷。"
 ---

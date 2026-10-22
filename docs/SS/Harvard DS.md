@@ -1,6 +1,6 @@
 ---
 description: "Harvard DS 的跨校选课体验与往届录取背景，附 CS、数学、统计等申请者案例，以及科技公司和金融行业的就业去向。"
-title: "Harvard DS 申请参考：跨校选课与往届背景"
+title: "Harvard DS 申请指南：课程与项目体验"
 sidebar_label: "Harvard DS"
 ---
 

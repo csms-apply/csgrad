@@ -1,6 +1,6 @@
 ---
 description: "UIUC ECE MEng 的軟硬件選課、跨系課程申請與 Co-op 安排，結合推遲入學經驗、錄取背景和實習案例，瞭解項目的靈活性。"
-title: "UIUC ECE MEng 申請指南：跨系選課與畢業安排"
+title: "UIUC ECE MEng 申請指南：課程與項目體驗"
 sidebar_label: "UIUC ECE MENG"
 ---
 

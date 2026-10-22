@@ -1,5 +1,5 @@
 ---
-title: "Columbia MSCS 项目体验：课程测评、找工与费用"
+title: "Columbia MSCS 申请指南：课程与项目体验"
 sidebar_label: "Columbia MSCS"
 description: "Columbia MSCS 在读体验：Software Systems 与 ML 方向怎么选，课程作业有多重，纽约生活花费如何，以及 TA、科研和求职经历。"
 ---

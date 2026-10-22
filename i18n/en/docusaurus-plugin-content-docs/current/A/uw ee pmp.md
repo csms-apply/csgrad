@@ -1,6 +1,6 @@
 ---
 sidebar_label: "UW EE PMP"
-title: "UW EE PMP: Software Courses and Seattle Job Search"
+title: "UW EE PMP Admissions Guide: Courses and Program Experience"
 description: "Student observations on UW EE PMP software courses, co-op planning and Seattle recruiting, alongside admission trends and reported career experiences."
 ---
 

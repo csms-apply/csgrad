@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: "Stanford MSEE"
-title: "Stanford MSEE: Software Tracks and Admissions Profiles"
+title: "Stanford MSEE Admissions Guide: Courses and Program Experience"
 description: "Stanford MSEE student perspectives on software and ML course choices, assistantships and admissions backgrounds, with examples of career outcomes."
 ---
 # Stanford MSEE

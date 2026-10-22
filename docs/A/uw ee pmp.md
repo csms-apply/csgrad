@@ -1,5 +1,5 @@
 ---
-title: "UW EE PMP 项目介绍：软件选课与 MSECE 更名记录"
+title: "UW EE PMP 申请指南：课程与项目体验"
 sidebar_label: "UW EE PMP"
 description: "UW EE PMP 的软件课程、西雅图学习生活和申请经验，附 Co-op 经历、往届求职案例，并记录文中关于 MSECE 学位更名的更新。"
 ---

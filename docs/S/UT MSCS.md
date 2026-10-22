@@ -1,6 +1,6 @@
 ---
 description: "UT Austin MSCS 的课程、费用和 Austin 就业环境分享，附科研背景相关的录取案例，以及 RA、读博和找工方面的经验。"
-title: "UT Austin MSCS 申请指南：课程、研究与生活体验"
+title: "UT Austin MSCS 申请指南：课程与项目体验"
 sidebar_label: "UT MSCS"
 ---
 

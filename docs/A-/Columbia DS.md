@@ -1,6 +1,6 @@
 ---
 description: "Columbia DS 更偏数据科学与机器学习。了解课程豁免、CS 和统计选修课、capstone 的时间安排，以及转码和找工方面的取舍。"
-title: "Columbia DS 项目介绍：课程豁免与 Capstone 安排"
+title: "Columbia DS 申请指南：课程与项目体验"
 sidebar_label: "Columbia DS"
 ---
 

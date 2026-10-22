@@ -1,6 +1,6 @@
 ---
 description: "Cornell CS MEng 的校區、課程與畢業項目怎麼選？這裡結合申請和就業案例，討論學制安排及需要向學校確認的實習條件。"
-title: "Cornell CS MEng 申請指南：校區、課程與畢業安排"
+title: "Cornell CS MEng 申請指南：課程與項目體驗"
 sidebar_label: "Cornell CS MENG"
 ---
 

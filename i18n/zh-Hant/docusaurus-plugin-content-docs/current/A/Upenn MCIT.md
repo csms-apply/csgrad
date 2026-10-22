@@ -1,6 +1,6 @@
 ---
 description: "Upenn MCIT 面向轉碼申請者，課程從基礎開始。這裡整理必修課豁免、畢業安排、雙學位選擇，以及不同本科背景的錄取和找工案例。"
-title: "Upenn MCIT 轉碼申請指南：基礎課程與雙學位選擇"
+title: "Upenn MCIT 申請指南：課程與項目體驗"
 sidebar_label: "Upenn MCIT"
 ---
 

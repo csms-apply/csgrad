@@ -1,6 +1,6 @@
 ---
 description: "NYU DS 的數學要求和研究氛圍怎麼樣？這裡介紹課程、進組與轉博機會，以及 DS 崗位準備和往屆申請者的背景。"
-title: "NYU DS 申請指南：數學背景與研究氛圍"
+title: "NYU DS 申請指南：課程與項目體驗"
 sidebar_label: "NYU DS"
 ---
 

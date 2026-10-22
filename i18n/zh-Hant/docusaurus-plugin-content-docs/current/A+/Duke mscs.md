@@ -1,6 +1,6 @@
 ---
 description: "Duke MSCS 選課自由，可選課程、項目或論文畢業路線。這裡整理課程安排、學制與費用，以及錄取背景和找工案例。"
-title: "Duke MSCS 申請指南：畢業路線與課程測評"
+title: "Duke MSCS 申請指南：課程與項目體驗"
 sidebar_label: "Duke MSCS"
 ---
 

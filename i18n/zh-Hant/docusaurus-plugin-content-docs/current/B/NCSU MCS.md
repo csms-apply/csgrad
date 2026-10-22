@@ -1,6 +1,6 @@
 ---
 description: "NCSU MCS 的課程壓力和北卡求職環境怎麼樣？從轉碼申請背景、實習調查，到往屆軟件工程崗位案例，看看這個項目的實際體驗。"
-title: "NCSU MCS 轉碼參考：課程壓力與往屆求職經歷"
+title: "NCSU MCS 申請指南：課程與項目體驗"
 sidebar_label: "NCSU MCS"
 ---
 

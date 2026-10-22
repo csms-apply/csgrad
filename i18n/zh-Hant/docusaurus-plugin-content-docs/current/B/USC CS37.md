@@ -1,6 +1,6 @@
 ---
 description: "USC CS28 的兩年制學習安排、申請中 GPA 與本科背景的影響，以及大班規模下的科研機會和往屆軟件崗位求職情況。"
-title: "USC CS28 申請參考：本科背景與大班項目體驗"
+title: "USC CS28 申請指南：課程與項目體驗"
 sidebar_label: "USC CS28"
 ---
 

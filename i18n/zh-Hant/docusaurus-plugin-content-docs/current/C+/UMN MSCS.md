@@ -1,6 +1,6 @@
 ---
 description: "UMN MSCS 的 TA 支持、生活體驗與往屆申請背景，附軟件崗位求職案例，並分享留在本校或申請外校 PhD 的經歷。"
-title: "UMN MSCS 申請參考：TA 支持與讀博經歷"
+title: "UMN MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UMN MSCS"
 ---
 

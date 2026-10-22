@@ -1,7 +1,7 @@
 ---
 description: "Brown SCMCS student perspectives on balancing two courses per semester with research and job hunting, including workload, study space and tuition."
 sidebar_label: "Brown SCMCS"
-title: "Brown SCMCS: Course Load, Costs and Job Search"
+title: "Brown SCMCS Admissions Guide: Courses and Program Experience"
 ---
 
 # Brown SCMCS

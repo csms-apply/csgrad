@@ -1,6 +1,6 @@
 ---
 description: "NEU SES 是波士頓校區的軟件工程系統項目。這裡介紹它與 MSCS、CS Align、IS 的申請選擇，以及錄取和往屆求職情況。"
-title: "NEU SES 項目介紹：波士頓軟件工程系統碩士"
+title: "NEU SES 申請指南：課程與項目體驗"
 sidebar_label: "NEU SES"
 ---
 

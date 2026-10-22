@@ -1,7 +1,7 @@
 ---
 description: "Harvard Data Science guide covering Harvard and MIT course access, admitted applicants’ quantitative backgrounds and reported careers in data science and finance."
 sidebar_label: "Harvard DS"
-title: "Harvard Data Science: Admissions and Career Profiles"
+title: "Harvard Data Science Admissions Guide: Courses and Program Experience"
 ---
 
 # Harvard DS

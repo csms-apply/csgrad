@@ -1,6 +1,6 @@
 ---
 sidebar_label: "UT ECE (SES)"
-title: "UT Austin ECE SES: Internships, Funding and Admissions"
+title: "UT Austin ECE SES Admissions Guide: Courses and Program Experience"
 description: "UT Austin ECE SES student perspectives on program length, semester internships, tuition and assistantships, with admissions and career examples."
 ---
 # UT ECE (SES)

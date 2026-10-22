@@ -1,5 +1,5 @@
 ---
-title: "NEU MSCS 申請指南：校區選擇與課程體驗"
+title: "NEU MSCS 申請指南：課程與項目體驗"
 sidebar_label: "NEU MSCS"
 description: "NEU 常規 MSCS 與 CS Align 有什麼區別？本文介紹各校區的課程和學習環境，分享 NUworks、Co-op 與往屆申請、求職經歷。"
 ---

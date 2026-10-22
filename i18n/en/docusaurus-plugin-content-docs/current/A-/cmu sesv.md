@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: "CMU SE-SV"
-title: "CMU SE-SV: Silicon Valley Campus and Course Experience"
+title: "CMU SE-SV Admissions Guide: Courses and Program Experience"
 description: "Student perspectives on CMU SE-SV campus space, course depth, Silicon Valley recruiting and self-directed study, with admissions and career examples."
 ---
 # CMU SE-SV

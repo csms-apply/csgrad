@@ -1,6 +1,6 @@
 ---
 description: "Gatech CSE 的費用、TA/RA 支持和選課自由度怎麼樣？從核心課、不同 home unit 的申請差異，到找工與轉專業經驗一起看。"
-title: "Gatech CSE 申請指南：Home Unit 與選課體驗"
+title: "Gatech CSE 申請指南：課程與項目體驗"
 sidebar_label: "Gatech CSE"
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "Upenn MSR 機器人碩士的選課與研究方向很自由，也更需要自己規劃。這裡分享研究體驗、費城生活開銷和錄取背景。"
-title: "Upenn MSR 項目介紹：機器人選課與研究體驗"
+title: "Upenn MSR 申請指南：課程與項目體驗"
 sidebar_label: "Upenn MSR"
 ---
 

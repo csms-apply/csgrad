@@ -1,7 +1,7 @@
 ---
 description: "CMU MIIS combines career-oriented study with required research at LTI. Explore CS course access, AI and NLP admission profiles and the job-search environment."
 sidebar_label: "CMU MIIS"
-title: "CMU MIIS: LTI Research, CS Courses and Admissions"
+title: "CMU MIIS Admissions Guide: Courses and Program Experience"
 ---
 
 # CMU MIIS

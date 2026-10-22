@@ -1,6 +1,6 @@
 ---
 sidebar_label: "UCLA MEng"
-title: "UCLA MEng: AI and Data Science Courses, Costs and Careers"
+title: "UCLA MEng Admissions Guide: Courses and Program Experience"
 description: "UCLA MEng student experiences with AI and data science coursework, the summer capstone, Los Angeles living costs and independent job hunting."
 ---
 

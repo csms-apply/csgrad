@@ -1,6 +1,6 @@
 ---
 description: "CMU MIIS 由 LTI 開設，兼顧研究訓練和就業準備。這裡介紹 CS 選課、前期 research 安排，以及 SDE、MLE 方向的求職案例。"
-title: "CMU MIIS 項目介紹：LTI 研究訓練與 CS 選課"
+title: "CMU MIIS 申請指南：課程與項目體驗"
 sidebar_label: "CMU MIIS"
 ---
 

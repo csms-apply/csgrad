@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "CMU MISM 申請指南：商科必修與 SCS 選課限制"
+title: "CMU MISM 申請指南：課程與項目體驗"
 sidebar_label: "CMU MISM"
 description: "CMU MISM 的商科核心課、學分要求和 SCS 選課限制，討論課程豁免與找工準備的取捨，附往屆申請和就業案例。"
 ---

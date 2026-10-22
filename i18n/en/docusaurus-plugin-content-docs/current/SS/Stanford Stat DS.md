@@ -1,7 +1,7 @@
 ---
 description: "Stanford Statistics Data Science guide to interdisciplinary research, applicant profiles and reported outcomes in data science, machine learning and startups."
 sidebar_label: "Stanford STATS DS"
-title: "Stanford Statistics Data Science: Research and Admissions"
+title: "Stanford Statistics Data Science Admissions Guide: Courses and Program Experience"
 ---
 
 # Stanford STATS DS

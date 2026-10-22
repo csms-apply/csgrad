@@ -1,6 +1,6 @@
 ---
 description: "UMich MSCS/MSCSE 的 MS 与 MSE 有什么区别？了解课程、毕业节奏、TA 支持、本校 SUGS 路径和外校申请的竞争情况。"
-title: "UMich MSCS/MSCSE 申请指南：MS、MSE 与 SUGS"
+title: "UMich MSCS/MSCSE 申请指南：课程与项目体验"
 sidebar_label: "UMich MSCS/MSCSE"
 ---
 

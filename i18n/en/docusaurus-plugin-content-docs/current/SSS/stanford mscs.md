@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: "Stanford MSCS"
-title: "Stanford MSCS: Coursework, Admissions and Career Experiences"
+title: "Stanford MSCS Admissions Guide: Courses and Program Experience"
 description: "Stanford MSCS student perspectives on coursework, campus life and assistantships, alongside admitted applicant profiles and reported career experiences."
 ---
 # Stanford MSCS

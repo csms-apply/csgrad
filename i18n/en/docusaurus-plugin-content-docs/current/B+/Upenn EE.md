@@ -1,7 +1,7 @@
 ---
 description: "UPenn EE student perspectives on ESE requirements, math and ML electives, workload and the options to transfer or pursue a second engineering degree."
 sidebar_label: "Upenn EE"
-title: "UPenn EE: ESE Courses, Workload and Program Transfers"
+title: "UPenn EE Admissions Guide: Courses and Program Experience"
 ---
 
 # Upenn EE

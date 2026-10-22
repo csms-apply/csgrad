@@ -1,5 +1,5 @@
 ---
-title: "Cornell Tech CM 項目體驗：課程、住宿與費用"
+title: "Cornell Tech CM 申請指南：課程與項目體驗"
 sidebar_label: "Cornell Tech CM"
 description: "Cornell Tech CM 在讀體驗，詳細分享機器學習、算法、HCI 課程與宿舍選擇，結合紐約學習成本、錄取背景和找工經歷評估項目。"
 ---

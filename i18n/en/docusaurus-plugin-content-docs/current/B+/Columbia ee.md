@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: "Columbia MSEE"
-title: "Columbia MSEE: CS Course Reviews and Study Costs"
+title: "Columbia MSEE Admissions Guide: Courses and Program Experience"
 description: "Columbia MSEE course reviews span databases, cloud computing, algorithms and NLP, alongside EE degree requirements, living costs and admissions profiles."
 ---
 # Columbia MSEE

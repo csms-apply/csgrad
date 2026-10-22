@@ -1,7 +1,7 @@
 ---
 description: "UCSB MSCS student perspectives on study timelines, coastal campus life, self-directed job hunting and admission patterns among UC-system applicants."
 sidebar_label: "UCSB MSCS"
-title: "UCSB MSCS: Study Timeline, Admissions and Campus Life"
+title: "UCSB MSCS Admissions Guide: Courses and Program Experience"
 ---
 
 # UCSB MSCS

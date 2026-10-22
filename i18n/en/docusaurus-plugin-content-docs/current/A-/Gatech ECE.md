@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Gatech ECE"
-title: "Georgia Tech ECE: Software Electives and Study Flexibility"
+title: "Georgia Tech ECE Admissions Guide: Courses and Program Experience"
 description: "Georgia Tech ECE student notes on software and hardware electives, flexible study plans and internship preparation, with reported admissions and career outcomes."
 ---
 # Gatech ECE

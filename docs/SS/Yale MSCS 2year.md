@@ -1,6 +1,6 @@
 ---
 description: "Yale 两年制 MSCS 偏重研究，与一年制项目不同。这里介绍 TA 与资助安排、科研背景、招生规模和实习方面的限制。"
-title: "Yale MSCS 两年制：研究训练、TA 与申请背景"
+title: "Yale MSCS 两年制 申请指南：课程与项目体验"
 sidebar_label: "Yale MSCS 2 year"
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: "UCLA MSCS"
-title: "UCLA MSCS: Research, Admissions and Campus Life"
+title: "UCLA MSCS Admissions Guide: Courses and Program Experience"
 description: "Read about UCLA MSCS research opportunities, AI-focused coursework, admissions profiles and life in Westwood, with student-reported career experiences."
 ---
 # UCLA MSCS

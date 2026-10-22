@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 description: "Stanford ICME 的 General、Data Science、Imaging Science 和 MCF 方向介紹，結合數學背景要求與錄取案例，討論申請選擇。"
-title: "Stanford ICME 申請指南：方向選擇與數學背景"
+title: "Stanford ICME 申請指南：課程與項目體驗"
 sidebar_label: "Stanford ICME"
 ---
 # Stanford ICME

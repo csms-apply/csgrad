@@ -1,6 +1,6 @@
 ---
 description: "Stanford Symbolic Systems 是需要完成 thesis 的交叉研究項目。這裡介紹計算機、人文與認知方向的背景要求和往屆錄取案例。"
-title: "Stanford Symbolic Systems 申請參考：交叉背景與論文研究"
+title: "Stanford Symbolic Systems 申請指南：課程與項目體驗"
 sidebar_label: "Stanford Symbolic System"
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: "想通過 MIT EECS 繼續深造，需要先了解 PhD 申請路徑。本文整理科研經歷、推薦關係和代表性錄取案例，區別於獨立碩士項目。"
-title: "MIT EECS 申請參考：博士路徑與科研背景"
+title: "MIT EECS 申請指南：課程與項目體驗"
 sidebar_label: "MIT EECS"
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: "Stanford MSEE 申请指南：软件方向选课与往届案例"
+title: "Stanford MSEE 申请指南：课程与项目体验"
 sidebar_label: "Stanford MSEE"
 description: "Stanford MSEE 的软件系统、机器学习方向如何选课？结合往届录取案例，分享 TA 经历、课程自由度和找工体验。"
 ---

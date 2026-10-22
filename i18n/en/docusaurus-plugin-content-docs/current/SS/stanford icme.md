@@ -2,7 +2,7 @@
 sidebar_position: 4
 description: "Stanford ICME guide comparing General, Data Science, Imaging Science and MCF tracks, with math preparation, applicant backgrounds and career considerations."
 sidebar_label: "Stanford ICME"
-title: "Stanford ICME: Tracks, Math Preparation and Admissions"
+title: "Stanford ICME Admissions Guide: Courses and Program Experience"
 ---
 # Stanford ICME
 
