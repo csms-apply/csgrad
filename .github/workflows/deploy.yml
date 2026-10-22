@@ -28,11 +28,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Reject critical dependency vulnerabilities
-        run: npm audit --audit-level=critical
+      - name: Test dependency audit safeguards
+        run: npm run test:dependencies
 
-      - name: Generate programs.json
-        run: node scripts/generate-programs.js
+      - name: Reject high and critical dependency vulnerabilities
+        run: npm run audit:dependencies
+
+      - name: Test program catalog and legacy links
+        run: npm run test:catalog
 
       - name: Build Docusaurus site without warnings
         shell: bash
