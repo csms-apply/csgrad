@@ -46,3 +46,19 @@ The admission difficulty is moderate -- GPA 3.5+ is fairly safe. I personally th
 If your GPA isn't particularly high, consider applying to UW EE PMP. It's a great job-hunting-oriented program choice.
 
 **25 Fall threshold has clearly risen. Many applicants with high GPAs and high rankings from CS backgrounds were rejected, possibly due to being overqualified. There were even cases of CMU MSIN admits being rejected by UW EE PMP. The days of using UW EE PMP as a safety school are over. It is strongly recommended to find another safety school option.**
+
+## Courses and workload
+
+PMP is very friendly for job seekers. Weekday classes start at 4:30 or 6:30 p.m., leaving whole days free for interviews and your own projects. There are plenty of software courses, including algorithms, CV, deep learning, LLMs and GPU computing, so you can go full software and skip circuits entirely. Fall 2026 continues to offer algorithms, vision, systems security and GPU computing, so you can put together an all-software schedule even without getting into CSE courses.
+
+If you want to do a lot of research during the master's, PMP is less convenient. It's coursework-based with no thesis, and EE P 599 independent research counts for at most eight credits. The traditional daytime program has a thesis route and a clearer PhD orientation. Most master's students in both PMP and the daytime program pay their own way; TA/RA positions mainly go to PhD students with funding.
+
+## Recruiting and life
+
+Classmates are generally serious about recruiting, which makes trading openings, OA experiences and interview prep easy. Seattle has Amazon, Microsoft and more, and in-person recruiting events are worth going to, though living next door to big tech doesn't mean offers show up on their own.
+
+Life-wise it's a full city experience: shows, sports and the outdoors, with plenty to do beyond campus. The downsides are real too: rainy winters, and rent, eating out and rides are all pricey. If you like city life and can put up with rain, you'll be comfortable; if cheap living is the goal, this isn't the place.
+
+## CPT — October 11, 2026
+
+PMP does have a CPT application route: the official FAQ still says students are eligible, and ENGR 601 provides internship credit. The internship itself isn't required of every student, and the program's guidance differs from ISS's general policy, but optional status alone isn't grounds to conclude that PMP can't approve CPT. Approval follows the latest PMP and ISS process.
