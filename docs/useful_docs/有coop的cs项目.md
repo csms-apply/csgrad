@@ -1,3 +1,9 @@
+---
+title: "有 Co-op 的 CS 及相关硕士项目清单"
+sidebar_label: "有coop的cs项目"
+description: "整理文中提到的 CS 及相关硕士 Co-op 项目，涉及 Georgia Tech、Duke ECE、JHU、UCSD 和 NYU Tandon 等学校。"
+---
+
 # 有coop的cs项目
 
 Gatech mscs

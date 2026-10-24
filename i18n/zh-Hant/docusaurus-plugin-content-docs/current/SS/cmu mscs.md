@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
-description: "CMU MSCS：scs王牌項目，選課非常靈活，基本可以選到所有想上的cs課，整個scs所有計算機相關的課程，mscs項目隨意選且有優先權，錄取後需要上15213 csapp這門課，不過也可以不上，來美國之後再上。同學基本要麼是中國人，要麼是印度人。允許defer（23 fall offer上明確說了可以defer）。需要三個學期上九門課，其中包含至少一門 AI / Theo"
+title: "CMU MSCS 申請指南：課程與項目體驗"
+sidebar_label: "CMU MSCS"
+description: "CMU MSCS 的 AI、Theory、System 課程要求與選課體驗，介紹 CSAPP、數據庫、深度學習系統等課程，並附往屆錄取和求職案例。"
 ---
 
 # CMU MSCS

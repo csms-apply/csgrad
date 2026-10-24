@@ -1,5 +1,7 @@
 ---
-description: "NYU Tandon MSCS：需要和NYU COURANT的MSCS區分開來，COURANT的MSCS是一個很學術導向的，Tandon的是很就業導向的。Tandon只有幾棟樓，有點類似CMU SV校區。NYU Tandon 在布魯克林，兩年制項目，花費不低，準備110個大概，可以提前到一年半畢業，也可以延畢。 最後一學期有coop，很爽 負責中國招生的director 是中國人，很看重中"
+description: "NYU Tandon MSCS 位於布魯克林，與 Courant 項目定位不同。這裡介紹學制、生活費用、Co-op 安排和往屆錄取、就業案例。"
+title: "NYU Tandon MSCS 申請指南：課程與項目體驗"
+sidebar_label: "NYU Tandon MSCS"
 ---
 
 # NYU Tandon MSCS

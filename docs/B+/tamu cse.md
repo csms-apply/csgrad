@@ -1,3 +1,8 @@
+---
+title: "TAMU CSE 申请指南：课程与项目体验"
+sidebar_label: "TAMU CSE"
+description: "TAMU CSE 下 MCS、MSCS 等学位的选择与转换经验，介绍偏研究的课程、TA/RA、学习成本，以及不同工作背景同学的求职经历。"
+---
 # TAMU CSE
 ## 项目综述
 **TLDR: 一句话总结，小gatech mscs**

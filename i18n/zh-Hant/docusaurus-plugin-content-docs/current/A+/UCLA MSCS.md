@@ -1,7 +1,8 @@
 ---
-description: "UCLA MSCS：ucla牌子大，在國內的話很認可。 ucla ms的class size 很小，可能也就30-40人，ucla mscs是一個研究型的項目，課程設置沒有很多方便找工的課程，而且比較偏向ai，如果你想上csapp或者storage或者os 請移步cmu，ucla 沒有提供過任何一節grad-level的OS和Database課程。 lab 對ms比較友好，教授"
+title: "UCLA MSCS 申請指南：課程與項目體驗"
+sidebar_label: "UCLA MSCS"
+description: "UCLA MSCS 偏向研究，本文介紹 AI 相關課程、進組體驗和往屆錄取背景，也分享洛杉磯住宿、飲食與求職經歷。"
 ---
-
 # UCLA MSCS
 
 ## 項目介紹 {#项目介绍}

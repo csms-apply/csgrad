@@ -1,7 +1,8 @@
 ---
-description: "Caltech MSEE：LA天氣無敵，學校title 無敵，錄取人數遠遠少於stanford. 轉碼非常友好,135個畢業要求學分只有54個是需要ee class, 但是很多CS的課, 比如著名的156 learning system都是CS-EE. cross labelled所以理論上可以全選CS的課畢業 項目時長9個月，但是可以延期半年 每年錄取15個，1/3 陸本，陸本基本"
+title: "Caltech MSEE 申請指南：課程與項目體驗"
+sidebar_label: "Caltech MSEE"
+description: "Caltech MSEE 的 EE 與 CS 交叉選課、學制安排和洛杉磯就讀體驗，附電子工程、物理等背景申請者的往屆錄取案例。"
 ---
-
 
 # Caltech MSEE
 

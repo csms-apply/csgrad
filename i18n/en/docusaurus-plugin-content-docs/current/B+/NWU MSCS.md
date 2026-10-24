@@ -1,3 +1,8 @@
+---
+sidebar_label: "NWU MSCS"
+title: "Northwestern MSCS Admissions Guide: Courses and Program Experience"
+description: "Northwestern MSCS student notes on thesis, project and coursework tracks, graduation timing and tuition, with admissions profiles and career examples."
+---
 # NWU MSCS
 
 ## Program Review

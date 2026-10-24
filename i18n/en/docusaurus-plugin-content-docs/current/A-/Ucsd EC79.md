@@ -1,3 +1,9 @@
+---
+description: "UCSD EC79 guide covering hardware requirements, workload compared with MSCS, career-change considerations and reported admission and job-search outcomes."
+sidebar_label: "UCSD EC79"
+title: "UCSD EC79 Admissions Guide: Courses and Program Experience"
+---
+
 # UCSD EC79
 
 

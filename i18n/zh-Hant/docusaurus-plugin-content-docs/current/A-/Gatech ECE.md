@@ -1,7 +1,8 @@
 ---
-description: "Gatech ECE：2026-10-11 實習更新： 下方保留早期 co-op 經歷。OIE 計劃 10 月 19 日開始接收 2027 春季 CPT 申請，目前不能據此確定春季審批結果；2026 秋季 CPT 延期不批。普通 MS ECE 的實習仍為可選。 學位：Master of Science in Electrical & Computer Engineering，簡稱"
+title: "Gatech ECE 申請指南：課程與項目體驗"
+sidebar_label: "Gatech ECE"
+description: "Gatech ECE 的核心課、跨學院選課與 VLSI Tape-out 課程介紹，附搶課、申請 TA 和準備實習的經驗，以及軟硬件方向的往屆案例。"
 ---
-
 # Gatech ECE
 
 ## 項目介紹 {#项目介绍}

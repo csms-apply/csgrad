@@ -1,7 +1,8 @@
 ---
-description: "UWT MSCS：UWT 的學費便宜，CPT 政策靈活，可以coop兩次，跟uw ee pmp一樣，UWT 同樣也有capstone 。適合 GPA 不高但是實習經歷豐富，準備來美國all in找工的同學或者希望只刷題找工作完全水掉上課的同學作為保底選擇。 簡歷可以寫UW MSCS，很爽。reddit上有人寫了，自己是UWT MSCS的碩士，簡歷寫UW MSCS，面試了hun"
+title: "UWT MSCS 申請指南：課程與項目體驗"
+sidebar_label: "UWT MSCS"
+description: "UW Tacoma 的 CS 碩士提供課程、capstone 與 thesis 路線。本文介紹先修課、學費、生活與 Co-op 經驗，並比較 Tacoma 和 Bothell 校區。"
 ---
-
 # UWT MSCS
 
 ## 項目特點 {#项目特点}

@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
-description: "CMU MISM：只適合在國內已經有了大廠實習經驗/全職sde 經歷，目標是來cmu 混一個cmu title，然後來美國第一天就開始刷題找實習投簡歷的選手 不適合想來heinz上scs一些高深難度的課程，目標是來cmu學知識的，mism的core裡面幾乎都是商科課，並且每學期能選scs的課的數量是有限的，系主任也不支持你這麼做（這麼做heniz 需要給scs學院交錢）。選s"
+title: "CMU MISM 申請指南：課程與項目體驗"
+sidebar_label: "CMU MISM"
+description: "CMU MISM 的商科核心課、學分要求和 SCS 選課限制，討論課程豁免與找工準備的取捨，附往屆申請和就業案例。"
 ---
 # CMU MISM
 ## 項目介紹 {#项目介绍}

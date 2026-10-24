@@ -1,3 +1,9 @@
+---
+description: "UT Austin MSCS guide covering course quality, research opportunities and Austin’s tech setting, with admission profiles and considerations for a future PhD."
+sidebar_label: "UT MSCS"
+title: "UT Austin MSCS Admissions Guide: Courses and Program Experience"
+---
+
 # UT MSCS
 ## Program Overview
 Affordable + good reputation + high CS ranking + great location. Overall experience is quite good. UT's course quality is genuinely strong, especially with Austin as a city that has been growing rapidly in recent years -- Apple, Meta, Google, and Amazon all have offices there. Job opportunities are plentiful. Overall, if you want an MSCS with research opportunities, or are looking to transfer to a top-10 CS PhD, UT is well worth considering.

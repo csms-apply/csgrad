@@ -261,7 +261,9 @@ async function main() {
   }
 
   for (const sitemapUrl of sitemapUrls) {
-    const page = pagesByCanonical.get(urlKey(sitemapUrl)) ?? pagesByRoute.get(routeKey(sitemapUrl));
+    // Inspect the URL's actual page before aliases which declare its canonical.
+    // A noindex redirect must not replace its indexable destination in this check.
+    const page = pagesByRoute.get(routeKey(sitemapUrl)) ?? pagesByCanonical.get(urlKey(sitemapUrl));
     if (!page) {
       issues.push(`[sitemap-target-missing] ${sitemapUrl} has no matching built HTML page`);
       continue;

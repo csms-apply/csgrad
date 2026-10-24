@@ -1,5 +1,7 @@
 ---
-description: "CMU ECE：2026-10-11 更新： Standard 現為三學期、97 units：60 ECE 核心、24 CIT 選修、12 General Technical Elective 和 1 unit 導論。下方保留早期就讀介紹，其中 96 學分的舊數字已不適用。 項目最短一年半，最長兩年，不允許延期。每學期至少要修 36 學分，最多允許 48 學分，一門全學期的"
+description: "CMU ECE 能選多少 CS 課，課業壓力到底有多大？從學分要求、系統課程與實驗作業，到實習案例和轉博機會，瞭解真實就讀體驗。"
+title: "CMU ECE 申請指南：課程與項目體驗"
+sidebar_label: "CMU ECE"
 ---
 
 # CMU ECE

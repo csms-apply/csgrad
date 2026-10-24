@@ -1,3 +1,9 @@
+---
+description: "Cornell CS MEng 的校区、课程与毕业项目怎么选？这里结合申请和就业案例，讨论学制安排及需要向学校确认的实习条件。"
+title: "Cornell CS MEng 申请指南：课程与项目体验"
+sidebar_label: "Cornell CS MENG"
+---
+
 # Cornell CS MENG
 
 ## 项目介绍

@@ -1,3 +1,9 @@
+---
+description: "Yale 一年制 MSCS 的录取偏好与找工情况，附 GPA、语言成绩和毕业去向案例，并讨论推迟入学与实习安排需要考虑的问题。"
+title: "Yale MSCS 一年制 申请指南：课程与项目体验"
+sidebar_label: "Yale MSCS 1 year"
+---
+
 # Yale MSCS 1 year
 
 ## 项目介绍

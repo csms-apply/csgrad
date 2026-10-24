@@ -1,3 +1,9 @@
+---
+description: "CMU MSMITE 在匹兹堡与硅谷的学习安排、选课和企业 practicum 体验，附录取背景与往届实习、全职案例。"
+title: "CMU MSMITE 申请指南：课程与项目体验"
+sidebar_label: "CMU MSMITE"
+---
+
 # CMU MSMITE
 
 

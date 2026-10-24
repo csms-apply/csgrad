@@ -1,3 +1,8 @@
+---
+title: "UCLA MEng 申请指南：课程与项目体验"
+sidebar_label: "UCLA MEng"
+description: "UCLA MEng 的 DS、AI 课程、capstone 选项与学费安排，结合洛杉矶生活和在读体验，讨论课程选择及毕业时间规划。"
+---
 
 # UCLA MEng 
 ## 项目体验分享

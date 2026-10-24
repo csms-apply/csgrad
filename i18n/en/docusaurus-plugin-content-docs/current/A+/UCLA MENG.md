@@ -1,3 +1,8 @@
+---
+sidebar_label: "UCLA MEng"
+title: "UCLA MEng Admissions Guide: Courses and Program Experience"
+description: "UCLA MEng student experiences with AI and data science coursework, the summer capstone, Los Angeles living costs and independent job hunting."
+---
 
 # UCLA MEng
 ## Program Experience

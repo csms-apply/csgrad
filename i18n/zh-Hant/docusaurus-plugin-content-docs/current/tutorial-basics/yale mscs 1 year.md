@@ -1,6 +1,7 @@
 ---
-title: "Yale MSCS 一年制：補充介紹與申請、就業案例"
-description: "Yale MSCS 一年制：補充介紹與申請、就業案例：top 名校開的cs碩士很多都是一年制的項目，比如yale、ucb等等，開兩年制的要麼太難stf mscs/stf msee/cmu mscs，要麼不開比如mit eecs（想拿mit eecs master只有一種方法就是mit eecs phd drop out）。因此yale 算是很多國內cs小夥伴想圓夢top 10名校的選擇，yale 校園很好看，像"
+title: "Yale MSCS 一年制（補充） 申請指南：課程與項目體驗"
+description: "Yale 一年制 MSCS 的補充介紹，記錄校園與理論方向、往年錄取成績要求，以及不同就業年份的找工經歷和案例。"
+sidebar_label: "Yale mscs 1 year"
 ---
 
 # Yale mscs 1 year

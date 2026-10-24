@@ -1,3 +1,8 @@
+---
+title: "NWU MSCS 申请指南：课程与项目体验"
+sidebar_label: "NWU MSCS"
+description: "NWU MSCS 的 thesis、project 和 course 路线有什么区别？本文分享导师与毕业安排、学费、Evanston 生活和往届录取、求职案例。"
+---
 # NWU MSCS
 
 ## 项目评价

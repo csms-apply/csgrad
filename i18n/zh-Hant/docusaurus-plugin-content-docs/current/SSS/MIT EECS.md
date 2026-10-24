@@ -1,5 +1,7 @@
 ---
-description: "MIT EECS：想拿MIT EECS master唯一的方法是 申請到MIT EECS Phd然後quit 只招phd，target school 的top student，主要看connection，以下都是phd錄取的dp: 清華自動化本科，申請時候至少中了3篇頂會一作 清華經濟系本科rk1(gpa 3.99), jane street qt intern, 申請時候三"
+description: "想通過 MIT EECS 繼續深造，需要先了解 PhD 申請路徑。本文整理科研經歷、推薦關係和代表性錄取案例，區別於獨立碩士項目。"
+title: "MIT EECS 申請指南：課程與項目體驗"
+sidebar_label: "MIT EECS"
 ---
 
 # MIT EECS

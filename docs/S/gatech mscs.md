@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+description: "Gatech MSCS 的课程选择、TA/RA 支持与亚特兰大求职环境，结合录取背景，讨论转码、找工和继续研究的不同选择。"
+title: "Gatech MSCS 申请指南：课程与项目体验"
+sidebar_label: "Gatech MSCS"
 ---
 # Gatech MSCS
 

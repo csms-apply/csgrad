@@ -1,13 +1,18 @@
+---
+title: "CMU MITS 申请指南：课程与项目体验"
+sidebar_label: "CMU MITS"
+description: "CMU MITS 的四个方向如何选择？本文介绍系统与数据课程、企业 capstone、申请面试和学费，并附往届录取与求职案例。"
+---
 
 # CMU MITS
 
-# 介绍
+## 介绍
 这个项目是一个合办项目，由SCS，CIT和IPS合办。（没人在意，cmu除了mscs，其余项目的reputation的差异会被个人差异磨平）
 
-# 四个 track
+## 四个 track
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance
 
-# 代表性dp
+## 代表性dp
 1. 交大本科gpa 91，wxg实习
 2. 普通985 is本科，gpa 89
 3. 合肥工业大学ee本科，六年全职工作经验，同时入读mits之前读了一个harvard extension school
@@ -18,7 +23,7 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 8. 复旦大学软工本科，gpa3.58,在腾讯、美团实习合计实习了十三个月
 9. 同济工科本科 gpa 90，minor ai
 
-# 课程
+## 课程
 很灵活，主要你想，基本可以做到非常sde，可以做到类似mscs/ds的课表。也可以做到非常水，进去就开始刷题，有点类似neu 匹兹堡版本。从今年找工的情况来看，cmu的reputation还是很高的，看不出来项目之间有明显差异。而且有一些公司比如adobe、apple、nvidia、databricks会直接从cmu捞人面
 
 选课自由度和优先级都很高
@@ -31,7 +36,7 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 15619 Cloud Computing
 17637 Web Application Development
 
-# 录取相关
+## 录取相关
 学费较贵，大概要8.5w刀。bar相对还行，gpa 3.8+ 口语25基本很有戏，录取时候很有可能会考口语，口语不到25必考。口语到25也有可能考，会发邮件约面试。
 
 我当时面试的问题：

@@ -1,3 +1,9 @@
+---
+description: "UMass MSCS 的课程与校园生活分享，附不同工作经历申请者的录取背景，以及软件工程、机器学习方向的实习和全职案例。"
+title: "UMass MSCS 申请指南：课程与项目体验"
+sidebar_label: "UMass MSCS"
+---
+
 # UMass MSCS
 
 ## 项目介绍

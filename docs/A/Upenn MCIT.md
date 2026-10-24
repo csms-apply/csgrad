@@ -1,3 +1,9 @@
+---
+description: "Upenn MCIT 面向转码申请者，课程从基础开始。这里整理必修课豁免、毕业安排、双学位选择，以及不同本科背景的录取和找工案例。"
+title: "Upenn MCIT 申请指南：课程与项目体验"
+sidebar_label: "Upenn MCIT"
+---
+
 # Upenn MCIT
 
 

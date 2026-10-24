@@ -1,3 +1,8 @@
+---
+sidebar_label: "SWE Job-Hunting Friendly Schools/Programs"
+title: "CS Master's Programs for the SWE Job Search: Observations"
+description: "Personal observations on CS and related master's programs for SWE job hunting, weighing co-op options, recruiting access and student career experiences."
+---
 # SWE Job-Hunting Friendly Schools/Programs
 
 Having personally gone through both the domestic (China) fall recruiting season and the US internship search, and having mentored some students on finding US internships, here are some personal observations of job-hunting friendly schools/programs based on data points around me (this is only about job-hunting friendliness, not admission threshold. I've also considered whether I've observed enough data points — for example, MIT CS grads obviously do well in job hunting, but I don't know many MIT CS undergrads, so it's not listed here).

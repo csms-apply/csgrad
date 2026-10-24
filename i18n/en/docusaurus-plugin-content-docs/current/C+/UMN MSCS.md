@@ -1,3 +1,9 @@
+---
+description: "University of Minnesota MSCS guide covering teaching assistantships, PhD interests, admitted applicant backgrounds and reported software career outcomes."
+sidebar_label: "UMN MSCS"
+title: "Minnesota MSCS Admissions Guide: Courses and Program Experience"
+---
+
 # UMN MSCS
 
 ## Program Overview
