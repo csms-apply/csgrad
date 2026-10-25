@@ -56,7 +56,7 @@ Admission mainly looks at GPA. The GPA requirement for undergrads from mainland 
 
 The cost information on forums is also inaccurate -- it's not that expensive. The amount you need to pay the school is about $80K (tuition + various fees + insurance...). Rent in Manhattan is about $2,000/month. This program is 16 months, so it's $80K + $2,000 x 16 + $1,000 x 16 = $128K, roughly the same as CMU.
 
-2025.2 update: Recently, friends also have interviews at Jump Trading, HRT, NVIDIA, Dropbox, Amazon, and Datadog. D.E. Shaw also pulled a few people from Columbia early for full-time interviews. In short, the school won't hold you back. If your resume has big-company internship experience, you should get interviews from about half of the companies I mentioned.
+2025.2 update: Recently, friends also have interviews at Jump Trading, HRT, NVIDIA, Databricks, Amazon, and Datadog. D.E. Shaw also pulled a few people from Columbia early for full-time interviews. In short, the school won't hold you back. If your resume has big-company internship experience, you should get interviews from about half of the companies I mentioned.
 
 Also, after being here for half a year, I've come to love New York City more and more. It's incredibly vibrant, and downtown is full of restaurants and entertainment. Broadway shows are basically sold out every day. Here you get to experience a more diverse life. I highly recommend seriously considering coming here. After all, New York is the best university.
 
@@ -68,20 +68,12 @@ As for RA positions, unpaid RA positions are fairly easy to find, but paid ones 
 ## Job Outcomes & Data Points
 25 Summer: At least 12 Columbia MSCS students received Amazon offers.
 
-211 CS, rank 1, ICPC silver medal, landed Databricks
-
-Accounting career changer to CS, landed Adobe
-
-University of Sydney (Australia) CS undergrad, ByteDance internship, landed AWS New York
-
-CMU undergrad female student, Meta 2022 intern, intern landed Meta
-
-CUHK-Shenzhen CS undergrad, 0 internships, landed Amazon
-
-C9 CS undergrad, ICPC gold medal, landed Amazon
-
-Italian undergrad, landed Amazon
-
-CUHK-Shenzhen FinTech, career changer to CS, 0 internships, landed Amazon
-
-National Chengchi University Statistics bachelor’s, Amazon SDE intern in 2022, full-time at a small company in 2023 before joining Amazon as a full-time SDE that year.
+1. 211 CS, rank 1, ICPC silver medal, landed Databricks
+2. Accounting career changer to CS, landed Adobe
+3. University of Sydney (Australia) CS undergrad, ByteDance internship, landed AWS New York
+4. CMU undergrad female student, Meta 2022 intern, intern landed Meta
+5. CUHK-Shenzhen CS undergrad, 0 internships, landed Amazon
+6. C9 CS undergrad, ICPC gold medal, landed Amazon
+7. Italian undergrad, landed Amazon
+8. CUHK-Shenzhen FinTech, career changer to CS, 0 internships, landed Amazon
+9. National Chengchi University Statistics bachelor’s, Amazon SDE intern in 2022, full-time at a small company in 2023 and later landed a full-time Amazon SDE role.

@@ -9,7 +9,7 @@ title: "CMU MSMITE Admissions Guide: Courses and Program Experience"
 
 ## Program Overview
 The full program name is Master of Science in Mobile and IoT Engineering. It's not a CS title, but that's not a big deal since job hunting mainly depends on your personal experience and resume fit. When applying for jobs online, you can only list your major as CS anyway.
-MSMITE spends the first year in Pittsburgh and the second year in Silicon Valley, which is quite nice -- you get to experience two different places. Course selection is very flexible; you can go easy or take hard courses, giving you plenty of freedom to develop. You can also do a one-semester practicum, partnering with companies like NASA and Adobe, which you can put on your resume.
+MSMITE spends the first two semesters in Pittsburgh and then moves to Silicon Valley (per the official site for the 2026-27 academic year, the Standard option spends one semester at CMU-SV and the Advanced option two), which is quite nice -- you get to experience two different places. Course selection is very flexible; you can go easy or take hard courses, giving you plenty of freedom to develop. You can also do a one-semester practicum, partnering with companies like NASA and Adobe, which you can put on your resume.
 Job outcomes are solid -- see the official report for details (the real numbers should be better than reported, because INI has this annoying policy where once you report an offer you can't change it. If you receive a better offer later, you can't switch. So some students wait until all offers are finalized before reporting). Top Employers: NVIDIA, Amazon, Apple, TikTok.
 
 ## Admission Data Points

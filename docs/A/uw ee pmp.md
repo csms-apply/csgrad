@@ -7,8 +7,8 @@ description: "UW EE PMP 的软件课程、西雅图学习生活和申请经验�
 # UW EE PMP
 
 ## 项目优点
-2026更新：UW EE PMP已经作古，目前已经要更名为UW MSECE, 更爽了。
-26 fall后入学的学生毕业学位将是Master of Science in Electrical and Computer Engineering
+2026更新：UW 研究生的 EE 学位（含 MS、PMP、PhD）已更名为 ECE，PMP 项目本身还在、课程不变，学位名变成 MSECE, 更爽了。
+Autumn 2027 起新入学申请的学生毕业学位将是Master of Science in Electrical and Computer Engineering；在读学生可以自选 EE 或 ECE 学位名，Spring 2032 是最后一个还能拿 EE 学位的学期。
 
 这个项目蛮好的，有UW的牌子，并且地理位置在西雅图，离微软贼近，也是ms的target school✅。
 并且他可以coop3次，划重点
@@ -24,7 +24,7 @@ https://ruit.me/blog/pmp
 ## 找工情况
 25 summer 亚麻批发厂，几十个亚麻intern offer
 
-东吴大学 Big Data Management 本科，本科期间有腾讯 Data Engineer 实习，2026年 PMP 在读期间上岸 aws swe intern（EC2 Nitro）。
+1. 东吴大学 Big Data Management 本科，本科期间有腾讯 Data Engineer 实习，2026年 PMP 在读期间上岸 aws swe intern（EC2 Nitro）。
 
 ## 软课
 Data Structures and Algorithms for ECE Applications (Slaughter)

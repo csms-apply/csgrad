@@ -13,14 +13,18 @@ Campus: Primarily the Atlanta main campus; you can also spend time at the Lorrai
 
 Graduation requirements: 30 credits + one mandatory easy course, ECE 6001 (presentations + startup/entrepreneurship discussions).
 
-Pace: Can be completed in as few as 3 semesters; if you want to take it slow, officially you can stretch it up to 5 years — stay enrolled, keep developing your skills, and graduate after landing a job. You can use GRIP to return home for internships while maintaining school enrollment, which does not affect CPT applications. PhD transfer-friendly.
+Pace: Can be completed in as few as 3 semesters; if you want to take it slow, officially you can stretch it up to 5 years — stay enrolled, keep developing your skills, and graduate after landing a job. You can use GRIP to return home for internships while maintaining school enrollment, which does not affect CPT applications. PhD transfer-friendly. During the semester you can do a COOP internship in the US, and reportedly you can also intern in other countries through GRIP. These also count for credit, which is quite nice.
 
-Course selection flexibility: 6 ECE core courses of your choice (you can pick all software-focused ones); plus 4 free electives from any school — CS / CSE / ISyE are all fair game.
+Course selection flexibility (official non-thesis requirements for the 2026-27 academic year): Group I and Group II are 9 credits each, i.e. 6 ECE courses of your choice (picked by Technical Interest Area; you can pick all software-focused ones); Group III is 9 credits, i.e. 3 courses that can be taken outside ECE — CS / CSE / ISyE are all fair game; plus the required ECE 6001, for 30 credits in total. VLSI has a very popular Tape-out course (taken over two consecutive semesters): in the first semester you do the design, it is sent out for tape-out before the winter/summer break, and after the break, when the chip comes back, you do the testing.
+The Fall semester offers the Digital version (in partnership with Apple), and the Spring semester offers the Analog version (in partnership with TI). If you want to go into VLSI, keep an eye on it.
+
+If you want to be a TA to save on tuition, be sure to contact professors as early as possible. I took 6001 in my first semester, but when I contacted a professor at the end of November last semester to ask about being a TA for the following semester, the professor said interviews were long over.
 
 One-line summary: If you want to study hardcore chip design, there is a path for that; if you want to transition to CS, you can arrange your schedule to look almost like a CS degree.
 
 
 ## Admission Preferences & Representative Data Points
+East Asians 1/4, Indians 1/4, Americans 1/4, others 1/4.
 US-undergrad friendly; prefers ECE undergrad backgrounds.
 
 1. IIT CS undergrad, GPA 3.9, two years full-time at MathWorks

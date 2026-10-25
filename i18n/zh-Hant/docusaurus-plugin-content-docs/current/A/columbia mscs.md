@@ -68,20 +68,12 @@ ra 的話，unpaid ra還是好找的，給錢的很難（可以說幾乎沒有�
 ## 找工dp
 25 summer 哥大 MSCS 至少12人拿到亞麻offer
 
-211 cs rk1 icpc 銀牌上岸databricks
-
-會計轉碼上岸adobe
-
-澳洲悉尼大學cs本 字節實習上岸aws 紐約
-
-CMU 本科女生，meta 2022 intern，實習上岸meta
-
-港中深cs本科0實習上岸亞麻
-
-c9 cs本科 icpc金牌上岸亞麻
-
-意大利本科小哥上岸亞麻
-
-港中深fintech 轉碼0 實習上岸亞麻
-
-國立政治大學統計本科，2022年 amazon sde intern，2023年先在小廠做全職，後上岸 amazon sde 全職。
+1. 211 cs rk1 icpc 銀牌上岸databricks
+2. 會計轉碼上岸adobe
+3. 澳洲悉尼大學cs本 字節實習上岸aws 紐約
+4. CMU 本科女生，meta 2022 intern，實習上岸meta
+5. 港中深cs本科0實習上岸亞麻
+6. c9 cs本科 icpc金牌上岸亞麻
+7. 意大利本科小哥上岸亞麻
+8. 港中深fintech 轉碼0 實習上岸亞麻
+9. 國立政治大學統計本科，2022年 amazon sde intern，2023年先在小廠做全職，後上岸 amazon sde 全職。

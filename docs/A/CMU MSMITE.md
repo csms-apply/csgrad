@@ -9,7 +9,7 @@ sidebar_label: "CMU MSMITE"
 
 ## 项目介绍
 项目全称是 Master of Science in Mobile and IoT Engineering ，并不是cs tile，不过问题也不大，因为找工主要看个人经历和简历匹配度。网申时候也只能填专业cs。
-msmite 第一年在匹兹堡，第二年在sv，还是很不错的，能体验两个不同的地方，选课很自由，可水可选硬课，给你充分的自由度去发展。同时也可以做一个学期的practicum，会和一些企业比如nasa、adobe合作，可以写到简历上。
+msmite 前两个学期在匹兹堡，之后去sv（2026-27 学年官网：Standard 在 sv 读一个学期，Advanced 读两个学期），还是很不错的，能体验两个不同的地方，选课很自由，可水可选硬课，给你充分的自由度去发展。同时也可以做一个学期的practicum，会和一些企业比如nasa、adobe合作，可以写到简历上。
 找工情况不错，详情参考官方报告（真实数据应该比那个好，因为ini有个傻逼的制度就是如果你上报了offer就不能改offer了，如果你收到了更好的offer也不能去，因此有的同学就等所有offer尘埃落定了再上报），Top Employers: NVIDIA, amazon, apple, tiktok
 
 ## 录取dp

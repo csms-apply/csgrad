@@ -12,7 +12,7 @@ UMD是cs排名很好的學校，cs rank上 top #2 for AI, #7 for NLP, #8 for Vis
 MSCS是research 導向項目，MS和phd錄取同pool，非常適合想轉phd的同學來，對於master同學來說，項目對於
 找工作的支持較少，同時系裡的刷題氛圍、找工氛圍也較少。一般錄取的同學都能找到TA/RA，前者居多，
 因為本科生太多了，缺人當TA，幾乎人人都能當
-找到TA/RA就能免學費，還有工資
+但注意官網寫明 MS 錄取不保證資助：本系 CMSC TA 是按小時計酬，有工資但不免學費、不含醫保；RA 才算 graduate assistantship 職位（2026-27 學年官網說法）
 
 umd屬於是科研巨強找工尚可的項目，招人少，比較看科研經歷，尤其fall很難，本校生spring相對簡單。
 ## 錄取bar和dp {#录取bar和dp}
