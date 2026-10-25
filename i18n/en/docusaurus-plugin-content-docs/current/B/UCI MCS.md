@@ -31,4 +31,4 @@ The 2022 internship landing rate was 89%, mainly because many Indian students wi
 6. National Central University CS undergraduate, SWE intern at a small company during the master’s, then a part-time Web Developer at Matching Donors after graduating in 2025.
 
 ## Drawbacks
-Quarters end in late June, meaning you cannot start an internship in May or early June. As a result, you can basically only intern at large companies (an Indian classmate received an offer starting in early June but couldn't get CPT, causing the offer to be rescinded).
+Quarters end in mid-June (Spring 2026 quarter ended June 12), meaning you cannot start an internship in May or early June. As a result, you can basically only intern at large companies (an Indian classmate received an offer starting in early June but couldn't get CPT, causing the offer to be rescinded).

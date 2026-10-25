@@ -9,7 +9,7 @@ sidebar_label: "Wisc CS PMP"
 Wisc MSCS 项目和 Ph.D 一个 pool 所以非常难，这个 PMP 项目其实相当于其他学校的 MCS
 
 
-学费便宜，full-time 13k/semester，最后一学期part-time的话可以按照学分收费，总共花费约 $35k，很划算
+学费便宜，非州居民 $1,503.40/学分，最后一学期part-time的话可以按照学分收费，30 学分总共花费约 $45k，很划算
 
 两次实习机会（允许秋季春季实习），学制1.5yr - 2yr（再延长到2.5y也是可以的），跟gatech mscs很像
 

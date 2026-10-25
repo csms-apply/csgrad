@@ -7,7 +7,7 @@ sidebar_label: "NEU SES"
 # NEU SES
 
 ## 项目介绍
-项目全称叫software engineer systems，非常科班，75申请费可以申请三个专业，勾选
+项目全称叫software engineer systems，非常科班，工程学院 MS 目前免申请费（Spring 2027、Fall 2027 入学），一份申请可以选三个专业，勾选
 完neu mscs/cs align的时候可以勾选一下neu ses，ses在波士顿、Arlington、Toronto等校区开设，具体以官网为准。
 
 

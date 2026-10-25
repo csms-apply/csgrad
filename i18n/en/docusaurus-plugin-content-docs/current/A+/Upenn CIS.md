@@ -12,7 +12,7 @@ This is essentially a CS program. The Master's requires completing 10 courses. C
 
 Two-year track (3-3-2-2)
 One-and-a-half-year track (3-3-4)
-Students can choose a course track or thesis track, offering flexibility for both job hunting and PhD applications. For tuition, if full-time, each semester is about $26,000, but it may be lower in the second year if you take fewer courses.
+Students can choose a course track or thesis track, offering flexibility for both job hunting and PhD applications. For tuition, if full-time, each semester is about $29,399 for 3 CU or $38,224 for 4 CU in 2026-27 (including fees), but it may be lower in the second year if you take fewer courses.
 
 The Ivy League title is very appealing. The admission threshold for students from mainland China can be elevated to SS tier, while for US undergrads it's around S tier. However, job placement truly can't compare to Stanford or CMU SCS level programs.
 

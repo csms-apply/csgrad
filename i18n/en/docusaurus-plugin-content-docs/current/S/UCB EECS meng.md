@@ -19,7 +19,7 @@ In previous years, some students may have been able to extend by persistently re
 
 When applying, you need to select a track. CS students typically choose the DSS track (the DSS track was split into Data Science and Computer Systems tracks starting 24 Fall). Graduation requires completing a Capstone project, similar to the UW EE PMP Capstone project. However, you need to write an essay explaining your interest in the project and may even need to interview -- somewhat like the application process. Current students report that the quality of these Capstone projects is uneven, with a 90% chance you won't produce anything meaningful.
 
-UCB has a relatively high number of homeless people nearby, so you need to be mindful of safety. However, the EECS engineering buildings are located in the more remote northern part of campus, which is scenic and not a concern regarding homeless people. Rent is relatively low, and factoring in scholarships, the total cost comes to around $40K.
+UCB has a relatively high number of homeless people nearby, so you need to be mindful of safety. However, the EECS engineering buildings are located in the more remote northern part of campus, which is scenic and not a concern regarding homeless people. Rent is relatively low, and nonresident tuition and fees for 2025-26 are about $71.4K; after scholarships (the Fung Excellence Scholarship covers roughly 25%-50%), tuition and fees come to about $36K-$54K.
 
 Although CPT is not approved, the school is very supportive of students, frequently organizing various events including alumni networking and interview coaching. Alumni are also willing to help. The Berkeley name is still a gold standard (after all, it's CS top 4).
 

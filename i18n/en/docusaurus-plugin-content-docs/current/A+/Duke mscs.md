@@ -40,7 +40,7 @@ It comes down to personal LeetCode grinding, networking ability, and luck. The j
 but "in 22Fall, everyone who worked hard on LeetCode, mock interviews, and actively sought internal referrals landed offers. One classmate even originally planned to pursue a PhD, switched to job hunting last minute,
 had only research experience with no internships, and still landed at Google." In terms of cost-effectiveness, it's not as good as CS75 and Gatech MSCS,
 but there are precedents of being able to pivot to a PhD or fall back on industry. Speaking of cost-effectiveness, everyone's first reaction to Duke is that it's too expensive. Duke's course selection is flexible, and although tuition is high,
-you can take courses in a 3+3+4 pattern, with the last semester spent affiliated with the school, totaling around $90k. TA positions are very easy to get,
+you can take courses in a 3+3+4 pattern, with the last semester spent affiliated with the school, totaling at least ~$105k (2026-27 tuition is $34,940/semester, and at least 3 full-time semesters are required). TA positions are very easy to get,
 paying $6,200 per semester. There are also on-campus work-study opportunities at the library, dining hall, etc., paying about $1,000/month.
 
 1. UCI CS undergrad, no internship, landed Meta SWE intern

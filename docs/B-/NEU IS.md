@@ -10,7 +10,7 @@ sidebar_label: "Neu IS"
 转码项目，可以coop，跟mscs差不多，i20是se，科班title
 
 有n个校区，
-想体验美国大学校园生活的，年纪小不急于找工作的以及各方面条件都不错的，请去波士顿校区。以进大厂为目的的，或不能忍受波士顿冬天的，请来硅谷。2025-2026 学年入学不要求 GRE，Fall 2026 入学已免申请费
+想体验美国大学校园生活的，年纪小不急于找工作的以及各方面条件都不错的，请去波士顿校区。以进大厂为目的的，或不能忍受波士顿冬天的，请来硅谷。2025-2026 学年入学不要求 GRE，工程学院 MS 申请 Spring 2027、Fall 2027 入学均免申请费
 
 
 正常就是两年毕业， 但如果中途有实习或Co-Op的话可能就会两年半左右毕业。
@@ -24,7 +24,7 @@ sidebar_label: "Neu IS"
   实习的学校多了好几次上岸机会。                                                
   3. STEM 项目，毕业后可以享受 OPT + STEM OPT 延期，共约 3 年工作许可。
 ## 录取bar
-身边甚至好多ivy league的别的专业的master 来neu转码，申请时可以同时勾选 MSCS / CS Align / IS / SES（$75 申请费最多选 3 个专业） 
+身边甚至好多ivy league的别的专业的master 来neu转码，申请时可以同时勾选 MSCS / CS Align / IS / SES（目前免申请费，一份申请最多选 3 个专业） 
 
 但是录取bar不高，比较友好
 
@@ -43,7 +43,7 @@ sidebar_label: "Neu IS"
 ## 课程设置
 
   
-  - 16 学分的 advisor-approved 信息系统技术核心课                               
+  - 总共 32 学分，必修核心课只有 INFO 5100（4 学分，配 0 学分的 INFO 5101 Lab）；Coursework 路线另需 16 学分 INFO 限选课                               
   - 其余为选修，想转码可以选择Software Development，可选方向包括：                                    
     - Cyber and Information Security（网络安全）                                
     - Product Management & DevOps Leadership（产品管理）          
