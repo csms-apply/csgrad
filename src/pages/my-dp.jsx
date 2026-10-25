@@ -1,3 +1,5 @@
+import { localizedInternalPath } from '../lib/seo/localizedAlternates.mjs';
+import { getLocaleMessages } from '../lib/i18n/traditional';
 import React, { useEffect, useState, useRef } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
@@ -130,7 +132,7 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return loc === 'en' ? 'en' : 'zh-Hans';
+  return ['en', 'zh-Hant'].includes(loc) ? loc : 'zh-Hans';
 }
 
 function fmt(template, vars) {
@@ -595,7 +597,7 @@ function classifyError(e) {
   return { kind: 'network', message: msg };
 }
 
-function Inner({ t }) {
+function Inner({ t, locale }) {
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
   const [applicant, setApplicant] = useState(null);
@@ -670,7 +672,7 @@ function Inner({ t }) {
 
   async function handleSignOut() {
     await signOut();
-    window.location.href = '/datapoints';
+    window.location.href = localizedInternalPath('/datapoints', locale);
   }
 
   return (
@@ -679,7 +681,7 @@ function Inner({ t }) {
         <div className={styles.headerTop}>
           <div>
             <h1>{t.heading}</h1>
-            <a href="/datapoints" className={styles.backLink}>{t.browseAll}</a>
+            <a href={localizedInternalPath('/datapoints', locale)} className={styles.backLink}>{t.browseAll}</a>
           </div>
           <div className={styles.headerRight}>
             <span className={styles.meBadge}>👤 {me.nickname}{me.role === 'admin' ? t.adminTag : ''}</span>
@@ -688,11 +690,11 @@ function Inner({ t }) {
         </div>
         {!applicant ? (
           <p className={styles.notice}>
-            {t.noApplicant}<a href="/submit-dp">{t.noApplicantLink}</a>{t.noApplicantSuffix}
+            {t.noApplicant}<a href={localizedInternalPath('/submit-dp', locale)}>{t.noApplicantLink}</a>{t.noApplicantSuffix}
           </p>
         ) : (
           <p className={styles.lead}>
-            {t.totalPrefix}<b>{rows.length}</b>{t.totalSuffix} <a href="/submit-dp">{t.submitNew}</a>
+            {t.totalPrefix}<b>{rows.length}</b>{t.totalSuffix} <a href={localizedInternalPath('/submit-dp', locale)}>{t.submitNew}</a>
           </p>
         )}
         {msg ? <p className={msg.type === 'ok' ? styles.ok : styles.err}>{msg.text}</p> : null}
@@ -713,7 +715,7 @@ function Inner({ t }) {
 
       {!loading && applicant && rows.length === 0 ? (
         <div className={styles.empty}>
-          {t.emptyText}<a href="/submit-dp">{t.emptyLink}</a>
+          {t.emptyText}<a href={localizedInternalPath('/submit-dp', locale)}>{t.emptyLink}</a>
         </div>
       ) : null}
 
@@ -831,14 +833,14 @@ function SignInGate({ t }) {
 export default function MyDp() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
   return (
     <Layout title={t.pageTitle} description={t.pageDesc}>
       <Head>
         <meta name="description" content={t.pageDesc} />
         <meta name="robots" content="noindex" />
       </Head>
-      <BrowserOnly>{() => <Inner t={t} />}</BrowserOnly>
+      <BrowserOnly>{() => <Inner t={t} locale={locale} />}</BrowserOnly>
     </Layout>
   );
 }

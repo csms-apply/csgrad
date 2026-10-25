@@ -276,7 +276,7 @@ function GeoMapInner() {
 
 export default function VisitorGeoMap() {
   return (
-    <BrowserOnly fallback={<div className={styles.loading}>加载地图中...</div>}>
+    <BrowserOnly fallback={<div className={styles.loading}><Translate id="visitorGeo.loading">加载地图中...</Translate></div>}>
       {() => <GeoMapInner />}
     </BrowserOnly>
   );

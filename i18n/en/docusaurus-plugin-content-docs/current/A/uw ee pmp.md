@@ -1,3 +1,8 @@
+---
+sidebar_label: "UW EE PMP"
+title: "UW EE PMP Admissions Guide: Courses and Program Experience"
+description: "Student observations on UW EE PMP software courses, co-op planning and Seattle recruiting, alongside admission trends and reported career experiences."
+---
 
 # UW EE PMP
 
@@ -15,6 +20,8 @@ https://ruit.me/blog/pmp
 
 ## Job Outcomes & Data Points
 25 Summer: Amazon offers in bulk -- dozens of Amazon intern offers.
+
+Soochow University Big Data Management bachelor’s, Tencent Data Engineer internship during the bachelor’s, AWS SWE intern (EC2 Nitro) while studying PMP in 2026.
 
 ## Software Courses
 Data Structures and Algorithms for ECE Applications (Slaughter)

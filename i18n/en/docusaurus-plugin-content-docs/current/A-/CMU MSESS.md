@@ -1,7 +1,22 @@
+---
+description: "CMU MSE-SS guide covering software engineering coursework, the value of prior work experience, admission profiles and reported internship and job outcomes."
+sidebar_label: "CMU MSE-SS"
+title: "CMU MSE-SS Admissions Guide: Courses and Program Experience"
+---
+
 # CMU MSE-SS
 
 
 ## Program Overview
+
+The full name is Master of Software Engineering.
+The MSE program itself is a professional engineering master's with three tracks:
+
+1. Scalable Systems (SS)
+2. Embedded Systems (ES)
+3. Professional (Pro)
+
+SS and ES are for newcomers with less than 2 years of work experience, while Pro is for experienced engineers with more than 2 years of work experience. For the course differences among the three tracks after enrollment, please refer to the program website. Note that SS and ES are nearly identical: both require a summer internship and a one-semester capstone project to graduate. Pro takes 12 more units of electives than SS/ES in the first semester, cannot intern in the summer (so no CPT), and must complete a two-semester studio project starting in the summer to graduate. The MSE program lines up the companies for capstone/studio projects, while internships you find yourself.
 
 Most courses are liberal arts / non-technical courses. Not recommended for career changers to CS without SDE-related work experience. Recommended for students with 3+ years of full-time work experience. This program has almost no coding courses, limited course selection flexibility, and the required courses are not high quality. It feels more like MISM rather than SCS. During the application process, they will send you an email requiring you to solve two LeetCode problems.
 
@@ -21,3 +36,4 @@ Very good. From a pure results perspective, the outcomes are excellent. The admi
 5. Indian student, three years of work experience, landed Microsoft SDE 2 (roughly level 60 in Microsoft's internal leveling system; new grad is level 59)
 6. Indian student, three-month Samsung internship and six-month SAP internship plus two years full-time, landed Adobe internship and converted to full-time
 7. Indian student, VIT undergrad, multiple five-month internships, landed Armada new grad
+8. University of Toronto CS bachelor’s, Veeva Systems SWE internship during the bachelor’s, DoorDash SWE intern while studying MSE-SS in 2026.

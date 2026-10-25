@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+description: "Princeton CS master’s guide to a small research-oriented program, teaching experience, faculty relationships and reported admission backgrounds."
+sidebar_label: "Princeton MSCS"
+title: "Princeton MSCS Admissions Guide: Courses and Program Experience"
 ---
 # Princeton MSCS
 
@@ -34,6 +37,8 @@ Overall, students with US citizenship are admitted in greater numbers.
 TLDR: The undergrads I know basically all went to FAANG or top trading firms.
 
 **For job hunting, Princeton still has a huge advantage, especially in Quant and Research Lab directions.** If the goal is to be a Software Engineer at a big tech company, Princeton's brand is enough to get your resume straight into the interview pool -- getting interviews is not a problem. People in our lab get 3-4 internship offers every fall recruiting season, with a very wide range of choices. But if you're looking for Quant or Trading, Princeton is a target school, so there will be even more interview opportunities.
+
+1. McGill CS + Biology undergraduate, master’s completed in 2024; Munich Re SWE intern, Meta SWE from 2024.
 
 ## Life
 

@@ -1,3 +1,9 @@
+---
+description: "Upenn MSR 机器人硕士的选课与研究方向很自由，也更需要自己规划。这里分享研究体验、费城生活开销和录取背景。"
+title: "Upenn MSR 申请指南：课程与项目体验"
+sidebar_label: "Upenn MSR"
+---
+
 # Upenn MSR
 
 ## 项目介绍
@@ -36,8 +42,10 @@
 2. upenn ce本科，上岸amazon 硬件实习
 3. iit 自动化本科gpa 9.04/10, 三年全职经验，上岸amazon ds
 4. 印度本科gpa 8.72/10，多段实习，上岸sf 小厂cv engineer
-4. upenn ee 本科，有实习经历，上岸space x sde test intern
-5. nyu cs+ds 本科，有小厂ds intern，上岸amazon ds 实习
+5. upenn ee 本科，有实习经历，上岸space x sde test intern
+6. nyu cs+ds 本科，有小厂ds intern，上岸amazon ds 实习
+7. University of Houston cs本科，入学前有 Kyndryl 实习和近两年 Software Developer 全职，硕士期间在 PCASO Lab 做兼职 RA（2025年起）。
+
 ## 大牛教授
 
 GRASP lab全美数一数二， 

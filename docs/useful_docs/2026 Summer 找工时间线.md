@@ -1,3 +1,9 @@
+---
+title: "2026 Summer 美国实习与 New Grad 找工时间线"
+sidebar_label: "2026 summer美国找工时间线"
+description: "围绕 2026 年暑期实习，梳理从 2025 年准备与投递到实习、争取 Return Offer，再到 New Grad 求职的时间安排。"
+---
+
 # 2026 summer 美国找工时间线
 2025 年1月-6月，国内找个实习
 

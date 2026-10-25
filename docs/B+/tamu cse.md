@@ -1,3 +1,8 @@
+---
+title: "TAMU CSE 申请指南：课程与项目体验"
+sidebar_label: "TAMU CSE"
+description: "TAMU CSE 下 MCS、MSCS 等学位的选择与转换经验，介绍偏研究的课程、TA/RA、学习成本，以及不同工作背景同学的求职经历。"
+---
 # TAMU CSE
 ## 项目综述
 **TLDR: 一句话总结，小gatech mscs**
@@ -35,3 +40,5 @@ TAMU虽然有诸多优点，其工程学院也是全美国较有声誉的。但�
 - 印度本科，多段web developer 实习，上岸小厂ds
 
 以上是一些比较好的案例，但是对于运气不好且经验不足的同学(没有很多工业界经验)，由于TAMU的本身没有加成，普遍有找工困难的问题（没有面试）。
+
+- IIT (BHU) 电子工程本科，读 MSCS 前有 Wells Fargo 两年全职，2025 年毕业时上岸 Amazon Applied Scientist I 全职。

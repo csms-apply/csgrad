@@ -1,3 +1,9 @@
+---
+description: "Rice MCS 的课程、实习要求与三至四学期毕业方案，附休斯顿住宿生活、学费安排，以及往届同学的求职经历。"
+title: "Rice MCS 申请指南：课程与项目体验"
+sidebar_label: "Rice MCS"
+---
+
 # Rice MCS
 
 ## 项目介绍
@@ -23,3 +29,4 @@ MCS 项目规模这几年有所增长，疫情期间 21Fall 一度扩招到 300 
 6. University of Missouri-Columbia cs+语言学本科，本科期间多段sde 实习，上岸cvs mle岗位
 7. 印度同学，一年全职，上岸goldman sachs swe
 
+8. 重庆邮电 CS 本科，硕士期间 Wind River SWE intern，2023 年毕业后上岸 NVIDIA Solutions Architect 全职。

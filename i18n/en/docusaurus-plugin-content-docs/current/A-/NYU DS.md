@@ -1,3 +1,9 @@
+---
+description: "NYU Data Science combines demanding math coursework with research opportunities. Read about applicant backgrounds, PhD interests and data science career paths."
+sidebar_label: "NYU DS"
+title: "NYU Data Science Admissions Guide: Courses and Program Experience"
+---
+
 # NYU DS
 
 ## Program Overview
@@ -34,3 +40,4 @@ Primarily DS positions. The landing rate is quite good compared to peer DS progr
 2. UCI DS undergrad, landed C3 AI
 3. Indian student, one year internship experience in India, landed BCG DS
 4. Indian student, three and a half years full-time at SAP, landed CVS DS
+5. NYU DS + Psychology bachelor’s, AppDynamics DS intern during the master’s in 2024.

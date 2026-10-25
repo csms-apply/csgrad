@@ -1,3 +1,9 @@
+---
+description: "Santa Clara MSCSE student perspectives on Silicon Valley life, quarter-system coursework, career-change prerequisites, study costs and internship timing."
+sidebar_label: "SCU MSCSE"
+title: "Santa Clara MSCSE Admissions Guide: Courses and Program Experience"
+---
+
 # SCU MSCSE
 
 ## Program Overview
@@ -30,6 +36,8 @@ To be blunt, job hunting is entirely on your own. The school's brand means essen
 In the 22Fall cohort, fewer than 10 Chinese international students without status found internships (out of 100+ total Chinese students). Market conditions were partly to blame, but SCU clearly doesn't provide any special job-hunting advantage. Those who did find internships had started applying very early and planned carefully — they landed through Amazon or GHC, nothing to do with the school.
 
 That said, an alumnus was proactively contacted by a Google HR on LinkedIn for a full-time interview, showing that SCU's brand is sufficient for Bay Area small-to-medium company resume screens, and even big tech won't dismiss it outright.
+
+- CE undergraduate in India, Juniper Networks SWE intern during the master’s, later full-time SDE 2 there, then full-time SWE roles at Microsoft and Google.
 
 ## Overall Recommendations
 If you're holding offers from programs like NEU IS or CSA that have lighter coursework, solid co-op systems, and strong job-hunting culture, go to NEU — don't come to SCU. SCU works for two types of people: those who are laser-focused on LeetCode grinding and job applications and just need an OPT vehicle (just avoid the bad courses); and those aiming for a PhD, since small class sizes make it easy to build relationships with professors, do a Master Thesis, and publish papers.

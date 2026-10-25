@@ -1,3 +1,8 @@
+---
+sidebar_label: "UT ECE (SES)"
+title: "UT Austin ECE SES Admissions Guide: Courses and Program Experience"
+description: "UT Austin ECE SES student perspectives on program length, semester internships, tuition and assistantships, with admissions and career examples."
+---
 # UT ECE (SES)
 
 One-sentence summary: A lottery ticket -- there's really no discernible pattern, but highly recommended for job hunting.
@@ -34,3 +39,4 @@ Job prospects are also very favorable, mainly because you can extend graduation,
 
 1. SJTU IS undergrad, had ByteDance, Cisco, and Synopsys internships, landed Apple new grad
 2. UT Austin ECE undergrad, GPA 3.98 (top 10%), landed AMD new grad
+3. UT Austin ECE bachelor’s, two LinkedIn internships before enrollment, Databricks SWE intern while studying SES in 2026.

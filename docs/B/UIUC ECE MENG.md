@@ -1,3 +1,9 @@
+---
+description: "UIUC ECE MEng 的软硬件选课、跨系课程申请与 Co-op 安排，结合推迟入学经验、录取背景和实习案例，了解项目的灵活性。"
+title: "UIUC ECE MEng 申请指南：课程与项目体验"
+sidebar_label: "UIUC ECE MENG"
+---
+
 # UIUC ECE MENG
 
 ## 项目介绍
@@ -31,3 +37,4 @@ rolling制度，早申早录取。录取bar友好
 3. 国立清华大学，一年全职，上岸ASM 全职
 4. 台大EE本科，gpa4.0/4.3, 一年全职，上岸twitter
 
+5. 浙大电子科学与技术本科，硕士期间美团 Java Software Engineer intern，2025 年毕业后在 TikTok 任 Junior Software Engineer。

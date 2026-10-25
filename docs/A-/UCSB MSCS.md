@@ -1,3 +1,9 @@
+---
+description: "UCSB MSCS 的学制安排、海边生活和找工氛围分享，结合录取背景与求职案例，看看研究生生活与自主求职如何兼顾。"
+title: "UCSB MSCS 申请指南：课程与项目体验"
+sidebar_label: "UCSB MSCS"
+---
+
 # UCSB MSCS
 
 ## 项目介绍
@@ -21,5 +27,7 @@ MSCS 项目时长一般是 2 年，但最长能延期到 4 年，学校给发的
 
 1. ucsb cs本科，有ins实习，上岸Appfolio ng
 2. ucsb cs本科，无实习，上岸meta
+3. ucsb ce本科后读本校 mscs，2025年 Samsung ml intern，2026年上岸 nvidia Deep Learning swe 全职。
+
 ## 转博
 友好，很多本校ms转phd的

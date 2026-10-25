@@ -1,3 +1,8 @@
+---
+sidebar_label: "TAMU CSE"
+title: "Texas A&M CSE Admissions Guide: Courses and Program Experience"
+description: "Explore Texas A&M CSE degree options through student accounts of program transfers, research coursework, assistantships and internship flexibility."
+---
 # TAMU CSE
 ## Program Summary
 **TLDR: In one sentence -- a mini Georgia Tech MSCS**
@@ -29,3 +34,5 @@ Although TAMU has many advantages and its engineering school is quite prestigiou
 - Indian undergrad, multiple web developer internships, landed small company DS
 
 The above are some of the better cases. However, for students with bad luck and insufficient experience (not much industry experience), since TAMU itself provides no boost, there is a common problem of difficulty finding jobs (no interviews).
+
+- IIT (BHU) electronics undergraduate, two years full-time at Wells Fargo before MSCS, then Amazon Applied Scientist I full-time in 2025 at graduation.

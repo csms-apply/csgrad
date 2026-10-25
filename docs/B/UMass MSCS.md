@@ -1,3 +1,9 @@
+---
+description: "UMass MSCS 的课程与校园生活分享，附不同工作经历申请者的录取背景，以及软件工程、机器学习方向的实习和全职案例。"
+title: "UMass MSCS 申请指南：课程与项目体验"
+sidebar_label: "UMass MSCS"
+---
+
 # UMass MSCS
 
 ## 项目介绍
@@ -25,10 +31,4 @@ UMass食堂全美第一，MSCS课程大部分都蛮水的，非常适合水掉�
 5. 印度本科，三段实习经历，上岸微软实习
 6. Umass cs本科，有Umass 大学里面的sde实习, 上岸微软intern
 
-
-
-
-
-
-
-
+7. IIT Hyderabad CS 本科，读硕士前有 Adobe 三年全职，硕士期间上岸 KLA Machine Learning Research Intern（2025 summer）。

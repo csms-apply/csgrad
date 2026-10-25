@@ -1,3 +1,9 @@
+---
+description: "UMich MSCS/MSCSE student perspectives on flexible study timelines, teaching assistantships, hands-on courses and balancing coursework with job hunting."
+sidebar_label: "UMich MSCS/MSCSE"
+title: "UMich MSCS/MSCSE Admissions Guide: Courses and Program Experience"
+---
+
 # UMich MSCS/MSCSE
 
 ## Program Overview
@@ -43,7 +49,7 @@ External students are not recommended to apply blindly unless they are extremely
 ### Data Points
 
 1. Clemson University CE undergrad, GPA 4.0
-2. PES University, GPA 9.43/10
+2. Undergraduate in India, GPA 9.43/10
 
 
 ## Job Outcomes & Data Points
@@ -52,6 +58,7 @@ Top employers: Amazon, Facebook, Google.
 
 [![University of Michigan MSCS employer outcomes dashboard; open full size](/img/en/umichcarrer.svg)](/img/en/umichcarrer.svg)
 There are some industry partnership programs (e.g., MDP) where strong performance can lead to internship interviews/opportunities.
+
 
 ## Transferring to PhD
 Friendly environment for this. Quite a few students transfer directly to PhD from within the school.

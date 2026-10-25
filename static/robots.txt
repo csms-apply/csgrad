@@ -10,3 +10,4 @@ Disallow: /api/dp
 
 Sitemap: https://csgrad.com/sitemap.xml
 Sitemap: https://csgrad.com/en/sitemap.xml
+Sitemap: https://csgrad.com/zh-Hant/sitemap.xml

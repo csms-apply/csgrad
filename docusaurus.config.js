@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CS Grad',
-  tagline: 'Make application easier',
+  tagline: '北美 MSCS 申请指南',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -27,18 +27,26 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans', 'zh-Hant', 'en'],
     localeConfigs: {
       'zh-Hans': {
-        label: '中文',
+        label: '简体中文',
         htmlLang: 'zh-Hans',
+      },
+      'zh-Hant': {
+        label: '繁體中文',
+        htmlLang: 'zh-Hant',
       },
       en: {
         label: 'English',
@@ -47,11 +55,15 @@ const config = {
     },
   },
 
+  plugins: ['./plugins/legacy-program-routes.cjs'],
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        // This site has no blog content; avoid generating empty blog indexes.
+        blog: false,
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
@@ -67,6 +79,7 @@ const config = {
           ignorePatterns: [
             '**/datapoints submit',
             '**/my-dp',
+            '**/school-positioning',
             '**/school-positioning-result',
             '**/submit-dp',
           ],
@@ -89,8 +102,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      metadata: [{property: 'og:site_name', content: 'CS Grad'}],
       navbar: {
-        title: 'cs grad',
+        title: 'CS Grad',
         logo: {
           alt: 'CS Grad Logo',
           src: 'img/logo.svg',
@@ -113,6 +127,12 @@ const config = {
             label: '申请跟踪',
           },
           {
+            type: 'custom-schoolPlan',
+            position: 'left',
+            label: 'School Plan',
+            to: '/school-positioning',
+          },
+          {
             href: 'https://github.com/csms-apply/csgrad',
             label: 'GitHub',
             position: 'right',
@@ -127,24 +147,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Explore',
+            title: '探索',
             items: [
               {
-                label: 'Program Guide',
+                label: '项目介绍',
                 to: '/',
               },
               {
-                label: 'Data Points',
+                label: '录取数据',
                 to: '/datapoints',
               },
               {
-                label: 'Application Tracker',
+                label: '申请跟踪',
                 to: '/tracker',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
                 label: 'CS Grad Discord',
@@ -153,7 +173,7 @@ const config = {
             ],
           },
           {
-            title: 'Project',
+            title: '关于项目',
             items: [
               {
                 label: 'GitHub',

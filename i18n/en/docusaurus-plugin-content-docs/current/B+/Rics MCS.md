@@ -1,3 +1,9 @@
+---
+description: "Rice MCS guide covering degree requirements, internship planning, tuition and course schedules, with student perspectives on studying and job hunting in Houston."
+sidebar_label: "Rice MCS"
+title: "Rice MCS Admissions Guide: Courses and Program Experience"
+---
+
 # Rice MCS
 
 ## Program Overview
@@ -22,3 +28,5 @@ For 25 Summer, 4 people landed Meta, and approximately 10 people landed Amazon.
 5. Art background career change to CS, had product manager full-time experience in China, landed America Data Science
 6. University of Missouri-Columbia CS + Linguistics undergrad, multiple SDE internships during undergrad, landed CVS MLE position
 7. Indian student, one year full-time experience, landed Goldman Sachs SWE
+
+8. Chongqing University of Posts and Telecommunications CS undergraduate, Wind River SWE intern during the master’s, then NVIDIA Solutions Architect full-time after graduating in 2023.

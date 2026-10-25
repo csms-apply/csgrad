@@ -1,3 +1,9 @@
+---
+description: "NYU Tandon MSCS guide to its career-oriented curriculum and Brooklyn setting, with program timelines, costs, co-op opportunities and admission profiles."
+sidebar_label: "NYU Tandon MSCS"
+title: "NYU Tandon MSCS Admissions Guide: Courses and Program Experience"
+---
+
 # NYU Tandon MSCS
 
 ## Program Overview
@@ -15,3 +21,5 @@ Not great, pretty average.
 
 1. International undergrad, had Amazon internship, landed JP Morgan new grad
 2. Indian undergrad, two four-month internships, landed Tesla
+
+3. data science undergraduate in India, SAP internship before the master’s, then Blue Yonder Software Engineer full-time after graduating in 2026.

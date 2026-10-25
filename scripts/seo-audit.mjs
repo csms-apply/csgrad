@@ -138,6 +138,7 @@ function routeKey(value) {
 }
 
 function localeKey(route) {
+  if (route === '/zh-Hant' || route.startsWith('/zh-Hant/')) return 'zh-Hant';
   return route === '/en' || route.startsWith('/en/') ? 'en' : 'zh-Hans';
 }
 
@@ -225,6 +226,18 @@ async function main() {
     pagesByRoute.set(routeKey(pageRoute(page.file)), page);
   }
 
+  // Navigation and SEO alternate tags can diverge. Validate the links that
+  // visitors actually click, including pages intentionally excluded from SEO.
+  for (const page of pages) {
+    for (const attrs of tags(page.html, 'a').map(attributes)) {
+      if (!attrs.lang || !attrs.href?.startsWith('/') || attrs.href.startsWith('//')) continue;
+      const target = new URL(attrs.href.replace(/&amp;/g, '&'), 'https://csgrad.com');
+      if (!pagesByRoute.has(routeKey(target.pathname))) {
+        issues.push(`[locale-navigation-target-missing] ${pageRoute(page.file)} language ${attrs.lang} targets missing page ${attrs.href}`);
+      }
+    }
+  }
+
   const sitemapFiles = await findFiles(buildDir, (file) => /(?:^|\/)sitemap[^/]*\.xml$/i.test(file));
   if (sitemapFiles.length === 0) {
     issues.push('[sitemap-missing] no sitemap XML files were found');
@@ -248,7 +261,9 @@ async function main() {
   }
 
   for (const sitemapUrl of sitemapUrls) {
-    const page = pagesByCanonical.get(urlKey(sitemapUrl)) ?? pagesByRoute.get(routeKey(sitemapUrl));
+    // Inspect the URL's actual page before aliases which declare its canonical.
+    // A noindex redirect must not replace its indexable destination in this check.
+    const page = pagesByRoute.get(routeKey(sitemapUrl)) ?? pagesByCanonical.get(urlKey(sitemapUrl));
     if (!page) {
       issues.push(`[sitemap-target-missing] ${sitemapUrl} has no matching built HTML page`);
       continue;

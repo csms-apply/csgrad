@@ -1,3 +1,9 @@
+---
+description: "NC State MCS student perspectives on career-change admission, coursework and job hunting, with applicant examples and internship experiences in North Carolina."
+sidebar_label: "NCSU MCS"
+title: "NC State MCS Admissions Guide: Courses and Program Experience"
+---
+
 # NCSU MCS
 
 ## Program Overview
@@ -29,3 +35,5 @@ The 2022 summer landing rate was 87%. For details, see: https://leslierp.wordpre
 10. Indian undergrad, two years full-time, landed NetApp SDE
 11. Indian undergrad, Amazon India one and a half years full-time, landed Amazon US SDE intern and successfully converted to full-time
 12. Indian undergrad, Microsoft four years full-time, landed Hitachi Energy intern and successfully converted to full-time
+
+13. undergraduate in India, Android development internship before the master’s, then full-time SWE at a small company after graduating in 2024 and later Arista Networks.

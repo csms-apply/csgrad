@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+description: "Duke ECE 的 MS 和 MEng 怎么选？这里介绍软件方向课程、项目与实习要求，以及转码申请和 Co-op 方面的就读经验。"
+title: "Duke ECE 申请指南：课程与项目体验"
+sidebar_label: "Duke ECE"
 ---
 # Duke ECE
 
@@ -41,3 +44,4 @@ ECE总共有两个大类，一个是MS，一个是MENG👋。区别就是前者�
 5. 东华大学软工本科无实习，上岸hp实习，后ng上岸amazon
 6. 电子科技大学软工本科有国内小厂实习，后ng上岸amazon
 7. duke kunshan ds本科，有上海飞利浦实习，上岸小厂intern
+8. 东南大学自动化本科，读 Duke ECE MS，2022年 microsoft swe intern，2023年 nvidia swe intern，2024年 nvidia swe 全职。

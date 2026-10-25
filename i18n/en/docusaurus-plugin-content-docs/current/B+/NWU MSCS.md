@@ -1,3 +1,8 @@
+---
+sidebar_label: "NWU MSCS"
+title: "Northwestern MSCS Admissions Guide: Courses and Program Experience"
+description: "Northwestern MSCS student notes on thesis, project and coursework tracks, graduation timing and tuition, with admissions profiles and career examples."
+---
 # NWU MSCS
 
 ## Program Review
@@ -26,3 +31,5 @@ Career services are essentially useless. Job outcomes are mediocre -- this progr
 6. University of Miami CS undergrad, had Bosch and small company SWE intern, landed small company SWE intern
 7. University of Toronto CS undergrad, no internship, landed Fortinet Embedded Software Developer
 8. Beijing University of Technology, Information Management undergrad, had LinkedIn China PM internship, landed Amazon SDE intern
+
+9. CS undergraduate in India, Infoblox AI intern during the master’s, then Data Scientist full-time at Infoblox after graduating in 2024.

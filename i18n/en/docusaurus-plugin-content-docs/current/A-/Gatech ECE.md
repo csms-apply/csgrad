@@ -1,6 +1,11 @@
+---
+sidebar_label: "Gatech ECE"
+title: "Georgia Tech ECE Admissions Guide: Courses and Program Experience"
+description: "Georgia Tech ECE student notes on software and hardware electives, flexible study plans and internship preparation, with reported admissions and career outcomes."
+---
 # Gatech ECE
 
-# Program Overview
+## Program Overview
 
 Degree: Master of Science in Electrical & Computer Engineering, abbreviated MSECE.
 
@@ -35,8 +40,9 @@ Both hardware and software positions are represented; overall job outcomes are q
 8. Mainland Chinese undergrad, North American big-tech intern, landed Amazon
 9. Mainland Chinese undergrad, mid-size company intern, landed Apple hardware position
 10. Mainland Chinese undergrad, landed NVIDIA and Amazon intern
+11. NIT Tiruchirappalli EE bachelor’s, two years as a full-time Google Embedded SWE before enrollment, Astera Labs Firmware intern in 2025, full-time NVIDIA Firmware Engineer from 2026.
 
-# Course Selection
+## Course Selection
 How do you actually snag courses?
 
 Two-round system —
@@ -49,6 +55,6 @@ No extra charge for overloading — beyond 12 credits it is free. If you have th
 
 ![Georgia Tech ECE course difficulty and workload table](/img/en/gtececourse.svg)
 
-# How to Prepare for Internship Hunting After Arriving at GT
+## How to Prepare for Internship Hunting After Arriving at GT
 
 ![Georgia Tech ECE internship, co-op and full-time planning paths](/img/en/gtecetimeline.svg)

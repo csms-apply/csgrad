@@ -1,3 +1,9 @@
+---
+description: "UIUC MSCS guide to research-focused admissions, faculty outreach, reported funding changes and applicant profiles, with examples of internship and career outcomes."
+sidebar_label: "UIUC MSCS"
+title: "UIUC MSCS Admissions Guide: Courses and Program Experience"
+---
+
 # UIUC MSCS
 
 ## Program Overview
@@ -37,3 +43,5 @@ McMaster University  Mechatronics Engineering undergrad, GPA 11/12
 4. UIUC CS undergrad, landed Dropbox DS intern
 5. UIUC CS undergrad, landed Chicago small company intern
 6. IIT CS undergrad (female), multiple research internships, landed JP Morgan Quant AI
+
+7. UT CS undergraduate, Microsoft SWE intern; full-time Apple SWE from 2022 while pursuing the UIUC thesis-track MSCS.

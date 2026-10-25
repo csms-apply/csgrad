@@ -389,3 +389,85 @@ test('drops unsupported values and trims oversized strings', () => {
   assert.equal(payload.method.length, 100);
   assert.equal('content_group' in payload, false);
 });
+
+test('language analytics accepts all three locales and only bounded audience categories', () => {
+  const calls = [];
+  const browserWindow = {
+    gtag: (...args) => calls.push(args),
+    location: {pathname: '/private/person-name', search: '?email=private@example.com'},
+  };
+  for (const locale of ['zh-Hans', 'zh-Hant', 'en']) {
+    assert.equal(trackSeoEvent('language_preference_set', {
+      current_locale: locale,
+      selected_locale: 'en',
+      preferred_locale: 'en',
+      preference_source: 'manual',
+      storage_status: 'persisted',
+      email: 'private@example.com',
+      method: 'person-name',
+      page_type: 'private-profile',
+      page_location: 'https://example.com/private',
+      items: [{customer: 'private'}],
+    }, browserWindow), true);
+    assert.deepEqual(calls.at(-1)[2], {
+      current_locale: locale,
+      selected_locale: 'en',
+      preferred_locale: 'en',
+      preference_source: 'manual',
+      storage_status: 'persisted',
+      page_location: `https://csgrad.com${locale === 'zh-Hans' ? '/' : `/${locale}/`}`,
+      page_path: locale === 'zh-Hans' ? '/' : `/${locale}/`,
+      page_referrer: '',
+      transport_type: 'beacon',
+    });
+  }
+});
+
+test('language events reject missing or arbitrary required categories', () => {
+  const calls = [];
+  const browserWindow = {gtag: (...args) => calls.push(args)};
+  const valid = {current_locale: 'en', preferred_locale: 'none', preference_source: 'default'};
+  for (const name of ['audience_visit', 'language_preference_applied', 'language_preference_set']) {
+    for (const key of ['current_locale', 'preferred_locale', 'preference_source']) {
+      assert.equal(trackSeoEvent(name, {...valid, selected_locale: 'en', [key]: 'private@example.com'}, browserWindow), false);
+      assert.equal(trackSeoEvent(name, {...valid, selected_locale: 'en', [key]: undefined}, browserWindow), false);
+    }
+  }
+  assert.equal(trackSeoEvent('language_preference_set', valid, browserWindow), false);
+  assert.equal(trackSeoEvent('language_preference_set', {...valid, selected_locale: 'none'}, browserWindow), false);
+  assert.deepEqual(calls, []);
+});
+
+test('audience visits support unset preferences and discard invalid optional fields', () => {
+  const calls = [];
+  const browserWindow = {gtag: (...args) => calls.push(args)};
+  assert.equal(trackSeoEvent('audience_visit', {
+    current_locale: 'zh-Hant', preferred_locale: 'none', preference_source: 'default',
+    selected_locale: 'en', storage_status: 'private@example.com',
+  }, browserWindow), true);
+  assert.deepEqual(calls[0][2], {
+    current_locale: 'zh-Hant', preferred_locale: 'none', preference_source: 'default',
+    page_location: 'https://csgrad.com/zh-Hant/', page_path: '/zh-Hant/', page_referrer: '', transport_type: 'beacon',
+  });
+  assert.equal(trackSeoEvent('language_preference_applied', {
+    current_locale: 'en', preferred_locale: 'en', preference_source: 'saved', storage_status: 'persisted',
+  }, browserWindow), true);
+  assert.equal(calls.at(-1)[2].transport_type, 'beacon');
+});
+
+
+test('language events override globally inherited page paths containing query or hash data', () => {
+  const inherited = {
+    page_path: '/school-positioning-result?session_id=private#private-email',
+    page_location: 'https://csgrad.com/private?email=private@example.com',
+  };
+  const calls = [];
+  const browserWindow = {gtag: (_command, name, payload) => calls.push({name, ...inherited, ...payload})};
+  trackSeoEvent('audience_visit', {
+    current_locale: 'en', preferred_locale: 'en', preference_source: 'saved',
+    page_path: '/private-override',
+  }, browserWindow);
+  assert.equal(calls[0].page_path, '/en/');
+  assert.equal(calls[0].page_location, 'https://csgrad.com/en/');
+  assert.equal(JSON.stringify(calls).includes('private'), false);
+});

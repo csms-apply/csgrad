@@ -528,6 +528,19 @@
     "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
+  "tracker.action.close": {"message": "Close"},
+  "tracker.storage.loadFailed": {"message": "The saved tracker could not be read. Its original data has been kept. Export the original backup before importing a valid backup."},
+  "tracker.storage.saveFailed": {"message": "Your browser could not save the tracker. Export a backup to avoid losing changes on refresh."},
+  "tracker.import.invalid": {"message": "Import failed: choose a complete, valid tracker JSON backup (up to 10 MB). Your current list was not changed."},
+  "tracker.import.success": {"message": "Import complete. The previous list was backed up; you can undo the latest import."},
+  "tracker.import.storageFailed": {"message": "Your browser could not save the previous backup or the new list. Import was not completed. Your current list was not changed."},
+  "tracker.import.rollbackFailed": {"message": "Import was not completed and your current list was not changed. However, your browser could not restore the previous undo backup, so undo is disabled for this session. Export your current list now; do not rely on the existing undo backup."},
+  "tracker.import.undone": {"message": "The list from before the import has been restored."},
+  "tracker.import.undo": {"message": "Undo latest import"},
+  "tracker.import.confirm": {"message": "This backup contains {count} programs and will replace your current {current} programs (not merge them). Your current list will be backed up for undo, replacing the previous import backup. Continue?"},
+  "tracker.import.replace": {"message": "Confirm replacement"},
+  "tracker.import.undoConfirm": {"message": "Restore the list from before your latest import? Edits made after importing will be replaced. Export your current list first if you want to keep those edits."},
+  "tracker.import.restore": {"message": "Restore previous list"},
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"

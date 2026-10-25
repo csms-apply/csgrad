@@ -1,3 +1,9 @@
+---
+description: "CMU ECE guide to degree requirements, software-heavy course options and demanding coursework, with admission profiles, job outcomes and research perspectives."
+sidebar_label: "CMU ECE"
+title: "CMU ECE Admissions Guide: Courses and Program Experience"
+---
+
 # CMU ECE
 
 ## Program Overview
@@ -33,6 +39,7 @@ Amazon is full of alumni, and Meta has a good number too.
 7. Indian student with one year of full-time work experience, landed Apple intern and converted to full-time
 8. CMU ECE undergrad, landed Microsoft internship, ultimately went to a Bay Area startup
 9. Indian student with one year of full-time work experience, landed Bay Area startup intern and converted to full-time
+10. Sichuan University Software Engineering bachelor’s, two years of full-time work at Meituan before enrollment, full-time Backend SWE II at TikTok from 2024.
 
 ## Academic Pressure
 

@@ -1,3 +1,9 @@
+---
+description: "Berkeley EECS MEng combines technical coursework, leadership and a year-long capstone. Explore the demands of job hunting within a one-year program."
+sidebar_label: "UCB EECS MEng"
+title: "Berkeley EECS MEng Admissions Guide: Courses and Program Experience"
+---
+
 
 # UCB EECS MEng
 
@@ -18,14 +24,14 @@ UCB has a relatively high number of homeless people nearby, so you need to be mi
 Although CPT is not approved, the school is very supportive of students, frequently organizing various events including alumni networking and interview coaching. Alumni are also willing to help. The Berkeley name is still a gold standard (after all, it's CS top 4).
 
 
-# Ideal Applicant Profiles
+## Ideal Applicant Profiles
 
 1. US undergrads going from senior year to master's, already interned at a major company with a return offer.
 2. Mainland China undergrads with at least 9 months of internship experience.
 3. Post-undergrad with at least 1 year of full-time work experience.
 4. Willing to pay the tuition and hoping to take a chance at landing a job directly through the program.
 
-# Admission Preferences & Representative Data Points
+## Admission Preferences & Representative Data Points
 
 GPA carries significant weight in admissions. Scholarship allocation is essentially based on GPA: 3.9+ generally gets $10K, 3.93+ gets $15K, 3.95+ gets $20K. Internship and research experience also matter, but GPA is still the most important factor.
 
@@ -61,6 +67,8 @@ Overall, job search outcomes are decent -- noticeably better than Yale MSCS, whi
 3. UBC EE undergrad, multiple small company internship experiences, landed small company new grad
 4. UofT EE undergrad, had Amazon and Huawei internships (Canada-based), landed NVIDIA
 5. NTU/NTHU CS undergrad, 9 months full-time backend experience, landed Google
+
+6. Purdue EE undergraduate, MEng completed in 2023; SWE intern at a small company, SLB EE full-time in 2023, Apple Lab Operations Engineer full-time in 2026.
 
 ## Living Experience
 Close to the Bay Area with pleasant weather and plenty of good restaurants nearby. Especially with a car, weekend trips to SF for dinner or ocean views make for a high quality of life.

@@ -1,3 +1,8 @@
+---
+title: "NWU MSCS 申请指南：课程与项目体验"
+sidebar_label: "NWU MSCS"
+description: "NWU MSCS 的 thesis、project 和 course 路线有什么区别？本文分享导师与毕业安排、学费、Evanston 生活和往届录取、求职案例。"
+---
 # NWU MSCS
 
 ## 项目评价
@@ -28,4 +33,5 @@ career service可以说毫无帮助，找工一般，这个项目其实更适合
 6. University of Miami cs本科，有bosch 和小厂swe intern，上岸小厂swe intern
 7. 多大cs本科，无实习，上岸 Fortinet Embedded Software Developer
 8. 北京工业大学信管本科，有Linkedin 中国pm实习，上岸amazon sde intern
-   
+
+9. 印度 CS 本科，硕士期间 Infoblox AI intern，2024 年毕业后在 Infoblox 做 Data Scientist 全职。

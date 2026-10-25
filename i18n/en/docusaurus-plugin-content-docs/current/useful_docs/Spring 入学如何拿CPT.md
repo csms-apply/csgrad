@@ -1,3 +1,8 @@
+---
+sidebar_label: "How to Get CPT With Spring Enrollment?"
+title: "Spring Enrollment and CPT: Student Transfer Experiences"
+description: "Student experiences with spring-entry internship planning, F-1 transfers and enrollment timing, including CMU SE-SV and Cornell examples to discuss with a school."
+---
 # How to Get CPT With Spring Enrollment?
 
 The prerequisite for this approach is that you must be a US undergrad. The core requirement for CPT is that you must have completed at least one academic year (two semesters) of full-time study.

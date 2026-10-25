@@ -1,15 +1,18 @@
 ---
 sidebar_position: 1
+sidebar_label: "Stanford MSCS"
+title: "Stanford MSCS Admissions Guide: Courses and Program Experience"
+description: "Stanford MSCS student perspectives on coursework, campus life and assistantships, alongside admitted applicant profiles and reported career experiences."
 ---
 # Stanford MSCS
 
-# Program Overview
+## Program Overview
 The best of the best -- the only program with no drawbacks. Unbeatable location (California sunshine and ocean), prestigious school name, top CS ranking, right next to Meta and Nvidia (a 10-minute drive). If you intern at Meta or Nvidia over the summer, you don't even need to find separate housing (just stay in your existing dorm). Job outcomes are also incredible -- almost every classmate I know has gotten an Nvidia interview. If you want to transfer to a PhD, you need to reapply. Course quality is excellent: CS229 Deep Learning Systems, CS231 Deep Learning for Computer Vision, CS224N (NLP) are all household names that virtually every CS student has taken. You can also take some leisure courses like horseback riding, archery, or Japanese, and live a balanced life. Dorm conditions are unbeatable.
 
 
 
 
-# Admission Preferences & Representative Data Points
+## Admission Preferences & Representative Data Points
 Requires a target school background. For mainland China undergrads, that means Tsinghua, Peking, and the C5 (top 5 Chinese universities). For Canadian applicants, top 2 schools plus strong candidates from other schools. For US undergrads, top 30 + strong engineering schools + strong liberal arts colleges. Overall, almost everyone has a high GPA (3.9+). Very few mainland China undergrads are admitted -- the vast majority are US undergrads. A significant portion of students have research experience with published output, and some have worked in industry for several years before returning to school.
 
 1. Tsinghua CS undergrad, GPA top 5% (female), Citadel SWE intern
@@ -32,12 +35,12 @@ Requires a target school background. For mainland China undergrads, that means T
 18. UCB CS+Economics undergrad, GPA 4.0, six-month internship at ByteDance, ten-month research internship at Tencent, three-month internship at Goldman Sachs in New York
 19. IIT EE undergrad, GPA 9.8/10, CS minor, one and a half years of RA experience, four-month internship
 
-# TA/RA Opportunities
+## TA/RA Opportunities
 TA: There are a large number of CS TA positions (e.g., CS224 has 24 TAs). Being a TA covers tuition and pays a salary ($10k/quarter) -- very generous.
 
 For international students, you need to pass an English test to get a TA position. Every Stanford student I know (across CS, EE, and ICME) has been able to secure a TA or RA position.
 
-# Job Outcomes & Data Points
+## Job Outcomes & Data Points
 Almost everyone lands an offer. FAANG+ and Bay Area startups can basically absorb all MSCS students. You can pass the resume screening at essentially every company. I know several people who landed offers even without prior internships. Some students prefer to start their own companies or go into quantitative research -- those are outliers.
 
 1. UW CS undergrad, landed Citadel SWE intern
@@ -55,3 +58,6 @@ Almost everyone lands an offer. FAANG+ and Bay Area startups can basically absor
 13. UofT Math+CS undergrad, two years of research experience, landed Tesla MLE
 14. UCB CS+Economics undergrad, long-term internships at ByteDance, Tencent, and Goldman Sachs in New York during undergrad, landed Nvidia Research intern
 15. IIT EE undergrad, CS minor, four-month internship, landed Nvidia
+
+16. USC CS undergraduate, Stanford MSCS 2024–2026; Tencent backend intern, Amazon SWE intern in 2025.
+17. UCI CS undergraduate, Stanford MSCS 2020–2022; SWE intern at a small company, Meta SWE from 2022.

@@ -1,7 +1,12 @@
+---
+title: "UChicago MPCS 申请指南：课程与项目体验"
+sidebar_label: "Uchicago MPCS"
+description: "UChicago MPCS 的九个月与十五个月路线、基础课程和高阶选修，结合转码申请背景、pre-doc 经历及芝加哥生活，讨论就读取舍。"
+---
 # Uchicago MPCS
 
 	
-# 项目介绍
+## 项目介绍
 mpcs是转码项目，在地里的名声并不好。综排高，专排低。课程质量很基础，比如离散数学、数据库、java、python、cpp这些基础课..... 不过可以选本科生的课，比如parallel programming ，本科生课程质量比较硬核一点，wld也大一点。不过找工向的话选水课也没啥问题，越水越有时间刷题。学费很贵，需要9w刀，申请群内算了一下，总共需要大概90左右。
 
 出路：前两年的就业数据还不错，有google、facebook等等。
@@ -14,24 +19,24 @@ track分为9 month track和15 month track，可以灵活转换，如果找到了
 
 ![](/img/uchi.png)
 
-# 优点
+## 优点
 学校排名高，中部第一名校
 项目wld小，方便刷题
 是fintech target school，会有更多的上岸机会
 芝加哥是美国top 大城市，可以玩的很爽快
 	
-# 缺点
+## 缺点
 贵，正如之前提到的，学费需要9w刀
 危险，相信很多uu都听说过uchicago的地里位置有多么不安全，因此需要想好再去。
 课程质量基础，可能没有那么能帮助填充简历。
 quarter制，可能学期内的压力很紧张
 
-# 课程设置
+## 课程设置
 
 - 从Data Analytics, High Performance Computing, Mobile Computing, Software Engineering, Security五个track里面选一个track修完四门课. 
 - 无限制选修课三门，可以选CSMC，TTIC，CS-phd的课。
 	
-# 录取偏好
+## 录取偏好
 喜欢理工科转码
 
 名校高三维(清北复交浙的比例很高)，看中GRE分数，建议考高点。官网上写了verbal 50%，Q 90%比较稳。
@@ -48,7 +53,7 @@ dp:
 7. 北大城市建设本科，gpa3.85,upenn 城建gpa3.7, uch mpcs是她的二硕
 
 
-# 找工dp
+## 找工dp
 uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是很大，同学有很多都是早已经上班的，也不会跟你竞争找intern/ng，甚至还可以直接线下要refer。（mpcs和cmu的大部分项目应该是完全相反的两种dp）。前两年（指22年），meta在uchicago mpcs招人很多，也招了很多非cs本科的同学，从身边采样法来看，不会因为uchicago 的名字而失去机会，身边朋友bg好的基本都有很多面试
 
 1. 浙大CS 字节实习-> Bloomberg full-time
@@ -68,3 +73,4 @@ uchi 是没有ee系的，peer pressure非常小。同时mpcs class size也不是
 15. 印度本科，本科有两段实习经历，上岸san jose 小厂 intern并且转正
 16. Northeastern Illinois University cs本科，无实习，上岸grammarly sde intern
 17. Vanderbilt University 城建本科，之前一直干项目经理，上岸spacex
+18. 印度 电气相关专业本科，2022年 meta swe intern，2023年 google swe 全职，2025年升至 senior。

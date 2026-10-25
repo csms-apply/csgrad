@@ -1,3 +1,9 @@
+---
+description: "CMU MSMITE 在匹兹堡与硅谷的学习安排、选课和企业 practicum 体验，附录取背景与往届实习、全职案例。"
+title: "CMU MSMITE 申请指南：课程与项目体验"
+sidebar_label: "CMU MSMITE"
+---
+
 # CMU MSMITE
 
 
@@ -35,6 +41,8 @@ MSIN = 103/109, MSIS = 46/50, MSIT-IS = 41/47, MSMITE = 45/48
 5. 香港城市大学ee本科gpa3.64，有香港三个月实习，上岸小厂qd
 6. umich cs本科，有百度实习，上岸aws intern
 7. cmu ece本科有Mastercard和intel实习，上岸小厂ng
+8. 北大社会学本科转码，2022年 microsoft swe intern，2023年 microsoft swe 全职，2026年跳槽到 Waymo swe 全职。
+
 ## 选课情况
 22fall给MSMITE的degree specific core加入了scs学院的课：
 Distributed Systems，Advanced Cloud Computing (ACC), Cloud Computing(CC)，
@@ -71,4 +79,3 @@ Distributed Systems，Advanced Cloud Computing (ACC), Cloud Computing(CC)，
 25 Fall：14776（经管），14741（IS），一门选修
 26 Spring：14744（Mob Software），14740（Network），15640（DS），15618（PP）
 26 Fall：15619（Cloud Computing）
-

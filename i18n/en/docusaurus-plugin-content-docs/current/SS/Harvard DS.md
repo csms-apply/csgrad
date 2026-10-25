@@ -1,3 +1,9 @@
+---
+description: "Harvard Data Science guide covering Harvard and MIT course access, admitted applicants’ quantitative backgrounds and reported careers in data science and finance."
+sidebar_label: "Harvard DS"
+title: "Harvard Data Science Admissions Guide: Courses and Program Experience"
+---
+
 # Harvard DS
 
 ## Program Overview
@@ -20,6 +26,7 @@ Many go to hedge funds, mainly as traders. Tech placements are primarily at Goog
 1. NYU Economics undergrad, Intuitive intern, landed at an AI unicorn
 2. XJTLU undergrad, landed at American Express
 
+3. University of Toronto Statistics + Economics undergraduate, master’s completed in 2026; Google DS intern in 2025, Google DS full-time in 2026.
 
 ## PhD Transfer
 Few CS-focused young professors, and some professors have limited interest in supervising PhDs. If you want to apply for a PhD, you need to proactively reach out to advisors.

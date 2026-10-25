@@ -1,3 +1,9 @@
+---
+description: "UCSD CS75 的课程压力、Co-op 和圣地亚哥生活体验如何？结合学费、TA 支持与申请案例，看这个项目是否适合自己的找工计划。"
+title: "UCSD CS75 申请指南：课程与项目体验"
+sidebar_label: "UCSD CS75"
+---
+
 # UCSD CS75
 
 ## 项目介绍
@@ -46,3 +52,4 @@ cs75和ece都比较找工友好，cs75课程难度可以选很容易的课程，
 1. nyu ds本科三段国内小厂实习，上岸google ng
 2. 印度同学有微软一年半全职工作经历，上岸Qualcomm intern
 3. uiuc cs本科，有两段非美国的小厂实习，上岸la 小厂实习
+4. North Dakota State University cs+统计本科，2022年 aws sde intern，2023年起 aws sde 全职，2026年升至 sde II。

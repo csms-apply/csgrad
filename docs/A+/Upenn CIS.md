@@ -1,3 +1,9 @@
+---
+description: "Upenn CIS 需要完成十门课，可以选择课程或论文路线。本文介绍毕业节奏、学费、录取背景，以及找工作和读博的选择。"
+title: "Upenn CIS 申请指南：课程与项目体验"
+sidebar_label: "Upenn CIS"
+---
+
 # Upenn CIS
 
 ## 项目介绍
@@ -40,7 +46,7 @@ Upenn cis人称小mcds，workload 很mcds，除了找工不太如mcds。
 10. 印度本科，cisco三年全职，intern上岸apple，ng上岸google
 11. 印度本科，有goldman sachs实习，上岸google intern并且转正
 12. 印度本科，无实习，上岸微软ng
-
+13. upenn cs本科和硕士连读，2024年 meta swe intern，2025年 Netflix swe intern。
 
 ## 课程体验
 节奏快、workload 大、没有水课。 workload 是本科的两倍。特别是 系统类课程，

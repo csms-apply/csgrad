@@ -1,3 +1,9 @@
+---
+description: "NCSU MCS 的课程压力和北卡求职环境怎么样？从转码申请背景、实习调查，到往届软件工程岗位案例，看看这个项目的实际体验。"
+title: "NCSU MCS 申请指南：课程与项目体验"
+sidebar_label: "NCSU MCS"
+---
+
 # NCSU MCS
 
 ## 项目介绍
@@ -34,6 +40,5 @@ NCSU虽然没有名校光环，但是也不会拖你的后退，也有去faceboo
 11. 印度本科，amazon 印度一年半全职，上岸amazon 美国sde intern并且转正
 12. 印度本科，微软四年全职，
     上岸 Hitachi Energy intern并且转正
-   
-   
-   
+
+13. 印度本科，读硕士前有 Android 开发实习，2024 年毕业后在小厂做 SWE 全职，后去了 Arista Networks。

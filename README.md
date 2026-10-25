@@ -1,4 +1,15 @@
-# Intro
+<h1 align="center">北美 MSCS 申请指南</h1>
+
+<p align="center">
+  <a href="https://discord.gg/g9x4WCX2xz"><img src="static/img/readme/community-discord.svg" alt="Join Discord" width="144" height="44" /></a>
+  <a href="#qq-group"><img src="static/img/readme/community-qq-zh.svg" alt="加入 QQ 群" width="144" height="44" /></a>
+</p>
+
+<p align="center">
+  <a href="README.md"><img src="static/img/readme/language-zh-active.svg" alt="简体中文" width="144" height="44" /></a>
+  <a href="README.en.md"><img src="static/img/readme/language-en-inactive.svg" alt="English" width="144" height="44" /></a>
+  <a href="README.zh-Hant.md"><img src="static/img/readme/language-hant-inactive.svg" alt="繁體中文" width="144" height="44" /></a>
+</p>
 
 ## 欢迎来到 CS Grad 项目
 
@@ -7,7 +18,13 @@ CS Grad 项目专注于北美 MSCS 申请，涵盖 CS、DS、EE、ECE、IS 等�
 此外，为了让申请者更全面地评估各项目，我们引入了 **录取数据点（admission DP）** 和 **求职数据点（job DP）**，以便直观展示项目的录取趋势及其在求职市场的表现。毕竟，大多数人选择前往美国攻读 MSCS，归根结底是为了找个班上，因此找工dp也是申请中不可忽视的关键因素。
 
 ## 项目网址
-https://csgrad.com
+[CS Grad 中文首页](https://csgrad.com/)
+
+## 加入 Discord
+
+[加入 CS Grad Discord 社区](https://discord.gg/g9x4WCX2xz)
+
+<a id="qq-group"></a>
 
 ## 加入QQ群讨论
 qq群号：1039432843
@@ -48,4 +65,3 @@ contributor讨论计算得出的，难免会有bias，欢迎大家提pr修正**
 2. 越是人生中重要的选择，越不需要听从别人的指引、或者进行过量的分析，反而要耐心听取自己内心的直觉。大方向要凭本能，具体操作才要靠理性
 3. 不是bar 越高的项目越适合你
 4. 读研只是实现人生理想的方法，读研不是避风港，人生也不会永远静止在拿到offer的那一天
-

@@ -1,3 +1,9 @@
+---
+title: "Spring 入学与 CPT：美国本科背景、转学和实习安排"
+sidebar_label: "Spring入学如何拿CPT？"
+description: "讨论春季入学时，美国本科就读经历、SEVIS 转学与暑期实习时间如何衔接，整理文中涉及的 CPT 和 OPT 情形。"
+---
+
 # Spring 入学如何拿CPT？
 
 这么做的前提得是美本，CPT的核心要求是必须完成至少一个学年（两个学期）的全日制学习。

@@ -1,3 +1,8 @@
+---
+sidebar_label: "Harvard HDS"
+title: "Harvard Health Data Science Admissions Guide: Courses and Program Experience"
+description: "Harvard Health Data Science notes on biostatistics coursework, hospital capstone projects and cross-registration, with admissions and career profiles."
+---
 # Harvard HDS
 
 
@@ -19,7 +24,7 @@ Course selection is extremely flexible -- you can freely take courses from MIT, 
 ## Job Outcomes
 Placement has always been 100% (intern + full-time). Incomplete statistics from previous cohorts include Goldman Sachs, Facebook, Verily, Wayfair, Aetna, Microsoft AI, Google, BCG, etc.
 
-
+1. Beijing Foreign Studies University Business Administration undergraduate, HDS master’s completed in 2020; MilliporeSigma DS intern, Aetna DS full-time in 2020, Google DS full-time in 2026.
 
 ## PhD Transfer
 Almost nobody around me pursues a PhD -- everyone is job hunting. However, research resources are very abundant. You can reach out to professors affiliated with Harvard's hospitals to do research.

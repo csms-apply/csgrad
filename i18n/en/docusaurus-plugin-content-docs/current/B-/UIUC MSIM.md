@@ -1,3 +1,9 @@
+---
+description: "UIUC MSIM guide to coursework, tuition and co-op, with career-change admission examples and reported outcomes in software, data and product roles."
+sidebar_label: "UIUC MSIM"
+title: "UIUC MSIM Admissions Guide: Courses and Program Experience"
+---
+
 # UIUC MSIM
 
 ## Program Overview
@@ -13,3 +19,5 @@ Overall mediocre.
 
 1. Indian student, CS undergrad from an unknown university, two years of full-time experience — landed at Amazon
 2. NTNU undergrad, no internship — landed at a small company as a new grad
+
+3. CE undergraduate in India, COUNTRY Financial DS and Technical PM internships during the master’s, then Product Owner 2 full-time there after graduating in 2025.

@@ -1,3 +1,9 @@
+---
+description: "UCSB MSCS student perspectives on study timelines, coastal campus life, self-directed job hunting and admission patterns among UC-system applicants."
+sidebar_label: "UCSB MSCS"
+title: "UCSB MSCS Admissions Guide: Courses and Program Experience"
+---
+
 # UCSB MSCS
 
 ## Program Overview
@@ -21,5 +27,7 @@ There have been students who landed at Meta and LinkedIn.
 
 1. UCSB CS undergrad, Instagram internship, landed Appfolio new grad
 2. UCSB CS undergrad, no internship, landed Meta
+3. UCSB CE bachelor’s followed by the same university’s MSCS, Samsung ML intern in 2025, full-time Deep Learning SWE at NVIDIA from 2026.
+
 ## PhD Transfer
 Friendly — many students transfer from MS to PhD within the school.

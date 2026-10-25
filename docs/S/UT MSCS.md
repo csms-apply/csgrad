@@ -1,3 +1,9 @@
+---
+description: "UT Austin MSCS 的课程、费用和 Austin 就业环境分享，附科研背景相关的录取案例，以及 RA、读博和找工方面的经验。"
+title: "UT Austin MSCS 申请指南：课程与项目体验"
+sidebar_label: "UT MSCS"
+---
+
 # UT MSCS
 ## 项目介绍
 便宜+名声好+cs排名高+地理位置好，总体体验还是很不错的。UT 的课程质量确实值得肯定，尤其是 Austin 这个城市，近年来发展迅速，apple、meta、google、amazon都有分部在那里。
@@ -28,6 +34,8 @@ Career Fair 每年都有很多大厂参加，比如 Google、Amazon、Facebook�
 6. ut cs本科，上岸小厂
 7. ut cs本科，上岸apple intern
 8. ut cs本科，有开源经历，上岸meta intern
+
+9. Stony Brook cs本科背景，2025年入读线下MSCS，2026年在UT Human Signals Lab做RA，同年暑假去首尔HANWHA LIFE做AI Modeling Research Intern。
 
 ## 课程情况
 UT 的 MSCS 项目算是标准 CS Master，和 PhD 共享不少课程，所以偏研究方向的课会多一些，有些课的 project 甚至是按照发表 paper 的标准来要求的。项目分为 coursework 和 thesis 两个 track，两个选项都需要修 30 个学分，如果选择 thesis，会有 6 个学分是写论文，相当于少修 2 门课。无论哪个 track，都需要在 theory、system、application 这三个方向上至少修一门课。

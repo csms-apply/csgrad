@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+description: "Princeton MSCS 招生规模小，申请需结合研究兴趣与教学经历。这里介绍 GPA、TA 背景等考虑因素，并附往届录取案例。"
+title: "Princeton MSCS 申请指南：课程与项目体验"
+sidebar_label: "Princeton MSCS"
 ---
 # Princeton MSCS
 
@@ -34,6 +37,8 @@ overall 来看还是招的有身份的学生多(美国国籍)
 TLDR: 认识的本科生基本都是faang或者top trading firm 
 
 **找工的话 Princeton 还是有很大优势的，尤其是 Quant 和 Research Lab 方向**。如果目标是去大厂做 Software Engineer，Princeton 的品牌足够让简历直接进入面试池，拿面试不是问题。我们实验室里有同学每年秋招都会拿 3-4 个实习 offer，选择范围非常大。但如果是找 Quant 或 Trading，Princeton 是 target school，所以面试机会会更多
+
+1. McGill cs+biology本科，2024年硕士毕业，Munich Re swe intern，2024年起任meta swe。
 
 ## 生活
 

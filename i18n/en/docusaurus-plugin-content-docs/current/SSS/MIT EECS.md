@@ -1,3 +1,9 @@
+---
+description: "MIT EECS guide focused on PhD admissions, research backgrounds and reported applicant profiles, with examples of academic and industry careers after doctoral study."
+sidebar_label: "MIT EECS"
+title: "MIT EECS PhD Admissions Guide: Courses and Program Experience"
+---
+
 # MIT EECS
 
 ## Program Overview
@@ -19,3 +25,5 @@ Only admits PhD students. Top students from target schools. Mainly depends on co
 
 ## Job Outcomes
 Unbeatable. Mainly various faculty positions -- many returned to Tsinghua. Those who go to industry mainly take quantitative roles.
+
+1. IIT Kharagpur electronics and communications undergraduate, MIT EECS SM followed by PhD; after completing the PhD in 2023, full-time Hardware Security Research Scientist at Intel Labs, then NVIDIA Senior DFX Architect in 2025.

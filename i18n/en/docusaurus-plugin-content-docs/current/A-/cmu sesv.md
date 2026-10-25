@@ -1,9 +1,12 @@
 ---
 sidebar_position: 1
+sidebar_label: "CMU SE-SV"
+title: "CMU SE-SV Admissions Guide: Courses and Program Experience"
+description: "Student perspectives on CMU SE-SV campus space, course depth, Silicon Valley recruiting and self-directed study, with admissions and career examples."
 ---
 # CMU SE-SV
 
-# Program Overview
+## Program Overview
 It is actually quite different from the Pittsburgh main campus: the campus is just two buildings, classroom and study space are limited, and most courses are taught repeatedly by the same few professors. Many courses are not particularly in-depth. If you are expecting the main campus experience of freely choosing from a vast course catalog with world-renowned professors — Andy standing right in front of you lecturing — you may be disappointed.
 
 That said, the location is genuinely convenient. Silicon Valley's corporate resources and alumni network are substantial, and combined with the CMU brand, finding internships and full-time jobs is relatively easy. I have seen many classmates land offers at major Bay Area companies or startups through internal referrals or Career Fairs.
@@ -16,11 +19,11 @@ Honestly, some courses here are quite mediocre, and the faculty is limited in si
 Because course selection freedom is limited, many students supplement their learning with online courses or materials from the Pittsburgh main campus. If you truly want to learn systems/algorithms/machine learning, you often have to self-study. If you treat SE-SV as a one-year stepping stone — aiming for internship, full-time, staying in the Bay Area — this works.
 
 
-# Admission Threshold
+## Admission Threshold
 Plenty of US undergrads and high-GPA students from 985/211 universities; difficulty is lower than ECE and MSIN.
 GPA 3.7+ with passing language scores should suffice. Students with multiple internships at major companies can overcome a lower GPA. There are examples of students whose language scores did not meet the threshold (TOEFL 98) but got in thanks to rich internship experience.
 
-# Job Outcomes & Data Points
+## Job Outcomes & Data Points
 Job outcomes were solid in previous years, but with the current economic downturn they have weakened. Nowadays students rely more on TikTok and Amazon to pick people up. See the chart below for details.
 
 [![CMU SESV first-destination outcomes dashboard; open full size](/img/en/sesvcarrer.png)](/img/en/sesvcarrer.png)
@@ -32,6 +35,7 @@ Some strong data points:
 5. NCCU undergrad, six years local full-time experience, landed Meta E5
 6. VIT undergrad, Indian male student, two small-company internships in India, landed Strategy intern
 7. Indian student, two years full-time work experience, landed Meta new grad
+8. Washington University CS + CE bachelor’s, SWE intern at a small company in 2024, full-time SWE at SAP from 2025.
 
 ## Course Quality
 This is the part I find most frustrating. Most of CMU's legendary courses from the main campus are not directly available (or if they are, they are online only). The courses offered locally at SV vary wildly in quality.

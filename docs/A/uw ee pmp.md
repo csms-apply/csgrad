@@ -1,3 +1,8 @@
+---
+title: "UW EE PMP 申请指南：课程与项目体验"
+sidebar_label: "UW EE PMP"
+description: "UW EE PMP 的软件课程、西雅图学习生活和申请经验，附 Co-op 经历、往届求职案例，并记录文中关于 MSECE 学位更名的更新。"
+---
 
 # UW EE PMP
 
@@ -18,6 +23,8 @@ https://ruit.me/blog/pmp
 
 ## 找工情况
 25 summer 亚麻批发厂，几十个亚麻intern offer
+
+东吴大学 Big Data Management 本科，本科期间有腾讯 Data Engineer 实习，2026年 PMP 在读期间上岸 aws swe intern（EC2 Nitro）。
 
 ## 软课
 Data Structures and Algorithms for ECE Applications (Slaughter)

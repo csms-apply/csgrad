@@ -1,8 +1,14 @@
+---
+description: "Georgia Tech CSE combines computational core courses with flexible CS electives. Explore tuition, assistantships and admission expectations across its units."
+sidebar_label: "Gatech CSE"
+title: "Georgia Tech CSE Admissions Guide: Courses and Program Experience"
+---
+
 # Gatech CSE
 
 ## Program Overview
 The cost-effectiveness is truly outstanding.
-Let's start with what matters most -- it's cheap! One semester of four courses with tuition and fees combined is around $17k+, which is way more reasonable than many schools that charge $40-50k. On top of that, being a TA/RA can waive tuition + provide $800/month for living expenses (essentially getting a free master's degree).
+Let's start with what matters most -- it's cheap! One semester of four courses with tuition and fees combined is around $17k+, which is way more reasonable than many schools that charge $40-50k. On top of that, being a TA/RA cuts tuition to $25 per semester (you still pay fees and insurance) and pays at least $1,184/month (the 2026-27 minimum for master's students), which is essentially a free master's degree.
 
 In addition to using TA/RA to waive tuition, non-US undergrads can use the "reduce academic load" option to lower workload in the first semester, while also reducing tuition as a part-time student and focusing entirely on finding an internship.
 
@@ -19,6 +25,8 @@ In terms of admission difficulty itself, CoC prefers applicants from target scho
 
 ## Job Outcomes & Data Points
 Similar to CS -- career outcomes include Meta, Google, etc.
+
+Joint Biomedical Engineering bachelor’s from Escuela de Ingeniería de Antioquia and Universidad CES, full-time Programming Analyst at a small company before enrollment, then part-time campus RA in 2024 and TA in 2025 during the master’s.
 
 ## PhD Transfer
 As long as a professor agrees, you can transfer to the PhD program.

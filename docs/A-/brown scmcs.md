@@ -1,3 +1,9 @@
+---
+description: "Brown SCMCS 每学期两门课的安排，能给科研和找工留出多少时间？这里分享学费、住宿、学习氛围与其他热门项目的比较。"
+title: "Brown SCMCS 申请指南：课程与项目体验"
+sidebar_label: "Brown SCMCS"
+---
+
 # Brown SCMCS
 
 
@@ -49,3 +55,4 @@ diversity 不一定有用，25 年dei 项目已经被取消了。只有微软还
 5. 印度同学，在校期间三段实习经历，一年全职工作经历，上岸 Senior Financial Analyst  American Express
 6. brown cs本科，有两段小厂实习，上岸meta intern
 7. brown cs本科，有一段一年intern, 上岸jane street intern并且转正
+8. University of Nottingham cs本科，2022年 Seismic swe intern，2023年 Seismic swe 全职，2024年转到小厂 swe 全职。

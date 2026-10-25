@@ -1,3 +1,9 @@
+---
+description: "Cornell CS MEng 的校区、课程与毕业项目怎么选？这里结合申请和就业案例，讨论学制安排及需要向学校确认的实习条件。"
+title: "Cornell CS MEng 申请指南：课程与项目体验"
+sidebar_label: "Cornell CS MENG"
+---
+
 # Cornell CS MENG
 
 ## 项目介绍
@@ -21,4 +27,4 @@ UCSD，还有UCLA，UIUC，Brandeis，NYU，Penn State，U of Toronto，Waterloo
 ## 找工情况
 上岸率60%吧大概，主要痛点在于延期很麻烦,延期建议写健康原因
 
-
+1. wisc ce+cs本科，2018年MEng毕业（履历未注明校区），2018年上岸Shutterstock swe全职，后来去Yext，2025年转amazon sde II全职。

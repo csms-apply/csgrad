@@ -1,3 +1,9 @@
+---
+description: "Yale 两年制 MSCS 偏重研究，与一年制项目不同。这里介绍 TA 与资助安排、科研背景、招生规模和实习方面的限制。"
+title: "Yale MSCS 两年制 申请指南：课程与项目体验"
+sidebar_label: "Yale MSCS 2 year"
+---
+
 # Yale MSCS 2 year
 
 ## 项目介绍
@@ -6,6 +12,7 @@ fully funded，全奖免学费，需要一直当TA，每年招生hc大概在15 �
 
 不过即便是2 year的项目，也是不给批cpt的，因此不能指望暑期出去实习，唯一的方法是使用pre opt出去实习
 
+有BU cs本科、2024–2026读两年制MSCS的同学，在Yale当过Graduate Teaching Fellow，小厂 swe合同工，2026年上岸MATS Research的Research Manager全职。
 
 ## 录取dp
 每年招生hc 15人，可以当成phd申请

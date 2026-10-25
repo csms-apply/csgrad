@@ -1,3 +1,9 @@
+---
+description: "SCU MSCSE 在硅谷读书的实际体验：学费与校园生活、转码先修课、选课压力，以及季度制对实习时间和求职的影响。"
+title: "SCU MSCSE 申请指南：课程与项目体验"
+sidebar_label: "SCU MSCSE"
+---
+
 # SCU MSCSE
 
 ## 项目介绍
@@ -30,6 +36,8 @@ SCU MSCSE有相当数量的课workload很大，而且给分像开盲盒。有的
 22fall那届，找到实习的无身份中国学生不超过10个（总共100+中国学生）。当然也有大环境不好的因素，但确实体现不出SCU在找工上有什么特别的加持。找到实习的基本都是很早就开始投、本身就用心规划的同学，靠亚麻和GHC上岸，跟学校没什么关系。
 
 不过有往届学长被Google HR主动在LinkedIn上约面试，说明SCU的牌子在湾区中小公司过简历关还是够用的，大厂也不至于嫌弃。
+
+- 印度 CE 本科，硕士期间 Juniper Networks SWE intern，后任该公司 SDE 2 全职，之后在 Microsoft 和 Google 任 SWE 全职。
 
 ## 总体建议
 如果手上有NEU IS、CSA这种课程load小、co-op系统完善、找工氛围好的offer，建议去NEU，不建议来SCU。SCU比较适合两类人：一类是铁了心刷题找工、对学校课程不care只想要个OPT的，注意避坑选课就行；另一类是想读PhD的，SCU小班教学容易跟教授建立关系，可以做Master Thesis发论文，每年都有人从这里拿到全奖PhD。

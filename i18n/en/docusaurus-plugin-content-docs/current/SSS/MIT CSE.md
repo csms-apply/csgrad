@@ -1,8 +1,14 @@
+---
+description: "MIT Computational Science and Engineering guide covering scientific computing, research preparation, historical admission profiles and the reported admissions pause."
+sidebar_label: "MIT CSE"
+title: "MIT CSE Admissions Guide: Courses and Program Experience"
+---
+
 # MIT CSE
 
 ## Program Overview
 Full name: Master of Science in Computational Science and Engineering.
-Focused on computation and foundational sciences, with courses primarily covering optimization and numerical computing. CSE is jointly offered with eight departments: Mathematics, Aerospace, Chemical Engineering, Civil and Environmental Engineering, Earth, Atmospheric and Planetary Sciences, Materials Science and Engineering, Mechanical Engineering, and Nuclear Science and Engineering. This is not a CS program -- if you want to apply to a pure CS program, check out MIT EECS instead. MIT CSE is also fully funded, with full tuition coverage + $3k stipend without needing to TA.
+Focused on computation and foundational sciences, with courses primarily covering optimization and numerical computing. CSE is jointly offered with eight departments: Mathematics, Aerospace, Chemical Engineering, Civil and Environmental Engineering, Earth, Atmospheric and Planetary Sciences, Materials Science and Engineering, Mechanical Engineering, and Nuclear Science and Engineering. This is not a CS program -- if you want to apply to a pure CS program, check out MIT EECS instead. MIT CSE does not guarantee funding for every admitted student; the program tries to match admits with faculty who can support them through sponsored research.
 
 MIT CSE has currently stopped admitting students. It is uncertain when they will resume admitting external applicants (26fall update):
 [![MIT CSE SM external admissions status; open full size](/img/en/mit-cse-status.svg)](/img/en/mit-cse-status.svg)
@@ -19,6 +25,7 @@ Previous data points:
 ## Job Outcomes
 Primarily quant roles. Most go to top 3 hedge funds as QRs. Some also go to Nvidia as SWEs.
 
+1. Cambridge Economics undergraduate, MIT CSE master’s completed in 2022; full-time Data Scientist at Singapore’s Ministry of Home Affairs from 2024.
 
 ## Transferring to PhD
 As long as your advisor agrees, it's very flexible.

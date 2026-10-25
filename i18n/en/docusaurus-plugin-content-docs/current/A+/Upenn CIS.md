@@ -1,3 +1,9 @@
+---
+description: "UPenn CIS offers coursework and thesis options across a ten-course degree. Read about study timelines, admission profiles, workload and job outcomes."
+sidebar_label: "Upenn CIS"
+title: "UPenn CIS Admissions Guide: Courses and Program Experience"
+---
+
 # Upenn CIS
 
 ## Program Overview
@@ -40,7 +46,7 @@ Overall, job hunting is decent, mainly depending on the job market conditions.
 10. Indian undergrad, 3 years Cisco full-time, intern landed Apple, new grad landed Google
 11. Indian undergrad, had Goldman Sachs internship, landed Google intern and converted to full-time
 12. Indian undergrad, no internship, landed Microsoft new grad
-
+13. UPenn CS bachelor’s and master’s with overlapping study dates, Meta SWE intern in 2024 and Netflix SWE intern in 2025.
 
 ## Course Experience
 Fast-paced, heavy workload, no easy courses. The workload is twice that of undergrad. Especially for systems courses,

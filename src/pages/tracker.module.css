@@ -9,6 +9,13 @@
   padding: 24px 32px 48px;
 }
 
+.notice {
+  padding: 12px 16px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  color: var(--ifm-font-color-base);
+}
+
 [data-theme='dark'] .pageWrapper {
   background: linear-gradient(135deg, #1e1e1e 0%, #252525 50%, #1e1e1e 100%);
 }
@@ -684,6 +691,11 @@
 }
 
 .libraryItem {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  font: inherit;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -944,6 +956,8 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .backLink {
@@ -967,9 +981,14 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .topBarLink {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  font-family: inherit;
   font-size: 0.82rem;
   color: #80652e;
   text-decoration: none;

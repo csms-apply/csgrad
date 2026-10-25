@@ -1,3 +1,9 @@
+---
+description: "CMU MIIS 由 LTI 开设，兼顾研究训练和就业准备。这里介绍 CS 选课、前期 research 安排，以及 SDE、MLE 方向的求职案例。"
+title: "CMU MIIS 申请指南：课程与项目体验"
+sidebar_label: "CMU MIIS"
+---
+
 # CMU MIIS
 
 ## 项目介绍
@@ -19,3 +25,5 @@ LTI开设，主要是就业导向，可以一年半毕业，也可以两年毕�
 
 ## 找工情况和dp
 往年就业率92%，中位数起薪15w刀，做sde 和 mle的都有，top employer 是databricks和tiktok
+
+1. 北大cs本科，2019年MIIS毕业，airbnb swe intern，2020年上岸airbnb swe全职，2023年转Google DeepMind swe全职。

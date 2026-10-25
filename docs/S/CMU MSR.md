@@ -1,3 +1,9 @@
+---
+description: "CMU MSR 是研究导向的两年制机器人硕士。这里介绍课程与 thesis 安排、导师匹配、资助差异，以及继续申请 PhD 的考虑。"
+title: "CMU MSR 申请指南：课程与项目体验"
+sidebar_label: "CMU MSR"
+---
+
 # CMU MSR
 
 ## 项目介绍
@@ -22,4 +28,4 @@
 
 如果本着找工来这个项目，找到实习了也得需要老师同意才能去intern，老板也有可能不放人
 
-
+也有uci cs本科、2023–2025读MSR的同学，2024和2025年暑假去NASA JPL做Robotics Perception Engineer实习。

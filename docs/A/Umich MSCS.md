@@ -1,3 +1,9 @@
+---
+description: "UMich MSCS/MSCSE 的 MS 与 MSE 有什么区别？了解课程、毕业节奏、TA 支持、本校 SUGS 路径和外校申请的竞争情况。"
+title: "UMich MSCS/MSCSE 申请指南：课程与项目体验"
+sidebar_label: "UMich MSCS/MSCSE"
+---
+
 # UMich MSCS/MSCSE
 
 ## 项目介绍
@@ -42,7 +48,7 @@ UMich提供两个CS硕士学位：**MS（科学硕士）**和**MSE（工程硕�
 ### PR
 
 1. Clemson University CE本科gpa 4.0
-2. PES University gpa 9.43/10
+2. 印度本科 gpa 9.43/10
 
 
 ## 找工情况
@@ -51,6 +57,7 @@ UMich提供两个CS硕士学位：**MS（科学硕士）**和**MSE（工程硕�
 
 ![](/img/umichcarrer.png)
 有一些校企合作项目（例如MDP）做得好可以获得实习面试/机会
+
 
 ## 转博
 友好，有不少本校直接转的phd

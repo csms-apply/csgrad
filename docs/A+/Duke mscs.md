@@ -1,3 +1,9 @@
+---
+description: "Duke MSCS 选课自由，可选课程、项目或论文毕业路线。这里整理课程安排、学制与费用，以及录取背景和找工案例。"
+title: "Duke MSCS 申请指南：课程与项目体验"
+sidebar_label: "Duke MSCS"
+---
+
 # Duke MSCS
 
 
@@ -42,8 +48,7 @@ Microsoft，Adobe，Salesforce上岸的。
 3. Vanderbilt University cs+math本科 有pwc和搜狐短期实习，上岸salesforce swe intern
 4. 爱丁堡cs本科有MLE 实习，上岸  Syngenta Software Engineer Intern
 5. Wellesley College cs本科，有产品经理实习，上岸meta swe
- 
-   
+6. uci cs本科，2022年 meta swe intern，2023年上岸 IXL Learning swe 全职，2026年升至 senior。
 
 ## RA和转博
 基本上只要找到教授愿意让你进组就有戏，CS系里的大多数教授每年都在从mscs项目里招新人进组,

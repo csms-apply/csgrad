@@ -1,3 +1,9 @@
+---
+description: "CMU MIIS combines career-oriented study with required research at LTI. Explore CS course access, AI and NLP admission profiles and the job-search environment."
+sidebar_label: "CMU MIIS"
+title: "CMU MIIS Admissions Guide: Courses and Program Experience"
+---
+
 # CMU MIIS
 
 ## Program Overview
@@ -17,3 +23,5 @@ Very high admission threshold with very few spots. Historical acceptance rate is
 
 ## Job Outcomes & Data Points
 Historical employment rate 92%, median starting salary $150K. Graduates work as both SDE and MLE. Top employers are Databricks and TikTok.
+
+1. Peking University CS undergraduate, MIIS completed in 2019; Airbnb SWE intern, Airbnb SWE full-time in 2020, Google DeepMind SWE full-time in 2023.

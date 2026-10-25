@@ -1,3 +1,9 @@
+---
+description: "Columbia DS 更偏数据科学与机器学习。了解课程豁免、CS 和统计选修课、capstone 的时间安排，以及转码和找工方面的取舍。"
+title: "Columbia DS 申请指南：课程与项目体验"
+sidebar_label: "Columbia DS"
+---
+
 # Columbia DS
 
 ## 项目介绍
@@ -27,3 +33,4 @@
 4. 印度同学，hp两年全职工作经验，上岸tesla ng 
 5. 印度同学，在校期间有麦肯锡实习，上岸stripe ds 
 6. 印度同学， 五年全职工作经验， 上岸principal Capital One
+7. 印度 cs本科，入学前有 Morgan Stanley 一年全职经历，2025年 Collins Aerospace ml intern，2026年上岸 McKinsey ds 全职。

@@ -1,3 +1,9 @@
+---
+description: "NEU IS 的软件开发方向适合怎样的转码申请者？这里介绍不同校区、课程、Co-op 与毕业安排，并整理实习和全职案例。"
+title: "NEU IS 申请指南：课程与项目体验"
+sidebar_label: "Neu IS"
+---
+
 # Neu IS
 
 ## 项目介绍
@@ -44,4 +50,4 @@
     - Software Testing and Quality Assurance（软件测试）                        
     - UX Design / Software Development / Data Analytics 等
   - NEU 多数课程给分比较水，非常适合一边上课一边刷题找工，比如 Mobile           
-  Application 5520、Computer Networks 5700 等都是公认水课 
+  Application 5520、Computer Networks 5700 等都是公认水课

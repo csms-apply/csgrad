@@ -1,10 +1,16 @@
+---
+description: "MIT CSE 偏向计算科学、优化与数值计算。这里介绍跨院系培养、往届录取背景与资助，并记录文中的招生状态更新。"
+title: "MIT CSE 申请指南：课程与项目体验"
+sidebar_label: "MIT CSE"
+---
+
 # MIT CSE
 
 ## 项目介绍
 全称是Master of Science in Computational Science and Engineering，
 侧重计算和基础理科，课程基本都是optimization, numerical computing。CSE是和数学、航空航天、化学工程、土木与环境工程、地球大气与行星科学、材料科学与工程、机械工程和核科学与工程
 这八个部门合办，非cs项目，如果想申请纯血CS项目可以左转MIT EECS系。MIT CSE
-也是fully funded，无需做TA即可享受全奖+3k stipend
+不保证给每个录取者资助，项目会尽量帮录取者匹配有科研经费的导师，资助来自导师的科研项目
 
 MIT CSE目前已停止招生，何时招生外校的不确定(26fall update):
 ![](/img/mitcse)
@@ -21,6 +27,7 @@ MIT CSE目前已停止招生，何时招生外校的不确定(26fall update):
 ## 找工情况
 主要出路为quant，基本都是top 3 hedge fund qr，也有去nv当swe的
 
+1. 剑桥经济本科，2022年MIT CSE硕士毕业，2024年起在新加坡Ministry of Home Affairs做Data Scientist全职。
 
 ## 转博
 老板同意就行，很自由

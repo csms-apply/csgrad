@@ -1,3 +1,9 @@
+---
+description: "Brown SCMCS student perspectives on balancing two courses per semester with research and job hunting, including workload, study space and tuition."
+sidebar_label: "Brown SCMCS"
+title: "Brown SCMCS Admissions Guide: Courses and Program Experience"
+---
+
 # Brown SCMCS
 
 
@@ -48,3 +54,4 @@ Some strong data points from previous years:
 5. Indian student, three internships during school plus one year full-time experience, landed Senior Financial Analyst at American Express
 6. Brown CS undergrad, two small-company internships, landed Meta intern
 7. Brown CS undergrad, one year-long internship, landed Jane Street intern and converted to full-time
+8. University of Nottingham CS bachelor’s, Seismic SWE intern in 2022, full-time SWE at Seismic from 2023, moved to a small company as a full-time SWE in 2024.

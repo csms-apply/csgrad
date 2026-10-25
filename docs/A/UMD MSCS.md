@@ -1,3 +1,9 @@
+---
+description: "UMD MSCS 偏向科研，适合希望积累研究经历或继续读博的同学。这里介绍 TA/RA 支持、录取背景与相对独立的找工环境。"
+title: "UMD MSCS 申请指南：课程与项目体验"
+sidebar_label: "UMD MSCS"
+---
+
 # UMD MSCS
 
 

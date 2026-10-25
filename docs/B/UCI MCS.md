@@ -1,3 +1,9 @@
+---
+description: "UCI MCS 的季度制课程节奏紧，实习时间也需要提前规划。这里介绍申请背景、找工准备，以及与 MSWE、研究型 MSCS 的区别。"
+title: "UCI MCS 申请指南：课程与项目体验"
+sidebar_label: "UCI MCS"
+---
+
 # UCI MCS
 
 ## 项目介绍
@@ -22,8 +28,7 @@ gpa 3.5左右就比较有机会了，印度人来的都是标配3+ yoe工作经�
 4. 印度同学，barclay center三年全职，上岸 pure storage intern，ng去了meta
 5. 印度同学一年全职，上岸Veeva Systems intern（尔湾当地小厂）并且转正
 
+6. 国立中央大学 CS 本科，硕士期间小厂 SWE intern，2025 年毕业后在 Matching Donors 做 Web Developer 兼职。
+
 ## 不好的点
 Quarter 在 6 月底结束，也就是说 5 月或者 6 月初不可以开始 intern，因此基本只能去大厂实习(有印度同学拿到了6月初开始的offer但是没法拿到cpt导致offer被撤了)
-
-
-

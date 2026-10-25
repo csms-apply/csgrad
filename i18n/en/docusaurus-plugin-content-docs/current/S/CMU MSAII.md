@@ -1,3 +1,9 @@
+---
+description: "CMU MSAII guide to its career-oriented AI curriculum, SCS electives and coding preparation, with admission expectations and career-change applicant examples."
+sidebar_label: "CMU MSAII"
+title: "CMU MSAII Admissions Guide: Courses and Program Experience"
+---
+
 # CMU MSAII
 
 ## Program Overview
@@ -27,3 +33,5 @@ Top employers: TikTok, Amazon, Google, Oracle, C3.ai
 5. UVA CS + Physics undergrad, Riot Games internship, landed AWS SDE intern
 6. Tsinghua undergrad + master's in Automation, 9 months RS internship at ByteDance, landed small company MLE in Palo Alto
 7. Indian undergrad, multiple small company internships, landed MathWorks SDE intern
+
+8. Illinois Wesleyan Biology undergraduate, master’s completed in 2022; MLE intern at a small company, Meta Research Data Scientist full-time in 2022, ByteDance Data Engineer full-time in 2023.

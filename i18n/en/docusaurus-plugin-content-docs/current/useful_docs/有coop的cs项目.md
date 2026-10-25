@@ -1,3 +1,8 @@
+---
+sidebar_label: "CS Programs With Co-op"
+title: "CS Master's Programs with Co-op: A Program List"
+description: "A reference list of CS and related master's programs discussed for co-op, with notes on campuses, internship semesters and graduation timing."
+---
 # CS Programs With Co-op
 
 Gatech MSCS
@@ -8,7 +13,7 @@ Duke ECE MEng — starting from Fall 2024, the program announced it offers co-op
 
 JHU MSECS (not many people know about this one, but a friend emailed JHU and confirmed that co-op is available)
 
-UCSD ECE (ECE can do co-op; CS cannot)
+UCSD ECE / CS75 (ECE can do co-op; CS75 has also offered co-op since 2025)
 
 NYU Tandon MSCS (can co-op in the spring)
 

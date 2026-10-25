@@ -1,3 +1,4 @@
+import { getLocaleMessages, toTraditional } from '../lib/i18n/traditional';
 import React, { useEffect, useId, useMemo, useState } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
@@ -19,6 +20,7 @@ import {
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
 import { STORAGE_KEYS } from '../lib/storage-keys';
+import { localizedInternalPath } from '@site/src/lib/seo/localizedAlternates.mjs';
 import styles from './submit-dp.module.css';
 
 // ---------- i18n ----------
@@ -243,7 +245,7 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return loc === 'en' ? 'en' : 'zh-Hans';
+  return ['en', 'zh-Hant'].includes(loc) ? loc : 'zh-Hans';
 }
 
 // Enum display translations. Underlying values are unchanged (backend expects exact strings).
@@ -262,6 +264,7 @@ const ENUM_DISPLAY = {
     '英本': { 'zh-Hans': '英本', en: 'UK undergrad' },
     '澳本': { 'zh-Hans': '澳本', en: 'Australia undergrad' },
     '港本': { 'zh-Hans': '港本', en: 'HK undergrad' },
+    '台本': { 'zh-Hans': '台本（台湾本科）', en: 'Taiwan undergrad' },
     '坡本': { 'zh-Hans': '坡本', en: 'Singapore undergrad' },
     '欧陆本': { 'zh-Hans': '欧陆本', en: 'Continental EU undergrad' },
     '海本': { 'zh-Hans': '海本', en: 'Overseas (other)' },
@@ -374,7 +377,8 @@ function dispEnum(group, value, locale) {
   if (!map) return value;
   const entry = map[value];
   if (!entry) return value;
-  return entry[locale] || entry['zh-Hans'] || value;
+  const label = entry[locale] || entry['zh-Hans'] || value;
+  return locale === 'zh-Hant' ? toTraditional(label) : label;
 }
 
 // ---------- model ----------
@@ -458,7 +462,7 @@ function formToPayload(f) {
 function Inner() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = COPY[locale];
+  const t = getLocaleMessages(COPY, locale);
 
   const [me, setMe] = useState(null);
   const [meChecked, setMeChecked] = useState(false);
@@ -558,12 +562,13 @@ function Inner() {
       if (el) el.focus({ preventScroll: false });
       return;
     }
+    setFieldErrors({});
+    setMsg(null);
     if (!me) {
       setShowSignInModal(true);
       return;
     }
     setSavingApplicant(true);
-    setMsg(null);
     try {
       const payload = formToPayload(form);
       if (applicant) {
@@ -587,7 +592,7 @@ function Inner() {
         <div className={styles.headerTop}>
           <div>
             <h1>{t.pageTitle}</h1>
-            <a href="/datapoints" className={styles.backLink}>{t.browseAll}</a>
+            <a href={localizedInternalPath('/datapoints', locale)} className={styles.backLink}>{t.browseAll}</a>
           </div>
           {me ? (
             <span className={styles.meBadge}>
@@ -1158,7 +1163,7 @@ function DpAddArea({ t, locale, applicantId }) {
           <button className={styles.primaryBtn} disabled={saving} onClick={submit}>
             {saving ? t.btnSubmittingDp : t.btnSubmitDp}
           </button>
-          <a className={styles.secondaryLink} href="/my-dp">{t.viewMyDp}</a>
+          <a className={styles.secondaryLink} href={localizedInternalPath('/my-dp', locale)}>{t.viewMyDp}</a>
         </div>
       </div>
 
@@ -1387,7 +1392,7 @@ function MultiCheck({ options, value, onToggle, enumGroup, locale }) {
 
 export default function SubmitDp() {
   const { i18n } = useDocusaurusContext();
-  const t = COPY[pickLocale(i18n.currentLocale)];
+  const t = getLocaleMessages(COPY, pickLocale(i18n.currentLocale));
   const fallback = (
     <div className={styles.wrap} style={{ paddingBottom: 0 }}>
       <h1 style={{ margin: '0 0 8px', fontSize: 26 }}>{t.pageTitle}</h1>

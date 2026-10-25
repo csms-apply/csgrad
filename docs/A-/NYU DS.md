@@ -1,3 +1,9 @@
+---
+description: "NYU DS 的数学要求和研究氛围怎么样？这里介绍课程、进组与转博机会，以及 DS 岗位准备和往届申请者的背景。"
+title: "NYU DS 申请指南：课程与项目体验"
+sidebar_label: "NYU DS"
+---
+
 # NYU DS
 
 ## 项目介绍
@@ -35,3 +41,4 @@ Average TOEFL (where required): 111
 2. uci ds本科上岸c3 ai
 3. 印度同学，有印度一年实习经历，上岸BCG ds
 4. 印度同学，有sap三年半全职工作经历，上岸cvs ds
+5. nyu ds+心理本科，2024年硕士期间上岸 AppDynamics ds intern。

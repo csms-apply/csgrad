@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react'
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import Translate, { translate } from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {
   DndContext,
   DragOverlay,
@@ -19,6 +20,9 @@ import {
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { STORAGE_KEYS } from '../lib/storage-keys';
+import { localizedInternalPath } from '../lib/seo/localizedAlternates.mjs';
+import { MAX_BACKUP_BYTES, parseTrackerBackup, TRACKER_BACKUP_KEY } from '../lib/tracker/backup.mjs';
+import { attachDialogBehavior } from '../lib/tracker/dialog.mjs';
 import styles from './tracker.module.css';
 
 function getColumns() {
@@ -53,6 +57,14 @@ const COLUMN_IDS = ['reach', 'match', 'target', 'safety'];
 // ============ Helpers ============
 function genId() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+}
+
+function useDialog(onClose) {
+  const dialogRef = useRef(null);
+  const closeRef = useRef(onClose);
+  closeRef.current = onClose;
+  useEffect(() => attachDialogBehavior(dialogRef.current, () => closeRef.current()), []);
+  return dialogRef;
 }
 
 function daysUntil(dateStr) {
@@ -139,6 +151,7 @@ function SortableCard({ card, onEdit, onDelete }) {
 
 // Card display (shared between sortable and overlay)
 function CardContent({ card, onEdit, onDelete }) {
+  const {i18n: {currentLocale}} = useDocusaurusContext();
   const days = daysUntil(card.deadline);
   const progress = computeProgress(card);
   const lorsDone = card.lors.filter(l => l.done).length;
@@ -216,7 +229,7 @@ function CardContent({ card, onEdit, onDelete }) {
       </div>
       {card.slug && (
         <a
-          href={card.slug}
+          href={localizedInternalPath(card.slug, currentLocale)}
           className={styles.programLink}
           onClick={(e) => e.stopPropagation()}
         >
@@ -272,9 +285,10 @@ function KanbanColumn({ column, cards, onAddCard, onEditCard, onDeleteCard }) {
 }
 
 // Add/Edit Card Modal
-function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
+function CardModal({ card, initialCard, columns, essayStatuses, onSave, onClose }) {
+  const dialogRef = useDialog(onClose);
   const [form, setForm] = useState(
-    card || makeEmptyCard('reach')
+    card || initialCard || makeEmptyCard('reach')
   );
 
   const set = (key, val) => setForm((f) => ({ ...f, [key]: val }));
@@ -306,14 +320,14 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
 
   return (
     <div className={styles.modalOverlay} onClick={onClose}>
-      <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+      <div ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby="tracker-card-title" tabIndex={-1} className={styles.modal} onClick={(e) => e.stopPropagation()}>
         <div className={styles.modalHeader}>
-          <h3 className={styles.modalTitle}>
+          <h3 id="tracker-card-title" className={styles.modalTitle}>
             {card
               ? translate({ id: 'tracker.modal.editTitle', message: '编辑项目' })
               : translate({ id: 'tracker.modal.addTitle', message: '添加自定义项目' })}
           </h3>
-          <button className={styles.modalClose} onClick={onClose}>&times;</button>
+          <button aria-label={translate({id: 'tracker.action.close', message: '关闭'})} className={styles.modalClose} onClick={onClose}>&times;</button>
         </div>
         <div className={styles.modalBody}>
           <div className={styles.formRow}>
@@ -322,6 +336,8 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
                 <Translate id="tracker.form.schoolName">学校名称</Translate>
               </label>
               <input
+                data-dialog-initial-focus
+                aria-label={translate({id: 'tracker.form.schoolName', message: '学校名称'})}
                 className={styles.formInput}
                 value={form.school}
                 onChange={(e) => set('school', e.target.value)}
@@ -334,6 +350,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
               </label>
               <input
                 className={styles.formInput}
+                aria-label={translate({id: 'tracker.form.programName', message: '项目名称'})}
                 value={form.program}
                 onChange={(e) => set('program', e.target.value)}
                 placeholder={translate({ id: 'tracker.form.programPlaceholder', message: '如: MSCS' })}
@@ -347,6 +364,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
                 <Translate id="tracker.form.category">分类</Translate>
               </label>
               <select
+                aria-label={translate({id: 'tracker.form.category', message: '分类'})}
                 className={styles.formSelect}
                 value={form.column}
                 onChange={(e) => set('column', e.target.value)}
@@ -364,6 +382,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
               </label>
               <input
                 type="date"
+                aria-label={translate({id: 'tracker.form.deadline', message: '截止日期'})}
                 className={styles.formInput}
                 value={form.deadline}
                 onChange={(e) => set('deadline', e.target.value)}
@@ -380,11 +399,13 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
               <div key={idx} className={styles.lorRow}>
                 <input
                   type="checkbox"
+                  aria-label={lor.name}
                   className={styles.lorCheck}
                   checked={lor.done}
                   onChange={(e) => setLor(idx, 'done', e.target.checked)}
                 />
                 <input
+                  aria-label={translate({id: 'tracker.form.lorPlaceholder', message: '推荐人姓名'})}
                   className={styles.lorInput}
                   value={lor.name}
                   onChange={(e) => setLor(idx, 'name', e.target.value)}
@@ -419,6 +440,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
               <div className={styles.formGroup}>
                 <label className={styles.formLabel}>TOEFL / IELTS</label>
                 <input
+                  aria-label="TOEFL / IELTS"
                   className={styles.formInput}
                   value={form.toefl}
                   onChange={(e) => set('toefl', e.target.value)}
@@ -428,6 +450,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
               <div className={styles.formGroup}>
                 <label className={styles.formLabel}>GRE</label>
                 <input
+                  aria-label="GRE"
                   className={styles.formInput}
                   value={form.gre}
                   onChange={(e) => set('gre', e.target.value)}
@@ -464,6 +487,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
               <Translate id="tracker.form.notes">备注</Translate>
             </label>
             <input
+              aria-label={translate({id: 'tracker.form.notes', message: '备注'})}
               className={styles.formInput}
               value={form.notes}
               onChange={(e) => set('notes', e.target.value)}
@@ -488,6 +512,7 @@ function CardModal({ card, columns, essayStatuses, onSave, onClose }) {
 
 // Library Import Modal
 function LibraryModal({ programs, existingIds, onImport, onClose }) {
+  const dialogRef = useDialog(onClose);
   const [search, setSearch] = useState('');
 
   const filtered = useMemo(() => {
@@ -503,35 +528,38 @@ function LibraryModal({ programs, existingIds, onImport, onClose }) {
 
   return (
     <div className={styles.modalOverlay} onClick={onClose}>
-      <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+      <div ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby="tracker-library-title" tabIndex={-1} className={styles.modal} onClick={(e) => e.stopPropagation()}>
         <div className={styles.modalHeader}>
-          <h3 className={styles.modalTitle}>
+          <h3 id="tracker-library-title" className={styles.modalTitle}>
             <Translate id="tracker.library.title">从项目库导入</Translate>
           </h3>
-          <button className={styles.modalClose} onClick={onClose}>&times;</button>
+          <button aria-label={translate({id: 'tracker.action.close', message: '关闭'})} className={styles.modalClose} onClick={onClose}>&times;</button>
         </div>
         <div className={styles.modalBody}>
           <input
             className={styles.librarySearch}
+            aria-label={translate({id: 'tracker.library.searchPlaceholder', message: '搜索学校或项目名称...' })}
             placeholder={translate({ id: 'tracker.library.searchPlaceholder', message: '搜索学校或项目名称...' })}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            autoFocus
+            data-dialog-initial-focus
           />
           <div className={styles.libraryList}>
             {filtered.map((p) => {
               const added = existingIds.has(p.id);
               return (
-                <div
+                <button
+                  type="button"
+                  disabled={added}
                   key={p.id}
                   className={styles.libraryItem}
                   onClick={() => !added && onImport(p)}
                   style={added ? { opacity: 0.5 } : {}}
                 >
-                  <div className={styles.libraryItemInfo}>
+                  <span className={styles.libraryItemInfo}>
                     <span className={styles.libraryItemSchool}>{p.school}</span>
                     <span className={styles.libraryItemProgram}>{p.program}</span>
-                  </div>
+                  </span>
                   {added ? (
                     <span className={styles.libraryItemAdded}>
                       <Translate id="tracker.library.added">已添加</Translate>
@@ -539,7 +567,7 @@ function LibraryModal({ programs, existingIds, onImport, onClose }) {
                   ) : (
                     <span className={styles.libraryItemTier}>{p.tier}</span>
                   )}
-                </div>
+                </button>
               );
             })}
             {filtered.length === 0 && (
@@ -555,17 +583,18 @@ function LibraryModal({ programs, existingIds, onImport, onClose }) {
 }
 
 // Confirm dialog
-function ConfirmDialog({ message, onConfirm, onCancel }) {
+function ConfirmDialog({ message, onConfirm, onCancel, confirmLabel }) {
+  const dialogRef = useDialog(onCancel);
   return (
     <div className={styles.confirmOverlay} onClick={onCancel}>
-      <div className={styles.confirmBox} onClick={(e) => e.stopPropagation()}>
-        <p className={styles.confirmText}>{message}</p>
+      <div ref={dialogRef} role="alertdialog" aria-modal="true" aria-labelledby="tracker-confirm-message" tabIndex={-1} className={styles.confirmBox} onClick={(e) => e.stopPropagation()}>
+        <p id="tracker-confirm-message" className={styles.confirmText}>{message}</p>
         <div className={styles.confirmBtns}>
           <button className={styles.confirmCancel} onClick={onCancel}>
             <Translate id="tracker.action.cancel">取消</Translate>
           </button>
           <button className={styles.confirmDelete} onClick={onConfirm}>
-            <Translate id="tracker.action.confirmDelete">删除</Translate>
+            {confirmLabel || <Translate id="tracker.action.confirmDelete">删除</Translate>}
           </button>
         </div>
       </div>
@@ -575,11 +604,18 @@ function ConfirmDialog({ message, onConfirm, onCancel }) {
 
 // ============ Main Page ============
 export default function TrackerPage() {
+  const {i18n: {currentLocale}} = useDocusaurusContext();
   const COLUMNS = getColumns();
   const ESSAY_STATUSES = getEssayStatuses();
   const SORT_OPTIONS = getSortOptions();
 
   const [cards, setCards] = useState([]);
+  const [storageStatus, setStorageStatus] = useState('loading');
+  const [storageError, setStorageError] = useState(null);
+  const [pendingImport, setPendingImport] = useState(null);
+  const [canUndoImport, setCanUndoImport] = useState(false);
+  const [showUndoConfirm, setShowUndoConfirm] = useState(false);
+  const [importMessage, setImportMessage] = useState(null);
   const [programs, setPrograms] = useState([]);
   const [activeCard, setActiveCard] = useState(null);
   const [showAddModal, setShowAddModal] = useState(null); // null or column id
@@ -593,23 +629,24 @@ export default function TrackerPage() {
   useEffect(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.trackerData);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed)) setCards(parsed);
-      }
+      if (saved) setCards(parseTrackerBackup(saved));
+      setCanUndoImport(localStorage.getItem(TRACKER_BACKUP_KEY) !== null);
+      setStorageStatus('ready');
     } catch (e) {
-      // ignore
+      setStorageStatus('error');
+      setStorageError(translate({id: 'tracker.storage.loadFailed', message: '无法读取当前清单，原始数据已保留。请先导出原始备份，再尝试导入有效备份。'}));
     }
   }, []);
 
   // Save to localStorage
   useEffect(() => {
+    if (storageStatus !== 'ready') return;
     try {
       localStorage.setItem(STORAGE_KEYS.trackerData, JSON.stringify(cards));
     } catch (e) {
-      // ignore
+      setStorageError(translate({id: 'tracker.storage.saveFailed', message: '浏览器未能保存清单，请导出备份，避免刷新后丢失更改。'}));
     }
-  }, [cards]);
+  }, [cards, storageStatus]);
 
   // Fetch program library
   useEffect(() => {
@@ -768,7 +805,8 @@ export default function TrackerPage() {
 
   // Export/Import JSON
   const handleExport = () => {
-    const blob = new Blob([JSON.stringify(cards, null, 2)], {
+    const data = storageStatus === 'error' ? localStorage.getItem(STORAGE_KEYS.trackerData) : JSON.stringify(cards, null, 2);
+    const blob = new Blob([data], {
       type: 'application/json',
     });
     const url = URL.createObjectURL(blob);
@@ -782,19 +820,75 @@ export default function TrackerPage() {
   const handleImportFile = (e) => {
     const file = e.target.files?.[0];
     if (!file) return;
+    setImportMessage(null);
+    setPendingImport(null);
+    e.target.value = '';
+    const failed = () => setImportMessage(translate({id: 'tracker.import.invalid', message: '导入失败：请使用完整有效的清单 JSON 备份（不超过 10 MB）。原清单未更改。'}));
+    if (file.size > MAX_BACKUP_BYTES) { failed(); return; }
     const reader = new FileReader();
     reader.onload = (ev) => {
       try {
-        const data = JSON.parse(ev.target.result);
-        if (Array.isArray(data)) {
-          setCards(data);
-        }
+        setPendingImport(parseTrackerBackup(ev.target.result));
       } catch (err) {
-        alert(translate({ id: 'tracker.alert.importFailed', message: '导入失败: JSON 格式无效' }));
+        failed();
       }
     };
+    reader.onerror = failed;
     reader.readAsText(file);
-    e.target.value = '';
+  };
+
+  const confirmImport = () => {
+    let previousUndoBackup;
+    let undoBackupChanged = false;
+    try {
+      // Keep the previous raw value, including an unreadable legacy backup, before replacing it.
+      const previous = storageStatus === 'ready'
+        ? JSON.stringify(cards)
+        : localStorage.getItem(STORAGE_KEYS.trackerData) ?? '[]';
+      previousUndoBackup = localStorage.getItem(TRACKER_BACKUP_KEY);
+      localStorage.setItem(TRACKER_BACKUP_KEY, previous);
+      undoBackupChanged = true;
+      localStorage.setItem(STORAGE_KEYS.trackerData, JSON.stringify(pendingImport));
+      setCards(pendingImport);
+      setStorageStatus('ready');
+      setStorageError(null);
+      setCanUndoImport(true);
+      setPendingImport(null);
+      setImportMessage(translate({id: 'tracker.import.success', message: '导入完成。已保留导入前的清单，可撤销最近一次导入。'}));
+    } catch {
+      if (undoBackupChanged) {
+        try {
+          // The main write failed: restore the undo history as well as retaining the current list.
+          if (previousUndoBackup === null) localStorage.removeItem(TRACKER_BACKUP_KEY);
+          else localStorage.setItem(TRACKER_BACKUP_KEY, previousUndoBackup);
+        } catch {
+          setCanUndoImport(false);
+          setImportMessage(translate({id: 'tracker.import.rollbackFailed', message: '导入未完成，当前清单未更改。但浏览器也无法恢复之前的撤销备份，本次会话已停用撤销入口。请立即导出当前清单；不要依赖现有撤销备份。'}));
+          return;
+        }
+      }
+      setImportMessage(translate({id: 'tracker.import.storageFailed', message: '浏览器无法保存导入前的备份或新清单，导入未完成。原清单未更改。'}));
+    }
+  };
+
+  const undoImport = () => {
+    try {
+      const previous = localStorage.getItem(TRACKER_BACKUP_KEY);
+      if (previous === null) return;
+      // Validate before restoring. An unreadable legacy value remains available for export.
+      let restored;
+      try { restored = parseTrackerBackup(previous); } catch { restored = null; }
+      localStorage.setItem(STORAGE_KEYS.trackerData, previous);
+      setCards(restored || []);
+      setStorageStatus(restored ? 'ready' : 'error');
+      setStorageError(restored ? null : translate({id: 'tracker.storage.loadFailed', message: '无法读取当前清单，原始数据已保留。请先导出原始备份，再尝试导入有效备份。'}));
+      setCanUndoImport(false);
+      localStorage.removeItem(TRACKER_BACKUP_KEY);
+      setImportMessage(translate({id: 'tracker.import.undone', message: '已恢复导入前的清单。'}));
+      setShowUndoConfirm(false);
+    } catch {
+      setImportMessage(translate({id: 'tracker.storage.saveFailed', message: '浏览器未能保存清单，请导出备份，避免刷新后丢失更改。'}));
+    }
   };
 
   const totalCards = cards.length;
@@ -816,19 +910,22 @@ export default function TrackerPage() {
       <div className={styles.pageWrapper}>
         {/* Top bar */}
         <div className={styles.topBar}>
-          <a href="/" className={styles.backLink}>
+          <a href={localizedInternalPath('/', currentLocale)} className={styles.backLink}>
             &larr; <Translate id="tracker.nav.backHome">返回首页</Translate>
           </a>
           <div className={styles.topBarRight}>
-            <span className={styles.topBarLink} onClick={handleExport}>
+            <button type="button" className={styles.topBarLink} onClick={handleExport} disabled={storageStatus === 'loading'}>
               &#128190; {translate({ id: 'tracker.action.export', message: '导出数据' })}
-            </span>
-            <span
+            </button>
+            <button type="button"
               className={styles.topBarLink}
               onClick={() => fileInputRef.current?.click()}
             >
               &#128194; {translate({ id: 'tracker.action.import', message: '导入数据' })}
-            </span>
+            </button>
+            {canUndoImport && <button type="button" className={styles.topBarLink} onClick={() => setShowUndoConfirm(true)}>
+              <Translate id="tracker.import.undo">撤销最近导入</Translate>
+            </button>}
             <input
               ref={fileInputRef}
               type="file"
@@ -838,6 +935,9 @@ export default function TrackerPage() {
             />
           </div>
         </div>
+
+        {storageError && <p role="alert" className={styles.notice}>{storageError}</p>}
+        {importMessage && <p role="status" className={styles.notice}>{importMessage}</p>}
 
         {/* Header */}
         <div className={styles.header}>
@@ -862,6 +962,7 @@ export default function TrackerPage() {
             </div>
             <select
               className={styles.sortSelect}
+              aria-label={translate({id: 'tracker.sort.label', message: '分类方式:'})}
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
             >
@@ -877,6 +978,7 @@ export default function TrackerPage() {
           </div>
           <div className={styles.toolbarRight}>
             <button
+              disabled={storageStatus !== 'ready'}
               className={`${styles.actionBtn} ${styles.importBtn}`}
               onClick={handleAddCustomCard}
             >
@@ -886,7 +988,7 @@ export default function TrackerPage() {
         </div>
 
         {/* Kanban Board */}
-        <DndContext
+        {storageStatus === 'ready' && <DndContext
           sensors={sensors}
           collisionDetection={closestCorners}
           onDragStart={handleDragStart}
@@ -912,15 +1014,16 @@ export default function TrackerPage() {
               </div>
             ) : null}
           </DragOverlay>
-        </DndContext>
+        </DndContext>}
 
         {/* Modals */}
         {showAddModal && (
           <CardModal
             card={null}
+            initialCard={showAddModal}
             columns={COLUMNS}
             essayStatuses={ESSAY_STATUSES}
-            onSave={(card) => handleSaveNewCard({ ...card, column: showAddModal.column })}
+            onSave={handleSaveNewCard}
             onClose={() => setShowAddModal(null)}
           />
         )}
@@ -948,6 +1051,18 @@ export default function TrackerPage() {
             onCancel={() => setShowConfirm(null)}
           />
         )}
+        {pendingImport && <ConfirmDialog
+          message={translate({id: 'tracker.import.confirm', message: '此备份包含 {count} 个项目，将替换当前 {current} 个项目（不是合并）。导入前的清单会保留为可撤销备份，覆盖上一次导入备份。是否继续？'}, {count: pendingImport.length, current: cards.length})}
+          confirmLabel={translate({id: 'tracker.import.replace', message: '确认替换'})}
+          onConfirm={confirmImport}
+          onCancel={() => setPendingImport(null)}
+        />}
+        {showUndoConfirm && <ConfirmDialog
+          message={translate({id: 'tracker.import.undoConfirm', message: '恢复最近一次导入前的清单？导入后的编辑将被替换。请先导出当前清单以保留这些编辑。'})}
+          confirmLabel={translate({id: 'tracker.import.restore', message: '恢复旧清单'})}
+          onConfirm={undoImport}
+          onCancel={() => setShowUndoConfirm(false)}
+        />}
       </div>
     </Layout>
   );

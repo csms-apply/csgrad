@@ -13,7 +13,6 @@ import {PageMetadata, useThemeConfig} from '@docusaurus/theme-common';
 import {
   DEFAULT_SEARCH_TAG,
   useAlternatePageUtils,
-  keyboardFocusedClassName,
 } from '@docusaurus/theme-common/internal';
 import {useLocation} from '@docusaurus/router';
 import {applyTrailingSlash} from '@docusaurus/utils-common';
@@ -115,7 +114,7 @@ export default function SiteMetadata(): ReactNode {
     <>
       <Head>
         <meta name="twitter:card" content="summary_large_image" />
-        <body className={keyboardFocusedClassName} />
+        <body />
       </Head>
 
       {defaultImage && <PageMetadata image={defaultImage} />}

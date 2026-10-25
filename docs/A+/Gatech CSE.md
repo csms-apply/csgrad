@@ -1,8 +1,14 @@
+---
+description: "Gatech CSE 的费用、TA/RA 支持和选课自由度怎么样？从核心课、不同 home unit 的申请差异，到找工与转专业经验一起看。"
+title: "Gatech CSE 申请指南：课程与项目体验"
+sidebar_label: "Gatech CSE"
+---
+
 # Gatech CSE
 
 ## 项目介绍
 性价比是真的高
-先说最重要的——便宜！一个学期四门课学杂费加起来 1.7w+，比一堆动不动四五万刀的学校良心多了。而且做 TA/RA 可以免学费+每个月 800 刀生活费（相当于白嫖一个硕士）
+先说最重要的——便宜！一个学期四门课学杂费加起来 1.7w+，比一堆动不动四五万刀的学校良心多了。而且做 TA/RA 可以把学费减到每学期 25 刀（杂费、保险仍要自己交），每个月还有至少 1,184 刀生活费（2026-27 学年硕士最低标准，相当于白嫖一个硕士）
 
 除了使用TA/RA可以免除学费之外, 非美本可以使用 reduce academic load的方法在第一学期降低workload, 同时也可以因为part-time入读降低学费和降低工作量在第一学期全力找intern.
 
@@ -19,6 +25,8 @@ mscs>cse coc>=cse isye>其他units
 
 ## 找工出路
 跟cs差不多，出路有Meta、google等
+
+Escuela de Ingeniería de Antioquia 与 Universidad CES 联合生物医学工程本科，入学前有小厂 Programming Analyst 全职经历，硕士期间先后做校内兼职 RA（2024年）和 TA（2025年）。
 
 ## 转博
 老师点头就能转博

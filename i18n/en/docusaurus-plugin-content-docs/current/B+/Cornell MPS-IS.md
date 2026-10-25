@@ -1,3 +1,9 @@
+---
+description: "Cornell MPS in Information Science guide covering CS course access, career-change considerations, course planning and reported admission and job-search experiences."
+sidebar_label: "Cornell MPS-IS"
+title: "Cornell MPS-IS Admissions Guide: Courses and Program Experience"
+---
+
 # Cornell MPS-IS
 
 ## Program Overview
@@ -15,6 +21,4 @@ Undergraduate majors are quite diverse -- students come from business, design, d
 ## Job Outcomes
 Not very optimistic, mainly because many career-change-to-CS students are admitted. Some CS courses have heavy workloads, making it hard to free up much time for LeetCode grinding.
 
-
-
-
+- Fudan physics undergraduate, Middleby Data Scientist Intern during the program, then Amazon SDE full-time after graduating in 2024.

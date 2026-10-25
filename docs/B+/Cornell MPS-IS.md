@@ -1,3 +1,9 @@
+---
+description: "Cornell MPS-IS 的转码体验、CS 选课优先级与课程压力，结合不同本科背景的申请案例，讨论实习安排和求职准备。"
+title: "Cornell MPS-IS 申请指南：课程与项目体验"
+sidebar_label: "Cornell MPS-IS"
+---
+
 # Cornell MPS-IS
 
 ## 项目介绍
@@ -19,6 +25,4 @@ defer一个学期然后spring入学拿cpt，详细操作请参照[Spring 入学�
 ## 找工情况
 不太乐观，主要因为招的转码的不少，选cs课有的wld比较大，没法腾出来很多时间刷题
 
-
-
-
+- 复旦物理本科，硕士期间 Middleby Data Scientist Intern，2024 年毕业后上岸 Amazon SDE 全职。

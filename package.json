@@ -13,29 +13,52 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "sync-translations": "node --input-type=module scripts/sync-translations.js",
+    "generate:traditional": "node scripts/generate-traditional.mjs",
+    "test:traditional": "node --test scripts/generate-traditional.test.mjs",
     "check:seo": "node scripts/seo-audit.mjs build --baseline scripts/seo-audit-baseline.txt",
     "test:seo": "node --test scripts/seo-audit.test.mjs",
     "test:analytics": "node --test src/lib/analytics/events.test.mjs",
     "test:migration": "node --test scripts/migration-integrity.test.mjs",
-    "test:gpa-filter": "node --test src/lib/dp/gpa-filter.test.mjs"
+    "test:gpa-filter": "node --test src/lib/dp/gpa-filter.test.mjs",
+    "test:ux": "node --test scripts/locale-navigation.test.mjs src/lib/i18n/*.test.mjs src/lib/tracker/*.test.mjs src/lib/dp/page-regressions.test.mjs scripts/*positioning*.test.cjs",
+    "prebuild": "node scripts/generate-programs.js",
+    "test:catalog": "node --test scripts/program-catalog.test.mjs scripts/legacy-program-route.test.mjs",
+    "audit:dependencies": "node scripts/dependency-audit.mjs",
+    "test:dependencies": "node --test scripts/dependency-audit.test.mjs scripts/dependency-compatibility.test.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
     "@dnd-kit/utilities": "^3.2.2",
-    "@docusaurus/core": "3.8.1",
-    "@docusaurus/preset-classic": "3.8.1",
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "d3-geo": "^3.1.1",
     "html2pdf.js": "^0.14.0",
+    "opencc-js": "^1.4.2",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.8.1",
-    "@docusaurus/types": "3.8.1"
+    "@docusaurus/module-type-aliases": "3.10.2",
+    "@docusaurus/types": "3.10.2"
+  },
+  "overrides": {
+    "proxy-addr": "2.0.8",
+    "shell-quote": "1.11.0",
+    "@docusaurus/core": {
+      "tinypool": "2.1.2"
+    },
+    "serialize-javascript": "7.1.2",
+    "postcss-selector-parser": "7.1.7",
+    "sockjs": {
+      "uuid": "11.1.1"
+    },
+    "brace-expansion@^1.1.7": "1.1.21",
+    "fast-uri@^3.0.1": "3.1.9",
+    "body-parser": "1.20.9"
   },
   "browserslist": {
     "production": [
@@ -50,7 +73,7 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": "^20.0.0 || >=22.0.0"
   },
   "allowScripts": {
     "core-js": false,

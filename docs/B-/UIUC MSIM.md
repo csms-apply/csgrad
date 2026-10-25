@@ -1,3 +1,9 @@
+---
+description: "UIUC MSIM 的学费、课程压力和 Co-op 体验，附转码申请背景，以及软件、数据和产品方向的往届求职案例。"
+title: "UIUC MSIM 申请指南：课程与项目体验"
+sidebar_label: "UIUC MSIM"
+---
+
 # UIUC MSIM
 
 ## 项目介绍
@@ -16,5 +22,4 @@
 1. 印度不知名学校本科cs，两年全职经验上岸amazon 
 2. ntnu 本科无实习上岸小厂ng
 
-
-
+3. 印度 CE 本科，硕士期间 COUNTRY Financial DS 和 Technical PM 实习，2025 年毕业后在该公司做 Product Owner 2 全职。

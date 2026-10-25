@@ -1,3 +1,9 @@
+---
+description: "UIUC MSCS 是研究导向的 CS 硕士，与授课型 MCS 不同。这里整理导师联系、录取偏好和案例，并记录资助保证方面的更新。"
+title: "UIUC MSCS 申请指南：课程与项目体验"
+sidebar_label: "UIUC MSCS"
+---
+
 # UIUC MSCS
 
 ## 项目介绍
@@ -37,4 +43,6 @@ McMaster University  Mechatronics Engineering本科 gpa 11/12
 3. uiuc cs本科，有小厂实习，上岸databricks 实习
 4. uiuc cs本科，上岸dbx ds intern
 5. uiuc cs本科上岸芝加哥小厂Intern
-6. iit cs本科女生有多段research intern上岸jp morgan quant ai 
+6. iit cs本科女生有多段research intern上岸jp morgan quant ai
+
+7. ut cs本科，微软swe intern，2022年起在apple做swe全职，同时读UIUC thesis-track MSCS。

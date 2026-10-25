@@ -1,3 +1,9 @@
+---
+description: "Explore UPenn Robotics through student accounts of research, flexible course choices, dual-degree options and the cost of living in Philadelphia."
+sidebar_label: "Upenn MSR"
+title: "UPenn Robotics MSR Admissions Guide: Courses and Program Experience"
+---
+
 # Upenn MSR
 
 ## Program Overview
@@ -37,8 +43,9 @@ Salary range (based on data from recent years): Starting compensation is general
 2. Upenn CE undergrad, landed Amazon hardware internship
 3. IIT Automation undergrad, GPA 9.04/10, three years full-time experience, landed Amazon DS
 4. Indian undergrad, GPA 8.72/10, multiple internships, landed SF small company CV Engineer
-4. Upenn EE undergrad, had internship experience, landed SpaceX SDE Test Intern
-5. NYU CS+DS undergrad, had small company DS intern, landed Amazon DS internship
+5. Upenn EE undergrad, had internship experience, landed SpaceX SDE Test Intern
+6. NYU CS+DS undergrad, had small company DS intern, landed Amazon DS internship
+7. University of Houston CS bachelor’s, Kyndryl internship and nearly two years as a full-time Software Developer before enrollment; part-time RA at PCASO Lab during the master’s, from 2025.
 
 ## Distinguished Professors
 

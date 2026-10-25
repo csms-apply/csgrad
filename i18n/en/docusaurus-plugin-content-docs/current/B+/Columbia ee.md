@@ -1,13 +1,16 @@
 ---
 sidebar_position: 2
+sidebar_label: "Columbia MSEE"
+title: "Columbia MSEE Admissions Guide: Courses and Program Experience"
+description: "Columbia MSEE course reviews span databases, cloud computing, algorithms and NLP, alongside EE degree requirements, living costs and admissions profiles."
 ---
 # Columbia MSEE
 
-# Program Overview
+## Program Overview
 
 Cooking at home + eating out (70% / 30%), the total cost for one and a half years is around 800K RMB (not a particularly frugal lifestyle). Claims on Xiaohongshu about spending 1M RMB per year in New York are pure nonsense and clearly not based on any real research. Someone who can spend 1M RMB per year in New York could just as easily spend the same at UCSD. New York is a great place with rich cultural and entertainment options.
 
-# Course Selection
+## Course Selection
 You can take many CS courses, making it suitable for career change to CS.
 
 Three semesters, 10 courses total, at least 5 EE courses, at least 5 courses numbered 6000+. In theory, the rest can all be CS courses. It can be more flexible than CE -- CE has required hardcore courses, while EE allows you to take purely CS courses.
@@ -34,7 +37,7 @@ Taught by an Indian-American professor with only a slight Indian accent -- well-
 Taught by Chong Li, who also offers course 6885 in the fall -- both are easy-A courses. Topics include Bitcoin, NFTs, and other broad blockchain-related subjects.
 
 
-# Admission Threshold
+## Admission Threshold
 The admission threshold is friendly -- there are data points of 985 university students with 3.4 GPA being admitted, but that doesn't mean this program is bad. Columbia's title is enough to get interviews at any company. There are also students from Peking University CS who come here. Whether you go back to China or look for jobs in the US, no one has ever been looked down upon because of Columbia -- everyone thinks it's impressive. Nobody cares about the admission threshold; only applicants during application season care about it. (The world is vast; the capable shall thrive. Ability matters more than credentials.)
 
 1. HKUST EE, First Class Honours
@@ -42,8 +45,10 @@ The admission threshold is friendly -- there are data points of 985 university s
 3. UESTC EE undergrad, GPA 89
 4. Xidian University CS undergrad, GPA 3.84, later successfully transferred to PhD within Columbia EE
 5. Utah EE + Math undergrad, GPA 3.95
-# Job Outcomes
+## Job Outcomes
 Has Meta intern and Amazon intern placements. Getting past the resume screen is easy; the rest is entirely up to the individual. Bloomberg also recruits from Columbia -- Columbia is rated as a high-ROI school in Bloomberg's internal system, so they specifically come to recruit and interview (recruited a large batch in 2022).
 
 1. SUSTech EE undergrad, landed hardware new grad in Texas
 2. Shanghai University EE undergrad, had small company internship in China, landed small US company product manager
+
+3. HUST electronic and information engineering undergraduate, graduated in 2025 and joined XPENG as a full-time Machine Learning Engineer in July 2026.

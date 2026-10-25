@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+sidebar_label: "JHU MSECS"
+title: "JHU MSECS Admissions Guide: Courses and Program Experience"
+description: "JHU MSECS experiences covering career-change admissions, research access, course registration and program costs, with reported internship and job outcomes."
 ---
 # JHU MSECS
 
@@ -30,6 +33,7 @@ Based on previous years, a GPA of 3.7+ gives you a strong chance. However, note 
 2. Three years work experience, landed Goldman Sachs Analyst
 3. IIT EE undergrad, one year full-time work experience, landed a small company
 4. Indian student, one year full-time work experience, landed new grad at a small company
+5. CS bachelor’s in India, multimodal LLM RA at Johns Hopkins Medicine during the master’s, full-time SWE at Amazon from 2025.
 
 ## Student Experience
 

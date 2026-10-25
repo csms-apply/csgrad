@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+description: "Georgia Tech MSCS guide covering specializations, CS course access, assistantships and Atlanta’s tech setting, with admission expectations and career perspectives."
+sidebar_label: "Gatech MSCS"
+title: "Georgia Tech MSCS Admissions Guide: Courses and Program Experience"
 ---
 # Gatech MSCS
 
@@ -12,7 +15,7 @@ CS ranking is high (ranked 4th on csrankings). The range of available specializa
 
 ## Admission Standards
 
-Perhaps the only unfriendly aspect is the admission threshold... This program is fairly strict on metrics. The official website explicitly states that verbal must be at least 153. Based on observations, everyone I know who was admitted scored 326+ total. Mainland China admits are basically all high-metric candidates (though undergraduate major is not restrictive -- for example, EE students can also apply and be admitted). US undergrads have it easier -- anyone from a top 100 school with a relatively high GPA can give it a shot. (Having a recommendation letter from a GT alumnus professor significantly increases your chances of admission. I have a friend who got into GT CS without any papers, relying on a GT professor's recommendation letter.)
+Perhaps the only unfriendly aspect is the admission threshold... This program is fairly strict on metrics. The official website states that the GRE is not required for MSCS admission. In earlier years when the GRE was required, friends who submitted scores were basically all 326+ total. Mainland China admits are basically all high-metric candidates (though undergraduate major is not restrictive -- for example, EE students can also apply and be admitted). US undergrads have it easier -- anyone from a top 100 school with a relatively high GPA can give it a shot. (Having a recommendation letter from a GT alumnus professor significantly increases your chances of admission. I have a friend who got into GT CS without any papers, relying on a GT professor's recommendation letter.)
 
 ## Representative Admission Data Points
 Very few mainland China undergrads get direct admission (especially 24 Fall). Mainland China admits are basically all from Tsinghua, Peking, SJTU, and ZJU. Mainland China undergrad + dropping out of an overseas master's / doing a second overseas master's seems to be somewhat easier. US undergrads have it notably easier. The program welcomes career changers -- current students include Tsinghua undergrads and NTU undergrads who switched to CS.
@@ -45,6 +48,8 @@ Sampling data points around me: Among the 24 Fall GT MSCS Chinese students I kno
 7. GT CS undergrad, GPA 3.89, landed Google
 8. Indian student, 1 year full-time work experience, landed AWS and returned
 9. IIT CS undergrad, landed Apple
+
+10. UCB Cognitive Science undergraduate, DS minor, prior Salesforce SWE full-time experience; on-campus MSCS 2024–2026, Nissan research intern, NetSuite SWE II full-time in 2026.
 
 ## TA Opportunities
 Georgia Tech hires a large number of TAs for online courses. But you need to start looking early. I initially thought it was hard to get, but later found out that some TAs who don't know much still managed to become TAs.

@@ -1,3 +1,8 @@
+---
+title: "UWT MSCS 申请指南：课程与项目体验"
+sidebar_label: "UWT MSCS"
+description: "UW Tacoma 的 CS 硕士提供课程、capstone 与 thesis 路线。本文介绍先修课、学费、生活与 Co-op 经验，并比较 Tacoma 和 Bothell 校区。"
+---
 # UWT MSCS
 
 ## 项目特点
@@ -24,6 +29,8 @@ Tacoma 距离西雅图大约 51 公里，生活成本比西雅图低，周围有
 2. 印度同学一年全职，上岸tesla intern
 3. 印度同学，四年全职，上岸小厂ng
 4. UW 本科生，0实习上岸google ng
+
+5. 印度 电气、电子与通信工程本科，读硕士前有 Hitachi Energy 全职，硕士期间小厂 SWE intern，2025 年毕业后上岸 Amazon SDE 全职。
 
 ## 申请bar和dp
 average录取gpa3.5, TOEFL 要求相对较低，92 分就能申请，整体偏好 985 低 GPA 申请者，转码需要修完先修课。有清北的来

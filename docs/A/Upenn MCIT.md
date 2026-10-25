@@ -1,3 +1,9 @@
+---
+description: "Upenn MCIT 面向转码申请者，课程从基础开始。这里整理必修课豁免、毕业安排、双学位选择，以及不同本科背景的录取和找工案例。"
+title: "Upenn MCIT 申请指南：课程与项目体验"
+sidebar_label: "Upenn MCIT"
+---
+
 # Upenn MCIT
 
 
@@ -35,4 +41,4 @@ prefer 美本，gpa>3.8，gre>330, gpa gre越高越好。average gre 330, 2022 f
 9. 港中深economics本科，上岸tesla intern和meta intern
 10. McGill University finance 本科，有加拿大六个月小厂intern，上岸meta intern并且转正
 11. 沃顿finance本科，google step intern和google summer intern，最后ng 上岸meta
-
+12. Warwick 经济本科，入学前有 Oliver Wyman 咨询全职经历，2026年线下 MCIT 在读期间上岸 Citadel Sector Data Analyst intern。
