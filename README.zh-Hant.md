@@ -50,7 +50,7 @@ qq群號：1039432843
 contributor討論計算得出的，難免會有bias，歡迎大家提pr修正**
 
 ## 北美MSCS申請時間線
-假如你要申請26 fall入學的MSCS項目，大致timeline如下
+假如你要申請27 Fall入學的MSCS項目，大致timeline如下
 
 ![](static/img/applytimeline.png)
 
