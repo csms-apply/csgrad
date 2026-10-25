@@ -7,6 +7,8 @@ title: "UPenn Data Science Admissions Guide: Courses and Program Experience"
 # Upenn DS
 
 ## Program Overview
+> October 2026 update: In September 2026, Penn Engineering launched a new [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/), and Fall 2027 applications opened on September 15. The [admissions page](https://gradadm.seas.upenn.edu/masters/data-science/) now lists only DSAI as the on-campus option, while the Data Science MSE is offered online. The rest of this page describes the experience in the original on-campus MSE in Data Science; check the DSAI website for current requirements and curriculum.
+
 The program's biggest feature is its extremely high degree of course selection freedom. Many students end up turning DS into CS once enrolled, applying to both DS and SDE positions, or even making a career change to CS.
 
 You can take all CIS courses or Wharton courses, choose hard systems courses or easier ones -- the flexibility is very high. The foundation and major courses listed on the official website can almost all be waived.
