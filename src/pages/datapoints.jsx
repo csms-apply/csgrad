@@ -1053,10 +1053,10 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const base = q
+    // Show every match (~250 programs); the dropdown scrolls. Virtualize if the list grows to thousands.
+    return q
       ? programs.filter((p) => `${p.school} ${p.program}`.toLowerCase().includes(q))
       : programs;
-    return base.slice(0, 40);
   }, [programs, query]);
 
   // Show the chosen program's label when one is selected and the field isn't
