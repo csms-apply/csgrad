@@ -7,6 +7,8 @@ sidebar_label: "Upenn DS"
 # Upenn DS
 
 ## 項目介紹 {#项目介绍}
+> 2026-10 更新：Penn Engineering 在 2026 年 9 月新開了 [MSE in Data Science & Artificial Intelligence（DSAI）](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/)，Fall 2027 申請已於 9 月 15 日開放。目前[招生頁](https://gradadm.seas.upenn.edu/masters/data-science/)上校內項目只列 DSAI，Data Science MSE 只剩在線版。下文是原校內 MSE in Data Science 的就讀體驗，申請要求和課程結構以 DSAI 官網為準。
+
 項目最大的特點是 選課自由度極高，很多人進來後直接把 DS 讀成 CS，在找工作時同時投 DS 和 SDE，甚至轉碼。
 
 可以全選cis 課也可以選Wharton的課，可選硬課如system 類，也可以選水一點的，自由度很高。官網寫的基礎課，和專業課幾乎全可以waive
