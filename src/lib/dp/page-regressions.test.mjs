@@ -49,6 +49,16 @@ test('program filter supports keyboard selection', () => {
   assert.deepEqual(selected, ['mit-mscs']);
 });
 
+test('program filter lists every program, not just the first page', () => {
+  const harness = pageHarness('datapoints', ['ProgramFilter'], {imports: authImports});
+  const programs = Array.from({length: 244}, (_, i) => ({id: `p${i}`, school: `School ${i}`, program: 'MSCS'}));
+  const props = {label: 'Program', programs, value: '', onChange() {}, placeholder: 'Search programs', allText: 'All', selected: null};
+  let tree = harness.render('ProgramFilter', props);
+  elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0].props.onFocus();
+  tree = harness.render('ProgramFilter', props);
+  assert.equal(elements(tree, (el) => el.type === 'li' && el.props.role === 'option').length, 244);
+});
+
 for (const locale of ['zh-Hans', 'en']) {
   test(`${locale}: failed DP load is distinct from empty results and can retry`, async () => {
     let attempts = 0;
