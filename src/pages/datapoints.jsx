@@ -8,6 +8,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { useHistory } from '@docusaurus/router';
 import { getMe, listDp, getFilterOptions, getCounts, listPrograms } from '@site/src/lib/dp/api';
 import { formatGpaRange, parseGpaRange } from '@site/src/lib/dp/gpa-filter.mjs';
+import { searchPrograms } from '@site/src/lib/dp/program-search.mjs';
 import { localizedInternalPath } from '@site/src/lib/seo/localizedAlternates.mjs';
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
@@ -42,7 +43,7 @@ const COPY = {
     searchPlaceholder: '搜索学校 / 项目',
     searchLabel: '搜索',
     filterProgram: '项目',
-    programSearchPlaceholder: '搜索学校 / 项目',
+    programSearchPlaceholder: '搜索学校 / 项目，如 cmu mscs、卡梅',
     filterYear: '年份',
     filterResult: '结果',
     filterUgCat: '本科类别',
@@ -150,7 +151,7 @@ const COPY = {
     searchPlaceholder: 'Search school / program',
     searchLabel: 'Search',
     filterProgram: 'Program',
-    programSearchPlaceholder: 'Search school / program',
+    programSearchPlaceholder: 'Search school / program, e.g. cmu mscs',
     filterYear: 'Year',
     filterResult: 'Result',
     filterUgCat: 'Undergrad type',
@@ -1051,13 +1052,8 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
   const [activeIndex, setActiveIndex] = useState(-1);
   const blurTimer = useRef(null);
 
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    // Show every match (~250 programs); the dropdown scrolls. Virtualize if the list grows to thousands.
-    return q
-      ? programs.filter((p) => `${p.school} ${p.program}`.toLowerCase().includes(q))
-      : programs;
-  }, [programs, query]);
+  // Show every match (~250 programs); the dropdown scrolls. Virtualize if the list grows to thousands.
+  const filtered = useMemo(() => searchPrograms(programs, query), [programs, query]);
 
   // Show the chosen program's label when one is selected and the field isn't
   // being actively edited; otherwise show the live search query.
