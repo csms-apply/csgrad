@@ -9,7 +9,7 @@ title: "UPenn EE Admissions Guide: Courses and Program Experience"
 
 ## Program Overview
 
-Low admission threshold with a great title. However, you must take five ESE-prefixed courses; the rest is free electives. If you know nothing about hardware like me, you can take ESE courses in math, optimization, and ML, but they're all very advanced and can be intense (though irrelevant to SDE, since this is a pure EE program). Of course there are also easy courses to get you through graduation. You can transfer to or dual-enroll in CS or other programs conveniently. If your background is strong, it can serve as a safety school, or you can apply to the neighboring SCMP as a safety.
+Low admission threshold with a great title. However, the 10 course units (CU) are structured: 5 EE core-area courses + 2 ESE electives + 1 SEAS elective + 2 open electives (courses not on the pre-approved list need a petition). If you know nothing about hardware like me, you can take ESE courses in math, optimization, and ML, but they're all very advanced and can be intense (though irrelevant to SDE, since this is a pure EE program). Of course there are also easy courses to get you through graduation. You can transfer to or dual-enroll in CS or other programs conveniently. If your background is strong, it can serve as a safety school, or you can apply to the neighboring SCMP as a safety.
 
 Workload is entirely determined by your course selection. You can check difficulty on Penn Course Review -- easy courses don't require showing up, but you can also take hardcore CIS courses.
 

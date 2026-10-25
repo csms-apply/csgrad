@@ -10,7 +10,7 @@ title: "UMD MSCS Admissions Guide: Courses and Program Experience"
 ## Program Overview
 UMD has excellent CS rankings: top #2 for AI, #7 for NLP, #8 for Vision.
 MSCS is a research-oriented program. MS and PhD applicants are reviewed in the same pool, making it ideal for students looking to transfer to a PhD. For master's students, the program offers relatively little support for job hunting, and the department's LeetCode grinding and job hunting atmosphere is also relatively weak. Generally, admitted students can find TA/RA positions -- TA positions being more common because there are too many undergrads and the department needs TAs. Almost everyone can get one.
-Getting a TA/RA position means tuition is waived, plus you receive a stipend.
+Note, however, that the official site states MS admission does not guarantee funding: CMSC TA positions are hourly jobs that pay wages but come with no tuition remission or health insurance; only RA positions are graduate assistantship appointments (per the official site as of the 2026-27 academic year).
 
 UMD is a program with extremely strong research but decent job outcomes. It admits few students and places significant weight on research experience. Fall admission is especially competitive; Spring admission for current students is relatively easier.
 

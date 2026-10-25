@@ -63,7 +63,7 @@ The program tiers were developed through discussions among the project’s early
 
 ## North American MSCS Application Timeline
 
-If you are applying to MSCS programs for **Fall 2026** entry, the approximate timeline is:
+If you are applying to MSCS programs for **Fall 2027** entry, the approximate timeline is:
 
 ![MSCS application timeline](static/img/applytimeline.png)
 

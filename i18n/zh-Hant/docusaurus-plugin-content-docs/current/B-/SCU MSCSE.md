@@ -7,7 +7,7 @@ sidebar_label: "SCU MSCSE"
 # SCU MSCSE
 
 ## 項目介紹 {#项目介绍}
-Santa Clara University的Master of Science in Computer Science and Engineering，在硅谷Santa Clara市，地理位置確實不錯。Quarter制，一學年三個學期每學期10周，畢業需要修滿46學分，大概兩年。學費相對便宜，2年總共5.3w刀左右，比NEU、NYU這些便宜不少，不過title也對應下降了，出了灣區基本nobody knows。
+Santa Clara University的Master of Science in Computer Science and Engineering，在硅谷Santa Clara市，地理位置確實不錯。Quarter制，一學年三個學期每學期10周，畢業需要修滿46學分，大概兩年。學費相對便宜，2026-27 學年 $1,304/學分，46 學分總共約 6w 刀（不含 AGES 等雜費），比NEU、NYU這些便宜不少，不過title也對應下降了，出了灣區基本nobody knows。
 
 校園本身挺好的，建築漂亮，圖書館study space多，健身房游泳池網球場籃球場一應俱全，治安也比SF/SJ downtown好很多，基本沒有homeless。但是吃的真的不行，校內食堂一頓14刀還不好吃，校園周邊也沒什麼像樣的餐館，沒車的話就更慘了——沒車等於沒腿，強調三遍。
 

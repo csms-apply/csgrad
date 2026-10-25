@@ -28,4 +28,5 @@ sidebar_label: "CMU MSR"
 
 如果本著找工來這個項目，找到實習了也得需要老師同意才能去intern，老闆也有可能不放人
 
-也有uci cs本科、2023–2025讀MSR的同學，2024和2025年暑假去NASA JPL做Robotics Perception Engineer實習。
+## 找工情況 {#找工情况}
+1. 也有uci cs本科、2023–2025讀MSR的同學，2024和2025年暑假去NASA JPL做Robotics Perception Engineer實習。

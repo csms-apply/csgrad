@@ -10,7 +10,7 @@ title: "Northeastern Information Systems Admissions Guide: Courses and Program E
 A career-change-to-CS program that offers co-op opportunities. It's similar to MSCS, and the I-20 lists SE (Software Engineering), which is a CS-related title.
 
 There are multiple campuses.
-If you want to experience a traditional American college campus life, are young and not in a rush to find a job, and have a strong overall profile, go to the Boston campus. If your goal is landing a job at a big tech company, or you can't stand the Boston winters, come to the Silicon Valley campus. The GRE is not required for 2025-2026 entry, and the application fee has been waived for Fall 2026 entry.
+If you want to experience a traditional American college campus life, are young and not in a rush to find a job, and have a strong overall profile, go to the Boston campus. If your goal is landing a job at a big tech company, or you can't stand the Boston winters, come to the Silicon Valley campus. The GRE is not required for 2025-2026 entry, and the College of Engineering has waived the MS application fee for Spring 2027 and Fall 2027 entry.
 
 Normally it takes two years to graduate, but if you do an internship or co-op in between, it may take about two and a half years.
 
@@ -21,7 +21,7 @@ NEU IS is essentially a career-change-friendly program. Its curriculum is close 
 3. It's a STEM program, so after graduation you get OPT plus the STEM OPT extension, about 3 years of work authorization in total.
 
 ## Admission Threshold
-There are even many Ivy League students from other majors who come to NEU to transition into CS. When applying you can check MSCS / CS Align / IS / SES at the same time (one $75 application fee covers up to 3 programs).
+There are even many Ivy League students from other majors who come to NEU to transition into CS. When applying you can check MSCS / CS Align / IS / SES at the same time (the application fee is currently waived, and one application covers up to 3 programs).
 
 That said, the admission threshold is not high and is quite friendly.
 
@@ -36,7 +36,7 @@ When I previously mentored students looking for 2025 Summer SDE positions, I rec
 
 ## Curriculum
 
-- 16 credits of advisor-approved information systems technology core courses
+- 32 credits in total; the only required core course is INFO 5100 (4 credits, with the 0-credit INFO 5101 Lab); the Coursework option adds 16 credits of INFO restricted electives
 - The rest are electives; if you want to move into software, choose Software Development. Available tracks include:
   - Cyber and Information Security
   - Product Management & DevOps Leadership

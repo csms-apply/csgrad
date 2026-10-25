@@ -8,7 +8,7 @@ title: "UIUC MSCS Admissions Guide: Courses and Program Experience"
 
 ## Program Overview
 
-UIUC's flagship program. Can be treated as a PhD application -- it's best to reach out to professors before applying. Fully funded, target PhD. Students from UIUC itself have a 5-year BS-MS program that leads to the MSCS. (Reviewer's note: some friends applying for 25 Fall have reported that UIUC MSCS is no longer guaranteed to be fully funded, which somewhat reduces its value proposition.)
+UIUC's flagship program. Can be treated as a PhD application -- it's best to reach out to professors before applying. Full funding is not officially guaranteed (Grainger only guarantees funding for PhD students); target PhD. Students from UIUC itself have a 5-year BS-MS program that leads to the MSCS. (Reviewer's note: some friends applying for 25 Fall have reported that UIUC MSCS is no longer guaranteed to be fully funded, which somewhat reduces its value proposition.)
 
 
 
@@ -29,10 +29,8 @@ Extremely high difficulty. Best to reach out to professors before applying. A UI
 3. University of Toronto CE undergrad + AI minor, CITIC internship + Canadian small company internship
 4. Monash University CS undergrad, GPA 4.0
 5. UIUC CS undergrad, GPA 3.91
-5. UBC CS+Math undergrad (female), three years of RA experience
-6.  McMaster University
-McMaster University
-McMaster University  Mechatronics Engineering undergrad, GPA 11/12
+6. UBC CS+Math undergrad (female), three years of RA experience
+7. McMaster University Mechatronics Engineering undergrad, GPA 11/12
 
 
 ## Job Outcome Data Points

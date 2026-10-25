@@ -7,14 +7,14 @@ title: "UIUC ECE MEng Admissions Guide: Courses and Program Experience"
 # UIUC ECE MENG
 
 ## Program Overview
-Supports co-op, offers flexible course selection covering both software and hardware, suitable for career changers to CS. You can graduate by taking entirely CS courses, such as ECE428 Distributed Systems or CS411 Database Systems. In previous years, it supported CPT for summer internships with spring enrollment, and co-op allows delayed graduation.
+Supports co-op, offers flexible course selection covering both software and hardware, suitable for career changers to CS. You can take plenty of CS courses, such as ECE428 Distributed Systems or CS411 Database Systems, but the official rules require at least 18 of the 32 credits to be ECE courses, and at least 8 of the 12 500-level credits to be ECE. In previous years, it supported CPT for summer internships with spring enrollment, and co-op allows delayed graduation.
 
 Supports deferral for one year. Students with weaker software backgrounds can use this year to do internships in China to strengthen their profile, which helps with finding full-time positions in the US later -- quite friendly for job hunting. The program currently allows deferral freely, and this was also the case even before the pandemic. There are also many graduation pathways; see the chart below for details.
 
 
 [![UIUC ECE MEng degree-completion paths; open full size](/img/en/uiucece.svg)](/img/en/uiucece.svg)
 
-The biggest highlight of the UIUC MEng program is that the advisor is very accommodating. The program has a special mechanism called "petition." What makes it special is that you can petition to count non-ECE courses as ECE courses. This means even if you don't have enough ECE credits to graduate, you can talk to your advisor and they may still let you graduate. As long as you maintain a good relationship with a professor, you can even transfer to a PhD program.
+The biggest highlight of the UIUC MEng program is that the advisor is very accommodating. The program has a special mechanism called "petition." What makes it special is that you can petition to count non-ECE courses as ECE courses, though officially non-ECE 500-level courses count for at most 4 credits and you still have to meet the ECE credit requirements. As long as you maintain a good relationship with a professor, you can even transfer to a PhD program.
 
 ## Admission Preferences & Data Points
 Rolling admissions -- apply early, get admitted early. The admission threshold is friendly.

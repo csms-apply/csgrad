@@ -15,7 +15,7 @@ description: "Gatech ECE 的核心課、跨學院選課與 VLSI Tape-out 課程�
 
 節奏：最快 3 個學期搞定，但是沒上岸的話也可以拖著讓你拖到 5 年都行，上岸再畢業；可以GRIP回國實習同時維持在學校註冊，不影響cpt申請；轉phd友好。學期中可以在美國COOP實習，聽說也可以去別的國家實習GRIP。並且算學分，還是不錯的。
 
-選課：6 門 ECE 核心隨你挑（可以全選偏軟的）；外加 4 門隨便跨學院，CS / CSE / ISyE 統統都能上。VLSI有一門很熱門的Tape-out課（需要連續上兩個學期），第一個學期做deisgn，寒/暑假前會送去Tape-out，寒/暑假結束，chip回來後再做test。
+選課（2026-27 學年 non-thesis 官方要求）：Group I、Group II 各 9 學分，共 6 門 ECE 課隨你挑（按 Technical Interest Area 選，可以全選偏軟的）；Group III 9 學分共 3 門可以跨學院，CS / CSE / ISyE 統統都能上；再加必修 ECE 6001，共 30 學分。VLSI有一門很熱門的Tape-out課（需要連續上兩個學期），第一個學期做deisgn，寒/暑假前會送去Tape-out，寒/暑假結束，chip回來後再做test。
 Fall semester開Digital的（和Apple合作），Spring semester開Analog的（和TI合作）。如果你想去做VLSI，可以關注一下
 
 想當ta的話省學費的話，一定要儘早聯繫教授。我第一學期就修了6001，但上學期11月底的時候聯繫教授問能不能當下學期的助教，教授說早就面試完了。

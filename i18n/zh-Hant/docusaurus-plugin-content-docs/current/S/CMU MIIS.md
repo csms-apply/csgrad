@@ -13,7 +13,7 @@ LTI開設，主要是就業導向，可以一年半畢業，也可以兩年畢�
 
 
 ## 錄取bar 和dp {#录取bar-和dp}
-很高，錄取hc很少，往年錄取率大概8%，喜歡ai/nlp bg的
+很高，錄取hc很少，官方2024年數據350人申請錄取58人（錄取率約17%），喜歡ai/nlp bg的
 1. uwterloo cs gpa3.98, minor optimization, amazon+oracle實習
 2. duke kunshan ds本科，三年ra經歷, 兩篇pub
 3. Brandeis University cs本科gpa3.88，兩年ra經歷，兩篇acl n作，part time 兩年校內sde

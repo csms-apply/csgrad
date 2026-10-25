@@ -30,4 +30,4 @@ Emory is not a school with an intense job hunting atmosphere. Many master's stud
 2. Wake Forest University CS undergrad, with Baidu + two years of internship at a small company in China (remote during the pandemic), landed AWS SDE intern
 
 ## Value for Money
-Tuition is approximately $50K per year. All students admitted to the MSCS program automatically receive partial tuition scholarships (30%-50%). The overall cost of living in Atlanta is not high, with monthly rent budgets ranging from $1,000 to $2,000. Compared to schools on the East and West Coasts, this program offers relatively good value.
+Tuition is approximately $50K per year. All students admitted to the MSCS program are automatically considered for tuition scholarships (the amount varies year to year). The overall cost of living in Atlanta is not high, with monthly rent budgets ranging from $1,000 to $2,000. Compared to schools on the East and West Coasts, this program offers relatively good value.

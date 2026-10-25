@@ -9,7 +9,7 @@ title: "UW–Madison CS PMP Admissions Guide: Courses and Program Experience"
 Wisc MSCS shares the same applicant pool as the Ph.D program, making it extremely competitive. The PMP program is essentially equivalent to MCS programs at other schools.
 
 
-Tuition is cheap -- $13k/semester for full-time. The last semester can be part-time and charged per credit, bringing total costs to about $35k, which is a great deal.
+Tuition is cheap -- $1,503.40 per credit for nonresidents. The last semester can be part-time and charged per credit, bringing total costs for 30 credits to about $45k, which is a great deal.
 
 Two internship opportunities (fall and spring internships allowed), 1.5-2 year program length (extending to 2.5 years is also possible), very similar to Gatech MSCS.
 

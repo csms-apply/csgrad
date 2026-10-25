@@ -10,7 +10,7 @@ sidebar_label: "Neu IS"
 轉碼項目，可以coop，跟mscs差不多，i20是se，科班title
 
 有n個校區，
-想體驗美國大學校園生活的，年紀小不急於找工作的以及各方面條件都不錯的，請去波士頓校區。以進大廠為目的的，或不能忍受波士頓冬天的，請來硅谷。2025-2026 學年入學不要求 GRE，Fall 2026 入學已免申請費
+想體驗美國大學校園生活的，年紀小不急於找工作的以及各方面條件都不錯的，請去波士頓校區。以進大廠為目的的，或不能忍受波士頓冬天的，請來硅谷。2025-2026 學年入學不要求 GRE，工程學院 MS 申請 Spring 2027、Fall 2027 入學均免申請費
 
 
 正常就是兩年畢業， 但如果中途有實習或Co-Op的話可能就會兩年半左右畢業。
@@ -24,7 +24,7 @@ sidebar_label: "Neu IS"
   實習的學校多了好幾次上岸機會。                                                
   3. STEM 項目，畢業後可以享受 OPT + STEM OPT 延期，共約 3 年工作許可。
 ## 錄取bar {#录取bar}
-身邊甚至好多ivy league的別的專業的master 來neu轉碼，申請時可以同時勾選 MSCS / CS Align / IS / SES（$75 申請費最多選 3 個專業） 
+身邊甚至好多ivy league的別的專業的master 來neu轉碼，申請時可以同時勾選 MSCS / CS Align / IS / SES（目前免申請費，一份申請最多選 3 個專業） 
 
 但是錄取bar不高，比較友好
 
@@ -43,7 +43,7 @@ sidebar_label: "Neu IS"
 ## 課程設置 {#课程设置}
 
   
-  - 16 學分的 advisor-approved 信息系統技術核心課                               
+  - 總共 32 學分，必修核心課只有 INFO 5100（4 學分，配 0 學分的 INFO 5101 Lab）；Coursework 路線另需 16 學分 INFO 限選課                               
   - 其餘為選修，想轉碼可以選擇Software Development，可選方向包括：                                    
     - Cyber and Information Security（網絡安全）                                
     - Product Management & DevOps Leadership（產品管理）          

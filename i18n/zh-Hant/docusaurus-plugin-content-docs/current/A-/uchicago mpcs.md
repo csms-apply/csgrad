@@ -33,7 +33,7 @@ quarter制，可能學期內的壓力很緊張
 
 ## 課程設置 {#课程设置}
 
-- 從Data Analytics, High Performance Computing, Mobile Computing, Software Engineering, Security五個track裡面選一個track修完四門課. 
+- 從Artificial Intelligence - Applications (AI-A), Artificial Intelligence - Foundations (AI-F), High Performance Computing, Software Engineering四個specialization裡面選一個修完四門課（2026-27 學年官網，原來的 Data Analytics、Mobile Computing、Security 等 track 已不在列表裡）. 
 - 無限制選修課三門，可以選CSMC，TTIC，CS-phd的課。
 	
 ## 錄取偏好 {#录取偏好}

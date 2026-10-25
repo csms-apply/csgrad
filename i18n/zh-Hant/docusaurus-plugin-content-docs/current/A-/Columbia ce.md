@@ -10,7 +10,7 @@ description: "Columbia MSCE 的核心課可以怎樣搭配 CS 課程？本文介
 ## 找工評價 {#找工评价}
 學校的career fair基本沒用，聽說之前bbg可以保底，但現在也沒聽說有人上岸。但是周圍基本投得早的還是能拿到面試。樓主做個dp，0實習還是能過簡歷關拿到了meta和amazon的offer。但也確實不是有些公司的target school。樓主0實習ace uber和snowflake oa被拒也就算了，有同學好幾段fanng實習oa全對也是被拒。找工肯定是uiuc和ucsd cs75這種public school的項目更好。
 
-BITS Pilani 電子通信本科，本科期間有 nvidia ASIC 實習，2025年 Arm SoC intern，2026年 Arm Graduate Engineer 全職。
+1. BITS Pilani 電子通信本科，本科期間有 nvidia ASIC 實習，2025年 Arm SoC intern，2026年 Arm Graduate Engineer 全職。
 
 ## 課程評價 {#课程评价}
 大家都有個誤區，哥大因為每學期4門課workload大，其實是錯誤的。CE的選課極其自由，cs課隨便選，CE和mscs選cs課優先級一樣。5門core可以全軟，水課選擇很多，隨便推薦幾門，workload基本都等於0. 

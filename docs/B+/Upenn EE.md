@@ -9,7 +9,7 @@ sidebar_label: "Upenn EE"
 
 ## 项目介绍
 
-bar低且title好，不过必须选五门ESE开头的课，其余选课自由。要是跟我一样一点硬件都不懂可以选ESE下的数学，优化，ML，但是都很高阶，会很神（但跟sde没关系，毕竟是纯血EE项目）。当然也有让你毕业的水课。可以转/dual CS/其他项目也方便，bg好可以用来当保底，或者申隔壁的scmp当保底
+bar低且title好，不过 10 门课（CU）有要求：5 门 EE 核心方向课 + 2 门 ESE 选修 + 1 门 SEAS 选修 + 2 门开放选修（不在预批名单的要 petition）。要是跟我一样一点硬件都不懂可以选ESE下的数学，优化，ML，但是都很高阶，会很神（但跟sde没关系，毕竟是纯血EE项目）。当然也有让你毕业的水课。可以转/dual CS/其他项目也方便，bg好可以用来当保底，或者申隔壁的scmp当保底
 
 workload全由选课决定，可以去penn course review上看difficulty，水课不用露面，硬核也能选CIS
 

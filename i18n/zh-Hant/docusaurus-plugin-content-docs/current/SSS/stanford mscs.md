@@ -7,7 +7,7 @@ description: "Stanford MSCS 的選課體驗、TA/RA 機會與校園生活，附�
 # Stanford MSCS
 
 ## 項目介紹 {#项目介绍}
-神中神，唯一沒有缺點的項目，地理位置無敵（加州陽光大海），學校title好，cs排名高，旁邊就是meta 和nvidia（開車十分鐘路程），如果暑假去meta 或者nvidia實習都不需要租房（住原來的宿舍就行），找工情況也很牛，幾乎我所有認識的同學都有nvidia面試。如果轉phd需要重新申請。課程質量好，什麼cs229 deep learning systems, cs231 Deep Learning for Computer Vision，CS224N（nlp）耳熟能詳，幾乎是所有cs學生都上過的課。也可以上一些騎馬射箭學日語的課程，也可以養生。宿舍條件無敵
+神中神，唯一沒有缺點的項目，地理位置無敵（加州陽光大海），學校title好，cs排名高，旁邊就是meta 和nvidia（開車十分鐘路程），如果暑假去meta 或者nvidia實習都不需要租房（住原來的宿舍就行），找工情況也很牛，幾乎我所有認識的同學都有nvidia面試。如果轉phd需要重新申請。課程質量好，什麼cs229 machine learning, cs231n Deep Learning for Computer Vision，CS224N（nlp）耳熟能詳，幾乎是所有cs學生都上過的課。也可以上一些騎馬射箭學日語的課程，也可以養生。宿舍條件無敵
 
 
 

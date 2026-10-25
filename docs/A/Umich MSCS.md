@@ -16,14 +16,14 @@ sidebar_label: "UMich MSCS/MSCSE"
 地理位置不好，容易抑郁，CS课程大部分都在北校，建议有买车打算的同学前往。学校设施整体很不错。
 
 ## MS vs MSE
-UMich提供两个CS硕士学位：**MS（科学硕士）**和**MSE（工程硕士）**。两者仅在名称上有所区别，学位要求完全相同：  
+UMich提供两个CS硕士学位：<strong>MS（科学硕士）</strong>和<strong>MSE（工程硕士）</strong>。两者仅在名称上有所区别，学位要求完全相同：  
 - 本科拥有工程学士学位（BSE）的同学可以申请MS或MSE。  
 - 非工程学士学位（如BS、BA）的同学只能申请MS。
 
 ## 录取bar和dp
 
 ### 针对本校生
-对于UMich本科生，推荐通过**SUGS（Sequential Undergraduate/Graduate Studies）**项目申请硕士学位：
+对于UMich本科生，推荐通过<strong>SUGS（Sequential Undergraduate/Graduate Studies）</strong>项目申请硕士学位：
 - **项目优势**  
   - 本科和硕士部分课程可重叠（最多15学分），节省时间与费用。
   - 通常1-1.5年可完成硕士学位。

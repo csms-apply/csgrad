@@ -7,6 +7,9 @@ description: "Student observations on UW EE PMP software courses, co-op planning
 # UW EE PMP
 
 ## Program Strengths
+2026 update: UW has renamed its graduate EE degrees (including the MS, PMP and PhD) to ECE. The PMP program itself still exists and the curriculum is unchanged; only the degree title becomes MSECE, which is even better.
+All new graduate degree applications as of Autumn 2027 will be issued the Master of Science in Electrical and Computer Engineering. Current students can choose either the EE or the ECE degree title, and Spring 2032 is the last quarter students can graduate with the EE degree.
+
 This program is quite good. It carries the UW brand and is located in Seattle, very close to Microsoft, and it's also an MS target school.
 Plus, it allows 3 co-ops -- key point.
 The academic workload is very light. You can choose an all-software curriculum and have plenty of time for LeetCode grinding and job hunting. Last year's job landing rate was about 20% according to unofficial statistics.
@@ -21,7 +24,7 @@ https://ruit.me/blog/pmp
 ## Job Outcomes & Data Points
 25 Summer: Amazon offers in bulk -- dozens of Amazon intern offers.
 
-Soochow University Big Data Management bachelor’s, Tencent Data Engineer internship during the bachelor’s, AWS SWE intern (EC2 Nitro) while studying PMP in 2026.
+1. Soochow University Big Data Management bachelor’s, Tencent Data Engineer internship during the bachelor’s, AWS SWE intern (EC2 Nitro) while studying PMP in 2026.
 
 ## Software Courses
 Data Structures and Algorithms for ECE Applications (Slaughter)

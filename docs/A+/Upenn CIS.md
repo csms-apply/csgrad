@@ -12,7 +12,7 @@ sidebar_label: "Upenn CIS"
 
 两年制（3-3-2-2）
 一年半制（3-3-4）
-学生可以选择 course track 或 thesis track，找工作和申请 PhD 都比较灵活。学费 如果是 full-time，每学期约 $26,000，但如果研二课少可能会低一些。
+学生可以选择 course track 或 thesis track，找工作和申请 PhD 都比较灵活。学费 如果是 full-time，2026-27 学年每学期修 3 CU 约 $29,399、修 4 CU 约 $38,224（含杂费），但如果研二课少可能会低一些。
 
 大藤title很香，bar 对陆本的标准可以上升到SS，对美本应该在S，但是找工确实对标不了stanford 或者cmu scs这样的
 

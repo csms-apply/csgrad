@@ -11,7 +11,7 @@ Duke has three CS-related programs: 1. MSCS 2. ECE 3. Game Design. MSCS is a mor
 
 Overall, ECE courses are more SDE-oriented, and the admission threshold is more friendly (translation: easier to get into, and many career-change applicants apply here). There will likely be an interview during the application process, which tests your spoken English.
 
-ECE has two main tracks: MS and MEng. The difference is that MS requires a thesis while MEng does not, and MEng requires two business school courses and an internship to graduate. In previous years, the MS track had about 100 spots while MEng had 5-10. The official response is that MS and MEng have the same admission threshold — if you get into MS, you could also get into MEng, and vice versa. You can switch between them after enrollment.
+ECE has two main tracks: MS and MEng. The difference is that MS lets you choose among thesis, project or coursework-only options (per the official site for the 2026-27 academic year, a thesis is not required), while MEng has no thesis, and MEng requires two business school courses and an internship to graduate. In previous years, the MS track had about 100 spots while MEng had 5-10. The official response is that MS and MEng have the same admission threshold — if you get into MS, you could also get into MEng, and vice versa. You can switch between them after enrollment.
 
 ## Pros:
 1. Good course quality. There is the fall trio (550, 551, 590) and the spring trio (650, 651, 568), which are essentially all SDE-related courses. Career changers with a weaker foundation can use these to build up their basics. The spring trio has a relatively heavy workload — for example, ECE 651 SOFTWARE ENGINEERING takes a lot of time — but it does help build a solid foundation.

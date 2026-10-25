@@ -33,7 +33,7 @@ Quarter system — semester pressure can be intense.
 
 ## Course Structure
 
-- Choose one track from Data Analytics, High Performance Computing, Mobile Computing, Software Engineering, and Security, and complete four courses within that track.
+- Choose one specialization from Artificial Intelligence - Applications (AI-A), Artificial Intelligence - Foundations (AI-F), High Performance Computing, and Software Engineering, and complete four courses within it (per the official site for the 2026-27 academic year; the former Data Analytics, Mobile Computing and Security tracks are no longer listed).
 - Three unrestricted electives — you can take courses from CSMC, TTIC, and CS-PhD offerings.
 
 ## Admission Preferences

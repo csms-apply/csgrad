@@ -7,7 +7,7 @@ description: "Stanford MSCS student perspectives on coursework, campus life and 
 # Stanford MSCS
 
 ## Program Overview
-The best of the best -- the only program with no drawbacks. Unbeatable location (California sunshine and ocean), prestigious school name, top CS ranking, right next to Meta and Nvidia (a 10-minute drive). If you intern at Meta or Nvidia over the summer, you don't even need to find separate housing (just stay in your existing dorm). Job outcomes are also incredible -- almost every classmate I know has gotten an Nvidia interview. If you want to transfer to a PhD, you need to reapply. Course quality is excellent: CS229 Deep Learning Systems, CS231 Deep Learning for Computer Vision, CS224N (NLP) are all household names that virtually every CS student has taken. You can also take some leisure courses like horseback riding, archery, or Japanese, and live a balanced life. Dorm conditions are unbeatable.
+The best of the best -- the only program with no drawbacks. Unbeatable location (California sunshine and ocean), prestigious school name, top CS ranking, right next to Meta and Nvidia (a 10-minute drive). If you intern at Meta or Nvidia over the summer, you don't even need to find separate housing (just stay in your existing dorm). Job outcomes are also incredible -- almost every classmate I know has gotten an Nvidia interview. If you want to transfer to a PhD, you need to reapply. Course quality is excellent: CS229 Machine Learning, CS231N Deep Learning for Computer Vision, CS224N (NLP) are all household names that virtually every CS student has taken. You can also take some leisure courses like horseback riding, archery, or Japanese, and live a balanced life. Dorm conditions are unbeatable.
 
 
 

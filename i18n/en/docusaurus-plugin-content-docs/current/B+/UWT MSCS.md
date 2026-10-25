@@ -46,7 +46,7 @@ Prerequisite requirements are as follows:
 | Target Companies & Recruiting Access | Closer to Eastside tech giants; recruiters visit Bothell more often; evening classes + working-professional-friendly, conducive to working while studying (common path: intern -> full-time) | Graduates also get into big tech, but requires more self-motivation | Bothell is better |
 | Resume Screen | Write "University of Washington MS in Computer Science & Software Engineering" -- HR basically doesn't differentiate campuses, all recognized as UW | Write "University of Washington MS in Computer Science & Systems" -- equally recognized as UW | Tie |
 | Overall Employment Competitiveness | For most people wanting to get into Seattle big tech (Amazon, Microsoft, Google, etc.), it has more advantages (90.3% employment rate + location edge) | If you prefer cybersecurity/data science/systems, or prioritize budget/cost of living, you can still find good jobs, but on average requires more LeetCode/projects/self-driven effort | Bothell is more recommended |
-| Approximate Rent | Bothell rent is relatively higher -- studio ~$1,775-$2,100/month, 1BR ~$2,400+/month, 2BR+ up to $3,000+ (average ~$2.2K-$2.4K) | Tacoma rent is lower -- studio ~$1,250+/month, 1BR ~$1,784+/month, 2BR ~$2,200+/month, average ~$1.4K-$1.6K | Tacoma is cheaper |
+| Approximate Rent | Bothell rent is relatively higher -- 1BR ~$1,775-$2,100/month, 2BR ~$2,400+/month, 3BR+ up to $3,000+ (average ~$2.2K-$2.4K) | Tacoma rent is lower -- 1BR ~$1,250+/month, 2BR ~$1,784+/month, 3BR ~$2,200+/month, average ~$1.4K-$1.6K | Tacoma is cheaper |
 
 
 Conclusion: Apply to both. For job-hunting focus, go UWB. For budget control, go UWT.

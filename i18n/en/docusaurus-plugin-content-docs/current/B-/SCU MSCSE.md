@@ -7,7 +7,7 @@ title: "Santa Clara MSCSE Admissions Guide: Courses and Program Experience"
 # SCU MSCSE
 
 ## Program Overview
-Santa Clara University's Master of Science in Computer Science and Engineering, located in Santa Clara, CA — right in Silicon Valley. It runs on a quarter system (three 10-week terms per year), requiring 46 credits to graduate, roughly a 2-year program. Tuition is relatively affordable at around $53K total for 2 years, cheaper than NEU or NYU, though the brand recognition drops accordingly — outside the Bay Area, basically nobody knows SCU.
+Santa Clara University's Master of Science in Computer Science and Engineering, located in Santa Clara, CA — right in Silicon Valley. It runs on a quarter system (three 10-week terms per year), requiring 46 credits to graduate, roughly a 2-year program. Tuition is relatively affordable at around $60K total (2026-27: $1,304/unit × 46 units, excluding AGES and other fees), cheaper than NEU or NYU, though the brand recognition drops accordingly — outside the Bay Area, basically nobody knows SCU.
 
 The campus itself is quite nice: beautiful buildings, plenty of library study spaces, gym, pool, tennis and basketball courts, and much safer than SF/SJ downtown with essentially no homeless presence. But the food situation is rough — campus dining is about $14 per meal and not great, few decent restaurants nearby, and without a car you're basically stuck.
 

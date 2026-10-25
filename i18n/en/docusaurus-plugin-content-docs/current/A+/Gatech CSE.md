@@ -12,9 +12,9 @@ Let's start with what matters most -- it's cheap! One semester of four courses w
 
 In addition to using TA/RA to waive tuition, non-US undergrads can use the "reduce academic load" option to lower workload in the first semester, while also reducing tuition as a part-time student and focusing entirely on finding an internship.
 
-The CSE program offers really flexible course selection. Besides four core courses (leaning computational/math), the rest is basically the same as CS -- you can take CS courses with the same priority as MSCS students. The best part is that CSE students don't need to pick a specialization (since CSE itself is a specialization under MSCS), so as long as you can convince the academic advisor, almost everything counts for credit. This makes it even more flexible than MSCS, and you can definitely graduate in three semesters unless you want to stay longer.
+The CSE program offers really flexible course selection. Besides four core courses (leaning computational/math), the rest is basically the same as CS -- you can take CS courses with the same priority as MSCS students. The best part is that CSE students get the same CS course registration priority as MSCS (CoC home unit), and many CS courses can count toward the specialization minor -- as long as you can convince the academic advisor, they basically count for credit. That said, CSE and MSCS are two separate degrees: CSE has its own specialization minor requirement, including at least 6 credit hours of non-CS/CSE application-domain courses. The degree is 30 credit hours, and officially it usually takes three semesters, unless you want to stay longer.
 
-The I-20 says Computer Science, so you can write Computer Science as your major on your resume for job searching. Also, internal program transfers at GT are easy -- just finish the courses and you can transfer to CS. Apparently the theoretical threshold is a 3.5 GPA in the first semester (needs verification).
+The I-20 says Computer Science, so you can write Computer Science as your major on your resume for job searching. However, you can't simply transfer into MSCS -- the official FAQ states that MSCS does not accept internal change-of-major requests; you need to apply again.
 
 ## Admission Threshold & Standards
 
@@ -26,10 +26,10 @@ In terms of admission difficulty itself, CoC prefers applicants from target scho
 ## Job Outcomes & Data Points
 Similar to CS -- career outcomes include Meta, Google, etc.
 
-Joint Biomedical Engineering bachelor’s from Escuela de Ingeniería de Antioquia and Universidad CES, full-time Programming Analyst at a small company before enrollment, then part-time campus RA in 2024 and TA in 2025 during the master’s.
+1. Joint Biomedical Engineering bachelor’s from Escuela de Ingeniería de Antioquia and Universidad CES, full-time Programming Analyst at a small company before enrollment, then part-time campus RA in 2024 and TA in 2025 during the master’s.
 
 ## PhD Transfer
-As long as a professor agrees, you can transfer to the PhD program.
+A professor's agreement alone isn't enough: officially, MS students are evaluated as new PhD applicants and must also file a Change of Major/Level form. Faculty support does help.
 
 ## Campus & Living
 GT's campus has a lot of hills -- going to class feels like hiking. Fortunately, there are campus shuttles with many routes, running every 15 minutes. During holidays, there's even a special line to supermarkets, reaching a Target about 20 minutes away. As for dining, 80% of people eat at Panda Express and Chick-fil-A. I personally think Panda is decent, and buying the school's Dining Dollars saves 8.9% in tax.

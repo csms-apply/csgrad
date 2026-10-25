@@ -16,14 +16,14 @@ sidebar_label: "UMich MSCS/MSCSE"
 地理位置不好，容易抑鬱，CS課程大部分都在北校，建議有買車打算的同學前往。學校設施整體很不錯。
 
 ## MS vs MSE
-UMich提供兩個CS碩士學位：**MS（科學碩士）**和**MSE（工程碩士）**。兩者僅在名稱上有所區別，學位要求完全相同：  
+UMich提供兩個CS碩士學位：<strong>MS（科學碩士）</strong>和<strong>MSE（工程碩士）</strong>。兩者僅在名稱上有所區別，學位要求完全相同：  
 - 本科擁有工程學士學位（BSE）的同學可以申請MS或MSE。  
 - 非工程學士學位（如BS、BA）的同學只能申請MS。
 
 ## 錄取bar和dp {#录取bar和dp}
 
 ### 針對本校生 {#针对本校生}
-對於UMich本科生，推薦通過**SUGS（Sequential Undergraduate/Graduate Studies）**項目申請碩士學位：
+對於UMich本科生，推薦通過<strong>SUGS（Sequential Undergraduate/Graduate Studies）</strong>項目申請碩士學位：
 - **項目優勢**  
   - 本科和碩士部分課程可重疊（最多15學分），節省時間與費用。
   - 通常1-1.5年可完成碩士學位。
