@@ -44,6 +44,7 @@ const COPY = {
     searchLabel: '搜索',
     filterProgram: '项目',
     programSearchPlaceholder: '搜索学校 / 项目，如 cmu mscs、卡梅',
+    allProgramsOfSchool: '全部项目',
     filterYear: '年份',
     filterResult: '结果',
     filterUgCat: '本科类别',
@@ -152,6 +153,7 @@ const COPY = {
     searchLabel: 'Search',
     filterProgram: 'Program',
     programSearchPlaceholder: 'Search school / program, e.g. cmu mscs',
+    allProgramsOfSchool: 'All programs',
     filterYear: 'Year',
     filterResult: 'Result',
     filterUgCat: 'Undergrad type',
@@ -270,7 +272,7 @@ function pickLocale(loc) {
 
 // ---------- URL <-> filter state helpers ----------
 
-const URL_KEYS = ['programId', 'year', 'result', 'ugCat', 'major', 'gpaMin', 'gpaMax'];
+const URL_KEYS = ['programId', 'school', 'year', 'result', 'ugCat', 'major', 'gpaMin', 'gpaMax'];
 
 function readFiltersFromUrl() {
   if (typeof window === 'undefined') return {};
@@ -286,7 +288,6 @@ function readFiltersFromUrl() {
 function writeFiltersToUrl(filters, history) {
   if (typeof window === 'undefined') return;
   const params = new URLSearchParams(window.location.search);
-  params.delete('school');
   params.delete('tier');
   for (const k of URL_KEYS) {
     const v = filters[k];
@@ -421,6 +422,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
 
   const initial = useMemo(() => readFiltersFromUrl(), []);
   const [programId, setProgramId] = useState(initial.programId || '');
+  const [school, setSchool] = useState(initial.programId ? '' : initial.school || '');
   const [programs, setPrograms] = useState([]);
   const [year, setYear] = useState(initial.year || '');
   const [result, setResult] = useState(initial.result || '');
@@ -442,10 +444,10 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   }, []);
 
   useEffect(() => {
-    writeFiltersToUrl({ programId, year, result, ugCat, major, gpaMin, gpaMax }, history);
-  }, [programId, year, result, ugCat, major, gpaMin, gpaMax, history]);
+    writeFiltersToUrl({ programId, school, year, result, ugCat, major, gpaMin, gpaMax }, history);
+  }, [programId, school, year, result, ugCat, major, gpaMin, gpaMax, history]);
 
-  useEffect(() => setPage(0), [programId, year, result, ugCat, major, gpaMin, gpaMax]);
+  useEffect(() => setPage(0), [programId, school, year, result, ugCat, major, gpaMin, gpaMax]);
 
   // Fetch rows on filter/page change. Only present matches for a completed
   // request; stale rows/counts must not masquerade as the new filter's results.
@@ -474,6 +476,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       try {
         const res = await listDp({
           programId: programId || undefined,
+          school: school || undefined,
           year: year || undefined,
           result: result || undefined,
           ugCategory: ugCat || undefined,
@@ -493,7 +496,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       }
     }, delay);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [programId, year, result, ugCat, major, gpaRange, page, retryKey]);
+  }, [programId, school, year, result, ugCat, major, gpaRange, page, retryKey]);
 
   function retryLoad() {
     setLoading(true);
@@ -519,6 +522,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
         value: selectedProgram ? `${selectedProgram.school} · ${selectedProgram.program}` : programId,
       });
     }
+    if (school) items.push({ key: 'school', label: t.filterProgram, value: `${school} · ${t.allProgramsOfSchool}` });
     if (year) items.push({ key: 'year', label: t.filterYear, value: year });
     if (result) items.push({ key: 'result', label: t.filterResult, value: displayDataValue(result, t.resultLabels) });
     if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: displayDataValue(ugCat, t.ugCategoryLabels) });
@@ -527,7 +531,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       items.push({ key: 'gpa', label: t.gpaRangeLabel, value: formatGpaRange(gpaRange.min, gpaRange.max) });
     }
     return items;
-  }, [programId, selectedProgram, year, result, ugCat, major, gpaRange, t]);
+  }, [programId, selectedProgram, school, year, result, ugCat, major, gpaRange, t]);
 
   return (
     <div className={styles.wrap}>
@@ -560,9 +564,11 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
           label={t.filterProgram}
           programs={programs}
           value={programId}
-          onChange={setProgramId}
+          school={school}
+          onChange={(next) => { setProgramId(next.programId || ''); setSchool(next.school || ''); }}
           placeholder={t.programSearchPlaceholder}
           allText={t.filterAll}
+          allProgramsText={t.allProgramsOfSchool}
           selected={selectedProgram}
         />
         <Select label={t.filterYear} value={year} onChange={setYear} options={filterOpts.years} allText={t.filterAll} />
@@ -1041,31 +1047,42 @@ function GpaRangeFilter({ min, max, onMinChange, onMaxChange, error, t }) {
   );
 }
 
-// Searchable single-program filter. Replaces the old school + tier dropdowns:
-// pick one exact program (school + program name) and the table narrows to it
-// via the `programId` query param. `selected` is the resolved program object
-// for `value` (or null), passed in so the label can render before the list
-// finishes loading.
-function ProgramFilter({ label, programs, value, onChange, placeholder, allText, selected }) {
+// Searchable program filter. Pick one exact program (`programId`) or, when the
+// query names a school, "<school> · all programs" (`school`). onChange receives
+// { programId, school } with at most one of them set. `selected` is the resolved
+// program object for `value` (or null), passed in so the label can render before
+// the list finishes loading.
+function ProgramFilter({ label, programs, value, school, onChange, placeholder, allText, allProgramsText, selected }) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const blurTimer = useRef(null);
 
   // Show every match (~250 programs); the dropdown scrolls. Virtualize if the list grows to thousands.
-  const filtered = useMemo(() => searchPrograms(programs, query), [programs, query]);
+  const filtered = useMemo(() => {
+    const matches = searchPrograms(programs, query);
+    if (!query.trim()) return matches;
+    // Offer "<school> · all programs" first for schools the query itself names.
+    const counts = new Map();
+    for (const p of programs) counts.set(p.school, (counts.get(p.school) || 0) + 1);
+    const schools = [...new Set(matches.map((p) => p.school))]
+      .filter((s) => searchPrograms([{ school: s, program: '' }], query).length > 0)
+      .map((s) => ({ id: `school:${s}`, school: s, count: counts.get(s) }));
+    return [...schools, ...matches];
+  }, [programs, query]);
 
-  // Show the chosen program's label when one is selected and the field isn't
-  // being actively edited; otherwise show the live search query.
-  const inputValue = selected && !open ? `${selected.school} · ${selected.program}` : query;
+  // Show the chosen label when something is selected and the field isn't being
+  // actively edited; otherwise show the live search query.
+  const chosenLabel = selected ? `${selected.school} · ${selected.program}` : school ? `${school} · ${allProgramsText}` : '';
+  const inputValue = chosenLabel && !open ? chosenLabel : query;
 
   function pick(p) {
-    onChange(p.id);
+    onChange(p.count != null ? { programId: '', school: p.school } : { programId: p.id, school: '' });
     setQuery('');
     setOpen(false);
   }
   function clear() {
-    onChange('');
+    onChange({ programId: '', school: '' });
     setQuery('');
     setOpen(false);
   }
@@ -1078,7 +1095,7 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
           type="text"
           className={styles.programFilterInput}
           value={inputValue}
-          placeholder={selected ? '' : placeholder}
+          placeholder={chosenLabel ? '' : placeholder}
           aria-label={label}
           role="combobox"
           aria-autocomplete="list"
@@ -1087,7 +1104,7 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
           aria-activedescendant={open && activeIndex >= 0 && activeIndex < filtered.length ? `dp-program-option-${activeIndex}` : undefined}
           onFocus={() => { if (blurTimer.current) clearTimeout(blurTimer.current); setActiveIndex(-1); setOpen(true); }}
           onBlur={() => { blurTimer.current = setTimeout(() => setOpen(false), 150); }}
-          onChange={(e) => { if (value) onChange(''); setQuery(e.target.value); setActiveIndex(-1); setOpen(true); }}
+          onChange={(e) => { if (value || school) onChange({ programId: '', school: '' }); setQuery(e.target.value); setActiveIndex(-1); setOpen(true); }}
           onKeyDown={(e) => {
             if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
               e.preventDefault();
@@ -1105,7 +1122,7 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
             }
           }}
         />
-        {value ? (
+        {value || school ? (
           <button
             type="button"
             className={styles.programFilterClear}
@@ -1128,7 +1145,7 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => pick(p)}
               >
-                <span className={styles.programFilterName}><b>{p.school}</b> · {p.program}</span>
+                <span className={styles.programFilterName}><b>{p.school}</b> · {p.count != null ? `${allProgramsText} (${p.count})` : p.program}</span>
               </li>
             ))}
           </ul>
