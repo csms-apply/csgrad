@@ -49,21 +49,3 @@ oracle、nvidia非常喜歡招stanford的。
 4. ucla ee本科 上岸aws intern
 
 5. uw ee本科，入學前有Siemens Healthineers全職經歷，2023年微軟ee intern，2024年上岸微軟ee全職。
-
-## 選課和 wld {#选课和-wld}
-
-MSEE 選課很自由，cs bg 的同學基本可以排成偏 software 或偏 hardware 的課表，不少 CS 課都能 petition 進 depth / breadth。petition 要 advisor 批，所以 advisor 這一環挺關鍵。畢業是 45 units，學分修滿不代表畢業要求都湊齊了，各個類別要分別對上。
-
-找工或者做科研為主的話，project 為主的課比較合適。本來就在做 NLP / ML 的同學，選自己熟的方向會輕鬆很多；剛轉碼的同學別直接拿這個體感估自己的 wld。
-
-2023—2025 年 NLP / ML 背景的修課體感：
-
-- 輕鬆檔：MS&E338、CS329T、CS224V、CS329A，當時每週不到 3h，MS&E338 更少。CS224V 偶爾要 attendance。
-- 稍忙檔：CS229S、CS349D、CS349H、CS375、CS238，當時每週不到 5h。CS349D、CS375 有 attendance，CS349H 後來在加作業。
-- CS238 的 quiz 還是有點煩，名聲輕鬆也得複習一下。
-
-所以 MSEE 可以讀得很硬核，也可以排得很舒服。找工向沒必要每個 quarter 都疊滿大課；科研向可以挑 project 和自己方向接近的課。上面是往屆體感，換老師、改作業以後 wld 會變。
-
-## CPT
-
-2026-10-11 更新：**Stanford 目前暫停非必修 CPT。** MSEE 的 EE290 實習課是選修，不是全體學生畢業都要做的實習，光註冊這門課，已經不能按以前的辦法辦 CPT 了。

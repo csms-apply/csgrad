@@ -7,8 +7,6 @@ description: "Georgia Tech ECE student notes on software and hardware electives,
 
 ## Program Overview
 
-> **October 11, 2026 internship update:** The earlier co-op experiences below are preserved. OIE plans to begin accepting Spring 2027 CPT applications on October 19; approval outcomes are not yet established. Fall 2026 CPT extensions will not be approved. Internships remain optional for the regular MS ECE.
-
 Degree: Master of Science in Electrical & Computer Engineering, abbreviated MSECE.
 
 Campus: Primarily the Atlanta main campus; you can also spend time at the Lorraine (France) or Shenzhen campuses.
@@ -60,23 +58,3 @@ No extra charge for overloading — beyond 12 credits it is free. If you have th
 ## How to Prepare for Internship Hunting After Arriving at GT
 
 ![Georgia Tech ECE internship, co-op and full-time planning paths](/img/en/gtecetimeline.svg)
-
-## More on courses and workload
-
-The program is pretty flexible, and you can go software-heavy or hardware-heavy, but you can't piece together just any schedule. The non-thesis option requires nine credits of advanced ECE in each of Group I and Group II, and Group II also has Technical Interest Area distribution rules. 6001 is entrepreneurship and professional training, a different kind of course from the technical ones.
-
-Being in the catalog doesn't mean a course runs every semester; back in 2022, the VLSI area had very few courses to choose from in one term. If you want to concentrate in one area, what actually gets offered shapes your experience directly. There are light courses and hardcore ones, and a hardware-project schedule looks very different from a career-switch software schedule.
-
-## TA / RA
-
-Master's students can go for TA and RA positions. Appointments that meet the hiring and registration requirements come with pay and tuition waivers, and ECE allows positions outside the department, so you're not limited to ECE. Hiring can wrap up before the previous semester ends, though, so asking right before the break can easily be too late. For research, reach out to professors about joining their group; moving into the PhD also takes an advisor, funding and the department's academic milestones.
-
-## Recruiting and life
-
-Hardware, embedded and software are all viable paths, and moving from ECE into software works too. Career fairs are useful but don't replace regular applications. Building on prior hardware experience and starting SDE prep from zero are two different routes.
-
-On campus or nearby, you can live without a car. Live farther out and you'll be driving, which adds parking and commuting on top of rent. Atlanta rush-hour traffic really affects daily life, so the cheaper apartment isn't always the easier one. Dorm prices and perks from 2022 are no longer a useful reference.
-
-## CPT — October 11, 2026 update
-
-OIE is still reviewing CPT. Spring 2027 applications open October 19, and Fall 2026 extensions will not be approved. Internships are optional in the regular MS ECE, it's still unconfirmed whether ordinary spring internships will be approved, and internship audit credits don't count toward graduation. Read the older internship notes earlier on this page in light of this update.
