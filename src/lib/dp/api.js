@@ -1,14 +1,14 @@
 // Client for the DataPoints API.
 //
-// Row data always comes from the live worker via /api/dp. The static
+// Row data always comes from the same-origin API via /api/dp. The static
 // dp-snapshot.json is now slim — only filter-option lists + total counts —
 // used to populate filter dropdowns and header counts before the API
 // responds. There is no full-snapshot fallback for rows.
 
-import { WORKER_BASE_URL } from '../positioning/api';
+import { SITE_API_BASE } from '../positioning/api';
 import { LIST_LIMIT_API } from './config';
 
-export const DP_API_BASE = WORKER_BASE_URL; // same worker as positioning
+export const DP_API_BASE = SITE_API_BASE;
 
 // In production builds we want fallback errors to stay silent (resilience is a
 // feature). In dev, surface them via console.warn so debugging is easier.
@@ -94,9 +94,9 @@ const TIER_ORDER = ['SSS', 'SS', 'S', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C
 
 /**
  * Returns the filter-option lists used by the DataPoints page filters.
- * Prefers the live worker (/api/filter-options) so newly submitted DPs'
+ * Prefers the live API (/api/filter-options) so newly submitted DPs'
  * schools / majors / years show up in the dropdowns; falls back to the
- * frozen snapshot if the worker is unreachable.
+ * frozen snapshot if the API is unreachable.
  * @returns {Promise<{schools: string[], tiers: string[], years: number[], ugCats: string[], majors: string[]}>}
  */
 export async function getFilterOptions() {
@@ -123,7 +123,7 @@ export async function getFilterOptions() {
 // "Mainland CN, other") was retired in favor of the more specific tiers
 // (清北/华五/985/211/双非...). We still render its label for historical rows,
 // but it no longer appears as a filter option. Applied here so both the live
-// worker response and the snapshot fallback are covered.
+// API response and the snapshot fallback are covered.
 const HIDDEN_UG_CATS = new Set(['陆本']);
 
 function reorderTiers(opts) {
@@ -143,15 +143,16 @@ function reorderTiers(opts) {
 // ---------- helpers ----------
 
 function buildUrl(path, params) {
-  const url = new URL(path, DP_API_BASE);
+  const search = new URLSearchParams();
   for (const [k, v] of Object.entries(params)) {
     if (v == null || v === '') continue;
-    url.searchParams.set(k, String(v));
+    search.set(k, String(v));
   }
-  return url.toString();
+  const query = search.toString();
+  return `${DP_API_BASE}${path}${query ? `?${query}` : ''}`;
 }
 
-// Counts for the header. Prefer the live worker (/api/stats) so newly
+// Counts for the header. Prefer the live API (/api/stats) so newly
 // submitted DPs are reflected; fall back to the frozen snapshot if the
 // worker is unreachable. Preserve provenance so the page can label snapshots
 // and show unknown (not zero) when neither source can be loaded.
