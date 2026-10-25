@@ -21,7 +21,7 @@ defer一個學期然後spring入學拿cpt，因此解決了之前常見的一年
 
 
 ## 錄取bar和dp {#录取bar和dp}
-口語要求28，基本都是海本+印度人，本科學校有：
+口語最低要求5.5（新版託福，官網說多數錄取者超過最低線），基本都是海本+印度人，本科學校有：
 UCSD，還有UCLA，UIUC，Brandeis，NYU，Penn State，U of Toronto，Waterloo
 
 ## 找工情況 {#找工情况}

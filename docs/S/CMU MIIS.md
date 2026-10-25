@@ -13,7 +13,7 @@ LTI开设，主要是就业导向，可以一年半毕业，也可以两年毕�
 
 
 ## 录取bar 和dp
-很高，录取hc很少，往年录取率大概8%，喜欢ai/nlp bg的
+很高，录取hc很少，官方2024年数据350人申请录取58人（录取率约17%），喜欢ai/nlp bg的
 1. uwterloo cs gpa3.98, minor optimization, amazon+oracle实习
 2. duke kunshan ds本科，三年ra经历, 两篇pub
 3. Brandeis University cs本科gpa3.88，两年ra经历，两篇acl n作，part time 两年校内sde

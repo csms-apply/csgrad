@@ -15,7 +15,7 @@ The S-tier rating is mainly because: US undergrad students can defer a semester 
 
 
 ## Admission Threshold & Data Points
-Speaking score requirement of 28. Mostly US undergrads + Indian students. Undergrad schools include:
+Minimum Speaking score of 5.5 (new TOEFL scale; the official site notes most admitted applicants exceed the minimums). Mostly US undergrads + Indian students. Undergrad schools include:
 UCSD, UCLA, UIUC, Brandeis, NYU, Penn State, University of Toronto, Waterloo
 
 ## Job Outcomes

@@ -8,7 +8,7 @@ sidebar_label: "UIUC MSCS"
 
 ## 項目介紹 {#项目介绍}
 
-UIUC 下面的王牌旗艦項目，可以當成phd申請，最好申請前陶瓷。fully funded, target phd。本校生有5year bs-ms項目，讀的就是MSCS（review 注：一些25 fall朋友反饋， UIUC MSCS已經不再保證fully funded，這樣看來性價比有所降低）
+UIUC 下面的王牌旗艦項目，可以當成phd申請，最好申請前陶瓷。官方不保證 fully funded（Grainger 只對 PhD 保證資助）, target phd。本校生有5year bs-ms項目，讀的就是MSCS（review 注：一些25 fall朋友反饋， UIUC MSCS已經不再保證fully funded，這樣看來性價比有所降低）
 
 
 
@@ -30,10 +30,8 @@ UIUC 下面的王牌旗艦項目，可以當成phd申請，最好申請前陶瓷
 3. university of toronto ce本科+ai minor，中信實習+加拿大小廠實習
 4. monash 大學本科cs gpa 4.0
 5. uiuc cs本科gpa 3.91
-5. ubc cs+math本科女生，三年RA經驗
-6.  McMaster University 
-McMaster University
-McMaster University  Mechatronics Engineering本科 gpa 11/12
+6. ubc cs+math本科女生，三年RA經驗
+7. McMaster University Mechatronics Engineering本科 gpa 11/12
 
 
 ## 找工dp

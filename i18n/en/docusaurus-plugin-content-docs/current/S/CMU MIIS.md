@@ -11,7 +11,7 @@ Offered by LTI, primarily career-oriented. You can graduate in 1.5 years or 2 ye
 
 
 ## Admission Threshold & Data Points
-Very high admission threshold with very few spots. Historical acceptance rate is around 8%. Prefers candidates with AI/NLP backgrounds.
+Very high admission threshold with very few spots. Official 2024 data: 58 admitted out of 350 applications (about 17%). Prefers candidates with AI/NLP backgrounds.
 1. UWaterloo CS, GPA 3.98, minor in Optimization, Amazon + Oracle internships
 2. Duke Kunshan DS undergrad, three years of RA experience, two publications
 3. Brandeis University CS undergrad, GPA 3.88, two years of RA experience, two ACL co-authored papers, two years part-time campus SDE

@@ -21,7 +21,7 @@ defer一个学期然后spring入学拿cpt，因此解决了之前常见的一年
 
 
 ## 录取bar和dp
-口语要求28，基本都是海本+印度人，本科学校有：
+口语最低要求5.5（新版托福，官网说多数录取者超过最低线），基本都是海本+印度人，本科学校有：
 UCSD，还有UCLA，UIUC，Brandeis，NYU，Penn State，U of Toronto，Waterloo
 
 ## 找工情况
