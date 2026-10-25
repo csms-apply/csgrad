@@ -8,6 +8,30 @@ const authImports = {
 };
 const emptyOptions = {schools: [], tiers: [], years: [], ugCats: [], majors: []};
 
+test('program filter supports keyboard selection', () => {
+  const harness = pageHarness('datapoints', ['ProgramFilter'], {imports: authImports});
+  const selected = [];
+  const props = {
+    label: 'Program',
+    programs: [{id: 'mit-mscs', school: 'MIT', program: 'MSCS'}],
+    value: '',
+    onChange: (id) => selected.push(id),
+    placeholder: 'Search programs',
+    allText: 'All',
+    selected: null,
+  };
+  let tree = harness.render('ProgramFilter', props);
+  let input = elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
+  input.props.onFocus();
+  tree = harness.render('ProgramFilter', props);
+  input = elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
+  input.props.onKeyDown({key: 'ArrowDown', preventDefault() {}});
+  tree = harness.render('ProgramFilter', props);
+  input = elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
+  input.props.onKeyDown({key: 'Enter', preventDefault() {}});
+  assert.deepEqual(selected, ['mit-mscs']);
+});
+
 for (const locale of ['zh-Hans', 'en']) {
   test(`${locale}: failed DP load is distinct from empty results and can retry`, async () => {
     let attempts = 0;
@@ -15,7 +39,7 @@ for (const locale of ['zh-Hans', 'en']) {
       locale,
       imports: {
         ...authImports,
-        '@site/src/lib/dp/api': {listDp: async () => {
+        '@site/src/lib/dp/api': {listPrograms: async () => ({rows: []}), listDp: async () => {
           attempts += 1;
           if (attempts === 1) throw new TypeError('Failed to fetch');
           return {rows: [], total: 0};
@@ -70,7 +94,7 @@ for (const locale of ['zh-Hans', 'en']) {
   test(`${locale}: changing DP filters updates the router while retaining other query parameters`, async () => {
     const pathname = locale === 'en' ? '/en/datapoints' : '/datapoints';
     const window = {
-      location: {pathname, search: '?school=Harvard&utm_source=e2e', hash: '#filters'},
+      location: {pathname, search: '?programId=harvard-mscs&utm_source=e2e', hash: '#filters'},
       innerWidth: 1200, addEventListener() {}, removeEventListener() {},
       history: {replaceState() { throw new Error('Native history does not notify the language menu'); }},
     };
@@ -82,19 +106,25 @@ for (const locale of ['zh-Hans', 'en']) {
       imports: {
         ...authImports,
         '@docusaurus/router': {useHistory: () => history},
-        '@site/src/lib/dp/api': {listDp: async () => ({rows: [], total: 0})},
+        '@site/src/lib/dp/api': {
+          listPrograms: async () => ({rows: [
+            {id: 'harvard-mscs', school: 'Harvard', program: 'MSCS'},
+            {id: 'mit-mscs', school: 'MIT', program: 'MSCS'},
+          ]}),
+          listDp: async () => ({rows: [], total: 0}),
+        },
       },
     });
     const props = {counts: {source: 'unavailable'}, filterOpts: emptyOptions, t: harness.exports.COPY[locale], locale};
     let tree = harness.render('Table', props);
-    const schoolSelect = () => elements(tree, (el) => el.type?.name === 'Select' && el.props.label === props.t.filterSchool)[0];
-    assert.equal(schoolSelect().props.value, 'Harvard', 'initial query filters survive hydration');
+    const programFilter = () => elements(tree, (el) => el.type?.name === 'ProgramFilter')[0];
+    assert.equal(programFilter().props.value, 'harvard-mscs', 'initial program filter survives hydration');
     await harness.effects();
     assert.equal(destinations.length, 0, 'unchanged initial filters do not trigger navigation');
-    schoolSelect().props.onChange('MIT');
+    programFilter().props.onChange('mit-mscs');
     tree = harness.render('Table', props);
     await harness.effects();
-    assert.deepEqual(destinations, [`${pathname}?school=MIT&utm_source=e2e#filters`]);
+    assert.deepEqual(destinations, [`${pathname}?programId=mit-mscs&utm_source=e2e#filters`]);
     assert.doesNotMatch(visibleText(tree), /1908|317|280/);
     assert.match(visibleText(tree), locale === 'en' ? /Database totals are temporarily unavailable/ : /暂时无法获取数据库总量/);
   });

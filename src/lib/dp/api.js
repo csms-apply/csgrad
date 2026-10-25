@@ -29,6 +29,7 @@ function warnDev(...args) {
 /**
  * Fetch a filtered, paginated list of DPs.
  * @param {object} opts
+ * @param {string} [opts.programId]
  * @param {string} [opts.school]
  * @param {string} [opts.tier]
  * @param {string|number} [opts.year]

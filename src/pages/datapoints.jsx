@@ -6,7 +6,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { useHistory } from '@docusaurus/router';
-import { getMe, listDp, getFilterOptions, getCounts } from '@site/src/lib/dp/api';
+import { getMe, listDp, getFilterOptions, getCounts, listPrograms } from '@site/src/lib/dp/api';
 import { formatGpaRange, parseGpaRange } from '@site/src/lib/dp/gpa-filter.mjs';
 import { localizedInternalPath } from '@site/src/lib/seo/localizedAlternates.mjs';
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
@@ -24,7 +24,7 @@ const EMPTY_FILTER_OPTS = { schools: [], tiers: [], years: [], ugCats: [], major
 const COPY = {
   'zh-Hans': {
     pageTitle: 'CS / MSCS 申请录取数据库',
-    pageDesc: '按学校、项目档次、申请年份、录取结果、本科背景和 GPA 筛选历史 CS / MSCS 申请数据，辅助选校定位与结果对比。',
+    pageDesc: '按项目、申请年份、录取结果、本科背景和 GPA 筛选历史 CS / MSCS 申请数据，辅助选校定位与结果对比。',
     headerTitle: 'CS Application DataPoints',
     metaApplicants: '位申请者',
     metaPrograms: '个项目',
@@ -41,8 +41,8 @@ const COPY = {
     countsUnavailable: '暂时无法获取数据库总量。',
     searchPlaceholder: '搜索学校 / 项目',
     searchLabel: '搜索',
-    filterSchool: '学校',
-    filterTier: '项目档次',
+    filterProgram: '项目',
+    programSearchPlaceholder: '搜索学校 / 项目',
     filterYear: '年份',
     filterResult: '结果',
     filterUgCat: '本科类别',
@@ -132,7 +132,7 @@ const COPY = {
   },
   en: {
     pageTitle: 'CS & MSCS Admissions Data Explorer',
-    pageDesc: 'Explore historical CS and MSCS application outcomes by school, program tier, year, decision, undergraduate background, and GPA.',
+    pageDesc: 'Explore historical CS and MSCS application outcomes by program, year, decision, undergraduate background, and GPA.',
     headerTitle: 'CS Application DataPoints',
     metaApplicants: 'applicants',
     metaPrograms: 'programs',
@@ -149,8 +149,8 @@ const COPY = {
     countsUnavailable: 'Database totals are temporarily unavailable.',
     searchPlaceholder: 'Search school / program',
     searchLabel: 'Search',
-    filterSchool: 'School',
-    filterTier: 'Program tier',
+    filterProgram: 'Program',
+    programSearchPlaceholder: 'Search school / program',
     filterYear: 'Year',
     filterResult: 'Result',
     filterUgCat: 'Undergrad type',
@@ -269,7 +269,7 @@ function pickLocale(loc) {
 
 // ---------- URL <-> filter state helpers ----------
 
-const URL_KEYS = ['school', 'tier', 'year', 'result', 'ugCat', 'major', 'gpaMin', 'gpaMax'];
+const URL_KEYS = ['programId', 'year', 'result', 'ugCat', 'major', 'gpaMin', 'gpaMax'];
 
 function readFiltersFromUrl() {
   if (typeof window === 'undefined') return {};
@@ -285,6 +285,8 @@ function readFiltersFromUrl() {
 function writeFiltersToUrl(filters, history) {
   if (typeof window === 'undefined') return;
   const params = new URLSearchParams(window.location.search);
+  params.delete('school');
+  params.delete('tier');
   for (const k of URL_KEYS) {
     const v = filters[k];
     if (v === '' || v == null) params.delete(k);
@@ -417,8 +419,8 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   const [openApplicantId, setOpenApplicantId] = useState(null);
 
   const initial = useMemo(() => readFiltersFromUrl(), []);
-  const [school, setSchool] = useState(initial.school || '');
-  const [tier, setTier] = useState(initial.tier || '');
+  const [programId, setProgramId] = useState(initial.programId || '');
+  const [programs, setPrograms] = useState([]);
   const [year, setYear] = useState(initial.year || '');
   const [result, setResult] = useState(initial.result || '');
   const [ugCat, setUgCat] = useState(initial.ugCat || '');
@@ -428,11 +430,21 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   const [page, setPage] = useState(0);
   const gpaRange = useMemo(() => parseGpaRange(gpaMin, gpaMax), [gpaMin, gpaMax]);
 
+  // Program list powers the searchable "项目" filter and resolves a programId
+  // (e.g. one restored from the URL) back to its school·program label.
   useEffect(() => {
-    writeFiltersToUrl({ school, tier, year, result, ugCat, major, gpaMin, gpaMax }, history);
-  }, [school, tier, year, result, ugCat, major, gpaMin, gpaMax, history]);
+    let cancelled = false;
+    listPrograms({ limit: 500 })
+      .then((r) => { if (!cancelled) setPrograms(r.rows || []); })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, []);
 
-  useEffect(() => setPage(0), [school, tier, year, result, ugCat, major, gpaMin, gpaMax]);
+  useEffect(() => {
+    writeFiltersToUrl({ programId, year, result, ugCat, major, gpaMin, gpaMax }, history);
+  }, [programId, year, result, ugCat, major, gpaMin, gpaMax, history]);
+
+  useEffect(() => setPage(0), [programId, year, result, ugCat, major, gpaMin, gpaMax]);
 
   // Fetch rows on filter/page change. Only present matches for a completed
   // request; stale rows/counts must not masquerade as the new filter's results.
@@ -460,8 +472,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
     const handle = setTimeout(async () => {
       try {
         const res = await listDp({
-          school: school || undefined,
-          tier: tier || undefined,
+          programId: programId || undefined,
           year: year || undefined,
           result: result || undefined,
           ugCategory: ugCat || undefined,
@@ -481,7 +492,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       }
     }, delay);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [school, tier, year, result, ugCat, major, gpaRange, page, retryKey]);
+  }, [programId, year, result, ugCat, major, gpaRange, page, retryKey]);
 
   function retryLoad() {
     setLoading(true);
@@ -493,10 +504,20 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
   const paged = rows;
 
+  const selectedProgram = useMemo(
+    () => programs.find((p) => p.id === programId) || null,
+    [programs, programId],
+  );
+
   const activeFilters = useMemo(() => {
     const items = [];
-    if (school) items.push({ key: 'school', label: t.filterSchool, value: school });
-    if (tier) items.push({ key: 'tier', label: t.filterTier, value: tier });
+    if (programId) {
+      items.push({
+        key: 'programId',
+        label: t.filterProgram,
+        value: selectedProgram ? `${selectedProgram.school} · ${selectedProgram.program}` : programId,
+      });
+    }
     if (year) items.push({ key: 'year', label: t.filterYear, value: year });
     if (result) items.push({ key: 'result', label: t.filterResult, value: displayDataValue(result, t.resultLabels) });
     if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: displayDataValue(ugCat, t.ugCategoryLabels) });
@@ -505,7 +526,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       items.push({ key: 'gpa', label: t.gpaRangeLabel, value: formatGpaRange(gpaRange.min, gpaRange.max) });
     }
     return items;
-  }, [school, tier, year, result, ugCat, major, gpaRange, t]);
+  }, [programId, selectedProgram, year, result, ugCat, major, gpaRange, t]);
 
   return (
     <div className={styles.wrap}>
@@ -534,8 +555,15 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       </header>
 
       <section className={styles.filters} aria-label="filters">
-        <Select label={t.filterSchool} value={school} onChange={setSchool} options={filterOpts.schools} allText={t.filterAll} />
-        <Select label={t.filterTier} value={tier} onChange={setTier} options={filterOpts.tiers} allText={t.filterAll} />
+        <ProgramFilter
+          label={t.filterProgram}
+          programs={programs}
+          value={programId}
+          onChange={setProgramId}
+          placeholder={t.programSearchPlaceholder}
+          allText={t.filterAll}
+          selected={selectedProgram}
+        />
         <Select label={t.filterYear} value={year} onChange={setYear} options={filterOpts.years} allText={t.filterAll} />
         <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.resultLabels)} />
         <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.ugCategoryLabels)} />
@@ -1009,6 +1037,109 @@ function GpaRangeFilter({ min, max, onMinChange, onMaxChange, error, t }) {
       </div>
       {errorText ? <span id="gpa-filter-error" className={styles.filterError} role="alert">{errorText}</span> : null}
     </div>
+  );
+}
+
+// Searchable single-program filter. Replaces the old school + tier dropdowns:
+// pick one exact program (school + program name) and the table narrows to it
+// via the `programId` query param. `selected` is the resolved program object
+// for `value` (or null), passed in so the label can render before the list
+// finishes loading.
+function ProgramFilter({ label, programs, value, onChange, placeholder, allText, selected }) {
+  const [query, setQuery] = useState('');
+  const [open, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
+  const blurTimer = useRef(null);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const base = q
+      ? programs.filter((p) => `${p.school} ${p.program}`.toLowerCase().includes(q))
+      : programs;
+    return base.slice(0, 40);
+  }, [programs, query]);
+
+  // Show the chosen program's label when one is selected and the field isn't
+  // being actively edited; otherwise show the live search query.
+  const inputValue = selected && !open ? `${selected.school} · ${selected.program}` : query;
+
+  function pick(p) {
+    onChange(p.id);
+    setQuery('');
+    setOpen(false);
+  }
+  function clear() {
+    onChange('');
+    setQuery('');
+    setOpen(false);
+  }
+
+  return (
+    <label className={`${styles.selectWrap} ${styles.programFilter}`}>
+      <span>{label}</span>
+      <div className={styles.programFilterControl}>
+        <input
+          type="text"
+          className={styles.programFilterInput}
+          value={inputValue}
+          placeholder={selected ? '' : placeholder}
+          aria-label={label}
+          role="combobox"
+          aria-autocomplete="list"
+          aria-expanded={open && filtered.length > 0}
+          aria-controls="dp-program-options"
+          aria-activedescendant={open && activeIndex >= 0 && activeIndex < filtered.length ? `dp-program-option-${activeIndex}` : undefined}
+          onFocus={() => { if (blurTimer.current) clearTimeout(blurTimer.current); setActiveIndex(-1); setOpen(true); }}
+          onBlur={() => { blurTimer.current = setTimeout(() => setOpen(false), 150); }}
+          onChange={(e) => { if (value) onChange(''); setQuery(e.target.value); setActiveIndex(-1); setOpen(true); }}
+          onKeyDown={(e) => {
+            if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+              e.preventDefault();
+              setOpen(true);
+              setActiveIndex((index) => {
+                if (!filtered.length) return -1;
+                if (index < 0) return e.key === 'ArrowDown' ? 0 : filtered.length - 1;
+                return (index + (e.key === 'ArrowDown' ? 1 : -1) + filtered.length) % filtered.length;
+              });
+            } else if (e.key === 'Enter' && open && activeIndex >= 0 && activeIndex < filtered.length) {
+              e.preventDefault();
+              pick(filtered[activeIndex]);
+            } else if (e.key === 'Escape') {
+              setOpen(false);
+            }
+          }}
+        />
+        {value ? (
+          <button
+            type="button"
+            className={styles.programFilterClear}
+            aria-label={allText}
+            title={allText}
+            onMouseDown={(e) => e.preventDefault()}
+            onClick={clear}
+          >
+            ×
+          </button>
+        ) : null}
+        {open && filtered.length > 0 ? (
+          <ul id="dp-program-options" className={styles.programFilterDropdown} role="listbox">
+            {filtered.map((p, index) => (
+              <li
+                key={p.id}
+                id={`dp-program-option-${index}`}
+                role="option"
+                aria-selected={index === activeIndex}
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => pick(p)}
+              >
+                <span className={styles.programFilterName}><b>{p.school}</b> · {p.program}</span>
+                {p.tier ? <span className={styles.programFilterTier}>{p.tier}</span> : null}
+              </li>
+            ))}
+          </ul>
+        ) : null}
+      </div>
+    </label>
   );
 }
 
