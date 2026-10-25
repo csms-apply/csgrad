@@ -46,7 +46,36 @@ test('program filter supports keyboard selection', () => {
   tree = harness.render('ProgramFilter', props);
   input = elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
   input.props.onKeyDown({key: 'Enter', preventDefault() {}});
-  assert.deepEqual(selected, ['mit-mscs']);
+  assert.deepEqual(selected.map((x) => ({...x})), [{programId: 'mit-mscs', school: ''}]);
+});
+
+test('program filter offers a whole-school option when the query names a school', () => {
+  const harness = pageHarness('datapoints', ['ProgramFilter'], {imports: authImports});
+  const selected = [];
+  const props = {
+    label: 'Program',
+    programs: [
+      {id: 's-ee', school: 'Stanford', program: 'EE'},
+      {id: 's-cs', school: 'Stanford', program: 'MSCS'},
+      {id: 'c-cs', school: 'CMU', program: 'MSCS'},
+    ],
+    value: '', school: '', onChange: (next) => selected.push(next),
+    placeholder: 'Search programs', allText: 'All', allProgramsText: 'All programs', selected: null,
+  };
+  let tree = harness.render('ProgramFilter', props);
+  const input = () => elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
+  input().props.onFocus();
+  input().props.onChange({target: {value: 'stanford'}});
+  tree = harness.render('ProgramFilter', props);
+  const options = elements(tree, (el) => el.type === 'li' && el.props.role === 'option');
+  assert.deepEqual(options.map((li) => visibleText(li)), ['Stanford · All programs (2)', 'Stanford · EE', 'Stanford · MSCS']);
+  options[0].props.onClick();
+  assert.deepEqual(selected.map((x) => ({...x})), [{programId: '', school: 'Stanford'}]);
+
+  // A query naming a program, not just the school, offers no whole-school row.
+  input().props.onChange({target: {value: 'cmu mscs'}});
+  tree = harness.render('ProgramFilter', props);
+  assert.deepEqual(elements(tree, (el) => el.type === 'li' && el.props.role === 'option').map((li) => visibleText(li)), ['CMU · MSCS']);
 });
 
 test('program filter lists every program, not just the first page', () => {
@@ -148,7 +177,7 @@ for (const locale of ['zh-Hans', 'en']) {
     assert.equal(programFilter().props.value, 'harvard-mscs', 'initial program filter survives hydration');
     await harness.effects();
     assert.equal(destinations.length, 0, 'unchanged initial filters do not trigger navigation');
-    programFilter().props.onChange('mit-mscs');
+    programFilter().props.onChange({programId: 'mit-mscs', school: ''});
     tree = harness.render('Table', props);
     await harness.effects();
     assert.deepEqual(destinations, [`${pathname}?programId=mit-mscs&utm_source=e2e#filters`]);
