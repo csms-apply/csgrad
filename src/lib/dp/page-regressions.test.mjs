@@ -8,6 +8,23 @@ const authImports = {
 };
 const emptyOptions = {schools: [], tiers: [], years: [], ugCats: [], majors: []};
 
+test('DP requests use the site host and preserve filter query parameters', async () => {
+  const requests = [];
+  const harness = pageHarness('datapoints', ['COPY'], {
+    imports: authImports,
+    globals: {fetch: async (url, options) => {
+      requests.push({url, options});
+      return {ok: true, json: async () => ({rows: [], total: 0})};
+    }},
+  });
+  const api = harness.loadModule('src/lib/dp/api.js');
+  await api.listDp({programId: 'mit-mscs', gpaMin: 3.5, limit: 50});
+  assert.equal(requests[0].url, '/api/dp?programId=mit-mscs&gpaMin=3.5&limit=50');
+  assert.equal(requests[0].options.credentials, 'include');
+  await api.getMe();
+  assert.equal(requests[1].url, '/api/me');
+});
+
 test('program filter supports keyboard selection', () => {
   const harness = pageHarness('datapoints', ['ProgramFilter'], {imports: authImports});
   const selected = [];
