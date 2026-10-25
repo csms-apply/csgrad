@@ -8,7 +8,7 @@ title: "Harvard CSE Admissions Guide: Courses and Program Experience"
 
 
 ## Program Overview
-Extremely flexible -- you can choose a one-year (course-only) or two-year (thesis-based) track, and MIT courses can be cross-registered. Many students take MIT CS and Sloan courses, and you can even attend MIT's Career Fair. From personal experience, even with the two-year track you don't actually have to write a thesis -- just schedule your capstone for the last semester.
+Extremely flexible -- you can choose a one-year (course-only) or two-year (thesis-based) track, and MIT courses can be cross-registered. Many students take MIT CS and Sloan courses, and you can even attend MIT's Career Fair. The two-year (thesis) track requires a master's thesis; if you don't want to write one, choose the one-year course-only track.
 
 The program is positioned more toward mathematics and computational science. It's not a pure CS program -- somewhat like MIT's CSE next door, but more friendly to CS undergrad applicants than MIT CSE. Every year there are mainland China CS applicants who receive offers.
 

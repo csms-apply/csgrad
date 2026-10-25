@@ -8,7 +8,7 @@ sidebar_label: "Harvard CSE"
 
 
 ## 项目介绍
-灵活性极高，可以选择一年（course-only）或两年（thesis-based）模式，而且 MIT 课程可以互选，很多同学会选 MIT CS、Sloan 的课，甚至 MIT 的 Career Fair 也能蹭。亲测就算是两年也可以不用写thesis，只要把capstone放到最后一个学期就可以了
+灵活性极高，可以选择一年（course-only）或两年（thesis-based）模式，而且 MIT 课程可以互选，很多同学会选 MIT CS、Sloan 的课，甚至 MIT 的 Career Fair 也能蹭。两年制（thesis track）需要完成硕士论文；不想写 thesis 的话选一年的 course-only 模式
 
 定位更偏向数学和计算科学，不是纯cs项目，有点像隔壁MIT 的CSE，但是比MIT CSE对cs本科申请人更友好，每年都有陆本cs申请者ad
 

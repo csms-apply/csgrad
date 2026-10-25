@@ -10,7 +10,7 @@ sidebar_label: "MIT CSE"
 全稱是Master of Science in Computational Science and Engineering，
 側重計算和基礎理科，課程基本都是optimization, numerical computing。CSE是和數學、航空航天、化學工程、土木與環境工程、地球大氣與行星科學、材料科學與工程、機械工程和核科學與工程
 這八個部門合辦，非cs項目，如果想申請純血CS項目可以左轉MIT EECS系。MIT CSE
-也是fully funded，無需做TA即可享受全獎+3k stipend
+不保證給每個錄取者資助，項目會盡量幫錄取者匹配有科研經費的導師，資助來自導師的科研項目
 
 MIT CSE目前已停止招生，何時招生外校的不確定(26fall update):
 ![](/img/mitcse)

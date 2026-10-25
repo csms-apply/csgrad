@@ -7,7 +7,7 @@ description: "CMU MSIN 能選哪些系統課，申請文書如何體現自己的
 # CMU MSIN
 
 ## 項目介紹 {#项目介绍}
-ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表，基本是🇺🇸cs碩士找工就業項陸本申請的天花板，項目硬核，課程proj 有深度，往年就業placement出路很好(具體參考後文)。如果決定去的話暑假會被要求上一門cmu 15213(csapp)，這門課是很多課程的先修課。不過也可以不修，來了匹茲堡再修。如果覺得自己基礎比較好或者本科學過csapp,甚至可以不上這門課，cmu不太會卡graduate的prerequsite。基本一個cs人想選的cs課程(ml、storage、acc... )都能修到, 如果有打算想上分佈式系統/os/storage三件套的話，這個項目就只比mscs多兩門14水課(business和security), 堪比小mscs
+ini學院下面旗艦就業項目，可以拼出來跟cmu mscs差不多的課表，基本是🇺🇸cs碩士找工就業項陸本申請的天花板，項目硬核，課程proj 有深度，往年就業placement出路很好(具體參考後文)。14-513(csapp)是 MSIN 的必修課，也是很多課程的先修課，官網強烈建議第一學期就上。基本一個cs人想選的cs課程(ml、storage、acc... )都能修到, 如果有打算想上分佈式系統/os/storage三件套的話，這個項目就只比mscs多兩門14水課(business和security), 堪比小mscs
 
 ## 代表錄取dp {#代表录取dp}
 很看文書，沒有傳統sop，只有好幾個小作文。文書建議往sys和網絡和xcpc那邊寫
