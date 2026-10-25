@@ -8,7 +8,7 @@ description: "整理文中提到的 CS 及相關碩士 Co-op 項目，涉及 Geo
 
 Gatech mscs
 
-Gatech ms cse  不需要轉入mscs項目, cse由coc共管, 本身自帶coop
+Gatech ms cse  和 mscs 是兩個獨立學位，不需要轉入mscs項目；co-op 是 GT 全校的 Graduate Co-op Program，cse 學生也可以參加
 
 Duke ece meng 從24fall開始宣佈項目有coop
 

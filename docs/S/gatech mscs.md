@@ -7,7 +7,7 @@ sidebar_label: "Gatech MSCS"
 # Gatech MSCS
 
 ## 项目介绍：
-这个项目接近于一个六边形项目✅，本身reputation够硬，且学费便宜(如果当TA/RA还能免学费，且有工资，TA 1k刀，RA 2k刀)，同时本身地处亚特兰大，是很多科技公司的base地，找工容易，据说23 fall上岸率很高☺️
+这个项目接近于一个六边形项目✅，本身reputation够硬，且学费便宜(如果当TA/RA还能免学费，且有工资，TA/RA 每月至少 1,184 刀，2026-27 学年硕士最低标准)，同时本身地处亚特兰大，是很多科技公司的base地，找工容易，据说23 fall上岸率很高☺️
 
 本校本科生如果GPA够可以保研，因此很多本校生一般就直接保研了，不申请别的外校的项目了(因为本身就没有几个项目比gt cs项目好)。课程质量硬核，详情可以参见地里的很多评价帖子
 
@@ -27,7 +27,7 @@ CS排名高(在cs ranking上排名第4)，开设的方向非常全，nlp, cv, ar
 5. University of Rochester ds+math本科，gpa3.95
 
 ## 录取gt mscs小tip
-如果觉得申请到mscs太难了，可以先申请gatech cse冷门track，进去再转mscs。或者先申请gt omscs然后转线下(只要求gpa), 认识的朋友都转成了
+如果觉得申请到mscs太难了，可以先申请gatech cse冷门track，进去再转mscs。或者先申请gt omscs然后转线下(只要求gpa), 认识的朋友都转成了（不过官网 FAQ 写明 MSCS 不接受转专业、需要重新申请，这两条路径都需向学校确认）
 
 
 

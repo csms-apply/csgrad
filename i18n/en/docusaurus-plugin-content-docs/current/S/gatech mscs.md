@@ -7,7 +7,7 @@ title: "Georgia Tech MSCS Admissions Guide: Courses and Program Experience"
 # Gatech MSCS
 
 ## Program Overview
-This program is nearly a well-rounded package. Its reputation is solid, tuition is cheap (if you become a TA/RA, tuition is waived and you get paid -- TA $1K/month, RA $2K/month), and it's located in Atlanta, which is a base for many tech companies, making job searching easier. The 23 Fall cohort reportedly had a very high landing rate.
+This program is nearly a well-rounded package. Its reputation is solid, tuition is cheap (if you become a TA/RA, tuition is waived and you get paid -- TA/RA at least $1,184/month, the 2026-27 minimum for master's students), and it's located in Atlanta, which is a base for many tech companies, making job searching easier. The 23 Fall cohort reportedly had a very high landing rate.
 
 Undergrads from Georgia Tech with sufficient GPA can directly continue into the master's program, so many in-school students simply stay rather than applying elsewhere (since very few programs are better than GT CS anyway). Course quality is hardcore -- see many review posts on 1point3acres for details.
 
@@ -27,7 +27,7 @@ Very few mainland China undergrads get direct admission (especially 24 Fall). Ma
 5. University of Rochester DS + Math undergrad, GPA 3.95
 
 ## Tips for Getting into GT MSCS
-If you think getting into MSCS is too difficult, you can first apply to a less competitive GT CSE track, then transfer to MSCS after enrolling. All the friends I know who tried this successfully transferred.
+If you think getting into MSCS is too difficult, you can first apply to a less competitive GT CSE track, then transfer to MSCS after enrolling. Or apply to GT OMSCS first and then transfer to the on-campus program (only GPA is required). All the friends I know who tried this successfully transferred. (However, the official FAQ states that MSCS does not accept change-of-major requests and you must apply again, so check with the school before relying on either path.)
 
 
 

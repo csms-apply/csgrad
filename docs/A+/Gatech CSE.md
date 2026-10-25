@@ -12,9 +12,9 @@ sidebar_label: "Gatech CSE"
 
 除了使用TA/RA可以免除学费之外, 非美本可以使用 reduce academic load的方法在第一学期降低workload, 同时也可以因为part-time入读降低学费和降低工作量在第一学期全力找intern.
 
-CSE 这个项目选课真的很灵活。除了四门 core 课（偏计算/数学），剩下的基本和 CS 差不多，CS 课都能选，而且和 MSCS 优先级一样。最爽的是，我们 CSE 不用选 specialization（因为 CSE 本身就是 MSCS 下面的一个 specialization），所以只要能说服教导主任，基本都能算学分。这样一来，比 MSCS 还自由，三个学期一定能毕业，除非你自己想多读会儿。
+CSE 这个项目选课真的很灵活。除了四门 core 课（偏计算/数学），剩下的基本和 CS 差不多，CS 课都能选，而且和 MSCS 优先级一样。最爽的是，CSE 选 CS 课的优先级和 MSCS 一样（CoC home unit），很多 CS 课都能算进 specialization minor，只要说服教导主任基本都能算学分。不过 CSE 和 MSCS 是两个独立学位，CSE 自己也要选 specialization minor，并且至少修 6 学分非 CS/CSE 的应用领域课。总学分 30，官方说法是一般三个学期能毕业，除非你自己想多读会儿。
 
-i20是computer science，找工简历专业可以写computer science，同时gt 内部转专业很容易，上完课就能转cs,, 好像理论上的bar是第一学期GPA3.5(待考证).
+i20是computer science，找工简历专业可以写computer science，不过想转 MSCS 并不能直接转，官网 FAQ 写明 MSCS 不接受校内转专业，需要重新申请。
 
 ## 录取bar 和标准
 
@@ -26,10 +26,10 @@ mscs>cse coc>=cse isye>其他units
 ## 找工出路
 跟cs差不多，出路有Meta、google等
 
-Escuela de Ingeniería de Antioquia 与 Universidad CES 联合生物医学工程本科，入学前有小厂 Programming Analyst 全职经历，硕士期间先后做校内兼职 RA（2024年）和 TA（2025年）。
+1. Escuela de Ingeniería de Antioquia 与 Universidad CES 联合生物医学工程本科，入学前有小厂 Programming Analyst 全职经历，硕士期间先后做校内兼职 RA（2024年）和 TA（2025年）。
 
 ## 转博
-老师点头就能转博
+转博不是老师点头就行，官方是按新的 PhD 申请者来评估，还要走 Change of Major/Level 表；有老师支持会加分。
 
 ## 校园 & 生活
 GT 校园里坡真的多，上学像爬山，好在有校车，线路很多，15 分钟一班，假期还有去超市的专线，能到 20 分钟路程外的 Target。食堂的话，80% 的人都在吃 Panda Express 和 Chick-fil-A，我个人觉得 Panda 还不错，买学校的 Dining Dollars 还能省 8.9% 的税。

@@ -7,7 +7,7 @@ sidebar_label: "Gatech MSCS"
 # Gatech MSCS
 
 ## 項目介紹： {#项目介绍}
-這個項目接近於一個六邊形項目✅，本身reputation夠硬，且學費便宜(如果當TA/RA還能免學費，且有工資，TA 1k刀，RA 2k刀)，同時本身地處亞特蘭大，是很多科技公司的base地，找工容易，據說23 fall上岸率很高☺️
+這個項目接近於一個六邊形項目✅，本身reputation夠硬，且學費便宜(如果當TA/RA還能免學費，且有工資，TA/RA 每月至少 1,184 刀，2026-27 學年碩士最低標準)，同時本身地處亞特蘭大，是很多科技公司的base地，找工容易，據說23 fall上岸率很高☺️
 
 本校本科生如果GPA夠可以保研，因此很多本校生一般就直接保研了，不申請別的外校的項目了(因為本身就沒有幾個項目比gt cs項目好)。課程質量硬核，詳情可以參見地裡的很多評價帖子
 
@@ -27,7 +27,7 @@ CS排名高(在cs ranking上排名第4)，開設的方向非常全，nlp, cv, ar
 5. University of Rochester ds+math本科，gpa3.95
 
 ## 錄取gt mscs小tip {#录取gt-mscs小tip}
-如果覺得申請到mscs太難了，可以先申請gatech cse冷門track，進去再轉mscs。或者先申請gt omscs然後轉線下(只要求gpa), 認識的朋友都轉成了
+如果覺得申請到mscs太難了，可以先申請gatech cse冷門track，進去再轉mscs。或者先申請gt omscs然後轉線下(只要求gpa), 認識的朋友都轉成了（不過官網 FAQ 寫明 MSCS 不接受轉專業、需要重新申請，這兩條路徑都需向學校確認）
 
 
 

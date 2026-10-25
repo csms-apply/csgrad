@@ -7,7 +7,7 @@ description: "A reference list of CS and related master's programs discussed for
 
 Gatech MSCS
 
-Gatech MS CSE — no need to transfer into the MSCS program; CSE is co-managed by CoC and inherently comes with co-op
+Gatech MS CSE — a separate degree from MSCS, no need to transfer into the MSCS program; co-op is GT's institute-wide Graduate Co-op Program, which CSE students can also join
 
 Duke ECE MEng — starting from Fall 2024, the program announced it offers co-op
 
