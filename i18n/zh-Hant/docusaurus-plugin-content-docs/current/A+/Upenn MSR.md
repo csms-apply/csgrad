@@ -42,9 +42,9 @@ sidebar_label: "Upenn MSR"
 2. upenn ce本科，上岸amazon 硬件實習
 3. iit 自動化本科gpa 9.04/10, 三年全職經驗，上岸amazon ds
 4. 印度本科gpa 8.72/10，多段實習，上岸sf 小廠cv engineer
-4. upenn ee 本科，有實習經歷，上岸space x sde test intern
-5. nyu cs+ds 本科，有小廠ds intern，上岸amazon ds 實習
-6. University of Houston cs本科，入學前有 Kyndryl 實習和近兩年 Software Developer 全職，碩士期間在 PCASO Lab 做兼職 RA（2025年起）。
+5. upenn ee 本科，有實習經歷，上岸space x sde test intern
+6. nyu cs+ds 本科，有小廠ds intern，上岸amazon ds 實習
+7. University of Houston cs本科，入學前有 Kyndryl 實習和近兩年 Software Developer 全職，碩士期間在 PCASO Lab 做兼職 RA（2025年起）。
 
 ## 大牛教授
 

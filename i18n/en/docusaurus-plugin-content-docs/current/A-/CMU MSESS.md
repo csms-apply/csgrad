@@ -9,6 +9,15 @@ title: "CMU MSE-SS Admissions Guide: Courses and Program Experience"
 
 ## Program Overview
 
+The full name is Master of Software Engineering.
+The MSE program itself is a professional engineering master's with three tracks:
+
+1. Scalable Systems (SS)
+2. Embedded Systems (ES)
+3. Professional (Pro)
+
+SS and ES are for newcomers with less than 2 years of work experience, while Pro is for experienced engineers with more than 2 years of work experience. For the course differences among the three tracks after enrollment, please refer to the program website. Note that SS and ES are nearly identical: both require a summer internship and a one-semester capstone project to graduate. Pro takes 12 more units of electives than SS/ES in the first semester, cannot intern in the summer (so no CPT), and must complete a two-semester studio project starting in the summer to graduate. The MSE program lines up the companies for capstone/studio projects, while internships you find yourself.
+
 Most courses are liberal arts / non-technical courses. Not recommended for career changers to CS without SDE-related work experience. Recommended for students with 3+ years of full-time work experience. This program has almost no coding courses, limited course selection flexibility, and the required courses are not high quality. It feels more like MISM rather than SCS. During the application process, they will send you an email requiring you to solve two LeetCode problems.
 
 ## Admission Preferences & Representative Data Points

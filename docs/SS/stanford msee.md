@@ -9,7 +9,7 @@ description: "Stanford MSEE 的软件系统、机器学习方向如何选课？�
 ## 项目介绍
 Stanford 是CS四大`✅`，并且综排top ,地处加州，近水楼台先得月，找工作很方便。  
 当TA的话可以免学费并且每个月给3k刀工资，track选择很自由，可以选成全软的课表，比如CS229或者CS 245 Database Systems Principles，申请的时候会发一个问卷填track，有machine learning、software system，architecutre等等track。  
-录取体感，陆本清华招生人数小于等于5人，北复交浙每个学校招收人数最多两人。申请stanford必须交托福，托福不到109需要上语言班，不接受雅思`🈚️`。如果是中外合办可以申请豁免语言成绩。Stanford选课和毕业的track都很自由所以转CS也很容易，别的课程也很多，比如网球和小提琴，或者1学分的语言课，cs本科的同学来到msee 几乎可以全选CS的课，非常flexible
+录取体感，陆本清华招生人数小于等于5人，北复交浙每个学校招收人数最多两人。申请stanford需要交托福或雅思（IELTS Academic），托福不到109或雅思不到8，入学后要考 Stanford 的英语分级考试，可能被要求上语言课。如果是中外合办可以申请豁免语言成绩。Stanford选课和毕业的track都很自由所以转CS也很容易，别的课程也很多，比如网球和小提琴，或者1学分的语言课，cs本科的同学来到msee 几乎可以全选CS的课，非常flexible
 
 中外合办可以waive语言要求。相比mscs录取更友好。
 

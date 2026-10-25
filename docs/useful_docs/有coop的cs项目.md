@@ -14,7 +14,7 @@ Duke ece meng 从24fall开始宣布项目有coop
 
 JHU msecs(这个知道的人比较少，不过朋友邮件问了jhu官方说可以coop)
 
-ucsd ece(ece可以coop，cs不可以)
+ucsd ece / cs75(ece可以coop，cs75从2025年开始也提供coop)
 
 nyu tandon mscs(春天可以coop)
 
