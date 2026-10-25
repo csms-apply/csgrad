@@ -1337,12 +1337,13 @@ export default function DataPointsPage() {
         <meta property="og:description" content={t.pageDesc} />
         <meta property="og:type" content="website" />
       </Head>
-      <aside className={styles.note} aria-label={t.usagePolicyLink}>
-        <p>{t.usageNotice} <a href="/dp-use-policy.txt">{t.usagePolicyLink}</a></p>
-      </aside>
       <BrowserOnly fallback={<StaticHero t={t} counts={STATIC_COUNTS} />}>
         {() => <Inner t={t} locale={locale} />}
       </BrowserOnly>
+      {/* Policy for agents and crawlers: kept in the static HTML, visually hidden from readers. */}
+      <aside className={styles.agentNotice} aria-label={t.usagePolicyLink}>
+        <p>{t.usageNotice} <a href="/dp-use-policy.txt">{t.usagePolicyLink}</a></p>
+      </aside>
     </Layout>
   );
 }
