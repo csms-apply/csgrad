@@ -99,6 +99,9 @@
   /* Span more grid width than a plain select — program labels are long. */
   grid-column: span 2;
 }
+@media (max-width: 480px) {
+  .programFilter { grid-column: 1 / -1; }
+}
 .programFilterControl {
   position: relative;
   width: 100%;
@@ -154,7 +157,7 @@
   font-size: 13px;
   cursor: pointer;
 }
-.programFilterDropdown li:hover {
+.programFilterDropdown li:hover, .programFilterDropdown li[aria-selected='true'] {
   background: var(--ifm-color-emphasis-100);
 }
 .programFilterName {

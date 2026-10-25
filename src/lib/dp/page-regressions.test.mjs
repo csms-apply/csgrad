@@ -8,6 +8,30 @@ const authImports = {
 };
 const emptyOptions = {schools: [], tiers: [], years: [], ugCats: [], majors: []};
 
+test('program filter supports keyboard selection', () => {
+  const harness = pageHarness('datapoints', ['ProgramFilter'], {imports: authImports});
+  const selected = [];
+  const props = {
+    label: 'Program',
+    programs: [{id: 'mit-mscs', school: 'MIT', program: 'MSCS'}],
+    value: '',
+    onChange: (id) => selected.push(id),
+    placeholder: 'Search programs',
+    allText: 'All',
+    selected: null,
+  };
+  let tree = harness.render('ProgramFilter', props);
+  let input = elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
+  input.props.onFocus();
+  tree = harness.render('ProgramFilter', props);
+  input = elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
+  input.props.onKeyDown({key: 'ArrowDown', preventDefault() {}});
+  tree = harness.render('ProgramFilter', props);
+  input = elements(tree, (el) => el.type === 'input' && el.props.role === 'combobox')[0];
+  input.props.onKeyDown({key: 'Enter', preventDefault() {}});
+  assert.deepEqual(selected, ['mit-mscs']);
+});
+
 for (const locale of ['zh-Hans', 'en']) {
   test(`${locale}: failed DP load is distinct from empty results and can retry`, async () => {
     let attempts = 0;

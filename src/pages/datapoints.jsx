@@ -1048,6 +1048,7 @@ function GpaRangeFilter({ min, max, onMinChange, onMaxChange, error, t }) {
 function ProgramFilter({ label, programs, value, onChange, placeholder, allText, selected }) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
   const blurTimer = useRef(null);
 
   const filtered = useMemo(() => {
@@ -1083,9 +1084,30 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
           value={inputValue}
           placeholder={selected ? '' : placeholder}
           aria-label={label}
-          onFocus={() => { if (blurTimer.current) clearTimeout(blurTimer.current); setOpen(true); }}
+          role="combobox"
+          aria-autocomplete="list"
+          aria-expanded={open && filtered.length > 0}
+          aria-controls="dp-program-options"
+          aria-activedescendant={open && activeIndex >= 0 && activeIndex < filtered.length ? `dp-program-option-${activeIndex}` : undefined}
+          onFocus={() => { if (blurTimer.current) clearTimeout(blurTimer.current); setActiveIndex(-1); setOpen(true); }}
           onBlur={() => { blurTimer.current = setTimeout(() => setOpen(false), 150); }}
-          onChange={(e) => { if (value) onChange(''); setQuery(e.target.value); setOpen(true); }}
+          onChange={(e) => { if (value) onChange(''); setQuery(e.target.value); setActiveIndex(-1); setOpen(true); }}
+          onKeyDown={(e) => {
+            if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+              e.preventDefault();
+              setOpen(true);
+              setActiveIndex((index) => {
+                if (!filtered.length) return -1;
+                if (index < 0) return e.key === 'ArrowDown' ? 0 : filtered.length - 1;
+                return (index + (e.key === 'ArrowDown' ? 1 : -1) + filtered.length) % filtered.length;
+              });
+            } else if (e.key === 'Enter' && open && activeIndex >= 0 && activeIndex < filtered.length) {
+              e.preventDefault();
+              pick(filtered[activeIndex]);
+            } else if (e.key === 'Escape') {
+              setOpen(false);
+            }
+          }}
         />
         {value ? (
           <button
@@ -1100,9 +1122,16 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
           </button>
         ) : null}
         {open && filtered.length > 0 ? (
-          <ul className={styles.programFilterDropdown}>
-            {filtered.map((p) => (
-              <li key={p.id} onMouseDown={(e) => e.preventDefault()} onClick={() => pick(p)}>
+          <ul id="dp-program-options" className={styles.programFilterDropdown} role="listbox">
+            {filtered.map((p, index) => (
+              <li
+                key={p.id}
+                id={`dp-program-option-${index}`}
+                role="option"
+                aria-selected={index === activeIndex}
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => pick(p)}
+              >
                 <span className={styles.programFilterName}><b>{p.school}</b> · {p.program}</span>
                 {p.tier ? <span className={styles.programFilterTier}>{p.tier}</span> : null}
               </li>
