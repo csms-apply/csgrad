@@ -1129,7 +1129,6 @@ function ProgramFilter({ label, programs, value, onChange, placeholder, allText,
                 onClick={() => pick(p)}
               >
                 <span className={styles.programFilterName}><b>{p.school}</b> · {p.program}</span>
-                {p.tier ? <span className={styles.programFilterTier}>{p.tier}</span> : null}
               </li>
             ))}
           </ul>
