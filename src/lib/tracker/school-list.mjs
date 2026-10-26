@@ -3,10 +3,8 @@
 
 export const TIERS = ['SSS', 'SS', 'S', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+'];
 export const TIER_COLOR = {SSS: 'purple', SS: 'blue', S: 'green', 'A+': 'yellow', A: 'orange', 'A-': 'brown', 'B+': 'pink', B: 'gray', 'B-': 'gray', 'C+': 'gray'};
-export const GRE = {
-  required: ['required', 'red'], not_required: ['not required', 'green'], optional: ['optional', 'yellow'],
-  not_accepted: ['not accepted', 'blue'], recommended: ['recommended', 'orange'], waived_for_some: ['waivable', 'purple'], unknown: ['unknown', 'gray'],
-};
+// GRE policy -> tag colour; the label is UI copy `gre_<policy>`.
+export const GRE = {required: 'red', not_required: 'green', optional: 'yellow', not_accepted: 'blue', recommended: 'orange', waived_for_some: 'purple', unknown: 'gray'};
 export const KIND = {hard_min: 'kindHard', subscores_only: 'kindSub', recommended: 'kindRec', typical_range: 'kindRange', none: 'kindNone', not_accepted: 'kindNo', not_stated: 'kindNotStated'};
 export const isQuiet = (cell) => ['none', 'not_accepted', 'not_stated'].includes(cell?.kind);
 
@@ -82,8 +80,11 @@ export function picksFromLegacyCards(raw, rows) {
   try {
     const cards = JSON.parse(raw);
     if (!Array.isArray(cards)) return [];
+    // Cards keep the slug from when they were added; a later tier change (e.g. /B+/UCLA MENG -> /A+/) only moves the tier segment.
+    const tail = (slug) => (typeof slug === 'string' ? slug.split('/').slice(2).join('/') : '');
     const bySlug = new Map(rows.map((r) => [r.slug, r.id]));
-    return [...new Set(cards.map((c) => bySlug.get(c?.slug)).filter(Boolean))];
+    const byTail = new Map(rows.map((r) => [tail(r.slug), r.id]));
+    return [...new Set(cards.map((c) => bySlug.get(c?.slug) || (tail(c?.slug) && byTail.get(tail(c.slug)))).filter(Boolean))];
   } catch {
     return [];
   }
@@ -116,7 +117,8 @@ export const UI = {
     kindHard: '硬性最低分', kindSub: '只卡单项', kindRec: '官网建议分', kindRange: '录取者区间下限', kindNone: '官方不设最低分', kindNo: '不接受', kindNotStated: '官网未公布',
     status: '招生状态', fee: '申请费', site: '项目主页', programPage: 'csgrad 介绍', deadlines: '截止轮次', otherDates: '其他日期',
     otherDatesHint: '不适用于境外国际生、仅限特定申请人，或是往年参考。', tests: '考试与语言', code: '送分代码 {c}',
-    addMine: '＋ 加入我的选校', inMine: '✓ 已在我的选校',
+    addMine: '＋ 加入我的选校', inMine: '✓ 已在我的选校', count: '数量',
+    gre_required: '必须', gre_not_required: '不要求', gre_optional: '可选', gre_not_accepted: '不接受', gre_recommended: '推荐', gre_waived_for_some: '可豁免', gre_unknown: '未公布',
   },
   en: {
     title: 'Application Tracker', pageTitle: 'Application Tracker: CS Master\'s Deadlines and English Requirements',
@@ -141,6 +143,9 @@ export const UI = {
     kindHard: 'hard minimum', kindSub: 'section minimums only', kindRec: 'recommended', kindRange: 'low end of admitted range', kindNone: 'no official minimum', kindNo: 'not accepted', kindNotStated: 'not published',
     status: 'Admission status', fee: 'App fee', site: 'Program site', programPage: 'csgrad guide', deadlines: 'Deadlines', otherDates: 'Other dates',
     otherDatesHint: 'Not for international applicants abroad, limited to specific applicants, or from a past cycle.', tests: 'Tests and English', code: 'Code {c}',
-    addMine: '+ Add to my list', inMine: '✓ In my list',
+    addMine: '+ Add to my list', inMine: '✓ In my list', count: 'Count',
+    gre_required: 'required', gre_not_required: 'not required', gre_optional: 'optional', gre_not_accepted: 'not accepted', gre_recommended: 'recommended', gre_waived_for_some: 'waivable', gre_unknown: 'unknown',
+    // Singular forms, picked by makeText when n === 1.
+    daysLeftOne: '1 day left', sharedBannerOne: 'A school list shared with you{title}: 1 program.', shareHintOne: 'Anyone with the link sees this program without signing in, and can save it to their own list in one click.',
   },
 };

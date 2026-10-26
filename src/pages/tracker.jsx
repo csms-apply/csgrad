@@ -16,7 +16,6 @@ import styles from './tracker.module.css';
 
 const ROWS = DATA.rows;
 const LANGS = [['zh', '简体'], ['hant', '繁體'], ['en', 'English']];
-const SITE_LOCALE = {zh: 'zh-Hans', hant: 'zh-Hant', en: 'en'};
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const hantCache = new Map();
 const hant = (s) => {
@@ -41,7 +40,10 @@ const startOfToday = () => {
 
 // All copy and data strings for one table language. Data is stored in Simplified Chinese.
 function makeText(lang) {
-  const t = (key, vars) => fill(lang === 'hant' ? hant(UI.zh[key]) : UI[lang][key], vars);
+  const t = (key, vars) => {
+    const k = lang === 'en' && vars?.n === 1 && UI.en[`${key}One`] ? `${key}One` : key;
+    return fill(lang === 'hant' ? hant(UI.zh[k]) : UI[lang][k], vars);
+  };
   const tr = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : DATA.en[s] ?? s);
   const cell = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : enCell(s));
   const ord = (i) => (lang === 'en' ? String(i + 1) : '一二三四五'[i]);
@@ -102,6 +104,7 @@ export default function TrackerPage() {
   const [shareTitle, setShareTitle] = useState('');
   const [flash, setFlash] = useState({});
   const [copyFallback, setCopyFallback] = useState(null);
+  useEffect(() => setCopyFallback(null), [view, starred, lang]);
   const toolsRef = useRef(null);
   const closeRef = useRef(null);
   const qRef = useRef(null);
@@ -199,8 +202,8 @@ export default function TrackerPage() {
   };
 
   const greTag = (r) => {
-    const [label, color] = GRE[r.gre] || GRE.unknown;
-    return <span className={cx('tag', `c-${color}`)}>{label}</span>;
+    const k = r.gre in GRE ? r.gre : 'unknown';
+    return <span className={cx('tag', `c-${GRE[k]}`)}>{t(`gre_${k}`)}</span>;
   };
   const tierTag = (tier) => <span className={cx('tag', `c-${TIER_COLOR[tier] || 'gray'}`)}>{tier}</span>;
   const langCell = (c) => {
@@ -226,7 +229,7 @@ export default function TrackerPage() {
   const shareLink = typeof window === 'undefined' ? '' : `${window.location.origin}${window.location.pathname}#${encodeShare([...starred], shareTitle, DATA.order)}`;
   const listText = () => picked.map((r) => [r.name, r.tier,
     ...(r.halt ? [t('halt')] : r.rounds.map((x, i) => `${t('roundN', {n: ord(i)})} ${slash(x.date)}`)),
-    `GRE ${(GRE[r.gre] || GRE.unknown)[0]}`,
+    `${t('colGre')} ${t(`gre_${r.gre in GRE ? r.gre : 'unknown'}`)}`,
     `${t('colToeflOld')} ${cell(r.lang?.toefl_old?.cell) || '—'}`, `${t('colToeflNew')} ${cell(r.lang?.toefl_new?.cell) || '—'}`,
     `${t('colIelts')} ${cell(r.lang?.ielts?.cell) || '—'}`, r.apply].join(' | ')).join('\n');
 
@@ -275,7 +278,7 @@ export default function TrackerPage() {
     return (
       <section className={styles.sharebar}>
         <div className={styles.box}>
-          <span>{rich(t('sharedBanner', {title: '{title}', n: '{n}'}), {
+          <span>{rich(t('sharedBanner', {title: '{title}', n: shared.ids.size === 1 ? 1 : '{n}'}), {
             title: title ? <>{title[0]}<b>{shared.title}</b>{title[1]}</> : '',
             n: <b>{shared.ids.size}</b>,
           })}</span>
@@ -295,7 +298,7 @@ export default function TrackerPage() {
     const langRow = (k, c, cd) => (
       <tr><th>{k}</th><td>{cell(c?.cell) || '—'}{c && !isQuiet(c) && <span className={styles.kind}>{t(KIND[c.kind])}</span>}</td><td className={styles.code}>{code(cd)}</td></tr>
     );
-    const guide = r && localizedInternalPath(r.slug, SITE_LOCALE[lang]);
+    const guide = r && localizedInternalPath(r.slug, currentLocale); // the selector switches the table, not the site
     return (
       <>
         <div className={cx('scrim', r && 'on')} onClick={closePeek} />
@@ -354,7 +357,7 @@ export default function TrackerPage() {
                 <h3>{t('tests')}</h3>
                 <table className={styles.exam}>
                   <tbody>
-                    <tr><th>GRE</th><td>{tr(ex.gre?.req) || (GRE[r.gre] || GRE.unknown)[0]}</td><td className={styles.code}>{code(ex.gre?.code)}</td></tr>
+                    <tr><th>GRE</th><td>{tr(ex.gre?.req) || t(`gre_${r.gre in GRE ? r.gre : 'unknown'}`)}</td><td className={styles.code}>{code(ex.gre?.code)}</td></tr>
                     {langRow(t('colToeflOld'), r.lang?.toefl_old, ex.toefl?.code)}
                     {langRow(t('colToeflNew'), r.lang?.toefl_new)}
                     {langRow(t('colIelts'), r.lang?.ielts)}
@@ -434,8 +437,8 @@ export default function TrackerPage() {
               {menu === 'filter' && (
                 <div className={styles.menu}>
                   <h5>{t('colGre')}</h5>
-                  {Object.entries(GRE).filter(([k]) => ROWS.some((r) => r.gre === k)).map(([k, [label, color]]) => (
-                    <label key={k} className={styles.opt}><input type="checkbox" checked={gre.has(k)} onChange={() => toggle(setGre, k)} /><span className={cx('tag', `c-${color}`)}>{label}</span></label>
+                  {Object.entries(GRE).filter(([k]) => ROWS.some((r) => r.gre === k)).map(([k, color]) => (
+                    <label key={k} className={styles.opt}><input type="checkbox" checked={gre.has(k)} onChange={() => toggle(setGre, k)} /><span className={cx('tag', `c-${color}`)}>{t(`gre_${k}`)}</span></label>
                   ))}
                   <div className={styles.sep} />
                   <h5>{t('colTier')}</h5>
@@ -492,7 +495,7 @@ export default function TrackerPage() {
                 )}
               </tbody>
               <tfoot>
-                <tr><td className={styles.sel} /><td className={styles.name}>Count<b>{list.length}</b></td><td colSpan={9} /></tr>
+                <tr><td className={styles.sel} /><td className={styles.name}>{t('count')}<b>{list.length}</b></td><td colSpan={9} /></tr>
               </tfoot>
             </table>
           </div>
