@@ -15,9 +15,9 @@
     "message": "DataPoints",
     "description": "Navbar item with label DataPoints"
   },
-  "item.label.申请跟踪": {
-    "message": "申請跟蹤",
-    "description": "Navbar item with label 申请跟踪"
+  "item.label.选校": {
+    "message": "選校",
+    "description": "Navbar item with label 选校"
   },
   "item.label.GitHub": {
     "message": "GitHub",

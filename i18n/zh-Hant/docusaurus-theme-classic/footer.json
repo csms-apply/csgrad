@@ -19,9 +19,9 @@
     "message": "錄取數據",
     "description": "The label of the footer link to admissions data"
   },
-  "link.item.label.申请跟踪": {
-    "message": "申請跟蹤",
-    "description": "The label of the footer link to the application tracker"
+  "link.item.label.选校": {
+    "message": "選校",
+    "description": "The label of the footer link to the school list"
   },
   "link.item.label.CS Grad Discord": {
     "message": "CS Grad Discord",

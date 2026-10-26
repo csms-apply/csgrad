@@ -1,0 +1,5166 @@
+{
+ "generated": "2026-10-25",
+ "cycle": "Fall 2027",
+ "order": [
+  "a-cmu-ece",
+  "a-cmu-mits",
+  "a-cmu-msmite",
+  "a-columbia-mscs",
+  "a-minus-brown-scmcs",
+  "a-minus-cmu-msess",
+  "a-minus-cmu-sesv",
+  "a-minus-columbia-ce",
+  "a-minus-columbia-ds",
+  "a-minus-duke-ece",
+  "a-minus-gatech-ece",
+  "a-minus-jhu-msecs",
+  "a-minus-nyu-ds",
+  "a-minus-uchicago-mpcs",
+  "a-minus-ucsb-mscs",
+  "a-minus-ucsd-ec79",
+  "a-plus-duke-mscs",
+  "a-plus-gatech-cse",
+  "a-plus-ucla-meng",
+  "a-plus-ucla-mscs",
+  "a-plus-ucsd-cs75",
+  "a-plus-upenn-cis",
+  "a-plus-upenn-ds",
+  "a-plus-upenn-msr",
+  "a-plus-ut-ece",
+  "a-plus-wisc-cs-pmp",
+  "a-uiuc-mcs",
+  "a-umd-mscs",
+  "a-umich-mscs",
+  "a-upenn-mcit",
+  "a-uw-ee-pmp",
+  "a-yale-mscs",
+  "b-emory-mscs",
+  "b-minus-neu-is",
+  "b-minus-neu-ses",
+  "b-minus-scu-mscse",
+  "b-minus-uiuc-msim",
+  "b-ncsu-mcs",
+  "b-neu-cs-align",
+  "b-neu-mscs",
+  "b-plus-cmu-mism",
+  "b-plus-columbia-ee",
+  "b-plus-cornell-mps-is",
+  "b-plus-cornell-tech-cm",
+  "b-plus-nwu-mscs",
+  "b-plus-nyu-tandon",
+  "b-plus-rics-mcs",
+  "b-plus-tamu-cse",
+  "b-plus-uci-mswe",
+  "b-plus-upenn-ee",
+  "b-plus-uwt-mscs",
+  "b-uci-mcs",
+  "b-uiuc-ece-meng",
+  "b-umass-mscs",
+  "b-usc-cs28",
+  "b-utah-state-university-mscs",
+  "c-plus-umn-mscs",
+  "s-cmu-mcds",
+  "s-cmu-miis",
+  "s-cmu-msaii",
+  "s-cmu-mscv",
+  "s-cmu-msin",
+  "s-cmu-msml",
+  "s-cmu-msr",
+  "s-cornell-cs-meng",
+  "s-gatech-mscs",
+  "s-ucb-eecs-meng",
+  "s-ut-mscs",
+  "ss-caltech-msee",
+  "ss-cmu-mscs",
+  "ss-harvard-cse",
+  "ss-harvard-ds",
+  "ss-harvard-hds",
+  "ss-stanford-icme",
+  "ss-stanford-msee",
+  "ss-stanford-stat-ds",
+  "ss-stanford-symbolic-system",
+  "ss-uiuc-mscs",
+  "ss-yale-mscs-2year",
+  "sss-mit-cse",
+  "sss-mit-eecs",
+  "sss-princeton-msecs",
+  "sss-stanford-mscs"
+ ],
+ "rows": [
+  {
+   "id": "sss-mit-cse",
+   "name": "cse@mit",
+   "school": "MIT",
+   "program": "CSE",
+   "tier": "SSS",
+   "slug": "/SSS/MIT CSE",
+   "official": "Master of Science in Computational Science and Engineering (CSE SM)",
+   "schoolFull": "Massachusetts Institute of Technology",
+   "halt": true,
+   "haltNote": "MIT CCSE 官网明确写明 CSE SM 项目已暂停对外招生（External admissions ... currently paused），Fall 2027 不接受外部申请。如果以后恢复，会在官网另行公布。现在只有在读 MIT 研究型 SM 项目的学生可以把 CSE SM 当作第二学位申请。CCSE 目前对外只招 CSE PhD 和 Dept-CSE PhD 两个博士项目，MIT OGE 的项目列表里也只列了 Computational Science and Engineering PhD。",
+   "gre": "unknown",
+   "fee": 90,
+   "apply": "https://apply.mit.edu/apply/",
+   "site": "https://cse.mit.edu/programs-admissions/cse-sm/",
+   "exam": {
+    "gre": {
+     "req": "未知 · SM 已暂停招生",
+     "code": "3514"
+    },
+    "halt": "Fall 2027 暂停对外招生，现仅招 CSE PhD"
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "hard_min"
+    }
+   },
+   "rounds": []
+  },
+  {
+   "id": "sss-mit-eecs",
+   "name": "eecs@mit",
+   "school": "MIT",
+   "program": "EECS",
+   "tier": "SSS",
+   "slug": "/SSS/MIT EECS",
+   "official": "MIT EECS Graduate Program (Doctor of Philosophy (PhD) / Doctor of Science (ScD) in Electrical Engineering and Computer Science; SM earned en route)",
+   "schoolFull": "Massachusetts Institute of Technology",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止（申请材料）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 90,
+   "apply": "https://apply.mit.edu/apply/",
+   "site": "https://www.eecs.mit.edu/academics/graduate-programs/admission-process/",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 录取不使用"
+    },
+    "toefl": {
+     "code": "3514 / 系 66 或 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "美东 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "sss-princeton-msecs",
+   "name": "mscs@princeton",
+   "school": "Princeton University",
+   "program": "MSCS",
+   "tier": "SSS",
+   "slug": "/SSS/Princeton MSECS",
+   "official": "Master of Science in Engineering (M.S.E.) in Computer Science",
+   "schoolFull": "Princeton University",
+   "halt": true,
+   "haltNote": "Princeton CS 系官方明确：由于硕士生资助资源不确定，Fall 2027 不接受硕士（M.S.E.）申请；研究生院的截止日期页和 Computer Science 专业页也写明 M.S.E. 不招 Fall 2027。Ph.D. 照常招生（2026-12-15 截止）。Fall 2028 是否恢复招生，官方暂时没有说法，只写了希望申请人以后再关注。",
+   "otherDates": [
+    {
+     "date": "2025-12-15",
+     "label": "唯一截止（上一轮）",
+     "cycle": "Fall 2026"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 90,
+   "apply": "https://graduate-apply.princeton.edu/apply/",
+   "site": "https://www.cs.princeton.edu/grad/masters-degree-requirements",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "2672"
+    },
+    "halt": "Fall 2027 不招 M.S.E.（资助不确定），PhD 照常"
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "口语 28",
+     "kind": "subscores_only"
+    },
+    "toefl_new": {
+     "cell": "口语 6",
+     "kind": "subscores_only"
+    },
+    "ielts": {
+     "cell": "口语 8",
+     "kind": "subscores_only"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   },
+   "rounds": []
+  },
+  {
+   "id": "sss-stanford-mscs",
+   "name": "mscs@stanford",
+   "school": "Stanford University",
+   "program": "MSCS",
+   "tier": "SSS",
+   "slug": "/SSS/stanford mscs",
+   "official": "Master of Science in Computer Science (MS in Computer Science)",
+   "schoolFull": "Stanford University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-08",
+     "label": "唯一截止（全日制 MS 及 HCP 非全日制）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 125,
+   "apply": "https://applygrad.stanford.edu/portal/grad-app",
+   "site": "https://www.cs.stanford.edu/admissions/masters-admissions",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 不予考虑"
+    },
+    "toefl": {
+     "code": "4704"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-08",
+      "short": "太平洋 23:59 最终截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-harvard-cse",
+   "name": "cse@harvard",
+   "school": "Harvard University",
+   "program": "CSE",
+   "tier": "SS",
+   "slug": "/SS/Harvard CSE",
+   "official": "Master's in Computational Science and Engineering (CSE): Master of Science (SM) / Master of Engineering (ME)",
+   "schoolFull": "Harvard University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止（SM 与 ME 相同）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 105,
+   "apply": "https://apply.gsas.harvard.edu/portal/apply_degree",
+   "site": "https://seas.harvard.edu/masters-computational-science-and-engineering",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不作筛选"
+    },
+    "toefl": {
+     "code": "3451 / 系 99"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "美东 17:00，不收迟交"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "95(口语 23)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5(口语 4.5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(口语 6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-harvard-ds",
+   "name": "ds@harvard",
+   "school": "Harvard University",
+   "program": "DS",
+   "tier": "SS",
+   "slug": "/SS/Harvard DS",
+   "official": "Master of Science (SM) in Data Science",
+   "schoolFull": "Harvard University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止日期"
+    }
+   ],
+   "gre": "optional",
+   "fee": 105,
+   "apply": "https://apply.gsas.harvard.edu/portal/apply_degree",
+   "site": "https://seas.harvard.edu/masters-data-science",
+   "exam": {
+    "gre": {
+     "req": "可选"
+    },
+    "toefl": {
+     "code": "3451 / 系 99"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "美东 17:00，不滚动"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "95(口语 23)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5(口语 4.5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(口语 6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-harvard-hds",
+   "name": "hds@harvard",
+   "school": "Harvard University",
+   "program": "HDS",
+   "tier": "SS",
+   "slug": "/SS/Harvard HDS",
+   "official": "Master of Science in Health Data Science (SM-80)",
+   "schoolFull": "Harvard University - Harvard T.H. Chan School of Public Health",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止（Regular）"
+    }
+   ],
+   "gre": "required",
+   "fee": 155,
+   "apply": "https://sophas.liaisoncas.com/applicant-ux/#/login",
+   "site": "https://hsph.harvard.edu/program/sm-health-data-science/",
+   "exam": {
+    "gre": {
+     "req": "必须 · 可用 MCAT 等代替",
+     "code": "3456"
+    },
+    "toefl": {
+     "code": "3456（SOPHAS 5688）"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "建议 11 月中旬前交"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100(25)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "每项 5.5",
+     "kind": "subscores_only"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "140",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "ss-stanford-stat-ds",
+   "name": "stats ds@stanford",
+   "school": "Stanford University",
+   "program": "STATS DS",
+   "tier": "SS",
+   "slug": "/SS/Stanford Stat DS",
+   "official": "Master of Science in Statistics – Data Science subplan (Statistics MS, Departmental Specialization: Data Science)",
+   "schoolFull": "Stanford University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-07",
+     "label": "唯一截止（常规轮）"
+    }
+   ],
+   "gre": "required",
+   "fee": 125,
+   "apply": "https://applygrad.stanford.edu/portal/grad-app",
+   "site": "https://statistics.stanford.edu/academic-programs/graduate-programs/statistics-data-science-curriculum",
+   "exam": {
+    "gre": {
+     "req": "必须 · 不设最低分",
+     "code": "4704"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-07",
+      "short": "PST 23:59；需先考 GRE"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-stanford-symbolic-system",
+   "name": "symsys@stanford",
+   "school": "Stanford University",
+   "program": "Symbolic System",
+   "tier": "SS",
+   "slug": "/SS/Stanford Symbolic System",
+   "official": "M.S. in Symbolic Systems",
+   "schoolFull": "Stanford University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "外部申请人常规截止日"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2026-12-01",
+     "label": "Knight-Hennessy Scholars 申请人专属截止日",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "fee": 125,
+   "apply": "https://applygrad.stanford.edu/portal/grad-app",
+   "site": "https://symsys.stanford.edu/graduates/masters-program",
+   "exam": {
+    "gre": {
+     "req": "可选 · 权重不高"
+    },
+    "toefl": {
+     "code": "4704"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "外部申请人 · PT 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-yale-mscs-2year",
+   "name": "mscs 2yr@yale",
+   "school": "Yale University",
+   "program": "MSCS 2 year",
+   "tier": "SS",
+   "slug": "/SS/Yale MSCS 2year",
+   "official": "Master of Science (M.S.) in Computer Science – Two-Year MS Degree (Terminal Master's Degree Program, thesis option)",
+   "schoolFull": "Yale University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-02",
+     "label": "唯一截止（Fall 入学）"
+    }
+   ],
+   "gre": "required",
+   "fee": 105,
+   "apply": "https://apply.grad.yale.edu/apply/",
+   "site": "https://engineering.yale.edu/academic-study/departments/computer-science/graduate-study/master-science-program",
+   "exam": {
+    "gre": {
+     "req": "必须 · 无硬性分数线",
+     "code": "3987"
+    },
+    "toefl": {
+     "code": "3987"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-02",
+      "short": "美东 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100(口语 26)",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "口语 5.5",
+     "kind": "subscores_only"
+    },
+    "ielts": {
+     "cell": "口语 8",
+     "kind": "subscores_only"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-caltech-msee",
+   "name": "msee@caltech",
+   "school": "Caltech",
+   "program": "MSEE",
+   "tier": "SS",
+   "slug": "/SS/caltech msee",
+   "official": "Master of Science (M.S.) in Electrical Engineering (MSEE, terminal M.S.-only admission)",
+   "schoolFull": "California Institute of Technology (Caltech)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "唯一截止日期"
+    }
+   ],
+   "gre": "recommended",
+   "fee": 100,
+   "apply": "https://apply.graduate.caltech.edu/apply",
+   "site": "https://www.ee.caltech.edu/academics/grad",
+   "exam": {
+    "gre": {
+     "req": "推荐 · 不设最低分",
+     "code": "4034"
+    },
+    "toefl": {
+     "code": "4034"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "截止次日 12:01am 关闭"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "无",
+     "kind": "none"
+    },
+    "toefl_new": {
+     "cell": "无",
+     "kind": "none"
+    },
+    "ielts": {
+     "cell": "无",
+     "kind": "none"
+    },
+    "duolingo": {
+     "cell": "无",
+     "kind": "none"
+    }
+   }
+  },
+  {
+   "id": "ss-cmu-mscs",
+   "name": "mscs@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSCS",
+   "tier": "SS",
+   "slug": "/SS/cmu mscs",
+   "official": "Master of Science in Computer Science (MSCS)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-18",
+     "label": "早申截止（Early）"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "最终截止（Final）"
+    }
+   ],
+   "gre": "recommended",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://csd.cmu.edu/academics/masters/ms-in-computer-science",
+   "exam": {
+    "gre": {
+     "req": "推荐 · 不交需在 SOP 说明",
+     "code": "2074 / 0402"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-18",
+      "short": "美东 3pm，申请费 $80"
+     },
+     {
+      "date": "2026-12-09",
+      "short": "美东 3pm，申请费 $100"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "typical_range"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "typical_range"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "ss-stanford-icme",
+   "name": "icme@stanford",
+   "school": "Stanford University",
+   "program": "ICME",
+   "tier": "SS",
+   "slug": "/SS/stanford icme",
+   "official": "Master of Science in Computational and Mathematical Engineering (CME-MS; tracks: General, Data Science, Imaging Science, Mathematical & Computational Finance)",
+   "schoolFull": "Stanford University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-29",
+     "label": "MS 外部申请者截止（唯一轮次）"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2026-12-01",
+     "label": "Knight-Hennessy Scholars 申请者的 ICME 截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 125,
+   "apply": "https://applygrad.stanford.edu/portal/grad-app",
+   "site": "https://icme.stanford.edu/academics-admission/icme-master-science",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-29",
+      "short": "11:59 PM PST"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-stanford-msee",
+   "name": "msee@stanford",
+   "school": "Stanford University",
+   "program": "MSEE",
+   "tier": "SS",
+   "slug": "/SS/stanford msee",
+   "official": "Master of Science (MS) in Electrical Engineering",
+   "schoolFull": "Stanford University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止（常规申请）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 125,
+   "apply": "https://applygrad.stanford.edu/portal/grad-app",
+   "site": "https://ee.stanford.edu/admissions/ms",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "4704"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "PST 11:59pm·推荐信同日"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "ss-uiuc-mscs",
+   "name": "mscs@uiuc",
+   "school": "UIUC",
+   "program": "MSCS",
+   "tier": "SS",
+   "slug": "/SS/uiuc mscs",
+   "official": "Master of Science (M.S.) in Computer Science (thesis, research-oriented)",
+   "schoolFull": "University of Illinois Urbana-Champaign",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止（秋季入学）"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 90,
+   "apply": "https://choose.illinois.edu/apply/",
+   "site": "https://siebelschool.illinois.edu/academics/graduate/ms-program",
+   "exam": {
+    "gre": {
+     "req": "不要求"
+    },
+    "toefl": {
+     "code": "1836 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "美中 11:59 PM"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.0",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "s-cmu-miis",
+   "name": "miis@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MIIS",
+   "tier": "S",
+   "slug": "/S/CMU MIIS",
+   "official": "Master of Science in Intelligent Information Systems (MIIS)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-18",
+     "label": "早申截止（Early Deadline）"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "最终截止（Final Deadline）"
+    }
+   ],
+   "gre": "required",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://lti.cmu.edu/academics/masters-programs/miis.html",
+   "exam": {
+    "gre": {
+     "req": "必须",
+     "code": "2074 / 系 0402"
+    },
+    "toefl": {
+     "code": "4256 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-18",
+      "short": "美东 3pm，申请费 $80"
+     },
+     {
+      "date": "2026-12-09",
+      "short": "美东 3pm，申请费 $100"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "typical_range"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "typical_range"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "s-cmu-msaii",
+   "name": "msaii@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSAII",
+   "tier": "S",
+   "slug": "/S/CMU MSAII",
+   "official": "Master of Science in Artificial Intelligence and Innovation (MSAII)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-18",
+     "label": "早申截止（Early Deadline）"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "最终截止（Final Deadline）"
+    }
+   ],
+   "gre": "required",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://www.lti.cs.cmu.edu/academics/masters-programs/msaii.html",
+   "exam": {
+    "gre": {
+     "req": "必须",
+     "code": "2074 / 系 0402"
+    },
+    "toefl": {
+     "code": "4256 / 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-18",
+      "short": "美东 3pm，申请费 $80"
+     },
+     {
+      "date": "2026-12-09",
+      "short": "美东 3pm，申请费 $100"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "s-cmu-mscv",
+   "name": "mscv@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSCV",
+   "tier": "S",
+   "slug": "/S/CMU MSCV",
+   "official": "Master of Science in Computer Vision (MSCV)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-18",
+     "label": "早申（优惠申请费截止）"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "最终截止"
+    }
+   ],
+   "gre": "required",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/",
+   "exam": {
+    "gre": {
+     "req": "必须",
+     "code": "2074 / 系 0402"
+    },
+    "toefl": {
+     "code": "4256 / 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-18",
+      "short": "美东 3pm，申请费 $80"
+     },
+     {
+      "date": "2026-12-09",
+      "short": "美东 3pm，申请费 $100"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "typical_range"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "typical_range"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "s-cmu-msml",
+   "name": "msml@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSML",
+   "tier": "S",
+   "slug": "/S/CMU MSML",
+   "official": "Master's in Machine Learning (M.S. in Machine Learning, primary 16-month program)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-18",
+     "label": "早申截止（Early deadline，申请费优惠为 $80）"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "最终截止（Final deadline）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://ml.cmu.edu/academics/primary-ms-machine-learning-masters",
+   "exam": {
+    "gre": {
+     "req": "可选",
+     "code": "2074 / 系 0402"
+    },
+    "toefl": {
+     "code": "4256 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-18",
+      "short": "美东 3pm，申请费 $80"
+     },
+     {
+      "date": "2026-12-09",
+      "short": "美东 3pm，申请费 $100"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "typical_range"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "typical_range"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "s-cmu-msr",
+   "name": "msr@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSR",
+   "tier": "S",
+   "slug": "/S/CMU MSR",
+   "official": "Master of Science in Robotics (MSR)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-18",
+     "label": "早申（申请费优惠截止）"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "最终截止"
+    }
+   ],
+   "gre": "optional",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/",
+   "exam": {
+    "gre": {
+     "req": "可选",
+     "code": "2074 / 系 0402"
+    },
+    "toefl": {
+     "code": "4256 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-18",
+      "short": "3pm EST，申请费 $80"
+     },
+     {
+      "date": "2026-12-09",
+      "short": "3pm EST，之后不收材料更新"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "typical_range"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "typical_range"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "s-cornell-cs-meng",
+   "name": "cs meng@cornell",
+   "school": "Cornell University",
+   "program": "CS MENG",
+   "tier": "S",
+   "slug": "/S/Cornell CS MENG",
+   "official": "Master of Engineering (M.Eng.) in Computer Science (Ithaca campus)",
+   "schoolFull": "Cornell University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-01",
+     "label": "秋季入学截止（唯一一轮）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 105,
+   "apply": "https://www.applyweb.com/forms/CORNELLG",
+   "site": "https://www.cs.cornell.edu/masters-engineering-computer-science",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "2098"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-01",
+      "short": "唯一一轮，迟交不审"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "口语23 阅读/听力22 写作24",
+     "kind": "subscores_only"
+    },
+    "toefl_new": {
+     "cell": "口语5.5 阅读4.5 听力/写作5",
+     "kind": "subscores_only"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "s-ucb-eecs-meng",
+   "name": "eecs meng@berkeley",
+   "school": "UC Berkeley",
+   "program": "EECS MEng",
+   "tier": "S",
+   "slug": "/S/UCB EECS meng",
+   "official": "Master of Engineering (M.Eng.) in Electrical Engineering and Computer Sciences",
+   "schoolFull": "University of California, Berkeley",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-06",
+     "label": "唯一截止"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 155,
+   "apply": "https://gradapp.berkeley.edu/apply",
+   "site": "https://eecs.berkeley.edu/academics/graduate/industry-programs/meng/",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "4833"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-06",
+      "short": "太平洋 8:59 pm，仅秋季"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5(口语/写作 4.5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(口语/写作 6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "s-ut-mscs",
+   "name": "mscs@uta",
+   "school": "UT Austin",
+   "program": "MSCS",
+   "tier": "S",
+   "slug": "/S/UT MSCS",
+   "official": "Master of Science in Computer Science (On-Campus MSCS; Thesis or Coursework Option)",
+   "schoolFull": "The University of Texas at Austin",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "申请截止（唯一一轮）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 90,
+   "apply": "https://students.gradschool.utexas.edu/portal/app",
+   "site": "https://www.cs.utexas.edu/graduate/research-degrees#masters",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不交无不利影响"
+    },
+    "toefl": {
+     "code": "6882"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "推荐信 12/20；4/1 出结果"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "s-cmu-mcds",
+   "name": "mcds@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MCDS",
+   "tier": "S",
+   "slug": "/S/cmu mcds",
+   "official": "Master of Computational Data Science (MCDS)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-18",
+     "label": "早申截止（Early Deadline）"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "最终截止（Final Deadline）"
+    }
+   ],
+   "gre": "required",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://lti.cmu.edu/academics/masters-programs/mcds.html",
+   "exam": {
+    "gre": {
+     "req": "必须 · 仅 CMU 本科可免",
+     "code": "2074 / 系 0402"
+    },
+    "toefl": {
+     "code": "4256 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-18",
+      "short": "美东 3:00 PM，费 $80"
+     },
+     {
+      "date": "2026-12-09",
+      "short": "美东 3:00 PM，费 $100"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "typical_range"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "typical_range"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "s-cmu-msin",
+   "name": "msin@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSIN",
+   "tier": "S",
+   "slug": "/S/cmu msin",
+   "official": "Master of Science in Information Networking (MSIN)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "优先截止 (Priority Deadline)"
+    },
+    {
+     "date": "2027-01-29",
+     "label": "最终截止 (Final Deadline)"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 75,
+   "apply": "https://gradadmissions.engineering.cmu.edu/apply/",
+   "site": "https://www.cmu.edu/ini/academics/msin/index.html",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "2074"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "美东 11:59 pm，暂定"
+     },
+     {
+      "date": "2027-01-29",
+      "short": "补充材料可截止后补交"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "各项 25",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "120",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "s-gatech-mscs",
+   "name": "mscs@gatech",
+   "school": "Georgia Tech",
+   "program": "MSCS",
+   "tier": "S",
+   "slug": "/S/gatech mscs",
+   "official": "Master of Science in Computer Science (M.S. CS), On Campus",
+   "schoolFull": "Georgia Institute of Technology",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-01",
+     "label": "唯一截止（秋季入学）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 105,
+   "apply": "https://gradapp.gatech.edu/portal/program-info?cmd=view-program&program=86097380-be9a-4631-6407-50f3d959f466",
+   "site": "https://www.cc.gatech.edu/degree-programs/master-science-computer-science",
+   "exam": {
+    "gre": {
+     "req": "可选 · 提交会纳入评估",
+     "code": "R5248 / 系 0402"
+    },
+    "toefl": {
+     "code": "5248 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-01",
+      "short": "美东 11:59 PM，仅秋季"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100(19)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5(口语3.5 其余4)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7.5(写作5.5 其余6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-plus-duke-mscs",
+   "name": "mscs@duke",
+   "school": "Duke University",
+   "program": "MSCS",
+   "tier": "A+",
+   "slug": "/A+/Duke mscs",
+   "official": "Master of Science in Computer Science (MSCS)",
+   "schoolFull": "Duke University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-01",
+     "label": "截止日期（唯一一轮）"
+    }
+   ],
+   "gre": "required",
+   "fee": 105,
+   "apply": "https://applygp.duke.edu/apply/?sr=cd5b48c5-8fea-4f8c-ac78-43b6cc816e3b",
+   "site": "https://cs.duke.edu/graduate/ms",
+   "exam": {
+    "gre": {
+     "req": "必须 · 仅 Duke 4+1 可选"
+    },
+    "toefl": {
+     "code": "5156"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-01",
+      "short": "美东 23:59:59，唯一一轮"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "125",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-plus-gatech-cse",
+   "name": "cse@gatech",
+   "school": "Georgia Tech",
+   "program": "CSE",
+   "tier": "A+",
+   "slug": "/A+/Gatech CSE",
+   "official": "Master of Science in Computational Science and Engineering (MS CSE), Home Unit: School of Computational Science and Engineering (College of Computing)",
+   "schoolFull": "Georgia Institute of Technology",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-01",
+     "label": "唯一截止（School of CSE home unit）"
+    }
+   ],
+   "gre": "required",
+   "fee": 105,
+   "apply": "https://gradapp.gatech.edu/portal/program-info?cmd=view-program&program=91447fa2-ef89-be14-32fe-3d26a683b0c9",
+   "site": "https://cse.gatech.edu/ms-computational-science-and-engineering",
+   "exam": {
+    "gre": {
+     "req": "必须 · CSE home unit",
+     "code": "R5248"
+    },
+    "toefl": {
+     "code": "5248"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-01",
+      "short": "美东 23:59，限 CSE unit"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90(19)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5(口语3.5 其余4)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(写作5.5 其余6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-plus-ucla-meng",
+   "name": "meng@ucla",
+   "school": "UCLA",
+   "program": "MEng",
+   "tier": "A+",
+   "slug": "/A+/UCLA MENG",
+   "official": "Master of Engineering (MEng), major \"Engineering - Master of Engineering\" (major code 00F2; Areas of Study incl. Artificial Intelligence, Data Science, IoT Systems, etc.)",
+   "schoolFull": "University of California, Los Angeles (UCLA)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止日"
+    }
+   ],
+   "gre": "optional",
+   "fee": 155,
+   "apply": "https://apply.grad.ucla.edu/portal/landing",
+   "site": "https://www.meng.ucla.edu/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 豁免政策待复审"
+    },
+    "toefl": {
+     "code": "4837"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "仅秋季，目标 3 月初出结果"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "87",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-plus-ucla-mscs",
+   "name": "mscs@ucla",
+   "school": "UCLA",
+   "program": "MSCS",
+   "tier": "A+",
+   "slug": "/A+/UCLA MSCS",
+   "official": "M.S. in Computer Science (Computer Science MS)",
+   "schoolFull": "University of California, Los Angeles (UCLA)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "唯一截止（秋季入学）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 155,
+   "apply": "https://apply.grad.ucla.edu/portal/landing",
+   "site": "https://www.cs.ucla.edu/graduate-admissions/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 提交不额外加权",
+     "code": "4837 / 系 0402"
+    },
+    "toefl": {
+     "code": "4837 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "太平洋 23:59，推荐信同截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "87",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-plus-upenn-cis",
+   "name": "cis@upenn",
+   "school": "UPenn",
+   "program": "CIS",
+   "tier": "A+",
+   "slug": "/A+/Upenn CIS",
+   "official": "Master of Science in Engineering (MSE) in Computer and Information Science (CIS/MSE)",
+   "schoolFull": "University of Pennsylvania",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-01",
+     "label": "提前申请截止（Early）"
+    },
+    {
+     "date": "2027-02-01",
+     "label": "常规申请截止（Regular）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 95,
+   "apply": "https://gradadmissions.engineering.upenn.edu/apply/",
+   "site": "https://www.cis.upenn.edu/mse-in-cis/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不设最低分",
+     "code": "2888"
+    },
+    "toefl": {
+     "code": "2888"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-01",
+      "short": "美东 11:59 PM · CIS 适用"
+     },
+     {
+      "date": "2027-02-01",
+      "short": "滚动审理，4/1 前出结果"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-plus-upenn-ds",
+   "name": "ds@upenn",
+   "school": "UPenn",
+   "program": "DS",
+   "tier": "A+",
+   "slug": "/A+/Upenn DS",
+   "official": "Master of Science in Engineering (MSE) in Data Science & Artificial Intelligence (DSAI) (formerly MSE in Data Science, DATS)",
+   "schoolFull": "University of Pennsylvania",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-01",
+     "label": "Early 截止"
+    },
+    {
+     "date": "2027-02-01",
+     "label": "Regular 截止"
+    }
+   ],
+   "gre": "optional",
+   "fee": 95,
+   "apply": "https://gradadmissions.engineering.upenn.edu/apply/?sr=a5b4dff1-0bba-4e4a-a70b-8b80c7c5cd15",
+   "site": "https://dsai.engineering.upenn.edu/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不设最低分",
+     "code": "2888"
+    },
+    "toefl": {
+     "code": "2888"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-01",
+      "short": "美东 11:59 PM · DSAI 适用"
+     },
+     {
+      "date": "2027-02-01",
+      "short": "滚动审理，4/1 前出结果"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-plus-upenn-msr",
+   "name": "msr@upenn",
+   "school": "UPenn",
+   "program": "MSR",
+   "tier": "A+",
+   "slug": "/A+/Upenn MSR",
+   "official": "Robotics, MSE (Master of Science in Engineering in Robotics, ROBO)",
+   "schoolFull": "University of Pennsylvania",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-01",
+     "label": "早申（Early Admission）"
+    },
+    {
+     "date": "2027-02-01",
+     "label": "常规申请（Regular Admission）"
+    }
+   ],
+   "gre": "recommended",
+   "fee": 95,
+   "apply": "https://gradadmissions.engineering.upenn.edu/apply/?sr=a5b4dff1-0bba-4e4a-a70b-8b80c7c5cd15",
+   "site": "https://www.grasp.upenn.edu/academics/masters-degree-program/",
+   "exam": {
+    "gre": {
+     "req": "推荐 · 强烈鼓励提交",
+     "code": "2888"
+    },
+    "toefl": {
+     "code": "2888"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-01",
+      "short": "官方强烈建议早申"
+     },
+     {
+      "date": "2027-02-01",
+      "short": "滚动审理，4/1 前出结果"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-plus-wisc-cs-pmp",
+   "name": "cs pmp@wisc",
+   "school": "UW-Madison",
+   "program": "CS PMP",
+   "tier": "A+",
+   "slug": "/A+/Wisc CS PMP",
+   "official": "Computer Sciences: Professional Program, MS (Professional Master's Program, PMP)",
+   "schoolFull": "University of Wisconsin–Madison",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-15",
+     "label": "秋季唯一截止"
+    }
+   ],
+   "gre": "optional",
+   "fee": 75,
+   "apply": "https://gradapply.wisc.edu/apply/",
+   "site": "https://www.cs.wisc.edu/grad/programs/pmp/",
+   "exam": {
+    "gre": {
+     "req": "可选"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-15",
+      "short": "推荐信也须截止前交"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "92",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "125",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-plus-ucsd-cs75",
+   "name": "cs75@ucsd",
+   "school": "UCSD",
+   "program": "CS75",
+   "tier": "A+",
+   "slug": "/A+/ucsd cs75",
+   "official": "M.S. in Computer Science (major code CS75, program code CSE-MS-001), Department of Computer Science and Engineering; Plan I Thesis or Plan II Comprehensive Exam",
+   "schoolFull": "University of California, San Diego",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-16",
+     "label": "唯一截止（Fall 2027）"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 155,
+   "apply": "https://connect.grad.ucsd.edu/apply/",
+   "site": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 可交有效成绩",
+     "code": "4836"
+    },
+    "toefl": {
+     "code": "4836"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-16",
+      "short": "11:59 PM PST 硬截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "85",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "120",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-plus-ut-ece",
+   "name": "ece(ses)@uta",
+   "school": "UT Austin",
+   "program": "ECE(ses)",
+   "tier": "A+",
+   "slug": "/A+/ut ece",
+   "official": "Master of Science in Engineering (MSE), Electrical and Computer Engineering – Software Engineering and Systems (SES) Track",
+   "schoolFull": "The University of Texas at Austin",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止（Summer/Fall 入学）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 90,
+   "apply": "https://students.gradschool.utexas.edu/portal/app",
+   "site": "https://www.ece.utexas.edu/academics/graduate/tracks/software",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 录取不考虑"
+    },
+    "toefl": {
+     "code": "6882"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "往年 11:00 PM CST"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-cmu-ece",
+   "name": "ece@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "ECE",
+   "tier": "A",
+   "slug": "/A/CMU ECE",
+   "official": "Master of Science in Electrical and Computer Engineering (MS in ECE, Standard Program, Pittsburgh)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "MS 提前审核截止（Early review）"
+    },
+    {
+     "date": "2027-01-15",
+     "label": "MS 最终提交截止"
+    }
+   ],
+   "gre": "optional",
+   "fee": 75,
+   "apply": "https://gradadmissions.engineering.cmu.edu/apply/",
+   "site": "https://www.ece.cmu.edu/academics/ms-ece/index.html",
+   "exam": {
+    "gre": {
+     "req": "可选 · 无硬性分数线"
+    },
+    "toefl": {
+     "code": "2074"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "提前审核 · 美东 23:59"
+     },
+     {
+      "date": "2027-01-15",
+      "short": "材料须齐 · 美东 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "86(口语20 其余22)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5(听力5 口语4 其余4.5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(口语/写作6 其余6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115(读写105 理解115 产出90 会话95)",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-cmu-msmite",
+   "name": "msmite@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSMITE",
+   "tier": "A",
+   "slug": "/A/CMU MSMITE",
+   "official": "Master of Science in Mobile and IoT Engineering (MSMITE)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "优先截止（Priority）"
+    },
+    {
+     "date": "2027-01-29",
+     "label": "最终截止（Final）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 75,
+   "apply": "https://gradadmissions.engineering.cmu.edu/apply/",
+   "site": "https://www.cmu.edu/ini/academics/bicoastal/index.html",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "2074"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "优先截止 · 日期暂定"
+     },
+     {
+      "date": "2027-01-29",
+      "short": "补材料限截止后 2 周"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "各项 25",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "120",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-umd-mscs",
+   "name": "mscs@umd",
+   "school": "University of Maryland",
+   "program": "MSCS",
+   "tier": "A",
+   "slug": "/A/UMD MSCS",
+   "official": "Master of Science (M.S.) in Computer Science (program code CSMS)",
+   "schoolFull": "University of Maryland, College Park",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-04",
+     "label": "唯一截止（国际生与美国本土申请人相同）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 90,
+   "apply": "https://terpengage.umd.edu/community/CustomLoginPage",
+   "site": "https://www.cs.umd.edu/grad/ms-catalog",
+   "exam": {
+    "gre": {
+     "req": "可选 · 好成绩可加分",
+     "code": "5814"
+    },
+    "toefl": {
+     "code": "5814"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-04",
+      "short": "推荐信可晚两周补交"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "96(阅读26 口语22 其余24)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5(口语4.5 其余5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(口语6.5 其余7)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-umich-mscs",
+   "name": "mscs/mscse@umich",
+   "school": "University of Michigan",
+   "program": "MSCS/MSCSE",
+   "tier": "A",
+   "slug": "/A/Umich MSCS",
+   "official": "Master of Science (M.S.) / Master of Science in Engineering (M.S.E.) in Computer Science and Engineering",
+   "schoolFull": "University of Michigan, Ann Arbor",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "唯一截止（硕士 MS/MSE）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 90,
+   "apply": "https://www.applyweb.com/cgi-bin/app?s=umgrad",
+   "site": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 提交也不看"
+    },
+    "toefl": {
+     "code": "1839"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "美东 11:59 PM · 仅秋季"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "84",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-upenn-mcit",
+   "name": "mcit@upenn",
+   "school": "UPenn",
+   "program": "MCIT",
+   "tier": "A",
+   "slug": "/A/Upenn MCIT",
+   "official": "Master of Computer and Information Technology (MCIT), on-campus",
+   "schoolFull": "University of Pennsylvania",
+   "halt": true,
+   "haltNote": "MCIT（线下 on-campus，就是 csgrad 页面说的 0 基础转码项目）已停招。CIS 官网写明 MCIT 不再接受申请；Penn Engineering 硕士招生页写明，自 Fall 2026 起 MCIT 不再接受申请，招生页的 MCIT 条目下也没有 Apply Now 入口和申请日期。项目已改名为 Master of Applied Science in Computer Science（MAS-CS，formerly MCIT），继续面向非 CS 本科背景，核心课程也延续 MCIT。Fall 2027 想走原 MCIT 方向，要改申 MAS-CS。MCIT Online 同样停招，由 MAS-CS Online 接替。",
+   "gre": "optional",
+   "fee": 95,
+   "apply": "https://www.cis.upenn.edu/mcit/",
+   "site": "https://www.cis.upenn.edu/mcit/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 鼓励已考者提交",
+     "code": "2888"
+    },
+    "toefl": {
+     "code": "2888"
+    },
+    "halt": "MCIT 已停招，Fall 2027 改申 MAS-CS（原 MCIT）"
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   },
+   "rounds": []
+  },
+  {
+   "id": "a-yale-mscs",
+   "name": "mscs 1yr@yale",
+   "school": "Yale University",
+   "program": "MSCS 1 year",
+   "tier": "A",
+   "slug": "/A/Yale MSCS",
+   "official": "Master of Science (MS) in Computer Science (One-Year MS Degree)",
+   "schoolFull": "Yale University (Graduate School of Arts and Sciences)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-02",
+     "label": "唯一截止（Fall 入学）"
+    }
+   ],
+   "gre": "required",
+   "fee": 105,
+   "apply": "https://apply.grad.yale.edu/apply",
+   "site": "https://engineering.yale.edu/academic-study/departments/computer-science/graduate-study/master-science-program",
+   "exam": {
+    "gre": {
+     "req": "必须 · 不可豁免",
+     "code": "3987"
+    },
+    "toefl": {
+     "code": "3987"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-02",
+      "short": "美东 23:59，费减免同日"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "无",
+     "kind": "none"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-cmu-mits",
+   "name": "mits@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MITS",
+   "tier": "A",
+   "slug": "/A/cmu mits",
+   "official": "Master of Information Technology Strategy (MITS)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "唯一截止日（年度截止）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 75,
+   "apply": "https://apply-dc-mcs.mcs.cmu.edu/portal/dc-apply",
+   "site": "https://www.cmu.edu/cmist/academics/graduate-programs/mits/index.html",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不交同等考虑",
+     "code": "2074"
+    },
+    "toefl": {
+     "code": "C583"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "唯一一轮，奖助优先 2/15"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100(25)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "125",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-columbia-mscs",
+   "name": "mscs@columbia",
+   "school": "Columbia University",
+   "program": "MSCS",
+   "tier": "A",
+   "slug": "/A/columbia mscs",
+   "official": "Master of Science in Computer Science (MS in Computer Science, CS MS)",
+   "schoolFull": "Columbia University, The Fu Foundation School of Engineering and Applied Science (Columbia Engineering / SEAS)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "Priority 截止（第一轮）"
+    },
+    {
+     "date": "2027-02-15",
+     "label": "Regular / Final 截止（第二轮）"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 85,
+   "apply": "https://apply.engineering.columbia.edu/apply/",
+   "site": "https://www.cs.columbia.edu/education/ms/",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 可自愿提交",
+     "code": "2111"
+    },
+    "toefl": {
+     "code": "2111"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "Priority，强烈建议"
+     },
+     {
+      "date": "2027-02-15",
+      "short": "Regular / Final"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "101",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-uiuc-mcs",
+   "name": "mcs@uiuc",
+   "school": "UIUC",
+   "program": "MCS",
+   "tier": "A",
+   "slug": "/A/uiuc mcs",
+   "official": "Master of Computer Science (MCS) in Urbana-Champaign",
+   "schoolFull": "University of Illinois Urbana-Champaign",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-05-01",
+     "label": "秋季唯一截止日期"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 90,
+   "apply": "https://choose.illinois.edu/apply/",
+   "site": "https://siebelschool.illinois.edu/academics/graduate/professional-mcs/campus-master-computer-science",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 可上传扫描件"
+    },
+    "toefl": {
+     "code": "1836"
+    },
+    "rounds": [
+     {
+      "date": "2027-05-01",
+      "short": "美中 23:59，逾期不收"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-uw-ee-pmp",
+   "name": "ee pmp@uw",
+   "school": "University of Washington",
+   "program": "EE PMP",
+   "tier": "A",
+   "slug": "/A/uw ee pmp",
+   "official": "Master of Science in Electrical and Computer Engineering (MSECE), Professional Master's Program (PMP) – Seattle (formerly MSEE PMP)",
+   "schoolFull": "University of Washington (Seattle)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-05",
+     "label": "Cycle 1（优先轮）"
+    },
+    {
+     "date": "2027-03-05",
+     "label": "Cycle 2"
+    },
+    {
+     "date": "2027-05-14",
+     "label": "Cycle 3"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 90,
+   "apply": "https://apply.grad.uw.edu/portal/gr_app",
+   "site": "https://www.ece.uw.edu/academics/pmp/",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-05",
+      "short": "优先轮，国际生建议"
+     },
+     {
+      "date": "2027-03-05",
+      "short": "名额有限"
+     },
+     {
+      "date": "2027-05-14",
+      "short": "仅非全日制，F-1 不适用"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-minus-cmu-msess",
+   "name": "mse-ss@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MSE-SS",
+   "tier": "A-",
+   "slug": "/A-/CMU MSESS",
+   "official": "Master of Software Engineering - Scalable Systems (MSE-SS)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": true,
+   "haltNote": "MSE-SS 从 Fall 2027 起停招，不再作为单独学位开设。CMU 把校内 MSE 合并成一个 Master of Software Engineering 学位，分 16 个月的 MSE 和 20 个月、必修暑期实习的 MSE - Applied Study 两种，共用同一申请入口。Scalable Systems 改成这个 MSE 学位内的可选 concentration。原 MSE-SS 的学习计划只适用于 Fall 2025 和 Fall 2026 入学的学生。原 MSE-SS 申请页 /applicants/mse-ss/ 已返回 404，SCS 硕士项目总列表也只剩 Master of Software Engineering 和 MSE Online。想读原 SS 方向的人，Fall 2027 应申请 MSE 或 MSE - Applied Study，入学后再选 Scalable Systems concentration。本记录里的截止日期、GRE、语言、申请费和 apply_url 都是这个继任项目的信息，不代表 MSE-SS 本身还在招生。另外，SCS 招生总页的申请费说明里还写着“MSE-ES, MSE-SS”，应是旧写法没改，与项目官网的停招说明不一致。",
+   "rounds": [
+    {
+     "date": "2026-12-09",
+     "label": "继任项目 MSE / MSE - Applied Study 唯一截止（MSE-SS 本身已停招）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 100,
+   "apply": "https://admissions.scs.cmu.edu/portal/apply_gr",
+   "site": "https://mse.s3d.cmu.edu/applicants/faq.html",
+   "exam": {
+    "gre": {
+     "req": "可选 · 鼓励已考者提交",
+     "code": "2074 / 系 0402"
+    },
+    "toefl": {
+     "code": "4256 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-09",
+      "short": "EST 15:00，继任 MSE"
+     }
+    ],
+    "halt": "MSE-SS 自 Fall 2027 停招，改申 MSE 后选 Scalable Systems"
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "typical_range"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "typical_range"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "typical_range"
+    }
+   }
+  },
+  {
+   "id": "a-minus-columbia-ds",
+   "name": "ds@columbia",
+   "school": "Columbia University",
+   "program": "DS",
+   "tier": "A-",
+   "slug": "/A-/Columbia DS",
+   "official": "Master of Science in Data Science (MS in Data Science)",
+   "schoolFull": "Columbia University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "优先截止 (Priority Deadline)"
+    },
+    {
+     "date": "2027-02-15",
+     "label": "常规/最终截止 (Regular / Final Deadline)"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 85,
+   "apply": "https://apply.engineering.columbia.edu/apply/?sr=3930ed75-7a3d-4001-9d69-47520ce1e1c2",
+   "site": "https://datascience.columbia.edu/education/ms-data-science",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 可自愿提交",
+     "code": "2111"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "Priority 优先轮"
+     },
+     {
+      "date": "2027-02-15",
+      "short": "Regular / Final"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-minus-columbia-ce",
+   "name": "msce@columbia",
+   "school": "Columbia University",
+   "program": "MSCE",
+   "tier": "A-",
+   "slug": "/A-/Columbia ce",
+   "official": "Master of Science (MS) in Computer Engineering",
+   "schoolFull": "Columbia University, The Fu Foundation School of Engineering and Applied Science (Columbia Engineering)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-15",
+     "label": "截止日期（Regular Deadline，CE 无 priority 轮）"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 85,
+   "apply": "https://apply.engineering.columbia.edu/apply/?sr=3930ed75-7a3d-4001-9d69-47520ce1e1c2",
+   "site": "https://compeng.columbia.edu/compeng-graduate",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 可自愿提交",
+     "code": "2111"
+    },
+    "toefl": {
+     "code": "2111"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-15",
+      "short": "Regular，无 priority 轮"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-minus-gatech-ece",
+   "name": "ece@gatech",
+   "school": "Georgia Tech",
+   "program": "ECE",
+   "tier": "A-",
+   "slug": "/A-/Gatech ECE",
+   "official": "Master of Science in Electrical and Computer Engineering (M.S.E.C.E.), Atlanta campus",
+   "schoolFull": "Georgia Institute of Technology",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-16",
+     "label": "唯一截止（Atlanta 校区秋季入学）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 105,
+   "apply": "https://gradapp.gatech.edu/portal/program-info?cmd=view-program&program=b9c471fc-5084-0e9d-491a-07ba52522650",
+   "site": "https://ece.gatech.edu/graduate/masters-degrees",
+   "exam": {
+    "gre": {
+     "req": "可选 · 非主要录取因素",
+     "code": "R5248 / 系 1203"
+    },
+    "toefl": {
+     "code": "5248 / 系 66"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-16",
+      "short": "美东 23:59，日期不改"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90(19)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5(4,口语 3.5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(6.5,写作 5.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-minus-nyu-ds",
+   "name": "ds@nyu",
+   "school": "NYU",
+   "program": "DS",
+   "tier": "A-",
+   "slug": "/A-/NYU DS",
+   "official": "Master of Science in Data Science (M.S. in Data Science)",
+   "schoolFull": "New York University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-12",
+     "label": "唯一截止（Fall 入学）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 130,
+   "apply": "https://apply.gsas.nyu.edu/apply/",
+   "site": "https://cds.nyu.edu/masters-in-data-science-overview/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不接受 GMAT",
+     "code": "2596"
+    },
+    "toefl": {
+     "code": "2596"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-12",
+      "short": "美东下午 5 点前"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "a-minus-ucsb-mscs",
+   "name": "mscs@ucsb",
+   "school": "UCSB",
+   "program": "MSCS",
+   "tier": "A-",
+   "slug": "/A-/UCSB MSCS",
+   "official": "MS - Computer Science (Master of Science in Computer Science)",
+   "schoolFull": "University of California, Santa Barbara",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-16",
+     "label": "最终截止"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 155,
+   "apply": "https://engage.graddiv.ucsb.edu/apply",
+   "site": "https://cs.ucsb.edu/education/graduate/masters-degree",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 交了也不审阅"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-16",
+      "short": "材料与申请费须截止前交齐"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "130",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-minus-ucsd-ec79",
+   "name": "ec79@ucsd",
+   "school": "UCSD",
+   "program": "EC79",
+   "tier": "A-",
+   "slug": "/A-/Ucsd EC79",
+   "official": "M.S. in Electrical and Computer Engineering, Computer Engineering (EC79)",
+   "schoolFull": "University of California San Diego",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-06",
+     "label": "M.S. 唯一截止"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 155,
+   "apply": "https://connect.grad.ucsd.edu/apply/",
+   "site": "https://ece.ucsd.edu/faculty-research/ece-research-areas/computer-engineering-impacted",
+   "exam": {
+    "gre": {
+     "req": "不要求"
+    },
+    "toefl": {
+     "code": "4836"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-06",
+      "short": "加州时间 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "85",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "120",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-minus-brown-scmcs",
+   "name": "scmcs@brown",
+   "school": "Brown University",
+   "program": "SCMCS",
+   "tier": "A-",
+   "slug": "/A-/brown scmcs",
+   "official": "Master of Science in Computer Science (Sc.M.)",
+   "schoolFull": "Brown University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "国际学生截止（Fall 入学）"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-01-15",
+     "label": "最终截止（Fall 入学）",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "apply": "https://apply.professional.brown.edu/portal/app-management",
+   "site": "https://graduateprograms.brown.edu/graduate-program/computer-science-scm",
+   "exam": {
+    "gre": {
+     "req": "可选 · 鼓励提交",
+     "code": "3094 / 系 0402"
+    },
+    "toefl": {
+     "code": "3094 / 系 78"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "国际学生截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "105",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "8",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "a-minus-cmu-sesv",
+   "name": "se-sv@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "SE-SV",
+   "tier": "A-",
+   "slug": "/A-/cmu sesv",
+   "official": "Master of Science in Software Engineering (MS in SE), Silicon Valley campus",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "MS 提前审核截止（Early review）"
+    },
+    {
+     "date": "2027-01-15",
+     "label": "MS 最终提交截止"
+    }
+   ],
+   "gre": "optional",
+   "fee": 75,
+   "apply": "https://gradadmissions.engineering.cmu.edu/apply/",
+   "site": "https://www.ece.cmu.edu/academics/ms-se/index.html",
+   "exam": {
+    "gre": {
+     "req": "可选 · 无硬性分数线",
+     "code": "2074"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "提前审核 · 美东 11:59pm"
+     },
+     {
+      "date": "2027-01-15",
+      "short": "最终截止 · 美东 11:59pm"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "86(口语20 其余22)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5(口语4 听力5 其余4.5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(口语/写作6 其余6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115(小分 90-115)",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-minus-duke-ece",
+   "name": "ece@duke",
+   "school": "Duke University",
+   "program": "ECE",
+   "tier": "A-",
+   "slug": "/A-/duke ece",
+   "official": "Master of Science in Electrical and Computer Engineering (M.S. in ECE)",
+   "schoolFull": "Duke University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-16",
+     "label": "优先截止（保证审理）"
+    },
+    {
+     "date": "2027-02-25",
+     "label": "最终截止（视名额审理）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 105,
+   "apply": "https://applygp.duke.edu/apply/?sr=cd5b48c5-8fea-4f8c-ac78-43b6cc816e3b",
+   "site": "https://ece.duke.edu/academics/masters/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 自报须送官方分",
+     "code": "5156"
+    },
+    "toefl": {
+     "code": "5156"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-16",
+      "short": "保证审理 · 美东 23:59"
+     },
+     {
+      "date": "2027-02-25",
+      "short": "视剩余名额审理"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "125",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-minus-jhu-msecs",
+   "name": "msecs@jhu",
+   "school": "Johns Hopkins University",
+   "program": "MSECS",
+   "tier": "A-",
+   "slug": "/A-/jhu msecs",
+   "official": "Master of Science in Engineering (MSE) in Computer Science",
+   "schoolFull": "Johns Hopkins University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-15",
+     "label": "秋季唯一截止"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 0,
+   "apply": "https://applygrad.jhu.edu/apply/?sr=36f7b1b7-2b3b-4371-81c3-260ab0fcc589",
+   "site": "https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 交了也不审阅",
+     "code": "4655"
+    },
+    "toefl": {
+     "code": "C559"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-15",
+      "short": "美东 11:59pm"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "a-minus-uchicago-mpcs",
+   "name": "mpcs@uchicago",
+   "school": "University of Chicago",
+   "program": "MPCS",
+   "tier": "A-",
+   "slug": "/A-/uchicago mpcs",
+   "official": "Masters Program in Computer Science (MPCS) — Master of Science in Computer Science (9-Course / 12-Course, Full-Time)",
+   "schoolFull": "University of Chicago",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-02",
+     "label": "第一轮 (Round 1)"
+    },
+    {
+     "date": "2027-02-01",
+     "label": "第二轮 (Round 2)"
+    },
+    {
+     "date": "2027-05-03",
+     "label": "第三轮 (Round 3)"
+    }
+   ],
+   "gre": "optional",
+   "fee": 90,
+   "apply": "https://advscholars.uchicago.edu/portal/masters_app",
+   "site": "https://masters.cs.uchicago.edu/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 部分人建议提交"
+    },
+    "toefl": {
+     "code": "1832"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-02",
+      "short": "美国中部 23:59"
+     },
+     {
+      "date": "2027-02-01",
+      "short": "美国中部 23:59"
+     },
+     {
+      "date": "2027-05-03",
+      "short": "美国中部 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-plus-columbia-ee",
+   "name": "msee@columbia",
+   "school": "Columbia University",
+   "program": "MSEE",
+   "tier": "B+",
+   "slug": "/B+/Columbia ee",
+   "official": "Master of Science in Electrical Engineering (MS EE)",
+   "schoolFull": "Columbia University, The Fu Foundation School of Engineering and Applied Science (Columbia Engineering)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "优先截止（Priority）"
+    },
+    {
+     "date": "2027-02-15",
+     "label": "常规截止（Regular）"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 85,
+   "apply": "https://apply.engineering.columbia.edu/apply/?sr=3930ed75-7a3d-4001-9d69-47520ce1e1c2",
+   "site": "https://www.ee.columbia.edu/about-ms-ee-program",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 可自愿提交",
+     "code": "2111"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "材料截止后 2-4 周内送达"
+     },
+     {
+      "date": "2027-02-15",
+      "short": "国际生宜尽早申请"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "b-plus-cornell-mps-is",
+   "name": "mps-is@cornell",
+   "school": "Cornell University",
+   "program": "MPS-IS",
+   "tier": "B+",
+   "slug": "/B+/Cornell MPS-IS",
+   "official": "Master of Professional Studies (MPS) in Information Science",
+   "schoolFull": "Cornell University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "唯一截止（Fall 入学）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 105,
+   "apply": "https://www.applyweb.com/forms/CORNELLG",
+   "site": "https://infosci.cornell.edu/master-professional-studies-information-science",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "2098"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "美东 11:59pm"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "口语24 阅读/写作20 听力15",
+     "kind": "subscores_only"
+    },
+    "toefl_new": {
+     "cell": "口语4.5 阅读/写作4 听力3.5",
+     "kind": "subscores_only"
+    },
+    "ielts": {
+     "cell": "7(口语 8)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-plus-nwu-mscs",
+   "name": "mscs@nwu",
+   "school": "Northwestern University",
+   "program": "MSCS",
+   "tier": "B+",
+   "slug": "/B+/NWU MSCS",
+   "official": "Master of Science in Computer Science (MS in Computer Science)",
+   "schoolFull": "Northwestern University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-30",
+     "label": "第一轮"
+    },
+    {
+     "date": "2026-12-31",
+     "label": "第二轮"
+    },
+    {
+     "date": "2027-02-28",
+     "label": "第三轮"
+    },
+    {
+     "date": "2027-06-15",
+     "label": "最终轮"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 95,
+   "apply": "https://www.applyweb.com/nugrad/index.ftl",
+   "site": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/masters/",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 硕士不考虑"
+    },
+    "toefl": {
+     "code": "1565 / 部门 01"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-30",
+      "short": "1 月 10 日前出结果"
+     },
+     {
+      "date": "2026-12-31",
+      "short": "2 月 10 日前出结果"
+     },
+     {
+      "date": "2027-02-28",
+      "short": "3 月 31 日前出结果"
+     },
+     {
+      "date": "2027-06-15",
+      "short": "7/15 前出结果·名额有限"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-plus-nyu-tandon",
+   "name": "tandon mscs@nyu",
+   "school": "NYU",
+   "program": "Tandon MSCS",
+   "tier": "B+",
+   "slug": "/B+/NYU Tandon",
+   "official": "Computer Science, M.S.",
+   "schoolFull": "New York University, Tandon School of Engineering",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "优先截止（Priority consideration）"
+    },
+    {
+     "date": "2027-02-15",
+     "label": "常规截止（General consideration）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 90,
+   "apply": "https://apply.engineering.nyu.edu/apply/",
+   "site": "https://engineering.nyu.edu/academics/programs/computer-science-ms",
+   "exam": {
+    "gre": {
+     "req": "可选",
+     "code": "2668"
+    },
+    "toefl": {
+     "code": "2668"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "优先审理·邮戳为准"
+     },
+     {
+      "date": "2027-02-15",
+      "short": "CS MS 无 Spring 入学"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "125",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-plus-rics-mcs",
+   "name": "mcs@rice",
+   "school": "Rice University",
+   "program": "MCS",
+   "tier": "B+",
+   "slug": "/B+/Rics MCS",
+   "official": "Master of Computer Science (MCS), On-Campus",
+   "schoolFull": "Rice University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-02-10",
+     "label": "早申（奖学金考虑）"
+    },
+    {
+     "date": "2027-05-01",
+     "label": "国际生截止"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-07-01",
+     "label": "国内生截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "recommended",
+   "fee": 85,
+   "apply": "https://gradapply.rice.edu/",
+   "site": "https://csweb.rice.edu/academics/graduate-programs/master-computer-science",
+   "exam": {
+    "gre": {
+     "req": "推荐 · 非必须",
+     "code": "6609"
+    },
+    "toefl": {
+     "code": "6609"
+    },
+    "rounds": [
+     {
+      "date": "2027-02-10",
+      "short": "自动考虑奖学金"
+     },
+     {
+      "date": "2027-05-01",
+      "short": "国际生截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-plus-uwt-mscs",
+   "name": "mscs@uwt",
+   "school": "University of Washington Tacoma",
+   "program": "MSCS",
+   "tier": "B+",
+   "slug": "/B+/UWT MSCS",
+   "official": "Master of Science in Computer Science & Systems (MSCSS)",
+   "schoolFull": "University of Washington Tacoma",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-07-31",
+     "label": "最终截止（Final Deadline）"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2026-02-15",
+     "label": "优先截止（上一周期参考，Fall 2027 未公布）",
+     "cycle": "Fall 2026"
+    }
+   ],
+   "gre": "optional",
+   "fee": 90,
+   "apply": "https://apply.grad.uw.edu/portal/gr_app",
+   "site": "https://www.tacoma.uw.edu/set/programs/graduate/mscss",
+   "exam": {
+    "gre": {
+     "req": "可选 · GPA<3.0 强烈建议",
+     "code": "4854 / 系 5199"
+    },
+    "rounds": [
+     {
+      "date": "2027-07-31",
+      "short": "最终截止·国际生宜早申"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-plus-upenn-ee",
+   "name": "ee@upenn",
+   "school": "UPenn",
+   "program": "EE",
+   "tier": "B+",
+   "slug": "/B+/Upenn EE",
+   "official": "Master of Science in Engineering (MSE) in Electrical Engineering",
+   "schoolFull": "University of Pennsylvania",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-01",
+     "label": "Early 截止（提前轮）"
+    },
+    {
+     "date": "2027-02-01",
+     "label": "Regular 截止（常规轮）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 95,
+   "apply": "https://gradadmissions.engineering.upenn.edu/apply/?sr=a5b4dff1-0bba-4e4a-a70b-8b80c7c5cd15",
+   "site": "https://www.ese.upenn.edu/academics/masters/electrical-engineering-program/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不设最低分",
+     "code": "2888"
+    },
+    "toefl": {
+     "code": "2888"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-01",
+      "short": "美东 23:59·滚动审理"
+     },
+     {
+      "date": "2027-02-01",
+      "short": "美东 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "7.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "135",
+     "kind": "recommended"
+    }
+   }
+  },
+  {
+   "id": "b-plus-cmu-mism",
+   "name": "mism@cmu",
+   "school": "Carnegie Mellon University",
+   "program": "MISM",
+   "tier": "B+",
+   "slug": "/B+/cmu mism",
+   "official": "Master of Information Systems Management (MISM)",
+   "schoolFull": "Carnegie Mellon University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-01",
+     "label": "第一轮"
+    },
+    {
+     "date": "2027-01-10",
+     "label": "第二轮"
+    },
+    {
+     "date": "2027-02-01",
+     "label": "第三轮（竞争性奖学金/Fellowship 全面考虑的最后期限）"
+    }
+   ],
+   "gre": "waived_for_some",
+   "fee": 0,
+   "apply": "https://apply.heinz.cmu.edu/apply/",
+   "site": "https://www.heinz.cmu.edu/programs/information-systems-management-master",
+   "exam": {
+    "gre": {
+     "req": "部分可免 · 数学课 B 以上免",
+     "code": "3085"
+    },
+    "toefl": {
+     "code": "DI 2176"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-01",
+      "short": "1 月底出结果·国际生推荐"
+     },
+     {
+      "date": "2027-01-10",
+      "short": "3 月中旬前出结果"
+     },
+     {
+      "date": "2027-02-01",
+      "short": "竞争性奖学金最后期限"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "口语 20 其余 22",
+     "kind": "subscores_only"
+    },
+    "toefl_new": {
+     "cell": "阅读/写作 4.5 听力 5 口语 4",
+     "kind": "subscores_only"
+    },
+    "ielts": {
+     "cell": "6.5(口语 6)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "120(另有小分)",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-plus-cornell-tech-cm",
+   "name": "cm@cornell tech",
+   "school": "Cornell Tech",
+   "program": "CM",
+   "tier": "B+",
+   "slug": "/B+/cornell tech CM",
+   "official": "Jacobs Technion-Cornell Dual Master of Science Degrees with a Concentration in Connective Media (MS in Information Systems, Cornell + MS in Applied Information Science, Technion)",
+   "schoolFull": "Cornell University - Cornell Tech (Jacobs Technion-Cornell Institute)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-05",
+     "label": "Priority 优先截止"
+    },
+    {
+     "date": "2027-02-02",
+     "label": "Round 2 截止"
+    },
+    {
+     "date": "2027-04-01",
+     "label": "Rolling 滚动截止"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 95,
+   "apply": "https://gradprofessional.cornell.edu/apply/",
+   "site": "https://tech.cornell.edu/programs/masters-programs/jacobs-technion-cornell-dual-ms-connective-media/",
+   "exam": {
+    "gre": {
+     "req": "不接受"
+    },
+    "toefl": {
+     "code": "2098"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-05",
+      "short": "美东 5PM·奖学金优先"
+     },
+     {
+      "date": "2027-02-02",
+      "short": "美东 5PM·国际生最迟"
+     },
+     {
+      "date": "2027-04-01",
+      "short": "美东 5PM·招满即止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "100",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-plus-tamu-cse",
+   "name": "cse@tamu",
+   "school": "Texas A&M",
+   "program": "CSE",
+   "tier": "B+",
+   "slug": "/B+/tamu cse",
+   "official": "Master of Computer Science (MCS)",
+   "schoolFull": "Texas A&M University (College Station)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "秋季唯一截止（线下硕士，论文型和非论文型都适用）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 148,
+   "apply": "https://engineeringcas.liaisoncas.org/apply/",
+   "site": "https://engineering.tamu.edu/cse/academics/degrees/graduate/mcs.html",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不设分数线",
+     "code": "4119"
+    },
+    "toefl": {
+     "code": "B887"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "美东午夜·秋季唯一截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5(4)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-plus-uci-mswe",
+   "name": "mswe@uci",
+   "school": "UC Irvine",
+   "program": "MSWE",
+   "tier": "B+",
+   "slug": "/B+/uci mswe",
+   "official": "Master of Software Engineering (MSWE)",
+   "schoolFull": "University of California, Irvine",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "国际学生截止"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-03-15",
+     "label": "美国本土学生截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "fee": 155,
+   "apply": "https://apply.grad.uci.edu/apply/",
+   "site": "https://mswe.ics.uci.edu/",
+   "exam": {
+    "gre": {
+     "req": "可选",
+     "code": "4859"
+    },
+    "toefl": {
+     "code": "4859"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "国际生截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(6)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-emory-mscs",
+   "name": "mscs@emory",
+   "school": "Emory University",
+   "program": "MSCS",
+   "tier": "B",
+   "slug": "/B/Emory MSCS",
+   "official": "Master of Science in Computer Science (CS MS)",
+   "schoolFull": "Emory University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "优先截止"
+    },
+    {
+     "date": "2027-04-15",
+     "label": "最终截止"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 75,
+   "apply": "https://laneyconnect.emory.edu/apply/",
+   "site": "https://computerscience.emory.edu/graduate-ms/index.html",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 无最低分",
+     "code": "5187"
+    },
+    "toefl": {
+     "code": "5187"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "优先截止"
+     },
+     {
+      "date": "2027-04-15",
+      "short": "最终截止·押金 5/15"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "85",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "7",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "120",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-ncsu-mcs",
+   "name": "mcs@ncsu",
+   "school": "NC State",
+   "program": "MCS",
+   "tier": "B",
+   "slug": "/B/NCSU MCS",
+   "official": "Master of Computer Science (MCS, non-thesis; Graduate School program code MR)",
+   "schoolFull": "North Carolina State University (NC State)",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "国际申请人截止（秋季唯一一轮）"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-05-01",
+     "label": "美国公民/永久居民秋季截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "required",
+   "fee": 95,
+   "apply": "https://applygrad.ncsu.edu/apply/",
+   "site": "https://csc.ncsu.edu/academics/graduate/masters/master-of-computer-science/",
+   "exam": {
+    "gre": {
+     "req": "必须 · 国际生必考",
+     "code": "5496"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "仅秋季，推荐信同日截止"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80(18)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4(4)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5(6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "110(110)",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-neu-cs-align",
+   "name": "cs align@neu",
+   "school": "Northeastern University",
+   "program": "CS Align",
+   "tier": "B",
+   "slug": "/B/NEU CS ALIGN",
+   "official": "Align MS in Computer Science (Master of Science in Computer Science – Align)",
+   "schoolFull": "Northeastern University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-06-15",
+     "label": "国际生（申请时人在美加境外）截止"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-07-01",
+     "label": "国际生（申请时人在美加境内）截止",
+     "cycle": "Fall 2027"
+    },
+    {
+     "date": "2027-08-01",
+     "label": "美国/加拿大本国申请人截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "fee": 0,
+   "apply": "https://enroll.northeastern.edu/apply/",
+   "site": "https://www.khoury.northeastern.edu/programs/align-masters-of-science-in-computer-science/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 仅作补充参考"
+    },
+    "rounds": [
+     {
+      "date": "2027-06-15",
+      "short": "境外国际生，滚动审理"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-neu-mscs",
+   "name": "mscs@neu",
+   "school": "Northeastern University",
+   "program": "MSCS",
+   "tier": "B",
+   "slug": "/B/NEU MSCS",
+   "official": "Master of Science in Computer Science (MS in Computer Science)",
+   "schoolFull": "Northeastern University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-06-15",
+     "label": "国际生（境外申请）截止"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-07-01",
+     "label": "国际生（境内申请）截止",
+     "cycle": "Fall 2027"
+    },
+    {
+     "date": "2027-08-01",
+     "label": "本国学生截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "fee": 100,
+   "apply": "https://enroll.northeastern.edu/apply/",
+   "site": "https://www.khoury.northeastern.edu/programs/computer-science-ms/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 无限期豁免"
+    },
+    "toefl": {
+     "code": "3679"
+    },
+    "rounds": [
+     {
+      "date": "2027-06-15",
+      "short": "滚动审理，越早越好"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "90",
+     "kind": "recommended"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "recommended"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "recommended"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-uci-mcs",
+   "name": "mcs@uci",
+   "school": "UC Irvine",
+   "program": "MCS",
+   "tier": "B",
+   "slug": "/B/UCI MCS",
+   "official": "Master of Computer Science (MCS)",
+   "schoolFull": "University of California, Irvine",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-15",
+     "label": "国际学生截止"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-02-15",
+     "label": "美国本土学生最终截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "fee": 155,
+   "apply": "https://apply.grad.uci.edu/apply/",
+   "site": "https://mcs.ics.uci.edu/",
+   "exam": {
+    "gre": {
+     "req": "可选"
+    },
+    "toefl": {
+     "code": "4859"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-15",
+      "short": "唯一截止，不滚动"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "7(6)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-uiuc-ece-meng",
+   "name": "ece meng@uiuc",
+   "school": "UIUC",
+   "program": "ECE MENG",
+   "tier": "B",
+   "slug": "/B/UIUC ECE MENG",
+   "official": "Master of Engineering (M.Eng.) in Electrical & Computer Engineering (On-Campus)",
+   "schoolFull": "University of Illinois Urbana-Champaign",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-05-01",
+     "label": "截止（院系 Information and Deadlines 页，与招生页冲突）"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-06-01",
+     "label": "最终截止（M.Eng. Degree 招生页，On-campus）",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "recommended",
+   "fee": 90,
+   "apply": "https://choose.illinois.edu/apply/",
+   "site": "https://ece.illinois.edu/academics/grad/meng-campus",
+   "exam": {
+    "gre": {
+     "req": "推荐 · 不要求但更希望交"
+    },
+    "toefl": {
+     "code": "1836"
+    },
+    "rounds": [
+     {
+      "date": "2027-05-01",
+      "short": "美东午夜；招生页写 6 月 1 日"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "96",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "—",
+     "kind": "not_stated"
+    },
+    "ielts": {
+     "cell": "6.5(6.0)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "—",
+     "kind": "not_stated"
+    }
+   }
+  },
+  {
+   "id": "b-umass-mscs",
+   "name": "mscs@umass",
+   "school": "UMass Amherst",
+   "program": "MSCS",
+   "tier": "B",
+   "slug": "/B/UMass MSCS",
+   "official": "Master of Science in Computer Science (On Campus)",
+   "schoolFull": "University of Massachusetts Amherst",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "早申请（Early Decision）"
+    },
+    {
+     "date": "2027-03-15",
+     "label": "常规申请（Regular Decision）"
+    }
+   ],
+   "gre": "optional",
+   "fee": 90,
+   "apply": "https://applygrad.umass.edu/apply/",
+   "site": "https://www.cics.umass.edu/academics/ms-computer-science-campus",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不交不影响录取",
+     "code": "3917"
+    },
+    "toefl": {
+     "code": "3917"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "早申（Early Decision）"
+     },
+     {
+      "date": "2027-03-15",
+      "short": "常规轮；建议 12 月 15 日前"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-usc-cs28",
+   "name": "cs28@usc",
+   "school": "USC",
+   "program": "CS28",
+   "tier": "B",
+   "slug": "/B/USC CS37",
+   "official": "Master of Science in Computer Science (General)",
+   "schoolFull": "University of Southern California",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-12-15",
+     "label": "奖学金考虑截止"
+    },
+    {
+     "date": "2027-01-15",
+     "label": "最终截止"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 120,
+   "apply": "https://usc.liaisoncas.com/applicant-ux/#/login",
+   "site": "https://viterbigradadmission.usc.edu/programs/masters/msprograms/computer-science/ms-computer-science/",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 提交也不审阅"
+    },
+    "rounds": [
+     {
+      "date": "2026-12-15",
+      "short": "奖学金考虑，太平洋 23:59"
+     },
+     {
+      "date": "2027-01-15",
+      "short": "最终截止，太平洋 23:59"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "无",
+     "kind": "none"
+    },
+    "toefl_new": {
+     "cell": "无",
+     "kind": "none"
+    },
+    "ielts": {
+     "cell": "无",
+     "kind": "none"
+    },
+    "duolingo": {
+     "cell": "不接受",
+     "kind": "not_accepted"
+    }
+   }
+  },
+  {
+   "id": "b-utah-state-university-mscs",
+   "name": "mscs@usu",
+   "school": "Utah State University",
+   "program": "MSCS",
+   "tier": "B",
+   "slug": "/B/utah state university MSCS",
+   "official": "Computer Science MS (Master of Science in Computer Science, Plan A Thesis / Plan B Report)",
+   "schoolFull": "Utah State University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-06-01",
+     "label": "秋季截止（唯一一轮）"
+    }
+   ],
+   "gre": "not_required",
+   "fee": 55,
+   "apply": "https://apply.usu.edu/",
+   "site": "https://engineering.usu.edu/soc/students/graduate/ms-plan-a",
+   "exam": {
+    "gre": {
+     "req": "不要求 · 据要求清单推断"
+    },
+    "toefl": {
+     "code": "4857"
+    },
+    "rounds": [
+     {
+      "date": "2027-06-01",
+      "short": "滚动录取，国际生宜早交"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.0",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5(5.0)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "105",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-minus-neu-is",
+   "name": "is@neu",
+   "school": "Northeastern University",
+   "program": "IS",
+   "tier": "B-",
+   "slug": "/B-/NEU IS",
+   "official": "Master of Science in Information Systems (MSIS), Boston",
+   "schoolFull": "Northeastern University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-06-15",
+     "label": "国际生最终截止（美国境外）"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-07-01",
+     "label": "国际生最终截止（美国境内）",
+     "cycle": "Fall 2027"
+    },
+    {
+     "date": "2027-08-01",
+     "label": "美国本土申请者最终截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "fee": 0,
+   "apply": "https://enroll.northeastern.edu/apply/",
+   "site": "https://graduate.northeastern.edu/programs/msis-information-systems/master-of-science-in-information-systems-boston/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 自报需补官方成绩"
+    },
+    "toefl": {
+     "code": "3665"
+    },
+    "rounds": [
+     {
+      "date": "2027-06-15",
+      "short": "滚动审理，MS 无提前批"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.0",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "105",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-minus-neu-ses",
+   "name": "ses@neu",
+   "school": "Northeastern University",
+   "program": "SES",
+   "tier": "B-",
+   "slug": "/B-/NEU SES",
+   "official": "Master of Science in Software Engineering Systems (MS SES, formerly Computer Systems Engineering)",
+   "schoolFull": "Northeastern University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-06-15",
+     "label": "最终截止（国际生，美国境外）"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-07-01",
+     "label": "最终截止（国际生，美国境内）",
+     "cycle": "Fall 2027"
+    },
+    {
+     "date": "2027-08-01",
+     "label": "最终截止（美国/加拿大本土申请人）",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "optional",
+   "fee": 0,
+   "apply": "https://enroll.northeastern.edu/apply/",
+   "site": "https://seis.northeastern.edu/academics/ms-swes/",
+   "exam": {
+    "gre": {
+     "req": "可选 · 自报需补官方成绩"
+    },
+    "toefl": {
+     "code": "3665"
+    },
+    "rounds": [
+     {
+      "date": "2027-06-15",
+      "short": "滚动审理，越早越好"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.0",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "105",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-minus-scu-mscse",
+   "name": "mscse@scu",
+   "school": "Santa Clara University",
+   "program": "MSCSE",
+   "tier": "B-",
+   "slug": "/B-/SCU MSCSE",
+   "official": "Master of Science in Computer Science and Engineering (MSCSE)",
+   "schoolFull": "Santa Clara University",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-06-01",
+     "label": "国际申请人截止"
+    }
+   ],
+   "otherDates": [
+    {
+     "date": "2027-07-01",
+     "label": "美国本土申请人截止",
+     "cycle": "Fall 2027"
+    }
+   ],
+   "gre": "required",
+   "fee": 100,
+   "apply": "https://slate.scu.edu/apply/",
+   "site": "https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/graduate/ms-in-computer-science-and-engineering/",
+   "exam": {
+    "gre": {
+     "req": "必须 · 不设最低分",
+     "code": "4851"
+    },
+    "toefl": {
+     "code": "4851"
+    },
+    "rounds": [
+     {
+      "date": "2027-06-01",
+      "short": "国际生截止，不分轮次"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "80",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "110",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "b-minus-uiuc-msim",
+   "name": "msim@uiuc",
+   "school": "UIUC",
+   "program": "MSIM",
+   "tier": "B-",
+   "slug": "/B-/UIUC MSIM",
+   "official": "Master of Science in Information Management (MSIM)",
+   "schoolFull": "University of Illinois Urbana-Champaign",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2026-11-17",
+     "label": "Early Action"
+    },
+    {
+     "date": "2027-01-29",
+     "label": "Regular Decision"
+    }
+   ],
+   "gre": "optional",
+   "fee": 90,
+   "apply": "https://choose.illinois.edu/apply/",
+   "site": "https://ischool.illinois.edu/academics/graduate/ms-information-management",
+   "exam": {
+    "gre": {
+     "req": "可选 · 不交无劣势"
+    },
+    "toefl": {
+     "code": "1836"
+    },
+    "rounds": [
+     {
+      "date": "2026-11-17",
+      "short": "10:59 pm CST"
+     },
+     {
+      "date": "2027-01-29",
+      "short": "10:59 pm CST"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.0",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "115",
+     "kind": "hard_min"
+    }
+   }
+  },
+  {
+   "id": "c-plus-umn-mscs",
+   "name": "mscs@umn",
+   "school": "University of Minnesota",
+   "program": "MSCS",
+   "tier": "C+",
+   "slug": "/C+/UMN MSCS",
+   "official": "M.S. in Computer Science (Plan A / Plan B / Plan C)",
+   "schoolFull": "University of Minnesota, Twin Cities",
+   "halt": false,
+   "rounds": [
+    {
+     "date": "2027-01-05",
+     "label": "优先截止（Priority）"
+    },
+    {
+     "date": "2027-03-01",
+     "label": "最终截止（Final）"
+    }
+   ],
+   "gre": "not_accepted",
+   "fee": 95,
+   "apply": "https://choose.umn.edu/apply/",
+   "site": "https://cse.umn.edu/cs/ms-overview",
+   "exam": {
+    "gre": {
+     "req": "不接受 · 提交也不审阅"
+    },
+    "toefl": {
+     "code": "6874 / 系 99"
+    },
+    "rounds": [
+     {
+      "date": "2027-01-05",
+      "short": "优先截止 11:59 pm CST"
+     },
+     {
+      "date": "2027-03-01",
+      "short": "11:59 pm CST · 仅秋季"
+     }
+    ]
+   },
+   "lang": {
+    "toefl_old": {
+     "cell": "79(写作 21 阅读 19)",
+     "kind": "hard_min"
+    },
+    "toefl_new": {
+     "cell": "4.5(写作/阅读 4.5)",
+     "kind": "hard_min"
+    },
+    "ielts": {
+     "cell": "6.5(写作/阅读 6.5)",
+     "kind": "hard_min"
+    },
+    "duolingo": {
+     "cell": "120(写作/阅读 120)",
+     "kind": "hard_min"
+    }
+   }
+  }
+ ],
+ "en": {
+  "1 月 10 日前出结果": "Decisions by Jan 10",
+  "1 月底出结果·国际生推荐": "Decisions by late Jan · recommended for intl students",
+  "11:59 PM PST 硬截止": "11:59 PM PST hard deadline",
+  "11:59 pm CST · 仅秋季": "11:59 pm CST · Fall only",
+  "1565 / 部门 01": "1565 / dept 01",
+  "1836 / 系 78": "1836 / dept 78",
+  "2 月 10 日前出结果": "Decisions by Feb 10",
+  "2074 / 系 0402": "2074 / dept 0402",
+  "3 月 31 日前出结果": "Decisions by Mar 31",
+  "3 月中旬前出结果": "Decisions by mid-Mar",
+  "3094 / 系 0402": "3094 / dept 0402",
+  "3094 / 系 78": "3094 / dept 78",
+  "3451 / 系 99": "3451 / dept 99",
+  "3514 / 系 66 或 78": "3514 / dept 66 or 78",
+  "3pm EST，之后不收材料更新": "3pm EST, no material updates accepted after",
+  "3pm EST，申请费 $80": "3pm EST, app fee $80",
+  "4256 / 系 78": "4256 / dept 78",
+  "4837 / 系 0402": "4837 / dept 0402",
+  "4837 / 系 78": "4837 / dept 78",
+  "4854 / 系 5199": "4854 / dept 5199",
+  "5248 / 系 66": "5248 / dept 66",
+  "5248 / 系 78": "5248 / dept 78",
+  "6874 / 系 99": "6874 / dept 99",
+  "7/15 前出结果·名额有限": "Decisions by 7/15 · limited spots",
+  "CS MS 无 Spring 入学": "No Spring intake for CS MS",
+  "Cycle 1（优先轮）": "Cycle 1 (priority round)",
+  "EST 15:00，继任 MSE": "EST 15:00, successor MSE",
+  "Early 截止": "Early deadline",
+  "Early 截止（提前轮）": "Early deadline (early round)",
+  "Fall 2027 不招 M.S.E.（资助不确定），PhD 照常": "No M.S.E. intake for Fall 2027 (funding uncertain), PhD as usual",
+  "Fall 2027 暂停对外招生，现仅招 CSE PhD": "External admissions paused for Fall 2027, now CSE PhD only",
+  "Knight-Hennessy Scholars 申请人专属截止日": "Deadline for Knight-Hennessy Scholars applicants only",
+  "Knight-Hennessy Scholars 申请者的 ICME 截止": "ICME deadline for Knight-Hennessy Scholars applicants",
+  "M.S. 唯一截止": "Only deadline for M.S.",
+  "MCIT 已停招，Fall 2027 改申 MAS-CS（原 MCIT）": "MCIT closed; for Fall 2027 apply to MAS-CS (formerly MCIT)",
+  "MCIT（线下 on-campus，就是 csgrad 页面说的 0 基础转码项目）已停招。CIS 官网写明 MCIT 不再接受申请；Penn Engineering 硕士招生页写明，自 Fall 2026 起 MCIT 不再接受申请，招生页的 MCIT 条目下也没有 Apply Now 入口和申请日期。项目已改名为 Master of Applied Science in Computer Science（MAS-CS，formerly MCIT），继续面向非 CS 本科背景，核心课程也延续 MCIT。Fall 2027 想走原 MCIT 方向，要改申 MAS-CS。MCIT Online 同样停招，由 MAS-CS Online 接替。": "MCIT (on-campus, the no-background career-switch program mentioned on the csgrad page) is closed. The CIS website states MCIT no longer accepts applications; the Penn Engineering master's admissions page states MCIT no longer accepts applications starting Fall 2026, and its MCIT entry has no Apply Now link or application dates. The program has been renamed Master of Applied Science in Computer Science (MAS-CS, formerly MCIT), still aimed at applicants without a CS undergrad background, with core courses carried over from MCIT. For the former MCIT track in Fall 2027, apply to MAS-CS instead. MCIT Online is also closed and replaced by MAS-CS Online",
+  "MIT CCSE 官网明确写明 CSE SM 项目已暂停对外招生（External admissions ... currently paused），Fall 2027 不接受外部申请。如果以后恢复，会在官网另行公布。现在只有在读 MIT 研究型 SM 项目的学生可以把 CSE SM 当作第二学位申请。CCSE 目前对外只招 CSE PhD 和 Dept-CSE PhD 两个博士项目，MIT OGE 的项目列表里也只列了 Computational Science and Engineering PhD。": "The MIT CCSE website explicitly states the CSE SM program has paused external admissions (External admissions ... currently paused), so no external applications are accepted for Fall 2027. Any resumption will be announced on the website. Currently only students enrolled in an MIT research SM program can apply to the CSE SM as a second degree. CCSE now admits external applicants only to two doctoral programs, CSE PhD and Dept-CSE PhD, and the MIT OGE program list also shows only the Computational Science and Engineering PhD",
+  "MS 外部申请者截止（唯一轮次）": "MS external applicant deadline (only round)",
+  "MS 提前审核截止（Early review）": "MS early review deadline",
+  "MS 最终提交截止": "MS final submission deadline",
+  "MSE-SS 从 Fall 2027 起停招，不再作为单独学位开设。CMU 把校内 MSE 合并成一个 Master of Software Engineering 学位，分 16 个月的 MSE 和 20 个月、必修暑期实习的 MSE - Applied Study 两种，共用同一申请入口。Scalable Systems 改成这个 MSE 学位内的可选 concentration。原 MSE-SS 的学习计划只适用于 Fall 2025 和 Fall 2026 入学的学生。原 MSE-SS 申请页 /applicants/mse-ss/ 已返回 404，SCS 硕士项目总列表也只剩 Master of Software Engineering 和 MSE Online。想读原 SS 方向的人，Fall 2027 应申请 MSE 或 MSE - Applied Study，入学后再选 Scalable Systems concentration。本记录里的截止日期、GRE、语言、申请费和 apply_url 都是这个继任项目的信息，不代表 MSE-SS 本身还在招生。另外，SCS 招生总页的申请费说明里还写着“MSE-ES, MSE-SS”，应是旧写法没改，与项目官网的停招说明不一致。": "MSE-SS stops admitting from Fall 2027 and is no longer offered as a separate degree. CMU merged its on-campus MSE into one Master of Software Engineering degree with two options, the 16-month MSE and the 20-month MSE - Applied Study with a required summer internship, sharing one application portal. Scalable Systems becomes an optional concentration within this MSE degree. The former MSE-SS curriculum applies only to students entering in Fall 2025 and Fall 2026. The former MSE-SS application page /applicants/mse-ss/ now returns 404, and the SCS master's program list shows only Master of Software Engineering and MSE Online. For the former SS track, apply to MSE or MSE - Applied Study for Fall 2027 and choose the Scalable Systems concentration after enrolling. The deadlines, GRE, language, app fee and apply_url in this record are for the successor program and do not mean MSE-SS itself is still admitting. Also, the app fee note on the SCS admissions main page still says \"MSE-ES, MSE-SS\", likely outdated wording that conflicts with the program website's closure notice",
+  "MSE-SS 自 Fall 2027 停招，改申 MSE 后选 Scalable Systems": "MSE-SS closed from Fall 2027; apply to MSE and choose Scalable Systems",
+  "PST 11:59pm·推荐信同日": "PST 11:59pm · recommendations due same day",
+  "PST 23:59；需先考 GRE": "PST 23:59; GRE must be taken first",
+  "Princeton CS 系官方明确：由于硕士生资助资源不确定，Fall 2027 不接受硕士（M.S.E.）申请；研究生院的截止日期页和 Computer Science 专业页也写明 M.S.E. 不招 Fall 2027。Ph.D. 照常招生（2026-12-15 截止）。Fall 2028 是否恢复招生，官方暂时没有说法，只写了希望申请人以后再关注。": "Princeton CS dept officially states that due to uncertain funding for master's students, master's (M.S.E.) applications are not accepted for Fall 2027; the Graduate School deadlines page and the Computer Science program page also state M.S.E. is not admitting for Fall 2027. Ph.D. admissions continue as usual (deadline 2026-12-15). There is no official word yet on resuming for Fall 2028; it only asks applicants to check back later",
+  "Priority 优先截止": "Priority deadline",
+  "Priority 优先轮": "Priority round",
+  "Priority 截止（第一轮）": "Priority deadline (Round 1)",
+  "Priority，强烈建议": "Priority, strongly recommended",
+  "R5248 / 系 0402": "R5248 / dept 0402",
+  "R5248 / 系 1203": "R5248 / dept 1203",
+  "Regular / Final 截止（第二轮）": "Regular / Final deadline (Round 2)",
+  "Regular 截止": "Regular deadline",
+  "Regular 截止（常规轮）": "Regular deadline (regular round)",
+  "Regular，无 priority 轮": "Regular, no priority round",
+  "Rolling 滚动截止": "Rolling deadline",
+  "Round 2 截止": "Round 2 deadline",
+  "不接受": "Not accepted",
+  "不接受 · 不予考虑": "Not accepted · Not considered",
+  "不接受 · 交了也不审阅": "Not accepted · Not reviewed if sent",
+  "不接受 · 录取不使用": "Not accepted · Not used in admissions",
+  "不接受 · 录取不考虑": "Not accepted · Not considered in admissions",
+  "不接受 · 提交也不审阅": "Not accepted · Not reviewed if submitted",
+  "不接受 · 提交也不看": "Not accepted · Ignored if submitted",
+  "不接受 · 硕士不考虑": "Not accepted · Not considered for MS",
+  "不要求": "Not required",
+  "不要求 · 可上传扫描件": "Not required · Scan upload allowed",
+  "不要求 · 可交有效成绩": "Not required · Valid scores accepted",
+  "不要求 · 可自愿提交": "Not required · Optional to submit",
+  "不要求 · 据要求清单推断": "Not required · Inferred from requirements list",
+  "不要求 · 无最低分": "Not required · No minimum score",
+  "仅秋季，推荐信同日截止": "Fall only, recs due same day",
+  "仅秋季，目标 3 月初出结果": "Fall only, decisions targeted for early March",
+  "仅非全日制，F-1 不适用": "Part-time only, not for F-1",
+  "优先审理·邮戳为准": "Priority review · Postmark date applies",
+  "优先截止": "Priority deadline",
+  "优先截止 (Priority Deadline)": "Priority deadline",
+  "优先截止 11:59 pm CST": "Priority deadline 11:59 pm CST",
+  "优先截止 · 日期暂定": "Priority deadline · Date tentative",
+  "优先截止（Priority consideration）": "Priority deadline (priority consideration)",
+  "优先截止（Priority）": "Priority deadline",
+  "优先截止（上一周期参考，Fall 2027 未公布）": "Priority deadline (last cycle ref, Fall 2027 TBA)",
+  "优先截止（保证审理）": "Priority deadline (guaranteed review)",
+  "优先轮，国际生建议": "Priority round, advised for intl students",
+  "保证审理 · 美东 23:59": "Guaranteed review · 23:59 ET",
+  "加州时间 23:59": "23:59 PT",
+  "可选": "Optional",
+  "可选 · GPA<3.0 强烈建议": "Optional · Strongly advised if GPA<3.0",
+  "可选 · 不交不影响录取": "Optional · No penalty if omitted",
+  "可选 · 不交同等考虑": "Optional · Equal consideration if omitted",
+  "可选 · 不交无不利影响": "Optional · No penalty if omitted",
+  "可选 · 不交无劣势": "Optional · No disadvantage if omitted",
+  "可选 · 不作筛选": "Optional · Not used for screening",
+  "可选 · 不接受 GMAT": "Optional · GMAT not accepted",
+  "可选 · 不设分数线": "Optional · No score cutoff",
+  "可选 · 不设最低分": "Optional · No minimum score",
+  "可选 · 仅作补充参考": "Optional · Supplementary only",
+  "可选 · 好成绩可加分": "Optional · Strong scores help",
+  "可选 · 提交不额外加权": "Optional · No extra weight if submitted",
+  "可选 · 提交会纳入评估": "Optional · Considered if submitted",
+  "可选 · 无硬性分数线": "Optional · No hard cutoff",
+  "可选 · 无限期豁免": "Optional · Waived indefinitely",
+  "可选 · 权重不高": "Optional · Low weight",
+  "可选 · 自报需补官方成绩": "Optional · Self-report, official scores due later",
+  "可选 · 自报须送官方分": "Optional · Self-report, official scores required",
+  "可选 · 豁免政策待复审": "Optional · Waiver policy under review",
+  "可选 · 部分人建议提交": "Optional · Recommended for some applicants",
+  "可选 · 非主要录取因素": "Optional · Not a major admission factor",
+  "可选 · 鼓励已考者提交": "Optional · Encouraged if already taken",
+  "可选 · 鼓励提交": "Optional · Submission encouraged",
+  "名额有限": "Limited spots",
+  "唯一一轮，奖助优先 2/15": "Single round, funding priority by 2/15",
+  "唯一一轮，迟交不审": "Single round, late apps not reviewed",
+  "唯一截止": "Only deadline",
+  "唯一截止日": "Only deadline",
+  "唯一截止日期": "Only deadline",
+  "唯一截止日（年度截止）": "Only deadline (annual)",
+  "唯一截止（Atlanta 校区秋季入学）": "Only deadline (Atlanta campus, Fall entry)",
+  "唯一截止（Fall 2027）": "Only deadline (Fall 2027)",
+  "唯一截止（Fall 入学）": "Only deadline (Fall entry)",
+  "唯一截止（Regular）": "Only deadline (Regular)",
+  "唯一截止（SM 与 ME 相同）": "Only deadline (same for SM and ME)",
+  "唯一截止（School of CSE home unit）": "Only deadline (School of CSE home unit)",
+  "唯一截止（Summer/Fall 入学）": "Only deadline (Summer/Fall entry)",
+  "唯一截止（上一轮）": "Only deadline (previous cycle)",
+  "唯一截止（全日制 MS 及 HCP 非全日制）": "Only deadline (full-time MS and part-time HCP)",
+  "唯一截止（国际生与美国本土申请人相同）": "Only deadline (same for international and US applicants)",
+  "唯一截止（常规申请）": "Only deadline (regular application)",
+  "唯一截止（常规轮）": "Only deadline (regular round)",
+  "唯一截止（申请材料）": "Only deadline (application materials)",
+  "唯一截止（硕士 MS/MSE）": "Only deadline (master's MS/MSE)",
+  "唯一截止（秋季入学）": "Only deadline (Fall entry)",
+  "唯一截止，不滚动": "Only deadline, not rolling",
+  "国内生截止": "Domestic deadline",
+  "国际学生截止": "International deadline",
+  "国际学生截止（Fall 入学）": "International deadline (fall entry)",
+  "国际生宜尽早申请": "International applicants should apply early",
+  "国际生截止": "International deadline",
+  "国际生截止，不分轮次": "International deadline, no rounds",
+  "国际生最终截止（美国境内）": "International final deadline (in US)",
+  "国际生最终截止（美国境外）": "International final deadline (outside US)",
+  "国际生（境内申请）截止": "International (applying from US) deadline",
+  "国际生（境外申请）截止": "International (applying from abroad) deadline",
+  "国际生（申请时人在美加境内）截止": "International (in US/Canada when applying) deadline",
+  "国际生（申请时人在美加境外）截止": "International (outside US/Canada when applying) deadline",
+  "国际申请人截止": "International applicant deadline",
+  "国际申请人截止（秋季唯一一轮）": "International applicant deadline (fall, only round)",
+  "境外国际生，滚动审理": "International applicants abroad, rolling review",
+  "外部申请人 · PT 23:59": "External applicants · PT 23:59",
+  "外部申请人常规截止日": "External applicant regular deadline",
+  "太平洋 23:59 最终截止": "PT 23:59 final deadline",
+  "太平洋 23:59，推荐信同截止": "PT 23:59, recommendations due same day",
+  "太平洋 8:59 pm，仅秋季": "PT 8:59 pm, fall only",
+  "奖学金考虑截止": "Scholarship consideration deadline",
+  "奖学金考虑，太平洋 23:59": "Scholarship consideration, PT 23:59",
+  "官方强烈建议早申": "School strongly recommends applying early",
+  "常规/最终截止 (Regular / Final Deadline)": "Regular / Final Deadline",
+  "常规截止（General consideration）": "Regular deadline (General consideration)",
+  "常规截止（Regular）": "Regular deadline",
+  "常规申请截止（Regular）": "Regular application deadline",
+  "常规申请（Regular Admission）": "Regular Admission",
+  "常规申请（Regular Decision）": "Regular Decision",
+  "常规轮；建议 12 月 15 日前": "Regular round; recommended by Dec 15",
+  "建议 11 月中旬前交": "Recommended by mid-November",
+  "往年 11:00 PM CST": "Past years: 11:00 PM CST",
+  "必须": "Required",
+  "必须 · CSE home unit": "Required · CSE home unit",
+  "必须 · 不可豁免": "Required · No waivers",
+  "必须 · 不设最低分": "Required · No minimum score",
+  "必须 · 仅 CMU 本科可免": "Required · Waived only for CMU undergrads",
+  "必须 · 仅 Duke 4+1 可选": "Required · Optional only for Duke 4+1",
+  "必须 · 可用 MCAT 等代替": "Required · MCAT etc. accepted instead",
+  "必须 · 国际生必考": "Required · Mandatory for international applicants",
+  "必须 · 无硬性分数线": "Required · No hard cutoff",
+  "截止日期（Regular Deadline，CE 无 priority 轮）": "Regular Deadline (no priority round for CE)",
+  "截止日期（唯一一轮）": "Deadline (only round)",
+  "截止次日 12:01am 关闭": "Closes 12:01am the day after deadline",
+  "截止（院系 Information and Deadlines 页，与招生页冲突）": "Deadline (dept Information and Deadlines page, conflicts with admissions page)",
+  "推荐 · 不交需在 SOP 说明": "Recommended · Explain in SOP if not submitted",
+  "推荐 · 不要求但更希望交": "Recommended · Not required but preferred",
+  "推荐 · 不设最低分": "Recommended · No minimum score",
+  "推荐 · 强烈鼓励提交": "Recommended · Strongly encouraged",
+  "推荐 · 非必须": "Recommended · Not required",
+  "推荐信 12/20；4/1 出结果": "Rec letters 12/20; decisions 4/1",
+  "推荐信也须截止前交": "Rec letters also due by deadline",
+  "推荐信可晚两周补交": "Rec letters accepted up to 2 weeks late",
+  "提前审核 · 美东 11:59pm": "Early review · 11:59pm ET",
+  "提前审核 · 美东 23:59": "Early review · 23:59 ET",
+  "提前申请截止（Early）": "Early deadline",
+  "早申截止（Early Deadline）": "Early deadline",
+  "早申截止（Early deadline，申请费优惠为 $80）": "Early deadline (reduced app fee $80)",
+  "早申截止（Early）": "Early deadline",
+  "早申请（Early Decision）": "Early Decision",
+  "早申（Early Admission）": "Early Admission",
+  "早申（Early Decision）": "Early Decision",
+  "早申（优惠申请费截止）": "Early (reduced app fee deadline)",
+  "早申（奖学金考虑）": "Early (scholarship consideration)",
+  "早申（申请费优惠截止）": "Early (app fee discount deadline)",
+  "最终截止": "Final deadline",
+  "最终截止 (Final Deadline)": "Final deadline",
+  "最终截止 · 美东 11:59pm": "Final deadline · 11:59pm ET",
+  "最终截止·国际生宜早申": "Final deadline · Intl applicants should apply early",
+  "最终截止·押金 5/15": "Final deadline · Deposit 5/15",
+  "最终截止（Fall 入学）": "Final deadline (Fall entry)",
+  "最终截止（Final Deadline）": "Final deadline",
+  "最终截止（Final deadline）": "Final deadline",
+  "最终截止（Final）": "Final deadline",
+  "最终截止（M.Eng. Degree 招生页，On-campus）": "Final deadline (M.Eng. Degree admissions page, On-campus)",
+  "最终截止（国际生，美国境内）": "Final deadline (intl, inside US)",
+  "最终截止（国际生，美国境外）": "Final deadline (intl, outside US)",
+  "最终截止（美国/加拿大本土申请人）": "Final deadline (US/Canada domestic applicants)",
+  "最终截止（视名额审理）": "Final deadline (space permitting)",
+  "最终截止，太平洋 23:59": "Final deadline, 23:59 PT",
+  "最终轮": "Final round",
+  "未知 · SM 已暂停招生": "Unknown · SM admissions paused",
+  "本国学生截止": "Domestic deadline",
+  "材料与申请费须截止前交齐": "Materials and app fee due by deadline",
+  "材料截止后 2-4 周内送达": "Materials may arrive within 2-4 weeks after deadline",
+  "材料须齐 · 美东 23:59": "Materials complete · 23:59 ET",
+  "滚动审理，4/1 前出结果": "Rolling review, decisions by 4/1",
+  "滚动审理，MS 无提前批": "Rolling review, no early round for MS",
+  "滚动审理，越早越好": "Rolling review, apply early",
+  "滚动录取，国际生宜早交": "Rolling admission, intl applicants should apply early",
+  "申请截止（唯一一轮）": "Application deadline (only round)",
+  "秋季入学截止（唯一一轮）": "Fall entry deadline (only round)",
+  "秋季唯一截止": "Fall only deadline",
+  "秋季唯一截止日期": "Fall only deadline",
+  "秋季唯一截止（线下硕士，论文型和非论文型都适用）": "Fall only deadline (on-campus MS, thesis and non-thesis)",
+  "秋季截止（唯一一轮）": "Fall deadline (single round)",
+  "竞争性奖学金最后期限": "Competitive scholarship deadline",
+  "第一轮": "Round 1",
+  "第一轮 (Round 1)": "Round 1",
+  "第三轮": "Round 3",
+  "第三轮 (Round 3)": "Round 3",
+  "第三轮（竞争性奖学金/Fellowship 全面考虑的最后期限）": "Round 3 (last date for full competitive scholarship/fellowship consideration)",
+  "第二轮": "Round 2",
+  "第二轮 (Round 2)": "Round 2",
+  "继任项目 MSE / MSE - Applied Study 唯一截止（MSE-SS 本身已停招）": "Only deadline for successor programs MSE / MSE - Applied Study (MSE-SS itself no longer admitting)",
+  "美东 11:59 PM · CIS 适用": "11:59 PM ET · For CIS",
+  "美东 11:59 PM · DSAI 适用": "11:59 PM ET · For DSAI",
+  "美东 11:59 PM · 仅秋季": "11:59 PM ET · Fall only",
+  "美东 11:59 PM，仅秋季": "11:59 PM ET, Fall only",
+  "美东 11:59 pm，暂定": "11:59 pm ET, tentative",
+  "美东 11:59pm": "11:59pm ET",
+  "美东 17:00，不收迟交": "17:00 ET, no late submissions",
+  "美东 17:00，不滚动": "17:00 ET, not rolling",
+  "美东 23:59": "23:59 ET",
+  "美东 23:59:59，唯一一轮": "23:59:59 ET, single round",
+  "美东 23:59·滚动审理": "23:59 ET · Rolling review",
+  "美东 23:59，日期不改": "23:59 ET, date fixed",
+  "美东 23:59，费减免同日": "23:59 ET, fee waiver due same day",
+  "美东 23:59，限 CSE unit": "23:59 ET, CSE unit only",
+  "美东 3:00 PM，费 $100": "3:00 PM ET, fee $100",
+  "美东 3:00 PM，费 $80": "3:00 PM ET, fee $80",
+  "美东 3pm，申请费 $100": "3pm ET, app fee $100",
+  "美东 3pm，申请费 $80": "3pm ET, app fee $80",
+  "美东 5PM·国际生最迟": "5PM ET · International final deadline",
+  "美东 5PM·奖学金优先": "5PM ET · Scholarship priority",
+  "美东 5PM·招满即止": "5PM ET · Closes when full",
+  "美东下午 5 点前": "By 5 PM ET",
+  "美东午夜·秋季唯一截止": "Midnight ET · Fall only deadline",
+  "美东午夜；招生页写 6 月 1 日": "Midnight ET; admissions page says June 1",
+  "美中 11:59 PM": "11:59 PM CT",
+  "美中 23:59，逾期不收": "23:59 CT, no late applications",
+  "美国/加拿大本国申请人截止": "US/Canadian applicant deadline",
+  "美国中部 23:59": "23:59 CT",
+  "美国公民/永久居民秋季截止": "US citizen/PR Fall deadline",
+  "美国本土学生截止": "Domestic student deadline",
+  "美国本土学生最终截止": "Domestic student final deadline",
+  "美国本土申请人截止": "Domestic applicant deadline",
+  "美国本土申请者最终截止": "Final deadline for US domestic applicants",
+  "自动考虑奖学金": "Auto-considered for scholarships",
+  "补充材料可截止后补交": "Supplements accepted after deadline",
+  "补材料限截止后 2 周": "Supplements due within 2 weeks after deadline",
+  "视剩余名额审理": "Reviewed as space allows",
+  "部分可免 · 数学课 B 以上免": "Some waivers · waived with B or higher in math"
+ }
+}

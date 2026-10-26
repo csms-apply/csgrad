@@ -1,1069 +1,506 @@
-import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import React, {useEffect, useMemo, useRef, useState} from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
-import Translate, { translate } from '@docusaurus/Translate';
+import {useLocation} from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useIsBrowser from '@docusaurus/useIsBrowser';
+import {STORAGE_KEYS} from '../lib/storage-keys';
+import {localizedInternalPath} from '../lib/seo/localizedAlternates.mjs';
+import {toTraditional} from '../lib/i18n/traditional';
+import DATA from '../lib/tracker/school-list.json';
 import {
-  DndContext,
-  DragOverlay,
-  closestCorners,
-  PointerSensor,
-  useSensor,
-  useSensors,
-  useDroppable,
-} from '@dnd-kit/core';
-import {
-  SortableContext,
-  verticalListSortingStrategy,
-  useSortable,
-  arrayMove,
-} from '@dnd-kit/sortable';
-import { CSS } from '@dnd-kit/utilities';
-import { STORAGE_KEYS } from '../lib/storage-keys';
-import { localizedInternalPath } from '../lib/seo/localizedAlternates.mjs';
-import { MAX_BACKUP_BYTES, parseTrackerBackup, TRACKER_BACKUP_KEY } from '../lib/tracker/backup.mjs';
-import { attachDialogBehavior } from '../lib/tracker/dialog.mjs';
+  TIERS, TIER_COLOR, GRE, KIND, UI, ALIAS, isQuiet, encodeShare, decodeShare, enCell, shortCell,
+  searchIndex, matches, picksFromLegacyCards, fill,
+} from '../lib/tracker/school-list.mjs';
 import styles from './tracker.module.css';
 
-function getColumns() {
-  return [
-    { id: 'reach', title: translate({ id: 'tracker.column.reach', message: '彩票' }), subtitle: 'Reach', colorClass: styles.colReach },
-    { id: 'match', title: translate({ id: 'tracker.column.match', message: '冲刺' }), subtitle: 'Match', colorClass: styles.colMatch },
-    { id: 'target', title: translate({ id: 'tracker.column.target', message: '主申' }), subtitle: 'Target', colorClass: styles.colTarget },
-    { id: 'safety', title: translate({ id: 'tracker.column.safety', message: '保底' }), subtitle: 'Safety', colorClass: styles.colSafety },
-  ];
+const ROWS = DATA.rows;
+const LANGS = [['zh', '简体'], ['hant', '繁體'], ['en', 'English']];
+const SITE_LOCALE = {zh: 'zh-Hans', hant: 'zh-Hant', en: 'en'};
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const hantCache = new Map();
+const hant = (s) => {
+  if (!hantCache.has(s)) hantCache.set(s, toTraditional(s));
+  return hantCache.get(s);
+};
+const slash = (s) => s.replace(/-/g, '/');
+const host = (u) => {
+  try {
+    const x = new URL(u);
+    return (x.hostname.replace(/^www\./, '') + x.pathname).replace(/\/$/, '');
+  } catch {
+    return u;
+  }
+};
+const cx = (...names) => names.filter(Boolean).map((n) => styles[n]).join(' ');
+const startOfToday = () => {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  return d;
+};
+
+// All copy and data strings for one table language. Data is stored in Simplified Chinese.
+function makeText(lang) {
+  const t = (key, vars) => fill(lang === 'hant' ? hant(UI.zh[key]) : UI[lang][key], vars);
+  const tr = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : DATA.en[s] ?? s);
+  const cell = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : enCell(s));
+  const ord = (i) => (lang === 'en' ? String(i + 1) : '一二三四五'[i]);
+  return {lang, t, tr, cell, ord};
 }
 
-function getEssayStatuses() {
-  return [
-    { value: 'not_started', label: translate({ id: 'tracker.essay.notStarted', message: '未开始' }) },
-    { value: 'drafting', label: translate({ id: 'tracker.essay.drafting', message: '草稿中' }) },
-    { value: 'reviewing', label: translate({ id: 'tracker.essay.reviewing', message: '修改中' }) },
-    { value: 'done', label: translate({ id: 'tracker.essay.done', message: '已完成' }) },
-  ];
-}
-
-function getSortOptions() {
-  return [
-    { value: 'manual', label: translate({ id: 'tracker.sort.manual', message: '手动排序' }) },
-    { value: 'deadline', label: translate({ id: 'tracker.sort.deadline', message: '按截止日期' }) },
-    { value: 'school', label: translate({ id: 'tracker.sort.school', message: '按学校名称' }) },
-  ];
-}
-
-// Column IDs (no translation needed, used for logic)
-const COLUMN_IDS = ['reach', 'match', 'target', 'safety'];
-
-// ============ Helpers ============
-function genId() {
-  return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
-}
-
-function useDialog(onClose) {
-  const dialogRef = useRef(null);
-  const closeRef = useRef(onClose);
-  closeRef.current = onClose;
-  useEffect(() => attachDialogBehavior(dialogRef.current, () => closeRef.current()), []);
-  return dialogRef;
-}
-
-function daysUntil(dateStr) {
-  if (!dateStr) return null;
-  const target = new Date(dateStr);
-  const now = new Date();
-  now.setHours(0, 0, 0, 0);
-  target.setHours(0, 0, 0, 0);
-  return Math.ceil((target - now) / (1000 * 60 * 60 * 24));
-}
-
-function makeEmptyCard(column) {
-  return {
-    id: genId(),
-    school: '',
-    program: '',
-    column,
-    deadline: '',
-    lors: [
-      { name: translate({ id: 'tracker.lor.default1', message: '推荐信 1' }), done: false },
-      { name: translate({ id: 'tracker.lor.default2', message: '推荐信 2' }), done: false },
-      { name: translate({ id: 'tracker.lor.default3', message: '推荐信 3' }), done: false },
-    ],
-    toefl: '',
-    gre: '',
-    essayStatus: 'not_started',
-    notes: '',
-    fromLibrary: false,
-    tier: '',
-    slug: '',
-  };
-}
-
-function computeProgress(card) {
-  let total = 0;
-  let done = 0;
-  // LORs
-  card.lors.forEach((l) => {
-    total++;
-    if (l.done) done++;
+// Fill a template whose placeholders are React nodes, e.g. a bold count inside a sentence.
+function rich(template, vars) {
+  return template.split(/(\{\w+\})/).map((part, i) => {
+    const m = /^\{(\w+)\}$/.exec(part);
+    return <React.Fragment key={i}>{m ? vars[m[1]] : part}</React.Fragment>;
   });
-  // Test scores
-  total += 2;
-  if (card.toefl) done++;
-  if (card.gre) done++;
-  // Essay
-  total++;
-  if (card.essayStatus === 'done') done++;
-  else if (card.essayStatus === 'reviewing') done += 0.7;
-  else if (card.essayStatus === 'drafting') done += 0.3;
-  return { total, done, pct: total > 0 ? done / total : 0 };
 }
 
-// ============ Sub-components ============
-
-// Sortable Card
-function SortableCard({ card, onEdit, onDelete }) {
-  const {
-    attributes,
-    listeners,
-    setNodeRef,
-    transform,
-    transition,
-    isDragging,
-  } = useSortable({ id: card.id });
-
-  const style = {
-    transform: CSS.Transform.toString(transform),
-    transition,
-  };
-
-  return (
-    <div
-      ref={setNodeRef}
-      style={style}
-      {...attributes}
-      {...listeners}
-      className={`${styles.card} ${isDragging ? styles.cardDragging : ''}`}
-    >
-      <CardContent card={card} onEdit={onEdit} onDelete={onDelete} />
-    </div>
-  );
+function copyText(text, onDone, onFail) {
+  try {
+    navigator.clipboard.writeText(text).then(onDone, onFail);
+  } catch {
+    onFail();
+  }
 }
 
-// Card display (shared between sortable and overlay)
-function CardContent({ card, onEdit, onDelete }) {
-  const {i18n: {currentLocale}} = useDocusaurusContext();
-  const days = daysUntil(card.deadline);
-  const progress = computeProgress(card);
-  const lorsDone = card.lors.filter(l => l.done).length;
-  const lorsTotal = card.lors.length;
+const Icon = {
+  select: <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><circle cx="8" cy="8" r="6" /><path d="M5.5 7l2.5 2.5L10.5 7" /></svg>,
+  cal: <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="1.5" /><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3" /></svg>,
+  text: <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" aria-hidden="true"><path d="M2.5 4h11M2.5 8h11M2.5 12h7" /></svg>,
+  link: <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" aria-hidden="true"><path d="M6.5 9.5l3-3M7 4.5l1-1a3 3 0 014.2 4.2l-1 1M9 11.5l-1 1a3 3 0 01-4.2-4.2l1-1" /></svg>,
+  num: <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" aria-hidden="true"><path d="M5.5 2.5l-1.5 11M11.5 2.5l-1.5 11M2.5 6h11M2 10.5h11" /></svg>,
+  aa: <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><text x="0" y="12.5" fontSize="11.5" fontFamily="Georgia, serif">Aa</text></svg>,
+  doc: <svg className={styles.doc} width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.2" aria-hidden="true"><path d="M4 1.5h5.5L12.5 4.5v9a1 1 0 01-1 1h-7.5a1 1 0 01-1-1v-11a1 1 0 011-1z" /><path d="M9.5 1.5v3h3" /></svg>,
+};
 
-  return (
-    <>
-      <div className={styles.cardActions}>
-        {onEdit && (
-          <button
-            className={styles.cardActionBtn}
-            onClick={(e) => { e.stopPropagation(); onEdit(card); }}
-            title={translate({ id: 'tracker.action.edit', message: '编辑' })}
-          >
-            &#9998;
-          </button>
-        )}
-        {onDelete && (
-          <button
-            className={styles.cardActionBtn}
-            onClick={(e) => { e.stopPropagation(); onDelete(card.id); }}
-            title={translate({ id: 'tracker.action.delete', message: '删除' })}
-          >
-            &times;
-          </button>
-        )}
-      </div>
-      <p className={styles.cardSchool}>
-        {card.school || translate({ id: 'tracker.card.unnamedSchool', message: '未命名学校' })}
-      </p>
-      <p className={styles.cardProgram}>
-        {card.program || translate({ id: 'tracker.card.unnamedProgram', message: '未命名项目' })}
-      </p>
-      <div className={styles.cardTags}>
-        {card.tier && <span className={`${styles.tag} ${styles.tagTier}`}>{card.tier}</span>}
-        {card.fromLibrary && (
-          <span className={`${styles.tag} ${styles.tagCustom}`}>
-            <Translate id="tracker.tag.library">项目库</Translate>
-          </span>
-        )}
-        {!card.fromLibrary && card.school && (
-          <span className={`${styles.tag} ${styles.tagCustom}`}>
-            <Translate id="tracker.tag.custom">自定义</Translate>
-          </span>
-        )}
-      </div>
-      {card.deadline && (
-        <div className={styles.cardDeadline}>
-          <span className={styles.deadlineIcon}>&#128197;</span>
-          <div>
-            <div className={styles.deadlineText}>
-              {translate({ id: 'tracker.card.deadlineLabel', message: '截止日期: {date}' }, { date: card.deadline })}
-            </div>
-            {days !== null && (
-              <div className={`${styles.deadlineCountdown} ${days < 0 ? styles.deadlineOverdue : ''}`}>
-                {days > 0
-                  ? translate({ id: 'tracker.card.daysLeft', message: '还剩 {days} 天' }, { days })
-                  : days === 0
-                    ? translate({ id: 'tracker.card.dueToday', message: '今天截止!' })
-                    : translate({ id: 'tracker.card.overdue', message: '已过期 {days} 天' }, { days: Math.abs(days) })}
-              </div>
-            )}
-          </div>
-        </div>
-      )}
-      <div className={styles.cardProgress}>
-        <span
-          className={`${styles.progressDot} ${
-            progress.pct >= 0.8 ? styles.dotDone : progress.pct > 0.2 ? styles.dotPartial : styles.dotNone
-          }`}
-        />
-        {translate({ id: 'tracker.card.progressLors', message: '进度: {done}/{total} 推荐信' }, { done: lorsDone, total: lorsTotal })}
-        {card.toefl ? translate({ id: 'tracker.card.langDone', message: ' | 语言 ✓' }) : ''}
-        {card.essayStatus === 'done' ? translate({ id: 'tracker.card.essayDone', message: ' | 文书 ✓' }) : ''}
-      </div>
-      {card.slug && (
-        <a
-          href={localizedInternalPath(card.slug, currentLocale)}
-          className={styles.programLink}
-          onClick={(e) => e.stopPropagation()}
-        >
-          &#8599; <Translate id="tracker.card.viewProgram">查看项目介绍</Translate>
-        </a>
-      )}
-    </>
-  );
-}
-
-// Droppable Column
-function KanbanColumn({ column, cards, onAddCard, onEditCard, onDeleteCard }) {
-  const { setNodeRef, isOver } = useDroppable({ id: column.id });
-  const cardIds = cards.map((c) => c.id);
-
-  return (
-    <div
-      className={`${styles.column} ${column.colorClass} ${isOver ? styles.columnOver : ''}`}
-    >
-      <div className={styles.columnHeader}>
-        <h3 className={styles.columnTitle}>
-          {column.title}
-          {column.title !== column.subtitle && (
-            <span style={{ fontWeight: 400, fontSize: '0.75rem', marginLeft: 6, opacity: 0.8 }}>
-              {column.subtitle}
-            </span>
-          )}
-        </h3>
-        <span className={styles.columnCount}>{cards.length}</span>
-      </div>
-      <div ref={setNodeRef} className={styles.columnBody}>
-        <SortableContext items={cardIds} strategy={verticalListSortingStrategy}>
-          {cards.length === 0 && (
-            <div className={styles.emptyColumn}>
-              <Translate id="tracker.column.empty">拖拽项目到此列或点击下方添加</Translate>
-            </div>
-          )}
-          {cards.map((card) => (
-            <SortableCard
-              key={card.id}
-              card={card}
-              onEdit={onEditCard}
-              onDelete={onDeleteCard}
-            />
-          ))}
-        </SortableContext>
-        <button className={styles.addCardBtn} onClick={() => onAddCard(column.id)}>
-          + <Translate id="tracker.action.addProgram">添加项目</Translate>
-        </button>
-      </div>
-    </div>
-  );
-}
-
-// Add/Edit Card Modal
-function CardModal({ card, initialCard, columns, essayStatuses, onSave, onClose }) {
-  const dialogRef = useDialog(onClose);
-  const [form, setForm] = useState(
-    card || initialCard || makeEmptyCard('reach')
-  );
-
-  const set = (key, val) => setForm((f) => ({ ...f, [key]: val }));
-
-  const setLor = (idx, key, val) => {
-    setForm((f) => {
-      const lors = [...f.lors];
-      lors[idx] = { ...lors[idx], [key]: val };
-      return { ...f, lors };
-    });
-  };
-
-  const addLor = () => {
-    setForm((f) => ({
-      ...f,
-      lors: [...f.lors, {
-        name: translate({ id: 'tracker.lor.defaultN', message: '推荐信 {n}' }, { n: f.lors.length + 1 }),
-        done: false,
-      }],
-    }));
-  };
-
-  const removeLor = (idx) => {
-    setForm((f) => ({
-      ...f,
-      lors: f.lors.filter((_, i) => i !== idx),
-    }));
-  };
-
-  return (
-    <div className={styles.modalOverlay} onClick={onClose}>
-      <div ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby="tracker-card-title" tabIndex={-1} className={styles.modal} onClick={(e) => e.stopPropagation()}>
-        <div className={styles.modalHeader}>
-          <h3 id="tracker-card-title" className={styles.modalTitle}>
-            {card
-              ? translate({ id: 'tracker.modal.editTitle', message: '编辑项目' })
-              : translate({ id: 'tracker.modal.addTitle', message: '添加自定义项目' })}
-          </h3>
-          <button aria-label={translate({id: 'tracker.action.close', message: '关闭'})} className={styles.modalClose} onClick={onClose}>&times;</button>
-        </div>
-        <div className={styles.modalBody}>
-          <div className={styles.formRow}>
-            <div className={styles.formGroup}>
-              <label className={styles.formLabel}>
-                <Translate id="tracker.form.schoolName">学校名称</Translate>
-              </label>
-              <input
-                data-dialog-initial-focus
-                aria-label={translate({id: 'tracker.form.schoolName', message: '学校名称'})}
-                className={styles.formInput}
-                value={form.school}
-                onChange={(e) => set('school', e.target.value)}
-                placeholder={translate({ id: 'tracker.form.schoolPlaceholder', message: '如: Stanford University' })}
-              />
-            </div>
-            <div className={styles.formGroup}>
-              <label className={styles.formLabel}>
-                <Translate id="tracker.form.programName">项目名称</Translate>
-              </label>
-              <input
-                className={styles.formInput}
-                aria-label={translate({id: 'tracker.form.programName', message: '项目名称'})}
-                value={form.program}
-                onChange={(e) => set('program', e.target.value)}
-                placeholder={translate({ id: 'tracker.form.programPlaceholder', message: '如: MSCS' })}
-              />
-            </div>
-          </div>
-
-          <div className={styles.formRow}>
-            <div className={styles.formGroup}>
-              <label className={styles.formLabel}>
-                <Translate id="tracker.form.category">分类</Translate>
-              </label>
-              <select
-                aria-label={translate({id: 'tracker.form.category', message: '分类'})}
-                className={styles.formSelect}
-                value={form.column}
-                onChange={(e) => set('column', e.target.value)}
-              >
-                {columns.map((c) => (
-                  <option key={c.id} value={c.id}>
-                    {c.title}{c.title !== c.subtitle ? ` (${c.subtitle})` : ''}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div className={styles.formGroup}>
-              <label className={styles.formLabel}>
-                <Translate id="tracker.form.deadline">截止日期</Translate>
-              </label>
-              <input
-                type="date"
-                aria-label={translate({id: 'tracker.form.deadline', message: '截止日期'})}
-                className={styles.formInput}
-                value={form.deadline}
-                onChange={(e) => set('deadline', e.target.value)}
-              />
-            </div>
-          </div>
-
-          {/* LORs */}
-          <div className={styles.detailSection}>
-            <h4 className={styles.detailSectionTitle}>
-              <Translate id="tracker.form.lors">推荐信 (LORs)</Translate>
-            </h4>
-            {form.lors.map((lor, idx) => (
-              <div key={idx} className={styles.lorRow}>
-                <input
-                  type="checkbox"
-                  aria-label={lor.name}
-                  className={styles.lorCheck}
-                  checked={lor.done}
-                  onChange={(e) => setLor(idx, 'done', e.target.checked)}
-                />
-                <input
-                  aria-label={translate({id: 'tracker.form.lorPlaceholder', message: '推荐人姓名'})}
-                  className={styles.lorInput}
-                  value={lor.name}
-                  onChange={(e) => setLor(idx, 'name', e.target.value)}
-                  placeholder={translate({ id: 'tracker.form.lorPlaceholder', message: '推荐人姓名' })}
-                />
-                <button
-                  className={styles.cardActionBtn}
-                  onClick={() => removeLor(idx)}
-                  title={translate({ id: 'tracker.action.delete', message: '删除' })}
-                  type="button"
-                >
-                  &times;
-                </button>
-              </div>
-            ))}
-            <button
-              className={styles.addCardBtn}
-              onClick={addLor}
-              type="button"
-              style={{ marginTop: 6 }}
-            >
-              + <Translate id="tracker.action.addLor">添加推荐信</Translate>
-            </button>
-          </div>
-
-          {/* Test scores */}
-          <div className={styles.detailSection}>
-            <h4 className={styles.detailSectionTitle}>
-              <Translate id="tracker.form.tests">标准化考试</Translate>
-            </h4>
-            <div className={styles.formRow}>
-              <div className={styles.formGroup}>
-                <label className={styles.formLabel}>TOEFL / IELTS</label>
-                <input
-                  aria-label="TOEFL / IELTS"
-                  className={styles.formInput}
-                  value={form.toefl}
-                  onChange={(e) => set('toefl', e.target.value)}
-                  placeholder={translate({ id: 'tracker.form.toeflPlaceholder', message: '如: 110' })}
-                />
-              </div>
-              <div className={styles.formGroup}>
-                <label className={styles.formLabel}>GRE</label>
-                <input
-                  aria-label="GRE"
-                  className={styles.formInput}
-                  value={form.gre}
-                  onChange={(e) => set('gre', e.target.value)}
-                  placeholder={translate({ id: 'tracker.form.grePlaceholder', message: '如: 330' })}
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Essay */}
-          <div className={styles.detailSection}>
-            <h4 className={styles.detailSectionTitle}>
-              <Translate id="tracker.form.essayProgress">文书进度</Translate>
-            </h4>
-            <div className={styles.essayStatus}>
-              {essayStatuses.map((s) => (
-                <button
-                  key={s.value}
-                  type="button"
-                  className={`${styles.essayBtn} ${
-                    form.essayStatus === s.value ? styles.essayBtnActive : ''
-                  }`}
-                  onClick={() => set('essayStatus', s.value)}
-                >
-                  {s.label}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Notes */}
-          <div className={styles.formGroup}>
-            <label className={styles.formLabel}>
-              <Translate id="tracker.form.notes">备注</Translate>
-            </label>
-            <input
-              aria-label={translate({id: 'tracker.form.notes', message: '备注'})}
-              className={styles.formInput}
-              value={form.notes}
-              onChange={(e) => set('notes', e.target.value)}
-              placeholder={translate({ id: 'tracker.form.notesPlaceholder', message: '任何备注信息...' })}
-            />
-          </div>
-
-          <button
-            className={styles.formSubmitBtn}
-            disabled={!form.school && !form.program}
-            onClick={() => onSave(form)}
-          >
-            {card
-              ? translate({ id: 'tracker.action.saveChanges', message: '保存修改' })
-              : translate({ id: 'tracker.action.addProgram', message: '添加项目' })}
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// Library Import Modal
-function LibraryModal({ programs, existingIds, onImport, onClose }) {
-  const dialogRef = useDialog(onClose);
-  const [search, setSearch] = useState('');
-
-  const filtered = useMemo(() => {
-    if (!search.trim()) return programs;
-    const q = search.toLowerCase();
-    return programs.filter(
-      (p) =>
-        p.school.toLowerCase().includes(q) ||
-        p.program.toLowerCase().includes(q) ||
-        p.tier.toLowerCase().includes(q)
-    );
-  }, [programs, search]);
-
-  return (
-    <div className={styles.modalOverlay} onClick={onClose}>
-      <div ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby="tracker-library-title" tabIndex={-1} className={styles.modal} onClick={(e) => e.stopPropagation()}>
-        <div className={styles.modalHeader}>
-          <h3 id="tracker-library-title" className={styles.modalTitle}>
-            <Translate id="tracker.library.title">从项目库导入</Translate>
-          </h3>
-          <button aria-label={translate({id: 'tracker.action.close', message: '关闭'})} className={styles.modalClose} onClick={onClose}>&times;</button>
-        </div>
-        <div className={styles.modalBody}>
-          <input
-            className={styles.librarySearch}
-            aria-label={translate({id: 'tracker.library.searchPlaceholder', message: '搜索学校或项目名称...' })}
-            placeholder={translate({ id: 'tracker.library.searchPlaceholder', message: '搜索学校或项目名称...' })}
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            data-dialog-initial-focus
-          />
-          <div className={styles.libraryList}>
-            {filtered.map((p) => {
-              const added = existingIds.has(p.id);
-              return (
-                <button
-                  type="button"
-                  disabled={added}
-                  key={p.id}
-                  className={styles.libraryItem}
-                  onClick={() => !added && onImport(p)}
-                  style={added ? { opacity: 0.5 } : {}}
-                >
-                  <span className={styles.libraryItemInfo}>
-                    <span className={styles.libraryItemSchool}>{p.school}</span>
-                    <span className={styles.libraryItemProgram}>{p.program}</span>
-                  </span>
-                  {added ? (
-                    <span className={styles.libraryItemAdded}>
-                      <Translate id="tracker.library.added">已添加</Translate>
-                    </span>
-                  ) : (
-                    <span className={styles.libraryItemTier}>{p.tier}</span>
-                  )}
-                </button>
-              );
-            })}
-            {filtered.length === 0 && (
-              <div className={styles.emptyColumn}>
-                <Translate id="tracker.library.noResults">未找到匹配的项目</Translate>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// Confirm dialog
-function ConfirmDialog({ message, onConfirm, onCancel, confirmLabel }) {
-  const dialogRef = useDialog(onCancel);
-  return (
-    <div className={styles.confirmOverlay} onClick={onCancel}>
-      <div ref={dialogRef} role="alertdialog" aria-modal="true" aria-labelledby="tracker-confirm-message" tabIndex={-1} className={styles.confirmBox} onClick={(e) => e.stopPropagation()}>
-        <p id="tracker-confirm-message" className={styles.confirmText}>{message}</p>
-        <div className={styles.confirmBtns}>
-          <button className={styles.confirmCancel} onClick={onCancel}>
-            <Translate id="tracker.action.cancel">取消</Translate>
-          </button>
-          <button className={styles.confirmDelete} onClick={onConfirm}>
-            {confirmLabel || <Translate id="tracker.action.confirmDelete">删除</Translate>}
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// ============ Main Page ============
 export default function TrackerPage() {
   const {i18n: {currentLocale}} = useDocusaurusContext();
-  const COLUMNS = getColumns();
-  const ESSAY_STATUSES = getEssayStatuses();
-  const SORT_OPTIONS = getSortOptions();
+  const siteLang = currentLocale === 'en' ? 'en' : currentLocale === 'zh-Hant' ? 'hant' : 'zh';
+  // The table follows the site language; the selector only switches this table.
+  const [lang, setLang] = useState(siteLang);
+  const X = useMemo(() => makeText(lang), [lang]);
+  const {t, tr, cell, ord} = X;
+  const site = useMemo(() => makeText(siteLang), [siteLang]);
 
-  const [cards, setCards] = useState([]);
-  const [storageStatus, setStorageStatus] = useState('loading');
-  const [storageError, setStorageError] = useState(null);
-  const [pendingImport, setPendingImport] = useState(null);
-  const [canUndoImport, setCanUndoImport] = useState(false);
-  const [showUndoConfirm, setShowUndoConfirm] = useState(false);
-  const [importMessage, setImportMessage] = useState(null);
-  const [programs, setPrograms] = useState([]);
-  const [activeCard, setActiveCard] = useState(null);
-  const [showAddModal, setShowAddModal] = useState(null); // null or column id
-  const [showEditModal, setShowEditModal] = useState(null); // null or card object
-  const [showLibrary, setShowLibrary] = useState(null); // null or column id string
-  const [showConfirm, setShowConfirm] = useState(null); // null or card id
-  const [sortBy, setSortBy] = useState('manual');
-  const fileInputRef = useRef(null);
+  // Share links, dates and saved picks only exist in the browser; the first render must match the static HTML.
+  const isBrowser = useIsBrowser();
+  const {hash} = useLocation();
+  const shared = useMemo(() => (isBrowser ? decodeShare(hash, DATA.order) : null), [hash, isBrowser]);
+  const today = useMemo(() => (isBrowser ? startOfToday() : null), [isBrowser]);
+  const [starred, setStarred] = useState(() => new Set());
+  const [view, setView] = useState('all');
+  const [q, setQ] = useState('');
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [gre, setGre] = useState(() => new Set());
+  const [tiers, setTiers] = useState(() => new Set());
+  const [hideHalt, setHideHalt] = useState(false);
+  const [sort, setSort] = useState('tier');
+  const [menu, setMenu] = useState(null);
+  const [peekId, setPeekId] = useState(null);
+  const [sharePanel, setSharePanel] = useState(false);
+  const [shareTitle, setShareTitle] = useState('');
+  const [flash, setFlash] = useState({});
+  const [copyFallback, setCopyFallback] = useState(null);
+  const toolsRef = useRef(null);
+  const closeRef = useRef(null);
+  const qRef = useRef(null);
+  const loaded = useRef(false);
 
-  // Load from localStorage
   useEffect(() => {
+    let picks = null;
     try {
-      const saved = localStorage.getItem(STORAGE_KEYS.trackerData);
-      if (saved) setCards(parseTrackerBackup(saved));
-      setCanUndoImport(localStorage.getItem(TRACKER_BACKUP_KEY) !== null);
-      setStorageStatus('ready');
-    } catch (e) {
-      setStorageStatus('error');
-      setStorageError(translate({id: 'tracker.storage.loadFailed', message: '无法读取当前清单，原始数据已保留。请先导出原始备份，再尝试导入有效备份。'}));
-    }
-  }, []);
-
-  // Save to localStorage
-  useEffect(() => {
-    if (storageStatus !== 'ready') return;
-    try {
-      localStorage.setItem(STORAGE_KEYS.trackerData, JSON.stringify(cards));
-    } catch (e) {
-      setStorageError(translate({id: 'tracker.storage.saveFailed', message: '浏览器未能保存清单，请导出备份，避免刷新后丢失更改。'}));
-    }
-  }, [cards, storageStatus]);
-
-  // Fetch program library
-  useEffect(() => {
-    fetch('/data/programs.json')
-      .then((r) => r.json())
-      .then((data) => setPrograms(data))
-      .catch(() => {});
-  }, []);
-
-  // DnD sensors
-  const sensors = useSensors(
-    useSensor(PointerSensor, { activationConstraint: { distance: 5 } })
-  );
-
-  // Get cards per column with sorting
-  const getColumnCards = useCallback(
-    (colId) => {
-      let filtered = cards.filter((c) => c.column === colId);
-      if (sortBy === 'deadline') {
-        filtered.sort((a, b) => {
-          if (!a.deadline && !b.deadline) return 0;
-          if (!a.deadline) return 1;
-          if (!b.deadline) return -1;
-          return new Date(a.deadline) - new Date(b.deadline);
-        });
-      } else if (sortBy === 'school') {
-        filtered.sort((a, b) => a.school.localeCompare(b.school));
+      const saved = localStorage.getItem(STORAGE_KEYS.trackerPicks);
+      if (saved !== null) picks = JSON.parse(saved);
+      else {
+        const legacy = localStorage.getItem(STORAGE_KEYS.trackerData);
+        if (legacy) picks = picksFromLegacyCards(legacy, ROWS);
       }
-      return filtered;
-    },
-    [cards, sortBy]
-  );
+    } catch {}
+    if (Array.isArray(picks)) setStarred(new Set(picks.filter((id) => ROWS.some((r) => r.id === id))));
+    loaded.current = true;
+  }, []);
+  useEffect(() => {
+    if (!loaded.current) return;
+    try {
+      localStorage.setItem(STORAGE_KEYS.trackerPicks, JSON.stringify([...starred]));
+    } catch {}
+  }, [starred]);
+  useEffect(() => setView(shared ? 'shared' : 'all'), [shared]);
 
-  // Find which column a card is in
-  const findColumn = (cardId) => {
-    const card = cards.find((c) => c.id === cardId);
-    return card ? card.column : null;
+  useEffect(() => {
+    if (!menu) return undefined;
+    const onDoc = (e) => {
+      if (!toolsRef.current?.contains(e.target)) setMenu(null);
+    };
+    document.addEventListener('click', onDoc);
+    return () => document.removeEventListener('click', onDoc);
+  }, [menu]);
+
+  const lastRow = useRef(null);
+  const openPeek = (id) => {
+    lastRow.current = id;
+    setPeekId(id);
+    requestAnimationFrame(() => closeRef.current?.focus());
+  };
+  const closePeek = () => {
+    setPeekId(null);
+    const id = lastRow.current;
+    if (id) document.querySelector(`tr[data-id="${CSS.escape(id)}"]`)?.focus();
+  };
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key !== 'Escape') return;
+      if (peekId) closePeek();
+      else setMenu(null);
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  });
+
+  const index = useMemo(() => new Map(ROWS.map((r) => {
+    const alias = ALIAS[r.name.split('@')[1]] || '';
+    return [r.id, searchIndex(r, alias && hant(alias))];
+  })), []);
+
+  const daysTo = (s) => (today ? Math.round((new Date(`${s}T00:00:00`) - today) / 86400000) : null);
+  const dateClass = (s) => {
+    const d = daysTo(s);
+    return d === null ? null : d < 0 ? 'past' : d <= 14 ? 'soon' : null;
+  };
+  const left = (s) => {
+    const d = daysTo(s);
+    return d === null ? '' : d >= 0 ? t('daysLeft', {n: d}) : t('past');
+  };
+  const firstUpcoming = (r) => (r.rounds.find((x) => (daysTo(x.date) ?? 0) >= 0) || {}).date || '9999';
+  const toeflNum = (r) => parseFloat(r.lang?.toefl_old?.cell) || -1;
+  const SORTS = {
+    tier: ['sortTier', (a, b) => TIERS.indexOf(a.tier) - TIERS.indexOf(b.tier) || (!!a.halt - !!b.halt) || (a.rounds[0]?.date || '9').localeCompare(b.rounds[0]?.date || '9')],
+    r1: ['sortR1', (a, b) => (!!a.halt - !!b.halt) || (a.rounds[0]?.date || '9').localeCompare(b.rounds[0]?.date || '9')],
+    next: ['sortNext', (a, b) => (!!a.halt - !!b.halt) || firstUpcoming(a).localeCompare(firstUpcoming(b))],
+    toefl: ['sortToefl', (a, b) => toeflNum(b) - toeflNum(a)],
+    name: ['sortName', (a, b) => a.name.localeCompare(b.name)],
   };
 
-  // DnD handlers
-  const handleDragStart = (event) => {
-    const card = cards.find((c) => c.id === event.active.id);
-    setActiveCard(card || null);
+  const inView = (r) => view === 'all' || (view === 'mine' ? starred.has(r.id) : shared?.ids.has(r.id));
+  const list = ROWS.filter((r) => inView(r) && (!gre.size || gre.has(r.gre)) && (!tiers.size || tiers.has(r.tier)) &&
+    (!hideHalt || !r.halt) && matches(index.get(r.id), q)).sort(SORTS[sort][1]);
+
+  const toggle = (setter, value) => setter((prev) => {
+    const next = new Set(prev);
+    next.has(value) ? next.delete(value) : next.add(value);
+    return next;
+  });
+  const showFlash = (key, text) => {
+    setFlash((f) => ({...f, [key]: text}));
+    setTimeout(() => setFlash((f) => ({...f, [key]: null})), 1600);
   };
 
-  const handleDragOver = (event) => {
-    const { active, over } = event;
-    if (!over) return;
-
-    const activeId = active.id;
-    const overId = over.id;
-
-    const activeCol = findColumn(activeId);
-    // Over might be a column id or a card id
-    const overCol = COLUMN_IDS.includes(overId)
-      ? overId
-      : findColumn(overId);
-
-    if (!activeCol || !overCol || activeCol === overCol) return;
-
-    // Move card to new column
-    setCards((prev) =>
-      prev.map((c) => (c.id === activeId ? { ...c, column: overCol } : c))
+  const greTag = (r) => {
+    const [label, color] = GRE[r.gre] || GRE.unknown;
+    return <span className={cx('tag', `c-${color}`)}>{label}</span>;
+  };
+  const tierTag = (tier) => <span className={cx('tag', `c-${TIER_COLOR[tier] || 'gray'}`)}>{tier}</span>;
+  const langCell = (c) => {
+    if (!c) return <span className={cx('score', 'muted')}>—</span>;
+    const full = cell(c.cell);
+    return <span className={cx('score', isQuiet(c) && 'muted')} title={`${full} · ${t(KIND[c.kind])}`}>{shortCell(full, lang)}</span>;
+  };
+  const dateCell = (r, i) => {
+    if (r.halt) return i === 0 ? <span className={cx('tag', 'c-red')}>{t('halt')}</span> : null;
+    const x = r.rounds[i];
+    if (!x) return null;
+    return (
+      <>
+        <span className={cx('date', dateClass(x.date))} title={[tr(x.label), left(x.date)].filter(Boolean).join(' · ')}>{slash(x.date)}</span>
+        {i === 2 && r.rounds.length > 3 && <span className={styles.more}>+{r.rounds.length - 3}</span>}
+      </>
     );
   };
 
-  const handleDragEnd = (event) => {
-    const { active, over } = event;
-    setActiveCard(null);
+  // ----- summary for "my list" and shared lists -----
+  const summaryIds = view === 'mine' ? starred : view === 'shared' && shared ? shared.ids : null;
+  const picked = summaryIds ? ROWS.filter((r) => summaryIds.has(r.id)).sort(SORTS.tier[1]) : [];
+  const shareLink = typeof window === 'undefined' ? '' : `${window.location.origin}${window.location.pathname}#${encodeShare([...starred], shareTitle, DATA.order)}`;
+  const listText = () => picked.map((r) => [r.name, r.tier,
+    ...(r.halt ? [t('halt')] : r.rounds.map((x, i) => `${t('roundN', {n: ord(i)})} ${slash(x.date)}`)),
+    `GRE ${(GRE[r.gre] || GRE.unknown)[0]}`,
+    `${t('colToeflOld')} ${cell(r.lang?.toefl_old?.cell) || '—'}`, `${t('colToeflNew')} ${cell(r.lang?.toefl_new?.cell) || '—'}`,
+    `${t('colIelts')} ${cell(r.lang?.ielts?.cell) || '—'}`, r.apply].join(' | ')).join('\n');
 
-    if (!over) return;
+  function renderSummary() {
+    if (!summaryIds?.size) return null;
+    const fees = picked.filter((r) => r.fee != null);
+    const next = picked.flatMap((r) => r.rounds.map((x) => ({r, x}))).filter(({x}) => (daysTo(x.date) ?? 0) >= 0).sort((a, b) => a.x.date.localeCompare(b.x.date))[0];
+    const halted = picked.filter((r) => r.halt).length;
+    const mine = view === 'mine';
+    return (
+      <section className={styles.summary}>
+        <div className={styles.box}>
+          <div><span className={styles.k}>{t('sumPicked')}</span><span className={styles.v}>{picked.length}</span></div>
+          <div><span className={styles.k}>{t('sumTiers')}</span><span className={styles.tiers}>{TIERS.map((x) => [x, picked.filter((r) => r.tier === x).length]).filter(([, n]) => n).map(([x, n]) => <span key={x} className={cx('tag', `c-${TIER_COLOR[x]}`)}>{x} × {n}</span>)}</span></div>
+          <div><span className={styles.k}>{t('sumFees')}</span><span className={styles.v}>${fees.reduce((s, r) => s + r.fee, 0)}</span>{fees.length < picked.length && <span className={styles.k}>{t('sumFeesMissing', {n: picked.length - fees.length})}</span>}</div>
+          <div><span className={styles.k}>{t('sumNext')}</span><span className={styles.v}>{next ? `${slash(next.x.date)} · ${next.r.name}` : '—'}</span>{next && today && <span className={styles.k}>{left(next.x.date)}</span>}</div>
+          {halted > 0 && <div><span className={styles.k}>{t('sumNote')}</span><span className={styles.v} style={{color: 'var(--soon)'}}>{t('sumHalt', {n: halted})}</span></div>}
+          <span className={styles.grow} />
+          <div className={styles.act}>
+            {mine && <button type="button" className={cx('btn', 'primary')} aria-expanded={sharePanel} onClick={() => setSharePanel((v) => !v)}>{t('share')}</button>}
+            <button type="button" className={styles.btn} onClick={() => copyText(listText(), () => showFlash('list', t('copied')), () => { setCopyFallback(listText()); showFlash('list', t('selectManual')); })}>{flash.list || t('copyList')}</button>
+            {mine && <button type="button" className={styles.btn} onClick={() => setStarred(new Set())}>{t('clear')}</button>}
+          </div>
+          {mine && sharePanel && (
+            <div className={styles.sharePanel}>
+              <label htmlFor="share-title">{t('shareTitleLabel')}</label>
+              <div className={styles.row2}><input type="text" id="share-title" maxLength={40} placeholder={t('shareTitlePh')} value={shareTitle} onChange={(e) => setShareTitle(e.target.value)} /></div>
+              <label htmlFor="share-link">{t('shareLink')}</label>
+              <div className={styles.row2}>
+                <input type="text" id="share-link" readOnly value={shareLink} onFocus={(e) => e.target.select()} />
+                <button type="button" className={cx('btn', 'primary')} onClick={() => copyText(shareLink, () => showFlash('link', t('copied')), () => { document.getElementById('share-link')?.select(); showFlash('link', t('selectManual')); })}>{flash.link || t('copyLink')}</button>
+              </div>
+              <span className={styles.hint}>{t('shareHint', {n: picked.length})}</span>
+            </div>
+          )}
+          {copyFallback && <textarea className={styles.copybox} rows={6} readOnly value={copyFallback} onFocus={(e) => e.target.select()} autoFocus />}
+        </div>
+      </section>
+    );
+  }
 
-    const activeId = active.id;
-    const overId = over.id;
+  function renderShareBar() {
+    if (view !== 'shared' || !shared) return null;
+    const allSaved = [...shared.ids].every((id) => starred.has(id));
+    const title = shared.title ? t('sharedTitle', {title: '\u0000'}).split('\u0000') : null;
+    return (
+      <section className={styles.sharebar}>
+        <div className={styles.box}>
+          <span>{rich(t('sharedBanner', {title: '{title}', n: '{n}'}), {
+            title: title ? <>{title[0]}<b>{shared.title}</b>{title[1]}</> : '',
+            n: <b>{shared.ids.size}</b>,
+          })}</span>
+          <span className={styles.grow} />
+          <button type="button" className={cx('btn', 'primary')} onClick={() => setStarred((prev) => new Set([...prev, ...shared.ids]))}>{allSaved ? t('allSaved') : t('saveShared')}</button>
+          <button type="button" className={styles.btn} onClick={() => setView('all')}>{t('seeAll')}</button>
+        </div>
+      </section>
+    );
+  }
 
-    // If dropped on a column directly
-    if (COLUMN_IDS.includes(overId)) {
-      setCards((prev) =>
-        prev.map((c) => (c.id === activeId ? { ...c, column: overId } : c))
-      );
-      return;
-    }
+  function renderPeek() {
+    const r = ROWS.find((x) => x.id === peekId);
+    const ex = r?.exam || {};
+    const code = (c) => (c ? t('code', {c: tr(c)}) : '');
+    const prop = (icon, k, v) => <React.Fragment key={k}><div className={styles.k}>{icon}{k}</div><div className={styles.v}>{v}</div></React.Fragment>;
+    const langRow = (k, c, cd) => (
+      <tr><th>{k}</th><td>{cell(c?.cell) || '—'}{c && !isQuiet(c) && <span className={styles.kind}>{t(KIND[c.kind])}</span>}</td><td className={styles.code}>{code(cd)}</td></tr>
+    );
+    const guide = r && localizedInternalPath(r.slug, SITE_LOCALE[lang]);
+    return (
+      <>
+        <div className={cx('scrim', r && 'on')} onClick={closePeek} />
+        <aside className={cx('peek', r && 'on')} aria-hidden={!r} aria-label={t('peekAria')}>
+          <div className={styles.peekBar}>
+            <button type="button" className={styles.iconBtn} ref={closeRef} onClick={closePeek} aria-label={t('close')}>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg>
+            </button>
+            <span className={styles.grow} />
+            {r && <button type="button" className={styles.starBtn} aria-pressed={starred.has(r.id)} onClick={() => toggle(setStarred, r.id)}>{starred.has(r.id) ? t('inMine') : t('addMine')}</button>}
+          </div>
+          {r && (
+            <div className={styles.peekBody}>
+              <h2>{r.name}</h2>
+              <p className={styles.sub}>{r.official}</p>
+              <div className={styles.props}>
+                {prop(Icon.select, t('colTier'), tierTag(r.tier))}
+                {r.halt ? prop(Icon.cal, t('status'), <span className={cx('tag', 'c-red')}>{t('halt')}</span>)
+                  : r.rounds.map((x, i) => prop(Icon.cal, t('roundDdl', {n: ord(i)}), <span className={styles.date}>{slash(x.date)}</span>))}
+                {prop(Icon.select, t('colGre'), greTag(r))}
+                {prop(Icon.num, t('fee'), r.fee != null ? `$${r.fee}` : '—')}
+                {prop(Icon.link, t('colApply'), <a className={styles.url} href={r.apply} target="_blank" rel="noopener noreferrer">{host(r.apply)}</a>)}
+                {r.site && r.site !== r.apply && prop(Icon.link, t('site'), <a className={styles.url} href={r.site} target="_blank" rel="noopener noreferrer">{host(r.site)}</a>)}
+                {prop(Icon.link, t('programPage'), <a className={styles.url} href={guide}>{decodeURI(r.slug)}</a>)}
+              </div>
+              {r.halt && <div className={styles.block}><h3>{t('status')}</h3><p>{tr(ex.halt || r.haltNote)}</p></div>}
+              {r.rounds.length > 0 && (
+                <div className={styles.block}>
+                  <h3>{t('deadlines')}</h3>
+                  <ul className={styles.rounds}>
+                    {r.rounds.map((x, i) => {
+                      const short = ex.rounds?.find((y) => y.date === x.date)?.short;
+                      return (
+                        <li key={x.date + i}>
+                          <b className={cx('date', dateClass(x.date))}>{slash(x.date)}</b>
+                          <div>
+                            <div className={styles.lab}>{t('roundN', {n: ord(i)})} · {tr(x.label)}{today && <span className={styles.muted}> · {left(x.date)}</span>}</div>
+                            {short && <div className={styles.note}>{tr(short)}</div>}
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              )}
+              {r.otherDates?.length > 0 && (
+                <div className={styles.block}>
+                  <h3>{t('otherDates')}</h3>
+                  <p className={styles.muted}>{t('otherDatesHint')}</p>
+                  <ul className={styles.rounds}>
+                    {r.otherDates.map((x, i) => <li key={x.date + i}><b className={styles.date}>{slash(x.date)}</b><div><div className={styles.lab}>{tr(x.label)} <span className={styles.muted}>· {x.cycle}</span></div></div></li>)}
+                  </ul>
+                </div>
+              )}
+              <div className={styles.block}>
+                <h3>{t('tests')}</h3>
+                <table className={styles.exam}>
+                  <tbody>
+                    <tr><th>GRE</th><td>{tr(ex.gre?.req) || (GRE[r.gre] || GRE.unknown)[0]}</td><td className={styles.code}>{code(ex.gre?.code)}</td></tr>
+                    {langRow(t('colToeflOld'), r.lang?.toefl_old, ex.toefl?.code)}
+                    {langRow(t('colToeflNew'), r.lang?.toefl_new)}
+                    {langRow(t('colIelts'), r.lang?.ielts)}
+                    {langRow('Duolingo', r.lang?.duolingo, ex.duolingo?.code)}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+        </aside>
+      </>
+    );
+  }
 
-    // Reorder within or across columns
-    const activeCol = findColumn(activeId);
-    const overCol = findColumn(overId);
-
-    if (activeCol === overCol && activeId !== overId) {
-      setCards((prev) => {
-        const colCards = prev.filter((c) => c.column === activeCol);
-        const rest = prev.filter((c) => c.column !== activeCol);
-        const oldIdx = colCards.findIndex((c) => c.id === activeId);
-        const newIdx = colCards.findIndex((c) => c.id === overId);
-        const reordered = arrayMove(colCards, oldIdx, newIdx);
-        return [...rest, ...reordered];
-      });
-    }
-  };
-
-  // Card CRUD
-  const handleAddCard = (columnId) => {
-    setShowLibrary(columnId);
-  };
-
-  const handleAddCustomCard = () => {
-    const card = makeEmptyCard('reach');
-    setShowAddModal(card);
-  };
-
-  const handleSaveNewCard = (card) => {
-    if (!card.id || cards.find((c) => c.id === card.id)) {
-      card = { ...card, id: genId() };
-    }
-    setCards((prev) => [...prev, card]);
-    setShowAddModal(null);
-  };
-
-  const handleEditCard = (card) => {
-    setShowEditModal({ ...card });
-  };
-
-  const handleSaveEditCard = (updated) => {
-    setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
-    setShowEditModal(null);
-  };
-
-  const handleDeleteCard = (cardId) => {
-    setShowConfirm(cardId);
-  };
-
-  const confirmDelete = () => {
-    setCards((prev) => prev.filter((c) => c.id !== showConfirm));
-    setShowConfirm(null);
-  };
-
-  // Library import
-  const handleImportFromLibrary = (program) => {
-    const column = showLibrary || 'reach';
-    const card = {
-      ...makeEmptyCard(column),
-      id: genId(),
-      school: program.school,
-      program: program.program,
-      tier: program.tier,
-      slug: program.slug,
-      fromLibrary: true,
-      libraryId: program.id,
-    };
-    setCards((prev) => [...prev, card]);
-  };
-
-  const existingLibraryIds = useMemo(
-    () => new Set(cards.filter((c) => c.libraryId).map((c) => c.libraryId)),
-    [cards]
-  );
-
-  // Export/Import JSON
-  const handleExport = () => {
-    const data = storageStatus === 'error' ? localStorage.getItem(STORAGE_KEYS.trackerData) : JSON.stringify(cards, null, 2);
-    const blob = new Blob([data], {
-      type: 'application/json',
-    });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `csgrad-tracker-${new Date().toISOString().slice(0, 10)}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-
-  const handleImportFile = (e) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-    setImportMessage(null);
-    setPendingImport(null);
-    e.target.value = '';
-    const failed = () => setImportMessage(translate({id: 'tracker.import.invalid', message: '导入失败：请使用完整有效的清单 JSON 备份（不超过 10 MB）。原清单未更改。'}));
-    if (file.size > MAX_BACKUP_BYTES) { failed(); return; }
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      try {
-        setPendingImport(parseTrackerBackup(ev.target.result));
-      } catch (err) {
-        failed();
-      }
-    };
-    reader.onerror = failed;
-    reader.readAsText(file);
-  };
-
-  const confirmImport = () => {
-    let previousUndoBackup;
-    let undoBackupChanged = false;
-    try {
-      // Keep the previous raw value, including an unreadable legacy backup, before replacing it.
-      const previous = storageStatus === 'ready'
-        ? JSON.stringify(cards)
-        : localStorage.getItem(STORAGE_KEYS.trackerData) ?? '[]';
-      previousUndoBackup = localStorage.getItem(TRACKER_BACKUP_KEY);
-      localStorage.setItem(TRACKER_BACKUP_KEY, previous);
-      undoBackupChanged = true;
-      localStorage.setItem(STORAGE_KEYS.trackerData, JSON.stringify(pendingImport));
-      setCards(pendingImport);
-      setStorageStatus('ready');
-      setStorageError(null);
-      setCanUndoImport(true);
-      setPendingImport(null);
-      setImportMessage(translate({id: 'tracker.import.success', message: '导入完成。已保留导入前的清单，可撤销最近一次导入。'}));
-    } catch {
-      if (undoBackupChanged) {
-        try {
-          // The main write failed: restore the undo history as well as retaining the current list.
-          if (previousUndoBackup === null) localStorage.removeItem(TRACKER_BACKUP_KEY);
-          else localStorage.setItem(TRACKER_BACKUP_KEY, previousUndoBackup);
-        } catch {
-          setCanUndoImport(false);
-          setImportMessage(translate({id: 'tracker.import.rollbackFailed', message: '导入未完成，当前清单未更改。但浏览器也无法恢复之前的撤销备份，本次会话已停用撤销入口。请立即导出当前清单；不要依赖现有撤销备份。'}));
-          return;
-        }
-      }
-      setImportMessage(translate({id: 'tracker.import.storageFailed', message: '浏览器无法保存导入前的备份或新清单，导入未完成。原清单未更改。'}));
-    }
-  };
-
-  const undoImport = () => {
-    try {
-      const previous = localStorage.getItem(TRACKER_BACKUP_KEY);
-      if (previous === null) return;
-      // Validate before restoring. An unreadable legacy value remains available for export.
-      let restored;
-      try { restored = parseTrackerBackup(previous); } catch { restored = null; }
-      localStorage.setItem(STORAGE_KEYS.trackerData, previous);
-      setCards(restored || []);
-      setStorageStatus(restored ? 'ready' : 'error');
-      setStorageError(restored ? null : translate({id: 'tracker.storage.loadFailed', message: '无法读取当前清单，原始数据已保留。请先导出原始备份，再尝试导入有效备份。'}));
-      setCanUndoImport(false);
-      localStorage.removeItem(TRACKER_BACKUP_KEY);
-      setImportMessage(translate({id: 'tracker.import.undone', message: '已恢复导入前的清单。'}));
-      setShowUndoConfirm(false);
-    } catch {
-      setImportMessage(translate({id: 'tracker.storage.saveFailed', message: '浏览器未能保存清单，请导出备份，避免刷新后丢失更改。'}));
-    }
-  };
-
-  const totalCards = cards.length;
-
-  const pageTitle = translate({ id: 'tracker.page.title', message: '申请进度追踪器' });
-  const pageDesc = translate({
-    id: 'tracker.page.description',
-    message: '申请进度追踪：管理研究生申请的轮次、推荐信、文书与截止日期',
-  });
+  const [, mm, dd] = DATA.generated.split('-').map(Number);
+  const edited = lang === 'en' ? `${MONTHS[mm - 1]} ${dd}` : `${mm}月${dd}日`;
+  const filtered = gre.size || tiers.size || hideHalt;
+  const emptyText = view === 'shared' ? t('emptyShared') : view === 'mine' && !starred.size ? t('emptyMine') : t('emptyNone');
+  const pageTitle = site.t('pageTitle');
+  const pageDesc = site.t('desc', {cycle: DATA.cycle, n: ROWS.length});
 
   return (
     <Layout title={pageTitle} description={pageDesc}>
       <Head>
-        <meta name="description" content={pageDesc} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDesc} />
         <meta property="og:type" content="website" />
       </Head>
-      <div className={styles.pageWrapper}>
-        {/* Top bar */}
-        <div className={styles.topBar}>
-          <a href={localizedInternalPath('/', currentLocale)} className={styles.backLink}>
-            &larr; <Translate id="tracker.nav.backHome">返回首页</Translate>
-          </a>
-          <div className={styles.topBarRight}>
-            <button type="button" className={styles.topBarLink} onClick={handleExport} disabled={storageStatus === 'loading'}>
-              &#128190; {translate({ id: 'tracker.action.export', message: '导出数据' })}
-            </button>
-            <button type="button"
-              className={styles.topBarLink}
-              onClick={() => fileInputRef.current?.click()}
-            >
-              &#128194; {translate({ id: 'tracker.action.import', message: '导入数据' })}
-            </button>
-            {canUndoImport && <button type="button" className={styles.topBarLink} onClick={() => setShowUndoConfirm(true)}>
-              <Translate id="tracker.import.undo">撤销最近导入</Translate>
-            </button>}
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept=".json"
-              className={styles.hiddenInput}
-              onChange={handleImportFile}
-            />
-          </div>
-        </div>
-
-        {storageError && <p role="alert" className={styles.notice}>{storageError}</p>}
-        {importMessage && <p role="status" className={styles.notice}>{importMessage}</p>}
-
-        {/* Header */}
-        <div className={styles.header}>
-          <h1 className={styles.title}>
-            &#128203; <Translate id="tracker.header.title">申请跟踪器</Translate>
-            <span className={styles.badge}>{totalCards}</span>
-          </h1>
-          <p className={styles.subtitle}>
-            <Translate id="tracker.header.subtitle">
-              全面管理你的申请进度：轮次选择、考试状态、推荐信跟踪、面试安排等一站式管理
-            </Translate>
-          </p>
-        </div>
-
-        {/* Toolbar */}
-        <div className={styles.toolbar}>
-          <div className={styles.toolbarLeft}>
-            <div className={styles.viewToggle}>
-              <button className={`${styles.viewBtn} ${styles.viewBtnActive}`}>
-                &#128202; {translate({ id: 'tracker.view.kanban', message: '看板' })}
-              </button>
-            </div>
-            <select
-              className={styles.sortSelect}
-              aria-label={translate({id: 'tracker.sort.label', message: '分类方式:'})}
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-            >
-              <option value="" disabled>
-                {translate({ id: 'tracker.sort.label', message: '分类方式:' })}
-              </option>
-              {SORT_OPTIONS.map((o) => (
-                <option key={o.value} value={o.value}>
-                  {o.label}
-                </option>
-              ))}
+      <main className={styles.root} lang={lang === 'en' ? 'en' : lang === 'hant' ? 'zh-Hant' : 'zh-Hans'}>
+        <div className={styles.head}>
+          <div className={styles.headTop}>
+            <span className={styles.edited}>{t('edited', {d: edited})}</span>
+            <select className={styles.lang} value={lang} onChange={(e) => setLang(e.target.value)} aria-label={t('language')}>
+              {LANGS.map(([v, label]) => <option key={v} value={v}>{label}</option>)}
             </select>
           </div>
-          <div className={styles.toolbarRight}>
-            <button
-              disabled={storageStatus !== 'ready'}
-              className={`${styles.actionBtn} ${styles.importBtn}`}
-              onClick={handleAddCustomCard}
-            >
-              + <Translate id="tracker.action.addCustomProgram">添加自定义项目</Translate>
-            </button>
+          <h1>{t('title')}</h1>
+          <p className={styles.desc}>{t('desc', {cycle: DATA.cycle, n: ROWS.length})}</p>
+          <div className={styles.viewbar}>
+            <div className={styles.tabs} role="tablist">
+              <button type="button" className={styles.tab} role="tab" aria-selected={view === 'all'} onClick={() => setView('all')}>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="11" rx="1.5" /><path d="M1.5 6h13M1.5 9.5h13M6 6v7.5" /></svg>{t('tabAll')}
+              </button>
+              <button type="button" className={styles.tab} role="tab" aria-selected={view === 'mine'} onClick={() => setView('mine')}>
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><rect x="2" y="2" width="12" height="12" rx="2" /><path d="M5 8.2l2 2 4-4.4" /></svg>{t('tabMine')} {starred.size > 0 && starred.size}
+              </button>
+              {shared && (
+                <button type="button" className={styles.tab} role="tab" aria-selected={view === 'shared'} onClick={() => setView('shared')}>
+                  <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" aria-hidden="true"><circle cx="4" cy="8" r="1.8" /><circle cx="12" cy="3.5" r="1.8" /><circle cx="12" cy="12.5" r="1.8" /><path d="M5.6 7.1l4.8-2.7M5.6 8.9l4.8 2.7" /></svg>{t('tabShared')} {shared.ids.size}
+                </button>
+              )}
+            </div>
+            <div className={styles.tools} ref={toolsRef}>
+              {(searchOpen || q) && (
+                <label className={styles.search}>
+                  <input ref={qRef} type="search" autoComplete="off" placeholder={t('searchPh')} aria-label={t('search')} value={q}
+                    onChange={(e) => setQ(e.target.value)} onBlur={() => !q && setSearchOpen(false)} />
+                </label>
+              )}
+              <button type="button" className={cx('iconBtn', filtered && 'active')} aria-label={t('filter')} aria-expanded={menu === 'filter'} onClick={() => setMenu((m) => (m === 'filter' ? null : 'filter'))}>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" aria-hidden="true"><path d="M2.5 4.5h11M4.5 8h7M6.5 11.5h3" /></svg>
+              </button>
+              <button type="button" className={styles.iconBtn} aria-label={t('sort')} aria-expanded={menu === 'sort'} onClick={() => setMenu((m) => (m === 'sort' ? null : 'sort'))}>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 13V3M2.5 5.5L5 3l2.5 2.5M11 3v10M8.5 10.5L11 13l2.5-2.5" /></svg>
+              </button>
+              <button type="button" className={styles.iconBtn} aria-label={t('search')} onClick={() => { setSearchOpen(true); requestAnimationFrame(() => qRef.current?.focus()); }}>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true"><circle cx="7" cy="7" r="4.5" /><path d="M10.5 10.5L14 14" strokeLinecap="round" /></svg>
+              </button>
+              {menu === 'sort' && (
+                <div className={styles.menu}>
+                  <h5>{t('sort')}</h5>
+                  {Object.entries(SORTS).map(([k, [label]]) => (
+                    <button key={k} type="button" className={styles.opt} onClick={() => { setSort(k); setMenu(null); }}>{t(label)}{sort === k && <span className={styles.chk}>✓</span>}</button>
+                  ))}
+                </div>
+              )}
+              {menu === 'filter' && (
+                <div className={styles.menu}>
+                  <h5>{t('colGre')}</h5>
+                  {Object.entries(GRE).filter(([k]) => ROWS.some((r) => r.gre === k)).map(([k, [label, color]]) => (
+                    <label key={k} className={styles.opt}><input type="checkbox" checked={gre.has(k)} onChange={() => toggle(setGre, k)} /><span className={cx('tag', `c-${color}`)}>{label}</span></label>
+                  ))}
+                  <div className={styles.sep} />
+                  <h5>{t('colTier')}</h5>
+                  {TIERS.map((x) => <label key={x} className={styles.opt}><input type="checkbox" checked={tiers.has(x)} onChange={() => toggle(setTiers, x)} />{tierTag(x)}</label>)}
+                  <div className={styles.sep} />
+                  <label className={styles.opt}><input type="checkbox" checked={hideHalt} onChange={(e) => setHideHalt(e.target.checked)} />{t('hideHalt')}</label>
+                  <button type="button" className={cx('opt', 'reset')} onClick={() => { setGre(new Set()); setTiers(new Set()); setHideHalt(false); setMenu(null); }}>{t('resetFilters')}</button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
-        {/* Kanban Board */}
-        {storageStatus === 'ready' && <DndContext
-          sensors={sensors}
-          collisionDetection={closestCorners}
-          onDragStart={handleDragStart}
-          onDragOver={handleDragOver}
-          onDragEnd={handleDragEnd}
-        >
-          <div className={styles.board}>
-            {COLUMNS.map((col) => (
-              <KanbanColumn
-                key={col.id}
-                column={col}
-                cards={getColumnCards(col.id)}
-                onAddCard={handleAddCard}
-                onEditCard={handleEditCard}
-                onDeleteCard={handleDeleteCard}
-              />
-            ))}
-          </div>
-          <DragOverlay>
-            {activeCard ? (
-              <div className={styles.card} style={{ transform: 'rotate(3deg)', boxShadow: '0 12px 40px rgba(0,0,0,0.15)' }}>
-                <CardContent card={activeCard} />
-              </div>
-            ) : null}
-          </DragOverlay>
-        </DndContext>}
+        {renderShareBar()}
+        {renderSummary()}
 
-        {/* Modals */}
-        {showAddModal && (
-          <CardModal
-            card={null}
-            initialCard={showAddModal}
-            columns={COLUMNS}
-            essayStatuses={ESSAY_STATUSES}
-            onSave={handleSaveNewCard}
-            onClose={() => setShowAddModal(null)}
-          />
-        )}
-        {showEditModal && (
-          <CardModal
-            card={showEditModal}
-            columns={COLUMNS}
-            essayStatuses={ESSAY_STATUSES}
-            onSave={handleSaveEditCard}
-            onClose={() => setShowEditModal(null)}
-          />
-        )}
-        {showLibrary && (
-          <LibraryModal
-            programs={programs}
-            existingIds={existingLibraryIds}
-            onImport={handleImportFromLibrary}
-            onClose={() => setShowLibrary(null)}
-          />
-        )}
-        {showConfirm && (
-          <ConfirmDialog
-            message={translate({ id: 'tracker.confirm.deleteMessage', message: '确定要删除此项目吗？此操作不可撤销。' })}
-            onConfirm={confirmDelete}
-            onCancel={() => setShowConfirm(null)}
-          />
-        )}
-        {pendingImport && <ConfirmDialog
-          message={translate({id: 'tracker.import.confirm', message: '此备份包含 {count} 个项目，将替换当前 {current} 个项目（不是合并）。导入前的清单会保留为可撤销备份，覆盖上一次导入备份。是否继续？'}, {count: pendingImport.length, current: cards.length})}
-          confirmLabel={translate({id: 'tracker.import.replace', message: '确认替换'})}
-          onConfirm={confirmImport}
-          onCancel={() => setPendingImport(null)}
-        />}
-        {showUndoConfirm && <ConfirmDialog
-          message={translate({id: 'tracker.import.undoConfirm', message: '恢复最近一次导入前的清单？导入后的编辑将被替换。请先导出当前清单以保留这些编辑。'})}
-          confirmLabel={translate({id: 'tracker.import.restore', message: '恢复旧清单'})}
-          onConfirm={undoImport}
-          onCancel={() => setShowUndoConfirm(false)}
-        />}
-      </div>
+        <div className={styles.tableWrap}>
+          <div className={styles.scroller}>
+            <table className={styles.grid} aria-label={t('tableAria')}>
+              <colgroup>
+                <col style={{width: 36}} /><col style={{width: 200}} /><col style={{width: 82}} /><col style={{width: 132}} /><col style={{width: 132}} /><col style={{width: 132}} />
+                <col style={{width: 140}} /><col style={{width: 104}} /><col style={{width: 104}} /><col style={{width: 96}} /><col />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th className={styles.sel} aria-label={t('select')} />
+                  <th className={styles.name}><span className={styles.h}>{Icon.aa}{t('colName')}</span></th>
+                  <th><span className={styles.h}>{Icon.select}{t('colTier')}</span></th>
+                  <th><span className={styles.h}>{Icon.cal}{t('colR1')}</span></th>
+                  <th><span className={styles.h}>{Icon.cal}{t('colR2')}</span></th>
+                  <th><span className={styles.h}>{Icon.cal}{t('colR3')}</span></th>
+                  <th><span className={styles.h}>{Icon.select}{t('colGre')}</span></th>
+                  <th><span className={styles.h}>{Icon.text}{t('colToeflOld')}</span></th>
+                  <th><span className={styles.h}>{Icon.text}{t('colToeflNew')}</span></th>
+                  <th><span className={styles.h}>{Icon.text}{t('colIelts')}</span></th>
+                  <th><span className={styles.h}>{Icon.link}{t('colApply')}</span></th>
+                </tr>
+              </thead>
+              <tbody>
+                {list.length ? list.map((r) => (
+                  <tr key={r.id} data-id={r.id} tabIndex={0} className={starred.has(r.id) ? styles.picked : undefined}
+                    onClick={(e) => { if (!e.target.closest('[data-stop]')) openPeek(r.id); }}
+                    onKeyDown={(e) => { if ((e.key === 'Enter' || e.key === ' ') && e.target === e.currentTarget) { e.preventDefault(); openPeek(r.id); } }}>
+                    <td className={styles.sel} data-stop><input type="checkbox" checked={starred.has(r.id)} onChange={() => toggle(setStarred, r.id)} aria-label={t('pickAria', {name: r.name})} /></td>
+                    <td className={styles.name}><div className={styles.nameIn}>{Icon.doc}<span className={styles.nameText}>{r.name}</span><button type="button" className={styles.openPill} tabIndex={-1}>OPEN</button></div></td>
+                    <td>{tierTag(r.tier)}</td>
+                    <td>{dateCell(r, 0)}</td><td>{dateCell(r, 1)}</td><td>{dateCell(r, 2)}</td>
+                    <td>{greTag(r)}</td>
+                    <td>{langCell(r.lang?.toefl_old)}</td><td>{langCell(r.lang?.toefl_new)}</td><td>{langCell(r.lang?.ielts)}</td>
+                    <td><a className={styles.url} href={r.apply} target="_blank" rel="noopener noreferrer" data-stop>{host(r.apply)}</a></td>
+                  </tr>
+                )) : (
+                  <tr><td className={styles.sel} /><td className={styles.empty} colSpan={10}>{emptyText}</td></tr>
+                )}
+              </tbody>
+              <tfoot>
+                <tr><td className={styles.sel} /><td className={styles.name}>Count<b>{list.length}</b></td><td colSpan={9} /></tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+        <div className={styles.legend}>
+          <span>{t('legend')}</span>
+          <span>{t('verified', {d: DATA.generated})}</span>
+        </div>
+        {renderPeek()}
+      </main>
     </Layout>
   );
 }
