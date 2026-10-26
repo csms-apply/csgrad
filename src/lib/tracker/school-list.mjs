@@ -8,28 +8,44 @@ export const GRE = {required: 'red', not_required: 'green', optional: 'yellow', 
 export const KIND = {hard_min: 'kindHard', subscores_only: 'kindSub', recommended: 'kindRec', typical_range: 'kindRange', none: 'kindNone', not_accepted: 'kindNo', not_stated: 'kindNotStated'};
 export const isQuiet = (cell) => ['none', 'not_accepted', 'not_stated'].includes(cell?.kind);
 
-// ----- share links: the selection is a bitset over `order` in the URL hash (#pick-<base64url>) -----
+// ----- share links: the selection is a bitset over `order`, written in base 62 as ?s=<code> -----
 // ponytail: `order` in school-list.json is append-only; reordering it breaks links people already shared.
-const b64url = (bytes) => btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-const unb64url = (s) => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4)), (c) => c.charCodeAt(0));
+const B62 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 
 export function encodeShare(ids, order) {
-  const bits = new Uint8Array(Math.ceil(order.length / 8));
+  let n = BigInt(0);
   for (const id of ids) {
     const i = order.indexOf(id);
-    if (i >= 0) bits[i >> 3] |= 1 << (i & 7);
+    if (i >= 0) n |= BigInt(1) << BigInt(i);
   }
-  return `pick-${b64url(bits)}`;
+  let code = '';
+  do {
+    code = B62[Number(n % BigInt(62))] + code;
+    n /= BigInt(62);
+  } while (n > 0);
+  return code;
 }
 
-export function decodeShare(hash, order) {
-  // Older links may end in ".<title>"; the title is no longer shown, so it is ignored.
+const idsFromBits = (has, order) => {
+  const ids = order.filter((_, i) => has(i));
+  return ids.length ? {ids: new Set(ids)} : null;
+};
+
+// Reads ?s=<code>; also opens the older #pick-<base64url>[.<title>] links.
+export function decodeShare(search, hash, order) {
+  const code = new URLSearchParams(search || '').get('s');
+  if (code !== null) {
+    if (!/^[0-9A-Za-z]{1,20}$/.test(code)) return null;
+    let n = BigInt(0);
+    for (const c of code) n = n * BigInt(62) + BigInt(B62.indexOf(c));
+    return idsFromBits((i) => (n >> BigInt(i)) & BigInt(1), order);
+  }
   const m = /^#?pick-([A-Za-z0-9_-]+)(?:\.[A-Za-z0-9_-]+)?$/.exec(hash || '');
   if (!m) return null;
   try {
-    const bits = unb64url(m[1]);
-    const ids = order.filter((_, i) => bits[i >> 3] & (1 << (i & 7)));
-    return ids.length ? {ids: new Set(ids)} : null;
+    const s = m[1].replace(/-/g, '+').replace(/_/g, '/');
+    const bits = Uint8Array.from(atob(s + '==='.slice((s.length + 3) % 4)), (c) => c.charCodeAt(0));
+    return idsFromBits((i) => bits[i >> 3] & (1 << (i & 7)), order);
   } catch {
     return null;
   }

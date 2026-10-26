@@ -82,8 +82,8 @@ export default function TrackerPage() {
 
   // Share links, dates and saved picks only exist in the browser; the first render must match the static HTML.
   const isBrowser = useIsBrowser();
-  const {hash} = useLocation();
-  const shared = useMemo(() => (isBrowser ? decodeShare(hash, DATA.order) : null), [hash, isBrowser]);
+  const {search, hash} = useLocation();
+  const shared = useMemo(() => (isBrowser ? decodeShare(search, hash, DATA.order) : null), [search, hash, isBrowser]);
   const today = useMemo(() => (isBrowser ? startOfToday() : null), [isBrowser]);
   const [starred, setStarred] = useState(() => new Set());
   const [view, setView] = useState('all');
@@ -220,7 +220,7 @@ export default function TrackerPage() {
   // ----- summary for "my list" and shared lists -----
   const summaryIds = view === 'mine' ? starred : view === 'shared' && shared ? shared.ids : null;
   const picked = summaryIds ? ROWS.filter((r) => summaryIds.has(r.id)).sort(SORTS.tier[1]) : [];
-  const shareLink = typeof window === 'undefined' ? '' : `${window.location.origin}${window.location.pathname}#${encodeShare([...starred], DATA.order)}`;
+  const shareLink = typeof window === 'undefined' ? '' : `${window.location.origin}${window.location.pathname}?s=${encodeShare([...starred], DATA.order)}`;
   const listText = () => picked.map((r) => [r.name, r.tier,
     ...(r.halt ? [t('halt')] : r.rounds.map((x, i) => `${t('roundN', {n: ord(i)})} ${slash(x.date)}`)),
     `${t('colGre')} ${t(`gre_${r.gre in GRE ? r.gre : 'unknown'}`)}`,

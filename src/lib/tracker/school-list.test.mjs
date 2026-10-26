@@ -8,13 +8,20 @@ const row = (name) => data.rows.find((r) => r.name === name);
 
 test('share links round-trip ids, still open older links with a title, and reject junk', () => {
   const ids = [row('mscs@cmu').id, row('mscs@columbia').id, row('eecs@mit').id];
-  const hash = encodeShare(ids, data.order);
-  const back = decodeShare(`#${hash}`, data.order);
-  assert.deepEqual([...back.ids].sort(), [...ids].sort());
-  assert.deepEqual([...decodeShare(`#${hash}.5oiR55qEMjdGYWxs`, data.order).ids].sort(), [...ids].sort());
-  assert.equal(decodeShare('#pick-AAAA', data.order), null);
-  assert.equal(decodeShare('#courses', data.order), null);
-  assert.equal(decodeShare('#pick-!!', data.order), null);
+  const code = encodeShare(ids, data.order);
+  assert.match(code, /^[0-9A-Za-z]{1,14}$/);
+  assert.deepEqual([...decodeShare(`?s=${code}`, '', data.order).ids].sort(), [...ids].sort());
+  // Every program picked still fits in a short code.
+  assert.ok(encodeShare(data.order, data.order).length <= 14);
+  // Links made before ?s= existed: CMU MSCS + Columbia MSCS, one with an old title suffix.
+  const old = [row('mscs@cmu').id, row('mscs@columbia').id].sort();
+  assert.deepEqual([...decodeShare('', '#pick-CAAAAAAAAAAgAAA', data.order).ids].sort(), old);
+  assert.deepEqual([...decodeShare('', '#pick-CAAAAAAAAAAgAAA.5oiR55qEMjdGYWxs', data.order).ids].sort(), old);
+  assert.equal(decodeShare('?s=0', '', data.order), null);
+  assert.equal(decodeShare('?s=a-b', '', data.order), null);
+  assert.equal(decodeShare('', '#pick-AAAA', data.order), null);
+  assert.equal(decodeShare('', '#courses', data.order), null);
+  assert.equal(decodeShare('', '#pick-!!', data.order), null);
 });
 
 test('data is consistent: every row is in the append-only share order and has an English label', () => {
