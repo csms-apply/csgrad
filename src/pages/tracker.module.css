@@ -1,6 +1,6 @@
 /* A Notion-style database page: title, view tabs, a horizontally scrolling table with typed columns, and a side peek per row. */
 .root {
-  --bg: var(--ifm-background-color);
+  --bg: #fff; /* opaque: sticky columns cover the cells scrolling under them (Infima's light background is transparent) */
   --fg: rgb(55, 53, 47);
   --fg-2: rgba(55, 53, 47, .65);
   --fg-3: rgba(55, 53, 47, .45);
@@ -33,6 +33,7 @@
   padding: 0 max(16px, env(safe-area-inset-right, 0px)) 80px max(16px, env(safe-area-inset-left, 0px));
 }
 :global(html[data-theme='dark']) .root {
+  --bg: var(--ifm-background-color);
   --fg: rgba(255, 255, 255, .81); --fg-2: rgba(255, 255, 255, .46); --fg-3: rgba(255, 255, 255, .3);
   --line: rgba(255, 255, 255, .094); --hover: rgba(255, 255, 255, .055); --hover-2: rgba(255, 255, 255, .1); --panel: #202020;
   --shadow: rgba(15, 15, 15, .2) 0 0 0 1px, rgba(15, 15, 15, .4) 0 3px 6px, rgba(15, 15, 15, .6) 0 9px 24px;
@@ -49,7 +50,7 @@
 .root svg { flex: none; }
 
 /* head */
-.head, .tableWrap, .summary, .sharebar, .legend { max-width: 1240px; margin-left: auto; margin-right: auto; padding-left: clamp(0px, 7vw, 96px); }
+.head, .tableWrap, .summary, .sharebar, .legend { max-width: 1400px; margin-left: auto; margin-right: auto; padding-left: clamp(0px, 7vw, 96px); }
 .head { padding-top: 28px; }
 .headTop { display: flex; justify-content: flex-end; align-items: center; gap: 10px; min-height: 28px; }
 .edited { color: var(--fg-3); white-space: nowrap; }
@@ -62,7 +63,7 @@
 .tab { flex: none; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 12px; border-radius: 16px; border: 0; background: none; color: var(--fg-2); font-weight: 500; cursor: pointer; }
 .tab:hover { background: var(--hover); }
 .tab[aria-selected='true'] { background: var(--hover-2); color: var(--fg); }
-.tools { display: flex; align-items: center; gap: 2px; position: relative; }
+.tools { display: flex; align-items: center; gap: 2px; position: relative; margin-left: auto; }
 .iconBtn { width: 30px; height: 30px; display: inline-grid; place-items: center; border-radius: 4px; border: 0; background: none; color: var(--fg-3); cursor: pointer; }
 .iconBtn:hover { background: var(--hover-2); color: var(--fg-2); }
 .iconBtn.active { color: var(--accent); }
@@ -82,8 +83,8 @@
 
 /* table (overrides Infima's striped table defaults) */
 .scroller { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.root .grid { display: table; margin: 0; border-collapse: collapse; min-width: 1180px; width: 100%; table-layout: fixed; }
-.root .grid tr:nth-child(n) { background: none; border: 0; }
+.root .grid { display: table; margin: 0; border-collapse: collapse; min-width: 1300px; width: 100%; table-layout: fixed; }
+.root .grid thead, .root .grid tr:nth-child(n) { background: none; border: 0; }
 .root .grid th, .root .grid td { border: 0; border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); text-align: left; vertical-align: middle; height: 36px; padding: 0 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .root .grid th:last-child, .root .grid td:last-child { border-right: 0; }
 .root .grid thead th { font-weight: 400; color: var(--fg-2); }
