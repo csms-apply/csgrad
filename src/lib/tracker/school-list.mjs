@@ -1,4 +1,4 @@
-// Pure helpers for the /tracker school list: share links, language cells and search.
+// Pure helpers for the /tracker application tracker (a school list): share links, language cells and search.
 // Kept free of React and Docusaurus so node --test can exercise them directly.
 
 export const TIERS = ['SSS', 'SS', 'S', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+'];
@@ -94,11 +94,11 @@ export const fill = (s, vars = {}) => String(s).replace(/\{(\w+)\}/g, (_, k) => 
 // UI copy. zh-Hant is converted from zh at runtime with OpenCC, like the other pages.
 export const UI = {
   zh: {
-    title: '选校', pageTitle: '选校表：北美 CS 硕士申请截止与语言要求',
+    title: '申请追踪', pageTitle: '申请追踪：北美 CS 硕士申请截止与语言要求',
     desc: '{cycle} 入学 · {n} 个北美 CS 相关硕士项目的申请截止、GRE 与语言要求',
     edited: '更新于 {d}', verified: '官网核实于 {d}', language: '表格语言',
     tabAll: '全部项目', tabMine: '我的选校', tabShared: '分享的名单',
-    searchPh: '搜索学校或项目…', filter: '筛选', sort: '排序', search: '搜索', close: '关闭', select: '选择', peekAria: '项目详情', tableAria: '选校表',
+    searchPh: '搜索学校或项目…', filter: '筛选', sort: '排序', search: '搜索', close: '关闭', select: '选择', peekAria: '项目详情', tableAria: '申请追踪表',
     colName: '项目', colTier: '梯队', colR1: '第一轮 ddl', colR2: '第二轮 ddl', colR3: '第三轮 ddl', colGre: 'GRE要求',
     colToeflOld: '旧版托福', colToeflNew: '新版托福', colIelts: '雅思', colApply: '申请官网',
     legend: '写总分，括号里是单项；带 * 的点开看完整要求、是硬性分还是建议分，以及送分代码',
@@ -119,11 +119,11 @@ export const UI = {
     addMine: '＋ 加入我的选校', inMine: '✓ 已在我的选校',
   },
   en: {
-    title: 'School List', pageTitle: 'School List: CS Master\'s Deadlines and English Requirements',
+    title: 'Application Tracker', pageTitle: 'Application Tracker: CS Master\'s Deadlines and English Requirements',
     desc: '{cycle} entry · deadlines, GRE and English test requirements for {n} North American CS-related master\'s programs',
     edited: 'Updated {d}', verified: 'Verified on official sites {d}', language: 'Table language',
     tabAll: 'All programs', tabMine: 'My list', tabShared: 'Shared list',
-    searchPh: 'Search schools or programs…', filter: 'Filter', sort: 'Sort', search: 'Search', close: 'Close', select: 'Select', peekAria: 'Program details', tableAria: 'School list',
+    searchPh: 'Search schools or programs…', filter: 'Filter', sort: 'Sort', search: 'Search', close: 'Close', select: 'Select', peekAria: 'Program details', tableAria: 'Application tracker',
     colName: 'Program', colTier: 'Tier', colR1: 'Round 1', colR2: 'Round 2', colR3: 'Round 3', colGre: 'GRE',
     colToeflOld: 'TOEFL (old)', colToeflNew: 'TOEFL (new)', colIelts: 'IELTS', colApply: 'Apply',
     legend: 'Total score, section minimums in brackets (S = Speaking, W = Writing, R = Reading, L = Listening). Open a row marked * for the full rule, whether it is a hard minimum or a recommendation, and score codes',

@@ -141,8 +141,10 @@ export default function TrackerPage() {
   const openPeek = (id) => {
     lastRow.current = id;
     setPeekId(id);
-    requestAnimationFrame(() => closeRef.current?.focus());
   };
+  useEffect(() => {
+    if (peekId) closeRef.current?.focus();
+  }, [peekId]);
   const closePeek = () => {
     setPeekId(null);
     const id = lastRow.current;
@@ -397,7 +399,7 @@ export default function TrackerPage() {
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="11" rx="1.5" /><path d="M1.5 6h13M1.5 9.5h13M6 6v7.5" /></svg>{t('tabAll')}
               </button>
               <button type="button" className={styles.tab} role="tab" aria-selected={view === 'mine'} onClick={() => setView('mine')}>
-                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><rect x="2" y="2" width="12" height="12" rx="2" /><path d="M5 8.2l2 2 4-4.4" /></svg>{t('tabMine')} {starred.size > 0 && starred.size}
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><rect x="2" y="2" width="12" height="12" rx="2" /><path d="M5 8.2l2 2 4-4.4" /></svg>{t('tabMine')}{starred.size > 0 && ` ${starred.size}`}
               </button>
               {shared && (
                 <button type="button" className={styles.tab} role="tab" aria-selected={view === 'shared'} onClick={() => setView('shared')}>
