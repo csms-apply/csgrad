@@ -8,29 +8,28 @@ export const GRE = {required: 'red', not_required: 'green', optional: 'yellow', 
 export const KIND = {hard_min: 'kindHard', subscores_only: 'kindSub', recommended: 'kindRec', typical_range: 'kindRange', none: 'kindNone', not_accepted: 'kindNo', not_stated: 'kindNotStated'};
 export const isQuiet = (cell) => ['none', 'not_accepted', 'not_stated'].includes(cell?.kind);
 
-// ----- share links: the selection is a bitset over `order` in the URL hash (#pick-<base64url>[.<title>]) -----
+// ----- share links: the selection is a bitset over `order` in the URL hash (#pick-<base64url>) -----
 // ponytail: `order` in school-list.json is append-only; reordering it breaks links people already shared.
 const b64url = (bytes) => btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 const unb64url = (s) => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4)), (c) => c.charCodeAt(0));
 
-export function encodeShare(ids, title, order) {
+export function encodeShare(ids, order) {
   const bits = new Uint8Array(Math.ceil(order.length / 8));
   for (const id of ids) {
     const i = order.indexOf(id);
     if (i >= 0) bits[i >> 3] |= 1 << (i & 7);
   }
-  const t = title.trim().slice(0, 40);
-  return `pick-${b64url(bits)}${t ? '.' + b64url(new TextEncoder().encode(t)) : ''}`;
+  return `pick-${b64url(bits)}`;
 }
 
 export function decodeShare(hash, order) {
-  const m = /^#?pick-([A-Za-z0-9_-]+)(?:\.([A-Za-z0-9_-]+))?$/.exec(hash || '');
+  // Older links may end in ".<title>"; the title is no longer shown, so it is ignored.
+  const m = /^#?pick-([A-Za-z0-9_-]+)(?:\.[A-Za-z0-9_-]+)?$/.exec(hash || '');
   if (!m) return null;
   try {
     const bits = unb64url(m[1]);
     const ids = order.filter((_, i) => bits[i >> 3] & (1 << (i & 7)));
-    const title = m[2] ? new TextDecoder().decode(unb64url(m[2])) : '';
-    return ids.length ? {ids: new Set(ids), title} : null;
+    return ids.length ? {ids: new Set(ids)} : null;
   } catch {
     return null;
   }
@@ -104,12 +103,12 @@ export const UI = {
     colToeflOld: '旧版托福', colToeflNew: '新版托福', colIelts: '雅思', colApply: '申请官网',
     legend: '写总分，括号里是单项；带 * 的点开看完整要求、是硬性分还是建议分，以及送分代码',
     halt: '本季停招', daysLeft: '还有 {n} 天', past: '已过', pickAria: '把 {name} 加入我的选校',
-    emptyShared: '这个分享链接里没有可识别的项目', emptyMine: '还没有选项目。回到「全部项目」，勾选每行最左边的方框，再点「分享选校」生成链接。', emptyNone: '没有符合条件的项目',
-    sharedBanner: '这是别人分享的选校名单{title}，共 {n} 个项目。', sharedTitle: '：{title}',
+    emptyShared: '这个分享链接里没有可识别的项目', emptyMine: '还没有选项目。回到「全部项目」，勾选每行最左边的方框。', emptyNone: '没有符合条件的项目',
+    sharedBanner: '这是别人分享的选校名单，共 {n} 个项目。',
     allSaved: '已全部在我的选校', saveShared: '存到我的选校', seeAll: '查看全部项目',
     sumPicked: '已选项目', sumTiers: '梯队分布', sumFees: '申请费合计', sumFeesMissing: '另有 {n} 个未列费用', sumNext: '最近的 ddl', sumNote: '注意', sumHalt: '{n} 个本季停招',
     share: '分享选校', copyList: '复制名单', clear: '清空',
-    shareTitleLabel: '名单标题（可选，会显示给打开链接的人）', shareTitlePh: '比如：27 Fall 陆本 CS 选校', shareLink: '分享链接', copyLink: '复制链接',
+    shareLink: '分享链接', copyLink: '复制链接',
     shareHint: '任何人打开链接都能直接看到这 {n} 个项目，不用登录，还能一键存到自己的选校。',
     copied: '已复制', selectManual: '已选中，请手动复制', roundN: '第{n}轮', roundDdl: '第{n}轮 ddl',
     sortTier: '梯队从高到低', sortR1: '第一轮 ddl 从早到晚', sortNext: '最近一个未截止的 ddl', sortToefl: '托福要求从高到低', sortName: '项目名称',
@@ -130,12 +129,12 @@ export const UI = {
     colToeflOld: 'TOEFL (old)', colToeflNew: 'TOEFL (new)', colIelts: 'IELTS', colApply: 'Apply',
     legend: 'Total score, section minimums in brackets (S = Speaking, W = Writing, R = Reading, L = Listening). Open a row marked * for the full rule, whether it is a hard minimum or a recommendation, and score codes',
     halt: 'Not admitting', daysLeft: '{n} days left', past: 'passed', pickAria: 'Add {name} to my list',
-    emptyShared: 'No recognizable programs in this share link', emptyMine: 'Nothing picked yet. Go back to All programs, tick the box at the left of a row, then click Share list to get a link.', emptyNone: 'No programs match',
-    sharedBanner: 'A school list shared with you{title}: {n} programs.', sharedTitle: ' — {title}',
+    emptyShared: 'No recognizable programs in this share link', emptyMine: 'Nothing picked yet. Go back to All programs and tick the box at the left of a row.', emptyNone: 'No programs match',
+    sharedBanner: 'A school list shared with you: {n} programs.',
     allSaved: 'All in my list', saveShared: 'Save to my list', seeAll: 'See all programs',
     sumPicked: 'Picked', sumTiers: 'Tiers', sumFees: 'Total app fees', sumFeesMissing: '{n} without a listed fee', sumNext: 'Next deadline', sumNote: 'Note', sumHalt: '{n} not admitting this cycle',
     share: 'Share list', copyList: 'Copy list', clear: 'Clear',
-    shareTitleLabel: 'List title (optional, shown to whoever opens the link)', shareTitlePh: 'e.g. Fall 2027 CS list', shareLink: 'Share link', copyLink: 'Copy link',
+    shareLink: 'Share link', copyLink: 'Copy link',
     shareHint: 'Anyone with the link sees these {n} programs without signing in, and can save them to their own list in one click.',
     copied: 'Copied', selectManual: 'Selected, copy it manually', roundN: 'Round {n}', roundDdl: 'Round {n}',
     sortTier: 'Tier, high to low', sortR1: 'Round 1 deadline, earliest first', sortNext: 'Next open deadline', sortToefl: 'TOEFL requirement, high to low', sortName: 'Program name',
@@ -146,6 +145,6 @@ export const UI = {
     addMine: '+ Add to my list', inMine: '✓ In my list', count: 'Count',
     gre_required: 'required', gre_not_required: 'not required', gre_optional: 'optional', gre_not_accepted: 'not accepted', gre_recommended: 'recommended', gre_waived_for_some: 'waivable', gre_unknown: 'unknown',
     // Singular forms, picked by makeText when n === 1.
-    daysLeftOne: '1 day left', sharedBannerOne: 'A school list shared with you{title}: 1 program.', shareHintOne: 'Anyone with the link sees this program without signing in, and can save it to their own list in one click.',
+    daysLeftOne: '1 day left', sharedBannerOne: 'A school list shared with you: 1 program.', shareHintOne: 'Anyone with the link sees this program without signing in, and can save it to their own list in one click.',
   },
 };
