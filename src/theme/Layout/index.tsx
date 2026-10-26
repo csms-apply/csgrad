@@ -7,7 +7,10 @@ export default function Layout(props: JSX.IntrinsicAttributes) {
 useEffect(() => {
 
     // 1. 拦截复制
+    // Form fields (e.g. the tracker's share link) are the reader's own text, so copying them stays allowed.
+    const inField = () => /^(INPUT|TEXTAREA)$/.test(document.activeElement?.tagName ?? '');
     const onCopy = (e: ClipboardEvent) => {
+      if (inField()) return;
       const selection = window.getSelection()?.toString();
       if (!selection) return;
 
@@ -20,7 +23,7 @@ useEffect(() => {
 
     // 2. 拦截 Cmd/Ctrl + C
     const onKeyDown = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key === 'c') {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'c' && !inField()) {
         const selection = window.getSelection()?.toString();
         if (selection && selection.length > 0) {
           e.preventDefault();

@@ -124,7 +124,7 @@ const config = {
           {
             to: '/tracker',
             position: 'left',
-            label: '申请跟踪',
+            label: '申请追踪',
           },
           {
             type: 'custom-schoolPlan',
@@ -158,7 +158,7 @@ const config = {
                 to: '/datapoints',
               },
               {
-                label: '申请跟踪',
+                label: '申请追踪',
                 to: '/tracker',
               },
             ],

@@ -19,7 +19,7 @@
     "message": "Data Points",
     "description": "The label of the footer link to admissions data"
   },
-  "link.item.label.申请跟踪": {
+  "link.item.label.申请追踪": {
     "message": "Application Tracker",
     "description": "The label of the footer link to the application tracker"
   },

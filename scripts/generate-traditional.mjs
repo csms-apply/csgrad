@@ -118,7 +118,6 @@ const code={};for(const [id,item] of Object.entries(english)){code[id]=messages[
 for(const [id,item] of Object.entries(messages))code[id]=item;
 for(const [id,value] of Object.entries(framework))if(id in code)code[id]={message:typeof value==='string'?value:value.message};
 for(const item of Object.values(code))item.message=convert(item.message);
-code['tracker.alert.importFailed']={message:'匯入失敗：JSON 格式無效'};
 write(path.join(dest,'code.json'),JSON.stringify(code,null,2)+'\n');
 for(const file of files(path.join(root,'i18n/en')).filter(p=>p.endsWith('.json')&&!p.includes('/current/'))){
  const rel=path.relative(path.join(root,'i18n/en'),file);if(rel==='code.json')continue;
