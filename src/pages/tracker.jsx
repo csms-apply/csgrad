@@ -15,7 +15,6 @@ import {
 import styles from './tracker.module.css';
 
 const ROWS = DATA.rows;
-const LANGS = [['zh', '简体'], ['hant', '繁體'], ['en', 'English']];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const hantCache = new Map();
 const hant = (s) => {
@@ -78,12 +77,8 @@ const Icon = {
 
 export default function TrackerPage() {
   const {i18n: {currentLocale}} = useDocusaurusContext();
-  const siteLang = currentLocale === 'en' ? 'en' : currentLocale === 'zh-Hant' ? 'hant' : 'zh';
-  // The table follows the site language; the selector only switches this table.
-  const [lang, setLang] = useState(siteLang);
-  const X = useMemo(() => makeText(lang), [lang]);
-  const {t, tr, cell, ord} = X;
-  const site = useMemo(() => makeText(siteLang), [siteLang]);
+  const lang = currentLocale === 'en' ? 'en' : currentLocale === 'zh-Hant' ? 'hant' : 'zh';
+  const {t, tr, cell, ord} = useMemo(() => makeText(lang), [lang]);
 
   // Share links, dates and saved picks only exist in the browser; the first render must match the static HTML.
   const isBrowser = useIsBrowser();
@@ -104,7 +99,7 @@ export default function TrackerPage() {
   const [shareTitle, setShareTitle] = useState('');
   const [flash, setFlash] = useState({});
   const [copyFallback, setCopyFallback] = useState(null);
-  useEffect(() => setCopyFallback(null), [view, starred, lang]);
+  useEffect(() => setCopyFallback(null), [view, starred]);
   const toolsRef = useRef(null);
   const closeRef = useRef(null);
   const qRef = useRef(null);
@@ -376,8 +371,8 @@ export default function TrackerPage() {
   const edited = lang === 'en' ? `${MONTHS[mm - 1]} ${dd}` : `${mm}月${dd}日`;
   const filtered = gre.size || tiers.size || hideHalt;
   const emptyText = view === 'shared' ? t('emptyShared') : view === 'mine' && !starred.size ? t('emptyMine') : t('emptyNone');
-  const pageTitle = site.t('pageTitle');
-  const pageDesc = site.t('desc', {cycle: DATA.cycle, n: ROWS.length});
+  const pageTitle = t('pageTitle');
+  const pageDesc = t('desc', {cycle: DATA.cycle, n: ROWS.length});
 
   return (
     <Layout title={pageTitle} description={pageDesc}>
@@ -386,13 +381,10 @@ export default function TrackerPage() {
         <meta property="og:description" content={pageDesc} />
         <meta property="og:type" content="website" />
       </Head>
-      <main className={styles.root} lang={lang === 'en' ? 'en' : lang === 'hant' ? 'zh-Hant' : 'zh-Hans'}>
+      <main className={styles.root}>
         <div className={styles.head}>
           <div className={styles.headTop}>
             <span className={styles.edited}>{t('edited', {d: edited})}</span>
-            <select className={styles.lang} value={lang} onChange={(e) => setLang(e.target.value)} aria-label={t('language')}>
-              {LANGS.map(([v, label]) => <option key={v} value={v}>{label}</option>)}
-            </select>
           </div>
           <h1>{t('title')}</h1>
           <p className={styles.desc}>{t('desc', {cycle: DATA.cycle, n: ROWS.length})}</p>
@@ -411,6 +403,9 @@ export default function TrackerPage() {
               )}
             </div>
             <div className={styles.tools} ref={toolsRef}>
+              <button type="button" className={cx('btn', 'primary', 'shareTop')} onClick={() => { setView('mine'); setSharePanel(starred.size > 0); }}>
+                {t('share')}{starred.size > 0 && ` · ${starred.size}`}
+              </button>
               {(searchOpen || q) && (
                 <label className={styles.search}>
                   <input ref={qRef} type="search" autoComplete="off" placeholder={t('searchPh')} aria-label={t('search')} value={q}

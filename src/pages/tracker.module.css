@@ -54,8 +54,6 @@
 .head { padding-top: 28px; }
 .headTop { display: flex; justify-content: flex-end; align-items: center; gap: 10px; min-height: 28px; }
 .edited { color: var(--fg-3); white-space: nowrap; }
-.lang { height: 28px; border: 0; border-radius: 4px; background: var(--hover); font-size: 13px; padding: 0 6px; cursor: pointer; }
-.lang:hover { background: var(--hover-2); }
 .root h1 { font-size: 40px; font-weight: 700; line-height: 1.2; margin: 12px 0 4px; letter-spacing: -.01em; color: var(--fg); }
 .desc { color: var(--fg-2); margin: 0 0 18px; }
 .viewbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; border-bottom: 1px solid var(--line); padding-bottom: 6px; flex-wrap: wrap; }
@@ -64,6 +62,7 @@
 .tab:hover { background: var(--hover); }
 .tab[aria-selected='true'] { background: var(--hover-2); color: var(--fg); }
 .tools { display: flex; align-items: center; gap: 2px; position: relative; margin-left: auto; }
+.shareTop { margin-right: 6px; white-space: nowrap; }
 .iconBtn { width: 30px; height: 30px; display: inline-grid; place-items: center; border-radius: 4px; border: 0; background: none; color: var(--fg-3); cursor: pointer; }
 .iconBtn:hover { background: var(--hover-2); color: var(--fg-2); }
 .iconBtn.active { color: var(--accent); }
