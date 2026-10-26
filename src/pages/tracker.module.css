@@ -62,7 +62,6 @@
 .tab:hover { background: var(--hover); }
 .tab[aria-selected='true'] { background: var(--hover-2); color: var(--fg); }
 .tools { display: flex; align-items: center; gap: 2px; position: relative; margin-left: auto; }
-.shareTop { margin-right: 6px; white-space: nowrap; }
 .iconBtn { width: 30px; height: 30px; display: inline-grid; place-items: center; border-radius: 4px; border: 0; background: none; color: var(--fg-3); cursor: pointer; }
 .iconBtn:hover { background: var(--hover-2); color: var(--fg-2); }
 .iconBtn.active { color: var(--accent); }

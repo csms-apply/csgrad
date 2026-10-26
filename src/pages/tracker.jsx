@@ -96,7 +96,6 @@ export default function TrackerPage() {
   const [menu, setMenu] = useState(null);
   const [peekId, setPeekId] = useState(null);
   const [sharePanel, setSharePanel] = useState(false);
-  const [shareTitle, setShareTitle] = useState('');
   const [flash, setFlash] = useState({});
   const [copyFallback, setCopyFallback] = useState(null);
   useEffect(() => setCopyFallback(null), [view, starred]);
@@ -221,7 +220,7 @@ export default function TrackerPage() {
   // ----- summary for "my list" and shared lists -----
   const summaryIds = view === 'mine' ? starred : view === 'shared' && shared ? shared.ids : null;
   const picked = summaryIds ? ROWS.filter((r) => summaryIds.has(r.id)).sort(SORTS.tier[1]) : [];
-  const shareLink = typeof window === 'undefined' ? '' : `${window.location.origin}${window.location.pathname}#${encodeShare([...starred], shareTitle, DATA.order)}`;
+  const shareLink = typeof window === 'undefined' ? '' : `${window.location.origin}${window.location.pathname}#${encodeShare([...starred], DATA.order)}`;
   const listText = () => picked.map((r) => [r.name, r.tier,
     ...(r.halt ? [t('halt')] : r.rounds.map((x, i) => `${t('roundN', {n: ord(i)})} ${slash(x.date)}`)),
     `${t('colGre')} ${t(`gre_${r.gre in GRE ? r.gre : 'unknown'}`)}`,
@@ -250,8 +249,6 @@ export default function TrackerPage() {
           </div>
           {mine && sharePanel && (
             <div className={styles.sharePanel}>
-              <label htmlFor="share-title">{t('shareTitleLabel')}</label>
-              <div className={styles.row2}><input type="text" id="share-title" maxLength={40} placeholder={t('shareTitlePh')} value={shareTitle} onChange={(e) => setShareTitle(e.target.value)} /></div>
               <label htmlFor="share-link">{t('shareLink')}</label>
               <div className={styles.row2}>
                 <input type="text" id="share-link" readOnly value={shareLink} onFocus={(e) => e.target.select()} />
@@ -269,14 +266,10 @@ export default function TrackerPage() {
   function renderShareBar() {
     if (view !== 'shared' || !shared) return null;
     const allSaved = [...shared.ids].every((id) => starred.has(id));
-    const title = shared.title ? t('sharedTitle', {title: '\u0000'}).split('\u0000') : null;
     return (
       <section className={styles.sharebar}>
         <div className={styles.box}>
-          <span>{rich(t('sharedBanner', {title: '{title}', n: shared.ids.size === 1 ? 1 : '{n}'}), {
-            title: title ? <>{title[0]}<b>{shared.title}</b>{title[1]}</> : '',
-            n: <b>{shared.ids.size}</b>,
-          })}</span>
+          <span>{rich(t('sharedBanner', {n: shared.ids.size === 1 ? 1 : '{n}'}), {n: <b>{shared.ids.size}</b>})}</span>
           <span className={styles.grow} />
           <button type="button" className={cx('btn', 'primary')} onClick={() => setStarred((prev) => new Set([...prev, ...shared.ids]))}>{allSaved ? t('allSaved') : t('saveShared')}</button>
           <button type="button" className={styles.btn} onClick={() => setView('all')}>{t('seeAll')}</button>
@@ -403,9 +396,6 @@ export default function TrackerPage() {
               )}
             </div>
             <div className={styles.tools} ref={toolsRef}>
-              <button type="button" className={cx('btn', 'primary', 'shareTop')} onClick={() => { setView('mine'); setSharePanel(starred.size > 0); }}>
-                {t('share')}{starred.size > 0 && ` · ${starred.size}`}
-              </button>
               {(searchOpen || q) && (
                 <label className={styles.search}>
                   <input ref={qRef} type="search" autoComplete="off" placeholder={t('searchPh')} aria-label={t('search')} value={q}

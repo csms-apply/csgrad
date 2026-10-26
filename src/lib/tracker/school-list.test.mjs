@@ -6,12 +6,12 @@ import {decodeShare, encodeShare, enCell, shortCell, searchIndex, matches, picks
 const data = JSON.parse(fs.readFileSync(new URL('./school-list.json', import.meta.url)));
 const row = (name) => data.rows.find((r) => r.name === name);
 
-test('share links round-trip ids and a Chinese title, and reject junk', () => {
+test('share links round-trip ids, still open older links with a title, and reject junk', () => {
   const ids = [row('mscs@cmu').id, row('mscs@columbia').id, row('eecs@mit').id];
-  const hash = encodeShare(ids, '27 Fall 陆本 CS 选校', data.order);
+  const hash = encodeShare(ids, data.order);
   const back = decodeShare(`#${hash}`, data.order);
   assert.deepEqual([...back.ids].sort(), [...ids].sort());
-  assert.equal(back.title, '27 Fall 陆本 CS 选校');
+  assert.deepEqual([...decodeShare(`#${hash}.5oiR55qEMjdGYWxs`, data.order).ids].sort(), [...ids].sort());
   assert.equal(decodeShare('#pick-AAAA', data.order), null);
   assert.equal(decodeShare('#courses', data.order), null);
   assert.equal(decodeShare('#pick-!!', data.order), null);
