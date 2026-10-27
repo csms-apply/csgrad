@@ -74,7 +74,7 @@ csgrad 目前有 5 條 UMich 數據科學碩士數據點（站內項目名 DS）
 
 - [UMich MSCS/MSCSE](../A/Umich%20MSCS.md)：同校 CSE 的 CS 碩士，和 MSDS 是兩個項目，要分開申請
 - [Umich ECE](../A-/Umich%20ECE.md)：同校 ECE 碩士，ECE 的機器學習課 EECS 553 也在 MSDS 的可選課裡
-- Umich MSI：同校信息學院的碩士，SI 開頭的課在 MSDS 裡也能選
+- [Umich MSI](../B+/Umich%20MSI.md)：同校信息學院的碩士，SI 開頭的課在 MSDS 裡也能選
 - [Columbia DS](../A-/Columbia%20DS.md)、[NYU DS](../A-/NYU%20DS.md)、[UCSD DS75](../A-/UCSD%20DS75.md)：其他數據科學碩士，可以對比先修要求和課程結構
 
 ## 官方鏈接 {#官方链接}

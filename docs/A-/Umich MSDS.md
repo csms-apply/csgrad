@@ -74,7 +74,7 @@ csgrad 目前有 5 条 UMich 数据科学硕士数据点（站内项目名 DS）
 
 - [UMich MSCS/MSCSE](../A/Umich%20MSCS.md)：同校 CSE 的 CS 硕士，和 MSDS 是两个项目，要分开申请
 - [Umich ECE](../A-/Umich%20ECE.md)：同校 ECE 硕士，ECE 的机器学习课 EECS 553 也在 MSDS 的可选课里
-- Umich MSI：同校信息学院的硕士，SI 开头的课在 MSDS 里也能选
+- [Umich MSI](../B+/Umich%20MSI.md)：同校信息学院的硕士，SI 开头的课在 MSDS 里也能选
 - [Columbia DS](../A-/Columbia%20DS.md)、[NYU DS](../A-/NYU%20DS.md)、[UCSD DS75](../A-/UCSD%20DS75.md)：其他数据科学硕士，可以对比先修要求和课程结构
 
 ## 官方链接

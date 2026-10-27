@@ -616,6 +616,13 @@
     "slug": "/B+/McGill MSCS"
   },
   {
+    "id": "bplus-northwestern-university-msai",
+    "school": "Northwestern University",
+    "program": "MSAI",
+    "tier": "B+",
+    "slug": "/B+/NWU MSAI"
+  },
+  {
     "id": "bplus-northwestern-university-mscs",
     "school": "Northwestern University",
     "program": "MSCS",
@@ -630,11 +637,39 @@
     "slug": "/B+/NYU Tandon"
   },
   {
+    "id": "bplus-purdue-university-mscs",
+    "school": "Purdue University",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/Purdue MSCS"
+  },
+  {
     "id": "bplus-rice-university-mcs",
     "school": "Rice University",
     "program": "MCS",
     "tier": "B+",
     "slug": "/B+/Rics MCS"
+  },
+  {
+    "id": "bplus-university-of-british-columbia-mscs",
+    "school": "University of British Columbia",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/UBC MSCS"
+  },
+  {
+    "id": "bplus-university-of-chicago-msads",
+    "school": "University of Chicago",
+    "program": "MSADS",
+    "tier": "B+",
+    "slug": "/B+/UChicago MSADS"
+  },
+  {
+    "id": "bplus-university-of-washington-bothell-mscsse",
+    "school": "University of Washington Bothell",
+    "program": "MSCSSE",
+    "tier": "B+",
+    "slug": "/B+/UW Bothell MSCSSE"
   },
   {
     "id": "bplus-university-of-washington-tacoma-mscs",
@@ -644,11 +679,25 @@
     "slug": "/B+/UWT MSCS"
   },
   {
+    "id": "bplus-university-of-michigan-msi",
+    "school": "University of Michigan",
+    "program": "MSI",
+    "tier": "B+",
+    "slug": "/B+/Umich MSI"
+  },
+  {
     "id": "bplus-upenn-ee",
     "school": "UPenn",
     "program": "EE",
     "tier": "B+",
     "slug": "/B+/Upenn EE"
+  },
+  {
+    "id": "bplus-washington-university-in-st-louis-mscs",
+    "school": "Washington University in St. Louis",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/WUSTL MSCS"
   },
   {
     "id": "bplus-carnegie-mellon-university-mism",

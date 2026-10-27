@@ -74,7 +74,7 @@ The 2 rejected applicants also studied in mainland China (Huawu CS, and DS at UC
 
 - [UMich MSCS/MSCSE](../A/Umich%20MSCS.md): the CS master's in the same university's CSE division; it is a separate program from MSDS and needs its own application
 - [Umich ECE](../A-/Umich%20ECE.md): the ECE master's at the same university; ECE's machine learning course EECS 553 is also an option in the MSDS curriculum
-- Umich MSI: the School of Information master's at the same university; SI courses are also options in the MSDS curriculum
+- [Umich MSI](../B+/Umich%20MSI.md): the School of Information master's at the same university; SI courses are also options in the MSDS curriculum
 - [Columbia DS](../A-/Columbia%20DS.md), [NYU DS](../A-/NYU%20DS.md), [UCSD DS75](../A-/UCSD%20DS75.md): other data science master's programs to compare on prerequisites and course structure
 
 ## Official Links

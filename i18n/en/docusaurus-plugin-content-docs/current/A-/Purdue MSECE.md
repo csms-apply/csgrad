@@ -68,7 +68,7 @@ With a single data point, there is no way to read an admissions bar.
 
 ## Comparison with Similar Programs
 
-- Purdue MSCS: the CS department's master's at the same university; all 4 data points csgrad has are rejects
+- [Purdue MSCS](../B+/Purdue%20MSCS.md): the CS department's master's at the same university; all 4 data points csgrad has are rejects
 - [Gatech ECE](../A-/Gatech%20ECE.md): also an MSECE from a public university's ECE school
 - [UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md): also a coursework ECE master's at a public university in the Midwest
 - [UW EE PMP](../A/uw%20ee%20pmp.md): also a professional master's (PMP) run by an ECE department

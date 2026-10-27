@@ -77,7 +77,7 @@ The sample is far too small to say much. Combined with the official statement th
 
 ## Comparison with Similar Programs
 
-- UBC MSCS: UBC's research master's, two years, where you find a supervisor and write a thesis after you start.
+- [UBC MSCS](../B+/UBC%20MSCS.md): UBC's research master's, two years, where you find a supervisor and write a thesis after you start.
 - [Waterloo MMath CS](../A-/Waterloo%20MMath%20CS.md): Waterloo's two-year research master's; all full-time students are funded, and you can apply to switch to co-op after you start.
 - [UofT MScAC](../A/UofT%20MScAC.md): an applied master's at the University of Toronto, 16 months long, with the last 8 months spent on a research internship at a company; more job-oriented.
 

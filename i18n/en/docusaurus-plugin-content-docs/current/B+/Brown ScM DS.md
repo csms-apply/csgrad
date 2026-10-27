@@ -74,7 +74,7 @@ csgrad has no data points for Brown ScM DS yet. The only reference is the offici
 - [Brown SCMCS](../A-/brown%20scmcs.md): the CS master's at the same school
 - [Harvard DS](../SS/Harvard%20DS.md): another Ivy League data science master's in New England
 - [Columbia DS](../A-/Columbia%20DS.md): an Ivy League data science master's in New York
-- UChicago MSADS, [JHU MSDS](../B+/JHU%20MSDS.md): data science master's programs in the same tier
+- [UChicago MSADS](../B+/UChicago%20MSADS.md), [JHU MSDS](../B+/JHU%20MSDS.md): data science master's programs in the same tier
 
 ## Official Links
 
