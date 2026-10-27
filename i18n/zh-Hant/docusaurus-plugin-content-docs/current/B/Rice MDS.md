@@ -59,7 +59,7 @@ csgrad 目前只有 1 條 Rice MDS 的 DP：2023 Fall，Reject。申請人陸本
 ## 和相似項目比較 {#和相似项目比较}
 
 - [Rice MCS](../B+/Rics%20MCS.md)：同一個計算機系，Fall 2027 截止日期和 MDS 相同。想要通用 CS 課表的看 MCS，想要統計、數據加行業 capstone 的看 MDS。
-- UVA MSDS：同在 B 檔的數據科學碩士，可以對比時長和 capstone 安排。
+- [UVA MSDS](../B/UVA%20MSDS.md)：同在 B 檔的數據科學碩士，可以對比時長和 capstone 安排。
 - [USC ADS](../B-/USC%20ADS.md)、[NYU DS](../A-/NYU%20DS.md)、[Columbia DS](../A-/Columbia%20DS.md)：同為數據科學碩士，可以對照課程和費用。
 
 ## 官方鏈接 {#官方链接}

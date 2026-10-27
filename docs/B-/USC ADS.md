@@ -58,7 +58,7 @@ csgrad 只有 2 条 USC ADS 自报记录，都是 Fall 入学：
 
 ## 和相似项目比较
 
-- USC CS32：其中 MSCS - Data Science 专项也是 32 学分，学位名是 CS，必修 CSCI 561、570、585；ADS 则以 DSCI 课为主，CSCI 课最多算 2 门。
+- [USC CS32](../B/USC%20CS32.md)：其中 MSCS - Data Science 专项也是 32 学分，学位名是 CS，必修 CSCI 561、570、585；ADS 则以 DSCI 课为主，CSCI 课最多算 2 门。
 - [USC CS37](../B/USC%20CS37.md)：给理工科非 CS 本科的 37 学分 CS 硕士，先补基础课再修研究生课。
 - [NYU DS](../A-/NYU%20DS.md)：站内另一篇数据科学硕士指南，可以对比课程和去向。
 

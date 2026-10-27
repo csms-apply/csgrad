@@ -80,7 +80,7 @@ csgrad 里 UofT MScAC 一共 13 条：
 
 ## 和相似项目比较
 
-- UofT ECE MEng：同校的课程型硕士。Fall 2027 起另有两年制 co-op 版，要单独申请、名额有限，含 8 个月带薪工作学期；MScAC 的 8 个月研究型实习每个人都要做。
+- [UofT ECE MEng](../B/UofT%20ECE%20MEng.md)：同校的课程型硕士。Fall 2027 起另有两年制 co-op 版，要单独申请、名额有限，含 8 个月带薪工作学期；MScAC 的 8 个月研究型实习每个人都要做。
 - Waterloo MDSAI：co-op 版同样 16 个月、只招秋季，第三学期做一个 4 个月工作学期。
 - [Waterloo MMath CS](../A-/Waterloo%20MMath%20CS.md)：研究型 thesis 硕士，全日制一般有 TA 加 GRS 资助，想走科研路线可以对比。
 - [UW EE PMP](../A/uw%20ee%20pmp.md)：美国的晚间授课项目，官网说国际生可以按 quarter 穿插实习，和 MScAC 一整段必修实习的安排不同。

@@ -85,7 +85,7 @@ csgrad 裡 UBC ECE MEng 共 15 條 DP，都是秋季入學，2025 年及以後�
 
 ## 和相似項目比較 {#和相似项目比较}
 
-- UofT ECE MEng：同是加拿大的課程型 ECE MEng，畢業後同樣走 PGWP。
+- [UofT ECE MEng](../B/UofT%20ECE%20MEng.md)：同是加拿大的課程型 ECE MEng，畢業後同樣走 PGWP。
 - [SFU Professional MSc CS](../B-/SFU%20Professional%20MSc%20CS.md)：同在大溫哥華地區，偏 CS 的職業碩士，帶 co-op。
 - [UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md)：美國的課程型 ECE MEng，選課軟硬都可。
 - [UW EE PMP](../A/uw%20ee%20pmp.md)：西雅圖的課程型 ECE 碩士，也可以做 co-op。

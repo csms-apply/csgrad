@@ -68,7 +68,7 @@ That's three people from a single cycle, so treat it as a rough reference only.
 
 ## Comparison with Similar Programs
 
-- UVA MCS: another public-university coursework CS master's in Virginia; see that guide for its credit structure and tuition. The VT MEng differs in that classes are mainly next to D.C., and both paths require a project.
+- [UVA MCS](../B/UVA%20MCS.md): another public-university coursework CS master's in Virginia; see that guide for its credit structure and tuition. The VT MEng differs in that classes are mainly next to D.C., and both paths require a project.
 - [UMD MSCS](../A/UMD%20MSCS.md): also in the D.C. area, but more research-oriented: even the non-thesis option requires a scholarly paper, which the department says should mirror the standards of a conference or journal paper. The VT MEng is coursework plus a project, and research courses don't count toward it.
 
 ## Official Links

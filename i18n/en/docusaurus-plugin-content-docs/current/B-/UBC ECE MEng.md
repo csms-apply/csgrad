@@ -85,7 +85,7 @@ The sample is small and the score ranges of admits and rejects overlap; some rej
 
 ## Comparison with Similar Programs
 
-- UofT ECE MEng: another Canadian course-based ECE MEng, also followed by a PGWP.
+- [UofT ECE MEng](../B/UofT%20ECE%20MEng.md): another Canadian course-based ECE MEng, also followed by a PGWP.
 - [SFU Professional MSc CS](../B-/SFU%20Professional%20MSc%20CS.md): a CS-focused professional master's in Metro Vancouver, with co-op.
 - [UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md): a course-based ECE MEng in the US, where you can mix software and hardware courses.
 - [UW EE PMP](../A/uw%20ee%20pmp.md): a course-based ECE master's in Seattle that also allows co-op.

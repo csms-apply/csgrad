@@ -58,7 +58,7 @@ The sample is too small to say much, and there are no records for spring entry y
 
 ## Comparison with Similar Programs
 
-- USC CS32: its MSCS - Data Science specialization is also 32 units, but the degree name is computer science and the required courses are CSCI 561, 570 and 585; ADS is built mainly on DSCI courses, with at most 2 CSCI courses counting.
+- [USC CS32](../B/USC%20CS32.md): its MSCS - Data Science specialization is also 32 units, but the degree name is computer science and the required courses are CSCI 561, 570 and 585; ADS is built mainly on DSCI courses, with at most 2 CSCI courses counting.
 - [USC CS37](../B/USC%20CS37.md): a 37-unit CS master's for science and engineering graduates without a CS bachelor's, which starts with foundation courses before graduate coursework.
 - [NYU DS](../A-/NYU%20DS.md): another data science master's guide on this site, useful for comparing courses and outcomes.
 
