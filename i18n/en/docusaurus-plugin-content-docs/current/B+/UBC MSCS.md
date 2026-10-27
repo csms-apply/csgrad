@@ -83,9 +83,9 @@ The sample is far too small to say much. One thing stands out: the official page
 
 ## Comparison with Similar Programs
 
-- UBC ECE MEng: a course-based master's in UBC's ECE department; you do not need a supervisor to apply.
+- [UBC ECE MEng](../B-/UBC%20ECE%20MEng.md): a course-based master's in UBC's ECE department; you do not need a supervisor to apply.
 - [UofT MScAC](../A/UofT%20MScAC.md): an applied CS master's at the University of Toronto, 16 months long, with the last 8 months spent on a research internship at a company.
-- SFU Professional MSc CS: a course-based professional CS master's in the same Greater Vancouver area, with co-op and no thesis.
+- [SFU Professional MSc CS](../B-/SFU%20Professional%20MSc%20CS.md): a course-based professional CS master's in the same Greater Vancouver area, with co-op and no thesis.
 
 ## Official Links
 

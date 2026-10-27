@@ -83,9 +83,9 @@ csgrad 里 UBC MSCS 只有 4 条，都是秋季入学：
 
 ## 和相似项目比较
 
-- UBC ECE MEng：同校 ECE 系的课程型硕士，申请不用找导师。
+- [UBC ECE MEng](../B-/UBC%20ECE%20MEng.md)：同校 ECE 系的课程型硕士，申请不用找导师。
 - [UofT MScAC](../A/UofT%20MScAC.md)：多伦多大学 CS 系的应用硕士，16 个月，后 8 个月去企业做研究型实习。
-- SFU Professional MSc CS：同在大温地区的课程型 CS 职业硕士，带 co-op，不做论文。
+- [SFU Professional MSc CS](../B-/SFU%20Professional%20MSc%20CS.md)：同在大温地区的课程型 CS 职业硕士，带 co-op，不做论文。
 
 ## 官方链接
 
