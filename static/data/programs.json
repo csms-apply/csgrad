@@ -805,11 +805,53 @@
     "slug": "/B-/NEU SES"
   },
   {
+    "id": "bminus-rutgers-university-mscs",
+    "school": "Rutgers University",
+    "program": "MSCS",
+    "tier": "B-",
+    "slug": "/B-/Rutgers MSCS"
+  },
+  {
     "id": "bminus-santa-clara-university-mscse",
     "school": "Santa Clara University",
     "program": "MSCSE",
     "tier": "B-",
     "slug": "/B-/SCU MSCSE"
+  },
+  {
+    "id": "bminus-simon-fraser-university-professional-msc-cs",
+    "school": "Simon Fraser University",
+    "program": "Professional MSc CS",
+    "tier": "B-",
+    "slug": "/B-/SFU Professional MSc CS"
+  },
+  {
+    "id": "bminus-stony-brook-university-mscs",
+    "school": "Stony Brook University",
+    "program": "MSCS",
+    "tier": "B-",
+    "slug": "/B-/Stony Brook MSCS"
+  },
+  {
+    "id": "bminus-university-of-british-columbia-ece-meng",
+    "school": "University of British Columbia",
+    "program": "ECE MEng",
+    "tier": "B-",
+    "slug": "/B-/UBC ECE MEng"
+  },
+  {
+    "id": "bminus-uc-irvine-mds",
+    "school": "UC Irvine",
+    "program": "MDS",
+    "tier": "B-",
+    "slug": "/B-/UCI MDS"
+  },
+  {
+    "id": "bminus-uc-irvine-netsys",
+    "school": "UC Irvine",
+    "program": "NetSys",
+    "tier": "B-",
+    "slug": "/B-/UCI NetSys"
   },
   {
     "id": "bminus-uiuc-msim",

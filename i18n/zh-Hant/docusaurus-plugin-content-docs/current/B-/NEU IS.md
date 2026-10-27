@@ -1,10 +1,10 @@
 ---
 description: "NEU IS 的軟件開發方向適合怎樣的轉碼申請者？這裡介紹不同校區、課程、Co-op 與畢業安排，並整理實習和全職案例。"
 title: "NEU IS 申請指南：課程與項目體驗"
-sidebar_label: "Neu IS"
+sidebar_label: "NEU IS"
 ---
 
-# Neu IS
+# NEU IS
 
 ## 項目介紹 {#项目介绍}
 轉碼項目，可以coop，跟mscs差不多，i20是se，科班title
@@ -51,3 +51,23 @@ sidebar_label: "Neu IS"
     - UX Design / Software Development / Data Analytics 等
   - NEU 多數課程給分比較水，非常適合一邊上課一邊刷題找工，比如 Mobile           
   Application 5520、Computer Networks 5700 等都是公認水課
+
+## IS Bridge（非理工背景）
+
+如果拿到 Bridge 而原本申請的是普通 IS，先核對錄取信、校區和課程要求，再向項目辦公室詢問調整的可能。額外學分也需要計入預算。
+
+Bridge 是 IS 的另一個版本，官方名稱 Master of Science in Information Systems—Bridge，面向本科是非 STEM、非技術類專業的學生。2026-2027 學年 catalog 裡，波士頓、阿靈頓、波特蘭、西雅圖、硅谷、多倫多、溫哥華 7 個校區和線上列了 Bridge 版本。
+
+波士頓、阿靈頓、波特蘭、西雅圖、硅谷 5 個美國校區要求一樣，和普通 IS 的區別主要在學分和必修課：
+
+- 總共 36 學分，選 Co-op 是 37 學分（多出的 1 學分是 ENCP 6000）；普通 IS 是 32 學分（Co-op 33）
+- 必修核心課 12 學分：INFO 5001 Application Modeling and Design、INFO 5100（配 INFO 5101 Lab）、INFO 6215 Business Analysis and Information Engineering，每門都要拿到 C 及以上
+- 限選課 12 學分，從 DAMG 6210 數據庫、INFO 6205 Program Structure and Algorithms、INFO 6150 Web Design and User Experience Engineering、INFO 7245 Agile Software Development 等課裡選
+- 剩下 12 學分自由選修，主要從 CSYE（CSYE 6220 除外）、DAMG、INFO、TELE 開頭的課裡選
+- 畢業 GPA 不低於 3.0
+
+多倫多和溫哥華總學分和核心課一樣，但要在 Project 和 Thesis 兩條路線裡選一條，都要上 INFO 7945 Master's Project，選修課從固定清單裡挑。線上版是另一套結構，總共 40 學分，課基本是指定好的，INFO 5001 和 INFO 5002（Python 入門）要拿到 B 及以上。
+
+csgrad 目前還沒有標註為 Bridge 的 DP。IS 下已有的 6 條 DP（2023 Fall 5 條、2025 Fall 1 條，均為錄取）都是 CS 或軟工本科背景，對非理工背景的 Bridge 申請者參考有限。
+
+官方 catalog：[波士頓](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge/)、[硅谷](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge-sjo/)、[多倫多](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge-tor/)、[線上](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge-online/)
