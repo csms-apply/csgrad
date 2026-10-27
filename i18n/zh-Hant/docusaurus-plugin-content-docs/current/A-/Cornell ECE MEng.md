@@ -73,7 +73,7 @@ csgrad 目前有 6 條數據點，3 錄 3 拒，都是秋季入學：
 
 - [Cornell CS MEng](../S/Cornell%20CS%20MENG.md)：同在伊薩卡的 CS 系 MEng
 - [Cornell Tech CS MEng](../A+/Cornell%20Tech%20CS%20MEng.md)：紐約校區的 CS MEng
-- [CMU ECE](../A/CMU%20ECE.md)、Umich ECE、[Duke ECE](../A-/duke%20ece.md)、[Gatech ECE](../A-/Gatech%20ECE.md)、[UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md)：其他 ECE 碩士，可以對比學制和實習規則
+- [CMU ECE](../A/CMU%20ECE.md)、[Umich ECE](../A-/Umich%20ECE.md)、[Duke ECE](../A-/duke%20ece.md)、[Gatech ECE](../A-/Gatech%20ECE.md)、[UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md)：其他 ECE 碩士，可以對比學制和實習規則
 
 ## 官方鏈接 {#官方链接}
 

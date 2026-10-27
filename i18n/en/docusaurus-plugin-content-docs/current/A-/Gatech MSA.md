@@ -59,7 +59,7 @@ csgrad has no Gatech MSA data points yet. The GaTech programs on the site are MS
 
 - [Gatech CSE](../A+/Gatech%20CSE.md): the Computational Science and Engineering master's at the same school; MSA core courses CSE 6040 and CSE 6242 both carry the CSE prefix
 - [Gatech MSCS](../S/gatech%20mscs.md): the CS master's at the same school; courses such as CS 7641 and CS 7643 are also MSA electives
-- [Duke MIDS](../A-/Duke%20MIDS.md), Umich MSDS: other data science master's, useful for comparing program length and internship arrangements
+- [Duke MIDS](../A-/Duke%20MIDS.md), [Umich MSDS](../A-/Umich%20MSDS.md): other data science master's, useful for comparing program length and internship arrangements
 
 ## Official Links
 

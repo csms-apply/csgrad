@@ -66,7 +66,7 @@ csgrad has no Duke MIDS data points yet. The only Duke programs on the site are 
 - [Duke ECE](../A-/duke%20ece.md): the ECE master's at the same school; MIDS electives can include ECE machine learning and deep learning courses
 - [Duke MSCS](../A+/Duke%20mscs.md): the CS department's master's at the same school
 - [Columbia DS](../A-/Columbia%20DS.md): another data science master's that also has a capstone
-- Umich MSDS: another data science master's, also with fall entry only
+- [Umich MSDS](../A-/Umich%20MSDS.md): another data science master's, also with fall entry only
 
 ## Official Links
 

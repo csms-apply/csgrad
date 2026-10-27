@@ -413,11 +413,60 @@
     "slug": "/A-/UCSB MSCS"
   },
   {
+    "id": "aminus-ucsd-ds75",
+    "school": "UCSD",
+    "program": "DS75",
+    "tier": "A-",
+    "slug": "/A-/UCSD DS75"
+  },
+  {
+    "id": "aminus-ucsd-ec93",
+    "school": "UCSD",
+    "program": "EC93",
+    "tier": "A-",
+    "slug": "/A-/UCSD EC93"
+  },
+  {
+    "id": "aminus-university-of-chicago-pre-doctoral-mscs",
+    "school": "University of Chicago",
+    "program": "Pre-Doctoral MSCS",
+    "tier": "A-",
+    "slug": "/A-/UChicago Pre-Doctoral MSCS"
+  },
+  {
+    "id": "aminus-university-of-washington-msds",
+    "school": "University of Washington",
+    "program": "MSDS",
+    "tier": "A-",
+    "slug": "/A-/UW MSDS"
+  },
+  {
+    "id": "aminus-university-of-washington-msece",
+    "school": "University of Washington",
+    "program": "MSECE",
+    "tier": "A-",
+    "slug": "/A-/UW MSECE"
+  },
+  {
     "id": "aminus-ucsd-ec79",
     "school": "UCSD",
     "program": "EC79",
     "tier": "A-",
     "slug": "/A-/Ucsd EC79"
+  },
+  {
+    "id": "aminus-university-of-michigan-ece",
+    "school": "University of Michigan",
+    "program": "ECE",
+    "tier": "A-",
+    "slug": "/A-/Umich ECE"
+  },
+  {
+    "id": "aminus-university-of-michigan-msds",
+    "school": "University of Michigan",
+    "program": "MSDS",
+    "tier": "A-",
+    "slug": "/A-/Umich MSDS"
   },
   {
     "id": "aminus-brown-university-scmcs",

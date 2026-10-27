@@ -66,7 +66,7 @@ csgrad 目前没有 Duke MIDS 的数据点。站内 Duke 只收录了 ECE（37 �
 - [Duke ECE](../A-/duke%20ece.md)：同校 ECE 硕士，MIDS 选修里能修到 ECE 的机器学习、深度学习课
 - [Duke MSCS](../A+/Duke%20mscs.md)：同校 CS 系硕士
 - [Columbia DS](../A-/Columbia%20DS.md)：同为数据科学硕士，也有 capstone
-- Umich MSDS：同为数据科学硕士，也是只有秋季入学
+- [Umich MSDS](../A-/Umich%20MSDS.md)：同为数据科学硕士，也是只有秋季入学
 
 ## 官方链接
 
