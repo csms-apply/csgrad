@@ -73,7 +73,7 @@ csgrad 里 Umich MSI 只有 1 条 DP：
 
 - [Umich MSDS](../A-/Umich%20MSDS.md)：同校统计系的数据科学硕士，统计课来自统计和生物统计，计算课来自 CSE 和信息学院，不分方向
 - [UMich MSCS/MSCSE](../A/Umich%20MSCS.md)：同校 CSE 的 CS 硕士，想读纯 CS 看这个
-- [Cornell MPS-IS](../B+/Cornell%20MPS-IS.md)、[UIUC MSIM](../B-/UIUC%20MSIM.md)、UNC MSIS：其他 iSchool 的信息类硕士
+- [Cornell MPS-IS](../B+/Cornell%20MPS-IS.md)、[UIUC MSIM](../B-/UIUC%20MSIM.md)、[UNC MSIS](../B-/UNC%20MSIS.md)：其他 iSchool 的信息类硕士
 
 UMSI 另有全线上的 Master of Applied Data Science（MADS），和 MSI 是两个项目。
 

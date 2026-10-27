@@ -79,7 +79,7 @@ There is one applicant each from a 985 university, a 211 university and the UCAS
 
 - [NYU Tandon MSCS](../B+/NYU%20Tandon.md): in Brooklyn, New York; worth a look together if you plan to look for jobs in New York.
 - [Stony Brook MSCS](../B-/Stony%20Brook%20MSCS.md): a state-university MSCS in the same tier, on Long Island, New York, and likewise affected by the new SEVP CPT guidance.
-- BU MSCS: also has no required internship, and its CPT has also tightened under the new guidance.
+- [BU MSCS](../B/BU%20MSCS.md): also has no required internship, and its CPT has also tightened under the new guidance.
 - [NEU MSCS](../B/NEU%20MSCS.md): has co-op; compare the two if internship options matter to you.
 
 ## Official Links

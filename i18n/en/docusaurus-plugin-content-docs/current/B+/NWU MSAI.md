@@ -71,7 +71,7 @@ With just 1 DP, this says little.
 
 - [NWU MSCS](../B+/NWU%20MSCS.md): the CS master's at the same school. The program FAQ says MSCS covers CS more broadly, while MSAI is more specialized
 - Northwestern also has an MS in Machine Learning and Data Science (MLDS). The FAQ says MLDS focuses on predictive, descriptive and prescriptive analytics, while MSAI is about fitting analytical methods into larger AI systems that include symbolic reasoning
-- [Duke AIPI](../B+/Duke%20AIPI.md), [CMU MSAII](../S/CMU%20MSAII.md), [CMU MSAIE](../A/CMU%20MSAIE.md), BU MSAI: other AI-focused master's programs to compare on courses, length and tuition
+- [Duke AIPI](../B+/Duke%20AIPI.md), [CMU MSAII](../S/CMU%20MSAII.md), [CMU MSAIE](../A/CMU%20MSAIE.md), [BU MSAI](../B/BU%20MSAI.md): other AI-focused master's programs to compare on courses, length and tuition
 
 ## Official Links
 

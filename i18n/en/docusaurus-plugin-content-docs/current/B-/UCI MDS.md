@@ -60,7 +60,7 @@ One record says nothing about the admission bar, and there are no records from F
 ## Similar Programs
 
 - [UCI MCS](../B/UCI%20MCS.md): the self-supporting professional master's in the same ICS school; the program fee for the Fall 2026 cohort is $63,500. The COMPSCI courses in the MDS curriculum (the ML core course and most of the CS electives) are restricted in the catalogue to MCS and MDS students, so the two programs share these courses.
-- USC ADS: another Southern California data science master's, useful for comparing length and cost.
+- [USC ADS](../B-/USC%20ADS.md): another Southern California data science master's, useful for comparing length and cost.
 - [UCSD DS75](../A-/UCSD%20DS75.md): another data science master's in the UC system.
 
 ## Official Links

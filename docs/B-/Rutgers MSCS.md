@@ -79,7 +79,7 @@ csgrad 里 Rutgers MSCS 只有 3 条 DP，都是秋季入学：
 
 - [NYU Tandon MSCS](../B+/NYU%20Tandon.md)：在纽约布鲁克林，打算在纽约找工的话可以一起看。
 - [Stony Brook MSCS](../B-/Stony%20Brook%20MSCS.md)：同档的州立大学 MSCS，在纽约长岛，同样受 SEVP 新 CPT 指引影响。
-- BU MSCS：同样没有必修实习，CPT 也因为新指引收紧了。
+- [BU MSCS](../B/BU%20MSCS.md)：同样没有必修实习，CPT 也因为新指引收紧了。
 - [NEU MSCS](../B/NEU%20MSCS.md)：有 co-op，看重实习安排可以对比。
 
 ## 官方链接
