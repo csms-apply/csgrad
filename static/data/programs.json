@@ -273,11 +273,32 @@
     "slug": "/A/CMU ECE"
   },
   {
+    "id": "a-carnegie-mellon-university-msaie",
+    "school": "Carnegie Mellon University",
+    "program": "MSAIE",
+    "tier": "A",
+    "slug": "/A/CMU MSAIE"
+  },
+  {
+    "id": "a-carnegie-mellon-university-msis",
+    "school": "Carnegie Mellon University",
+    "program": "MSIS",
+    "tier": "A",
+    "slug": "/A/CMU MSIS"
+  },
+  {
     "id": "a-carnegie-mellon-university-msmite",
     "school": "Carnegie Mellon University",
     "program": "MSMITE",
     "tier": "A",
     "slug": "/A/CMU MSMITE"
+  },
+  {
+    "id": "a-ucla-msece",
+    "school": "UCLA",
+    "program": "MSECE",
+    "tier": "A",
+    "slug": "/A/UCLA MSECE"
   },
   {
     "id": "a-university-of-maryland-mscs",
@@ -292,6 +313,13 @@
     "program": "MSCS/MSCSE",
     "tier": "A",
     "slug": "/A/Umich MSCS"
+  },
+  {
+    "id": "a-university-of-toronto-mscac",
+    "school": "University of Toronto",
+    "program": "MScAC",
+    "tier": "A",
+    "slug": "/A/UofT MScAC"
   },
   {
     "id": "a-upenn-mcit",
@@ -467,6 +495,27 @@
     "program": "MSDS",
     "tier": "A-",
     "slug": "/A-/Umich MSDS"
+  },
+  {
+    "id": "aminus-upenn-cggt",
+    "school": "UPenn",
+    "program": "CGGT",
+    "tier": "A-",
+    "slug": "/A-/Upenn CGGT"
+  },
+  {
+    "id": "aminus-university-of-waterloo-mmath-cs",
+    "school": "University of Waterloo",
+    "program": "MMath CS",
+    "tier": "A-",
+    "slug": "/A-/Waterloo MMath CS"
+  },
+  {
+    "id": "aminus-uw-madison-msece",
+    "school": "UW-Madison",
+    "program": "MSECE",
+    "tier": "A-",
+    "slug": "/A-/Wisc MSECE"
   },
   {
     "id": "aminus-brown-university-scmcs",
