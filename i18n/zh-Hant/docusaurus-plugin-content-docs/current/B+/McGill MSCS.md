@@ -77,7 +77,7 @@ csgrad 裡 McGill MSc CS 只有 4 條。條目沒分 thesis 和 non-thesis，1 �
 
 ## 和相似項目比較 {#和相似项目比较}
 
-- UBC MSCS：UBC 的研究型碩士，兩年，入學後找導師寫論文。
+- [UBC MSCS](../B+/UBC%20MSCS.md)：UBC 的研究型碩士，兩年，入學後找導師寫論文。
 - [Waterloo MMath CS](../A-/Waterloo%20MMath%20CS.md)：滑鐵盧的兩年制研究型碩士，全日制都有資助，入學後可申請轉 co-op。
 - [UofT MScAC](../A/UofT%20MScAC.md)：多倫多大學的應用型碩士，16 個月，後 8 個月在企業做研究型實習，更偏就業。
 

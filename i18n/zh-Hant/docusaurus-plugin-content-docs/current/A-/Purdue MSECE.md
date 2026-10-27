@@ -68,7 +68,7 @@ csgrad 只收錄了 1 條 Purdue ECE 數據點：2023 Fall，1 錄 0 拒。
 
 ## 和相似項目比較 {#和相似项目比较}
 
-- Purdue MSCS：同校 CS 系的碩士，csgrad 收錄的 4 條都是拒
+- [Purdue MSCS](../B+/Purdue%20MSCS.md)：同校 CS 系的碩士，csgrad 收錄的 4 條都是拒
 - [Gatech ECE](../A-/Gatech%20ECE.md)：同樣是公立大學 ECE 系的 MSECE
 - [UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md)：同在中西部的公立大學 ECE 授課型碩士
 - [UW EE PMP](../A/uw%20ee%20pmp.md)：同樣是 ECE 系的專業碩士（PMP）

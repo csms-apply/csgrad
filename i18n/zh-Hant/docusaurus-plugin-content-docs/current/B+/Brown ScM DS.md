@@ -72,7 +72,7 @@ csgrad 目前還沒有 Brown ScM DS 的數據點。能參考的只有官網數�
 - [Brown SCMCS](../A-/brown%20scmcs.md)：同校的 CS 碩士
 - [Harvard DS](../SS/Harvard%20DS.md)：同在新英格蘭的藤校數據科學碩士
 - [Columbia DS](../A-/Columbia%20DS.md)：在紐約的藤校數據科學碩士
-- UChicago MSADS、[JHU MSDS](../B+/JHU%20MSDS.md)：同檔的數據科學碩士
+- [UChicago MSADS](../B+/UChicago%20MSADS.md)、[JHU MSDS](../B+/JHU%20MSDS.md)：同檔的數據科學碩士
 
 ## 官方鏈接 {#官方链接}
 
