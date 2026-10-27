@@ -63,7 +63,7 @@ csgrad has only one generic "Waterloo MMath" entry that does not separate progra
 
 - Waterloo MDSAI: also in Waterloo's Faculty of Mathematics; the co-op version is a 16-month coursework master's with 1 work term, while MMath CS is a two-year research degree.
 - UBC MSCS: another two-year research CS master's, with two years of guaranteed funding for thesis students.
-- McGill MSCS: a thesis master's designed to take 18–24 months.
+- [McGill MSCS](../B+/McGill%20MSCS.md): a thesis master's designed to take 18–24 months.
 - [UofT MScAC](../A/UofT%20MScAC.md): also in Ontario; a 16-month professional master's whose last 8 months are an applied research internship at a company.
 
 ## Official Links

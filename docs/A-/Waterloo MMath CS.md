@@ -63,7 +63,7 @@ csgrad 只有一个笼统的 "Waterloo MMath" 条目，没分方向，共 4 条�
 
 - Waterloo MDSAI：同在滑铁卢数学学院，co-op 版是 16 个月的授课型硕士，含 1 个工作学期；MMath CS 是两年研究型。
 - UBC MSCS：同样是两年制研究型 CS 硕士，thesis 学生有两年保底资助。
-- McGill MSCS：thesis 硕士，设计时长 18–24 个月。
+- [McGill MSCS](../B+/McGill%20MSCS.md)：thesis 硕士，设计时长 18–24 个月。
 - [UofT MScAC](../A/UofT%20MScAC.md)：同在安大略省，16 个月专业硕士，后 8 个月在企业做应用研究实习。
 
 ## 官方链接
