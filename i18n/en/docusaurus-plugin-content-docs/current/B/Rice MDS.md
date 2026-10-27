@@ -59,7 +59,7 @@ Rice MCS, in the same department, has 64 data points on csgrad, so its page give
 ## Comparison with Similar Programs
 
 - [Rice MCS](../B+/Rics%20MCS.md): same Computer Science department and the same Fall 2027 deadlines as MDS. Pick MCS for a general CS curriculum, and MDS if you want statistics, data work and an industry capstone.
-- UVA MSDS: another B-tier data science master's, useful for comparing program length and how the capstone works.
+- [UVA MSDS](../B/UVA%20MSDS.md): another B-tier data science master's, useful for comparing program length and how the capstone works.
 - [USC ADS](../B-/USC%20ADS.md), [NYU DS](../A-/NYU%20DS.md), [Columbia DS](../A-/Columbia%20DS.md): also data science master's programs, useful for comparing courses and costs.
 
 ## Official Links

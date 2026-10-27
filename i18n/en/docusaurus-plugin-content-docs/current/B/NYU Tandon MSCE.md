@@ -74,7 +74,7 @@ Across the 2024 and 2025 cycles, 5 Tandon MSCS applicants in csgrad were advised
 
 - [NYU Tandon MSCS](../B+/NYU%20Tandon.md): the CS master's at the same school; it doesn't take spring applications. Some MSCS applicants in the DPs were moved to CE; see above.
 - [Columbia MSCE](../A-/Columbia%20ce.md): a CE master's that is also in New York.
-- USC MSCE: a CE master's in the same tier.
+- [USC MSCE](../B/USC%20MSCE.md): a CE master's in the same tier.
 - [Gatech ECE](../A-/Gatech%20ECE.md), [UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md): other ECE master's programs to compare on curriculum and tuition.
 
 ## Official Links

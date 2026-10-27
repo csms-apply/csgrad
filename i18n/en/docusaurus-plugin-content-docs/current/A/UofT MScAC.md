@@ -80,7 +80,7 @@ With only 13 data points this is a rough picture: a high GPA does not guarantee 
 
 ## Similar Programs
 
-- UofT ECE MEng: a coursework master's at the same school. From Fall 2027 there is also a two-year co-op version, applied to separately with limited spots, that includes an eight-month paid work term; at MScAC everyone does the eight-month research internship.
+- [UofT ECE MEng](../B/UofT%20ECE%20MEng.md): a coursework master's at the same school. From Fall 2027 there is also a two-year co-op version, applied to separately with limited spots, that includes an eight-month paid work term; at MScAC everyone does the eight-month research internship.
 - Waterloo MDSAI: the co-op version is also 16 months with a fall-only intake, with one four-month work term in the third term.
 - [Waterloo MMath CS](../A-/Waterloo%20MMath%20CS.md): a research (thesis) master's where full-time students typically get TA and GRS funding, worth comparing if you lean toward research.
 - [UW EE PMP](../A/uw%20ee%20pmp.md): a US evening program; its site says international students can fit in internships quarter by quarter, unlike MScAC's single required internship.

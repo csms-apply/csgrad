@@ -72,7 +72,7 @@ The only admit was a 2023 software engineering applicant from a non-985/211 scho
 
 ## Comparison with Similar Programs
 
-- UCI MSCS: another research-oriented UC CS master's, charged standard graduate fees, finished by thesis or comprehensive exam
+- [UCI MSCS](../B/UCI%20MSCS.md): another research-oriented UC CS master's, charged standard graduate fees, finished by thesis or comprehensive exam
 - [UCSB MSCS](../A-/UCSB%20MSCS.md): another UC MSCS
 - [UCLA MSCS](../A+/UCLA%20MSCS.md): another research-leaning UC CS master's
 - [UCB EECS MEng](../S/UCB%20EECS%20meng.md): a UC program also in Northern California, a one-year, applied professional master's

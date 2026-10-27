@@ -72,7 +72,7 @@ csgrad 有 4 條 UC Davis MSCS 自報記錄，都是 Fall 入學：
 
 ## 和相似項目比較 {#和相似项目比较}
 
-- UCI MSCS：同為 UC 系的研究型 CS 碩士，按普通研究生標準收費，也是論文或綜合考試畢業
+- [UCI MSCS](../B/UCI%20MSCS.md)：同為 UC 系的研究型 CS 碩士，按普通研究生標準收費，也是論文或綜合考試畢業
 - [UCSB MSCS](../A-/UCSB%20MSCS.md)：同為 UC 系的 MSCS
 - [UCLA MSCS](../A+/UCLA%20MSCS.md)：同為 UC 系、偏研究的 CS 碩士
 - [UCB EECS MEng](../S/UCB%20EECS%20meng.md)：同在北加州的 UC 項目，一年制、偏應用的專業碩士

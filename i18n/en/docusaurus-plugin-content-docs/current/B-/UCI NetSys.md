@@ -63,7 +63,7 @@ One admitted applicant noted no networking experience beyond coursework. Five of
 
 ## Similar Programs
 
-- UCI MSCS: the MS in the CS department at the same school, also on standard state-supported graduate fees. It and MCS are among the alternatives the NetSys site lists for applicants whose main interest is outside networking.
+- [UCI MSCS](../B/UCI%20MSCS.md): the MS in the CS department at the same school, also on standard state-supported graduate fees. It and MCS are among the alternatives the NetSys site lists for applicants whose main interest is outside networking.
 - [UCI MCS](../B/UCI%20MCS.md): the professional CS master's at the same school; it is on the Registrar's self-supporting list and has its own fees.
 - [UCI MSWE](../B+/uci%20mswe.md): the software engineering master's at the same school, also self-supporting; its degree requirements include an internship, and it is on the International Center's CPT list.
 - [CMU MSIN](../S/cmu%20msin.md): another networking and systems master's, useful for comparing course lists.

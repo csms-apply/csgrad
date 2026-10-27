@@ -74,7 +74,7 @@ csgrad 里挂在 NYU Tandon MSCE 名下的 DP 共 13 条，都是秋季入学：
 
 - [NYU Tandon MSCS](../B+/NYU%20Tandon.md)：同学院的 CS 硕士，不收春季申请。DP 里有 MSCS 申请者被转到 CE，见上文。
 - [Columbia MSCE](../A-/Columbia%20ce.md)：同在纽约的 CE 硕士。
-- USC MSCE：同档的 CE 硕士。
+- [USC MSCE](../B/USC%20MSCE.md)：同档的 CE 硕士。
 - [Gatech ECE](../A-/Gatech%20ECE.md)、[UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md)：其他 ECE 方向的硕士，可以一起对比课表和学费。
 
 ## 官方链接

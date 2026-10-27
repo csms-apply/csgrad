@@ -826,6 +826,13 @@
     "slug": "/B/UCI MCS"
   },
   {
+    "id": "b-uc-irvine-mscs",
+    "school": "UC Irvine",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/UCI MSCS"
+  },
+  {
     "id": "b-uiuc-ece-meng",
     "school": "UIUC",
     "program": "ECE MENG",
@@ -840,11 +847,53 @@
     "slug": "/B/UMass MSCS"
   },
   {
+    "id": "b-usc-cs32",
+    "school": "USC",
+    "program": "CS32",
+    "tier": "B",
+    "slug": "/B/USC CS32"
+  },
+  {
     "id": "b-usc-cs28",
     "school": "USC",
     "program": "CS28",
     "tier": "B",
     "slug": "/B/USC CS37"
+  },
+  {
+    "id": "b-usc-msce",
+    "school": "USC",
+    "program": "MSCE",
+    "tier": "B",
+    "slug": "/B/USC MSCE"
+  },
+  {
+    "id": "b-usc-msee",
+    "school": "USC",
+    "program": "MSEE",
+    "tier": "B",
+    "slug": "/B/USC MSEE"
+  },
+  {
+    "id": "b-university-of-virginia-mcs",
+    "school": "University of Virginia",
+    "program": "MCS",
+    "tier": "B",
+    "slug": "/B/UVA MCS"
+  },
+  {
+    "id": "b-university-of-virginia-msds",
+    "school": "University of Virginia",
+    "program": "MSDS",
+    "tier": "B",
+    "slug": "/B/UVA MSDS"
+  },
+  {
+    "id": "b-university-of-toronto-ece-meng",
+    "school": "University of Toronto",
+    "program": "ECE MEng",
+    "tier": "B",
+    "slug": "/B/UofT ECE MEng"
   },
   {
     "id": "b-utah-state-university-mscs",

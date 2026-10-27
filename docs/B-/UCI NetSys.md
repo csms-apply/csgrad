@@ -63,7 +63,7 @@ csgrad 有 6 条 UCI NetSys 自报记录，都是 Fall 入学：
 
 ## 和相似项目比较
 
-- UCI MSCS：同校 CS 系的 MS，也按州资助研究生标准收费。NetSys 官网给主要兴趣不在网络的人列的替代项目里有它和 MCS。
+- [UCI MSCS](../B/UCI%20MSCS.md)：同校 CS 系的 MS，也按州资助研究生标准收费。NetSys 官网给主要兴趣不在网络的人列的替代项目里有它和 MCS。
 - [UCI MCS](../B/UCI%20MCS.md)：同校 CS 专业硕士，在注册处的自费项目名单里，单独收费。
 - [UCI MSWE](../B+/uci%20mswe.md)：同校软件工程硕士，也是自费，学位要求包含实习，在 International Center 的 CPT 名单上。
 - [CMU MSIN](../S/cmu%20msin.md)：另一个网络和系统方向的硕士，可以对比课表。
