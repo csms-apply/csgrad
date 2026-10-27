@@ -82,7 +82,7 @@ csgrad 里 UofT ECE MEng 只有 3 条，全是录取：
 ## 和相似项目比较
 
 - [UofT MScAC](../A/UofT%20MScAC.md)：同校的应用计算硕士，16 个月，8 个月企业研究型实习人人都做，只有秋季入学，Fall 2027 截止 2026 年 12 月 1 日，比 ECE MEng 早很多
-- Waterloo ECE MEng：同在安省的 ECE 课程型硕士
+- [Waterloo ECE MEng](../B/Waterloo%20ECE%20MEng.md)：同在安省的 ECE 课程型硕士
 - [UBC ECE MEng](../B-/UBC%20ECE%20MEng.md)：温哥华的 ECE 课程型硕士，毕业同样走 PGWP
 
 ## 官方链接

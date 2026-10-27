@@ -76,7 +76,7 @@ The database also has a USC CSE entry; it is not this program, so it is not coun
 ## Comparison with Similar Programs
 
 - [USC MSEE](../B/USC%20MSEE.md): the Electrical and Computer Engineering master's in the same department
-- USC CS28, [USC CS32](../B/USC%20CS32.md), [USC CS37](../B/USC%20CS37.md): USC's CS master's programs, useful if you want a more software-heavy schedule
+- [USC CS28](../B/USC%20CS28.md), [USC CS32](../B/USC%20CS32.md), [USC CS37](../B/USC%20CS37.md): USC's CS master's programs, useful if you want a more software-heavy schedule
 - [NYU Tandon MSCE](../B/NYU%20Tandon%20MSCE.md), [NWU MSCE](../B/NWU%20MSCE.md): other computer engineering master's programs
 - [UW EE PMP](../A/uw%20ee%20pmp.md), [Gatech ECE](../A-/Gatech%20ECE.md), [CMU ECE](../A/CMU%20ECE.md): ECE master's programs to compare on curriculum and cost
 

@@ -73,7 +73,7 @@ The sample is small: only 2 records are from 2025 onward, and there are no recor
 
 ## Comparison with Similar Programs
 
-- USC CS28: the general MSCS, now also 32 units, with CSCI 570 as the only required course and a thesis option (36 units in total). Pick the general version for a flexible schedule, or a specialization if you want the area in the degree name.
+- [USC CS28](../B/USC%20CS28.md): the general MSCS, now also 32 units, with CSCI 570 as the only required course and a thesis option (36 units in total). Pick the general version for a flexible schedule, or a specialization if you want the area in the degree name.
 - [USC CS37](../B/USC%20CS37.md): the 37-unit version for STEM graduates without a CS bachelor's, starting with undergraduate-level preparatory and foundation courses.
 - [UW EE PMP](../A/uw%20ee%20pmp.md): this guide compares itself with CS32 and is worth reading alongside.
 
