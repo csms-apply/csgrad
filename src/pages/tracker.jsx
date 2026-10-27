@@ -9,7 +9,7 @@ import {localizedInternalPath} from '../lib/seo/localizedAlternates.mjs';
 import {toTraditional} from '../lib/i18n/traditional';
 import DATA from '../lib/tracker/school-list.json';
 import {
-  TIERS, TIER_COLOR, GRE, WAIVER, KIND, UI, ALIAS, isQuiet, encodeShare, decodeShare, enCell, shortCell,
+  TIERS, TIER_COLOR, GRE, WAIVER, WAIVABLE, KIND, UI, ALIAS, isQuiet, encodeShare, decodeShare, enCell, shortCell,
   searchIndex, matches, picksFromLegacyCards, fill,
 } from '../lib/tracker/school-list.mjs';
 import styles from './tracker.module.css';
@@ -201,9 +201,9 @@ export default function TrackerPage() {
     const k = r.gre in GRE ? r.gre : 'unknown';
     return <span className={cx('tag', `c-${GRE[k]}`)}>{t(`gre_${k}`)}</span>;
   };
-  const waiverTag = (r) => {
+  const waiverTag = (r, all) => {
     const k = waiverKind(r);
-    return k === 'unknown' ? null : <span className={cx('tag', `c-${WAIVER[k]}`)}>{t(`waiver_${k}`)}</span>;
+    return k === 'unknown' || (!all && !WAIVABLE.includes(k)) ? null : <span className={cx('tag', `c-${WAIVER[k]}`)}>{t(`waiver_${k}`)}</span>;
   };
   const tierTag = (tier) => <span className={cx('tag', `c-${TIER_COLOR[tier] || 'gray'}`)}>{tier}</span>;
   const langCell = (c) => {
@@ -238,7 +238,7 @@ export default function TrackerPage() {
     const fees = picked.filter((r) => r.fee != null);
     const next = picked.flatMap((r) => r.rounds.map((x) => ({r, x}))).filter(({x}) => (daysTo(x.date) ?? 0) >= 0).sort((a, b) => a.x.date.localeCompare(b.x.date))[0];
     const halted = picked.filter((r) => r.halt).length;
-    const waivable = picked.filter((r) => ['event', 'international'].includes(waiverKind(r))).length;
+    const waivable = picked.filter((r) => WAIVABLE.includes(waiverKind(r))).length;
     const mine = view === 'mine';
     return (
       <section className={styles.summary}>
@@ -314,7 +314,7 @@ export default function TrackerPage() {
                 {r.halt ? prop(Icon.cal, t('status'), <span className={cx('tag', 'c-red')}>{t('halt')}</span>)
                   : r.rounds.map((x, i) => prop(Icon.cal, t('roundDdl', {n: ord(i)}), <span className={styles.date}>{slash(x.date)}</span>))}
                 {prop(Icon.select, t('colGre'), greTag(r))}
-                {prop(Icon.num, t('fee'), <span className={styles.feeCell}>{r.fee != null ? `$${r.fee}` : '—'}{waiverTag(r)}</span>)}
+                {prop(Icon.num, t('fee'), <span className={styles.feeCell}>{r.fee != null ? `$${r.fee}` : '—'}{waiverTag(r, true)}</span>)}
                 {prop(Icon.link, t('colApply'), <a className={styles.url} href={r.apply} target="_blank" rel="noopener noreferrer">{host(r.apply)}</a>)}
                 {r.site && r.site !== r.apply && prop(Icon.link, t('site'), <a className={styles.url} href={r.site} target="_blank" rel="noopener noreferrer">{host(r.site)}</a>)}
                 {prop(Icon.link, t('programPage'), <a className={styles.url} href={guide}>{decodeURI(r.slug)}</a>)}
@@ -464,7 +464,7 @@ export default function TrackerPage() {
             <table className={styles.grid} aria-label={t('tableAria')}>
               <colgroup>
                 <col style={{width: 36}} /><col style={{width: 200}} /><col style={{width: 82}} /><col style={{width: 132}} /><col style={{width: 132}} /><col style={{width: 132}} />
-                <col style={{width: 140}} /><col style={{width: 150}} /><col style={{width: 104}} /><col style={{width: 104}} /><col style={{width: 96}} /><col />
+                <col style={{width: 140}} /><col style={{width: 160}} /><col style={{width: 104}} /><col style={{width: 104}} /><col style={{width: 96}} /><col />
               </colgroup>
               <thead>
                 <tr>

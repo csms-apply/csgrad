@@ -8,6 +8,8 @@ export const GRE = {required: 'red', not_required: 'green', optional: 'yellow', 
 // Application-fee waiver for an international applicant -> tag colour; the label is UI copy `waiver_<kind>`.
 // free = no fee for anyone; event = an official info session gives a waiver code (the "coupon" applicants look for).
 export const WAIVER = {free: 'green', event: 'blue', international: 'yellow', domestic_only: 'gray', none: 'gray', unknown: 'gray'};
+// Kinds where an international applicant can pay less; the table only tags these.
+export const WAIVABLE = ['free', 'event', 'international'];
 export const KIND = {hard_min: 'kindHard', subscores_only: 'kindSub', recommended: 'kindRec', typical_range: 'kindRange', none: 'kindNone', not_accepted: 'kindNo', not_stated: 'kindNotStated'};
 export const isQuiet = (cell) => ['none', 'not_accepted', 'not_stated'].includes(cell?.kind);
 
@@ -133,7 +135,7 @@ export const UI = {
     sortTier: '梯队从高到低', sortR1: '第一轮 ddl 从早到晚', sortNext: '最近一个未截止的 ddl', sortToefl: '托福要求从高到低', sortName: '项目名称',
     hideHalt: '隐藏本季停招的项目', resetFilters: '清除筛选',
     kindHard: '硬性最低分', kindSub: '只卡单项', kindRec: '官网建议分', kindRange: '录取者区间下限', kindNone: '官方不设最低分', kindNo: '不接受', kindNotStated: '官网未公布',
-    waiverTitle: '申请费减免', waiverSrc: '官方说明', sumFeesWaivable: '{n} 个国际生可申请减免',
+    waiverTitle: '申请费减免', waiverSrc: '官方说明', sumFeesWaivable: '{n} 个国际生可免或可申请减免',
     waiver_free: '免申请费', waiver_event: '宣讲会可免', waiver_international: '可申请减免', waiver_domestic_only: '国际生不适用', waiver_none: '不减免', waiver_unknown: '未公布',
     status: '招生状态', fee: '申请费', site: '项目主页', programPage: 'csgrad 介绍', deadlines: '截止轮次', otherDates: '其他日期',
     otherDatesHint: '不适用于境外国际生、仅限特定申请人，或是往年参考。', tests: '考试与语言', code: '送分代码 {c}',
@@ -161,7 +163,7 @@ export const UI = {
     sortTier: 'Tier, high to low', sortR1: 'Round 1 deadline, earliest first', sortNext: 'Next open deadline', sortToefl: 'TOEFL requirement, high to low', sortName: 'Program name',
     hideHalt: 'Hide programs not admitting this cycle', resetFilters: 'Clear filters',
     kindHard: 'hard minimum', kindSub: 'section minimums only', kindRec: 'recommended', kindRange: 'low end of admitted range', kindNone: 'no official minimum', kindNo: 'not accepted', kindNotStated: 'not published',
-    waiverTitle: 'Fee waiver', waiverSrc: 'Official source', sumFeesWaivable: '{n} waivable for international applicants',
+    waiverTitle: 'Fee waiver', waiverSrc: 'Official source', sumFeesWaivable: '{n} free or waivable for international applicants',
     waiver_free: 'no fee', waiver_event: 'info session', waiver_international: 'waivable', waiver_domestic_only: 'not for intl', waiver_none: 'no waiver', waiver_unknown: 'unknown',
     status: 'Admission status', fee: 'App fee', site: 'Program site', programPage: 'csgrad guide', deadlines: 'Deadlines', otherDates: 'Other dates',
     otherDatesHint: 'Not for international applicants abroad, limited to specific applicants, or from a past cycle.', tests: 'Tests and English', code: 'Code {c}',
