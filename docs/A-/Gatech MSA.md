@@ -59,7 +59,7 @@ csgrad 目前没有 Gatech MSA 的数据点。站内 GaTech 收录的是 MSCS（
 
 - [Gatech CSE](../A+/Gatech%20CSE.md)：同校计算科学与工程硕士，MSA 核心课里的 CSE 6040、CSE 6242 都是 CSE 前缀的课
 - [Gatech MSCS](../S/gatech%20mscs.md)：同校 CS 硕士，CS 7641、CS 7643 等课在 MSA 选修里也能选
-- [Duke MIDS](../A-/Duke%20MIDS.md)、Umich MSDS：同为数据科学类硕士，可以对比学制和实习安排
+- [Duke MIDS](../A-/Duke%20MIDS.md)、[Umich MSDS](../A-/Umich%20MSDS.md)：同为数据科学类硕士，可以对比学制和实习安排
 
 ## 官方链接
 

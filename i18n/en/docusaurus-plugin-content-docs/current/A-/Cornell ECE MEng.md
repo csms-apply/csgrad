@@ -73,7 +73,7 @@ The sample is very small. It only shows that EE applicants have a better record 
 
 - [Cornell CS MEng](../S/Cornell%20CS%20MENG.md): the CS department's MEng, also in Ithaca
 - [Cornell Tech CS MEng](../A+/Cornell%20Tech%20CS%20MEng.md): the CS MEng on the New York City campus
-- [CMU ECE](../A/CMU%20ECE.md), Umich ECE, [Duke ECE](../A-/duke%20ece.md), [Gatech ECE](../A-/Gatech%20ECE.md), [UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md): other ECE master's programs to compare program length and internship rules
+- [CMU ECE](../A/CMU%20ECE.md), [Umich ECE](../A-/Umich%20ECE.md), [Duke ECE](../A-/duke%20ece.md), [Gatech ECE](../A-/Gatech%20ECE.md), [UIUC ECE MEng](../B/UIUC%20ECE%20MENG.md): other ECE master's programs to compare program length and internship rules
 
 ## Official Links
 
