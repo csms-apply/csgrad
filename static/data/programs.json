@@ -742,6 +742,13 @@
     "slug": "/B/BU MSCS"
   },
   {
+    "id": "b-duke-university-game-design-meng",
+    "school": "Duke University",
+    "program": "Game Design MEng",
+    "tier": "B",
+    "slug": "/B/Duke Game Design MEng"
+  },
+  {
     "id": "b-emory-university-mscs",
     "school": "Emory University",
     "program": "MSCS",
@@ -768,6 +775,48 @@
     "program": "MSCS",
     "tier": "B",
     "slug": "/B/NEU MSCS"
+  },
+  {
+    "id": "b-northwestern-university-msce",
+    "school": "Northwestern University",
+    "program": "MSCE",
+    "tier": "B",
+    "slug": "/B/NWU MSCE"
+  },
+  {
+    "id": "b-nyu-tandon-msce",
+    "school": "NYU",
+    "program": "Tandon MSCE",
+    "tier": "B",
+    "slug": "/B/NYU Tandon MSCE"
+  },
+  {
+    "id": "b-ohio-state-university-mscse",
+    "school": "Ohio State University",
+    "program": "MSCSE",
+    "tier": "B",
+    "slug": "/B/OSU MSCSE"
+  },
+  {
+    "id": "b-rice-university-mds",
+    "school": "Rice University",
+    "program": "MDS",
+    "tier": "B",
+    "slug": "/B/Rice MDS"
+  },
+  {
+    "id": "b-tufts-university-mscs",
+    "school": "Tufts University",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/Tufts MSCS"
+  },
+  {
+    "id": "b-uc-davis-mscs",
+    "school": "UC Davis",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/UC Davis MSCS"
   },
   {
     "id": "b-uc-irvine-mcs",

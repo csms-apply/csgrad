@@ -73,7 +73,7 @@ The Fall 2026 withdrawal notes that the applicant was moved over to MET's CS mas
 
 - [BU MSAI](../B/BU%20MSAI.md): the same department's AI master's. MS in AI courses automatically count toward the MSCS Applications area, and the FAQ says that once enrolled you can switch between the department's four MS degrees if you meet the requirements.
 - [NEU MSCS](../B/NEU%20MSCS.md): also in Boston, with a co-op. BU MSCS has no required internship and CPT got tighter in 2026, so compare the two if internship options matter to you.
-- Tufts MSCS: another MSCS in Greater Boston.
+- [Tufts MSCS](../B/Tufts%20MSCS.md): another MSCS in Greater Boston.
 - [NEU CS ALIGN](../B/NEU%20CS%20ALIGN.md): a program for students switching into CS from other majors. BU MSCS expects a foundation in all four core CS areas.
 - [UMass MSCS](../B/UMass%20MSCS.md): a public-university MSCS, also in Massachusetts.
 

@@ -61,7 +61,7 @@ csgrad 有 3 條 UF MSCS 自報記錄，都是 Fall 入學、都錄取：
 ## 和相似項目比較 {#和相似项目比较}
 
 - [Rutgers MSCS](../B-/Rutgers%20MSCS.md)：同檔的州立大學 MSCS，36 學分，全日制同樣每學期 9 學分，也受 CPT 收緊影響。
-- OSU MSCSE：州立大學 CS 碩士，30/33 學分，GRE 也不要求。
+- [OSU MSCSE](../B/OSU%20MSCSE.md)：州立大學 CS 碩士，30/33 學分，GRE 也不要求。
 - [NCSU MCS](../B/NCSU%20MCS.md)：同在美國東南部的州立大學 CS 專業碩士。
 
 ## 官方鏈接 {#官方链接}

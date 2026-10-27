@@ -72,7 +72,7 @@ csgrad 有 3 条 UCSC MSCSE 自报记录，都是 Fall 入学：
 
 ## 和相似项目比较
 
-- UC Davis MSCS：同为 UC 系研究型 CS 硕士，也是 quarter 制，论文、项目或考试毕业
+- [UC Davis MSCS](../B/UC%20Davis%20MSCS.md)：同为 UC 系研究型 CS 硕士，也是 quarter 制，论文、项目或考试毕业
 - [UCSB MSCS](../A-/UCSB%20MSCS.md)：同为 UC 系的 MSCS
 - [SCU MSCSE](../B-/SCU%20MSCSE.md)：同名 MSCSE，私立学校，在 Santa Clara，按学分收费
 

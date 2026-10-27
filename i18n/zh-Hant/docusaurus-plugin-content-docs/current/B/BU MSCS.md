@@ -73,7 +73,7 @@ Fall 2026 那條撤回，備註說是被轉錄到了 MET 的 CS 碩士。
 
 - [BU MSAI](../B/BU%20MSAI.md)：同系的 AI 碩士，MS in AI 的課在 MSCS 裡自動算 Applications。FAQ 說入學後滿足要求可以在系裡的四個 MS 學位之間換。
 - [NEU MSCS](../B/NEU%20MSCS.md)：同在波士頓，有 co-op。BU MSCS 沒有必修實習，2026 年 CPT 又收緊了，在意實習安排的話可以對比一下。
-- Tufts MSCS：同在大波士頓的 MSCS。
+- [Tufts MSCS](../B/Tufts%20MSCS.md)：同在大波士頓的 MSCS。
 - [NEU CS ALIGN](../B/NEU%20CS%20ALIGN.md)：給本科非 CS 的轉碼項目。BU MSCS 希望申請者 CS 四塊基礎都有。
 - [UMass MSCS](../B/UMass%20MSCS.md)：同在麻省的公立校 MSCS。
 

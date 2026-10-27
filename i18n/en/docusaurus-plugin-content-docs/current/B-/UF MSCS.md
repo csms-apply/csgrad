@@ -61,7 +61,7 @@ All three records are marked as funded; two notes describe small scholarships ($
 ## Similar Programs
 
 - [Rutgers MSCS](../B-/Rutgers%20MSCS.md): a state-university MSCS in the same tier, 36 credits, also 9 credits per semester for full-time students, and also affected by the tighter CPT rules.
-- OSU MSCSE: a state-university CS master's with 30/33 credits that does not require the GRE either.
+- [OSU MSCSE](../B/OSU%20MSCSE.md): a state-university CS master's with 30/33 credits that does not require the GRE either.
 - [NCSU MCS](../B/NCSU%20MCS.md): a professional CS master's at another state university in the southeastern US.
 
 ## Official Links
