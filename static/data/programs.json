@@ -112,6 +112,13 @@
     "slug": "/S/CMU MIIS"
   },
   {
+    "id": "s-carnegie-mellon-university-mlt",
+    "school": "Carnegie Mellon University",
+    "program": "MLT",
+    "tier": "S",
+    "slug": "/S/CMU MLT"
+  },
+  {
     "id": "s-carnegie-mellon-university-msaii",
     "school": "Carnegie Mellon University",
     "program": "MSAII",
@@ -847,6 +854,13 @@
     "slug": "/B/UMass MSCS"
   },
   {
+    "id": "b-usc-cs28",
+    "school": "USC",
+    "program": "CS28",
+    "tier": "B",
+    "slug": "/B/USC CS28"
+  },
+  {
     "id": "b-usc-cs32",
     "school": "USC",
     "program": "CS32",
@@ -854,9 +868,9 @@
     "slug": "/B/USC CS32"
   },
   {
-    "id": "b-usc-cs28",
+    "id": "b-usc-cs37",
     "school": "USC",
-    "program": "CS28",
+    "program": "CS37",
     "tier": "B",
     "slug": "/B/USC CS37"
   },
@@ -894,6 +908,20 @@
     "program": "ECE MEng",
     "tier": "B",
     "slug": "/B/UofT ECE MEng"
+  },
+  {
+    "id": "b-university-of-waterloo-ece-meng",
+    "school": "University of Waterloo",
+    "program": "ECE MEng",
+    "tier": "B",
+    "slug": "/B/Waterloo ECE MEng"
+  },
+  {
+    "id": "b-university-of-waterloo-mdsai",
+    "school": "University of Waterloo",
+    "program": "MDSAI",
+    "tier": "B",
+    "slug": "/B/Waterloo MDSAI"
   },
   {
     "id": "b-utah-state-university-mscs",

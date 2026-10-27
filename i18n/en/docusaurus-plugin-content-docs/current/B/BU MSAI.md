@@ -71,7 +71,7 @@ The two Fall 2025 withdrawals: one note says the recommendation letters were not
 
 - [BU MSCS](../B/BU%20MSCS.md): the same department's general CS master's, with the same tuition, deadlines and application materials. The general MSCS track asks for one additional applications course, and any course that counts for the MS in AI automatically satisfies it; once enrolled you can switch degrees if you meet the requirements.
 - [NEU MSCS](../B/NEU%20MSCS.md): also in Boston, and NEU has co-op. The BU MS in AI has no required internship and CPT got tighter in 2026, so compare the two if internship options matter to you.
-- Waterloo MDSAI: another coursework master's in data science and AI, in Canada, with one co-op term.
+- [Waterloo MDSAI](../B/Waterloo%20MDSAI.md): another coursework master's in data science and AI, in Canada, with one co-op term.
 
 ## Official Links
 

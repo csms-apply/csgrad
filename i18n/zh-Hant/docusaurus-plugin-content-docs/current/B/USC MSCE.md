@@ -76,7 +76,7 @@ csgrad 裡這個項目記為 USC CE，共 2 條 DP，都是秋季入學、都是
 ## 和相似項目比較 {#和相似项目比较}
 
 - [USC MSEE](../B/USC%20MSEE.md)：同系的電子與計算機工程碩士
-- USC CS28、[USC CS32](../B/USC%20CS32.md)、[USC CS37](../B/USC%20CS37.md)：同校的 CS 碩士，課表想偏軟件的可以對照
+- [USC CS28](../B/USC%20CS28.md)、[USC CS32](../B/USC%20CS32.md)、[USC CS37](../B/USC%20CS37.md)：同校的 CS 碩士，課表想偏軟件的可以對照
 - [NYU Tandon MSCE](../B/NYU%20Tandon%20MSCE.md)、[NWU MSCE](../B/NWU%20MSCE.md)：同樣是計算機工程碩士
 - [UW EE PMP](../A/uw%20ee%20pmp.md)、[Gatech ECE](../A-/Gatech%20ECE.md)、[CMU ECE](../A/CMU%20ECE.md)：ECE 方向碩士，可以對比課表和費用
 

@@ -68,7 +68,7 @@ csgrad has no DPs for this program yet. The only USC ECE department records in t
 ## Comparison with Similar Programs
 
 - [USC MSCE](../B/USC%20MSCE.md): the same department's computer engineering master's, focused on architecture, networks and VLSI
-- USC CS28, [USC CS37](../B/USC%20CS37.md): the same school's CS master's programs, worth comparing if you want an all-software schedule
+- [USC CS28](../B/USC%20CS28.md), [USC CS37](../B/USC%20CS37.md): the same school's CS master's programs, worth comparing if you want an all-software schedule
 - [UCLA MSECE](../A/UCLA%20MSECE.md), [Columbia EE](../B+/Columbia%20ee.md), [Upenn EE](../B+/Upenn%20EE.md): similar EE / ECE master's programs to compare coursework and cost
 
 ## Official Links

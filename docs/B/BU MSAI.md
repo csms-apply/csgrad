@@ -71,7 +71,7 @@ Fall 2025 的两条撤回：一条备注是推荐信没交上；另一条备注�
 
 - [BU MSCS](../B/BU%20MSCS.md)：同一个系的通用 CS 硕士，学费、截止日和申请材料一样。MSCS 通用方向要求多修一门 applications 课，MS in AI 能算的课都自动满足这条；入学后满足要求可以互换学位。
 - [NEU MSCS](../B/NEU%20MSCS.md)：同在波士顿，NEU 有 co-op。BU MS in AI 没有必修实习，2026 年 CPT 又收紧了，在意实习安排的话可以对比一下。
-- Waterloo MDSAI：同样是数据科学和 AI 方向的授课型硕士，在加拿大，带一个学期 co-op。
+- [Waterloo MDSAI](../B/Waterloo%20MDSAI.md)：同样是数据科学和 AI 方向的授课型硕士，在加拿大，带一个学期 co-op。
 
 ## 官方链接
 

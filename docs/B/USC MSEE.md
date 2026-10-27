@@ -68,7 +68,7 @@ csgrad 里目前没有这个项目的 DP。库里 USC ECE 系的记录只有 MS 
 ## 和相似项目比较
 
 - [USC MSCE](../B/USC%20MSCE.md)：同系的计算机工程硕士，方向集中在架构、网络、VLSI
-- USC CS28、[USC CS37](../B/USC%20CS37.md)：同校的 CS 硕士，想要全软件课表可以对照
+- [USC CS28](../B/USC%20CS28.md)、[USC CS37](../B/USC%20CS37.md)：同校的 CS 硕士，想要全软件课表可以对照
 - [UCLA MSECE](../A/UCLA%20MSECE.md)、[Columbia EE](../B+/Columbia%20ee.md)、[Upenn EE](../B+/Upenn%20EE.md)：同类 EE / ECE 硕士，可以对比课表和费用
 
 ## 官方链接

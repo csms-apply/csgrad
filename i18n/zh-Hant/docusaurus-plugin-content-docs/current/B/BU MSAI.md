@@ -71,7 +71,7 @@ Fall 2025 的兩條撤回：一條備註是推薦信沒交上；另一條備註�
 
 - [BU MSCS](../B/BU%20MSCS.md)：同一個系的通用 CS 碩士，學費、截止日和申請材料一樣。MSCS 通用方向要求多修一門 applications 課，MS in AI 能算的課都自動滿足這條；入學後滿足要求可以互換學位。
 - [NEU MSCS](../B/NEU%20MSCS.md)：同在波士頓，NEU 有 co-op。BU MS in AI 沒有必修實習，2026 年 CPT 又收緊了，在意實習安排的話可以對比一下。
-- Waterloo MDSAI：同樣是數據科學和 AI 方向的授課型碩士，在加拿大，帶一個學期 co-op。
+- [Waterloo MDSAI](../B/Waterloo%20MDSAI.md)：同樣是數據科學和 AI 方向的授課型碩士，在加拿大，帶一個學期 co-op。
 
 ## 官方鏈接 {#官方链接}
 

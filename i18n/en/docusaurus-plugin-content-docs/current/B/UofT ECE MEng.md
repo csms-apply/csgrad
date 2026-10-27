@@ -82,7 +82,7 @@ The sample is tiny and has no rejections, so there is no way to read an admissio
 ## Similar Programs
 
 - [UofT MScAC](../A/UofT%20MScAC.md): U of T's applied computing master's, 16 months, with an 8-month industry research internship that everyone does, Fall start only, and a Fall 2027 deadline of December 1, 2026, much earlier than the ECE MEng
-- Waterloo ECE MEng: another course-based ECE master's in Ontario
+- [Waterloo ECE MEng](../B/Waterloo%20ECE%20MEng.md): another course-based ECE master's in Ontario
 - [UBC ECE MEng](../B-/UBC%20ECE%20MEng.md): a course-based ECE master's in Vancouver; graduates also go through the PGWP
 
 ## Official Links
