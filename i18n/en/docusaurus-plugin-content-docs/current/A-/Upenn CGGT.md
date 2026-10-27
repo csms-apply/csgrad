@@ -67,7 +67,7 @@ The one reject applied for fall 2022 entry from a "Huawu" top-five school, major
 
 ## Comparison with Similar Programs
 
-- Duke Game Design MEng: Duke Engineering's MEng in game design and development
+- [Duke Game Design MEng](../B/Duke%20Game%20Design%20MEng.md): Duke Engineering's MEng in game design and development
 - [Upenn CIS](../A+/Upenn%20CIS.md): the CS master's in the same CIS department, not limited to graphics
 - [Upenn MCIT](../A/Upenn%20MCIT.md): the old route into CGGT for non-CS backgrounds started here; it has since been replaced by MAS-CS
 - [CMU MSCV](../S/CMU%20MSCV.md): CMU's master's in computer vision

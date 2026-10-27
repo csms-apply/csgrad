@@ -76,7 +76,7 @@ csgrad 收录了 4 条 Purdue MSCS 数据点，都是秋季入学，结果全是
 
 - [Purdue MSECE](../A-/Purdue%20MSECE.md)：同校 ECE 系的硕士
 - [Wisc MSCS](../A+/Wisc%20MSCS.md)：同在中西部的公立大学研究型 CS 硕士，只收秋季，12 月 15 日截止
-- OSU MSCSE：同在中西部，也不要求 GRE；国际生只收秋季，Purdue 秋春都收
+- [OSU MSCSE](../B/OSU%20MSCSE.md)：同在中西部，也不要求 GRE；国际生只收秋季，Purdue 秋春都收
 - [UMN MSCS](../C+/UMN%20MSCS.md)：同在中西部的公立大学 CS 硕士
 
 ## 官方链接

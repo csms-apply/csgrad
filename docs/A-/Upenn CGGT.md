@@ -67,7 +67,7 @@ csgrad 目前有 5 条 Penn CGGT 数据点，4 录 1 拒，都是秋季入学：
 
 ## 和相似项目比较
 
-- Duke Game Design MEng：Duke 工学院的游戏设计与开发 MEng
+- [Duke Game Design MEng](../B/Duke%20Game%20Design%20MEng.md)：Duke 工学院的游戏设计与开发 MEng
 - [Upenn CIS](../A+/Upenn%20CIS.md)：同一个 CIS 系的 CS 硕士，不限定图形方向
 - [Upenn MCIT](../A/Upenn%20MCIT.md)：非 CS 背景读 CGGT 的老路线要先读它，现在已由 MAS-CS 取代
 - [CMU MSCV](../S/CMU%20MSCV.md)：CMU 的计算机视觉硕士

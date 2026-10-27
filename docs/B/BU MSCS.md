@@ -73,7 +73,7 @@ Fall 2026 那条撤回，备注说是被转录到了 MET 的 CS 硕士。
 
 - [BU MSAI](../B/BU%20MSAI.md)：同系的 AI 硕士，MS in AI 的课在 MSCS 里自动算 Applications。FAQ 说入学后满足要求可以在系里的四个 MS 学位之间换。
 - [NEU MSCS](../B/NEU%20MSCS.md)：同在波士顿，有 co-op。BU MSCS 没有必修实习，2026 年 CPT 又收紧了，在意实习安排的话可以对比一下。
-- Tufts MSCS：同在大波士顿的 MSCS。
+- [Tufts MSCS](../B/Tufts%20MSCS.md)：同在大波士顿的 MSCS。
 - [NEU CS ALIGN](../B/NEU%20CS%20ALIGN.md)：给本科非 CS 的转码项目。BU MSCS 希望申请者 CS 四块基础都有。
 - [UMass MSCS](../B/UMass%20MSCS.md)：同在麻省的公立校 MSCS。
 

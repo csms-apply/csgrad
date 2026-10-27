@@ -76,7 +76,7 @@ None of these entries has notes, and with no admits in the sample, they say noth
 
 - [Purdue MSECE](../A-/Purdue%20MSECE.md): the master's in Purdue's ECE school
 - [Wisc MSCS](../A+/Wisc%20MSCS.md): also a research-oriented CS master's at a public university in the Midwest; Fall entry only, with a December 15 deadline
-- OSU MSCSE: also in the Midwest, and also no GRE; OSU admits international students in Fall only, while Purdue takes both Fall and Spring
+- [OSU MSCSE](../B/OSU%20MSCSE.md): also in the Midwest, and also no GRE; OSU admits international students in Fall only, while Purdue takes both Fall and Spring
 - [UMN MSCS](../C+/UMN%20MSCS.md): also a CS master's at a public university in the Midwest
 
 ## Official Links

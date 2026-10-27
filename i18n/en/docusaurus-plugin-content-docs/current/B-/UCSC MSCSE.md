@@ -72,7 +72,7 @@ The rejected applicant actually had a higher GPA and class rank than the Fall 20
 
 ## Comparison with Similar Programs
 
-- UC Davis MSCS: also a research-oriented UC CS master's on the quarter system, finishing with a thesis, project or exam
+- [UC Davis MSCS](../B/UC%20Davis%20MSCS.md): also a research-oriented UC CS master's on the quarter system, finishing with a thesis, project or exam
 - [UCSB MSCS](../A-/UCSB%20MSCS.md): also a UC MSCS
 - [SCU MSCSE](../B-/SCU%20MSCSE.md): same MSCSE name, a private school in Santa Clara that charges per unit
 

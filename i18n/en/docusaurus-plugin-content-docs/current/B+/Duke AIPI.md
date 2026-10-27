@@ -60,7 +60,7 @@ csgrad has no DP records for Duke AIPI yet. Duke ECE and Duke MSCS at the same s
 
 - [Duke MSCS](../A+/Duke%20mscs.md), [Duke ECE](../A-/duke%20ece.md): the CS and ECE master's programs at the same school
 - [Duke MIDS](../A-/Duke%20MIDS.md): the data science master's program at the same school
-- Duke Game Design MEng: another Pratt MEng, with the same degree framework
+- [Duke Game Design MEng](../B/Duke%20Game%20Design%20MEng.md): another Pratt MEng, with the same degree framework
 - [NWU MSAI](../B+/NWU%20MSAI.md), [CMU MSAII](../S/CMU%20MSAII.md), [BU MSAI](../B/BU%20MSAI.md): other AI-focused master's programs, useful for comparing curriculum, length and tuition
 
 ## Official Links
