@@ -6,8 +6,8 @@ export const TIER_COLOR = {SSS: 'purple', SS: 'blue', S: 'green', 'A+': 'yellow'
 // GRE policy -> tag colour; the label is UI copy `gre_<policy>`.
 export const GRE = {required: 'red', not_required: 'green', optional: 'yellow', not_accepted: 'blue', recommended: 'orange', waived_for_some: 'purple', unknown: 'gray'};
 // Application-fee waiver for an international applicant -> tag colour; the label is UI copy `waiver_<kind>`.
-// event = an official info session or event gives a waiver code (the "coupon" applicants look for).
-export const WAIVER = {event: 'green', international: 'blue', domestic_only: 'gray', none: 'gray', unknown: 'gray'};
+// free = no fee for anyone; event = an official info session gives a waiver code (the "coupon" applicants look for).
+export const WAIVER = {free: 'green', event: 'blue', international: 'yellow', domestic_only: 'gray', none: 'gray', unknown: 'gray'};
 export const KIND = {hard_min: 'kindHard', subscores_only: 'kindSub', recommended: 'kindRec', typical_range: 'kindRange', none: 'kindNone', not_accepted: 'kindNo', not_stated: 'kindNotStated'};
 export const isQuiet = (cell) => ['none', 'not_accepted', 'not_stated'].includes(cell?.kind);
 
@@ -134,7 +134,7 @@ export const UI = {
     hideHalt: '隐藏本季停招的项目', resetFilters: '清除筛选',
     kindHard: '硬性最低分', kindSub: '只卡单项', kindRec: '官网建议分', kindRange: '录取者区间下限', kindNone: '官方不设最低分', kindNo: '不接受', kindNotStated: '官网未公布',
     waiverTitle: '申请费减免', waiverSrc: '官方说明', sumFeesWaivable: '{n} 个国际生可申请减免',
-    waiver_event: '宣讲会可免', waiver_international: '可申请减免', waiver_domestic_only: '仅限美籍', waiver_none: '不减免', waiver_unknown: '未公布',
+    waiver_free: '免申请费', waiver_event: '宣讲会可免', waiver_international: '可申请减免', waiver_domestic_only: '国际生不适用', waiver_none: '不减免', waiver_unknown: '未公布',
     status: '招生状态', fee: '申请费', site: '项目主页', programPage: 'csgrad 介绍', deadlines: '截止轮次', otherDates: '其他日期',
     otherDatesHint: '不适用于境外国际生、仅限特定申请人，或是往年参考。', tests: '考试与语言', code: '送分代码 {c}',
     addMine: '＋ 加入我的选校', inMine: '✓ 已在我的选校', count: '数量',
@@ -162,7 +162,7 @@ export const UI = {
     hideHalt: 'Hide programs not admitting this cycle', resetFilters: 'Clear filters',
     kindHard: 'hard minimum', kindSub: 'section minimums only', kindRec: 'recommended', kindRange: 'low end of admitted range', kindNone: 'no official minimum', kindNo: 'not accepted', kindNotStated: 'not published',
     waiverTitle: 'Fee waiver', waiverSrc: 'Official source', sumFeesWaivable: '{n} waivable for international applicants',
-    waiver_event: 'info session', waiver_international: 'waivable', waiver_domestic_only: 'US only', waiver_none: 'no waiver', waiver_unknown: 'unknown',
+    waiver_free: 'no fee', waiver_event: 'info session', waiver_international: 'waivable', waiver_domestic_only: 'not for intl', waiver_none: 'no waiver', waiver_unknown: 'unknown',
     status: 'Admission status', fee: 'App fee', site: 'Program site', programPage: 'csgrad guide', deadlines: 'Deadlines', otherDates: 'Other dates',
     otherDatesHint: 'Not for international applicants abroad, limited to specific applicants, or from a past cycle.', tests: 'Tests and English', code: 'Code {c}',
     addMine: '+ Add to my list', inMine: '✓ In my list', count: 'Count',
