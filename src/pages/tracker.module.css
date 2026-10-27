@@ -120,6 +120,7 @@
 .root a.url { color: var(--link); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 2px; }
 .root a.url:hover { color: var(--fg); }
 .score { font-variant-numeric: tabular-nums; }
+.feeCell { display: inline-flex; align-items: center; gap: 6px; }
 .muted { color: var(--fg-2); }
 .root .grid tfoot td { border-bottom: 0; color: var(--fg-3); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; height: 34px; }
 .root .grid tfoot b { color: var(--fg-2); font-size: 14px; letter-spacing: 0; margin-left: 6px; font-weight: 500; }
