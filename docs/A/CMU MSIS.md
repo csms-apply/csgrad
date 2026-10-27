@@ -78,7 +78,7 @@ csgrad 记在 MSIS 名下只有 2 条，都是秋季入学：
 - [CMU MSMITE](../A/CMU%20MSMITE.md)：INI 的移动与物联网方向，属于 Bicoastal 项目，要在匹兹堡和硅谷两地读。
 - [CMU MSAIE](../A/CMU%20MSAIE.md)：里面的 MSAIE-IS 也是 INI 开的安全方向学位，另加 AI 课程，Cyber Defense Specialization 对它也开放。
 - [CMU MITS](../A/cmu%20mits.md)：四个 track 里有一个 Information Security。
-- JHU MSSI：同样是信息安全方向的硕士。
+- [JHU MSSI](../B+/JHU%20MSSI.md)：同样是信息安全方向的硕士。
 
 ## 官方链接
 

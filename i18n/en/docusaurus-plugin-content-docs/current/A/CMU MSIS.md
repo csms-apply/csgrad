@@ -78,7 +78,7 @@ Two data points are not enough to infer an admission bar. csgrad also has 2 MSIT
 - [CMU MSMITE](../A/CMU%20MSMITE.md): INI's mobile and IoT program, one of the Bicoastal programs, with study in both Pittsburgh and Silicon Valley.
 - [CMU MSAIE](../A/CMU%20MSAIE.md): its MSAIE-IS version is another INI security degree with AI coursework added, and the Cyber Defense Specialization is open to it as well.
 - [CMU MITS](../A/cmu%20mits.md): one of its four tracks is Information Security.
-- JHU MSSI: another information security master's program.
+- [JHU MSSI](../B+/JHU%20MSSI.md): another information security master's program.
 
 ## Official Links
 

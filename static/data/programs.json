@@ -553,6 +553,13 @@
     "slug": "/A-/uchicago mpcs"
   },
   {
+    "id": "bplus-brown-university-scm-ds",
+    "school": "Brown University",
+    "program": "ScM DS",
+    "tier": "B+",
+    "slug": "/B+/Brown ScM DS"
+  },
+  {
     "id": "bplus-columbia-university-msee",
     "school": "Columbia University",
     "program": "MSEE",
@@ -565,6 +572,48 @@
     "program": "MPS-IS",
     "tier": "B+",
     "slug": "/B+/Cornell MPS-IS"
+  },
+  {
+    "id": "bplus-dartmouth-college-mscs",
+    "school": "Dartmouth College",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/Dartmouth MSCS"
+  },
+  {
+    "id": "bplus-duke-university-aipi",
+    "school": "Duke University",
+    "program": "AIPI",
+    "tier": "B+",
+    "slug": "/B+/Duke AIPI"
+  },
+  {
+    "id": "bplus-duke-kunshan-university-ece",
+    "school": "Duke Kunshan University",
+    "program": "ECE",
+    "tier": "B+",
+    "slug": "/B+/Duke Kunshan ECE"
+  },
+  {
+    "id": "bplus-johns-hopkins-university-msds",
+    "school": "Johns Hopkins University",
+    "program": "MSDS",
+    "tier": "B+",
+    "slug": "/B+/JHU MSDS"
+  },
+  {
+    "id": "bplus-johns-hopkins-university-mssi",
+    "school": "Johns Hopkins University",
+    "program": "MSSI",
+    "tier": "B+",
+    "slug": "/B+/JHU MSSI"
+  },
+  {
+    "id": "bplus-mcgill-university-mscs",
+    "school": "McGill University",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/McGill MSCS"
   },
   {
     "id": "bplus-northwestern-university-mscs",
