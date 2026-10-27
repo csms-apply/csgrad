@@ -75,7 +75,7 @@ The applicant studied information systems at a 985 university, had a GPA above 3
 
 - [Umich MSDS](../A-/Umich%20MSDS.md): Michigan's data science master's, run by the Statistics department; statistics courses come from Statistics and Biostatistics, computing courses from CSE and the School of Information, with no tracks
 - [UMich MSCS/MSCSE](../A/Umich%20MSCS.md): the CS master's in Michigan's CSE department, if you want a pure CS degree
-- [Cornell MPS-IS](../B+/Cornell%20MPS-IS.md), [UIUC MSIM](../B-/UIUC%20MSIM.md), UNC MSIS: information master's programs at other iSchools
+- [Cornell MPS-IS](../B+/Cornell%20MPS-IS.md), [UIUC MSIM](../B-/UIUC%20MSIM.md), [UNC MSIS](../B-/UNC%20MSIS.md): information master's programs at other iSchools
 
 UMSI also runs a fully online Master of Applied Data Science (MADS), which is a separate program from MSI.
 

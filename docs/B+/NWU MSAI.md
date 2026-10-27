@@ -71,7 +71,7 @@ csgrad 里这个项目目前只有 1 条 DP：Fall 2025，结果是 Waitlist。
 
 - [NWU MSCS](../B+/NWU%20MSCS.md)：同校 CS 硕士。项目 FAQ 说 MSCS 覆盖的 CS 内容更全面，MSAI 更专
 - 同校还有 MS in Machine Learning and Data Science（MLDS）。FAQ 说 MLDS 偏预测、描述和规范性分析，MSAI 更看重把分析方法放进包含符号推理的 AI 系统
-- [Duke AIPI](../B+/Duke%20AIPI.md)、[CMU MSAII](../S/CMU%20MSAII.md)、[CMU MSAIE](../A/CMU%20MSAIE.md)、BU MSAI：同样是 AI 方向的硕士，可以对比课表、学制和学费
+- [Duke AIPI](../B+/Duke%20AIPI.md)、[CMU MSAII](../S/CMU%20MSAII.md)、[CMU MSAIE](../A/CMU%20MSAIE.md)、[BU MSAI](../B/BU%20MSAI.md)：同样是 AI 方向的硕士，可以对比课表、学制和学费
 
 ## 官方链接
 

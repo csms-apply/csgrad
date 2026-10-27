@@ -64,7 +64,7 @@ csgrad 里没有直接标成 MSADS 的记录，只有 1 条记作 "UChicago MSDS
 ## 和相似项目比较
 
 - [UChicago MPCS](../A-/uchicago%20mpcs.md)：同校的计算机硕士项目；MSADS 归 DSI，课以统计、机器学习和数据工程为主，另有两个 quarter 的 capstone。
-- USC ADS：同样是 Applied Data Science 硕士，可以对比课程结构和费用。
+- [USC ADS](../B-/USC%20ADS.md)：同样是 Applied Data Science 硕士，可以对比课程结构和费用。
 - [Columbia DS](../A-/Columbia%20DS.md)、[NYU DS](../A-/NYU%20DS.md)：站内其他数据科学硕士指南，可以对比课程和去向。
 
 ## 官方链接

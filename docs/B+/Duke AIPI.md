@@ -59,7 +59,7 @@ csgrad 目前还没有 Duke AIPI 的 DP 记录。同校的 Duke ECE 和 Duke MSC
 - [Duke MSCS](../A+/Duke%20mscs.md)、[Duke ECE](../A-/duke%20ece.md)：同校的 CS 和 ECE 硕士
 - [Duke MIDS](../A-/Duke%20MIDS.md)：同校的数据科学硕士
 - Duke Game Design MEng：同为 Pratt 的 MEng，学位框架相同
-- [NWU MSAI](../B+/NWU%20MSAI.md)、[CMU MSAII](../S/CMU%20MSAII.md)、BU MSAI：同样是 AI 方向的硕士，可以对比课表、学制和学费
+- [NWU MSAI](../B+/NWU%20MSAI.md)、[CMU MSAII](../S/CMU%20MSAII.md)、[BU MSAI](../B/BU%20MSAI.md)：同样是 AI 方向的硕士，可以对比课表、学制和学费
 
 ## 官方链接
 

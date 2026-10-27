@@ -728,6 +728,20 @@
     "slug": "/B+/uci mswe"
   },
   {
+    "id": "b-boston-university-msai",
+    "school": "Boston University",
+    "program": "MSAI",
+    "tier": "B",
+    "slug": "/B/BU MSAI"
+  },
+  {
+    "id": "b-boston-university-mscs",
+    "school": "Boston University",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/BU MSCS"
+  },
+  {
     "id": "b-emory-university-mscs",
     "school": "Emory University",
     "program": "MSCS",
@@ -854,11 +868,46 @@
     "slug": "/B-/UCI NetSys"
   },
   {
+    "id": "bminus-uc-santa-cruz-mscse",
+    "school": "UC Santa Cruz",
+    "program": "MSCSE",
+    "tier": "B-",
+    "slug": "/B-/UCSC MSCSE"
+  },
+  {
+    "id": "bminus-university-of-florida-mscs",
+    "school": "University of Florida",
+    "program": "MSCS",
+    "tier": "B-",
+    "slug": "/B-/UF MSCS"
+  },
+  {
     "id": "bminus-uiuc-msim",
     "school": "UIUC",
     "program": "MSIM",
     "tier": "B-",
     "slug": "/B-/UIUC MSIM"
+  },
+  {
+    "id": "bminus-unc-chapel-hill-msis",
+    "school": "UNC Chapel Hill",
+    "program": "MSIS",
+    "tier": "B-",
+    "slug": "/B-/UNC MSIS"
+  },
+  {
+    "id": "bminus-usc-ads",
+    "school": "USC",
+    "program": "ADS",
+    "tier": "B-",
+    "slug": "/B-/USC ADS"
+  },
+  {
+    "id": "bminus-virginia-tech-meng-cs",
+    "school": "Virginia Tech",
+    "program": "MEng CS",
+    "tier": "B-",
+    "slug": "/B-/VT MEng CS"
   },
   {
     "id": "cplus-university-of-minnesota-mscs",

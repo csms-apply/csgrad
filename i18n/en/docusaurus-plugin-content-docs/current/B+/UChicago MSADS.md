@@ -66,7 +66,7 @@ The applicant was a CS major at a Sino-foreign joint institute in mainland China
 ## Comparison with Similar Programs
 
 - [UChicago MPCS](../A-/uchicago%20mpcs.md): UChicago's computer science master's program. MSADS sits under the DSI, and its courses center on statistics, machine learning and data engineering, plus a two-quarter capstone.
-- USC ADS: also an applied data science master's, useful for comparing course structure and cost.
+- [USC ADS](../B-/USC%20ADS.md): also an applied data science master's, useful for comparing course structure and cost.
 - [Columbia DS](../A-/Columbia%20DS.md) and [NYU DS](../A-/NYU%20DS.md): other data science master's guides on this site, useful for comparing courses and outcomes.
 
 ## Official Links
