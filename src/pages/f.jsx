@@ -4,7 +4,7 @@ import Head from '@docusaurus/Head';
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
 import { getPublicForm, isVisible, submitResponse } from '@site/src/lib/forms/schema';
-import styles from './live.module.css';
+import styles from './f.module.css';
 
 // 公开填写页：csgrad.com/f?id=<表单 id>，表单由 /forms-admin 创建。
 

@@ -78,8 +78,6 @@ const config = {
           // Keep both the default and locale-prefixed variants out of sitemaps.
           ignorePatterns: [
             '**/datapoints submit',
-            '**/live',
-            '**/live-admin',
             '**/f',
             '**/forms-admin',
             '**/my-dp',

@@ -1,4 +1,4 @@
-/* 直播报名 + 后台。沿用站点的米色 / 金色配色（见 school-positioning.module.css）。 */
+/* 表单填写页 /f。沿用站点的米色 / 金色配色（见 school-positioning.module.css）。 */
 
 .page {
   --live-bg: linear-gradient(160deg, #faf6f0 0%, #f3ebdf 100%);
@@ -178,28 +178,6 @@
   font-size: 0.88rem;
 }
 
-/* ---------- 后台 ---------- */
-.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 14px 0; }
-.toolbar .input { max-width: 320px; }
-.toolbar .submit { width: auto; margin: 0; padding: 10px 22px; }
-.toolbar .hint { margin: 0; display: flex; align-items: center; gap: 6px; cursor: pointer; }
-.stat { font-weight: 600; }
-.ghost {
-  font: inherit;
-  cursor: pointer;
-  background: transparent;
-  color: var(--live-ink);
-  border: 1px solid var(--live-gold);
-  border-radius: 10px;
-  padding: 8px 16px;
-}
-.tableWrap { overflow-x: auto; background: var(--live-card); border: 1px solid var(--live-line); border-radius: 14px; }
-.table { width: 100%; border-collapse: collapse; font-size: 0.85rem; display: table; }
-.table th, .table td { padding: 9px 12px; border: none; border-bottom: 1px solid var(--live-line); text-align: left; vertical-align: top; }
-.table th { position: sticky; top: 0; background: var(--live-chip); white-space: nowrap; }
-.table td { max-width: 280px; white-space: pre-wrap; word-break: break-word; }
-.table tr:nth-child(2n) { background: transparent; }
-
 @keyframes rise {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: none; }
@@ -209,7 +187,7 @@
   .hero, .card, .reveal { animation: none; }
 }
 
-/* 表单系统公开页 /f 复用本文件 */
+/* 字段错误与说明换行 */
 .fieldError { margin-top: 6px; color: #b0482c; font-size: 0.84rem; }
 .preLine { white-space: pre-line; }
 .heroNote { margin: 0; font-size: 0.84rem; opacity: 0.7; }
