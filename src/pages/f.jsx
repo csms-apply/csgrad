@@ -206,7 +206,7 @@ export default function FormPage() {
               </div>
               <h1 className={styles.title}>{form.title}</h1>
               {form.description && <p className={`${styles.sub} ${styles.preLine}`}>{form.description}</p>}
-              <p className={styles.meta}>带 <span className={styles.req}>*</span> 的题目为必填项</p>
+              <p className={styles.heroNote}>带 * 的题目为必填项</p>
             </header>
           )}
           {body}
