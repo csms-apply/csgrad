@@ -80,6 +80,8 @@ const config = {
             '**/datapoints submit',
             '**/live',
             '**/live-admin',
+            '**/f',
+            '**/forms-admin',
             '**/my-dp',
             '**/school-positioning',
             '**/school-positioning-result',

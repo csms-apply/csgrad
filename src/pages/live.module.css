@@ -208,3 +208,7 @@
 @media (prefers-reduced-motion: reduce) {
   .hero, .card, .reveal { animation: none; }
 }
+
+/* 表单系统公开页 /f 复用本文件 */
+.fieldError { margin-top: 6px; color: #b0482c; font-size: 0.84rem; }
+.preLine { white-space: pre-line; }
