@@ -2,7 +2,7 @@
 // 后端在 csgrad-backend/cloudflare-worker/src/forms.js 有同一份规则的校验，改题型时两边一起改。
 //
 // 表单结构：
-//   { id, title, description, status: 'open'|'closed', requireLogin, fields: Field[], createdAt, updatedAt }
+//   { id（后端随机生成，16 位）, title, description, status: 'open'|'closed', requireLogin, fields: Field[], createdAt, updatedAt }
 // Field：
 //   { id, type, label, help?, required?, options?: string[], showIf?: { field, equals } }
 // 回答：answers = { [fieldId]: string | string[] }（multi 为数组，其余为字符串）
@@ -23,8 +23,6 @@ export const FIELD_TYPES = [
 ];
 
 export const OPTION_TYPES = FIELD_TYPES.filter((t) => t.hasOptions).map((t) => t.type);
-
-export const FORM_ID_RE = /^[a-z0-9][a-z0-9-]{2,59}$/;
 
 export function newField(type = 'short') {
   return {

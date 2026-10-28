@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import {
-  FIELD_TYPES, OPTION_TYPES, FORM_ID_RE, newField, isVisible, formLink,
+  FIELD_TYPES, OPTION_TYPES, newField, isVisible, formLink,
   listForms, createForm, updateForm, deleteForm, listResponses, ADMIN_TOKEN_KEY,
 } from '@site/src/lib/forms/schema';
 import styles from './forms-admin.module.css';
@@ -10,7 +10,7 @@ import styles from './forms-admin.module.css';
 const time = (s) => (s ? new Date(s * 1000).toLocaleString('zh-CN', { hour12: false }) : '');
 const typeLabel = (t) => (FIELD_TYPES.find((x) => x.type === t) || {}).label || t;
 const cellText = (v) => (Array.isArray(v) ? v.join('、') : v == null ? '' : String(v));
-const errText = (err) => (err.status === 401 ? '令牌不正确' : err.status === 409 ? '这个 id 已被占用' : err.message);
+const errText = (err) => (err.status === 401 ? '令牌不正确' : err.message);
 
 function blankForm() {
   return { id: '', title: '', description: '', status: 'open', requireLogin: false, fields: [newField()] };
@@ -215,7 +215,6 @@ function Editor({ token, initial, isNew, onDone, onCancel }) {
   async function save() {
     setError('');
     if (!form.title.trim()) return setError('请填写表单标题');
-    if (!FORM_ID_RE.test(form.id)) return setError('表单 id 只能用小写字母、数字、横线，3-60 位');
     const bad = form.fields.findIndex((f) => !f.label.trim());
     if (bad >= 0) return setError(`第 ${bad + 1} 题没有填写${form.fields[bad].type === 'section' ? '分节标题' : '题目'}`);
     const badOpt = form.fields.findIndex((f) => OPTION_TYPES.includes(f.type) && f.options.some((o) => !o.trim()));
@@ -257,13 +256,10 @@ function Editor({ token, initial, isNew, onDone, onCancel }) {
       <div className={styles.editorGrid}>
         <div>
           <div className={`${styles.card} ${styles.headCard}`}>
-            <label className={styles.lbl}>表单 id</label>
-            <input className={styles.input} value={form.id} readOnly={!isNew} placeholder="例如 fall-2027-survey"
-              onChange={(e) => set({ id: e.target.value.trim() })} />
-            <div className={styles.hint}>
-              {isNew ? '小写字母、数字、横线，3-60 位，会出现在链接里' : '创建后不可修改'}
-              {isNew && form.id && !FORM_ID_RE.test(form.id) && <span className={styles.req}>（格式不对）</span>}
-            </div>
+            <label className={styles.lbl}>填写链接</label>
+            {isNew
+              ? <div className={styles.hint}>保存后自动生成随机链接，别人无法按规律猜到其他表单。</div>
+              : <input className={styles.input} value={formLink(form.id)} readOnly onFocus={(e) => e.target.select()} />}
             <label className={styles.lbl}>标题 <span className={styles.req}>*</span></label>
             <input className={`${styles.input} ${styles.titleInput}`} value={form.title} placeholder="表单标题"
               onChange={(e) => set({ title: e.target.value })} />
