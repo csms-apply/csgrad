@@ -127,7 +127,12 @@
      "kind": "hard_min"
     }
    },
-   "rounds": []
+   "rounds": [],
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "项目外部招生已暂停；系里不发减免，OGE 减免仅限美籍/绿卡，或在美高校在读且参加过科研预备项目的国际生",
+    "src": "https://oge.mit.edu/graduate-admissions/applications/application-fee-waiver"
+   }
   },
   {
    "id": "sss-mit-eecs",
@@ -180,6 +185,11 @@
      "cell": "130",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "美籍/绿卡可凭经济困难等申请减免；国际生须在美高校在读且参加过科研预备项目，12 月 1 日截止的项目须 11 月 18 日前提交",
+    "src": "https://oge.mit.edu/graduate-admissions/applications/application-fee-waiver"
    }
   },
   {
@@ -231,7 +241,12 @@
      "kind": "not_accepted"
     }
    },
-   "rounds": []
+   "rounds": [],
+   "waiver": {
+    "kind": "event",
+    "note": "CS 硕士 2027 秋季不招生；研究生院可凭线上工作坊/招生活动码或 Fulbright 等项目免费，国际生可用",
+    "src": "https://gradschool.princeton.edu/admission-onboarding/prepare/application-fee"
+   }
   },
   {
    "id": "sss-stanford-mscs",
@@ -284,6 +299,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "工学院困难减免只对国际博士个案审核，国际硕士不在列；GRE 减免限美籍，McNair 等项目成员可免",
+    "src": "https://gradadmissions.stanford.edu/apply/application-fee/school-based-waivers"
    }
   },
   {
@@ -337,6 +357,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "在 GSAS 申请系统费用栏回答经济困难问题，系统即时判定能否免费；未限国籍，SEAS 宣讲会不发减免码",
+    "src": "https://seas.harvard.edu/masters-computational-science-and-engineering/how-apply"
    }
   },
   {
@@ -390,6 +415,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "在 GSAS 申请系统费用栏回答经济困难问题，系统即时判定能否免费；未限国籍，SEAS 宣讲会不发减免码",
+    "src": "https://seas.harvard.edu/masters-data-science/how-apply"
    }
   },
   {
@@ -444,6 +474,11 @@
      "cell": "140",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "学院不发减免码；SOPHAS 减免需美国报税表或特定服务项目，国际类仅限最不发达国家公民，中国学生需全额缴费",
+    "src": "https://hsph.harvard.edu/admissions/applying-to-a-degree-program/application-requirements/"
    }
   },
   {
@@ -495,6 +530,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "人文与科学学院不给 MS 申请者发学校减免，统计系也不能免；仅项目成员或美籍 GRE 减免可用",
+    "src": "https://gradadmissions.stanford.edu/apply/application-fee/school-based-waivers"
    }
   },
   {
@@ -555,6 +595,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "人文与科学学院不给 MS 申请者发学校减免；只有 McNair 等指定项目成员或美籍 GRE 减免可免",
+    "src": "https://gradadmissions.stanford.edu/apply/application-fee/school-based-waivers"
    }
   },
   {
@@ -609,6 +654,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "国际生可凭经济困难证明申请减免，需先建申请账号再提交减免表，截止 1 月 2 日",
+    "src": "https://gsas.yale.edu/admissions/phdmasters-application-process/application-fees-fee-waivers"
    }
   },
   {
@@ -663,6 +713,11 @@
      "cell": "无",
      "kind": "none"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "在网申付款选项中提交经济困难减免申请，填写收支情况后由研究生院逐个审核；不限国籍，名额有限",
+    "src": "https://gradoffice.caltech.edu/admissions/faq-applicants"
    }
   },
   {
@@ -722,6 +777,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍",
+    "src": "https://www.cs.cmu.edu/academics/faq"
    }
   },
   {
@@ -779,6 +839,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "ICME 无系内减免，只走工学院流程；工学院仅对国际博士个案审核，未覆盖国际硕士",
+    "src": "https://icme.stanford.edu/academics-admission/admissions-application-faq"
    }
   },
   {
@@ -832,6 +897,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "EE 系自有困难减免表，国际生也可填，优先美籍低收入或第一代；须在 2026 年 11 月 16 日前提交",
+    "src": "https://ee.stanford.edu/admissions/ms/financial-assistance"
    }
   },
   {
@@ -885,6 +955,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "Siebel 减免仅限美国公民/绿卡（11/20 前提交优先）；研究生院不给国际生减免，国际生需全额缴费",
+    "src": "https://siebelschool.illinois.edu/admissions/graduate/applications-process-requirements/application-fee-waivers"
    }
   },
   {
@@ -947,6 +1022,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍",
+    "src": "https://lti.cmu.edu/academics/masters-programs/miis.html"
    }
   },
   {
@@ -1009,6 +1089,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍",
+    "src": "https://www.lti.cs.cmu.edu/academics/masters-programs/msaii.html"
    }
   },
   {
@@ -1071,6 +1156,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍",
+    "src": "https://www.cs.cmu.edu/academics/faq"
    }
   },
   {
@@ -1133,6 +1223,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍",
+    "src": "https://www.cs.cmu.edu/academics/faq"
    }
   },
   {
@@ -1195,6 +1290,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍",
+    "src": "https://www.cs.cmu.edu/academics/faq"
    }
   },
   {
@@ -1248,6 +1348,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "M.Eng.一般不减免申请费；经济困难减免仅限美国申请人（需 FAFSA），国际生需全额缴费",
+    "src": "https://www.duffield.cornell.edu/meng/frequently-asked-questions-meng/"
    }
   },
   {
@@ -1301,6 +1406,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅伯克利本科生/校友（不限国籍）或加州居民身份的 UC/CSU 校友免申请费；经济困难减免限美籍/绿卡，无宣讲会减免码",
+    "src": "https://funginstitute.berkeley.edu/programs-centers/full-time-program/how-to-apply/"
    }
   },
   {
@@ -1354,6 +1464,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅首次读研的美国公民/绿卡可凭经济困难证明申请减免，国际生需全额缴费",
+    "src": "https://graduate.utexas.edu/how-to-apply"
    }
   },
   {
@@ -1416,6 +1531,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍",
+    "src": "https://lti.cmu.edu/academics/masters-programs/mcds.html"
    }
   },
   {
@@ -1477,6 +1597,11 @@
      "cell": "120",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "event",
+    "note": "报名并参加 INI 官方宣讲会（近期线上场 11 月 12 日、11 月 18 日、12 月 3 日）即获申请费减免；国际生可用",
+    "src": "https://www.cmu.edu/ini/admissions/howtoapply.html"
    }
   },
   {
@@ -1531,6 +1656,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅美国公民/绿卡、McNair 等指定项目成员及 GT 交换合作校学生可减免；国际生不能申请经济困难减免",
+    "src": "https://grad.gatech.edu/admissions/application-fee-waivers"
    }
   },
   {
@@ -1584,6 +1714,11 @@
      "cell": "125",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院减免仅限美国公民/绿卡（低收入、退伍军人、SWE 等指定项目）；CS 系或有少量减免码，未公开，需邮件问系里",
+    "src": "https://gradschool.duke.edu/admissions/application-instructions/application-fee/"
    }
   },
   {
@@ -1638,6 +1773,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "CSE 曾给 2023 年宣讲会/招生活动参加者限量免申请费，本季未见续办；国际生不能申请经济困难减免",
+    "src": "https://www.cse.gatech.edu/fall-recruiting-event"
    }
   },
   {
@@ -1691,6 +1831,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "减免只给 McNair 等美国项目成员或有美国/加州助学金的困难申请人；活动减免限博士；国际生需全额付 $155",
+    "src": "https://grad.ucla.edu/admissions/research-requirements/"
    }
   },
   {
@@ -1745,6 +1890,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "CS 系按研究生院标准，只认 McNair 等项目或美国/加州助学金困难证明，不设例外；国际生需全额付 $155",
+    "src": "https://www.cs.ucla.edu/graduate-admission-frequently-asked-questions/"
    }
   },
   {
@@ -1807,6 +1957,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅美国公民/绿卡低收入、Penn 或美军关联、合作院校加速硕士可免；参加活动不减免，国际生需全额缴费",
+    "src": "https://gradadm.engineering.upenn.edu/faq/"
    }
   },
   {
@@ -1869,6 +2024,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅美国公民/绿卡低收入、Penn 或美军关联、合作院校加速硕士可免；参加活动不减免，国际生需全额缴费",
+    "src": "https://gradadm.engineering.upenn.edu/faq/"
    }
   },
   {
@@ -1931,6 +2091,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅美国公民/绿卡低收入、Penn 或美军关联、合作院校加速硕士可免；参加活动不减免，国际生需全额缴费",
+    "src": "https://gradadm.engineering.upenn.edu/faq/"
    }
   },
   {
@@ -1950,7 +2115,7 @@
     }
    ],
    "gre": "optional",
-   "fee": 75,
+   "fee": 81,
    "apply": "https://gradapply.wisc.edu/apply/",
    "site": "https://www.cs.wisc.edu/grad/programs/pmp/",
    "exam": {
@@ -1981,6 +2146,11 @@
      "cell": "125",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "CS 系不提供申请费减免；研究生院费用补助仅限美国公民/绿卡（McNair 等项目或低收入），国际生需全额缴费",
+    "src": "https://grad.wisc.edu/apply/fee-grant/"
    }
   },
   {
@@ -2035,6 +2205,11 @@
      "cell": "120",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院减免仅限美国公民/绿卡/无证学生；CSE 系减免只给国际 PhD，国际 MS 申请者需全额缴费",
+    "src": "https://grad.ucsd.edu/admissions/requirements/application-fee-and-fee-waiver/index.html"
    }
   },
   {
@@ -2088,6 +2263,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅获得或申请 McNair、NSF 等指定奖学金的美国公民/绿卡可减免，国际生需全额缴费",
+    "src": "https://www.ece.utexas.edu/academics/graduate/faq"
    }
   },
   {
@@ -2149,6 +2329,11 @@
      "cell": "115(读写105 理解115 产出90 会话95)",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "CMU 在校生/校友和 GEM 申请人自动免；其他人提交申请后可填表申请减免，标准未公开",
+    "src": "https://www.ece.cmu.edu/admissions/graduate-faq.html"
    }
   },
   {
@@ -2210,6 +2395,11 @@
      "cell": "120",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "event",
+    "note": "报名并参加 INI 官方宣讲会（近期线上场 11 月 12 日、11 月 18 日、12 月 3 日）即获申请费减免；国际生可用",
+    "src": "https://www.cmu.edu/ini/admissions/howtoapply.html"
    }
   },
   {
@@ -2264,6 +2454,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "CS 系不提供减免；研究生院仅对特定职业预备项目成员及凭 FAFSA 的美国学生免费，国际生需全额缴费",
+    "src": "https://gradschool.umd.edu/feewaiverinformation"
    }
   },
   {
@@ -2317,6 +2512,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "CSE 本轮不给硕士申请费减免；Rackham 经济困难减免仅限美国公民/绿卡，国际生需全额缴 $90",
+    "src": "https://cse.engin.umich.edu/academics/graduate/admissions/"
    }
   },
   {
@@ -2362,7 +2562,12 @@
      "kind": "recommended"
     }
    },
-   "rounds": []
+   "rounds": [],
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "MCIT 校内项目已停止招生；SEAS 仅对美国公民/绿卡低收入、Penn 或美军关联者免费，国际生无减免",
+    "src": "https://www.cis.upenn.edu/mcit/"
+   }
   },
   {
    "id": "a-yale-mscs",
@@ -2416,6 +2621,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "国际生可凭经济困难证明单独申请减免，需早于项目截止日、最晚 1 月 2 日提交，获批前先别缴费",
+    "src": "https://gsas.yale.edu/admissions/phdmasters-application-process/application-fees-fee-waivers"
    }
   },
   {
@@ -2470,6 +2680,11 @@
      "cell": "125",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "unknown",
+    "note": "官网仅列 $75 申请费，未提及任何减免政策",
+    "src": "https://www.cmu.edu/cmist/academics/graduate-programs/mits/mits-apply/index.html"
    }
   },
   {
@@ -2532,6 +2747,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "国际生仅在受奖学金/机构资助、领取资助或受战乱地区困难影响时可交材料申请减免；SEAS 宣讲会不发减免码",
+    "src": "https://apply.engineering.columbia.edu/register/feewaiverform"
    }
   },
   {
@@ -2585,6 +2805,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "Siebel 减免不覆盖校内 MCS；研究生院减免仅限校方员工、McNair、美军等，国际生需全额缴费",
+    "src": "https://grad.illinois.edu/application-fee"
    }
   },
   {
@@ -2651,6 +2876,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院经济困难及 McNair/PPIA 减免仅限美国公民/绿卡/无证件申请人，F-1/J-1 不可；ECE PMP 无宣讲会减免码",
+    "src": "https://grad.uw.edu/admission/application-fee-waivers/"
    }
   },
   {
@@ -2707,6 +2937,11 @@
      "cell": "130",
      "kind": "typical_range"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "MSE-SS 已并入 MSE；MSE 无早申优惠，固定 $100，经济困难者可在网申内申请减免",
+    "src": "https://www.cs.cmu.edu/academics/faq"
    }
   },
   {
@@ -2766,6 +3001,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "event",
+    "note": "参加 DSI 线上 Program Snapshot 宣讲会（11/11、12/10）可免申请费，国际生可参加；上季官网写明，本季页面未重申",
+    "src": "https://apply.engineering.columbia.edu/portal/info_sessions"
    }
   },
   {
@@ -2820,6 +3060,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "减免表单列出正获资助、受机构资助或受冲突地区影响的国际生可交证明申请；需先建申请账号；无宣讲会减免码",
+    "src": "https://www.engineering.columbia.edu/admissions-aid/graduate-admissions/how-apply/application-requirements"
    }
   },
   {
@@ -2874,6 +3119,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅 GT 本校 BS/MS 学生、交换合作校学生、美国公民/绿卡及指定项目成员可减免；国际生不能申请经济困难减免",
+    "src": "https://grad.gatech.edu/admissions/application-fee-waivers"
    }
   },
   {
@@ -2928,6 +3178,11 @@
      "cell": "130",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅美国公民/绿卡/DACA 且符合经济困难或指定项目条件可减免；NYU 本科生/校友自动免；其他国际生全额缴费",
+    "src": "https://gsas.nyu.edu/admissions/arc/application-policies"
    }
   },
   {
@@ -2978,6 +3233,11 @@
      "cell": "130",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院减免仅限美国公民/绿卡（经济困难、McNair 等项目、退伍军人、校职工），国际生不可申请，需全额缴费",
+    "src": "https://www.graddiv.ucsb.edu/admissions/how-complete-online-application/how-request-application-fee-waiver"
    }
   },
   {
@@ -3031,6 +3291,11 @@
      "cell": "120",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "只有美国公民、绿卡持有者和无证学生能申请减免（经济困难、退伍军人、研究生预备项目），国际生须全额缴费",
+    "src": "https://grad.ucsd.edu/admissions/requirements/application-fee-and-fee-waiver/index.html"
    }
   },
   {
@@ -3091,7 +3356,13 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
-   }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "申请系统内可提交经济困难减免表（截止前 3 天），未限国籍；部分项目成员/校友自动免费，宣讲会偶尔发减免",
+    "src": "https://cs.brown.edu/degrees/masters/faq/"
+   },
+   "fee": 100
   },
   {
    "id": "a-minus-cmu-sesv",
@@ -3150,6 +3421,11 @@
      "cell": "115(小分 90-115)",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "CMU 在校生/校友和 GEM 申请人自动免；其他人提交申请后可填表申请减免，标准未公开",
+    "src": "https://www.ece.cmu.edu/admissions/graduate-faq.html"
    }
   },
   {
@@ -3212,6 +3488,11 @@
      "cell": "125",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院减免仅限美国公民/绿卡；Pratt 宣讲会减免只用于 MEng 等 Pratt 项目，不含 MS；ECE 系或有少量减免码，需自行邮件询问",
+    "src": "https://gradschool.duke.edu/admissions/application-instructions/application-fee/"
    }
   },
   {
@@ -3266,6 +3547,11 @@
      "cell": "135",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "free",
+    "note": "Fall 2027 惠廷工学院硕士申请费 $75 全员免收，国际生无需申请减免，直接免费提交",
+    "src": "https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/mse-faqs/"
    }
   },
   {
@@ -3335,6 +3621,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "UChicago 在读/校友、Fulbright 或 PSD 暑研（如 PKU-UChicago 化学）参与者可邮件申请免除；硕士无经济困难减免，宣讲会不发码",
+    "src": "https://physicalsciences.uchicago.edu/academics/application-requirements/"
    }
   },
   {
@@ -3394,6 +3685,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "减免表单列出正获资助、受机构资助或受冲突地区影响的国际生可交证明申请；需先建申请账号；无宣讲会减免码",
+    "src": "https://www.engineering.columbia.edu/admissions-aid/graduate-admissions/how-apply/application-requirements"
    }
   },
   {
@@ -3447,6 +3743,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院只给全奖博士/研究型硕士或递交 FAFSA 者批困难减免，MPS 国际生无减免途径",
+    "src": "https://gradschool.cornell.edu/application-fee-waiver-instructions/"
    }
   },
   {
@@ -3524,6 +3825,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "none",
+    "note": "CS 系 FAQ 明确写明硕士申请不提供申请费减免，国际生需全额缴纳 $95",
+    "src": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions/faq.html"
    }
   },
   {
@@ -3586,6 +3892,11 @@
      "cell": "125",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "可邮件 engineering.gradinfo@nyu.edu 申请经济困难减免，不限国籍；参加部分线下宣讲（布鲁克林/印度）也送减免码",
+    "src": "https://engineering.nyu.edu/admissions/graduate/apply/requirements"
    }
   },
   {
@@ -3655,6 +3966,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "MCS 宣讲会不发减免码，校级免费周仅限博士；可邮件 gradapp@rice.edu 申请减免，但极少批准",
+    "src": "https://csweb.rice.edu/academics/graduate-programs/admission/graduate-program-application"
    }
   },
   {
@@ -3713,6 +4029,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "系里不发减免码，由 UW 研究生院统一处理；经济困难和 McNair/PPIA 减免仅限美国公民/绿卡，F-1/J-1 申请人不可申请",
+    "src": "https://grad.uw.edu/prospective-students/how-to-apply/application-fee-waivers/"
    }
   },
   {
@@ -3775,6 +4096,11 @@
      "cell": "135",
      "kind": "recommended"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅美国公民/绿卡低收入、Penn 或美军关联、合作院校加速硕士可免；参加活动不减免，国际生需全额缴费",
+    "src": "https://gradadm.engineering.upenn.edu/faq/"
    }
   },
   {
@@ -3845,6 +4171,11 @@
      "cell": "120(另有小分)",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "free",
+    "note": "Heinz 学院不收申请费，所有申请人（含国际生）均可免费申请",
+    "src": "https://www.heinz.cmu.edu/programs/information-systems-management-master/admissions-how-to-apply"
    }
   },
   {
@@ -3914,6 +4245,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "event",
+    "note": "参加 Cornell Tech 线上宣讲会、校园参观或旁听课，会后邮件发减免说明；国际生可用",
+    "src": "https://tech.cornell.edu/admissions/admissions-faqs/"
    }
   },
   {
@@ -3968,6 +4304,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅美国公民/绿卡的低收入（Pell）或 McNair 学者可免 $65；国际生 $90 不可减免，CSE 也明确不代缴",
+    "src": "https://catalog.tamu.edu/graduate/admission/"
    }
   },
   {
@@ -4029,6 +4370,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "none",
+    "note": "项目官网明确写明 MSWE 不适用申请费减免，国际生需全额缴纳 $155",
+    "src": "https://mswe.ics.uci.edu/how-to-apply/"
    }
   },
   {
@@ -4091,6 +4437,11 @@
      "cell": "120",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "国际生可申请经济困难减免（需证明低收入，审核约 5 个工作日）；上一轮系里宣讲会曾发减免码，本轮暂未公布",
+    "src": "https://gs.emory.edu/admissions/fee-waivers"
    }
   },
   {
@@ -4149,6 +4500,11 @@
      "cell": "110(110)",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院仅对有书面经济困难证明者个案减免，且明确不向国际申请人提供；CSC 无自有减免，国际生需全额缴费",
+    "src": "https://ncsu.service-now.com/gradschool?id=kb_article&sys_id=ac735ef083868b50a35714326daad360"
    }
   },
   {
@@ -4211,6 +4567,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "free",
+    "note": "Align 项目不收申请费，所有申请人（含国际生）均无需缴费",
+    "src": "https://www.khoury.northeastern.edu/apply/align-how-to-apply/"
    }
   },
   {
@@ -4276,6 +4637,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "none",
+    "note": "Khoury 学院明确不提供申请费减免，需缴 $100；同一账号加申其他项目不再收费",
+    "src": "https://www.khoury.northeastern.edu/apply/masters-apply/masters-admissions-questions/"
    }
   },
   {
@@ -4336,6 +4702,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "none",
+    "note": "UCI 研究生院减免仅限美国公民/绿卡且只适用于州资助项目，MCS 属自费项目，国际生需全额缴费",
+    "src": "https://grad.uci.edu/helparticles/application-fees-eligibility-for-waivers-2"
    }
   },
   {
@@ -4396,6 +4767,11 @@
      "cell": "—",
      "kind": "not_stated"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "ECE 没有自己的减免；研究生院不给国际生减免，Grainger 仅给乌克兰籍等高危学者少量减免",
+    "src": "https://grad.illinois.edu/application-fee"
    }
   },
   {
@@ -4458,6 +4834,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅 McNair、GRE 减费资格、美国少数族裔项目成员及 UMass/五校在读本科生可免；硕士宣讲会不发减免码，国际生需交 $90",
+    "src": "https://www.umass.edu/graduate/apply/how-apply"
    }
   },
   {
@@ -4516,6 +4897,11 @@
      "cell": "不接受",
      "kind": "not_accepted"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "两个 Viterbi 项目只付一次 $120（第二个向研招办要免费码）；首尔/土耳其宣讲会参会可免，中国场未提",
+    "src": "https://viterbigradadmission.usc.edu/programs/masters/faq/"
    }
   },
   {
@@ -4569,6 +4955,11 @@
      "cell": "105",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院不发减免，仅 McNair 学者和在读 USU Honors 学生免费；计算机系未公布困难减免，国际生需全额缴费",
+    "src": "https://gradschool.usu.edu/admissions/policies.php"
    }
   },
   {
@@ -4634,6 +5025,11 @@
      "cell": "105",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "free",
+    "note": "工程学院对 2027 春季和秋季所有新 MS 申请人免申请费，国际生同样适用",
+    "src": "https://coe.northeastern.edu/academics-experiential-learning/graduate-school-of-engineering/graduate-admissions/"
    }
   },
   {
@@ -4699,6 +5095,11 @@
      "cell": "105",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "free",
+    "note": "工程学院对 2027 春季和秋季所有新 MS 申请人免申请费，国际生同样适用",
+    "src": "https://coe.northeastern.edu/academics-experiential-learning/graduate-school-of-engineering/graduate-admissions/"
    }
   },
   {
@@ -4760,6 +5161,11 @@
      "cell": "110",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "仅本校 B.S./M.S. 本科生和在读证书项目学生免申请费；宣讲会无减免码，国际生需交 $100",
+    "src": "https://www.scu.edu/bulletin/graduate/school-of-engineering/chapter-3-admissions.html"
    }
   },
   {
@@ -4821,6 +5227,11 @@
      "cell": "115",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "international",
+    "note": "iSchool 有少量减免，国际生可申请：先建好申请再填表陈述理由，MSIM 截止 11/3，拿到减免码前不要提交",
+    "src": "https://choose.illinois.edu/register/iSchool_fee_waiver_app"
    }
   },
   {
@@ -4882,6 +5293,11 @@
      "cell": "120(写作/阅读 120)",
      "kind": "hard_min"
     }
+   },
+   "waiver": {
+    "kind": "domestic_only",
+    "note": "研究生院减免仅限美国公民/绿卡（需参加预备项目或招生活动），12/4 截止；国际生需全额缴费",
+    "src": "https://grad.umn.edu/admissions/application-instructions/application-fees/gsdo-application-fee-waiver"
    }
   }
  ],
@@ -5161,6 +5577,75 @@
   "补充材料可截止后补交": "Supplements accepted after deadline",
   "补材料限截止后 2 周": "Supplements due within 2 weeks after deadline",
   "视剩余名额审理": "Reviewed as space allows",
-  "部分可免 · 数学课 B 以上免": "Some waivers · waived with B or higher in math"
+  "部分可免 · 数学课 B 以上免": "Some waivers · waived with B or higher in math",
+  "项目外部招生已暂停；系里不发减免，OGE 减免仅限美籍/绿卡，或在美高校在读且参加过科研预备项目的国际生": "External admission is paused; CCSE issues no waivers, and OGE waivers cover only US citizens/PRs or internationals enrolled at a US college who joined a research-prep program.",
+  "美籍/绿卡可凭经济困难等申请减免；国际生须在美高校在读且参加过科研预备项目，12 月 1 日截止的项目须 11 月 18 日前提交": "US citizens/PRs may request a waiver (e.g. hardship); internationals qualify only if enrolled at a US college and in a research-prep program; requests are due Nov 18 for Dec 1 deadlines.",
+  "CS 硕士 2027 秋季不招生；研究生院可凭线上工作坊/招生活动码或 Fulbright 等项目免费，国际生可用": "CS master's is not admitting for Fall 2027; Graduate School waives the fee for virtual-workshop/recruiting-event codes or listed programs (e.g. Fulbright), open to internationals.",
+  "工学院困难减免只对国际博士个案审核，国际硕士不在列；GRE 减免限美籍，McNair 等项目成员可免": "SoE hardship waiver reviews international applicants only for PhD programs; GRE-based waiver is US-only; members of listed programs (McNair etc.) qualify.",
+  "在 GSAS 申请系统费用栏回答经济困难问题，系统即时判定能否免费；未限国籍，SEAS 宣讲会不发减免码": "Answer the financial-hardship questions in the GSAS application's fee section for an instant waiver decision; no citizenship limit stated, SEAS info sessions give no code.",
+  "学院不发减免码；SOPHAS 减免需美国报税表或特定服务项目，国际类仅限最不发达国家公民，中国学生需全额缴费": "Harvard Chan gives no waivers or coupon codes. SOPHAS waivers need a US tax return, service-program membership, or citizenship of a UN least-developed country, so Chinese applicants pay in full.",
+  "人文与科学学院不给 MS 申请者发学校减免，统计系也不能免；仅项目成员或美籍 GRE 减免可用": "H&S school-based waivers are not available to MS applicants and Statistics cannot waive the fee; only program-participation or US-only GRE waivers apply.",
+  "人文与科学学院不给 MS 申请者发学校减免；只有 McNair 等指定项目成员或美籍 GRE 减免可免": "H&S school-based waivers exclude MS applicants; only members of listed programs (McNair etc.) or US-only GRE fee-reduction holders can get a waiver.",
+  "国际生可凭经济困难证明申请减免，需先建申请账号再提交减免表，截止 1 月 2 日": "International applicants may request a financial-hardship waiver via a separate form after starting the application; deadline January 2.",
+  "在网申付款选项中提交经济困难减免申请，填写收支情况后由研究生院逐个审核；不限国籍，名额有限": "Request a financial-hardship waiver under Payment Options in the online application (income/expenses required); reviewed case by case by the Graduate Office, no citizenship limit, limited number.",
+  "2026 年 11 月 18 日前提交，申请费由 $100 降为 $80；经济困难者可在网申内申请减免，未限国籍": "Submitting by Nov 18, 2026 cuts the fee from $100 to $80; applicants with financial hardship can request a waiver inside the application, with no citizenship limit stated.",
+  "ICME 无系内减免，只走工学院流程；工学院仅对国际博士个案审核，未覆盖国际硕士": "ICME grants no departmental waivers beyond SoE; the SoE hardship waiver reviews international applicants only for PhD programs and does not cover international MS applicants.",
+  "EE 系自有困难减免表，国际生也可填，优先美籍低收入或第一代；须在 2026 年 11 月 16 日前提交": "EE's own hardship waiver form is open to all PhD/MS applicants including internationals, with preference for low-income or first-gen US applicants; submit by Nov 16, 2026.",
+  "Siebel 减免仅限美国公民/绿卡（11/20 前提交优先）；研究生院不给国际生减免，国际生需全额缴费": "Siebel's MS/PhD waivers are only for US citizens/permanent residents (priority by Nov 20); the Graduate College gives no waivers to international applicants, who pay in full.",
+  "M.Eng.一般不减免申请费；经济困难减免仅限美国申请人（需 FAFSA），国际生需全额缴费": "Fee waivers are generally not available for M.Eng.; financial-hardship waivers are only for domestic (FAFSA) applicants, so internationals pay in full.",
+  "仅伯克利本科生/校友（不限国籍）或加州居民身份的 UC/CSU 校友免申请费；经济困难减免限美籍/绿卡，无宣讲会减免码": "Fee waived only for Berkeley undergrads/alumni (any citizenship) or California-resident UC/CSU alumni; need-based waiver is US citizens/PR only; no info-session code.",
+  "仅首次读研的美国公民/绿卡可凭经济困难证明申请减免，国际生需全额缴费": "Only US citizens/permanent residents seeking a first graduate degree can request a financial-need waiver; international applicants pay in full.",
+  "报名并参加 INI 官方宣讲会（近期线上场 11 月 12 日、11 月 18 日、12 月 3 日）即获申请费减免；国际生可用": "Register for and attend an official INI info session (upcoming online sessions: Nov 12, Nov 18, Dec 3, 2026) to receive an application fee waiver; open to international applicants.",
+  "仅美国公民/绿卡、McNair 等指定项目成员及 GT 交换合作校学生可减免；国际生不能申请经济困难减免": "Waivers only for US citizens/PR, listed programs (McNair, GEM, etc.) and GT exchange-partner schools; no hardship waivers for international applicants.",
+  "研究生院减免仅限美国公民/绿卡（低收入、退伍军人、SWE 等指定项目）；CS 系或有少量减免码，未公开，需邮件问系里": "Graduate School waivers are limited to US citizens/PRs (low-income, veterans, listed programs like SWE); the CS department may hold a few unpublicized codes later in fall, so ask dgs@cs.duke.edu.",
+  "CSE 曾给 2023 年宣讲会/招生活动参加者限量免申请费，本季未见续办；国际生不能申请经济困难减免": "CSE gave limited waivers to attendees of its 2023 info sessions and recruiting event, but there is no sign it runs this cycle; no hardship waivers for internationals.",
+  "减免只给 McNair 等美国项目成员或有美国/加州助学金的困难申请人；活动减免限博士；国际生需全额付 $155": "Waivers only cover members of McNair-type US programs or need-based applicants with US/California aid; event waivers are PhD-only; internationals pay the full $155.",
+  "CS 系按研究生院标准，只认 McNair 等项目或美国/加州助学金困难证明，不设例外；国际生需全额付 $155": "CS follows Graduate Division rules: waivers only for McNair-type program members or need with US/California aid, no exceptions; internationals pay the full $155.",
+  "仅美国公民/绿卡低收入、Penn 或美军关联、合作院校加速硕士可免；参加活动不减免，国际生需全额缴费": "Waivers only for low-income US citizens/PRs, Penn or US military affiliates, and partner-school accelerated master's; no waiver for event attendance, so internationals pay in full.",
+  "CS 系不提供申请费减免；研究生院费用补助仅限美国公民/绿卡（McNair 等项目或低收入），国际生需全额缴费": "The CS department offers no fee waivers. Graduate School fee grants are only for US citizens and permanent residents (McNair-type pipeline programs or low-income background), so international applicants pay the full fee.",
+  "研究生院减免仅限美国公民/绿卡/无证学生；CSE 系减免只给国际 PhD，国际 MS 申请者需全额缴费": "Graduate Division waivers are only for US citizens, permanent residents and undocumented applicants; the CSE department waiver is for international PhD applicants only, so international MS applicants pay the full fee.",
+  "仅获得或申请 McNair、NSF 等指定奖学金的美国公民/绿卡可减免，国际生需全额缴费": "Only US citizens/permanent residents who hold or applied for named fellowships (McNair, NSF, GEM, etc.) get a waiver; international applicants pay in full.",
+  "CMU 在校生/校友和 GEM 申请人自动免；其他人提交申请后可填表申请减免，标准未公开": "Waived automatically for CMU students/alumni and GEM Fellowship applicants; others can request a waiver through a form after submitting, criteria not published.",
+  "CS 系不提供减免；研究生院仅对特定职业预备项目成员及凭 FAFSA 的美国学生免费，国际生需全额缴费": "CS dept offers no waivers; Graduate School waives only for members of certain prep programs and FAFSA-based domestic FreeApp, so internationals pay in full.",
+  "CSE 本轮不给硕士申请费减免；Rackham 经济困难减免仅限美国公民/绿卡，国际生需全额缴 $90": "CSE offers no fee waivers to Master's applicants this cycle; Rackham's need-based waiver is limited to US citizens/PRs, so internationals pay the full $90.",
+  "MCIT 校内项目已停止招生；SEAS 仅对美国公民/绿卡低收入、Penn 或美军关联者免费，国际生无减免": "On-campus MCIT no longer accepts applications; SEAS waives fees only for low-income US citizens/PRs and Penn or US military affiliates, none for internationals.",
+  "国际生可凭经济困难证明单独申请减免，需早于项目截止日、最晚 1 月 2 日提交，获批前先别缴费": "International applicants may request a financial-hardship waiver with documentation, separately and before the program deadline (form closes Jan 2); don't pay until you hear back.",
+  "官网仅列 $75 申请费，未提及任何减免政策": "The official page lists a $75 fee and says nothing about waivers.",
+  "国际生仅在受奖学金/机构资助、领取资助或受战乱地区困难影响时可交材料申请减免；SEAS 宣讲会不发减免码": "International applicants can request a waiver only if sponsored by a fellowship/organization, receiving financial aid, or affected by conflict-area hardship; SEAS info sessions give no waiver codes.",
+  "Siebel 减免不覆盖校内 MCS；研究生院减免仅限校方员工、McNair、美军等，国际生需全额缴费": "Siebel's waivers do not cover the on-campus MCS; Graduate College waivers are only for UIUC staff, McNair, US military and similar groups, so international applicants pay in full.",
+  "研究生院经济困难及 McNair/PPIA 减免仅限美国公民/绿卡/无证件申请人，F-1/J-1 不可；ECE PMP 无宣讲会减免码": "Graduate School financial-need and McNair/PPIA waivers are only for US citizens/PR/undocumented applicants, not F-1/J-1; ECE PMP offers no info-session waiver code.",
+  "MSE-SS 已并入 MSE；MSE 无早申优惠，固定 $100，经济困难者可在网申内申请减免": "MSE-SS is now a concentration within the MSE; the MSE has no early discount ($100), but applicants with financial hardship can request a waiver in the application.",
+  "参加 DSI 线上 Program Snapshot 宣讲会（11/11、12/10）可免申请费，国际生可参加；上季官网写明，本季页面未重申": "Attending DSI's online MS Data Science Program Snapshot (Nov 11 or Dec 10, 2026) earned a fee waiver per DSI's Fall 2026 admissions page (since removed); open to internationals, confirm at the session.",
+  "减免表单列出正获资助、受机构资助或受冲突地区影响的国际生可交证明申请；需先建申请账号；无宣讲会减免码": "The waiver form lists international applicants on financial aid, sponsored by an organization, or affected by conflict as eligible with documents; create an application account first; no info-session code.",
+  "仅 GT 本校 BS/MS 学生、交换合作校学生、美国公民/绿卡及指定项目成员可减免；国际生不能申请经济困难减免": "Waivers only for GT BS/MS students, GT exchange-partner schools, US citizens/PR and listed programs; no hardship waivers for international applicants.",
+  "仅美国公民/绿卡/DACA 且符合经济困难或指定项目条件可减免；NYU 本科生/校友自动免；其他国际生全额缴费": "GSAS waivers require US citizenship/PR/DACA plus hardship or listed-program criteria; NYU undergrads/alumni are waived automatically; other international applicants pay in full.",
+  "研究生院减免仅限美国公民/绿卡（经济困难、McNair 等项目、退伍军人、校职工），国际生不可申请，需全额缴费": "Graduate Division waivers (financial need, McNair-type programs, US military, UCSB staff) are for US citizens/PRs only; international applicants pay the full fee.",
+  "只有美国公民、绿卡持有者和无证学生能申请减免（经济困难、退伍军人、研究生预备项目），国际生须全额缴费": "Only US citizens, permanent residents and undocumented students can request a waiver (hardship, military, grad-prep programs); international applicants pay in full.",
+  "申请系统内可提交经济困难减免表（截止前 3 天），未限国籍；部分项目成员/校友自动免费，宣讲会偶尔发减免": "High-need applicants can file the in-application fee waiver form (no citizenship limit stated, due 3 days before the deadline); members/alumni of listed programs are waived automatically; info sessions occasionally offer waivers.",
+  "研究生院减免仅限美国公民/绿卡；Pratt 宣讲会减免只用于 MEng 等 Pratt 项目，不含 MS；ECE 系或有少量减免码，需自行邮件询问": "Graduate School waivers are limited to US citizens/PRs; Pratt's live-event waiver covers Pratt programs like the MEng, not this MS; ECE may hold a few department codes, so email ecemastersteam@duke.edu.",
+  "Fall 2027 惠廷工学院硕士申请费 $75 全员免收，国际生无需申请减免，直接免费提交": "The $75 fee is waived for all Fall 2027 Whiting School master's applicants, international included; no waiver request needed.",
+  "UChicago 在读/校友、Fulbright 或 PSD 暑研（如 PKU-UChicago 化学）参与者可邮件申请免除；硕士无经济困难减免，宣讲会不发码": "UChicago students/alumni, Fulbright scholars, or past PSD summer-program participants (e.g. PKU-UChicago Chemistry) can request a waiver by emailing mastersadmissions@uchicago.edu; MS applicants get no hardship waiver and info sessions give no code.",
+  "研究生院只给全奖博士/研究型硕士或递交 FAFSA 者批困难减免，MPS 国际生无减免途径": "The Graduate School grants hardship waivers only for fully funded PhD/research master's or FAFSA filers; international MPS applicants have no waiver route.",
+  "CS 系 FAQ 明确写明硕士申请不提供申请费减免，国际生需全额缴纳 $95": "The CS department FAQ states application fee waivers are not available for master's applicants; internationals pay the full $95.",
+  "可邮件 engineering.gradinfo@nyu.edu 申请经济困难减免，不限国籍；参加部分线下宣讲（布鲁克林/印度）也送减免码": "Anyone, international applicants included, can email engineering.gradinfo@nyu.edu to request a financial-hardship waiver; some in-person events (Brooklyn, India) also give attendees a waiver.",
+  "MCS 宣讲会不发减免码，校级免费周仅限博士；可邮件 gradapp@rice.edu 申请减免，但极少批准": "MCS info sessions give no waiver code and Rice's Fee Waiver Weeks are PhD-only; applicants may email gradapp@rice.edu to request a waiver, but waivers are rarely granted.",
+  "系里不发减免码，由 UW 研究生院统一处理；经济困难和 McNair/PPIA 减免仅限美国公民/绿卡，F-1/J-1 申请人不可申请": "The department issues no waivers; the UW Graduate School's need-based and McNair/PPIA waivers are limited to US citizens/PR, and F-1/J-1 applicants are ineligible.",
+  "Heinz 学院不收申请费，所有申请人（含国际生）均可免费申请": "Heinz College charges no application fee, so every applicant, including international ones, applies free.",
+  "参加 Cornell Tech 线上宣讲会、校园参观或旁听课，会后邮件发减免说明；国际生可用": "Attend a Cornell Tech info session (virtual on Zoom), campus tour or class visit and you get an email on how to claim a fee waiver; open to international applicants.",
+  "仅美国公民/绿卡的低收入（Pell）或 McNair 学者可免 $65；国际生 $90 不可减免，CSE 也明确不代缴": "Only US citizens/PR who are low-income (Pell) or McNair Scholars can get the $65 fee waived; the $90 international fee is never waived and CSE says it cannot waive or pay it.",
+  "项目官网明确写明 MSWE 不适用申请费减免，国际生需全额缴纳 $155": "The MSWE site states the program is not eligible for application fee waivers; international applicants pay the full $155.",
+  "国际生可申请经济困难减免（需证明低收入，审核约 5 个工作日）；上一轮系里宣讲会曾发减免码，本轮暂未公布": "International applicants may request a financial-hardship waiver (proof of low income, about 5 business days to review); last cycle the department gave waiver codes at info sessions, none announced yet this cycle.",
+  "研究生院仅对有书面经济困难证明者个案减免，且明确不向国际申请人提供；CSC 无自有减免，国际生需全额缴费": "The Graduate School waives the fee case by case only for documented financial need, and it explicitly offers no fee waivers to international applicants. CSC has no waiver of its own, so international applicants pay the full fee.",
+  "Align 项目不收申请费，所有申请人（含国际生）均无需缴费": "The Align MS program charges no application fee for any applicant, international applicants included.",
+  "Khoury 学院明确不提供申请费减免，需缴 $100；同一账号加申其他项目不再收费": "Khoury College states it does not provide application fee waivers; the $100 fee is charged only for the first program on one account.",
+  "UCI 研究生院减免仅限美国公民/绿卡且只适用于州资助项目，MCS 属自费项目，国际生需全额缴费": "UCI Graduate Division waivers are limited to US citizens/PRs in state-supported programs; MCS is self-supporting, so international applicants pay in full.",
+  "ECE 没有自己的减免；研究生院不给国际生减免，Grainger 仅给乌克兰籍等高危学者少量减免": "ECE has no waiver of its own; the Graduate College gives no waivers to international applicants, and Grainger's few Scholars at Risk waivers target Ukrainian citizens and similar cases.",
+  "仅 McNair、GRE 减费资格、美国少数族裔项目成员及 UMass/五校在读本科生可免；硕士宣讲会不发减免码，国际生需交 $90": "Waivers only for McNair, GRE fee-reduction holders, US underrepresented-group program members and current UMass/Five College undergrads; MS info sessions give no code, internationals pay $90.",
+  "两个 Viterbi 项目只付一次 $120（第二个向研招办要免费码）；首尔/土耳其宣讲会参会可免，中国场未提": "Two Viterbi programs cost one $120 fee: request a free code from Graduate Admission for the second. Attendees of the Seoul and Türkiye info sessions get waivers; the China sessions mention none.",
+  "研究生院不发减免，仅 McNair 学者和在读 USU Honors 学生免费；计算机系未公布困难减免，国际生需全额缴费": "The Graduate School grants no waivers except to McNair Scholars and active USU Honors students; Computing lists no hardship waiver, so international applicants pay in full.",
+  "工程学院对 2027 春季和秋季所有新 MS 申请人免申请费，国际生同样适用": "The College of Engineering waives the application fee for all new MS applicants for Spring 2027 and Fall 2027, international applicants included.",
+  "仅本校 B.S./M.S. 本科生和在读证书项目学生免申请费；宣讲会无减免码，国际生需交 $100": "Only current SCU undergrads in the B.S./M.S. track and currently enrolled certificate students get the fee waived; info sessions offer no waiver code, so international applicants pay $100.",
+  "iSchool 有少量减免，国际生可申请：先建好申请再填表陈述理由，MSIM 截止 11/3，拿到减免码前不要提交": "The iSchool offers a few merit/need waivers that international applicants can request: create the application first, then file the form by Nov 3 for MSIM, and don't submit before getting the code.",
+  "研究生院减免仅限美国公民/绿卡（需参加预备项目或招生活动），12/4 截止；国际生需全额缴费": "Graduate School waivers (GSDO/Big Ten) are only for US citizens/PRs from prep programs or recruiting events, due Dec 4; internationals pay full fee."
  }
 }
