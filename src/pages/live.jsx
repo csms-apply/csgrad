@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import { SITE_API_BASE } from '@site/src/lib/positioning/api';
 import { SEASONS, TOPICS, MAJORS, DIRECTIONS, EXPERIENCES, CONSENTS } from '@site/src/lib/live/options';
+import SignInButtons from '@site/src/lib/auth/SignInButtons';
+import { startOAuth } from '@site/src/lib/auth/oauth';
 import styles from './live.module.css';
 
 const EMPTY = {
@@ -18,6 +20,14 @@ const ERRORS = {
   missing_profile: '申请现场分析需要填写完整背景（带 * 的题目）',
   invalid_resume_url: '简历链接需要以 http:// 或 https:// 开头',
 };
+
+const SIGN_IN_TEXT = { signInGoogle: '使用 Google 登录', signInGitHub: '使用 GitHub 登录' };
+
+// 已提交的报名记录 → 表单字段（后端把 data JSON 展平后返回）
+function fromSignup(s) {
+  const pickKeys = Object.keys(EMPTY).filter((k) => s[k] !== undefined && s[k] !== null);
+  return { ...EMPTY, ...Object.fromEntries(pickKeys.map((k) => [k, s[k]])), wantsAnalysis: Boolean(s.wantsAnalysis) };
+}
 
 function Chips({ options, value, onChange, multi }) {
   const selected = multi ? value : [value];
@@ -58,8 +68,28 @@ function Field({ label, required, hint, children }) {
 
 export default function LivePage() {
   const [form, setForm] = useState(EMPTY);
+  const [me, setMe] = useState(undefined); // undefined 加载中 | null 未登录 | { accountEmail, signup }
   const [status, setStatus] = useState('idle'); // idle | sending | done
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    fetch(`${SITE_API_BASE}/api/live-signup/me`, { credentials: 'include' })
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((data) => {
+        setMe(data);
+        if (data) setForm(data.signup ? fromSignup(data.signup) : { ...EMPTY, email: data.accountEmail });
+      });
+  }, []);
+
+  async function signIn(provider) {
+    setError('');
+    try {
+      await startOAuth(provider);
+    } catch (err) {
+      setError(`登录失败：${err.message}`);
+    }
+  }
   const set = (key) => (v) => setForm((f) => ({ ...f, [key]: v && v.target ? v.target.value : v }));
 
   async function submit(e) {
@@ -72,9 +102,14 @@ export default function LivePage() {
     try {
       const r = await fetch(`${SITE_API_BASE}/api/live-signup`, {
         method: 'POST',
+        credentials: 'include',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       });
+      if (r.status === 401) {
+        setMe(null);
+        throw new Error('登录已过期，请重新登录后提交');
+      }
       const json = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(ERRORS[json.error] || '提交失败，请稍后重试');
       setStatus('done');
@@ -105,11 +140,22 @@ export default function LivePage() {
             </ul>
           </header>
 
-          {status === 'done' ? (
+          {me === undefined ? (
+            <section className={styles.card}><p className={styles.intro}>加载中…</p></section>
+          ) : me === null ? (
+            <section className={styles.card}>
+              <h2 className={styles.doneTitle}>登录后报名</h2>
+              <p className={styles.intro}>
+                报名需要先用 Google 或 GitHub 账号登录。登录后可以随时回来修改报名信息。
+              </p>
+              <SignInButtons t={SIGN_IN_TEXT} onSignIn={signIn} variant="group" />
+              {error && <div className={styles.error} role="alert">{error}</div>}
+            </section>
+          ) : status === 'done' ? (
             <section className={styles.card}>
               <h2 className={styles.doneTitle}>报名成功 🎉</h2>
               <p className={styles.sub}>
-                直播时间和观看链接会发到 <b>{form.email}</b>。想修改信息的话，用同一个邮箱重新提交即可。
+                直播时间和观看链接会发到 <b>{form.email}</b>。想修改信息的话，重新打开本页修改后再提交即可。
               </p>
             </section>
           ) : (
@@ -117,9 +163,10 @@ export default function LivePage() {
               <p className={styles.intro}>
                 填写报名信息，获取直播通知。希望参加现场选校分析的同学，可以补充个人申请背景。带 * 的题目为必填项。
               </p>
+              {me.signup && <p className={styles.notice}>你已经报过名了，下面是上次填写的内容，修改后重新提交即可。</p>}
 
               <h2 className={styles.section}><span>01</span>基本报名信息</h2>
-              <Field label="邮箱地址" required hint="用于发送直播时间、观看链接和相关通知，无需 Google 登录。">
+              <Field label="邮箱地址" required hint="用于发送直播时间、观看链接和相关通知，默认使用登录邮箱，可修改。">
                 <input className={styles.input} type="email" required placeholder="yourname@example.com"
                   value={form.email} onChange={set('email')} autoComplete="email" />
               </Field>

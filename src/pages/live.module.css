@@ -170,6 +170,13 @@
 .submit:disabled { opacity: 0.6; cursor: wait; }
 
 .doneTitle { margin: 0 0 8px; }
+.notice {
+  margin: 12px 0 0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(201, 169, 110, 0.14);
+  font-size: 0.88rem;
+}
 
 /* ---------- 后台 ---------- */
 .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 14px 0; }
