@@ -66,7 +66,8 @@ function markdown(source, preserveAnchors = true, sourceFile = null){
   for(const child of n.children||[])walk(child);
  }
  walk(tree);
- if(sourceFile){
+ // Docusaurus partials (_-prefixed) reject front matter, so they get no generated title/description.
+ if(sourceFile&&!/(^|[\\/])_/.test(path.relative(path.join(root,'docs'),sourceFile))){
   const yaml=tree.children.find(n=>n.type==='yaml');
   const titleNode=tree.children.find(n=>n.type==='heading'&&n.depth===1);
   const titleLine=yaml?.value.match(/^title:\s*(.+)$/m)?.[1];
