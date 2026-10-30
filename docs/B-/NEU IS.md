@@ -1,10 +1,10 @@
 ---
 description: "NEU IS 的软件开发方向适合怎样的转码申请者？这里介绍不同校区、课程、Co-op 与毕业安排，并整理实习和全职案例。"
 title: "NEU IS 申请指南：课程与项目体验"
-sidebar_label: "Neu IS"
+sidebar_label: "NEU IS"
 ---
 
-# Neu IS
+# NEU IS
 
 ## 项目介绍
 转码项目，可以coop，跟mscs差不多，i20是se，科班title
@@ -51,3 +51,21 @@ sidebar_label: "Neu IS"
     - UX Design / Software Development / Data Analytics 等
   - NEU 多数课程给分比较水，非常适合一边上课一边刷题找工，比如 Mobile           
   Application 5520、Computer Networks 5700 等都是公认水课
+
+## IS Bridge（非理工背景）
+
+Bridge 是 IS 的另一个版本，官方名称 Master of Science in Information Systems—Bridge，面向本科是非 STEM、非技术类专业的学生。2026-2027 学年 catalog 里，波士顿、阿灵顿、波特兰、西雅图、硅谷、多伦多、温哥华 7 个校区和线上列了 Bridge 版本。
+
+波士顿、阿灵顿、波特兰、西雅图、硅谷 5 个美国校区要求一样，和普通 IS 的区别主要在学分和必修课：
+
+- 总共 36 学分，选 Co-op 是 37 学分（多出的 1 学分是 ENCP 6000）；普通 IS 是 32 学分（Co-op 33）
+- 必修核心课 12 学分：INFO 5001 Application Modeling and Design、INFO 5100（配 INFO 5101 Lab）、INFO 6215 Business Analysis and Information Engineering，每门都要拿到 C 及以上
+- 限选课 12 学分，从 DAMG 6210 数据库、INFO 6205 Program Structure and Algorithms、INFO 6150 Web Design and User Experience Engineering、INFO 7245 Agile Software Development 等课里选
+- 剩下 12 学分自由选修，主要从 CSYE（CSYE 6220 除外）、DAMG、INFO、TELE 开头的课里选
+- 毕业 GPA 不低于 3.0
+
+多伦多和温哥华总学分和核心课一样，但要在 Project 和 Thesis 两条路线里选一条，都要上 INFO 7945 Master's Project，选修课从固定清单里挑。线上版是另一套结构，总共 40 学分，课基本是指定好的，INFO 5001 和 INFO 5002（Python 入门）要拿到 B 及以上。
+
+csgrad 目前还没有标注为 Bridge 的 DP。IS 下已有的 6 条 DP（2023 Fall 5 条、2025 Fall 1 条，均为录取）都是 CS 或软工本科背景，对非理工背景的 Bridge 申请者参考有限。
+
+官方 catalog：[波士顿](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge/)、[硅谷](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge-sjo/)、[多伦多](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge-tor/)、[线上](https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/information-systems-msis-bridge-online/)
