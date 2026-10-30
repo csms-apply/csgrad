@@ -47,6 +47,7 @@ test('Traditional documents have unique descriptions and at most one explicit H1
  for(const file of files('i18n/zh-Hant/docusaurus-plugin-content-docs/current').filter(p=>/\.mdx?$/.test(p))){
   const source=fs.readFileSync(file,'utf8');
   assert.ok((source.match(/^# /gm)||[]).length<=1,file);
+  if(/(^|[\\/])_/.test(path.relative('i18n/zh-Hant/docusaurus-plugin-content-docs/current',file))){assert.ok(!source.startsWith('---'),`${file}: partials must not have front matter`);continue;}
   const description=source.match(/^description: (.+)$/m)?.[1];
   assert.ok(description,file);assert.ok(!descriptions.has(description),file);descriptions.add(description);
  }
