@@ -17,7 +17,7 @@ Netflix: I've rarely seen anyone get an interview, but the compensation is extre
 
 Google: Internal referrals help, but it's also quite random. My personal data point: In June 2024, I mass-applied to Google internships with no response. In October, I asked a senior to give me a strong referral and reapplied — then I received an OA.
 
-For how to prepare your projects, resume, and interviews, you can check the pinned internship experience sharing post on my profile page. If you need interview/resume coaching for positions in mainland China, feel free to reach out.
+For how to prepare your projects, resume, and interviews, you can check the pinned internship experience sharing post on my profile page. If you need interview/resume coaching, feel free to reach out.
 
 
 
