@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# bash run.sh             install, build and activate a release on this server
+# bash run.sh --prebuilt  activate the tar.gz build CI streams on stdin
 
 # Non-interactive SSH sessions may not load the server's Node installation.
 # Load NVM before nounset: its initialization reads optional shell variables.
@@ -13,13 +15,22 @@ set -euo pipefail
 exec 9>.site-deploy.lock
 flock 9
 
-npm ci
+# `docusaurus serve` still runs from node_modules. A prebuilt deploy only
+# reinstalls when package-lock.json changed since the last install.
+csgrad_lock_hash="$(sha256sum package-lock.json)"
+if [ "${1:-}" != --prebuilt ] || [ "$(cat node_modules/.csgrad-lock-sha256 2>/dev/null)" != "$csgrad_lock_hash" ]; then
+  npm ci </dev/null
+  echo "$csgrad_lock_hash" > node_modules/.csgrad-lock-sha256
+fi
 # Build away from the directory currently served by Docusaurus.
 mkdir -p .site-releases
 csgrad_release="$(mktemp -d "$PWD/.site-releases/release-XXXXXXXX")"
-if ! npm run build -- --out-dir "$csgrad_release"; then
-  rm -rf "$csgrad_release"
-  exit 1
+# Any failure before activation drops the partial release; the live one keeps serving.
+trap '[ "$(readlink -f build)" = "$(readlink -f "$csgrad_release")" ] || rm -rf "$csgrad_release"' EXIT
+if [ "${1:-}" = --prebuilt ]; then
+  tar -xzf - -C "$csgrad_release"
+else
+  npm run build -- --out-dir "$csgrad_release"
 fi
 python3 scripts/activate-build.py "$PWD" "$csgrad_release"
 if ! command -v pm2 >/dev/null 2>&1; then

@@ -3,6 +3,12 @@ name: Deploy Docusaurus
 permissions:
   contents: read
 
+# PR: a new push cancels the PR's older run. main: runs queue one after another
+# and are never cancelled midway, since a deploy may be switching releases.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'main' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 on:
   push:
     branches:
@@ -77,16 +83,10 @@ jobs:
       - name: Audit built SEO output
         run: npm run check:seo
 
-  deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: validate
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v7
-
-      - name: Deploy via SSH
+      # Ship the build validated above instead of rebuilding on the server.
+      - name: Deploy validated build via SSH
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        shell: bash
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SSH_USER: ${{ secrets.SSH_USER }}
@@ -97,9 +97,23 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
 
-          ssh $SSH_USER@$SSH_HOST << 'EOF'
-            set -eu
-            cd csgrad
-            git -c core.fileMode=false pull --ff-only origin main
-            bash run.sh
-          EOF
+          # Every locale gets its own copy of static/; hard links make tar send each file once.
+          python3 - build <<'PY'
+          import hashlib, os, sys
+          seen = {}
+          for root, _, names in os.walk(sys.argv[1]):
+              for name in names:
+                  path = os.path.join(root, name)
+                  with open(path, 'rb') as f:
+                      first = seen.setdefault(hashlib.sha256(f.read()).digest(), path)
+                  if first != path:
+                      os.link(first, path + '.tmp-link')
+                      os.replace(path + '.tmp-link', path)
+          PY
+
+          # The server fast-forwards only to the commit this artifact was built from, so scripts,
+          # lockfile and build always match. If the server is already past it (e.g. an old run
+          # was re-run), the ancestor check fails and production stays untouched.
+          # run.sh unpacks into a fresh release and switches only after it is complete.
+          tar -czf - -C build . | ssh $SSH_USER@$SSH_HOST \
+            "bash -lc 'cd csgrad && git fetch origin main </dev/null && git merge-base --is-ancestor HEAD $GITHUB_SHA && git -c core.fileMode=false merge --ff-only $GITHUB_SHA </dev/null && bash run.sh --prebuilt'"

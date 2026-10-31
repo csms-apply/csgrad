@@ -33,6 +33,26 @@ const config = {
     },
   },
 
+  future: {
+    // Docusaurus Faster: Rspack, SWC and Lightning CSS (@docusaurus/faster).
+    faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      // Off: SWC's HTML minifier drops attribute quotes (name=robots), and the
+      // built-output checks in scripts/ match the quoted form.
+      swcHtmlMinimizer: false,
+      lightningCssMinimizer: true,
+      mdxCrossCompilerCache: true,
+      rspackBundler: true,
+      rspackPersistentCache: true,
+      ssgWorkerThreads: true,
+      gitEagerVcs: true,
+    },
+    // faster.ssgWorkerThreads requires this v4 flag. The other v4 flags stay
+    // off because they change CSS cascade layers, storage keys and MDX parsing.
+    v4: {removeLegacyPostBuildHeadAttribute: true},
+  },
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
