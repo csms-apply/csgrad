@@ -3,6 +3,12 @@ name: Deploy Docusaurus
 permissions:
   contents: read
 
+# PR: a new push cancels the PR's older run. main: runs queue one after another
+# and are never cancelled midway, since a deploy may be switching releases.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'main' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 on:
   push:
     branches:
