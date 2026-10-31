@@ -111,6 +111,9 @@ jobs:
                       os.replace(path + '.tmp-link', path)
           PY
 
+          # The server fast-forwards only to the commit this artifact was built from, so scripts,
+          # lockfile and build always match. If the server is already past it (e.g. an old run
+          # was re-run), the ancestor check fails and production stays untouched.
           # run.sh unpacks into a fresh release and switches only after it is complete.
           tar -czf - -C build . | ssh $SSH_USER@$SSH_HOST \
-            'bash -lc "cd csgrad && git -c core.fileMode=false pull --ff-only origin main </dev/null && bash run.sh --prebuilt"'
+            "bash -lc 'cd csgrad && git fetch origin main </dev/null && git merge-base --is-ancestor HEAD $GITHUB_SHA && git -c core.fileMode=false merge --ff-only $GITHUB_SHA </dev/null && bash run.sh --prebuilt'"
