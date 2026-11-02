@@ -78,6 +78,32 @@ function Question({ field, value, onChange, error }) {
   );
 }
 
+// 公开后的统计图：每道选项题一组横向条形，按人数占比画长度。
+function Results({ results }) {
+  return (
+    <section className={styles.card}>
+      <h2 className={styles.doneTitle}>统计结果</h2>
+      <p className={styles.intro}>共 {results.total} 份回复。多选题每人可选多项，百分比按回答这道题的人数计算。</p>
+      {results.fields.map((f) => (
+        <div key={f.id} className={styles.field}>
+          <div className={styles.label}>{f.label}</div>
+          <div className={styles.hint}>{f.answered} 人回答{f.type === 'multi' ? '（多选）' : ''}</div>
+          {f.options.map((o) => {
+            const pct = f.answered ? Math.round((o.count / f.answered) * 100) : 0;
+            return (
+              <div key={o.label} className={styles.barRow}>
+                <span className={styles.barLabel}>{o.label}</span>
+                <span className={styles.barTrack}><span className={styles.barFill} style={{ width: `${pct}%` }} /></span>
+                <span className={styles.barValue}>{o.count} · {pct}%</span>
+              </div>
+            );
+          })}
+        </div>
+      ))}
+    </section>
+  );
+}
+
 function missingRequired(form, answers) {
   return form.fields.find((f) => {
     if (f.type === 'section' || !f.required || !isVisible(f, answers)) return false;
@@ -206,9 +232,13 @@ export default function FormPage() {
               </div>
               <h1 className={styles.title}>{form.title}</h1>
               {form.description && <p className={`${styles.sub} ${styles.preLine}`}>{form.description}</p>}
-              <p className={styles.heroNote}>带 * 的题目为必填项</p>
+              <p className={styles.heroNote}>
+                带 * 的题目为必填项
+                {form.resultsPublicAt && !data.results && `；统计结果将于 ${new Date(form.resultsPublicAt * 1000).toLocaleString('zh-CN', { dateStyle: 'medium', timeStyle: 'short' })} 公开`}
+              </p>
             </header>
           )}
+          {data && data.results && <Results results={data.results} />}
           {body}
         </div>
       </main>
