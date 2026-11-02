@@ -12,6 +12,13 @@ const typeLabel = (t) => (FIELD_TYPES.find((x) => x.type === t) || {}).label || 
 const cellText = (v) => (Array.isArray(v) ? v.join('、') : v == null ? '' : String(v));
 const errText = (err) => (err.status === 401 ? '令牌不正确' : err.message);
 
+// Unix 秒 → datetime-local 输入框用的本地时间字符串
+function toLocalInput(sec) {
+  if (!sec) return '';
+  const d = new Date(sec * 1000);
+  return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 16);
+}
+
 function blankForm() {
   return { id: '', title: '', description: '', status: 'open', requireLogin: false, fields: [newField()] };
 }
@@ -270,6 +277,10 @@ function Editor({ token, initial, isNew, onDone, onCancel }) {
               <Toggle checked={form.status === 'open'} onChange={(v) => set({ status: v ? 'open' : 'closed' })}>收集回复</Toggle>
               <Toggle checked={!!form.requireLogin} onChange={(v) => set({ requireLogin: v })}>必须用 Google/GitHub 登录才能填写</Toggle>
             </div>
+            <label className={styles.lbl}>统计结果公开时间</label>
+            <input className={styles.input} type="datetime-local" value={toLocalInput(form.resultsPublicAt)}
+              onChange={(e) => set({ resultsPublicAt: e.target.value ? Math.floor(new Date(e.target.value).getTime() / 1000) : null })} />
+            <div className={styles.hint}>到点后，填写页公开选项题的统计图（不含文字回答和邮箱）。留空则不公开。</div>
           </div>
 
           {form.fields.map((f, i) => (
@@ -419,6 +430,7 @@ export default function FormsAdminPage() {
                   {f.title}
                   <span className={f.status === 'open' ? styles.badgeOn : styles.badgeOff}>{f.status === 'open' ? '收集中' : '已关闭'}</span>
                   {f.requireLogin && <span className={styles.badgeOff}>需登录</span>}
+                  {f.resultsPublicAt && <span className={styles.badgeOff}>{f.resultsPublicAt * 1000 <= Date.now() ? '结果已公开' : `${new Date(f.resultsPublicAt * 1000).toLocaleString()} 公开结果`}</span>}
                 </div>
                 <div className={styles.rowMeta}>
                   <code>{f.id}</code> · {f.responseCount || 0} 条回复 · 更新于 {time(f.updatedAt)}
@@ -426,7 +438,7 @@ export default function FormsAdminPage() {
               </div>
               <div className={styles.rowActions}>
                 <button type="button" className={styles.ghost}
-                  onClick={() => setView({ name: 'edit', isNew: false, form: { id: f.id, title: f.title, description: f.description || '', status: f.status, requireLogin: !!f.requireLogin, fields: f.fields || [] } })}>编辑</button>
+                  onClick={() => setView({ name: 'edit', isNew: false, form: { id: f.id, title: f.title, description: f.description || '', status: f.status, requireLogin: !!f.requireLogin, resultsPublicAt: f.resultsPublicAt || null, fields: f.fields || [] } })}>编辑</button>
                 <button type="button" className={styles.ghost} onClick={() => setView({ name: 'responses', id: f.id })}>查看回复</button>
                 <button type="button" className={styles.ghost} onClick={() => copy(f.id)}>{copied === f.id ? '已复制' : '复制链接'}</button>
                 <a className={styles.ghost} href={formLink(f.id)} target="_blank" rel="noopener noreferrer">打开</a>

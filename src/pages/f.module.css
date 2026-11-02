@@ -191,3 +191,10 @@
 .fieldError { margin-top: 6px; color: #b0482c; font-size: 0.84rem; }
 .preLine { white-space: pre-line; }
 .heroNote { margin: 0; font-size: 0.84rem; opacity: 0.7; }
+
+/* ---------- 统计结果条形图 ---------- */
+.barRow { display: grid; grid-template-columns: minmax(0, 9rem) 1fr auto; align-items: center; gap: 10px; margin: 6px 0; font-size: 0.88rem; }
+.barLabel { overflow-wrap: anywhere; }
+.barTrack { height: 10px; border-radius: 999px; background: var(--live-chip); border: 1px solid var(--live-line); overflow: hidden; }
+.barFill { display: block; height: 100%; background: var(--live-gold); border-radius: inherit; }
+.barValue { color: var(--live-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
