@@ -30,7 +30,7 @@ const ALLOWED_PARAMETERS = new Set([
 const LANGUAGE_EVENTS = new Set([
   'language_preference_set', 'language_preference_applied', 'audience_visit',
 ]);
-const SUPPORTED_LOCALES = new Set(['zh-Hans', 'zh-Hant', 'en']);
+const SUPPORTED_LOCALES = new Set(['zh-Hans', 'zh-Hant', 'en', 'ko']);
 const LANGUAGE_PARAMETERS = {
   current_locale: SUPPORTED_LOCALES,
   selected_locale: SUPPORTED_LOCALES,
