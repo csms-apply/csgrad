@@ -32,9 +32,9 @@ description: "봄학기 입학 시 인턴십 계획, F-1 transfer, 입학 시점
 CMU SESV는 직전 Fall 학기에 풀타임 학생이었던 경우에만 Spring 입학을 지원합니다.
 CMU SESV Spring CPT는 자세한 내용을 다음에서 확인하세요.
 
-[![CMU SESV Spring 시작 CPT 안내, 클릭하면 원본 크기로 열립니다](/img/en/cmucpt.svg)](/img/en/cmucpt.svg)
+[![CMU SESV Spring 시작 CPT 안내, 클릭하면 원본 크기로 열립니다](/img/ko/cmucpt.svg)](/img/ko/cmucpt.svg)
 
 Cornell은 더 관대해서 사전에 OPT 신분이어도 Spring 입학을 지원합니다. 미국 학부 출신이고 학부 I-20를 transfer할 수 있다면
 Cornell CS MEng Spring에 입학해 CPT를 받을 수 있습니다. 자세한 내용은 다음을 참고하세요.
 
-[![Cornell Spring 입학과 F-1 transfer 안내, 클릭하면 원본 크기로 열립니다](/img/en/cornellcpt.svg)](/img/en/cornellcpt.svg)
+[![Cornell Spring 입학과 F-1 transfer 안내, 클릭하면 원본 크기로 열립니다](/img/ko/cornellcpt.svg)](/img/ko/cornellcpt.svg)

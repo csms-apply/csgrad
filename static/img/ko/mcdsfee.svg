@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720" role="img" aria-labelledby="title desc">
+  <title id="title">CMU MCDS 16개월 과정 비용 내역</title>
+  <desc id="desc">2023년 여름부터 2025년 봄까지의 등록금과 프로그램 수수료를 보여주는 과거 비용표.</desc>
+  <style>
+    .sans{font-family:"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:36px;font-weight:760;fill:#10233f}.sub{font-size:19px;fill:#5b687c}.head{font-size:17px;font-weight:750;fill:#23354d}.cell{font-size:18px;fill:#34455d}.row{font-size:18px;font-weight:650;fill:#23354d}.note{font-size:15px;fill:#6b7789}
+  </style>
+  <rect width="1300" height="720" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1298" height="718" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="54" y="58">과거 프로그램 비용</text>
+  <text class="sans title" x="54" y="105">MCDS 16개월 과정</text>
+  <text class="sans sub" x="54" y="143">2023–2025 학습 계획 공시 비용 내역</text>
+  <g class="sans" transform="translate(54 184)">
+    <rect width="1192" height="62" rx="12" fill="#eaf0ff"/>
+    <text class="head" x="20" y="39">비용</text><text class="head" x="345" y="39" text-anchor="middle">2023년 여름</text><text class="head" x="545" y="39" text-anchor="middle">2023년 가을</text><text class="head" x="745" y="39" text-anchor="middle">2024년 봄</text><text class="head" x="945" y="39" text-anchor="middle">2024년 가을</text><text class="head" x="1130" y="39" text-anchor="middle">2025년 봄</text>
+    <g transform="translate(0 72)"><text class="row" x="20" y="34">등록금</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$27,900</text><text class="cell" x="745" y="34" text-anchor="middle">$27,900</text><text class="cell" x="945" y="34" text-anchor="middle">$28,750</text><text class="cell" x="1130" y="34" text-anchor="middle">$28,750</text></g>
+    <line x1="0" y1="126" x2="1192" y2="126" stroke="#dbe3ef"/>
+    <g transform="translate(0 136)"><text class="row" x="20" y="34">활동비</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$119</text><text class="cell" x="745" y="34" text-anchor="middle">$119</text><text class="cell" x="945" y="34" text-anchor="middle">미정</text><text class="cell" x="1130" y="34" text-anchor="middle">미정</text></g>
+    <line x1="0" y1="190" x2="1192" y2="190" stroke="#dbe3ef"/>
+    <g transform="translate(0 200)"><text class="row" x="20" y="34">건강보험</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$2,816</text><text class="cell" x="745" y="34" text-anchor="middle">—</text><text class="cell" x="945" y="34" text-anchor="middle">미정</text><text class="cell" x="1130" y="34" text-anchor="middle">미정</text></g>
+    <line x1="0" y1="254" x2="1192" y2="254" stroke="#dbe3ef"/>
+    <g transform="translate(0 264)"><text class="row" x="20" y="34">PAT 수수료</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$128</text><text class="cell" x="745" y="34" text-anchor="middle">$128</text><text class="cell" x="945" y="34" text-anchor="middle">미정</text><text class="cell" x="1130" y="34" text-anchor="middle">미정</text></g>
+    <line x1="0" y1="318" x2="1192" y2="318" stroke="#dbe3ef"/>
+    <g transform="translate(0 328)"><text class="row" x="20" y="34">기술 수수료</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$230</text><text class="cell" x="745" y="34" text-anchor="middle">$230</text><text class="cell" x="945" y="34" text-anchor="middle">미정</text><text class="cell" x="1130" y="34" text-anchor="middle">미정</text></g>
+  </g>
+  <rect x="54" y="596" width="1192" height="62" rx="14" fill="#fff8e8" stroke="#f0d69a"/>
+  <text class="sans note" x="78" y="634">참고용 과거 자료입니다. 등록금과 수수료는 변동되므로 예산은 CMU의 최신 재학 비용 안내 페이지를 기준으로 세우세요.</text>
+</svg>

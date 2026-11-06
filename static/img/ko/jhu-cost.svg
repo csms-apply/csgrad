@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">JHU 2024–2025학년도 예상 비용</title>
+  <desc id="desc">연간 예상 비용: 등록금 62,430달러, 입학 등록비 500달러, 건강보험 2,511달러, 개인 지출 2,700달러, 캠퍼스 외 거주비 16,668달러, 도서 및 학용품 1,458달러, 합계 86,267달러.</desc>
+  <style>
+    .sans{font-family:"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:36px;font-weight:760;fill:#10233f}.sub{font-size:19px;fill:#5b687c}.item{font-size:20px;font-weight:650;fill:#23354d}.amount{font-size:20px;font-weight:760;fill:#10233f}.detail{font-size:16px;fill:#6b7789}.total{font-size:26px;font-weight:800;fill:white}.note{font-size:15px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="760" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="758" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="60">재학 비용</text>
+  <text class="sans title" x="64" y="108">2024–2025학년도 예상 비용</text>
+  <text class="sans sub" x="64" y="146">존스홉킨스 대학교 · 대략적인 예산</text>
+  <g class="sans" transform="translate(64 190)">
+    <rect width="1072" height="58" rx="12" fill="#eaf0ff"/><text class="item" x="24" y="37">항목</text><text class="item" x="1048" y="37" text-anchor="end">예상 금액</text>
+    <g transform="translate(0 70)"><text class="item" x="24" y="31">등록금</text><text class="detail" x="300" y="31">학기당 12–18학점</text><text class="amount" x="1048" y="31" text-anchor="end">$62,430</text></g>
+    <line x1="0" y1="122" x2="1072" y2="122" stroke="#dbe3ef"/>
+    <g transform="translate(0 130)"><text class="item" x="24" y="31">입학 등록비</text><text class="amount" x="1048" y="31" text-anchor="end">$500</text></g>
+    <line x1="0" y1="182" x2="1072" y2="182" stroke="#dbe3ef"/>
+    <g transform="translate(0 190)"><text class="item" x="24" y="31">학생 건강보험</text><text class="amount" x="1048" y="31" text-anchor="end">$2,511</text></g>
+    <line x1="0" y1="242" x2="1072" y2="242" stroke="#dbe3ef"/>
+    <g transform="translate(0 250)"><text class="item" x="24" y="31">개인 지출</text><text class="amount" x="1048" y="31" text-anchor="end">$2,700</text></g>
+    <line x1="0" y1="302" x2="1072" y2="302" stroke="#dbe3ef"/>
+    <g transform="translate(0 310)"><text class="item" x="24" y="31">캠퍼스 외 거주비</text><text class="detail" x="300" y="31">월 $2,083.50 × 8개월</text><text class="amount" x="1048" y="31" text-anchor="end">$16,668</text></g>
+    <line x1="0" y1="362" x2="1072" y2="362" stroke="#dbe3ef"/>
+    <g transform="translate(0 370)"><text class="item" x="24" y="31">도서 및 학용품</text><text class="amount" x="1048" y="31" text-anchor="end">$1,458</text></g>
+    <rect y="438" width="1072" height="78" rx="14" fill="#10233f"/><text class="total" x="24" y="488">예상 총액</text><text class="total" x="1048" y="488" text-anchor="end">$86,267</text>
+  </g>
+  <text class="sans note" x="64" y="726">건강보험 항목은 훼손된 원본 이미지에서 누락된 금액을 복원하여 게시된 합계가 맞도록 한 것입니다. 비용은 해마다 변동됩니다.</text>
+</svg>

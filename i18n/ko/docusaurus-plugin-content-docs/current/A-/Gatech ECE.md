@@ -57,8 +57,8 @@ TA를 해서 학비를 아끼고 싶다면 가능한 한 일찍 교수님께 연
 
 초과 수강에 추가 비용이 없습니다 — 12학점을 넘어도 무료입니다. 체력이 된다면 4+1이나 4+2과목을 들어도 아무도 막지 않습니다.
 
-![Georgia Tech ECE 수업 난이도 및 업무량 표](/img/en/gtececourse.svg)
+![Georgia Tech ECE 수업 난이도 및 업무량 표](/img/ko/gtececourse.svg)
 
 ## GT 도착 후 인턴십 구직 준비 방법
 
-![Georgia Tech ECE 인턴십, co-op, 정규직 준비 경로](/img/en/gtecetimeline.svg)
+![Georgia Tech ECE 인턴십, co-op, 정규직 준비 경로](/img/ko/gtecetimeline.svg)

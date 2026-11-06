@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Cornell 봄학기 입학과 F-1 전학 안내</title>
+  <desc id="desc">OPT로 F-1 신분을 유지하고, SEVIS를 Cornell로 전학하며, 여름 CPT 자격을 보존하는 방법에 대한 어드바이저 답변 요약.</desc>
+  <style>
+    .sans{font-family:'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#b31b1b}.title{font-size:36px;font-weight:760;fill:#10233f}.sub{font-size:19px;fill:#5b687c}.step{font-size:20px;font-weight:700;fill:#23354d}.body{font-size:16px;fill:#52627a}.num{font-size:17px;font-weight:800;fill:white}.note{font-size:14px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="820" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="818" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="56" y="58">어드바이저 안내 · 요약</text>
+  <text class="sans title" x="56" y="106">학부 OPT 이후 봄학기 시작</text>
+  <text class="sans sub" x="56" y="144">1월 입학 전 Cornell CS MEng 학생이 신분을 이어가는 방법</text>
+  <g class="sans" transform="translate(56 188)">
+    <line x1="27" y1="28" x2="27" y2="372" stroke="#d8e0ec" stroke-width="4"/>
+    <g transform="translate(0 0)"><circle cx="27" cy="28" r="22" fill="#b31b1b"/><text class="num" x="27" y="34" text-anchor="middle">1</text><text class="step" x="74" y="24">졸업 후 F-1 신분 유지</text><text class="body" x="74" y="52">승인된 학부 OPT를 사용해 1월 입학 전까지 신분을 유효하게 유지합니다.</text></g>
+    <g transform="translate(0 104)"><circle cx="27" cy="28" r="22" fill="#2f6fed"/><text class="num" x="27" y="34" text-anchor="middle">2</text><text class="step" x="74" y="24">전학 공백을 5개월 이내로 유지</text><text class="body" x="74" y="52">SEVIS 해제일을 Cornell 프로그램 시작일로부터 5개월 이내로 정합니다.</text></g>
+    <g transform="translate(0 208)"><circle cx="27" cy="28" r="22" fill="#258a79"/><text class="num" x="27" y="34" text-anchor="middle">3</text><text class="step" x="74" y="24">SEVIS 기록을 Cornell로 전학</text><text class="body" x="74" y="52">기록이 새 학교로 해제되면 OPT 취업 허가는 종료됩니다.</text></g>
+    <g transform="translate(0 312)"><circle cx="27" cy="28" r="22" fill="#8b5cf6"/><text class="num" x="27" y="34" text-anchor="middle">4</text><text class="step" x="74" y="24">새 I-20로 프로그램 시작</text><text class="body" x="74" y="52">해외 출국이나 미국 재입국 전에 Cornell의 I-20를 받아야 합니다.</text></g>
+  </g>
+  <rect x="56" y="604" width="1088" height="112" rx="18" fill="#fff4f2" stroke="#efc3bd"/>
+  <text class="sans step" x="84" y="645" fill="#8d2521">이 경로의 효과</text>
+  <text class="sans body" x="84" y="678">유효한 F-1 신분이 끊기지 않으면 봄학기 입학생도 여름 CPT의 학년 요건을 충족할 수 있습니다.</text>
+  <text class="sans body" x="84" y="704">최종 자격은 Cornell 국제학생처에서 확인해야 합니다.</text>
+  <text class="sans note" x="56" y="770">이 그래픽은 원본 서신의 어드바이저 답변을 요약한 것이며, 이민 규정과 학교 정책은 바뀔 수 있습니다.</text>
+</svg>

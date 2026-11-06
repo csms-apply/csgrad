@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="580" viewBox="0 0 1400 580" role="img" aria-labelledby="title desc">
+  <title id="title">2027 가을학기 대학원 지원 타임라인</title>
+  <desc id="desc">2026년 1월부터 2027년 1월까지의 네 단계 준비 과정: 시험, 경험 쌓기, 추천서와 서류 준비, 지원서 제출.</desc>
+  <style>
+    .sans{font-family:'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:20px;font-weight:700;letter-spacing:2px;fill:#2f6fed}.title{font-size:40px;font-weight:750;fill:#10233f}.phase{font-size:23px;font-weight:700;fill:#10233f}.date{font-size:17px;font-weight:750;fill:#2f6fed}.body{font-size:16px;fill:#52627a}.num{font-size:18px;font-weight:800;fill:white}
+  </style>
+  <rect width="1400" height="580" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1398" height="578" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="54" y="58">지원 일정</text>
+  <text class="sans title" x="54" y="106">2027 가을 지원 타임라인</text>
+  <text class="sans body" x="54" y="144">일찍 시작해 스펙 쌓기부터 서류 준비, 제출까지 진행합니다.</text>
+  <g class="sans">
+    <g transform="translate(40 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#2f6fed"/><text class="num" x="38" y="49" text-anchor="middle">1</text>
+      <text class="date" x="76" y="48">2026년 1–5월</text>
+      <text class="phase" x="28" y="105">시험 준비</text>
+      <text class="body" x="28" y="148">지원 프로그램에서 요구하면</text><text class="body" x="28" y="176">TOEFL / IELTS와 GRE를</text><text class="body" x="28" y="204">준비합니다.</text>
+    </g>
+    <g transform="translate(378 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#258a79"/><text class="num" x="38" y="49" text-anchor="middle">2</text>
+      <text class="date" x="76" y="48">2026년 5–9월</text>
+      <text class="phase" x="28" y="105">경험 쌓기</text>
+      <text class="body" x="28" y="148">인턴십, 연구, 프로젝트를</text><text class="body" x="28" y="176">보강해 지원 스토리를</text><text class="body" x="28" y="204">뒷받침합니다.</text>
+    </g>
+    <g transform="translate(716 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#8b5cf6"/><text class="num" x="38" y="49" text-anchor="middle">3</text>
+      <text class="date" x="76" y="48">2026년 9–10월</text>
+      <text class="phase" x="28" y="105">서류 준비</text>
+      <text class="body" x="28" y="148">추천인을 확정하고</text><text class="body" x="28" y="176">이력서, 에세이, 학교별 서류를</text><text class="body" x="28" y="204">초안합니다.</text>
+    </g>
+    <g transform="translate(1054 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#d97706"/><text class="num" x="38" y="49" text-anchor="middle">4</text>
+      <text class="date" x="76" y="48" style="font-size:15px">2026년 10월–2027년 1월</text>
+      <text class="phase" x="28" y="105">지원서 제출</text>
+      <text class="body" x="28" y="148">학교별 서류를 마무리하고</text><text class="body" x="28" y="176">마감 전에 제출하며</text><text class="body" x="28" y="204">모든 요건을 관리합니다.</text>
+    </g>
+  </g>
+</svg>

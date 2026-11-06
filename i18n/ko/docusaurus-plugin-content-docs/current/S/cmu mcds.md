@@ -75,4 +75,4 @@ MCDS에는 세 개의 트랙(System 트랙, Analytics 트랙, HCI 트랙)이 있
 ## 비용
 CMU는 사립학교라서 학비가 싼 적이 없습니다. INI든 ECE든 SCS든 MCDS의 3학기 학비(학비만이며 월세 등 추가 비용은 포함하지 않음)는 2026-27 SCS 석사 기준 학기당 $31,100으로 $93,300입니다.
 
-[![CMU MCDS 16개월 과정 비용 내역(과거 기준), 클릭하면 원본 크기로 열립니다](/img/en/mcdsfee.svg)](/img/en/mcdsfee.svg)
+[![CMU MCDS 16개월 과정 비용 내역(과거 기준), 클릭하면 원본 크기로 열립니다](/img/ko/mcdsfee.svg)](/img/ko/mcdsfee.svg)

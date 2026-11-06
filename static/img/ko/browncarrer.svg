@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Brown SCMCS 여름 인턴십 구직 설문</title>
+  <desc id="desc">응답 19건: 11명은 지원서 제출 중, 6명은 면접 중, 1명은 오퍼 1개, 1명은 오퍼 2개.</desc>
+  <style>
+    .sans{font-family:'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:38px;font-weight:760;fill:#10233f}.sub{font-size:20px;fill:#5b687c}.label{font-size:22px;font-weight:650;fill:#23354d}.value{font-size:20px;font-weight:750;fill:#10233f}.note{font-size:17px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="720" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="718" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="62">졸업생 진로</text>
+  <text class="sans title" x="64" y="112">여름 인턴십 구직 현황</text>
+  <text class="sans sub" x="64" y="151">Brown SCMCS 그룹 설문 · 응답 19건</text>
+  <g class="sans" transform="translate(64 215)">
+    <text class="label" x="0" y="30">지원서 제출 중</text><rect x="330" y="0" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="0" width="700" height="44" rx="10" fill="#2f6fed"/><text class="value" x="1010" y="30" text-anchor="end" style="fill:white">11 · 57.9%</text>
+    <text class="label" x="0" y="130">면접 중</text><rect x="330" y="100" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="100" width="382" height="44" rx="10" fill="#258a79"/><text class="value" x="737" y="130">6 · 31.6%</text>
+    <text class="label" x="0" y="230">오퍼 1개</text><rect x="330" y="200" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="200" width="64" height="44" rx="10" fill="#8b5cf6"/><text class="value" x="419" y="230">1 · 5.3%</text>
+    <text class="label" x="0" y="330">오퍼 2개</text><rect x="330" y="300" width="700" height="44" rx="10" fill="#e5ebf4"/><rect x="330" y="300" width="64" height="44" rx="10" fill="#d97706"/><text class="value" x="419" y="330">1 · 5.3%</text>
+  </g>
+  <line x1="64" y1="608" x2="1136" y2="608" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans note" x="64" y="652">지원자 그룹의 자가 보고 스냅샷이며 공식 취업 보고서가 아닙니다.</text>
+</svg>
