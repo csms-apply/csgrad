@@ -3,11 +3,13 @@ const localizedRouteGroups = Object.freeze([
     'zh-Hans': '/找我辅导',
     'zh-Hant': '/zh-Hant/找我辅导',
     en: '/en/consulting',
+    ko: '/ko/consulting',
   }),
   Object.freeze({
     'zh-Hans': '/转码项目',
     'zh-Hant': '/zh-Hant/转码项目',
     en: '/en/career-change-programs',
+    ko: '/ko/career-change-programs',
   }),
 ]);
 
@@ -50,7 +52,7 @@ export function localizedInternalPath(href, locale) {
   const [, pathname, suffix] = href.match(/^([^?#]*)(.*)$/);
   const mapped = localizedAlternatePath(pathname, locale);
   if (mapped) return `${mapped}${suffix}`;
-  const unlocalized = pathname.replace(/^\/(?:en|zh-Hant)(?=\/|$)/, '').replace(/^\/+/, '/') || '/';
-  const prefix = locale === 'en' ? '/en' : locale === 'zh-Hant' ? '/zh-Hant' : '';
+  const unlocalized = pathname.replace(/^\/(?:en|zh-Hant|ko)(?=\/|$)/, '').replace(/^\/+/, '/') || '/';
+  const prefix = ['en', 'zh-Hant', 'ko'].includes(locale) ? `/${locale}` : '';
   return `${prefix}${unlocalized}${suffix}`;
 }

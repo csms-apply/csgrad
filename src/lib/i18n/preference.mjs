@@ -2,7 +2,7 @@ import {trackSeoEvent} from '../analytics/events.mjs';
 
 export const LANGUAGE_PREFERENCE_KEY = 'csgrad.preferred-language.v1';
 const APPLIED_KEY = 'csgrad.language-applied.v1';
-const LOCALES = new Set(['zh-Hans', 'zh-Hant', 'en']);
+const LOCALES = new Set(['zh-Hans', 'zh-Hant', 'en', 'ko']);
 const initialized = new WeakSet();
 
 export function readLanguagePreference(browser) {

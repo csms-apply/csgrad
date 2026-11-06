@@ -64,7 +64,7 @@ export function enCell(s) {
 
 // Table cells stay short: long section rules collapse to "96*" / "S 23*"; the side peek shows the full text.
 export function shortCell(full, lang) {
-  if (full.length <= (lang === 'en' ? 12 : 9)) return full;
+  if (full.length <= (lang === 'en' || lang === 'ko' ? 12 : 9)) return full;
   const num = /^\d+(?:\.\d+)?/.exec(full);
   return num ? `${num[0]}*` : `${full.split(/\s(?=[^\d\s])|(?<=\d)\s/)[0]}*`;
 }
@@ -162,5 +162,31 @@ export const UI = {
     gre_required: 'required', gre_not_required: 'not required', gre_optional: 'optional', gre_not_accepted: 'not accepted', gre_recommended: 'recommended', gre_waived_for_some: 'waivable', gre_unknown: 'unknown',
     // Singular forms, picked by makeText when n === 1.
     daysLeftOne: '1 day left', sharedBannerOne: 'A school list shared with you: 1 program.', shareHintOne: 'Anyone with the link sees this program without signing in, and can save it to their own list in one click.',
+  },
+  ko: {
+    title: '지원 트래커', pageTitle: '지원 트래커: 북미 CS 석사 마감일과 어학 요건',
+    desc: '{cycle} 입학 · 북미 CS 관련 석사 프로그램 {n}개의 지원 마감일, GRE 및 어학 요건',
+    edited: '{d} 업데이트', verified: '공식 사이트 확인일 {d}',
+    tabAll: '전체 프로그램', tabMine: '내 지원 목록', tabShared: '공유된 목록',
+    searchPh: '학교 또는 프로그램 검색…', filter: '필터', sort: '정렬', search: '검색', close: '닫기', select: '선택', peekAria: '프로그램 상세', tableAria: '지원 트래커 표',
+    colName: '프로그램', colTier: '티어', colR1: '1차 마감', colR2: '2차 마감', colR3: '3차 마감', colGre: 'GRE',
+    colToeflOld: '토플(구)', colToeflNew: '토플(신)', colIelts: 'IELTS', colApply: '지원 사이트',
+    legend: '총점 기준이며 괄호 안은 영역별 최소 점수입니다(S = 말하기, W = 쓰기, R = 읽기, L = 듣기). *가 붙은 행을 열면 전체 규정, 필수 점수인지 권장 점수인지, 점수 전송 코드를 볼 수 있습니다',
+    halt: '이번 시즌 모집 중단', daysLeft: '{n}일 남음', past: '마감', pickAria: '{name}을(를) 내 지원 목록에 추가',
+    emptyShared: '이 공유 링크에서 인식할 수 있는 프로그램이 없습니다', emptyMine: '아직 선택한 프로그램이 없습니다. 전체 프로그램으로 돌아가 각 행 왼쪽의 체크박스를 선택하세요.', emptyNone: '조건에 맞는 프로그램이 없습니다',
+    sharedBanner: '공유받은 지원 목록입니다. 프로그램 {n}개.',
+    allSaved: '모두 내 지원 목록에 있음', saveShared: '내 지원 목록에 저장', seeAll: '전체 프로그램 보기',
+    sumPicked: '선택한 프로그램', sumTiers: '티어 분포', sumFees: '지원비 합계', sumFeesMissing: '{n}개는 지원비 미공개', sumNext: '가장 가까운 마감', sumNote: '참고', sumHalt: '이번 시즌 모집 중단 {n}개',
+    share: '목록 공유', copyList: '목록 복사', clear: '비우기',
+    shareLink: '공유 링크', copyLink: '링크 복사',
+    shareHint: '링크를 받은 사람은 로그인 없이 이 프로그램 {n}개를 볼 수 있고, 한 번의 클릭으로 자신의 목록에 저장할 수 있습니다.',
+    copied: '복사됨', selectManual: '선택되었습니다. 직접 복사해 주세요', roundN: '{n}차', roundDdl: '{n}차 마감',
+    sortTier: '티어 높은 순', sortR1: '1차 마감 빠른 순', sortNext: '가장 가까운 미마감 일정', sortToefl: '토플 요건 높은 순', sortName: '프로그램 이름',
+    hideHalt: '이번 시즌 모집 중단 프로그램 숨기기', resetFilters: '필터 초기화',
+    kindHard: '필수 최소 점수', kindSub: '영역별 점수만 요구', kindRec: '권장 점수', kindRange: '합격자 범위 하한', kindNone: '공식 최소 점수 없음', kindNo: '불인정', kindNotStated: '미공개',
+    status: '모집 상태', fee: '지원비', site: '프로그램 사이트', programPage: 'csgrad 소개', deadlines: '마감 일정', otherDates: '기타 일정',
+    otherDatesHint: '해외 거주 국제학생에게 해당되지 않거나, 특정 지원자 한정이거나, 지난 시즌 기준입니다.', tests: '시험 및 어학', code: '코드 {c}',
+    addMine: '+ 내 지원 목록에 추가', inMine: '✓ 내 지원 목록에 있음', count: '개수',
+    gre_required: '필수', gre_not_required: '불필요', gre_optional: '선택', gre_not_accepted: '불인정', gre_recommended: '권장', gre_waived_for_some: '면제 가능', gre_unknown: '미공개',
   },
 };

@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.SSS": {
+    "message": "SSS",
+    "description": "The label for category SSS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.SS": {
+    "message": "SS",
+    "description": "The label for category SS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.S": {
+    "message": "S",
+    "description": "The label for category S in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.A+": {
+    "message": "A+",
+    "description": "The label for category A+ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.A": {
+    "message": "A",
+    "description": "The label for category A in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.A-": {
+    "message": "A-",
+    "description": "The label for category A- in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.B+": {
+    "message": "B+",
+    "description": "The label for category B+ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.B": {
+    "message": "B",
+    "description": "The label for category B in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.B-": {
+    "message": "B-",
+    "description": "The label for category B- in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.C+": {
+    "message": "C+",
+    "description": "The label for category C+ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.有用的文档": {
+    "message": "유용한 문서",
+    "description": "The label for category 有用的文档 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Intro": {
+    "message": "소개",
+    "description": "The label for the homepage in sidebar tutorialSidebar, linking to the doc intro"
+  },
+  "sidebar.tutorialSidebar.doc.转码项目合集": {
+    "message": "전향 프로그램 모음",
+    "description": "The label for the doc item 转码项目合集 in sidebar tutorialSidebar, linking to the doc 转码项目"
+  },
+  "sidebar.tutorialSidebar.doc.找CS Grad作者辅导": {
+    "message": "CS Grad 저자 멘토링",
+    "description": "The label for the consulting page in sidebar tutorialSidebar"
+  }
+}

@@ -98,16 +98,59 @@ const COPY = {
     offlineLead: 'We are improving the positioning model and result quality. New assessments and payments are paused for now.',
     offlineExisting: 'Existing customers can still open and download their report from the result link received after payment.',
   },
+  ko: {
+    pageTitle: 'MSCS 학교 포지셔닝',
+    pageDesc: '내 배경에 맞는 학교 등급을 찾아보세요 — 프로필 기반 등급 추정 및 전체 학교 리스트',
+    backHome: '홈으로 돌아가기',
+    heroTitle: 'MSCS 학교 포지셔닝',
+    heroLead: '원래 성적 체계, 수강 과목, 경험을 바탕으로 프로그램을 탐색하세요. 리포트를 구매하기 전에 프로필을 무료로 확인할 수 있습니다.',
+    canceled: '주문이 취소되었습니다.',
+    errorPrefix: '오류: ',
+    profileSection: '내 프로필',
+    submitBtn: '프로필 확인 및 미리보기',
+    recomputeBtn: '다시 평가',
+    fillRequired: '먼저 필수 항목을 입력해 주세요',
+    errInvalidNumber: '올바른 숫자를 입력해 주세요',
+    errRange: '값은 {min}에서 {max} 사이여야 합니다',
+    errInteger: '정수여야 합니다',
+    previewLabel: '추정 등급',
+    scoreLabel: '종합 점수',
+    rationaleLabel: '이 등급인 이유',
+    deliveryTitle: '리포트 예상 구성',
+    deliveryCount: '예상 주요 리스트: 프로그램 {count}개',
+    deliveryBuckets: '도전 {reach} · 적정 {match} · 대안 {safety}',
+    deliveryUnavailable: '입력하신 정보 또는 프로그램 범위가 유료 자동 리포트를 제공하기에 충분하지 않습니다. 더 많은 정보를 제공하거나 수동 검토를 요청해 주세요.',
+    needsReview: '추가 정보 또는 수동 검토가 필요합니다. 결제는 이용할 수 없으니 아래 안내를 확인하세요.',
+    stalePreview: '결제를 진행하기 전에 현재 프로필로 미리보기를 확인해 주세요.',
+    requestFailed: '요청을 처리하지 못했습니다. 나중에 다시 시도해 주세요. 다시 결제하지 마세요.',
+    paywallTitle: '전체 프로그램 적합도 리포트 열기',
+    paywallText: '리포트는 입력하신 프로필을 바탕으로 프로그램 적합도, 확인이 필요한 정보, 다음 단계를 설명합니다. 합격을 보장하거나 개인별 합격 확률을 추정하지 않습니다.',
+    paywallBullets: [
+      { lead: '프로그램 옵션과 이유', body: ': 수강 과목, 관심 분야, 경험이 각 옵션과 어떻게 연결되는지, 불확실한 부분과 함께 확인하세요.' },
+      { lead: '지원 체크리스트', body: ': 확보된 근거와 아직 확인이 필요한 요건을 구분하고, 추가 조사를 위한 링크를 제공합니다.' },
+      { lead: '보관 가능한 리포트', body: ': 결제한 결과를 열어 PDF로 내려받아 멘토나 가족과 상의할 수 있습니다.' },
+    ],
+    payBtn: '🚀 내 전체 학교 플랜 열기 →',
+    payNote: 'Stripe의 안전한 결제입니다. 자동으로 돌아오지 않으면 결과 페이지 URL을 직접 여세요.',
+    paying: 'Stripe로 이동 중…',
+    yes: '예',
+    no: '아니요',
+    selectPlaceholder: '선택…',
+    offlineStatus: '일시적으로 이용할 수 없음',
+    offlineTitle: '학교 포지셔닝이 일시적으로 중단되었습니다',
+    offlineLead: '포지셔닝 모델과 결과 품질을 개선하고 있습니다. 새로운 평가와 결제는 당분간 중단됩니다.',
+    offlineExisting: '기존 고객은 결제 후 받은 결과 링크에서 리포트를 열고 내려받을 수 있습니다.',
+  },
 };
 
 function pickLocale(loc) {
-  return loc === 'en' || loc === 'zh-Hant' ? loc : 'zh-Hans';
+  return loc === 'en' || loc === 'zh-Hant' || loc === 'ko' ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
   if (typeof node === 'string') return localizeMessages(node, locale);
-  return localizeMessages(node[locale] || node['zh-Hans'] || node.en || '', locale);
+  return localizeMessages(node[locale] || (locale === 'ko' ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
 }
 
 function OfflineNotice({ locale, t }) {
@@ -273,7 +316,7 @@ export function coerceProfile(profile, fields) {
 }
 
 export function positioningPayload(profile, fields, locale) {
-  return { ...coerceProfile(profile, fields), locale: pickLocale(locale) };
+  return { ...coerceProfile(profile, fields), locale: pickLocale(locale) === 'ko' ? 'en' : pickLocale(locale) };
 }
 
 export function canCheckout(preview, hasErrors) {

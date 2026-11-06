@@ -43,9 +43,10 @@ function makeText(lang) {
     const k = lang === 'en' && vars?.n === 1 && UI.en[`${key}One`] ? `${key}One` : key;
     return fill(lang === 'hant' ? hant(UI.zh[k]) : UI[lang][k], vars);
   };
+  // ko has no translated data: cells and labels use the English data path.
   const tr = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : DATA.en[s] ?? s);
   const cell = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : enCell(s));
-  const ord = (i) => (lang === 'en' ? String(i + 1) : '一二三四五'[i]);
+  const ord = (i) => (lang === 'en' || lang === 'ko' ? String(i + 1) : '一二三四五'[i]);
   return {lang, t, tr, cell, ord};
 }
 
@@ -77,7 +78,7 @@ const Icon = {
 
 export default function TrackerPage() {
   const {i18n: {currentLocale}} = useDocusaurusContext();
-  const lang = currentLocale === 'en' ? 'en' : currentLocale === 'zh-Hant' ? 'hant' : 'zh';
+  const lang = currentLocale === 'en' ? 'en' : currentLocale === 'zh-Hant' ? 'hant' : currentLocale === 'ko' ? 'ko' : 'zh';
   const {t, tr, cell, ord} = useMemo(() => makeText(lang), [lang]);
 
   // Share links, dates and saved picks only exist in the browser; the first render must match the static HTML.
@@ -361,7 +362,7 @@ export default function TrackerPage() {
   }
 
   const [, mm, dd] = DATA.generated.split('-').map(Number);
-  const edited = lang === 'en' ? `${MONTHS[mm - 1]} ${dd}` : `${mm}月${dd}日`;
+  const edited = lang === 'en' ? `${MONTHS[mm - 1]} ${dd}` : lang === 'ko' ? `${mm}월 ${dd}일` : `${mm}月${dd}日`;
   const filtered = gre.size || tiers.size || hideHalt;
   const emptyText = view === 'shared' ? t('emptyShared') : view === 'mine' && !starred.size ? t('emptyMine') : t('emptyNone');
   const pageTitle = t('pageTitle');
