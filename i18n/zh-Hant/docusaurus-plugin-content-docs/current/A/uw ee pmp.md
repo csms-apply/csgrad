@@ -10,6 +10,10 @@ description: "UW EE PMP 的軟件課程、西雅圖學習生活和申請經驗�
 2026更新：UW 研究生的 EE 學位（含 MS、PMP、PhD）已更名為 ECE，PMP 項目本身還在、課程不變，學位名變成 MSECE, 更爽了。
 Autumn 2027 起新入學申請的學生畢業學位將是Master of Science in Electrical and Computer Engineering；在讀學生可以自選 EE 或 ECE 學位名，Spring 2032 是最後一個還能拿 EE 學位的學期。
 
+申請系統裡現在只有 ECE 了，已經沒有 EE PMP 這個選項。選項目時選 **Electrical & Computer Engineering (MSECE) PMP - Seattle**：
+
+![UW 申请系统里的项目选项：Electrical & Computer Engineering (MSECE) PMP - Seattle](/img/uw-msece-pmp-program-select.png)
+
 這個項目蠻好的，有UW的牌子，並且地理位置在西雅圖，離微軟賊近，也是ms的target school✅。
 並且他可以coop3次，劃重點
 同時課業壓力wld很小，可以選擇全軟課程，有很多時間刷題找工作🐻，去年找工上岸率據民間統計是20%。
