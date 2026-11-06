@@ -9,7 +9,7 @@ import {localizedInternalPath} from '../lib/seo/localizedAlternates.mjs';
 import {toTraditional} from '../lib/i18n/traditional';
 import DATA from '../lib/tracker/school-list.json';
 import {
-  TIERS, TIER_COLOR, GRE, KIND, UI, ALIAS, isQuiet, encodeShare, decodeShare, enCell, shortCell,
+  TIERS, TIER_COLOR, GRE, WAIVER, WAIVABLE, KIND, UI, ALIAS, isQuiet, encodeShare, decodeShare, enCell, shortCell,
   searchIndex, matches, picksFromLegacyCards, fill,
 } from '../lib/tracker/school-list.mjs';
 import styles from './tracker.module.css';
@@ -30,6 +30,7 @@ const host = (u) => {
     return u;
   }
 };
+const waiverKind = (r) => (r.waiver?.kind in WAIVER ? r.waiver.kind : 'unknown');
 const cx = (...names) => names.filter(Boolean).map((n) => styles[n]).join(' ');
 const startOfToday = () => {
   const d = new Date();
@@ -91,6 +92,7 @@ export default function TrackerPage() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [gre, setGre] = useState(() => new Set());
   const [tiers, setTiers] = useState(() => new Set());
+  const [waivers, setWaivers] = useState(() => new Set());
   const [hideHalt, setHideHalt] = useState(false);
   const [sort, setSort] = useState('tier');
   const [menu, setMenu] = useState(null);
@@ -182,7 +184,7 @@ export default function TrackerPage() {
   };
 
   const inView = (r) => view === 'all' || (view === 'mine' ? starred.has(r.id) : shared?.ids.has(r.id));
-  const list = ROWS.filter((r) => inView(r) && (!gre.size || gre.has(r.gre)) && (!tiers.size || tiers.has(r.tier)) &&
+  const list = ROWS.filter((r) => inView(r) && (!gre.size || gre.has(r.gre)) && (!tiers.size || tiers.has(r.tier)) && (!waivers.size || waivers.has(waiverKind(r))) &&
     (!hideHalt || !r.halt) && matches(index.get(r.id), q)).sort(SORTS[sort][1]);
 
   const toggle = (setter, value) => setter((prev) => {
@@ -198,6 +200,10 @@ export default function TrackerPage() {
   const greTag = (r) => {
     const k = r.gre in GRE ? r.gre : 'unknown';
     return <span className={cx('tag', `c-${GRE[k]}`)}>{t(`gre_${k}`)}</span>;
+  };
+  const waiverTag = (r, all) => {
+    const k = waiverKind(r);
+    return k === 'unknown' || (!all && !WAIVABLE.includes(k)) ? null : <span className={cx('tag', `c-${WAIVER[k]}`)}>{t(`waiver_${k}`)}</span>;
   };
   const tierTag = (tier) => <span className={cx('tag', `c-${TIER_COLOR[tier] || 'gray'}`)}>{tier}</span>;
   const langCell = (c) => {
@@ -232,13 +238,14 @@ export default function TrackerPage() {
     const fees = picked.filter((r) => r.fee != null);
     const next = picked.flatMap((r) => r.rounds.map((x) => ({r, x}))).filter(({x}) => (daysTo(x.date) ?? 0) >= 0).sort((a, b) => a.x.date.localeCompare(b.x.date))[0];
     const halted = picked.filter((r) => r.halt).length;
+    const waivable = picked.filter((r) => WAIVABLE.includes(waiverKind(r))).length;
     const mine = view === 'mine';
     return (
       <section className={styles.summary}>
         <div className={styles.box}>
           <div><span className={styles.k}>{t('sumPicked')}</span><span className={styles.v}>{picked.length}</span></div>
           <div><span className={styles.k}>{t('sumTiers')}</span><span className={styles.tiers}>{TIERS.map((x) => [x, picked.filter((r) => r.tier === x).length]).filter(([, n]) => n).map(([x, n]) => <span key={x} className={cx('tag', `c-${TIER_COLOR[x]}`)}>{x} × {n}</span>)}</span></div>
-          <div><span className={styles.k}>{t('sumFees')}</span><span className={styles.v}>${fees.reduce((s, r) => s + r.fee, 0)}</span>{fees.length < picked.length && <span className={styles.k}>{t('sumFeesMissing', {n: picked.length - fees.length})}</span>}</div>
+          <div><span className={styles.k}>{t('sumFees')}</span><span className={styles.v}>${fees.reduce((s, r) => s + r.fee, 0)}</span>{fees.length < picked.length && <span className={styles.k}>{t('sumFeesMissing', {n: picked.length - fees.length})}</span>}{waivable > 0 && <span className={styles.k}>{t('sumFeesWaivable', {n: waivable})}</span>}</div>
           <div><span className={styles.k}>{t('sumNext')}</span><span className={styles.v}>{next ? `${slash(next.x.date)} · ${next.r.name}` : '—'}</span>{next && today && <span className={styles.k}>{left(next.x.date)}</span>}</div>
           {halted > 0 && <div><span className={styles.k}>{t('sumNote')}</span><span className={styles.v} style={{color: 'var(--soon)'}}>{t('sumHalt', {n: halted})}</span></div>}
           <span className={styles.grow} />
@@ -307,11 +314,18 @@ export default function TrackerPage() {
                 {r.halt ? prop(Icon.cal, t('status'), <span className={cx('tag', 'c-red')}>{t('halt')}</span>)
                   : r.rounds.map((x, i) => prop(Icon.cal, t('roundDdl', {n: ord(i)}), <span className={styles.date}>{slash(x.date)}</span>))}
                 {prop(Icon.select, t('colGre'), greTag(r))}
-                {prop(Icon.num, t('fee'), r.fee != null ? `$${r.fee}` : '—')}
+                {prop(Icon.num, t('fee'), <span className={styles.feeCell}>{r.fee != null ? `$${r.fee}` : '—'}{waiverTag(r, true)}</span>)}
                 {prop(Icon.link, t('colApply'), <a className={styles.url} href={r.apply} target="_blank" rel="noopener noreferrer">{host(r.apply)}</a>)}
                 {r.site && r.site !== r.apply && prop(Icon.link, t('site'), <a className={styles.url} href={r.site} target="_blank" rel="noopener noreferrer">{host(r.site)}</a>)}
                 {prop(Icon.link, t('programPage'), <a className={styles.url} href={guide}>{decodeURI(r.slug)}</a>)}
               </div>
+              {r.waiver?.note && (
+                <div className={styles.block}>
+                  <h3>{t('waiverTitle')}</h3>
+                  <p>{tr(r.waiver.note)}</p>
+                  {r.waiver.src && <a className={styles.url} href={r.waiver.src} target="_blank" rel="noopener noreferrer">{t('waiverSrc')} · {host(r.waiver.src)}</a>}
+                </div>
+              )}
               {r.halt && <div className={styles.block}><h3>{t('status')}</h3><p>{tr(ex.halt || r.haltNote)}</p></div>}
               {r.rounds.length > 0 && (
                 <div className={styles.block}>
@@ -362,7 +376,7 @@ export default function TrackerPage() {
 
   const [, mm, dd] = DATA.generated.split('-').map(Number);
   const edited = lang === 'en' ? `${MONTHS[mm - 1]} ${dd}` : `${mm}月${dd}日`;
-  const filtered = gre.size || tiers.size || hideHalt;
+  const filtered = gre.size || tiers.size || waivers.size || hideHalt;
   const emptyText = view === 'shared' ? t('emptyShared') : view === 'mine' && !starred.size ? t('emptyMine') : t('emptyNone');
   const pageTitle = t('pageTitle');
   const pageDesc = t('desc', {cycle: DATA.cycle, n: ROWS.length});
@@ -426,11 +440,16 @@ export default function TrackerPage() {
                     <label key={k} className={styles.opt}><input type="checkbox" checked={gre.has(k)} onChange={() => toggle(setGre, k)} /><span className={cx('tag', `c-${color}`)}>{t(`gre_${k}`)}</span></label>
                   ))}
                   <div className={styles.sep} />
+                  <h5>{t('waiverTitle')}</h5>
+                  {Object.entries(WAIVER).filter(([k]) => ROWS.some((r) => waiverKind(r) === k)).map(([k, color]) => (
+                    <label key={k} className={styles.opt}><input type="checkbox" checked={waivers.has(k)} onChange={() => toggle(setWaivers, k)} /><span className={cx('tag', `c-${color}`)}>{t(`waiver_${k}`)}</span></label>
+                  ))}
+                  <div className={styles.sep} />
                   <h5>{t('colTier')}</h5>
                   {TIERS.map((x) => <label key={x} className={styles.opt}><input type="checkbox" checked={tiers.has(x)} onChange={() => toggle(setTiers, x)} />{tierTag(x)}</label>)}
                   <div className={styles.sep} />
                   <label className={styles.opt}><input type="checkbox" checked={hideHalt} onChange={(e) => setHideHalt(e.target.checked)} />{t('hideHalt')}</label>
-                  <button type="button" className={cx('opt', 'reset')} onClick={() => { setGre(new Set()); setTiers(new Set()); setHideHalt(false); setMenu(null); }}>{t('resetFilters')}</button>
+                  <button type="button" className={cx('opt', 'reset')} onClick={() => { setGre(new Set()); setTiers(new Set()); setWaivers(new Set()); setHideHalt(false); setMenu(null); }}>{t('resetFilters')}</button>
                 </div>
               )}
             </div>
@@ -445,7 +464,7 @@ export default function TrackerPage() {
             <table className={styles.grid} aria-label={t('tableAria')}>
               <colgroup>
                 <col style={{width: 36}} /><col style={{width: 200}} /><col style={{width: 82}} /><col style={{width: 132}} /><col style={{width: 132}} /><col style={{width: 132}} />
-                <col style={{width: 140}} /><col style={{width: 104}} /><col style={{width: 104}} /><col style={{width: 96}} /><col />
+                <col style={{width: 140}} /><col style={{width: 160}} /><col style={{width: 104}} /><col style={{width: 104}} /><col style={{width: 96}} /><col />
               </colgroup>
               <thead>
                 <tr>
@@ -456,6 +475,7 @@ export default function TrackerPage() {
                   <th><span className={styles.h}>{Icon.cal}{t('colR2')}</span></th>
                   <th><span className={styles.h}>{Icon.cal}{t('colR3')}</span></th>
                   <th><span className={styles.h}>{Icon.select}{t('colGre')}</span></th>
+                  <th><span className={styles.h}>{Icon.num}{t('fee')}</span></th>
                   <th><span className={styles.h}>{Icon.text}{t('colToeflOld')}</span></th>
                   <th><span className={styles.h}>{Icon.text}{t('colToeflNew')}</span></th>
                   <th><span className={styles.h}>{Icon.text}{t('colIelts')}</span></th>
@@ -472,15 +492,16 @@ export default function TrackerPage() {
                     <td>{tierTag(r.tier)}</td>
                     <td>{dateCell(r, 0)}</td><td>{dateCell(r, 1)}</td><td>{dateCell(r, 2)}</td>
                     <td>{greTag(r)}</td>
+                    <td><span className={styles.feeCell}><span className={styles.score}>{r.fee != null ? `$${r.fee}` : '—'}</span>{waiverTag(r)}</span></td>
                     <td>{langCell(r.lang?.toefl_old)}</td><td>{langCell(r.lang?.toefl_new)}</td><td>{langCell(r.lang?.ielts)}</td>
                     <td><a className={styles.url} href={r.apply} target="_blank" rel="noopener noreferrer" data-stop>{host(r.apply)}</a></td>
                   </tr>
                 )) : (
-                  <tr><td className={styles.sel} /><td className={styles.empty} colSpan={10}>{emptyText}</td></tr>
+                  <tr><td className={styles.sel} /><td className={styles.empty} colSpan={11}>{emptyText}</td></tr>
                 )}
               </tbody>
               <tfoot>
-                <tr><td className={styles.sel} /><td className={styles.name}>{t('count')}<b>{list.length}</b></td><td colSpan={9} /></tr>
+                <tr><td className={styles.sel} /><td className={styles.name}>{t('count')}<b>{list.length}</b></td><td colSpan={10} /></tr>
               </tfoot>
             </table>
           </div>

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {decodeShare, encodeShare, enCell, shortCell, searchIndex, matches, picksFromLegacyCards, UI} from './school-list.mjs';
+import {decodeShare, encodeShare, enCell, shortCell, searchIndex, matches, picksFromLegacyCards, UI, WAIVER} from './school-list.mjs';
 
 const data = JSON.parse(fs.readFileSync(new URL('./school-list.json', import.meta.url)));
 const row = (name) => data.rows.find((r) => r.name === name);
@@ -27,6 +27,14 @@ test('share links round-trip ids, still open older links with a title, and rejec
 test('data is consistent: every row is in the append-only share order and has an English label', () => {
   assert.deepEqual([...data.order].sort(), data.rows.map((r) => r.id).sort());
   for (const r of data.rows) for (const x of r.rounds) assert.ok(!/\p{Script=Han}/u.test(x.label) || data.en[x.label], x.label);
+});
+
+test('every row has a fee-waiver finding with an English note and an official source', () => {
+  for (const r of data.rows) {
+    assert.ok(r.waiver?.kind in WAIVER, r.id);
+    assert.ok(data.en[r.waiver.note], r.id);
+    assert.match(r.waiver.src, /^https:\/\//, r.id);
+  }
 });
 
 test('language cells: English abbreviations and short table form', () => {
