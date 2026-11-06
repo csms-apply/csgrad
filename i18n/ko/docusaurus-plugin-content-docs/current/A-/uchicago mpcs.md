@@ -17,7 +17,7 @@ MPCS는 CS 전공 전환(비전공자 CS 전환) 프로그램으로, 포럼에�
 
 합격 결과는 예측하기 어려울 수 있습니다. 합격 발표 전날 포털 오른쪽 위에 "attention international student"가 뜨면 합격했다는 뜻입니다.
 
-[![UChicago MPCS 포털의 합격 신호, 클릭하면 원본 크기로 열립니다](/img/en/uchi-admission-signal.svg)](/img/en/uchi-admission-signal.svg)
+[![UChicago MPCS 포털의 합격 신호, 클릭하면 원본 크기로 열립니다](/img/ko/uchi-admission-signal.svg)](/img/ko/uchi-admission-signal.svg)
 
 ## 장점
 학교 순위가 높습니다. 중서부 최고의 대학입니다.

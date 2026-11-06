@@ -20,7 +20,7 @@ MSCS 프로그램은 보통 2년이지만 최대 4년까지 연장할 수 있으
 1. UCSB CS 학부, GPA 3.98
 2. UCSB CS 학부, GPA 3.90
 
-[![UCSB 합격 및 지원 현황 대시보드; 클릭하면 원본 크기로 열림](/img/en/ucsbstudent.svg)](/img/en/ucsbstudent.svg)
+[![UCSB 합격 및 지원 현황 대시보드; 클릭하면 원본 크기로 열림](/img/ko/ucsbstudent.svg)](/img/ko/ucsbstudent.svg)
 ## 취업 성과 & DataPoints
 Meta와 LinkedIn에 합격한 학생이 있습니다.
 

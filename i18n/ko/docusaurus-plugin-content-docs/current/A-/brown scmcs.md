@@ -44,7 +44,7 @@ CS 전공이어야 함 (성적표에 기재된 전공이 Computer Science여야 
 
 다양성(diversity)이 반드시 도움이 되는 것은 아닙니다. 2025년에 DEI 프로그램이 이미 폐지되었습니다. Microsoft만 여전히 CS 전공 전환자 / 미국 학부생을 선호해 채용합니다. 충분히 강하다면 학교를 고를 때 다양성 고려는 무시해도 됩니다.
 
-[![Brown SCMCS 여름 인턴 구직 설문; 원본 크기로 보기](/img/en/browncarrer.svg)](/img/en/browncarrer.svg)
+[![Brown SCMCS 여름 인턴 구직 설문; 원본 크기로 보기](/img/ko/browncarrer.svg)](/img/ko/browncarrer.svg)
 
 예전의 강한 데이터 포인트 몇 가지:
 1. 미국 R1 대학 CS 학부, 중소기업 인턴, 중소기업 신입 포지션 획득

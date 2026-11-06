@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">버클리 EECS MEng 학부 배경 분포</title>
+  <desc id="desc">자기보고 표본: 미국 대학 학부 출신 42.86%, 중국 본토 985 공정 대학 출신 39.29%, 국제 공동학위 프로그램 7.14%, 기타 3.57%, 미응답 7.14%.</desc>
+  <style>
+    .sans{font-family:"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:38px;font-weight:760;fill:#10233f}.sub{font-size:20px;fill:#5b687c}.label{font-size:21px;font-weight:650;fill:#23354d}.value{font-size:19px;font-weight:760;fill:#10233f}.note{font-size:17px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="780" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="778" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="62">합격자 표본</text>
+  <text class="sans title" x="64" y="112">학부 배경</text>
+  <text class="sans sub" x="64" y="151">버클리 EECS MEng · 비공식 자기보고 분포</text>
+  <g class="sans" transform="translate(64 215)">
+    <text class="label" x="0" y="30">미국 대학 학부 출신</text><rect x="390" y="0" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="0" width="650" height="42" rx="9" fill="#2f6fed"/><text class="value" x="1065" y="29">42.86%</text>
+    <text class="label" x="0" y="120">중국 본토 · 985 공정 대학</text><rect x="390" y="90" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="90" width="596" height="42" rx="9" fill="#258a79"/><text class="value" x="1011" y="119">39.29%</text>
+    <text class="label" x="0" y="210">국제 공동학위 프로그램</text><rect x="390" y="180" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="180" width="108" height="42" rx="9" fill="#8b5cf6"/><text class="value" x="523" y="209">7.14%</text>
+    <text class="label" x="0" y="300">미응답</text><rect x="390" y="270" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="270" width="108" height="42" rx="9" fill="#8fa0b7"/><text class="value" x="523" y="299">7.14%</text>
+    <text class="label" x="0" y="390">기타</text><rect x="390" y="360" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="360" width="54" height="42" rx="9" fill="#d97706"/><text class="value" x="469" y="389">3.57%</text>
+  </g>
+  <line x1="64" y1="680" x2="1136" y2="680" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans note" x="64" y="724">비율은 확보된 표본 기준이며 버클리 전체 신입생 집단을 나타내지 않습니다.</text>
+</svg>

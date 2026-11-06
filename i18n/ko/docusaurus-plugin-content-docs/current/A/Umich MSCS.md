@@ -56,7 +56,7 @@ UMich 학부생은 **SUGS (Sequential Undergraduate/Graduate Studies)** 프로�
 2021년 취업률: 62.61%, 2022년: 62.64%, 2023년: 65.99%.
 주요 고용주: Amazon, Facebook, Google.
 
-[![University of Michigan MSCS 고용주별 취업 결과 대시보드; 클릭하면 원본 크기로 열립니다](/img/en/umichcarrer.svg)](/img/en/umichcarrer.svg)
+[![University of Michigan MSCS 고용주별 취업 결과 대시보드; 클릭하면 원본 크기로 열립니다](/img/ko/umichcarrer.svg)](/img/ko/umichcarrer.svg)
 일부 산학 협력 프로그램(예: MDP)이 있으며, 여기서 좋은 성과를 내면 인턴십 면접/기회로 이어질 수 있습니다.
 
 

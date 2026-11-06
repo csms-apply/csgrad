@@ -39,7 +39,7 @@ GRE는 팬데믹 기간에 선택 사항이었으므로 응시하지 않아도 �
 
 프로그램은 GPA가 높은 학생과 미국 학부 출신을 선호합니다. 중국 본토 학생은 대부분 985 대학 출신입니다. 미국 학부 출신과 중국 본토 985 출신이 각각 약 40%를 차지합니다. 70% 이상의 학생이 GPA 3.8 이상입니다. 비공식 통계에 따르면 Berkeley 교환학생 경험이 있는 학생을 특히 선호합니다.
 
-[![Berkeley EECS MEng 학부 배경 분포; 클릭하면 원본 크기로 열립니다](/img/en/ucbeecsundergradu.svg)](/img/en/ucbeecsundergradu.svg)
+[![Berkeley EECS MEng 학부 배경 분포; 클릭하면 원본 크기로 열립니다](/img/ko/ucbeecsundergradu.svg)](/img/ko/ucbeecsundergradu.svg)
 
 1. ZJU Digital Media Design 전공, Harvard RA 경험, GPA 3.95
 2. UofT, GPA 3.88, co-op 인턴십 4회

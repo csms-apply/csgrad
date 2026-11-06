@@ -26,7 +26,7 @@ INI 스쿨 소속의 대표 취업 지향 프로그램입니다. CMU MSCS와 거
 
 비전공자도 환영합니다 -- 의대생(5년제 임상의학 학부)이 CS 선수 과목을 이수하고 MSIN에 합격한 DataPoints가 있습니다.
 
-![CMU MSIN 합격자 GPA 분포](/img/en/msingpa.svg)
+![CMU MSIN 합격자 GPA 분포](/img/ko/msingpa.svg)
 
 
 

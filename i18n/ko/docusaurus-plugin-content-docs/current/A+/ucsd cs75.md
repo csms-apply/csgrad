@@ -27,7 +27,7 @@ UCSD는 바다 바로 옆 San Diego에 있고 오션뷰 숙소도 있습니다. 
 
 다만 24 Fall 오퍼 보유자 그룹의 통계를 보면 GPA 3.9+ 학생이 오퍼 보유자의 절반을 차지했습니다. 높은 GPA는 합격의 필요조건이지만 충분조건은 아니라고 볼 수 있습니다. 연구나 인턴 같은 다른 요소는 합격 결과와 뚜렷한 상관관계가 보이지 않습니다. Personal statement에도 뚜렷한 선호가 없습니다. 글쓴이는 취업 준비에 관해 써서 합격했고, 친구는 전부 연구와 PhD 포부에 관해 쓰고도 합격했습니다. [헤어드라이어 이론]: UCSD에는 합격이 지원자의 GPA/GRE/TOEFL, 인턴, 연구와 무관하고 순전히 무작위라는 것을 시사하는 data point가 상당히 많습니다. 자격이 매우 뛰어난 지원자도 곧바로 불합격하는 경우가 많았습니다(추측: 서류를 검토하기도 전에 불합격 처리된 것으로 보입니다).
 
-![CS75 GPA](/img/en/cs75gpa.svg)
+![CS75 GPA](/img/ko/cs75gpa.svg)
 
 1. SJTU CS 학부, GPA 91, Microsoft 인턴 경험
 2. Beijing Jiaotong University, Communications 학부, GPA 3.97, 재학교에서 RA 1년

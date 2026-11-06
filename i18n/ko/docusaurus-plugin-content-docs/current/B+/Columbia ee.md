@@ -17,7 +17,7 @@ CS 과목을 많이 들을 수 있어서 CS로 전공을 바꾸려는 사람에�
 
 1. COMS4111 Intro to Databases. Donald 교수의 수업으로, 관계형 데이터베이스의 SQL부터 인덱싱까지 다루고 비관계형 데이터베이스는 MongoDB와 Neo4j를 다룹니다. 과제는 약 5개이고 모두 Jupyter notebook으로 코딩하며, Python의 SQLAlchemy를 연습하거나 MongoDB와 Neo4j API에 연결해 NoSQL 실습을 합니다. 중간고사와 기말고사는 take-home이고 A 받기가 매우 쉽습니다.
 
-2. COMS6156 Topic in Software Development: Cloud Computing-baidu 1point3acres
+2. COMS6156 Topic in Software Development: Cloud Computing
 역시 Donald 교수의 수업으로, 소프트웨어 개발 프로세스, AWS 구성 요소, 마이크로서비스 개념을 다룹니다. 강의는 모두 개념 위주이고 숙제와 시험은 없으며, 5-7명이 하는 큰 그룹 프로젝트 하나뿐입니다. 프로젝트는 마이크로서비스 웹 앱을 만들어 전부 AWS에 배포해야 합니다. 주요 요구 사항은 RDS, Lambda, EC2, Elastic Beanstalk, Cloud API, S3, CloudFront 등입니다. 열심히 하면 특히 AWS와 serverless 트렌드에 대해 많이 배울 수 있습니다. 기본 요건만 충족해도 A를 받습니다.
 
 3. EECS6893 Big Data Analytics
