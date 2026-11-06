@@ -125,16 +125,69 @@ const COPY = {
     errorText: 'Your order status could not be retrieved. Check your connection and retry, or reopen the original link later. This page cannot confirm whether payment succeeded; do not pay again because of this error.',
     retry: 'Retry',
   },
+  ko: {
+    pageTitle: '포지셔닝 결과',
+    pageDesc: '학교 포지셔닝 결과 — MSCS 전체 학교 리스트와 등급별 맞춤 플랜',
+    backHome: '홈으로 돌아가기',
+    backForm: '양식으로 돌아가기',
+    downloadPdf: 'PDF 다운로드',
+    downloadingPdf: 'PDF 생성 중…',
+    pdfError: 'PDF 생성에 실패했습니다. 다시 시도해 주세요. 전체 리포트는 이 페이지에서 계속 볼 수 있습니다.',
+    reportTitle: 'CS Grad MSCS 포지셔닝 리포트',
+    reportFooter: 'csgrad.com에서 생성 · 참고용',
+    tierLabel: '내 등급',
+    phdSectionTitle: 'PhD 경로 추천',
+    phdSectionSub: 'PhD 친화적 프로그램',
+    codingSectionTitle: '코딩 직무 전환 추천',
+    codingSectionSub: '직무 전환에 유리한 프로그램',
+    fitTitle: '내 프로필과의 관련성',
+    fitAligned: '일치하는 트랙', fitAdjacent: '관련 트랙', fitUnverified: '트랙 확인 필요',
+    checkMet: '확인된 근거', checkVerify: '확인 필요',
+    checklistTitle: '지원 준비 및 점검 사항', checklistHigh: '먼저 확인',
+    adviceTitle: '🎯 나를 위한 맞춤 조언',
+    emailNoticeTitle: '📬 전체 리포트를 이메일로 보냈습니다',
+    emailNoticeBody: "전체 학교 플랜과 맞춤 조언이 결제 시 사용한 이메일로 발송되고 있습니다. 몇 분 후 받은편지함을 확인해 주세요 (보이지 않으면 스팸함도 확인하세요). 이 페이지의 모든 내용은 이메일에도 포함되어 있습니다.",
+    consultLead: '💬 1:1 MSCS 지원 컨설팅이 필요하신가요?',
+    consultBio: "저는 csgrad의 운영자입니다 (학부 GPA 3.94, Microsoft / ByteDance / Baidu / HP 인턴 경험, 2024 가을 지원에서 CMU, Georgia Tech, UCSD, Columbia, UIUC 합격, 현재 Meta SDE).",
+    consultBody: "MSCS 지원 전 과정을 1:1로 코칭합니다: 학교 리스트, 에세이 전체 (SoP / CV / PS / 추천서), 온라인 지원 관리, 추천인 전략, 모의 면접 (CMU MSIN, Columbia MSCS 등), 중국 본토 인턴 / SDE 내부 추천, 합격 후 오퍼 비교 및 협상까지. 모두 제가 직접 진행하며 외주나 템플릿 에세이는 없습니다. 오퍼를 받을 때까지 함께합니다.",
+    consultCta: 'WeChat 추가:',
+    consultHandle: 'capsfly',
+    consultCopied: 'WeChat ID가 복사되었습니다',
+    consultCopyFailed: '복사에 실패했습니다. 표시된 WeChat ID를 직접 복사해 주세요',
+    consultPerk: '🎁 이 리포트에 지불한 금액은 컨설팅 패키지 비용에서 전액 차감됩니다.',
+    bucketReach: '도전',
+    bucketReachSub: 'Reach',
+    bucketMatch: '적정',
+    bucketMatchSub: 'Match',
+    bucketSafety: '대안',
+    bucketSafetySub: 'Alternatives',
+    riskTitle: '지원 위험도',
+    riskFallback: '이 그룹은 합격 위험도에 대해 보정되지 않았으며 개인별 합격 확률이 아닙니다. 적정 및 대안 프로그램도 합격을 보장하지 않습니다.',
+    reviewedTitle: '추가 적정 후보',
+    reviewedSub: '추가로 고려해 볼 프로그램',
+    reviewedDescription: '이 프로그램들은 대안 그룹에서 적정 후보로 옮겨졌으며 이 리포트의 주요 리스트에 추가된 것입니다. 선택하기 전에 교과 과정, 중점 분야, 지원 비용을 확인하세요.',
+    emptyBucket: '이 그룹에는 추천 항목이 없습니다',
+    viewDetail: '자세히 보기',
+    pendingTitle: '주문 상태 확인 중',
+    pendingText: '주문 및 리포트 상태를 가져오는 중입니다. 잠시만 기다려 주세요…',
+    missingTitle: 'session id 누락',
+    missingText: '결제 후 리디렉션 링크를 통해 이 페이지를 열어 주세요.',
+    timeoutTitle: '조회 시간 초과',
+    timeoutText: '주문이 아직 확정되지 않았습니다. 처리 중일 수 있으니 잠시 후 이 링크를 다시 열어 보세요.',
+    errorTitle: '불러오지 못했습니다',
+    errorText: '주문 상태를 가져오지 못했습니다. 연결을 확인하고 다시 시도하거나 나중에 원래 링크를 다시 열어 보세요. 이 페이지에서는 결제 성공 여부를 확인할 수 없으니, 이 오류 때문에 다시 결제하지 마세요.',
+    retry: '다시 시도',
+  },
 };
 
 function pickLocale(loc) {
-  return loc === 'en' || loc === 'zh-Hant' ? loc : 'zh-Hans';
+  return loc === 'en' || loc === 'zh-Hant' || loc === 'ko' ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
   if (typeof node === 'string') return localizeMessages(node, locale);
-  return localizeMessages(node[locale] || node['zh-Hans'] || node.en || '', locale);
+  return localizeMessages(node[locale] || (locale === 'ko' ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
 }
 
 export function ProgramFit({ fit, locale }) {
