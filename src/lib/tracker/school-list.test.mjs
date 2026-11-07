@@ -55,7 +55,7 @@ test('old kanban cards from the program library become picks', () => {
   assert.deepEqual(picksFromLegacyCards(JSON.stringify([{slug: '/B+/UCLA MENG'}]), data.rows), [row('meng@ucla').id]);
 });
 
-test('Chinese, English and Korean copy have the same keys', () => {
-  assert.deepEqual(Object.keys(UI.ko).sort(), Object.keys(UI.zh).sort());
+test('all UI copy has the same keys', () => {
+  for (const l of ['ko', 'vi', 'ja']) assert.deepEqual(Object.keys(UI[l]).sort(), Object.keys(UI.zh).sort(), l);
   assert.deepEqual(Object.keys(UI.en).filter((k) => !k.endsWith('One')).sort(), Object.keys(UI.zh).sort());
 });
