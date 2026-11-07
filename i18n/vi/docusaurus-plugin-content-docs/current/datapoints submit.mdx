@@ -1,0 +1,71 @@
+---
+sidebar_label: "📌 Hướng dẫn gửi dữ liệu vào cơ sở dữ liệu DataPoints"
+title: "Quy trình gửi trường hợp ứng tuyển lên DataPoints"
+description: "Hướng dẫn cách gửi thông tin ứng viên và kết quả trúng tuyển qua biểu mẫu thu thập, cập nhật DataPoints và thêm các chương trình chưa có trong cơ sở dữ liệu."
+---
+import Head from '@docusaurus/Head';
+
+<Head>
+  <meta name="robots" content="noindex, nofollow" />
+</Head>
+
+# 📌 Hướng dẫn gửi dữ liệu vào cơ sở dữ liệu DataPoints
+
+## 1. Lưu ý quan trọng
+
+**Cơ sở dữ liệu DataPoints© là bảng dữ liệu chỉ đọc.**
+
+Nếu muốn thêm hoặc sửa nội dung của 3 bảng con sau:
+
+- DataPoints
+- Thông tin ứng viên
+- Danh sách chương trình
+
+Vui lòng không sửa trực tiếp cơ sở dữ liệu mà bắt buộc gửi qua **biểu mẫu thu thập (Form)** tương ứng.
+
+---
+
+## 2. Quy trình gửi
+
+### Bước 1️⃣ Gửi thông tin ứng viên (chỉ một lần)
+
+Trước tiên, hãy điền thông tin cá nhân vào **"Biểu mẫu thu thập thông tin ứng viên"**.
+
+- ✅ Chỉ cần gửi một lần
+- ❌ Sau khi gửi thì không thể chỉnh sửa
+- 🔗 Mọi mục DataPoints sau này đều được liên kết với tài khoản này
+
+---
+
+### Bước 2️⃣ Gửi DataPoints trúng tuyển
+
+Gửi dữ liệu trúng tuyển qua **"Biểu mẫu thu thập DataPoints"**.
+
+- Khi điền biểu mẫu, dùng **trường Ứng viên** để liên kết với thông tin cá nhân đã gửi trước đó
+- Có thể **cập nhật và chỉnh sửa không giới hạn số lần**
+
+---
+
+## 3. Thêm chương trình chưa có trong danh sách
+
+Nếu chương trình bạn nộp chưa có trong cơ sở dữ liệu:
+
+1. Gửi chương trình qua biểu mẫu **"Thêm chương trình mới"**
+2. Sau khi được duyệt
+3. Khi điền các mục sau này, bạn có thể tìm và chọn chương trình đó ở "trường Chương trình"
+
+---
+
+## ✅ Sơ đồ tóm tắt
+
+Thông tin ứng viên (một lần)
+↓
+DataPoints (cập nhật được nhiều lần)
+↓
+Progress (cập nhật được nhiều lần)
+↓
+Nếu chưa có chương trình → Thêm chương trình mới
+
+---
+
+Nếu có thắc mắc, vui lòng liên hệ quản trị viên.
