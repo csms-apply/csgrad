@@ -1,5 +1,5 @@
 ---
-description: "CMU Mobile and IoT Engineering は Pittsburgh と Silicon Valley の 2 拠点で学ぶプログラムです。柔軟な授業構成、企業での practicum 経験、就職実績を紹介します。"
+description: "CMU MSMITE のピッツバーグとシリコンバレーでの学習スケジュール、履修、企業での practicum の体験を紹介し、合格者の経歴と過去のインターン・正社員の事例も掲載しています。"
 sidebar_label: "CMU MSMITE"
 title: "CMU MSMITE 出願ガイド：授業とプログラム体験"
 ---
@@ -21,7 +21,7 @@ MSIN に出願して不合格になった場合、MSMITE に回されること�
 5. NYU CS+Economics 学部、GPA 3.85、学部在学中に中国でビジネスアナリティクスのインターン 1 年
 6. Chinese University of Hong Kong ME 学部、GPA 3.93、フルタイム勤務経験 4 年
 7. Nanjing University、GPA 4.54/5、Berkeley へ交換留学
-8. Zhejiang Sci-Tech University 優等クラス、GPA 3.9+、学年 1 位、Tencent インターン
+8. Zhejiang Sci-Tech University のインテリジェント科学特別クラス、GPA 3.9+、学年 1 位、Tencent インターン
 9. City University of Hong Kong EE 学部、GPA 3.64、香港でインターン 3 か月
 
 ## 就職実績とデータポイント
@@ -37,11 +37,11 @@ MSIN = 103/109, MSIS = 46/50, MSIT-IS = 41/47, MSMITE = 45/48
 1. NYU CS+Economics 学部、GPA 3.85、学部在学中に中国でビジネスアナリティクスのインターン 1 年、Goldman Sachs SDE に合格
 2. UCSD CS 学部、スイスのスタートアップと IBM でインターン、Google に合格
 3. Tongji University Software Engineering 学部、SAP で 4 年の勤務経験、Bloomberg インターンから正社員に転換
-4. Zhejiang Sci-Tech University 優等クラス、GPA 3.9+、学年 1 位、Tencent インターン、TikTok に合格
+4. Zhejiang Sci-Tech University のインテリジェント科学特別クラス、GPA 3.9+、学年 1 位、Tencent インターン、TikTok に合格
 5. City University of Hong Kong EE 学部、GPA 3.64、香港でインターン 3 か月、スタートアップ（quant dev）に合格
 6. UMich CS 学部、Baidu インターン、AWS インターンに合格
 7. CMU ECE 学部、Mastercard と Intel でインターン、スタートアップの新卒ポジションに合格
-8. Peking University Sociology 学士、2022 年に Microsoft SWE インターン、2023 年から Microsoft SWE 正社員、2026 年に Waymo の SWE 正社員に転職。
+8. Peking University Sociology 学部から CS に転向、2022 年に Microsoft SWE インターン、2023 年から Microsoft SWE 正社員、2026 年に Waymo の SWE 正社員に転職。
 
 ## 授業選択
 22 Fall から、MSMITE の degree-specific core に SCS の授業が追加されました：

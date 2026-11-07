@@ -1,5 +1,5 @@
 ---
-description: "MIT Computational Science and Engineering ガイド：科学計算、研究の準備、過去の合格者プロフィール、報告されている募集停止の状況を解説します。"
+description: "MIT CSE は計算科学、最適化、数値計算寄りのプログラムです。複数学科による共同運営、過去の合格者の経歴と資金援助、本文中の募集状況の更新を紹介します。"
 sidebar_label: "MIT CSE"
 title: "MIT CSE 出願ガイド：授業とプログラム体験"
 ---
