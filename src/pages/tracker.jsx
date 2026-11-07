@@ -43,9 +43,9 @@ function makeText(lang) {
     const k = lang === 'en' && vars?.n === 1 && UI.en[`${key}One`] ? `${key}One` : key;
     return fill(lang === 'hant' ? hant(UI.zh[k]) : UI[lang][k], vars);
   };
-  // ko/vi/ja have no translated data: cells and labels use the English data path.
-  const tr = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : DATA.en[s] ?? s);
-  const cell = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : enCell(s));
+  // ko/vi/ja data strings fall back to English when a row is newer than their dictionary.
+  const tr = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : DATA[lang]?.[s] ?? DATA.en[s] ?? s);
+  const cell = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : enCell(s, lang));
   const ord = (i) => (lang === 'zh' || lang === 'hant' ? '一二三四五'[i] : String(i + 1));
   return {lang, t, tr, cell, ord};
 }

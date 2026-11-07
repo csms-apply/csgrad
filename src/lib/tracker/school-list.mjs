@@ -56,9 +56,16 @@ const EN_CELL = [[/每项|各项/g, 'each '], [/其余/g, 'others '], [/口语/g
   [/读写/g, 'Lit '], [/理解/g, 'Comp '], [/产出/g, 'Prod '], [/会话/g, 'Conv '], [/另有小分/g, '+ subscores'], [/小分/g, 'sub '],
   [/^无$/, 'None'], [/不接受/, 'Not accepted']];
 
-export function enCell(s) {
+// Words in EN_CELL that other non-Chinese locales translate; S/W/R/L and Duolingo subscores stay as in the legend.
+const CELL_WORDS = {
+  ko: {'each ': '각 ', 'others ': '기타 ', 'sub ': '영역 ', '+ subscores': '+ 영역별 점수', None: '없음', 'Not accepted': '불인정'},
+  vi: {'each ': 'mỗi phần ', 'others ': 'còn lại ', 'sub ': 'phần ', '+ subscores': '+ điểm thành phần', None: 'Không', 'Not accepted': 'Không chấp nhận'},
+  ja: {'each ': '各 ', 'others ': 'その他 ', 'sub ': '各技能 ', '+ subscores': '+ 技能別スコア', None: 'なし', 'Not accepted': '不可'},
+};
+
+export function enCell(s, lang = 'en') {
   let x = s;
-  for (const [a, b] of EN_CELL) x = x.replace(a, b);
+  for (const [a, b] of EN_CELL) x = x.replace(a, CELL_WORDS[lang]?.[b] ?? b);
   return x.replace(/\s+/g, ' ').replace(/\s*([)/,])/g, '$1').replace(/\(\s*/g, '(').trim();
 }
 
