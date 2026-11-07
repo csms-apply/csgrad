@@ -366,7 +366,7 @@ const COPY = {
     },
     ugCategoryLabels: {
       '清北': '칭화대 / 베이징대',
-      '华五': 'C9 대학',
+      '华五': '화동 5대 명문대',
       '国科/上科/南科': 'UCAS / ShanghaiTech / SUSTech',
       '10043': '중국 상위권 대학 (10043)',
       '985': '985 프로젝트 대학',
@@ -499,7 +499,7 @@ const COPY = {
     },
     ugCategoryLabels: {
       '清北': 'Thanh Hoa / Bắc Kinh',
-      '华五': 'Đại học C9',
+      '华五': 'Nhóm 5 trường Hoa Đông',
       '国科/上科/南科': 'UCAS / ShanghaiTech / SUSTech',
       '10043': 'Đại học top Trung Quốc (10043)',
       '985': 'Đại học Dự án 985',
@@ -632,7 +632,7 @@ const COPY = {
     },
     ugCategoryLabels: {
       '清北': '清華大学 / 北京大学',
-      '华五': 'C9 大学',
+      '华五': '華東五校',
       '国科/上科/南科': 'UCAS / ShanghaiTech / SUSTech',
       '10043': '中国トップ大学（10043）',
       '985': '985 工程大学',
