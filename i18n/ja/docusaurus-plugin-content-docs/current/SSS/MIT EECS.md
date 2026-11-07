@@ -1,7 +1,7 @@
 ---
-description: "PhD 合格に焦点を当てた MIT EECS ガイド：研究のバックグラウンド、出願者プロフィールの事例、博士号取得後の学術界・産業界でのキャリア。"
+description: "MIT EECS で学びを深めたいなら、まず PhD 出願のルートを知る必要があります。研究経験、推薦者とのつながり、代表的な合格事例をまとめます。独立した修士プログラムとは異なります。"
 sidebar_label: "MIT EECS"
-title: "MIT EECS PhD 出願ガイド：授業とプログラム体験談"
+title: "MIT EECS 出願ガイド：授業とプログラム体験談"
 ---
 
 # MIT EECS
@@ -26,4 +26,4 @@ PhD の学生しか採りません。ターゲット校のトップ学生たち�
 ## 就職実績
 圧倒的です。主に各種の教員職で -- Tsinghua に戻った人が多いです。産業界に進む人は主にクオンツ職に就いています。
 
-1. IIT Kharagpur 電子通信学部、MIT EECS で SM の後 PhD；2023年に PhD 修了後 Intel Labs で Hardware Security Research Scientist の正社員、その後2025年に NVIDIA で Senior DFX Architect。
+1. IIT Kharagpur 電子通信学部、MIT EECS で SM の後 PhD；2023年に PhD 修了後 Intel Labs で Hardware Security Research Scientist の正社員、2025年に NVIDIA の Senior DFX Architect に転職（いずれも正社員）。

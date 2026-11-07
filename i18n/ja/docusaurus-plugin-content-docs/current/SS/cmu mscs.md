@@ -2,7 +2,7 @@
 sidebar_position: 1
 sidebar_label: "CMU MSCS"
 title: "CMU MSCS 出願ガイド：授業とプログラム体験談"
-description: "CMU MSCS の授業概要：CSAPP、AI、理論、システムの要件と、合格者プロフィール、new grad の就職実績。"
+description: "CMU MSCS の AI、Theory、System の履修要件と授業体験を紹介し、CSAPP、データベース、深層学習システムなどの授業や、過去の合格・就職事例も掲載しています。"
 ---
 
 # CMU MSCS

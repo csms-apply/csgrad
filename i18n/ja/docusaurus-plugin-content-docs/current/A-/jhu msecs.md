@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: "JHU MSECS"
 title: "JHU MSECS 出願ガイド：授業とプログラム体験談"
-description: "JHU MSECS 体験談：異分野からの CS 転向での合格、研究の機会、履修登録、プログラム費用、インターン・就職実績。"
+description: "JHU MSECS の CS 転向での合格事例、履修登録の優先度と聴講（audit）の体験を紹介し、修了までの履修ペース、Baltimore での生活と学費を踏まえて、プログラムのメリットとトレードオフを考えます。"
 ---
 # JHU MSECS
 

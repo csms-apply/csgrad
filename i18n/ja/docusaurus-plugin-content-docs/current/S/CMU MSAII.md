@@ -1,5 +1,5 @@
 ---
-description: "CMU MSAII ガイド：就職志向の AI カリキュラム、SCS の選択科目、コーディング対策、合格の目安と異分野から CS に転向した出願者の事例。"
+description: "CMU MSAII の AI・システム系授業の選び方、Coding Bootcamp と CS への転向体験を、過去の出願者のバックグラウンドとあわせて紹介し、SDE と MLE の2つの就職ルートを解説します。"
 sidebar_label: "CMU MSAII"
 title: "CMU MSAII 出願ガイド：授業とプログラム体験談"
 ---
@@ -31,7 +31,7 @@ TOEFL 105+、GRE 330+、最上位の GPA は事実上必須です。同じ学校
 3. インドの学部、インドの小規模企業で MLE インターン多数、Pittsburgh の BNY で MLE インターンに合格
 4. インドの学部、Deloitte で MLE として1年勤務、BNY の MLE に合格し Senior DS に昇進
 5. UVA CS + Physics 学部、Riot Games でインターン、AWS の SDE インターンに合格
-6. Tsinghua 学部 + Automation 修士、ByteDance で RS インターン9か月、Palo Alto の小規模企業の MLE に合格
+6. Tsinghua 自動化 学部・修士、ByteDance で RS インターン9か月、Palo Alto の小規模企業の MLE に合格
 7. インドの学部、小規模企業でのインターン多数、MathWorks の SDE インターンに合格
 
 8. Illinois Wesleyan Biology 学部、2022年に修士修了；小規模企業で MLE インターン、2022年に Meta で Research Data Scientist の正社員、2023年に ByteDance で Data Engineer の正社員。

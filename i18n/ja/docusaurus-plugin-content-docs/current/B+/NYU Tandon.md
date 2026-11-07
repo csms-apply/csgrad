@@ -1,5 +1,5 @@
 ---
-description: "NYU Tandon MSCS ガイド：就職志向のカリキュラムと Brooklyn の環境、プログラム期間、費用、co-op の機会、合格者プロフィール。"
+description: "NYU Tandon MSCS は Brooklyn にあり、Courant のプログラムとは位置づけが異なります。プログラム期間、生活費、co-op、過去の合格・就職事例を紹介します。"
 sidebar_label: "NYU Tandon MSCS"
 title: "NYU Tandon MSCS 出願ガイド：授業とプログラム体験談"
 ---
@@ -14,7 +14,7 @@ NYU COURANT の MSCS と区別することが重要です -- COURANT の MSCS �
 ## 合格ライン & DataPoints
 中国人出願者の選考を担当するディレクターが中国人で、中国の大学ランキング（985/211）を非常に重視しているため、中国のトップ大学出身の学生を優先して合格させています。
 
-GPA 3.3 の Fudan の学生が NYU Tandon に来るケースが多いです。
+GPA 3.3 の Fudan の学生の多くが、最終的に NYU Tandon に来ています。
 
 ## 就職実績 & DataPoints
 良くはなく、かなり平凡です。
