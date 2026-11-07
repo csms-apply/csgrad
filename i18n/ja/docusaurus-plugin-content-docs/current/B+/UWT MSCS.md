@@ -1,7 +1,7 @@
 ---
 sidebar_label: "UWT MSCS"
-title: "UW Tacoma MSCSS 出願ガイド：授業とプログラム体験"
-description: "UW Tacoma MSCSS の在校生の視点から、授業、キャップストーンと修士論文の選択肢、学費とインターン、Tacoma と Bothell の比較を紹介します。"
+title: "UWT MSCS 出願ガイド：授業とプログラム体験"
+description: "UW Tacoma の CS 修士には、授業のみ・キャップストーン・修士論文の3つのルートがあります。前提科目、学費、生活、co-op の経験を紹介し、Tacoma と Bothell の両キャンパスを比較します。"
 ---
 # UWT MSCS
 
@@ -45,7 +45,7 @@ Tacoma はシアトルから約 51km 離れています。生活費はシアト�
 | 公式の就職データ | 卒業生の 90.3% が卒業時または卒業後 6 か月以内に就職（公式データ：uwb.edu/stem/graduate/mscsse/careers） | 修士課程単位の具体的な公開データはないが、公式サイトには卒業生が Microsoft、Amazon、Google などに進むと記載（uwt.edu に詳細レポートなし） | Bothell が有利 |
 | 目標企業とリクルーティングの機会 | Eastside の大手 IT 企業に近く、リクルーターが Bothell を訪れる頻度も高い。夜間授業があり社会人にも優しいため、働きながら学びやすい（よくあるルート：インターン -> 正社員） | 卒業生も大手 IT に入っているが、より強い自主性が必要 | Bothell が有利 |
 | 書類選考 | 「University of Washington MS in Computer Science & Software Engineering」と書けば、HR はキャンパスをほとんど区別せず UW として扱う | 「University of Washington MS in Computer Science & Systems」と書いても同じく UW として扱われる | 互角 |
-| 総合的な就職競争力 | シアトルの大手 IT（Amazon、Microsoft、Google など）に入りたい大多数の人にとってより有利（就職率 90.3% + 立地の強み） | cybersecurity/data science/systems が好き、または予算や生活費を優先するなら良い仕事も見つかるが、平均的には LeetCode・プロジェクト・自主的な努力がより多く必要 | Bothell をよりおすすめ |
+| 総合的な就職競争力 | シアトルの大手 IT（Amazon、Microsoft、Google など）に入りたい大多数の人にとってより有利（就職率 90.3% + 立地の強み） | cybersecurity/data science/システムの低レイヤーに関心がある、または予算や生活費を優先するなら良い仕事も見つかるが、平均的には LeetCode・プロジェクト・自主的な努力がより多く必要 | Bothell をよりおすすめ |
 | 家賃の目安 | Bothell は家賃が比較的高い。1BR 約 $1,775-$2,100/月、2BR 約 $2,400+/月、3BR+ は最大 $3,000+（平均約 $2.2K-$2.4K） | Tacoma は家賃が安い。1BR 約 $1,250+/月、2BR 約 $1,784+/月、3BR 約 $2,200+/月、平均約 $1.4K-$1.6K | Tacoma が安い |
 
 

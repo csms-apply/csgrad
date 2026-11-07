@@ -1,7 +1,7 @@
 ---
-description: "Northeastern Information Systems の専攻変更向けの学びと co-op、Boston キャンパスと Silicon Valley キャンパスの比較、卒業までの期間を紹介します。"
+description: "NEU IS の Software Development トラックはどんな CS 転向者に向いている？各キャンパス、授業、co-op、卒業までのスケジュールを紹介し、インターンと正社員の事例もまとめました。"
 sidebar_label: "NEU IS"
-title: "Northeastern Information Systems 出願ガイド：授業とプログラム体験"
+title: "NEU IS 出願ガイド：授業とプログラム体験"
 ---
 
 # NEU IS
@@ -21,7 +21,7 @@ NEU IS は本質的に専攻変更者に優しいプログラムです。カリ�
 3. STEM プログラムなので、卒業後は OPT と STEM OPT の延長を合わせて合計約 3 年の就労許可が得られます。
 
 ## 合格ライン
-他専攻の Ivy League 出身者が CS へ転向するために NEU に来るケースも多くあります。出願時には MSCS / CS Align / IS / SES を同時にチェックできます（現在は出願料が免除されており、1 回の出願で最大 3 プログラムまで出願できます）。
+周りには、Ivy League で他専攻の修士課程を修了した人が CS へ転向するために NEU に来るケースさえ多くあります。出願時には MSCS / CS Align / IS / SES を同時にチェックできます（現在は出願料が免除されており、1 回の出願で最大 3 プログラムまで出願できます）。
 
 とはいえ、合格ラインは高くなく、かなり入りやすいです。
 

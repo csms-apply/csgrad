@@ -1,5 +1,5 @@
 ---
-description: "研究重視の選考、教授へのコンタクト、報告されている資金援助の変化、出願者のプロフィールを扱う UIUC MSCS ガイドです。インターンやキャリアの実例も紹介します。"
+description: "UIUC MSCS は授業中心の MCS とは異なる研究志向の CS 修士です。教授へのコンタクト、合格の傾向と事例をまとめ、資金援助の保証に関する最新情報も記録しています。"
 sidebar_label: "UIUC MSCS"
 title: "UIUC MSCS 出願ガイド：授業とプログラム体験"
 ---
@@ -42,4 +42,4 @@ UIUC の看板プログラムです。PhD の出願と同じように考えて�
 5. UIUC CS 学部、シカゴの中小企業でインターンを獲得
 6. IIT CS 学部（女性）、研究インターン多数、JP Morgan Quant AI を獲得
 
-7. UT CS 学部、Microsoft SWE インターン、UIUC の thesis-track MSCS 在学中の 2022 年から Apple で正社員 SWE
+7. UT CS 学部、Microsoft SWE インターン、2022 年から Apple で正社員 SWE として働きながら UIUC の thesis-track MSCS に在籍

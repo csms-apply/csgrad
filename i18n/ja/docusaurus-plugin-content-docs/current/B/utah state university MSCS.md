@@ -1,7 +1,7 @@
 ---
-description: "研究型の修士課程を検討している出願者向けに、Utah State MSCS の TA・RA、奨学金などの資金援助の機会、学業の柔軟性を紹介します。"
+description: "Utah State University MSCS の TA/RA と資金援助の機会を、出願者のバックグラウンド、在学中の過ごし方、修了後の進路とあわせて紹介します。修士の費用を気にする人向けの参考情報です。"
 sidebar_label: "UTSU MSCS"
-title: "Utah State MSCS 出願ガイド：授業とプログラム体験記"
+title: "Utah State University MSCS 出願ガイド：授業とプログラム体験"
 ---
 
 # UTSU MSCS

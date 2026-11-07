@@ -1,5 +1,5 @@
 ---
-description: "Emory MSCS には CS と生物医学情報学のトラックがあります。少人数クラスでの研究機会、ヘルスケア AI、授業選択、合格者のバックグラウンドを紹介します。"
+description: "Emory MSCS には CS と BMI のトラックがあり、研究は医療 AI や NLP などの分野が中心です。少人数教育、授業選択、学費と奨学金、PhD 進学と就職の選択について紹介します。"
 sidebar_label: "Emory MSCS"
 title: "Emory MSCS 出願ガイド：授業とプログラム体験談"
 ---
@@ -24,7 +24,7 @@ Emory MSCS の合格ラインは比較的低めです。学部の専攻が CS �
 2. IIT CS 学部、GPA 8.68/10
 
 ## 就職実績とデータポイント
-Emory は就職活動の雰囲気が激しい学校ではありません。多くの修士の学生が、就職と PhD 進学の間で迷っています。Emory の Career Center や Career Fair はあまり役に立ちません。中国人学生の大半は MSCS を PhD 出願の足がかりとしており、かなりの割合が修了後もそのまま Emory に残って PhD に進みます。
+Emory は企業の採用活動が盛んな学校ではありません。多くの修士の学生が、就職と PhD 進学の間で迷っています。Emory の Career Center や Career Fair はほとんど役に立ちません。中国人学生の大半は MSCS を PhD 出願の足がかりとしており、かなりの割合が修了後もそのまま Emory に残って PhD に進みます。
 
 1. Southern University of Science and Technology CS 学部、Huawei インターンと Lilith Games での正社員1年、中小企業のインターンポジションを獲得
 2. Wake Forest University CS 学部、Baidu＋中国の中小企業で2年間のインターン（パンデミック中はリモート）、AWS SDE インターンを獲得
