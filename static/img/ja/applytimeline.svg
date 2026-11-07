@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="580" viewBox="0 0 1400 580" role="img" aria-labelledby="title desc">
+  <title id="title">2027年秋入学 大学院出願タイムライン</title>
+  <desc id="desc">2026年1月から2027年1月までの4つの準備段階：試験、経験づくり、推薦状と書類の準備、出願書類の提出。</desc>
+  <style>
+    .sans{font-family:'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic','Meiryo',-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:20px;font-weight:700;letter-spacing:2px;fill:#2f6fed}.title{font-size:40px;font-weight:750;fill:#10233f}.phase{font-size:23px;font-weight:700;fill:#10233f}.date{font-size:17px;font-weight:750;fill:#2f6fed}.body{font-size:16px;fill:#52627a}.num{font-size:18px;font-weight:800;fill:white}
+  </style>
+  <rect width="1400" height="580" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1398" height="578" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="54" y="58">出願スケジュール</text>
+  <text class="sans title" x="54" y="106">2027年秋入学 出願タイムライン</text>
+  <text class="sans body" x="54" y="144">早めに始め、実績づくりから書類準備、提出まで進めます。</text>
+  <g class="sans">
+    <g transform="translate(40 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#2f6fed"/><text class="num" x="38" y="49" text-anchor="middle">1</text>
+      <text class="date" x="76" y="48">2026年1–5月</text>
+      <text class="phase" x="28" y="105">試験対策</text>
+      <text class="body" x="28" y="148">志望プログラムで必要なら</text><text class="body" x="28" y="176">TOEFL / IELTSとGREを</text><text class="body" x="28" y="204">準備します。</text>
+    </g>
+    <g transform="translate(378 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#258a79"/><text class="num" x="38" y="49" text-anchor="middle">2</text>
+      <text class="date" x="76" y="48">2026年5–9月</text>
+      <text class="phase" x="28" y="105">経験を積む</text>
+      <text class="body" x="28" y="148">インターン、研究、</text><text class="body" x="28" y="176">プロジェクトを強化し、</text><text class="body" x="28" y="204">出願ストーリーを裏付けます。</text>
+    </g>
+    <g transform="translate(716 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#8b5cf6"/><text class="num" x="38" y="49" text-anchor="middle">3</text>
+      <text class="date" x="76" y="48">2026年9–10月</text>
+      <text class="phase" x="28" y="105">書類準備</text>
+      <text class="body" x="28" y="148">推薦者を確定し、</text><text class="body" x="28" y="176">履歴書・エッセイ・学校別の</text><text class="body" x="28" y="204">書類を下書きします。</text>
+    </g>
+    <g transform="translate(1054 190)">
+      <rect width="305" height="315" rx="20" fill="white" stroke="#dbe3ef" stroke-width="2"/>
+      <circle cx="38" cy="42" r="23" fill="#d97706"/><text class="num" x="38" y="49" text-anchor="middle">4</text>
+      <text class="date" x="76" y="48" style="font-size:15px">2026年10月–2027年1月</text>
+      <text class="phase" x="28" y="105">出願書類の提出</text>
+      <text class="body" x="28" y="148">学校ごとの書類を仕上げ、</text><text class="body" x="28" y="176">締切前に提出し、</text><text class="body" x="28" y="204">すべての要件を管理します。</text>
+    </g>
+  </g>
+</svg>

@@ -141,16 +141,102 @@ const COPY = {
     offlineLead: '포지셔닝 모델과 결과 품질을 개선하고 있습니다. 새로운 평가와 결제는 당분간 중단됩니다.',
     offlineExisting: '기존 고객은 결제 후 받은 결과 링크에서 리포트를 열고 내려받을 수 있습니다.',
   },
+  vi: {
+    pageTitle: 'Định vị trường MSCS',
+    pageDesc: 'Tìm hạng trường phù hợp với hồ sơ của bạn — ước tính hạng và danh sách trường đầy đủ dựa trên hồ sơ',
+    backHome: 'Về trang chủ',
+    heroTitle: 'Định vị trường MSCS',
+    heroLead: 'Dùng thang điểm gốc, các môn đã học và kinh nghiệm của bạn để khám phá chương trình. Kiểm tra hồ sơ miễn phí trước khi mua báo cáo.',
+    canceled: 'Đơn hàng đã bị hủy.',
+    errorPrefix: 'Lỗi: ',
+    profileSection: 'Hồ sơ của bạn',
+    submitBtn: 'Kiểm tra hồ sơ và xem trước',
+    recomputeBtn: 'Đánh giá lại',
+    fillRequired: 'Vui lòng điền các trường bắt buộc trước',
+    errInvalidNumber: 'Vui lòng nhập số hợp lệ',
+    errRange: 'Giá trị phải từ {min} đến {max}',
+    errInteger: 'Phải là số nguyên',
+    previewLabel: 'Hạng ước tính',
+    scoreLabel: 'Điểm tổng hợp',
+    rationaleLabel: 'Vì sao ở hạng này',
+    deliveryTitle: 'Nội dung báo cáo dự kiến',
+    deliveryCount: 'Danh sách chính dự kiến: {count} chương trình',
+    deliveryBuckets: 'Thử sức {reach} · Phù hợp {match} · Dự phòng {safety}',
+    deliveryUnavailable: 'Thông tin của bạn hoặc phạm vi chương trình chưa đủ để tạo báo cáo tự động trả phí. Vui lòng bổ sung thông tin hoặc yêu cầu xem xét thủ công.',
+    needsReview: 'Cần thêm thông tin hoặc xem xét thủ công. Hiện chưa thể thanh toán; hãy xem hướng dẫn bên dưới.',
+    stalePreview: 'Hãy xem trước với hồ sơ hiện tại trước khi thanh toán.',
+    requestFailed: 'Chúng tôi chưa xử lý được yêu cầu này. Vui lòng thử lại sau; đừng thanh toán lại.',
+    paywallTitle: 'Mở khóa báo cáo đánh giá chương trình đầy đủ',
+    paywallText: 'Báo cáo giải thích mức độ phù hợp với từng chương trình, thông tin cần kiểm tra và các bước tiếp theo dựa trên hồ sơ bạn cung cấp. Báo cáo không đảm bảo trúng tuyển và không ước tính xác suất trúng tuyển của cá nhân bạn.',
+    paywallBullets: [
+      { lead: 'Lựa chọn chương trình và lý do', body: ': xem các môn học, mối quan tâm và kinh nghiệm liên quan thế nào đến từng lựa chọn, kèm nêu rõ điểm chưa chắc chắn.' },
+      { lead: 'Danh sách kiểm tra hồ sơ', body: ': phân biệt bằng chứng đã có với yêu cầu còn cần xác minh, kèm liên kết để tìm hiểu thêm.' },
+      { lead: 'Báo cáo để lưu lại', body: ': mở kết quả đã thanh toán và tải PDF để trao đổi với người hướng dẫn hoặc gia đình.' },
+    ],
+    payBtn: '🚀 Mở khóa kế hoạch chọn trường đầy đủ →',
+    payNote: 'Thanh toán an toàn qua Stripe. Nếu không tự động quay lại, hãy mở trực tiếp URL trang kết quả.',
+    paying: 'Đang chuyển đến Stripe…',
+    yes: 'Có',
+    no: 'Không',
+    selectPlaceholder: 'Chọn…',
+    offlineStatus: 'Tạm thời không khả dụng',
+    offlineTitle: 'Định vị trường tạm ngừng hoạt động',
+    offlineLead: 'Chúng tôi đang cải thiện mô hình định vị và chất lượng kết quả. Tạm dừng đánh giá mới và thanh toán.',
+    offlineExisting: 'Khách hàng cũ vẫn có thể mở và tải báo cáo từ liên kết kết quả nhận được sau khi thanh toán.',
+  },
+  ja: {
+    pageTitle: 'MSCS 志望校ポジショニング',
+    pageDesc: 'あなたの経歴に合う大学ランクを見つけましょう — プロフィールに基づくランク推定と全志望校リスト',
+    backHome: 'ホームに戻る',
+    heroTitle: 'MSCS 志望校ポジショニング',
+    heroLead: '元の成績評価、履修科目、経験をもとにプログラムを探せます。レポート購入前にプロフィールを無料でチェックできます。',
+    canceled: '注文はキャンセルされました。',
+    errorPrefix: 'エラー：',
+    profileSection: 'あなたのプロフィール',
+    submitBtn: 'プロフィールを確認してプレビュー',
+    recomputeBtn: '再評価',
+    fillRequired: '先に必須項目を入力してください',
+    errInvalidNumber: '有効な数値を入力してください',
+    errRange: '{min} から {max} の間で入力してください',
+    errInteger: '整数で入力してください',
+    previewLabel: '推定ランク',
+    scoreLabel: '総合スコア',
+    rationaleLabel: 'このランクの理由',
+    deliveryTitle: 'レポートの予定内容',
+    deliveryCount: 'メインリスト予定：{count} プログラム',
+    deliveryBuckets: 'チャレンジ {reach} · 実力相応 {match} · 代替候補 {safety}',
+    deliveryUnavailable: '入力情報またはプログラムのカバー範囲が、有料の自動レポートには不足しています。情報を追加するか、手動レビューをご依頼ください。',
+    needsReview: '追加情報または手動レビューが必要です。決済はご利用いただけません。以下の案内をご確認ください。',
+    stalePreview: '決済に進む前に、現在のプロフィールでプレビューしてください。',
+    requestFailed: 'リクエストを処理できませんでした。後でもう一度お試しください。再度の支払いはしないでください。',
+    paywallTitle: 'プログラム適合レポートの全文を見る',
+    paywallText: 'レポートでは、入力されたプロフィールをもとに、プログラムとの適合性、確認が必要な情報、次のステップを説明します。合格を保証したり、個人の合格確率を推定したりするものではありません。',
+    paywallBullets: [
+      { lead: 'プログラムの選択肢と理由', body: '：履修科目・関心分野・経験が各選択肢とどう関わるかを、不確かな点も明示して確認できます。' },
+      { lead: '出願チェックリスト', body: '：確認済みの根拠と、まだ確認が必要な要件を区別し、さらに調べるためのリンクも示します。' },
+      { lead: '手元に残せるレポート', body: '：購入した結果を開いて PDF をダウンロードし、メンターや家族と相談できます。' },
+    ],
+    payBtn: '🚀 志望校プランの全体を見る →',
+    payNote: 'Stripe による安全な決済です。自動で戻らない場合は、結果ページの URL を直接開いてください。',
+    paying: 'Stripe に移動中…',
+    yes: 'はい',
+    no: 'いいえ',
+    selectPlaceholder: '選択…',
+    offlineStatus: '一時的に利用できません',
+    offlineTitle: '志望校ポジショニングは一時停止中です',
+    offlineLead: 'ポジショニングモデルと結果の品質を改善しています。新規の評価と決済は現在停止しています。',
+    offlineExisting: '既存のお客様は、決済後に受け取った結果リンクから引き続きレポートを開いてダウンロードできます。',
+  },
 };
 
 function pickLocale(loc) {
-  return loc === 'en' || loc === 'zh-Hant' || loc === 'ko' ? loc : 'zh-Hans';
+  return ['en', 'zh-Hant', 'ko', 'vi', 'ja'].includes(loc) ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
   if (typeof node === 'string') return localizeMessages(node, locale);
-  return localizeMessages(node[locale] || (locale === 'ko' ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
+  return localizeMessages(node[locale] || (['ko', 'vi', 'ja'].includes(locale) ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
 }
 
 function OfflineNotice({ locale, t }) {
@@ -316,7 +402,7 @@ export function coerceProfile(profile, fields) {
 }
 
 export function positioningPayload(profile, fields, locale) {
-  return { ...coerceProfile(profile, fields), locale: pickLocale(locale) === 'ko' ? 'en' : pickLocale(locale) };
+  return { ...coerceProfile(profile, fields), locale: ['ko', 'vi', 'ja'].includes(pickLocale(locale)) ? 'en' : pickLocale(locale) };
 }
 
 export function canCheckout(preview, hasErrors) {

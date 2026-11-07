@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">JHU 2024–2025学年度の推定費用</title>
+  <desc id="desc">年間の推定費用：授業料62,430ドル、入学登録料500ドル、健康保険2,511ドル、個人支出2,700ドル、キャンパス外の生活費16,668ドル、書籍・学用品1,458ドル、合計86,267ドル。</desc>
+  <style>
+    .sans{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic","Meiryo",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:36px;font-weight:760;fill:#10233f}.sub{font-size:19px;fill:#5b687c}.item{font-size:20px;font-weight:650;fill:#23354d}.amount{font-size:20px;font-weight:760;fill:#10233f}.detail{font-size:16px;fill:#6b7789}.total{font-size:26px;font-weight:800;fill:white}.note{font-size:15px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="760" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="758" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="60">在学費用</text>
+  <text class="sans title" x="64" y="108">2024–2025学年度の推定費用</text>
+  <text class="sans sub" x="64" y="146">ジョンズ・ホプキンス大学 · おおよその予算</text>
+  <g class="sans" transform="translate(64 190)">
+    <rect width="1072" height="58" rx="12" fill="#eaf0ff"/><text class="item" x="24" y="37">項目</text><text class="item" x="1048" y="37" text-anchor="end">推定金額</text>
+    <g transform="translate(0 70)"><text class="item" x="24" y="31">授業料</text><text class="detail" x="300" y="31">1学期あたり12–18単位</text><text class="amount" x="1048" y="31" text-anchor="end">$62,430</text></g>
+    <line x1="0" y1="122" x2="1072" y2="122" stroke="#dbe3ef"/>
+    <g transform="translate(0 130)"><text class="item" x="24" y="31">入学登録料</text><text class="amount" x="1048" y="31" text-anchor="end">$500</text></g>
+    <line x1="0" y1="182" x2="1072" y2="182" stroke="#dbe3ef"/>
+    <g transform="translate(0 190)"><text class="item" x="24" y="31">学生健康保険</text><text class="amount" x="1048" y="31" text-anchor="end">$2,511</text></g>
+    <line x1="0" y1="242" x2="1072" y2="242" stroke="#dbe3ef"/>
+    <g transform="translate(0 250)"><text class="item" x="24" y="31">個人支出</text><text class="amount" x="1048" y="31" text-anchor="end">$2,700</text></g>
+    <line x1="0" y1="302" x2="1072" y2="302" stroke="#dbe3ef"/>
+    <g transform="translate(0 310)"><text class="item" x="24" y="31">キャンパス外の生活費</text><text class="detail" x="300" y="31">月$2,083.50 × 8か月</text><text class="amount" x="1048" y="31" text-anchor="end">$16,668</text></g>
+    <line x1="0" y1="362" x2="1072" y2="362" stroke="#dbe3ef"/>
+    <g transform="translate(0 370)"><text class="item" x="24" y="31">書籍・学用品</text><text class="amount" x="1048" y="31" text-anchor="end">$1,458</text></g>
+    <rect y="438" width="1072" height="78" rx="14" fill="#10233f"/><text class="total" x="24" y="488">推定合計</text><text class="total" x="1048" y="488" text-anchor="end">$86,267</text>
+  </g>
+  <text class="sans note" x="64" y="726">健康保険の項目は、破損した元画像で欠けていた金額を補い、公表された合計と一致させたものです。費用は年ごとに変わります。</text>
+</svg>

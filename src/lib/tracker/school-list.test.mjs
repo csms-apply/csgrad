@@ -33,6 +33,8 @@ test('language cells: English abbreviations and short table form', () => {
   assert.equal(enCell('96(阅读26 口语22 其余24)'), '96(R 26 S 22 others 24)');
   assert.equal(enCell('口语23 阅读/听力22 写作24'), 'S 23 R/L 22 W 24');
   assert.equal(enCell('无'), 'None');
+  assert.equal(enCell('无', 'ja'), 'なし');
+  assert.equal(enCell('96(阅读26 口语22 其余24)', 'vi'), '96(R 26 S 22 còn lại 24)');
   assert.equal(shortCell('96(阅读26 口语22 其余24)', 'zh'), '96*');
   assert.equal(shortCell('口语23 阅读/听力22 写作24', 'zh'), '口语23*');
   assert.equal(shortCell('S 23 R/L 22 W 24', 'en'), 'S 23*');
@@ -55,7 +57,7 @@ test('old kanban cards from the program library become picks', () => {
   assert.deepEqual(picksFromLegacyCards(JSON.stringify([{slug: '/B+/UCLA MENG'}]), data.rows), [row('meng@ucla').id]);
 });
 
-test('Chinese, English and Korean copy have the same keys', () => {
-  assert.deepEqual(Object.keys(UI.ko).sort(), Object.keys(UI.zh).sort());
+test('all UI copy has the same keys', () => {
+  for (const l of ['ko', 'vi', 'ja']) assert.deepEqual(Object.keys(UI[l]).sort(), Object.keys(UI.zh).sort(), l);
   assert.deepEqual(Object.keys(UI.en).filter((k) => !k.endsWith('One')).sort(), Object.keys(UI.zh).sort());
 });

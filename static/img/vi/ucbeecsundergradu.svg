@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Phân bố nền tảng đại học của Berkeley EECS MEng</title>
+  <desc id="desc">Mẫu tự báo cáo: 42.86% từ đại học Mỹ, 39.29% từ các trường Dự án 985 ở Trung Quốc đại lục, 7.14% từ chương trình liên kết quốc tế, 3.57% khác và 7.14% không trả lời.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:38px;font-weight:760;fill:#10233f}.sub{font-size:20px;fill:#5b687c}.label{font-size:21px;font-weight:650;fill:#23354d}.value{font-size:19px;font-weight:760;fill:#10233f}.note{font-size:17px;fill:#6b7789}
+  </style>
+  <rect width="1200" height="780" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="778" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="64" y="62">MẪU SINH VIÊN TRÚNG TUYỂN</text>
+  <text class="sans title" x="64" y="112">Nền tảng đại học</text>
+  <text class="sans sub" x="64" y="151">Berkeley EECS MEng · phân bố không chính thức, tự báo cáo</text>
+  <g class="sans" transform="translate(64 215)">
+    <text class="label" x="0" y="30">Đại học tại Mỹ</text><rect x="390" y="0" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="0" width="650" height="42" rx="9" fill="#2f6fed"/><text class="value" x="1020" y="29" text-anchor="end" style="fill:white">42.86%</text>
+    <text class="label" x="0" y="120">Trung Quốc đại lục · Dự án 985</text><rect x="390" y="90" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="90" width="596" height="42" rx="9" fill="#258a79"/><text class="value" x="1011" y="119">39.29%</text>
+    <text class="label" x="0" y="210">Chương trình liên kết quốc tế</text><rect x="390" y="180" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="180" width="108" height="42" rx="9" fill="#8b5cf6"/><text class="value" x="523" y="209">7.14%</text>
+    <text class="label" x="0" y="300">Không trả lời</text><rect x="390" y="270" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="270" width="108" height="42" rx="9" fill="#8fa0b7"/><text class="value" x="523" y="299">7.14%</text>
+    <text class="label" x="0" y="390">Khác</text><rect x="390" y="360" width="650" height="42" rx="9" fill="#e5ebf4"/><rect x="390" y="360" width="54" height="42" rx="9" fill="#d97706"/><text class="value" x="469" y="389">3.57%</text>
+  </g>
+  <line x1="64" y1="680" x2="1136" y2="680" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans note" x="64" y="724">Tỷ lệ phản ánh mẫu thu thập được, không phải toàn bộ khóa nhập học của Berkeley.</text>
+</svg>

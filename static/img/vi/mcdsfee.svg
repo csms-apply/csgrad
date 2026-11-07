@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="720" viewBox="0 0 1300 720" role="img" aria-labelledby="title desc">
+  <title id="title">Chi phí chương trình CMU MCDS lộ trình 16 tháng</title>
+  <desc id="desc">Bảng chi phí cũ từ hè 2023 đến xuân 2025, gồm học phí và các khoản phí chương trình.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.eyebrow{font-size:18px;font-weight:750;letter-spacing:2px;fill:#2f6fed}.title{font-size:36px;font-weight:760;fill:#10233f}.sub{font-size:19px;fill:#5b687c}.head{font-size:17px;font-weight:750;fill:#23354d}.cell{font-size:18px;fill:#34455d}.row{font-size:18px;font-weight:650;fill:#23354d}.note{font-size:15px;fill:#6b7789}
+  </style>
+  <rect width="1300" height="720" rx="28" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1298" height="718" rx="27" fill="none" stroke="#dbe3ef" stroke-width="2"/>
+  <text class="sans eyebrow" x="54" y="58">CHI PHÍ CHƯƠNG TRÌNH TRƯỚC ĐÂY</text>
+  <text class="sans title" x="54" y="105">MCDS lộ trình 16 tháng</text>
+  <text class="sans sub" x="54" y="143">Bảng chi phí công bố cho kế hoạch học 2023–2025</text>
+  <g class="sans" transform="translate(54 184)">
+    <rect width="1192" height="62" rx="12" fill="#eaf0ff"/>
+    <text class="head" x="20" y="39">Chi phí</text><text class="head" x="345" y="39" text-anchor="middle">Hè 2023</text><text class="head" x="545" y="39" text-anchor="middle">Thu 2023</text><text class="head" x="745" y="39" text-anchor="middle">Xuân 2024</text><text class="head" x="945" y="39" text-anchor="middle">Thu 2024</text><text class="head" x="1130" y="39" text-anchor="middle">Xuân 2025</text>
+    <g transform="translate(0 72)"><text class="row" x="20" y="34">Học phí</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$27,900</text><text class="cell" x="745" y="34" text-anchor="middle">$27,900</text><text class="cell" x="945" y="34" text-anchor="middle">$28,750</text><text class="cell" x="1130" y="34" text-anchor="middle">$28,750</text></g>
+    <line x1="0" y1="126" x2="1192" y2="126" stroke="#dbe3ef"/>
+    <g transform="translate(0 136)"><text class="row" x="20" y="34">Phí hoạt động</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$119</text><text class="cell" x="745" y="34" text-anchor="middle">$119</text><text class="cell" x="945" y="34" text-anchor="middle">Chưa có</text><text class="cell" x="1130" y="34" text-anchor="middle">Chưa có</text></g>
+    <line x1="0" y1="190" x2="1192" y2="190" stroke="#dbe3ef"/>
+    <g transform="translate(0 200)"><text class="row" x="20" y="34">Bảo hiểm y tế</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$2,816</text><text class="cell" x="745" y="34" text-anchor="middle">—</text><text class="cell" x="945" y="34" text-anchor="middle">Chưa có</text><text class="cell" x="1130" y="34" text-anchor="middle">Chưa có</text></g>
+    <line x1="0" y1="254" x2="1192" y2="254" stroke="#dbe3ef"/>
+    <g transform="translate(0 264)"><text class="row" x="20" y="34">Phí PAT</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$128</text><text class="cell" x="745" y="34" text-anchor="middle">$128</text><text class="cell" x="945" y="34" text-anchor="middle">Chưa có</text><text class="cell" x="1130" y="34" text-anchor="middle">Chưa có</text></g>
+    <line x1="0" y1="318" x2="1192" y2="318" stroke="#dbe3ef"/>
+    <g transform="translate(0 328)"><text class="row" x="20" y="34">Phí công nghệ</text><text class="cell" x="345" y="34" text-anchor="middle">$0</text><text class="cell" x="545" y="34" text-anchor="middle">$230</text><text class="cell" x="745" y="34" text-anchor="middle">$230</text><text class="cell" x="945" y="34" text-anchor="middle">Chưa có</text><text class="cell" x="1130" y="34" text-anchor="middle">Chưa có</text></g>
+  </g>
+  <rect x="54" y="596" width="1192" height="62" rx="14" fill="#fff8e8" stroke="#f0d69a"/>
+  <text class="sans note" x="78" y="634">Chỉ để tham khảo. Học phí và các khoản phí có thể thay đổi; hãy lập ngân sách theo trang chi phí theo học hiện hành của CMU.</text>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "CS Grad",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "CS Grad ロゴ",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.项目介绍": {
+    "message": "プログラム紹介",
+    "description": "Navbar item with label 项目介绍"
+  },
+  "item.label.DataPoints": {
+    "message": "DataPoints",
+    "description": "Navbar item with label DataPoints"
+  },
+  "item.label.申请追踪": {
+    "message": "出願トラッカー",
+    "description": "Navbar item with label 申请追踪"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

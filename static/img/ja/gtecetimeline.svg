@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="378" viewBox="0 0 1500 378">
+  <rect width="1500" height="378" fill="white"/>
+  <g font-family="&apos;Hiragino Sans&apos;,&apos;Hiragino Kaku Gothic ProN&apos;,&apos;Noto Sans JP&apos;,&apos;Yu Gothic&apos;,&apos;Meiryo&apos;, Arial, Helvetica, sans-serif" fill="#161616">
+    <text x="58" y="58" font-size="28" font-weight="700">進路</text><text x="505" y="58" font-size="28" font-weight="700">ポイント</text>
+    <g stroke="#e5e5e5"><line x1="35" y1="95" x2="1465" y2="95"/><line x1="35" y1="185" x2="1465" y2="185"/><line x1="35" y1="275" x2="1465" y2="275"/></g>
+    <text x="58" y="150" font-size="28" font-weight="700">夏季インターン</text><text x="505" y="150" font-size="22">8月に履歴書を磨いてLeetCodeを始めよう。キャリアフェアは9–10月がピークです。</text>
+    <text x="58" y="240" font-size="28" font-weight="700">秋 / 春のco-op</text><text x="505" y="240" font-size="22">Georgia Techの強み。主な就職先はAmazon、Slack、LinkedInなどです。</text>
+    <text x="58" y="330" font-size="28" font-weight="700">正社員</text><text x="505" y="330" font-size="22">採用は年によって変わる。ECEの肩書きは幅広い応募 + リファラルで補おう。</text>
+  </g>
+</svg>

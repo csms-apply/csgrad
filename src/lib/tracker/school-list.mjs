@@ -56,15 +56,22 @@ const EN_CELL = [[/每项|各项/g, 'each '], [/其余/g, 'others '], [/口语/g
   [/读写/g, 'Lit '], [/理解/g, 'Comp '], [/产出/g, 'Prod '], [/会话/g, 'Conv '], [/另有小分/g, '+ subscores'], [/小分/g, 'sub '],
   [/^无$/, 'None'], [/不接受/, 'Not accepted']];
 
-export function enCell(s) {
+// Words in EN_CELL that other non-Chinese locales translate; S/W/R/L and Duolingo subscores stay as in the legend.
+const CELL_WORDS = {
+  ko: {'each ': '각 ', 'others ': '기타 ', 'sub ': '영역 ', '+ subscores': '+ 영역별 점수', None: '없음', 'Not accepted': '불인정'},
+  vi: {'each ': 'mỗi phần ', 'others ': 'còn lại ', 'sub ': 'phần ', '+ subscores': '+ điểm thành phần', None: 'Không', 'Not accepted': 'Không chấp nhận'},
+  ja: {'each ': '各 ', 'others ': 'その他 ', 'sub ': '各技能 ', '+ subscores': '+ 技能別スコア', None: 'なし', 'Not accepted': '不可'},
+};
+
+export function enCell(s, lang = 'en') {
   let x = s;
-  for (const [a, b] of EN_CELL) x = x.replace(a, b);
+  for (const [a, b] of EN_CELL) x = x.replace(a, CELL_WORDS[lang]?.[b] ?? b);
   return x.replace(/\s+/g, ' ').replace(/\s*([)/,])/g, '$1').replace(/\(\s*/g, '(').trim();
 }
 
 // Table cells stay short: long section rules collapse to "96*" / "S 23*"; the side peek shows the full text.
 export function shortCell(full, lang) {
-  if (full.length <= (lang === 'en' || lang === 'ko' ? 12 : 9)) return full;
+  if (full.length <= (['en', 'ko', 'vi'].includes(lang) ? 12 : 9)) return full;
   const num = /^\d+(?:\.\d+)?/.exec(full);
   return num ? `${num[0]}*` : `${full.split(/\s(?=[^\d\s])|(?<=\d)\s/)[0]}*`;
 }
@@ -188,5 +195,57 @@ export const UI = {
     otherDatesHint: '해외 거주 국제학생에게 해당되지 않거나, 특정 지원자 한정이거나, 지난 시즌 기준입니다.', tests: '시험 및 어학', code: '코드 {c}',
     addMine: '+ 내 지원 목록에 추가', inMine: '✓ 내 지원 목록에 있음', count: '개수',
     gre_required: '필수', gre_not_required: '불필요', gre_optional: '선택', gre_not_accepted: '불인정', gre_recommended: '권장', gre_waived_for_some: '면제 가능', gre_unknown: '미공개',
+  },
+  vi: {
+    title: 'Theo dõi hồ sơ', pageTitle: 'Theo dõi hồ sơ: hạn nộp và yêu cầu tiếng Anh thạc sĩ CS Bắc Mỹ',
+    desc: 'Nhập học {cycle} · hạn nộp, yêu cầu GRE và tiếng Anh của {n} chương trình thạc sĩ liên quan CS ở Bắc Mỹ',
+    edited: 'Cập nhật {d}', verified: 'Đã đối chiếu trang chính thức {d}',
+    tabAll: 'Tất cả chương trình', tabMine: 'Danh sách của tôi', tabShared: 'Danh sách được chia sẻ',
+    searchPh: 'Tìm trường hoặc chương trình…', filter: 'Lọc', sort: 'Sắp xếp', search: 'Tìm kiếm', close: 'Đóng', select: 'Chọn', peekAria: 'Chi tiết chương trình', tableAria: 'Bảng theo dõi hồ sơ',
+    colName: 'Chương trình', colTier: 'Hạng', colR1: 'Vòng 1', colR2: 'Vòng 2', colR3: 'Vòng 3', colGre: 'GRE',
+    colToeflOld: 'TOEFL (cũ)', colToeflNew: 'TOEFL (mới)', colIelts: 'IELTS', colApply: 'Nộp hồ sơ',
+    legend: 'Điểm tổng, điểm tối thiểu từng kỹ năng trong ngoặc (S = Nói, W = Viết, R = Đọc, L = Nghe). Mở dòng có dấu * để xem quy định đầy đủ, là mức tối thiểu bắt buộc hay khuyến nghị, và mã gửi điểm',
+    halt: 'Ngừng tuyển', daysLeft: 'Còn {n} ngày', past: 'đã qua', pickAria: 'Thêm {name} vào danh sách của tôi',
+    emptyShared: 'Liên kết chia sẻ này không có chương trình nào nhận dạng được', emptyMine: 'Chưa chọn chương trình nào. Quay lại Tất cả chương trình và đánh dấu ô bên trái mỗi dòng.', emptyNone: 'Không có chương trình phù hợp',
+    sharedBanner: 'Danh sách trường được chia sẻ với bạn: {n} chương trình.',
+    allSaved: 'Đã có hết trong danh sách', saveShared: 'Lưu vào danh sách của tôi', seeAll: 'Xem tất cả chương trình',
+    sumPicked: 'Đã chọn', sumTiers: 'Phân bố hạng', sumFees: 'Tổng phí nộp hồ sơ', sumFeesMissing: '{n} chương trình chưa công bố phí', sumNext: 'Hạn gần nhất', sumNote: 'Lưu ý', sumHalt: '{n} chương trình ngừng tuyển mùa này',
+    share: 'Chia sẻ danh sách', copyList: 'Sao chép danh sách', clear: 'Xóa hết',
+    shareLink: 'Liên kết chia sẻ', copyLink: 'Sao chép liên kết',
+    shareHint: 'Ai có liên kết đều xem được {n} chương trình này mà không cần đăng nhập, và có thể lưu vào danh sách của mình chỉ với một cú nhấp.',
+    copied: 'Đã sao chép', selectManual: 'Đã chọn, hãy sao chép thủ công', roundN: 'Vòng {n}', roundDdl: 'Hạn vòng {n}',
+    sortTier: 'Hạng từ cao đến thấp', sortR1: 'Hạn vòng 1 sớm nhất', sortNext: 'Hạn còn mở gần nhất', sortToefl: 'Yêu cầu TOEFL từ cao đến thấp', sortName: 'Tên chương trình',
+    hideHalt: 'Ẩn chương trình ngừng tuyển mùa này', resetFilters: 'Xóa bộ lọc',
+    kindHard: 'tối thiểu bắt buộc', kindSub: 'chỉ yêu cầu từng kỹ năng', kindRec: 'khuyến nghị', kindRange: 'mức thấp của khoảng trúng tuyển', kindNone: 'không có mức tối thiểu chính thức', kindNo: 'không chấp nhận', kindNotStated: 'chưa công bố',
+    status: 'Tình trạng tuyển sinh', fee: 'Phí nộp hồ sơ', site: 'Trang chương trình', programPage: 'Giới thiệu trên csgrad', deadlines: 'Hạn nộp', otherDates: 'Mốc khác',
+    otherDatesHint: 'Không áp dụng cho ứng viên quốc tế ở nước ngoài, chỉ dành cho một số ứng viên, hoặc thuộc mùa trước.', tests: 'Bài thi và tiếng Anh', code: 'Mã {c}',
+    addMine: '+ Thêm vào danh sách', inMine: '✓ Đã trong danh sách', count: 'Số lượng',
+    gre_required: 'bắt buộc', gre_not_required: 'không bắt buộc', gre_optional: 'tùy chọn', gre_not_accepted: 'không chấp nhận', gre_recommended: 'khuyến nghị', gre_waived_for_some: 'có thể miễn', gre_unknown: 'chưa rõ',
+  },
+  ja: {
+    title: '出願トラッカー', pageTitle: '出願トラッカー：北米 CS 修士の締切と語学要件',
+    desc: '{cycle} 入学 · 北米の CS 関連修士プログラム {n} 件の締切、GRE・語学スコア要件',
+    edited: '{d} 更新', verified: '公式サイト確認日 {d}',
+    tabAll: 'すべてのプログラム', tabMine: '自分のリスト', tabShared: '共有リスト',
+    searchPh: '大学・プログラムを検索…', filter: 'フィルター', sort: '並べ替え', search: '検索', close: '閉じる', select: '選択', peekAria: 'プログラムの詳細', tableAria: '出願トラッカー表',
+    colName: 'プログラム', colTier: 'ティア', colR1: '第1締切', colR2: '第2締切', colR3: '第3締切', colGre: 'GRE',
+    colToeflOld: 'TOEFL（旧）', colToeflNew: 'TOEFL（新）', colIelts: 'IELTS', colApply: '出願サイト',
+    legend: '総合スコアで、括弧内はセクション別の最低点です（S = スピーキング、W = ライティング、R = リーディング、L = リスニング）。* の付いた行を開くと、規定の全文、必須か推奨か、スコア送付コードを確認できます',
+    halt: '今期は募集停止', daysLeft: '残り {n} 日', past: '締切済み', pickAria: '{name} を自分のリストに追加',
+    emptyShared: 'この共有リンクには認識できるプログラムがありません', emptyMine: 'まだ選択されていません。「すべてのプログラム」に戻り、各行左のチェックボックスを選んでください。', emptyNone: '該当するプログラムはありません',
+    sharedBanner: '共有された出願リストです（{n} プログラム）。',
+    allSaved: 'すべて自分のリストに追加済み', saveShared: '自分のリストに保存', seeAll: 'すべてのプログラムを見る',
+    sumPicked: '選択済み', sumTiers: 'ティア内訳', sumFees: '出願料の合計', sumFeesMissing: '{n} 件は出願料未公表', sumNext: '直近の締切', sumNote: '注', sumHalt: '今期募集停止 {n} 件',
+    share: 'リストを共有', copyList: 'リストをコピー', clear: 'クリア',
+    shareLink: '共有リンク', copyLink: 'リンクをコピー',
+    shareHint: 'リンクを受け取った人はログインなしでこの {n} 件のプログラムを閲覧でき、ワンクリックで自分のリストに保存できます。',
+    copied: 'コピーしました', selectManual: '選択しました。手動でコピーしてください', roundN: '第{n}ラウンド', roundDdl: '第{n}締切',
+    sortTier: 'ティアの高い順', sortR1: '第1締切の早い順', sortNext: '直近の未締切日', sortToefl: 'TOEFL 要件の高い順', sortName: 'プログラム名',
+    hideHalt: '今期募集停止のプログラムを隠す', resetFilters: 'フィルターをクリア',
+    kindHard: '必須の最低点', kindSub: 'セクション別最低点のみ', kindRec: '推奨スコア', kindRange: '合格者レンジの下限', kindNone: '公式の最低点なし', kindNo: '受け付けない', kindNotStated: '未公表',
+    status: '募集状況', fee: '出願料', site: 'プログラムサイト', programPage: 'csgrad ガイド', deadlines: '締切', otherDates: 'その他の日程',
+    otherDatesHint: '海外在住の留学生向けではない、特定の出願者に限る、または過去の出願期のものです。', tests: '試験・語学', code: 'コード {c}',
+    addMine: '+ 自分のリストに追加', inMine: '✓ 自分のリストに追加済み', count: '件数',
+    gre_required: '必須', gre_not_required: '不要', gre_optional: '任意', gre_not_accepted: '受け付けない', gre_recommended: '推奨', gre_waived_for_some: '免除可', gre_unknown: '不明',
   },
 };
