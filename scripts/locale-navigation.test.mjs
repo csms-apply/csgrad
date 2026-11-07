@@ -72,6 +72,8 @@ test('internal links retain locale and URL state without rewriting external URLs
   assert.equal(paths.localizedInternalPath('/找我辅导?ref=dp#fees', 'en'), '/en/consulting?ref=dp#fees');
   assert.equal(paths.localizedInternalPath('/en/consulting', 'ko'), '/ko/consulting');
   assert.equal(paths.localizedInternalPath('/ko/B/Emory MSCS', 'zh-Hant'), '/zh-Hant/B/Emory MSCS');
+  assert.equal(paths.localizedInternalPath('/vi/B/Emory MSCS', 'ja'), '/ja/B/Emory MSCS');
+  assert.equal(paths.localizedInternalPath('/ja/consulting', 'vi'), '/vi/consulting');
   assert.equal(paths.localizedInternalPath('https://example.com/en/path', 'zh-Hans'), 'https://example.com/en/path');
   assert.equal(paths.localizedInternalPath('//example.com/path', 'en'), '//example.com/path');
   assert.equal(paths.localizedInternalPath('#fees', 'en'), '#fees');

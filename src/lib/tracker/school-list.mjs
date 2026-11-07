@@ -64,7 +64,7 @@ export function enCell(s) {
 
 // Table cells stay short: long section rules collapse to "96*" / "S 23*"; the side peek shows the full text.
 export function shortCell(full, lang) {
-  if (full.length <= (lang === 'en' || lang === 'ko' ? 12 : 9)) return full;
+  if (full.length <= (['en', 'ko', 'vi'].includes(lang) ? 12 : 9)) return full;
   const num = /^\d+(?:\.\d+)?/.exec(full);
   return num ? `${num[0]}*` : `${full.split(/\s(?=[^\d\s])|(?<=\d)\s/)[0]}*`;
 }

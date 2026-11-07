@@ -189,7 +189,7 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return ['en', 'zh-Hant', 'ko'].includes(loc) ? loc : 'zh-Hans';
+  return ['en', 'zh-Hant', 'ko', 'vi', 'ja'].includes(loc) ? loc : 'zh-Hans';
 }
 
 function fmt(template, vars) {

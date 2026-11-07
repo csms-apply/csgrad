@@ -181,13 +181,13 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return loc === 'en' || loc === 'zh-Hant' || loc === 'ko' ? loc : 'zh-Hans';
+  return ['en', 'zh-Hant', 'ko', 'vi', 'ja'].includes(loc) ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
   if (typeof node === 'string') return localizeMessages(node, locale);
-  return localizeMessages(node[locale] || (locale === 'ko' ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
+  return localizeMessages(node[locale] || (['ko', 'vi', 'ja'].includes(locale) ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
 }
 
 export function ProgramFit({ fit, locale }) {

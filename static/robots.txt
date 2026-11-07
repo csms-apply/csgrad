@@ -12,3 +12,5 @@ Sitemap: https://csgrad.com/sitemap.xml
 Sitemap: https://csgrad.com/en/sitemap.xml
 Sitemap: https://csgrad.com/zh-Hant/sitemap.xml
 Sitemap: https://csgrad.com/ko/sitemap.xml
+Sitemap: https://csgrad.com/vi/sitemap.xml
+Sitemap: https://csgrad.com/ja/sitemap.xml

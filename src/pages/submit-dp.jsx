@@ -353,7 +353,7 @@ const COPY = {
 };
 
 function pickLocale(loc) {
-  return ['en', 'zh-Hant', 'ko'].includes(loc) ? loc : 'zh-Hans';
+  return ['en', 'zh-Hant', 'ko', 'vi', 'ja'].includes(loc) ? loc : 'zh-Hans';
 }
 
 // Enum display translations. Underlying values are unchanged (backend expects exact strings).
@@ -485,7 +485,7 @@ function dispEnum(group, value, locale) {
   if (!map) return value;
   const entry = map[value];
   if (!entry) return value;
-  const label = entry[locale] || (locale === 'ko' ? entry.en : '') || entry['zh-Hans'] || value;
+  const label = entry[locale] || (['ko', 'vi', 'ja'].includes(locale) ? entry.en : '') || entry['zh-Hans'] || value;
   return locale === 'zh-Hant' ? toTraditional(label) : label;
 }
 

@@ -15,13 +15,13 @@ function browser(pathname = '/') {
 
 test('manual selections persist all three defaults and emit bounded analytics', () => {
   const b = browser();
-  for (const locale of ['en', 'zh-Hant', 'ko', 'zh-Hans']) {
+  for (const locale of ['en', 'zh-Hant', 'ko', 'vi', 'ja', 'zh-Hans']) {
     assert.equal(selectLanguage(locale, 'zh-Hans', b), true);
     assert.equal(readLanguagePreference(b).locale, locale);
     assert.equal(b.events.at(-1)[2].selected_locale, locale);
   }
   assert.equal(selectLanguage('https://evil.example', 'en', b), false);
-  assert.equal(b.events.length, 4);
+  assert.equal(b.events.length, 6);
 });
 
 test('only neutral homepage restores default, preserving search and hash', () => {
