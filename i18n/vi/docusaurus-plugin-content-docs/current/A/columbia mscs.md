@@ -1,7 +1,7 @@
 ---
 sidebar_label: "Columbia MSCS"
 title: "Hướng dẫn ứng tuyển Columbia MSCS: môn học và trải nghiệm chương trình"
-description: "Đánh giá môn học Columbia MSCS từ người trong cuộc, so sánh hai track Software Systems và ML, học phí và chi phí sinh hoạt, cùng kinh nghiệm xét tuyển và tìm việc."
+description: "Trải nghiệm học Columbia MSCS: chọn hướng Software Systems hay ML, bài tập các môn nặng đến đâu, chi phí sống ở New York ra sao, cùng kinh nghiệm làm TA, nghiên cứu và tìm việc."
 ---
 
 # Columbia MSCS
@@ -12,7 +12,7 @@ Bài viết gồm: 1. Đánh giá tìm việc 2. Các track 3. Đánh giá môn 
 ## Đánh giá tìm việc
 Những ai nghiêm túc tìm việc và nộp đơn mỗi ngày thì gần như đều có việc. Phần lớn offer đến từ các công ty lớn (vì chỉ công ty lớn mới bảo lãnh visa cho sinh viên quốc tế).
 
-Những người quanh tôi nhận được offer thực tập từ Adobe, TikTok, Meta, Amazon, NVIDIA và Databricks. Columbia có vẻ giúp khá tốt trong việc qua vòng lọc hồ sơ. Các bạn tôi quen đã được mời virtual onsite ở Citadel, Jane Street, D.E. Shaw, Bloomberg, Meta, Stripe, TikTok, WeRide, Five Rings... Nếu thời đại học bạn từng thực tập ở công ty tương đối lớn (TikTok/Alibaba/Google/Microsoft), có lẽ bạn sẽ có phỏng vấn ở khoảng 1/3 số công ty quant + big tech tôi vừa kể. Tất cả những người tôi biết ở Columbia MSCS được mời Amazon virtual onsite đều đã qua phỏng vấn. Ngoài ra, Columbia được hệ thống nội bộ của Bloomberg xếp vào nhóm trường có ROI cao, nên họ đến tận nơi tuyển người (năm 2022 họ tuyển cả một đợt lớn). Bộ phận HR của Meta phụ trách Columbia MSCS cũng rất tận tâm (recruiter Meta phụ trách Columbia MSCS cũng phụ trách các trường hạng S). Họ trả lời email rất nhanh; ngay ngày đầu mở tuyển 24 Fall, họ đã liên hệ một loạt sinh viên Columbia MSCS để phỏng vấn new grad và thực tập — thật sự rất ấn tượng.
+Những người quanh tôi nhận được offer thực tập từ Adobe, TikTok, Meta, Amazon, NVIDIA và Databricks. Columbia có vẻ giúp khá tốt trong việc qua vòng lọc hồ sơ. Các bạn tôi quen đã được mời virtual onsite ở Citadel, Jane Street, D.E. Shaw, Bloomberg, Meta, Stripe, TikTok, WeRide, Five Rings... Nếu thời đại học bạn từng thực tập ở công ty tương đối lớn (TikTok/Alibaba/Google/Microsoft), có lẽ bạn sẽ có phỏng vấn ở ít nhất khoảng 1/3 số công ty quant + big tech tôi vừa kể. Tất cả những người tôi biết ở Columbia MSCS được mời Amazon virtual onsite đều đã qua phỏng vấn. Ngoài ra, Columbia được hệ thống nội bộ của Bloomberg xếp vào nhóm trường có ROI cao, nên họ đến tận nơi tuyển người (năm 2022 họ tuyển cả một đợt lớn). Bộ phận HR của Meta phụ trách Columbia MSCS cũng rất tận tâm (recruiter Meta phụ trách Columbia MSCS cũng phụ trách các trường hạng S). Họ trả lời email rất nhanh; ngay ngày đầu mở tuyển 24 Fall, họ đã liên hệ một loạt sinh viên Columbia MSCS để phỏng vấn new grad và thực tập — thật sự rất ấn tượng.
 
 Tuy nhiên, không khí tìm việc ở Columbia CS đúng là không mạnh lắm. Hội chợ việc làm chỉ có Bloomberg, hội chợ việc làm dành cho bậc đại học thì không cho học viên sau đại học tham gia, và nhìn chung thiếu sự hỗ trợ.
 
@@ -37,7 +37,7 @@ Nhiều bài trên diễn đàn nói khối lượng học ở Columbia rất n�
 7. Advanced Software Engineering: môn bắt buộc của SS. Khối lượng trung bình. Làm một project full-stack bằng Java và triển khai lên Google Cloud.
 8. UI Design: môn nhẹ. Học React và làm một project full-stack. Gần đây còn có một ý tưởng rất thú vị — làm một công cụ interview coder.
 9. Advanced Algorithm: **hoàn toàn không liên quan** đến cấu trúc dữ liệu và giải thuật ở bậc đại học. Môn này có thể tóm gọn trong một câu: thiết kế một thuật toán ngẫu nhiên đúng khi **P > P_r**. Có thể đổi tên thành "Ứng dụng của xác suất thống kê trong thuật toán toán học". Đừng học cùng lúc với OS.
-10. Artificial Intelligence: chủ yếu là nhập môn AI và ML. Không khó nếu đã có nền tảng. Có 5 bài tập lý thuyết và 5 bài tập lập trình, cùng thi giữa kỳ và cuối kỳ. Hơi mất công, nhưng chấm điểm công bằng. Nên chọn làm môn bắt buộc của track ML.
+10. Artificial Intelligence: chủ yếu là nhập môn AI và ML. Không khó nếu đã có nền tảng. Có 5 bài tập lý thuyết và 5 bài tập lập trình, cùng thi giữa kỳ và cuối kỳ. Hơi mất công, nhưng chấm điểm khá ổn. Nên chọn làm môn bắt buộc của track ML.
 11. Applied Machine Learning: môn nhẹ, khối lượng ít. Có 5 bài tập lập trình, một bài thi giữa kỳ và một project nhóm. Chấm điểm tốt. Nên học.
 12. Software as a Service: giống Advanced Software Engineering, đây là môn bắt buộc của track SS, nhưng bạn chỉ cần chọn một trong hai. Do giáo sư Junfeng Yang dạy — thầy rất dễ mến. Nội dung môn học là Ruby và Rails. Nửa đầu học kỳ, bài tập tập trung luyện Ruby và Rails; nửa sau xoay quanh báo cáo tiến độ và thuyết trình project nhóm.
 

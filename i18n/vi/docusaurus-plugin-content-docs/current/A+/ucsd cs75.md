@@ -1,5 +1,5 @@
 ---
-description: "Góc nhìn của sinh viên UCSD CS75 về khối lượng học, cuộc sống ở cơ sở San Diego, học phí, cơ hội co-op và sự đa dạng nền tảng của người trúng tuyển."
+description: "Áp lực học tập, co-op và cuộc sống ở San Diego của UCSD CS75 ra sao? Kết hợp học phí, hỗ trợ khi làm TA và các trường hợp ứng tuyển để xem chương trình có hợp với kế hoạch tìm việc của bạn không."
 sidebar_label: "UCSD CS75"
 title: "Hướng dẫn ứng tuyển UCSD CS75: môn học và trải nghiệm chương trình"
 ---
@@ -23,7 +23,7 @@ UCSD nằm ở San Diego, sát biển, có nhà ở nhìn ra biển. Ký túc x�
 
 
 ## Xu hướng xét tuyển và dữ liệu tiêu biểu
-Tóm tắt một câu: kết quả xét tuyển rất khó đoán. Có bạn đậu Stanford EE lại trượt ở đây, trong khi có bạn từ trường ít tên tuổi lại đậu.
+Tóm tắt một câu: kết quả xét tuyển rất khó đoán. Có bạn đậu Stanford EE lại trượt ở đây, trong khi cũng có không ít bạn từ trường ngoài nhóm 985/211 lại đậu.
 
 Tuy vậy, theo thống kê nhóm người có offer kỳ 24 Fall, sinh viên GPA 3.9+ chiếm một nửa số người có offer. GPA cao có thể coi là điều kiện cần nhưng chưa đủ để trúng tuyển. Các yếu tố khác như nghiên cứu hay thực tập không thấy liên quan rõ ràng đến kết quả. Bài luận cá nhân (personal statement) cũng không thấy trường ưu tiên kiểu nào – tác giả viết về tìm việc và đậu, còn một người bạn viết toàn bộ về nghiên cứu và mong muốn học PhD cũng đậu. [Thuyết máy sấy tóc]: UCSD có khá nhiều dữ liệu cho thấy việc trúng tuyển không liên quan đến GPA/GRE/TOEFL, thực tập hay nghiên cứu của ứng viên – hoàn toàn ngẫu nhiên. Nhiều ứng viên rất mạnh bị từ chối thẳng (phỏng đoán: hồ sơ của họ còn chưa được đọc đã bị từ chối).
 

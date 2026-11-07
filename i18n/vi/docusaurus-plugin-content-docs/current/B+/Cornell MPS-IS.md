@@ -1,5 +1,5 @@
 ---
-description: "Hướng dẫn Cornell MPS in Information Science: học môn của khoa CS, lưu ý khi chuyển ngành, lên kế hoạch môn học cùng kinh nghiệm trúng tuyển và tìm việc."
+description: "Trải nghiệm chuyển ngành sang CS ở Cornell MPS-IS, thứ tự ưu tiên đăng ký môn CS và áp lực môn học, kèm các ví dụ trúng tuyển từ nhiều nền tảng đại học khác nhau, cùng cách sắp xếp thực tập và chuẩn bị tìm việc."
 sidebar_label: "Cornell MPS-IS"
 title: "Hướng dẫn ứng tuyển Cornell MPS-IS: môn học và trải nghiệm chương trình"
 ---
@@ -7,7 +7,7 @@ title: "Hướng dẫn ứng tuyển Cornell MPS-IS: môn học và trải nghi�
 # Cornell MPS-IS
 
 ## Tổng quan chương trình
-Có thể dùng để chuyển ngành sang CS; bạn được học các môn của khoa CS. Thứ tự ưu tiên đăng ký môn không bằng sinh viên CS nhưng vẫn cao hơn các trường khác. Bạn có thể dùng permission number (mã cho phép) để vào lớp. Có thể hoãn nhập học để lấy CPT đi thực tập. Trường IS có khá nhiều môn nhẹ, phù hợp để học vài môn dễ ở học kỳ đầu rồi dồn toàn lực cho việc tìm việc.
+Có thể dùng để chuyển ngành sang CS; bạn được học các môn của khoa CS. Thứ tự ưu tiên đăng ký môn không bằng sinh viên CS nhưng vẫn cao hơn các khoa khác. Bạn có thể dùng permission number (mã cho phép) để vào lớp. Có thể hoãn nhập học để lấy CPT đi thực tập. Khoa IS có khá nhiều môn nhẹ, phù hợp để học vài môn dễ ở học kỳ đầu rồi dồn toàn lực cho việc tìm việc.
 
 Nếu bạn tốt nghiệp đại học ở Mỹ, bạn có thể hoãn một học kỳ và nhập học vào mùa xuân để lấy CPT. Hướng dẫn chi tiết xem tại [Cách lấy CPT khi nhập học kỳ Spring](../useful_docs/Spring%20入学如何拿CPT.md). Chi tiết cụ thể về việc duyệt CPT nên hỏi lại trường cho chắc.
 

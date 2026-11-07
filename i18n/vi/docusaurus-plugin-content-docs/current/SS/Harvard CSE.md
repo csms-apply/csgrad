@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-description: "Harvard CSE kết hợp khoa học tính toán và toán học. Tìm hiểu các lộ trình học, đăng ký môn chéo ở MIT, hướng nghiên cứu và hồ sơ người trúng tuyển."
+description: "Harvard CSE thiên về khoa học tính toán và toán học, có nhiều lộ trình học và phương án tốt nghiệp khác nhau. Bài viết giới thiệu trải nghiệm chọn môn ở Harvard và MIT, cùng hồ sơ trúng tuyển và những cân nhắc khi chọn chương trình."
 sidebar_label: "Harvard CSE"
 title: "Hướng dẫn ứng tuyển Harvard CSE: môn học và trải nghiệm chương trình"
 ---
@@ -16,7 +16,7 @@ Một điểm trừ của chương trình là có một số yêu cầu về mô
 
 ## Ngưỡng trúng tuyển và dữ liệu thực tế
 
-Trường top + nền tảng CS/DS/Toán + GPA hàng đầu
+Trường target + nền tảng CS/DS/Toán + GPA hàng đầu
 
 Mỗi năm chỉ tuyển vài chục người nên ngưỡng trúng tuyển cao. Về cơ bản, ai trúng tuyển cũng là sinh viên khối khoa học – kỹ thuật có GPA top đầu ở trường mình. Phần lớn sinh viên trong chương trình tốt nghiệp cử nhân ở Mỹ, đặc biệt rất nhiều người đến từ UCB.
 
@@ -45,7 +45,7 @@ Harvard còn có chương trình PhD Data Science riêng, và một số sinh vi
 ## Trải nghiệm cuộc sống
 Áp lực học tập rất lớn, nhất là học kỳ đầu – gần như cả tuần 7 ngày, ngày nào cũng ngồi thư viện 10 tiếng. Nhưng chỉ cần bỏ đủ thời gian, đạt A / A- hoàn toàn khả thi. Bị B nghĩa là bạn hoặc không học mấy, hoặc làm hỏng một bài thi.
 
-Một góc nhìn khác: nếu bạn định học lộ trình hai năm, thực ra mỗi học kỳ chỉ cần học 2-3 môn, phần còn lại lấp bằng một môn giữ chỗ (placeholder). Sinh viên làm nghiên cứu cũng có thể đăng ký môn nghiên cứu độc lập (independent study). Như vậy khối lượng học thực ra khá nhẹ. Với những bạn chỉ muốn dùng chương trình này làm bàn đạp để đi làm hoặc học PhD, thường chỉ cần làm xong bài tập và ôn thi cuối kỳ là có GPA khá. Thời gian còn lại dành cho tìm việc / nghiên cứu / vui chơi. Nhìn chung trải nghiệm rất tự do.
+Thêm một data point khác: nếu bạn định học lộ trình hai năm, thực ra mỗi học kỳ chỉ cần học 2-3 môn, phần còn lại lấp bằng một môn giữ chỗ (placeholder). Sinh viên làm nghiên cứu cũng có thể đăng ký môn nghiên cứu độc lập (independent study). Như vậy khối lượng học thực ra khá nhẹ. Với những bạn chỉ muốn dùng chương trình này làm bàn đạp để đi làm hoặc học PhD, thường chỉ cần làm xong bài tập và ôn thi cuối kỳ là có GPA khá. Thời gian còn lại dành cho tìm việc / nghiên cứu / vui chơi. Nhìn chung trải nghiệm rất tự do.
 
 
 

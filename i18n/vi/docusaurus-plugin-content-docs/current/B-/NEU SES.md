@@ -1,5 +1,5 @@
 ---
-description: "Hướng dẫn Northeastern Software Engineering Systems: các cơ sở (Boston, Arlington, Toronto), lựa chọn khi nộp hồ sơ, nền tảng người trúng tuyển và kết quả việc làm."
+description: "NEU SES là chương trình Software Engineering Systems mở tại các cơ sở Boston, Arlington, Toronto. Bài viết so sánh cách chọn giữa SES với MSCS, CS Align, IS khi nộp hồ sơ, kèm tình hình trúng tuyển và kết quả tìm việc của các khóa trước."
 sidebar_label: "NEU SES"
 title: "Hướng dẫn ứng tuyển NEU Software Engineering Systems: môn học và trải nghiệm chương trình"
 ---

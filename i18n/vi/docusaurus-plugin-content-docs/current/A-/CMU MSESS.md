@@ -1,5 +1,5 @@
 ---
-description: "Hướng dẫn CMU MSE-SS: các môn kỹ thuật phần mềm, giá trị của kinh nghiệm làm việc trước đó, hồ sơ trúng tuyển và kết quả thực tập, việc làm được chia sẻ."
+description: "CMU MSE-SS khác gì so với nhánh ES và Professional? Bài viết giới thiệu môn học, thực tập và cách sắp xếp capstone, cùng ảnh hưởng của kinh nghiệm kỹ thuật phần mềm đến việc ứng tuyển và theo học."
 sidebar_label: "CMU MSE-SS"
 title: "Hướng dẫn ứng tuyển CMU MSE-SS: môn học và trải nghiệm chương trình"
 ---
@@ -10,7 +10,7 @@ title: "Hướng dẫn ứng tuyển CMU MSE-SS: môn học và trải nghiệm 
 ## Tổng quan chương trình
 
 Tên đầy đủ là Master of Software Engineering.
-Bản thân chương trình MSE là một chương trình thạc sĩ kỹ thuật định hướng nghề nghiệp, gồm ba nhánh (track):
+Bản thân chương trình MSE là một chương trình thạc sĩ kỹ thuật, gồm ba nhánh (track):
 
 1. Scalable Systems (SS)
 2. Embedded Systems (ES)
@@ -21,7 +21,7 @@ SS và ES dành cho người mới có dưới 2 năm kinh nghiệm làm việc,
 Phần lớn các môn là môn xã hội / phi kỹ thuật. Không khuyến khích cho người chuyển ngành sang CS mà chưa có kinh nghiệm làm việc liên quan đến SDE. Phù hợp với sinh viên có từ 3 năm kinh nghiệm làm việc toàn thời gian trở lên. Chương trình gần như không có môn lập trình, ít linh hoạt trong việc chọn môn, và chất lượng các môn bắt buộc không cao. Cảm giác giống MISM hơn là SCS. Trong quá trình xét hồ sơ, trường sẽ gửi email yêu cầu bạn giải hai bài LeetCode.
 
 ## Tiêu chí tuyển sinh và Data Points tiêu biểu
-Sinh viên đại khái một nửa là người Ấn Độ, một nửa là người Trung Quốc. Trường rất coi trọng kinh nghiệm làm việc/thực tập — có kinh nghiệm thực tập ở các công ty lớn như BBAT (Baidu, ByteDance, Alibaba, Tencent) có thể giúp bạn trúng tuyển dù hồ sơ hơi yếu.
+Sinh viên đại khái một nửa là người Ấn Độ, một nửa là người Trung Quốc. Trường coi trọng kinh nghiệm thực tập — có kinh nghiệm thực tập ở các công ty lớn như BBAT (Baidu, ByteDance, Alibaba, Tencent) có thể giúp bạn trúng tuyển dù hồ sơ hơi yếu.
 
 1. Cử nhân IS tại CMU, GPA 3.5
 2. Sinh viên Ấn Độ, cử nhân tại VIT, GPA 3.95/4

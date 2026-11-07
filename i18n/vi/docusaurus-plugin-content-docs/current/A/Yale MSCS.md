@@ -1,5 +1,5 @@
 ---
-description: "Hướng dẫn chương trình MSCS một năm của Yale: hồ sơ trúng tuyển, lựa chọn hoãn nhập học và kinh nghiệm tìm việc, kèm lưu ý cho ai định nhập học kỳ mùa xuân."
+description: "Yale MSCS một năm ưu tiên hồ sơ thế nào và tìm việc ra sao, kèm các ví dụ về GPA, điểm ngoại ngữ và nơi làm việc sau tốt nghiệp, cùng những điều cần cân nhắc khi hoãn nhập học và sắp xếp thực tập."
 sidebar_label: "Yale MSCS 1 year"
 title: "Hướng dẫn ứng tuyển Yale MSCS một năm: môn học và trải nghiệm chương trình"
 ---
@@ -13,7 +13,7 @@ Nếu bạn tốt nghiệp đại học ở Mỹ, bạn có thể thử hoãn m�
 
 
 ## Ngưỡng trúng tuyển và Data Points
-Về cơ bản là một cái máy tính GPA có trọng số. Những năm trước GRE bị cắt cứng ở mức 328. Gần đây có dấu hiệu nới lỏng, đã có data point 325 vẫn trúng tuyển.
+Về cơ bản là một cỗ máy tính điểm có trọng số cho bộ ba chỉ số (GPA, ngoại ngữ, GRE). Những năm trước GRE bị cắt cứng ở mức 328. Gần đây có dấu hiệu nới lỏng, đã có data point 325 vẫn trúng tuyển.
 ZJU là trường "feeder" (nguồn tuyển quen thuộc): những năm trước riêng CS + chương trình liên kết ZJU-UIUC có thể có hơn 20 người trúng tuyển. Thực tập và nghiên cứu không được tính đến. Chương trình nói rõ là "không yêu cầu nghiên cứu". Họ chỉ xem GPA, trường đại học, TOEFL và GRE.
 
 1. Cử nhân ở Mỹ, top 100, CS, GPA 3.92
@@ -25,7 +25,7 @@ ZJU là trường "feeder" (nguồn tuyển quen thuộc): những năm trước
 7. Cử nhân UW CS, GPA 3.9
 
 ## Kết quả việc làm và Data Points
-Ở mức trung bình, chủ yếu vì không có kinh nghiệm thực tập tại Mỹ thì rất khó tìm vị trí new grad. Việc làm chủ yếu nhờ đợt tuyển của TikTok và Amazon. Tỷ lệ có việc new grad khóa 24 Fall là 10%-15%. Nhìn chung không bằng UCB EECS MEng, cũng là chương trình một năm.
+Ở mức trung bình, chủ yếu vì không có kinh nghiệm thực tập tại Mỹ thì rất khó tìm vị trí new grad. Việc làm chủ yếu nhờ đợt tuyển của TikTok và Amazon. Tỷ lệ có việc new grad năm 2024 là 10%-15%. Nhìn chung không bằng UCB EECS MEng, cũng là chương trình một năm.
 
 Một số data point đã có việc:
 1. Cử nhân Wuhan University CS, thực tập TikTok ở Trung Quốc một năm, tốt nghiệp là nhận ngay new grad TikTok

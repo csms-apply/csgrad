@@ -1,5 +1,5 @@
 ---
-description: "Góc nhìn của sinh viên UPenn EE về yêu cầu môn ESE, các môn tự chọn toán và ML, khối lượng học tập cùng lựa chọn chuyển ngành hoặc học thêm bằng kỹ thuật thứ hai."
+description: "Ở UPenn EE nên kết hợp môn bắt buộc ESE với môn tự chọn CIS thế nào? Bài viết chia sẻ áp lực học tập, kinh nghiệm chuyển ngành nội bộ và sự khác biệt khi tìm việc mảng phần mềm so với phần cứng."
 sidebar_label: "Upenn EE"
 title: "Hướng dẫn ứng tuyển UPenn EE: môn học và trải nghiệm chương trình"
 ---
@@ -30,4 +30,4 @@ Rất ít sinh viên theo hướng phần mềm, hầu như không thấy ai tì
 - Cử nhân Penn EE, ngành phụ CS, học xong chương trình Accelerated Master's của Penn, tốt nghiệp năm 2026 rồi vào làm toàn thời gian ở nhóm Battery Electronics của Tesla với vị trí Electrical Design Engineer.
 
 ## Chuyển chương trình
-Muốn chuyển chương trình thì cần đạt A- trở lên ở một môn thuật toán / lý thuyết tính toán. Giáo sư và TA đều nói chuyển khá dễ, nhưng điều phối viên lại bảo cạnh tranh rất gắt, thật khó hiểu. Mình đã học môn thuật toán: nửa đầu giống LeetCode, nửa sau học về P và NP. Đề thi không khó hơn bài 2 kỳ NOIP bảng phổ thông / Codeforces rating 1400 / AtCoder 800. Mà mình cũng chưa cày LeetCode nhiều... Bài tập về nhà thì có vài bài khó.
+Muốn chuyển chương trình thì cần đạt A- trở lên ở một môn thuật toán / lý thuyết tính toán. Giáo sư và TA đều nói chuyển khá dễ, nhưng điều phối viên lại bảo cạnh tranh rất gắt, thật khó hiểu. Mình đã học môn thuật toán: nửa đầu giống LeetCode, nửa sau học về P và NP. Đề thi không khó hơn bài 2 kỳ NOIP bảng trung học cơ sở / Codeforces rating 1400 / AtCoder 800. Mà mình còn chưa từng cày LeetCode... Bài tập về nhà thì có vài bài khó.

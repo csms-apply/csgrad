@@ -1,5 +1,5 @@
 ---
-description: "Hướng dẫn Harvard Data Science: học môn ở cả Harvard lẫn MIT, nền tảng định lượng của người trúng tuyển và hướng nghiệp trong khoa học dữ liệu và tài chính."
+description: "Trải nghiệm học môn liên trường của Harvard DS và nền tảng người trúng tuyển các khóa trước, kèm ví dụ ứng viên ngành CS, toán, thống kê, cùng nơi làm việc trong ngành công nghệ và tài chính."
 sidebar_label: "Harvard DS"
 title: "Hướng dẫn ứng tuyển Harvard Data Science: môn học và trải nghiệm chương trình"
 ---

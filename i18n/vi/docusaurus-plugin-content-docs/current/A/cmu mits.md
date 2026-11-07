@@ -1,7 +1,7 @@
 ---
 sidebar_label: "CMU MITS"
 title: "Hướng dẫn ứng tuyển CMU MITS: môn học và trải nghiệm chương trình"
-description: "Tìm hiểu các lộ trình của CMU MITS, cách chọn môn SCS linh hoạt và capstone làm cùng doanh nghiệp, kèm nền tảng người trúng tuyển và kinh nghiệm làm phần mềm."
+description: "Nên chọn lộ trình nào trong bốn lộ trình của CMU MITS? Bài viết giới thiệu các môn hệ thống và dữ liệu, capstone làm cùng doanh nghiệp, phỏng vấn xét tuyển và học phí, kèm các trường hợp trúng tuyển và tìm việc của các khóa trước."
 ---
 
 # CMU MITS
@@ -54,4 +54,4 @@ Các câu hỏi phỏng vấn của mình khi đó:
 6. Cử nhân Software Engineering, Fudan University, GPA 3.58, tổng cộng 13 tháng thực tập tại Tencent và Meituan, không tìm được thực tập ở Mỹ nên về nước thực tập tại ByteDance. New grad đậu Splunk
 7. Cử nhân Engineering, Tongji University, GPA 90, không có thực tập, đậu Amazon
 8. Cử nhân CS ZJU, thực tập 2 tháng tại China Merchants Bank, rồi 5 tháng tại ByteDance, thực tập đậu Apple, new grad đậu Goldman Sachs
-9. Cử nhân Toán + Kinh tế, Wisconsin–Madison, thực tập Full Stack Developer ở một công ty nhỏ năm 2024, làm SWE toàn thời gian tại Google từ năm 2025.
+9. Cử nhân Toán + Kinh tế, Wisconsin–Madison, thực tập Full Stack Developer ở một công ty nhỏ năm 2024, năm 2025 đậu SWE toàn thời gian tại Google.
