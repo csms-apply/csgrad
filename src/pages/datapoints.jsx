@@ -254,6 +254,7 @@ const COPY = {
       '欧陆本': 'Continental European university',
       '海本': 'Overseas university',
     },
+    majorLabels: {'自动化/Robotics': 'Automation / Robotics', 'CS交叉学科（bme等）': 'CS interdisciplinary (BME etc.)', '其他电类学科（精仪等）': 'Other EE-related (precision instruments etc.)', '其他理工科': 'Other STEM', '其他学科': 'Other fields'},
     notesLabel: {
       dp: 'Application notes',
       research: 'Research',
@@ -386,6 +387,7 @@ const COPY = {
       '欧陆本': '유럽 대륙 대학',
       '海本': '해외 대학',
     },
+    majorLabels: {'自动化/Robotics': '자동화 / 로보틱스', 'Info System': '정보시스템', 'Info Security': '정보보안', 'CS交叉学科（bme等）': 'CS 융합 전공 (BME 등)', '其他电类学科（精仪等）': '기타 전기·전자 계열 (정밀기기 등)', 'Math/Stat': '수학 / 통계', '其他理工科': '기타 이공계', '其他学科': '기타 전공'},
     notesLabel: {
       dp: '지원 메모',
       research: '연구',
@@ -518,6 +520,7 @@ const COPY = {
       '欧陆本': 'Đại học châu Âu lục địa',
       '海本': 'Đại học nước ngoài',
     },
+    majorLabels: {'自动化/Robotics': 'Tự động hóa / Robot', 'Info System': 'Hệ thống thông tin', 'Info Security': 'An toàn thông tin', 'CS交叉学科（bme等）': 'Liên ngành CS (BME, v.v.)', '其他电类学科（精仪等）': 'Ngành điện khác (thiết bị chính xác, v.v.)', 'Math/Stat': 'Toán / Thống kê', '其他理工科': 'Khối kỹ thuật khác', '其他学科': 'Ngành khác'},
     notesLabel: {
       dp: 'Ghi chú hồ sơ',
       research: 'Nghiên cứu',
@@ -650,6 +653,7 @@ const COPY = {
       '欧陆本': 'ヨーロッパ大陸の大学',
       '海本': '海外の大学',
     },
+    majorLabels: {'自动化/Robotics': '自動化 / ロボティクス', 'Info System': '情報システム', 'Info Security': '情報セキュリティ', 'CS交叉学科（bme等）': 'CS 融合分野（BME など）', '其他电类学科（精仪等）': 'その他電気系（精密機器など）', 'Math/Stat': '数学 / 統計', '其他理工科': 'その他理工系', '其他学科': 'その他の分野'},
     notesLabel: {
       dp: '出願メモ',
       research: '研究',
