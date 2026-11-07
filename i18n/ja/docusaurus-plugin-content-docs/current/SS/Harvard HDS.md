@@ -1,7 +1,7 @@
 ---
 sidebar_label: "Harvard HDS"
-title: "Harvard Health Data Science 出願ガイド：授業とプログラムの実際"
-description: "Harvard Health Data Science の生物統計学の授業、病院と連携した capstone プロジェクト、cross-registration についてのメモと、合格者・就職者のプロフィールを紹介します。"
+title: "Harvard HDS 出願ガイド：授業とプログラムの実際"
+description: "Harvard HDS の必修科目は生物統計の分野で開講され、capstone は病院と連携して行います。他スクールでの履修、研究リソース、さまざまな学部背景からの出願事例を紹介します。"
 ---
 # Harvard HDS
 
@@ -11,7 +11,7 @@ description: "Harvard Health Data Science の生物統計学の授業、病院�
 授業の選択は非常に柔軟で、MIT や Harvard 内の他のスクールの授業を自由に履修できます。
 
 ## 合格ラインと基準
-毎年15-20人。中国本土の学部出身者は Tsinghua、Peking、C5 大学の出身です。米国の学部出身者は主に UCB、UCLA、UIUC、UMich、UPenn、UChicago、UCSD、UofT などの名門校から来ています。
+毎年15-20人。中国本土の学部出身者は Tsinghua、Peking と華五（Fudan、SJTU、ZJU、Nanjing、USTC）の出身です。米国の学部出身者は主に UCB、UCLA、UIUC、UMich、UPenn、UChicago、UCSD、UofT などの名門校から来ています。
 1. University of Colorado Denver、Economics+Math 学部、GPA 3.99、証券会社でのインターン複数回、Peking University で RA 1年
 2. Mount Holyoke College Statistics 学部、GPA 3.9、在籍校で RA 6か月
 3. UIUC Statistics+Economics 学部、GPA 4.0
