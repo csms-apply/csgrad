@@ -12,7 +12,7 @@ Columbia MSCS の評判を弁護するための記事です。以前、多くの
 ## 就職の評価
 真剣に就職活動をし、毎日応募していた人はほぼ全員が仕事を見つけています。オファーの大半は大企業からです（ビザのスポンサーをしてくれるのは大企業だけだからです）。
 
-周りでは Adobe、TikTok、Meta、Amazon、NVIDIA、Databricks からインターンのオファーをもらった人がいます。Columbia が書類選考に与える効果はまずまずのようです。私の知っている学生は Citadel、Jane Street、D.E. Shaw、Bloomberg、Meta、Stripe、TikTok、WeRide、Five Rings などから virtual onsite を受けています。学部時代に比較的大きな会社（TikTok/Alibaba/Google/Microsoft）でインターン経験があれば、上で挙げたクオンツ企業＋大手テック企業のおよそ 1/3 で面接を得られるでしょう。私の知る Columbia MSCS の学生で Amazon の virtual onsite を受けた人は、全員が面接に合格しました。また、Columbia は Bloomberg の社内評価システムで ROI の高い学校に分類されており、直接採用に来ます（2022 年には大量に採用していきました）。Columbia MSCS を担当する Meta の HR もとても熱心です（Columbia MSCS 担当の Meta リクルーターは S ティア校も一緒に担当しています）。メールの返信が早く、24 Fall の募集が始まった初日に、多くの Columbia MSCS の学生へ new grad とインターンの面接の連絡を自ら送ってきたのは本当に印象的でした。
+周りでは Adobe、TikTok、Meta、Amazon、NVIDIA、Databricks からインターンのオファーをもらった人がいます。Columbia が書類選考に与える効果はまずまずのようです。私の知っている学生は Citadel、Jane Street、D.E. Shaw、Bloomberg、Meta、Stripe、TikTok、WeRide、Five Rings などから virtual onsite を受けています。学部時代に比較的大きな会社（TikTok/Alibaba/Google/Microsoft）でインターン経験があれば、上で挙げたクオンツ企業＋大手テック企業の面接は、少なくとも 1/3 くらいは通るでしょう。私の知る Columbia MSCS の学生で Amazon の virtual onsite を受けた人は、全員が面接に合格しました。また、Columbia は Bloomberg の社内評価システムで ROI の高い学校に分類されており、直接採用に来ます（2022 年には大量に採用していきました）。Columbia MSCS を担当する Meta の HR もとても熱心です（Columbia MSCS 担当の Meta リクルーターは S ティア校も一緒に担当しています）。メールの返信が早く、24 Fall の募集が始まった初日に、多くの Columbia MSCS の学生へ new grad とインターンの面接の連絡を自ら送ってきたのは本当に印象的でした。
 
 ただし、Columbia CS の就職活動の雰囲気は決して強くありません。キャリアフェアには Bloomberg しか来ず、学部のキャリアフェアには大学院生は参加できないなど、全体的にサポートが不足しています。
 
@@ -32,12 +32,12 @@ thesis トラックもあり、thesis トラックを選ぶと 2 年制のプロ
 2. Programming Language Translators：SS の必修科目。課題量は普通です。プロジェクトはコンパイラ作りです。試験の難易度は中国の大学の多くのコンパイラの授業より低めです。1 学期目に取っても大丈夫です。
 3. Cloud Computing：楽な授業。1 学期目に取るのがベストです。課題はほとんどありません。
 4. Introduction to Database：楽な授業。これも 1 学期目に取るのがベストです。内容は中国の大学のデータベースの授業と同様で、SQL の記述＋第 1/2/3/4 正規形です。その学期を完全に楽に過ごして就職活動に集中したいなら Donald のクラスを取りましょう。この教授は学期の途中で Ed に「バックエンドを確認したら 300 人中 40 人しか出席しておらず、平均接続時間は 30 分、録画を見たのは 3 人だけだ」と、誰も授業に来ないことに怒ったりします。それでもこの授業の負担はとても軽いままです。Wu 教授など別の講師だと課題が多く難しいので、すでに就職が決まっている場合に取るほうがよいでしょう。
-5. Distributed Systems：MIT の授業と同じ内容です。採点がとても甘いです。プロジェクトは（良い意味で）借りてきたもの＋Columbia が設計したプロジェクト 1 つです。SDE の就職にとても役立ちます。良い授業です。
+5. Distributed Systems：MIT の授業とまったく同じです。採点がとても甘いです。プロジェクトは MIT のものをそのまま流用（良い意味で）＋Columbia 独自のプロジェクト 1 つです。SDE の就職にとても役立ちます。良い授業です。
 6. Competitive Programming：LeetCode/Codeforces の集中トレーニング。課題量が非常に多いです。アルゴリズムの授業よりも面接向けの内容です。
 7. Advanced Software Engineering：SS の必修科目。課題量は普通です。Java でフルスタックのプロジェクトを作り、Google Cloud にデプロイします。
-8. UI Design：楽な授業。React を学び、フルスタックのプロジェクトを作ります。最近は面接用のコーディング補助ツール（interview coder）を作るという面白いアイデアも出ていました。
+8. UI Design：楽な授業。React を学び、フルスタックのプロジェクトを作ります。最近、面白いアイデアを思いつきました。interview coder を作ることです。
 9. Advanced Algorithm：学部のデータ構造・アルゴリズムとは**まったく関係ありません**。この授業は 1 文でまとめられます。**P > P_r** のときに成り立つ randomized algorithm を設計せよ。「数学的アルゴリズムにおける確率・統計の応用」と名前を変えてもいいくらいです。OS と同時に取らないでください。
-10. Artificial Intelligence：主に AI と ML の入門です。基礎があれば難しくありません。概念の課題 5 つとコーディング課題 5 つ、中間・期末試験があります。やや手間はかかりますが採点は公正です。ML トラックの必修科目としておすすめです。
+10. Artificial Intelligence：主に AI と ML の入門です。基礎があれば難しくありません。概念の課題 5 つとコーディング課題 5 つ、中間・期末試験があります。やや手間はかかりますが、採点はまずまずです。ML トラックの必修科目としておすすめです。
 11. Applied Machine Learning：楽な授業で、課題量も軽めです。コーディング課題 5 つ、中間試験 1 回、グループプロジェクトがあります。採点も良いです。おすすめです。
 12. Software as a Service：Advanced Software Engineering と同じく SS トラックの必修科目ですが、どちらか一方を取れば十分です。Junfeng Yang 教授が担当しており、とても良い先生です。授業内容は Ruby と Rails です。学期前半は Ruby と Rails の実習課題が中心で、後半はグループプロジェクトの進捗報告と発表で進みます。
 

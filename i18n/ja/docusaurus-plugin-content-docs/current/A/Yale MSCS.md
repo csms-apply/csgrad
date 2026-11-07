@@ -25,7 +25,7 @@ ZJU は feeder school です。以前は CS＋ZJU-UIUC joint プログラムだ�
 7. UW CS 学部、GPA 3.9
 
 ## 就職実績と Data Points
-普通です。主な理由は、アメリカでのインターン経験がないと new grad のポジションを得るのが非常に難しいからです。就職は主に TikTok と Amazon の採用頼みです。24 Fall の new grad の就職率は 10%〜15% でした。全体として、同じ 1 年制プログラムの UCB EECS MEng ほどは良くありません。
+普通です。主な理由は、アメリカでのインターン経験がないと new grad のポジションを得るのが非常に難しいからです。就職は主に TikTok と Amazon の採用頼みです。2024 年の new grad の就職率は 10%〜15% でした。全体として、同じ 1 年制プログラムの UCB EECS MEng ほどは良くありません。
 
 就職に成功した data point の一部：
 1. Wuhan University CS 学部、中国の TikTok で 1 年インターン、修了と同時に TikTok の new grad に就職
