@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1608" height="720" viewBox="0 0 1608 720">
+  <rect width="1608" height="720" fill="white"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#161616">
+    <text x="52" y="42" font-size="24" font-weight="700">Môn học</text><text x="500" y="42" font-size="24" font-weight="700">Độ khó</text><text x="630" y="42" font-size="24" font-weight="700">Khối lượng</text><text x="825" y="42" font-size="24" font-weight="700">Nhận xét ngắn</text>
+    <g stroke="#e5e5e5"><line x1="50" y1="72" x2="1580" y2="72"/><line x1="50" y1="162" x2="1580" y2="162"/><line x1="50" y1="252" x2="1580" y2="252"/><line x1="50" y1="342" x2="1580" y2="342"/><line x1="50" y1="432" x2="1580" y2="432"/><line x1="50" y1="522" x2="1580" y2="522"/><line x1="50" y1="612" x2="1580" y2="612"/></g>
+    <g font-size="23"><text x="75" y="125" font-weight="600">ECE 6122 · C++</text><text x="525" y="125">3/5</text><text x="655" y="125">3/5</text><text x="850" y="125" font-size="21">Thread pool + CUDA; vẫn theo kịp dù chưa từng học C++.</text>
+    <text x="75" y="215" font-weight="600">ECE 6100 / CS 6290 · Kiến trúc</text><text x="525" y="215">4</text><text x="655" y="215">4</text><text x="850" y="215" font-size="21">Giảng bảng nhanh, bài tập rất chi tiết, nhưng cực kỳ hữu ích.</text>
+    <text x="75" y="305" font-weight="600">CS 6422 · Cài đặt cơ sở dữ liệu</text><text x="525" y="305">4</text><text x="655" y="305">4</text><text x="850" y="305" font-size="21">Môn kiểu CMU 15-445; xem bài giảng của Pavlo khi cần.</text>
+    <text x="75" y="395" font-weight="600">CS 6242 · Trực quan hóa dữ liệu</text><text x="525" y="395">4</text><text x="655" y="395">4</text><text x="850" y="395" font-size="21">SQL → JS → D3; HW2 nổi tiếng là rất nặng.</text>
+    <text x="75" y="485" font-weight="600">CS 6740 · Lý thuyết ML</text><text x="525" y="485">3.5</text><text x="655" y="485">3.5</text><text x="850" y="485" font-size="21">Hợp với người thích toán; đề thi chủ yếu là suy dẫn.</text>
+    <text x="75" y="575" font-weight="600">ECE 4180 · Hệ thống nhúng</text><text x="525" y="575">3</text><text x="655" y="575">3</text><text x="850" y="575" font-size="21">Làm quen nhiều giao thức, kèm đồ án phần cứng nhỏ cuối kỳ.</text>
+    <text x="75" y="665" font-weight="600">ECE 6001 · Seminar bắt buộc</text><text x="525" y="665">0</text><text x="655" y="665">0</text><text x="850" y="665" font-size="21">Lớp thảo luận nhẹ; yêu cầu chính là điểm danh.</text></g>
+  </g>
+</svg>
