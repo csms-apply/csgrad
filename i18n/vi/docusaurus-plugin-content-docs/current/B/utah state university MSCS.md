@@ -1,7 +1,7 @@
 ---
-description: "Hướng dẫn Utah State MSCS về vị trí trợ giảng và trợ lý nghiên cứu, cơ hội tài trợ và sự linh hoạt trong học tập cho ứng viên đang cân nhắc thạc sĩ nghiên cứu."
+description: "Cơ hội TA/RA và tài trợ của Utah State University MSCS, kèm hồ sơ ứng tuyển, cách sắp xếp việc học và kết quả sau tốt nghiệp, dành cho ứng viên quan tâm đến chi phí học thạc sĩ."
 sidebar_label: "UTSU MSCS"
-title: "Hướng dẫn ứng tuyển Utah State MSCS: môn học và trải nghiệm chương trình"
+title: "Hướng dẫn ứng tuyển Utah State University MSCS: môn học và trải nghiệm chương trình"
 ---
 
 # UTSU MSCS
@@ -11,7 +11,7 @@ Tên đầy đủ: Utah State University MSCS. Ưu điểm lớn nhất là cơ 
 ## Nộp đơn TA/RA
 Hơn một nửa số sinh viên sau đại học của USU nhận hỗ trợ tài chính, bao gồm học bổng, trợ cấp (grant) và các khoản khác. Hãy nộp sớm, hệ thống nộp hồ sơ có lựa chọn cho mục này.
 
-## Ưu tiên tuyển sinh và hồ sơ tham khảo
+## Ngưỡng trúng tuyển và hồ sơ tham khảo
 GPA > 3.0, TOEFL ≥ 79 hoặc IELTS 6.5 (không kỹ năng nào dưới 5). Yêu cầu cụ thể xem trên website chính thức. Nhận người chuyển ngành sang CS.
 
 ## Tìm việc

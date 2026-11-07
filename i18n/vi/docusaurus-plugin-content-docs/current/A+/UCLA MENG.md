@@ -1,7 +1,7 @@
 ---
 sidebar_label: "UCLA MEng"
 title: "Hướng dẫn ứng tuyển UCLA MEng: môn học và trải nghiệm chương trình"
-description: "Trải nghiệm của sinh viên UCLA MEng về các môn AI và khoa học dữ liệu, capstone mùa hè, chi phí sống ở Los Angeles và việc tự đi tìm việc."
+description: "Các môn DS và AI, các lựa chọn capstone và học phí của UCLA MEng, kết hợp với cuộc sống ở Los Angeles và trải nghiệm khi đang học, bàn về cách chọn môn và lên kế hoạch thời gian tốt nghiệp."
 ---
 
 # UCLA MEng
@@ -12,7 +12,7 @@ UCLA có vị trí đẹp, thời tiết dễ chịu, sinh hoạt tiện lợi v
 
 Đây là chương trình Master of Engineering (MEng) thuộc Samueli School of Engineering, được lập ra để cạnh tranh với MEng của UC Berkeley. Chương trình kéo dài một năm gồm ba quarter và một kỳ hè, nhưng bạn có thể kéo dài thêm một quarter để tốt nghiệp vào tháng 12, như vậy có thời gian đi thực tập hè và chờ return offer. Nếu có việc toàn thời gian trước khi tốt nghiệp thì bạn cũng có thể học xong trong một năm và đi làm kiếm tiền sớm hơn.
 
-Khóa Fall 2023 nhận khoảng 150 sinh viên, phần lớn thuộc hai hướng Data Science và AI. Đa số sinh viên là người Trung Quốc, nhiều bạn tốt nghiệp đại học ở Trung Quốc đại lục và cũng nhiều bạn có bằng cử nhân ở Mỹ.
+Khóa Fall 2023 nhận khoảng 150 sinh viên, phần lớn thuộc hai hướng Data Science và AI. Đa số sinh viên là người Trung Quốc, nhiều bạn tốt nghiệp đại học ở Trung Quốc đại lục và cũng nhiều bạn có bằng cử nhân ở nước ngoài.
 
 ## Chi phí
 

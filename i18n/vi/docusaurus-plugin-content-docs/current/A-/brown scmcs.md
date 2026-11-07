@@ -1,5 +1,5 @@
 ---
-description: "Góc nhìn của sinh viên Brown SCMCS về việc học hai môn mỗi học kỳ song song với nghiên cứu và tìm việc, gồm khối lượng học, không gian học tập và học phí."
+description: "Brown SCMCS chỉ học hai môn mỗi học kỳ, vậy còn bao nhiêu thời gian cho nghiên cứu và tìm việc? Bài viết chia sẻ học phí, nhà ở, không khí học tập và so sánh với các chương trình hot khác."
 sidebar_label: "Brown SCMCS"
 title: "Hướng dẫn ứng tuyển Brown SCMCS: môn học và trải nghiệm chương trình"
 ---
@@ -9,7 +9,7 @@ title: "Hướng dẫn ứng tuyển Brown SCMCS: môn học và trải nghiệm
 
 ## Tổng quan chương trình
 
-Mỗi học kỳ hai tín chỉ, hai môn, khối lượng học rất nhẹ, còn nhiều thời gian để tìm việc hoặc làm nghiên cứu. Đa số sinh viên học theo lịch 2+2+2+2, mỗi học kỳ đều hai môn, nên khối lượng rất nhẹ, rất hợp để cày LeetCode và tìm việc. Có không gian làm việc chung để sinh viên cùng nhau cày LeetCode, không khí rất tốt.
+Mỗi học kỳ hai tín chỉ, hai môn, khối lượng học rất nhẹ, còn nhiều thời gian để tìm việc hoặc làm nghiên cứu. Đa số sinh viên học theo lịch 2+2+2+2, mỗi học kỳ đều hai môn, nên khối lượng rất nhẹ, rất hợp để cày LeetCode và tìm việc. Có văn phòng để sinh viên cùng nhau cày LeetCode, không khí rất tốt.
 
 Lợi ích của khối lượng nhẹ là: nếu vừa sang Mỹ đã học quá nhiều môn, lại phải chuẩn bị LeetCode, câu hỏi behavioral và dự án cùng lúc, áp lực có thể rất lớn. Brown tránh được vấn đề này, mỗi học kỳ chỉ hai môn nên khối lượng cực kỳ nhẹ.
 
@@ -21,7 +21,7 @@ Năm nào chương trình này cũng hay bị so sánh với UT ECE (SES), GT CS
 
 ## Ngưỡng trúng tuyển
 
-GPA: 3.8+ (hoặc 90+ trên thang 100; cử nhân top 5 trường Trung Quốc được cộng điểm chút ít)
+GPA: 3.8+ (hoặc 90+ trên thang 100; cử nhân Trung Quốc từ top 5 trường hàng đầu được cộng điểm)
 
 TOEFL: 105
 

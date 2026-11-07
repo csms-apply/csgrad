@@ -1,5 +1,5 @@
 ---
-description: "UIUC MCS là lựa chọn thiên về môn học thay cho MSCS. So sánh cách chọn môn, chi phí học, lựa chọn co-op và sự cân bằng giữa môn kỹ thuật với tìm việc."
+description: "UIUC MCS khác MSCS ở điểm nào? Từ chương trình thiên về môn học, cơ sở chính và cơ sở Chicago, đến co-op, tiến độ tốt nghiệp và các hồ sơ trúng tuyển, tìm hiểu cách chương trình hỗ trợ tìm việc."
 sidebar_label: "UIUC MCS"
 title: "Hướng dẫn ứng tuyển UIUC MCS: môn học và trải nghiệm chương trình"
 ---
@@ -25,7 +25,7 @@ Khóa 24 Fall có rất nhiều ứng viên từ Trung Quốc đại lục nhưn
 
 3. Một sinh viên trường 211, TOEFL 110+, thực tập ở Baidu
 
-4. Cử nhân trường 985, 3.9+, TOEFL 109, thực tập ở Baidu, ByteDance, HP và Microsoft
+4. Cử nhân trường 985, GPA 3.9, TOEFL 109, thực tập ở Baidu, ByteDance, HP và Microsoft
 
 5. Cử nhân CS tại UIUC, GPA 3.98, hoàn toàn không có hoạt động hay kinh nghiệm bổ trợ
 
@@ -51,7 +51,7 @@ Khóa 24 Fall có rất nhiều ứng viên từ Trung Quốc đại lục nhưn
 
 
 
-Nhắc lại lần nữa, các hồ sơ trên chỉ đại diện cho việc trúng tuyển của cử nhân Trung Quốc đại lục, không phản ánh độ khó với cử nhân ở Mỹ. Theo thống kê của nhóm sinh viên trúng tuyển khóa 24 Fall, cử nhân ở Mỹ có GPA 3.6+ ở vị thế khá tốt. Thậm chí có sinh viên đang học được nhận với GPA 3.2. Ứng viên tốt nghiệp đại học ở Mỹ cứ tự tin mà nộp!
+Nhắc lại lần nữa, các hồ sơ trên chỉ đại diện cho việc trúng tuyển của cử nhân Trung Quốc đại lục, không phản ánh độ khó với cử nhân ở Mỹ. Theo thống kê của nhóm sinh viên trúng tuyển khóa 24 Fall, cử nhân ở Mỹ có GPA 3.6+ ở vị thế khá tốt. Thậm chí có cử nhân của chính UIUC được nhận với GPA 3.2. Ứng viên tốt nghiệp đại học ở Mỹ cứ tự tin mà nộp!
 
 ## Kết quả việc làm và hồ sơ tham khảo
 Một cử nhân UIUC được thực tập ở OpenAI (trước đó đã có kinh nghiệm thực tập big tech ở Databricks).

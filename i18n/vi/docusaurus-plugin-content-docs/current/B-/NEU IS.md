@@ -1,5 +1,5 @@
 ---
-description: "Hướng dẫn về Northeastern Information Systems cho người chuyển ngành và co-op, so sánh trải nghiệm ở cơ sở Boston và Silicon Valley cùng thời gian tốt nghiệp."
+description: "Hướng phát triển phần mềm của NEU IS phù hợp với kiểu ứng viên chuyển ngành nào? Bài viết giới thiệu các cơ sở, môn học, co-op, thời gian tốt nghiệp, kèm các trường hợp thực tập và việc làm toàn thời gian."
 sidebar_label: "NEU IS"
 title: "Hướng dẫn ứng tuyển Northeastern Information Systems: môn học và trải nghiệm chương trình"
 ---

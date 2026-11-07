@@ -1,5 +1,5 @@
 ---
-description: "CMU MSR là bằng robotics có luận văn. Tìm hiểu sự cân bằng giữa môn học và nghiên cứu, độ hợp với giáo sư hướng dẫn, vấn đề tài trợ và việc nộp PhD riêng."
+description: "CMU MSR là chương trình thạc sĩ robotics hai năm thiên về nghiên cứu. Giới thiệu cách bố trí môn học và luận văn, việc tìm giáo sư hướng dẫn phù hợp, khác biệt về tài trợ và những cân nhắc khi tiếp tục nộp PhD."
 sidebar_label: "CMU MSR"
 title: "Hướng dẫn ứng tuyển CMU MSR: môn học và trải nghiệm chương trình"
 ---

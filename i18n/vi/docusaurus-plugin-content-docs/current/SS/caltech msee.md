@@ -1,7 +1,7 @@
 ---
 sidebar_label: "Caltech MSEE"
 title: "Hướng dẫn ứng tuyển Caltech MSEE: môn học và trải nghiệm chương trình"
-description: "Ghi chép của sinh viên Caltech MSEE về cách chọn môn CS và EE, thời gian học, cùng xuất thân của người trúng tuyển và kết quả việc làm new grad được chia sẻ."
+description: "Cách chọn môn liên ngành EE và CS, thời gian học và trải nghiệm học tập ở Los Angeles tại Caltech MSEE, kèm hồ sơ trúng tuyển các khóa trước của ứng viên nền tảng kỹ thuật điện tử, vật lý, v.v."
 ---
 
 # Caltech MSEE
@@ -12,7 +12,7 @@ Thời tiết LA không đâu bằng, danh tiếng trường không đâu bằng
 Chương trình dài 9 tháng nhưng có thể kéo dài thêm nửa năm.
 ## Ưu tiên tuyển sinh
 
-Mỗi năm nhận 15 sinh viên. Khoảng 1/3 là cử nhân Trung Quốc đại lục, về cơ bản đến từ Tsinghua, Peking và các trường C5. Số còn lại là cử nhân quốc tế.
+Mỗi năm nhận 15 sinh viên. Khoảng 1/3 là cử nhân Trung Quốc đại lục, về cơ bản đến từ Tsinghua, Peking và các trường C5. Số còn lại là cử nhân ở nước ngoài.
 
 
 ## Hồ sơ trúng tuyển

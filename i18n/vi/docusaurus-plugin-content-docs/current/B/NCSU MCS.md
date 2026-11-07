@@ -1,7 +1,7 @@
 ---
-description: "Góc nhìn của sinh viên NC State MCS về trúng tuyển khi chuyển ngành, môn học và tìm việc, kèm ví dụ hồ sơ ứng viên và kinh nghiệm thực tập ở North Carolina."
+description: "Áp lực học tập ở NCSU MCS và môi trường tìm việc ở North Carolina ra sao? Từ hồ sơ của người chuyển ngành, khảo sát thực tập đến các trường hợp vào vị trí kỹ sư phần mềm của các khóa trước, cùng xem trải nghiệm thực tế của chương trình."
 sidebar_label: "NCSU MCS"
-title: "Hướng dẫn ứng tuyển NC State MCS: môn học và trải nghiệm chương trình"
+title: "Hướng dẫn ứng tuyển NCSU MCS: môn học và trải nghiệm chương trình"
 ---
 
 # NCSU MCS
@@ -11,13 +11,13 @@ Phù hợp với người chuyển ngành sang CS, kết quả việc làm tốt
 
 
 
-## Ưu tiên tuyển sinh và hồ sơ tham khảo
+## Ngưỡng trúng tuyển và hồ sơ tham khảo
 Rất dễ chịu, có thể dùng làm trường an toàn. GPA 3.2+ và TOEFL 100 là đủ.
 
 Phần lớn sinh viên là người chuyển ngành từ trường 985 và sinh viên ngành CS từ trường 211, cũng có một ít cử nhân ở Mỹ.
 
 ## Kết quả việc làm
-Tỷ lệ có thực tập của sinh viên Trung Quốc nhỉnh hơn 50% một chút, nhưng một người bạn Ấn Độ nói với mình rằng 90% người bạn ấy quen đều tìm được thực tập.
+Trong số những người Trung Quốc quanh mình, tỷ lệ có thực tập chắc nhỉnh hơn 50% một chút, nhưng một người bạn Ấn Độ nói với mình rằng 90% người bạn ấy quen đều tìm được thực tập.
 
 Dù NCSU không có hào quang trường danh tiếng, nó cũng không cản trở bạn. Có người tốt nghiệp đã vào Facebook, trong đó có cả một nhà sáng tạo nội dung nổi tiếng trên Bilibili.
 

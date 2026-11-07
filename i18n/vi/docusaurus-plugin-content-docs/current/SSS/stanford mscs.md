@@ -2,7 +2,7 @@
 sidebar_position: 1
 sidebar_label: "Stanford MSCS"
 title: "Hướng dẫn ứng tuyển Stanford MSCS: môn học và trải nghiệm chương trình"
-description: "Góc nhìn của sinh viên Stanford MSCS về môn học, đời sống trong trường và vị trí trợ giảng/trợ lý nghiên cứu, cùng hồ sơ trúng tuyển và kinh nghiệm nghề nghiệp được chia sẻ."
+description: "Trải nghiệm chọn môn, cơ hội TA/RA và đời sống trong trường tại Stanford MSCS, kèm hồ sơ trúng tuyển các khóa trước với nhiều nền tảng cử nhân và kinh nghiệm làm việc khác nhau, cùng kinh nghiệm về thực tập, việc làm toàn thời gian và học tiếp PhD."
 ---
 # Stanford MSCS
 
@@ -49,7 +49,7 @@ Gần như ai cũng có offer. FAANG+ và các startup ở Bay Area về cơ b�
 4. Cử nhân CS tại HKUST, thực tập ở Microsoft và Meta, được vị trí new grad ở BBG
 5. Cử nhân CS tại Stanford, thực tập ở Point72 và Nvidia, vào Meta
 6. Cử nhân CS+Physics tại Harvard, vào Google
-7. Cử nhân NTU, một năm thực tập ở Microsoft, được thực tập ở một startup AI tại San Jose, Bay Area
+7. Cử nhân NTU (Đài Loan), một năm thực tập ở Microsoft, được thực tập ở một startup AI tại San Jose, Bay Area
 8. Cử nhân CS tại UTD, GPA 4.0, 8 tháng làm RA tại trường, thực tập SDE ở PayPal thời cử nhân, được vị trí MLE new grad ở SF
 9. Cử nhân CS tại IIT (nữ), thực tập ngắn hạn ở Ấn Độ, được thực tập SWE ở Nvidia rồi chuyển chính thức thành công, làm Gen AI với vị trí new grad
 10. Cử nhân CS tại Columbia, kinh nghiệm thực tập ở công ty nhỏ, được vị trí MLE new grad ở Scale AI

@@ -1,7 +1,7 @@
 ---
 sidebar_label: "UWT MSCS"
-title: "Hướng dẫn ứng tuyển UW Tacoma MSCSS: môn học và trải nghiệm chương trình"
-description: "Góc nhìn của sinh viên UW Tacoma MSCSS về môn học, lựa chọn capstone và luận văn, học phí và thực tập, kèm so sánh giữa Tacoma và Bothell."
+title: "Hướng dẫn ứng tuyển UWT MSCS: môn học và trải nghiệm chương trình"
+description: "Chương trình thạc sĩ CS của UW Tacoma có các lộ trình học môn, capstone và luận văn. Bài viết giới thiệu môn tiên quyết, học phí, đời sống và kinh nghiệm co-op, đồng thời so sánh cơ sở Tacoma và Bothell."
 ---
 # UWT MSCS
 
@@ -12,7 +12,7 @@ UWT có học phí rẻ và chính sách CPT linh hoạt: **bạn có thể đi 
 UWT có các hướng DS, Cybersecurity, Distributed Systems, Cyber-Physical Systems, Bioinformatics và GIS. **Nếu muốn dốc toàn lực cho SDE, hãy chọn hướng Distributed Systems.**
 Tacoma cách Seattle khoảng 51 km. Chi phí sinh hoạt thấp hơn Seattle, gần đó có siêu thị (Asian Market, Walmart, Target), không có xe vẫn đáp ứng được nhu cầu cơ bản hằng ngày. Khuôn viên nhỏ và khá đơn giản so với cơ sở Seattle, thiếu chút cảm giác hiện đại, nhưng đi chưa tới 10 phút là ra biển, cảnh rất đẹp.
 
-Áp lực bài tập và thi cử tương đối nhẹ, sinh viên có nhiều thời gian hơn để cày LeetCode và chuẩn bị thực tập. Chương trình thạc sĩ CS (MSCSS) có ba hình thức: Course Only (45 tín chỉ), Capstone Project (40 tín chỉ) và Thesis (40 tín chỉ). Đa số chọn Course Only vì tốt nghiệp nhanh hơn và lấy bằng dễ hơn. Thường mất 4-5 quarter, tổng học phí khoảng $50K. Bạn có thể học môn ở cơ sở Seattle nhưng quyền ưu tiên đăng ký thấp, môn hot thường đã đầy, đi lại cũng không tiện lắm.
+Áp lực bài tập và thi cử tương đối nhẹ, sinh viên có nhiều thời gian hơn để cày LeetCode và chuẩn bị thực tập. Chương trình thạc sĩ CS (MSCSS) có ba hình thức: Course Only (45 tín chỉ), Capstone Project (40 tín chỉ) và Thesis (40 tín chỉ). Đa số chọn Course Only vì tốt nghiệp nhanh hơn và lấy bằng dễ hơn. Thường mất 4-5 học kỳ, tổng học phí khoảng $50K. Bạn có thể học môn ở cơ sở Seattle nhưng quyền ưu tiên đăng ký thấp, môn hot thường đã đầy, đi lại cũng không tiện lắm.
 
 
 Học phí khoảng $12,000 mỗi quarter, tốt nghiệp sau 4-5 quarter thì tổng cộng khoảng $50,000. Tiền thuê nhà ở Tacoma là $1,200-1,800/tháng (tùy có ở ghép hay không). Tự nấu ăn tốn khoảng $400/tháng. Đồ nội thất và nệm ban đầu phần lớn mua ở IKEA và Walmart, ngân sách khoảng $1,000.
@@ -43,7 +43,7 @@ Yêu cầu môn tiên quyết như sau:
 |------|-----------------|----------------|-----------|
 | Vị trí | Cách Seattle khoảng 20-40 phút lái xe, gần trụ sở Microsoft, một số văn phòng Amazon, Google, v.v. | Cách Seattle khoảng 45-60 phút, cách Eastside hơn 1 giờ | Bothell tốt hơn |
 | Số liệu việc làm chính thức | 90,3% sinh viên tốt nghiệp có việc ngay khi tốt nghiệp hoặc trong vòng 6 tháng (số liệu chính thức: uwb.edu/stem/graduate/mscsse/careers) | Không có số liệu tỷ lệ công khai cụ thể cho bậc thạc sĩ, nhưng trang web nói sinh viên tốt nghiệp vào Microsoft, Amazon, Google, v.v. (uwt.edu không có báo cáo chi tiết) | Bothell tốt hơn |
-| Công ty mục tiêu và cơ hội tiếp cận tuyển dụng | Gần các ông lớn công nghệ ở Eastside; nhà tuyển dụng đến Bothell thường xuyên hơn; có lớp buổi tối + thân thiện với người đi làm, thuận lợi cho việc vừa học vừa làm (lộ trình phổ biến: thực tập -> toàn thời gian) | Sinh viên tốt nghiệp cũng vào được big tech, nhưng cần chủ động hơn nhiều | Bothell tốt hơn |
+| Công ty mục tiêu và cơ hội tiếp cận tuyển dụng | Gần các ông lớn công nghệ ở Eastside; nhà tuyển dụng đến Bothell thường xuyên hơn; có lớp buổi tối + thân thiện với người đi làm, thuận lợi cho việc vừa học vừa làm (lộ trình phổ biến: thực tập -> toàn thời gian) | Sinh viên tốt nghiệp cũng vào được big tech, nhưng đòi hỏi tính tự giác, chủ động | Bothell tốt hơn |
 | Vòng lọc CV | Ghi "University of Washington MS in Computer Science & Software Engineering": HR gần như không phân biệt cơ sở, đều coi là UW | Ghi "University of Washington MS in Computer Science & Systems": cũng được coi là UW | Ngang nhau |
 | Sức cạnh tranh việc làm tổng thể | Với đa số người muốn vào big tech ở Seattle (Amazon, Microsoft, Google, v.v.), có nhiều lợi thế hơn (tỷ lệ có việc 90,3% + lợi thế vị trí) | Nếu bạn thích cybersecurity/khoa học dữ liệu/hệ thống, hoặc ưu tiên ngân sách/chi phí sinh hoạt, vẫn có thể tìm được việc tốt, nhưng trung bình cần nỗ lực LeetCode/dự án/tự thân nhiều hơn | Khuyên chọn Bothell hơn |
 | Tiền thuê nhà ước tính | Bothell tương đối cao: 1 phòng ngủ khoảng $1,775-$2,100/tháng, 2 phòng ngủ khoảng $2,400+/tháng, 3 phòng ngủ trở lên có thể $3,000+ (trung bình khoảng $2.2K-$2.4K) | Tacoma thấp hơn: 1 phòng ngủ khoảng $1,250+/tháng, 2 phòng ngủ khoảng $1,784+/tháng, 3 phòng ngủ khoảng $2,200+/tháng, trung bình khoảng $1.4K-$1.6K | Tacoma rẻ hơn |

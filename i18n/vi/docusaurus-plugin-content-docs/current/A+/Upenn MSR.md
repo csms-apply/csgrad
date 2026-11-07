@@ -1,5 +1,5 @@
 ---
-description: "Tìm hiểu UPenn Robotics qua chia sẻ của sinh viên về nghiên cứu, cách chọn môn linh hoạt, lựa chọn song bằng và chi phí sống ở Philadelphia."
+description: "Thạc sĩ robotics Upenn MSR cho phép tự do chọn môn và hướng nghiên cứu, nhưng cũng đòi hỏi bạn tự lên kế hoạch nhiều hơn. Bài viết chia sẻ trải nghiệm nghiên cứu, chi phí sống ở Philadelphia và hồ sơ trúng tuyển."
 sidebar_label: "Upenn MSR"
 title: "Hướng dẫn ứng tuyển UPenn Robotics MSR: môn học và trải nghiệm chương trình"
 ---
@@ -49,7 +49,7 @@ Mức lương (dựa trên dữ liệu những năm gần đây): thu nhập kh�
 
 ## Giáo sư nổi bật
 
-GRASP Lab thuộc hàng đầu cả nước.
+GRASP Lab thuộc top đầu nước Mỹ.
 Chỉ điểm qua vài cái tên nổi bật:
 1. Vijay Kumar (huyền thoại về drone và robot bay)
 2. George Pappas (chuyên gia điều khiển và tối ưu hóa)

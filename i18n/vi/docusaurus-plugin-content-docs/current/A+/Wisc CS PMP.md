@@ -1,5 +1,5 @@
 ---
-description: "UW–Madison CS PMP là chương trình chuyên nghiệp tách biệt với MS nghiên cứu. Tìm hiểu học phí, thời gian học và vai trò của kinh nghiệm làm việc toàn thời gian khi xét tuyển."
+description: "Wisc CS PMP khác gì MSCS nghiên cứu? Tìm hiểu chương trình thạc sĩ CS định hướng nghề nghiệp này qua học phí, thời gian tốt nghiệp, lịch thực tập và lộ trình chuyển từ PCP sang."
 sidebar_label: "Wisc CS PMP"
 title: "Hướng dẫn ứng tuyển UW–Madison CS PMP: môn học và trải nghiệm chương trình"
 ---
@@ -25,7 +25,7 @@ Số người nộp tăng lên mỗi năm.
 Kinh nghiệm làm toàn thời gian về cơ bản là bắt buộc, kinh nghiệm thực tập không được tính. Khi mình nộp hồ sơ, CS PMP gửi email trực tiếp cho tất cả ứng viên, dặn đừng ghi thực tập vào mục kinh nghiệm làm việc; chỉ "việc làm sau khi tốt nghiệp" mới được tính là kinh nghiệm toàn thời gian. Theo kết quả trên các diễn đàn và mạng xã hội khi đó, quy định này được áp dụng rất nghiêm.
 Có kinh nghiệm SDE toàn thời gian thì xác suất trúng tuyển khoảng 85%. Không có thì xác suất giảm còn khoảng 0,5%.
 
-Khóa 24 Fall chỉ có đúng một cử nhân quốc tế không có kinh nghiệm toàn thời gian; những người còn lại về cơ bản đều đã làm vài năm ở các công ty công nghệ lớn của Trung Quốc.
+Khóa 24 Fall chỉ có đúng một người tốt nghiệp đại học ở nước ngoài không có kinh nghiệm toàn thời gian; những người còn lại về cơ bản đều đã làm vài năm ở các công ty công nghệ lớn của Trung Quốc.
 
 1. Cử nhân CS tại UCI, GPA 3.76
 2. Cử nhân ở Ấn Độ, thạc sĩ ở Mỹ, bảy năm làm việc ở New York

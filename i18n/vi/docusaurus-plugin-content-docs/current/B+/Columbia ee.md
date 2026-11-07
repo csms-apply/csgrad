@@ -2,7 +2,7 @@
 sidebar_position: 2
 sidebar_label: "Columbia MSEE"
 title: "Hướng dẫn ứng tuyển Columbia MSEE: môn học và trải nghiệm chương trình"
-description: "Đánh giá các môn của Columbia MSEE từ cơ sở dữ liệu, điện toán đám mây, thuật toán đến NLP, cùng điều kiện bằng EE, chi phí sinh hoạt và hồ sơ trúng tuyển."
+description: "Yêu cầu tín chỉ EE của Columbia MSEE kết hợp với môn tự chọn CS ra sao? Đánh giá các môn từ cơ sở dữ liệu, điện toán đám mây đến NLP, kèm chi phí sinh hoạt ở New York và các hồ sơ chuyển ngành sang CS."
 ---
 # Columbia MSEE
 
@@ -27,7 +27,7 @@ Môn của thầy Ching-Yung Lin, ông cũng là CEO một công ty AI. Nghe CEO
 Môn do hai giảng viên dạy (nửa đầu và nửa sau), đều đến từ Bell Labs. Tương đối dễ. Hai bài tập, thi giữa kỳ và cuối kỳ. Điểm khoảng một nửa A (A-) và một nửa B (B+).
 
 5. CSOR4231 Analysis of Algorithms.
-Cô Eleni rất giỏi, chất lượng môn cao, cô viết tay các phép tính ngay trong giờ giảng. Môn tập trung vào chứng minh tính đúng và phân tích độ phức tạp của thuật toán, nặng toán, không có lập trình. Bài tập + thi giữa kỳ và cuối kỳ.
+Cô Eleni rất giỏi, chất lượng môn cao, cô viết tay các bước tính ngay trong giờ giảng và cùng cả lớp giải từng bước. Môn tập trung vào chứng minh tính đúng và phân tích độ phức tạp của thuật toán, nặng toán, không có lập trình. Bài tập + thi giữa kỳ và cuối kỳ.
 6. COMS4705 Natural Language Processing
 Môn của thầy Daniel, nội dung tương đối cơ bản, bố cục rõ ràng, slide chi tiết. Bài tập + thi giữa kỳ và cuối kỳ.
 7. ELEN6889 Large-Scale Stream Processing
