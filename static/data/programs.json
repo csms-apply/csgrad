@@ -112,6 +112,13 @@
     "slug": "/S/CMU MIIS"
   },
   {
+    "id": "s-carnegie-mellon-university-mlt",
+    "school": "Carnegie Mellon University",
+    "program": "MLT",
+    "tier": "S",
+    "slug": "/S/CMU MLT"
+  },
+  {
     "id": "s-carnegie-mellon-university-msaii",
     "school": "Carnegie Mellon University",
     "program": "MSAII",
@@ -182,6 +189,13 @@
     "slug": "/S/gatech mscs"
   },
   {
+    "id": "aplus-cornell-tech-cs-meng",
+    "school": "Cornell Tech",
+    "program": "CS MEng",
+    "tier": "A+",
+    "slug": "/A+/Cornell Tech CS MEng"
+  },
+  {
     "id": "aplus-duke-university-mscs",
     "school": "Duke University",
     "program": "MSCS",
@@ -238,6 +252,13 @@
     "slug": "/A+/Wisc CS PMP"
   },
   {
+    "id": "aplus-uw-madison-mscs",
+    "school": "UW-Madison",
+    "program": "MSCS",
+    "tier": "A+",
+    "slug": "/A+/Wisc MSCS"
+  },
+  {
     "id": "aplus-ucsd-cs75",
     "school": "UCSD",
     "program": "CS75",
@@ -259,11 +280,32 @@
     "slug": "/A/CMU ECE"
   },
   {
+    "id": "a-carnegie-mellon-university-msaie",
+    "school": "Carnegie Mellon University",
+    "program": "MSAIE",
+    "tier": "A",
+    "slug": "/A/CMU MSAIE"
+  },
+  {
+    "id": "a-carnegie-mellon-university-msis",
+    "school": "Carnegie Mellon University",
+    "program": "MSIS",
+    "tier": "A",
+    "slug": "/A/CMU MSIS"
+  },
+  {
     "id": "a-carnegie-mellon-university-msmite",
     "school": "Carnegie Mellon University",
     "program": "MSMITE",
     "tier": "A",
     "slug": "/A/CMU MSMITE"
+  },
+  {
+    "id": "a-ucla-msece",
+    "school": "UCLA",
+    "program": "MSECE",
+    "tier": "A",
+    "slug": "/A/UCLA MSECE"
   },
   {
     "id": "a-university-of-maryland-mscs",
@@ -278,6 +320,13 @@
     "program": "MSCS/MSCSE",
     "tier": "A",
     "slug": "/A/Umich MSCS"
+  },
+  {
+    "id": "a-university-of-toronto-mscac",
+    "school": "University of Toronto",
+    "program": "MScAC",
+    "tier": "A",
+    "slug": "/A/UofT MScAC"
   },
   {
     "id": "a-upenn-mcit",
@@ -343,11 +392,39 @@
     "slug": "/A-/Columbia ce"
   },
   {
+    "id": "aminus-cornell-university-ece-meng",
+    "school": "Cornell University",
+    "program": "ECE MEng",
+    "tier": "A-",
+    "slug": "/A-/Cornell ECE MEng"
+  },
+  {
+    "id": "aminus-duke-university-mids",
+    "school": "Duke University",
+    "program": "MIDS",
+    "tier": "A-",
+    "slug": "/A-/Duke MIDS"
+  },
+  {
     "id": "aminus-georgia-tech-ece",
     "school": "Georgia Tech",
     "program": "ECE",
     "tier": "A-",
     "slug": "/A-/Gatech ECE"
+  },
+  {
+    "id": "aminus-georgia-tech-msa",
+    "school": "Georgia Tech",
+    "program": "MSA",
+    "tier": "A-",
+    "slug": "/A-/Gatech MSA"
+  },
+  {
+    "id": "aminus-nyu-courant-mscs",
+    "school": "NYU",
+    "program": "Courant MSCS",
+    "tier": "A-",
+    "slug": "/A-/NYU Courant MSCS"
   },
   {
     "id": "aminus-nyu-ds",
@@ -357,6 +434,13 @@
     "slug": "/A-/NYU DS"
   },
   {
+    "id": "aminus-purdue-university-msece",
+    "school": "Purdue University",
+    "program": "MSECE",
+    "tier": "A-",
+    "slug": "/A-/Purdue MSECE"
+  },
+  {
     "id": "aminus-ucsb-mscs",
     "school": "UCSB",
     "program": "MSCS",
@@ -364,11 +448,81 @@
     "slug": "/A-/UCSB MSCS"
   },
   {
+    "id": "aminus-ucsd-ds75",
+    "school": "UCSD",
+    "program": "DS75",
+    "tier": "A-",
+    "slug": "/A-/UCSD DS75"
+  },
+  {
+    "id": "aminus-ucsd-ec93",
+    "school": "UCSD",
+    "program": "EC93",
+    "tier": "A-",
+    "slug": "/A-/UCSD EC93"
+  },
+  {
+    "id": "aminus-university-of-chicago-pre-doctoral-mscs",
+    "school": "University of Chicago",
+    "program": "Pre-Doctoral MSCS",
+    "tier": "A-",
+    "slug": "/A-/UChicago Pre-Doctoral MSCS"
+  },
+  {
+    "id": "aminus-university-of-washington-msds",
+    "school": "University of Washington",
+    "program": "MSDS",
+    "tier": "A-",
+    "slug": "/A-/UW MSDS"
+  },
+  {
+    "id": "aminus-university-of-washington-msece",
+    "school": "University of Washington",
+    "program": "MSECE",
+    "tier": "A-",
+    "slug": "/A-/UW MSECE"
+  },
+  {
     "id": "aminus-ucsd-ec79",
     "school": "UCSD",
     "program": "EC79",
     "tier": "A-",
     "slug": "/A-/Ucsd EC79"
+  },
+  {
+    "id": "aminus-university-of-michigan-ece",
+    "school": "University of Michigan",
+    "program": "ECE",
+    "tier": "A-",
+    "slug": "/A-/Umich ECE"
+  },
+  {
+    "id": "aminus-university-of-michigan-msds",
+    "school": "University of Michigan",
+    "program": "MSDS",
+    "tier": "A-",
+    "slug": "/A-/Umich MSDS"
+  },
+  {
+    "id": "aminus-upenn-cggt",
+    "school": "UPenn",
+    "program": "CGGT",
+    "tier": "A-",
+    "slug": "/A-/Upenn CGGT"
+  },
+  {
+    "id": "aminus-university-of-waterloo-mmath-cs",
+    "school": "University of Waterloo",
+    "program": "MMath CS",
+    "tier": "A-",
+    "slug": "/A-/Waterloo MMath CS"
+  },
+  {
+    "id": "aminus-uw-madison-msece",
+    "school": "UW-Madison",
+    "program": "MSECE",
+    "tier": "A-",
+    "slug": "/A-/Wisc MSECE"
   },
   {
     "id": "aminus-brown-university-scmcs",
@@ -406,6 +560,13 @@
     "slug": "/A-/uchicago mpcs"
   },
   {
+    "id": "bplus-brown-university-scm-ds",
+    "school": "Brown University",
+    "program": "ScM DS",
+    "tier": "B+",
+    "slug": "/B+/Brown ScM DS"
+  },
+  {
     "id": "bplus-columbia-university-msee",
     "school": "Columbia University",
     "program": "MSEE",
@@ -418,6 +579,55 @@
     "program": "MPS-IS",
     "tier": "B+",
     "slug": "/B+/Cornell MPS-IS"
+  },
+  {
+    "id": "bplus-dartmouth-college-mscs",
+    "school": "Dartmouth College",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/Dartmouth MSCS"
+  },
+  {
+    "id": "bplus-duke-university-aipi",
+    "school": "Duke University",
+    "program": "AIPI",
+    "tier": "B+",
+    "slug": "/B+/Duke AIPI"
+  },
+  {
+    "id": "bplus-duke-kunshan-university-ece",
+    "school": "Duke Kunshan University",
+    "program": "ECE",
+    "tier": "B+",
+    "slug": "/B+/Duke Kunshan ECE"
+  },
+  {
+    "id": "bplus-johns-hopkins-university-msds",
+    "school": "Johns Hopkins University",
+    "program": "MSDS",
+    "tier": "B+",
+    "slug": "/B+/JHU MSDS"
+  },
+  {
+    "id": "bplus-johns-hopkins-university-mssi",
+    "school": "Johns Hopkins University",
+    "program": "MSSI",
+    "tier": "B+",
+    "slug": "/B+/JHU MSSI"
+  },
+  {
+    "id": "bplus-mcgill-university-mscs",
+    "school": "McGill University",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/McGill MSCS"
+  },
+  {
+    "id": "bplus-northwestern-university-msai",
+    "school": "Northwestern University",
+    "program": "MSAI",
+    "tier": "B+",
+    "slug": "/B+/NWU MSAI"
   },
   {
     "id": "bplus-northwestern-university-mscs",
@@ -434,11 +644,39 @@
     "slug": "/B+/NYU Tandon"
   },
   {
+    "id": "bplus-purdue-university-mscs",
+    "school": "Purdue University",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/Purdue MSCS"
+  },
+  {
     "id": "bplus-rice-university-mcs",
     "school": "Rice University",
     "program": "MCS",
     "tier": "B+",
     "slug": "/B+/Rics MCS"
+  },
+  {
+    "id": "bplus-university-of-british-columbia-mscs",
+    "school": "University of British Columbia",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/UBC MSCS"
+  },
+  {
+    "id": "bplus-university-of-chicago-msads",
+    "school": "University of Chicago",
+    "program": "MSADS",
+    "tier": "B+",
+    "slug": "/B+/UChicago MSADS"
+  },
+  {
+    "id": "bplus-university-of-washington-bothell-mscsse",
+    "school": "University of Washington Bothell",
+    "program": "MSCSSE",
+    "tier": "B+",
+    "slug": "/B+/UW Bothell MSCSSE"
   },
   {
     "id": "bplus-university-of-washington-tacoma-mscs",
@@ -448,11 +686,25 @@
     "slug": "/B+/UWT MSCS"
   },
   {
+    "id": "bplus-university-of-michigan-msi",
+    "school": "University of Michigan",
+    "program": "MSI",
+    "tier": "B+",
+    "slug": "/B+/Umich MSI"
+  },
+  {
     "id": "bplus-upenn-ee",
     "school": "UPenn",
     "program": "EE",
     "tier": "B+",
     "slug": "/B+/Upenn EE"
+  },
+  {
+    "id": "bplus-washington-university-in-st-louis-mscs",
+    "school": "Washington University in St. Louis",
+    "program": "MSCS",
+    "tier": "B+",
+    "slug": "/B+/WUSTL MSCS"
   },
   {
     "id": "bplus-carnegie-mellon-university-mism",
@@ -483,6 +735,27 @@
     "slug": "/B+/uci mswe"
   },
   {
+    "id": "b-boston-university-msai",
+    "school": "Boston University",
+    "program": "MSAI",
+    "tier": "B",
+    "slug": "/B/BU MSAI"
+  },
+  {
+    "id": "b-boston-university-mscs",
+    "school": "Boston University",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/BU MSCS"
+  },
+  {
+    "id": "b-duke-university-game-design-meng",
+    "school": "Duke University",
+    "program": "Game Design MEng",
+    "tier": "B",
+    "slug": "/B/Duke Game Design MEng"
+  },
+  {
     "id": "b-emory-university-mscs",
     "school": "Emory University",
     "program": "MSCS",
@@ -511,11 +784,60 @@
     "slug": "/B/NEU MSCS"
   },
   {
+    "id": "b-northwestern-university-msce",
+    "school": "Northwestern University",
+    "program": "MSCE",
+    "tier": "B",
+    "slug": "/B/NWU MSCE"
+  },
+  {
+    "id": "b-nyu-tandon-msce",
+    "school": "NYU",
+    "program": "Tandon MSCE",
+    "tier": "B",
+    "slug": "/B/NYU Tandon MSCE"
+  },
+  {
+    "id": "b-ohio-state-university-mscse",
+    "school": "Ohio State University",
+    "program": "MSCSE",
+    "tier": "B",
+    "slug": "/B/OSU MSCSE"
+  },
+  {
+    "id": "b-rice-university-mds",
+    "school": "Rice University",
+    "program": "MDS",
+    "tier": "B",
+    "slug": "/B/Rice MDS"
+  },
+  {
+    "id": "b-tufts-university-mscs",
+    "school": "Tufts University",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/Tufts MSCS"
+  },
+  {
+    "id": "b-uc-davis-mscs",
+    "school": "UC Davis",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/UC Davis MSCS"
+  },
+  {
     "id": "b-uc-irvine-mcs",
     "school": "UC Irvine",
     "program": "MCS",
     "tier": "B",
     "slug": "/B/UCI MCS"
+  },
+  {
+    "id": "b-uc-irvine-mscs",
+    "school": "UC Irvine",
+    "program": "MSCS",
+    "tier": "B",
+    "slug": "/B/UCI MSCS"
   },
   {
     "id": "b-uiuc-ece-meng",
@@ -536,7 +858,70 @@
     "school": "USC",
     "program": "CS28",
     "tier": "B",
+    "slug": "/B/USC CS28"
+  },
+  {
+    "id": "b-usc-cs32",
+    "school": "USC",
+    "program": "CS32",
+    "tier": "B",
+    "slug": "/B/USC CS32"
+  },
+  {
+    "id": "b-usc-cs37",
+    "school": "USC",
+    "program": "CS37",
+    "tier": "B",
     "slug": "/B/USC CS37"
+  },
+  {
+    "id": "b-usc-msce",
+    "school": "USC",
+    "program": "MSCE",
+    "tier": "B",
+    "slug": "/B/USC MSCE"
+  },
+  {
+    "id": "b-usc-msee",
+    "school": "USC",
+    "program": "MSEE",
+    "tier": "B",
+    "slug": "/B/USC MSEE"
+  },
+  {
+    "id": "b-university-of-virginia-mcs",
+    "school": "University of Virginia",
+    "program": "MCS",
+    "tier": "B",
+    "slug": "/B/UVA MCS"
+  },
+  {
+    "id": "b-university-of-virginia-msds",
+    "school": "University of Virginia",
+    "program": "MSDS",
+    "tier": "B",
+    "slug": "/B/UVA MSDS"
+  },
+  {
+    "id": "b-university-of-toronto-ece-meng",
+    "school": "University of Toronto",
+    "program": "ECE MEng",
+    "tier": "B",
+    "slug": "/B/UofT ECE MEng"
+  },
+  {
+    "id": "b-university-of-waterloo-ece-meng",
+    "school": "University of Waterloo",
+    "program": "ECE MEng",
+    "tier": "B",
+    "slug": "/B/Waterloo ECE MEng"
+  },
+  {
+    "id": "b-university-of-waterloo-mdsai",
+    "school": "University of Waterloo",
+    "program": "MDSAI",
+    "tier": "B",
+    "slug": "/B/Waterloo MDSAI"
   },
   {
     "id": "b-utah-state-university-mscs",
@@ -560,6 +945,13 @@
     "slug": "/B-/NEU SES"
   },
   {
+    "id": "bminus-rutgers-university-mscs",
+    "school": "Rutgers University",
+    "program": "MSCS",
+    "tier": "B-",
+    "slug": "/B-/Rutgers MSCS"
+  },
+  {
     "id": "bminus-santa-clara-university-mscse",
     "school": "Santa Clara University",
     "program": "MSCSE",
@@ -567,11 +959,81 @@
     "slug": "/B-/SCU MSCSE"
   },
   {
+    "id": "bminus-simon-fraser-university-professional-msc-cs",
+    "school": "Simon Fraser University",
+    "program": "Professional MSc CS",
+    "tier": "B-",
+    "slug": "/B-/SFU Professional MSc CS"
+  },
+  {
+    "id": "bminus-stony-brook-university-mscs",
+    "school": "Stony Brook University",
+    "program": "MSCS",
+    "tier": "B-",
+    "slug": "/B-/Stony Brook MSCS"
+  },
+  {
+    "id": "bminus-university-of-british-columbia-ece-meng",
+    "school": "University of British Columbia",
+    "program": "ECE MEng",
+    "tier": "B-",
+    "slug": "/B-/UBC ECE MEng"
+  },
+  {
+    "id": "bminus-uc-irvine-mds",
+    "school": "UC Irvine",
+    "program": "MDS",
+    "tier": "B-",
+    "slug": "/B-/UCI MDS"
+  },
+  {
+    "id": "bminus-uc-irvine-netsys",
+    "school": "UC Irvine",
+    "program": "NetSys",
+    "tier": "B-",
+    "slug": "/B-/UCI NetSys"
+  },
+  {
+    "id": "bminus-uc-santa-cruz-mscse",
+    "school": "UC Santa Cruz",
+    "program": "MSCSE",
+    "tier": "B-",
+    "slug": "/B-/UCSC MSCSE"
+  },
+  {
+    "id": "bminus-university-of-florida-mscs",
+    "school": "University of Florida",
+    "program": "MSCS",
+    "tier": "B-",
+    "slug": "/B-/UF MSCS"
+  },
+  {
     "id": "bminus-uiuc-msim",
     "school": "UIUC",
     "program": "MSIM",
     "tier": "B-",
     "slug": "/B-/UIUC MSIM"
+  },
+  {
+    "id": "bminus-unc-chapel-hill-msis",
+    "school": "UNC Chapel Hill",
+    "program": "MSIS",
+    "tier": "B-",
+    "slug": "/B-/UNC MSIS"
+  },
+  {
+    "id": "bminus-usc-ads",
+    "school": "USC",
+    "program": "ADS",
+    "tier": "B-",
+    "slug": "/B-/USC ADS"
+  },
+  {
+    "id": "bminus-virginia-tech-meng-cs",
+    "school": "Virginia Tech",
+    "program": "MEng CS",
+    "tier": "B-",
+    "slug": "/B-/VT MEng CS"
   },
   {
     "id": "cplus-university-of-minnesota-mscs",
