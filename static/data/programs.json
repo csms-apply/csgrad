@@ -182,6 +182,13 @@
     "slug": "/S/gatech mscs"
   },
   {
+    "id": "aplus-cornell-tech-cs-meng",
+    "school": "Cornell Tech",
+    "program": "CS MEng",
+    "tier": "A+",
+    "slug": "/A+/Cornell Tech CS MEng"
+  },
+  {
     "id": "aplus-duke-university-mscs",
     "school": "Duke University",
     "program": "MSCS",
@@ -236,6 +243,13 @@
     "program": "CS PMP",
     "tier": "A+",
     "slug": "/A+/Wisc CS PMP"
+  },
+  {
+    "id": "aplus-uw-madison-mscs",
+    "school": "UW-Madison",
+    "program": "MSCS",
+    "tier": "A+",
+    "slug": "/A+/Wisc MSCS"
   },
   {
     "id": "aplus-ucsd-cs75",
@@ -343,6 +357,20 @@
     "slug": "/A-/Columbia ce"
   },
   {
+    "id": "aminus-cornell-university-ece-meng",
+    "school": "Cornell University",
+    "program": "ECE MEng",
+    "tier": "A-",
+    "slug": "/A-/Cornell ECE MEng"
+  },
+  {
+    "id": "aminus-duke-university-mids",
+    "school": "Duke University",
+    "program": "MIDS",
+    "tier": "A-",
+    "slug": "/A-/Duke MIDS"
+  },
+  {
     "id": "aminus-georgia-tech-ece",
     "school": "Georgia Tech",
     "program": "ECE",
@@ -350,11 +378,32 @@
     "slug": "/A-/Gatech ECE"
   },
   {
+    "id": "aminus-georgia-tech-msa",
+    "school": "Georgia Tech",
+    "program": "MSA",
+    "tier": "A-",
+    "slug": "/A-/Gatech MSA"
+  },
+  {
+    "id": "aminus-nyu-courant-mscs",
+    "school": "NYU",
+    "program": "Courant MSCS",
+    "tier": "A-",
+    "slug": "/A-/NYU Courant MSCS"
+  },
+  {
     "id": "aminus-nyu-ds",
     "school": "NYU",
     "program": "DS",
     "tier": "A-",
     "slug": "/A-/NYU DS"
+  },
+  {
+    "id": "aminus-purdue-university-msece",
+    "school": "Purdue University",
+    "program": "MSECE",
+    "tier": "A-",
+    "slug": "/A-/Purdue MSECE"
   },
   {
     "id": "aminus-ucsb-mscs",
