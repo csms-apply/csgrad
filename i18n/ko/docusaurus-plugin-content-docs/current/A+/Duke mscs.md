@@ -1,4 +1,5 @@
 ---
+slug: /programs/duke-mscs
 description: "Duke MSCS는 수강형, 프로젝트형, 논문형 트랙을 제공합니다. 수업 선택의 유연성, 인터뷰 준비, 합격 프로필, 취업 결과를 비교해 보세요."
 sidebar_label: "Duke MSCS"
 title: "Duke MSCS 지원 가이드: 수업과 프로그램 경험"

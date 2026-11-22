@@ -1,4 +1,5 @@
 ---
+slug: /programs/harvard-ds
 description: "Harvard Data Science 가이드: Harvard와 MIT 수업 수강, 합격자의 정량적 배경, 데이터 사이언스·금융 분야 취업 사례를 다룹니다."
 sidebar_label: "Harvard DS"
 title: "Harvard Data Science 지원 가이드: 수업과 프로그램 후기"

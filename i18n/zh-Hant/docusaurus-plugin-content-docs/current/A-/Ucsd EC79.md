@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucsd-ec79
 description: "UCSD EC79 的硬件必修課和課程壓力如何？這裡記錄轉碼需要補的基礎、申請背景，以及往屆同學的找工情況。"
 title: "UCSD EC79 申請指南：課程與項目體驗"
 sidebar_label: "UCSD EC79"

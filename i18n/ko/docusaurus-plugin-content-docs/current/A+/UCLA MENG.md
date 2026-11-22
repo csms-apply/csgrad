@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucla-meng
 sidebar_label: "UCLA MEng"
 title: "UCLA MEng 지원 가이드: 수업과 프로그램 후기"
 description: "AI·데이터 사이언스 수업, 여름 캡스톤, 로스앤젤레스 생활비, 독자적인 구직 경험까지 UCLA MEng 학생들의 후기를 정리했습니다."

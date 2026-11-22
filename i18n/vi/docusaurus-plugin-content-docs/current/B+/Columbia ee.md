@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-ee
 sidebar_position: 2
 sidebar_label: "Columbia MSEE"
 title: "Hướng dẫn ứng tuyển Columbia MSEE: môn học và trải nghiệm chương trình"

@@ -1,4 +1,5 @@
 ---
+slug: /guides/online-mscs-programs
 sidebar_label: "Chương trình MSCS trực tuyến"
 title: "Chương trình MSCS trực tuyến: có những lựa chọn thạc sĩ máy tính online nào"
 description: "Tổng hợp các chương trình thạc sĩ máy tính trực tuyến của Georgia Tech, UIUC, UT Austin, Stanford..., kèm nhận xét về chọn môn, chi phí và nền tảng ứng viên được nhắc đến trong bài."

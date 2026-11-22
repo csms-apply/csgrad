@@ -87,7 +87,7 @@ const config = {
     },
   },
 
-  plugins: ['./plugins/legacy-program-routes.cjs'],
+  plugins: ['./plugins/legacy-redirects.cjs'],
 
   presets: [
     [
@@ -109,7 +109,7 @@ const config = {
           // These routes are account, submission, or personalized-result pages.
           // Keep both the default and locale-prefixed variants out of sitemaps.
           ignorePatterns: [
-            '**/datapoints submit',
+            '**/datapoints-submission-guide',
             '**/f',
             '**/forms-admin',
             '**/my-dp',

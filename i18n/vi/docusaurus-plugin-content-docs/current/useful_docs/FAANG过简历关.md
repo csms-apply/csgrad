@@ -1,4 +1,5 @@
 ---
+slug: /guides/faang-resume-screening
 sidebar_label: "Vượt vòng hồ sơ FAANG"
 title: "Lọc hồ sơ FAANG: kinh nghiệm ứng tuyển thực tập 2025 Summer"
 description: "Từ trải nghiệm ứng tuyển thực tập 2025 Summer của tác giả, bàn về referral, thời điểm nộp hồ sơ và độ phù hợp với vị trí ở Meta, Apple, Amazon, Netflix và Google."

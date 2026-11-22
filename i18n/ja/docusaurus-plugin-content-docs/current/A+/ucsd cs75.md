@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucsd-cs75
 description: "UCSD CS75 の在学生の視点から、授業の負担、San Diego キャンパスでの生活、学費、co-op の機会、合格者の背景の幅をまとめました。"
 sidebar_label: "UCSD CS75"
 title: "UCSD CS75 出願ガイド：授業とプログラムの体験談"

@@ -1,4 +1,5 @@
 ---
+slug: /guides/us-china-sde-intern-interviews
 title: "中美 SDE 实习面试对比：算法、项目与基础知识"
 sidebar_label: "中美SDE实习面试侧重点对比"
 description: "比较美国与国内 SDE 实习面试的常见侧重点，涵盖算法、行为面试、简历项目，以及操作系统、网络和数据库基础。"

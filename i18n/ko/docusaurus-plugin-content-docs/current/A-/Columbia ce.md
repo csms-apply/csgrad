@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-ce
 sidebar_label: "Columbia MSCE"
 title: "Columbia MSCE 지원 가이드: 수업과 프로그램 후기"
 description: "Columbia MSCE 수업 후기와 CS 수강 신청 유연성, 논문 옵션, 합격 프로필, CE와 MSCS 비교."

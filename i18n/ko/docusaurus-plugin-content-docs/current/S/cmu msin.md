@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msin
 sidebar_position: 1
 sidebar_label: "CMU MSIN"
 title: "CMU MSIN 지원 가이드: 수업과 프로그램 후기"

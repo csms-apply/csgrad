@@ -1,4 +1,5 @@
 ---
+slug: /programs/jhu-msecs
 sidebar_position: 3
 title: "JHU MSECS 申请指南：课程与项目体验"
 sidebar_label: "JHU MSECS"

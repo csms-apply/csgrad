@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msr
 description: "CMU MSR là chương trình thạc sĩ robotics hai năm thiên về nghiên cứu. Giới thiệu cách bố trí môn học và luận văn, việc tìm giáo sư hướng dẫn phù hợp, khác biệt về tài trợ và những cân nhắc khi tiếp tục nộp PhD."
 sidebar_label: "CMU MSR"
 title: "Hướng dẫn ứng tuyển CMU MSR: môn học và trải nghiệm chương trình"

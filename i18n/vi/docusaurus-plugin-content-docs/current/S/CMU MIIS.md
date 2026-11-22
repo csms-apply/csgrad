@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-miis
 description: "CMU MIIS do LTI mở, kết hợp đào tạo nghiên cứu với chuẩn bị đi làm. Bài viết giới thiệu việc chọn môn CS, việc làm nghiên cứu trong giai đoạn đầu, cùng các trường hợp tìm việc hướng SDE và MLE."
 sidebar_label: "CMU MIIS"
 title: "Hướng dẫn ứng tuyển CMU MIIS: môn học và trải nghiệm chương trình"

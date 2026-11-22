@@ -1,4 +1,5 @@
 ---
+slug: /programs/umn-mscs
 description: "University of Minnesota MSCS 가이드로, 티칭 어시스턴트십, PhD 관심, 합격자 배경, 보고된 소프트웨어 직무 취업 결과를 다룹니다."
 sidebar_label: "UMN MSCS"
 title: "Minnesota MSCS 지원 가이드: 수업과 프로그램 후기"

@@ -1,4 +1,5 @@
 ---
+slug: /guides/spring-intake-cpt
 sidebar_label: "Spring 입학으로 CPT를 받으려면?"
 title: "Spring 입학과 CPT: 학생들의 편입 경험"
 description: "봄학기 입학 시 인턴십 계획, F-1 transfer, 입학 시점에 대한 학생 경험으로, 학교와 상의할 CMU SE-SV 및 Cornell 사례를 포함합니다."

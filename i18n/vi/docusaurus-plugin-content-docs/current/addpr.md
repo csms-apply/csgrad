@@ -1,4 +1,5 @@
 ---
+slug: /contribute
 sidebar_label: "Đóng góp nội dung"
 title: "Đóng góp cho CS Grad: fork kho mã trên GitHub"
 description: "Hướng dẫn ngắn có hình minh họa cách bắt đầu đóng góp nội dung cho CS Grad bằng việc fork kho mã của dự án trên GitHub."

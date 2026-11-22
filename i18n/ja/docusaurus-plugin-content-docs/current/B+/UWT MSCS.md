@@ -1,4 +1,5 @@
 ---
+slug: /programs/uwt-mscs
 sidebar_label: "UWT MSCS"
 title: "UWT MSCS 出願ガイド：授業とプログラム体験"
 description: "UW Tacoma の CS 修士には、授業のみ・キャップストーン・修士論文の3つのルートがあります。前提科目、学費、生活、co-op の経験を紹介し、Tacoma と Bothell の両キャンパスを比較します。"

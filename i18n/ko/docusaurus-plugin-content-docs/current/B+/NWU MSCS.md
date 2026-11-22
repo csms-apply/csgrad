@@ -1,4 +1,5 @@
 ---
+slug: /programs/nwu-mscs
 sidebar_label: "NWU MSCS"
 title: "Northwestern MSCS 지원 가이드: 수업과 프로그램 경험"
 description: "Northwestern MSCS 학생의 노트: 논문형, 프로젝트형, 수강형 트랙, 졸업 시기와 학비, 합격 프로필과 커리어 사례."

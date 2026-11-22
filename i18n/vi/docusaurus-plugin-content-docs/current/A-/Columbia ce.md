@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-ce
 sidebar_label: "Columbia MSCE"
 title: "Hướng dẫn ứng tuyển Columbia MSCE: môn học và trải nghiệm chương trình"
 description: "Môn core của Columbia MSCE có thể kết hợp với môn CS như thế nào? Bài viết giới thiệu quyền ưu tiên chọn môn, lựa chọn luận văn, xuất thân ứng viên các khóa trước và cách cân nhắc giữa CE với MSCS."

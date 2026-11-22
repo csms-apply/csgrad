@@ -1,4 +1,5 @@
 ---
+slug: /programs/duke-ece
 sidebar_position: 2
 description: "Duke ECE MS와 MEng를 수업, thesis, 인턴십 요건, 전공 전환 시 고려사항, 보고된 합격 경험을 통해 비교합니다."
 sidebar_label: "Duke ECE"

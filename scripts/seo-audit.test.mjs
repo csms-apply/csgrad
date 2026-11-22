@@ -5,83 +5,8 @@ import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import test from 'node:test';
 import {fileURLToPath} from 'node:url';
-import {
-  localizedAlternateUrl,
-} from '../src/lib/seo/localizedAlternates.mjs';
 
 const scriptPath = fileURLToPath(new URL('./seo-audit.mjs', import.meta.url));
-
-test('maps career-change pages in both directions instead of generating missing routes', () => {
-  const fallback = (locale) => locale === 'en'
-    ? 'https://csgrad.com/en/转码项目'
-    : 'https://csgrad.com/career-change-programs';
-  for (const pathname of ['/转码项目', '/en/career-change-programs']) {
-    assert.equal(localizedAlternateUrl({pathname, locale: 'en', siteUrl: 'https://csgrad.com', fallback}),
-      'https://csgrad.com/en/career-change-programs');
-    assert.equal(localizedAlternateUrl({pathname, locale: 'zh-Hans', siteUrl: 'https://csgrad.com', fallback}),
-      'https://csgrad.com/转码项目');
-  }
-});
-
-test('maps the consulting pages to their real localized URLs', () => {
-  const fallback = (locale) => `https://csgrad.com/${locale}/wrong`;
-
-  for (const pathname of ['/找我辅导', '/%E6%89%BE%E6%88%91%E8%BE%85%E5%AF%BC/']) {
-    assert.equal(localizedAlternateUrl({
-      pathname,
-      locale: 'zh-Hans',
-      siteUrl: 'https://csgrad.com/',
-      fallback,
-    }), 'https://csgrad.com/找我辅导');
-    assert.equal(localizedAlternateUrl({
-      pathname,
-      locale: 'en',
-      siteUrl: 'https://csgrad.com/',
-      fallback,
-    }), 'https://csgrad.com/en/consulting');
-  }
-
-  for (const pathname of ['/en/consulting', '/en/consulting/']) {
-    assert.equal(localizedAlternateUrl({
-      pathname,
-      locale: 'zh-Hans',
-      siteUrl: 'https://csgrad.com',
-      fallback,
-    }), 'https://csgrad.com/找我辅导');
-    assert.equal(localizedAlternateUrl({
-      pathname,
-      locale: 'en',
-      siteUrl: 'https://csgrad.com',
-      fallback,
-    }), 'https://csgrad.com/en/consulting');
-  }
-});
-
-test('keeps Docusaurus alternate URLs for routes without a slug override', () => {
-  const fallback = (locale) => `https://csgrad.com/${locale}/program`;
-  assert.equal(localizedAlternateUrl({
-    pathname: '/program',
-    locale: 'en',
-    siteUrl: 'https://csgrad.com',
-    fallback,
-  }), 'https://csgrad.com/en/program');
-});
-
-test('returns route-only consulting alternates for the locale dropdown', () => {
-  const fallback = (locale) => `/${locale}/wrong`;
-  assert.equal(localizedAlternateUrl({
-    pathname: '/找我辅导',
-    locale: 'en',
-    siteUrl: '',
-    fallback,
-  }), '/en/consulting');
-  assert.equal(localizedAlternateUrl({
-    pathname: '/en/consulting',
-    locale: 'zh-Hans',
-    siteUrl: '',
-    fallback,
-  }), '/找我辅导');
-});
 
 async function withSite(run) {
   const root = await mkdtemp(path.join(tmpdir(), 'csgrad-seo-audit-'));
@@ -585,11 +510,3 @@ test('missing Traditional Chinese alternate is rejected', async () => {
   });
 });
 
-test('special-route SEO alternates include Traditional Chinese without translating path identifiers', () => {
-  for (const routes of [
-    ['/找我辅导', '/en/consulting', '/zh-Hant/找我辅导'],
-    ['/转码项目', '/en/career-change-programs', '/zh-Hant/转码项目'],
-  ]) for (const pathname of routes) {
-    assert.equal(localizedAlternateUrl({pathname, locale: 'zh-Hant', siteUrl: 'https://csgrad.com', fallback: () => 'invalid'}), 'https://csgrad.com' + routes[2]);
-  }
-});

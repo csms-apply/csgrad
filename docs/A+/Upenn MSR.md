@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-msr
 description: "Upenn MSR 机器人硕士的选课与研究方向很自由，也更需要自己规划。这里分享研究体验、费城生活开销和录取背景。"
 title: "Upenn MSR 申请指南：课程与项目体验"
 sidebar_label: "Upenn MSR"

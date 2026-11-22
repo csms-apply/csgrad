@@ -1,4 +1,5 @@
 ---
+slug: /programs/gatech-ece
 sidebar_label: "Gatech ECE"
 title: "Georgia Tech ECE 지원 가이드: 수업과 프로그램 후기"
 description: "Georgia Tech ECE 재학생의 소프트웨어·하드웨어 선택과목, 유연한 학업 계획, 인턴십 준비 노트와 합격 및 취업 성과."

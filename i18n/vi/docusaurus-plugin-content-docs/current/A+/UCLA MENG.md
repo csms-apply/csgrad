@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucla-meng
 sidebar_label: "UCLA MEng"
 title: "Hướng dẫn ứng tuyển UCLA MEng: môn học và trải nghiệm chương trình"
 description: "Các môn DS và AI, các lựa chọn capstone và học phí của UCLA MEng, kết hợp với cuộc sống ở Los Angeles và trải nghiệm khi đang học, bàn về cách chọn môn và lên kế hoạch thời gian tốt nghiệp."

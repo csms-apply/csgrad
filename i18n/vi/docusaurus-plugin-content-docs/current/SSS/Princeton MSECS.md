@@ -1,4 +1,5 @@
 ---
+slug: /programs/princeton-msecs
 sidebar_position: 2
 description: "Princeton MSCS tuyển rất ít người, khi nộp hồ sơ cần kết hợp hướng nghiên cứu quan tâm với kinh nghiệm giảng dạy. Bài này giới thiệu các yếu tố như GPA, kinh nghiệm TA, kèm các trường hợp trúng tuyển những năm trước."
 sidebar_label: "Princeton MSCS"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/uchicago-mpcs
 sidebar_label: "Uchicago MPCS"
 title: "UChicago MPCS 出願ガイド：授業とプログラム体験記"
 description: "UChicago MPCSの9か月・15か月コース、基礎科目と上級の選択科目について、分野転向者の出願背景、pre-docの体験、シカゴでの生活を交えながら、進学するかどうかの判断材料を紹介します。"

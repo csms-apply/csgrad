@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucla-mscs
 title: "UCLA MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UCLA MSCS"
 description: "UCLA MSCS 偏向研究，本文介紹 AI 相關課程、進組體驗和往屆錄取背景，也分享洛杉磯住宿、飲食與求職經歷。"

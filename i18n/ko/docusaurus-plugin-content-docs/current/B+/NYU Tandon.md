@@ -1,4 +1,5 @@
 ---
+slug: /programs/nyu-tandon
 description: "NYU Tandon MSCS 가이드: 취업 지향 커리큘럼과 Brooklyn 환경, 프로그램 기간, 비용, co-op 기회, 합격 프로필."
 sidebar_label: "NYU Tandon MSCS"
 title: "NYU Tandon MSCS 지원 가이드: 수업과 프로그램 후기"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/emory-mscs
 description: "Emory MSCS には CS と BMI のトラックがあり、研究は医療 AI や NLP などの分野が中心です。少人数教育、授業選択、学費と奨学金、PhD 進学と就職の選択について紹介します。"
 sidebar_label: "Emory MSCS"
 title: "Emory MSCS 出願ガイド：授業とプログラム体験談"

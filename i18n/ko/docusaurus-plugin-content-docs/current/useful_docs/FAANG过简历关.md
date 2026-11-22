@@ -1,4 +1,5 @@
 ---
+slug: /guides/faang-resume-screening
 sidebar_label: "FAANG 서류 통과하기"
 title: "FAANG 인턴십 서류 심사: 리퍼럴과 타이밍"
 description: "2025년 인턴십 구직 경험을 바탕으로 한 FAANG 서류 심사 노하우로, 리퍼럴 시점, 팀 적합도, 이른 지원, 면접 준비를 다룹니다."

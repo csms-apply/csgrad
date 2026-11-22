@@ -1,4 +1,5 @@
 ---
+slug: /programs/harvard-hds
 sidebar_label: "Harvard HDS"
 title: "Hướng dẫn ứng tuyển Harvard Health Data Science: môn học và trải nghiệm chương trình"
 description: "Ghi chép về Harvard Health Data Science: các môn thống kê sinh học, dự án capstone với bệnh viện và đăng ký học chéo (cross-registration), kèm hồ sơ trúng tuyển và việc làm."

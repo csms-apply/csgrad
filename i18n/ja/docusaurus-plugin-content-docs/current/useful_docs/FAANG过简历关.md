@@ -1,4 +1,5 @@
 ---
+slug: /guides/faang-resume-screening
 sidebar_label: "FAANGの書類選考を突破する"
 title: "FAANGの書類選考：2025 Summerインターン応募の経験"
 description: "筆者自身の2025 Summerインターン応募の経験をもとに、Meta、Apple、Amazon、Netflix、Googleの社内リファラル、応募のタイミング、ポジションとのマッチについて解説します。"

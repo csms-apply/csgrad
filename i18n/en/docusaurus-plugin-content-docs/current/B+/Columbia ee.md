@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-ee
 sidebar_position: 2
 sidebar_label: "Columbia MSEE"
 title: "Columbia MSEE Admissions Guide: Courses and Program Experience"

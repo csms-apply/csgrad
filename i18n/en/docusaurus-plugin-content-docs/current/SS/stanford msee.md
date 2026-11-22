@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-msee
 sidebar_position: 2
 sidebar_label: "Stanford MSEE"
 title: "Stanford MSEE Admissions Guide: Courses and Program Experience"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucsd-cs75
 description: "UCSD CS75 的課程壓力、Co-op 和聖地亞哥生活體驗如何？結合學費、TA 支持與申請案例，看這個項目是否適合自己的找工計劃。"
 title: "UCSD CS75 申請指南：課程與項目體驗"
 sidebar_label: "UCSD CS75"

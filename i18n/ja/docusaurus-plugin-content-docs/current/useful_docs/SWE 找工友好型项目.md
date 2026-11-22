@@ -1,4 +1,5 @@
 ---
+slug: /guides/swe-friendly-programs
 sidebar_label: "米国 SWE 就活に強い学校/プログラム"
 title: "米国での SWE 就活を目指すなら、どの修士プログラムを見るべきか"
 description: "個人的な観察をもとに、Georgia Tech、Stanford、UW、UCSD、NEU などのプログラムと SWE 就活の関係を取り上げ、授業負担、インターン、プログラムの仕組みを比較します。"

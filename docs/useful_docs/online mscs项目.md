@@ -1,4 +1,5 @@
 ---
+slug: /guides/online-mscs-programs
 title: "Online MSCS 项目分享：在线计算机硕士有哪些选择"
 sidebar_label: "Online mscs项目分享"
 description: "整理 Georgia Tech、UIUC、UT Austin、Stanford 等在线计算机硕士项目，附文中提到的选课、费用与申请背景观察。"

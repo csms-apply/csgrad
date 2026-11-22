@@ -13,7 +13,6 @@ import {useLocation} from '@docusaurus/router';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import DropdownNavbarItem from '@theme/NavbarItem/DropdownNavbarItem';
 import IconLanguage from '@theme/Icon/Language';
-import {localizedAlternateUrl} from '../../../lib/seo/localizedAlternates.mjs';
 import {selectLanguage} from '../../../lib/i18n/preference.mjs';
 
 import styles from './styles.module.css';
@@ -33,14 +32,9 @@ export default function LocaleDropdownNavbarItem({
   const isBrowser = useIsBrowser();
 
   const localeItems = locales.map((locale) => {
-    const localizedPath = localizedAlternateUrl({
-      pathname,
+    const localizedPath = alternatePageUtils.createUrl({
       locale,
-      siteUrl: '',
-      fallback: (targetLocale) => alternatePageUtils.createUrl({
-        locale: targetLocale,
-        fullyQualified: false,
-      }),
+      fullyQualified: false,
     });
     const baseTo = `pathname://${localizedPath}`;
     // Static HTML cannot know the visitor's query/hash. Match that HTML during

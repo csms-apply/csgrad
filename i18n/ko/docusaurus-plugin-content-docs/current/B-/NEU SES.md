@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-ses
 description: "Northeastern Software Engineering Systems 가이드: 캠퍼스 위치(Boston, Arlington, Toronto), 지원 옵션, 합격자 배경, 취업 결과를 다룹니다."
 sidebar_label: "NEU SES"
 title: "NEU Software Engineering Systems 지원 가이드: 수업과 프로그램 후기"

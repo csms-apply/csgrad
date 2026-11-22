@@ -1,4 +1,5 @@
 ---
+slug: /programs/yale-mscs-2year
 description: "Yale’s two-year MSCS guide covering research preparation, teaching responsibilities, funding and reported applicant profiles, distinct from the one-year degree."
 sidebar_label: "Yale MSCS 2 year"
 title: "Yale MSCS Two-Year Admissions Guide: Courses and Program Experience"

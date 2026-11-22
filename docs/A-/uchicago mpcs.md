@@ -1,4 +1,5 @@
 ---
+slug: /programs/uchicago-mpcs
 title: "UChicago MPCS 申请指南：课程与项目体验"
 sidebar_label: "Uchicago MPCS"
 description: "UChicago MPCS 的九个月与十五个月路线、基础课程和高阶选修，结合转码申请背景、pre-doc 经历及芝加哥生活，讨论就读取舍。"

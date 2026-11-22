@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucb-eecs-meng
 description: "UCB EECS MEng の1年制の授業、Leadership と capstone の実際を、就職活動のスケジュール、費用、生活面とあわせて紹介し、どんな人に向いているかを考えます。"
 sidebar_label: "UCB EECS MEng"
 title: "UCB EECS MEng 出願ガイド：授業とプログラムの実際"

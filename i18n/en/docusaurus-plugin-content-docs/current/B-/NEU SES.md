@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-ses
 description: "Northeastern Software Engineering Systems guide covering its campus locations (Boston, Arlington, Toronto), application options, admitted applicant backgrounds and reported job outcomes."
 sidebar_label: "NEU SES"
 title: "NEU Software Engineering Systems Admissions Guide: Courses and Program Experience"

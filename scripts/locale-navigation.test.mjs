@@ -59,20 +59,20 @@ test('navbar preserves filter queries after a router location update', () => {
     'pathname:///datapoints?school=Harvard&year=2026&gpaMin=3.5#results');
 });
 
-test('navbar maps the career-change route in each direction', () => {
-  assert.equal(renderItems({pathname: '/转码项目'})[1].to, 'pathname:///en/career-change-programs');
-  assert.equal(renderItems({pathname: '/en/career-change-programs'})[0].to, 'pathname:///转码项目');
+test('navbar keeps the same English slug in every language', () => {
+  assert.equal(renderItems({pathname: '/career-change-programs'})[1].to, 'pathname:///en/career-change-programs');
+  assert.equal(renderItems({pathname: '/en/career-change-programs'})[0].to, 'pathname:///career-change-programs');
 });
 
 test('internal links retain locale and URL state without rewriting external URLs', () => {
   assert.equal(paths.localizedInternalPath('/', 'en'), '/en/');
   assert.equal(paths.localizedInternalPath('/en/', 'zh-Hans'), '/');
-  assert.equal(paths.localizedInternalPath('/B/Emory MSCS', 'en'), '/en/B/Emory MSCS');
-  assert.equal(paths.localizedInternalPath('/en/B/Emory MSCS', 'en'), '/en/B/Emory MSCS');
-  assert.equal(paths.localizedInternalPath('/找我辅导?ref=dp#fees', 'en'), '/en/consulting?ref=dp#fees');
+  assert.equal(paths.localizedInternalPath('/programs/emory-mscs', 'en'), '/en/programs/emory-mscs');
+  assert.equal(paths.localizedInternalPath('/en/programs/emory-mscs', 'en'), '/en/programs/emory-mscs');
+  assert.equal(paths.localizedInternalPath('/consulting?ref=dp#fees', 'en'), '/en/consulting?ref=dp#fees');
   assert.equal(paths.localizedInternalPath('/en/consulting', 'ko'), '/ko/consulting');
-  assert.equal(paths.localizedInternalPath('/ko/B/Emory MSCS', 'zh-Hant'), '/zh-Hant/B/Emory MSCS');
-  assert.equal(paths.localizedInternalPath('/vi/B/Emory MSCS', 'ja'), '/ja/B/Emory MSCS');
+  assert.equal(paths.localizedInternalPath('/ko/programs/emory-mscs', 'zh-Hant'), '/zh-Hant/programs/emory-mscs');
+  assert.equal(paths.localizedInternalPath('/vi/programs/emory-mscs', 'ja'), '/ja/programs/emory-mscs');
   assert.equal(paths.localizedInternalPath('/ja/consulting', 'vi'), '/vi/consulting');
   assert.equal(paths.localizedInternalPath('https://example.com/en/path', 'zh-Hans'), 'https://example.com/en/path');
   assert.equal(paths.localizedInternalPath('//example.com/path', 'en'), '//example.com/path');
@@ -94,16 +94,16 @@ test('all three language menus preserve opaque order and filter values', () => {
   }
 });
 
-test('Traditional Chinese special routes keep canonical path spelling across all languages', () => {
+test('Traditional Chinese routes use the same English slug as the other languages', () => {
   for (const routes of [
-    ['/找我辅导', '/en/consulting', '/zh-Hant/找我辅导'],
-    ['/转码项目', '/en/career-change-programs', '/zh-Hant/转码项目'],
+    ['/consulting', '/en/consulting', '/zh-Hant/consulting'],
+    ['/career-change-programs', '/en/career-change-programs', '/zh-Hant/career-change-programs'],
   ]) {
     for (const pathname of routes) {
       assert.deepEqual(renderItems({pathname}).map(item => item.to), routes.map(route => 'pathname://' + route));
     }
   }
-  assert.equal(paths.localizedInternalPath('/en/B/Emory MSCS?track=systems#courses', 'zh-Hant'), '/zh-Hant/B/Emory MSCS?track=systems#courses');
+  assert.equal(paths.localizedInternalPath('/en/programs/emory-mscs?track=systems#courses', 'zh-Hant'), '/zh-Hant/programs/emory-mscs?track=systems#courses');
   assert.equal(paths.localizedInternalPath('/zh-Hant/', 'en'), '/en/');
   assert.equal(paths.localizedInternalPath('/zh-Hant//example.com/path', 'zh-Hans'), '/example.com/path');
 });

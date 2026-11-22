@@ -1,4 +1,5 @@
 ---
+slug: /guides/online-mscs-programs
 sidebar_label: "オンライン MSCS プログラム紹介"
 title: "オンライン MSCS プログラム紹介：オンラインの CS 修士課程にはどんな選択肢があるか"
 description: "Georgia Tech、UIUC、UT Austin、Stanford などのオンライン CS 修士課程をまとめ、本文で触れた履修、費用、出願者の経歴についての所見も載せています。"

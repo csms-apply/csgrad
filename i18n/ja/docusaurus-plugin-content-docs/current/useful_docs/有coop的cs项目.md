@@ -1,4 +1,5 @@
 ---
+slug: /guides/cs-programs-with-coop
 sidebar_label: "Co-opのあるCSプログラム"
 title: "Co-opのあるCSおよび関連分野の修士課程リスト"
 description: "本文で取り上げているco-opのあるCSおよび関連分野の修士課程を、Georgia Tech、Duke ECE、JHU、UCSD、NYU Tandonなどの大学を中心にまとめました。"

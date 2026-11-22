@@ -1,4 +1,5 @@
 ---
+slug: /programs/nyu-ds
 description: "NYU DS の数学の要求レベルと研究の雰囲気は？授業、研究室への参加と PhD への転籍の機会、DS 職の就活準備、過去の出願者のバックグラウンドを紹介します。"
 sidebar_label: "NYU DS"
 title: "NYU DS 出願ガイド：授業とプログラム体験談"

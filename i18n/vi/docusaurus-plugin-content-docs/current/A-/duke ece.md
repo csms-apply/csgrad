@@ -1,4 +1,5 @@
 ---
+slug: /programs/duke-ece
 sidebar_position: 2
 description: "Nên chọn MS hay MEng của Duke ECE? Bài viết giới thiệu các môn theo hướng phần mềm, yêu cầu về dự án và thực tập, cùng kinh nghiệm học tập liên quan đến chuyển ngành và Co-op."
 sidebar_label: "Duke ECE"

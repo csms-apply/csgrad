@@ -1,4 +1,5 @@
 ---
+slug: /guides/faang-resume-screening
 title: "FAANG 簡歷篩選：2025 Summer 實習投遞經驗"
 sidebar_label: "FAANG過簡歷關"
 description: "從個人 2025 Summer 實習申請經歷出發，聊 Meta、Apple、Amazon、Netflix 和 Google 的內推、投遞時機與崗位匹配。"

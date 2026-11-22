@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-icme
 sidebar_position: 4
 description: "Stanford ICMEのGeneral、Data Science、Imaging Science、MCFの各トラックを紹介し、数学のバックグラウンド要件と合格事例をもとに、出願先の選び方を考えます。"
 sidebar_label: "Stanford ICME"

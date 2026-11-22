@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msaii
 description: "CMU MSAII の AI・システム系授業の選び方、Coding Bootcamp と CS への転向体験を、過去の出願者のバックグラウンドとあわせて紹介し、SDE と MLE の2つの就職ルートを解説します。"
 sidebar_label: "CMU MSAII"
 title: "CMU MSAII 出願ガイド：授業とプログラム体験談"

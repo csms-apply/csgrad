@@ -1,4 +1,5 @@
 ---
+slug: /programs/uiuc-msim
 description: "UIUC MSIM ガイド：授業、学費、co-op に加え、専攻転向での合格事例、ソフトウェア・データ・プロダクト職の就職実績を紹介します。"
 sidebar_label: "UIUC MSIM"
 title: "UIUC MSIM 出願ガイド：授業とプログラムの体験談"

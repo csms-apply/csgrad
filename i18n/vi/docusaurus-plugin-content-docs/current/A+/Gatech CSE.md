@@ -1,4 +1,5 @@
 ---
+slug: /programs/gatech-cse
 description: "Chi phí, hỗ trợ TA/RA và độ tự do chọn môn của Gatech CSE ra sao? Cùng xem từ các môn cốt lõi, khác biệt khi nộp vào từng home unit, đến kinh nghiệm tìm việc và chuyển chuyên ngành."
 sidebar_label: "Gatech CSE"
 title: "Hướng dẫn ứng tuyển Georgia Tech CSE: môn học và trải nghiệm chương trình"

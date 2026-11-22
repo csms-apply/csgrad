@@ -1,4 +1,5 @@
 ---
+slug: /programs/duke-mscs
 description: "Duke MSCS cho chọn môn tự do, có thể tốt nghiệp theo lộ trình học môn, dự án hoặc luận văn. Bài này tổng hợp cách sắp xếp môn học, thời gian học và chi phí, cùng nền tảng của người trúng tuyển và các trường hợp tìm việc."
 sidebar_label: "Duke MSCS"
 title: "Hướng dẫn ứng tuyển Duke MSCS: môn học và trải nghiệm chương trình"

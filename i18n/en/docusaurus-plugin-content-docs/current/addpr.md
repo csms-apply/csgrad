@@ -1,4 +1,5 @@
 ---
+slug: /contribute
 sidebar_label: "Contributing Content"
 title: "Contribute to CS Grad: Forking the GitHub Repository"
 description: "A short illustrated guide to starting a CS Grad content contribution by forking the project repository on GitHub."

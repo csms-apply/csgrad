@@ -1,4 +1,5 @@
 ---
+slug: /programs/cornell-tech-cm
 sidebar_label: "Cornell Tech CM"
 title: "Hướng dẫn ứng tuyển Cornell Tech CM: môn học và trải nghiệm chương trình"
 description: "Trải nghiệm học Cornell Tech CM, chia sẻ chi tiết về các môn học máy, thuật toán, HCI và cách chọn ký túc xá, kết hợp chi phí học tập ở New York, xuất thân trúng tuyển và kinh nghiệm tìm việc để đánh giá chương trình."

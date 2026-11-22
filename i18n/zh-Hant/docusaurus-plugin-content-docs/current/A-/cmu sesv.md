@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-sesv
 sidebar_position: 1
 title: "CMU SE-SV 申請指南：課程與項目體驗"
 sidebar_label: "CMU SE-SV"

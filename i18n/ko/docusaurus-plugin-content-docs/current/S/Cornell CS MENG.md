@@ -1,4 +1,5 @@
 ---
+slug: /programs/cornell-cs-meng
 description: "Cornell CS MEng 가이드: 캠퍼스 옵션, 짧은 프로그램 일정, 인턴 계획, 커리어 지향 지원자를 위한 합격 프로필을 비교합니다."
 sidebar_label: "Cornell CS MENG"
 title: "Cornell CS MEng 지원 가이드: 수업과 프로그램 경험"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/tamu-cse
 sidebar_label: "TAMU CSE"
 title: "Hướng dẫn ứng tuyển Texas A&M CSE: môn học và trải nghiệm chương trình"
 description: "Kinh nghiệm chọn và chuyển đổi giữa các bằng MCS, MSCS... thuộc TAMU CSE, giới thiệu các môn thiên về nghiên cứu, TA/RA, chi phí học tập, cùng trải nghiệm tìm việc của các bạn có nền tảng công việc khác nhau."

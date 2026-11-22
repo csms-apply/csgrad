@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-mscs
 sidebar_label: "NEU MSCS"
 title: "Hướng dẫn ứng tuyển Northeastern MSCS: môn học và trải nghiệm chương trình"
 description: "MSCS thông thường của NEU khác gì CS Align? Bài viết giới thiệu môn học và môi trường học tập ở các cơ sở, chia sẻ về NUworks, co-op cùng kinh nghiệm xét tuyển và tìm việc của các khóa trước."

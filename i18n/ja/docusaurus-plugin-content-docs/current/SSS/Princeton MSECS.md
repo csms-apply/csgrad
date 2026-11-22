@@ -1,4 +1,5 @@
 ---
+slug: /programs/princeton-msecs
 sidebar_position: 2
 description: "Princeton MSCS は募集人数が少なく、出願では研究上の関心と TA 経験が重要です。GPA や TA の経歴などの判断材料と、過去の合格事例を紹介します。"
 sidebar_label: "Princeton MSCS"

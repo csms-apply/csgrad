@@ -1,4 +1,5 @@
 ---
+slug: /programs/uwt-mscs
 sidebar_label: "UWT MSCS"
 title: "UW Tacoma MSCSS 지원 가이드: 수업과 프로그램 후기"
 description: "UW Tacoma MSCSS 학생들의 시각으로 본 수업, 캡스톤과 논문 옵션, 학비와 인턴십, 그리고 Tacoma와 Bothell 비교입니다."

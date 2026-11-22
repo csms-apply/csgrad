@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucla-mscs
 sidebar_label: "UCLA MSCS"
 title: "UCLA MSCS 지원 가이드: 수업과 프로그램 후기"
 description: "UCLA MSCS의 연구 기회, AI 중심 수업, 합격자 프로필, Westwood 생활을 학생들이 전한 커리어 경험과 함께 소개합니다."

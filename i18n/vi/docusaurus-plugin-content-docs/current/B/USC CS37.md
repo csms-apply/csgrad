@@ -1,4 +1,5 @@
 ---
+slug: /programs/usc-cs37
 description: "Nhận xét của sinh viên USC CS28 về quy mô khóa học lớn, xu hướng xét tuyển dựa vào GPA và cơ hội nghiên cứu, kèm ví dụ hồ sơ trúng tuyển và việc làm."
 sidebar_label: "USC CS28"
 title: "Hướng dẫn ứng tuyển USC CS28: môn học và trải nghiệm chương trình"

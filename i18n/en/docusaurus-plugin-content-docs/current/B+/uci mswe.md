@@ -1,4 +1,5 @@
 ---
+slug: /programs/uci-mswe
 sidebar_label: "UCI MSWE"
 title: "UCI MSWE Admissions Guide: Courses and Program Experience"
 description: "UCI MSWE guide for career changers, covering prerequisites, software engineering coursework, workload and reported admissions and internship experiences."

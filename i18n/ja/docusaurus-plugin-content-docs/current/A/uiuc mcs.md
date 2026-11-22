@@ -1,4 +1,5 @@
 ---
+slug: /programs/uiuc-mcs
 description: "UIUC MCS と MSCS はどう違う？授業中心のカリキュラム、本キャンパスと Chicago キャンパス、co-op、修了までのスケジュール、合格事例から、プログラムでの就職活動の進め方を解説します。"
 sidebar_label: "UIUC MCS"
 title: "UIUC MCS 出願ガイド：授業とプログラム体験"

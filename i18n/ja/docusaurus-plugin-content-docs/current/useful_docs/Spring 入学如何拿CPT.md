@@ -1,4 +1,5 @@
 ---
+slug: /guides/spring-intake-cpt
 sidebar_label: "Spring入学でCPTを取得するには？"
 title: "Spring入学とCPT：米国の学部出身者のtransferとインターン計画"
 description: "春学期入学の場合に、米国の学部での在籍歴、SEVISのtransfer、夏季インターンの時期をどうつなげるかを解説し、本文で扱うCPTとOPTのケースを整理します。"

@@ -1,4 +1,5 @@
 ---
+slug: /guides/swe-friendly-programs
 sidebar_label: "SWE Job-Hunting Friendly Schools/Programs"
 title: "CS Master's Programs for the SWE Job Search: Observations"
 description: "Personal observations on CS and related master's programs for SWE job hunting, weighing co-op options, recruiting access and student career experiences."

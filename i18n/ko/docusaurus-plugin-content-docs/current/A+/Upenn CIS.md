@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-cis
 description: "UPenn CIS는 10과목 학위 안에서 수강형과 논문형 옵션을 제공합니다. 학업 기간, 합격 프로필, 업무량, 취업 결과를 확인해 보세요."
 sidebar_label: "Upenn CIS"
 title: "UPenn CIS 지원 가이드: 수업과 프로그램 경험"

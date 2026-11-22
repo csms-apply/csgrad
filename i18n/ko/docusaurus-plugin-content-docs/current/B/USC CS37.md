@@ -1,4 +1,5 @@
 ---
+slug: /programs/usc-cs37
 description: "USC CS28 학생의 관찰. 대규모 기수, GPA 중심 합격 패턴, 연구 기회 접근성과 함께 합격자 및 취업 사례."
 sidebar_label: "USC CS28"
 title: "USC CS28 지원 가이드: 수업과 프로그램 경험"

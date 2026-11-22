@@ -1,4 +1,5 @@
 ---
+slug: /programs/uci-mcs
 description: "UC Irvine MCS 전문 학위의 진행 속도, quarter 시스템의 업무량, 인턴십 시기를 안내하고 UCI 소프트웨어 공학 프로그램과 비교합니다."
 sidebar_label: "UCI MCS"
 title: "UCI MCS 지원 가이드: 수업과 프로그램 후기"

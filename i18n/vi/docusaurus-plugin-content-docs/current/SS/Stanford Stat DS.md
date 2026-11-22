@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-stat-ds
 description: "Chia sẻ về môi trường nghiên cứu, cơ hội nghiên cứu liên ngành và nền tảng ứng viên của Stanford Statistics DS, kèm các ví dụ trúng tuyển và tìm việc của ứng viên ngành toán, thống kê và khoa học dữ liệu."
 sidebar_label: "Stanford STATS DS"
 title: "Hướng dẫn ứng tuyển Stanford Statistics Data Science: môn học và trải nghiệm chương trình"

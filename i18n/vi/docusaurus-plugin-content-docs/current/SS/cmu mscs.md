@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mscs
 sidebar_position: 1
 sidebar_label: "CMU MSCS"
 title: "Hướng dẫn ứng tuyển CMU MSCS: môn học và trải nghiệm chương trình"

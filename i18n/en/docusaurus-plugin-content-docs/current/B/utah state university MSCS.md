@@ -1,4 +1,5 @@
 ---
+slug: /programs/utah-state-university-mscs
 description: "Utah State MSCS guide to teaching and research assistantships, funding opportunities and study flexibility for applicants considering a research master’s."
 sidebar_label: "UTSU MSCS"
 title: "Utah State MSCS Admissions Guide: Courses and Program Experience"

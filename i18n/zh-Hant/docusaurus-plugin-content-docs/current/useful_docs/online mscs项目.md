@@ -1,4 +1,5 @@
 ---
+slug: /guides/online-mscs-programs
 title: "Online MSCS 項目分享：在線計算機碩士有哪些選擇"
 sidebar_label: "Online mscs項目分享"
 description: "整理 Georgia Tech、UIUC、UT Austin、Stanford 等在線計算機碩士項目，附文中提到的選課、費用與申請背景觀察。"

@@ -1,4 +1,5 @@
 ---
+slug: /guides/faang-resume-screening
 sidebar_label: "Passing the FAANG Resume Screening"
 title: "FAANG Internship Resume Screening: Referrals and Timing"
 description: "Lessons from the author's 2025 internship search on FAANG resume screening, including referral timing, team fit, early applications and interview preparation."

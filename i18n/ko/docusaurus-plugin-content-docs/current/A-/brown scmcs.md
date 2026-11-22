@@ -1,4 +1,5 @@
 ---
+slug: /programs/brown-scmcs
 description: "학기당 2과목을 연구 및 구직과 병행하는 Brown SCMCS 학생들의 시각으로 업무량, 학습 공간, 학비를 살펴봅니다."
 sidebar_label: "Brown SCMCS"
 title: "Brown SCMCS 지원 가이드: 수업과 프로그램 후기"

@@ -1,4 +1,5 @@
 ---
+slug: /guides/online-mscs-programs
 sidebar_label: "온라인 MSCS 프로그램"
 title: "온라인 CS 석사 프로그램: MSCS와 MCIT 옵션"
 description: "Georgia Tech, UIUC, UT Austin, Stanford, Columbia CVN, Penn MCIT를 포함한 온라인 CS 석사 옵션의 짧은 목록과 일부 프로그램 메모."

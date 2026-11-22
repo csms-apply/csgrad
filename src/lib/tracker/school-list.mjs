@@ -102,11 +102,11 @@ export function picksFromLegacyCards(raw, rows) {
   try {
     const cards = JSON.parse(raw);
     if (!Array.isArray(cards)) return [];
-    // Cards keep the slug from when they were added; a later tier change (e.g. /B+/UCLA MENG -> /A+/) only moves the tier segment.
-    const tail = (slug) => (typeof slug === 'string' ? slug.split('/').slice(2).join('/') : '');
-    const bySlug = new Map(rows.map((r) => [r.slug, r.id]));
-    const byTail = new Map(rows.map((r) => [tail(r.slug), r.id]));
-    return [...new Set(cards.map((c) => bySlug.get(c?.slug) || (tail(c?.slug) && byTail.get(tail(c.slug)))).filter(Boolean))];
+    // Cards keep the URL from when they were added, e.g. /B+/UCLA MENG or /SS/cmu mscs before pages moved to
+    // /programs/ucla-meng; compare the kebab-cased last segment. Ids keep old spellings (b-plus-rics-mcs -> rice-mcs).
+    const tail = (slug) => (typeof slug === 'string' ? slug.split('/').pop().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : '');
+    const byTail = new Map(rows.flatMap((r) => [[r.id.replace(/^(?:[abc]-(?:plus|minus)|s{1,3}|[abc])-/, ''), r.id], [tail(r.slug), r.id]]));
+    return [...new Set(cards.map((c) => tail(c?.slug) && byTail.get(tail(c.slug))).filter(Boolean))];
   } catch {
     return [];
   }

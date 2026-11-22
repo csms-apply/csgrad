@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msml
 description: "Hướng dẫn về CMU MSML: chương trình học máy học, cộng đồng nghiên cứu, khả năng nhận hỗ trợ RA và con đường lên PhD, cùng hồ sơ ứng viên và kết quả tìm việc được chia sẻ."
 sidebar_label: "CMU MSML"
 title: "Hướng dẫn ứng tuyển CMU MSML: môn học và trải nghiệm chương trình"

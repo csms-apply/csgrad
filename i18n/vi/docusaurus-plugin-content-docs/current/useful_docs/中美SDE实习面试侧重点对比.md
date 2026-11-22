@@ -1,4 +1,5 @@
 ---
+slug: /guides/us-china-sde-intern-interviews
 sidebar_label: "So sánh trọng tâm phỏng vấn thực tập SDE: Mỹ và Trung Quốc"
 title: "So sánh phỏng vấn thực tập SDE ở Mỹ và Trung Quốc: thuật toán, dự án và kiến thức nền tảng"
 description: "So sánh trọng tâm thường gặp trong phỏng vấn thực tập SDE ở Mỹ và Trung Quốc: thuật toán, phỏng vấn hành vi, dự án trên CV, cùng kiến thức nền tảng về hệ điều hành, mạng và cơ sở dữ liệu."

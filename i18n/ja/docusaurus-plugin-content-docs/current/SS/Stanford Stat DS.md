@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-stat-ds
 description: "Stanford Statistics Data Science ガイド：学際的な研究、合格者のプロフィール、データサイエンス・機械学習・スタートアップ分野への進路事例を紹介します。"
 sidebar_label: "Stanford STATS DS"
 title: "Stanford Statistics Data Science 出願ガイド：授業とプログラムの体験談"

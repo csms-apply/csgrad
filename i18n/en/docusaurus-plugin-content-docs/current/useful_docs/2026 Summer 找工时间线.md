@@ -1,4 +1,5 @@
 ---
+slug: /guides/summer-2026-job-search-timeline
 sidebar_label: "2026 Summer US Job Hunting Timeline"
 title: "2026 US SWE Internship Timeline: Applications to New Grad"
 description: "A month-by-month plan for the 2026 US SWE internship cycle, from early applications in 2025 through interviews, summer work and new-grad recruiting."

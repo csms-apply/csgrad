@@ -1,4 +1,5 @@
 ---
+slug: /programs/umass-mscs
 description: "UMass MSCS の授業とキャンパスライフの紹介。さまざまな職歴を持つ出願者の合格プロフィールと、ソフトウェアエンジニアリング・機械学習分野のインターンと正社員の事例も掲載しています。"
 sidebar_label: "UMass MSCS"
 title: "UMass MSCS 出願ガイド：授業とプログラムの実態"

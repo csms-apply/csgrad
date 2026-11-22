@@ -1,4 +1,5 @@
 ---
+slug: /programs/caltech-msee
 sidebar_label: "Caltech MSEE"
 title: "Caltech MSEE 지원 가이드: 수업과 프로그램 후기"
 description: "CS와 EE 수업 선택, 학업 기간에 대한 Caltech MSEE 학생들의 메모와 함께 합격자 배경과 보고된 신입 취업 결과를 소개합니다."

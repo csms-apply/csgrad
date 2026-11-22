@@ -1,4 +1,5 @@
 ---
+slug: /programs/ut-ece
 sidebar_label: "UT ECE (SES)"
 title: "UT Austin ECE SES 지원 가이드: 수업과 프로그램 경험"
 description: "UT Austin ECE SES 학생의 시각으로 본 프로그램 기간, 학기 중 인턴십, 학비와 assistantship, 합격 및 취업 사례."

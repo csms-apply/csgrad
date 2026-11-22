@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucsd-ec79
 description: "Hướng dẫn về UCSD EC79: yêu cầu môn phần cứng, khối lượng học so với MSCS, những điều cần cân nhắc khi chuyển ngành, cùng kết quả trúng tuyển và tìm việc được chia sẻ."
 sidebar_label: "UCSD EC79"
 title: "Hướng dẫn ứng tuyển UCSD EC79: môn học và trải nghiệm chương trình"

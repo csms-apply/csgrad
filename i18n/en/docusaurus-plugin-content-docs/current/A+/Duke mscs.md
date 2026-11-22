@@ -1,4 +1,5 @@
 ---
+slug: /programs/duke-mscs
 description: "Duke MSCS offers coursework, project and thesis paths. Compare course flexibility, interview preparation, admission profiles and career outcomes."
 sidebar_label: "Duke MSCS"
 title: "Duke MSCS Admissions Guide: Courses and Program Experience"

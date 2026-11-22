@@ -1,4 +1,5 @@
 ---
+slug: /programs/uiuc-mcs
 description: "UIUC MCS는 MSCS의 수업 중심 대안입니다. 수업 선택, 학비, co-op 옵션, 기술 수업과 구직 사이의 균형을 비교합니다."
 sidebar_label: "UIUC MCS"
 title: "UIUC MCS 지원 가이드: 수업과 프로그램 후기"

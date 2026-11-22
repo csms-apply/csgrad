@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-mscs
 sidebar_label: "NEU MSCS"
 title: "Northeastern MSCS 지원 가이드: 수업과 프로그램 후기"
 description: "Northeastern MSCS 캠퍼스, 수업 개설 현황과 학업 일정을 비교하고, 합격자 프로필과 인턴·정규직 취업 결과를 정리했습니다."

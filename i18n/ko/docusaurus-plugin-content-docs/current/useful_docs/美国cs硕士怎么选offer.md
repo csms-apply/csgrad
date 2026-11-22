@@ -1,4 +1,5 @@
 ---
+slug: /guides/choosing-mscs-offers
 sidebar_label: "미국 CS 석사 오퍼, 어떻게 고를까"
 title: "SWE 커리어를 위한 미국 CS 석사 오퍼 선택법"
 description: "미국 CS 석사 오퍼를 비교하기 위한 SWE 중심 프레임워크. 프로그램 기간, 업무량, 인턴십 시기, 기존 경력, 취업 사례의 한계를 다룹니다."

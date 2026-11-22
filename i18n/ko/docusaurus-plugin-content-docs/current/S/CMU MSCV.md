@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mscv
 description: "CMU MSCV는 Robotics Institute에서 컴퓨터 비전에 집중하는 프로그램입니다. 인턴십 또는 여름 연구 요건과 합격자 배경을 살펴보세요."
 sidebar_label: "CMU MSCV"
 title: "CMU MSCV 지원 가이드: 수업과 프로그램 후기"

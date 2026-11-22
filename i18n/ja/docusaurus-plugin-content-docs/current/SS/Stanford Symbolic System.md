@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-symbolic-system
 description: "Stanford Symbolic Systemsは、thesisの完成が求められる学際的な研究プログラムです。コンピュータ・人文・認知の各分野で求められるバックグラウンドと、過去の合格事例を紹介します。"
 sidebar_label: "Stanford Symbolic System"
 title: "Stanford Symbolic Systems 出願ガイド：授業とプログラム体験記"

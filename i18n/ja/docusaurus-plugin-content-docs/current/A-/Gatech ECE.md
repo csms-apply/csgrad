@@ -1,4 +1,5 @@
 ---
+slug: /programs/gatech-ece
 sidebar_label: "Gatech ECE"
 title: "Gatech ECE 出願ガイド：授業とプログラム体験談"
 description: "Gatech ECE のコア科目、他学部の授業の履修、VLSI Tape-out の授業を紹介し、履修登録・TA 応募・インターン準備の経験と、ソフトウェア・ハードウェア両分野の過去の事例をまとめています。"

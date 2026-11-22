@@ -1,4 +1,5 @@
 ---
+slug: /programs/brown-scmcs
 description: "Brown SCMCS chỉ học hai môn mỗi học kỳ, vậy còn bao nhiêu thời gian cho nghiên cứu và tìm việc? Bài viết chia sẻ học phí, nhà ở, không khí học tập và so sánh với các chương trình hot khác."
 sidebar_label: "Brown SCMCS"
 title: "Hướng dẫn ứng tuyển Brown SCMCS: môn học và trải nghiệm chương trình"
