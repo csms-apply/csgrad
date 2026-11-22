@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-cis
+slug: upenn-cis
 description: "Upenn CIS yêu cầu hoàn thành mười môn, có thể chọn lộ trình học môn hoặc luận văn. Bài này giới thiệu nhịp độ tốt nghiệp, học phí, nền tảng của người trúng tuyển, cùng các lựa chọn đi làm và học PhD."
 sidebar_label: "Upenn CIS"
 title: "Hướng dẫn ứng tuyển UPenn CIS: môn học và trải nghiệm chương trình"

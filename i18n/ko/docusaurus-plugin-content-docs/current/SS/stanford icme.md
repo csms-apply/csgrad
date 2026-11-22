@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-icme
+slug: stanford-icme
 sidebar_position: 4
 description: "Stanford ICME의 General, Data Science, Imaging Science, MCF 트랙을 비교하고 수학 준비, 지원자 배경, 커리어 고려 사항을 정리한 가이드."
 sidebar_label: "Stanford ICME"

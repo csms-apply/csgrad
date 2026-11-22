@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-icme
+slug: stanford-icme
 sidebar_position: 4
 description: "Giới thiệu các nhánh General, Data Science, Imaging Science và MCF của Stanford ICME, kết hợp yêu cầu về nền tảng toán và các trường hợp trúng tuyển để bàn về lựa chọn khi nộp hồ sơ."
 sidebar_label: "Stanford ICME"

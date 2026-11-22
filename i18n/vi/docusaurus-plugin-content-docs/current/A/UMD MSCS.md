@@ -1,5 +1,5 @@
 ---
-slug: /programs/umd-mscs
+slug: umd-mscs
 description: "UMD MSCS thiên về nghiên cứu, phù hợp với người muốn tích lũy kinh nghiệm nghiên cứu hoặc học tiếp PhD. Trang này giới thiệu hỗ trợ TA/RA, nền tảng hồ sơ trúng tuyển và môi trường tìm việc khá tự lập."
 sidebar_label: "UMD MSCS"
 title: "Hướng dẫn ứng tuyển UMD MSCS: môn học và trải nghiệm chương trình"

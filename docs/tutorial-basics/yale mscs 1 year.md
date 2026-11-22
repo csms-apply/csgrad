@@ -1,5 +1,5 @@
 ---
-slug: /programs/yale-mscs-1-year
+slug: /A/yale-mscs-1-year
 title: "Yale MSCS 一年制（补充） 申请指南：课程与项目体验"
 description: "Yale 一年制 MSCS 的补充介绍，记录校园与理论方向、往年录取成绩要求，以及不同就业年份的找工经历和案例。"
 sidebar_label: "Yale mscs 1 year"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msess
+slug: cmu-msess
 description: "CMU MSE-SS khác gì so với nhánh ES và Professional? Bài viết giới thiệu môn học, thực tập và cách sắp xếp capstone, cùng ảnh hưởng của kinh nghiệm kỹ thuật phần mềm đến việc ứng tuyển và theo học."
 sidebar_label: "CMU MSE-SS"
 title: "Hướng dẫn ứng tuyển CMU MSE-SS: môn học và trải nghiệm chương trình"

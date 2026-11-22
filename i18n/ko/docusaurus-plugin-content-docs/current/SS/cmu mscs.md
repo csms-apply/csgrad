@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mscs
+slug: cmu-mscs
 sidebar_position: 1
 sidebar_label: "CMU MSCS"
 title: "CMU MSCS 지원 가이드: 수업과 프로그램 후기"

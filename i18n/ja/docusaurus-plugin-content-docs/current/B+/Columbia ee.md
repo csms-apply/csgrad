@@ -1,5 +1,5 @@
 ---
-slug: /programs/columbia-ee
+slug: columbia-ee
 sidebar_position: 2
 sidebar_label: "Columbia MSEE"
 title: "Columbia MSEE 出願ガイド：授業とプログラム体験談"

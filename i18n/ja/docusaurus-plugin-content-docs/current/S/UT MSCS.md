@@ -1,5 +1,5 @@
 ---
-slug: /programs/ut-mscs
+slug: ut-mscs
 description: "UT Austin MSCS の授業、費用、Austin の就職環境を紹介します。研究経歴に関する合格事例や、RA、PhD 進学、就職活動の体験談も掲載しています。"
 sidebar_label: "UT MSCS"
 title: "UT Austin MSCS 出願ガイド：授業とプログラムの実態"

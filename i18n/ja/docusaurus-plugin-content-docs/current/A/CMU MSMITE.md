@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msmite
+slug: cmu-msmite
 description: "CMU MSMITE のピッツバーグとシリコンバレーでの学習スケジュール、履修、企業での practicum の体験を紹介し、合格者の経歴と過去のインターン・正社員の事例も掲載しています。"
 sidebar_label: "CMU MSMITE"
 title: "CMU MSMITE 出願ガイド：授業とプログラム体験"

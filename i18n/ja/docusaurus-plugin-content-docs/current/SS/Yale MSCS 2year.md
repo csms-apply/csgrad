@@ -1,5 +1,5 @@
 ---
-slug: /programs/yale-mscs-2year
+slug: yale-mscs-2year
 description: "Yale の 2 年制 MSCS は研究重視で、1 年制のプログラムとは異なります。TA と奨学金、研究経歴、募集規模、インターンに関する制約を紹介します。"
 sidebar_label: "Yale MSCS 2 year"
 title: "Yale MSCS 2 年制 出願ガイド：授業とプログラムの実態"

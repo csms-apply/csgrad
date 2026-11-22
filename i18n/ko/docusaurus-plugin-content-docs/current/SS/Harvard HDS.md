@@ -1,5 +1,5 @@
 ---
-slug: /programs/harvard-hds
+slug: harvard-hds
 sidebar_label: "Harvard HDS"
 title: "Harvard Health Data Science 지원 가이드: 수업과 프로그램 경험"
 description: "Harvard Health Data Science의 생물통계학 수업, 병원 연계 capstone 프로젝트, cross-registration에 관한 노트와 합격 및 취업 프로필."

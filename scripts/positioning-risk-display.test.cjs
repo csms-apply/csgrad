@@ -42,7 +42,7 @@ test('additional match candidates display reason and link, excluding other bucke
     { bucket: 'safety', school: 'Wrong bucket' }, null,
   ] });
   assert.match(html, /补充主申候选/); assert.match(html, /Example MCS/);
-  assert.match(html, /需要进一步审核方向/); assert.match(html, /href="\/A\/Example%20MCS"/);
+  assert.match(html, /需要进一步审核方向/); assert.match(html, /href="\/A\/example-mcs"/);
   assert.ok(!html.includes('Wrong bucket'));
 });
 test('risk and alternatives are part of the same DOM subtree exported to PDF', () => {
@@ -64,7 +64,7 @@ test('program overview replaces generic fit details without changing links or ol
     assert.ok(html.includes(expected));
     assert.ok(!html.includes('<project>'));
     assert.doesNotMatch(html,/Generic fit reason|Generic verify task|通用适配理由|通用核验任务|Legacy reason/);
-    assert.ok(html.includes(locale==='en'?'/en/A/Example%20MCS':'/A/Example%20MCS'));
+    assert.ok(html.includes(locale==='en'?'/en/A/example-mcs':'/A/example-mcs'));
   }
   const old=render(ReviewedAlternatives,{locale:'en',items:[{...item,programOverview:undefined}]});
   assert.match(old,/Generic fit reason/);assert.match(old,/Generic verify task/);

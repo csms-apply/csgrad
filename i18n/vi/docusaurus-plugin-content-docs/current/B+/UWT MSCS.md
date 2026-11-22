@@ -1,5 +1,5 @@
 ---
-slug: /programs/uwt-mscs
+slug: uwt-mscs
 sidebar_label: "UWT MSCS"
 title: "Hướng dẫn ứng tuyển UWT MSCS: môn học và trải nghiệm chương trình"
 description: "Chương trình thạc sĩ CS của UW Tacoma có các lộ trình học môn, capstone và luận văn. Bài viết giới thiệu môn tiên quyết, học phí, đời sống và kinh nghiệm co-op, đồng thời so sánh cơ sở Tacoma và Bothell."

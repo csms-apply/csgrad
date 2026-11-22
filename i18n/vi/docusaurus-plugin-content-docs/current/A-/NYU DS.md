@@ -1,5 +1,5 @@
 ---
-slug: /programs/nyu-ds
+slug: nyu-ds
 description: "Yêu cầu toán và không khí nghiên cứu ở NYU DS ra sao? Giới thiệu môn học, cơ hội vào nhóm nghiên cứu và chuyển PhD, cùng việc chuẩn bị cho vị trí DS và xuất thân ứng viên các khóa trước."
 sidebar_label: "NYU DS"
 title: "Hướng dẫn ứng tuyển NYU DS: môn học và trải nghiệm chương trình"

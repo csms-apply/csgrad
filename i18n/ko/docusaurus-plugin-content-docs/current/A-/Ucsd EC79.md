@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucsd-ec79
+slug: ucsd-ec79
 description: "UCSD EC79 가이드. 하드웨어 요건, MSCS와 비교한 업무량, 전공 전환 시 고려사항, 보고된 합격 및 구직 결과를 다룹니다."
 sidebar_label: "UCSD EC79"
 title: "UCSD EC79 지원 가이드: 수업과 프로그램 경험"

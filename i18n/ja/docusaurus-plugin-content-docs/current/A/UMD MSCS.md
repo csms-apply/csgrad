@@ -1,5 +1,5 @@
 ---
-slug: /programs/umd-mscs
+slug: umd-mscs
 description: "UMD MSCSは研究志向で、研究経験を積みたい人やPhD進学を考えている人に向いています。TA／RAの支援、合格者の経歴、比較的自力が求められる就職環境を紹介します。"
 sidebar_label: "UMD MSCS"
 title: "UMD MSCS 出願ガイド：授業とプログラム体験記"

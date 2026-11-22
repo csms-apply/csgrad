@@ -12,6 +12,9 @@ const missingProgramRedirects = [
  ['B/bu mscs/index.html','https://www.bu.edu/cs/masters/program/cs/'],
  ['SS/CMU MLT/index.html','https://www.lti.cmu.edu/academics/masters-programs/mlt.html'],
 ];
+// Report links now use the kebab-case spelling of each program name (/A/uw-pmp-cse); old emails keep the spaced one.
+const kebab = file => file.replace(/[^/]+(?=\/index\.html$)/, name => name.toLowerCase().replace(/[^a-z0-9]+/g, '-'));
+missingProgramRedirects.push(...missingProgramRedirects.map(([file, target]) => [kebab(file), target]), [kebab(route), destination]);
 function verify(file) {
  const html = readFileSync(file,'utf8');
  assert.ok(html.includes(`content="0;url=${destination}"`));

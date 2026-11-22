@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-mscs
+slug: uiuc-mscs
 description: "연구 중심 입학, 교수 컨택, 보고된 펀딩 변화, 지원자 프로필을 다루는 UIUC MSCS 가이드이며 인턴십과 커리어 결과 사례도 소개합니다."
 sidebar_label: "UIUC MSCS"
 title: "UIUC MSCS 지원 가이드: 수업과 프로그램 후기"

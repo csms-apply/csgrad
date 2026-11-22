@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucsb-mscs
+slug: ucsb-mscs
 description: "UCSB MSCS の在学期間の仕組み、海辺での生活、就活の雰囲気を、合格者のバックグラウンドと就活事例とあわせて紹介し、大学院生活と自主的な就活をどう両立するかを見ていきます。"
 sidebar_label: "UCSB MSCS"
 title: "UCSB MSCS 出願ガイド：授業とプログラム体験談"

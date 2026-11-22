@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mcds
+slug: cmu-mcds
 sidebar_position: 2
 description: "CMU MCDS의 Systems, Analytics, HCI 트랙, SCS 수강 과목 선택, 지원 요건, 학업 부담, 그리고 보고된 합격 및 취업 결과를 정리한 가이드."
 sidebar_label: "CMU MCDS"

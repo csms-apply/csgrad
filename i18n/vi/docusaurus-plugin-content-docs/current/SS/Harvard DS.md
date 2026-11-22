@@ -1,5 +1,5 @@
 ---
-slug: /programs/harvard-ds
+slug: harvard-ds
 description: "Trải nghiệm học môn liên trường của Harvard DS và nền tảng người trúng tuyển các khóa trước, kèm ví dụ ứng viên ngành CS, toán, thống kê, cùng nơi làm việc trong ngành công nghệ và tài chính."
 sidebar_label: "Harvard DS"
 title: "Hướng dẫn ứng tuyển Harvard Data Science: môn học và trải nghiệm chương trình"

@@ -4,7 +4,7 @@
  */
 const fs = require('fs');
 const path = require('path');
-const {frontMatterSlug} = require('../plugins/legacy-redirects.cjs');
+const {docUrl} = require('../plugins/legacy-redirects.cjs');
 
 const DOCS_DIR = path.join(__dirname, '..', 'docs');
 const OUTPUT_FILE = path.join(__dirname, '..', 'static', 'data', 'programs.json');
@@ -59,7 +59,7 @@ const SCHOOL_MAP = {
 
 // Keep identifiers already stored in users' tracker cards when a tier changes.
 const LEGACY_IDS = {
-  '/programs/ucla-meng': 'bplus-ucla-meng',
+  '/A+/ucla-meng': 'bplus-ucla-meng',
 };
 
 /**
@@ -119,9 +119,7 @@ for (const tier of TIERS) {
 
   for (const file of files) {
     const filePath = path.join(tierDir, file);
-    // The URL comes from front matter so a tier change does not move the page.
-    const slug = frontMatterSlug(filePath);
-    if (!slug) throw new Error(`${filePath} needs a slug in its front matter`);
+    const slug = docUrl(DOCS_DIR, filePath);
     const h1 = extractH1(filePath);
     if (!h1) continue;
 

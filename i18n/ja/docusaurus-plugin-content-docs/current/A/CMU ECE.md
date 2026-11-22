@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-ece
+slug: cmu-ece
 description: "CMU ECE ではどれだけ CS の授業を取れるのか、授業の負担は実際どれほどか。単位要件、システム系の授業と lab 課題から、インターン事例や PhD 転籍の可能性まで、リアルな在学体験を紹介します。"
 sidebar_label: "CMU ECE"
 title: "CMU ECE 出願ガイド：授業とプログラム体験談"

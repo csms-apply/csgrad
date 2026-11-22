@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-mscs
+slug: stanford-mscs
 sidebar_position: 1
 sidebar_label: "Stanford MSCS"
 title: "Hướng dẫn ứng tuyển Stanford MSCS: môn học và trải nghiệm chương trình"

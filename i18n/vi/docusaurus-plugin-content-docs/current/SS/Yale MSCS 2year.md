@@ -1,5 +1,5 @@
 ---
-slug: /programs/yale-mscs-2year
+slug: yale-mscs-2year
 description: "Yale MSCS hai năm thiên về nghiên cứu, khác với chương trình một năm. Bài này giới thiệu việc làm TA và hỗ trợ tài chính, nền tảng nghiên cứu, quy mô tuyển sinh và những hạn chế về thực tập."
 sidebar_label: "Yale MSCS 2 năm"
 title: "Hướng dẫn ứng tuyển Yale MSCS hai năm: môn học và trải nghiệm chương trình"

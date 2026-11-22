@@ -1,5 +1,5 @@
 ---
-slug: /programs/ut-ece
+slug: ut-ece
 sidebar_label: "UT ECE (SES)"
 title: "UT Austin ECE SES 出願ガイド：授業とプログラムの実際"
 description: "UT Austin ECE SES の修了時期、学費、TA/RA の経験に加え、ECE の各トラックの出願者の経歴やインターン・正社員の事例を紹介します。プログラム選びの参考にしてください。"

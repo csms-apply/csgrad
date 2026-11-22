@@ -1,5 +1,5 @@
 ---
-slug: /programs/umd-mscs
+slug: umd-mscs
 description: "UMD MSCS 偏向科研，適合希望積累研究經歷或繼續讀博的同學。這裡介紹 TA/RA 支持、錄取背景與相對獨立的找工環境。"
 title: "UMD MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UMD MSCS"

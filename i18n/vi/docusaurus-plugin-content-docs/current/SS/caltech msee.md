@@ -1,5 +1,5 @@
 ---
-slug: /programs/caltech-msee
+slug: caltech-msee
 sidebar_label: "Caltech MSEE"
 title: "Hướng dẫn ứng tuyển Caltech MSEE: môn học và trải nghiệm chương trình"
 description: "Cách chọn môn liên ngành EE và CS, thời gian học và trải nghiệm học tập ở Los Angeles tại Caltech MSEE, kèm hồ sơ trúng tuyển các khóa trước của ứng viên nền tảng kỹ thuật điện tử, vật lý, v.v."

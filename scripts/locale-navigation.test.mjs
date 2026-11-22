@@ -67,12 +67,12 @@ test('navbar keeps the same English slug in every language', () => {
 test('internal links retain locale and URL state without rewriting external URLs', () => {
   assert.equal(paths.localizedInternalPath('/', 'en'), '/en/');
   assert.equal(paths.localizedInternalPath('/en/', 'zh-Hans'), '/');
-  assert.equal(paths.localizedInternalPath('/programs/emory-mscs', 'en'), '/en/programs/emory-mscs');
-  assert.equal(paths.localizedInternalPath('/en/programs/emory-mscs', 'en'), '/en/programs/emory-mscs');
+  assert.equal(paths.localizedInternalPath('/B/emory-mscs', 'en'), '/en/B/emory-mscs');
+  assert.equal(paths.localizedInternalPath('/en/B/emory-mscs', 'en'), '/en/B/emory-mscs');
   assert.equal(paths.localizedInternalPath('/consulting?ref=dp#fees', 'en'), '/en/consulting?ref=dp#fees');
   assert.equal(paths.localizedInternalPath('/en/consulting', 'ko'), '/ko/consulting');
-  assert.equal(paths.localizedInternalPath('/ko/programs/emory-mscs', 'zh-Hant'), '/zh-Hant/programs/emory-mscs');
-  assert.equal(paths.localizedInternalPath('/vi/programs/emory-mscs', 'ja'), '/ja/programs/emory-mscs');
+  assert.equal(paths.localizedInternalPath('/ko/B/emory-mscs', 'zh-Hant'), '/zh-Hant/B/emory-mscs');
+  assert.equal(paths.localizedInternalPath('/vi/B/emory-mscs', 'ja'), '/ja/B/emory-mscs');
   assert.equal(paths.localizedInternalPath('/ja/consulting', 'vi'), '/vi/consulting');
   assert.equal(paths.localizedInternalPath('https://example.com/en/path', 'zh-Hans'), 'https://example.com/en/path');
   assert.equal(paths.localizedInternalPath('//example.com/path', 'en'), '//example.com/path');
@@ -103,7 +103,7 @@ test('Traditional Chinese routes use the same English slug as the other language
       assert.deepEqual(renderItems({pathname}).map(item => item.to), routes.map(route => 'pathname://' + route));
     }
   }
-  assert.equal(paths.localizedInternalPath('/en/programs/emory-mscs?track=systems#courses', 'zh-Hant'), '/zh-Hant/programs/emory-mscs?track=systems#courses');
+  assert.equal(paths.localizedInternalPath('/en/B/emory-mscs?track=systems#courses', 'zh-Hant'), '/zh-Hant/B/emory-mscs?track=systems#courses');
   assert.equal(paths.localizedInternalPath('/zh-Hant/', 'en'), '/en/');
   assert.equal(paths.localizedInternalPath('/zh-Hant//example.com/path', 'zh-Hans'), '/example.com/path');
 });

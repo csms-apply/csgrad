@@ -11,10 +11,10 @@ for (const locale of ['', 'en', 'zh-Hant', 'ko', 'vi', 'ja']) {
     assert.match(html, /<html/);
   }
   const prefix = locale ? `/${locale}` : '';
-  for (const old of ['B+/UCLA MENG', 'A+/UCLA MENG']) {
+  for (const old of ['B+/UCLA MENG', 'A+/UCLA MENG', 'programs/ucla-meng']) {
     const redirect = readFileSync(path.join(output, locale, old, 'index.html'), 'utf8');
     assert.match(redirect, /name="robots" content="noindex, follow"/);
-    assert.ok(redirect.includes(`href="${prefix}/programs/ucla-meng"`), `Missing legacy link ${old} for ${locale}`);
+    assert.ok(redirect.includes(`href="${prefix}/A+/ucla-meng"`), `Missing legacy link ${old} for ${locale}`);
   }
   const homepage = readFileSync(path.join(output, locale, 'index.html'), 'utf8');
   assert.ok(!homepage.includes('ubgp4doSw8gAh7dG9'), `Expired event remains in ${locale}`);

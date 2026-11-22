@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-mcs
+slug: uiuc-mcs
 description: "UIUC MCS is a course-based alternative to MSCS. Compare course choices, study costs, co-op options and the balance between technical classes and job hunting."
 sidebar_label: "UIUC MCS"
 title: "UIUC MCS Admissions Guide: Courses and Program Experience"

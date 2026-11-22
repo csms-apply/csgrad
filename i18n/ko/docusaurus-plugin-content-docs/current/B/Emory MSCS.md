@@ -1,5 +1,5 @@
 ---
-slug: /programs/emory-mscs
+slug: emory-mscs
 description: "Emory MSCS는 CS와 biomedical informatics 트랙을 제공합니다. 소규모 수업의 연구 기회, 헬스케어 AI, 수업 선택, 합격자 배경을 살펴봅니다."
 sidebar_label: "Emory MSCS"
 title: "Emory MSCS 지원 가이드: 수업과 프로그램 후기"

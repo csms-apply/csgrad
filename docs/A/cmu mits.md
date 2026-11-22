@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mits
+slug: cmu-mits
 title: "CMU MITS 申请指南：课程与项目体验"
 sidebar_label: "CMU MITS"
 description: "CMU MITS 的四个方向如何选择？本文介绍系统与数据课程、企业 capstone、申请面试和学费，并附往届录取与求职案例。"

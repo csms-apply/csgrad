@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-ds
+slug: upenn-ds
 description: "Upenn DS có thể chọn những môn CIS và Wharton nào? Trang này giới thiệu việc miễn môn nền tảng, cách xếp môn Core và môn tự chọn, cùng nền tảng hồ sơ trúng tuyển và các trường hợp tìm việc DS, SDE."
 sidebar_label: "Upenn DS"
 title: "Hướng dẫn ứng tuyển UPenn Data Science: môn học và trải nghiệm chương trình"

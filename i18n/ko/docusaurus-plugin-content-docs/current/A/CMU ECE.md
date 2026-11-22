@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-ece
+slug: cmu-ece
 description: "CMU ECE 가이드: 졸업 요건, 소프트웨어 비중이 높은 수업 선택지와 부담이 큰 커리큘럼, 합격 프로필, 취업 성과, 연구 관점까지."
 sidebar_label: "CMU ECE"
 title: "CMU ECE 지원 가이드: 수업과 프로그램 후기"

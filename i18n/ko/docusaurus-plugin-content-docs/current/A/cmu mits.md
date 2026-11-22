@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mits
+slug: cmu-mits
 sidebar_label: "CMU MITS"
 title: "CMU MITS 지원 가이드: 수업과 프로그램 후기"
 description: "CMU MITS의 트랙, 유연한 SCS 수업 선택, 기업 연계 capstone을 살펴보고 합격자 배경과 소프트웨어 커리어 경험을 정리했습니다."

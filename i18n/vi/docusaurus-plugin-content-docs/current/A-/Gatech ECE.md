@@ -1,5 +1,5 @@
 ---
-slug: /programs/gatech-ece
+slug: gatech-ece
 sidebar_label: "Gatech ECE"
 title: "Hướng dẫn ứng tuyển Georgia Tech ECE: môn học và trải nghiệm chương trình"
 description: "Giới thiệu môn core, chọn môn liên khoa và môn VLSI Tape-out của Gatech ECE, kèm kinh nghiệm giành môn, xin làm TA và chuẩn bị thực tập, cùng các trường hợp theo hướng phần mềm và phần cứng của các khóa trước."

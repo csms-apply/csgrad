@@ -1,5 +1,5 @@
 ---
-slug: /programs/caltech-msee
+slug: caltech-msee
 sidebar_label: "Caltech MSEE"
 title: "Caltech MSEE Admissions Guide: Courses and Program Experience"
 description: "Caltech MSEE student notes on CS and EE course choices and study duration, with admitted applicant backgrounds and reported new-grad job outcomes."

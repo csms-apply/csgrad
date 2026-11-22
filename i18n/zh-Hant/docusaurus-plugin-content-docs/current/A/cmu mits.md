@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mits
+slug: cmu-mits
 title: "CMU MITS 申請指南：課程與項目體驗"
 sidebar_label: "CMU MITS"
 description: "CMU MITS 的四個方向如何選擇？本文介紹系統與數據課程、企業 capstone、申請面試和學費，並附往屆錄取與求職案例。"

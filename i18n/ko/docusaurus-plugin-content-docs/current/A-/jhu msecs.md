@@ -1,5 +1,5 @@
 ---
-slug: /programs/jhu-msecs
+slug: jhu-msecs
 sidebar_position: 3
 sidebar_label: "JHU MSECS"
 title: "JHU MSECS 지원 가이드: 수업과 프로그램 후기"

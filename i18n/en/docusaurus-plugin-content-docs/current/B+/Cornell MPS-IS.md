@@ -1,5 +1,5 @@
 ---
-slug: /programs/cornell-mps-is
+slug: cornell-mps-is
 description: "Cornell MPS in Information Science guide covering CS course access, career-change considerations, course planning and reported admission and job-search experiences."
 sidebar_label: "Cornell MPS-IS"
 title: "Cornell MPS-IS Admissions Guide: Courses and Program Experience"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/cornell-tech-cm
+slug: cornell-tech-cm
 sidebar_label: "Cornell Tech CM"
 title: "Cornell Tech CM 出願ガイド：授業とプログラム体験談"
 description: "Cornell Tech CM の在校生が、機械学習・アルゴリズム・HCI の授業と寮選びを詳しく紹介し、ニューヨークでの学費・生活費、合格者のバックグラウンド、就職活動の経験からプログラムを評価します。"

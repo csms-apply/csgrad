@@ -1,5 +1,5 @@
 ---
-slug: /programs/yale-mscs-1-year
+slug: /A/yale-mscs-1-year
 title: "Yale MSCS 1년제(보충) 지원 가이드: 수업과 프로그램 경험"
 description: "Yale의 1년제 MSCS를 별도로 다룹니다. GPA와 시험 점수 경향, 캠퍼스와 이론 그룹, 동기들의 구직 경험에 초점을 맞춥니다."
 sidebar_label: "Yale MSCS 1 Year"

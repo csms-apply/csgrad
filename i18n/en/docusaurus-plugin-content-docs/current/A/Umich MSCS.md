@@ -1,5 +1,5 @@
 ---
-slug: /programs/umich-mscs
+slug: umich-mscs
 description: "UMich MSCS/MSCSE student perspectives on flexible study timelines, teaching assistantships, hands-on courses and balancing coursework with job hunting."
 sidebar_label: "UMich MSCS/MSCSE"
 title: "UMich MSCS/MSCSE Admissions Guide: Courses and Program Experience"

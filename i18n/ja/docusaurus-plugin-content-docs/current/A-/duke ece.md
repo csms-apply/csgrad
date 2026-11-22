@@ -1,5 +1,5 @@
 ---
-slug: /programs/duke-ece
+slug: duke-ece
 sidebar_position: 2
 description: "Duke ECE の MS と MEng はどう選べばよいでしょうか。ソフトウェア系の授業、プロジェクトとインターンの要件、専攻転換での出願や Co-op に関する在学体験を紹介します。"
 sidebar_label: "Duke ECE"

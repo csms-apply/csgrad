@@ -1,5 +1,5 @@
 ---
-slug: /programs/columbia-ce
+slug: columbia-ce
 sidebar_label: "Columbia MSCE"
 title: "Columbia MSCE Admissions Guide: Courses and Program Experience"
 description: "Columbia MSCE course reviews and CS enrollment flexibility, with thesis options, admissions profiles and a comparison of CE and MSCS."

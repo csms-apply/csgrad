@@ -1,5 +1,5 @@
 ---
-slug: /programs/princeton-msecs
+slug: princeton-msecs
 sidebar_position: 2
 description: "Princeton MSCS 招生规模小，申请需结合研究兴趣与教学经历。这里介绍 GPA、TA 背景等考虑因素，并附往届录取案例。"
 title: "Princeton MSCS 申请指南：课程与项目体验"

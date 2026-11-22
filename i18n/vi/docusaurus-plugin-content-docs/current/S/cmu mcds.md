@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mcds
+slug: cmu-mcds
 sidebar_position: 2
 description: "Nên chọn nhánh Systems, Analytics hay HCI của CMU MCDS? Trang này tổng hợp trải nghiệm môn học, cơ hội nghiên cứu, xu hướng tuyển sinh, các trường hợp tìm việc và chi phí theo học."
 sidebar_label: "CMU MCDS"

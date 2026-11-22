@@ -1,5 +1,5 @@
 ---
-slug: /programs/harvard-hds
+slug: harvard-hds
 title: "Harvard HDS 申请指南：课程与项目体验"
 sidebar_label: "Harvard HDS"
 description: "Harvard HDS 的必修课开在生物统计方向，capstone 与医院合作。本文介绍跨校选课、科研资源，以及不同本科背景的申请案例。"

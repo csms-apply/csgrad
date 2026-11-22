@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-sesv
+slug: cmu-sesv
 sidebar_position: 1
 sidebar_label: "CMU SE-SV"
 title: "CMU SE-SV Admissions Guide: Courses and Program Experience"

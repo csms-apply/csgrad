@@ -1,5 +1,5 @@
 ---
-slug: /programs/neu-mscs
+slug: neu-mscs
 sidebar_label: "NEU MSCS"
 title: "Northeastern MSCS 出願ガイド：授業とプログラムの体験談"
 description: "Northeastern MSCS のキャンパス、開講授業、学業スケジュールを比較し、合格者のプロフィールとインターン・正社員の就職実績をまとめました。"

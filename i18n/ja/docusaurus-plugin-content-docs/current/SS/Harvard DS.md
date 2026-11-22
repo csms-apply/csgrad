@@ -1,5 +1,5 @@
 ---
-slug: /programs/harvard-ds
+slug: harvard-ds
 description: "Harvard Data Science ガイド：Harvard と MIT の授業の履修、合格者の定量的な背景、データサイエンス・金融分野の就職事例を紹介します。"
 sidebar_label: "Harvard DS"
 title: "Harvard Data Science 出願ガイド：授業とプログラムの体験談"

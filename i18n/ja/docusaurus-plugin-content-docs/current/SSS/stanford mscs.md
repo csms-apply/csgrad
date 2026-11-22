@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-mscs
+slug: stanford-mscs
 sidebar_position: 1
 sidebar_label: "Stanford MSCS"
 title: "Stanford MSCS 出願ガイド：授業とプログラム体験談"

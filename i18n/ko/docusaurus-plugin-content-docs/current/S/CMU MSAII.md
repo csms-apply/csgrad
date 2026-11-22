@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msaii
+slug: cmu-msaii
 description: "CMU MSAII 가이드: 취업 지향 AI 커리큘럼, SCS 선택과목, 코딩 준비, 합격 기대치와 비전공자 CS 전환 지원자 사례."
 sidebar_label: "CMU MSAII"
 title: "CMU MSAII 지원 가이드: 수업과 프로그램 후기"

@@ -16,9 +16,12 @@ test('old file-path URLs redirect to English slugs in each locale and keep URL s
     try {
       await legacyRedirectsPlugin({baseUrl, siteDir, siteConfig: {url: 'https://csgrad.com'}}).postBuild({outDir});
       for (const [from, to] of [
-        ['A+/UCLA MENG', 'programs/ucla-meng'],
-        ['B+/UCLA MENG', 'programs/ucla-meng'],
-        ['SSS/stanford msee', 'programs/stanford-msee'],
+        ['A+/UCLA MENG', 'A+/ucla-meng'],
+        ['B+/UCLA MENG', 'A+/ucla-meng'],
+        ['B+/ucla-meng', 'A+/ucla-meng'],
+        ['programs/ucla-meng', 'A+/ucla-meng'],
+        ['SSS/stanford msee', 'SS/stanford-msee'],
+        ['B+/rics-mcs', 'B+/rice-mcs'],
         ['找我辅导', 'consulting'],
         ['useful_docs/FAANG过简历关', 'guides/faang-resume-screening'],
       ]) {

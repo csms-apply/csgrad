@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-msim
+slug: uiuc-msim
 description: "UIUC MSIM guide to coursework, tuition and co-op, with career-change admission examples and reported outcomes in software, data and product roles."
 sidebar_label: "UIUC MSIM"
 title: "UIUC MSIM Admissions Guide: Courses and Program Experience"

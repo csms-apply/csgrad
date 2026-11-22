@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mscv
+slug: cmu-mscv
 description: "CMU MSCVはRobotics Instituteのコンピュータビジョン修士課程です。1年半の修業期間、夏季インターンまたは研究の要件、CVのバックグラウンドに関連する合格事例を紹介します。"
 sidebar_label: "CMU MSCV"
 title: "CMU MSCV 出願ガイド：授業とプログラム体験記"

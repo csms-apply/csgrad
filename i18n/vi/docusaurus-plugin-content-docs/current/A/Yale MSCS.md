@@ -1,5 +1,5 @@
 ---
-slug: /programs/yale-mscs
+slug: yale-mscs
 description: "Yale MSCS một năm ưu tiên hồ sơ thế nào và tìm việc ra sao, kèm các ví dụ về GPA, điểm ngoại ngữ và nơi làm việc sau tốt nghiệp, cùng những điều cần cân nhắc khi hoãn nhập học và sắp xếp thực tập."
 sidebar_label: "Yale MSCS 1 year"
 title: "Hướng dẫn ứng tuyển Yale MSCS một năm: môn học và trải nghiệm chương trình"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/neu-cs-align
+slug: neu-cs-align
 sidebar_label: "NEU CS Align"
 title: "NEU CS Align 지원 가이드: 수업과 프로그램 경험"
 description: "CS 비전공자의 전공 전환을 위한 Northeastern CS Align을 학생 시각에서 살펴봅니다. 실리콘밸리 캠퍼스 생활, 주거, 지원 시 고려사항, 취업 사례를 담았습니다."

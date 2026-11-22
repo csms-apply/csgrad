@@ -1,5 +1,5 @@
 ---
-slug: /programs/princeton-msecs
+slug: princeton-msecs
 sidebar_position: 2
 description: "소규모 연구 중심 프로그램인 Princeton CS 석사 가이드: 티칭 경험, 교수진과의 관계, 보고된 합격 배경."
 sidebar_label: "Princeton MSCS"

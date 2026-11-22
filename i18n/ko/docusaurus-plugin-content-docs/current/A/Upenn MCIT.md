@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-mcit
+slug: upenn-mcit
 description: "UPenn MCIT는 컴퓨팅 분야로 전환하려는 지원자를 위한 프로그램입니다. 기초 수업, 배치 시험, 학업 기간, CIS 복수학위 옵션을 살펴보세요."
 sidebar_label: "UPenn MCIT"
 title: "UPenn MCIT 지원 가이드: 수업과 프로그램 경험"

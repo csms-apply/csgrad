@@ -1,5 +1,5 @@
 ---
-slug: /programs/emory-mscs
+slug: emory-mscs
 description: "Emory MSCS có hai hướng CS và BMI, nghiên cứu tập trung vào AI trong y tế, NLP. Bài viết giới thiệu mô hình lớp nhỏ, cách chọn môn, học phí và học bổng, cũng như cân nhắc giữa học PhD và đi làm."
 sidebar_label: "Emory MSCS"
 title: "Hướng dẫn ứng tuyển Emory MSCS: môn học và trải nghiệm chương trình"

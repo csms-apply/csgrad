@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-ee
+slug: upenn-ee
 description: "UPenn EE 학생의 시각으로 본 ESE 요건, 수학·ML 선택 과목, 업무량, 전과 또는 두 번째 공학 학위 옵션을 정리했습니다."
 sidebar_label: "Upenn EE"
 title: "UPenn EE 지원 가이드: 수업과 프로그램 후기"

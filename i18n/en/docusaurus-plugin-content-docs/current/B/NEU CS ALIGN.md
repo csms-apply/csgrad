@@ -1,5 +1,5 @@
 ---
-slug: /programs/neu-cs-align
+slug: neu-cs-align
 sidebar_label: "NEU CS Align"
 title: "NEU CS Align Admissions Guide: Courses and Program Experience"
 description: "A student view of Northeastern CS Align for career changers, including Silicon Valley campus life, housing, application considerations and career examples."

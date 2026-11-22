@@ -1,5 +1,5 @@
 ---
-slug: /programs/ncsu-mcs
+slug: ncsu-mcs
 description: "Áp lực học tập ở NCSU MCS và môi trường tìm việc ở North Carolina ra sao? Từ hồ sơ của người chuyển ngành, khảo sát thực tập đến các trường hợp vào vị trí kỹ sư phần mềm của các khóa trước, cùng xem trải nghiệm thực tế của chương trình."
 sidebar_label: "NCSU MCS"
 title: "Hướng dẫn ứng tuyển NCSU MCS: môn học và trải nghiệm chương trình"

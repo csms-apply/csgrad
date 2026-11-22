@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-mscs
+slug: stanford-mscs
 sidebar_position: 1
 title: "Stanford MSCS 申请指南：课程与项目体验"
 sidebar_label: "Stanford MSCS"

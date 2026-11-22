@@ -1,5 +1,5 @@
 ---
-slug: /programs/umn-mscs
+slug: umn-mscs
 description: "Hỗ trợ TA, trải nghiệm cuộc sống và nền tảng hồ sơ các khóa trước của UMN MSCS, kèm trường hợp tìm việc vị trí phần mềm và kinh nghiệm học PhD ở lại trường hoặc nộp sang trường khác."
 sidebar_label: "UMN MSCS"
 title: "Hướng dẫn ứng tuyển Minnesota MSCS: môn học và trải nghiệm chương trình"

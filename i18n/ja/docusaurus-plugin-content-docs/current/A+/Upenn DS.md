@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-ds
+slug: upenn-ds
 description: "UPenn DSではどのCISやWhartonの授業を選べる？基礎科目の免除、Core科目と選択科目の組み方に加え、合格者の経歴やDS・SDEの就職事例を紹介します。"
 sidebar_label: "Upenn DS"
 title: "UPenn Data Science 出願ガイド：授業とプログラム体験記"

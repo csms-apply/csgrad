@@ -24,6 +24,6 @@ test('Traditional paid report renders translated text with locale-specific progr
       programOverview:{'zh-Hans':'课程包含计算机系统与软件工程。'},doc:'/A/Example MSCS'}],
   }));
   assert.match(html, /課程包含計算機系統與軟件工程/);
-  assert.match(html, /href="\/zh-Hant\/A\/Example%20MSCS"/);
+  assert.match(html, /href="\/zh-Hant\/A\/example-mscs"/);
   assert.doesNotMatch(html, /课程|计算机/);
 });

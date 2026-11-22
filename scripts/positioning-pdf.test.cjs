@@ -12,14 +12,16 @@ vm.runInNewContext(code,{exports:api,require(name){if(name==='react')return Reac
 
 test('program links localize internal routes and preserve external/already encoded links',()=>{
  for(const [input,en,zh] of [
-  ['/A/uiuc mcs','/en/A/uiuc%20mcs','/A/uiuc%20mcs'],
-  ['/A/uiuc%20mcs','/en/A/uiuc%20mcs','/A/uiuc%20mcs'],
-  ['/en/A/uiuc%20mcs','/en/A/uiuc%20mcs','/A/uiuc%20mcs'],
+  ['/A/uiuc mcs','/en/A/uiuc-mcs','/A/uiuc-mcs'],
+  ['/A/uiuc%20mcs','/en/A/uiuc-mcs','/A/uiuc-mcs'],
+  ['/en/A/uiuc%20mcs','/en/A/uiuc-mcs','/A/uiuc-mcs'],
+  ['/A+/UCLA MENG#courses','/en/A+/ucla-meng#courses','/A+/ucla-meng#courses'],
+  ['/consulting','/en/consulting','/consulting'],
   ['https://example.com/program?x=1&y=2','https://example.com/program?x=1&y=2','https://example.com/program?x=1&y=2'],
   ['//example.com/program','//example.com/program','//example.com/program'],
  ]){assert.equal(api.programDetailHref(input,'en'),en);assert.equal(api.programDetailHref(input,'zh-Hans'),zh);}
  const html=renderToStaticMarkup(React.createElement(api.ReviewedAlternatives,{locale:'en',items:[{bucket:'match',school:'Program',doc:'/A/uiuc%20mcs'}]}));
- assert.match(html,/href="\/en\/A\/uiuc%20mcs"/);
+ assert.match(html,/href="\/en\/A\/uiuc-mcs"/);
 });
 
 test('PDF uses an isolated A4 clone and removes it after success or save failure',async()=>{

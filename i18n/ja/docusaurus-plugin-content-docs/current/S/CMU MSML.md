@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msml
+slug: cmu-msml
 description: "CMU MSML の機械学習カリキュラム、RA による学費支援、学科内の研究の雰囲気を、過去の合格者の経歴とあわせて紹介します。ML を深く学びたい人や PhD 進学を考える人向けです。"
 sidebar_label: "CMU MSML"
 title: "CMU MSML 出願ガイド：授業とプログラムの実際"

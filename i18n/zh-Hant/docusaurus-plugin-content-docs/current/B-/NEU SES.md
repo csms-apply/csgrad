@@ -1,5 +1,5 @@
 ---
-slug: /programs/neu-ses
+slug: neu-ses
 description: "NEU SES 是在波士頓、Arlington、Toronto 等校區開設的軟件工程系統項目。這裡介紹它與 MSCS、CS Align、IS 的申請選擇，以及錄取和往屆求職情況。"
 title: "NEU SES 申請指南：課程與項目體驗"
 sidebar_label: "NEU SES"

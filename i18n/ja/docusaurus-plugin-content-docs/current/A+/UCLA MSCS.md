@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucla-mscs
+slug: ucla-mscs
 sidebar_label: "UCLA MSCS"
 title: "UCLA MSCS 出願ガイド：授業とプログラムの体験談"
 description: "UCLA MSCS の研究の機会、AI 中心の授業、合格者のプロフィール、Westwood での生活を、学生から寄せられたキャリア経験とともに紹介します。"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/caltech-msee
+slug: caltech-msee
 sidebar_label: "Caltech MSEE"
 title: "Caltech MSEE 出願ガイド：授業とプログラム体験記"
 description: "Caltech MSEE の EE と CS をまたぐ科目選択、修業年限、ロサンゼルスでの在学体験を紹介し、電子工学や物理などのバックグラウンドをもつ過去の合格事例もまとめています。"

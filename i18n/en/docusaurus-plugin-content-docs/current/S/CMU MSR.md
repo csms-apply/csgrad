@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msr
+slug: cmu-msr
 description: "CMU MSR is a thesis-based robotics degree. Explore the balance of coursework and research, advisor fit, funding considerations and the separate PhD application."
 sidebar_label: "CMU MSR"
 title: "CMU MSR Admissions Guide: Courses and Program Experience"

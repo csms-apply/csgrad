@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msml
+slug: cmu-msml
 description: "CMU MSML 的機器學習課程、RA 資助與系內研究氛圍，附往屆錄取背景，供希望深入 ML 或繼續讀博的同學參考。"
 title: "CMU MSML 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSML"

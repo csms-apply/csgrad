@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-symbolic-system
+slug: stanford-symbolic-system
 description: "Stanford Symbolic Systems là chương trình liên ngành định hướng nghiên cứu, bắt buộc hoàn thành luận văn (thesis). Trang này giới thiệu yêu cầu nền tảng về máy tính, nhân văn và nhận thức, cùng các trường hợp trúng tuyển những năm trước."
 sidebar_label: "Stanford Symbolic System"
 title: "Hướng dẫn ứng tuyển Stanford Symbolic Systems: môn học và trải nghiệm chương trình"

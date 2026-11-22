@@ -1,5 +1,5 @@
 ---
-slug: /programs/cornell-mps-is
+slug: cornell-mps-is
 description: "Cornell MPS in Information Science 가이드: CS 수업 수강, 전공 전환 시 고려 사항, 수업 계획, 합격 및 구직 경험을 다룹니다."
 sidebar_label: "Cornell MPS-IS"
 title: "Cornell MPS-IS 지원 가이드: 수업과 프로그램 후기"
