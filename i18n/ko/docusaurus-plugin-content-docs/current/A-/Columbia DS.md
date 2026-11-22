@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-ds
 description: "Columbia Data Science는 DS와 머신러닝에 중점을 둡니다. capstone, 선수 과목 계획, CS 선택과목, 보고된 합격 및 커리어 결과를 살펴보세요."
 sidebar_label: "Columbia DS"
 title: "Columbia Data Science 지원 가이드: 수업과 프로그램 경험"

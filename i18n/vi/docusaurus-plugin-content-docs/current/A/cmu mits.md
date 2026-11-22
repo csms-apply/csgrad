@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mits
 sidebar_label: "CMU MITS"
 title: "Hướng dẫn ứng tuyển CMU MITS: môn học và trải nghiệm chương trình"
 description: "Nên chọn lộ trình nào trong bốn lộ trình của CMU MITS? Bài viết giới thiệu các môn hệ thống và dữ liệu, capstone làm cùng doanh nghiệp, phỏng vấn xét tuyển và học phí, kèm các trường hợp trúng tuyển và tìm việc của các khóa trước."

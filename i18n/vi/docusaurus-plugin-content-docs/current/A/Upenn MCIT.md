@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-mcit
 description: "Upenn MCIT dành cho người chuyển ngành sang lập trình, môn học bắt đầu từ nền tảng. Bài này tổng hợp cách miễn môn bắt buộc, lịch tốt nghiệp, lựa chọn song bằng, cùng các trường hợp trúng tuyển và tìm việc từ nhiều nền tảng đại học khác nhau."
 sidebar_label: "UPenn MCIT"
 title: "Hướng dẫn ứng tuyển UPenn MCIT: môn học và trải nghiệm chương trình"

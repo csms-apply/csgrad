@@ -1,4 +1,5 @@
 ---
+slug: /guides/us-china-sde-intern-interviews
 title: "中美 SDE 實習面試對比：算法、項目與基礎知識"
 sidebar_label: "中美SDE實習面試側重點對比"
 description: "比較美國與國內 SDE 實習面試的常見側重點，涵蓋算法、行為面試、簡歷項目，以及操作系統、網絡和數據庫基礎。"

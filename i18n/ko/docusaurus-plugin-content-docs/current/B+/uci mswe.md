@@ -1,4 +1,5 @@
 ---
+slug: /programs/uci-mswe
 sidebar_label: "UCI MSWE"
 title: "UCI MSWE 지원 가이드: 수업과 프로그램 후기"
 description: "전공 전환자를 위한 UCI MSWE 가이드로, 선수 과목, 소프트웨어 공학 수업, 학업 부담, 보고된 합격 및 인턴십 경험을 다룹니다."

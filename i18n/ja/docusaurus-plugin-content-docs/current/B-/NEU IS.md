@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-is
 description: "NEU IS の Software Development トラックはどんな CS 転向者に向いている？各キャンパス、授業、co-op、卒業までのスケジュールを紹介し、インターンと正社員の事例もまとめました。"
 sidebar_label: "NEU IS"
 title: "NEU IS 出願ガイド：授業とプログラム体験"

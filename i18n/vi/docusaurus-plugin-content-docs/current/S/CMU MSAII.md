@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msaii
 description: "Lựa chọn môn AI và hệ thống, Coding Bootcamp và trải nghiệm chuyển ngành ở CMU MSAII, kết hợp xuất thân ứng viên các khóa trước để hiểu hai hướng việc làm SDE và MLE."
 sidebar_label: "CMU MSAII"
 title: "Hướng dẫn ứng tuyển CMU MSAII: môn học và trải nghiệm chương trình"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/nyu-tandon
 description: "NYU Tandon MSCS は Brooklyn にあり、Courant のプログラムとは位置づけが異なります。プログラム期間、生活費、co-op、過去の合格・就職事例を紹介します。"
 sidebar_label: "NYU Tandon MSCS"
 title: "NYU Tandon MSCS 出願ガイド：授業とプログラム体験談"

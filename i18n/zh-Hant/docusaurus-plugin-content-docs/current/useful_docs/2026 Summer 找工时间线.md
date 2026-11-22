@@ -1,4 +1,5 @@
 ---
+slug: /guides/summer-2026-job-search-timeline
 title: "2026 Summer 美國實習與 New Grad 找工時間線"
 sidebar_label: "2026 summer美國找工時間線"
 description: "圍繞 2026 年暑期實習，梳理從 2025 年準備與投遞到實習、爭取 Return Offer，再到 New Grad 求職的時間安排。"

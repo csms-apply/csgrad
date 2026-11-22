@@ -1,4 +1,5 @@
 ---
+slug: /guides/us-china-sde-intern-interviews
 sidebar_label: "Comparison of SDE Internship Interview Focus: US vs. China"
 title: "US vs China SDE Internship Interviews: What Gets Tested"
 description: "Compare US and China SDE internship interviews through the author’s experiences with algorithms, behavioral questions, project depth and recruiting timelines."

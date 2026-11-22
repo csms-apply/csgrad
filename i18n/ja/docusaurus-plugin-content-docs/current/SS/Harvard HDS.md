@@ -1,4 +1,5 @@
 ---
+slug: /programs/harvard-hds
 sidebar_label: "Harvard HDS"
 title: "Harvard HDS 出願ガイド：授業とプログラムの実際"
 description: "Harvard HDS の必修科目は生物統計の分野で開講され、capstone は病院と連携して行います。他スクールでの履修、研究リソース、さまざまな学部背景からの出願事例を紹介します。"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucsb-mscs
 description: "Chia sẻ về thời gian học, cuộc sống bên bờ biển và không khí tìm việc ở UCSB MSCS, kết hợp xuất thân trúng tuyển và các trường hợp tìm việc để xem cách cân bằng cuộc sống cao học với việc tự chủ động tìm việc."
 sidebar_label: "UCSB MSCS"
 title: "Hướng dẫn ứng tuyển UCSB MSCS: môn học và trải nghiệm chương trình"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msin
 sidebar_position: 1
 sidebar_label: "CMU MSIN"
 title: "CMU MSIN 出願ガイド：授業とプログラム体験談"

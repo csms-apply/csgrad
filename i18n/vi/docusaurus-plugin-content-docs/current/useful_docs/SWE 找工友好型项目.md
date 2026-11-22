@@ -1,4 +1,5 @@
 ---
+slug: /guides/swe-friendly-programs
 sidebar_label: "Trường/chương trình thuận lợi tìm việc SWE ở Mỹ"
 title: "Nhắm tới việc làm SWE ở Mỹ: những chương trình thạc sĩ nào đáng cân nhắc"
 description: "Dựa trên quan sát cá nhân, bàn về mối liên hệ giữa các chương trình như Georgia Tech, Stanford, UW, UCSD, NEU với việc tìm việc SWE, so sánh khối lượng môn học, thực tập và cách sắp xếp chương trình."

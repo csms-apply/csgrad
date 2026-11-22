@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-is
 description: "Northeastern Information Systems의 전공 전환 학습과 co-op, Boston 캠퍼스와 Silicon Valley 캠퍼스의 경험 비교, 졸업 소요 기간을 안내합니다."
 sidebar_label: "NEU IS"
 title: "Northeastern Information Systems 지원 가이드: 수업과 프로그램 후기"

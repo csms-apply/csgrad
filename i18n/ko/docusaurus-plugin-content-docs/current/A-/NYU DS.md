@@ -1,4 +1,5 @@
 ---
+slug: /programs/nyu-ds
 description: "NYU Data Science는 수학 비중이 높은 수업과 연구 기회를 함께 제공합니다. 지원자 배경, PhD 진학 관심, 데이터 사이언스 진로를 소개합니다."
 sidebar_label: "NYU DS"
 title: "NYU Data Science 지원 가이드: 수업과 프로그램 후기"

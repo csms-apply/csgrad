@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mscs
 sidebar_position: 1
 title: "CMU MSCS 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSCS"

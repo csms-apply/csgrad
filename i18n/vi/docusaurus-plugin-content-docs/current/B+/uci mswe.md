@@ -1,4 +1,5 @@
 ---
+slug: /programs/uci-mswe
 sidebar_label: "UCI MSWE"
 title: "Hướng dẫn ứng tuyển UCI MSWE: môn học và trải nghiệm chương trình"
 description: "UCI MSWE hướng đến việc làm kỹ thuật phần mềm và có khá nhiều người chuyển ngành. Tìm hiểu môn tiên quyết, áp lực học tập, thực tập và capstone, cùng điểm khác biệt so với UCI MCS."

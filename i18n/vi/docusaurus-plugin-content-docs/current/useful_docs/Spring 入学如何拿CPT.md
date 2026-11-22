@@ -1,4 +1,5 @@
 ---
+slug: /guides/spring-intake-cpt
 sidebar_label: "Nhập học kỳ Spring thì lấy CPT thế nào?"
 title: "Nhập học kỳ Spring và CPT: nền tảng cử nhân ở Mỹ, chuyển trường và sắp xếp thực tập"
 description: "Khi nhập học kỳ xuân, quá trình học cử nhân ở Mỹ, việc chuyển trường trên SEVIS và thời gian thực tập mùa hè nối tiếp nhau thế nào; tổng hợp các tình huống CPT và OPT được nhắc đến trong bài."

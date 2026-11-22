@@ -1,4 +1,5 @@
 ---
+slug: /programs/uchicago-mpcs
 sidebar_label: "Uchicago MPCS"
 title: "UChicago MPCS Admissions Guide: Courses and Program Experience"
 description: "Compare UChicago MPCS study timelines, specializations and pre-doc possibilities through student perspectives on coursework, costs and job hunting."

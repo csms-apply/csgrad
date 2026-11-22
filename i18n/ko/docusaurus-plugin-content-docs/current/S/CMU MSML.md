@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msml
 description: "CMU MSML 가이드. 머신러닝 커리큘럼, 연구 커뮤니티, RA 지원 가능성, PhD 진학 경로와 함께 보고된 지원자 및 취업 프로필."
 sidebar_label: "CMU MSML"
 title: "CMU MSML 지원 가이드: 수업과 프로그램 경험"

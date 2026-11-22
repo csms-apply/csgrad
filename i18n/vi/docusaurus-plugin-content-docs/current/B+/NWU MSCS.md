@@ -1,4 +1,5 @@
 ---
+slug: /programs/nwu-mscs
 sidebar_label: "NWU MSCS"
 title: "Hướng dẫn ứng tuyển Northwestern MSCS: môn học và trải nghiệm chương trình"
 description: "Các lộ trình thesis, project và course của NWU MSCS khác nhau thế nào? Bài này chia sẻ về giáo sư hướng dẫn và lịch tốt nghiệp, học phí, cuộc sống ở Evanston, cùng các trường hợp trúng tuyển và tìm việc những năm trước."

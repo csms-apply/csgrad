@@ -1,4 +1,5 @@
 ---
+slug: /guides/choosing-mscs-offers
 sidebar_label: "Chọn offer thạc sĩ CS ở Mỹ như thế nào"
 title: "Chọn offer thạc sĩ CS ở Mỹ cho con đường SWE"
 description: "Khung so sánh các offer thạc sĩ CS ở Mỹ cho người theo SWE: thời lượng chương trình, khối lượng học, thời điểm thực tập, kinh nghiệm sẵn có và giới hạn của các câu chuyện tìm việc."

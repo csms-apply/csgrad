@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-mscs
 sidebar_label: "Columbia MSCS"
 title: "Hướng dẫn ứng tuyển Columbia MSCS: môn học và trải nghiệm chương trình"
 description: "Trải nghiệm học Columbia MSCS: chọn hướng Software Systems hay ML, bài tập các môn nặng đến đâu, chi phí sống ở New York ra sao, cùng kinh nghiệm làm TA, nghiên cứu và tìm việc."

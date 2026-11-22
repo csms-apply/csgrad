@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mcds
 sidebar_position: 2
 description: "CMU MCDS 的 Systems、Analytics 與 HCI 方向怎麼選？這裡整理課程體驗、研究機會、錄取偏好、求職案例和就讀花費。"
 title: "CMU MCDS 申請指南：課程與項目體驗"

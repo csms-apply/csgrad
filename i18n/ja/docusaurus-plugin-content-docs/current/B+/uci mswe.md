@@ -1,4 +1,5 @@
 ---
+slug: /programs/uci-mswe
 sidebar_label: "UCI MSWE"
 title: "UCI MSWE 出願ガイド：授業とプログラム体験記"
 description: "UCI MSWEはソフトウェアエンジニアとしての就職を重視したプログラムで、分野転向者も多く在籍しています。前提科目、授業の負担、インターンとcapstone、UCI MCSとの違いを紹介します。"

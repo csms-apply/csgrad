@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-ee
 description: "UPenn EE の学生の視点から、ESE の要件、数学・ML の選択科目、課題量、転科や 2 つ目の工学学位の選択肢をまとめました。"
 sidebar_label: "Upenn EE"
 title: "UPenn EE 出願ガイド：授業とプログラムの体験談"

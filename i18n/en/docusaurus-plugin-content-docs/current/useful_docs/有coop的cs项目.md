@@ -1,4 +1,5 @@
 ---
+slug: /guides/cs-programs-with-coop
 sidebar_label: "CS Programs With Co-op"
 title: "CS Master's Programs with Co-op: A Program List"
 description: "A reference list of CS and related master's programs discussed for co-op, with notes on campuses, internship semesters and graduation timing."

@@ -1,4 +1,5 @@
 ---
+slug: /guides/us-china-sde-intern-interviews
 sidebar_label: "SDE 인턴십 면접 중점 비교: 미국 vs. 중국"
 title: "미국 vs 중국 SDE 인턴십 면접: 무엇을 평가하는가"
 description: "알고리즘, 행동 면접, 프로젝트 깊이, 채용 일정에 대한 필자의 경험을 바탕으로 미국과 중국의 SDE 인턴십 면접을 비교합니다."

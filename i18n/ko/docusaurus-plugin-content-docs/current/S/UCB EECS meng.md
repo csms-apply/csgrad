@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucb-eecs-meng
 description: "Berkeley EECS MEng는 기술 과목, 리더십, 1년간의 캡스톤을 결합한 프로그램입니다. 1년 과정 안에서 취업 준비가 얼마나 빡빡한지 살펴보세요."
 sidebar_label: "UCB EECS MEng"
 title: "Berkeley EECS MEng 지원 가이드: 수업과 프로그램 경험"

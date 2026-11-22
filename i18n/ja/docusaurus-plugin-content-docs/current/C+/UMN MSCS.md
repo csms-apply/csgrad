@@ -1,4 +1,5 @@
 ---
+slug: /programs/umn-mscs
 description: "UMN MSCSのTAによる支援、生活面、過去の出願者の経歴をまとめ、ソフトウェア職の就職事例や、UMNに残る・他校のPhDに出願するといった経験も紹介します。"
 sidebar_label: "UMN MSCS"
 title: "UMN MSCS 出願ガイド：授業とプログラム体験記"

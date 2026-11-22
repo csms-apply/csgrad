@@ -1,4 +1,5 @@
 ---
+slug: /programs/yale-mscs
 description: "Yale 一年制 MSCS 的錄取偏好與找工情況，附 GPA、語言成績和畢業去向案例，並討論推遲入學與實習安排需要考慮的問題。"
 title: "Yale MSCS 一年制 申請指南：課程與項目體驗"
 sidebar_label: "Yale MSCS 1 year"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/uiuc-ece-meng
 description: "UIUC ECE MEng guide covering software and hardware course choices, co-op and deferral options, with student perspectives on preparing for software careers."
 sidebar_label: "UIUC ECE MENG"
 title: "UIUC ECE MEng Admissions Guide: Courses and Program Experience"

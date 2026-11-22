@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msr
 description: "CMU MSR は研究志向の2年制ロボティクス修士です。授業と修士論文の進め方、指導教員とのマッチング、ファンディングの違い、その後の PhD 出願で考えるべき点を紹介します。"
 sidebar_label: "CMU MSR"
 title: "CMU MSR 出願ガイド：授業とプログラム体験談"

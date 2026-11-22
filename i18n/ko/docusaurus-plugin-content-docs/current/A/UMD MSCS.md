@@ -1,4 +1,5 @@
 ---
+slug: /programs/umd-mscs
 description: "UMD MSCS는 연구 중심 프로그램으로 PhD 지원자와 함께 심사됩니다. 어시스턴트십 기회, 연구 강점, 구직 시 고려 사항을 살펴보세요."
 sidebar_label: "UMD MSCS"
 title: "UMD MSCS 지원 가이드: 수업과 프로그램 후기"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/nwu-mscs
 sidebar_label: "NWU MSCS"
 title: "Northwestern MSCS 出願ガイド：授業とプログラム体験"
 description: "NWU MSCS の thesis、project、course の各ルートは何が違うのか。指導教員と修了スケジュール、学費、Evanston での生活、過去の合格・就職事例を紹介します。"

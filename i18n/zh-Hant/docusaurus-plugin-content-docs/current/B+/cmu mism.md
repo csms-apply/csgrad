@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mism
 sidebar_position: 1
 title: "CMU MISM 申請指南：課程與項目體驗"
 sidebar_label: "CMU MISM"

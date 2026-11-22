@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-ece
 description: "CMU ECE được học bao nhiêu môn CS, áp lực học tập nặng đến mức nào? Từ yêu cầu tín chỉ, môn hệ thống và bài lab, đến các trường hợp thực tập và cơ hội chuyển PhD, tìm hiểu trải nghiệm học thực tế."
 sidebar_label: "CMU ECE"
 title: "Hướng dẫn ứng tuyển CMU ECE: môn học và trải nghiệm chương trình"

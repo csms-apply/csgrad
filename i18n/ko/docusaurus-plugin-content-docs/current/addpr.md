@@ -1,4 +1,5 @@
 ---
+slug: /contribute
 sidebar_label: "콘텐츠 기여하기"
 title: "CS Grad에 기여하기: GitHub 저장소 Fork"
 description: "GitHub에서 프로젝트 저장소를 fork하여 CS Grad 콘텐츠 기여를 시작하는 방법을 그림과 함께 간단히 안내합니다."

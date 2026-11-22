@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucb-eecs-meng
 description: "Berkeley EECS MEng combines technical coursework, leadership and a year-long capstone. Explore the demands of job hunting within a one-year program."
 sidebar_label: "UCB EECS MEng"
 title: "Berkeley EECS MEng Admissions Guide: Courses and Program Experience"

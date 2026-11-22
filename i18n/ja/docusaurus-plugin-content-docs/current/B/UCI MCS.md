@@ -1,4 +1,5 @@
 ---
+slug: /programs/uci-mcs
 description: "UCI MCS はクォーター制で授業のペースが速く、インターンの時期も早めに計画する必要があります。出願者のバックグラウンド、就職活動の準備、MSWE や研究型 MSCS との違いを紹介します。"
 sidebar_label: "UCI MCS"
 title: "UCI MCS 出願ガイド：授業とプログラム体験談"

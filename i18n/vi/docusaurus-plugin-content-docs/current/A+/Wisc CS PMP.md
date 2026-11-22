@@ -1,4 +1,5 @@
 ---
+slug: /programs/wisc-cs-pmp
 description: "Wisc CS PMP khác gì MSCS nghiên cứu? Tìm hiểu chương trình thạc sĩ CS định hướng nghề nghiệp này qua học phí, thời gian tốt nghiệp, lịch thực tập và lộ trình chuyển từ PCP sang."
 sidebar_label: "Wisc CS PMP"
 title: "Hướng dẫn ứng tuyển UW–Madison CS PMP: môn học và trải nghiệm chương trình"

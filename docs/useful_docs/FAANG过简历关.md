@@ -1,4 +1,5 @@
 ---
+slug: /guides/faang-resume-screening
 title: "FAANG 简历筛选：2025 Summer 实习投递经验"
 sidebar_label: "FAANG过简历关"
 description: "从个人 2025 Summer 实习申请经历出发，聊 Meta、Apple、Amazon、Netflix 和 Google 的内推、投递时机与岗位匹配。"

@@ -1,4 +1,5 @@
 ---
+slug: /guides/summer-2026-job-search-timeline
 sidebar_label: "Lộ trình tìm việc ở Mỹ cho 2026 Summer"
 title: "Lộ trình tìm việc thực tập 2026 Summer và New Grad ở Mỹ"
 description: "Xoay quanh kỳ thực tập mùa hè 2026, sắp xếp mốc thời gian từ chuẩn bị và nộp hồ sơ năm 2025 đến đi thực tập, giành Return Offer, rồi tìm việc New Grad."

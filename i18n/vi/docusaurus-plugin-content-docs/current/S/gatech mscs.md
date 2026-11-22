@@ -1,4 +1,5 @@
 ---
+slug: /programs/gatech-mscs
 sidebar_position: 3
 description: "Hướng dẫn Georgia Tech MSCS: các hướng chuyên sâu, khả năng đăng ký môn CS, assistantship và môi trường công nghệ ở Atlanta, kèm yêu cầu xét tuyển và triển vọng việc làm."
 sidebar_label: "Gatech MSCS"

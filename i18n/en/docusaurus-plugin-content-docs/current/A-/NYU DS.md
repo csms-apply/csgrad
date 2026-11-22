@@ -1,4 +1,5 @@
 ---
+slug: /programs/nyu-ds
 description: "NYU Data Science combines demanding math coursework with research opportunities. Read about applicant backgrounds, PhD interests and data science career paths."
 sidebar_label: "NYU DS"
 title: "NYU Data Science Admissions Guide: Courses and Program Experience"

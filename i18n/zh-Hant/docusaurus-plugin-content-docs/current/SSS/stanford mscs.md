@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-mscs
 sidebar_position: 1
 title: "Stanford MSCS 申請指南：課程與項目體驗"
 sidebar_label: "Stanford MSCS"

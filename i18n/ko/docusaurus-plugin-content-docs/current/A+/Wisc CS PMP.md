@@ -1,4 +1,5 @@
 ---
+slug: /programs/wisc-cs-pmp
 description: "UW–Madison CS PMP는 연구 중심 MS와 구분되는 전문 과정입니다. 학비, 학업 일정, 입학에서 정규직 경력이 차지하는 역할을 살펴봅니다."
 sidebar_label: "Wisc CS PMP"
 title: "UW–Madison CS PMP 지원 가이드: 수업과 프로그램 후기"

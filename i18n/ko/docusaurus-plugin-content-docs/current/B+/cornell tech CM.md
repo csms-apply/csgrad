@@ -1,4 +1,5 @@
 ---
+slug: /programs/cornell-tech-cm
 sidebar_label: "Cornell Tech CM"
 title: "Cornell Tech CM 지원 가이드: 수업과 프로그램 후기"
 description: "Cornell Tech CM 재학생이 전하는 수업 난이도, Roosevelt Island 주거, 학비, 장학금, 취업 경험에 대한 상세한 후기."

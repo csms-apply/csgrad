@@ -1,4 +1,5 @@
 ---
+slug: /programs/yale-mscs-2year
 description: "Yale 2년제 MSCS 가이드: 연구 준비, 티칭 의무, 펀딩, 보고된 지원자 프로필을 다루며 1년제 학위와는 구별됩니다."
 sidebar_label: "Yale MSCS 2 year"
 title: "Yale MSCS 2년제 지원 가이드: 수업과 프로그램 경험"

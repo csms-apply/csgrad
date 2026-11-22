@@ -1,4 +1,5 @@
 ---
+slug: /programs/nwu-mscs
 title: "NWU MSCS 申請指南：課程與項目體驗"
 sidebar_label: "NWU MSCS"
 description: "NWU MSCS 的 thesis、project 和 course 路線有什麼區別？本文分享導師與畢業安排、學費、Evanston 生活和往屆錄取、求職案例。"

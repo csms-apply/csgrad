@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msmite
 description: "CMU Mobile and IoT Engineering은 Pittsburgh와 Silicon Valley에 걸쳐 진행됩니다. 유연한 수업 구성, 업계 practicum 경험, 취업 결과를 확인해 보세요."
 sidebar_label: "CMU MSMITE"
 title: "CMU MSMITE 지원 가이드: 수업과 프로그램 경험"

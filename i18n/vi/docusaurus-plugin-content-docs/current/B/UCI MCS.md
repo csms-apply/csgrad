@@ -1,4 +1,5 @@
 ---
+slug: /programs/uci-mcs
 description: "UCI MCS học theo hệ quarter với nhịp độ dày, thời gian thực tập cũng cần lên kế hoạch sớm. Bài viết giới thiệu hồ sơ trúng tuyển, cách chuẩn bị tìm việc, và điểm khác biệt so với MSWE và MSCS định hướng nghiên cứu."
 sidebar_label: "UCI MCS"
 title: "Hướng dẫn ứng tuyển UCI MCS: môn học và trải nghiệm chương trình"

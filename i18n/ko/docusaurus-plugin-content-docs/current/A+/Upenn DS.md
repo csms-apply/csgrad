@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-ds
 description: "UPenn Data Science는 통계, 머신러닝, 유연한 선택 과목을 결합한 프로그램입니다. 학생들이 CS 중심 시간표를 짜는 방법과 합격자 프로필을 비교해 보세요."
 sidebar_label: "Upenn DS"
 title: "UPenn Data Science 지원 가이드: 수업과 프로그램 후기"

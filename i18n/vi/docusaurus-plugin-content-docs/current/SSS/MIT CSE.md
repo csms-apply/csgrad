@@ -1,4 +1,5 @@
 ---
+slug: /programs/mit-cse
 description: "MIT CSE thiên về khoa học tính toán, tối ưu hóa và tính toán số. Bài này giới thiệu mô hình đào tạo liên khoa, nền tảng của người trúng tuyển các năm trước và hỗ trợ tài chính, đồng thời ghi lại cập nhật về tình trạng tuyển sinh."
 sidebar_label: "MIT CSE"
 title: "Hướng dẫn ứng tuyển MIT CSE: môn học và trải nghiệm chương trình"

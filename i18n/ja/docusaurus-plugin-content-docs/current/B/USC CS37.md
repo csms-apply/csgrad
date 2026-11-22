@@ -1,4 +1,5 @@
 ---
+slug: /programs/usc-cs37
 description: "USC CS28 の2年制の学習スケジュール、出願で GPA と学部の経歴が与える影響、大人数クラスでの研究機会、過去のソフトウェア職の就職状況を紹介します。"
 sidebar_label: "USC CS28"
 title: "USC CS28 出願ガイド：授業とプログラムの実際"

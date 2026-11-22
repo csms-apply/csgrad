@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mcds
 sidebar_position: 2
 description: "CMU MCDSのSystems・Analytics・HCIトラックはどう選ぶ？授業の体験、研究の機会、合格の傾向、就職事例、費用をまとめました。"
 sidebar_label: "CMU MCDS"

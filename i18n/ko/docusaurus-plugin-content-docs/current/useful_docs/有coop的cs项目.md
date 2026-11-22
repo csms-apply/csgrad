@@ -1,4 +1,5 @@
 ---
+slug: /guides/cs-programs-with-coop
 sidebar_label: "Co-op이 있는 CS 프로그램"
 title: "Co-op이 있는 CS 석사 프로그램: 프로그램 목록"
 description: "co-op과 관련해 논의된 CS 및 관련 석사 프로그램의 참고 목록으로, 캠퍼스, 인턴십 학기, 졸업 시점에 대한 메모를 포함합니다."

@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-cs-align
 sidebar_label: "NEU CS Align"
 title: "Hướng dẫn ứng tuyển NEU CS Align: môn học và trải nghiệm chương trình"
 description: "Góc nhìn sinh viên về chương trình Northeastern CS Align dành cho người chuyển ngành: cuộc sống ở cơ sở Thung lũng Silicon, nhà ở, những điều cần cân nhắc khi nộp hồ sơ và các trường hợp tìm việc."

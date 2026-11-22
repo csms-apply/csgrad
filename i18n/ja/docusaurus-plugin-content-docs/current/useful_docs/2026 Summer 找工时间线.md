@@ -1,4 +1,5 @@
 ---
+slug: /guides/summer-2026-job-search-timeline
 sidebar_label: "2026 Summer 米国就活タイムライン"
 title: "2026 Summer 米国インターン・New Grad 就活タイムライン"
 description: "2026年夏のインターンを軸に、2025年の準備と応募からインターン、return offer の獲得、New Grad の就活までのスケジュールを整理します。"

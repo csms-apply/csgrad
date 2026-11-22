@@ -1,4 +1,5 @@
 ---
+slug: /guides/swe-friendly-programs
 title: "以美国 SWE 求职为目标，哪些硕士项目值得看"
 sidebar_label: "🇺🇸SWE找工友好型学校/项目"
 description: "结合个人观察，聊 Georgia Tech、Stanford、UW、UCSD、NEU 等项目与 SWE 求职的关系，比较课程负担、实习和项目安排。"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/uiuc-ece-meng
 description: "Chọn môn phần mềm và phần cứng, xin công nhận môn ngoài khoa và sắp xếp co-op ở UIUC ECE MEng; kết hợp kinh nghiệm hoãn nhập học, nền tảng người trúng tuyển và các trường hợp thực tập để hiểu độ linh hoạt của chương trình."
 sidebar_label: "UIUC ECE MENG"
 title: "Hướng dẫn ứng tuyển UIUC ECE MEng: môn học và trải nghiệm chương trình"

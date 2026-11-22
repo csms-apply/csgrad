@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-ee
 sidebar_position: 2
 title: "Columbia MSEE 申請指南：課程與項目體驗"
 sidebar_label: "Columbia MSEE"

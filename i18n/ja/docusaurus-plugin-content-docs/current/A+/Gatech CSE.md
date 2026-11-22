@@ -1,4 +1,5 @@
 ---
+slug: /programs/gatech-cse
 description: "Gatech CSE の費用、TA/RA の支援、履修の自由度はどうなのか。コア科目、home unit ごとの出願の違いから、就職活動や専攻変更の体験までまとめて紹介します。"
 sidebar_label: "Gatech CSE"
 title: "Gatech CSE 出願ガイド：授業とプログラムの実態"

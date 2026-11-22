@@ -1,4 +1,5 @@
 ---
+slug: /programs/uchicago-mpcs
 sidebar_label: "Uchicago MPCS"
 title: "UChicago MPCS 지원 가이드: 수업과 프로그램 후기"
 description: "UChicago MPCS의 학업 일정, 전공 트랙, pre-doc 가능성을 수업, 비용, 구직에 대한 학생들의 시각으로 비교합니다."

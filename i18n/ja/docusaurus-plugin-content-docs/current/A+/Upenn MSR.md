@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-msr
 description: "Upenn MSR（ロボティクス修士）は授業選択も研究分野も自由度が高い分、自分で計画を立てる力が求められます。研究の体験、フィラデルフィアの生活費、合格者のバックグラウンドを紹介します。"
 sidebar_label: "Upenn MSR"
 title: "Upenn MSR 出願ガイド：授業とプログラム体験"

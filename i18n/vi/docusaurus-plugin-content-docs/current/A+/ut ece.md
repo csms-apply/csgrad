@@ -1,4 +1,5 @@
 ---
+slug: /programs/ut-ece
 sidebar_label: "UT ECE (SES)"
 title: "Hướng dẫn ứng tuyển UT Austin ECE SES: môn học và trải nghiệm chương trình"
 description: "Góc nhìn sinh viên UT Austin ECE SES về thời gian học, thực tập trong học kỳ, học phí và trợ giảng/trợ lý nghiên cứu, cùng các trường hợp trúng tuyển và tìm việc."

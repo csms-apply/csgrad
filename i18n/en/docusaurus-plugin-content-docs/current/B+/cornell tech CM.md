@@ -1,4 +1,5 @@
 ---
+slug: /programs/cornell-tech-cm
 sidebar_label: "Cornell Tech CM"
 title: "Cornell Tech CM Admissions Guide: Courses and Program Experience"
 description: "A detailed Cornell Tech CM student account of course difficulty, Roosevelt Island housing, study costs, scholarships and job-search experiences."

@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-cis
 description: "Upenn CIS は 10 科目の修了が必要で、授業履修型か論文型のルートを選べます。修了までのペース、学費、合格者の経歴、就職と PhD 進学の選択肢を紹介します。"
 sidebar_label: "Upenn CIS"
 title: "UPenn CIS 出願ガイド：授業とプログラム体験"

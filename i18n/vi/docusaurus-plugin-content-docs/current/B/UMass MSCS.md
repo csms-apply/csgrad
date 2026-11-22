@@ -1,4 +1,5 @@
 ---
+slug: /programs/umass-mscs
 description: "Chia sẻ về môn học và cuộc sống ở trường của UMass MSCS, kèm nền tảng trúng tuyển của các ứng viên có kinh nghiệm làm việc khác nhau, cùng các trường hợp thực tập và làm chính thức theo hướng kỹ thuật phần mềm và học máy."
 sidebar_label: "UMass MSCS"
 title: "Hướng dẫn ứng tuyển UMass MSCS: môn học và trải nghiệm chương trình"

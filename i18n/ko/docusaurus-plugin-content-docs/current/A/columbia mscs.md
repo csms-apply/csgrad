@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-mscs
 sidebar_label: "Columbia MSCS"
 title: "Columbia MSCS 지원 가이드: 수업과 프로그램 후기"
 description: "Columbia MSCS 수업 후기, Software Systems·ML 트랙 비교, 학비와 생활비, 지원 정보와 취업 경험을 직접 겪은 사람의 시선으로 정리했습니다."

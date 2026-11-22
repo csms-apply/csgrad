@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msin
 sidebar_position: 1
 title: "CMU MSIN 申請指南：課程與項目體驗"
 sidebar_label: "CMU MSIN"

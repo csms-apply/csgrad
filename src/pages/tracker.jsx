@@ -320,7 +320,7 @@ export default function TrackerPage() {
                 {prop(Icon.num, t('fee'), r.fee != null ? `$${r.fee}` : '—')}
                 {prop(Icon.link, t('colApply'), <a className={styles.url} href={r.apply} target="_blank" rel="noopener noreferrer">{host(r.apply)}</a>)}
                 {r.site && r.site !== r.apply && prop(Icon.link, t('site'), <a className={styles.url} href={r.site} target="_blank" rel="noopener noreferrer">{host(r.site)}</a>)}
-                {prop(Icon.link, t('programPage'), <a className={styles.url} href={guide}>{decodeURI(r.slug)}</a>)}
+                {prop(Icon.link, t('programPage'), <a className={styles.url} href={guide}>{r.slug}</a>)}
               </div>
               {r.halt && <div className={styles.block}><h3>{t('status')}</h3><p>{tr(ex.halt || r.haltNote)}</p></div>}
               {r.rounds.length > 0 && (

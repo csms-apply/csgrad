@@ -1,4 +1,5 @@
 ---
+slug: /programs/yale-mscs-1-year
 title: "Hướng dẫn ứng tuyển Yale MSCS một năm (bổ sung): môn học và trải nghiệm chương trình"
 description: "Phần giới thiệu bổ sung về Yale MSCS một năm: khuôn viên và hướng lý thuyết, yêu cầu điểm số trúng tuyển các năm trước, cùng trải nghiệm và trường hợp tìm việc qua các năm thị trường khác nhau."
 sidebar_label: "Yale MSCS 1 năm"

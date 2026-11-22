@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-stat-ds
 description: "Stanford Statistics DS 的研究環境、交叉研究機會與申請背景分享，附數學、統計、數據科學方向的錄取和找工案例。"
 title: "Stanford STATS DS 申請指南：課程與項目體驗"
 sidebar_label: "Stanford STATS DS"

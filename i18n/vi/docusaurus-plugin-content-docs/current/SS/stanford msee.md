@@ -1,4 +1,5 @@
 ---
+slug: /programs/stanford-msee
 sidebar_position: 2
 sidebar_label: "Stanford MSEE"
 title: "Hướng dẫn ứng tuyển Stanford MSEE: môn học và trải nghiệm chương trình"

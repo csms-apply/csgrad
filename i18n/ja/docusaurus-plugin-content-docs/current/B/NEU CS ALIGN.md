@@ -1,4 +1,5 @@
 ---
+slug: /programs/neu-cs-align
 sidebar_label: "NEU CS Align"
 title: "NEU CS Align 出願ガイド：授業とプログラムの実際"
 description: "NEU CS Align は CS への専攻転換者向けのプログラムです。シリコンバレーキャンパスの授業と生活、他キャンパスの選択肢、入学前の準備、Co-op、過去の就職体験を紹介します。"

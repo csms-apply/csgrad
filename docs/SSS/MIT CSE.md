@@ -1,4 +1,5 @@
 ---
+slug: /programs/mit-cse
 description: "MIT CSE 偏向计算科学、优化与数值计算。这里介绍跨院系培养、往届录取背景与资助，并记录文中的招生状态更新。"
 title: "MIT CSE 申请指南：课程与项目体验"
 sidebar_label: "MIT CSE"

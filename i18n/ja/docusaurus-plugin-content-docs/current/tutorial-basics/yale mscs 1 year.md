@@ -1,4 +1,5 @@
 ---
+slug: /programs/yale-mscs-1-year
 title: "Yale MSCS 1 年制（補足）出願ガイド：授業とプログラムの実態"
 description: "Yale の 1 年制 MSCS の補足紹介。キャンパスと理論分野、過去の合格者の成績、さまざまな年の就職活動の体験と事例をまとめています。"
 sidebar_label: "Yale MSCS 1 Year"

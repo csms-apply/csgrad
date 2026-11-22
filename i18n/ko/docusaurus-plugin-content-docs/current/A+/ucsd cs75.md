@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucsd-cs75
 description: "UCSD CS75 재학생의 시각으로 본 수업 업무량, San Diego 캠퍼스 생활, 학비, co-op 기회, 합격자 배경의 범위를 정리했습니다."
 sidebar_label: "UCSD CS75"
 title: "UCSD CS75 지원 가이드: 수업과 프로그램 후기"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/cornell-mps-is
 description: "Trải nghiệm chuyển ngành sang CS ở Cornell MPS-IS, thứ tự ưu tiên đăng ký môn CS và áp lực môn học, kèm các ví dụ trúng tuyển từ nhiều nền tảng đại học khác nhau, cùng cách sắp xếp thực tập và chuẩn bị tìm việc."
 sidebar_label: "Cornell MPS-IS"
 title: "Hướng dẫn ứng tuyển Cornell MPS-IS: môn học và trải nghiệm chương trình"

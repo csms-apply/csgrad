@@ -1,4 +1,5 @@
 ---
+slug: /guides/swe-friendly-programs
 sidebar_label: "SWE 구직 친화적 학교/프로그램"
 title: "SWE 구직을 위한 CS 석사 프로그램: 관찰 노트"
 description: "SWE 구직 관점에서 본 CS 및 관련 석사 프로그램에 대한 개인적 관찰: co-op 옵션, 채용 접근성, 학생들의 취업 경험을 비교합니다."

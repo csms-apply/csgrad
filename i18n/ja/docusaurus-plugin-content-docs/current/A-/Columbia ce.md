@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-ce
 sidebar_label: "Columbia MSCE"
 title: "Columbia MSCE 出願ガイド：授業とプログラム体験談"
 description: "Columbia MSCE のコア科目と CS の授業はどう組み合わせられるのか。履修登録の優先順位、thesis の選択、過去の合格者のバックグラウンド、MSCS との比較を紹介します。"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msmite
 description: "Lịch học của CMU MSMITE ở Pittsburgh và Silicon Valley, cách chọn môn và trải nghiệm practicum với doanh nghiệp, kèm nền tảng của người trúng tuyển và các trường hợp thực tập, làm chính thức của các khóa trước."
 sidebar_label: "CMU MSMITE"
 title: "Hướng dẫn ứng tuyển CMU MSMITE: môn học và trải nghiệm chương trình"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/ut-mscs
 description: "UT Austin MSCS 的課程、費用和 Austin 就業環境分享，附科研背景相關的錄取案例，以及 RA、讀博和找工方面的經驗。"
 title: "UT Austin MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UT MSCS"

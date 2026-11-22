@@ -1,4 +1,5 @@
 ---
+slug: /programs/utah-state-university-mscs
 description: "Cơ hội TA/RA và tài trợ của Utah State University MSCS, kèm hồ sơ ứng tuyển, cách sắp xếp việc học và kết quả sau tốt nghiệp, dành cho ứng viên quan tâm đến chi phí học thạc sĩ."
 sidebar_label: "UTSU MSCS"
 title: "Hướng dẫn ứng tuyển Utah State University MSCS: môn học và trải nghiệm chương trình"

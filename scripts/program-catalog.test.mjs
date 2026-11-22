@@ -1,8 +1,11 @@
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
-import {existsSync, readFileSync} from 'node:fs';
+import {readFileSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import test from 'node:test';
+import {createRequire} from 'node:module';
+
+const {legacyRedirects} = createRequire(import.meta.url)('../plugins/legacy-redirects.cjs');
 
 const root = new URL('../', import.meta.url);
 const catalogPath = new URL('static/data/programs.json', root);
@@ -14,21 +17,26 @@ test('committed program catalog matches the docs generator', () => {
   assert.equal(readFileSync(catalogPath, 'utf8'), before);
 });
 
-test('every catalog link has a document in each supported language', () => {
+test('every language serves each document at the same English slug', () => {
   assert.equal(new Set(programs.map(program => program.id)).size, programs.length);
-  for (const directory of ['docs', 'i18n/en/docusaurus-plugin-content-docs/current', 'i18n/zh-Hant/docusaurus-plugin-content-docs/current']) {
-    for (const program of programs) {
-      assert.ok(existsSync(new URL(`${directory}${program.slug}.md`, root)), `${directory}${program.slug}`);
-    }
+  const slugs = directory => legacyRedirects(fileURLToPath(new URL(directory, root)));
+  const expected = slugs('docs');
+  for (const program of programs) {
+    assert.match(program.slug, /^\/programs\/[a-z0-9-]+$/);
+    assert.ok(Object.values(expected).includes(program.slug), program.slug);
   }
+  for (const locale of ['en', 'zh-Hant', 'ko', 'vi', 'ja']) {
+    assert.deepEqual(slugs(`i18n/${locale}/docusaurus-plugin-content-docs/current`), expected, locale);
+  }
+  for (const slug of Object.values(expected)) assert.match(slug, /^\/[a-z0-9/-]+$/, slug);
 });
 
 test('UCLA follows the current tier while existing tracker IDs remain stable', () => {
   const ucla = programs.find(program => program.id === 'bplus-ucla-meng');
   assert.equal(ucla.tier, 'A+');
-  assert.equal(ucla.slug, '/A+/UCLA MENG');
+  assert.equal(ucla.slug, '/programs/ucla-meng');
   assert.equal(programs.filter(program => program.school === 'UCLA' && program.program === 'MEng').length, 1);
-  const scu = programs.find(program => program.slug === '/B-/SCU MSCSE');
+  const scu = programs.find(program => program.slug === '/programs/scu-mscse');
   assert.equal(scu.id, 'bminus-santa-clara-university-mscse');
   assert.equal(scu.school, 'Santa Clara University');
 });

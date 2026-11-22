@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucsd-ec79
 description: "UCSD EC79 のハードウェア必修科目や授業の負荷はどの程度でしょうか。専攻転換者が補うべき基礎、出願者の経歴、過去の学生の就職状況をまとめました。"
 sidebar_label: "UCSD EC79"
 title: "UCSD EC79 出願ガイド：授業とプログラムの実際"

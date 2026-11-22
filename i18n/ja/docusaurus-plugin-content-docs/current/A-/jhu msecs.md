@@ -1,4 +1,5 @@
 ---
+slug: /programs/jhu-msecs
 sidebar_position: 3
 sidebar_label: "JHU MSECS"
 title: "JHU MSECS 出願ガイド：授業とプログラム体験談"

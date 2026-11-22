@@ -1,4 +1,5 @@
 ---
+slug: /guides/cs-programs-with-coop
 title: "有 Co-op 的 CS 及相關碩士項目清單"
 sidebar_label: "有coop的cs項目"
 description: "整理文中提到的 CS 及相關碩士 Co-op 項目，涉及 Georgia Tech、Duke ECE、JHU、UCSD 和 NYU Tandon 等學校。"

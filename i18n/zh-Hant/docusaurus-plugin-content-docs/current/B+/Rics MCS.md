@@ -1,4 +1,5 @@
 ---
+slug: /programs/rice-mcs
 description: "Rice MCS 的課程、實習要求與三至四學期畢業方案，附休斯頓住宿生活、學費安排，以及往屆同學的求職經歷。"
 title: "Rice MCS 申請指南：課程與項目體驗"
 sidebar_label: "Rice MCS"

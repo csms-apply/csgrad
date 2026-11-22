@@ -1,4 +1,5 @@
 ---
+slug: /programs/upenn-msr
 description: "연구, 유연한 수업 선택, 복수 학위 옵션, 필라델피아 생활비까지 학생들의 경험으로 UPenn Robotics를 살펴봅니다."
 sidebar_label: "Upenn MSR"
 title: "UPenn Robotics MSR 지원 가이드: 수업과 프로그램 후기"

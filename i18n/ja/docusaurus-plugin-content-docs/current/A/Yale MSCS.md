@@ -1,4 +1,5 @@
 ---
+slug: /programs/yale-mscs
 description: "Yale の 1 年制 MSCS ガイド：合格者のプロフィール、入学延期の選択肢、就職体験に加え、春学期入学を考えている学生向けの注意点もまとめました。"
 sidebar_label: "Yale MSCS 1 year"
 title: "Yale MSCS 1 年制 出願ガイド：授業とプログラムの体験談"

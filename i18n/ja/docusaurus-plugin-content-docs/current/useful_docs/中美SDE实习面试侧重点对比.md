@@ -1,4 +1,5 @@
 ---
+slug: /guides/us-china-sde-intern-interviews
 sidebar_label: "SDEインターン面接の重視点比較：米国 vs. 中国"
 title: "米中SDEインターン面接の比較：アルゴリズム、プロジェクト、基礎知識"
 description: "米国と中国のSDEインターン面接でよく重視されるポイントを比較します。アルゴリズム、行動面接、履歴書のプロジェクト、OS・ネットワーク・データベースの基礎を取り上げます。"

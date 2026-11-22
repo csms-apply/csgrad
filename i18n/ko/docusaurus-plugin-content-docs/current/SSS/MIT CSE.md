@@ -1,4 +1,5 @@
 ---
+slug: /programs/mit-cse
 description: "MIT Computational Science and Engineering 가이드: 과학 계산, 연구 준비, 역대 합격 프로필, 보고된 모집 중단 상황을 다룹니다."
 sidebar_label: "MIT CSE"
 title: "MIT CSE 지원 가이드: 수업과 프로그램 경험"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/duke-ece
 sidebar_position: 2
 description: "Duke ECE 的 MS 和 MEng 怎么选？这里介绍软件方向课程、项目与实习要求，以及转码申请和 Co-op 方面的就读经验。"
 title: "Duke ECE 申请指南：课程与项目体验"

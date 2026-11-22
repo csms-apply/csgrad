@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msess
 description: "CMU MSE-SS 가이드: 소프트웨어 엔지니어링 수업, 사전 업무 경험의 가치, 합격자 프로필, 인턴·취업 결과를 다룹니다."
 sidebar_label: "CMU MSE-SS"
 title: "CMU MSE-SS 지원 가이드: 수업과 프로그램 후기"

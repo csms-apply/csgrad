@@ -1,4 +1,5 @@
 ---
+slug: /programs/harvard-cse
 sidebar_position: 3
 description: "Harvard CSE는 계산과학과 수학을 결합한 프로그램입니다. 학업 트랙, MIT 교차 수강, 연구 분야, 합격자 프로필을 살펴보세요."
 sidebar_label: "Harvard CSE"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/columbia-mscs
 sidebar_label: "Columbia MSCS"
 title: "Columbia MSCS 出願ガイド：授業とプログラムの体験談"
 description: "Columbia MSCS の授業の感想、Software Systems・ML トラックの比較、学費と生活費、出願情報と就職体験を、実際に経験した立場からまとめました。"

@@ -1,4 +1,5 @@
 ---
+slug: /programs/uchicago-mpcs
 sidebar_label: "Uchicago MPCS"
 title: "Hướng dẫn ứng tuyển UChicago MPCS: môn học và trải nghiệm chương trình"
 description: "Lộ trình 9 tháng và 15 tháng, các môn nền tảng và môn tự chọn nâng cao của UChicago MPCS, kết hợp nền tảng hồ sơ chuyển ngành, trải nghiệm pre-doc và cuộc sống ở Chicago để bàn về những được mất khi theo học."

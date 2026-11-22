@@ -1,4 +1,5 @@
 ---
+slug: /programs/harvard-hds
 title: "Harvard HDS 申請指南：課程與項目體驗"
 sidebar_label: "Harvard HDS"
 description: "Harvard HDS 的必修課開在生物統計方向，capstone 與醫院合作。本文介紹跨校選課、科研資源，以及不同本科背景的申請案例。"

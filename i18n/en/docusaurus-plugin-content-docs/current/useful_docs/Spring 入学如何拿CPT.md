@@ -1,4 +1,5 @@
 ---
+slug: /guides/spring-intake-cpt
 sidebar_label: "How to Get CPT With Spring Enrollment?"
 title: "Spring Enrollment and CPT: Student Transfer Experiences"
 description: "Student experiences with spring-entry internship planning, F-1 transfers and enrollment timing, including CMU SE-SV and Cornell examples to discuss with a school."

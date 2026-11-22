@@ -1,4 +1,5 @@
 ---
+slug: /programs/uw-ee-pmp
 sidebar_label: "UW EE PMP"
 title: "Hướng dẫn ứng tuyển UW EE PMP: môn học và trải nghiệm chương trình"
 description: "Các môn phần mềm, cuộc sống học tập ở Seattle và kinh nghiệm nộp hồ sơ UW EE PMP, kèm trải nghiệm co-op, các trường hợp tìm việc của khóa trước và cập nhật về việc đổi tên bằng thành MSECE."

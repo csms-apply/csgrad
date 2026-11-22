@@ -1,4 +1,5 @@
 ---
+slug: /programs/cornell-tech-cm
 title: "Cornell Tech CM 申请指南：课程与项目体验"
 sidebar_label: "Cornell Tech CM"
 description: "Cornell Tech CM 在读体验，详细分享机器学习、算法、HCI 课程与宿舍选择，结合纽约学习成本、录取背景和找工经历评估项目。"

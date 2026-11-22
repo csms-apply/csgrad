@@ -1,4 +1,5 @@
 ---
+slug: /guides/spring-intake-cpt
 title: "Spring 入学与 CPT：美国本科背景、转学和实习安排"
 sidebar_label: "Spring入学如何拿CPT？"
 description: "讨论春季入学时，美国本科就读经历、SEVIS 转学与暑期实习时间如何衔接，整理文中涉及的 CPT 和 OPT 情形。"

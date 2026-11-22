@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-msin
 sidebar_position: 1
 sidebar_label: "CMU MSIN"
 title: "Hướng dẫn ứng tuyển CMU MSIN: môn học và trải nghiệm chương trình"

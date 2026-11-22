@@ -1,4 +1,5 @@
 ---
+slug: /guides/cs-programs-with-coop
 sidebar_label: "Các chương trình CS có co-op"
 title: "Danh sách chương trình thạc sĩ CS và ngành liên quan có co-op"
 description: "Tổng hợp các chương trình thạc sĩ CS và ngành liên quan có co-op được nhắc đến trong bài, gồm Georgia Tech, Duke ECE, JHU, UCSD, NYU Tandon và các trường khác."

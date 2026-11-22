@@ -1,4 +1,5 @@
 ---
+slug: /programs/mit-eecs
 description: "MIT EECS で学びを深めたいなら、まず PhD 出願のルートを知る必要があります。研究経験、推薦者とのつながり、代表的な合格事例をまとめます。独立した修士プログラムとは異なります。"
 sidebar_label: "MIT EECS"
 title: "MIT EECS 出願ガイド：授業とプログラム体験談"

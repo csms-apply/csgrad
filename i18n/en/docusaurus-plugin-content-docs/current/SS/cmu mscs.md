@@ -1,4 +1,5 @@
 ---
+slug: /programs/cmu-mscs
 sidebar_position: 1
 sidebar_label: "CMU MSCS"
 title: "CMU MSCS Admissions Guide: Courses and Program Experience"

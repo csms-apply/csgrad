@@ -1,4 +1,5 @@
 ---
+slug: /guides/choosing-mscs-offers
 title: "美國 CS 碩士怎麼選 Offer：學制、實習與求職準備"
 sidebar_label: "美國🇺🇸cs碩士怎麼選offer"
 description: "面向希望在美國找 SWE 實習並爭取留用的同學，聊一年制和兩年制項目的取捨、已有工作經歷，以及如何看往屆就業案例。"

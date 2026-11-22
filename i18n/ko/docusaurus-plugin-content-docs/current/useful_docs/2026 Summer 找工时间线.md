@@ -1,4 +1,5 @@
 ---
+slug: /guides/summer-2026-job-search-timeline
 sidebar_label: "2026 Summer 미국 구직 타임라인"
 title: "2026 미국 SWE 인턴십 타임라인: 지원부터 New Grad까지"
 description: "2025년 초기 지원부터 인터뷰, 여름 인턴십, new grad 채용까지 2026 미국 SWE 인턴십 시즌의 월별 계획."

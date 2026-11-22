@@ -1,4 +1,5 @@
 ---
+slug: /programs/ucla-meng
 sidebar_label: "UCLA MEng"
 title: "UCLA MEng 出願ガイド：授業とプログラム体験記"
 description: "UCLA MEng の DS・AI 科目、キャップストーンの選択肢と学費を、ロサンゼルスでの生活や在学中の体験とあわせて紹介し、科目選びと修了時期の計画を考えます。"
