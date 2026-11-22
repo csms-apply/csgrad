@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-symbolic-system
+slug: stanford-symbolic-system
 description: "Stanford Symbolic Systems는 컴퓨팅을 언어학, 심리학, 철학 등의 분야와 결합합니다. 논문 요건과 연구 중심 합격 경향을 살펴보세요."
 sidebar_label: "Stanford Symbolic System"
 title: "Stanford Symbolic Systems 지원 가이드: 수업과 프로그램 후기"

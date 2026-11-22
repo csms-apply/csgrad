@@ -1,5 +1,5 @@
 ---
-slug: /programs/princeton-msecs
+slug: princeton-msecs
 sidebar_position: 2
 description: "Princeton CS master’s guide to a small research-oriented program, teaching experience, faculty relationships and reported admission backgrounds."
 sidebar_label: "Princeton MSCS"

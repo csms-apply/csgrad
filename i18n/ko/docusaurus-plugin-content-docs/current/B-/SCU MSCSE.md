@@ -1,5 +1,5 @@
 ---
-slug: /programs/scu-mscse
+slug: scu-mscse
 description: "Santa Clara MSCSE 학생의 시각으로 본 실리콘밸리 생활, quarter 학제 수업, 전공 전환 선수 과목, 학비, 인턴십 시기."
 sidebar_label: "SCU MSCSE"
 title: "Santa Clara MSCSE 지원 가이드: 수업과 프로그램 경험"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msr
+slug: cmu-msr
 description: "CMU MSR은 논문 기반 로보틱스 학위입니다. 수업과 연구의 균형, 지도교수와의 적합성, 펀딩 고려 사항, 별도의 PhD 지원을 살펴봅니다."
 sidebar_label: "CMU MSR"
 title: "CMU MSR 지원 가이드: 수업과 프로그램 후기"

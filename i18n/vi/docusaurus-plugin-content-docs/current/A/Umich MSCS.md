@@ -1,5 +1,5 @@
 ---
-slug: /programs/umich-mscs
+slug: umich-mscs
 description: "MS và MSE của UMich MSCS/MSCSE khác nhau thế nào? Tìm hiểu về môn học, nhịp độ tốt nghiệp, hỗ trợ TA, con đường SUGS cho sinh viên trong trường và mức độ cạnh tranh với ứng viên ngoài trường."
 sidebar_label: "UMich MSCS/MSCSE"
 title: "Hướng dẫn ứng tuyển UMich MSCS/MSCSE: môn học và trải nghiệm chương trình"

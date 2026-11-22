@@ -1,5 +1,5 @@
 ---
-slug: /programs/nyu-tandon
+slug: nyu-tandon
 description: "NYU Tandon MSCS nằm ở Brooklyn, có định vị khác với chương trình của Courant. Giới thiệu thời gian học, chi phí sinh hoạt, cách sắp xếp Co-op và các trường hợp trúng tuyển, tìm việc của các khóa trước."
 sidebar_label: "NYU Tandon MSCS"
 title: "Hướng dẫn ứng tuyển NYU Tandon MSCS: môn học và trải nghiệm chương trình"

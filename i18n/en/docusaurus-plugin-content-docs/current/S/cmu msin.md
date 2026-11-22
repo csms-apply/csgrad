@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msin
+slug: cmu-msin
 sidebar_position: 1
 sidebar_label: "CMU MSIN"
 title: "CMU MSIN Admissions Guide: Courses and Program Experience"

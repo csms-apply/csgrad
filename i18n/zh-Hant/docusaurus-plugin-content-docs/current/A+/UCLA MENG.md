@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucla-meng
+slug: ucla-meng
 title: "UCLA MEng 申請指南：課程與項目體驗"
 sidebar_label: "UCLA MEng"
 description: "UCLA MEng 的 DS、AI 課程、capstone 選項與學費安排，結合洛杉磯生活和在讀體驗，討論課程選擇及畢業時間規劃。"

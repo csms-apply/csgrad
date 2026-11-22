@@ -1,5 +1,5 @@
 ---
-slug: /programs/rice-mcs
+slug: rice-mcs
 description: "Rice MCS 가이드. 학위 요건, 인턴십 계획, 학비, 수업 일정과 함께 Houston에서 공부하고 구직한 학생들의 시각을 담았습니다."
 sidebar_label: "Rice MCS"
 title: "Rice MCS 지원 가이드: 수업과 프로그램 경험"

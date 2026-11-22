@@ -1,5 +1,5 @@
 ---
-slug: /programs/gatech-cse
+slug: gatech-cse
 description: "Georgia Tech CSE combines computational core courses with flexible CS electives. Explore tuition, assistantships and admission expectations across its units."
 sidebar_label: "Gatech CSE"
 title: "Georgia Tech CSE Admissions Guide: Courses and Program Experience"

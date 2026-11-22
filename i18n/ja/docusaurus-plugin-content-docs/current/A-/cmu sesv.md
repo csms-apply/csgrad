@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-sesv
+slug: cmu-sesv
 sidebar_position: 1
 sidebar_label: "CMU SE-SV"
 title: "CMU SE-SV 出願ガイド：授業とプログラム体験記"

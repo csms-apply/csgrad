@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-miis
+slug: cmu-miis
 description: "CMU MIIS は LTI が開設するプログラムで、研究のトレーニングと就職準備の両方を重視しています。CS 科目の履修、前半の research の進め方、SDE・MLE 方面の就職事例を紹介します。"
 sidebar_label: "CMU MIIS"
 title: "CMU MIIS 出願ガイド：授業とプログラムの実際"

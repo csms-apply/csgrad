@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-stat-ds
+slug: stanford-stat-ds
 description: "Stanford Statistics DS 的研究环境、交叉研究机会与申请背景分享，附数学、统计、数据科学方向的录取和找工案例。"
 title: "Stanford STATS DS 申请指南：课程与项目体验"
 sidebar_label: "Stanford STATS DS"

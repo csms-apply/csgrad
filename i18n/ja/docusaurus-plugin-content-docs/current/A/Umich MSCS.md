@@ -1,5 +1,5 @@
 ---
-slug: /programs/umich-mscs
+slug: umich-mscs
 description: "UMich MSCS/MSCSE の MS と MSE の違いは何でしょうか。授業、修了までのペース、TA による支援、学内生向けの SUGS ルート、外部出願者の競争状況を紹介します。"
 sidebar_label: "UMich MSCS/MSCSE"
 title: "UMich MSCS/MSCSE 出願ガイド：授業とプログラムの実際"

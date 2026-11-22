@@ -1,5 +1,5 @@
 ---
-slug: /programs/wisc-cs-pmp
+slug: wisc-cs-pmp
 description: "Wisc CS PMP と研究型 MSCS の違いは？学費、修了までのスケジュール、インターンの組み方、PCP からの移行ルートから、この職業志向の CS 修士を解説します。"
 sidebar_label: "Wisc CS PMP"
 title: "Wisc CS PMP 出願ガイド：授業とプログラム体験"

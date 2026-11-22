@@ -1,5 +1,5 @@
 ---
-slug: /programs/cornell-cs-meng
+slug: cornell-cs-meng
 description: "Cornell CS MEng のキャンパス、授業、修了プロジェクトはどう選ぶべきか。出願と就職の事例をもとに、在学期間の組み方と学校に確認すべきインターンの条件を解説します。"
 sidebar_label: "Cornell CS MENG"
 title: "Cornell CS MEng 出願ガイド：授業とプログラムの実態"

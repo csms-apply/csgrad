@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mits
+slug: cmu-mits
 sidebar_label: "CMU MITS"
 title: "CMU MITS Admissions Guide: Courses and Program Experience"
 description: "A look at CMU MITS tracks, flexible SCS coursework and the company capstone, with applicant backgrounds and reported software career experiences."

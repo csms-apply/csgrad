@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-msee
+slug: stanford-msee
 sidebar_position: 2
 sidebar_label: "Stanford MSEE"
 title: "Stanford MSEE 出願ガイド：授業とプログラムの実態"

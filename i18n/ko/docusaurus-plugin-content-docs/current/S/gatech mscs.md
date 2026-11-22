@@ -1,5 +1,5 @@
 ---
-slug: /programs/gatech-mscs
+slug: gatech-mscs
 sidebar_position: 3
 description: "Georgia Tech MSCS 가이드. 전공 세부 분야, CS 과목 수강, assistantship, Atlanta의 테크 환경과 함께 합격 기대치와 취업 관점을 다룹니다."
 sidebar_label: "Gatech MSCS"

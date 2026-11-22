@@ -1,5 +1,5 @@
 ---
-slug: /programs/ut-mscs
+slug: ut-mscs
 description: "Chia sẻ về môn học, chi phí của UT Austin MSCS và môi trường việc làm ở Austin, kèm các trường hợp trúng tuyển có nền tảng nghiên cứu, cùng kinh nghiệm về RA, học PhD và tìm việc."
 sidebar_label: "UT MSCS"
 title: "Hướng dẫn ứng tuyển UT Austin MSCS: môn học và trải nghiệm chương trình"

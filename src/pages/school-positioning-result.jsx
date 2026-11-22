@@ -324,10 +324,18 @@ export function ReportChecklist({ items, locale }) {
   </section>;
 }
 
+// Reports name programs by doc file, /A/uiuc mcs; the page lives at /A/uiuc-mcs.
+const TIER_DOC = /^((?:\/(?:en|zh-Hant|ko|vi|ja))?\/(?:SSS|SS|S|A\+|A|A-|B\+|B|B-|C\+)\/)([^/?#]+)/;
+const kebab = (name) => {
+  let decoded = name;
+  try { decoded = decodeURIComponent(name); } catch { /* keep malformed names as typed */ }
+  return decoded.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+};
+
 export function programDetailHref(raw, locale) {
   if (!raw) return null;
   if (/^https?:\/\//i.test(raw) || raw.startsWith('//')) return raw;
-  const path = localizedInternalPath(raw, locale);
+  const path = localizedInternalPath(raw, locale).replace(TIER_DOC, (_, tier, name) => tier + kebab(name));
   return encodeURI(path).replace(/%25([0-9a-f]{2})/gi, '%$1');
 }
 

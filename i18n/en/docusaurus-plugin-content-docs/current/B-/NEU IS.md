@@ -1,5 +1,5 @@
 ---
-slug: /programs/neu-is
+slug: neu-is
 description: "Northeastern Information Systems guide to career-change study and co-op, comparing Boston and Silicon Valley campus experiences and graduation timelines."
 sidebar_label: "NEU IS"
 title: "Northeastern Information Systems Admissions Guide: Courses and Program Experience"

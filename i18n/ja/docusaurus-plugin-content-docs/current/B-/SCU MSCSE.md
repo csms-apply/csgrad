@@ -1,5 +1,5 @@
 ---
-slug: /programs/scu-mscse
+slug: scu-mscse
 description: "シリコンバレーで SCU MSCSE に通った実際の体験。学費とキャンパス生活、専攻転換者向けの前提科目、履修のプレッシャー、クォーター制がインターンの時期と就職活動に与える影響を紹介します。"
 sidebar_label: "SCU MSCSE"
 title: "SCU MSCSE 出願ガイド：授業とプログラムの実際"

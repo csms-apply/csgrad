@@ -1,5 +1,5 @@
 ---
-slug: /programs/columbia-mscs
+slug: columbia-mscs
 sidebar_label: "Columbia MSCS"
 title: "Columbia MSCS Admissions Guide: Courses and Program Experience"
 description: "Firsthand Columbia MSCS course reviews, Software Systems and ML track comparisons, tuition and living costs, plus admissions and job-search experiences."

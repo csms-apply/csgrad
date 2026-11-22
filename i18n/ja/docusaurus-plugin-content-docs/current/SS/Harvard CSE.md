@@ -1,5 +1,5 @@
 ---
-slug: /programs/harvard-cse
+slug: harvard-cse
 sidebar_position: 3
 description: "Harvard CSE は計算科学と数学を組み合わせたプログラムです。学業トラック、MIT のクロス履修、研究分野、合格者のプロフィールを紹介します。"
 sidebar_label: "Harvard CSE"

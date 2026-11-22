@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-mscs
+slug: uiuc-mscs
 description: "UIUC MSCS là chương trình thạc sĩ CS thiên về nghiên cứu, khác với MCS theo hướng học môn. Bài viết tổng hợp cách liên hệ giáo sư, ưu tiên tuyển sinh, các trường hợp tham khảo và cập nhật về việc đảm bảo tài trợ."
 sidebar_label: "UIUC MSCS"
 title: "Hướng dẫn ứng tuyển UIUC MSCS: môn học và trải nghiệm chương trình"

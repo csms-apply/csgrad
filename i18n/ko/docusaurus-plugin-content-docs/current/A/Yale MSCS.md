@@ -1,5 +1,5 @@
 ---
-slug: /programs/yale-mscs
+slug: yale-mscs
 description: "Yale 1년제 MSCS 가이드: 합격자 프로필, 입학 연기 옵션, 취업 경험을 다루며 봄학기 입학을 계획하는 학생을 위한 고려 사항도 담았습니다."
 sidebar_label: "Yale MSCS 1 year"
 title: "Yale MSCS 1년제 지원 가이드: 수업과 프로그램 후기"

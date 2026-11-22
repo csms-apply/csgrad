@@ -1,5 +1,5 @@
 ---
-slug: /programs/emory-mscs
+slug: emory-mscs
 description: "Emory MSCS 提供 CS 与 BMI 方向，研究涉及医疗 AI、NLP 等领域。这里介绍小班教学、课程选择、学费奖学金与读博、找工取舍。"
 title: "Emory MSCS 申请指南：课程与项目体验"
 sidebar_label: "Emory MSCS"

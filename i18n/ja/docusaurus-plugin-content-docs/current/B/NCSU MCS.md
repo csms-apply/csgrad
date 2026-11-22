@@ -1,5 +1,5 @@
 ---
-slug: /programs/ncsu-mcs
+slug: ncsu-mcs
 description: "NCSU MCS の授業負担とノースカロライナの就職環境は？CS 転向者の出願バックグラウンド、インターン調査、過去のソフトウェアエンジニア職の事例から、このプログラムの実際を紹介します。"
 sidebar_label: "NCSU MCS"
 title: "NCSU MCS 出願ガイド：授業とプログラム体験"

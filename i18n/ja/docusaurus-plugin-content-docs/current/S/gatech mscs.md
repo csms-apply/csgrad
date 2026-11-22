@@ -1,5 +1,5 @@
 ---
-slug: /programs/gatech-mscs
+slug: gatech-mscs
 sidebar_position: 3
 description: "Gatech MSCS の科目選択、TA/RA による支援、Atlanta の就職環境を、合格者の経歴とあわせて紹介し、専攻転換、就職、研究継続それぞれの選択肢を考えます。"
 sidebar_label: "Gatech MSCS"

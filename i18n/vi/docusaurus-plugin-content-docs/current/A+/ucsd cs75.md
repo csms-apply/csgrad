@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucsd-cs75
+slug: ucsd-cs75
 description: "Áp lực học tập, co-op và cuộc sống ở San Diego của UCSD CS75 ra sao? Kết hợp học phí, hỗ trợ khi làm TA và các trường hợp ứng tuyển để xem chương trình có hợp với kế hoạch tìm việc của bạn không."
 sidebar_label: "UCSD CS75"
 title: "Hướng dẫn ứng tuyển UCSD CS75: môn học và trải nghiệm chương trình"

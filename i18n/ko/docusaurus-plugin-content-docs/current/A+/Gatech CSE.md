@@ -1,5 +1,5 @@
 ---
-slug: /programs/gatech-cse
+slug: gatech-cse
 description: "Georgia Tech CSE는 계산 중심 핵심 수업과 유연한 CS 선택과목을 결합합니다. 학비, 어시스턴트십, 각 unit별 합격 기준을 살펴보세요."
 sidebar_label: "Gatech CSE"
 title: "Georgia Tech CSE 지원 가이드: 수업과 프로그램 경험"

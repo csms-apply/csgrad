@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucla-mscs
+slug: ucla-mscs
 sidebar_label: "UCLA MSCS"
 title: "Hướng dẫn ứng tuyển UCLA MSCS: môn học và trải nghiệm chương trình"
 description: "UCLA MSCS thiên về nghiên cứu. Bài viết giới thiệu các môn liên quan đến AI, trải nghiệm vào lab và nền tảng người trúng tuyển các khóa trước, đồng thời chia sẻ chuyện nhà ở, ăn uống ở Los Angeles và kinh nghiệm tìm việc."

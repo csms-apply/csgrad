@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mits
+slug: cmu-mits
 sidebar_label: "CMU MITS"
 title: "CMU MITS 出願ガイド：授業とプログラムの体験談"
 description: "CMU MITS のトラック、柔軟な SCS の授業選択、企業と連携した capstone を紹介し、合格者の背景とソフトウェア分野のキャリア経験をまとめました。"

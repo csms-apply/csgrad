@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-msim
+slug: uiuc-msim
 description: "UIUC MSIM 가이드: 수업, 학비, co-op과 함께 전공 전환 합격 사례, 소프트웨어·데이터·프로덕트 직무 취업 결과를 다룹니다."
 sidebar_label: "UIUC MSIM"
 title: "UIUC MSIM 지원 가이드: 수업과 프로그램 후기"

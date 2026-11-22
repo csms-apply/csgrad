@@ -1,5 +1,5 @@
 ---
-slug: /programs/gatech-mscs
+slug: gatech-mscs
 sidebar_position: 3
 description: "Georgia Tech MSCS guide covering specializations, CS course access, assistantships and Atlanta’s tech setting, with admission expectations and career perspectives."
 sidebar_label: "Gatech MSCS"

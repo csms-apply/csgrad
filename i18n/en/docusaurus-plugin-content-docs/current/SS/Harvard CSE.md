@@ -1,5 +1,5 @@
 ---
-slug: /programs/harvard-cse
+slug: harvard-cse
 sidebar_position: 3
 description: "Harvard CSE blends computational science and mathematics. Explore study tracks, MIT cross-registration, research interests and reported admission profiles."
 sidebar_label: "Harvard CSE"

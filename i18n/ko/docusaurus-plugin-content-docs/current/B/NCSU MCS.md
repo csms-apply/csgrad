@@ -1,5 +1,5 @@
 ---
-slug: /programs/ncsu-mcs
+slug: ncsu-mcs
 description: "전공 전환 합격, 수업, 구직에 관한 NC State MCS 학생들의 시각과 함께 지원자 사례, 노스캐롤라이나 인턴 경험을 소개합니다."
 sidebar_label: "NCSU MCS"
 title: "NC State MCS 지원 가이드: 수업과 프로그램 후기"

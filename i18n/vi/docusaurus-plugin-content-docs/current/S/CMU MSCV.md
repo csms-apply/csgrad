@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mscv
+slug: cmu-mscv
 description: "CMU MSCV là chương trình thạc sĩ thị giác máy tính của Robotics Institute. Trang này giới thiệu thời gian học một năm rưỡi, yêu cầu thực tập hoặc nghiên cứu mùa hè, cùng các trường hợp trúng tuyển có nền tảng CV."
 sidebar_label: "CMU MSCV"
 title: "Hướng dẫn ứng tuyển CMU MSCV: môn học và trải nghiệm chương trình"

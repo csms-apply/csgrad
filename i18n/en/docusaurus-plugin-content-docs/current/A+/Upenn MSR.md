@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-msr
+slug: upenn-msr
 description: "Explore UPenn Robotics through student accounts of research, flexible course choices, dual-degree options and the cost of living in Philadelphia."
 sidebar_label: "Upenn MSR"
 title: "UPenn Robotics MSR Admissions Guide: Courses and Program Experience"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-msess
+slug: cmu-msess
 description: "CMU MSE-SS ガイド：ソフトウェアエンジニアリングの授業、事前の職務経験の価値、合格者のプロフィール、インターン・就職実績を紹介します。"
 sidebar_label: "CMU MSE-SS"
 title: "CMU MSE-SS 出願ガイド：授業とプログラムの体験談"

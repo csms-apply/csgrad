@@ -1,5 +1,5 @@
 ---
-slug: /programs/mit-cse
+slug: mit-cse
 description: "MIT Computational Science and Engineering guide covering scientific computing, research preparation, historical admission profiles and the reported admissions pause."
 sidebar_label: "MIT CSE"
 title: "MIT CSE Admissions Guide: Courses and Program Experience"

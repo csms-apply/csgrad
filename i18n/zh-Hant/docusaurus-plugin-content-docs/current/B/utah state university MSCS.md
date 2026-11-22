@@ -1,5 +1,5 @@
 ---
-slug: /programs/utah-state-university-mscs
+slug: utah-state-university-mscs
 description: "Utah State University MSCS 的 TA/RA 和資助機會，附申請背景、就讀安排與畢業去向，供關注碩士學習成本的同學參考。"
 title: "Utah State University MSCS 申請指南：課程與項目體驗"
 sidebar_label: "UTSU MSCS"

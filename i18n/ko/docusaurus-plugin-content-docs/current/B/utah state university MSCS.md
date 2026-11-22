@@ -1,5 +1,5 @@
 ---
-slug: /programs/utah-state-university-mscs
+slug: utah-state-university-mscs
 description: "연구 중심 석사를 고려하는 지원자를 위해 Utah State MSCS의 TA·RA 조교직, 펀딩 기회, 학업 유연성을 안내합니다."
 sidebar_label: "UTSU MSCS"
 title: "Utah State MSCS 지원 가이드: 수업과 프로그램 후기"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/harvard-cse
+slug: harvard-cse
 sidebar_position: 3
 description: "Harvard CSE thiên về khoa học tính toán và toán học, có nhiều lộ trình học và phương án tốt nghiệp khác nhau. Bài viết giới thiệu trải nghiệm chọn môn ở Harvard và MIT, cùng hồ sơ trúng tuyển và những cân nhắc khi chọn chương trình."
 sidebar_label: "Harvard CSE"

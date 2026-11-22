@@ -1,5 +1,5 @@
 ---
-slug: /programs/scu-mscse
+slug: scu-mscse
 description: "Trải nghiệm thực tế khi học SCU MSCSE ở Thung lũng Silicon: học phí và cuộc sống trong trường, các môn tiên quyết khi chuyển ngành, áp lực chọn môn, cùng ảnh hưởng của hệ quarter đến thời gian thực tập và tìm việc."
 sidebar_label: "SCU MSCSE"
 title: "Hướng dẫn ứng tuyển Santa Clara MSCSE: môn học và trải nghiệm chương trình"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-mcs
+slug: uiuc-mcs
 description: "UIUC MCS khác MSCS ở điểm nào? Từ chương trình thiên về môn học, cơ sở chính và cơ sở Chicago, đến co-op, tiến độ tốt nghiệp và các hồ sơ trúng tuyển, tìm hiểu cách chương trình hỗ trợ tìm việc."
 sidebar_label: "UIUC MCS"
 title: "Hướng dẫn ứng tuyển UIUC MCS: môn học và trải nghiệm chương trình"

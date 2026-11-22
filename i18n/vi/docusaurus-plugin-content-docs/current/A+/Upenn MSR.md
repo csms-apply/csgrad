@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-msr
+slug: upenn-msr
 description: "Thạc sĩ robotics Upenn MSR cho phép tự do chọn môn và hướng nghiên cứu, nhưng cũng đòi hỏi bạn tự lên kế hoạch nhiều hơn. Bài viết chia sẻ trải nghiệm nghiên cứu, chi phí sống ở Philadelphia và hồ sơ trúng tuyển."
 sidebar_label: "Upenn MSR"
 title: "Hướng dẫn ứng tuyển UPenn Robotics MSR: môn học và trải nghiệm chương trình"

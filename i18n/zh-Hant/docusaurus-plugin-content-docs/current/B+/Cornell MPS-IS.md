@@ -1,5 +1,5 @@
 ---
-slug: /programs/cornell-mps-is
+slug: cornell-mps-is
 description: "Cornell MPS-IS 的轉碼體驗、CS 選課優先級與課程壓力，結合不同本科背景的申請案例，討論實習安排和求職準備。"
 title: "Cornell MPS-IS 申請指南：課程與項目體驗"
 sidebar_label: "Cornell MPS-IS"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/columbia-ds
+slug: columbia-ds
 description: "Columbia DS はデータサイエンスと機械学習寄りです。授業の免除、CS と統計の選択科目、capstone の時期、CS への転向や就職活動でのトレードオフを解説します。"
 sidebar_label: "Columbia DS"
 title: "Columbia DS 出願ガイド：授業とプログラムの実態"

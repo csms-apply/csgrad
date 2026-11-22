@@ -1,5 +1,5 @@
 ---
-slug: /programs/tamu-cse
+slug: tamu-cse
 sidebar_label: "TAMU CSE"
 title: "Texas A&M CSE 지원 가이드: 수업과 프로그램 경험"
 description: "학생들의 경험담으로 보는 Texas A&M CSE 학위 옵션: 프로그램 전환, 연구 수업, 어시스턴트십, 인턴 일정의 유연성."

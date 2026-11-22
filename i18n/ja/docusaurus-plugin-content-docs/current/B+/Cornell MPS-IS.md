@@ -1,5 +1,5 @@
 ---
-slug: /programs/cornell-mps-is
+slug: cornell-mps-is
 description: "Cornell MPS in Information Science ガイド：CS の授業の履修、専攻転向時の注意点、履修計画、合格と就職活動の体験を紹介します。"
 sidebar_label: "Cornell MPS-IS"
 title: "Cornell MPS-IS 出願ガイド：授業とプログラムの体験談"

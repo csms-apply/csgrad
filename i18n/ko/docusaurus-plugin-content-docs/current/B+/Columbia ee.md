@@ -1,5 +1,5 @@
 ---
-slug: /programs/columbia-ee
+slug: columbia-ee
 sidebar_position: 2
 sidebar_label: "Columbia MSEE"
 title: "Columbia MSEE 지원 가이드: 수업과 프로그램 후기"

@@ -1,5 +1,5 @@
 ---
-slug: /programs/yale-mscs-2year
+slug: yale-mscs-2year
 description: "Yale 兩年制 MSCS 偏重研究，與一年制項目不同。這裡介紹 TA 與資助安排、科研背景、招生規模和實習方面的限制。"
 title: "Yale MSCS 兩年制 申請指南：課程與項目體驗"
 sidebar_label: "Yale MSCS 2 year"

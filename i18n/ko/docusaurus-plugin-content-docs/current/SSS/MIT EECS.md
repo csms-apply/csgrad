@@ -1,5 +1,5 @@
 ---
-slug: /programs/mit-eecs
+slug: mit-eecs
 description: "PhD 합격에 초점을 둔 MIT EECS 가이드: 연구 배경, 지원자 프로필 사례, 박사 이후 학계 및 업계 진로."
 sidebar_label: "MIT EECS"
 title: "MIT EECS PhD 지원 가이드: 수업과 프로그램 후기"

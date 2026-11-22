@@ -1,5 +1,5 @@
 ---
-slug: /programs/rice-mcs
+slug: rice-mcs
 description: "Hướng dẫn về Rice MCS: yêu cầu tốt nghiệp, kế hoạch thực tập, học phí và lịch học, cùng góc nhìn của sinh viên về việc học và tìm việc ở Houston."
 sidebar_label: "Rice MCS"
 title: "Hướng dẫn ứng tuyển Rice MCS: môn học và trải nghiệm chương trình"

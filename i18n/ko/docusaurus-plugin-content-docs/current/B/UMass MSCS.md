@@ -1,5 +1,5 @@
 ---
-slug: /programs/umass-mscs
+slug: umass-mscs
 description: "UMass MSCS 학생의 시각: 수업과 Massachusetts 구직 경험, 최근 졸업생과 경력 지원자를 아우르는 합격 프로필."
 sidebar_label: "UMass MSCS"
 title: "UMass MSCS 지원 가이드: 수업과 프로그램 경험"

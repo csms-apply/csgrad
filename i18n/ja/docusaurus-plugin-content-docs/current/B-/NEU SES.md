@@ -1,5 +1,5 @@
 ---
-slug: /programs/neu-ses
+slug: neu-ses
 description: "Northeastern Software Engineering Systems ガイド：キャンパスの所在地（Boston、Arlington、Toronto）、出願の選択肢、合格者の背景、就職実績を紹介します。"
 sidebar_label: "NEU SES"
 title: "NEU Software Engineering Systems 出願ガイド：授業とプログラムの体験談"

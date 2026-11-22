@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-sesv
+slug: cmu-sesv
 sidebar_position: 1
 sidebar_label: "CMU SE-SV"
 title: "Hướng dẫn ứng tuyển CMU SE-SV: môn học và trải nghiệm chương trình"

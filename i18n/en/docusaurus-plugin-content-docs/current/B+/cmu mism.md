@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mism
+slug: cmu-mism
 sidebar_position: 1
 sidebar_label: "CMU MISM"
 title: "CMU MISM Admissions Guide: Courses and Program Experience"

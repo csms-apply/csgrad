@@ -1,5 +1,5 @@
 ---
-slug: /programs/jhu-msecs
+slug: jhu-msecs
 sidebar_position: 3
 sidebar_label: "JHU MSECS"
 title: "Hướng dẫn ứng tuyển JHU MSECS: môn học và trải nghiệm chương trình"

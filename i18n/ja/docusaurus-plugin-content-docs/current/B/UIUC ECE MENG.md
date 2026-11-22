@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-ece-meng
+slug: uiuc-ece-meng
 description: "UIUC ECE MEng ガイド：ソフトウェアとハードウェアの授業選択、co-op と入学延期の選択肢、ソフトウェア分野のキャリアを目指す学生の視点を紹介します。"
 sidebar_label: "UIUC ECE MENG"
 title: "UIUC ECE MEng 出願ガイド：授業とプログラムの体験談"

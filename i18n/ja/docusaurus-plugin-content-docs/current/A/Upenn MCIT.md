@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-mcit
+slug: upenn-mcit
 description: "UPenn MCIT は CS への転向を目指す出願者向けで、授業は基礎から始まります。必修科目の免除、卒業までのスケジュール、デュアルディグリーの選択肢、さまざまな学部出身者の合格・就職事例をまとめています。"
 sidebar_label: "UPenn MCIT"
 title: "UPenn MCIT 出願ガイド：授業とプログラムの実態"

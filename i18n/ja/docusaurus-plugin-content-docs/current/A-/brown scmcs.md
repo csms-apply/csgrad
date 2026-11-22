@@ -1,5 +1,5 @@
 ---
-slug: /programs/brown-scmcs
+slug: brown-scmcs
 description: "1学期2科目の Brown SCMCS では、研究や就職活動にどれだけ時間を割けるのか？学費、住居、学習の雰囲気、他の人気プログラムとの比較を紹介します。"
 sidebar_label: "Brown SCMCS"
 title: "Brown SCMCS 出願ガイド：授業とプログラム体験記"

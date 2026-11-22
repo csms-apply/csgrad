@@ -1,5 +1,5 @@
 ---
-slug: /programs/upenn-ee
+slug: upenn-ee
 description: "Ở UPenn EE nên kết hợp môn bắt buộc ESE với môn tự chọn CIS thế nào? Bài viết chia sẻ áp lực học tập, kinh nghiệm chuyển ngành nội bộ và sự khác biệt khi tìm việc mảng phần mềm so với phần cứng."
 sidebar_label: "Upenn EE"
 title: "Hướng dẫn ứng tuyển UPenn EE: môn học và trải nghiệm chương trình"

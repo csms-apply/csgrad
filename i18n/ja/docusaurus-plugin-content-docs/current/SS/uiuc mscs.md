@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-mscs
+slug: uiuc-mscs
 description: "UIUC MSCS は授業中心の MCS とは異なる研究志向の CS 修士です。教授へのコンタクト、合格の傾向と事例をまとめ、資金援助の保証に関する最新情報も記録しています。"
 sidebar_label: "UIUC MSCS"
 title: "UIUC MSCS 出願ガイド：授業とプログラム体験"

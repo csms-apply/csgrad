@@ -1,5 +1,5 @@
 ---
-slug: /programs/stanford-msee
+slug: stanford-msee
 sidebar_position: 2
 sidebar_label: "Stanford MSEE"
 title: "Stanford MSEE 지원 가이드: 수업과 프로그램 경험"

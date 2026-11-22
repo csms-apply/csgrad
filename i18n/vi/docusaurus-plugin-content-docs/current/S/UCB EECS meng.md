@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucb-eecs-meng
+slug: ucb-eecs-meng
 description: "Berkeley EECS MEng kết hợp môn kỹ thuật, môn lãnh đạo và dự án capstone kéo dài cả năm. Tìm hiểu áp lực tìm việc trong một chương trình chỉ kéo dài một năm."
 sidebar_label: "UCB EECS MEng"
 title: "Hướng dẫn ứng tuyển Berkeley EECS MEng: môn học và trải nghiệm chương trình"

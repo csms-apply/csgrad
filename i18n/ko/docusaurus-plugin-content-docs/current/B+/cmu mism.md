@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-mism
+slug: cmu-mism
 sidebar_position: 1
 sidebar_label: "CMU MISM"
 title: "CMU MISM 지원 가이드: 수업과 프로그램 후기"

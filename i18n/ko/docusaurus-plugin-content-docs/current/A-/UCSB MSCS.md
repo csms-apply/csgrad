@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucsb-mscs
+slug: ucsb-mscs
 description: "UCSB MSCS 재학생 관점: 학업 기간, 해안 캠퍼스 생활, 자기 주도적 구직, UC 계열 지원자 중심의 합격 패턴."
 sidebar_label: "UCSB MSCS"
 title: "UCSB MSCS 지원 가이드: 수업과 프로그램 후기"

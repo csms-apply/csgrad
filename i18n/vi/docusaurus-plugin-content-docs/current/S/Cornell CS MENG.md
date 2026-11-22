@@ -1,5 +1,5 @@
 ---
-slug: /programs/cornell-cs-meng
+slug: cornell-cs-meng
 description: "Chọn cơ sở, môn học và dự án tốt nghiệp của Cornell CS MEng thế nào? Dựa trên các trường hợp ứng tuyển và tìm việc, bài này bàn về thời gian học và các điều kiện thực tập cần xác nhận với trường."
 sidebar_label: "Cornell CS MENG"
 title: "Hướng dẫn ứng tuyển Cornell CS MEng: môn học và trải nghiệm chương trình"

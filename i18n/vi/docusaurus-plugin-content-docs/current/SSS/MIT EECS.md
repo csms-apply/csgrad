@@ -1,5 +1,5 @@
 ---
-slug: /programs/mit-eecs
+slug: mit-eecs
 description: "Muốn học tiếp ở MIT EECS thì trước hết cần hiểu con đường ứng tuyển PhD. Bài viết tổng hợp kinh nghiệm nghiên cứu, quan hệ thư giới thiệu và các trường hợp trúng tuyển tiêu biểu, khác với các chương trình thạc sĩ độc lập."
 sidebar_label: "MIT EECS"
 title: "Hướng dẫn ứng tuyển MIT EECS: môn học và trải nghiệm chương trình"

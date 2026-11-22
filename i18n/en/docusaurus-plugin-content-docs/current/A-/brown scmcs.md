@@ -1,5 +1,5 @@
 ---
-slug: /programs/brown-scmcs
+slug: brown-scmcs
 description: "Brown SCMCS student perspectives on balancing two courses per semester with research and job hunting, including workload, study space and tuition."
 sidebar_label: "Brown SCMCS"
 title: "Brown SCMCS Admissions Guide: Courses and Program Experience"

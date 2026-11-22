@@ -1,5 +1,5 @@
 ---
-slug: /programs/cmu-miis
+slug: cmu-miis
 description: "CMU MIIS는 취업 지향 학습과 LTI에서의 필수 연구를 결합합니다. CS 과목 수강, AI 및 NLP 합격 프로필, 구직 환경을 살펴보세요."
 sidebar_label: "CMU MIIS"
 title: "CMU MIIS 지원 가이드: 수업과 프로그램 경험"

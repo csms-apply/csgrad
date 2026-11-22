@@ -1,5 +1,5 @@
 ---
-slug: /programs/duke-mscs
+slug: duke-mscs
 description: "Duke MSCS は履修の自由度が高く、授業履修型・プロジェクト型・論文型から修了ルートを選べます。授業の構成、在学期間と費用、合格者の経歴と就職事例をまとめています。"
 sidebar_label: "Duke MSCS"
 title: "Duke MSCS 出願ガイド：授業とプログラム体験"

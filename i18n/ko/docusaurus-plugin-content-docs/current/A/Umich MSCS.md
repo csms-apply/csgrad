@@ -1,5 +1,5 @@
 ---
-slug: /programs/umich-mscs
+slug: umich-mscs
 description: "UMich MSCS/MSCSE 학생의 시각으로 본 유연한 학업 기간, 티칭 어시스턴트십, 실습 중심 수업, 수업과 구직의 병행."
 sidebar_label: "UMich MSCS/MSCSE"
 title: "UMich MSCS/MSCSE 지원 가이드: 수업과 프로그램 경험"

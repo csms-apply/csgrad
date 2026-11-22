@@ -1,5 +1,5 @@
 ---
-slug: /programs/scu-mscse
+slug: scu-mscse
 description: "Santa Clara MSCSE student perspectives on Silicon Valley life, quarter-system coursework, career-change prerequisites, study costs and internship timing."
 sidebar_label: "SCU MSCSE"
 title: "Santa Clara MSCSE Admissions Guide: Courses and Program Experience"

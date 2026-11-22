@@ -1,5 +1,5 @@
 ---
-slug: /programs/columbia-ds
+slug: columbia-ds
 description: "Columbia DS thiên về khoa học dữ liệu và học máy. Tìm hiểu việc miễn môn, các môn tự chọn CS và thống kê, thời điểm làm capstone, cùng những đánh đổi khi muốn chuyển ngành và tìm việc."
 sidebar_label: "Columbia DS"
 title: "Hướng dẫn ứng tuyển Columbia Data Science: môn học và trải nghiệm chương trình"

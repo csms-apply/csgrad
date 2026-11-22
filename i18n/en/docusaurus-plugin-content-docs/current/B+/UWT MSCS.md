@@ -1,5 +1,5 @@
 ---
-slug: /programs/uwt-mscs
+slug: uwt-mscs
 sidebar_label: "UWT MSCS"
 title: "UW Tacoma MSCSS Admissions Guide: Courses and Program Experience"
 description: "UW Tacoma MSCSS student perspectives on coursework, capstone and thesis options, tuition and internships, with a comparison of Tacoma and Bothell."

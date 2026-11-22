@@ -1,5 +1,5 @@
 ---
-slug: /programs/tamu-cse
+slug: tamu-cse
 sidebar_label: "TAMU CSE"
 title: "TAMU CSE 出願ガイド：授業とプログラムの実態"
 description: "TAMU CSE の MCS、MSCS などの学位の選び方と移籍の経験談。研究寄りの授業、TA/RA、学費と生活費、さまざまな職歴を持つ学生の就職活動を紹介します。"

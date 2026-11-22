@@ -1,5 +1,5 @@
 ---
-slug: /programs/ut-mscs
+slug: ut-mscs
 description: "UT Austin MSCS 가이드: 수업 품질, 연구 기회, Austin의 테크 환경과 함께 합격 프로필과 향후 PhD 진학 시 고려사항을 다룹니다."
 sidebar_label: "UT MSCS"
 title: "UT Austin MSCS 지원 가이드: 수업과 프로그램 경험"

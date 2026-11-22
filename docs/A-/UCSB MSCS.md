@@ -1,5 +1,5 @@
 ---
-slug: /programs/ucsb-mscs
+slug: ucsb-mscs
 description: "UCSB MSCS 的学制安排、海边生活和找工氛围分享，结合录取背景与求职案例，看看研究生生活与自主求职如何兼顾。"
 title: "UCSB MSCS 申请指南：课程与项目体验"
 sidebar_label: "UCSB MSCS"

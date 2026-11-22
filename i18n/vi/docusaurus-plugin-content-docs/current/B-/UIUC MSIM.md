@@ -1,5 +1,5 @@
 ---
-slug: /programs/uiuc-msim
+slug: uiuc-msim
 description: "Học phí, áp lực môn học và trải nghiệm co-op của UIUC MSIM, kèm hồ sơ ứng tuyển chuyển ngành và các ví dụ tìm việc của khóa trước ở mảng phần mềm, dữ liệu và sản phẩm."
 sidebar_label: "UIUC MSIM"
 title: "Hướng dẫn ứng tuyển UIUC MSIM: môn học và trải nghiệm chương trình"

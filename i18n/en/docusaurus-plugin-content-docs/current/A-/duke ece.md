@@ -1,5 +1,5 @@
 ---
-slug: /programs/duke-ece
+slug: duke-ece
 sidebar_position: 2
 description: "Compare Duke ECE MS and MEng through coursework, thesis and internship requirements, career-change considerations and reported admissions experiences."
 sidebar_label: "Duke ECE"

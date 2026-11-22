@@ -1,5 +1,5 @@
 ---
-slug: /programs/rice-mcs
+slug: rice-mcs
 description: "Rice MCS の授業、インターン要件、3〜4学期で修了するプランに加え、Houston での住まいと生活、学費、過去の学生の就職体験を紹介します。"
 sidebar_label: "Rice MCS"
 title: "Rice MCS 出願ガイド：授業とプログラムの実際"
