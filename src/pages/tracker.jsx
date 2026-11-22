@@ -186,6 +186,15 @@ export default function TrackerPage() {
   const list = ROWS.filter((r) => inView(r) && (!gre.size || gre.has(r.gre)) && (!tiers.size || tiers.has(r.tier)) &&
     (!hideHalt || !r.halt) && matches(index.get(r.id), q)).sort(SORTS[sort][1]);
 
+  // Header checkbox: acts only on the rows currently shown (view + filters + search).
+  const allOn = list.length > 0 && list.every((r) => starred.has(r.id));
+  const someOn = list.some((r) => starred.has(r.id));
+  const toggleAll = () => setStarred((prev) => {
+    const next = new Set(prev);
+    list.forEach((r) => (allOn ? next.delete(r.id) : next.add(r.id)));
+    return next;
+  });
+
   const toggle = (setter, value) => setter((prev) => {
     const next = new Set(prev);
     next.has(value) ? next.delete(value) : next.add(value);
@@ -450,7 +459,11 @@ export default function TrackerPage() {
               </colgroup>
               <thead>
                 <tr>
-                  <th className={styles.sel} aria-label={t('select')} />
+                  <th className={styles.sel}>
+                    <input type="checkbox" checked={allOn} disabled={!list.length} onChange={toggleAll}
+                      ref={(el) => { if (el) el.indeterminate = someOn && !allOn; }}
+                      aria-label={allOn ? t('selectNone') : t('selectAll')} title={allOn ? t('selectNone') : t('selectAll')} />
+                  </th>
                   <th className={styles.name}><span className={styles.h}>{Icon.aa}{t('colName')}</span></th>
                   <th><span className={styles.h}>{Icon.select}{t('colTier')}</span></th>
                   <th><span className={styles.h}>{Icon.cal}{t('colR1')}</span></th>
