@@ -9,7 +9,7 @@ sidebar_label: "Upenn MSR"
 
 ## 项目介绍
 来之前对这个program的想象是“很硬核、很卷、实验室卷到飞起”……
-结果来了之后才发现：ROBO真的是全美最自由、最能“do yourself”的机器人硕士项目之一！ 并且也可以dual mcit/mcis等
+结果来了之后才发现：ROBO真的是全美最自由、最能“do yourself”的机器人硕士项目之一！ 并且也可以 dual CIS 等
 
 一句话总结我的最大Takeaway
 “高度自由 = 无限可能，也意味着你必须非常清楚自己想要什么”

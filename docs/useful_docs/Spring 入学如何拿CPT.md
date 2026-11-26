@@ -31,7 +31,7 @@ description: "讨论春季入学时，美国本科就读经历、SEVIS 转学与
 4. 找个unpaid公司挂靠自己的opt(opt期间也是f1身份)
 
 ## 一些案例
-CMU SESV只支持spring入读前的那一个学期必须也是fall time 学生，才能入读
+CMU SESV只支持spring入读前的那一个学期必须也是full time 学生，才能入读
 CMU SESV spring拿到cpt，具体请看
 
 ![](/img/cmucpt.png)
