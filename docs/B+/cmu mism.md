@@ -24,7 +24,7 @@ mism分为12 month 的track和16 month 的track，后者可以方便找实习。
 ![](/img/mismcore.png)
 
 ## 录取代表性dp
-rolling 制度，早申早录取。想来mism早点申请
+Fall 2027 分两轮：Round 1 12 月 1 日、Round 2 1 月 10 日，两轮之后还有名额才滚动录取，系统 6 月 15 日关。想拿奖学金要在 2 月 1 日前交。想来mism早点申请
 
 1. wisc cs本科+腾讯实习,gpa 3.7
 2. 华科cs本科，gpa 3.86，两段量化实习

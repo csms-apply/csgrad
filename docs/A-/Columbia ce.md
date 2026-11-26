@@ -20,7 +20,7 @@ verification：core。有点像离散数学，讲一些一些fsm和逻辑。
 data center processing：core，group写一偏小论文。
 
 ## 录取信息和dp
-今天总共60个人，差不多60%中国人，30%印度人。中国人的背景还是蛮diverse的，陆本从2本到北大都有，海本也都是不同学校。
+今年总共60个人，差不多60%中国人，30%印度人。中国人的背景还是蛮diverse的，陆本从2本到北大都有，海本也都是不同学校。
 
 1. Bard College at Simon's Rock 物理系本科，gpa4.0
 2. Purdue University cs本科，微软5年全职

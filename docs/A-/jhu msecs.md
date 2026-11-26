@@ -14,7 +14,7 @@ MSECS是JHU的CS项目，也是一个比较出名的转码项目✅。每年会�
 
 
 ## 标化要求
-24年的申请标化考试要求托福100，GRE required，但是MSECS在申请界面明确表示了GRE提交了也不看😍，需要提交GRE仅仅是隶属学院的要求（The Whiting School of Engineering requires GRE General Test scores for applications to all master’s programs. However, the Department of Computer Science does not review these scores nor do they have any impact on the outcome of admissions decisions during the application review process.）
+24年申请时托福要求100，学院要求交GRE但系里不看（The Whiting School of Engineering requires GRE General Test scores for applications to all master’s programs. However, the Department of Computer Science does not review these scores nor do they have any impact on the outcome of admissions decisions during the application review process.）现在官网写明不要求 GRE、也不收申请费（[官网](https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/)原文 “No GRE required, and no application fee.”），Fall 2027 截止 2 月 15 日。
 
 
 ## 录取bar和dp
