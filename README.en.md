@@ -41,7 +41,7 @@ The US job market also offers better work–life balance (WLB). Some companies, 
 
 ## How CS Grad Differs from Open CS
 
-As noted above, Open CS ranks programs primarily by their **admission bar**, particularly for **applicants with mainland Chinese undergraduate degrees**. That does not necessarily reflect a program’s **practical value**. Some programs are more welcoming to applicants with **US undergraduate degrees** than to those with **mainland Chinese degrees**, such as Northwestern MSCS and UIUC MCS. Others have a more accessible admission bar but offer very good opportunities afterward, such as UW EE PMP. CS Grad focuses on **what a program offers in practice**, helping applicants make more informed school-selection decisions.
+As noted above, Open CS ranks programs primarily by their **admission bar**, particularly for **applicants with mainland Chinese undergraduate degrees**. That does not necessarily reflect a program’s **practical value**. Some programs are more welcoming to applicants with **US undergraduate degrees** than to those with **mainland Chinese degrees**, such as Northwestern MSCS and UIUC MCS. Others have a more accessible admission bar but offer very good opportunities afterward, such as UW ECE PMP. CS Grad focuses on **what a program offers in practice**, helping applicants make more informed school-selection decisions.
 
 That is why I created CS Grad: to provide a more practical reference for applications and choosing programs.
 

@@ -7,7 +7,7 @@ description: "UW Tacoma 的 CS 硕士提供课程、capstone 与 thesis 路线�
 # UWT MSCS
 
 ## 项目特点
-UWT 的学费便宜，CPT 政策灵活，**可以coop两次**，跟uw ee pmp一样，UWT 同样也有**capstone** 。适合 GPA 不高但是实习经历丰富，准备来美国all in找工的同学或者希望只刷题找工作完全水掉上课的同学作为保底选择。
+UWT 的学费便宜，CPT 政策灵活，**可以coop两次**，跟UW ECE PMP一样，UWT 同样也有**capstone** 。适合 GPA 不高但是实习经历丰富，准备来美国all in找工的同学或者希望只刷题找工作完全水掉上课的同学作为保底选择。
 
 **简历可以写UW MSCS，很爽**。reddit上有人写了，自己是UWT MSCS的硕士，简历写UW MSCS，面试了hundreds of interviews，但是从来没人问过UWT 和UWS的区别的事情，根本0人在意。
 UWT有Ds、
