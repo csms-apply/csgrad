@@ -28,7 +28,7 @@ Very few mainland China undergrads get direct admission (especially 24 Fall). Ma
 5. University of Rochester DS + Math undergrad, GPA 3.95
 
 ## Tips for Getting into GT MSCS
-If you think getting into MSCS is too difficult, you can first apply to a less competitive GT CSE track, then transfer to MSCS after enrolling. Or apply to GT OMSCS first and then transfer to the on-campus program (only GPA is required). All the friends I know who tried this successfully transferred. (However, the official FAQ states that MSCS does not accept change-of-major requests and you must apply again, so check with the school before relying on either path.)
+If you think getting into MSCS is too difficult, there are two ways around it. One is to apply to GT OMSCS first: get an A in your first semester and you can apply to move to the on-campus program, and going by past years almost everyone made it. The other is to apply to a less competitive GT CSE track and move to MSCS after enrolling: the official FAQ states that MSCS does not accept internal change-of-major requests and that you must apply again, but in past years people have in fact moved this way.
 
 
 

@@ -15,7 +15,13 @@ TA/RA로 학비를 면제받는 것 외에도, 비미국 학부 출신은 "reduc
 
 CSE 프로그램은 수업 선택이 정말 유연합니다. 핵심 수업 4개(계산/수학 쪽에 치우침)를 제외하면 나머지는 사실상 CS와 같습니다. MSCS 학생과 같은 우선순위로 CS 수업을 들을 수 있습니다. 가장 좋은 점은 CSE 학생이 MSCS(CoC home unit)와 동일한 CS 수업 수강신청 우선순위를 가진다는 것이고, 많은 CS 수업이 specialization minor에 산입될 수 있습니다. 지도교수(academic advisor)를 설득할 수 있다면 대체로 학점으로 인정됩니다. 다만 CSE와 MSCS는 별개의 학위입니다. CSE에는 자체 specialization minor 요건이 있고, CS/CSE가 아닌 응용 분야 수업을 최소 6 credit hours 포함해야 합니다. 학위는 30 credit hours이며 공식적으로 보통 세 학기가 걸립니다. 더 머물고 싶다면 그렇게 할 수도 있습니다.
 
-I-20에는 Computer Science로 적히므로 구직할 때 이력서에 전공을 Computer Science로 쓸 수 있습니다. 하지만 MSCS로 단순 전과는 할 수 없습니다. 공식 FAQ에 따르면 MSCS는 내부 전공 변경 요청을 받지 않으며 다시 지원해야 합니다.
+I-20에는 Computer Science로 적히므로 구직할 때 이력서에 전공을 Computer Science로 쓸 수 있습니다.
+
+## MSCS로 옮기는 두 가지 방법
+
+**OMSCS에서 온캠퍼스 MSCS로**: 먼저 OMSCS에 지원하고 첫 학기에 A를 하나 받으면 온캠퍼스 전환을 신청할 수 있습니다. 예년을 보면 거의 다 전환에 성공했습니다.
+
+**CSE에서 MSCS로**: 먼저 분명히 하자면, 공식 FAQ에는 MSCS가 내부 전공 변경 요청을 받지 않으며 다시 지원해야 한다고 명시되어 있습니다. 하지만 실제로는 가능하고, 예년에도 이 방법으로 옮긴 사례가 있습니다.
 
 ## 합격 기준
 
