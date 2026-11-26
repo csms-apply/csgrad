@@ -60,6 +60,8 @@ const SCHOOL_MAP = {
 // Keep identifiers already stored in users' tracker cards when a tier changes.
 const LEGACY_IDS = {
   '/A+/ucla-meng': 'bplus-ucla-meng',
+  // 项目改名为 ECE PMP，id 保持不变
+  '/A/uw-ee-pmp': 'a-university-of-washington-ee-pmp',
 };
 
 /**

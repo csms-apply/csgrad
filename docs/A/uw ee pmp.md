@@ -1,11 +1,11 @@
 ---
 slug: uw-ee-pmp
-title: "UW EE PMP 申请指南：课程与项目体验"
-sidebar_label: "UW EE PMP"
-description: "UW EE PMP 的软件课程、西雅图学习生活和申请经验，附 Co-op 经历、往届求职案例，并记录文中关于 MSECE 学位更名的更新。"
+title: "UW ECE PMP 申请指南：课程与项目体验"
+sidebar_label: "UW ECE PMP"
+description: "UW ECE PMP 的软件课程、西雅图学习生活和申请经验，附 Co-op 经历、往届求职案例，并记录文中关于 MSECE 学位更名的更新。"
 ---
 
-# UW EE PMP
+# UW ECE PMP
 
 ## 项目优点
 2026更新：UW 研究生的 EE 学位（含 MS、PMP、PhD）已更名为 ECE，PMP 项目本身还在、课程不变，学位名变成 MSECE, 更爽了。
@@ -19,7 +19,7 @@ Autumn 2027 起新入学申请的学生毕业学位将是Master of Science in El
 并且他可以coop3次，划重点
 同时课业压力wld很小，可以选择全软课程，有很多时间刷题找工作🐻，去年找工上岸率据民间统计是20%。
 
-虽然在open cs上排名b-的项目，但是我觉得就业友好度可以排到A+，首先身边的朋友在这个项目的基本没感受到ee 和cs有什么找工区别，很多ee pmp的基本都能拿到meta 、amazon面试，而且ee pmp可以coop，23年amazon 几乎捞了10% 的uw ee pmp的人。并且uw ee pmp 的coop 是不延毕的（比如说是24 fall入学，可以25 年 8-11 月去实习，不延毕），非常适合找工作。 Uw hci比较难申请，但是也可以有六个月的实习，只需要在校内修10个学分即可。而且ee pmp还能修cs的课程，如果你是cs本科的，不想学硬件课，也可以凑出来一份全软课表，然后课下自行刷题做项目
+虽然在open cs上排名b-的项目，但是我觉得就业友好度可以排到A+，首先身边的朋友在这个项目的基本没感受到ee 和cs有什么找工区别，很多ECE PMP的基本都能拿到meta 、amazon面试，而且ECE PMP可以coop，23年amazon 几乎捞了10% 的UW ECE PMP的人。并且uw ECE PMP 的coop 是不延毕的（比如说是24 fall入学，可以25 年 8-11 月去实习，不延毕），非常适合找工作。 Uw hci比较难申请，但是也可以有六个月的实习，只需要在校内修10个学分即可。而且ECE PMP还能修cs的课程，如果你是cs本科的，不想学硬件课，也可以凑出来一份全软课表，然后课下自行刷题做项目
 
 UW 还有 co-op 政策，只要 CPT 时间不超过一年，暑假之外的学期也可以进行全职实习。 可以做3段COOP，然后最后一个夏季学期毕业。COOP也可以回国实习，COOP回国实习不需要CPT。 2024年有学长试过6-12月连续两个学期COOP在国内实习，顺利回美
 
@@ -52,6 +52,6 @@ nobody cares ur major
 ## 项目录取难度
 项目录取难度还好，3.5+就比较稳，私认为这个项目是一个非常好的保底项目，可以说是USC CS32的全面提升版（CS32过于贵，并且在湾区需要和stanford、ucb等学校竞争）。
 
-如果申请者GPA不是特别高，可以考虑一下申请一下UW EE PMP，是一个很好的找工向的项目选择
+如果申请者GPA不是特别高，可以考虑一下申请一下UW ECE PMP，是一个很好的找工向的项目选择
 
-**25 fall bar 明显升高，有不少高gpa、高rk的cs bg同学被拒，疑似oq，也有CMU MSIN录取uw ee pmp被rej的, 往年拿uw ee pmp进行保底的好事已经不复存在，强烈推荐再找个别的保底项目**
+**25 fall bar 明显升高，有不少高gpa、高rk的cs bg同学被拒，疑似oq，也有CMU MSIN录取UW ECE PMP被rej的, 往年拿UW ECE PMP进行保底的好事已经不复存在，强烈推荐再找个别的保底项目**

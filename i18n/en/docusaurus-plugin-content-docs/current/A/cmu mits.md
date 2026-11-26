@@ -30,7 +30,7 @@ Very flexible. As long as you want to, you can basically make your schedule very
 Course selection flexibility and priority are both very high.
 For students pursuing SDE roles, choosing the Software and Networked Systems track allows you to freely take all of SCS's legendary systems courses within the maximum credit limit per semester (51 units), but be careful to balance workload. For students pursuing MLE roles, the Data track similarly lets you take nearly all the top data courses. For career changers to CS: it's doable -- you can start from data structures. However, I personally recommend finishing your LeetCode grinding in China so you can start interviewing as soon as you arrive in the US.
 
-The program also has a capstone, somewhat similar to UW EE PMP's capstone -- working on projects with companies.
+The program also has a capstone, somewhat similar to UW ECE PMP's capstone -- working on projects with companies.
 
 In later semesters, you can basically get into any SCS course you want. Course selection has no restrictions, including but not limited to:
 15640 Distributed System

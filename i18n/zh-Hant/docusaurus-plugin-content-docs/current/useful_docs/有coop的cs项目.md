@@ -25,7 +25,7 @@ uiuc mcs (本校,芝加哥, 甚至spring入學都一樣, 非美本1年後可以�
 
 uiuc ece
 
-uw ee pmp(可以秋季全職coop且無需延畢)
+UW ECE PMP(可以秋季全職coop且無需延畢)
 
 tamu mcs
 

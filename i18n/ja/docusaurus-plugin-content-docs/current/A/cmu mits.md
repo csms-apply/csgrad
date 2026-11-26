@@ -30,7 +30,7 @@ Software and Networked Systems、Data Analytics、Information Security、Technol
 授業選択の柔軟性と優先度はどちらも非常に高いです。
 SDE を目指す学生は Software and Networked Systems トラックを選べば、1 学期の上限単位（51 units）の範囲内で SCS の伝説的なシステム系の授業を自由にすべて取れますが、負担のバランスには注意が必要です。MLE を目指す学生は、Data トラックで同じくトップクラスのデータ系の授業をほぼすべて取れます。CS へ専攻を転向する場合：可能です。データ構造から始めれば大丈夫です。ただ個人的には、アメリカに着いてすぐ面接を受けられるよう、中国で LeetCode の問題演習を終えてから来ることをおすすめします。
 
-プログラムには capstone もあり、UW EE PMP の capstone に少し似ていて、企業と一緒にプロジェクトを進めます。
+プログラムには capstone もあり、UW ECE PMP の capstone に少し似ていて、企業と一緒にプロジェクトを進めます。
 
 後半の学期には、希望する SCS の授業にほぼすべて入れます。授業選択に制限はなく、たとえば次のような授業があります。
 15640 Distributed System

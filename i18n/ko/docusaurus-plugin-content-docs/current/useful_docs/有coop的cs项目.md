@@ -24,7 +24,7 @@ UIUC MCS (본교, Chicago, 심지어 Spring 입학도 동일하며, 미국 학�
 
 UIUC ECE
 
-UW EE PMP (졸업을 연장하지 않고 가을에 풀타임 co-op 가능)
+UW ECE PMP (졸업을 연장하지 않고 가을에 풀타임 co-op 가능)
 
 TAMU MCS
 

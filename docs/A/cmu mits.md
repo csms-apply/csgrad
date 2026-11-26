@@ -30,7 +30,7 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 选课自由度和优先级都很高
 求职方向为SDE的同学可以选择Software and Networked System track在允许的最大学分限制范围内（每学期51学分）可以自由选择SCS开设的所有System神课（但是要注意平衡好wld），求职方向为MLE的同学可以选择Datatrack同样几乎可以选到所有的Data神课，对于转码的同学：可以转码，从数据结构开始上，但是个人建议在国内就把lc刷好，来美国就开始面试
 
-项目还有：capstone，有点类似uw ee pmp的capstone，和企业做项目
+项目还有：capstone，有点类似UW ECE PMP的capstone，和企业做项目
 
 后面几个学期基本就是SCS的课中想选的课都能选到选课没有任何限制包括以下但是不限于：
 15640 Distributed System

@@ -19,7 +19,7 @@ Berkeley EECS 是cs四大。項目設置的目標也很清楚，就是幫學生�
 往年可能存在通過撒潑打滾求情延期的情況，但至少 24 年fall開始，已不再允許通過延期獲得 CPT 進行實習並爭取轉正。據在讀生提供的數據，25 年 2 月的全職上岸率約為 30%。即使努力爭取延期，也不會批准 CPT。
 
 
-申請時需要選擇 Track，通常cs的學生會選擇dss Track(dss track已經從24 fall開始拆成data science 和 computer systems track)。畢業需要完成 Capstone 項目，類似於 UW EE PMP 的 Capstone 項目。但是你需要撰寫文書說明你對該項目的興趣，甚至可能需要進行面試。有點類似申請季。但是在讀生反饋這個capstone質量良莠不齊，90%概率可能做不出來任何東西
+申請時需要選擇 Track，通常cs的學生會選擇dss Track(dss track已經從24 fall開始拆成data science 和 computer systems track)。畢業需要完成 Capstone 項目，類似於 UW ECE PMP 的 Capstone 項目。但是你需要撰寫文書說明你對該項目的興趣，甚至可能需要進行面試。有點類似申請季。但是在讀生反饋這個capstone質量良莠不齊，90%概率可能做不出來任何東西
 
 
 UCB 周圍流浪漢較多，需要注意安全。但ucb工程系位於較為偏遠的北部，環境優美，無需過度擔心流浪漢問題。且房租相對較低，非加州居民 2025-26 學年學雜費約 $71.4K，算上獎學金（Fung Excellence 約覆蓋 25%-50%），學雜費大約 $3.6萬-$5.4萬。
