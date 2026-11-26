@@ -7,7 +7,7 @@ description: "UW Tacoma MSCSS 학생들의 시각으로 본 수업, 캡스톤과
 # UWT MSCS
 
 ## 프로그램 특징
-UWT는 학비가 저렴하고 CPT 정책이 유연합니다. UW EE PMP처럼 **co-op을 두 번 할 수 있습니다**. 또한 **capstone**도 있습니다. GPA는 낮지만 인턴 경험이 풍부하고 미국 구직에 올인할 준비가 된 학생이나, LeetCode만 풀면서 수업은 최대한 편하게 넘기고 싶은 학생에게 안전 지원(safety) 선택지로 적합합니다.
+UWT는 학비가 저렴하고 CPT 정책이 유연합니다. UW ECE PMP처럼 **co-op을 두 번 할 수 있습니다**. 또한 **capstone**도 있습니다. GPA는 낮지만 인턴 경험이 풍부하고 미국 구직에 올인할 준비가 된 학생이나, LeetCode만 풀면서 수업은 최대한 편하게 넘기고 싶은 학생에게 안전 지원(safety) 선택지로 적합합니다.
 
 **이력서에 UW MSCS라고 쓸 수 있어서 매우 좋습니다.** Reddit에서 어떤 UWT MSCS 졸업생이 이력서에 UW MSCS라고 쓰고 수백 번 면접을 봤는데, UWT와 UWS(시애틀 캠퍼스)의 차이를 물어본 사람은 단 한 명도 없었다고 공유했습니다. 신경 쓰는 사람이 말 그대로 0명이라는 뜻입니다.
 UWT에는 DS, Cybersecurity, Distributed Systems, Cyber-Physical Systems, Bioinformatics, GIS 트랙이 있습니다. **SDE에 올인하려면 Distributed Systems 트랙을 선택하세요.**

@@ -7,7 +7,7 @@ description: "UW Tacoma MSCSS student perspectives on coursework, capstone and t
 # UWT MSCS
 
 ## Program Features
-UWT has cheap tuition and a flexible CPT policy -- **you can co-op twice**, just like UW EE PMP. UWT also has a **capstone**. Suitable as a safety choice for students with low GPAs but rich internship experience who are ready to go all in on job hunting in the US, or students who just want to grind LeetCode and completely coast through classes.
+UWT has cheap tuition and a flexible CPT policy -- **you can co-op twice**, just like UW ECE PMP. UWT also has a **capstone**. Suitable as a safety choice for students with low GPAs but rich internship experience who are ready to go all in on job hunting in the US, or students who just want to grind LeetCode and completely coast through classes.
 
 **You can write UW MSCS on your resume, which is great**. Someone on Reddit shared that as a UWT MSCS graduate, they wrote UW MSCS on their resume, interviewed for hundreds of interviews, and nobody ever asked about the difference between UWT and UWS -- literally zero people care.
 UWT has tracks in DS, Cybersecurity, Distributed Systems, Cyber-Physical Systems, Bioinformatics, and GIS. **If you want to go all in on SDE, choose the Distributed Systems track**.

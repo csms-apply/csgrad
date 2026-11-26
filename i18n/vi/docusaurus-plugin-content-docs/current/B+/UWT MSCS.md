@@ -7,7 +7,7 @@ description: "Chương trình thạc sĩ CS của UW Tacoma có các lộ trình
 # UWT MSCS
 
 ## Đặc điểm chương trình
-UWT có học phí rẻ và chính sách CPT linh hoạt: **bạn có thể đi co-op hai lần**, giống như UW EE PMP. UWT cũng có **capstone**. Phù hợp làm lựa chọn an toàn cho những bạn GPA thấp nhưng nhiều kinh nghiệm thực tập và sẵn sàng dốc toàn lực tìm việc ở Mỹ, hoặc những bạn chỉ muốn cày LeetCode và học cho qua môn.
+UWT có học phí rẻ và chính sách CPT linh hoạt: **bạn có thể đi co-op hai lần**, giống như UW ECE PMP. UWT cũng có **capstone**. Phù hợp làm lựa chọn an toàn cho những bạn GPA thấp nhưng nhiều kinh nghiệm thực tập và sẵn sàng dốc toàn lực tìm việc ở Mỹ, hoặc những bạn chỉ muốn cày LeetCode và học cho qua môn.
 
 **Bạn có thể ghi UW MSCS trên CV, rất tuyệt.** Có người trên Reddit chia sẻ rằng họ tốt nghiệp UWT MSCS, ghi UW MSCS trên CV, đi phỏng vấn hàng trăm lần mà chưa ai hỏi về sự khác nhau giữa UWT và UWS. Đúng nghĩa là không ai quan tâm.
 UWT có các hướng DS, Cybersecurity, Distributed Systems, Cyber-Physical Systems, Bioinformatics và GIS. **Nếu muốn dốc toàn lực cho SDE, hãy chọn hướng Distributed Systems.**

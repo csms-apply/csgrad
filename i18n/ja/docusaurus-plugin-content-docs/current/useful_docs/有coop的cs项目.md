@@ -24,7 +24,7 @@ UIUC MCS（本校、Chicago、さらにSpring入学でも同じ条件で、米�
 
 UIUC ECE
 
-UW EE PMP（修了を延長せずに、秋学期にフルタイムのco-opが可能）
+UW ECE PMP（修了を延長せずに、秋学期にフルタイムのco-opが可能）
 
 TAMU MCS
 

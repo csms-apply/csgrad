@@ -1,11 +1,11 @@
 ---
 slug: uw-ee-pmp
-title: "UW EE PMP 申請指南：課程與項目體驗"
-sidebar_label: "UW EE PMP"
-description: "UW EE PMP 的軟件課程、西雅圖學習生活和申請經驗，附 Co-op 經歷、往屆求職案例，並記錄文中關於 MSECE 學位更名的更新。"
+title: "UW ECE PMP 申請指南：課程與項目體驗"
+sidebar_label: "UW ECE PMP"
+description: "UW ECE PMP 的軟件課程、西雅圖學習生活和申請經驗，附 Co-op 經歷、往屆求職案例，並記錄文中關於 MSECE 學位更名的更新。"
 ---
 
-# UW EE PMP
+# UW ECE PMP
 
 ## 項目優點 {#项目优点}
 2026更新：UW 研究生的 EE 學位（含 MS、PMP、PhD）已更名為 ECE，PMP 項目本身還在、課程不變，學位名變成 MSECE, 更爽了。
@@ -19,7 +19,7 @@ Autumn 2027 起新入學申請的學生畢業學位將是Master of Science in El
 並且他可以coop3次，劃重點
 同時課業壓力wld很小，可以選擇全軟課程，有很多時間刷題找工作🐻，去年找工上岸率據民間統計是20%。
 
-雖然在open cs上排名b-的項目，但是我覺得就業友好度可以排到A+，首先身邊的朋友在這個項目的基本沒感受到ee 和cs有什麼找工區別，很多ee pmp的基本都能拿到meta 、amazon面試，而且ee pmp可以coop，23年amazon 幾乎撈了10% 的uw ee pmp的人。並且uw ee pmp 的coop 是不延畢的（比如說是24 fall入學，可以25 年 8-11 月去實習，不延畢），非常適合找工作。 Uw hci比較難申請，但是也可以有六個月的實習，只需要在校內修10個學分即可。而且ee pmp還能修cs的課程，如果你是cs本科的，不想學硬件課，也可以湊出來一份全軟課表，然後課下自行刷題做項目
+雖然在open cs上排名b-的項目，但是我覺得就業友好度可以排到A+，首先身邊的朋友在這個項目的基本沒感受到ee 和cs有什麼找工區別，很多ECE PMP的基本都能拿到meta 、amazon面試，而且ECE PMP可以coop，23年amazon 幾乎撈了10% 的UW ECE PMP的人。並且uw ECE PMP 的coop 是不延畢的（比如說是24 fall入學，可以25 年 8-11 月去實習，不延畢），非常適合找工作。 Uw hci比較難申請，但是也可以有六個月的實習，只需要在校內修10個學分即可。而且ECE PMP還能修cs的課程，如果你是cs本科的，不想學硬件課，也可以湊出來一份全軟課表，然後課下自行刷題做項目
 
 UW 還有 co-op 政策，只要 CPT 時間不超過一年，暑假之外的學期也可以進行全職實習。 可以做3段COOP，然後最後一個夏季學期畢業。COOP也可以回國實習，COOP回國實習不需要CPT。 2024年有學長試過6-12月連續兩個學期COOP在國內實習，順利回美
 
@@ -52,6 +52,6 @@ nobody cares ur major
 ## 項目錄取難度 {#项目录取难度}
 項目錄取難度還好，3.5+就比較穩，私認為這個項目是一個非常好的保底項目，可以說是USC CS32的全面提升版（CS32過於貴，並且在灣區需要和stanford、ucb等學校競爭）。
 
-如果申請者GPA不是特別高，可以考慮一下申請一下UW EE PMP，是一個很好的找工向的項目選擇
+如果申請者GPA不是特別高，可以考慮一下申請一下UW ECE PMP，是一個很好的找工向的項目選擇
 
-**25 fall bar 明顯升高，有不少高gpa、高rk的cs bg同學被拒，疑似oq，也有CMU MSIN錄取uw ee pmp被rej的, 往年拿uw ee pmp進行保底的好事已經不復存在，強烈推薦再找個別的保底項目**
+**25 fall bar 明顯升高，有不少高gpa、高rk的cs bg同學被拒，疑似oq，也有CMU MSIN錄取UW ECE PMP被rej的, 往年拿UW ECE PMP進行保底的好事已經不復存在，強烈推薦再找個別的保底項目**

@@ -30,7 +30,7 @@ Rất linh hoạt. Chỉ cần muốn, bạn gần như có thể xếp lịch h
 Độ linh hoạt và quyền ưu tiên khi chọn môn đều rất cao.
 Với sinh viên nhắm đến SDE, chọn lộ trình Software and Networked Systems cho phép bạn thoải mái học tất cả các môn hệ thống huyền thoại của SCS trong giới hạn tín chỉ tối đa mỗi học kỳ (51 units), nhưng nhớ cân đối khối lượng học. Với sinh viên nhắm đến MLE, lộ trình Data cũng cho phép học gần như tất cả các môn dữ liệu hàng đầu. Với người chuyển ngành sang CS: hoàn toàn được – bạn có thể bắt đầu từ cấu trúc dữ liệu. Tuy vậy, cá nhân mình khuyên nên cày xong LeetCode ở trong nước để vừa sang Mỹ là có thể bắt đầu phỏng vấn ngay.
 
-Chương trình còn có capstone, khá giống capstone của UW EE PMP – làm project cùng doanh nghiệp.
+Chương trình còn có capstone, khá giống capstone của UW ECE PMP – làm project cùng doanh nghiệp.
 
 Ở các học kỳ sau, bạn gần như vào được bất kỳ môn SCS nào mình muốn. Việc chọn môn không bị giới hạn, bao gồm nhưng không chỉ:
 15640 Distributed System

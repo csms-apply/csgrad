@@ -7,7 +7,7 @@ description: "UW Tacoma の CS 修士には、授業のみ・キャップスト�
 # UWT MSCS
 
 ## プログラムの特徴
-UWT は学費が安く、CPT の方針も柔軟です。UW EE PMP と同じく **co-op を 2 回できます**。さらに **capstone** もあります。GPA は低いもののインターン経験が豊富で、アメリカでの就職活動に全力を注ぐつもりの学生や、LeetCode だけに打ち込んで授業はできるだけ楽に済ませたい学生にとって、滑り止めの選択肢として向いています。
+UWT は学費が安く、CPT の方針も柔軟です。UW ECE PMP と同じく **co-op を 2 回できます**。さらに **capstone** もあります。GPA は低いもののインターン経験が豊富で、アメリカでの就職活動に全力を注ぐつもりの学生や、LeetCode だけに打ち込んで授業はできるだけ楽に済ませたい学生にとって、滑り止めの選択肢として向いています。
 
 **履歴書に UW MSCS と書けるのは大きな利点です。** Reddit で、ある UWT MSCS の卒業生が履歴書に UW MSCS と書いて何百回も面接を受けたものの、UWT と UWS（シアトルキャンパス）の違いを聞いてきた人は一人もいなかったと共有していました。気にする人は文字どおりゼロということです。
 UWT には DS、Cybersecurity、Distributed Systems、Cyber-Physical Systems、Bioinformatics、GIS のトラックがあります。**SDE に全力を注ぐなら Distributed Systems トラックを選びましょう。**

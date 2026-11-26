@@ -24,7 +24,7 @@ UIUC MCS (cơ sở chính, Chicago, kể cả nhập học kỳ Spring đều nh
 
 UIUC ECE
 
-UW EE PMP (có thể đi co-op toàn thời gian vào mùa thu mà không phải lùi tốt nghiệp)
+UW ECE PMP (có thể đi co-op toàn thời gian vào mùa thu mà không phải lùi tốt nghiệp)
 
 TAMU MCS
 

@@ -24,7 +24,7 @@ UIUC MCS (main campus, Chicago, and even spring enrollment are the same; non-US 
 
 UIUC ECE
 
-UW EE PMP (can do full-time co-op in the fall without extending graduation)
+UW ECE PMP (can do full-time co-op in the fall without extending graduation)
 
 TAMU MCS
 

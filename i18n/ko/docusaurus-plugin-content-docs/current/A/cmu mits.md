@@ -30,7 +30,7 @@ Software and Networked Systems, Data Analytics, Information Security, Technology
 수업 선택의 유연성과 우선순위가 모두 매우 높습니다.
 SDE를 목표로 하는 학생은 Software and Networked Systems 트랙을 선택하면 학기당 최대 학점 한도(51 units) 안에서 SCS의 전설적인 시스템 수업을 자유롭게 모두 들을 수 있지만, 업무량 균형에는 주의해야 합니다. MLE를 목표로 하는 학생은 Data 트랙에서 마찬가지로 최상급 데이터 수업을 거의 다 들을 수 있습니다. CS로 전공을 전환하는 경우: 가능합니다. 자료구조부터 시작하면 됩니다. 다만 개인적으로는 미국에 도착하자마자 인터뷰를 볼 수 있도록 중국에서 LeetCode 문제 풀이를 끝내고 오는 것을 추천합니다.
 
-프로그램에는 capstone도 있는데, UW EE PMP의 capstone과 다소 비슷하게 기업과 함께 프로젝트를 진행합니다.
+프로그램에는 capstone도 있는데, UW ECE PMP의 capstone과 다소 비슷하게 기업과 함께 프로젝트를 진행합니다.
 
 후반 학기에는 원하는 SCS 수업에 거의 다 들어갈 수 있습니다. 수업 선택에 제한이 없으며, 예를 들면 다음과 같은 수업이 있습니다.
 15640 Distributed System
