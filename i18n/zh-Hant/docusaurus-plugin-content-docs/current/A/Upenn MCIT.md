@@ -7,13 +7,11 @@ sidebar_label: "Upenn MAS-CS"
 
 # Upenn MAS-CS
 
-> 2026-11 更新：MCIT 在 2026 年 4 月改名 [Master of Applied Science in Computer Science（MAS-CS）](https://gradadm.engineering.upenn.edu/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/)，定位沒變，還是給非 CS 本科的同學讀的。MCIT 已經不收申請了，Fall 2027 要申 MAS-CS：線下項目 9 月 15 日開放，早申 11 月 1 日已截止，常規輪 2027 年 2 月 1 日截止（[招生頁](https://gradadm.engineering.upenn.edu/masters/)）。下文的錄取和找工數據都來自 MCIT 時期。
-
 
 ## 項目介紹 {#项目介绍}
-0基礎轉碼能申請到的上限項目（原 MCIT），強制要求不能上過超過2門cs專業課，如果上過不少的cs專業課請左轉同為upenn 旗下的cis項目。一共需要上10節課畢業，
-不想上必修課可以申請waive，然後參加考試考過了就能waive。MCIT 時期可以申請延期到2.5 year畢業，gpa>3.3即可，MAS-CS 是否沿用以官網為準。
-適合苟著找工作。可以dual cis，非常靈活。MCIT 時期往屆第一輪錄取概率17%，第二輪錄取概率8%，所以能早申就早申；Fall 2027 早申已經截止，只剩 2 月 1 日這一輪
+0基礎轉碼能申請到的上限項目，原來叫 MCIT，現在改名 [MAS-CS](https://gradadm.engineering.upenn.edu/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/)（Master of Applied Science in Computer Science），定位沒變，還是給非 CS 本科的同學讀的。強制要求不能上過超過2門cs專業課，如果上過不少的cs專業課請左轉同為upenn 旗下的cis項目。一共需要上10節課畢業，
+不想上必修課可以申請waive，然後參加考試考過了就能waive。之前 MCIT 可以申請延期到2.5 year畢業，gpa>3.3即可。
+適合苟著找工作。可以dual cis，非常靈活。和 Penn 其它線下碩士一樣分早申（11 月 1 日）和常規（2 月 1 日）兩輪（[招生頁](https://gradadm.engineering.upenn.edu/masters/)），之前 MCIT 第一輪錄取概率17%，第二輪錄取概率8%，所以能早申就早申
 
 ## 錄取bar 和dp {#录取bar-和dp}
 prefer 美本，gpa>3.8，gre>330, gpa gre越高越好。average gre 330, 2022 fall 申請人數1225，錄取了

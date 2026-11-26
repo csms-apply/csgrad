@@ -7,13 +7,11 @@ title: "UPenn MAS-CS 出願ガイド：授業とプログラムの実態"
 
 # Upenn MAS-CS
 
-> 2026年11月更新：MCIT は 2026 年 4 月に [Master of Applied Science in Computer Science（MAS-CS）](https://gradadm.engineering.upenn.edu/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/) に名称が変わりました。位置づけは同じで、学部が CS 以外の人向けです。MCIT はもう出願を受け付けていないので、Fall 2027 は MAS-CS に出願します。キャンパス課程は 9 月 15 日に受付開始、早期締切（11 月 1 日）は終了済みで、通常締切は 2027 年 2 月 1 日です（[入学案内ページ](https://gradadm.engineering.upenn.edu/masters/)）。以下の合格・就職データはすべて MCIT 時代のものです。
-
 
 ## プログラム紹介
-未経験から CS へ転向する人にとって、事実上トップのプログラムです（旧 MCIT）。出願者は CS の専門科目を 2 科目を超えて履修していてはならないという厳格な要件があります。CS の授業をかなり多く履修している場合は、UPenn の CIS プログラムを調べてください。卒業には 10 科目の修了が必要です。
-履修したくない必修科目がある場合は、試験に合格すれば免除を申請できます。MCIT 時代は GPA 3.3 以上あれば卒業を 2.5 年まで延長する申請ができました。MAS-CS でも同じかは公式サイトで確認してください。
-ゆっくり授業を取りながら就職活動をするのに向いています。CIS とのデュアルディグリー（dual）も可能で、とても柔軟です。MCIT 時代の合格率は第 1 ラウンドが 17%、第 2 ラウンドが 8% だったので、出せるなら早めに出すのがおすすめです。Fall 2027 は早期ラウンドがすでに締め切られ、残りは 2 月 1 日のラウンドだけです。
+未経験から CS へ転向する人にとって、事実上トップのプログラムです。以前は MCIT という名前でしたが、今は [MAS-CS](https://gradadm.engineering.upenn.edu/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/)（Master of Applied Science in Computer Science）に変わりました。位置づけは同じで、学部が CS 以外の人向けです。出願者は CS の専門科目を 2 科目を超えて履修していてはならないという厳格な要件があります。CS の授業をかなり多く履修している場合は、UPenn の CIS プログラムを調べてください。卒業には 10 科目の修了が必要です。
+履修したくない必修科目がある場合は、試験に合格すれば免除を申請できます。以前の MCIT では GPA 3.3 以上あれば卒業を 2.5 年まで延長する申請ができました。
+ゆっくり授業を取りながら就職活動をするのに向いています。CIS とのデュアルディグリー（dual）も可能で、とても柔軟です。Penn のほかのキャンパス修士と同じく、早期（11 月 1 日）と通常（2 月 1 日）の 2 ラウンドがあります（[入学案内ページ](https://gradadm.engineering.upenn.edu/masters/)）。以前の MCIT の合格率は第 1 ラウンドが 17%、第 2 ラウンドが 8% だったので、出せるなら早めに出すのがおすすめです。
 
 ## 合格基準とデータポイント
 アメリカの学部出身者が好まれます。GPA > 3.8、GRE > 330 で、高いほど有利です。GRE の平均は 330 です。2022 年秋は出願者 1,225 人のうち 118 人が合格し、73 人が入学しました。

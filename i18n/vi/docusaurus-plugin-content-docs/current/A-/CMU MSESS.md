@@ -7,13 +7,12 @@ title: "Hướng dẫn ứng tuyển CMU MSE: môn học và trải nghiệm ch�
 
 # CMU MSE
 
-> Cập nhật tháng 11/2026: Từ Fall 2027, MSE-SS và MSE-ES không còn tuyển sinh như các bằng riêng. MSE học tại trường được gộp thành một bằng, Scalable Systems trở thành một concentration trong đó ([FAQ chính thức](https://mse.s3d.cmu.edu/applicants/faq.html)). Hiện bạn nộp vào MSE 16 tháng hoặc MSE - Applied Study 20 tháng, dùng chung một cổng nộp hồ sơ, hạn Fall 2027 là ngày 9/12/2026. Phần dưới đây mô tả MSE-SS trước khi gộp.
-
 
 ## Tổng quan chương trình
 
-Tên đầy đủ là Master of Software Engineering.
-Bản thân chương trình MSE là một chương trình thạc sĩ kỹ thuật; trước Fall 2027 gồm ba nhánh (track):
+Tên đầy đủ là Master of Software Engineering, một chương trình thạc sĩ kỹ thuật. Từ Fall 2027, MSE học tại trường được gộp thành một bằng, SS và ES không còn tuyển riêng mà trở thành concentration trong MSE ([FAQ chính thức](https://mse.s3d.cmu.edu/applicants/faq.html)). Khi nộp hồ sơ, bạn chọn MSE 16 tháng hoặc MSE - Applied Study 20 tháng, hai chương trình dùng chung một cổng nộp hồ sơ.
+
+Trước khi gộp có ba nhánh (track):
 
 1. Scalable Systems (SS)
 2. Embedded Systems (ES)

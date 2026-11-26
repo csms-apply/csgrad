@@ -7,9 +7,9 @@ title: "Princeton MSCS Admissions Guide: Courses and Program Experience"
 ---
 # Princeton MSCS
 
-**Update, November 2026:** Princeton CS says on its website that it “will not accept applications to the master's degree program for Fall 2027 admission” (that is the M.S.E.) — see the [official page](https://www.cs.princeton.edu/grad/masters-degree-requirements). Everything below is how things were before the pause, kept for reference.
-
 ## Program Overview
+
+No master's admissions for Fall 2027: the [official site](https://www.cs.princeton.edu/grad/masters-degree-requirements) states that M.S.E. applications will not be accepted for Fall 2027.
 
 Very few admissions, very mysterious. Before the pause, annual enrollment was 30 or fewer. Students were basically recruited to TA for undergrads. In past cycles, US undergrads from liberal arts colleges with strong GPAs and TA experience had a real shot.
 

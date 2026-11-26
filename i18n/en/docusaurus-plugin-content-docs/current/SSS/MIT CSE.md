@@ -8,7 +8,7 @@ title: "MIT CSE Admissions Guide: Courses and Program Experience"
 # MIT CSE
 
 ## Program Overview
-External admissions are still paused for 27 Fall. The official site says “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.” ([official page](https://cse.mit.edu/programs-admissions/cse-sm/)) No word on when they will resume (updated November 2026):
+External admissions are still paused for 27 Fall ([official page](https://cse.mit.edu/programs-admissions/cse-sm/)), and there's no word on when they will resume:
 [![MIT CSE SM external admissions status; open full size](/img/en/mit-cse-status.svg)](/img/en/mit-cse-status.svg)
 
 Full name: Master of Science in Computational Science and Engineering.

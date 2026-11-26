@@ -8,13 +8,13 @@ sidebar_label: "Upenn DSAI"
 # Upenn DSAI
 
 ## 项目介绍
-> 2026-11 更新：原 MSE in Data Science（DATS，2017 年开办）从 Fall 2026 起不再收申请，扩展并改名为 [MSE in Data Science & Artificial Intelligence（DSAI）](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/)，分 Data Science 和 Artificial Intelligence 两个 concentration，共用核心课。它是原 DS 的延续，不是另开的新项目。Fall 2027 申请已于 2026 年 9 月 15 日开放。下文是原 DS 的就读体验，申请要求和课程结构以 [DSAI 官网](https://dsai.engineering.upenn.edu/)为准。
+前身是 Upenn 的 Data Science 硕士（DATS），现在扩成了 [MSE in Data Science & Artificial Intelligence（DSAI）](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/)，分 Data Science 和 Artificial Intelligence 两个 concentration。
 
 项目最大的特点是 选课自由度极高，很多人进来后直接把 DS 读成 CS，在找工作时同时投 DS 和 SDE，甚至转码。
 
 可以全选cis 课也可以选Wharton的课，可选硬课如system 类，也可以选水一点的，自由度很高。官网写的基础课，和专业课几乎全可以waive
 
-以下是原 DS 项目的课程安排，DSAI 的课程以官网为准。项目要求 10 门课，默认 2 门 Foundation 课（编程 & 线代），大部分人可以 Waive，剩下 3 门 Core 课和 5 门 Electives。Core 课包括 Stats（ESE 5420）+ Big Data（CIS 5450）+ ML（CIS 5190/5200），Elective 课可以随意选，热门的包括 CIS 5500（数据库）、ESE 5460（深度学习）、CIS 5300（NLP）、CIS 5800（CV），以及沃顿的 OIDD 相关课程。选 CS 方向的课非常容易，甚至可以直接修成一个 “隐形 CS 硕士”。
+改名前的 DS 要求 10 门课，默认 2 门 Foundation 课（编程 & 线代），大部分人可以 Waive，剩下 3 门 Core 课和 5 门 Electives。Core 课包括 Stats（ESE 5420）+ Big Data（CIS 5450）+ ML（CIS 5190/5200），Elective 课可以随意选，热门的包括 CIS 5500（数据库）、ESE 5460（深度学习）、CIS 5300（NLP）、CIS 5800（CV），以及沃顿的 OIDD 相关课程。选 CS 方向的课非常容易，甚至可以直接修成一个 “隐形 CS 硕士”。
 
 
 

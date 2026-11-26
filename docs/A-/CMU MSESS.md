@@ -7,12 +7,11 @@ sidebar_label: "CMU MSE"
 
 # CMU MSE
 
-> 2026-11 更新：从 Fall 2027 起，MSE-SS 和 MSE-ES 不再作为单独的学位招生，校内 MSE 合并成一个学位，Scalable Systems 变成里面的 concentration（[官网 FAQ](https://mse.s3d.cmu.edu/applicants/faq.html)）。现在申请的是 16 个月的 MSE 或 20 个月的 MSE - Applied Study，两者共用一个申请入口，Fall 2027 截止 2026 年 12 月 9 日。下文是合并前 MSE-SS 的情况。
-
 
 ## 项目介绍
-全称是Master of Software Engineering，
-MSE项目本身是工程硕士，27 fall 之前有三个track：
+全称是Master of Software Engineering，是工程硕士。从 27 fall 开始校内的 MSE 合成了一个学位，SS 和 ES 不再单独招生，变成 MSE 里面的 concentration（[官网 FAQ](https://mse.s3d.cmu.edu/applicants/faq.html)）。申请时选 16 个月的 MSE 或者 20 个月的 MSE - Applied Study，两个共用一个申请入口。
+
+合并之前有三个track：
 1. Scalable System（SS）
 2. Embedded System（ES）
 3. Professional（Pro）
