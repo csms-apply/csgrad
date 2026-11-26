@@ -22,6 +22,9 @@ const MOVED = {
   // 这一页讲的一直是 CS28，网址原先写成了 cs37
   '/B/usc-cs37': '/B/usc-cs28',
   '/programs/usc-cs37': '/B/usc-cs28',
+  // MSE-SS 自 Fall 2027 并入统一的 MSE 学位
+  '/A-/cmu-msess': '/A-/cmu-mse',
+  '/programs/cmu-msess': '/A-/cmu-mse',
 };
 
 // Program pages briefly lived at /programs/<name> before the tier came back into the URL.

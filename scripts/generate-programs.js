@@ -64,6 +64,7 @@ const LEGACY_IDS = {
   '/A/uw-ece-pmp': 'a-university-of-washington-ee-pmp',
   '/A/upenn-mas-cs': 'a-upenn-mcit',
   '/A+/upenn-dsai': 'aplus-upenn-ds',
+  '/A-/cmu-mse': 'aminus-carnegie-mellon-university-mse-ss',
   '/SS/stanford-symbolic-system': 'ss-stanford-university-symbolic-system',
 };
 
