@@ -53,7 +53,7 @@ CM 66人，HT和UT大概都不到20個人，其他專業沒了解過。觀感中
 
 CT拿Cornell的文憑，所以大致可以看做Cornell。好像對於大科技廠來說Cornell不算target school，身邊認識的朋友反正Meta、Google、Apple、Uber等等知名大廠基本上寥寥無幾。大金主Bloomberg 倒是會給面試機會，負責我們學校的HR也還算積極，相比於見過的部分dp動輒ghost兩三個月，一般CT的next step都能在7-30天完成。十月份從學校收了一波簡歷，還會來學校onsite 面試，不過25 Summer至今也沒見過國人拿Intern offer的，相比paycom撈rice的程度來比還是差很多。
 
-還在找Summer Intern的大家應該都在指著今年Amazon大放水了，但是這和CT也沒啥關係了lol。總之學校基本提供不了什麼找工的幫助，Cornell的Title在招工市場上可能不如一些理工強校。
+還在找Summer Intern的大家應該都在指著 2025 年 Amazon 大放水了，但是這和CT也沒啥關係了lol。總之學校基本提供不了什麼找工的幫助，Cornell的Title在招工市場上可能不如一些理工強校。
 
 1. scu轉學美本，有四個月小廠實習，上岸meta ng
 

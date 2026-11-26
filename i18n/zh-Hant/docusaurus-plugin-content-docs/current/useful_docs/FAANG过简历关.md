@@ -7,7 +7,7 @@ description: "從個人 2025 Summer 實習申請經歷出發，聊 Meta、Apple�
 
 # FAANG過簡歷關 {#faang过简历关}
 
-今年非常幸運的在25 summer 找實習過程中，FAANG都收到了面試，並且通過了all參加的面試（暫且用nvidia代替netflix）。寫一下FAANG如何通過簡歷關，並且收到vo
+2024–25 年非常幸運的在25 summer 找實習過程中，FAANG都收到了面試，並且通過了all參加的面試（暫且用nvidia代替netflix）。寫一下FAANG如何通過簡歷關，並且收到vo
 
 Facebook(meta)：吃hr reach out和內推，認識的進入meta的同學主要分為兩部分，第一部分是hr主動reach out，第二部分是開崗馬上找學長學姐幫忙內推。俗話說無內推不meta，meta的內推政策是需要在14天內處理內推申請，如果找內推meta intern需要開崗就找，24 年9月末meta 開崗只給了幾天內推intern的機會，然後就關閉了渠道。
 

@@ -7,9 +7,11 @@ sidebar_label: "Princeton MSCS"
 ---
 # Princeton MSCS
 
+**2026 年 11 月更新**：Princeton CS 官網寫明 Fall 2027 不接受碩士（M.S.E.）申請，原文 “will not accept applications to the master's degree program for Fall 2027 admission”，見[官網](https://www.cs.princeton.edu/grad/masters-degree-requirements)。下面是停招前的情況，留作參考。
+
 ## 項目介紹 {#项目介绍}
 
-招生很少，很神秘，一年招生的hc小於等於30個，基本就是招來給本科生當TA的。美本文理學院有很好的gpa和ta經驗的同學可以衝
+招生很少，很神秘，停招前一年招生的hc小於等於30個，基本就是招來給本科生當TA的。往屆是美本文理學院有很好的gpa和ta經驗的同學可以衝
 
 ## 錄取bar 方面和dp {#录取bar-方面和dp}
 

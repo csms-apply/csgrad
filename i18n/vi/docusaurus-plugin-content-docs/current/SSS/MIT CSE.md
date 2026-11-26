@@ -8,14 +8,14 @@ title: "Hướng dẫn ứng tuyển MIT CSE: môn học và trải nghiệm ch�
 # MIT CSE
 
 ## Giới thiệu chương trình
+Kỳ 27 Fall vẫn tạm ngừng tuyển ứng viên ngoài trường. Trang chính thức ghi “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.” ([trang chính thức](https://cse.mit.edu/programs-admissions/cse-sm/)), chưa rõ khi nào tuyển lại (cập nhật tháng 11/2026):
+[![Tình trạng tuyển sinh ứng viên ngoài trường của MIT CSE SM; bấm để mở kích thước đầy đủ](/img/vi/mit-cse-status.svg)](/img/vi/mit-cse-status.svg)
+
 Tên đầy đủ: Master of Science in Computational Science and Engineering.
 Chương trình tập trung vào tính toán và khoa học cơ bản, môn học chủ yếu là optimization và numerical computing. CSE do tám khoa cùng tổ chức: Toán, Hàng không vũ trụ, Kỹ thuật hóa học, Kỹ thuật xây dựng và môi trường, Khoa học Trái Đất, khí quyển và hành tinh, Khoa học và kỹ thuật vật liệu, Kỹ thuật cơ khí, Khoa học và kỹ thuật hạt nhân. Đây không phải chương trình CS; nếu muốn nộp chương trình CS thuần, hãy xem khoa MIT EECS. MIT CSE không đảm bảo hỗ trợ tài chính cho mọi người trúng tuyển; chương trình sẽ cố gắng ghép người trúng tuyển với giáo sư có kinh phí nghiên cứu, và hỗ trợ tài chính đến từ dự án nghiên cứu của giáo sư.
 
-MIT CSE hiện đã ngừng tuyển sinh, chưa rõ khi nào sẽ tuyển lại ứng viên ngoài trường (cập nhật 26fall):
-[![Tình trạng tuyển sinh ứng viên ngoài trường của MIT CSE SM; bấm để mở kích thước đầy đủ](/img/vi/mit-cse-status.svg)](/img/vi/mit-cse-status.svg)
-
 ## Ngưỡng trúng tuyển và dữ liệu thực tế
-Mỗi năm tuyển khoảng 15 người.
+Trước khi ngừng tuyển, mỗi năm tuyển khoảng 15 người.
 Sinh viên đại học các ngành Toán/Vật lý/Hóa học/Xây dựng/Vật liệu/Kỹ thuật của hai trường top 2 Trung Quốc, có kinh nghiệm nghiên cứu chuyên sâu.
 Dữ liệu các năm trước:
 1. Cử nhân CS+Math tại một liberal arts college top 10, GPA 4.0, thực tập tại NASA

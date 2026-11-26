@@ -1,5 +1,5 @@
 ---
-slug: usc-cs37
+slug: usc-cs28
 description: "USC CS28 的两年制学习安排、申请中 GPA 与本科背景的影响，以及大班规模下的科研机会和往届软件岗位求职情况。"
 title: "USC CS28 申请指南：课程与项目体验"
 sidebar_label: "USC CS28"
@@ -11,7 +11,7 @@ sidebar_label: "USC CS28"
 两年项目，出了名的只看gpa, class size巨大（除了cs28还有cs37），快一千来号人了
 
 ## 录取情况
-只看bg和gpa，推荐信optional，rolling制度。
+只看bg和gpa，推荐信 optional；Fall 2027 有两个截止：12 月 15 日（想拿奖学金）和 1 月 15 日（最终）。
 是把所有学校申请人放到一块看gpa，然后按照gpa 从上往下发offer，看重985/211背景。
 
 不看实习不看科研，推荐高gpa 选手拿来保底

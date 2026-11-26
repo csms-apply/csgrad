@@ -1,8 +1,8 @@
 ---
 slug: /guides/online-mscs-programs
 sidebar_label: "온라인 MSCS 프로그램"
-title: "온라인 CS 석사 프로그램: MSCS와 MCIT 옵션"
-description: "Georgia Tech, UIUC, UT Austin, Stanford, Columbia CVN, Penn MCIT를 포함한 온라인 CS 석사 옵션의 짧은 목록과 일부 프로그램 메모."
+title: "온라인 CS 석사 프로그램: MSCS와 MAS-CS 옵션"
+description: "Georgia Tech, UIUC, UT Austin, Stanford, Columbia CVN, Penn MAS-CS(구 MCIT)를 포함한 온라인 CS 석사 옵션의 짧은 목록과 일부 프로그램 메모."
 ---
 # 온라인 MSCS 프로그램
 
@@ -22,4 +22,4 @@ Columbia CVN (수업 선택이 최상급이고 교내 도서관 이용 가능 �
 
 Boston OMSCS
 
-UPenn MCIT Online — GPA가 높은 전공 전환자에게 유리; CS 수업을 두 과목 넘게 들을 수 없음
+UPenn MAS-CS Online(구 MCIT Online) — GPA가 높은 전공 전환자에게 유리; CS 수업을 두 과목 넘게 들을 수 없음. Fall 2027은 priority 마감 2027년 3월 1일, final 마감 5월 31일

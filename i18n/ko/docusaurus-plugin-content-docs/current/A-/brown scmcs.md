@@ -26,7 +26,7 @@ GPA: 3.8+ (또는 100점 만점 기준 90+; 중국 상위 5개 대학 학부생�
 
 TOEFL: 105
 
-IELTS: Speaking 8점이 하드 컷오프
+IELTS: 총점 최소 8.0
 
 CS 전공이어야 함 (성적표에 기재된 전공이 Computer Science여야 함)
 

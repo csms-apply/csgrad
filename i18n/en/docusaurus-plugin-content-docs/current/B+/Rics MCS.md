@@ -18,7 +18,7 @@ Rice MCS is frequently compared with USC CS28, UCI MCS/MSWE, Duke MECE, NYU Tand
 Mostly mainland China 985/211 undergrads (GPA around 88), US undergrads with GPA 3.6+.
 1. UESTC Software Engineering undergrad, GPA 3.83
 ## Job Outcomes
-For 25 Summer, statistically about 40% of students around me landed internships. Paycom is a safety-net employer that only hires Texas-based students (last year they hired 15 Rice MCS students). With good preparation, the chances of landing are high -- all interview algorithm questions are recycled problems. Paycom recruited over a dozen people for 25 Summer. In 2022 Fall, about 90% of Taiwanese students found internships.
+For 25 Summer, statistically about 40% of students around me landed internships. Paycom is a safety-net employer that only hires Texas-based students (in 2024 they hired 15 Rice MCS students). With good preparation, the chances of landing are high -- all interview algorithm questions are recycled problems. Paycom recruited over a dozen people for 25 Summer. In 2022 Fall, about 90% of Taiwanese students found internships.
 
 For 25 Summer, 4 people landed Meta, and approximately 10 people landed Amazon.
 

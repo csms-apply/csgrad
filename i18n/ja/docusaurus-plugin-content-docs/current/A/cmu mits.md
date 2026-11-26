@@ -8,7 +8,7 @@ description: "CMU MITS のトラック、柔軟な SCS の授業選択、企業�
 # CMU MITS
 
 ## プログラム概要
-SCS、CIT、IPS が共同で運営する joint プログラムです。（実際のところ、気にする人はいません。CMU では MSCS を除けば、他のプログラム間の評判の差は個人差に埋もれてしまいます。）
+SCS、CIT、CMIST（旧 IPS）が共同で運営する joint プログラムです。（実際のところ、気にする人はいません。CMU では MSCS を除けば、他のプログラム間の評判の差は個人差に埋もれてしまいます。）
 
 ## 4 つのトラック
 Software and Networked Systems、Data Analytics、Information Security、Technology Strategy & Governance

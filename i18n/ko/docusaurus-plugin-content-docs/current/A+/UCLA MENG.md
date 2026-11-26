@@ -94,7 +94,7 @@ UCLA MEng에는 졸업을 입학 다음 해 12월로 미룰 수 있는 방법이
 
   예를 들어 다음과 같은 시간표가 가능합니다.  
   - 26Fall: 선택 과목 2개 + petition으로 대체한 학부 OS 과목 1개  
-  - 26Winter: core 과목 2개  
+  - 27Winter: core 과목 2개  
   - 27Spring: 직무 역량 과목 2개  
   - 27Summer: 캡스톤 프로젝트  
   - 27Fall: 직무 역량 과목 1개

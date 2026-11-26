@@ -53,7 +53,7 @@ Thông tin tìm việc chỉ giới hạn ở sinh viên Trung Quốc đại l�
 
 CT cấp bằng Cornell nên đại khái có thể coi là Cornell. Có vẻ Cornell không phải target school của các công ty công nghệ lớn -- trong số những người mình biết, rất ít người vào được Meta, Google, Apple, Uber hay các big tech nổi tiếng khác. Bloomberg, nhà tài trợ lớn, có cho cơ hội phỏng vấn, và HR phụ trách trường mình cũng khá chủ động. So với một số DataPoints bị bỏ lơ hai ba tháng, các vòng tiếp theo ở CT thường hoàn tất trong 7-30 ngày. Tháng 10 họ có thu một đợt CV từ trường và tới phỏng vấn trực tiếp, nhưng đến giờ chưa có sinh viên Trung Quốc nào nhận được offer thực tập 25 Summer từ họ. So với mức độ Paycom tuyển người từ Rice thì còn kém xa.
 
-Những ai vẫn đang tìm thực tập Summer có lẽ đều trông chờ vào đợt tuyển dụng lớn của Amazon năm nay, nhưng chuyện đó chẳng liên quan gì đến CT, haha. Tóm lại, trường gần như không hỗ trợ gì cho việc tìm việc, và danh tiếng Cornell trên thị trường việc làm có thể không giá trị bằng một số trường thiên về kỹ thuật.
+Những ai vẫn đang tìm thực tập Summer có lẽ đều trông chờ vào đợt tuyển dụng lớn của Amazon năm 2025, nhưng chuyện đó chẳng liên quan gì đến CT, haha. Tóm lại, trường gần như không hỗ trợ gì cho việc tìm việc, và danh tiếng Cornell trên thị trường việc làm có thể không giá trị bằng một số trường thiên về kỹ thuật.
 
 1. Chuyển từ SCU sang học đại học ở Mỹ, thực tập bốn tháng ở công ty nhỏ, nhận offer new grad của Meta
 

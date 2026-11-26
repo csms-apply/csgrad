@@ -14,7 +14,7 @@ Let me start with the campus environment. The Silicon Valley campus is still in 
 
 If you want to apply for this program, note that you cannot have taken more than 2 CS prerequisite courses. If you've taken more than two, you can only apply to the MSCS program instead. A few application tips: submit as early as possible! Silicon Valley is extremely popular, and spots fill up fast (reviewer note: this is debatable -- starting from 2025, NEU's application popularity has dropped significantly, roughly halved from the 2023 peak when it was a must-apply "lottery ticket" program for everyone). Don't include data structures/algorithms or other CS fundamentals in your application background -- Align assumes you have zero CS background, and listing them will hurt your application. You can apply to Align + General CS + DS/IS simultaneously and see which one comes through first. Highly recommend scheduling a 1-on-1 meeting with an admissions officer to review your resume and essays beforehand -- the service is quite good, and you can find contact info with a quick Google search.
 
-When applying, look for a waiver code to get the application fee waived.
+Align currently has no application fee.
 
 
 ## Admission Preferences & Representative Data Points

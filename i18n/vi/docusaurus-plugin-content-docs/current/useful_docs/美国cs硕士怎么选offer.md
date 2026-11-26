@@ -8,7 +8,7 @@ description: "Khung so sánh các offer thạc sĩ CS ở Mỹ cho người theo
 
 # Chọn offer thạc sĩ CS ở Mỹ như thế nào
 
-Các bạn khóa Fall 2025 mà tôi hướng dẫn đã nhận được khá nhiều offer và đang quyết định nơi học cuối cùng. Mong mọi người vừa tận hưởng kỳ nghỉ cuối cùng của thời đại học, vừa đưa ra được lựa chọn ưng ý. Bài viết này dành riêng cho những bạn có mục tiêu tìm thực tập SWE ở Mỹ rồi nhắm tới return offer.
+(Viết vào mùa xuân 2025.) Khi đó các bạn khóa Fall 2025 mà tôi hướng dẫn đã nhận được khá nhiều offer và đang quyết định nơi học cuối cùng. Mong mọi người vừa tận hưởng kỳ nghỉ cuối cùng của thời đại học, vừa đưa ra được lựa chọn ưng ý. Bài viết này dành riêng cho những bạn có mục tiêu tìm thực tập SWE ở Mỹ rồi nhắm tới return offer.
 
 1. Nguyên tắc 1: Chọn chương trình 1.5 năm hoặc 2 năm để có cơ hội thực tập hè và nhắm tới return offer để ở lại.
 

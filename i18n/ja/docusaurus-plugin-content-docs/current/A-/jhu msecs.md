@@ -15,7 +15,7 @@ MSECS は JHU の CS プログラムで、異分野から CS に転向するた�
 
 
 ## 標準テストの要件
-2024年の出願シーズンでは、TOEFL 100 と GRE の提出が必須でした。しかし MSECS は出願ページで、GRE のスコアを提出しても審査には使わないと明記しています。GRE の要件は、あくまで上位の工学部の方針によって存在しているだけです（「Whiting School of Engineering では、すべての修士プログラムの出願に GRE General Test のスコアを求めています。ただし Department of Computer Science ではこのスコアを審査せず、出願審査の過程で合否の結果に影響することもありません。」）
+2024年の出願では TOEFL 100 が必要で、工学部として GRE の提出が必須でしたが、学科は見ていませんでした（「Whiting School of Engineering では、すべての修士プログラムの出願に GRE General Test のスコアを求めています。ただし Department of Computer Science ではこのスコアを審査せず、出願審査の過程で合否の結果に影響することもありません。」）。現在は公式サイトに GRE 不要・出願料なしと明記されています（原文 “No GRE required, and no application fee.”、[公式サイト](https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/)）。Fall 2027 の締め切りは 2 月 15 日です。
 
 
 ## 合格傾向 & 代表的な DataPoints

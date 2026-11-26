@@ -8,14 +8,14 @@ title: "MIT CSE 出願ガイド：授業とプログラム体験"
 # MIT CSE
 
 ## プログラム概要
+27 Fall も外部からの出願受け入れは停止したままです。公式サイトの原文は “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.”（[公式サイト](https://cse.mit.edu/programs-admissions/cse-sm/)）。いつ再開するかは未定です（2026年11月更新）：
+[![MIT CSE SM 外部出願者の募集状況。クリックすると原寸で開きます](/img/ja/mit-cse-status.svg)](/img/ja/mit-cse-status.svg)
+
 正式名称：Master of Science in Computational Science and Engineering。
 計算と基礎科学に重点を置き、授業は主に最適化と数値計算を扱います。CSE は Mathematics、Aerospace、Chemical Engineering、Civil and Environmental Engineering、Earth, Atmospheric and Planetary Sciences、Materials Science and Engineering、Mechanical Engineering、Nuclear Science and Engineering の 8 学科が共同で運営しています。CS のプログラムではないので、純粋な CS プログラムに出願したい場合は MIT EECS を検討してください。MIT CSE は合格者全員に資金援助を保証しておらず、プログラム側は合格者を、受託研究を通じて支援できる教員とマッチングするよう努めています。
 
-MIT CSE は現在、学生の募集を停止しています。外部からの出願者の受け入れをいつ再開するかは未定です（26fall 更新）：
-[![MIT CSE SM 外部出願者の募集状況。クリックすると原寸で開きます](/img/ja/mit-cse-status.svg)](/img/ja/mit-cse-status.svg)
-
 ## 合格ラインとデータポイント
-毎年の入学者数は約 15 名です。
+募集停止前の入学者数は毎年約 15 名でした。
 中国国内トップ 2 大学の Math/Physics/Chemistry/Civil Engineering/Materials/Engineering の学部生で、本格的な研究経験を持っていることが求められます。
 過去のデータポイント：
 1. Top 10 のリベラルアーツカレッジ CS+Math 学部、GPA 4.0、NASA インターン

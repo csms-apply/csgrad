@@ -9,7 +9,7 @@ title: "UPenn Robotics MSR Admissions Guide: Courses and Program Experience"
 
 ## Program Overview
 Before coming, I imagined this program as "super hardcore, super competitive, labs grinding around the clock"...
-But after arriving, I realized: ROBO is truly one of the most flexible and "do it yourself" robotics master's programs in the US! You can also dual with MCIT/MCIS and others.
+But after arriving, I realized: ROBO is truly one of the most flexible and "do it yourself" robotics master's programs in the US! You can also dual with CIS and others.
 
 One-sentence summary of my biggest takeaway:
 "High freedom = unlimited possibilities, but it also means you must be very clear about what you want."

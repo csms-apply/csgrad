@@ -23,7 +23,7 @@ BIDA 또는 general 트랙을 선택하면서 좋은 SCS/INI 수업을 많이 �
 ![CMU MISM core 수업 목록](/img/en/mismcore.png)
 
 ## 대표 합격 DataPoints
-Rolling admissions입니다 -- 일찍 지원하면 일찍 합격합니다. MISM에 오고 싶다면 최대한 일찍 지원하세요.
+Fall 2027은 두 라운드입니다. Round 1은 12월 1일, Round 2는 1월 10일이고, 그 뒤에는 자리가 남았을 때만 rolling으로 심사하며 지원 시스템은 6월 15일에 닫힙니다. 장학금을 받고 싶다면 2월 1일까지 내세요. MISM에 오고 싶다면 최대한 일찍 지원하세요.
 
 1. UW-Madison CS 학부 + Tencent 인턴십, GPA 3.7
 2. HUST CS 학부, GPA 3.86, 퀀트 인턴십 2회

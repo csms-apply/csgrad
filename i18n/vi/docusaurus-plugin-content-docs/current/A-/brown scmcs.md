@@ -26,7 +26,7 @@ GPA: 3.8+ (hoặc 90+ trên thang 100; cử nhân Trung Quốc từ top 5 trư�
 
 TOEFL: 105
 
-IELTS: Speaking 8 là ngưỡng bắt buộc
+IELTS: tổng điểm tối thiểu 8.0
 
 Phải học ngành CS (ngành ghi trên bảng điểm phải là Computer Science)
 

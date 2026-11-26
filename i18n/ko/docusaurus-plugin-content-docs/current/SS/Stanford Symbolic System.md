@@ -1,11 +1,11 @@
 ---
 slug: stanford-symbolic-system
 description: "Stanford Symbolic Systems는 컴퓨팅을 언어학, 심리학, 철학 등의 분야와 결합합니다. 논문 요건과 연구 중심 합격 경향을 살펴보세요."
-sidebar_label: "Stanford Symbolic System"
+sidebar_label: "Stanford Symbolic Systems"
 title: "Stanford Symbolic Systems 지원 가이드: 수업과 프로그램 후기"
 ---
 
-# Stanford Symbolic System
+# Stanford Symbolic Systems
 
 ## 프로그램 개요
 연구 기반 프로그램입니다. 포지셔닝은 MIT CSE를 참고하세요. Symbolic Systems는 학제 간 프로그램으로, 학과는 학생이 다음 분야 중 최소 두 개에 대한 지식을 갖추기를 기대합니다.

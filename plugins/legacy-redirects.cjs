@@ -14,6 +14,14 @@ const MOVED = {
   // UW 的 EE 学位更名为 ECE，网址跟着改；旧网址继续可用
   '/A/uw-ee-pmp': '/A/uw-ece-pmp',
   '/programs/uw-ee-pmp': '/A/uw-ece-pmp',
+  // MCIT 改名 MAS-CS，原 DS 扩展为 DSAI
+  '/A/upenn-mcit': '/A/upenn-mas-cs',
+  '/programs/upenn-mcit': '/A/upenn-mas-cs',
+  '/A+/upenn-ds': '/A+/upenn-dsai',
+  '/programs/upenn-ds': '/A+/upenn-dsai',
+  // 这一页讲的一直是 CS28，网址原先写成了 cs37
+  '/B/usc-cs37': '/B/usc-cs28',
+  '/programs/usc-cs37': '/B/usc-cs28',
 };
 
 // Program pages briefly lived at /programs/<name> before the tier came back into the URL.

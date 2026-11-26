@@ -1,5 +1,5 @@
 ---
-slug: usc-cs37
+slug: usc-cs28
 description: "USC CS28 student observations on large cohorts, GPA-focused admission patterns and access to research, with examples of admitted applicants and careers."
 sidebar_label: "USC CS28"
 title: "USC CS28 Admissions Guide: Courses and Program Experience"
@@ -11,7 +11,7 @@ title: "USC CS28 Admissions Guide: Courses and Program Experience"
 A two-year program, famously known for only looking at GPA. The class size is enormous (between CS28 and CS37), approaching nearly a thousand students.
 
 ## Admission
-Only looks at background and GPA. Recommendation letters are optional. Rolling admissions. All applicants from all schools are pooled together and ranked by GPA, with offers sent from top to bottom. 985/211 university backgrounds are valued.
+Only looks at background and GPA. Recommendation letters are optional. Fall 2027 has two deadlines: December 15 (if you want scholarship consideration) and January 15 (final). All applicants from all schools are pooled together and ranked by GPA, with offers sent from top to bottom. 985/211 university backgrounds are valued.
 
 Internships and research are not considered. Recommended as a safety school for high-GPA candidates.
 

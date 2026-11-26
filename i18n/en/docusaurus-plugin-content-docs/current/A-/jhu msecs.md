@@ -15,7 +15,7 @@ The class size is small, which can be advantageous when applying for internships
 
 
 ## Standardized Test Requirements
-For the 2024 application cycle, the required scores were TOEFL 100 and GRE required. However, MSECS explicitly states on the application page that even if you submit GRE scores, they will not review them. The GRE requirement exists solely because of the parent school's policy (The Whiting School of Engineering requires GRE General Test scores for applications to all master's programs. However, the Department of Computer Science does not review these scores nor do they have any impact on the outcome of admissions decisions during the application review process.)
+Back in the 2024 cycle, TOEFL 100 was required and the school required the GRE, but the department did not look at it (The Whiting School of Engineering requires GRE General Test scores for applications to all master's programs. However, the Department of Computer Science does not review these scores nor do they have any impact on the outcome of admissions decisions during the application review process.) Now the official site says “No GRE required, and no application fee.” ([official page](https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/)), and the Fall 2027 deadline is February 15.
 
 
 ## Admission Preferences & Representative Data Points

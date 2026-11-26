@@ -1,20 +1,20 @@
 ---
-slug: upenn-ds
-description: "UPenn Data Science combines statistics, machine learning and flexible electives. See how students build CS-focused schedules and compare admission profiles."
-sidebar_label: "Upenn DS"
-title: "UPenn Data Science Admissions Guide: Courses and Program Experience"
+slug: upenn-dsai
+description: "UPenn DSAI (formerly Data Science) combines statistics, machine learning and flexible electives. See how students build CS-focused schedules and compare admission profiles."
+sidebar_label: "Upenn DSAI"
+title: "UPenn DSAI Admissions Guide: Courses and Program Experience"
 ---
 
-# Upenn DS
+# Upenn DSAI
 
 ## Program Overview
-> October 2026 update: In September 2026, Penn Engineering launched a new [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/), and Fall 2027 applications opened on September 15. The [admissions page](https://gradadm.seas.upenn.edu/masters/data-science/) now lists only DSAI as the on-campus option, while the Data Science MSE is offered online. The rest of this page describes the experience in the original on-campus MSE in Data Science; check the DSAI website for current requirements and curriculum.
+> November 2026 update: The original MSE in Data Science (DATS, started in 2017) stopped taking applications as of Fall 2026 and was expanded and renamed the [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/), with two concentrations — Data Science and Artificial Intelligence — sharing the same core courses. It's the continuation of the old DS program, not a separate new one. Fall 2027 applications opened on September 15, 2026. The rest of this page describes the experience in the original DS program; check the [DSAI website](https://dsai.engineering.upenn.edu/) for current requirements and curriculum.
 
 The program's biggest feature is its extremely high degree of course selection freedom. Many students end up turning DS into CS once enrolled, applying to both DS and SDE positions, or even making a career change to CS.
 
 You can take all CIS courses or Wharton courses, choose hard systems courses or easier ones -- the flexibility is very high. The foundation and major courses listed on the official website can almost all be waived.
 
-The program requires 10 courses, with 2 Foundation courses by default (programming & linear algebra). Most people can waive these, leaving 3 Core courses and 5 Electives. Core courses include Stats (ESE 542) + Big Data (CIS 545) + ML (CIS 519/520). Elective courses can be freely chosen; popular ones include CIS 550 (Database), ESE 546 (Deep Learning), CIS 530 (NLP), CIS 580 (CV), and Wharton's OIDD-related courses. Taking CS-track courses is very easy, and you can essentially build a "stealth CS master's."
+What follows is the course setup of the original DS program; check the official site for DSAI's curriculum. The program requires 10 courses, with 2 Foundation courses by default (programming & linear algebra). Most people can waive these, leaving 3 Core courses and 5 Electives. Core courses include Stats (ESE 5420) + Big Data (CIS 5450) + ML (CIS 5190/5200). Elective courses can be freely chosen; popular ones include CIS 5500 (Database), ESE 5460 (Deep Learning), CIS 5300 (NLP), CIS 5800 (CV), and Wharton's OIDD-related courses. Taking CS-track courses is very easy, and you can essentially build a "stealth CS master's."
 
 
 

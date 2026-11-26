@@ -23,7 +23,7 @@ Phần core này đáng để giới thiệu riêng -- bạn có thể thấy kh
 ![Danh sách môn core của CMU MISM](/img/en/mismcore.png)
 
 ## DataPoints trúng tuyển tiêu biểu
-Xét tuyển cuốn chiếu (rolling admissions) -- nộp sớm thì có kết quả sớm. Muốn vào MISM thì hãy nộp càng sớm càng tốt.
+Fall 2027 chia hai vòng: Round 1 ngày 1/12, Round 2 ngày 10/1. Sau hai vòng nếu còn chỗ mới xét cuốn chiếu (rolling), hệ thống đóng ngày 15/6. Muốn được xét học bổng thì nộp trước 1/2. Muốn vào MISM thì hãy nộp càng sớm càng tốt.
 
 1. Đại học UW-Madison ngành CS + thực tập ở Tencent, GPA 3.7
 2. Đại học HUST ngành CS, GPA 3.86, 2 lần thực tập quant

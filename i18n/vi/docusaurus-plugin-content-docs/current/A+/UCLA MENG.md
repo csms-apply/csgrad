@@ -94,7 +94,7 @@ UCLA MEng có hai cách để lùi ngày tốt nghiệp sang tháng 12 của nă
 
   Ví dụ, lịch học sau đây được chấp nhận:  
   - 26Fall: 2 môn tự chọn + 1 môn OS bậc cử nhân xin qua petition  
-  - 26Winter: 2 môn core  
+  - 27Winter: 2 môn core  
   - 27Spring: 2 môn phát triển nghề nghiệp  
   - 27Summer: dự án capstone  
   - 27Fall: 1 môn phát triển nghề nghiệp

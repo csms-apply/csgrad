@@ -58,7 +58,7 @@
   {
     "id": "ss-stanford-university-symbolic-system",
     "school": "Stanford University",
-    "program": "Symbolic System",
+    "program": "Symbolic Systems",
     "tier": "SS",
     "slug": "/SS/stanford-symbolic-system"
   },
@@ -219,9 +219,9 @@
   {
     "id": "aplus-upenn-ds",
     "school": "UPenn",
-    "program": "DS",
+    "program": "DSAI",
     "tier": "A+",
-    "slug": "/A+/upenn-ds"
+    "slug": "/A+/upenn-dsai"
   },
   {
     "id": "aplus-upenn-msr",
@@ -282,9 +282,9 @@
   {
     "id": "a-upenn-mcit",
     "school": "UPenn",
-    "program": "MCIT",
+    "program": "MAS-CS",
     "tier": "A",
-    "slug": "/A/upenn-mcit"
+    "slug": "/A/upenn-mas-cs"
   },
   {
     "id": "a-yale-university-mscs-1-year",
@@ -536,7 +536,7 @@
     "school": "USC",
     "program": "CS28",
     "tier": "B",
-    "slug": "/B/usc-cs37"
+    "slug": "/B/usc-cs28"
   },
   {
     "id": "b-utah-state-university-mscs",

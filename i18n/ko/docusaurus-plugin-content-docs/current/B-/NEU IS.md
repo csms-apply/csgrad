@@ -11,7 +11,7 @@ title: "Northeastern Information Systems 지원 가이드: 수업과 프로그�
 co-op 기회를 제공하는 CS 전공 전환 프로그램입니다. MSCS와 비슷하고, I-20에는 CS 관련 직함인 SE(Software Engineering)가 표기됩니다.
 
 캠퍼스가 여러 곳입니다.
-전통적인 미국 대학 캠퍼스 생활을 경험하고 싶고, 젊어서 취업을 서두르지 않으며, 종합 프로필이 강하다면 Boston 캠퍼스로 가세요. 빅테크 취업이 목표이거나 Boston의 겨울을 견디기 힘들다면 Silicon Valley 캠퍼스로 오세요. 2025-2026 입학에는 GRE가 필요 없고, College of Engineering은 Spring 2027과 Fall 2027 입학의 MS 지원비를 면제했습니다.
+전통적인 미국 대학 캠퍼스 생활을 경험하고 싶고, 젊어서 취업을 서두르지 않으며, 종합 프로필이 강하다면 Boston 캠퍼스로 가세요. 빅테크 취업이 목표이거나 Boston의 겨울을 견디기 힘들다면 Silicon Valley 캠퍼스로 오세요. Fall 2027 입학에는 GRE가 선택 사항이고, College of Engineering은 Spring 2027과 Fall 2027 입학의 MS 지원비를 면제했습니다.
 
 보통 졸업까지 2년이 걸리지만, 중간에 인턴십이나 co-op을 하면 약 2년 반이 걸릴 수 있습니다.
 

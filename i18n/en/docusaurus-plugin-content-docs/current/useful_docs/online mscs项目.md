@@ -1,8 +1,8 @@
 ---
 slug: /guides/online-mscs-programs
 sidebar_label: "Online MSCS Programs"
-title: "Online CS Master's Programs: MSCS and MCIT Options"
-description: "A short list of online CS master's options, including Georgia Tech, UIUC, UT Austin, Stanford, Columbia CVN and Penn MCIT, with selected program notes."
+title: "Online CS Master's Programs: MSCS and MAS-CS Options"
+description: "A short list of online CS master's options, including Georgia Tech, UIUC, UT Austin, Stanford, Columbia CVN and Penn MAS-CS (formerly MCIT), with selected program notes."
 ---
 # Online MSCS Programs
 
@@ -22,4 +22,4 @@ Columbia CVN (course selection is top-tier, and you can access the on-campus lib
 
 Boston OMSCS
 
-UPenn MCIT Online — favors career changers with high GPAs; you cannot take more than two CS courses
+UPenn MAS-CS Online (formerly MCIT Online) — favors career changers with high GPAs; you cannot take more than two CS courses. For Fall 2027 the priority deadline is March 1, 2027 and the final deadline is May 31

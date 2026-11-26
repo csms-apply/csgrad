@@ -8,9 +8,9 @@ title: "Hướng dẫn ứng tuyển UIUC ECE MEng: môn học và trải nghi�
 # UIUC ECE MENG
 
 ## Tổng quan chương trình
-Hỗ trợ co-op, chọn môn linh hoạt bao quát cả phần mềm lẫn phần cứng, phù hợp với người chuyển ngành sang CS. Bạn có thể học khá nhiều môn CS như ECE428 Distributed Systems hay CS411 Database Systems, nhưng quy định chính thức yêu cầu ít nhất 18 trên 32 tín chỉ phải là môn ECE, và ít nhất 8 trên 12 tín chỉ bậc 500 phải là ECE. Những năm trước, chương trình hỗ trợ CPT cho thực tập mùa hè với diện nhập học kỳ xuân, và làm co-op thì có thể lùi thời gian tốt nghiệp.
+Hỗ trợ co-op, chọn môn linh hoạt bao quát cả phần mềm lẫn phần cứng, phù hợp với người chuyển ngành sang CS. Bạn có thể học khá nhiều môn CS như ECE428 Distributed Systems hay CS411 Database Systems, nhưng quy định chính thức yêu cầu ít nhất 18 trên 32 tín chỉ phải là môn ECE, và ít nhất 8 trên 12 tín chỉ bậc 500 phải là ECE. Chương trình có nhập học kỳ xuân và hỗ trợ CPT cho thực tập mùa hè, và làm co-op thì có thể lùi thời gian tốt nghiệp.
 
-Cho phép hoãn nhập học (deferral) một năm. Sinh viên có nền tảng phần mềm yếu có thể dùng năm này để thực tập ở Trung Quốc nhằm củng cố hồ sơ, giúp ích cho việc tìm việc toàn thời gian ở Mỹ sau này — khá thuận lợi cho chuyện tìm việc. Hiện chương trình cho hoãn nhập học thoải mái; ngay cả khi không có dịch bệnh, bạn vẫn có thể chọn hoãn một năm. Chương trình cũng có nhiều lộ trình tốt nghiệp; xem chi tiết ở sơ đồ bên dưới.
+Cho phép hoãn nhập học (deferral) một năm. Sinh viên có nền tảng phần mềm yếu có thể dùng năm này để thực tập ở Trung Quốc nhằm củng cố hồ sơ, giúp ích cho việc tìm việc toàn thời gian ở Mỹ sau này — khá thuận lợi cho chuyện tìm việc. Các năm trước chương trình cho hoãn nhập học một năm; cụ thể hãy theo thư trúng tuyển của năm bạn nộp. Chương trình cũng có nhiều lộ trình tốt nghiệp; xem chi tiết ở sơ đồ bên dưới.
 
 
 [![Các lộ trình hoàn thành bằng UIUC ECE MEng, bấm để xem ảnh gốc](/img/vi/uiucece.svg)](/img/vi/uiucece.svg)

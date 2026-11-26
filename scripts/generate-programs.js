@@ -62,6 +62,9 @@ const LEGACY_IDS = {
   '/A+/ucla-meng': 'bplus-ucla-meng',
   // 项目改名为 ECE PMP，id 保持不变
   '/A/uw-ece-pmp': 'a-university-of-washington-ee-pmp',
+  '/A/upenn-mas-cs': 'a-upenn-mcit',
+  '/A+/upenn-dsai': 'aplus-upenn-ds',
+  '/SS/stanford-symbolic-system': 'ss-stanford-university-symbolic-system',
 };
 
 /**

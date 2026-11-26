@@ -8,9 +8,9 @@ title: "UIUC ECE MEng Admissions Guide: Courses and Program Experience"
 # UIUC ECE MENG
 
 ## Program Overview
-Supports co-op, offers flexible course selection covering both software and hardware, suitable for career changers to CS. You can take plenty of CS courses, such as ECE428 Distributed Systems or CS411 Database Systems, but the official rules require at least 18 of the 32 credits to be ECE courses, and at least 8 of the 12 500-level credits to be ECE. In previous years, it supported CPT for summer internships with spring enrollment, and co-op allows delayed graduation.
+Supports co-op, offers flexible course selection covering both software and hardware, suitable for career changers to CS. You can take plenty of CS courses, such as ECE428 Distributed Systems or CS411 Database Systems, but the official rules require at least 18 of the 32 credits to be ECE courses, and at least 8 of the 12 500-level credits to be ECE. It supports spring enrollment with CPT for summer internships, and co-op allows delayed graduation.
 
-Supports deferral for one year. Students with weaker software backgrounds can use this year to do internships in China to strengthen their profile, which helps with finding full-time positions in the US later -- quite friendly for job hunting. The program currently allows deferral freely, and this was also the case even before the pandemic. There are also many graduation pathways; see the chart below for details.
+Supports deferral for one year. Students with weaker software backgrounds can use this year to do internships in China to strengthen their profile, which helps with finding full-time positions in the US later -- quite friendly for job hunting. Past cohorts could defer for one year; go by your own year's admission letter. There are also many graduation pathways; see the chart below for details.
 
 
 [![UIUC ECE MEng degree-completion paths; open full size](/img/en/uiucece.svg)](/img/en/uiucece.svg)

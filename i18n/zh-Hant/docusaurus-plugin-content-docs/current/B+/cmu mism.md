@@ -24,7 +24,7 @@ mism分為12 month 的track和16 month 的track，後者可以方便找實習。
 ![](/img/mismcore.png)
 
 ## 錄取代表性dp {#录取代表性dp}
-rolling 制度，早申早錄取。想來mism早點申請
+Fall 2027 分兩輪：Round 1 12 月 1 日、Round 2 1 月 10 日，兩輪之後還有名額才滾動錄取，系統 6 月 15 日關。想拿獎學金要在 2 月 1 日前交。想來mism早點申請
 
 1. wisc cs本科+騰訊實習,gpa 3.7
 2. 華科cs本科，gpa 3.86，兩段量化實習

@@ -13,7 +13,7 @@ UMD có thứ hạng CS rất tốt: hạng 2 về AI, hạng 7 về NLP, hạng
 MSCS là chương trình thiên về nghiên cứu. Ứng viên MS và PhD được xét chung một nhóm, nên rất lý tưởng cho sinh viên muốn chuyển lên PhD. Với sinh viên thạc sĩ, chương trình hỗ trợ tìm việc tương đối ít, và không khí luyện LeetCode, tìm việc trong khoa cũng tương đối yếu. Thông thường sinh viên trúng tuyển có thể tìm được vị trí TA/RA -- vị trí TA phổ biến hơn vì có quá nhiều sinh viên đại học và khoa cần TA. Gần như ai cũng có thể có.
 Tuy nhiên cần lưu ý, trang chính thức ghi rõ trúng tuyển MS không đảm bảo có hỗ trợ tài chính: vị trí TA của CMSC là việc làm theo giờ, có trả lương nhưng không được miễn học phí hay bảo hiểm y tế; chỉ có vị trí RA mới là diện graduate assistantship (theo trang chính thức năm học 2026-27).
 
-UMD là chương trình nghiên cứu cực mạnh nhưng kết quả việc làm ở mức khá. Chương trình nhận ít sinh viên và rất coi trọng kinh nghiệm nghiên cứu. Nhập học kỳ Fall đặc biệt cạnh tranh; nhập học kỳ Spring dành cho sinh viên đang theo học thì tương đối dễ hơn.
+UMD là chương trình nghiên cứu cực mạnh nhưng kết quả việc làm ở mức khá. Chương trình nhận ít sinh viên và rất coi trọng kinh nghiệm nghiên cứu. Ứng viên ngoài trường chỉ có kỳ nhập học mùa thu ([trang chính thức](https://www.cs.umd.edu/grad/apply) ghi “Entry Term: Fall Only”); sinh viên đại học của UMD có lộ trình liên thông cử nhân–thạc sĩ riêng.
 
 ## Ngưỡng trúng tuyển và data point
 Trên Reddit có người nói "UMD MSCS mỗi năm có ~20 suất, mỗi năm có ~2K người nộp".

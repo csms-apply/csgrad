@@ -7,7 +7,7 @@ description: "从个人 2025 Summer 实习申请经历出发，聊 Meta、Apple�
 
 # FAANG过简历关
 
-今年非常幸运的在25 summer 找实习过程中，FAANG都收到了面试，并且通过了all参加的面试（暂且用nvidia代替netflix）。写一下FAANG如何通过简历关，并且收到vo
+2024–25 年非常幸运的在25 summer 找实习过程中，FAANG都收到了面试，并且通过了all参加的面试（暂且用nvidia代替netflix）。写一下FAANG如何通过简历关，并且收到vo
 
 Facebook(meta)：吃hr reach out和内推，认识的进入meta的同学主要分为两部分，第一部分是hr主动reach out，第二部分是开岗马上找学长学姐帮忙内推。俗话说无内推不meta，meta的内推政策是需要在14天内处理内推申请，如果找内推meta intern需要开岗就找，24 年9月末meta 开岗只给了几天内推intern的机会，然后就关闭了渠道。
 

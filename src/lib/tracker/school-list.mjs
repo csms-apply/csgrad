@@ -106,7 +106,9 @@ export function picksFromLegacyCards(raw, rows) {
     // pages now live at /A+/ucla-meng; compare the kebab-cased last segment. Ids keep old spellings (b-plus-rics-mcs -> rice-mcs).
     const tail = (slug) => (typeof slug === 'string' ? slug.split('/').pop().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : '');
     const byTail = new Map(rows.flatMap((r) => [[r.id.replace(/^(?:[abc]-(?:plus|minus)|s{1,3}|[abc])-/, ''), r.id], [tail(r.slug), r.id]]));
-    return [...new Set(cards.map((c) => tail(c?.slug) && byTail.get(tail(c.slug))).filter(Boolean))];
+    // The USC page was filed under cs37 although it has always described CS28; cards saved back then still say cs37.
+    const renamed = {'usc-cs37': 'usc-cs28'};
+    return [...new Set(cards.map((c) => tail(c?.slug)).map((t) => t && byTail.get(renamed[t] || t)).filter(Boolean))];
   } catch {
     return [];
   }

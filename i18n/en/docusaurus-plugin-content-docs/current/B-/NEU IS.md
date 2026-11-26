@@ -11,7 +11,7 @@ title: "Northeastern Information Systems Admissions Guide: Courses and Program E
 A career-change-to-CS program that offers co-op opportunities. It's similar to MSCS, and the I-20 lists SE (Software Engineering), which is a CS-related title.
 
 There are multiple campuses.
-If you want to experience a traditional American college campus life, are young and not in a rush to find a job, and have a strong overall profile, go to the Boston campus. If your goal is landing a job at a big tech company, or you can't stand the Boston winters, come to the Silicon Valley campus. The GRE is not required for 2025-2026 entry, and the College of Engineering has waived the MS application fee for Spring 2027 and Fall 2027 entry.
+If you want to experience a traditional American college campus life, are young and not in a rush to find a job, and have a strong overall profile, go to the Boston campus. If your goal is landing a job at a big tech company, or you can't stand the Boston winters, come to the Silicon Valley campus. The GRE is optional for Fall 2027, and the College of Engineering has waived the MS application fee for Spring 2027 and Fall 2027 entry.
 
 Normally it takes two years to graduate, but if you do an internship or co-op in between, it may take about two and a half years.
 

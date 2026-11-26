@@ -40,7 +40,7 @@ Hệ quarter — áp lực mỗi kỳ có thể rất lớn.
 ## Xu hướng tuyển sinh
 Ưu tiên người chuyển ngành có nền tảng STEM.
 
-Nhiều ứng viên có hồ sơ mạnh từ trường danh tiếng (tỉ lệ cao đến từ Thanh Hoa, Bắc Đại, Phục Đán, SJTU, Chiết Giang). Điểm GRE được coi trọng — hãy cố đạt điểm cao. Trang web ghi rằng Verbal ở mức 50th percentile và Quant ở mức 90th percentile là vùng an toàn.
+Nhiều ứng viên có hồ sơ mạnh từ trường danh tiếng (tỉ lệ cao đến từ Thanh Hoa, Bắc Đại, Phục Đán, SJTU, Chiết Giang). GRE hiện là tùy chọn (Fall 2027), nhưng điểm GRE được coi trọng — hãy cố đạt điểm cao. Trang web ghi rằng Verbal ở mức 50th percentile và Quant ở mức 90th percentile là vùng an toàn.
 
 Mấy năm gần đây, khi chương trình được biết đến nhiều hơn và có thêm nhiều người chuyển ngành nộp hồ sơ, ngưỡng trúng tuyển tăng lên qua từng năm.
 

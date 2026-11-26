@@ -53,7 +53,7 @@ Job hunting info is limited to mainland Chinese students for 25 Summer Intern; I
 
 CT awards a Cornell degree, so it can roughly be seen as Cornell. It seems like Cornell isn't a target school for major tech companies -- among people I know, Meta, Google, Apple, Uber, and other well-known big tech companies have very few placements. Bloomberg, the big sponsor, does give interview opportunities, and the HR representative for our school is reasonably proactive. Compared to some data points where candidates get ghosted for two to three months, CT's next steps are generally completed within 7-30 days. In October they collected a batch of resumes from the school and came for on-site interviews, but as of now no Chinese student has gotten a 25 Summer intern offer from them. Compared to the degree to which Paycom recruits from Rice, it's far behind.
 
-Everyone still looking for Summer Interns is probably counting on Amazon's big hiring wave this year, but that has nothing to do with CT, lol. In summary, the school provides basically no help with job hunting, and the Cornell title may not be as valuable in the job market as some engineering-focused schools.
+Everyone still looking for Summer Interns is probably counting on Amazon's big hiring wave in 2025, but that has nothing to do with CT, lol. In summary, the school provides basically no help with job hunting, and the Cornell title may not be as valuable in the job market as some engineering-focused schools.
 
 1. SCU transfer to US undergrad, four months of small company internship, landed Meta new grad
 

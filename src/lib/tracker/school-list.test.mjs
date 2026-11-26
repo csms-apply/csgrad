@@ -57,7 +57,7 @@ test('old kanban cards from the program library become picks', () => {
   assert.deepEqual(picksFromLegacyCards(JSON.stringify([{slug: '/B+/UCLA MENG'}]), data.rows), [row('meng@ucla').id]);
   // Pages moved from /<tier>/<file name> to /<tier>/<kebab-case> (briefly /programs/<kebab-case>), and Rics became rice.
   assert.deepEqual(picksFromLegacyCards(JSON.stringify([{slug: '/programs/cmu-mscs'}, {slug: '/B+/Rics MCS'}, {slug: '/B/USC CS37'}]), data.rows),
-    [row('mscs@cmu').id, data.rows.find((r) => r.slug === '/B+/rice-mcs').id, data.rows.find((r) => r.slug === '/B/usc-cs37').id]);
+    [row('mscs@cmu').id, data.rows.find((r) => r.slug === '/B+/rice-mcs').id, data.rows.find((r) => r.slug === '/B/usc-cs28').id]);
 });
 
 test('all UI copy has the same keys', () => {

@@ -29,7 +29,7 @@ Tacoma는 시애틀에서 약 51km 떨어져 있습니다. 생활비는 시애�
 5. 인도 Electrical, electronics and communications engineering 학부, 석사 전 Hitachi Energy 정규직 근무, 석사 중 중소기업 SWE 인턴, 2025년 졸업 후 Amazon SDE 정규직 입사
 
 ## 합격선과 데이터 포인트
-합격자 평균 GPA는 3.5입니다. TOEFL 요건은 92점으로 비교적 낮습니다. 전반적으로 GPA가 낮은 985 대학 출신 지원자를 선호합니다. 전공 전환자는 선수 과목(prerequisites)을 이수해야 합니다. Tsinghua와 Peking University 출신도 일부 다닙니다.
+합격자 평균 GPA는 3.5입니다. TOEFL 요건은 비교적 낮아서 최소 80점, 권장 92점입니다. 전반적으로 GPA가 낮은 985 대학 출신 지원자를 선호합니다. 전공 전환자는 선수 과목(prerequisites)을 이수해야 합니다. Tsinghua와 Peking University 출신도 일부 다닙니다.
 1. 국제 학생, GPA 3.7
 2. 미국 학부, GPA 3.26, Microsoft 정규직 6년
 3. 국제 학생, GPA 3.5, GRE 321

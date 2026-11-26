@@ -7,9 +7,11 @@ title: "Princeton MSCS 지원 가이드: 수업과 프로그램 경험"
 ---
 # Princeton MSCS
 
+**2026년 11월 업데이트**: Princeton CS 공식 웹사이트에 Fall 2027 입학 석사(M.S.E.) 지원은 받지 않는다고 나와 있습니다(원문: “will not accept applications to the master's degree program for Fall 2027 admission”, [공식 웹사이트](https://www.cs.princeton.edu/grad/masters-degree-requirements)). 아래는 모집 중단 전 상황이며 참고용으로 남겨 둡니다.
+
 ## 프로그램 소개
 
-합격자가 매우 적고 매우 미스터리합니다. 연간 입학 인원은 30명 이하입니다. 학생들은 기본적으로 학부생 TA로 뽑힙니다. GPA가 높고 TA 경험이 있는 미국 liberal arts college 학부생이라면 도전해 볼 만합니다.
+합격자가 매우 적고 매우 미스터리합니다. 모집 중단 전에는 연간 입학 인원이 30명 이하였고, 학생들은 기본적으로 학부생 TA로 뽑혔습니다. 예전에는 GPA가 높고 TA 경험이 있는 미국 liberal arts college 학부생이라면 도전해 볼 만했습니다.
 
 ## 합격 기준 및 데이터 포인트
 

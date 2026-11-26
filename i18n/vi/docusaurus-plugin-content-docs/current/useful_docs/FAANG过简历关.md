@@ -6,7 +6,7 @@ description: "Từ trải nghiệm ứng tuyển thực tập 2025 Summer của 
 ---
 # Vượt vòng hồ sơ FAANG
 
-Năm nay tôi rất may mắn: trong quá trình tìm thực tập 2025 Summer, tôi nhận được phỏng vấn từ tất cả các công ty FAANG và vượt qua mọi buổi phỏng vấn đã tham gia (tạm dùng NVIDIA thay cho Netflix). Dưới đây là cách vượt vòng lọc hồ sơ của FAANG và nhận được virtual onsite.
+Mùa 2024–25 tôi rất may mắn: trong quá trình tìm thực tập 2025 Summer, tôi nhận được phỏng vấn từ tất cả các công ty FAANG và vượt qua mọi buổi phỏng vấn đã tham gia (tạm dùng NVIDIA thay cho Netflix). Dưới đây là cách vượt vòng lọc hồ sơ của FAANG và nhận được virtual onsite.
 
 Facebook (Meta): Phụ thuộc nhiều vào việc HR chủ động liên hệ (reach out) và referral nội bộ. Những người tôi biết vào được Meta chia làm hai nhóm: nhóm thứ nhất được HR chủ động liên hệ, nhóm thứ hai nhờ anh chị khóa trên/cựu sinh viên referral ngay khi vị trí vừa mở. Có câu "không có referral thì không có Meta". Chính sách referral nội bộ của Meta yêu cầu xử lý đơn referral trong vòng 14 ngày. Nếu muốn tìm referral cho vị trí thực tập ở Meta, bạn phải hành động ngay khi vị trí mở. Cuối tháng 9 năm 2024, Meta mở vị trí nhưng chỉ cho vài ngày để nộp referral thực tập rồi đóng kênh.
 

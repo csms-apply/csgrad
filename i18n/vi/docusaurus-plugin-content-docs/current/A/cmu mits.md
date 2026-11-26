@@ -8,7 +8,7 @@ description: "Nên chọn lộ trình nào trong bốn lộ trình của CMU MIT
 # CMU MITS
 
 ## Tổng quan chương trình
-Đây là chương trình liên kết do SCS, CIT và IPS cùng đào tạo. (Thực ra chẳng ai quan tâm – ở CMU, ngoài MSCS ra, chênh lệch danh tiếng giữa các chương trình khác bị khác biệt cá nhân xóa nhòa hết.)
+Đây là chương trình liên kết do SCS, CIT và CMIST (trước đây là IPS) cùng đào tạo. (Thực ra chẳng ai quan tâm – ở CMU, ngoài MSCS ra, chênh lệch danh tiếng giữa các chương trình khác bị khác biệt cá nhân xóa nhòa hết.)
 
 ## Bốn lộ trình
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance

@@ -23,4 +23,4 @@ Columbia CVN(選課是第一梯隊的，而且能去校園內部的圖書館，�
 
 Boston OMSCS 
 
-Upenn mcit online 喜歡找轉碼高gpa，不能上多於兩門cs課程
+Upenn MAS-CS Online（原 MCIT Online）喜歡找轉碼高gpa，不能上多於兩門cs課程。Fall 2027 priority 截止 2027 年 3 月 1 日，final 截止 5 月 31 日

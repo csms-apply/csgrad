@@ -15,7 +15,7 @@ MSECS는 JHU의 CS 프로그램이며 비전공자 CS 전환 프로그램으로 
 
 
 ## 표준화 시험 요건
-2024 지원 시즌에는 TOEFL 100과 GRE 제출이 필수였습니다. 그러나 MSECS는 지원 페이지에 GRE 점수를 내더라도 심사하지 않는다고 명시합니다. GRE 요건은 오로지 상위 단과대의 정책 때문에 존재합니다(The Whiting School of Engineering requires GRE General Test scores for applications to all master's programs. However, the Department of Computer Science does not review these scores nor do they have any impact on the outcome of admissions decisions during the application review process.)
+2024 지원 시즌에는 TOEFL 100이 필요했고, 단과대 규정상 GRE를 내야 했지만 학과에서는 보지 않았습니다(The Whiting School of Engineering requires GRE General Test scores for applications to all master's programs. However, the Department of Computer Science does not review these scores nor do they have any impact on the outcome of admissions decisions during the application review process.). 지금은 공식 웹사이트에 GRE도 필요 없고 지원비도 없다고 나와 있습니다(원문 “No GRE required, and no application fee.”, [공식 웹사이트](https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/)). Fall 2027 마감은 2월 15일입니다.
 
 
 ## 합격 선호 & 대표 DataPoints

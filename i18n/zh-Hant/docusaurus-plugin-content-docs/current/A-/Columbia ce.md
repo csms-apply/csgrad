@@ -20,7 +20,7 @@ verification：core。有點像離散數學，講一些一些fsm和邏輯。
 data center processing：core，group寫一偏小論文。
 
 ## 錄取信息和dp {#录取信息和dp}
-今天總共60個人，差不多60%中國人，30%印度人。中國人的背景還是蠻diverse的，陸本從2本到北大都有，海本也都是不同學校。
+今年總共60個人，差不多60%中國人，30%印度人。中國人的背景還是蠻diverse的，陸本從2本到北大都有，海本也都是不同學校。
 
 1. Bard College at Simon's Rock 物理系本科，gpa4.0
 2. Purdue University cs本科，微軟5年全職

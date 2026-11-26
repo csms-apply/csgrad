@@ -2,10 +2,10 @@
 slug: stanford-symbolic-system
 description: "Stanford Symbolic Systems 是需要完成 thesis 的交叉研究项目。这里介绍计算机、人文与认知方向的背景要求和往届录取案例。"
 title: "Stanford Symbolic Systems 申请指南：课程与项目体验"
-sidebar_label: "Stanford Symbolic System"
+sidebar_label: "Stanford Symbolic Systems"
 ---
 
-# Stanford Symbolic System
+# Stanford Symbolic Systems
 
 ## 项目介绍
 research based program，项目定位参考MIT CSE，SS为交叉项目，系里面希望

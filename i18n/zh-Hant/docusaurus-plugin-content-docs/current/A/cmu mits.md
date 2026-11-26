@@ -8,7 +8,7 @@ description: "CMU MITS 的四個方向如何選擇？本文介紹系統與數據
 # CMU MITS
 
 ## 介紹 {#介绍}
-這個項目是一個合辦項目，由SCS，CIT和IPS合辦。（沒人在意，cmu除了mscs，其餘項目的reputation的差異會被個人差異磨平）
+這個項目是一個合辦項目，由SCS，CIT和CMIST（原 IPS）合辦。（沒人在意，cmu除了mscs，其餘項目的reputation的差異會被個人差異磨平）
 
 ## 四個 track {#四个-track}
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance
