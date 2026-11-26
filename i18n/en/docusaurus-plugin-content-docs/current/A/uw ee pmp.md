@@ -1,5 +1,5 @@
 ---
-slug: uw-ee-pmp
+slug: uw-ece-pmp
 sidebar_label: "UW ECE PMP"
 title: "UW ECE PMP Admissions Guide: Courses and Program Experience"
 description: "Student observations on UW ECE PMP software courses, co-op planning and Seattle recruiting, alongside admission trends and reported career experiences."
