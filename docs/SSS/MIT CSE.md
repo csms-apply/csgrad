@@ -8,7 +8,7 @@ sidebar_label: "MIT CSE"
 # MIT CSE
 
 ## 项目介绍
-27 fall 仍暂停对外招生，官网原文 “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.”（[官网](https://cse.mit.edu/programs-admissions/cse-sm/)），何时恢复不确定（2026 年 11 月更新）:
+27 fall 仍暂停对外招生（[官网](https://cse.mit.edu/programs-admissions/cse-sm/)），何时恢复不确定:
 ![](/img/mitcse)
 
 全称是Master of Science in Computational Science and Engineering，
