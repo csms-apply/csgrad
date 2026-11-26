@@ -15,7 +15,13 @@ Ngoài việc dùng TA/RA để miễn học phí, người tốt nghiệp đạ
 
 Chương trình CSE cho chọn môn rất linh hoạt. Ngoài bốn môn cốt lõi (thiên về tính toán/toán học), phần còn lại về cơ bản giống CS, bạn có thể học các môn CS với cùng mức ưu tiên như sinh viên MSCS. Điểm hay nhất là sinh viên CSE có cùng mức ưu tiên đăng ký môn CS như MSCS (home unit CoC), và nhiều môn CS có thể được tính vào specialization minor; chỉ cần thuyết phục được academic advisor là về cơ bản sẽ được công nhận tín chỉ. Dù vậy, CSE và MSCS là hai bằng riêng biệt: CSE có yêu cầu specialization minor riêng, trong đó phải có ít nhất 6 credit hours các môn thuộc lĩnh vực ứng dụng không phải CS/CSE. Bằng cần 30 credit hours, theo chính thức thường mất ba học kỳ, trừ khi bạn muốn ở lại lâu hơn.
 
-Trên I-20 ghi Computer Science, nên khi tìm việc bạn có thể ghi chuyên ngành Computer Science trong CV. Tuy nhiên, bạn không thể đơn giản chuyển sang MSCS: FAQ chính thức nói rằng MSCS không nhận yêu cầu đổi chuyên ngành nội bộ, bạn phải nộp hồ sơ lại.
+Trên I-20 ghi Computer Science, nên khi tìm việc bạn có thể ghi chuyên ngành Computer Science trong CV.
+
+## Hai cách chuyển sang MSCS
+
+**Từ OMSCS sang MSCS học tại trường**: Nộp OMSCS trước, học kỳ đầu lấy một điểm A là có thể xin chuyển sang chương trình học tại trường. Theo các năm trước thì hầu như ai xin cũng chuyển được.
+
+**Từ CSE sang MSCS**: Nói rõ trước, FAQ chính thức ghi MSCS không nhận yêu cầu đổi chuyên ngành nội bộ và bạn phải nộp hồ sơ lại. Nhưng trên thực tế vẫn làm được, các năm trước đều có người chuyển theo cách này.
 
 ## Ngưỡng và tiêu chí trúng tuyển
 

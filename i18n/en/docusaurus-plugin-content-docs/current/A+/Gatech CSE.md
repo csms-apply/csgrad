@@ -15,7 +15,13 @@ In addition to using TA/RA to waive tuition, non-US undergrads can use the "redu
 
 The CSE program offers really flexible course selection. Besides four core courses (leaning computational/math), the rest is basically the same as CS -- you can take CS courses with the same priority as MSCS students. The best part is that CSE students get the same CS course registration priority as MSCS (CoC home unit), and many CS courses can count toward the specialization minor -- as long as you can convince the academic advisor, they basically count for credit. That said, CSE and MSCS are two separate degrees: CSE has its own specialization minor requirement, including at least 6 credit hours of non-CS/CSE application-domain courses. The degree is 30 credit hours, and officially it usually takes three semesters, unless you want to stay longer.
 
-The I-20 says Computer Science, so you can write Computer Science as your major on your resume for job searching. However, you can't simply transfer into MSCS -- the official FAQ states that MSCS does not accept internal change-of-major requests; you need to apply again.
+The I-20 says Computer Science, so you can write Computer Science as your major on your resume for job searching.
+
+## Two Ways to Move into MSCS
+
+**OMSCS to on-campus MSCS**: Apply to OMSCS first, get an A in your first semester, and you can then apply to move to the on-campus program. Going by past years, almost everyone who tried made it.
+
+**CSE to MSCS**: To be clear up front, the official FAQ states that MSCS does not accept internal change-of-major requests and that you need to apply again. In practice it can still be done, and in past years people have moved this way.
 
 ## Admission Threshold & Standards
 

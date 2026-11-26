@@ -28,7 +28,7 @@ CS排名高(在cs ranking上排名第4)，開設的方向非常全，nlp, cv, ar
 5. University of Rochester ds+math本科，gpa3.95
 
 ## 錄取gt mscs小tip {#录取gt-mscs小tip}
-如果覺得申請到mscs太難了，可以先申請gatech cse冷門track，進去再轉mscs。或者先申請gt omscs然後轉線下(只要求gpa), 認識的朋友都轉成了（不過官網 FAQ 寫明 MSCS 不接受轉專業、需要重新申請，這兩條路徑都需向學校確認）
+如果覺得申請到mscs太難了，有兩條路可以繞進來。一是先申請 gt omscs，第一學期拿一個 A 就可以申請轉線下，從往年來看基本都轉成了。二是先申請 gatech cse 的冷門track，進去再轉mscs：官網 FAQ 明確寫了 MSCS 不接受校內轉專業、需要重新申請，但往年實際上都是可以這麼轉的。
 
 
 

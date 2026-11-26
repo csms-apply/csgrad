@@ -26,7 +26,7 @@ Rất ít sinh viên đại học Trung Quốc đại lục trúng tuyển trự
 5. Đại học University of Rochester ngành DS + Math, GPA 3.95
 
 ## Mẹo để vào GT MSCS
-Nếu thấy vào MSCS quá khó, bạn có thể nộp vào track GT CSE ít cạnh tranh hơn trước, rồi chuyển sang MSCS sau khi nhập học. Hoặc nộp GT OMSCS trước rồi chuyển sang chương trình học tại trường (chỉ yêu cầu GPA). Tất cả bạn bè tôi biết thử cách này đều chuyển thành công. (Tuy nhiên, FAQ chính thức ghi rằng MSCS không nhận yêu cầu chuyển ngành và bạn phải nộp hồ sơ lại, nên hãy hỏi trường trước khi trông cậy vào con đường nào.)
+Nếu thấy vào MSCS quá khó, có hai đường vòng. Một là nộp GT OMSCS trước: học kỳ đầu lấy một điểm A là có thể xin chuyển sang chương trình học tại trường, và theo các năm trước thì hầu như ai cũng chuyển được. Hai là nộp vào một track GT CSE ít cạnh tranh hơn rồi chuyển sang MSCS sau khi nhập học: FAQ chính thức ghi MSCS không nhận yêu cầu đổi chuyên ngành nội bộ và phải nộp hồ sơ lại, nhưng các năm trước trên thực tế vẫn chuyển được theo cách này.
 
 
 
