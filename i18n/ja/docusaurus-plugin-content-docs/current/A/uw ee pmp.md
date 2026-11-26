@@ -1,5 +1,5 @@
 ---
-slug: uw-ee-pmp
+slug: uw-ece-pmp
 sidebar_label: "UW ECE PMP"
 title: "UW ECE PMP 出願ガイド：授業とプログラム体験記"
 description: "UW ECE PMPのソフトウェア系授業、シアトルでの学生生活、出願の経験をまとめ、co-opの体験談や過去の就職事例、MSECEへの学位名変更に関する最新情報も記載しています。"

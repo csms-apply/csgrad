@@ -1,5 +1,5 @@
 ---
-slug: uw-ee-pmp
+slug: uw-ece-pmp
 sidebar_label: "UW ECE PMP"
 title: "Hướng dẫn ứng tuyển UW ECE PMP: môn học và trải nghiệm chương trình"
 description: "Các môn phần mềm, cuộc sống học tập ở Seattle và kinh nghiệm nộp hồ sơ UW ECE PMP, kèm trải nghiệm co-op, các trường hợp tìm việc của khóa trước và cập nhật về việc đổi tên bằng thành MSECE."

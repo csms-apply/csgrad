@@ -1,5 +1,5 @@
 ---
-slug: uw-ee-pmp
+slug: uw-ece-pmp
 sidebar_label: "UW ECE PMP"
 title: "UW ECE PMP 지원 가이드: 수업과 프로그램 후기"
 description: "UW ECE PMP의 소프트웨어 수업, co-op 계획, 시애틀 채용에 대한 학생들의 관찰과 함께 합격 동향 및 보고된 커리어 경험을 정리했습니다."
