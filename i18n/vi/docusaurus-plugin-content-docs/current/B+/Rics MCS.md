@@ -18,7 +18,7 @@ Rice MCS thường được so sánh với USC CS28, UCI MCS/MSWE, Duke MECE, NY
 Phần lớn là cử nhân các trường 985/211 ở Trung Quốc đại lục (điểm GPA khoảng 88), cử nhân ở Mỹ có điểm GPA từ 3.6 trở lên.
 1. Cử nhân Kỹ thuật phần mềm UESTC, điểm GPA 3.83
 ## Kết quả tìm việc
-Với kỳ 25 Summer, theo thống kê khoảng 40% sinh viên xung quanh tôi tìm được thực tập. Paycom là công ty "lưới an toàn" chỉ tuyển sinh viên ở Texas (năm ngoái tuyển 15 sinh viên Rice MCS). Chuẩn bị tốt thì khả năng đậu cao, vì các câu thuật toán khi phỏng vấn đều là đề cũ dùng lại. Paycom tuyển hơn chục người cho kỳ 25 Summer. Kỳ 2022 Fall, khoảng 90% sinh viên Đài Loan tìm được thực tập.
+Với kỳ 25 Summer, theo thống kê khoảng 40% sinh viên xung quanh tôi tìm được thực tập. Paycom là công ty "lưới an toàn" chỉ tuyển sinh viên ở Texas (năm 2024 tuyển 15 sinh viên Rice MCS). Chuẩn bị tốt thì khả năng đậu cao, vì các câu thuật toán khi phỏng vấn đều là đề cũ dùng lại. Paycom tuyển hơn chục người cho kỳ 25 Summer. Kỳ 2022 Fall, khoảng 90% sinh viên Đài Loan tìm được thực tập.
 
 Kỳ 25 Summer, 4 người vào được Meta và khoảng 10 người vào được Amazon.
 

@@ -9,7 +9,7 @@ description: "結合個人觀察，聊 Georgia Tech、Stanford、UW、UCSD、NEU
 
 因為筆者親臨了國內秋招和美國找實習，之前也輔導過一些學生找🇺🇸實習，以下是一些身邊的個人觀察到的找工友好型的學校/項目dp（只針對是否對找工友好，和bar 無關，同時也有考慮到樣本觀察是否足夠多，比如mit cs找工肯定很好，但我不認識幾個mit cs本，因此沒有列進去）
 
-1. Gatech mscsga/cse: 個人觀感gatech 上岸率不錯，觀察到的mscs 的同學找工上岸率都不錯，無論是meta 還是amazon 都很多上岸的
+1. Gatech MSCS/CSE: 個人觀感gatech 上岸率不錯，觀察到的mscs 的同學找工上岸率都不錯，無論是meta 還是amazon 都很多上岸的
 2. stanford cs/ee：認識不少沒實習也上岸的，f，我認識的S 的同學裡面基本都能拿到nv 面試，還有朋友收到系裡群發的nv招人郵件，投遞了過去三十分鐘約面試，堪比國內約面效率。
 3. UW ECE PMP/hci: 這個項目是我覺得嚴重被低估的項目，雖然在open cs上排名b-的項目，但是我覺得就業友好度可以排到A+，首先身邊的朋友在這個項目的基本沒感受到ee 和cs有什麼找工區別，很多ECE PMP的基本都能拿到meta 、amazon面試，而且ECE PMP可以coop，23年amazon 幾乎撈了10% 的UW ECE PMP的人。並且uw ECE PMP 的coop 是不延畢的（比如說是24 fall入學，可以25 年 8-11 月去實習，不延畢），非常適合找工作。可以選擇全軟課，不修硬件課。 Uw hci比較難申請，但是也可以有六個月的實習，只需要在校內修10個學分即可。
 4. Ucsd：cs75和ece都比較找工友好，cs75課程難度可以選很容易的課程，找工學期不給自己上壓力。ece 有coop，cs75從2025年開始也提供coop。同時ucsd 也是nv 的target school

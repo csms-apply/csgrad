@@ -26,7 +26,7 @@ GPA: 3.8+ (or 90+ on a 100-point scale; undergrads from top-5 Chinese universiti
 
 TOEFL: 105
 
-IELTS: Speaking score of 8 is a hard cutoff
+IELTS: minimum overall score of 8.0
 
 Must be a CS major (the major listed on your transcript must be Computer Science)
 

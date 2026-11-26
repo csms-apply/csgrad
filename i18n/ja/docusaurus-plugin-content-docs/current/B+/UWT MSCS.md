@@ -29,7 +29,7 @@ Tacoma はシアトルから約 51km 離れています。生活費はシアト�
 5. インドの Electrical, electronics and communications engineering 学部、修士入学前は Hitachi Energy で正社員、修士在学中に中小企業で SWE インターン、2025 年卒業後に Amazon SDE として正社員入社
 
 ## 合格ラインとデータポイント
-合格者の平均 GPA は 3.5 です。TOEFL の要件は 92 点と比較的低めです。全体として、GPA が低めの 985 大学出身の出願者を好む傾向があります。専攻変更者は前提科目（prerequisites）を履修する必要があります。Tsinghua や Peking University 出身の学生も一部在籍しています。
+合格者の平均 GPA は 3.5 です。TOEFL の要件は比較的低めで、最低 80 点、推奨 92 点です。全体として、GPA が低めの 985 大学出身の出願者を好む傾向があります。専攻変更者は前提科目（prerequisites）を履修する必要があります。Tsinghua や Peking University 出身の学生も一部在籍しています。
 1. 留学生、GPA 3.7
 2. アメリカの学部、GPA 3.26、Microsoft で正社員 6 年
 3. 留学生、GPA 3.5、GRE 321

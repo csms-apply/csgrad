@@ -8,7 +8,7 @@ description: "A look at CMU MITS tracks, flexible SCS coursework and the company
 # CMU MITS
 
 ## Program Overview
-This is a joint program co-offered by SCS, CIT, and IPS. (Nobody really cares -- at CMU, aside from MSCS, the reputation differences between other programs get smoothed out by individual differences.)
+This is a joint program co-offered by SCS, CIT, and CMIST (formerly IPS). (Nobody really cares -- at CMU, aside from MSCS, the reputation differences between other programs get smoothed out by individual differences.)
 
 ## Four Tracks
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance

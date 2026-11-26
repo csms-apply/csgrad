@@ -22,4 +22,4 @@ Columbia CVN (lựa chọn môn học thuộc nhóm hàng đầu, còn được 
 
 Boston OMSCS
 
-UPenn MCIT Online: thích tuyển người chuyển ngành có GPA cao, không được học quá hai môn CS
+UPenn MAS-CS Online (trước đây là MCIT Online): thích tuyển người chuyển ngành có GPA cao, không được học quá hai môn CS. Fall 2027: hạn priority là 1/3/2027, hạn final là 31/5

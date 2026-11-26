@@ -29,7 +29,7 @@ Tuition is about $12,000 per quarter, with graduation in 4-5 quarters for a tota
 5. Electrical, electronics and communications engineering undergraduate in India, full-time at Hitachi Energy before the master’s, SWE intern at a small company during it, then Amazon SDE full-time after graduating in 2025.
 
 ## Admission Threshold & Data Points
-Average admitted GPA is 3.5. TOEFL requirement is relatively low at 92 to apply. Overall preference for 985 university applicants with lower GPAs. Career changers need to complete prerequisites. Some students from Tsinghua and Peking University attend.
+Average admitted GPA is 3.5. TOEFL requirement is relatively low: 80 minimum, 92 recommended. Overall preference for 985 university applicants with lower GPAs. Career changers need to complete prerequisites. Some students from Tsinghua and Peking University attend.
 1. International student, GPA 3.7
 2. US undergrad, GPA 3.26, 6 years full-time at Microsoft
 3. International student, GPA 3.5, GRE 321

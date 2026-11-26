@@ -15,7 +15,7 @@ Lớp nhỏ nên có thể có lợi khi nộp thực tập ở một số công
 
 
 ## Yêu cầu bài thi chuẩn hóa
-Mùa nộp hồ sơ 2024 bắt buộc TOEFL 100 và nộp GRE. Tuy nhiên, trang ứng tuyển của MSECS ghi rõ dù bạn nộp điểm GRE thì họ cũng không xét. Yêu cầu GRE tồn tại hoàn toàn do chính sách của trường kỹ thuật cấp trên (Whiting School of Engineering yêu cầu điểm GRE General Test với hồ sơ của mọi chương trình thạc sĩ. Tuy nhiên, Department of Computer Science không xem xét các điểm này và chúng cũng không ảnh hưởng gì đến kết quả xét tuyển trong quá trình duyệt hồ sơ.)
+Mùa nộp hồ sơ 2024 yêu cầu TOEFL 100, trường kỹ thuật bắt nộp GRE nhưng khoa không xét (Whiting School of Engineering yêu cầu điểm GRE General Test với hồ sơ của mọi chương trình thạc sĩ. Tuy nhiên, Department of Computer Science không xem xét các điểm này và chúng cũng không ảnh hưởng gì đến kết quả xét tuyển trong quá trình duyệt hồ sơ.) Hiện trang chính thức ghi rõ “No GRE required, and no application fee.” ([trang chính thức](https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/)), tức không cần GRE và không thu phí nộp hồ sơ; hạn Fall 2027 là ngày 15/2.
 
 
 ## Xu hướng tuyển & DataPoints tiêu biểu

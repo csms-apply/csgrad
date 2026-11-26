@@ -8,7 +8,7 @@ description: "An SWE-focused framework for comparing US CS master's offers: prog
 
 # How to Choose Between CS Master's Offers in the US
 
-The Fall 2025 students I've mentored have already received quite a few offers and are now deciding on their final destinations. I hope everyone can enjoy their last undergraduate break while landing on a satisfying choice. This article is specifically for students whose goal is to find an SWE internship in the US and then aim for a return offer.
+(Written in spring 2025.) The Fall 2025 students I was mentoring had already received quite a few offers and were deciding on their final destinations. I hope everyone can enjoy their last undergraduate break while landing on a satisfying choice. This article is specifically for students whose goal is to find an SWE internship in the US and then aim for a return offer.
 
 1. Principle 1: Choose a 1.5-year or 2-year program so you have the opportunity for a summer internship and can aim for a return offer to stay on.
 

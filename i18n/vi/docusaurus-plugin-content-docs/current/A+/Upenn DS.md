@@ -1,20 +1,20 @@
 ---
-slug: upenn-ds
-description: "Upenn DS có thể chọn những môn CIS và Wharton nào? Trang này giới thiệu việc miễn môn nền tảng, cách xếp môn Core và môn tự chọn, cùng nền tảng hồ sơ trúng tuyển và các trường hợp tìm việc DS, SDE."
-sidebar_label: "Upenn DS"
-title: "Hướng dẫn ứng tuyển UPenn Data Science: môn học và trải nghiệm chương trình"
+slug: upenn-dsai
+description: "Upenn DSAI (trước đây là DS) có thể chọn những môn CIS và Wharton nào? Trang này giới thiệu việc miễn môn nền tảng, cách xếp môn Core và môn tự chọn, cùng nền tảng hồ sơ trúng tuyển và các trường hợp tìm việc DS, SDE."
+sidebar_label: "Upenn DSAI"
+title: "Hướng dẫn ứng tuyển UPenn DSAI: môn học và trải nghiệm chương trình"
 ---
 
-# Upenn DS
+# Upenn DSAI
 
 ## Tổng quan chương trình
-> Cập nhật tháng 10/2026: Tháng 9/2026, Penn Engineering ra mắt chương trình mới [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/), và nhận hồ sơ Fall 2027 từ ngày 15 tháng 9. [Trang tuyển sinh](https://gradadm.seas.upenn.edu/masters/data-science/) giờ chỉ liệt kê DSAI là lựa chọn học tại trường, còn Data Science MSE được giảng dạy trực tuyến. Phần còn lại của trang này mô tả trải nghiệm ở chương trình MSE in Data Science học tại trường trước đây; hãy xem trang DSAI để biết yêu cầu và chương trình học hiện hành.
+> Cập nhật tháng 11/2026: Chương trình MSE in Data Science cũ (DATS, mở từ 2017) ngừng nhận hồ sơ từ Fall 2026 và được mở rộng, đổi tên thành [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/), gồm hai concentration là Data Science và Artificial Intelligence, học chung các môn Core. Đây là chương trình DS cũ được nối tiếp, không phải một chương trình mới mở riêng. Hồ sơ Fall 2027 đã mở từ ngày 15/9/2026. Phần còn lại của trang này mô tả trải nghiệm ở chương trình DS cũ; hãy xem [trang DSAI](https://dsai.engineering.upenn.edu/) để biết yêu cầu và chương trình học hiện hành.
 
 Đặc điểm lớn nhất của chương trình là mức độ tự do chọn môn cực kỳ cao. Nhiều sinh viên sau khi nhập học đã biến DS thành CS, ứng tuyển cả vị trí DS lẫn SDE, thậm chí chuyển hẳn sang CS.
 
 Bạn có thể học toàn môn CIS hoặc môn của Wharton, chọn môn hệ thống khó hoặc môn dễ — độ linh hoạt rất cao. Các môn nền tảng và môn chuyên ngành ghi trên trang chính thức gần như đều có thể xin miễn.
 
-Chương trình yêu cầu 10 môn, mặc định có 2 môn Foundation (lập trình & đại số tuyến tính). Phần lớn mọi người được miễn hai môn này, còn lại 3 môn Core và 5 môn Elective. Môn Core gồm Stats (ESE 542) + Big Data (CIS 545) + ML (CIS 519/520). Môn Elective được chọn tự do; các môn phổ biến gồm CIS 550 (Database), ESE 546 (Deep Learning), CIS 530 (NLP), CIS 580 (CV) và các môn liên quan OIDD của Wharton. Học các môn thuộc hướng CS rất dễ, về cơ bản bạn có thể tự xây dựng một "bằng thạc sĩ CS trá hình".
+Dưới đây là cách xếp môn của chương trình DS cũ; chương trình học của DSAI thì xem trang chính thức. Chương trình yêu cầu 10 môn, mặc định có 2 môn Foundation (lập trình & đại số tuyến tính). Phần lớn mọi người được miễn hai môn này, còn lại 3 môn Core và 5 môn Elective. Môn Core gồm Stats (ESE 5420) + Big Data (CIS 5450) + ML (CIS 5190/5200). Môn Elective được chọn tự do; các môn phổ biến gồm CIS 5500 (Database), ESE 5460 (Deep Learning), CIS 5300 (NLP), CIS 5800 (CV) và các môn liên quan OIDD của Wharton. Học các môn thuộc hướng CS rất dễ, về cơ bản bạn có thể tự xây dựng một "bằng thạc sĩ CS trá hình".
 
 
 

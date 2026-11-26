@@ -14,7 +14,7 @@ Trước hết nói về môi trường học. Cơ sở Thung lũng Silicon vẫ
 
 Nếu muốn nộp vào chương trình này, lưu ý là bạn không được học quá 2 môn tiên quyết CS. Nếu đã học hơn hai môn, bạn chỉ có thể nộp vào chương trình MSCS. Vài mẹo khi nộp hồ sơ: nộp càng sớm càng tốt! Thung lũng Silicon cực kỳ được ưa chuộng và hết chỗ rất nhanh (ghi chú của người duyệt: điểm này còn gây tranh cãi, từ năm 2025 độ hot của NEU đã giảm rõ rệt, chỉ còn khoảng một nửa so với đỉnh năm 2023, khi đây là chương trình "vé số" ai cũng phải nộp). Đừng đưa cấu trúc dữ liệu/thuật toán hay các môn nền tảng CS khác vào phần lý lịch trong hồ sơ: Align mặc định bạn hoàn toàn không có nền tảng CS, ghi vào sẽ bất lợi cho hồ sơ. Bạn có thể nộp cùng lúc Align + General CS + DS/IS rồi xem chương trình nào có kết quả trước. Rất nên đặt lịch gặp 1-1 với cán bộ tuyển sinh để họ xem trước CV và bài luận: dịch vụ khá tốt, thông tin liên hệ chỉ cần tìm nhanh trên Google là có.
 
-Khi nộp hồ sơ, hãy tìm mã miễn phí (waiver code) để được miễn lệ phí nộp hồ sơ.
+Align hiện không thu phí nộp hồ sơ.
 
 
 ## Xu hướng tuyển chọn và các trường hợp tiêu biểu

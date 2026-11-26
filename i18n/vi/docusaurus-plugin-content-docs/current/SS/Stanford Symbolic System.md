@@ -1,11 +1,11 @@
 ---
 slug: stanford-symbolic-system
 description: "Stanford Symbolic Systems là chương trình liên ngành định hướng nghiên cứu, bắt buộc hoàn thành luận văn (thesis). Trang này giới thiệu yêu cầu nền tảng về máy tính, nhân văn và nhận thức, cùng các trường hợp trúng tuyển những năm trước."
-sidebar_label: "Stanford Symbolic System"
+sidebar_label: "Stanford Symbolic Systems"
 title: "Hướng dẫn ứng tuyển Stanford Symbolic Systems: môn học và trải nghiệm chương trình"
 ---
 
-# Stanford Symbolic System
+# Stanford Symbolic Systems
 
 ## Tổng quan chương trình
 Chương trình định hướng nghiên cứu (research based), định vị có thể tham khảo MIT CSE. Symbolic Systems là chương trình liên ngành, khoa mong muốn sinh viên hiểu biết ít nhất hai trong các lĩnh vực sau:

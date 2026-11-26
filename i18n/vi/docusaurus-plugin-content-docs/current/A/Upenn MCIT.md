@@ -1,17 +1,19 @@
 ---
-slug: upenn-mcit
-description: "Upenn MCIT dành cho người chuyển ngành sang lập trình, môn học bắt đầu từ nền tảng. Bài này tổng hợp cách miễn môn bắt buộc, lịch tốt nghiệp, lựa chọn song bằng, cùng các trường hợp trúng tuyển và tìm việc từ nhiều nền tảng đại học khác nhau."
-sidebar_label: "UPenn MCIT"
-title: "Hướng dẫn ứng tuyển UPenn MCIT: môn học và trải nghiệm chương trình"
+slug: upenn-mas-cs
+description: "Upenn MAS-CS (trước đây là MCIT) dành cho người chuyển ngành sang lập trình, môn học bắt đầu từ nền tảng. Bài này tổng hợp cách miễn môn bắt buộc, lịch tốt nghiệp, lựa chọn song bằng, cùng các trường hợp trúng tuyển và tìm việc từ nhiều nền tảng đại học khác nhau."
+sidebar_label: "UPenn MAS-CS"
+title: "Hướng dẫn ứng tuyển UPenn MAS-CS: môn học và trải nghiệm chương trình"
 ---
 
-# UPenn MCIT
+# Upenn MAS-CS
+
+> Cập nhật tháng 11/2026: Tháng 4/2026, MCIT đổi tên thành [Master of Applied Science in Computer Science (MAS-CS)](https://gradadm.engineering.upenn.edu/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/). Định vị vẫn vậy, vẫn dành cho người không học CS ở bậc đại học. MCIT không còn nhận hồ sơ, nên Fall 2027 phải nộp vào MAS-CS: chương trình học tại trường mở nhận hồ sơ từ 15/9, hạn nộp sớm (1/11) đã qua, hạn thường là 1/2/2027 ([trang tuyển sinh](https://gradadm.engineering.upenn.edu/masters/)). Số liệu trúng tuyển và tìm việc bên dưới đều thuộc thời MCIT.
 
 
 ## Giới thiệu chương trình
-Đây là chương trình "trần" cho người không có nền tảng muốn chuyển ngành sang CS. Có yêu cầu nghiêm ngặt: ứng viên không được học quá 2 môn chuyên ngành CS. Nếu bạn đã học khá nhiều môn CS, hãy xem chương trình CIS của UPenn. Cần hoàn thành 10 môn để tốt nghiệp.
-Nếu không muốn học một môn bắt buộc nào đó, bạn có thể xin miễn bằng cách thi đạt. Có thể xin kéo dài thời gian tốt nghiệp lên 2.5 năm, chỉ cần GPA trên 3.3.
-Rất hợp để vừa học thong thả vừa tìm việc. Có thể học song bằng với CIS, rất linh hoạt. Ứng viên rất nên nộp ở vòng một: tỷ lệ trúng tuyển vòng một là 17%, vòng hai là 8%.
+Đây là chương trình "trần" (trước đây là MCIT) cho người không có nền tảng muốn chuyển ngành sang CS. Có yêu cầu nghiêm ngặt: ứng viên không được học quá 2 môn chuyên ngành CS. Nếu bạn đã học khá nhiều môn CS, hãy xem chương trình CIS của UPenn. Cần hoàn thành 10 môn để tốt nghiệp.
+Nếu không muốn học một môn bắt buộc nào đó, bạn có thể xin miễn bằng cách thi đạt. Thời MCIT có thể xin kéo dài thời gian tốt nghiệp lên 2.5 năm, chỉ cần GPA trên 3.3; MAS-CS có giữ quy định này không thì xem trang chính thức.
+Rất hợp để vừa học thong thả vừa tìm việc. Có thể học song bằng với CIS, rất linh hoạt. Thời MCIT tỷ lệ trúng tuyển vòng một là 17%, vòng hai là 8%, nên nộp sớm được thì cứ nộp sớm; Fall 2027 vòng sớm đã đóng, chỉ còn vòng 1/2.
 
 ## Ngưỡng trúng tuyển và dữ liệu thực tế
 Ưu tiên sinh viên đại học ở Mỹ. GPA > 3.8, GRE > 330, càng cao càng tốt. GRE trung bình là 330. Mùa thu 2022 có 1,225 người nộp, nhận 118 người và 73 người nhập học.

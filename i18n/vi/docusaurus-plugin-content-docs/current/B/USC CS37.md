@@ -1,5 +1,5 @@
 ---
-slug: usc-cs37
+slug: usc-cs28
 description: "Nhận xét của sinh viên USC CS28 về quy mô khóa học lớn, xu hướng xét tuyển dựa vào GPA và cơ hội nghiên cứu, kèm ví dụ hồ sơ trúng tuyển và việc làm."
 sidebar_label: "USC CS28"
 title: "Hướng dẫn ứng tuyển USC CS28: môn học và trải nghiệm chương trình"
@@ -11,7 +11,7 @@ title: "Hướng dẫn ứng tuyển USC CS28: môn học và trải nghiệm ch
 Chương trình hai năm, nổi tiếng là chỉ xét GPA. Quy mô khóa học rất lớn (tính cả CS28 và CS37), gần một nghìn sinh viên.
 
 ## Xét tuyển
-Chỉ xét nền tảng trường và GPA. Thư giới thiệu là tùy chọn. Xét tuyển cuốn chiếu (rolling admissions). Tất cả ứng viên từ mọi trường được gộp chung, xếp hạng theo GPA và gửi offer từ trên xuống. Nền tảng đại học 985/211 được coi trọng.
+Chỉ xét nền tảng trường và GPA. Thư giới thiệu là tùy chọn. Fall 2027 có hai hạn nộp: 15/12 (nếu muốn xét học bổng) và 15/1 (hạn cuối). Tất cả ứng viên từ mọi trường được gộp chung, xếp hạng theo GPA và gửi offer từ trên xuống. Nền tảng đại học 985/211 được coi trọng.
 
 Kinh nghiệm thực tập và nghiên cứu không được xét. Phù hợp làm trường an toàn (safety school) cho ứng viên GPA cao.
 

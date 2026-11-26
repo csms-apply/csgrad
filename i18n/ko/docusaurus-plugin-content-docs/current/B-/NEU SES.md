@@ -8,7 +8,7 @@ title: "NEU Software Engineering Systems 지원 가이드: 수업과 프로그�
 # NEU SES
 
 ## 프로그램 개요
-정식 명칭은 Software Engineering Systems입니다. 매우 전통적인 CS 프로그램입니다. College of Engineering는 현재 MS 지원 수수료를 면제하고 있으며(Spring 2027과 Fall 2027 입학), 한 번의 지원으로 최대 세 개 프로그램을 체크할 수 있습니다. 따라서 NEU MSCS와 CS Align을 체크할 때 NEU SES도 함께 체크할 수 있습니다. SES는 Boston, Arlington, Toronto 등의 캠퍼스에서 제공되며, 최신 목록은 공식 웹사이트에서 확인하세요.
+정식 명칭은 Software Engineering Systems(구 Computer Systems Engineering)입니다. 매우 전통적인 CS 프로그램입니다. College of Engineering는 현재 MS 지원 수수료를 면제하고 있으며(Spring 2027과 Fall 2027 입학), 한 번의 지원으로 최대 세 개 프로그램을 체크할 수 있습니다. 따라서 NEU MSCS와 CS Align을 체크할 때 NEU SES도 함께 체크할 수 있습니다. SES는 Boston, Arlington, Toronto 등의 캠퍼스에서 제공되며, 최신 목록은 공식 웹사이트에서 확인하세요.
 
 ## 합격 선호 요소 및 대표 Data Points
 IS보다 합격하기 쉽습니다. GPA 80+(100점 만점)인 지원자는 모두 가능성이 있습니다.

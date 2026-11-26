@@ -9,7 +9,7 @@ title: "Hướng dẫn ứng tuyển UPenn Robotics MSR: môn học và trải n
 
 ## Tổng quan chương trình
 Trước khi đến, mình tưởng tượng chương trình này "siêu nặng, siêu cạnh tranh, lab cày ngày đêm"...
-Nhưng đến nơi mới nhận ra: ROBO thực sự là một trong những chương trình thạc sĩ robotics linh hoạt và "tự mình làm chủ" nhất nước Mỹ! Bạn còn có thể học song song với MCIT/MCIS và các chương trình khác.
+Nhưng đến nơi mới nhận ra: ROBO thực sự là một trong những chương trình thạc sĩ robotics linh hoạt và "tự mình làm chủ" nhất nước Mỹ! Bạn còn có thể học song song với CIS và các chương trình khác.
 
 Tóm lại điều mình rút ra lớn nhất trong một câu:
 "Tự do cao = khả năng vô hạn, nhưng cũng có nghĩa là bạn phải biết rất rõ mình muốn gì."

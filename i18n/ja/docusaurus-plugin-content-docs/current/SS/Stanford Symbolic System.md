@@ -1,11 +1,11 @@
 ---
 slug: stanford-symbolic-system
 description: "Stanford Symbolic Systemsは、thesisの完成が求められる学際的な研究プログラムです。コンピュータ・人文・認知の各分野で求められるバックグラウンドと、過去の合格事例を紹介します。"
-sidebar_label: "Stanford Symbolic System"
+sidebar_label: "Stanford Symbolic Systems"
 title: "Stanford Symbolic Systems 出願ガイド：授業とプログラム体験記"
 ---
 
-# Stanford Symbolic System
+# Stanford Symbolic Systems
 
 ## プログラム概要
 研究ベースのプログラムで、位置づけとしてはMIT CSEが参考になります。Symbolic Systemsは学際的なプログラムで、学科は学生が次の分野のうち少なくとも2つに精通していることを期待しています。

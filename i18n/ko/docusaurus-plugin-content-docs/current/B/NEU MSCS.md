@@ -8,7 +8,7 @@ description: "Northeastern MSCS 캠퍼스, 수업 개설 현황과 학업 일정
 일반 MSCS 프로그램입니다. CS Align 프로그램과는 구분해야 합니다(우열이 있는 것은 아니고, CS Align은 CS로 전공을 전환하는 사람을 위해 설계된 프로그램입니다).
 
 ## 프로그램 개요
-NEU는 CS 프로그램이 매우 많고, 캠퍼스마다 Boston, SV, Seattle 등 다양한 CS 프로그램을 운영합니다. 최근 Oakland 캠퍼스를 열었는데 경치가 좋고 장학금도 있어 고려해 볼 만합니다. SV 캠퍼스는 한 층에 강의실 두 개뿐이라 소박해 보이지만 자습 공간은 충분합니다. 연구에 관심 있는 학생은 교수가 더 많은 Boston 캠퍼스로 가는 경우가 많습니다. 그렇지만 어차피 대부분의 학생이 Boston, SV, Seattle 어느 캠퍼스든 전공 전환을 목적으로 NEU에 옵니다. 수업은 Boston이 가장 많고 Seattle이 그다음이며, SV는 선택지가 더 제한적입니다.
+NEU는 CS 프로그램이 매우 많고, 캠퍼스마다 Boston, SV, Seattle 등 다양한 CS 프로그램을 운영합니다. Oakland 캠퍼스도 있는데 경치가 좋고 장학금도 있어 고려해 볼 만합니다. SV 캠퍼스는 한 층에 강의실 두 개뿐이라 소박해 보이지만 자습 공간은 충분합니다. 연구에 관심 있는 학생은 교수가 더 많은 Boston 캠퍼스로 가는 경우가 많습니다. 그렇지만 어차피 대부분의 학생이 Boston, SV, Seattle 어느 캠퍼스든 전공 전환을 목적으로 NEU에 옵니다. 수업은 Boston이 가장 많고 Seattle이 그다음이며, SV는 선택지가 더 제한적입니다.
 
 일반 트랙 학생은 한 학기를 연장해 28개월까지 다닐 수 있습니다. NEU 수업은 대부분 채점이 느슨해서 취업 준비에 집중하기에 매우 적합합니다. 예를 들어 Mobile Application 5520, Computer Networks 5700(David), Building Scalable Distributed System 6650(Prasad) 같은 수업이 있으니, 구직 기간에는 쉬운 수업을 골라 들을 수 있습니다.
 

@@ -1,20 +1,20 @@
 ---
-slug: upenn-ds
-description: "UPenn Data Science는 통계, 머신러닝, 유연한 선택 과목을 결합한 프로그램입니다. 학생들이 CS 중심 시간표를 짜는 방법과 합격자 프로필을 비교해 보세요."
-sidebar_label: "Upenn DS"
-title: "UPenn Data Science 지원 가이드: 수업과 프로그램 후기"
+slug: upenn-dsai
+description: "UPenn DSAI(구 Data Science)는 통계, 머신러닝, 유연한 선택 과목을 결합한 프로그램입니다. 학생들이 CS 중심 시간표를 짜는 방법과 합격자 프로필을 비교해 보세요."
+sidebar_label: "Upenn DSAI"
+title: "UPenn DSAI 지원 가이드: 수업과 프로그램 후기"
 ---
 
-# Upenn DS
+# Upenn DSAI
 
 ## 프로그램 개요
-> 2026년 10월 업데이트: 2026년 9월 Penn Engineering이 새로운 [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/)를 출범했고, Fall 2027 지원이 9월 15일에 시작되었습니다. [입학 페이지](https://gradadm.seas.upenn.edu/masters/data-science/)에는 이제 DSAI만 캠퍼스 과정으로 올라와 있으며 Data Science MSE는 온라인으로 운영됩니다. 이 페이지의 나머지 내용은 기존 캠퍼스 과정 MSE in Data Science의 경험을 설명한 것이니, 현재 요건과 커리큘럼은 DSAI 웹사이트에서 확인하세요.
+> 2026년 11월 업데이트: 기존 MSE in Data Science(DATS, 2017년 개설)는 Fall 2026부터 지원을 받지 않고, [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/)로 확대·개편되었습니다. Data Science와 Artificial Intelligence 두 concentration으로 나뉘고 Core 과목은 같이 듣습니다. 따로 생긴 새 프로그램이 아니라 기존 DS를 이어받은 과정입니다. Fall 2027 지원은 2026년 9월 15일에 시작되었습니다. 이 페이지의 나머지 내용은 기존 DS의 경험을 설명한 것이니, 현재 요건과 커리큘럼은 [DSAI 웹사이트](https://dsai.engineering.upenn.edu/)에서 확인하세요.
 
 이 프로그램의 가장 큰 특징은 수강 선택의 자유도가 매우 높다는 점입니다. 입학 후 DS를 CS로 바꾸어 DS와 SDE 직무에 모두 지원하거나 아예 CS로 전공을 전환하는 학생이 많습니다.
 
 CIS 수업만 듣거나 Wharton 수업을 들을 수도 있고, 어려운 시스템 수업이나 쉬운 수업을 고를 수도 있어서 유연성이 매우 높습니다. 공식 웹사이트에 나온 Foundation 및 전공 과목은 거의 모두 면제받을 수 있습니다.
 
-이 프로그램은 10과목을 요구하며, 기본적으로 Foundation 2과목(프로그래밍과 선형대수)이 있습니다. 대부분은 이를 면제받아 Core 3과목과 Electives 5과목이 남습니다. Core 과목은 Stats (ESE 542) + Big Data (CIS 545) + ML (CIS 519/520)입니다. Elective은 자유롭게 고를 수 있으며, 인기 과목으로는 CIS 550 (Database), ESE 546 (Deep Learning), CIS 530 (NLP), CIS 580 (CV), 그리고 Wharton의 OIDD 관련 과목이 있습니다. CS 트랙 수업을 듣기가 매우 쉬워서 사실상 "스텔스 CS 석사"를 만들 수 있습니다.
+아래는 기존 DS의 과목 구성이고, DSAI 커리큘럼은 공식 사이트에서 확인하세요. 이 프로그램은 10과목을 요구하며, 기본적으로 Foundation 2과목(프로그래밍과 선형대수)이 있습니다. 대부분은 이를 면제받아 Core 3과목과 Electives 5과목이 남습니다. Core 과목은 Stats (ESE 5420) + Big Data (CIS 5450) + ML (CIS 5190/5200)입니다. Elective은 자유롭게 고를 수 있으며, 인기 과목으로는 CIS 5500 (Database), ESE 5460 (Deep Learning), CIS 5300 (NLP), CIS 5800 (CV), 그리고 Wharton의 OIDD 관련 과목이 있습니다. CS 트랙 수업을 듣기가 매우 쉬워서 사실상 "스텔스 CS 석사"를 만들 수 있습니다.
 
 
 

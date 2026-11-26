@@ -9,10 +9,10 @@ sidebar_label: "UIUC ECE MENG"
 
 ## 項目介紹 {#项目介绍}
 可以coop，選課自由，軟硬都可，適合轉碼，可以選不少CS課程，比如ECE428 Distributed systems
-或者CS411 Database systems，但官網要求32學分裡至少18學分是ECE課、500級的12學分裡至少8學分是ECE課。往年支持spring 入學給summer 實習的cpt，coop了可以延畢
+或者CS411 Database systems，但官網要求32學分裡至少18學分是ECE課、500級的12學分裡至少8學分是ECE課。支持spring 入學給summer 實習的cpt，coop了可以延畢
 
 支持defer一年，軟bg薄弱的uu可以用這一年在國內實習補充一下軟背景，之後更好在美國找full time 全職，
-對找工比較友好。項目目前是隨意defer，沒有疫情的時候也是可以選擇defer一年，同時畢業的方案也很多，具體可以參考下圖
+對找工比較友好。往年支持 defer 一年，以當年錄取信為準，同時畢業的方案也很多，具體可以參考下圖
 
 
 ![cs75coop](/img/uiucece.png)

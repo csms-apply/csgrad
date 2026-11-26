@@ -11,7 +11,7 @@ title: "Hướng dẫn ứng tuyển Northeastern Information Systems: môn họ
 Một chương trình chuyển ngành sang CS có cơ hội co-op. Chương trình tương tự MSCS, và trên I-20 ghi SE (Software Engineering), một tên ngành liên quan đến CS.
 
 Chương trình có nhiều cơ sở.
-Nếu bạn muốn trải nghiệm đời sống sinh viên kiểu đại học Mỹ truyền thống, còn trẻ, không vội tìm việc và hồ sơ tổng thể mạnh, hãy chọn cơ sở Boston. Nếu mục tiêu là vào big tech, hoặc bạn không chịu nổi mùa đông Boston, hãy đến cơ sở Silicon Valley. Nhập học 2025-2026 không yêu cầu GRE, và College of Engineering đã miễn phí nộp hồ sơ MS cho kỳ nhập học Spring 2027 và Fall 2027.
+Nếu bạn muốn trải nghiệm đời sống sinh viên kiểu đại học Mỹ truyền thống, còn trẻ, không vội tìm việc và hồ sơ tổng thể mạnh, hãy chọn cơ sở Boston. Nếu mục tiêu là vào big tech, hoặc bạn không chịu nổi mùa đông Boston, hãy đến cơ sở Silicon Valley. Kỳ Fall 2027 GRE là tùy chọn, và College of Engineering đã miễn phí nộp hồ sơ MS cho kỳ nhập học Spring 2027 và Fall 2027.
 
 Bình thường mất hai năm để tốt nghiệp, nhưng nếu đi thực tập hoặc co-op giữa chừng thì có thể mất khoảng hai năm rưỡi.
 

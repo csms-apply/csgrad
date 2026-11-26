@@ -8,7 +8,7 @@ title: "Hướng dẫn ứng tuyển NEU Software Engineering Systems: môn họ
 # NEU SES
 
 ## Tổng quan chương trình
-Tên đầy đủ là Software Engineering Systems. Đây là một chương trình CS rất truyền thống. College of Engineering hiện đang miễn phí nộp hồ sơ MS (nhập học Spring 2027 và Fall 2027), và một lần nộp có thể chọn tối đa ba chương trình, nên khi chọn NEU MSCS và CS Align, bạn có thể chọn thêm NEU SES. SES được mở ở các cơ sở Boston, Arlington, Toronto và một số nơi khác; danh sách mới nhất xem trên trang web chính thức.
+Tên đầy đủ là Software Engineering Systems (trước đây là Computer Systems Engineering). Đây là một chương trình CS rất truyền thống. College of Engineering hiện đang miễn phí nộp hồ sơ MS (nhập học Spring 2027 và Fall 2027), và một lần nộp có thể chọn tối đa ba chương trình, nên khi chọn NEU MSCS và CS Align, bạn có thể chọn thêm NEU SES. SES được mở ở các cơ sở Boston, Arlington, Toronto và một số nơi khác; danh sách mới nhất xem trên trang web chính thức.
 
 ## Tiêu chí tuyển sinh và Data Points tiêu biểu
 Dễ đỗ hơn IS. Ứng viên có GPA 80+ (thang 100) đều có cơ hội.

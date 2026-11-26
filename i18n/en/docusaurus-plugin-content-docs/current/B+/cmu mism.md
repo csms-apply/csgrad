@@ -23,7 +23,7 @@ Worth a dedicated section to introduce this core -- you can see there aren't man
 ![CMU MISM core course list](/img/en/mismcore.png)
 
 ## Representative Admission Data Points
-Rolling admissions -- apply early, get admitted early. If you want to come to MISM, apply as early as possible.
+Fall 2027 has two rounds: Round 1 on December 1 and Round 2 on January 10. Rolling review only kicks in after that if seats are left, and the application closes June 15. For scholarship consideration, submit by February 1. If you want to come to MISM, apply as early as possible.
 
 1. UW-Madison CS undergrad + Tencent internship, GPA 3.7
 2. HUST CS undergrad, GPA 3.86, two quant internships

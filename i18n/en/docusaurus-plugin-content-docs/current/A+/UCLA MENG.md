@@ -94,7 +94,7 @@ UCLA MEng offers two ways to push graduation to December of the year after you e
 
   For example, the following schedule is allowed:  
   - 26Fall: 2 elective courses + 1 petitioned undergrad OS course  
-  - 26Winter: 2 core courses  
+  - 27Winter: 2 core courses  
   - 27Spring: 2 professional development courses  
   - 27Summer: Capstone Project  
   - 27Fall: 1 professional development course

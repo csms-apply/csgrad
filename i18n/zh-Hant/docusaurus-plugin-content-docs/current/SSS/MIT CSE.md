@@ -8,16 +8,16 @@ sidebar_label: "MIT CSE"
 # MIT CSE
 
 ## 項目介紹 {#项目介绍}
+27 fall 仍暫停對外招生，官網原文 “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.”（[官網](https://cse.mit.edu/programs-admissions/cse-sm/)），何時恢復不確定（2026 年 11 月更新）:
+![](/img/mitcse)
+
 全稱是Master of Science in Computational Science and Engineering，
 側重計算和基礎理科，課程基本都是optimization, numerical computing。CSE是和數學、航空航天、化學工程、土木與環境工程、地球大氣與行星科學、材料科學與工程、機械工程和核科學與工程
 這八個部門合辦，非cs項目，如果想申請純血CS項目可以左轉MIT EECS系。MIT CSE
 不保證給每個錄取者資助，項目會盡量幫錄取者匹配有科研經費的導師，資助來自導師的科研項目
 
-MIT CSE目前已停止招生，何時招生外校的不確定(26fall update):
-![](/img/mitcse)
-
 ## 錄取bar 和dp {#录取bar-和dp}
-每年招生hc大概在15人左右
+停招前每年招生hc大概在15人左右
 國內top 2的數學/物理/化學/土木/材料/工科本科，硬核research 經歷
 以往dp
 1. top 10 文理學院cs+math本科gpa 4.0，有nasa實習

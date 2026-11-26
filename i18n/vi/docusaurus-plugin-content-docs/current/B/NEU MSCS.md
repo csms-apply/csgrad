@@ -8,7 +8,7 @@ description: "MSCS thông thường của NEU khác gì CS Align? Bài viết gi
 Đây là chương trình MSCS thông thường, cần phân biệt với chương trình CS Align (không có chuyện cái nào hơn cái nào – CS Align được thiết kế cho người chuyển ngành sang CS).
 
 ## Tổng quan chương trình
-NEU có rất nhiều chương trình CS, và mỗi cơ sở như Boston, SV, Seattle… cũng mở nhiều chương trình CS khác nhau. Gần đây trường mở thêm cơ sở Oakland, cảnh đẹp lại có học bổng – rất đáng cân nhắc. Cơ sở SV chỉ có một tầng với hai phòng học, nghe thì khá khiêm tốn nhưng chỗ tự học thì rất rộng rãi. Sinh viên muốn làm nghiên cứu thường chọn cơ sở Boston vì ở đó có nhiều giáo sư hơn. Dù vậy, phần lớn sinh viên đến NEU là để chuyển ngành, dù học ở Boston, SV hay Seattle. Boston mở nhiều môn nhất, Seattle đứng thứ hai, còn SV có ít lựa chọn hơn.
+NEU có rất nhiều chương trình CS, và mỗi cơ sở như Boston, SV, Seattle… cũng mở nhiều chương trình CS khác nhau. Trường còn có cơ sở Oakland, cảnh đẹp lại có học bổng – rất đáng cân nhắc. Cơ sở SV chỉ có một tầng với hai phòng học, nghe thì khá khiêm tốn nhưng chỗ tự học thì rất rộng rãi. Sinh viên muốn làm nghiên cứu thường chọn cơ sở Boston vì ở đó có nhiều giáo sư hơn. Dù vậy, phần lớn sinh viên đến NEU là để chuyển ngành, dù học ở Boston, SV hay Seattle. Boston mở nhiều môn nhất, Seattle đứng thứ hai, còn SV có ít lựa chọn hơn.
 
 Sinh viên theo hướng thông thường có thể kéo dài thêm một học kỳ, tổng cộng 28 tháng. Phần lớn các môn ở NEU chấm điểm khá nhẹ tay, rất phù hợp để tập trung tìm việc. Ví dụ Mobile Application 5520, Computer Networks 5700 (David), Building Scalable Distributed System 6650 (Prasad) – trong thời gian tìm việc bạn có thể chọn vài môn nhẹ như vậy.
 

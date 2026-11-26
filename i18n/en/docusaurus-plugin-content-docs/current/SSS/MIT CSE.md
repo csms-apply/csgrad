@@ -8,14 +8,14 @@ title: "MIT CSE Admissions Guide: Courses and Program Experience"
 # MIT CSE
 
 ## Program Overview
+External admissions are still paused for 27 Fall. The official site says “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.” ([official page](https://cse.mit.edu/programs-admissions/cse-sm/)) No word on when they will resume (updated November 2026):
+[![MIT CSE SM external admissions status; open full size](/img/en/mit-cse-status.svg)](/img/en/mit-cse-status.svg)
+
 Full name: Master of Science in Computational Science and Engineering.
 Focused on computation and foundational sciences, with courses primarily covering optimization and numerical computing. CSE is jointly offered with eight departments: Mathematics, Aerospace, Chemical Engineering, Civil and Environmental Engineering, Earth, Atmospheric and Planetary Sciences, Materials Science and Engineering, Mechanical Engineering, and Nuclear Science and Engineering. This is not a CS program -- if you want to apply to a pure CS program, check out MIT EECS instead. MIT CSE does not guarantee funding for every admitted student; the program tries to match admits with faculty who can support them through sponsored research.
 
-MIT CSE has currently stopped admitting students. It is uncertain when they will resume admitting external applicants (26fall update):
-[![MIT CSE SM external admissions status; open full size](/img/en/mit-cse-status.svg)](/img/en/mit-cse-status.svg)
-
 ## Admission Threshold & Data Points
-Annual enrollment is around 15 students.
+Before the pause, annual enrollment was around 15 students.
 Domestic top 2 universities' Math/Physics/Chemistry/Civil Engineering/Materials/Engineering undergrads, with hardcore research experience.
 Previous data points:
 1. Top 10 liberal arts college CS+Math undergrad, GPA 4.0, NASA internship

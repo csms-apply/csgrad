@@ -22,4 +22,4 @@ Columbia CVN（授業の選択肢はトップクラスで、学内の図書館�
 
 Boston OMSCS
 
-UPenn MCIT Online — GPA の高いキャリアチェンジ組に有利。CS の授業は 2 科目を超えて履修できません
+UPenn MAS-CS Online（旧 MCIT Online）— GPA の高いキャリアチェンジ組に有利。CS の授業は 2 科目を超えて履修できません。Fall 2027 は priority 締切が 2027 年 3 月 1 日、final 締切が 5 月 31 日です

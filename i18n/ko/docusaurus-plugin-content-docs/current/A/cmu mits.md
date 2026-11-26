@@ -8,7 +8,7 @@ description: "CMU MITS의 트랙, 유연한 SCS 수업 선택, 기업 연계 cap
 # CMU MITS
 
 ## 프로그램 개요
-SCS, CIT, IPS가 공동으로 운영하는 joint 프로그램입니다. (사실 신경 쓰는 사람은 없습니다. CMU에서는 MSCS를 제외하면 다른 프로그램 간의 평판 차이는 개인 차이에 묻힙니다.)
+SCS, CIT, CMIST(구 IPS)가 공동으로 운영하는 joint 프로그램입니다. (사실 신경 쓰는 사람은 없습니다. CMU에서는 MSCS를 제외하면 다른 프로그램 간의 평판 차이는 개인 차이에 묻힙니다.)
 
 ## 네 가지 트랙
 Software and Networked Systems, Data Analytics, Information Security, Technology Strategy & Governance

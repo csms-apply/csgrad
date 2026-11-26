@@ -15,7 +15,7 @@ MSCS是research 導向項目，MS和phd錄取同pool，非常適合想轉phd的�
 因為本科生太多了，缺人當TA，幾乎人人都能當
 但注意官網寫明 MS 錄取不保證資助：本系 CMSC TA 是按小時計酬，有工資但不免學費、不含醫保；RA 才算 graduate assistantship 職位（2026-27 學年官網說法）
 
-umd屬於是科研巨強找工尚可的項目，招人少，比較看科研經歷，尤其fall很難，本校生spring相對簡單。
+umd屬於是科研巨強找工尚可的項目，招人少，比較看科研經歷。外校申請只有秋季入學（[官網](https://www.cs.umd.edu/grad/apply)寫 Entry Term: Fall Only），本校本碩連讀另有通道。
 ## 錄取bar和dp {#录取bar和dp}
 reddit 上說"umd mscs has \~20 seats each year, with \~2k applying each year"。
 average gpa is 3.8，這個項目最看重你的research，如果有頂會產出

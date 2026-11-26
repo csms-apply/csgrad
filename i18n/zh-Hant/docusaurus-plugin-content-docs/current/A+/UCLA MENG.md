@@ -94,7 +94,7 @@ UCLA MEng 項目可以通過兩個方式將畢業時間延長至入學次年的1
 
   例如，如下安排是被允許的：  
   - 26Fall: 2門elective course + 1門petitioned Undergrad OS course  
-  - 26Winter: 2 core course  
+  - 27Winter: 2 core course  
   - 27Spring: 2 professional development  
   - 27Summer: Capstone Project  
   - 27Fall: 1 professional development

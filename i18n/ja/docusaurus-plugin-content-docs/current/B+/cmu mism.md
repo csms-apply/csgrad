@@ -23,7 +23,7 @@ BIDA または general トラックを選びつつ、良い SCS/INI の授業を
 ![CMU MISM の core 授業一覧](/img/en/mismcore.png)
 
 ## 代表的な合格 DataPoints
-Rolling admissions です -- 早く出願すれば早く合格が出ます。MISM に来たいなら、できるだけ早く出願してください。
+Fall 2027 は 2 ラウンド制です。Round 1 は 12 月 1 日、Round 2 は 1 月 10 日で、その後は枠が残っている場合だけ rolling で審査され、出願システムは 6 月 15 日に閉まります。奨学金を狙うなら 2 月 1 日までに出してください。MISM に来たいなら、できるだけ早く出願してください。
 
 1. UW-Madison CS 学部 + Tencent でインターン、GPA 3.7
 2. HUST CS 学部、GPA 3.86、クオンツのインターン2回

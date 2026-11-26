@@ -7,9 +7,11 @@ title: "Hướng dẫn ứng tuyển Princeton MSCS: môn học và trải nghi�
 ---
 # Princeton MSCS
 
+**Cập nhật tháng 11/2026**: trang web Princeton CS ghi rõ không nhận hồ sơ thạc sĩ (M.S.E.) cho kỳ Fall 2027, nguyên văn “will not accept applications to the master's degree program for Fall 2027 admission” ([trang chính thức](https://www.cs.princeton.edu/grad/masters-degree-requirements)). Phần dưới đây là tình hình trước khi ngừng tuyển, giữ lại để tham khảo.
+
 ## Giới thiệu chương trình
 
-Nhận rất ít người, rất bí ẩn. Mỗi năm nhập học không quá 30 người. Học viên về cơ bản được tuyển để làm TA cho sinh viên đại học. Sinh viên đại học ở các liberal arts college tại Mỹ có GPA cao và kinh nghiệm TA có thể thử.
+Nhận rất ít người, rất bí ẩn. Trước khi ngừng tuyển, mỗi năm nhập học không quá 30 người, về cơ bản học viên được tuyển để làm TA cho sinh viên đại học. Các năm trước, sinh viên đại học ở các liberal arts college tại Mỹ có GPA cao và kinh nghiệm TA có thể thử.
 
 ## Ngưỡng trúng tuyển và dữ liệu thực tế
 

@@ -40,7 +40,7 @@ Quarter system — semester pressure can be intense.
 ## Admission Preferences
 Prefers STEM career changers.
 
-High stats from prestigious schools (high proportion from Tsinghua, Peking U, Fudan, SJTU, Zhejiang U). GRE scores are valued — aim high. The website states that Verbal 50th percentile and Quant 90th percentile is a safe range.
+High stats from prestigious schools (high proportion from Tsinghua, Peking U, Fudan, SJTU, Zhejiang U). The GRE is currently optional (Fall 2027), but scores are valued — aim high. The website states that Verbal 50th percentile and Quant 90th percentile is a safe range.
 
 In recent years, as awareness has grown and more career changers apply, the admission threshold has been rising year over year.
 

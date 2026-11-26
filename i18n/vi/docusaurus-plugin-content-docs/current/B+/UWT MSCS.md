@@ -29,7 +29,7 @@ Học phí khoảng $12,000 mỗi quarter, tốt nghiệp sau 4-5 quarter thì t
 5. Cử nhân Electrical, electronics and communications engineering ở Ấn Độ, trước thạc sĩ làm toàn thời gian ở Hitachi Energy, trong thời gian học thạc sĩ thực tập SWE ở công ty nhỏ, tốt nghiệp năm 2025 rồi vào Amazon làm SDE toàn thời gian.
 
 ## Ngưỡng trúng tuyển và hồ sơ tham khảo
-GPA trung bình của người trúng tuyển là 3.5. Yêu cầu TOEFL tương đối thấp, 92 là có thể nộp. Nhìn chung ưu tiên ứng viên trường 985 có GPA không cao. Người chuyển ngành cần học bù các môn tiên quyết. Có một số sinh viên từ Tsinghua và Peking University theo học.
+GPA trung bình của người trúng tuyển là 3.5. Yêu cầu TOEFL tương đối thấp: tối thiểu 80, khuyến nghị 92. Nhìn chung ưu tiên ứng viên trường 985 có GPA không cao. Người chuyển ngành cần học bù các môn tiên quyết. Có một số sinh viên từ Tsinghua và Peking University theo học.
 1. Sinh viên quốc tế, GPA 3.7
 2. Cử nhân ở Mỹ, GPA 3.26, 6 năm làm toàn thời gian ở Microsoft
 3. Sinh viên quốc tế, GPA 3.5, GRE 321

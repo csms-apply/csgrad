@@ -7,7 +7,7 @@ description: "NEU 常規 MSCS 與 CS Align 有什麼區別？本文介紹各校�
 # NEU MSCS
 本項目是general mscs項目，需要和cs align 項目區分（沒有好壞之分，但是cs align 項目是給轉碼同學開的）
 ## 項目介紹 {#项目介绍}
-neu 開設大量的cs項目，同時不同的校區也開設大量的cs項目，比如boston、sv、seattle....最近有開了一個okaland校區，風景不錯還給獎，可以衝一下。
+neu 開設大量的cs項目，同時不同的校區也開設大量的cs項目，比如boston、sv、seattle....還有一個 Oakland 校區，風景不錯還給獎，可以衝一下。
 SV的校園是隻有一層樓，兩間教室，聽起來比較寒酸，但自習的空間很多。一般想來搞research的都去boston校區，因為教授多。不過一般來neu的同學也都是為了轉碼來的，boston、sv、seattle的都有，boston開的課程比較多。seattle其次，sv的比較有限。
 
 general的學生可以延期一學期到28個月，neu 多數課程給分比較水，比較適合找工作,比如Mobile Application 5520 ，Computer Networks 5700 David，Building Scalable Distributed System 6650 Prasad，找工時候可以選點水課

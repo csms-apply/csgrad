@@ -1,20 +1,20 @@
 ---
-slug: upenn-ds
-description: "UPenn DSではどのCISやWhartonの授業を選べる？基礎科目の免除、Core科目と選択科目の組み方に加え、合格者の経歴やDS・SDEの就職事例を紹介します。"
-sidebar_label: "Upenn DS"
-title: "UPenn Data Science 出願ガイド：授業とプログラム体験記"
+slug: upenn-dsai
+description: "UPenn DSAI（旧DS）ではどのCISやWhartonの授業を選べる？基礎科目の免除、Core科目と選択科目の組み方に加え、合格者の経歴やDS・SDEの就職事例を紹介します。"
+sidebar_label: "Upenn DSAI"
+title: "UPenn DSAI 出願ガイド：授業とプログラム体験記"
 ---
 
-# Upenn DS
+# Upenn DSAI
 
 ## プログラム概要
-> 2026年10月更新：2026年9月、Penn Engineeringは新たに[MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/)を開設し、Fall 2027の出願受付が9月15日に始まりました。[入学案内ページ](https://gradadm.seas.upenn.edu/masters/data-science/)には現在、キャンパス課程としてDSAIのみが掲載されており、Data Science MSEはオンラインで提供されています。このページの残りの内容は、従来のキャンパス課程であるMSE in Data Scienceでの体験に基づくものです。最新の要件とカリキュラムはDSAIのウェブサイトで確認してください。
+> 2026年11月更新：従来のMSE in Data Science（DATS、2017年開設）はFall 2026から出願受付を終了し、[MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/)へ拡張・改称されました。Data ScienceとArtificial Intelligenceの2つのconcentrationがあり、Core科目は共通です。別の新プログラムではなく、従来のDSの後継です。Fall 2027の出願受付は2026年9月15日に始まっています。このページの残りの内容は従来のDSでの体験に基づくものなので、最新の要件とカリキュラムは[DSAIのウェブサイト](https://dsai.engineering.upenn.edu/)で確認してください。
 
 このプログラム最大の特徴は、履修の自由度が非常に高いことです。入学後にDSをCSに寄せて、DS職とSDE職の両方に応募したり、CSへ完全に転向したりする学生が多くいます。
 
 CISの授業だけを取ることも、Whartonの授業を取ることもでき、難しいシステム系の授業も楽な授業も選べるので、柔軟性はとても高いです。公式サイトに載っているFoundation科目や専攻科目は、ほぼすべて免除してもらえます。
 
-修了には10科目が必要で、デフォルトではFoundation科目が2つ（プログラミングと線形代数）含まれます。ほとんどの人はこれを免除できるので、Core 3科目とElective 5科目が残ります。Core科目はStats (ESE 542)＋Big Data (CIS 545)＋ML (CIS 519/520)です。Electiveは自由に選べ、人気科目にはCIS 550 (Database)、ESE 546 (Deep Learning)、CIS 530 (NLP)、CIS 580 (CV)、WhartonのOIDD関連科目などがあります。CS系の授業を取るのがとても簡単なので、実質的に「隠れCS修士」を作ることができます。
+以下は従来のDSの科目構成です。DSAIのカリキュラムは公式サイトで確認してください。修了には10科目が必要で、デフォルトではFoundation科目が2つ（プログラミングと線形代数）含まれます。ほとんどの人はこれを免除できるので、Core 3科目とElective 5科目が残ります。Core科目はStats (ESE 5420)＋Big Data (CIS 5450)＋ML (CIS 5190/5200)です。Electiveは自由に選べ、人気科目にはCIS 5500 (Database)、ESE 5460 (Deep Learning)、CIS 5300 (NLP)、CIS 5800 (CV)、WhartonのOIDD関連科目などがあります。CS系の授業を取るのがとても簡単なので、実質的に「隠れCS修士」を作ることができます。
 
 
 
