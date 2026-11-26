@@ -15,7 +15,13 @@ sidebar_label: "Gatech CSE"
 
 CSE 这个项目选课真的很灵活。除了四门 core 课（偏计算/数学），剩下的基本和 CS 差不多，CS 课都能选，而且和 MSCS 优先级一样。最爽的是，CSE 选 CS 课的优先级和 MSCS 一样（CoC home unit），很多 CS 课都能算进 specialization minor，只要说服教导主任基本都能算学分。不过 CSE 和 MSCS 是两个独立学位，CSE 自己也要选 specialization minor，并且至少修 6 学分非 CS/CSE 的应用领域课。总学分 30，官方说法是一般三个学期能毕业，除非你自己想多读会儿。
 
-i20是computer science，找工简历专业可以写computer science，不过想转 MSCS 并不能直接转，官网 FAQ 写明 MSCS 不接受校内转专业，需要重新申请。
+i20是computer science，找工简历专业可以写computer science。
+
+## 转 MSCS 的两条路
+
+**OMSCS 转线下 MSCS**：先申请 OMSCS，第一学期拿一个 A，就可以申请转线下。从往年来看，基本都转成了。
+
+**CSE 转 MSCS**：先说清楚，官网 FAQ 明确写了 MSCS 不接受校内转专业，需要重新申请。但实际上是可以操作的，往年都是这么转成的。
 
 ## 录取bar 和标准
 
