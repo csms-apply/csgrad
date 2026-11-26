@@ -7,9 +7,9 @@ title: "Princeton MSCS 出願ガイド：授業とプログラムの実態"
 ---
 # Princeton MSCS
 
-**2026年11月更新**：Princeton CS の公式サイトには、Fall 2027 入学の修士（M.S.E.）出願は受け付けないと明記されています（原文：“will not accept applications to the master's degree program for Fall 2027 admission”、[公式サイト](https://www.cs.princeton.edu/grad/masters-degree-requirements)）。以下は募集停止前の状況で、参考として残しています。
-
 ## プログラム紹介
+
+Fall 2027 は修士を募集しません。[公式サイト](https://www.cs.princeton.edu/grad/masters-degree-requirements)に、Fall 2027 入学の M.S.E. 出願は受け付けないと明記されています。
 
 募集人数がとても少なく、謎の多いプログラムです。募集停止前は毎年の募集枠が 30 人以下で、基本的には学部生の TA を務める人材として採用されていました。これまでは、GPA が高く TA 経験のある、アメリカのリベラルアーツカレッジ出身の学生ならチャレンジする価値がありました。
 

@@ -7,13 +7,12 @@ title: "CMU MSE Admissions Guide: Courses and Program Experience"
 
 # CMU MSE
 
-> Update, November 2026: Starting Fall 2027, MSE-SS and MSE-ES are no longer admitted as separate degrees. The on-campus MSE is now one degree, and Scalable Systems is a concentration within it ([official FAQ](https://mse.s3d.cmu.edu/applicants/faq.html)). You now apply to the 16-month MSE or the 20-month MSE - Applied Study; both use the same application, and the Fall 2027 deadline is December 9, 2026. What follows describes MSE-SS before the merge.
-
 
 ## Program Overview
 
-The full name is Master of Software Engineering.
-The MSE program itself is a professional engineering master's; before Fall 2027 it had three tracks:
+The full name is Master of Software Engineering, a professional engineering master's. Starting Fall 2027, the on-campus MSE is a single degree: SS and ES no longer admit separately and are now concentrations within MSE ([official FAQ](https://mse.s3d.cmu.edu/applicants/faq.html)). When you apply, you pick either the 16-month MSE or the 20-month MSE - Applied Study, and both share one application.
+
+Before the merge there were three tracks:
 
 1. Scalable Systems (SS)
 2. Embedded Systems (ES)

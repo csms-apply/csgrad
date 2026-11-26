@@ -7,13 +7,11 @@ title: "UPenn MAS-CS Admissions Guide: Courses and Program Experience"
 
 # Upenn MAS-CS
 
-> November 2026 update: In April 2026 MCIT was renamed the [Master of Applied Science in Computer Science (MAS-CS)](https://gradadm.engineering.upenn.edu/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/). The positioning is the same — it's still for people without a CS undergrad. MCIT no longer takes applications, so for Fall 2027 you apply to MAS-CS: the on-campus application opened September 15, the early deadline (November 1) has passed, and the regular deadline is February 1, 2027 ([admissions page](https://gradadm.engineering.upenn.edu/masters/)). The admission and job data below are from the MCIT years.
-
 
 ## Program Overview
-This is the ceiling program (formerly MCIT) for zero-background career changers to CS. There's a strict requirement that applicants must not have taken more than 2 CS major courses. If you've taken a substantial number of CS courses, please check out UPenn's CIS program instead. You need to complete 10 courses to graduate.
-If you don't want to take a required course, you can apply to waive it by passing an exam. In the MCIT days you could apply to extend graduation to 2.5 years with a GPA above 3.3; check the official site for whether MAS-CS keeps this.
-Great for taking it slow while job hunting. You can dual with CIS -- very flexible. In the MCIT years the first-round acceptance rate was 17% and the second-round rate 8%, so apply early if you can; for Fall 2027 the early round has closed and only the February 1 round is left.
+This is the ceiling program for zero-background career changers to CS. It used to be called MCIT and is now [MAS-CS](https://gradadm.engineering.upenn.edu/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/) (Master of Applied Science in Computer Science); the positioning hasn't changed, and it's still for people without a CS undergrad. There's a strict requirement that applicants must not have taken more than 2 CS major courses. If you've taken a substantial number of CS courses, please check out UPenn's CIS program instead. You need to complete 10 courses to graduate.
+If you don't want to take a required course, you can apply to waive it by passing an exam. Under MCIT you could apply to extend graduation to 2.5 years with a GPA above 3.3.
+Great for taking it slow while job hunting. You can dual with CIS -- very flexible. Like Penn's other on-campus master's programs, it has two rounds, early (November 1) and regular (February 1) ([admissions page](https://gradadm.engineering.upenn.edu/masters/)). Under MCIT the first-round acceptance rate was 17% and the second-round rate 8%, so apply early if you can.
 
 ## Admission Threshold & Data Points
 Prefers US undergrads. GPA > 3.8, GRE > 330 -- the higher the better. Average GRE is 330. Fall 2022 had 1,225 applicants, admitted 118, and 73 enrolled.

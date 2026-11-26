@@ -8,13 +8,13 @@ title: "UPenn DSAI Admissions Guide: Courses and Program Experience"
 # Upenn DSAI
 
 ## Program Overview
-> November 2026 update: The original MSE in Data Science (DATS, started in 2017) stopped taking applications as of Fall 2026 and was expanded and renamed the [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/), with two concentrations — Data Science and Artificial Intelligence — sharing the same core courses. It's the continuation of the old DS program, not a separate new one. Fall 2027 applications opened on September 15, 2026. The rest of this page describes the experience in the original DS program; check the [DSAI website](https://dsai.engineering.upenn.edu/) for current requirements and curriculum.
+It used to be Penn's Data Science master's (DATS) and has since been expanded into the [MSE in Data Science & Artificial Intelligence (DSAI)](https://gradadm.engineering.upenn.edu/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/), with two concentrations: Data Science and Artificial Intelligence.
 
 The program's biggest feature is its extremely high degree of course selection freedom. Many students end up turning DS into CS once enrolled, applying to both DS and SDE positions, or even making a career change to CS.
 
 You can take all CIS courses or Wharton courses, choose hard systems courses or easier ones -- the flexibility is very high. The foundation and major courses listed on the official website can almost all be waived.
 
-What follows is the course setup of the original DS program; check the official site for DSAI's curriculum. The program requires 10 courses, with 2 Foundation courses by default (programming & linear algebra). Most people can waive these, leaving 3 Core courses and 5 Electives. Core courses include Stats (ESE 5420) + Big Data (CIS 5450) + ML (CIS 5190/5200). Elective courses can be freely chosen; popular ones include CIS 5500 (Database), ESE 5460 (Deep Learning), CIS 5300 (NLP), CIS 5800 (CV), and Wharton's OIDD-related courses. Taking CS-track courses is very easy, and you can essentially build a "stealth CS master's."
+Before the rename, DS required 10 courses, with 2 Foundation courses by default (programming & linear algebra). Most people can waive these, leaving 3 Core courses and 5 Electives. Core courses include Stats (ESE 5420) + Big Data (CIS 5450) + ML (CIS 5190/5200). Elective courses can be freely chosen; popular ones include CIS 5500 (Database), ESE 5460 (Deep Learning), CIS 5300 (NLP), CIS 5800 (CV), and Wharton's OIDD-related courses. Taking CS-track courses is very easy, and you can essentially build a "stealth CS master's."
 
 
 

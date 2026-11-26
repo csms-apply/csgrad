@@ -8,7 +8,7 @@ title: "Hướng dẫn ứng tuyển MIT CSE: môn học và trải nghiệm ch�
 # MIT CSE
 
 ## Giới thiệu chương trình
-Kỳ 27 Fall vẫn tạm ngừng tuyển ứng viên ngoài trường. Trang chính thức ghi “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.” ([trang chính thức](https://cse.mit.edu/programs-admissions/cse-sm/)), chưa rõ khi nào tuyển lại (cập nhật tháng 11/2026):
+Kỳ 27 Fall vẫn tạm ngừng tuyển ứng viên ngoài trường ([trang chính thức](https://cse.mit.edu/programs-admissions/cse-sm/)), chưa rõ khi nào tuyển lại:
 [![Tình trạng tuyển sinh ứng viên ngoài trường của MIT CSE SM; bấm để mở kích thước đầy đủ](/img/vi/mit-cse-status.svg)](/img/vi/mit-cse-status.svg)
 
 Tên đầy đủ: Master of Science in Computational Science and Engineering.

@@ -8,7 +8,7 @@ title: "MIT CSE 지원 가이드: 수업과 프로그램 경험"
 # MIT CSE
 
 ## 프로그램 소개
-27 Fall에도 외부 지원자 모집은 여전히 중단 상태입니다. 공식 웹사이트 원문은 “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.”([공식 웹사이트](https://cse.mit.edu/programs-admissions/cse-sm/))이며, 언제 재개할지는 불확실합니다(2026년 11월 업데이트):
+27 Fall에도 외부 지원자 모집은 여전히 중단 상태이며([공식 웹사이트](https://cse.mit.edu/programs-admissions/cse-sm/)), 언제 재개할지는 불확실합니다:
 [![MIT CSE SM 외부 지원자 모집 현황; 클릭하면 원본 크기로 열림](/img/ko/mit-cse-status.svg)](/img/ko/mit-cse-status.svg)
 
 정식 명칭: Master of Science in Computational Science and Engineering.

@@ -8,7 +8,7 @@ title: "MIT CSE 出願ガイド：授業とプログラム体験"
 # MIT CSE
 
 ## プログラム概要
-27 Fall も外部からの出願受け入れは停止したままです。公式サイトの原文は “External admissions for the CSE Master of Science (CSE SM) Program is currently paused.”（[公式サイト](https://cse.mit.edu/programs-admissions/cse-sm/)）。いつ再開するかは未定です（2026年11月更新）：
+27 Fall も外部からの出願受け入れは停止したままで（[公式サイト](https://cse.mit.edu/programs-admissions/cse-sm/)）、いつ再開するかは未定です：
 [![MIT CSE SM 外部出願者の募集状況。クリックすると原寸で開きます](/img/ja/mit-cse-status.svg)](/img/ja/mit-cse-status.svg)
 
 正式名称：Master of Science in Computational Science and Engineering。
