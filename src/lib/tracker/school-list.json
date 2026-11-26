@@ -2672,19 +2672,19 @@
   },
   {
    "id": "a-minus-cmu-msess",
-   "name": "mse-ss@cmu",
+   "name": "mse@cmu",
    "school": "Carnegie Mellon University",
-   "program": "MSE-SS",
+   "program": "MSE",
    "tier": "A-",
-   "slug": "/A-/cmu-msess",
-   "official": "Master of Software Engineering - Scalable Systems (MSE-SS)",
+   "slug": "/A-/cmu-mse",
+   "official": "Master of Software Engineering (MSE, 16 months / MSE - Applied Study, 20 months); Scalable Systems is a concentration (formerly MSE-SS)",
    "schoolFull": "Carnegie Mellon University",
-   "halt": true,
-   "haltNote": "MSE-SS 从 Fall 2027 起停招，不再作为单独学位开设。CMU 把校内 MSE 合并成一个 Master of Software Engineering 学位，分 16 个月的 MSE 和 20 个月、必修暑期实习的 MSE - Applied Study 两种，共用同一申请入口。Scalable Systems 改成这个 MSE 学位内的可选 concentration。原 MSE-SS 的学习计划只适用于 Fall 2025 和 Fall 2026 入学的学生。原 MSE-SS 申请页 /applicants/mse-ss/ 已返回 404，SCS 硕士项目总列表也只剩 Master of Software Engineering 和 MSE Online。想读原 SS 方向的人，Fall 2027 应申请 MSE 或 MSE - Applied Study，入学后再选 Scalable Systems concentration。本记录里的截止日期、GRE、语言、申请费和 apply_url 都是这个继任项目的信息，不代表 MSE-SS 本身还在招生。另外，SCS 招生总页的申请费说明里还写着“MSE-ES, MSE-SS”，应是旧写法没改，与项目官网的停招说明不一致。",
+   "halt": false,
+   "haltNote": null,
    "rounds": [
     {
      "date": "2026-12-09",
-     "label": "继任项目 MSE / MSE - Applied Study 唯一截止（MSE-SS 本身已停招）"
+     "label": "唯一截止"
     }
    ],
    "gre": "optional",
@@ -2702,10 +2702,9 @@
     "rounds": [
      {
       "date": "2026-12-09",
-      "short": "EST 15:00，继任 MSE"
+      "short": "美东 15:00，MSE 与 Applied Study 共用"
      }
-    ],
-    "halt": "MSE-SS 自 Fall 2027 停招，改申 MSE 后选 Scalable Systems"
+    ]
    },
    "lang": {
     "toefl_old": {
@@ -4927,7 +4926,6 @@
   "7/15 前出结果·名额有限": "Decisions by 7/15 · limited spots",
   "CS MS 无 Spring 入学": "No Spring intake for CS MS",
   "Cycle 1（优先轮）": "Cycle 1 (priority round)",
-  "EST 15:00，继任 MSE": "EST 15:00, successor MSE",
   "Early 截止": "Early deadline",
   "Early 截止（提前轮）": "Early deadline (early round)",
   "Fall 2027 不招 M.S.E.（资助不确定），PhD 照常": "No M.S.E. intake for Fall 2027 (funding uncertain), PhD as usual",
@@ -4939,8 +4937,6 @@
   "MS 外部申请者截止（唯一轮次）": "MS external applicant deadline (only round)",
   "MS 提前审核截止（Early review）": "MS early review deadline",
   "MS 最终提交截止": "MS final submission deadline",
-  "MSE-SS 从 Fall 2027 起停招，不再作为单独学位开设。CMU 把校内 MSE 合并成一个 Master of Software Engineering 学位，分 16 个月的 MSE 和 20 个月、必修暑期实习的 MSE - Applied Study 两种，共用同一申请入口。Scalable Systems 改成这个 MSE 学位内的可选 concentration。原 MSE-SS 的学习计划只适用于 Fall 2025 和 Fall 2026 入学的学生。原 MSE-SS 申请页 /applicants/mse-ss/ 已返回 404，SCS 硕士项目总列表也只剩 Master of Software Engineering 和 MSE Online。想读原 SS 方向的人，Fall 2027 应申请 MSE 或 MSE - Applied Study，入学后再选 Scalable Systems concentration。本记录里的截止日期、GRE、语言、申请费和 apply_url 都是这个继任项目的信息，不代表 MSE-SS 本身还在招生。另外，SCS 招生总页的申请费说明里还写着“MSE-ES, MSE-SS”，应是旧写法没改，与项目官网的停招说明不一致。": "MSE-SS stops admitting from Fall 2027 and is no longer offered as a separate degree. CMU merged its on-campus MSE into one Master of Software Engineering degree with two options, the 16-month MSE and the 20-month MSE - Applied Study with a required summer internship, sharing one application portal. Scalable Systems becomes an optional concentration within this MSE degree. The former MSE-SS curriculum applies only to students entering in Fall 2025 and Fall 2026. The former MSE-SS application page /applicants/mse-ss/ now returns 404, and the SCS master's program list shows only Master of Software Engineering and MSE Online. For the former SS track, apply to MSE or MSE - Applied Study for Fall 2027 and choose the Scalable Systems concentration after enrolling. The deadlines, GRE, language, app fee and apply_url in this record are for the successor program and do not mean MSE-SS itself is still admitting. Also, the app fee note on the SCS admissions main page still says \"MSE-ES, MSE-SS\", likely outdated wording that conflicts with the program website's closure notice",
-  "MSE-SS 自 Fall 2027 停招，改申 MSE 后选 Scalable Systems": "MSE-SS closed from Fall 2027; apply to MSE and choose Scalable Systems",
   "PST 11:59pm·推荐信同日": "PST 11:59pm · recommendations due same day",
   "PST 23:59；需先考 GRE": "PST 23:59; GRE must be taken first",
   "Princeton CS 系官方明确：由于硕士生资助资源不确定，Fall 2027 不接受硕士（M.S.E.）申请；研究生院的截止日期页和 Computer Science 专业页也写明 M.S.E. 不招 Fall 2027。Ph.D. 照常招生（2026-12-15 截止）。Fall 2028 是否恢复招生，官方暂时没有说法，只写了希望申请人以后再关注。": "Princeton CS dept officially states that due to uncertain funding for master's students, master's (M.S.E.) applications are not accepted for Fall 2027; the Graduate School deadlines page and the Computer Science program page also state M.S.E. is not admitting for Fall 2027. Ph.D. admissions continue as usual (deadline 2026-12-15). There is no official word yet on resuming for Fall 2028; it only asks applicants to check back later",
@@ -5133,7 +5129,6 @@
   "第三轮 (Round 3)": "Round 3",
   "第二轮": "Round 2",
   "第二轮 (Round 2)": "Round 2",
-  "继任项目 MSE / MSE - Applied Study 唯一截止（MSE-SS 本身已停招）": "Only deadline for successor programs MSE / MSE - Applied Study (MSE-SS itself no longer admitting)",
   "美东 11:59 PM · CIS 适用": "11:59 PM ET · For CIS",
   "美东 11:59 PM · DSAI 适用": "11:59 PM ET · For DSAI",
   "美东 11:59 PM · 仅秋季": "11:59 PM ET · Fall only",
@@ -5173,7 +5168,8 @@
   "部分可免 · 数学课 B 以上免": "Some waivers · waived with B or higher in math",
   "竞争性奖学金考虑期限": "Competitive scholarship consideration deadline",
   "申请系统关闭（两轮后有名额则滚动录取）": "Application closes (rolling after Round 2 if seats remain)",
-  "美东午夜": "Midnight ET"
+  "美东午夜": "Midnight ET",
+  "美东 15:00，MSE 与 Applied Study 共用": "3:00 PM ET; shared by MSE and Applied Study"
  },
  "ko": {
   "1 月 10 日前出结果": "1월 10일까지 결과 발표",
@@ -5202,7 +5198,6 @@
   "7/15 前出结果·名额有限": "7/15까지 결과 발표 · 정원 제한",
   "CS MS 无 Spring 入学": "CS MS는 Spring 입학 없음",
   "Cycle 1（优先轮）": "Cycle 1 (우선 라운드)",
-  "EST 15:00，继任 MSE": "EST 15:00, 후속 MSE",
   "Early 截止": "Early 마감",
   "Early 截止（提前轮）": "Early 마감 (조기 라운드)",
   "Fall 2027 不招 M.S.E.（资助不确定），PhD 照常": "Fall 2027 M.S.E. 미모집 (재정 지원 불확실), PhD는 정상 모집",
@@ -5214,8 +5209,6 @@
   "MS 外部申请者截止（唯一轮次）": "MS 외부 지원자 마감 (단일 라운드)",
   "MS 提前审核截止（Early review）": "MS 조기 심사 마감 (Early review)",
   "MS 最终提交截止": "MS 최종 제출 마감",
-  "MSE-SS 从 Fall 2027 起停招，不再作为单独学位开设。CMU 把校内 MSE 合并成一个 Master of Software Engineering 学位，分 16 个月的 MSE 和 20 个月、必修暑期实习的 MSE - Applied Study 两种，共用同一申请入口。Scalable Systems 改成这个 MSE 学位内的可选 concentration。原 MSE-SS 的学习计划只适用于 Fall 2025 和 Fall 2026 入学的学生。原 MSE-SS 申请页 /applicants/mse-ss/ 已返回 404，SCS 硕士项目总列表也只剩 Master of Software Engineering 和 MSE Online。想读原 SS 方向的人，Fall 2027 应申请 MSE 或 MSE - Applied Study，入学后再选 Scalable Systems concentration。本记录里的截止日期、GRE、语言、申请费和 apply_url 都是这个继任项目的信息，不代表 MSE-SS 本身还在招生。另外，SCS 招生总页的申请费说明里还写着“MSE-ES, MSE-SS”，应是旧写法没改，与项目官网的停招说明不一致。": "MSE-SS는 Fall 2027부터 모집을 중단하고 더 이상 별도 학위로 개설되지 않는다. CMU는 캠퍼스 MSE를 하나의 Master of Software Engineering 학위로 통합했으며, 16개월 MSE와 여름 인턴십이 필수인 20개월 MSE - Applied Study 두 가지로 나뉘고 같은 지원 창구를 쓴다. Scalable Systems는 이 MSE 학위 안의 선택 concentration으로 바뀌었다. 기존 MSE-SS 학업 계획은 Fall 2025와 Fall 2026 입학생에게만 적용된다. 기존 MSE-SS 지원 페이지 /applicants/mse-ss/는 이미 404를 반환하고, SCS 석사 프로그램 목록에도 Master of Software Engineering과 MSE Online만 남아 있다. 기존 SS 방향을 원하면 Fall 2027에 MSE 또는 MSE - Applied Study에 지원하고 입학 후 Scalable Systems concentration을 선택하면 된다. 이 기록의 마감일, GRE, 어학, 지원비, apply_url은 모두 후속 프로그램 정보이며 MSE-SS 자체가 아직 모집 중이라는 뜻이 아니다. 또한 SCS 입학 메인 페이지의 지원비 안내에는 아직 “MSE-ES, MSE-SS”라고 적혀 있는데, 예전 표기를 고치지 않은 것으로 보이며 프로그램 공식 사이트의 모집 중단 안내와 맞지 않는다.",
-  "MSE-SS 自 Fall 2027 停招，改申 MSE 后选 Scalable Systems": "MSE-SS는 Fall 2027부터 모집 중단, MSE 지원 후 Scalable Systems 선택",
   "PST 11:59pm·推荐信同日": "PST 11:59pm · 추천서 같은 날 마감",
   "PST 23:59；需先考 GRE": "PST 23:59; GRE 사전 응시 필요",
   "Princeton CS 系官方明确：由于硕士生资助资源不确定，Fall 2027 不接受硕士（M.S.E.）申请；研究生院的截止日期页和 Computer Science 专业页也写明 M.S.E. 不招 Fall 2027。Ph.D. 照常招生（2026-12-15 截止）。Fall 2028 是否恢复招生，官方暂时没有说法，只写了希望申请人以后再关注。": "Princeton CS 학과는 석사생 재정 지원이 불확실하여 Fall 2027 석사(M.S.E.) 지원을 받지 않는다고 공식 발표했다. 대학원 마감일 페이지와 Computer Science 전공 페이지에도 M.S.E.는 Fall 2027 모집이 없다고 적혀 있다. Ph.D.는 정상 모집한다(2026-12-15 마감). Fall 2028 모집 재개 여부는 아직 공식 입장이 없고, 지원자에게 나중에 다시 확인해 달라고만 적혀 있다.",
@@ -5408,7 +5401,6 @@
   "第三轮 (Round 3)": "3차 (Round 3)",
   "第二轮": "2차",
   "第二轮 (Round 2)": "2차 (Round 2)",
-  "继任项目 MSE / MSE - Applied Study 唯一截止（MSE-SS 本身已停招）": "후속 프로그램 MSE / MSE - Applied Study 단일 마감 (MSE-SS 자체는 모집 중단)",
   "美东 11:59 PM · CIS 适用": "11:59 PM ET · CIS 적용",
   "美东 11:59 PM · DSAI 适用": "11:59 PM ET · DSAI 적용",
   "美东 11:59 PM · 仅秋季": "11:59 PM ET · 가을학기만",
@@ -5448,7 +5440,8 @@
   "部分可免 · 数学课 B 以上免": "일부 면제 · 수학 과목 B 이상이면 면제",
   "竞争性奖学金考虑期限": "경쟁 장학금 심사 기한",
   "申请系统关闭（两轮后有名额则滚动录取）": "지원 시스템 마감(2라운드 이후 자리가 있으면 수시 선발)",
-  "美东午夜": "미 동부시간 자정"
+  "美东午夜": "미 동부시간 자정",
+  "美东 15:00，MSE 与 Applied Study 共用": "미 동부시간 15:00, MSE와 Applied Study 공통"
  },
  "vi": {
   "1 月 10 日前出结果": "Kết quả trước 10 tháng 1",
@@ -5477,7 +5470,6 @@
   "7/15 前出结果·名额有限": "Kết quả trước 7/15 · Số chỗ có hạn",
   "CS MS 无 Spring 入学": "CS MS không có kỳ nhập học Spring",
   "Cycle 1（优先轮）": "Cycle 1 (vòng ưu tiên)",
-  "EST 15:00，继任 MSE": "EST 15:00, chương trình kế nhiệm MSE",
   "Early 截止": "Hạn Early",
   "Early 截止（提前轮）": "Hạn Early (vòng sớm)",
   "Fall 2027 不招 M.S.E.（资助不确定），PhD 照常": "Fall 2027 không tuyển M.S.E. (tài trợ chưa chắc chắn), PhD vẫn tuyển",
@@ -5489,8 +5481,6 @@
   "MS 外部申请者截止（唯一轮次）": "Hạn MS cho ứng viên bên ngoài (vòng duy nhất)",
   "MS 提前审核截止（Early review）": "Hạn xét sớm MS (Early review)",
   "MS 最终提交截止": "Hạn nộp cuối cùng MS",
-  "MSE-SS 从 Fall 2027 起停招，不再作为单独学位开设。CMU 把校内 MSE 合并成一个 Master of Software Engineering 学位，分 16 个月的 MSE 和 20 个月、必修暑期实习的 MSE - Applied Study 两种，共用同一申请入口。Scalable Systems 改成这个 MSE 学位内的可选 concentration。原 MSE-SS 的学习计划只适用于 Fall 2025 和 Fall 2026 入学的学生。原 MSE-SS 申请页 /applicants/mse-ss/ 已返回 404，SCS 硕士项目总列表也只剩 Master of Software Engineering 和 MSE Online。想读原 SS 方向的人，Fall 2027 应申请 MSE 或 MSE - Applied Study，入学后再选 Scalable Systems concentration。本记录里的截止日期、GRE、语言、申请费和 apply_url 都是这个继任项目的信息，不代表 MSE-SS 本身还在招生。另外，SCS 招生总页的申请费说明里还写着“MSE-ES, MSE-SS”，应是旧写法没改，与项目官网的停招说明不一致。": "MSE-SS dừng tuyển từ Fall 2027 và không còn là bằng riêng. CMU gộp MSE tại trường thành một bằng Master of Software Engineering, gồm hai lựa chọn: MSE 16 tháng và MSE - Applied Study 20 tháng có thực tập hè bắt buộc, dùng chung một cổng nộp hồ sơ. Scalable Systems trở thành concentration tự chọn trong bằng MSE này. Chương trình học MSE-SS cũ chỉ áp dụng cho sinh viên nhập học Fall 2025 và Fall 2026. Trang nộp hồ sơ MSE-SS cũ /applicants/mse-ss/ đã trả về 404, danh sách chương trình thạc sĩ của SCS cũng chỉ còn Master of Software Engineering và MSE Online. Ai muốn theo hướng SS cũ thì Fall 2027 nên nộp MSE hoặc MSE - Applied Study, nhập học rồi chọn concentration Scalable Systems. Hạn nộp, GRE, ngoại ngữ, phí nộp đơn và apply_url trong mục này đều là thông tin của chương trình kế nhiệm, không có nghĩa MSE-SS vẫn còn tuyển. Ngoài ra, ghi chú phí nộp đơn trên trang tuyển sinh chính của SCS vẫn ghi \"MSE-ES, MSE-SS\", có lẽ là cách ghi cũ chưa sửa, mâu thuẫn với thông báo dừng tuyển trên website chương trình",
-  "MSE-SS 自 Fall 2027 停招，改申 MSE 后选 Scalable Systems": "MSE-SS dừng tuyển từ Fall 2027; nộp MSE rồi chọn Scalable Systems",
   "PST 11:59pm·推荐信同日": "PST 11:59pm · thư giới thiệu cùng ngày",
   "PST 23:59；需先考 GRE": "PST 23:59; cần thi GRE trước",
   "Princeton CS 系官方明确：由于硕士生资助资源不确定，Fall 2027 不接受硕士（M.S.E.）申请；研究生院的截止日期页和 Computer Science 专业页也写明 M.S.E. 不招 Fall 2027。Ph.D. 照常招生（2026-12-15 截止）。Fall 2028 是否恢复招生，官方暂时没有说法，只写了希望申请人以后再关注。": "Khoa CS Princeton chính thức thông báo: do nguồn tài trợ cho học viên thạc sĩ chưa chắc chắn, Fall 2027 không nhận hồ sơ thạc sĩ (M.S.E.); trang hạn nộp của Graduate School và trang ngành Computer Science cũng ghi rõ M.S.E. không tuyển Fall 2027. Ph.D. vẫn tuyển như thường (hạn 2026-12-15). Fall 2028 có tuyển lại hay không thì trường chưa nói, chỉ ghi mong ứng viên theo dõi sau",
@@ -5683,7 +5673,6 @@
   "第三轮 (Round 3)": "Vòng 3 (Round 3)",
   "第二轮": "Vòng 2",
   "第二轮 (Round 2)": "Vòng 2 (Round 2)",
-  "继任项目 MSE / MSE - Applied Study 唯一截止（MSE-SS 本身已停招）": "Hạn duy nhất của chương trình kế nhiệm MSE / MSE - Applied Study (MSE-SS đã dừng tuyển)",
   "美东 11:59 PM · CIS 适用": "11:59 PM ET · Áp dụng cho CIS",
   "美东 11:59 PM · DSAI 适用": "11:59 PM ET · Áp dụng cho DSAI",
   "美东 11:59 PM · 仅秋季": "11:59 PM ET · Chỉ kỳ thu",
@@ -5723,7 +5712,8 @@
   "部分可免 · 数学课 B 以上免": "Một số được miễn · Miễn nếu môn toán đạt B trở lên",
   "竞争性奖学金考虑期限": "Hạn xét học bổng cạnh tranh",
   "申请系统关闭（两轮后有名额则滚动录取）": "Đóng hệ thống nộp hồ sơ (sau vòng 2 xét cuốn chiếu nếu còn chỗ)",
-  "美东午夜": "Nửa đêm giờ miền Đông"
+  "美东午夜": "Nửa đêm giờ miền Đông",
+  "美东 15:00，MSE 与 Applied Study 共用": "15:00 giờ miền Đông; chung cho MSE và Applied Study"
  },
  "ja": {
   "1 月 10 日前出结果": "1月10日までに結果発表",
@@ -5752,7 +5742,6 @@
   "7/15 前出结果·名额有限": "7/15までに結果発表・定員限定",
   "CS MS 无 Spring 入学": "CS MS は春入学なし",
   "Cycle 1（优先轮）": "Cycle 1（優先ラウンド）",
-  "EST 15:00，继任 MSE": "EST 15:00、後継の MSE",
   "Early 截止": "Early 締切",
   "Early 截止（提前轮）": "Early 締切（早期ラウンド）",
   "Fall 2027 不招 M.S.E.（资助不确定），PhD 照常": "Fall 2027 は M.S.E. 募集なし（資金未定）、PhD は通常通り",
@@ -5764,8 +5753,6 @@
   "MS 外部申请者截止（唯一轮次）": "MS 外部出願者の締切（唯一のラウンド）",
   "MS 提前审核截止（Early review）": "MS 早期審査締切（Early review）",
   "MS 最终提交截止": "MS 最終提出締切",
-  "MSE-SS 从 Fall 2027 起停招，不再作为单独学位开设。CMU 把校内 MSE 合并成一个 Master of Software Engineering 学位，分 16 个月的 MSE 和 20 个月、必修暑期实习的 MSE - Applied Study 两种，共用同一申请入口。Scalable Systems 改成这个 MSE 学位内的可选 concentration。原 MSE-SS 的学习计划只适用于 Fall 2025 和 Fall 2026 入学的学生。原 MSE-SS 申请页 /applicants/mse-ss/ 已返回 404，SCS 硕士项目总列表也只剩 Master of Software Engineering 和 MSE Online。想读原 SS 方向的人，Fall 2027 应申请 MSE 或 MSE - Applied Study，入学后再选 Scalable Systems concentration。本记录里的截止日期、GRE、语言、申请费和 apply_url 都是这个继任项目的信息，不代表 MSE-SS 本身还在招生。另外，SCS 招生总页的申请费说明里还写着“MSE-ES, MSE-SS”，应是旧写法没改，与项目官网的停招说明不一致。": "MSE-SS は Fall 2027 から募集を停止し、独立した学位としては開設されなくなります。CMU は学内の MSE を1つの Master of Software Engineering 学位に統合し、16か月の MSE と、夏季インターン必須の20か月の MSE - Applied Study の2種類に分け、出願窓口は共通です。Scalable Systems はこの MSE 学位内の選択制 concentration になります。旧 MSE-SS のカリキュラムは Fall 2025 と Fall 2026 入学者のみに適用されます。旧 MSE-SS の出願ページ /applicants/mse-ss/ はすでに 404 を返し、SCS 修士プログラム一覧にも Master of Software Engineering と MSE Online しか残っていません。旧 SS 方向を希望する場合、Fall 2027 は MSE または MSE - Applied Study に出願し、入学後に Scalable Systems concentration を選んでください。この記録の締切、GRE、語学、出願料、apply_url はすべて後継プログラムの情報であり、MSE-SS 自体がまだ募集しているという意味ではありません。なお、SCS 募集総合ページの出願料説明には今も「MSE-ES, MSE-SS」と書かれていますが、旧表記の修正漏れとみられ、プログラム公式サイトの募集停止の告知と食い違っています。",
-  "MSE-SS 自 Fall 2027 停招，改申 MSE 后选 Scalable Systems": "MSE-SS は Fall 2027 から募集停止、MSE に出願し Scalable Systems を選択",
   "PST 11:59pm·推荐信同日": "PST 11:59pm・推薦状も同日",
   "PST 23:59；需先考 GRE": "PST 23:59、GRE の事前受験が必要",
   "Princeton CS 系官方明确：由于硕士生资助资源不确定，Fall 2027 不接受硕士（M.S.E.）申请；研究生院的截止日期页和 Computer Science 专业页也写明 M.S.E. 不招 Fall 2027。Ph.D. 照常招生（2026-12-15 截止）。Fall 2028 是否恢复招生，官方暂时没有说法，只写了希望申请人以后再关注。": "Princeton CS 学科は、修士課程の資金が不確実なため Fall 2027 は修士（M.S.E.）の出願を受け付けないと公式に明言しています。大学院の締切ページと Computer Science 専攻ページにも M.S.E. は Fall 2027 の募集なしと記載されています。Ph.D. は通常通り募集（2026-12-15 締切）。Fall 2028 に募集を再開するかは公式発表がなく、今後の情報を確認してほしいとだけ書かれています。",
@@ -5958,7 +5945,6 @@
   "第三轮 (Round 3)": "第3ラウンド (Round 3)",
   "第二轮": "第2ラウンド",
   "第二轮 (Round 2)": "第2ラウンド (Round 2)",
-  "继任项目 MSE / MSE - Applied Study 唯一截止（MSE-SS 本身已停招）": "後継プログラム MSE / MSE - Applied Study の唯一の締切（MSE-SS 自体は募集停止）",
   "美东 11:59 PM · CIS 适用": "11:59 PM ET・CIS 対象",
   "美东 11:59 PM · DSAI 适用": "11:59 PM ET・DSAI 対象",
   "美东 11:59 PM · 仅秋季": "11:59 PM ET・秋入学のみ",
@@ -5998,6 +5984,7 @@
   "部分可免 · 数学课 B 以上免": "一部免除可・数学 B 以上で免除",
   "竞争性奖学金考虑期限": "競争的奨学金の審査対象となる期限",
   "申请系统关闭（两轮后有名额则滚动录取）": "出願システム締切（第2ラウンド後は空きがあれば随時選考）",
-  "美东午夜": "米国東部時間の深夜"
+  "美东午夜": "米国東部時間の深夜",
+  "美东 15:00，MSE 与 Applied Study 共用": "米国東部時間 15:00、MSE と Applied Study 共通"
  }
 }

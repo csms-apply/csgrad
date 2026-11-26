@@ -1,17 +1,19 @@
 ---
-slug: cmu-msess
-description: "CMU MSE-SS ガイド：ソフトウェアエンジニアリングの授業、事前の職務経験の価値、合格者のプロフィール、インターン・就職実績を紹介します。"
-sidebar_label: "CMU MSE-SS"
-title: "CMU MSE-SS 出願ガイド：授業とプログラムの体験談"
+slug: cmu-mse
+description: "CMU MSE（旧 MSE-SS）ガイド：ソフトウェアエンジニアリングの授業、事前の職務経験の価値、合格者のプロフィール、インターン・就職実績を紹介します。"
+sidebar_label: "CMU MSE"
+title: "CMU MSE 出願ガイド：授業とプログラムの体験談"
 ---
 
-# CMU MSE-SS
+# CMU MSE
+
+> 2026 年 11 月更新：Fall 2027 から、MSE-SS と MSE-ES は独立した学位としては募集されなくなりました。キャンパスの MSE は 1 つの学位に統合され、Scalable Systems はその中の concentration になっています（[公式 FAQ](https://mse.s3d.cmu.edu/applicants/faq.html)）。現在出願できるのは 16 か月の MSE と 20 か月の MSE - Applied Study で、出願窓口は共通、Fall 2027 の締切は 2026 年 12 月 9 日です。以下は統合前の MSE-SS についての内容です。
 
 
 ## プログラム概要
 
 正式名称は Master of Software Engineering です。
-MSE プログラム自体は、3 つのトラックからなる専門職向けのエンジニアリング修士です。
+MSE プログラム自体は専門職向けのエンジニアリング修士で、Fall 2027 より前は 3 つのトラックがありました。
 
 1. Scalable Systems (SS)
 2. Embedded Systems (ES)

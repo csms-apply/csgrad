@@ -21,7 +21,7 @@ Trên I-20 ghi Computer Science, nên khi tìm việc bạn có thể ghi chuyê
 
 **Từ OMSCS sang MSCS học tại trường**: Nộp OMSCS trước, học kỳ đầu lấy một điểm A là có thể xin chuyển sang chương trình học tại trường. Theo các năm trước thì hầu như ai xin cũng chuyển được.
 
-**Từ CSE sang MSCS**: Nói rõ trước, FAQ chính thức ghi MSCS không nhận yêu cầu đổi chuyên ngành nội bộ và bạn phải nộp hồ sơ lại. Nhưng trên thực tế vẫn làm được, các năm trước đều có người chuyển theo cách này.
+**Từ CSE sang MSCS**: FAQ chính thức ghi MSCS không nhận yêu cầu đổi chuyên ngành nội bộ và bạn phải nộp hồ sơ lại. Nhưng trên thực tế vẫn làm được, các năm trước đều có người chuyển theo cách này.
 
 ## Ngưỡng và tiêu chí trúng tuyển
 

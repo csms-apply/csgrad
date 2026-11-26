@@ -1,16 +1,18 @@
 ---
-slug: cmu-msess
-description: "CMU MSE-SS 與 ES、Professional 方向有什麼區別？這裡介紹課程、實習和 capstone 安排，以及軟件工程經歷對申請和就讀的影響。"
-title: "CMU MSE-SS 申請指南：課程與項目體驗"
-sidebar_label: "CMU MSE-SS"
+slug: cmu-mse
+description: "CMU MSE（原 MSE-SS）與 ES、Professional 方向有什麼區別？這裡介紹課程、實習和 capstone 安排，以及軟件工程經歷對申請和就讀的影響。"
+title: "CMU MSE 申請指南：課程與項目體驗"
+sidebar_label: "CMU MSE"
 ---
 
-# CMU MSE-SS
+# CMU MSE
+
+> 2026-11 更新：從 Fall 2027 起，MSE-SS 和 MSE-ES 不再作為單獨的學位招生，校內 MSE 合併成一個學位，Scalable Systems 變成裡面的 concentration（[官網 FAQ](https://mse.s3d.cmu.edu/applicants/faq.html)）。現在申請的是 16 個月的 MSE 或 20 個月的 MSE - Applied Study，兩者共用一個申請入口，Fall 2027 截止 2026 年 12 月 9 日。下文是合併前 MSE-SS 的情況。
 
 
 ## 項目介紹 {#项目介绍}
 全稱是Master of Software Engineering，
-MSE項目本身是工程碩士，有三個track：
+MSE項目本身是工程碩士，27 fall 之前有三個track：
 1. Scalable System（SS）
 2. Embedded System（ES）
 3. Professional（Pro）

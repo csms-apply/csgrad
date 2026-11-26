@@ -324,9 +324,9 @@
   {
     "id": "aminus-carnegie-mellon-university-mse-ss",
     "school": "Carnegie Mellon University",
-    "program": "MSE-SS",
+    "program": "MSE",
     "tier": "A-",
-    "slug": "/A-/cmu-msess"
+    "slug": "/A-/cmu-mse"
   },
   {
     "id": "aminus-columbia-university-ds",
