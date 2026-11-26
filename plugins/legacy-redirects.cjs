@@ -11,6 +11,9 @@ const MOVED = {
   '/SSS/stanford msee': '/SS/stanford-msee',
   '/SSS/stanford-msee': '/SS/stanford-msee',
   '/B+/rics-mcs': '/B+/rice-mcs',
+  // UW 的 EE 学位更名为 ECE，网址跟着改；旧网址继续可用
+  '/A/uw-ee-pmp': '/A/uw-ece-pmp',
+  '/programs/uw-ee-pmp': '/A/uw-ece-pmp',
 };
 
 // Program pages briefly lived at /programs/<name> before the tier came back into the URL.
