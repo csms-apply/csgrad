@@ -21,7 +21,7 @@ The I-20 says Computer Science, so you can write Computer Science as your major 
 
 **OMSCS to on-campus MSCS**: Apply to OMSCS first, get an A in your first semester, and you can then apply to move to the on-campus program. Going by past years, almost everyone who tried made it.
 
-**CSE to MSCS**: To be clear up front, the official FAQ states that MSCS does not accept internal change-of-major requests and that you need to apply again. In practice it can still be done, and in past years people have moved this way.
+**CSE to MSCS**: The official FAQ states that MSCS does not accept internal change-of-major requests and that you need to apply again. In practice it can still be done, and in past years people have moved this way.
 
 ## Admission Threshold & Standards
 
