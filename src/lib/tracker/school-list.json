@@ -124,7 +124,7 @@
     },
     "duolingo": {
      "cell": "135",
-     "kind": "hard_min"
+     "kind": "recommended"
     }
    },
    "rounds": []
@@ -1474,8 +1474,8 @@
      "kind": "recommended"
     },
     "duolingo": {
-     "cell": "120",
-     "kind": "recommended"
+     "cell": "115(读写105 理解115 产出90 会话95)",
+     "kind": "hard_min"
     }
    }
   },
@@ -2207,8 +2207,8 @@
      "kind": "recommended"
     },
     "duolingo": {
-     "cell": "120",
-     "kind": "recommended"
+     "cell": "115(读写105 理解115 产出90 会话95)",
+     "kind": "hard_min"
     }
    }
   },
@@ -2484,7 +2484,7 @@
      "kind": "hard_min"
     },
     "duolingo": {
-     "cell": "125",
+     "cell": "115",
      "kind": "hard_min"
     }
    }
@@ -3226,7 +3226,7 @@
     },
     "duolingo": {
      "cell": "125",
-     "kind": "hard_min"
+     "kind": "recommended"
     }
    }
   },

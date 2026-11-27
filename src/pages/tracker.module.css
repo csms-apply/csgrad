@@ -81,7 +81,7 @@
 
 /* table (overrides Infima's striped table defaults) */
 .scroller { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.root .grid { display: table; margin: 0; border-collapse: collapse; min-width: 1300px; width: 100%; table-layout: fixed; }
+.root .grid { display: table; margin: 0; border-collapse: collapse; min-width: 1400px; width: 100%; table-layout: fixed; }
 .root .grid thead, .root .grid tr:nth-child(n) { background: none; border: 0; }
 .root .grid th, .root .grid td { border: 0; border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); text-align: left; vertical-align: middle; height: 36px; padding: 0 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .root .grid th:last-child, .root .grid td:last-child { border-right: 0; }
