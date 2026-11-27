@@ -1470,8 +1470,8 @@
      "kind": "not_stated"
     },
     "ielts": {
-     "cell": "7.5",
-     "kind": "recommended"
+     "cell": "7",
+     "kind": "hard_min"
     },
     "duolingo": {
      "cell": "115(读写105 理解115 产出90 会话95)",
@@ -1497,7 +1497,7 @@
    ],
    "gre": "optional",
    "fee": 105,
-   "apply": "https://gradapp.gatech.edu/portal/program-info?cmd=view-program&program=86097380-be9a-4631-6407-50f3d959f466",
+   "apply": "https://gradapp.gatech.edu/apply/",
    "site": "https://www.cc.gatech.edu/degree-programs/master-science-computer-science",
    "exam": {
     "gre": {
@@ -1581,7 +1581,7 @@
      "kind": "recommended"
     },
     "duolingo": {
-     "cell": "125",
+     "cell": "125(须含小分)",
      "kind": "recommended"
     }
    }
@@ -1604,7 +1604,7 @@
    ],
    "gre": "required",
    "fee": 105,
-   "apply": "https://gradapp.gatech.edu/portal/program-info?cmd=view-program&program=91447fa2-ef89-be14-32fe-3d26a683b0c9",
+   "apply": "https://gradapp.gatech.edu/apply/",
    "site": "https://cse.gatech.edu/ms-computational-science-and-engineering",
    "exam": {
     "gre": {
@@ -2480,11 +2480,11 @@
      "kind": "not_stated"
     },
     "ielts": {
-     "cell": "7.5",
+     "cell": "6.5(理想 7.5)",
      "kind": "hard_min"
     },
     "duolingo": {
-     "cell": "115",
+     "cell": "115(理想 130+)",
      "kind": "hard_min"
     }
    }
@@ -2546,8 +2546,8 @@
      "kind": "recommended"
     },
     "duolingo": {
-     "cell": "135",
-     "kind": "recommended"
+     "cell": "无",
+     "kind": "none"
     }
    }
   },
@@ -2587,19 +2587,19 @@
    },
    "lang": {
     "toefl_old": {
-     "cell": "79",
+     "cell": "79(正式录取 103)",
      "kind": "hard_min"
     },
     "toefl_new": {
-     "cell": "4",
+     "cell": "4(正式录取 5)",
      "kind": "hard_min"
     },
     "ielts": {
-     "cell": "6.5",
+     "cell": "6.5(正式录取 7.5)",
      "kind": "hard_min"
     },
     "duolingo": {
-     "cell": "115",
+     "cell": "115(正式录取 135)",
      "kind": "hard_min"
     }
    }
@@ -2653,19 +2653,19 @@
    },
    "lang": {
     "toefl_old": {
-     "cell": "80",
+     "cell": "80(无条件 92)",
      "kind": "hard_min"
     },
     "toefl_new": {
-     "cell": "4",
+     "cell": "4(无条件 4.5)",
      "kind": "hard_min"
     },
     "ielts": {
-     "cell": "6.5",
+     "cell": "6.5(无条件 7)",
      "kind": "hard_min"
     },
     "duolingo": {
-     "cell": "115",
+     "cell": "115(无条件 130)",
      "kind": "hard_min"
     }
    }
@@ -2856,7 +2856,7 @@
    ],
    "gre": "optional",
    "fee": 105,
-   "apply": "https://gradapp.gatech.edu/portal/program-info?cmd=view-program&program=b9c471fc-5084-0e9d-491a-07ba52522650",
+   "apply": "https://gradapp.gatech.edu/apply/",
    "site": "https://ece.gatech.edu/graduate/masters-degrees",
    "exam": {
     "gre": {
@@ -3104,8 +3104,8 @@
      "kind": "hard_min"
     },
     "duolingo": {
-     "cell": "不接受",
-     "kind": "not_accepted"
+     "cell": "—",
+     "kind": "not_stated"
     }
    }
   },
@@ -3163,7 +3163,7 @@
      "kind": "hard_min"
     },
     "duolingo": {
-     "cell": "115(小分 90-115)",
+     "cell": "115(读写105 理解115 产出90 会话95)",
      "kind": "hard_min"
     }
    }
@@ -3214,18 +3214,18 @@
    "lang": {
     "toefl_old": {
      "cell": "90",
-     "kind": "hard_min"
+     "kind": "recommended"
     },
     "toefl_new": {
      "cell": "5",
-     "kind": "hard_min"
+     "kind": "recommended"
     },
     "ielts": {
      "cell": "7",
-     "kind": "hard_min"
+     "kind": "recommended"
     },
     "duolingo": {
-     "cell": "125",
+     "cell": "125(须含小分)",
      "kind": "recommended"
     }
    }
@@ -3846,11 +3846,11 @@
      "kind": "subscores_only"
     },
     "ielts": {
-     "cell": "6.5(口语 6)",
+     "cell": "6.5(口语6 其余6.5 推荐7)",
      "kind": "hard_min"
     },
     "duolingo": {
-     "cell": "120(另有小分)",
+     "cell": "120(读写120 理解125 产出90 会话105 推荐130)",
      "kind": "hard_min"
     }
    },
