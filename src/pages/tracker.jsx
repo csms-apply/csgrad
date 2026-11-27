@@ -235,7 +235,7 @@ export default function TrackerPage() {
     ...(r.halt ? [t('halt')] : r.rounds.map((x, i) => `${t('roundN', {n: ord(i)})} ${slash(x.date)}`)),
     `${t('colGre')} ${t(`gre_${r.gre in GRE ? r.gre : 'unknown'}`)}`,
     `${t('colToeflOld')} ${cell(r.lang?.toefl_old?.cell) || '—'}`, `${t('colToeflNew')} ${cell(r.lang?.toefl_new?.cell) || '—'}`,
-    `${t('colIelts')} ${cell(r.lang?.ielts?.cell) || '—'}`, r.apply].join(' | ')).join('\n');
+    `${t('colIelts')} ${cell(r.lang?.ielts?.cell) || '—'}`, `${t('colDuolingo')} ${cell(r.lang?.duolingo?.cell) || '—'}`, r.apply].join(' | ')).join('\n');
 
   function renderSummary() {
     if (!summaryIds?.size) return null;
@@ -359,7 +359,7 @@ export default function TrackerPage() {
                     {langRow(t('colToeflOld'), r.lang?.toefl_old, ex.toefl?.code)}
                     {langRow(t('colToeflNew'), r.lang?.toefl_new)}
                     {langRow(t('colIelts'), r.lang?.ielts)}
-                    {langRow('Duolingo', r.lang?.duolingo, ex.duolingo?.code)}
+                    {langRow(t('colDuolingo'), r.lang?.duolingo, ex.duolingo?.code)}
                   </tbody>
                 </table>
               </div>
@@ -455,7 +455,7 @@ export default function TrackerPage() {
             <table className={styles.grid} aria-label={t('tableAria')}>
               <colgroup>
                 <col style={{width: 36}} /><col style={{width: 200}} /><col style={{width: 82}} /><col style={{width: 132}} /><col style={{width: 132}} /><col style={{width: 132}} />
-                <col style={{width: 140}} /><col style={{width: 104}} /><col style={{width: 104}} /><col style={{width: 96}} /><col />
+                <col style={{width: 140}} /><col style={{width: 104}} /><col style={{width: 104}} /><col style={{width: 96}} /><col style={{width: 96}} /><col />
               </colgroup>
               <thead>
                 <tr>
@@ -473,6 +473,7 @@ export default function TrackerPage() {
                   <th><span className={styles.h}>{Icon.text}{t('colToeflOld')}</span></th>
                   <th><span className={styles.h}>{Icon.text}{t('colToeflNew')}</span></th>
                   <th><span className={styles.h}>{Icon.text}{t('colIelts')}</span></th>
+                  <th><span className={styles.h}>{Icon.text}{t('colDuolingo')}</span></th>
                   <th><span className={styles.h}>{Icon.link}{t('colApply')}</span></th>
                 </tr>
               </thead>
@@ -486,15 +487,15 @@ export default function TrackerPage() {
                     <td>{tierTag(r.tier)}</td>
                     <td>{dateCell(r, 0)}</td><td>{dateCell(r, 1)}</td><td>{dateCell(r, 2)}</td>
                     <td>{greTag(r)}</td>
-                    <td>{langCell(r.lang?.toefl_old)}</td><td>{langCell(r.lang?.toefl_new)}</td><td>{langCell(r.lang?.ielts)}</td>
+                    <td>{langCell(r.lang?.toefl_old)}</td><td>{langCell(r.lang?.toefl_new)}</td><td>{langCell(r.lang?.ielts)}</td><td>{langCell(r.lang?.duolingo)}</td>
                     <td><a className={styles.url} href={r.apply} target="_blank" rel="noopener noreferrer" data-stop>{host(r.apply)}</a></td>
                   </tr>
                 )) : (
-                  <tr><td className={styles.sel} /><td className={styles.empty} colSpan={10}>{emptyText}</td></tr>
+                  <tr><td className={styles.sel} /><td className={styles.empty} colSpan={11}>{emptyText}</td></tr>
                 )}
               </tbody>
               <tfoot>
-                <tr><td className={styles.sel} /><td className={styles.name}>{t('count')}<b>{list.length}</b></td><td colSpan={9} /></tr>
+                <tr><td className={styles.sel} /><td className={styles.name}>{t('count')}<b>{list.length}</b></td><td colSpan={10} /></tr>
               </tfoot>
             </table>
           </div>
