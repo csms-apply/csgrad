@@ -21,7 +21,8 @@ const MOBILE_BREAKPOINT = 768;
 
 // Pre-hydration / no-JS fallback counts. Refresh when snapshot regenerates.
 const STATIC_COUNTS = { datapoints: 1908, applicants: 317, programs: 280, source: 'snapshot' };
-const EMPTY_FILTER_OPTS = { schools: [], tiers: [], years: [], ugCats: [], majors: [] };
+const EMPTY_FILTER_OPTS = { schools: [], tiers: [], years: [], ugCats: [], majors: [], ugSchools: [] };
+const UG_REGIONS = ['mainland', 'hk', 'tw', 'us', 'ca', 'uk', 'au', 'sg', 'kr', 'eu', 'other'];
 
 const COPY = {
   'zh-Hans': {
@@ -50,6 +51,9 @@ const COPY = {
     filterResult: '结果',
     filterUgCat: '本科类别',
     filterMajor: '本科专业',
+    filterUgRegion: '本科地区',
+    filterUgSchool: '本科院校',
+    ugRegionLabels: { mainland: '中国大陆', hk: '香港', tw: '台湾', us: '美国', ca: '加拿大', uk: '英国', au: '澳大利亚', sg: '新加坡', kr: '韩国', eu: '欧洲大陆', other: '其他海外' },
     filterAll: '全部',
     gpaLabel: 'GPA',
     gpaRangeLabel: '原始 GPA 区间',
@@ -160,6 +164,9 @@ const COPY = {
     filterResult: 'Result',
     filterUgCat: 'Undergrad type',
     filterMajor: 'Undergrad major',
+    filterUgRegion: 'Undergrad region',
+    filterUgSchool: 'Undergrad school',
+    ugRegionLabels: { mainland: 'Mainland China', hk: 'Hong Kong', tw: 'Taiwan', us: 'United States', ca: 'Canada', uk: 'United Kingdom', au: 'Australia', sg: 'Singapore', kr: 'South Korea', eu: 'Continental Europe', other: 'Other overseas' },
     filterAll: 'All',
     gpaLabel: 'GPA',
     gpaRangeLabel: 'Raw GPA range',
@@ -253,6 +260,7 @@ const COPY = {
       '澳本': 'Australian university',
       '港本': 'Hong Kong university',
       '台本': 'Taiwan university',
+      '韩本': 'South Korean university',
       '坡本': 'Singapore university',
       '欧陆本': 'Continental European university',
       '海本': 'Overseas university',
@@ -294,6 +302,9 @@ const COPY = {
     filterResult: '결과',
     filterUgCat: '학부 유형',
     filterMajor: '학부 전공',
+    filterUgRegion: '학부 지역',
+    filterUgSchool: '학부 대학',
+    ugRegionLabels: { mainland: '중국 본토', hk: '홍콩', tw: '대만', us: '미국', ca: '캐나다', uk: '영국', au: '호주', sg: '싱가포르', kr: '한국', eu: '유럽 대륙', other: '기타 해외' },
     filterAll: '전체',
     gpaLabel: 'GPA',
     gpaRangeLabel: '원본 GPA 범위',
@@ -387,6 +398,7 @@ const COPY = {
       '澳本': '호주 대학',
       '港本': '홍콩 대학',
       '台本': '대만 대학',
+      '韩本': '한국 대학',
       '坡本': '싱가포르 대학',
       '欧陆本': '유럽 대륙 대학',
       '海本': '해외 대학',
@@ -428,6 +440,9 @@ const COPY = {
     filterResult: 'Kết quả',
     filterUgCat: 'Loại trường ĐH',
     filterMajor: 'Ngành ĐH',
+    filterUgRegion: 'Khu vực ĐH',
+    filterUgSchool: 'Trường ĐH',
+    ugRegionLabels: { mainland: 'Trung Quốc đại lục', hk: 'Hồng Kông', tw: 'Đài Loan', us: 'Mỹ', ca: 'Canada', uk: 'Anh', au: 'Úc', sg: 'Singapore', kr: 'Hàn Quốc', eu: 'Châu Âu lục địa', other: 'Nước ngoài khác' },
     filterAll: 'Tất cả',
     gpaLabel: 'GPA',
     gpaRangeLabel: 'Khoảng GPA gốc',
@@ -521,6 +536,7 @@ const COPY = {
       '澳本': 'Đại học Úc',
       '港本': 'Đại học Hồng Kông',
       '台本': 'Đại học Đài Loan',
+      '韩本': 'Đại học Hàn Quốc',
       '坡本': 'Đại học Singapore',
       '欧陆本': 'Đại học châu Âu lục địa',
       '海本': 'Đại học nước ngoài',
@@ -562,6 +578,9 @@ const COPY = {
     filterResult: '結果',
     filterUgCat: '学部の種類',
     filterMajor: '学部の専攻',
+    filterUgRegion: '学部の地域',
+    filterUgSchool: '出身大学',
+    ugRegionLabels: { mainland: '中国本土', hk: '香港', tw: '台湾', us: '米国', ca: 'カナダ', uk: '英国', au: 'オーストラリア', sg: 'シンガポール', kr: '韓国', eu: 'ヨーロッパ大陸', other: 'その他の海外' },
     filterAll: 'すべて',
     gpaLabel: 'GPA',
     gpaRangeLabel: '元の GPA 範囲',
@@ -655,6 +674,7 @@ const COPY = {
       '澳本': 'オーストラリアの大学',
       '港本': '香港の大学',
       '台本': '台湾の大学',
+      '韩本': '韓国の大学',
       '坡本': 'シンガポールの大学',
       '欧陆本': 'ヨーロッパ大陸の大学',
       '海本': '海外の大学',
@@ -678,7 +698,7 @@ function pickLocale(loc) {
 
 // ---------- URL <-> filter state helpers ----------
 
-const URL_KEYS = ['programId', 'school', 'year', 'result', 'ugCat', 'major', 'gpaMin', 'gpaMax'];
+const URL_KEYS = ['programId', 'school', 'year', 'result', 'ugCat', 'ugRegion', 'ugSchool', 'major', 'gpaMin', 'gpaMax'];
 
 function readFiltersFromUrl() {
   if (typeof window === 'undefined') return {};
@@ -833,6 +853,8 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   const [year, setYear] = useState(initial.year || '');
   const [result, setResult] = useState(initial.result || '');
   const [ugCat, setUgCat] = useState(initial.ugCat || '');
+  const [ugRegion, setUgRegion] = useState(initial.ugRegion || '');
+  const [ugSchool, setUgSchool] = useState(initial.ugSchool || '');
   const [major, setMajor] = useState(initial.major || '');
   const [gpaMin, setGpaMin] = useState(initial.gpaMin || '');
   const [gpaMax, setGpaMax] = useState(initial.gpaMax || '');
@@ -850,10 +872,10 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   }, []);
 
   useEffect(() => {
-    writeFiltersToUrl({ programId, school, year, result, ugCat, major, gpaMin, gpaMax }, history);
-  }, [programId, school, year, result, ugCat, major, gpaMin, gpaMax, history]);
+    writeFiltersToUrl({ programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax }, history);
+  }, [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax, history]);
 
-  useEffect(() => setPage(0), [programId, school, year, result, ugCat, major, gpaMin, gpaMax]);
+  useEffect(() => setPage(0), [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax]);
 
   // Fetch rows on filter/page change. Only present matches for a completed
   // request; stale rows/counts must not masquerade as the new filter's results.
@@ -886,6 +908,8 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
           year: year || undefined,
           result: result || undefined,
           ugCategory: ugCat || undefined,
+          ugRegion: ugRegion || undefined,
+          ugSchool: ugSchool || undefined,
           major: major || undefined,
           gpaMin: gpaRange.min,
           gpaMax: gpaRange.max,
@@ -902,7 +926,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       }
     }, delay);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [programId, school, year, result, ugCat, major, gpaRange, page, retryKey]);
+  }, [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaRange, page, retryKey]);
 
   function retryLoad() {
     setLoading(true);
@@ -932,12 +956,14 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
     if (year) items.push({ key: 'year', label: t.filterYear, value: year });
     if (result) items.push({ key: 'result', label: t.filterResult, value: displayDataValue(result, t.resultLabels) });
     if (ugCat) items.push({ key: 'ugCat', label: t.filterUgCat, value: displayDataValue(ugCat, t.ugCategoryLabels) });
+    if (ugRegion) items.push({ key: 'ugRegion', label: t.filterUgRegion, value: displayDataValue(ugRegion, t.ugRegionLabels) });
+    if (ugSchool) items.push({ key: 'ugSchool', label: t.filterUgSchool, value: displayUgSchool(ugSchool, t.ugSchoolLabels) });
     if (major) items.push({ key: 'major', label: t.filterMajor, value: major });
     if (gpaRange.valid && (gpaRange.min != null || gpaRange.max != null)) {
       items.push({ key: 'gpa', label: t.gpaRangeLabel, value: formatGpaRange(gpaRange.min, gpaRange.max) });
     }
     return items;
-  }, [programId, selectedProgram, school, year, result, ugCat, major, gpaRange, t]);
+  }, [programId, selectedProgram, school, year, result, ugCat, ugRegion, ugSchool, major, gpaRange, t]);
 
   return (
     <div className={styles.wrap}>
@@ -979,7 +1005,9 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
         />
         <Select label={t.filterYear} value={year} onChange={setYear} options={filterOpts.years} allText={t.filterAll} />
         <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.resultLabels)} />
+        <Select label={t.filterUgRegion} value={ugRegion} onChange={setUgRegion} options={UG_REGIONS} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.ugRegionLabels)} />
         <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.ugCategoryLabels)} />
+        <Select label={t.filterUgSchool} value={ugSchool} onChange={setUgSchool} options={filterOpts.ugSchools || []} allText={t.filterAll} formatOption={(value) => displayUgSchool(value, t.ugSchoolLabels)} />
         <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.majorLabels)} />
         <GpaRangeFilter
           min={gpaMin}

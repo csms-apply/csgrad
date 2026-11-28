@@ -35,6 +35,8 @@ function warnDev(...args) {
  * @param {string|number} [opts.year]
  * @param {string} [opts.result]
  * @param {string} [opts.ugCategory]
+ * @param {string} [opts.ugRegion] mainland | hk | tw | us | ca | uk | au | sg | kr | eu | other
+ * @param {string} [opts.ugSchool] exact undergraduate school name
  * @param {string} [opts.major]
  * @param {number} [opts.gpaMin]
  * @param {number} [opts.gpaMax]
@@ -135,7 +137,8 @@ function reorderTiers(opts) {
     schools: opts.schools || [],
     tiers: tierList,
     years: opts.years || [],
-    ugCats: [...new Set([...(opts.ugCats || []), '台本'])].filter((c) => !HIDDEN_UG_CATS.has(c)),
+    ugCats: [...new Set([...(opts.ugCats || []), '台本', '韩本'])].filter((c) => !HIDDEN_UG_CATS.has(c)),
+    ugSchools: opts.ugSchools || [],
     majors: opts.majors || [],
   };
 }
