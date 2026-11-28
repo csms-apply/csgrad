@@ -16,5 +16,6 @@ test('undergraduate school list: search, aliases and display names', () => {
   assert.equal(normalizeUgSchool('某某学院'), '某某学院');
   assert.ok(isKnownUgSchool('台湾大学') && !isKnownUgSchool('某某学院'));
   assert.equal(displayUgSchool('中山大学', ugSchoolLabelsFor('en')), 'Sun Yat-sen University');
+  assert.equal(displayUgSchool('中山大学', ugSchoolLabelsFor('es')), 'Sun Yat-sen University');
   assert.equal(displayUgSchool('中山大学', ugSchoolLabelsFor('zh-Hans')), '中山大学');
 });

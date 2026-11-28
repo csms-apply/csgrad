@@ -227,16 +227,59 @@ const COPY = {
     offlineLead: 'ポジショニングモデルと結果の品質を改善しています。新規の評価と決済は現在停止しています。',
     offlineExisting: '既存のお客様は、決済後に受け取った結果リンクから引き続きレポートを開いてダウンロードできます。',
   },
+  es: {
+    pageTitle: 'Posicionamiento de universidades MSCS',
+    pageDesc: 'Encuentra el tier de universidades que corresponde a tu perfil: estimación de tier y lista completa de universidades',
+    backHome: 'Volver al inicio',
+    heroTitle: 'Posicionamiento de universidades MSCS',
+    heroLead: 'Usa tu sistema de calificaciones original, tus cursos y tu experiencia para explorar programas. Revisa tu perfil gratis antes de comprar un informe.',
+    canceled: 'Pedido cancelado.',
+    errorPrefix: 'Error: ',
+    profileSection: 'Tu perfil',
+    submitBtn: 'Revisar perfil y ver vista previa',
+    recomputeBtn: 'Volver a evaluar',
+    fillRequired: 'Primero completa los campos obligatorios',
+    errInvalidNumber: 'Ingresa un número válido',
+    errRange: 'El valor debe estar entre {min} y {max}',
+    errInteger: 'Debe ser un número entero',
+    previewLabel: 'Tier estimado',
+    scoreLabel: 'Puntaje global',
+    rationaleLabel: 'Por qué este tier',
+    deliveryTitle: 'Contenido previsto del informe',
+    deliveryCount: 'Lista principal prevista: {count} programas',
+    deliveryBuckets: 'Ambiciosas {reach} · Acordes {match} · Alternativas {safety}',
+    deliveryUnavailable: 'Tu información o la cobertura de programas no alcanza para un informe automático de pago. Agrega más información o solicita una revisión manual.',
+    needsReview: 'Se necesita más información o una revisión manual. El pago no está disponible; revisa las indicaciones de abajo.',
+    stalePreview: 'Genera la vista previa de tu perfil actual antes de pasar al pago.',
+    requestFailed: 'No pudimos procesar la solicitud. Inténtalo más tarde; no vuelvas a pagar.',
+    paywallTitle: 'Desbloquea el informe completo de afinidad con programas',
+    paywallText: 'El informe explica, a partir del perfil que nos das, tu afinidad con cada programa, la información que falta verificar y los siguientes pasos. No garantiza la admisión ni estima tu probabilidad personal de admisión.',
+    paywallBullets: [
+      { lead: 'Opciones de programas y razones', body: ': mira cómo se relacionan tus cursos, intereses y experiencia con cada opción, con la incertidumbre indicada claramente.' },
+      { lead: 'Lista de verificación de la solicitud', body: ': distingue la evidencia disponible de los requisitos que aún debes verificar, con enlaces para seguir investigando.' },
+      { lead: 'Un informe que puedes conservar', body: ': abre tu resultado y descarga un PDF para comentarlo con mentores o familia.' },
+    ],
+    payBtn: '🚀 Desbloquear mi plan completo →',
+    payNote: 'Pago seguro con Stripe. Si no regresas automáticamente, abre directamente la URL de la página de resultados.',
+    paying: 'Redirigiendo a Stripe…',
+    yes: 'Sí',
+    no: 'No',
+    selectPlaceholder: 'Selecciona…',
+    offlineStatus: 'No disponible por el momento',
+    offlineTitle: 'El posicionamiento de universidades está temporalmente fuera de servicio',
+    offlineLead: 'Estamos mejorando el modelo de posicionamiento y la calidad de los resultados. Las evaluaciones y los pagos nuevos están en pausa por ahora.',
+    offlineExisting: 'Si ya compraste un informe, puedes seguir abriéndolo y descargándolo desde el enlace de resultados que recibiste tras el pago.',
+  },
 };
 
 function pickLocale(loc) {
-  return ['en', 'zh-Hant', 'ko', 'vi', 'ja'].includes(loc) ? loc : 'zh-Hans';
+  return ['en', 'zh-Hant', 'ko', 'vi', 'ja', 'es'].includes(loc) ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
   if (typeof node === 'string') return localizeMessages(node, locale);
-  return localizeMessages(node[locale] || (['ko', 'vi', 'ja'].includes(locale) ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
+  return localizeMessages(node[locale] || (['ko', 'vi', 'ja', 'es'].includes(locale) ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
 }
 
 function OfflineNotice({ locale, t }) {
@@ -402,7 +445,7 @@ export function coerceProfile(profile, fields) {
 }
 
 export function positioningPayload(profile, fields, locale) {
-  return { ...coerceProfile(profile, fields), locale: ['ko', 'vi', 'ja'].includes(pickLocale(locale)) ? 'en' : pickLocale(locale) };
+  return { ...coerceProfile(profile, fields), locale: ['ko', 'vi', 'ja', 'es'].includes(pickLocale(locale)) ? 'en' : pickLocale(locale) };
 }
 
 export function canCheckout(preview, hasErrors) {

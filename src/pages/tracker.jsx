@@ -16,6 +16,7 @@ import styles from './tracker.module.css';
 
 const ROWS = DATA.rows;
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 const hantCache = new Map();
 const hant = (s) => {
   if (!hantCache.has(s)) hantCache.set(s, toTraditional(s));
@@ -41,7 +42,7 @@ const startOfToday = () => {
 function makeText(lang) {
   const t = (key, vars) => {
     const k = lang === 'en' && vars?.n === 1 && UI.en[`${key}One`] ? `${key}One` : key;
-    return fill(lang === 'hant' ? hant(UI.zh[k]) : UI[lang][k], vars);
+    return fill(lang === 'hant' ? hant(UI.zh[k]) : (UI[lang] || UI.en)[k], vars);
   };
   // ko/vi/ja data strings fall back to English when a row is newer than their dictionary.
   const tr = (s) => (!s || lang === 'zh' ? s : lang === 'hant' ? hant(s) : DATA[lang]?.[s] ?? DATA.en[s] ?? s);
@@ -78,7 +79,7 @@ const Icon = {
 
 export default function TrackerPage() {
   const {i18n: {currentLocale}} = useDocusaurusContext();
-  const lang = currentLocale === 'en' ? 'en' : currentLocale === 'zh-Hant' ? 'hant' : ['ko', 'vi', 'ja'].includes(currentLocale) ? currentLocale : 'zh';
+  const lang = currentLocale === 'en' ? 'en' : currentLocale === 'zh-Hant' ? 'hant' : ['ko', 'vi', 'ja', 'es'].includes(currentLocale) ? currentLocale : 'zh';
   const {t, tr, cell, ord} = useMemo(() => makeText(lang), [lang]);
 
   // Share links, dates and saved picks only exist in the browser; the first render must match the static HTML.
@@ -371,7 +372,7 @@ export default function TrackerPage() {
   }
 
   const [, mm, dd] = DATA.generated.split('-').map(Number);
-  const edited = lang === 'en' ? `${MONTHS[mm - 1]} ${dd}` : lang === 'ko' ? `${mm}월 ${dd}일` : lang === 'vi' ? `${dd}/${mm}` : `${mm}月${dd}日`;
+  const edited = lang === 'en' ? `${MONTHS[mm - 1]} ${dd}` : lang === 'ko' ? `${mm}월 ${dd}일` : lang === 'vi' ? `${dd}/${mm}` : lang === 'es' ? `${dd} de ${MESES[mm - 1]}` : `${mm}月${dd}日`;
   const filtered = gre.size || tiers.size || hideHalt;
   const emptyText = view === 'shared' ? t('emptyShared') : view === 'mine' && !starred.size ? t('emptyMine') : t('emptyNone');
   const pageTitle = t('pageTitle');
