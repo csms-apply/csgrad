@@ -21,6 +21,7 @@ import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
 import { STORAGE_KEYS } from '../lib/storage-keys';
 import { localizedInternalPath } from '@site/src/lib/seo/localizedAlternates.mjs';
+import { displayUgSchool, isKnownUgSchool, normalizeUgSchool, searchUgSchools, ugSchoolLabelsFor } from '@site/src/lib/dp/ug-school-names.mjs';
 import styles from './submit-dp.module.css';
 
 // ---------- i18n ----------
@@ -1208,7 +1209,7 @@ function ApplicantForm({ t, locale, form, setForm, setField, toggleArrayValue, h
       <fieldset className={styles.fieldset}>
         <Group id="section-edu" title={t.groups.edu}>
           <Select id="ug_school_category" label={L.ug_school_category} value={form.ug_school_category} onChange={(v) => setField('ug_school_category', v)} options={UG_CATEGORIES} enumGroup="UG_CATEGORIES" locale={locale} t={t} required error={fieldErrors.ug_school_category} />
-          <Text id="ug_school_name" label={L.ug_school_name} value={form.ug_school_name} onChange={(v) => setField('ug_school_name', v)} required error={fieldErrors.ug_school_name} />
+          <UgSchoolPicker id="ug_school_name" label={L.ug_school_name} value={form.ug_school_name} onChange={(v) => setField('ug_school_name', v)} locale={locale} error={fieldErrors.ug_school_name} />
           <NumberInput id="graduation_year" label={L.graduation_year} value={form.graduation_year} onChange={(v) => setField('graduation_year', v)} required error={fieldErrors.graduation_year} />
           <Select id="ug_major" label={L.ug_major} value={form.ug_major} onChange={(v) => setField('ug_major', v)} options={UG_MAJORS} enumGroup="UG_MAJORS" locale={locale} t={t} required error={fieldErrors.ug_major} />
           <Check id="honors_college" label={L.honors_college} value={form.honors_college} onChange={(v) => setField('honors_college', v)} />
@@ -1551,6 +1552,95 @@ function ErrorText({ id, text }) {
   if (!text) return null;
   return (
     <span id={id} style={{ color: '#b91c1c', fontSize: 11 }}>{text}</span>
+  );
+}
+
+const UG_SCHOOL_PICKER_COPY = {
+  'zh-Hans': { placeholder: '输入校名搜索，如 山东大学', other: '其他（列表里没有我的学校）', otherPlaceholder: '请输入学校全称', hint: '没找到你的学校？选“其他”后手动输入学校全称。', back: '重新从列表选择' },
+  en: { placeholder: 'Type to search, e.g. Shandong University', other: 'Other (my school is not listed)', otherPlaceholder: 'Enter the full school name', hint: 'Can\'t find your school? Choose "Other" and type its full name.', back: 'Pick from the list instead' },
+  ko: { placeholder: '학교명을 입력해 검색 (예: Shandong University)', other: '기타 (목록에 없음)', otherPlaceholder: '학교 정식 명칭 입력', hint: '학교가 목록에 없으면 "기타"를 선택한 뒤 정식 명칭을 입력하세요.', back: '목록에서 다시 선택' },
+  vi: { placeholder: 'Nhập tên trường để tìm, ví dụ Shandong University', other: 'Khác (trường của tôi không có trong danh sách)', otherPlaceholder: 'Nhập tên đầy đủ của trường', hint: 'Không thấy trường của bạn? Chọn "Khác" rồi nhập tên đầy đủ.', back: 'Chọn lại từ danh sách' },
+  ja: { placeholder: '大学名を入力して検索（例：Shandong University）', other: 'その他（一覧にない）', otherPlaceholder: '大学の正式名称を入力', hint: '大学が見つからない場合は「その他」を選び、正式名称を入力してください。', back: '一覧から選び直す' },
+};
+
+// Undergraduate school: search the standard list; "Other" switches to free
+// text so unlisted schools can still be entered.
+function UgSchoolPicker({ id, label, value, onChange, locale, error }) {
+  const reactId = useId();
+  const inputId = fieldId(id, reactId);
+  const errId = `${inputId}-err`;
+  const base = UG_SCHOOL_PICKER_COPY[locale] || UG_SCHOOL_PICKER_COPY['zh-Hans'];
+  const c = locale === 'zh-Hant' ? Object.fromEntries(Object.entries(base).map(([k, v]) => [k, toTraditional(v)])) : base;
+  const labels = ugSchoolLabelsFor(locale);
+  const show = (name) => displayUgSchool(name, labels);
+  const [other, setOther] = useState(false);
+  const [query, setQuery] = useState('');
+  const [open, setOpen] = useState(false);
+  const current = value ?? '';
+  // A saved name that is not on the list is edited as free text.
+  const freeText = other || (current !== '' && !isKnownUgSchool(current));
+  const matches = open ? searchUgSchools(query) : [];
+  const pick = (name) => { onChange(name); setQuery(''); setOpen(false); };
+  return (
+    <div className={styles.field}>
+      <label htmlFor={inputId}>
+        {label}
+        <span aria-hidden="true" style={{ color: '#b91c1c', marginLeft: 4 }}>*</span>
+      </label>
+      {freeText ? (
+        <>
+          <input
+            id={inputId}
+            className={styles.input}
+            value={current}
+            placeholder={c.otherPlaceholder}
+            onChange={(e) => onChange(e.target.value)}
+            onBlur={() => { const n = normalizeUgSchool(current); if (n !== current) onChange(n); if (isKnownUgSchool(n)) setOther(false); }}
+            aria-required="true"
+            aria-invalid={error ? 'true' : undefined}
+            aria-describedby={error ? errId : undefined}
+            style={error ? { borderColor: '#b91c1c' } : undefined}
+          />
+          <button type="button" onClick={() => { setOther(false); onChange(''); }} style={{ alignSelf: 'flex-start', background: 'none', border: 0, padding: 0, marginTop: 4, fontSize: 12, color: 'var(--ifm-color-primary)', cursor: 'pointer' }}>
+            {c.back}
+          </button>
+        </>
+      ) : (
+        <>
+          <input
+            id={inputId}
+            className={styles.input}
+            role="combobox"
+            aria-expanded={open}
+            aria-autocomplete="list"
+            autoComplete="off"
+            value={open ? query : show(current)}
+            placeholder={c.placeholder}
+            onFocus={() => { setQuery(''); setOpen(true); }}
+            onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
+            onBlur={() => setTimeout(() => setOpen(false), 150)}
+            aria-required="true"
+            aria-invalid={error ? 'true' : undefined}
+            aria-describedby={error ? errId : undefined}
+            style={error ? { borderColor: '#b91c1c' } : undefined}
+          />
+          {open ? (
+            <ul role="listbox" style={{ listStyle: 'none', margin: '4px 0 0', padding: 4, border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: 6, background: 'var(--ifm-background-color)', maxHeight: 260, overflowY: 'auto', fontSize: 13 }}>
+              {matches.map((name) => (
+                <li key={name} role="option" aria-selected={name === current} onMouseDown={(e) => { e.preventDefault(); pick(name); }} style={{ padding: '6px 8px', cursor: 'pointer', borderRadius: 4 }}>
+                  {show(name)}
+                </li>
+              ))}
+              <li role="option" aria-selected="false" onMouseDown={(e) => { e.preventDefault(); setOther(true); setOpen(false); onChange(query.trim()); }} style={{ padding: '6px 8px', cursor: 'pointer', borderRadius: 4, color: 'var(--ifm-color-emphasis-700)', borderTop: matches.length ? '1px solid var(--ifm-color-emphasis-200)' : 0 }}>
+                {c.other}
+              </li>
+            </ul>
+          ) : null}
+        </>
+      )}
+      <span style={{ fontSize: 12, color: 'var(--ifm-color-emphasis-600)', marginTop: 4 }}>{c.hint}</span>
+      <ErrorText id={errId} text={error} />
+    </div>
   );
 }
 
