@@ -261,7 +261,7 @@ export const UI = {
     colName: 'Programa', colTier: 'Tier', colR1: 'Ronda 1', colR2: 'Ronda 2', colR3: 'Ronda 3', colGre: 'GRE',
     colToeflOld: 'TOEFL (anterior)', colToeflNew: 'TOEFL (nuevo)', colIelts: 'IELTS', colDuolingo: 'Duolingo', colApply: 'Solicitar',
     legend: 'Puntaje total, con los mínimos por sección entre paréntesis (S = Speaking, W = Writing, R = Reading, L = Listening). Abre una fila marcada con * para ver la regla completa, si es un mínimo obligatorio o una recomendación, y los códigos de envío de puntajes',
-    halt: 'Sin admisión', daysLeft: 'Faltan {n} días', past: 'vencida', pickAria: 'Agregar {name} a mi lista',
+    halt: 'Sin admisión', daysLeft: 'Faltan {n} d', past: 'vencida', pickAria: 'Agregar {name} a mi lista',
     emptyShared: 'Este enlace no contiene programas reconocibles', emptyMine: 'Aún no eliges nada. Vuelve a Todos los programas y marca la casilla a la izquierda de cada fila.', emptyNone: 'Ningún programa coincide',
     sharedBanner: 'Te compartieron una lista de universidades: {n} programas.',
     allSaved: 'Todo está en mi lista', saveShared: 'Guardar en mi lista', seeAll: 'Ver todos los programas',
