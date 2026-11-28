@@ -310,6 +310,7 @@ const ALIASES = {
  "ucd": "UC Davis",
  "ucsb": "UC Santa Barbara",
  "university of california, los angeles": "UCLA",
+ "osu": "Ohio State University",
  "uiuc": "University of Illinois Urbana-Champaign",
  "umich": "University of Michigan",
  "uw-madison": "University of Wisconsin–Madison",
