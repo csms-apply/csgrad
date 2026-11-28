@@ -52,6 +52,8 @@ const COPY = {
     filterUgCat: '本科类别',
     filterMajor: '本科专业',
     filterUgRegion: '本科地区',
+    filterToeflMin: '托福最低分',
+    filterGreMin: 'GRE 最低分',
     filterUgSchool: '本科院校',
     ugRegionLabels: { mainland: '中国大陆', hk: '香港', tw: '台湾', us: '美国', ca: '加拿大', uk: '英国', au: '澳大利亚', sg: '新加坡', kr: '韩国', eu: '欧洲大陆', other: '其他海外' },
     filterAll: '全部',
@@ -165,6 +167,8 @@ const COPY = {
     filterUgCat: 'Undergrad type',
     filterMajor: 'Undergrad major',
     filterUgRegion: 'Undergrad region',
+    filterToeflMin: 'Min TOEFL',
+    filterGreMin: 'Min GRE',
     filterUgSchool: 'Undergrad school',
     ugRegionLabels: { mainland: 'Mainland China', hk: 'Hong Kong', tw: 'Taiwan', us: 'United States', ca: 'Canada', uk: 'United Kingdom', au: 'Australia', sg: 'Singapore', kr: 'South Korea', eu: 'Continental Europe', other: 'Other overseas' },
     filterAll: 'All',
@@ -303,6 +307,8 @@ const COPY = {
     filterUgCat: '학부 유형',
     filterMajor: '학부 전공',
     filterUgRegion: '학부 지역',
+    filterToeflMin: 'TOEFL 최저점',
+    filterGreMin: 'GRE 최저점',
     filterUgSchool: '학부 대학',
     ugRegionLabels: { mainland: '중국 본토', hk: '홍콩', tw: '대만', us: '미국', ca: '캐나다', uk: '영국', au: '호주', sg: '싱가포르', kr: '한국', eu: '유럽 대륙', other: '기타 해외' },
     filterAll: '전체',
@@ -441,6 +447,8 @@ const COPY = {
     filterUgCat: 'Loại trường ĐH',
     filterMajor: 'Ngành ĐH',
     filterUgRegion: 'Khu vực ĐH',
+    filterToeflMin: 'TOEFL tối thiểu',
+    filterGreMin: 'GRE tối thiểu',
     filterUgSchool: 'Trường ĐH',
     ugRegionLabels: { mainland: 'Trung Quốc đại lục', hk: 'Hồng Kông', tw: 'Đài Loan', us: 'Mỹ', ca: 'Canada', uk: 'Anh', au: 'Úc', sg: 'Singapore', kr: 'Hàn Quốc', eu: 'Châu Âu lục địa', other: 'Nước ngoài khác' },
     filterAll: 'Tất cả',
@@ -579,6 +587,8 @@ const COPY = {
     filterUgCat: '学部の種類',
     filterMajor: '学部の専攻',
     filterUgRegion: '学部の地域',
+    filterToeflMin: 'TOEFL 最低点',
+    filterGreMin: 'GRE 最低点',
     filterUgSchool: '出身大学',
     ugRegionLabels: { mainland: '中国本土', hk: '香港', tw: '台湾', us: '米国', ca: 'カナダ', uk: '英国', au: 'オーストラリア', sg: 'シンガポール', kr: '韓国', eu: 'ヨーロッパ大陸', other: 'その他の海外' },
     filterAll: 'すべて',
@@ -698,7 +708,7 @@ function pickLocale(loc) {
 
 // ---------- URL <-> filter state helpers ----------
 
-const URL_KEYS = ['programId', 'school', 'year', 'result', 'ugCat', 'ugRegion', 'ugSchool', 'major', 'gpaMin', 'gpaMax'];
+const URL_KEYS = ['programId', 'school', 'year', 'result', 'ugCat', 'ugRegion', 'ugSchool', 'major', 'gpaMin', 'gpaMax', 'toeflMin', 'greMin'];
 
 function readFiltersFromUrl() {
   if (typeof window === 'undefined') return {};
@@ -859,6 +869,8 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   const [gpaMin, setGpaMin] = useState(initial.gpaMin || '');
   const [gpaMax, setGpaMax] = useState(initial.gpaMax || '');
   const [page, setPage] = useState(0);
+  const [toeflMin, setToeflMin] = useState(initial.toeflMin || '');
+  const [greMin, setGreMin] = useState(initial.greMin || '');
   const gpaRange = useMemo(() => parseGpaRange(gpaMin, gpaMax), [gpaMin, gpaMax]);
 
   // Program list powers the searchable "项目" filter and resolves a programId
@@ -872,10 +884,10 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   }, []);
 
   useEffect(() => {
-    writeFiltersToUrl({ programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax }, history);
-  }, [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax, history]);
+    writeFiltersToUrl({ programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax, toeflMin, greMin }, history);
+  }, [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax, toeflMin, greMin, history]);
 
-  useEffect(() => setPage(0), [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax]);
+  useEffect(() => setPage(0), [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaMin, gpaMax, toeflMin, greMin]);
 
   // Fetch rows on filter/page change. Only present matches for a completed
   // request; stale rows/counts must not masquerade as the new filter's results.
@@ -913,6 +925,8 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
           major: major || undefined,
           gpaMin: gpaRange.min,
           gpaMax: gpaRange.max,
+          toeflMin: toeflMin || undefined,
+          greMin: greMin || undefined,
           limit: PAGE_SIZE,
           offset: page * PAGE_SIZE,
         });
@@ -926,7 +940,7 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
       }
     }, delay);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaRange, page, retryKey]);
+  }, [programId, school, year, result, ugCat, ugRegion, ugSchool, major, gpaRange, toeflMin, greMin, page, retryKey]);
 
   function retryLoad() {
     setLoading(true);
@@ -962,8 +976,10 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
     if (gpaRange.valid && (gpaRange.min != null || gpaRange.max != null)) {
       items.push({ key: 'gpa', label: t.gpaRangeLabel, value: formatGpaRange(gpaRange.min, gpaRange.max) });
     }
+    if (toeflMin) items.push({ key: 'toeflMin', label: t.filterToeflMin, value: toeflMin });
+    if (greMin) items.push({ key: 'greMin', label: t.filterGreMin, value: greMin });
     return items;
-  }, [programId, selectedProgram, school, year, result, ugCat, ugRegion, ugSchool, major, gpaRange, t]);
+  }, [programId, selectedProgram, school, year, result, ugCat, ugRegion, ugSchool, major, gpaRange, toeflMin, greMin, t]);
 
   return (
     <div className={styles.wrap}>
@@ -1017,6 +1033,8 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
           error={gpaRange.error}
           t={t}
         />
+        <ScoreMinFilter label={t.filterToeflMin} value={toeflMin} onChange={setToeflMin} max={120} />
+        <ScoreMinFilter label={t.filterGreMin} value={greMin} onChange={setGreMin} max={340} />
       </section>
 
       {!loading && !apiError ? <div className={styles.summary} role="status" aria-live="polite">
@@ -1454,6 +1472,17 @@ function Select({ label, value, onChange, options, allText, formatOption = (opti
           <option key={o} value={o}>{formatOption(o)}</option>
         ))}
       </select>
+    </label>
+  );
+}
+
+function ScoreMinFilter({ label, value, onChange, max }) {
+  return (
+    <label className={styles.gpaRangeWrap}>
+      <span>{label}</span>
+      <div className={styles.gpaRangeInputs} style={{ gridTemplateColumns: '1fr' }}>
+        <input type="number" inputMode="numeric" min="0" max={max} step="1" value={value} onChange={(e) => onChange(e.target.value)} placeholder="≥" />
+      </div>
     </label>
   );
 }
