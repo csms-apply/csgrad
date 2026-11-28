@@ -26,7 +26,7 @@ test('every language serves each document at the same English slug', () => {
     assert.match(program.slug.split('/').pop(), /^[a-z0-9-]+$/);
     assert.ok(Object.values(expected).includes(program.slug), program.slug);
   }
-  for (const locale of ['en', 'zh-Hant', 'ko', 'vi', 'ja']) {
+  for (const locale of ['en', 'zh-Hant', 'ko', 'vi', 'ja', 'es']) {
     assert.deepEqual(slugs(`i18n/${locale}/docusaurus-plugin-content-docs/current`), expected, locale);
   }
   // Tier folders keep their capitals (/A+/ucla-meng); everything else is lowercase.
