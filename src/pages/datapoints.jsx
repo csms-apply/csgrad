@@ -94,7 +94,8 @@ const COPY = {
     pubPstar: '已发表 · 顶会合作者',
     pubS1: '在投 · 顶会一作',
     pubSstar: '在投 · 顶会合作者',
-    pubLegend: 'P=已发表 S=在投 ｜ 1=一作 *=合作者',
+    pubShort: ['已中·一作', '已中·合作', '在投·一作', '在投·合作'],
+    moreFilters: '更多筛选',
     notesTitle: '查看备注详情',
     notesDialog: '备注详情',
     closeDialog: '关闭',
@@ -209,7 +210,8 @@ const COPY = {
     pubPstar: 'Published · top venue, co-author',
     pubS1: 'Under submission · top venue, first author',
     pubSstar: 'Under submission · top venue, co-author',
-    pubLegend: 'P=Published S=Submission | 1=First author *=Co-author',
+    pubShort: ['Published · 1st', 'Published · co', 'Submitted · 1st', 'Submitted · co'],
+    moreFilters: 'More filters',
     notesTitle: 'View notes',
     notesDialog: 'Notes',
     closeDialog: 'Close',
@@ -349,7 +351,8 @@ const COPY = {
     pubPstar: '게재 · 탑 학회, 공저자',
     pubS1: '투고 중 · 탑 학회, 제1저자',
     pubSstar: '투고 중 · 탑 학회, 공저자',
-    pubLegend: 'P=게재 S=투고 중 | 1=제1저자 *=공저자',
+    pubShort: ['게재·1저자', '게재·공저', '투고 중·1저자', '투고 중·공저'],
+    moreFilters: '필터 더보기',
     notesTitle: '메모 보기',
     notesDialog: '메모',
     closeDialog: '닫기',
@@ -489,7 +492,8 @@ const COPY = {
     pubPstar: 'Đã đăng · hội nghị top, đồng tác giả',
     pubS1: 'Đang nộp · hội nghị top, tác giả chính',
     pubSstar: 'Đang nộp · hội nghị top, đồng tác giả',
-    pubLegend: 'P=Đã đăng S=Đang nộp | 1=Tác giả chính *=Đồng tác giả',
+    pubShort: ['Đã đăng · chính', 'Đã đăng · đồng TG', 'Đang nộp · chính', 'Đang nộp · đồng TG'],
+    moreFilters: 'Thêm bộ lọc',
     notesTitle: 'Xem ghi chú',
     notesDialog: 'Ghi chú',
     closeDialog: 'Đóng',
@@ -629,7 +633,8 @@ const COPY = {
     pubPstar: '採択 · トップ会議、共著者',
     pubS1: '投稿中 · トップ会議、筆頭著者',
     pubSstar: '投稿中 · トップ会議、共著者',
-    pubLegend: 'P=採択 S=投稿中 | 1=筆頭著者 *=共著者',
+    pubShort: ['採択·筆頭', '採択·共著', '投稿中·筆頭', '投稿中·共著'],
+    moreFilters: 'その他のフィルター',
     notesTitle: 'メモを見る',
     notesDialog: 'メモ',
     closeDialog: '閉じる',
@@ -872,6 +877,9 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
   const [toeflMin, setToeflMin] = useState(initial.toeflMin || '');
   const [greMin, setGreMin] = useState(initial.greMin || '');
   const gpaRange = useMemo(() => parseGpaRange(gpaMin, gpaMax), [gpaMin, gpaMax]);
+  const moreCount = [ugSchool, major, gpaMin || gpaMax, toeflMin, greMin].filter(Boolean).length;
+  // Start expanded when the URL already carries one of the extra filters.
+  const [moreOpen, setMoreOpen] = useState(moreCount > 0);
 
   // Program list powers the searchable "项目" filter and resolves a programId
   // (e.g. one restored from the URL) back to its school·program label.
@@ -1023,18 +1031,30 @@ function Table({ counts, filterOpts, me, meChecked, t, locale, onRetryMetadata }
         <Select label={t.filterResult} value={result} onChange={setResult} options={RESULT_OPTIONS} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.resultLabels)} />
         <Select label={t.filterUgRegion} value={ugRegion} onChange={setUgRegion} options={UG_REGIONS} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.ugRegionLabels)} />
         <Select label={t.filterUgCat} value={ugCat} onChange={setUgCat} options={filterOpts.ugCats} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.ugCategoryLabels)} />
-        <Select label={t.filterUgSchool} value={ugSchool} onChange={setUgSchool} options={filterOpts.ugSchools || []} allText={t.filterAll} formatOption={(value) => displayUgSchool(value, t.ugSchoolLabels)} />
-        <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.majorLabels)} />
-        <GpaRangeFilter
-          min={gpaMin}
-          max={gpaMax}
-          onMinChange={setGpaMin}
-          onMaxChange={setGpaMax}
-          error={gpaRange.error}
-          t={t}
-        />
-        <ScoreMinFilter label={t.filterToeflMin} value={toeflMin} onChange={setToeflMin} max={120} />
-        <ScoreMinFilter label={t.filterGreMin} value={greMin} onChange={setGreMin} max={340} />
+        <button
+          type="button"
+          className={styles.moreFiltersBtn}
+          aria-expanded={moreOpen}
+          onClick={() => setMoreOpen((v) => !v)}
+        >
+          {t.moreFilters}{moreCount > 0 ? ` (${moreCount})` : ''} <span aria-hidden="true">{moreOpen ? '▴' : '▾'}</span>
+        </button>
+        {moreOpen ? (
+          <>
+            <Select label={t.filterUgSchool} value={ugSchool} onChange={setUgSchool} options={filterOpts.ugSchools || []} allText={t.filterAll} formatOption={(value) => displayUgSchool(value, t.ugSchoolLabels)} />
+            <Select label={t.filterMajor} value={major} onChange={setMajor} options={filterOpts.majors} allText={t.filterAll} formatOption={(value) => displayDataValue(value, t.majorLabels)} />
+            <GpaRangeFilter
+              min={gpaMin}
+              max={gpaMax}
+              onMinChange={setGpaMin}
+              onMaxChange={setGpaMax}
+              error={gpaRange.error}
+              t={t}
+            />
+            <ScoreMinFilter label={t.filterToeflMin} value={toeflMin} onChange={setToeflMin} max={120} />
+            <ScoreMinFilter label={t.filterGreMin} value={greMin} onChange={setGreMin} max={340} />
+          </>
+        ) : null}
       </section>
 
       {!loading && !apiError ? <div className={styles.summary} role="status" aria-live="polite">
@@ -1152,20 +1172,7 @@ function DesktopTable({ rows, t, onRowClick }) {
             <th scope="col">{t.thGpa}</th>
             <th scope="col">{t.thResearch}</th>
             <th scope="col">{t.thInternship}</th>
-            <th scope="col" title={t.pubLegend}>
-              <div>{t.thPub}</div>
-              <div
-                style={{
-                  fontSize: 11,
-                  fontWeight: 400,
-                  color: 'var(--ifm-color-emphasis-600)',
-                  marginTop: 2,
-                  whiteSpace: 'nowrap',
-                }}
-              >
-                {t.pubLegend}
-              </div>
-            </th>
+            <th scope="col">{t.thPub}</th>
             <th scope="col">{t.thNotes}</th>
           </tr>
         </thead>
@@ -1409,16 +1416,6 @@ function MobileCards({ rows, t, onCardClick }) {
           <div style={{ ...row, alignItems: 'flex-start' }}>
             <span style={labelStyle}>
               {t.cardLabelPub}
-              <div
-                style={{
-                  fontSize: 11,
-                  color: 'var(--ifm-color-emphasis-500)',
-                  marginTop: 2,
-                  fontWeight: 400,
-                }}
-              >
-                {t.pubLegend}
-              </div>
             </span>
             <span><PubBadges a={a} t={t} /></span>
           </div>
@@ -1679,10 +1676,10 @@ function CountInlineBadges({ domestic, overseas, t }) {
 
 function PubBadges({ a, t }) {
   const items = [
-    { on: a.pub_top_first_author, label: 'P1', cls: styles.pubFilled, title: t.pubP1 },
-    { on: a.pub_top_other_author, label: 'P*', cls: styles.pubFilledAlt, title: t.pubPstar },
-    { on: a.submission_top_first_author, label: 'S1', cls: styles.pubOutlined, title: t.pubS1 },
-    { on: a.submission_top_other_author, label: 'S*', cls: styles.pubOutlinedAlt, title: t.pubSstar },
+    { on: a.pub_top_first_author, label: t.pubShort[0], cls: styles.pubFilled, title: t.pubP1 },
+    { on: a.pub_top_other_author, label: t.pubShort[1], cls: styles.pubFilledAlt, title: t.pubPstar },
+    { on: a.submission_top_first_author, label: t.pubShort[2], cls: styles.pubOutlined, title: t.pubS1 },
+    { on: a.submission_top_other_author, label: t.pubShort[3], cls: styles.pubOutlinedAlt, title: t.pubSstar },
   ];
   const active = items.filter((x) => x.on);
   if (active.length === 0) return <span className={styles.muted}>—</span>;
