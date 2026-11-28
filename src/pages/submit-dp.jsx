@@ -1617,7 +1617,8 @@ function UgSchoolPicker({ id, label, value, onChange, locale, error }) {
             value={open ? query : show(current)}
             placeholder={c.placeholder}
             onFocus={() => { setQuery(''); setOpen(true); }}
-            onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
+            onClick={() => { if (!open) { setQuery(''); setOpen(true); } }}
+            onChange={(e) => { const v = e.target.value; const shown = show(current); setQuery(!open && shown && v.startsWith(shown) ? v.slice(shown.length) : v); setOpen(true); }}
             onBlur={() => setTimeout(() => setOpen(false), 150)}
             aria-required="true"
             aria-invalid={error ? 'true' : undefined}
