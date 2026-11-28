@@ -589,6 +589,7 @@ const ENUM_DISPLAY = {
     '澳本': { 'zh-Hans': '澳本', en: 'Australia undergrad', ko: '호주 대학', vi: 'Đại học Úc', ja: 'オーストラリアの大学' },
     '港本': { 'zh-Hans': '港本', en: 'HK undergrad', ko: '홍콩 대학', vi: 'Đại học Hồng Kông', ja: '香港の大学' },
     '台本': { 'zh-Hans': '台本（台湾本科）', en: 'Taiwan undergrad', ko: '대만 대학', vi: 'Đại học Đài Loan', ja: '台湾の大学' },
+    '韩本': { 'zh-Hans': '韩本（韩国本科）', en: 'South Korea undergrad', ko: '한국 대학', vi: 'Đại học Hàn Quốc', ja: '韓国の大学' },
     '坡本': { 'zh-Hans': '坡本', en: 'Singapore undergrad', ko: '싱가포르 대학', vi: 'Đại học Singapore', ja: 'シンガポールの大学' },
     '欧陆本': { 'zh-Hans': '欧陆本', en: 'Continental EU undergrad', ko: '유럽 대륙 대학', vi: 'Đại học châu Âu lục địa', ja: 'ヨーロッパ大陸の大学' },
     '海本': { 'zh-Hans': '海本', en: 'Overseas (other)', ko: '해외 대학', vi: 'Đại học nước ngoài', ja: '海外の大学' },
