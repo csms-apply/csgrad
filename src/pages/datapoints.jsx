@@ -68,7 +68,7 @@ const COPY = {
     thResult: '结果',
     thProgram: '项目',
     thYear: '年份',
-    thSubmitted: '网申提交',
+    thSubmitted: '提交时间',
     thUgCategory: '本科档次',
     thUgSchool: '本科',
     thMajor: '专业',
@@ -178,7 +178,7 @@ const COPY = {
     thResult: 'Result',
     thProgram: 'Program',
     thYear: 'Year',
-    thSubmitted: 'Applied',
+    thSubmitted: 'Submitted',
     thUgCategory: 'Undergrad tier',
     thUgSchool: 'Undergrad',
     thMajor: 'Major',
@@ -312,7 +312,7 @@ const COPY = {
     thResult: '결과',
     thProgram: '프로그램',
     thYear: '연도',
-    thSubmitted: '지원일',
+    thSubmitted: '제출일',
     thUgCategory: '학부 등급',
     thUgSchool: '학부',
     thMajor: '전공',
@@ -446,7 +446,7 @@ const COPY = {
     thResult: 'Kết quả',
     thProgram: 'Chương trình',
     thYear: 'Năm',
-    thSubmitted: 'Ngày nộp',
+    thSubmitted: 'Ngày gửi',
     thUgCategory: 'Hạng trường ĐH',
     thUgSchool: 'Trường ĐH',
     thMajor: 'Ngành',
@@ -580,7 +580,7 @@ const COPY = {
     thResult: '結果',
     thProgram: 'プログラム',
     thYear: '年度',
-    thSubmitted: '出願日',
+    thSubmitted: '投稿日',
     thUgCategory: '学部ランク',
     thUgSchool: '学部',
     thMajor: '専攻',
@@ -1142,7 +1142,7 @@ function DesktopTable({ rows, t, onRowClick }) {
                 {d.academic_year || '—'}{d.semester ? ` ${d.semester}` : ''}
               </td>
               <td className={styles.yearCell}>
-                {d.submitted_at ? String(d.submitted_at).slice(0, 10) : <span className={styles.muted}>—</span>}
+                {d.created_at ? String(d.created_at).slice(0, 10) : <span className={styles.muted}>—</span>}
               </td>
               <td>
                 {a.ug_school_category ? (
@@ -1293,7 +1293,7 @@ function ApplicantDpsModal({ applicantId, t, onClose }) {
                   {d.academic_year || '—'}{d.semester ? ` ${d.semester}` : ''}
                 </td>
                 <td style={{ padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-100)', whiteSpace: 'nowrap' }}>
-                  {d.submitted_at ? String(d.submitted_at).slice(0, 10) : '—'}
+                  {d.created_at ? String(d.created_at).slice(0, 10) : '—'}
                 </td>
               </tr>
             ))}
@@ -1330,10 +1330,10 @@ function MobileCards({ rows, t, onCardClick }) {
             <span style={labelStyle}>{t.cardLabelYear}</span>
             <span>{d.academic_year || '—'} {d.semester || ''}</span>
           </div>
-          {d.submitted_at ? (
+          {d.created_at ? (
             <div style={row}>
               <span style={labelStyle}>{t.thSubmitted}</span>
-              <span>{String(d.submitted_at).slice(0, 10)}</span>
+              <span>{String(d.created_at).slice(0, 10)}</span>
             </div>
           ) : null}
           <div style={row}>
