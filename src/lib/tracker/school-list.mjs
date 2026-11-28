@@ -62,6 +62,7 @@ const CELL_WORDS = {
   ko: {'full status ': '정식 입학 ', 'unconditional ': '무조건 충족 ', 'ideal ': '권장 ', 'rec. ': '권장 ', 'subscores required': '영역 점수 필수', 'each ': '각 ', 'others ': '기타 ', 'sub ': '영역 ', '+ subscores': '+ 영역별 점수', None: '없음', 'Not accepted': '불인정'},
   vi: {'full status ': 'nhập học chính thức ', 'unconditional ': 'không điều kiện ', 'ideal ': 'lý tưởng ', 'rec. ': 'khuyến nghị ', 'subscores required': 'bắt buộc điểm thành phần', 'each ': 'mỗi phần ', 'others ': 'còn lại ', 'sub ': 'phần ', '+ subscores': '+ điểm thành phần', None: 'Không', 'Not accepted': 'Không chấp nhận'},
   ja: {'full status ': '正規入学 ', 'unconditional ': '無条件 ', 'ideal ': '理想 ', 'rec. ': '推奨 ', 'subscores required': '技能別スコア必須', 'each ': '各 ', 'others ': 'その他 ', 'sub ': '各技能 ', '+ subscores': '+ 技能別スコア', None: 'なし', 'Not accepted': '不可'},
+  es: {'full status ': 'admisión plena ', 'unconditional ': 'incondicional ', 'ideal ': 'ideal ', 'rec. ': 'rec. ', 'subscores required': 'con puntajes por sección', 'each ': 'c/u ', 'others ': 'resto ', 'sub ': 'secc. ', '+ subscores': '+ puntajes por sección', None: 'Ninguno', 'Not accepted': 'No se acepta'},
 };
 
 export function enCell(s, lang = 'en') {
@@ -72,7 +73,7 @@ export function enCell(s, lang = 'en') {
 
 // Table cells stay short: long section rules collapse to "96*" / "S 23*"; the side peek shows the full text.
 export function shortCell(full, lang) {
-  if (full.length <= (['en', 'ko', 'vi'].includes(lang) ? 12 : 9)) return full;
+  if (full.length <= (['en', 'ko', 'vi', 'es'].includes(lang) ? 12 : 9)) return full;
   const num = /^\d+(?:\.\d+)?/.exec(full);
   return num ? `${num[0]}*` : `${full.split(/\s(?=[^\d\s])|(?<=\d)\s/)[0]}*`;
 }
@@ -250,5 +251,31 @@ export const UI = {
     otherDatesHint: '海外在住の留学生向けではない、特定の出願者に限る、または過去の出願期のものです。', tests: '試験・語学', code: 'コード {c}',
     addMine: '+ 自分のリストに追加', inMine: '✓ 自分のリストに追加済み', count: '件数',
     gre_required: '必須', gre_not_required: '不要', gre_optional: '任意', gre_not_accepted: '受け付けない', gre_recommended: '推奨', gre_waived_for_some: '免除可', gre_unknown: '不明',
+  },
+  es: {
+    title: 'Tracker de solicitudes', pageTitle: 'Tracker de solicitudes: fechas límite y requisitos de inglés para maestrías en CS en Norteamérica',
+    desc: 'Ingreso {cycle} · fechas límite y requisitos de GRE e inglés de {n} maestrías relacionadas con CS en Norteamérica',
+    edited: 'Actualizado el {d}', verified: 'Verificado en sitios oficiales el {d}',
+    tabAll: 'Todos los programas', tabMine: 'Mi lista', tabShared: 'Lista compartida',
+    searchPh: 'Busca universidades o programas…', filter: 'Filtrar', sort: 'Ordenar', search: 'Buscar', close: 'Cerrar', select: 'Seleccionar', selectAll: 'Seleccionar todo en esta lista', selectNone: 'Quitar toda la selección de esta lista', peekAria: 'Detalles del programa', tableAria: 'Tabla del Tracker de solicitudes',
+    colName: 'Programa', colTier: 'Tier', colR1: 'Ronda 1', colR2: 'Ronda 2', colR3: 'Ronda 3', colGre: 'GRE',
+    colToeflOld: 'TOEFL (anterior)', colToeflNew: 'TOEFL (nuevo)', colIelts: 'IELTS', colDuolingo: 'Duolingo', colApply: 'Solicitar',
+    legend: 'Puntaje total, con los mínimos por sección entre paréntesis (S = Speaking, W = Writing, R = Reading, L = Listening). Abre una fila marcada con * para ver la regla completa, si es un mínimo obligatorio o una recomendación, y los códigos de envío de puntajes',
+    halt: 'Sin admisión', daysLeft: 'Faltan {n} d', past: 'vencida', pickAria: 'Agregar {name} a mi lista',
+    emptyShared: 'Este enlace no contiene programas reconocibles', emptyMine: 'Aún no eliges nada. Vuelve a Todos los programas y marca la casilla a la izquierda de cada fila.', emptyNone: 'Ningún programa coincide',
+    sharedBanner: 'Te compartieron una lista de universidades: {n} programas.',
+    allSaved: 'Todo está en mi lista', saveShared: 'Guardar en mi lista', seeAll: 'Ver todos los programas',
+    sumPicked: 'Elegidos', sumTiers: 'Tiers', sumFees: 'Total de cuotas de solicitud', sumFeesMissing: '{n} sin cuota publicada', sumNext: 'Próxima fecha límite', sumNote: 'Nota', sumHalt: '{n} sin admisión este ciclo',
+    share: 'Compartir lista', copyList: 'Copiar lista', clear: 'Vaciar',
+    shareLink: 'Enlace para compartir', copyLink: 'Copiar enlace',
+    shareHint: 'Cualquiera con el enlace ve estos {n} programas sin iniciar sesión y puede guardarlos en su propia lista con un clic.',
+    copied: 'Copiado', selectManual: 'Seleccionado; cópialo manualmente', roundN: 'Ronda {n}', roundDdl: 'Ronda {n}',
+    sortTier: 'Tier, de mayor a menor', sortR1: 'Fecha límite de ronda 1, la más próxima primero', sortNext: 'Próxima fecha límite abierta', sortToefl: 'Requisito de TOEFL, de mayor a menor', sortName: 'Nombre del programa',
+    hideHalt: 'Ocultar programas sin admisión este ciclo', resetFilters: 'Borrar filtros',
+    kindHard: 'mínimo obligatorio', kindSub: 'solo mínimos por sección', kindRec: 'recomendado', kindRange: 'extremo bajo del rango de admitidos', kindNone: 'sin mínimo oficial', kindNo: 'no se acepta', kindNotStated: 'sin publicar',
+    status: 'Estado de admisión', fee: 'Cuota de solicitud', site: 'Sitio del programa', programPage: 'Guía de csgrad', deadlines: 'Fechas límite', otherDates: 'Otras fechas',
+    otherDatesHint: 'No aplican a solicitantes internacionales en el extranjero, son solo para ciertos solicitantes o corresponden a un ciclo anterior.', tests: 'Exámenes e inglés', code: 'Código {c}',
+    addMine: '+ Agregar a mi lista', inMine: '✓ En mi lista', count: 'Cantidad',
+    gre_required: 'obligatorio', gre_not_required: 'no requerido', gre_optional: 'opcional', gre_not_accepted: 'no se acepta', gre_recommended: 'recomendado', gre_waived_for_some: 'exentable', gre_unknown: 'desconocido',
   },
 };

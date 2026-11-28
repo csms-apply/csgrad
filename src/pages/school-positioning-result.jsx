@@ -284,16 +284,69 @@ const COPY = {
     errorText: '注文状況を取得できませんでした。接続を確認して再試行するか、後で元のリンクを開き直してください。このページでは決済の成否を確認できないため、このエラーを理由に再度支払わないでください。',
     retry: '再試行',
   },
+  es: {
+    pageTitle: 'Resultado del posicionamiento',
+    pageDesc: 'Tu resultado de posicionamiento: lista completa de universidades MSCS y plan según tu tier',
+    backHome: 'Volver al inicio',
+    backForm: 'Volver al formulario',
+    downloadPdf: 'Descargar PDF',
+    downloadingPdf: 'Generando PDF…',
+    pdfError: 'No se pudo generar el PDF. Inténtalo de nuevo. El informe completo sigue disponible en esta página.',
+    reportTitle: 'Informe de posicionamiento MSCS de CS Grad',
+    reportFooter: 'Generado por csgrad.com · Solo como referencia',
+    tierLabel: 'Tu tier',
+    phdSectionTitle: 'Recomendaciones para la ruta al PhD',
+    phdSectionSub: 'Programas favorables para el PhD',
+    codingSectionTitle: 'Recomendaciones para la transición a programación',
+    codingSectionSub: 'Programas favorables para la transición',
+    fitTitle: 'Cómo se relaciona con tu perfil',
+    fitAligned: 'Línea afín', fitAdjacent: 'Línea relacionada', fitUnverified: 'Línea por verificar',
+    checkMet: 'Evidencia disponible', checkVerify: 'Verificar',
+    checklistTitle: 'Preparación y verificaciones de la solicitud', checklistHigh: 'Revisa primero',
+    adviceTitle: '🎯 Consejos personalizados para ti',
+    emailNoticeTitle: '📬 Te enviamos el informe completo por correo',
+    emailNoticeBody: 'Tu plan completo de universidades y los consejos personalizados van en camino al correo que usaste al pagar. Revisa tu bandeja de entrada en unos minutos (y la carpeta de spam si no lo ves). Todo lo que ves en esta página también está en el correo.',
+    consultLead: '💬 ¿Quieres asesoría 1 a 1 para tu solicitud a MSCS?',
+    consultBio: 'Soy el autor de csgrad (GPA de pregrado de 3.94; pasantías en Microsoft / ByteDance / Baidu / HP; admitido en CMU, Georgia Tech, UCSD, Columbia y UIUC en el ciclo de otoño de 2024; actualmente SDE en Meta).',
+    consultBody: 'Asesoría 1 a 1 de principio a fin para tu solicitud a MSCS: lista de universidades, todos los documentos (SoP / CV / PS / cartas de recomendación), seguimiento de las solicitudes en línea, estrategia de recomendadores, entrevistas simuladas (CMU MSIN, Columbia MSCS, etc.), referidos para pasantías / puestos de SDE en China continental, y comparación y negociación de ofertas. Todo lo hago yo personalmente: sin subcontratar y sin ensayos de plantilla. Te acompaño hasta que tengas una oferta en mano.',
+    consultCta: 'Agrégame en WeChat:',
+    consultHandle: 'capsfly',
+    consultCopied: 'ID de WeChat copiado',
+    consultCopyFailed: 'No se pudo copiar; copia manualmente el ID de WeChat que se muestra',
+    consultPerk: '🎁 Lo que pagaste por este informe se descuenta por completo de tu paquete de asesoría.',
+    bucketReach: 'Ambiciosas',
+    bucketReachSub: 'Reach',
+    bucketMatch: 'Acordes',
+    bucketMatchSub: 'Match',
+    bucketSafety: 'Alternativas',
+    bucketSafetySub: 'Alternatives',
+    riskTitle: 'Riesgo de la solicitud',
+    riskFallback: 'Estos grupos no están calibrados con el riesgo de admisión y no son probabilidades personales de admisión. Los programas acordes y alternativos no garantizan la admisión.',
+    reviewedTitle: 'Candidatos acordes adicionales',
+    reviewedSub: 'Para seguir evaluando',
+    reviewedDescription: 'Estos programas pasaron del grupo de alternativas al de candidatos acordes y se suman a la lista principal de este informe. Revisa sus cursos, su enfoque y el costo de la solicitud antes de elegir.',
+    emptyBucket: 'No hay recomendaciones en este grupo',
+    viewDetail: 'Ver más',
+    pendingTitle: 'Verificando el estado del pedido',
+    pendingText: 'Estamos consultando el estado de tu pedido y de tu informe. Espera un momento…',
+    missingTitle: 'Falta el session id',
+    missingText: 'Abre esta página desde el enlace de redirección que aparece después del pago.',
+    timeoutTitle: 'La verificación tardó demasiado',
+    timeoutText: 'El pedido aún no se confirma; puede que siga en proceso. Vuelve a abrir este enlace en un momento.',
+    errorTitle: 'No se pudo cargar',
+    errorText: 'No pudimos consultar el estado de tu pedido. Revisa tu conexión y reintenta, o vuelve a abrir el enlace original más tarde. Esta página no puede confirmar si el pago se completó; no vuelvas a pagar por este error.',
+    retry: 'Reintentar',
+  },
 };
 
 function pickLocale(loc) {
-  return ['en', 'zh-Hant', 'ko', 'vi', 'ja'].includes(loc) ? loc : 'zh-Hans';
+  return ['en', 'zh-Hant', 'ko', 'vi', 'ja', 'es'].includes(loc) ? loc : 'zh-Hans';
 }
 
 function getLabel(node, locale) {
   if (!node) return '';
   if (typeof node === 'string') return localizeMessages(node, locale);
-  return localizeMessages(node[locale] || (['ko', 'vi', 'ja'].includes(locale) ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
+  return localizeMessages(node[locale] || (['ko', 'vi', 'ja', 'es'].includes(locale) ? node.en : '') || node['zh-Hans'] || node.en || '', locale);
 }
 
 export function ProgramFit({ fit, locale }) {
@@ -325,7 +378,7 @@ export function ReportChecklist({ items, locale }) {
 }
 
 // Reports name programs by doc file, /A/uiuc mcs; the page lives at /A/uiuc-mcs.
-const TIER_DOC = /^((?:\/(?:en|zh-Hant|ko|vi|ja))?\/(?:SSS|SS|S|A\+|A|A-|B\+|B|B-|C\+)\/)([^/?#]+)/;
+const TIER_DOC = /^((?:\/(?:en|zh-Hant|ko|vi|ja|es))?\/(?:SSS|SS|S|A\+|A|A-|B\+|B|B-|C\+)\/)([^/?#]+)/;
 const kebab = (name) => {
   let decoded = name;
   try { decoded = decodeURIComponent(name); } catch { /* keep malformed names as typed */ }

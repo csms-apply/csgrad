@@ -230,3 +230,14 @@ for (const outcome of ['api', 'snapshot', 'unavailable']) {
     assert.equal(counts.datapoints, outcome === 'api' ? 25 : outcome === 'snapshot' ? 20 : null);
   });
 }
+
+test('es copy has the same keys as ja on every page dictionary', () => {
+  const shape = (v) => (Array.isArray(v) ? v.map(shape)
+    : v && typeof v === 'object' ? Object.fromEntries(Object.keys(v).sort().map((k) => [k, shape(v[k])])) : typeof v);
+  for (const page of ['datapoints', 'my-dp', 'submit-dp', 'school-positioning', 'school-positioning-result']) {
+    const {COPY} = pageHarness(page, ['COPY'], {imports: authImports}).exports;
+    assert.deepEqual(shape(COPY.es), shape(COPY.ja), page);
+  }
+  const {ENUM_DISPLAY} = pageHarness('submit-dp', ['ENUM_DISPLAY'], {imports: authImports}).exports;
+  for (const group of Object.values(ENUM_DISPLAY)) for (const [value, entry] of Object.entries(group)) assert.ok(entry.es, value);
+});
