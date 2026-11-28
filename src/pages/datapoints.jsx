@@ -9,6 +9,7 @@ import { useHistory } from '@docusaurus/router';
 import { getMe, listDp, getFilterOptions, getCounts, listPrograms } from '@site/src/lib/dp/api';
 import { formatGpaRange, parseGpaRange } from '@site/src/lib/dp/gpa-filter.mjs';
 import { searchPrograms } from '@site/src/lib/dp/program-search.mjs';
+import { ugSchoolLabelsFor, displayUgSchool } from '@site/src/lib/dp/ug-school-names.mjs';
 import { localizedInternalPath } from '@site/src/lib/seo/localizedAlternates.mjs';
 import SignInButtons from '@site/src/lib/auth/SignInButtons';
 import { startOAuth } from '@site/src/lib/auth/oauth';
@@ -67,6 +68,7 @@ const COPY = {
     thResult: '结果',
     thProgram: '项目',
     thYear: '年份',
+    thSubmitted: '网申提交',
     thUgCategory: '本科档次',
     thUgSchool: '本科',
     thMajor: '专业',
@@ -176,6 +178,7 @@ const COPY = {
     thResult: 'Result',
     thProgram: 'Program',
     thYear: 'Year',
+    thSubmitted: 'Applied',
     thUgCategory: 'Undergrad tier',
     thUgSchool: 'Undergrad',
     thMajor: 'Major',
@@ -309,6 +312,7 @@ const COPY = {
     thResult: '결과',
     thProgram: '프로그램',
     thYear: '연도',
+    thSubmitted: '지원일',
     thUgCategory: '학부 등급',
     thUgSchool: '학부',
     thMajor: '전공',
@@ -442,6 +446,7 @@ const COPY = {
     thResult: 'Kết quả',
     thProgram: 'Chương trình',
     thYear: 'Năm',
+    thSubmitted: 'Ngày nộp',
     thUgCategory: 'Hạng trường ĐH',
     thUgSchool: 'Trường ĐH',
     thMajor: 'Ngành',
@@ -575,6 +580,7 @@ const COPY = {
     thResult: '結果',
     thProgram: 'プログラム',
     thYear: '年度',
+    thSubmitted: '出願日',
     thUgCategory: '学部ランク',
     thUgSchool: '学部',
     thMajor: '専攻',
@@ -1093,6 +1099,7 @@ function DesktopTable({ rows, t, onRowClick }) {
             <th scope="col">{t.thResult}</th>
             <th scope="col">{t.thProgram}</th>
             <th scope="col">{t.thYear}</th>
+            <th scope="col">{t.thSubmitted}</th>
             <th scope="col">{t.thUgCategory}</th>
             <th scope="col">{t.thUgSchool}</th>
             <th scope="col">{t.thMajor}</th>
@@ -1134,6 +1141,9 @@ function DesktopTable({ rows, t, onRowClick }) {
               <td className={styles.yearCell}>
                 {d.academic_year || '—'}{d.semester ? ` ${d.semester}` : ''}
               </td>
+              <td className={styles.yearCell}>
+                {d.submitted_at ? String(d.submitted_at).slice(0, 10) : <span className={styles.muted}>—</span>}
+              </td>
               <td>
                 {a.ug_school_category ? (
                   <span className={`${styles.ugCatBadge} ${ugCatBadgeClass(a.ug_school_category)}`}>
@@ -1142,7 +1152,7 @@ function DesktopTable({ rows, t, onRowClick }) {
                 ) : <span className={styles.muted}>—</span>}
               </td>
               <td>
-                <span className={styles.ugName}>{a.ug_school_name || <span className={styles.muted}>—</span>}</span>
+                <span className={styles.ugName}>{displayUgSchool(a.ug_school_name, t.ugSchoolLabels) || <span className={styles.muted}>—</span>}</span>
               </td>
               <td>
                 {a.ug_major ? <span className={styles.majorTag}>{displayDataValue(a.ug_major, t.majorLabels)}</span> : <span className={styles.muted}>—</span>}
@@ -1255,7 +1265,7 @@ function ApplicantDpsModal({ applicantId, t, onClose }) {
           {applicant ? (
             <>
               {applicant.ug_school_category ? `${displayDataValue(applicant.ug_school_category, t.ugCategoryLabels)} · ` : ''}
-              {applicant.ug_school_name || ''}
+              {displayUgSchool(applicant.ug_school_name, t.ugSchoolLabels) || ''}
               {applicant.ug_major ? ` · ${displayDataValue(applicant.ug_major, t.majorLabels)}` : ''}
               {applicant.gpa != null ? ` · GPA ${applicant.gpa}` : ''}
             </>
@@ -1267,6 +1277,7 @@ function ApplicantDpsModal({ applicantId, t, onClose }) {
               <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-200)' }}>{t.thProgram}</th>
               <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-200)' }}>{t.thResult}</th>
               <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-200)' }}>{t.thYear}</th>
+              <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-200)' }}>{t.thSubmitted}</th>
             </tr>
           </thead>
           <tbody>
@@ -1280,6 +1291,9 @@ function ApplicantDpsModal({ applicantId, t, onClose }) {
                 </td>
                 <td style={{ padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
                   {d.academic_year || '—'}{d.semester ? ` ${d.semester}` : ''}
+                </td>
+                <td style={{ padding: '6px 8px', borderBottom: '1px solid var(--ifm-color-emphasis-100)', whiteSpace: 'nowrap' }}>
+                  {d.submitted_at ? String(d.submitted_at).slice(0, 10) : '—'}
                 </td>
               </tr>
             ))}
@@ -1316,6 +1330,12 @@ function MobileCards({ rows, t, onCardClick }) {
             <span style={labelStyle}>{t.cardLabelYear}</span>
             <span>{d.academic_year || '—'} {d.semester || ''}</span>
           </div>
+          {d.submitted_at ? (
+            <div style={row}>
+              <span style={labelStyle}>{t.thSubmitted}</span>
+              <span>{String(d.submitted_at).slice(0, 10)}</span>
+            </div>
+          ) : null}
           <div style={row}>
             <span style={labelStyle}>{t.cardLabelUg}</span>
             <span style={{ textAlign: 'right' }}>
@@ -1324,7 +1344,7 @@ function MobileCards({ rows, t, onCardClick }) {
                   {displayDataValue(a.ug_school_category, t.ugCategoryLabels)}
                 </span>
               ) : null}
-              {a.ug_school_name || ''}
+              {displayUgSchool(a.ug_school_name, t.ugSchoolLabels) || ''}
               {a.ug_major ? <div className={styles.majorTag}>{displayDataValue(a.ug_major, t.majorLabels)}</div> : null}
             </span>
           </div>
@@ -1745,7 +1765,7 @@ function NotesCell({ d, a, t }) {
 export default function DataPointsPage() {
   const { i18n } = useDocusaurusContext();
   const locale = pickLocale(i18n.currentLocale);
-  const t = getLocaleMessages(COPY, locale);
+  const t = { ...getLocaleMessages(COPY, locale), ugSchoolLabels: ugSchoolLabelsFor(locale) };
   return (
     <Layout title={t.pageTitle} description={t.pageDesc}>
       <Head>
