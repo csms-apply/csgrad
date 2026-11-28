@@ -40,6 +40,8 @@ function warnDev(...args) {
  * @param {string} [opts.major]
  * @param {number} [opts.gpaMin]
  * @param {number} [opts.gpaMax]
+ * @param {number} [opts.toeflMin] minimum TOEFL total
+ * @param {number} [opts.greMin] minimum GRE total
  * @param {string} [opts.q]
  * @param {number} [opts.limit=50]
  * @param {number} [opts.offset=0]
