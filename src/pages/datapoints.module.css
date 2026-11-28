@@ -35,6 +35,19 @@
   margin-bottom: 12px;
 }
 
+.moreFiltersBtn {
+  padding: 6px 10px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 13px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+}
+.moreFiltersBtn:hover { border-color: var(--ifm-color-primary); }
+
 .selectWrap {
   display: flex;
   flex-direction: column;
@@ -273,16 +286,15 @@
 .countDomestic { background: var(--dp-count-domestic-bg); color: var(--dp-count-domestic-fg); }
 .countOverseas { background: var(--dp-count-overseas-bg); color: var(--dp-count-overseas-fg); }
 
-.pubCell { white-space: nowrap; }
-.pubBadges { display: inline-flex; gap: 3px; }
+.pubCell { min-width: 84px; }
+.pubBadges { display: inline-flex; flex-wrap: wrap; gap: 3px; }
 .pubBadge {
   display: inline-block;
   padding: 2px 6px;
   border-radius: 4px;
   font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-weight: 600;
+  white-space: nowrap;
 }
 .pubFilled       { background: var(--dp-pub-filled-bg); color: var(--dp-pub-filled-fg); }
 .pubFilledAlt    { background: var(--dp-pub-filled-alt-bg); color: var(--dp-pub-filled-alt-fg); }
